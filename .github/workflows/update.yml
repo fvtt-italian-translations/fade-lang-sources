@@ -1,0 +1,81 @@
+name: Main
+
+on: workflow_dispatch
+
+env:
+  REMOTE_REPO: Forelius/fade-compendiums
+  REMOTE_REPO_BRANCH: main
+  PACKS_DIR: upstream/packs
+  PACKS_EXTRACT_DIR: main/tmppacks
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+          run_install: false
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Get pnpm Store Directory
+        id: pnpm-cache
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Cache pnpm Deps
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: pnpm-store-${{ hashFiles('main/pnpm-lock.yaml') }}
+          restore-keys: |
+            pnpm-store-
+
+      - name: Install pnpm Deps
+        working-directory: ./main
+        run: pnpm install
+
+      - name: Compendiums - Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.REMOTE_REPO }}
+          ref: ${{ env.REMOTE_REPO_BRANCH }}
+          path: upstream
+
+      - name: Compendiums - Cache Packs
+        id: cache-packs
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.PACKS_EXTRACT_DIR }}
+          key: packs-${{ hashFiles(format('{0}/**/*'), env.PACKS_DIR) }}
+
+      - name: Compendiums - Extract
+        if: ${{ steps.cache-packs.outputs.cache-hit != 'true' }}
+        working-directory: ./main
+        run: |
+          pnpm run exec extract ../${{ env.PACKS_DIR }} ../${{ env.PACKS_EXTRACT_DIR }}
+
+      - name: Build
+        working-directory: ./main
+        run: pnpm run exec update ${{ env.PACKS_EXTRACT_DIR }}
+
+      - name: Get Commit Hash
+        working-directory: ./upstream
+        run: echo "UPSTREAM_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      - name: Update Repo
+        working-directory: ./main
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git diff --quiet HEAD || git commit -am "Updated to ${{ env.REMOTE_REPO }}@${{ env.UPSTREAM_HASH }}"
+          git push
