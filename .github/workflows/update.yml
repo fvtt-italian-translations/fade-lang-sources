@@ -66,7 +66,7 @@ jobs:
 
       - name: Build
         working-directory: ./main
-        run: pnpm run exec update ${{ env.PACKS_EXTRACT_DIR }}
+        run: pnpm run exec update ../${{ env.PACKS_DIR }} ../${{ env.PACKS_EXTRACT_DIR }}
 
       - name: Get Commit Hash
         working-directory: ./upstream
