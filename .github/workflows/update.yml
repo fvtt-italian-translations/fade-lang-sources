@@ -12,6 +12,9 @@ jobs:
   main:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Setup Node
         uses: actions/setup-node@v4
