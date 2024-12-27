@@ -59,9 +59,48 @@
                 "uFYQ6bS7GFxnBjeT": {
                     "description": "<p>Il Servo Fluttuante può essere danneggiato solo da incantesimi o armi magiche, rendendolo quasi impenetrabile dalla maggior parte degli attacchi fisici.</p>",
                     "name": "Resistenza Magica"
+                },
+                "yNi4nsW0MNjZIWBb": {
+                    "description": "<p>Il Servo Fluttuante può volare a velocità incredibili, muovendosi a una velocità di 216 m (72 m) per round. Questa abilità gli consente di attraversare rapidamente il campo di battaglia o di sfuggire al pericolo.</p>",
+                    "name": "Volare"
                 }
             },
-            "biography": "<p>I Servi Fluttuanti, conosciuti anche come haoou, sono figure umanoidi composte da nebbia torbida e hanno una presenza minacciosa. Sono originari del piano elementale dell'Aria e si trovano sul Primo Piano solo quando evocati da un chierico utilizzando l'incantesimo Servo Fluttuante.</p>\n      <p>Questi esseri non gradiscono essere convocati per il servizio e sono risentiti verso coloro che li portano sul Primo Piano. Nonostante ciò, non interpretano intenzionalmente i comandi in modo errato. Sono esseri potenti che non combattono ma sono eccezionalmente abili nel catturare e recuperare oggetti o creature come ordinato dai loro evocatori.</p>\n      <p>Solo le armi magiche o gli incantesimi possono ferirli e possono viaggiare a velocità incredibili, spesso sorprendendo i loro bersagli. È quasi impossibile sfuggire alla loro presa, con la possibilità della vittima di liberarsi pari ai suoi Dadi Vita o alla percentuale del livello.</p>\n      <p>Sul loro piano natale, gli haoou hanno un impero in regioni con pochi altri abitanti, dove spesso si scontrano con helion e djinn. Temono le creature e gli attacchi legati all'elemento terra.</p>\n      <p><strong>Terreno:</strong> Piano dell'Aria; Qualsiasi.</p>\n      <p><strong>Capacità di carico:</strong> 5.000 mon a velocità massima; 10.000 mon a metà velocità durante il trasporto di oggetti o prigionieri.</p>"
+            "biography": "<p>I Servi Fluttuanti, conosciuti anche come haoou, sono figure umanoidi composte da nebbia torbida e hanno una presenza minacciosa. Sono originari del piano elementale dell'Aria e si trovano sul Primo Piano solo quando evocati da un chierico utilizzando l'incantesimo Servo Fluttuante.</p>\n      <p>Questi esseri non gradiscono essere convocati per il servizio e sono risentiti verso coloro che li portano sul Primo Piano. Nonostante ciò, non interpretano intenzionalmente i comandi in modo errato. Sono esseri potenti che non combattono ma sono eccezionalmente abili nel catturare e recuperare oggetti o creature come ordinato dai loro evocatori.</p>\n      <p>Solo le armi magiche o gli incantesimi possono ferirli e possono viaggiare a velocità incredibili, spesso sorprendendo i loro bersagli. È quasi impossibile sfuggire alla loro presa, con la possibilità della vittima di liberarsi pari ai suoi Dadi Vita o alla percentuale del livello.</p>\n      <p>Sul loro piano natale, gli haoou hanno un impero in regioni con pochi altri abitanti, dove spesso si scontrano con helion e djinn. Temono le creature e gli attacchi legati all'elemento terra.</p>\n      <p><strong>Terreno:</strong> Piano dell'Aria; Qualsiasi.</p>\n      <p><strong>Capacità di carico:</strong> 5.000 mon a velocità massima; 10.000 mon a metà velocità durante il trasporto di oggetti o prigionieri.</p>",
+            "name": "Servo Fluttuante (Haoou)"
+        },
+        "Animal Herd (1 HD)": {
+            "biography": "<p>Questa serie di statistiche dei mostri rappresenta la maggior parte delle creature selvatiche da pascolo, come caribù, cervi, alci, capre, alci e buoi selvatici. In tutti i climi del mondo, tranne quelli più inospitali, è presente almeno un tipo di bestia da branco. I PG possono prendere di mira i membri di una mandria per ottenere carne. I Dadi Vita e i danni inflitti da queste creature variano a seconda della loro specie. Di seguito sono riportate alcune creature tipiche della mandria:</p><p>In una mandria tipica, solo un animale su quattro è maschio; gli altri sono femmine e giovani. I maschi hanno almeno 3 punti ferita per ogni dado vita, mentre le femmine hanno un numero standard di punti ferita. I giovani hanno solo 1-4 punti ferita per dado vita. Se il branco è minacciato, le femmine e i piccoli si ritirano, mentre i maschi restano a difenderli.</p><p>Se un gruppo di 16 o più creature viene attaccato, c'è il 40% di possibilità che si faccia prendere dal panico e si precipiti verso la fonte del pericolo, calpestando tutto ciò che trova sul suo cammino per 1d20 punti di danno. Questa azione non richiede alcun tiro per attaccare.</p><p>Queste creature si trovano tipicamente in aree aperte e regioni leggermente boscose.</p>",
+            "items": {
+                "0EEBDbc4AjEaNCUn": {
+                    "description": "La spessa pelle dell'animale fornisce una protezione di base.",
+                    "name": "Pelle spessa"
+                },
+                "RkmnWtqd7EO1ijOJ": {
+                    "description": "<p>Se il branco si fa prendere dal panico, calpesta qualsiasi cosa si trovi sulla sua strada, causando 1d20 punti di danni.</p>",
+                    "name": "Calpestio"
+                },
+                "bZEaQ5dhKVScqzPx": {
+                    "description": "<p>Se una mandria di 16 o più persone viene attaccata, c'è il 40% di possibilità che si faccia prendere dal panico e calpesti tutto ciò che incontra sul suo cammino per 1d20 punti di danno.</p>",
+                    "name": "Panico"
+                },
+                "hVgaur0tXowXWhFJ": {
+                    "description": "<p>In caso di allarme, le femmine e i piccoli fuggono mentre i maschi difendono il branco. I maschi hanno almeno 3 PF per ogni dado vita .</p>",
+                    "name": "Protezione Maschi"
+                },
+                "xSKxJGf70eFyTFwD": {
+                    "description": "L'animale attacca con un colpo di reni, un morso o un calcio, a seconda della specie.",
+                    "name": "Naturale"
+                }
+            },
+            "name": "Mandria (1 DV)"
+        },
+        "Animal Herd (2 HD)": {
+            "biography": "<p>Questa serie di statistiche dei mostri rappresenta la maggior parte delle creature selvatiche da pascolo, come caribù, cervi, alci, capre, alci e buoi selvatici. In tutti i climi del mondo, tranne quelli più inospitali, è presente almeno un tipo di bestia da branco. I PC possono prendere di mira i membri di una mandria per ottenere carne. I Dadi Ferita e i danni inflitti da queste creature variano a seconda della loro specie. Di seguito sono riportate alcune creature tipiche della mandria:</p><p>In una mandria tipica, solo un animale su quattro è maschio; gli altri sono femmine e giovani. I maschi hanno almeno 3 punti ferita per ogni dado vita, mentre le femmine hanno un numero standard di punti ferita. I giovani hanno solo 1-4 punti ferita per dado vita. Se il branco è minacciato, le femmine e i piccoli si ritirano, mentre i maschi restano a difenderli.</p><p>Se un gruppo di 16 o più creature viene attaccato, c'è il 40% di possibilità che si faccia prendere dal panico e si precipiti verso la fonte del pericolo, calpestando tutto ciò che trova sul suo cammino per 1d20 punti di danno. Questa azione non richiede alcun tiro per attaccare.</p><p>Queste creature si trovano tipicamente in aree aperte e regioni leggermente boscose.</p>",
+            "items": {
+                "CXVVO15BjYoBIFOZ": {
+                    "description": "<p>In caso di allarme, le femmine e i piccoli fuggono mentre i maschi difendono il branco. I maschi hanno almeno 3 PF per ogni dado vita.</p>"
+                }
+            }
         }
     }
 }
