@@ -98,9 +98,637 @@
             "biography": "<p>Questa serie di statistiche dei mostri rappresenta la maggior parte delle creature selvatiche da pascolo, come caribù, cervi, alci, capre, alci e buoi selvatici. In tutti i climi del mondo, tranne quelli più inospitali, è presente almeno un tipo di bestia da branco. I PC possono prendere di mira i membri di una mandria per ottenere carne. I Dadi Ferita e i danni inflitti da queste creature variano a seconda della loro specie. Di seguito sono riportate alcune creature tipiche della mandria:</p><p>In una mandria tipica, solo un animale su quattro è maschio; gli altri sono femmine e giovani. I maschi hanno almeno 3 punti ferita per ogni dado vita, mentre le femmine hanno un numero standard di punti ferita. I giovani hanno solo 1-4 punti ferita per dado vita. Se il branco è minacciato, le femmine e i piccoli si ritirano, mentre i maschi restano a difenderli.</p><p>Se un gruppo di 16 o più creature viene attaccato, c'è il 40% di possibilità che si faccia prendere dal panico e si precipiti verso la fonte del pericolo, calpestando tutto ciò che trova sul suo cammino per 1d20 punti di danno. Questa azione non richiede alcun tiro per attaccare.</p><p>Queste creature si trovano tipicamente in aree aperte e regioni leggermente boscose.</p>",
             "items": {
                 "CXVVO15BjYoBIFOZ": {
-                    "description": "<p>In caso di allarme, le femmine e i piccoli fuggono mentre i maschi difendono il branco. I maschi hanno almeno 3 PF per ogni dado vita.</p>"
+                    "description": "<p>In caso di allarme, le femmine e i piccoli fuggono mentre i maschi difendono il branco. I maschi hanno almeno 3 PF per ogni dado vita.</p>",
+                    "name": "Maschio Protettore"
+                },
+                "GlWoyEQkzO2y15HD": {
+                    "description": "L'animale attacca usando un potente calcio o un morso.",
+                    "name": "Naturale"
+                },
+                "JWxHDe9AXAfJDebN": {
+                    "description": "La spessa pelle dell'animale fornisce una protezione di base.",
+                    "name": "Pelle Spessa"
+                },
+                "XaKIQVsgcEXJtryd": {
+                    "description": "<p>Se una mandria di 16 o più membri viene attaccato, c'è una probabilità del 40% che vadano nel panico e calpestino qualsiasi cosa sul loro cammino per 1d20 punti danno.</p>",
+                    "name": "Panico"
+                },
+                "hvRQ7GMTZIiVvbRU": {
+                    "description": "<p>Se la mandria va nel panico, calpesta qualsiasi cosa si trovi sulla sua strada, causando 1d20 danni.</p>",
+                    "name": "Travolgere"
                 }
-            }
+            },
+            "name": "Mandria (2 DV)"
+        },
+        "Animal Herd (3 HD)": {
+            "biography": "<p>Questa serie di statistiche sui mostri rappresenta la maggior parte delle creature selvatiche al pascolo, come caribù, cervi, alci, capre, alci e buoi selvatici. Tutti i climi del mondo, tranne quelli più inospitali, presenteranno almeno un tipo di animale da mandria. I PG potrebbero prendere di mira i membri di una mandria per ottenere carne. I Dadi Vita e i danni inflitti da queste creature variano a seconda della specie. Di seguito sono elencate alcune tipiche creature della mandria:</p><p>In una tipica mandria, solo un animale su quattro è maschio; gli altri sono femmine e giovani. I maschi hanno almeno 3 punti ferita per Dado Vita, mentre le femmine hanno il numero standard di punti ferita. I giovani hanno solo 1-4 punti ferita per Dado Vita. Se la mandria è minacciata, le femmine e i piccoli si ritireranno, mentre i maschi restano a difenderli.</p><p>Se un gruppo di 16 o più membri della mandria viene attaccato, c'è una probabilità del 40% che vadano nel panico e si diano alla fuga verso la fonte del pericolo, calpestando qualsiasi cosa sul loro cammino per 1d20 danni. Questa azione non richiede un tiro per colpire.</p><p>Queste creature si trovano generalmente in aree aperte e regioni leggermente boscose.</p>",
+            "items": {
+                "InS69b79RY7xtdtj": {
+                    "description": "<p>Quando allarmati, le femmine e i piccoli fuggono mentre i maschi difendono la mandria. I maschi hanno almeno 3 PF per dado vita.</p>",
+                    "name": "Maschio Protettore"
+                },
+                "Om1uyivDH1La6zms": {
+                    "description": "La mandria attacca usa i suoi potenti zoccoli o le corna, sferrando 1d6 colpi.",
+                    "name": "Naturale"
+                },
+                "dQKfqtSz964Zw52e": {
+                    "description": "<p>Se una mandria di 16 o più mebri viene attaccato, c'è una probabilità del 40% che vadano nel panico e calpestino qualsiasi cosa sul loro cammino per 1d20 punti danno.</p>",
+                    "name": "Panico"
+                },
+                "pab6dtppPgrsSwj7": {
+                    "description": "La spessa pelle dell'animale fornisce una protezione di base.",
+                    "name": "Pelle Spessa"
+                },
+                "vhd6yEVO3p5YkpEj": {
+                    "description": "<p>Se la mandria va nel panico, calpesta qualsiasi cosa si trovi sulla sua strada, causando 1d20 danni.</p>",
+                    "name": "Travolgere"
+                }
+            },
+            "name": "Mandria (3 DV)"
+        },
+        "Athach": {
+            "biography": "<p>Gli Athach sono giganteschi mostri umanoidi, alti 5 metri e mezzo con un corpo malformato e un aspetto orribile. La loro caratteristica più distintiva è un terzo braccio situato al centro del petto, che usano per attaccare i nemici.</p>\n      <p>Queste creature sono estremamente aggressive e poco intelligenti e spesso attaccano tutto ciò che percepiscono come cibo. Abitano zone collinari, montuose o boscose, vivendo in piccoli nuclei familiari. Quando non cacciano, combattono tra loro.</p>\n      <p>In combattimento colpiscono gli avversari con oggetti pesanti come ceppi o pietre e il loro morso trasporta un potente veleno. Le vittime del morso devono effettuare un tiro salvezza contro veleno con una penalità di -4 o essere rese indifese per 1d6 turni. Sebbene siano aggressivi, gli athach hanno un debole per le gemme e i gioielli e potrebbero accettare tangenti per evitare conflitti.</p>\n      <p><strong>Terreno:</strong> collina, montagna, bosco.</p>",
+            "items": {
+                "CFgHyxQTSAEOWLCj": {
+                    "description": "L'Athach attacca colpendo i suoi avversari con oggetti pesanti come ceppi di alberi o pietre.",
+                    "name": "Attacco Violento"
+                },
+                "bEOEc4qlbWQMgRJG": {
+                    "description": "La pelle spessa e resistente dell'athach fornisce una protezione Classe Armatura 0.",
+                    "name": "Pelle Spessa"
+                },
+                "nHsJasjeZ1A59ZNV": {
+                    "description": "L'athach morde con i suoi denti velenosi simili a zanne, infliggendo 2d10 danni. La vittima deve effettuare un tiro salvezza contro veleno con una penalità di -4 o rimanere esanime per 1d6 turni.",
+                    "name": "Morso Velenoso"
+                }
+            },
+            "name": "Athach"
+        },
+        "Ant, Giant": {
+            "biography": "<p>Le formiche giganti sono grandi formiche nere, lunghe circa 2 metri. A differenza delle loro cugine più piccole che vivono in colonie di migliaia, le formiche giganti vivono in colonie di circa 14d6 individui, 10d6 dei quali saranno fuori a raccogliere cibo in qualsiasi momento e i restanti 4d6 saranno a guardia del nido.</p><p> Il morale delle formiche giganti che stanno cercando cibo è 7, ma quando difendono il nido e la regina (non combattente), il loro morale è 12 e combatteranno fino alla morte senza alcun istinto di autoconservazione.</p><p>Le formiche giganti sono onnivore notturne, anche se normalmente non attaccano le prede vive a meno che non siano molto più numerose di loro. Preferiscono raccogliere cadaveri e materiale vegetale.</p><p>Per qualche ragione, le formiche giganti a volte sono attratte dagli oggetti luccicanti e li afferrano e li riportano nella loro tana. È noto che a volte scavano anche l'oro, e c'è una probabilità del 30% che la loro tana contenga pepite d'oro per un valore di 1d10x1.000 mo.</p><p><strong>Terreno:</strong> qualsiasi tranne l'Artico.</p>",
+            "items": {
+                "TsFf1Jvj9BiRSIgM": {
+                    "description": "<p>Una volta per turno la formica può sparare i suoi escrementi dall'ano su bersagli come persone, creature e oggetti. </p>",
+                    "name": "Spara Feci"
+                },
+                "yU5EHD3R4bHRqppI": {
+                    "name": "Morso"
+                },
+                "ztdIw5FwvoAuCctT": {
+                    "name": "Guscio di Formica"
+                }
+            },
+            "name": "Formica Gigante"
+        },
+        "Ape, White": {
+            "biography": "<p>Gli Scimmioni Bianchi hanno perso il loro colore a causa dei molti anni vissuti nelle caverne. Sono erbivori notturni, cercano frutta e verdura di notte.</p><p>Non fanno di tutto per attaccare i personaggi; se avvicinati da umani e semi-umani e loro hanno la possibilità di fuggire, lo faranno. Ma se le creature si avvicinano alla loro tana, le scimmie minacceranno gli intrusi. Se le loro minacce vengono ignorate, attaccheranno. Possono lanciare una pietra per round per 1d6 punti ciascuno.</p><p>Le scimmie bianche non sono intelligenti e talvolta vengono tenute come animali domestici dai Neanderthal (uomini delle caverne). Normalmente, in natura, vivono in caverne in gruppi familiari di 2-8 membri.</p><p><strong>Terreno:</strong> caverna, collina, montagna, rovina.</p>",
+            "items": {
+                "8BJ6kJQcx5D9JrWX": {
+                    "name": "Artiglio"
+                },
+                "AEshzm7c7m6r694W": {
+                    "name": "Naturale"
+                },
+                "qynUaCkvzcBqJM7E": {
+                    "name": "Sasso"
+                }
+            },
+            "name": "Scimmione Bianco"
+        },
+        "Archon (Male)": {
+            "biography": "<p>Gli Arconti sono esseri incredibilmente potenti legati alla legge e al bene, esistenti per opporsi al caos e al male. Funzionano sia direttamente che indirettamente, assistendo gli avventurieri nelle loro ricerche contro le forze del male. Gli Arconti hanno il corpo di aquile giganti con ali piumate d'oro. Gli arconti maschi possiedono la testa, le braccia e il busto di un uomo gigante e muscoloso, mentre le femmine hanno un collo da drago e tre teste: due teste di toro e una testa centrale simile a quella umana.</p>\n      <p>In combattimento, l'arconte maschio può impugnare qualsiasi arma umana, spesso usando quelle incantate, mentre la femmina può incornare con le sue due teste di toro per 3d10 danni o sputare un cono di fuoco di 3 metri infliggendo 4d6 danni. Sono immuni al fuoco, al veleno e agli incantesimi di livello 1°-4° di tutti i tipi.</p>\n      <p>Gli Arconti possono lanciare incantesimi come chierici di 12° livello e teletrasportarsi a piacimento. Una volta al giorno, possono usare un \"lampo di purezza\" per far diventare le vittime Legali e pacifiche per 2d6 turni, o creare una \"spada fiammeggiante\" che infligge 4d8 danni. Vivono in piccoli nuclei familiari composti da una coppia accoppiata e 1d3 piccoli e raramente si incontrano con la loro prole.</p>\n      <p><strong>Terreno:</strong> qualsiasi, qualsiasi planare.</p>\n      <p><strong>Capacità di carico:</strong> 5.000 mon a piena velocità; 10.000 mon a metà velocità.</p>",
+            "items": {
+                "0fcDXgEqN5rnrStV": {
+                    "description": "<p>Una volta al giorno, l'Arconte può usare un lampo di purezza, che fa sì che tutte le vittime diventino Legali e pacifiche per [[/r 2d6 #lawful andpacific for this many turns]] turni. Non provoca danni ma rimuove tutti i pensieri malvagi (nessun tiro salvezza).</p>",
+                    "name": "Lampo di Purezza"
+                },
+                "57Hrp5QDGxyGL96N": {
+                    "description": "<p>Gli Arconti possono teletrasportarsi a piacimento in qualsiasi luogo entro la loro vista o in luoghi conosciuti.</p>",
+                    "name": "Teletrasporto"
+                },
+                "E0vYGW3avZ8aY7IQ": {
+                    "description": "<p>Gli Arconti possono lanciare incantesimi come chierici di 12° livello. Sono immuni al fuoco, al veleno e agli incantesimi di livello dal 1° al 4° di tutti i tipi.</p>",
+                    "name": "Lanciare Incantesimi"
+                },
+                "bjbZ8aquRhls9RRR": {
+                    "description": "<p>Una spada normale è una spada a una mano con una lama diritta o curva lunga da 60 a 90 cm. Questa categoria di spade comprende una varietà di stili diversi di spada, che vanno dalle scimitarre agli spadoni e persino agli stocchi.</p>",
+                    "name": "Spada"
+                },
+                "jGEe1btp4p3UIcw8": {
+                    "description": "Le piume dell'Arconte forniscono una protezione eccellente, fornendo una Classe Armatura di -6.",
+                    "name": "Piume Dorate"
+                },
+                "qGJH3hPoP7uK09LJ": {
+                    "description": "<p>Una volta al giorno, l'Arconte può creare una spada fiammeggiante, che dura tre turni. Infligge 4d8 danni in caso di colpo andato a segno.</p>",
+                    "name": "Spada Fiammeggiante"
+                }
+            },
+            "name": "Arconte (Maschio)"
+        },
+        "Baboon, Rock": {
+            "biography": "<p>I babbuini delle rocce sono versioni più grandi e più intelligenti dei babbuini normali. Sono onnivori ma preferiscono la carne e spesso cacciano piccoli animali da branco. Sebbene non producano strumenti o armi, raccolgono ossa o rami da utilizzare come mazze quando attaccano.</p>\n      <p>I babbuini delle rocce vivono in branchi composti fino a 30 membri, guidati da un maschio dominante. Sono noti per la loro natura feroce e il comportamento aggressivo. Anche se non fanno di tutto per attaccare i viaggiatori, difendono in modo aggressivo il loro territorio e tentano di scacciare gli intrusi con forti urla e manifestazioni di aggressività.</p>\n      <p>Questi babbuini comunicano con semplici urla per trasmettere avvertimenti ed esprimere bisogni. Sebbene non siano interessati agli esseri umani come cibo, difendono i loro terreni di caccia se si sentono minacciati.</p>\n      <p><strong>Terreno:</strong> collina, montagna, aperto.</p>",
+            "items": {
+                "DUaQ7HU6CaxPLfNA": {
+                    "description": "<p>I babbuini delle rocce ottengono un bonus di +1 ai tiri per colpire quando combattono al fianco di almeno altri due membri del loro branco.</p>",
+                    "name": "Tattica di Branco"
+                },
+                "pXdCFUoGMYAWEjPq": {
+                    "name": "Morso",
+                    "description": "Il babbuino delle rocce morde il bersaglio con denti aguzzi, provocando 1d3 danni."
+                },
+                "ERnx2ONXMHh9pwLB": {
+                    "description": "Il babbuino delle rocce usa un osso o un ramo come bastone per colpire il suo avversario.",
+                    "name": "Attacco con Bastone"
+                },
+                "rH7iMMOAHfFicGwu": {
+                    "description": "La folta pelliccia del babbuino delle rocce fornisce una protezione Classe Armatura 6.",
+                    "name": "Folta Pelliccia"
+                }
+            },
+            "name": "Babbuino delle Rocce"
+        },
+        "Bat, Giant Vampire": {
+            "biography": "<p>I pipistrelli vampiri giganti sono una variante più pericolosa dei pipistrelli giganti, capaci di far perdere i sensi alle loro vittime con un morso paralizzante. Le vittime devono effettuare un tiro salvezza contro paralisi o cadere prive di sensi per 1d10 round, consentendo al pipistrello di nutrirsi indisturbato, risucchiando 1d4 punti sangue per round.</p>\n      <p>Se una vittima muore per perdita di sangue, deve effettuare un tiro salvezza contro incantesimi o diventare una creatura non-morta 24 ore dopo la morte.</p>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "items": {
+                "FvAENZYMlY5cUV0Q": {
+                    "description": "La dura pelle del pipistrello vampiro gigante fornisce una protezione naturale Classe Armatura 6.",
+                    "name": "Pelle Dura"
+                },
+                "H6GHm5uo1ch5WeR6": {
+                    "description": "<p>Mentre una vittima è priva di sensi, il pipistrello vampiro gigante può nutrirsi, risucchiando 1d4 punti sangue ogni round. Se una vittima muore a causa di ciò, deve effettuare un tiro salvezza contro incantesimi o diventare una creatura non-morta 24 ore dopo la morte.</p>",
+                    "name": "Succhia Sangue"
+                },
+                "NmWngkCTL8cXXMc5": {
+                    "description": "<p>I pipistrelli vampiri giganti possono volare a una velocità di 54 m per turno (18 m per round).</p>",
+                    "name": "Volare"
+                },
+                "XR9sVgJGKxdTvsEX": {
+                    "description": "Il gigantesco pipistrello vampiro morde con zanne paralizzanti, provocando 1d4 danni. La vittima deve effettuare un tiro salvezza contro paralisi o cadere priva di sensi per 1d10 round.",
+                    "name": "Morso Paralizzante"
+                },
+                "dde1niYiPf30qKpM": {
+                    "description": "<p>I pipistrelli vampiri giganti utilizzano l'ecolocalizzazione per orientarsi. Sono immuni agli incantesimi basati sulla vista come <em>luce</em>, ma possono essere accecati da un incantesimo <em>silenzio di raggio 4.5 m</em>.</p>",
+                    "name": "Ecolocazione"
+                }
+            },
+            "name": "Pipistrello Gigante Vampiro"
+        },
+        "Beetle, Giant Fire": {
+            "items": {
+                "5UYbl4leGdIro8Uu": {
+                    "description": "<p>Lo scarabeo di fuoco gigante ha due ghiandole luminose sopra gli occhi e una vicino all'addome, che emettono luce in un raggio di 3 metri. Queste ghiandole continuano a brillare per 1d6 giorni dopo essere state rimosse.</p>",
+                    "name": "Ghiandole Luminose"
+                },
+                "c2D1fB97wamZOKVf": {
+                    "description": "Il guscio duro dello scarabeo di fuoco fornisce una protezione naturale Classe Armatura 4.",
+                    "name": "Carapace"
+                },
+                "jEUpkHdZSsDfo7Gm": {
+                    "description": "Lo scarabeo di fuoco gigante morde con le sue mandibole, infliggendo 2d4 danni.",
+                    "name": "Morso"
+                }
+            },
+            "biography": "<p>Gli scarabei di fuoco giganti sono creature lunghe circa 5 cm che spesso si trovano sottoterra. Hanno due ghiandole luminose sopra gli occhi e una vicino alla parte posteriore dell'addome, che emettono luce in un raggio di 3 metri. Queste ghiandole continuano a brillare per 1d6 giorni dopo essere state rimosse.</p>\n      <p><strong>Terreno:</strong> caverna, pianura, rovine, bosco.</p>",
+            "name": "Scarabeo di Fuoco Gigante"
+        },
+        "Bear, Black": {
+            "biography": "<p>Gli orsi neri hanno la pelliccia nera e sono alti circa 2 metri. Sono onnivori ma preferiscono radici e bacche. Un orso nero di solito non attacca se non messo alle strette o provocato, ma difende i suoi piccoli fino alla morte. Sono noti per fare irruzione negli accampamenti in cerca di cibo, con una particolare predilezione per il pesce fresco e i dolci.</p>\n      <p>Se un orso nero colpisce con entrambi gli artigli in un round, abbraccerà la sua vittima, infliggendo 2d8 danni aggiuntivi nello stesso round.</p>\n      <p><strong>Terreno:</strong> collina, montagna, bosco.</p>",
+            "items": {
+                "C40A9szN3PFAZucz": {
+                    "description": "La folta pelliccia dell'orso nero fornisce una protezione naturale Classe Armatura 6.",
+                    "name": "Spessa Pelliccia"
+                },
+                "SLjJ23zrOmuxH5vZ": {
+                    "name": "Presa dell'Orso",
+                    "description": "<p>Se un orso nero colpisce con entrambi gli artigli nello stesso round, abbraccerà il suo bersaglio, infliggendo [[/r 2d8 #bear abbraccio danno]] danni aggiuntivi nello stesso round.</p>"
+                },
+                "YNA82CLrUiE7oqVc": {
+                    "description": "L'orso nero attacca con i suoi artigli affilati, infliggendo 1d3 danni ciascuno.",
+                    "name": "Artiglio"
+                },
+                "sfm2VeZJWFrvy8BP": {
+                    "description": "L'orso nero morde il suo bersaglio, infliggendo 1d6 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Orso Nero"
+        },
+        "Bat, Normal": {
+            "biography": "<p>I pipistrelli normali sono mammiferi notturni molto piccoli, pesano solo pochi grammi. Vivono in caverne o edifici abbandonati e utilizzano l'ecolocalizzazione per navigare. A causa della loro vista debole, gli incantesimi che influenzano la vista, come la luce, non hanno effetto su di loro. Tuttavia, un incantesimo di <em>silenzio nel raggio di 4.5 m</em> li renderà ciechi.</p>\n      <p>Questi pipistrelli non attaccano le persone ma possono confonderle volando intorno alle loro teste. Sono necessari almeno dieci pipistrelli per confondere un personaggio, imponendo una penalità di -2 ai tiri per colpire e ai tiri salvezza e impedendo il lancio di incantesimi. I pipistrelli normali devono controllare il morale ogni round a meno che non siano controllati o evocati.</p>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "items": {
+                "DVelzTV2fXDMqBjt": {
+                    "description": "<p>I pipistrelli normali possono volare a una velocità di 36 m per turno (12 m per round).</p>",
+                    "name": "Volare"
+                },
+                "HiCgibXrAU2zn45t": {
+                    "description": "La sottile pelliccia e la pelle del pipistrello forniscono una protezione minima Classe Armatura 6.",
+                    "name": "Pelle e Pelliccia"
+                },
+                "a6vjDQ5cruUrlfZo": {
+                    "description": "<p>I pipistrelli normali confondono i loro bersagli volando intorno a loro in gran numero. Per ogni 10 pipistrelli, un personaggio viene influenzato, ricevendo una penalità di -2 ai tiri per colpire e ai tiri salvezza e non essendo in grado di lanciare incantesimi.</p>",
+                    "name": "Confusione"
+                },
+                "t0jgjq3GYGhcnmSy": {
+                    "description": "<p>I pipistrelli normali utilizzano l'ecolocalizzazione per spostarsi. Sono immuni agli incantesimi basati sulla vista come <em>luce</em>, ma possono essere accecati da un incantesimo <em>silenzio di raggio 4.5 m</em>.</p>",
+                    "name": "Ecolocazione"
+                }
+            },
+            "name": "Pipistrello Normale"
+        },
+        "Bee, Giant": {
+            "biography": "<p>Le api giganti, note anche come \"api assassine\", sono insetti aggressivi lunghi trenta centimetri e dal temperamento sgradevole. Attaccheranno chiunque si trovi entro 9 metri dal loro alveare. Se un'ape gigante colpisce con la sua puntura, l'ape muore, ma la vittima deve effettuare un tiro salvezza contro veleno o morire.</p>\n      <p>Se il tiro salvezza ha successo, il pungiglione infligge comunque 1 punto di danno per round mentre si fa strada nella vittima, a meno che non venga rimosso spendendo un round per estrarlo.</p>\n      <p>Le api giganti preferiscono costruire i loro alveari in piccole grotte o aree sotterranee vicino alla superficie. Ci saranno sempre almeno 10 api e una regina dentro o vicino all'alveare. Alcune api nell'alveare possono avere 1 dado vita ciascuna (13 PX) e l'ape regina ha 2 dadi vita (35 PX) e può pungere ripetutamente senza morire.</p>\n      <p>Le api giganti producono miele magico che, se consumato in grandi quantità (circa due pinte), ha una pozione di effetto curativo di metà forza, che cura 1d4 danni.</p>\n      <p><strong>Terreno:</strong> pianura, bosco, montagna, collina.</p>",
+            "items": {
+                "FJhuifpHVEfL4QMC": {
+                    "description": "Il duro esoscheletro dell'ape gigante fornisce una protezione naturale Classe Armatura 7.",
+                    "name": "Esoscheletro"
+                },
+                "NdPxqMUkMCIqMhiv": {
+                    "name": "Pungiglione Velenoso",
+                    "description": "<p>La puntura di un'ape gigante contiene un veleno mortale. Un attacco riuscito costringe la vittima a effettuare un tiro salvezza contro veleno o a morire. In caso di successo, il pungiglione infligge 1 punto di danno per round finché non viene rimosso.</p>"
+                },
+                "uGO8698wkAo1gtLg": {
+                    "description": "L'ape gigante che punge il suo bersaglio, infligge 1d3 danni. Se la puntura va a segno, l'ape muore, ma la vittima deve effettuare un tiro salvezza contro veleno altrimenti muore. Se il tiro salvezza ha successo, il pungiglione infligge 1 punto di danno per round a meno che non viene rimosso.",
+                    "name": "Pungiglione"
+                }
+            },
+            "name": "Ape Gigante"
+        },
+        "Beetle, Giant Oil": {
+            "biography": "<p>I scarabei urticanti sono coleotteri giganti lunghi circa 60 cm che a volte si insinuano sottoterra. Quando vengono attaccati, possono schizzare un fluido oleoso su un attaccante entro 1,5 metri, provocando dolorose vesciche che impongono una penalità di -2 ai tiri per colpire. Questo effetto dura finché non viene curato con l'incantesimo <em>cura ferite leggere</em> o dopo 24 ore.</p>\n      <p><strong>Terreno:</strong> caverna, pianura, rovine, bosco.</p>",
+            "items": {
+                "ww7BVXXa06pVdNWl": {
+                    "description": "<p>Lo scarabeo urticante gigante può schizzare un fluido oleoso contro un attaccante entro 1,5 metri. Il fluido provoca vesciche dolorose, imponendo una penalità di -2 ai tiri per colpire della vittima finché non viene curata con un incantesimo <em>cura ferite leggere</em> o dopo 24 ore.</p>",
+                    "name": "Spruzzo d'Olio"
+                },
+                "LHIklsswEqi0GSAg": {
+                    "description": "Il guscio duro dello scarabeo urticante gigante fornisce una protezione naturale Classe Armatura 4.",
+                    "name": "Carapace"
+                },
+                "iBYyv4vuneqaR3Dz": {
+                    "description": "Lo scarabeo urticante morde con le sue mandibole, infliggendo 1d6 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Scarabeo Urticante Gigante"
+        },
+        "Beetle, Giant Tiger": {
+            "biography": "<p>Gli scarabei tigrati giganti sono coleotteri giganti lunghi 90 cm con un carapace a strisce che ricorda la pelle di una tigre. Sono carnivori, predano altri insetti e piccoli animali e possono muoversi rapidamente per catturare la preda. Questi coleotteri sono cacciatori aggressivi, soprattutto se disturbati.</p>\n      <p><strong>Terreno:</strong> caverna, pianura, rovine, bosco.</p>",
+            "items": {
+                "19XDP8oTW0ns4qOc": {
+                    "description": "Lo scarabeo tigrato gigante morde con le sue potenti mandibole, infliggendo 2d6 danni.",
+                    "name": "Morso"
+                },
+                "PPSHALxyoDY7bHjU": {
+                    "description": "<p>Lo scarabeo tigrato gigante può muoversi rapidamente, correndo a una velocità di 45 m per turno (15 m per round).</p>",
+                    "name": "Movimento Rapido"
+                },
+                "gZe5RBn8FMqJPjFl": {
+                    "description": "Il guscio duro dello scarabeo tigre fornisce una protezione naturale Classe Armatura 3.",
+                    "name": "Carapace"
+                }
+            },
+            "name": "Scarabeo Tigrato Gigante"
+        },
+        "Berserker": {
+            "biography": "<p>I Berserker sono combattenti feroci che entrano in uno stato di rabbia folle durante la battaglia. Provenienti da culture barbare, tipicamente comunità marinare del nord, sono noti per la loro ferocia in combattimento. Durante la battaglia, i berserker aggiungono +2 ai loro tiri per colpire contro umani o creature umanoidi come coboldi, goblin e orchi.</p>\n      <p>I berserker combattono fino alla morte e, nella loro rabbia, possono persino rivoltarsi contro i propri compagni. Non si ritirano mai, non si arrendono e non fanno prigionieri. In un villaggio della loro cultura, il 10% di tutti i combattenti saranno berserker e alcune società potrebbero avere intere classi di guerrieri costituite da berserker.</p>\n      <p><strong>Terreno:</strong> qualsiasi.</p>",
+            "items": {
+                "YYnDazcAsh6m1lay": {
+                    "description": "I Berserker indossano un'armatura semplice Classe Armatura 7.",
+                    "name": "Armatura Berserker"
+                },
+                "ZSCxW2JKvwv4P9rr": {
+                    "description": "<p>Una spada corta è una spada con una lama dritta da 50 a 60 cm. Utilizzata principalmente come arma da punta piuttosto che da taglio, questa piccola lama può essere utilizzata con una mano.</p>",
+                    "name": "Spada Corta"
+                },
+                "pvpksxPTMy2jO5Lf": {
+                    "name": "Ira del berserker",
+                    "description": "<p>I berserker entrano in una furia folle in combattimento, ottenendo +2 ai tiri per colpire contro umani e creature umanoidi come coboldi, goblin e orchi. Combattono fino alla morte e possono attaccare i compagni nella loro rabbia. Non si ritirano mai, non si arrendono né fanno prigionieri.</p>"
+                }
+            },
+            "name": "Berserker"
+        },
+        "Blackball (Deadly Sphere)": {
+            "biography": "<p>La Sfera Nera, o \"globo mortale\", è una palla nera misteriosa e anonima che misura 1.5 metri di diametro. Si muove lentamente e in modo casuale, disintegrando tutto ciò che tocca, senza tiro salvezza. La sfera nera si muove verso la creatura intelligente più vicina entro 18 metri, distruggendo qualsiasi cosa sul suo cammino.</p>\n      <p>È immune a tutti gli attacchi mortali e agli incantesimi. Solo gli immortali possono controllare una sfera nera e può essere bandita usando un incantesimo cancello o un incantesimo desiderio formulato con cura. La sua vera natura rimane sconosciuta ed è estremamente rara.</p>\n      <p><strong>Terreno:</strong> qualsiasi.</p>",
+            "items": {
+                "Ud7TV5xj9AEHpePa": {
+                    "description": "<p>Solo gli immortali possono controllare la sfera nera. Può essere sconfitto usando un incantesimo portale per inviarlo su un altro piano o con un incantesimo desiderio formulato con cura.</p>",
+                    "name": "Controllata dagli Immortali"
+                },
+                "qCYfBNIUmhdwGzpB": {
+                    "description": "La sfera nera disintegra tutto ciò che tocca, senza alcun tiro salvezza. È immune a tutti gli attacchi e incantesimi mortali e può essere controllata solo dagli Immortali.",
+                    "name": "Tocco Disintegrante"
+                },
+                "wi2O9LZKNJpndF1J": {
+                    "description": "<p>La sfera nera è immune a tutti gli attacchi, incantesimi ed effetti mortali. Può essere controllata solo dagli Immortali e non è influenzata da tutti i normali effetti magici e di combattimento.</p>",
+                    "name": "Immune agli Attacchi Mortali"
+                }
+            },
+            "name": "Sfera Nera (globo mortale)"
+        },
+        "Blink Dog": {
+            "biography": "<p>Questa creatura, unica nel suo genere è simile ad un \"dingo\" australiano. Possiede un'elevata intelligenza, viaggia spesso in branco e ha un'abilità di teletrasporto unica. La creatura può \"sparire\" da un luogo e \"riapparire\" istantaneamente in un'altro e il suo istinto gli assicura che non riapparirà mai all'interno di un oggetto solido.</p><p>In combattimento, usa questa capacità per teletrasportarsi vicino a un nemico, mordere e poi svanire, riapparendo a una distanza compresa tra 3 e 12 metri. Se il branco si sente gravemente minacciato, si allontaneranno tutti insieme e potrebbero non tornare.</p><p>Sebbene siano intelligenti quanto molti umani, queste creature comunicano solo tra loro e non parlano lingue umane o semiumane. Sono solitari per natura, simili ai lupi, e generalmente evitano i conflitti a meno che il loro territorio non venga invaso. Si nutrono di selvaggina di grandi dimensioni come alci selvatici, alci e altri animali da branco.</p><p>I molossi instabili attaccano sempre le pantere distorcenti, che considerano nemici naturali. Si ritiene che entrambe le creature provengano da un altro piano di esistenza.</p><p><strong>Terreno:</strong> aperto, bosco, deserto.</p>",
+            "items": {
+                "42tR3wVwfPsktgNk": {
+                    "description": "Un attacco rapido con il morso che infligge 1d6 danni.",
+                    "name": "Morso"
+                },
+                "pZQzSzxLvKSvlnbq": {
+                    "description": "Il Molosso Instabile può teletrasportarsi a breve distanza come reazione istintiva, spostandosi da un punto all'altro entro 12 metri. Questa capacità impedisce alla creatura di essere circondata o intrappolata.",
+                    "name": "Instabilità"
+                },
+                "vrXsLGzviP2vzFNG": {
+                    "description": "I riflessi rapidi e l'agilità del molosso instabile gli conferiscono un'effettiva Classe Armatura pari a 5.",
+                    "name": "Agilità Canina"
+                }
+            },
+            "name": "Molosso Instabile"
+        },
+        "Boar, Normal": {
+            "biography": "<p>I cinghiali abitano tipicamente le aree boschive, ma possono essere incontrati in quasi tutti gli ambienti. Questi onnivori sono noti per il loro temperamento instabile e il comportamento aggressivo quando disturbati. Spesso riposano in fitti boschetti e caricano gli intrusi. I cinghiali possiedono la capacità speciale di caricare; se riescono a coprire 20 metri prima di colpire il bersaglio, infliggono danni doppi all'impatto.</p><p><strong>Terreno</strong>: boschi.<br><strong>Carico</strong>:</strong> p><ul><li><strong>Cinghiale</strong>: può trasportare 1.500 mon a piena velocità e 3.000 mon a metà velocità.</li></ul><p><strong>Moltiplicatore della bardatura</ forte>: x3.</p>",
+            "items": {
+                "CuHrVyr3Q9hDk85M": {
+                    "description": "Il cinghiale può caricare per 20 metri prima di attaccare, infliggendo danni doppi con il suo attacco con le zanne.",
+                    "name": "Carica"
+                },
+                "J1rP4lu0BmxgvtV6": {
+                    "description": "Un attacco con la zanna che infligge 2d4 danni. Se il cinghiale carica per 20 metri, infligge danni doppi.",
+                    "name": "Zanna"
+                },
+                "tY6N45GiUsqIsIXx": {
+                    "description": "La dura pelle del cinghiale fornisce una Classe Armatura effettiva pari a 7.",
+                    "name": "Pelle di Cinghiale"
+                }
+            },
+            "name": "Chinghiale"
+        },
+        "Animal Herd (4 HD)": {
+            "biography": "<p>Questa serie di statistiche sui mostri rappresenta la maggior parte delle creature selvatiche al pascolo, come caribù, cervi, alci, capre, alci e buoi selvatici. Tutti i climi del mondo, tranne quelli più inospitali, presenteranno almeno un tipo di animale da mandria. I PG potrebbero prendere di mira i membri di una mandria per ottenere carne. I Dadi Vita e i danni inflitti da queste creature variano a seconda della specie. Di seguito sono elencate alcune tipiche creature della mandria:</p><p>In una tipica mandria, solo un animale su quattro è maschio; gli altri sono femmine e giovani. I maschi hanno almeno 3 punti ferita per Dado Vita, mentre le femmine hanno il numero standard di punti ferita. I giovani hanno solo 1-4 punti ferita per Dado Vita. Se la mandria è minacciata, le femmine e i piccoli si ritireranno, mentre i maschi restano a difenderli.</p><p>Se un gruppo di 16 o più membri della mandria viene attaccato, c'è una probabilità del 40% che vadano nel panico e si diano alla fuga verso la fonte del pericolo, calpestando qualsiasi cosa sul loro cammino per 1d20 danni. Questa azione non richiede un tiro per colpire.</p><p>Queste creature si trovano generalmente in aree aperte e regioni leggermente boscose.</p>",
+            "items": {
+                "7bVXvHbNVGCECusv": {
+                    "description": "<p>Se una mandria di 16 o più mebri viene attaccato, c'è una probabilità del 40% che vadano nel panico e calpestino qualsiasi cosa sul loro cammino per 1d20 punti danno.</p>",
+                    "name": "Panico"
+                },
+                "I8ywnUOL6Qz9XGAY": {
+                    "description": "<p>Quando allarmati, le femmine e i piccoli fuggono mentre i maschi difendono la mandria. I maschi hanno almeno 3 PF per Dado Vita.</p>",
+                    "name": "Maschio Protettore"
+                },
+                "RSaS8mbnLQiPqN8v": {
+                    "description": "La spessa pelle dell'animale fornisce una protezione di base.",
+                    "name": "Pelle Spessa"
+                },
+                "ZXrizzM0vfvcjlv4": {
+                    "description": "<p>Se la mandria va nel panico, calpesta qualsiasi cosa si trovi sulla sua strada, causando 1d20 danni.</p>",
+                    "name": "Travolgere"
+                },
+                "aQFkB7GpiRyhXE3I": {
+                    "description": "L'animale attacca usando i suoi potenti zoccoli o le corna, sferrando un colpo da 1d8 danni.",
+                    "name": "Naturale"
+                }
+            },
+            "name": "Mandria (4 DV)"
+        },
+        "Ape, Snow": {
+            "items": {
+                "LWs36VPjumecjSr9": {
+                    "description": "Una mazza rozza fatta di rami o ossa, usata per colpire gli avversari.",
+                    "name": "Mazza"
+                },
+                "Lgch9gj9dYUtZgRF": {
+                    "description": "La pelliccia ispida della scimmia delle nevi fornisce una protezione naturale.",
+                    "name": "Pelo Ispido"
+                },
+                "ZqJ9y1Q9BskBj4Wb": {
+                    "description": "Quando attacca fa uso di un braccio per brandire un'arma, mentre con l'altro tenta di afferrare la vittima. Essendo molto forte, chiunque venga afferrato, subisce 2d6 punti ferita per round, finquando la scimmia non viene uccisa o fallisca il controllo del morale.",
+                    "name": "Presa"
+                },
+                "eO7hhMmWuUCJGIq5": {
+                    "description": "<p>La pelliccia bianca della scimmia delle nevi la rende estremamente difficile da vedere in ambienti innevati, permettendole di cogliere di sorpresa gli avversari con un risultato di 1-4 su un d6.</p>",
+                    "name": "Mimetismo"
+                }
+            },
+            "biography": "<p>Le Scimmie delle Nevi sono creature tozze, simili a babbuini, con una pelliccia bianca e ispida, che le rende difficili da individuare in condizioni di neve. Sono piuttosto intelligenti, capaci di usare strumenti semplici come mazze o ossa affilate, ma incapaci di comprendere armi più complesse come gli archi.</p>\n      <p>Queste creature sono solitarie e crudeli, e spesso usano tattiche di imboscata contro le prede più piccole. Se messi alle strette o intrappolati, combattono ferocemente con un morale aumentato.</p>\n      <p>La scimmia delle nevi usa un braccio per impugnare un'arma e l'altro per abbracciare la sua vittima. L'abbraccio infligge 2d6 danni ogni round finché il bersaglio non viene liberato. Le scimmie delle nevi comunicano utilizzando un linguaggio dei segni complesso e lasciano messaggi utilizzando rocce impilate e palle di neve.</p>\n      <p>Le scimmie delle nevi sono onnivore e amano particolarmente mangiare insetti giganti e carne rossa, ma evitano mostri o gruppi molto grandi. Vivono nelle foreste montane innevate e cercano riparo solo durante le forti tempeste di neve.</p>\n      <p><strong>Terreno:</strong> Artico, Montagne (freddo).</p>",
+            "name": "Scimmia delle Nevi"
+        },
+        "Archon (Female)": {
+            "biography": "<p>Gli Arconti sono esseri incredibilmente potenti legati alla legge e al bene, esistenti per opporsi al caos e al male. Funzionano sia direttamente che indirettamente, assistendo gli avventurieri nelle loro ricerche contro le forze del male. Gli Arconti hanno il corpo di aquile giganti con ali piumate d'oro. Gli arconti maschi possiedono la testa, le braccia e il busto di un uomo gigante e muscoloso, mentre le femmine hanno un collo da drago e tre teste: due teste di toro e una testa centrale simile a quella umana.</p>\n      <p>In combattimento, ogni testa di toro può colpire con le corna, infliggendo 3-30 punti di danno, oppure emettere un cono di fuoco di tre metri, capace di causare 4-24 punti di danno.</p>\n      <p>Gli Arconti possono lanciare incantesimi come chierici di 12° livello e teletrasportarsi a piacimento. Una volta al giorno, possono usare un \"lampo di purezza\" per far diventare le vittime Legali e pacifiche per 2d6 turni, o creare una \"spada fiammeggiante\" che infligge 4d8 danni. Vivono in piccoli nuclei familiari composti da una coppia accoppiata e 1d3 piccoli e raramente si incontrano con la loro prole.</p>\n      <p><strong>Terreno:</strong> qualsiasi, qualsiasi planare.</p>\n      <p><strong>Capacità di carico:</strong> 5.000 mon a piena velocità; 10.000 mon a metà velocità.</p>",
+            "items": {
+                "57Hrp5QDGxyGL96N": {
+                    "description": "<p>Gli Arconti possono teletrasportarsi a piacimento in qualsiasi luogo entro la loro vista o in luoghi conosciuti.</p>",
+                    "name": "Teletrasporto"
+                },
+                "DpDwPhObP5UmyJvE": {
+                    "description": "<p>Una volta al giorno, l'Arconte può creare una spada fiammeggiante, che dura tre turni. Infligge 4d8 danni in caso di colpo andato a segno.</p>",
+                    "name": "Spada Fiammeggiante"
+                },
+                "E0vYGW3avZ8aY7IQ": {
+                    "description": "<p>Gli Arconti possono lanciare incantesimi come chierici di 12° livello. Sono immuni al fuoco, al veleno e agli incantesimi di livello dal 1° al 4° di tutti i tipi.</p>",
+                    "name": "Lanciare Incantesimi"
+                },
+                "TdpX7IPRcZ3n1Ygl": {
+                    "description": "<p>Una volta al giorno, l'Arconte può usare un lampo di purezza, che fa sì che tutte le vittime diventino Legali e pacifiche per [[/r 2d6 #lawful and pacific for this many turns]] turni. Non provoca danni e rimuove tutti i pensieri malvagi (nessun tiro salvezza).</p>",
+                    "name": "Lampo di Purezza"
+                },
+                "i1ra0P1lUXVoDnmD": {
+                    "description": "<p>Un Arconte donna può sputare un cono di fuoco di 3 metri, causando 4d6 danni.</p>",
+                    "name": "Soffio di Fuoco"
+                },
+                "jGEe1btp4p3UIcw8": {
+                    "description": "Le piume dell'Arconte forniscono una protezione eccellente, fornendo una Classe Armatura di -6.",
+                    "name": "Piume Dorate"
+                },
+                "smPgkgAHoAHJGuDh": {
+                    "description": "L'attacco con la testa di toro di un Arconte femmina, infligge 3d10 danni.",
+                    "name": "Attacco Testa di Toro"
+                }
+            },
+            "name": "Arconte (Femmina)"
+        },
+        "Bandit": {
+            "biography": "<p>I Banditi sono ladri PNG che si uniscono per derubare gli altri. Solitamente operano in piccoli gruppi o comunità più grandi di 3-30 membri. Spesso inviano gruppi di 2-4 banditi per prendere di mira i viaggiatori.</p>\n      <p>I banditi usano l'inganno fingendosi persone comuni per sorprendere le loro vittime. Sono anche noti per tendere imboscate, bloccando le strade con ostacoli come alberi caduti per costringere i viaggiatori a fermarsi. Una volta fermati, i banditi attaccano nascondendosi, utilizzando armi a distanza per derubare le loro vittime.</p>\n      <p>Nella tana di un bandito è possibile trovare il tesoro di tipo A, ma questo non viene trasportato dai singoli banditi. I banditi possono essere guidati da un PNG di qualsiasi classe di personaggio umano, che sia uno o più livelli superiore ai banditi. Questo leader potrebbe avere ambizioni più grandi che vadano oltre la rapina, come organizzare una rete di bande di banditi per uno scopo più nefasto o cercare vendetta per un'ingiustizia.</p>\n      <p><strong>Terreno:</strong> qualsiasi, solitamente deserto lungo le strade principali.</p>",
+            "items": {
+                "G1b3GdFhCSqKAkPG": {
+                    "description": "<p>Un'accetta è un'ascia a una mano lunga 30-60 cm, solitamente con una singola lama. Un'ascia viene spesso lanciata mentre il suo proprietario si precipita verso il raggio di mischia.</p>",
+                    "name": "Accetta"
+                },
+                "VrHF08EGwEq2BNmn": {
+                    "description": "<p>I banditi spesso tendono imboscate, utilizzando ostacoli come alberi caduti per costringere i viaggiatori a fermarsi, quindi attaccano con armi a distanza dalla copertura.</p>",
+                    "name": "Imboscata"
+                },
+                "r8EiuFHqHyRfVPmB": {
+                    "description": "Il bandito indossa un'armatura di cuoio, che fornisce una protezione Classe Armatura 6.",
+                    "name": "Armatura in Cuoio"
+                }
+            },
+            "name": "Bandito"
+        },
+        "Basilisk": {
+            "biography": "<p>Un basilisco è una creatura magica e non intelligente che somiglia a una lucertola lunga 3 metri con quattro zampe e un'escrescenza simile a una corona sulla testa. Spesso definito come il \"re dei serpenti\", può essere di vari colori ma solitamente è luminoso e caratteristico.</p>\n      <p>I basilischi abitano caverne sotterranee o boschetti densi e selvaggi. Hanno la capacità unica e pericolosa di pietrificare qualunque creatura mordano o guardino, trasformando loro e tutto il loro equipaggiamento in pietra a meno che non superino un tiro salvezza contro trasformare in pietra. Se sorpreso, un personaggio incontra automaticamente lo sguardo del basilisco ma ha comunque diritto a un tiro salvezza.</p>\n      <p>I personaggi che combattono un basilisco in combattimento corpo a corpo devono scegliere se evitare il suo sguardo, il che impone una penalità di -4 ai loro tiri per colpire garantendo al basilisco un bonus di +2, oppure incontrare il suo sguardo e attaccare normalmente ma rischiano la pietrificazione ogni round. </p>\n      <p>Uno specchio può essere utilizzato per evitare il contatto visivo diretto, riducendo la penalità ai tiri per colpire a -2. Se il basilisco vede il proprio riflesso, deve effettuare un tiro salvezza contro trasformarsi in pietra o pietrificarsi!</p>\n      <p>I basilischi sono originari sia del Primo Piano che del Piano Elementale della Terra. Sul Piano della Terra, sono creature fatte di roccia, con il loro sguardo che rallenta le creature terrestri per 1d6 round e scava nella roccia a velocità impressionanti.</p>\n      <p><strong>Terreno:</strong> Caverna, Bosco; Piano della Terra.</p>",
+            "items": {
+                "Bh4lrjOxu77kZI0i": {
+                    "description": "La pelle scagliosa del basilisco fornisce una protezione naturale Classe Armatura 4.",
+                    "name": "Pelle di Scaglie"
+                },
+                "JY0G49hdjkoCKWIA": {
+                    "description": "Il basilisco morde con le sue potenti mascelle, infliggendo 1d10 danni. Il morso può anche pietrificare la vittima a meno che non venga superato un tiro salvezza contro pietrificazione o paralisi.",
+                    "name": "Morso"
+                },
+                "nXflDNUbSQH2jQle": {
+                    "description": "<p>Lo sguardo del basilisco può trasformare qualsiasi creatura in pietra a meno che non effettui un tiro salvezza contro la pietrificazione. Questo effetto si applica anche all'equipaggiamento trasportato dal bersaglio.</p><p>Se un personaggio cerca di evitare lo sguardo, subisce una penalità di -4 ai tiri per colpire mentre il basilisco ottiene un bonus di +2 ai suoi attacchi. Se il personaggio incontra lo sguardo, deve effettuare un tiro salvezza ogni round.</p><p>L'uso di uno specchio per riflettere lo sguardo riduce la penalità di attacco a -2. Se il basilisco vede il suo riflesso (1 su 1d6), deve effettuare un tiro salvezza o rimanere pietrificato.</p>",
+                    "name": "Sguardo Pietrificante"
+                }
+            },
+            "name": "Basilisco"
+        },
+        "Bat, Giant": {
+            "biography": "<p>I Pipistrelli Giganti sono cugini molto più grandi dei pipistrelli normali, crescono fino a 1.5 m di lunghezza con un'apertura alare di oltre 7.5 m. Sono carnivori e possono attaccare gli esseri umani se sono estremamente affamati. I pipistrelli giganti utilizzano l'ecolocalizzazione per spostarsi e sono immuni agli incantesimi basati sulla vista come <em>luce</em>, ma possono essere accecati da un incantesimo <em>silenzio di 4.5 m</em>.</p>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "items": {
+                "QUSkarHpqLcy401l": {
+                    "description": "La folta pelliccia del pipistrello gigante fornisce una protezione naturale Classe Armatura 6.",
+                    "name": "Folta Pelliccia"
+                },
+                "RMSoK2ZhRfx1pHuz": {
+                    "description": "<p>I pipistrelli giganti utilizzano l'ecolocalizzazione per spostarsi. Sono immuni agli incantesimi basati sulla vista come <em>luce</em>, ma possono essere accecati da un incantesimo <em>silenzio di raggio 4.5 m</em>.</p>",
+                    "name": "Ecolocalizzazione"
+                },
+                "aizlkEKiJg5ShfVb": {
+                    "description": "Il pipistrello gigante morde il bersaglio con denti aguzzi, infliggendo 1d4 danni.",
+                    "name": "Morso"
+                },
+                "rN6NoCLtGTac899H": {
+                    "description": "<p>I pipistrelli giganti possono volare a una velocità di 54 m per turno (18 m per round).</p>",
+                    "name": "Volare"
+                }
+            },
+            "name": "Pipistrello Gigante"
+        },
+        "Bear, Cave": {
+            "biography": "<p>Gli orsi delle caverne sono enormi animali preistorici alti circa 4.5 metri. Non vedono bene ma hanno un acuto senso dell'olfatto, che consente loro di seguire le prede su lunghe distanze. Sono cacciatori aggressivi e preferiscono la carne fresca e vivono principalmente nelle caverne e nelle remote regioni montuose dove la civiltà umana non è ancora arrivata.</p>\n      <p>Se un orso delle caverne colpisce con entrambi gli artigli in un round, abbraccerà la sua vittima, infliggendo 2d8 danni aggiuntivi nello stesso round.</p>\n      <p><strong>Terreno:</strong> collina, montagna, bosco (preistorico).</p>",
+            "items": {
+                "0ZpYCKcqbMRqGXET": {
+                    "description": "La folta pelliccia dell'orso delle caverne fornisce una protezione naturale Classe Armatura 5.",
+                    "name": "Spessa Pelliccia"
+                },
+                "4sFnsgaqhb3VaGVf": {
+                    "description": "L'orso delle caverne attacca con i suoi enormi artigli, infliggendo 2d4 danni ciascuno.",
+                    "name": "Artiglio"
+                },
+                "AotGOeIyXDLJRXTA": {
+                    "description": "<p>Se un orso delle caverne colpisce con entrambi gli artigli nello stesso round, abbraccerà il suo bersaglio, infliggendo 2d8 danni aggiuntivi nello stesso round.</p>",
+                    "name": "Presa dell'Orso"
+                },
+                "K4UshlYEcTrCfZTm": {
+                    "description": "L'orso delle caverne morde il suo bersaglio, infliggendo 2d6 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Orso delle Caverne"
+        },
+        "Bear, Grizzly": {
+            "biography": "<p>Gli orsi grizzly hanno una pelliccia marrone o bruno-rossastra con punte argentate e sono alti circa 3 metri. Sono molto più aggressivi degli orsi neri e si trovano in una varietà di climi, anche se preferiscono montagne e foreste. I grizzly attaccano spesso per difendere il loro territorio e sono ghiotti di carne.</p>\n      <p>Se un orso grizzly colpisce con entrambi gli artigli in un round, abbraccerà la sua vittima, infliggendo 2d8 danni aggiuntivi nello stesso round.</p>\n      <p><strong>Terreno:</strong> collina, montagna, bosco.</p>",
+            "items": {
+                "LIwueXsGVDpEydtS": {
+                    "description": "La folta pelliccia dell'orso grizzly fornisce una protezione naturale Classe Armatura 8.",
+                    "name": "Folta Pelliccia"
+                },
+                "bui9MmPAFSxZAzvJ": {
+                    "description": "L'orso grizzly attacca con i suoi potenti artigli, infliggendo 1d8 danni ciascuno.",
+                    "name": "Artiglio"
+                },
+                "j7WQgFzc31RK9ZXg": {
+                    "description": "L'orso grizzly morde il suo bersaglio, infliggendo 1d10 danni.",
+                    "name": "Morso"
+                },
+                "up1CEk8GSDlQKyZn": {
+                    "name": "Presa dell'Orso",
+                    "description": "<p>Se un orso grizzly colpisce con entrambi gli artigli nello stesso round, abbraccerà il suo bersaglio, infliggendo 2d8 danni aggiuntivi nello stesso round.</p>"
+                }
+            },
+            "name": "Orso Grizzly"
+        },
+        "Bear, Polar": {
+            "biography": "<p>Gli orsi polari hanno la pelliccia bianca e sono alti circa 4 metri. Sono originari delle regioni fredde e spesso mangiano pesce, ma attaccano gli avventurieri se sono affamati. Sono ottimi nuotatori e usano i loro piedi larghi per correre sulla neve senza affondare.</p>\n      <p>Se un orso polare colpisce con entrambi gli artigli in un round, abbraccerà la sua vittima, infliggendo 2d8 danni aggiuntivi nello stesso round.</p>\n      <p><strong>Terreno:</strong> Artico, Montagna (freddo).</p>",
+            "items": {
+                "8SUzeH4ocbvS9fPS": {
+                    "description": "<p>Se un orso polare colpisce con entrambi gli artigli nello stesso round, abbraccerà il suo bersaglio, infliggendo 2d8 danni aggiuntivi nello stesso round.</p>",
+                    "name": "Presa dell'Orso"
+                },
+                "D8VSbYWDW7wFci8t": {
+                    "description": "L'orso polare attacca con i suoi potenti artigli, infliggendo 1d6 danni ciascuno.",
+                    "name": "Artiglio"
+                },
+                "gY5irBQJ9KYA0fY6": {
+                    "description": "<p>Gli orsi polari sono ottimi nuotatori e possono muoversi nell'acqua alla stessa velocità che sulla terra.</p>",
+                    "name": "Nuotare"
+                },
+                "ivELH0DN3qBJiWqb": {
+                    "description": "La folta pelliccia dell'orso polare fornisce una protezione naturale Classe Armatura 6.",
+                    "name": "Folta Pelliccia"
+                },
+                "wsNtePolkbY6EzuW": {
+                    "description": "L'orso polare morde il suo bersaglio, infliggendo 1d10 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Orso Polare"
+        },
+        "Black Pudding": {
+            "biography": "<p>Il Protoplasma Nero è una massa nera non intelligente, di diametro compreso tra 1,5 e 9 metri. Queste creature sono sempre affamate e attaccheranno qualsiasi essere vivente che incontrino. Il loro tocco corrosivo infligge 3d8 danni alle creature viventi e può dissolvere il legno e corrodere il metallo entro un turno. Non possono danneggiare la pietra.</p>\n      <p>I protoplasmi neri possono viaggiare su soffitti e pareti e passare attraverso piccole aperture, anche se si tratta di un processo lento che può richiedere un giro completo o più. Sono immuni a tutti gli attacchi diversi dal fuoco; qualsiasi arma o incantesimo che colpisce un protoplasma lo dividerà in segmenti più piccoli, ciascuno con 2 Dadi Vita e infliggendo 1d8 danni. Solo gli attacchi basati sul fuoco, come una spada fiammeggiante, possono infliggere il danno completo a un protoplasma.</p>\n      <p>Sebbene di solito non abbiano tesori, è possibile che si trovino delle pietre preziose nelle loro vicinanze.</p>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "items": {
+                "6PrxxV6qSM6uFhjf": {
+                    "description": "<p>Il protoplasma nero può essere danneggiato solo da attacchi basati sul fuoco, come una spada fiammeggiante. Altri attacchi si limitano a dividerlo in segmenti più piccoli.</p>",
+                    "name": "Debolezza al Fuoco"
+                },
+                "C1c2m8PtUT6aumqm": {
+                    "description": "Il corpo del protoplasma nero è corrosivo e può essere danneggiato solo da attacchi da fuoco. Altri attacchi lo dividono in segmenti più piccoli.",
+                    "name": "Corpo Corrosivo"
+                },
+                "Mb263yzzVl4wCkr6": {
+                    "description": "Il tocco del protoplasma nero infligge 3d8 danni alle creature viventi, corrode il metallo e dissolve il legno in un turno.",
+                    "name": "Tocco Corrosivo"
+                },
+                "fjxmLG7056c8mn73": {
+                    "description": "<p>Se colpito da un attacco non di fuoco, il protoplasma nero si divide in segmenti più piccoli, ciascuno con 2 Dadi Vita e infligge 1d8 danni. Questi segmenti possono essere distrutti solo da attacchi da fuoco.</p>",
+                    "name": "Dividere"
+                }
+            },
+            "name": "Protoplasma Nero"
+        },
+        "Blast Spore": {
+            "biography": "<p>Una spora esplosiva ricorda da vicino una pericolosa creatura fluttuante conosciuta come Beholder. Tuttavia, in realtà è un tipo di fungo presente nell'aria. In condizioni di scarsa illuminazione, una spora esplosiva viene spesso scambiata per un Orb Guardian, con solo una probabilità del 10% di discernere la sua vera natura (tirare 1-10 su un d100). Quando i personaggi si avvicinano a 3 metri, la possibilità di essere rilevati aumenta al 25%.</p><p>Se una spora esplosiva subisce danni, esplode violentemente, infliggendo 6d6 danni a tutte le creature entro un raggio di 6 metri. I bersagli colpiti possono effettuare un tiro salvezza contro le bacchette per dimezzare il danno. Questa esplosione non rilascia spore come fa il suo attacco normale.</p><p>Quando minacciata, la spra asplosiva può rilasciare una nuvola di spore in un cubo di 6 metri attorno a sé. Ogni creatura in quest'area deve effettuare un tiro salvezza contro veleno. Il fallimento significa che le spore attecchiscono ed entro 24 ore la vittima genererà 1d6 nuove spore esplosive, portando a morte certa a meno che non venga curata con un incantesimo <em>cura malattie</em>.</p><p><strong> Terreno:</strong> Caverne, Rovine.</p>",
+            "items": {
+                "685fHELz3Ro5IC8a": {
+                    "description": "Se la Spora Esplosiva subisce danni, esplode infliggendo 6d6 danni a tutte le creature entro 6 metri. Ogni creatura può effettuare un tiro salvezza contro le bacchette per subire la metà dei danni.",
+                    "name": "Esplosione"
+                },
+                "B4cD5BQ3cs1M0rnC": {
+                    "description": "La Spora Esplosiva può rilasciare una pioggia di spore in un volume di 6 x 6 x 6 metri. Qualsiasi creatura catturata nell'area deve effettuare un tiro salvezza contro veleno o essere infettata. Le creature infette faranno crescere 1d6 nuove spore esplosive in 24 ore, causando la morte a meno che non venga utilizzato un incantesimo cura malattie.",
+                    "name": "Malattia delle Spore"
+                },
+                "HkyRKF5ccj0h7LXw": {
+                    "description": "La Spora Esplosiva ha una Classe Armatura pari a 9 grazie al suo corpo morbido e spugnoso.",
+                    "name": "Fungo Fluttuante"
+                }
+            },
+            "name": "Spora Esplosiva"
+        },
+        "Boar, Great": {
+            "biography": "<p>Queste creature enormi e temibili sono rare e si trovano solitamente negli ambienti del \"mondo perduto\". Le loro immense dimensioni e forza li rendono intimidatori. Occasionalmente vengono addomesticati e usati come cavalcature dalle tribù barbare.</p><p><strong>Terreno</strong>: boschi.<br><strong>Caricamento</strong>:</p><ul> <li><strong>Grande Cinghiale</strong>: può trasportare 3.000 mon a tutta velocità e 6.000 mon a metà velocità.</li></ul><p><strong>Moltiplicatore della bardatura</strong>: x3. </p>",
+            "items": {
+                "93NF1XrF9ncNU8e3": {
+                    "description": "La pelle spessa e resistente del Grande Cinghiale fornisce un'effettiva Classe Armatura pari a 3.",
+                    "name": "Pelle Spessa"
+                },
+                "EDOSQgktCB9etamy": {
+                    "description": "Il Grande Cinghiale può caricare per 20 metri prima di attaccare, infliggendo danni doppi con il suo attacco con le zanne.",
+                    "name": "Carica"
+                },
+                "hOPewdCGYxBcJfUA": {
+                    "description": "Un potente attacco con la zanna che infligge 2d8 danni. Se il Grande Cinghiale carica per 20 metri, infligge danni doppi.",
+                    "name": "Zanna Grande"
+                }
+            },
+            "name": "Chinghiale Grande"
         }
-    }
+    },
+    "label": "Compendium dei Mostri"
 }
