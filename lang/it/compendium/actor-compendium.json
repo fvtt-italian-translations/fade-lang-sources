@@ -728,6 +728,303 @@
                 }
             },
             "name": "Chinghiale Grande"
+        },
+        "Brigand": {
+            "items": {
+                "MIiVkp1bS17K8JGD": {
+                    "description": "<p>Questo è una armatura composta principalmente da piastre e strisce di cuoio. La pelle viene spesso bollita nella cera per indurirla. L'armatura di cuoio conferisce una classe armatura di 7 e poiché è realizzata con materiali naturali, può essere indossata dai druidi. È anche abbastanza leggera e silenziosa da poter essere indossata dai ladri.</p>",
+                    "name": "Armatura in Cuoio"
+                },
+                "8pCcBZLE1v8CfXbI": {
+                    "description": "<p>Uno scudo è un grande pezzo solido di legno o metallo che può essere tenuto in una mano o legato a un braccio. Viene utilizzato per parare gli attacchi in mischia e fornire copertura dagli attacchi a distanza. Uno scudo viene normalmente utilizzato insieme all'armatura e fornisce un bonus aggiuntivo di -1 alla classe armatura del personaggio. Se usato senza armature, uno scudo fornisce un bonus di -1 alla classe di armatura naturale di un personaggio pari a 9, per una classe di armatura totale di 8. Gli scudi di legno possono essere usati dai druidi, poiché sono fatti principalmente di materiali naturali.</p>",
+                    "name": "Scudo"
+                },
+                "5kvmbJDzb1X2Lpce": {
+                    "description": "<p>Si tratta di una protezione composta principalmente da piccoli anelli metallici collegati tra loro per formare un materiale protettivo e flessibile. La corazza di maglia conferisce a un personaggio una Classe Armatura 5.</p>",
+                    "name": "Corazza di Maglia"
+                },
+                "a0obwOTukxa9n62r": {
+                    "description": "<p>Un arco corto è un arco da 90-120 cm, realizzato con un unico pezzo di legno o con un composto di legni diversi. Un arco corto richiede entrambe le mani per tirare. Gli archi richiedono l'uso di frecce come munizioni.</p>",
+                    "name": "Arco Corto"
+                },
+                "ee2HYp9XBv0xx6Cr": {
+                    "description": "<p>Una spada normale è una spada a una mano con una lama diritta o curva lunga da 60 a 90 cm. Questa categoria di spade comprende una varietà di stili diversi di spada, che vanno dalle scimitarre agli spadoni e persino agli stocchi.</p>",
+                    "name": "Spada"
+                }
+            },
+            "biography": "<p>I briganti sono fuorilegge vagamente organizzati e mercenari rinnegati che vivono razziando città e derubando carovane e viaggiatori. La maggior parte sono combattenti con bassi livelli di addestramento ed equipaggiamento.</p><p>I briganti spesso si organizzano in accampamenti di 50-300 uomini, con leader che sono combattenti di livello superiore. Per ogni 20 briganti c'è un leader combattente di 2° livello e per ogni 40 briganti c'è un comandante di 4° livello.</p><p>Metà dei briganti sono a cavallo, indossano una cotta di maglia e portano scudi e spade. Gli altri indossano armature di cuoio, portano scudi, archi corti e spade. I leader indossano corazza di piastre, portano spade e lance e cavalcano cavalli da guerra con bardatura.</p><p><strong>Comandanti dei briganti:</strong> gli accampamenti dei briganti possono essere guidati da un guerriero di 9° livello e potrebbero includere chierici o utenti di magia di livello superiore. C'è una probabilità del 50% che ci sia un mago di 9°-11° livello nel campo e una probabilità del 30% che ci sia un chierico di 8° livello.</p><p><strong>Armi e armature:</strong> la metà i briganti sono dotati di armature di cuoio e archi corti; gli altri cavalcano cavalli dotati di cotta di maglia e scudi.<br><strong>Terreno:</strong> deserto (qualsiasi).<br></p>",
+            "name": "Brigante"
+        },
+        "Bugbear": {
+            "biography": "<p>I bugbear sono goblinoidi grandi e pelosi, alti circa 2 metri e mezzo e ricoperti di pelliccia ruvida e scura. Nonostante le loro dimensioni imponenti e l'andatura un po' goffa, sono eccezionalmente furtivi e capaci di muoversi con sorprendente tranquillità. Ciò consente loro di lanciare assalti improvvisi e inaspettati, sorprendendo gli avversari con un tiro di 1-3 su 1d6. La loro formidabile forza garantisce loro un bonus di +1 sia ai tiri per colpire che per i danni quando impugnano le armi.</p><p>Nella natura selvaggia, i bugbear vivono in piccole comunità da 5 a 20 membri e formano gruppi di caccia da 2 a 16 combattenti. Cacciano animali da branco e spesso razziano le fattorie, prendendo di mira i depositi di grano e gli affumicatori. Durante i periodi disperati, potrebbero persino dedicarsi alla caccia degli umani per il loro sostentamento. Nonostante il loro aspetto brutale, i bugbear possiedono un'intelligenza astuta. Costruiscono le proprie armi rudimentali, come coltelli, mazze e lance, ma sono più che capaci di usare armi superiori rubate agli insediamenti umani.</p><p>Occasionalmente, si possono trovare anche bugbear con incantatori tra i loro ranghi. Per ulteriori informazioni, fai riferimento alla sezione \"Mostri incantatori\".</p><p><strong>Terreno:</strong> caverna, collina, montagna, bosco.</p>",
+            "items": {
+                "2pylvx4sONY1jR20": {
+                    "description": "La rozza armatura e la pelliccia ispida del Bugbear gli conferiscono una Classe Armatura 5.",
+                    "name": "Armatura Grezza"
+                },
+                "rVDdp6W2lLN1Vz1r": {
+                    "description": "Grazie alla loro furtività, i Bugbear possono sorprendere con un tiro di 1-3 su 1d6.",
+                    "name": "Attacco di Sorpresa"
+                },
+                "xb2iWKHAzKaJE3rz": {
+                    "description": "<p>La lancia è una punta di metallo attaccata a un'estremità di un palo medio-lungo (2-3 m). Guerrieri, nani, elfi e mistici possono utilizzare la manovra lancia contro la carica.</p>",
+                    "name": "Lancia"
+                }
+            },
+            "name": "Bugbear"
+        },
+        "Cat, Sabre-Tooth Tiger": {
+            "biography": "<p>Le tigri dai denti a sciabola sono tra i grandi felini più grandi e pericolosi, con zanne enormi e una reputazione temibile. Trovata in ambientazioni remote, \"mondo perduto\", sono predatori rari e feroci che incutono paura a qualsiasi creatura abbastanza sfortunata da incrociare il loro cammino.</p>",
+            "items": {
+                "FdxwqE9Jmr4pO50j": {
+                    "description": "La tigre dai denti a sciabola attacca con gli artigli e il morso. Il danno è 1d10/1d10/1d10.",
+                    "name": "Artigli"
+                },
+                "QY1YThuG6PKdE4ZV": {
+                    "description": "La Tigre dai denti a sciabola può caricare la sua preda, infliggendo danni aggiuntivi quando carica con successo per 9 metri o più.",
+                    "name": "Carica Spaventosa"
+                },
+                "ViBY58Me4EmvauOY": {
+                    "name": "Folta Pelliccia",
+                    "description": "La folta pelliccia della Tigre dai denti a sciabola fornisce un'effettiva Classe Armatura 6."
+                },
+                "v8uweb7t7dMtBvX0": {
+                    "name": "Morso"
+                }
+            },
+            "name": "Tigre dai Denti a Sciabola"
+        },
+        "Buccaneer": {
+            "biography": "<p>I bucanieri sono predoni marittimi che vivono saccheggiando le città costiere e catturando le navi. Di solito sono combattenti neutrali e sono organizzati in equipaggi a bordo delle navi. Il numero di bucanieri dipende dalle dimensioni della nave, che varia da 10 a 80 uomini per nave.</p>\n        <p>Per ogni 30 bucanieri, c'è un leader guerriero di 4° livello, mentre ogni nave ha un capitano di 7° livello e un comandante di 9° livello. C'è una probabilità del 30% che un mago di 10°-11° livello sia a bordo con il comandante e una probabilità del 25% che un chierico di 8° livello.</p>\n        <p>I bucanieri indossano **armature in cuoio** e brandiscono **spade**, e alcuni possono portare **balestre**. Preferiscono vendere il loro bottino in porti nascosti.</p>\n        <strong>Armi e armature:</strong> armatura in cuoio, spada e balestra.<br>\n        <strong>Organizzazione speciale:</strong> equipaggio di base con leadership basata sulle dimensioni della nave.<br>\n        <strong>Terreno:</strong> fiumi, laghi, oceani.<br>",
+            "items": {
+                "4Ul5jGKVyT0VzuaN": {
+                    "description": "<p>Questo è una armatura composta principalmente da piastre e strisce di cuoio. La pelle viene spesso bollita nella cera per indurirla. L'armatura di cuoio conferisce una classe armatura di 7 e poiché è realizzata con materiali naturali, può essere indossata dai druidi. È anche abbastanza leggera e silenziosa da poter essere indossata dai ladri.</p>",
+                    "name": "Armatura in Cuoio"
+                },
+                "VyrNE0oM2jvMxbrZ": {
+                    "description": "<p>Una spada normale è una spada a una mano con una lama diritta o curva lunga da 60 a 90 cm. Questa categoria di spade comprende una varietà di stili diversi di spada, che vanno dalle scimitarre agli spadoni e persino agli stocchi.</p>",
+                    "name": "Spada"
+                },
+                "ynBbC4h4got9Du8n": {
+                    "description": "<p>Una balestra leggera è un'arma da tiro di medie dimensioni, anche se richiede comunque due mani per essere brandita. Ha potenti bracci metallici e una corda che viene tirata indietro tramite una leva. Le balestre richiedono l'uso di dardi come munizioni.</p>",
+                    "name": "Balestra Leggera"
+                }
+            },
+            "name": "Bucaniere o Pirata"
+        },
+        "Camel": {
+            "biography": "<p>I cammelli sono notoriamente creature irascibili, inclini a mordere o calciare qualsiasi creatura che li infastidisca, compresi i loro stessi allevatori. Di solito calciano con una gamba sola. Nonostante il loro temperamento, i cammelli sono ampiamente utilizzati come animali da soma e da cavalcatura nei deserti e nelle terre aride, dove possono muoversi con facilità come se attraversassero un terreno sgombro. Un cammello ben idratato può viaggiare fino a due settimane senza bere. Sebbene siano principalmente erbivori che si nutrono di erba e cereali, i cammelli ricorrono a mangiare pelle e ossa di animali quando il cibo scarseggia.</p><p>Un cammello con una sola gobba è noto come dromedario, mentre quelli con due gobbe sono chiamati Cammelli del Bactrian.</p><p><strong>Terreno:</strong> terre sterili (del Bactrian), deserto (dromedario).<br><strong>Carico:</strong> 3.000 mon a velocità normale; 6.000 mon a metà velocità.<br><strong>Moltiplicatore della bardatura:</strong> x1.</p>",
+            "items": {
+                "AKFMHxRf1eaBYw5B": {
+                    "description": "Un attacco con il morso che infligge 1 punto danno.",
+                    "name": "Morso"
+                },
+                "BIcYqkmQSgWc7y2y": {
+                    "description": "Un attacco con il calcio infligge 1d4 danni. I cammelli spesso calciano con una gamba alla volta.",
+                    "name": "Zoccolata"
+                },
+                "iXZz7UfLzZCDqYit": {
+                    "description": "La spessa pelle del cammello fornisce una Classe Armatura 7.",
+                    "name": "Pelle Spessa"
+                }
+            },
+            "name": "Cammello"
+        },
+        "Cat, Panther": {
+            "biography": "<p>Le pantere sono predatori rapidi e agili, che spesso si trovano nelle pianure, nelle foreste e nelle lande piene di arbusti. La loro pelliccia nera e la velocità li rendono cacciatori efficienti, capaci di brevi scatti di incredibile velocità per catturare la preda.</p>",
+            "items": {
+                "3lau7swyRCzexGtG": {
+                    "description": "Le pantere possono balzare sulla preda, sfruttando la velocità per accorciare rapidamente la distanza.",
+                    "name": "Balzare"
+                },
+                "EGkOW8yZGCrkd3Nq": {
+                    "description": "La pantera attacca con gli artigli e il morso. Il danno è 1d4/1d4/1d8.",
+                    "name": "Artrigli"
+                },
+                "eZPtiPw585fcMrHw": {
+                    "name": "Morso"
+                },
+                "sAh2EpeQtbWNTtX0": {
+                    "description": "La pelliccia lucida della Pantera fornisce una Classe Armatura 6.",
+                    "name": "Pelliccia Lucida"
+                }
+            },
+            "name": "Pantera"
+        },
+        "Centaur": {
+            "biography": "<p>Un centauro è una creatura con la testa, le braccia e la parte superiore del corpo di un uomo unite al corpo e alle gambe di un cavallo. Hanno un'intelligenza umana media e spesso portano armi (mazze, lance e archi; un'arma per creatura). Un centauro può usare un attacco caricato con una lancia.</p>\n    <p>I centauri si formeranno in piccole tribù o famiglie. Le loro case sono in fitti boschetti o foreste. Le femmine e i piccoli solitamente rimangono nella tana. Se attaccati, le femmine e i giovani tenteranno di fuggire; se la fuga è impossibile, combatteranno fino alla morte. I giovani combattono come mostri da 2 DV e infliggono meno danni (1d2/1d2/1d4).</p>\n    <p>Ci possono essere incantatori centauri; vedi \"Mostri incantatori.\"</p>\n    <p><strong>Terreno:</strong> boschi, spazi aperti, colline boscose.<br><strong>Carico:</strong> 3.000 mon a piena velocità; 6.000 mon a metà velocità.</p>",
+            "items": {
+                "HcHatsCl5AlOrXAb": {
+                    "description": "L'armatura naturale del Centauro fornisce una protezione equivalente all'armatura in cuoio.",
+                    "name": "Armatura"
+                },
+                "OZYUuIABaHdFscCo": {
+                    "description": "Il Centauro attacca con due zoccoli, ciascuno dei quali infligge 1d6 danni.",
+                    "name": "Zoccolo"
+                }
+            },
+            "name": "Centauro"
+        },
+        "Centipede, Giant": {
+            "biography": "<p>Un millepiedi gigante è un insetto lungo trenta centimetri e dotato di molte zampe. Preferiscono luoghi bui e umidi e si trovano spesso nelle segrete o sui tronchi e sui rami degli alberi nelle foreste profonde. Di solito non attaccano i viaggiatori ma di solito attaccano qualcuno che li disturba.</p>\n    <p>Attaccano mordendo. Il morso non provoca danni ai personaggi, ma la vittima deve effettuare un tiro salvezza contro veleno o si ammala gravemente per 10 giorni. I personaggi che non effettuano i tiri salvezza si muovono a velocità dimezzata e non saranno in grado di eseguire nessun'altra azione fisica. Il morso è più efficace contro creature molto piccole, come gli uccelli e gli insetti di cui si nutrono; tali creature devono effettuare un tiro salvezza contro veleno o morire.</p>\n    <p><strong>Terreno:</strong> caverna, rovine, bosco.</p>",
+            "name": "Millepiedi Gigante",
+            "items": {
+                "f0xax0Vylac9Eyev": {
+                    "description": "Il morso del millepiedi gigante non provoca danni diretti, ma la vittima deve effettuare un tiro salvezza contro veleno o si ammala gravemente per 10 giorni. I personaggi che falliscono i tiri salvezza si muovono a velocità dimezzata e non possono eseguire altre azioni fisiche.",
+                    "name": "Morso Velenoso"
+                }
+            }
+        },
+        "Caecilia": {
+            "biography": "<p>Questa enorme creatura grigia, simile a un verme, si estende fino a 9 metri di lunghezza ed è un vorace carnivoro che può essere trovato in quasi tutti gli ambienti. Le cecilia spesso giacciono nascoste appena sotto la superficie del terreno soffice, in attesa di tendere un'imboscata ad animali o esseri umani ignari. Quando la preda si avvicina, emergono dal terreno, attaccando con le loro grandi bocche e denti aguzzi.</p><p>Se una Caecilia ottiene un 19 o 20 naturale nel suo attacco, inghiotte la sua vittima intera. Una creatura ingoiata subisce 1d8 danni ogni round finché la vittima o Caecilia non muoiono.</p><p><strong>Terreno:</strong> qualsiasi tranne l'Artico</p>",
+            "items": {
+                "QLGyWsdXRt7BZMKQ": {
+                    "description": "La dura pelle del Caecilia fornisce una Classe Armatura 6.",
+                    "name": "Pelle Spessa"
+                },
+                "rHB8iWWyo9agygc7": {
+                    "description": "Se la Caecilia ottiene un 19 o un 20 naturale nel suo attacco, ingoia il bersaglio intero. La vittima ingoiata subisce 1d8 danni ogni round finché la vittima o la Caecilia non muoiono.",
+                    "name": "Inghiottire Intero"
+                },
+                "tBl1sXWafPGBdZGF": {
+                    "description": "Un potente attacco con il morso che infligge 1d8 danni. Se la Caecilia ottiene un 19 o un 20 naturale, ingoia il bersaglio intero.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Caecilia"
+        },
+        "Cat, Lion": {
+            "biography": "<p>I leoni sono grandi predatori che vivono nei climi caldi, in particolare nella savana e nelle zone arbustive. Cacciano in gruppi chiamati branchi e sono noti per la loro ferocia e forza, soprattutto quando proteggono il loro territorio.</p>",
+            "items": {
+                "MECn3UT62NAHQizY": {
+                    "description": "I leoni spesso guidano i branchi e sono noti per la loro natura strategica e protettiva, soprattutto quando difendono il loro territorio o i loro giovani.",
+                    "name": "Leader Orgoglioso"
+                },
+                "eZ2UPH9QIPcyq1tx": {
+                    "description": "Il leone attacca con gli artigli e morde. Il danno è 1d4+1/1d4+1/1d6+1.",
+                    "name": "Artigli"
+                },
+                "g9SJzqoof5SJPIYk": {
+                    "description": "La folta criniera del Leone fornisce una Classe Armatura 6.",
+                    "name": "Folta Criniera"
+                },
+                "mzflUpBBcB2MzKI6": {
+                    "name": "Morso"
+                }
+            },
+            "name": "Leone"
+        },
+        "Cat, Mountain Lion": {
+            "biography": "<p>I leoni di montagna sono predatori dal pelo fulvo che popolano regioni montuose, foreste e deserti. Spesso si avventurano più in profondità nelle caverne e nei sotterranei rispetto agli altri grandi felini e inseguono le prede in fuga con implacabile determinazione.</p>",
+            "items": {
+                "HB06RYsTXQtAwtTW": {
+                    "name": "Morso"
+                },
+                "OCLOz8BGVGUsyebv": {
+                    "description": "I leoni di montagna sono molto agili e possono saltare a grandi distanze, rendendoli formidabili predatori nel loro terreno.",
+                    "name": "Agilità Felina"
+                },
+                "bmhAmMTiV5UQuGbW": {
+                    "description": "La folta pelliccia del Leone di Montagna fornisce un'effettiva Classe Armatura 4.",
+                    "name": "Folta Pelliccia"
+                },
+                "dUE4qTqPYQvFCQGR": {
+                    "description": "Il leone di montagna attacca con gli artigli e il morso. Il danno è 1d3/1d3/1d6.",
+                    "name": "Artigli"
+                }
+            },
+            "name": "Leone di Montagna"
+        },
+        "Cat, Tiger": {
+            "biography": "<p>Le tigri sono i più grandi tra i grandi felini comuni. Sono predatori solitari che spesso si trovano in climi più freddi e fitte foreste dove la loro pelliccia striata si mimetizza. Le tigri sono note per la loro forza e agilità, spesso sorprendono la preda con attacchi improvvisi.</p>",
+            "items": {
+                "2lLsIdeAXslpltxX": {
+                    "description": "La pelliccia striata della Tigre fornisce una Classe Armatura 6.",
+                    "name": "Pelliccia Striata"
+                },
+                "BYKzMBDT7uXOVFZM": {
+                    "description": "Le tigri possono tendere un'imboscata alla loro preda con eccezionale abilità, sorprendendo con un tiro di 1-4 su 1d6 nel fitto fogliame o in aree boscose.",
+                    "name": "Imboscata"
+                },
+                "YiPwIoEnfvrKf4sA": {
+                    "description": "La Tigre attacca con gli artigli e il morso. Il danno è 1d8/1d8/2d8.",
+                    "name": "Artigli e Morso"
+                }
+            },
+            "name": "Tigre"
+        },
+        "Chimera": {
+            "biography": "<p>Una chimera è una creatura temibile e terrificante, un mix di tre bestie: un leone, una capra e un drago. Il suo corpo è una combinazione di queste creature, con la parte anteriore di un leone, quella posteriore di una capra e le ali e la coda di un drago. Possiede tre teste, ognuna delle quali ha uno scopo diverso in battaglia.</p>\n        <p>La chimera è una bestia altamente territoriale e solitaria, raramente vista in compagnia di altri. Di solito vive sulle colline selvagge, ma a volte può essere trovata in profonde segrete o rovine. In alcuni casi, è noto che le chimere si accoppiano e vivono con i loro piccoli in un piccolo gruppo familiare.</p>\n        <p>In combattimento, la chimera attacca ferocemente con le sue molteplici teste: la testa della capra tenta di colpire i nemici, la testa del leone morde con forza mortale e la testa del drago può mordere o scatenare un'arma a soffio infuocata. Il soffio della testa del drago è un cono di fuoco che si estende per 15 metri di lunghezza e 3 metri di larghezza all'estremità, infliggendo 3d6 danni. Può sputare fuoco fino a tre volte al giorno. In combattimento, c'è una probabilità del 50% per ogni round che la chimera utilizzi il suo soffio se ne ha ancora degli usi.</p>\n        <p>Di tanto in tanto, una chimera diventa spietata, attaccando qualsiasi insediamento umano vicino e tentando di scacciare tutta la vita dall'area. Queste chimere spietate sono ancora più pericolose, poiché non fermeranno la loro furia finché non verranno uccise o finché il loro territorio non sarà completamente privo di vita.</p>\n        <strong>Terreno:</strong> Caverna, Collina, Montagna, Rovine.<br>\n        <strong>Carico:</strong> 4.500 mon a piena velocità, 9.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore della bardatura:</strong> x 3.<br>",
+            "items": {
+                "3NYUfrZdZj9N9Zbu": {
+                    "description": "<p>La testa del drago sputa fuoco in un cono lungo 15 metri e largo 3 metri, infliggendo 3d6 danni. Può essere utilizzato fino a tre volte al giorno.</p>",
+                    "name": "Soffio (Fuoco)"
+                },
+                "Jc19FXGOk9ur5UCt": {
+                    "description": "Un attacco con la testa della capra che infligge 2d4 danni.",
+                    "name": "Testata (Capra)"
+                },
+                "TNhSowbEaCNobr0l": {
+                    "description": "Un attacco con gli artigli infligge 1d3 danni.",
+                    "name": "Artiglio"
+                },
+                "UMIamk1GqgCtYzgy": {
+                    "description": "La pelle dura della chimera, simile a quella di un drago, offre protezione naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "Y0nYzFCQrDloogx1": {
+                    "description": "Un attacco con il morso della testa del leone infligge 1d10 danni.",
+                    "name": "Morso (Leone)"
+                },
+                "gVsOo4fbJ6Y5SxYn": {
+                    "description": "Un attacco con il morso della testa del drago infligge 3d4 danni.",
+                    "name": "Morso (Drago)"
+                }
+            },
+            "name": "Chimera"
+        },
+        "Cockatrice": {
+            "biography": "<p>La Cockatrice è un mostro magico con la testa, le ali e le zampe di un gallo e la coda di un serpente. Il suo attacco con il becco provoca 1d6 danni. Qualsiasi creatura morsa o toccata da una cockatrice deve effettuare un tiro salvezza o verrà trasformata in pietra. Le cockatrici possono essere trovate ovunque.</p>\n    <p>Sul Piano della Terra, una Cockatrice è una creatura simile a un uccello lunga trenta centimetri, fatta di terra soffice. È quasi innocua, in grado di infliggere solo 1 punto di danno con un attacco dal suo becco. Il suo tocco può comunque pietrificare una creatura non fatta di terra (il tiro salvezza si applica comunque). Le cockatrici si riproducono normalmente sul proprio piano.</p>\n    <p><strong>Terreno:</strong> qualsiasi.</p>",
+            "items": {
+                "GUq23r7PqvuEOYnh": {
+                    "description": "Qualsiasi creatura morsa o toccata dalla Cockatrice deve effettuare un tiro salvezza o verrà trasformata in pietra.",
+                    "name": "Pietrificazione"
+                },
+                "WSvxtGaDTLgO7pHT": {
+                    "description": "La Cockatrice attacca con il becco, infliggendo 1d6 danni. Qualsiasi creatura morsa o toccata deve effettuare un tiro salvezza o verrà trasformata in pietra.",
+                    "name": "Becco"
+                },
+                "kiPtYpo247TfqSz0": {
+                    "name": "Piume Resistenti"
+                }
+            },
+            "name": "Cockatrice"
+        },
+        "Crab, Giant": {
+            "biography": "<p>I granchi giganti sono animali non intelligenti che vivono in acque poco profonde, fiumi costieri e sepolti nella sabbia delle spiagge. Non sanno nuotare. Il granchio gigante comune ha un diametro di 2 metri, ma è possibile trovarne esemplari più grandi (fino a 6 Dadi Vita, che infliggono 3d6 danni per artiglio).</p>\n    <p>Sono sempre affamati e attaccano e mangiano tutto ciò che si muove. I granchi giganti di acqua salata hanno un aspetto leggermente diverso rispetto ai granchi giganti di acqua dolce.</p>\n    <p><strong>Terreno:</strong> oceano, fiume/lago (comprese le coste).</p>",
+            "items": {
+                "XRTUON0MIousxQQ5": {
+                    "description": "Il Granchio Gigante attacca con le sue chele, ciascuna delle quali infligge 2d6 danni.",
+                    "name": "Pinzata"
+                },
+                "tWkdf2Rmve5Z48g2": {
+                    "name": "Guscio di Granchio"
+                }
+            },
+            "name": "Granchio Gigante"
+        },
+        "Crocodile, Giant": {
+            "items": {
+                "PSaYhsahDzhi985U": {
+                    "description": "Il Coccodrillo Gigante attacca con un morso, infliggendo 3d8 danni.",
+                    "name": "Morso"
+                },
+                "o9JUVPKpWCXSpoPG": {
+                    "name": "Scaglie Indurite"
+                }
+            },
+            "biography": "<p>I coccodrilli giganti si trovano quasi sempre nei \"mondi perduti\" dove prosperano creature preistoriche. Sono lunghi più di 15 metri e sono noti per attaccare piccole navi. Si trovano comunemente nelle paludi e nei fiumi tropicali e semitropicali e talvolta nei fiumi e nei mari sotterranei.</p>\n    <p><strong>Terreno:</strong> fiume, palude.<br><strong>Coccodrillo gigante:</strong> \"Mondi perduti.\"</p>",
+            "name": "Coccodrillo Gigante"
         }
     },
     "label": "Compendium dei Mostri"
