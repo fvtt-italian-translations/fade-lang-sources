@@ -1025,6 +1025,50 @@
             },
             "biography": "<p>I coccodrilli giganti si trovano quasi sempre nei \"mondi perduti\" dove prosperano creature preistoriche. Sono lunghi più di 15 metri e sono noti per attaccare piccole navi. Si trovano comunemente nelle paludi e nei fiumi tropicali e semitropicali e talvolta nei fiumi e nei mari sotterranei.</p>\n    <p><strong>Terreno:</strong> fiume, palude.<br><strong>Coccodrillo gigante:</strong> \"Mondi perduti.\"</p>",
             "name": "Coccodrillo Gigante"
+        },
+        "Crocodile, Normal": {
+            "biography": "<p>I Coccodrilli si trovano comunemente nelle paludi e nei fiumi tropicali e semitropicali. A volte si vedono nei fiumi e nei mari sotterranei. Goffi sulla terraferma, i coccodrilli non si allontanano molto dall'acqua e trascorreranno ore a galleggiare appena sotto la superficie. In questi momenti, possono essere scambiati per registri.</p>\n    <p>Se affamati, questi animali attaccheranno le creature nell'acqua. Sono particolarmente attratti dall'odore del sangue o dal violento sbattere dell'acqua. I coccodrilli normali crescono fino a 3 metri o più di lunghezza.</p>\n    <p><strong>Terreno:</strong> Fiume, Palude.</p>",
+            "items": {
+                "2sZtOim2ymFb3WtF": {
+                    "name": "Scaglie"
+                },
+                "zHyTCOTKoPhnuhAh": {
+                    "description": "Il Coccodrillo Normale attacca con un morso, infliggendo 1d8 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Coccodrillo,Normale"
+        },
+        "Cyclops": {
+            "biography": "<p>Un Ciclope (plurale: Ciclopi) è un raro tipo di gigante, noto per le sue grandi dimensioni e l'unico occhio al centro della fronte. Un ciclope è alto circa 6 Metri . Ha una scarsa percezione della profondità a causa del suo singolo occhio, e colpisce con una penalità di -2 su tutti i tiri per colpire. Un ciclope di solito combatte con una mazza di legno e può lanciare pietre a una distanza di 60 metri (18/40/60), ogni colpo causa 3d6 punti di danno.</p>\n    <p>Alcuni Ciclopi (5%) sono in grado di lanciare una maledizione una volta alla settimana. Il DM dovrebbe decidere l'esatta natura della maledizione. I Ciclopi sono solitamente solitari, ma a volte possono condividere una grande grotta con un piccolo gruppo. Sono noti per la loro stupidità e un gruppo intelligente può spesso sfuggire a loro con l'inganno.</p>\n    <p><strong>Terreno:</strong> Collina, Montagna.</p>",
+            "items": {
+                "Q6FRNW7NvTqy0AII": {
+                    "description": "Il Ciclope può lanciare pietre fino a 60metri (18/39/60),ed ognuno di essi causare 3d6 punti di danno.",
+                    "name": "Lancio di rocce"
+                },
+                "g9qQ9jJvhmi3KEAQ": {
+                    "description": "Il Ciclope attacca con una mazza di legno, infliggendo 3d10 danni.",
+                    "name": "Clava"
+                },
+                "xWlMQnJGzdQtdEoE": {
+                    "description": "Alcuni ciclopi (15%) possono lanciare una maledizione una volta alla settimana. Il DM dovrebbe decidere l'esatta natura della maledizione.",
+                    "name": "Maledizione"
+                }
+            },
+            "name": "Ciclopi"
+        },
+        "Crocodile, Large": {
+            "items": {
+                "T7ak2uyDlsqqdBxs": {
+                    "description": "Il Grande Coccodrillo attacca con un morso, infliggendo 2d8 danni.",
+                    "name": "Morso"
+                },
+                "pg1KdswkCspnOPcg": {
+                    "name": "Squame"
+                }
+            },
+            "name": "Coccodrillo,Grande",
+            "biography": "<p>I grandi coccodrilli sono lunghi circa 3 metri e possono ribaltare canoe e piccole zattere. Si trovano comunemente nelle paludi e nei fiumi tropicali e semitropicali. A volte si vedono nei fiumi e nei mari sotterranei. Goffi sulla terraferma, i coccodrilli non si allontanano molto dall'acqua e trascorrono ore a galleggiare appena sotto la superficie, apparendo come tronchi.</p>\n    <p><strong>Terreno:</strong> Fiume, Palude.</p>"
         }
     },
     "label": "Compendium dei Mostri"
