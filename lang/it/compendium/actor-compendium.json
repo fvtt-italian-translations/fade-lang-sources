@@ -1040,10 +1040,10 @@
             "name": "Coccodrillo,Normale"
         },
         "Cyclops": {
-            "biography": "<p>Un Ciclope (plurale: Ciclopi) è un raro tipo di gigante, noto per le sue grandi dimensioni e l'unico occhio al centro della fronte. Un ciclope è alto circa 6 Metri . Ha una scarsa percezione della profondità a causa del suo singolo occhio, e colpisce con una penalità di -2 su tutti i tiri per colpire. Un ciclope di solito combatte con una mazza di legno e può lanciare pietre a una distanza di 60 metri (18/40/60), ogni colpo causa 3d6 punti di danno.</p>\n    <p>Alcuni Ciclopi (5%) sono in grado di lanciare una maledizione una volta alla settimana. Il DM dovrebbe decidere l'esatta natura della maledizione. I Ciclopi sono solitamente solitari, ma a volte possono condividere una grande grotta con un piccolo gruppo. Sono noti per la loro stupidità e un gruppo intelligente può spesso sfuggire a loro con l'inganno.</p>\n    <p><strong>Terreno:</strong> Collina, Montagna.</p>",
+            "biography": "<p>Un Ciclope (plurale: Ciclopi) è un raro tipo di gigante, noto per le sue grandi dimensioni e l'unico occhio al centro della fronte. Un ciclope è alto circa 6 Metri . Ha una scarsa percezione della profondità (prospettiva) a causa del suo singolo occhio, e colpisce con una penalità di -2 su tutti i tiri per colpire. Un ciclope di solito combatte con una mazza di legno e può lanciare pietre a una distanza di 60 metri (18/40/60), ogni colpo causa 3d6 punti di danno.</p>\n    <p>Alcuni Ciclopi (5%) sono in grado di lanciare una maledizione una volta alla settimana. Il DM dovrebbe decidere l'esatta natura della maledizione. I Ciclopi sono solitamente solitari, ma a volte possono condividere una grande grotta con un piccolo gruppo. Sono noti per la loro stupidità e un gruppo intelligente può spesso sfuggire a loro con l'inganno.</p>\n    <p><strong>Terreno:</strong> Collina, Montagna.</p>",
             "items": {
                 "Q6FRNW7NvTqy0AII": {
-                    "description": "Il Ciclope può lanciare pietre fino a 60metri (18/39/60),ed ognuno di essi causare 3d6 punti di danno.",
+                    "description": "Il Ciclope può lanciare pietre fino a 60metri (18/40/60),ed ognuno di essi causare 3d6 punti di danno.",
                     "name": "Lancio di rocce"
                 },
                 "g9qQ9jJvhmi3KEAQ": {
@@ -1051,8 +1051,11 @@
                     "name": "Clava"
                 },
                 "xWlMQnJGzdQtdEoE": {
-                    "description": "Alcuni ciclopi (15%) possono lanciare una maledizione una volta alla settimana. Il DM dovrebbe decidere l'esatta natura della maledizione.",
+                    "description": "Alcuni ciclopi (5%) possono lanciare una maledizione una volta alla settimana. Il DM dovrebbe decidere l'esatta natura della maledizione.",
                     "name": "Maledizione"
+                },
+                "P4Nvz2LG15LJ1Kvj": {
+                    "name": "Armatura Grezza in Pelle"
                 }
             },
             "name": "Ciclopi"
@@ -1069,6 +1072,170 @@
             },
             "name": "Coccodrillo,Grande",
             "biography": "<p>I grandi coccodrilli sono lunghi circa 3 metri e possono ribaltare canoe e piccole zattere. Si trovano comunemente nelle paludi e nei fiumi tropicali e semitropicali. A volte si vedono nei fiumi e nei mari sotterranei. Goffi sulla terraferma, i coccodrilli non si allontanano molto dall'acqua e trascorrono ore a galleggiare appena sotto la superficie, apparendo come tronchi.</p>\n    <p><strong>Terreno:</strong> Fiume, Palude.</p>"
+        },
+        "Devilfish, Vampire (5 HD)": {
+            "biography": "<p>I pesci diavolo vampiro sono una variante mortale della razza Devilfish. Ottengono poteri vampirici, che consentono loro di prosciugare l'energia vitale dai loro avversari. Queste creature si trovano spesso nelle profondità dell'oceano e guidano gruppi di Devilfish standard.</p>\n    <p>Gli attacchi con morso e coda di un Pesce diavolo vampiro infliggono danni maggiori e ogni colpo andato a segno infligge un doppio consumo di energia al bersaglio. Sono immuni alle armi normali, rigenerano 1 PF per round e possono essere trasformati in vampiri.</p>\n    <p><strong>Terreno:</strong> oceano, mari profondi.</p>",
+            "items": {
+                "0vV2VV2y7oHcITav": {
+                    "name": "Naturale"
+                },
+                "6rvE0VfbCxa6sfRG": {
+                    "description": "I morsi del Pesce Diavolo Vampiro infliggono 1d6 danni più il doppio del risucchio di energia.",
+                    "name": "Morso"
+                },
+                "S6W2NW696LwOSEFC": {
+                    "description": "Il Pesce Diavolo Vampiro attacca con la coda, infliggendo 1d4 danni più il doppio del risucchio di energia.",
+                    "name": "Coda"
+                },
+                "jlF2GCQU5OcBvMqf": {
+                    "description": "Il Pesce Diavolo Vampiro può lanciare incantesimi come un chierico di 5° livello. Gli incantesimi includono cura ferite gravi, oscurità e dissolvi magie.",
+                    "name": "Incantesimi Clericali"
+                },
+                "mjX9ovNwDZM06lGu": {
+                    "description": "Ogni colpo andato a segno con il morso o con la coda infligge un doppio risucchio di energia, riducendo permanentemente i punti ferita del bersaglio a meno che non venga effettuato un tiro salvezza.",
+                    "name": "Risucchio di Energia"
+                },
+                "ohuZmVoammwp9ucZ": {
+                    "description": "Il Vampire Devilfish rigenera 1 punto ferita per round. Questa rigenerazione viene interrotta se il Devilfish viene trasformato o distrutto con mezzi magici.",
+                    "name": "Rigenerazione"
+                }
+            },
+            "name": "Pesce Diavolo (5 DV)"
+        },
+        "Dervish": {
+            "items": {
+                "VD4sjhnsUZ4w90PX": {
+                    "description": "<p>Uno scudo è un grande pezzo solido di legno o metallo che può essere tenuto in una mano o legato a un braccio. Viene utilizzato per parare gli attacchi in mischia e fornire copertura dagli attacchi a distanza. Uno scudo viene normalmente utilizzato insieme all'armatura e fornisce un bonus aggiuntivo di -1 alla classe armatura del personaggio. Se usato senza armature, uno scudo fornisce un bonus di -1 alla classe di armatura naturale di 9, per una classe di armatura totale di 8. Gli scudi di legno possono essere usati dai druidi, poiché sono fatti principalmente di materiali naturali.</p>",
+                    "name": "Scudo"
+                },
+                "AjdD03XBxjBJ50Fq": {
+                    "description": "<p>La lancia è una punta di metallo attaccata a un'estremità di un palo medio-lungo circa 2-2.5 m. Guerrieri, nani, elfi e mistici possono utilizzare la manovra lancia contro la carica.</p>",
+                    "name": "Lancia"
+                },
+                "ab3NujwifGyzXQBV": {
+                    "name": "Spada",
+                    "description": "<p>Una spada normale è una spada a una mano con una lama diritta o curva lunga da 60 a 90 cm. Questa categoria di spade comprende una varietà di stili diversi di spada, che vanno dalle scimitarre agli spadoni e persino agli stocchi.</p>"
+                },
+                "o1BI9Zi72LizLzYd": {
+                    "description": "<p>Quest'armatura è composta principalmente da piastre e strisce in cuoio. La pelle viene spesso bollita nella cera per indurirla. L'armatura in cuoio conferisce una classe armatura di 7 e poiché è realizzata con materiali naturali può essere indossata dai druidi. È anche abbastanza leggera e silenziosa da poter essere indossata dai ladri.</p>",
+                    "name": "Armatura in Cuoio"
+                }
+            },
+            "biography": "<p>I dervisci sono predoni del deserto, fanatici nelle loro convinzioni e intolleranti verso altri punti di vista. Spesso formano grandi accampamenti o tribù fino a 300 uomini, guidati da un chierico di 10° livello. Circa il 90% dei dervisci sono guerrieri, mentre il resto sono chierici.</p>\n        <p>Gli accampamenti dei dervisci possono essere costituiti da tende o palizzate di legno o mattoni. Questi campi contengono donne, bambini, bestiame e tesori. I dervisci possono anche intraprendere guerre sante per catturare o uccidere coloro che hanno convinzioni diverse, offrendo ai prigionieri la possibilità di convertirsi o di affrontare la morte o la riduzione in schiavitù.</p>\n        <strong>Armi e armature:</strong> i dervisci in genere indossano armature in cuoio e brandiscono spade, lance o scimitarre.<br>\n        <strong>Leadership:</strong> un accampamento derviscio è guidato da un chierico di 10° livello, con leader aggiuntivi a seconda delle dimensioni del gruppo.<br>\n        <strong>Terreno:</strong> deserto.<br>",
+            "name": "Devriscio"
+        },
+        "Devilfish, Vampire (6 HD)": {
+            "biography": "<p>I pesci diavolo vampiro sono una variante mortale della razza Devilfish. Ottengono poteri vampirici, che consentono loro di prosciugare l'energia vitale dai loro avversari. Queste creature si trovano spesso nelle profondità dell'oceano e guidano gruppi standard.</p>\n    <p>Gli attacchi con morso e coda di un Pesce diavolo vampiro infliggono danni maggiori e ogni colpo andato a segno infligge un doppio risucchio di energia al bersaglio. Sono immuni alle armi normali, rigenerano 1 PF per round e possono essere trasformati in vampiri.</p>\n    <p><strong>Terreno:</strong> oceano, mari profondi.</p>",
+            "items": {
+                "0zElKxQB4jDaMcwQ": {
+                    "description": "Ogni colpo andato a segno con il morso o con la coda infligge un doppio risucchio di energia, riducendo permanentemente i punti ferita del bersaglio a meno che non venga effettuato un tiro salvezza.",
+                    "name": "Risucchio di Energia"
+                },
+                "KDO1Wm59lmLNBRJ1": {
+                    "name": "Naturale"
+                },
+                "OxzvMX6RZfSEruIO": {
+                    "description": "Il Pesce Diavolo Vampiro attacca con la coda, infliggendo 1d4 danni più il doppio del risucchio di energia.",
+                    "name": "Coda"
+                },
+                "XNEeYRI8PPfmlbgx": {
+                    "description": "Il Pesce Diavolo Vampiro morde, infliggendo 1d6 danni più il doppio del risucchio di energia.",
+                    "name": "Morso"
+                },
+                "dDIcjyDqNChCOHyj": {
+                    "description": "Il Pesce Diavolo Vampiro rigenera 1 punto ferita per round. Questa rigenerazione viene interrotta se il pesce diavolo viene trasformato o distrutto con mezzi magici.",
+                    "name": "Rigenerazione"
+                },
+                "z9zgrqwOfioTeTZl": {
+                    "description": "Il Pesce Diavolo Vampiro può lanciare incantesimi come un chierico di 6° livello. Gli incantesimi includono cura ferite gravi, oscurità e dissolvi magie.",
+                    "name": "Incantesimi Clericali"
+                }
+            },
+            "name": "Pesce Diavolo Vampiro (6 DV)"
+        },
+        "Devilfish (1 HD)": {
+            "items": {
+                "EJZh5MNz14XJCJhS": {
+                    "name": "Naturale"
+                },
+                "GUcSOhPfwhU6i0Sk": {
+                    "description": "I pesci diavolo chierici possono lanciare incantesimi di 1° livello. Gli incantesimi includono cura ferite leggere, luce e protezione dal male.",
+                    "name": "Incantesimi Clericali"
+                },
+                "IibyxcsqeSwthIzE": {
+                    "description": "Il pesce diavolo morde, infliggendo 1 punto danno.",
+                    "name": "Morso"
+                },
+                "w4p9y4rTsuPDAISh": {
+                    "description": "Il pesce diavolo attacca con la coda, infliggendo 1 punto danno.",
+                    "name": "Coda"
+                }
+            },
+            "biography": "<p>I pesci diavolo sono una razza acquatica di chierici caotici che somigliano alle mante per forma, dimensioni e aspetto. Fuori dalle loro tane si trovano sempre in gruppi di 20 o più. La coda e il morso di un pesce diavolo con standard 1-4 Dadi Vita ciascuno, infliggono 1 punto danno.</p>\n    <p><strong>Terreno:</strong> oceano, fiumi costieri, coste.</p>",
+            "name": "Pesce Diavolo (1 DV)"
+        },
+        "Devilfish (2 HD)": {
+            "items": {
+                "D9NMGR8uXxqQLwsx": {
+                    "name": "Naturale"
+                },
+                "eHXmedMGAqeHo7fq": {
+                    "description": "Il pesce diavolo attacca con la coda, infliggendo 1 punto danno.",
+                    "name": "Coda"
+                },
+                "evl8GjJhZLCoJge2": {
+                    "name": "Incantesimi Clericali",
+                    "description": "I pesci diavolo chierici possono lanciare incantesimi come un chierico di 2° livello. Gli incantesimi includono cura ferite leggere, luce e protezione dal male."
+                },
+                "lfrbXATIvhvXfxI9": {
+                    "description": "I morsi del pesce diavolo infliggono 1 punto danno.",
+                    "name": "Morso"
+                }
+            },
+            "biography": "<p>I pesci diavolo sono una razza acquatica di chierici caotici che somigliano alle mante per forma, dimensioni e aspetto. Fuori dalle loro tane si trovano sempre in gruppi di 20 o più. La coda e il morso di un pesce diavolo con standard 2 Dadi Vita ciascuno, infliggono 1 punto danno.</p>\n    <p><strong>Terreno:</strong> oceano, fiumi costieri, coste.</p>",
+            "name": "Pesce Diavolo (2 DV)"
+        },
+        "Devilfish (3 HD)": {
+            "items": {
+                "NW14KODps2DTlQdl": {
+                    "description": "I morsi del pesce diavolo infliggono 1 punto danno.",
+                    "name": "Morso"
+                },
+                "3QNTE9QEmpb0ms4U": {
+                    "name": "Naturale"
+                },
+                "WHBad8UnyMNxjClD": {
+                    "description": "Il pesce diavolo attacca con la coda, infliggendo 1 punto danno.",
+                    "name": "Coda"
+                },
+                "g2dwTtnlsSOrz5aN": {
+                    "description": "I pesci diavolo chierici possono lanciare incantesimi come un chierico di 3° livello. Gli incantesimi includono cura ferite leggere, luce e protezione dal male.",
+                    "name": "Incantesimi Clericali"
+                }
+            },
+            "name": "Pesce Diavolo (3 DV)",
+            "biography": "<p>I pesci diavolo sono una razza acquatica di chierici caotici che somigliano alle mante per forma, dimensioni e aspetto. Fuori dalle loro tane si trovano sempre in gruppi di 20 o più. La coda e il morso di un pesce diavolo standard da 3 Dadi Vita ciascuno, infliggono 1 punto danno.</p>\n    <p><strong>Terreno:</strong> oceano, fiumi costieri, coste.</p>"
+        },
+        "Devilfish (4 HD)": {
+            "biography": "<p>I pesci diavolo sono una razza acquatica di chierici caotici che somigliano alle mante per forma, dimensioni e aspetto. Fuori dalle loro tane si trovano sempre in gruppi di 20 o più. La coda e il morso di un pesce diavolo standard da 4 Dadi Vita ciascuno, infliggono 1 punto danno.</p>\n    <p><strong>Terreno:</strong> oceano, fiumi costieri, coste.</p>",
+            "items": {
+                "N6ebxz1IGUFbuni7": {
+                    "description": "I morsi del pesce diavolo infliggono 1 punto danno.",
+                    "name": "Morso"
+                },
+                "UfKMdtQV8NZdD8Pu": {
+                    "description": "Il pesce diavolo attacca con la coda, infliggendo 1 punto danno.",
+                    "name": "Coda"
+                },
+                "fKX3yo2LrwCu5dAm": {
+                    "description": "I pesci diavolo chierici possono lanciare incantesimi come un chierico di 4° livello. Gli incantesimi includono cura ferite leggere, luce e protezione dal male.",
+                    "name": "Incantesimi Clericali"
+                },
+                "okAwvrWTdbzEVumt": {
+                    "name": "Naturale"
+                }
+            },
+            "name": "Pesce Diavolo (4 DV)"
         }
     },
     "label": "Compendium dei Mostri"
