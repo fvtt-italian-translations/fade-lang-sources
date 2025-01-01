@@ -46,7 +46,7 @@
             "items": {
                 "8zMkH5NaF4ejB9yM": {
                     "description": "il Servo Fluttuante tenta di catturare il suo bersaglio. In caso di successo, il bersaglio deve effettuare un tiro salvezza contro incantesimi o essere trattenuto.",
-                    "name": "Presa Attacco"
+                    "name": "Attacco con Presa"
                 },
                 "Vm7JtHuwwBL9REHf": {
                     "description": "<p>Il Servo Fluttuante può muoversi a super velocità, sorprendendo i suoi bersagli con un risultato di 1-7 su un tiro di 1d8. Questa capacità gli consente di cogliere di sorpresa i bersagli e completare rapidamente le attività.</p>",
@@ -1236,6 +1236,124 @@
                 }
             },
             "name": "Pesce Diavolo (4 DV)"
+        },
+        "Dinosaur, Large Aquatic": {
+            "biography": "<p>I grandi Dinosauri Acquatici assomigliano a serpenti marini giganti o a grandi tartarughe. Sono territoriali e spesso aggressivi se disturbati. Alcuni potrebbero persino tentare di ingoiare intere creature di dimensioni umane. I grandi dinosauri acquatici possono essere trovati negli oceani profondi e nei grandi fiumi.</p>\n    <p><strong>Terreno:</strong> Fiume/Lago, Oceano.</p>",
+            "items": {
+                "eST9FFkN8DLl8fm7": {
+                    "name": "Naturale"
+                },
+                "wNjZiNItEpkyXEhu": {
+                    "description": "Il Grande Dinosauro Acquatico morde infliggendo 2d4 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Grande Dinosauro Acquatico"
+        },
+        "Dinosaur, Large Carnivorous": {
+            "biography": "<p>I Grandi Dinosauri Carnivori sono predatori potenti e pericolosi. Attaccano usando sia gli artigli che i morsi e alcune specie più grandi possono persino ingoiare la preda intera. Questi dinosauri sono temuti nelle regioni preistoriche e spesso attaccano qualsiasi creatura che vedono come preda.</p>\n    <p><strong>Terreno:</strong> Foresta, Giungla, Prateria.</p>",
+            "items": {
+                "IZ6ksccpeXdzdhY1": {
+                    "description": "Il Grande Dinosauro Carnivoro usa gli artigli infliggendo 1d3 danni.",
+                    "name": "Artiglio"
+                },
+                "oy0cl1fVx2mIewsl": {
+                    "description": "Il Grande Dinosauro Carnivoro morde infliggendo 2d4 danni.",
+                    "name": "Morso"
+                },
+                "tbHrzbGa1eVX1VFY": {
+                    "name": "Naturale"
+                }
+            },
+            "name": "Grande Dinosauro Carnivoro"
+        },
+        "Devilfish, Vampire (8 HD)": {
+            "biography": "<p>I Vampiri Pesce Diavolo sono una variante mortale della razza Pesce Diavolo. Ottengono poteri vampirici, che consentono loro di prosciugare l'energia vitale dai loro avversari. Queste creature si trovano spesso nelle profondità dell'oceano e guidano gruppi di Pesce Diavolo Comune.</p>\n    <p>Gli attacchi con morso e coda di un Pesce Diavolo Vampiro infliggono danni maggiori e ogni colpo andato a segno infligge un doppio consumo di energia al bersaglio. Sono immuni alle armi non magiche, rigenerano 1 Punto Ferita per round e possono essere trasformati in vampiri.</p>\n    <p><strong>Terreno:</strong> oceano, mari profondi.</p>",
+            "items": {
+                "K4wwooRunsSqahlU": {
+                    "description": "Ogni colpo andato a segno con il morso o con la coda infligge un doppio risucchio di energia, riducendo permanentemente i punti ferita del bersaglio a meno che non venga effettuato un tiro salvezza.",
+                    "name": "Risucchio di Energia"
+                },
+                "N3U2RYlH4Xu3bHGz": {
+                    "description": "Il Morso del Pesce Diavolo Vampiro infligge 1d6 danni più il doppio di Risucchio di energia.",
+                    "name": "Morso"
+                },
+                "PpLpNSH2xyKVLbri": {
+                    "description": "Il Pesce Diavolo Vampiro rigenera 1 punto ferita per round. Questa rigenerazione viene interrotta se il Pesce Diavolo Vampiro viene trasformato o distrutto con mezzi magici.",
+                    "name": "Rigenerazione"
+                },
+                "iESts3K0IGVe92rz": {
+                    "description": "Il Pesce Diavolo Vampiro può lanciare incantesimi come un Chierico di 8° livello. Gli incantesimi includono Cura ferite gravi, Oscurità, Dissolvi magie, Blocca persone e Maledizione.",
+                    "name": "Incantesimi Clericali"
+                },
+                "qX2AqBGeLRfx6wUx": {
+                    "name": "Naturale"
+                },
+                "zpXC0uWOnEMHHWHO": {
+                    "description": "Il Pesce Diavolo Vampiro attacca con la coda infliggendo 1d4 danni più il doppio di Risucchio di energia.",
+                    "name": "Coda"
+                }
+            },
+            "name": "Pesce Diavolo Vampiro (8 DV)"
+        },
+        "Devilfish, Vampire (7 HD)": {
+            "biography": "<p>I Vampiri Pesce Diavolo sono una variante mortale della razza Pesce Diavolo. Ottengono poteri vampirici, che consentono loro di prosciugare l'energia vitale dai loro avversari. Queste creature si trovano spesso nelle profondità dell'oceano e guidano gruppi di Pesce Diavolo Comune.</p>\n    <p>Gli attacchi con morso e coda di un Pesce diavolo vampiro infliggono danni maggiori e ogni colpo andato a segno infligge un doppio consumo di energia al bersaglio. Sono immuni alle armi normali, rigenerano 1 Punto Ferita per round e possono essere trasformati in vampiri.</p>\n    <p><strong>Terreno:</strong> oceano, mari profondi.</p>",
+            "items": {
+                "0NxsKwSZtvKBpMIt": {
+                    "description": "Pesce Diavolo Vampiro può lanciare incantesimi come un chierico di 7° livello. Gli incantesimi includono cura ferite gravi, oscurità, dissolvi magia e blocca persona.",
+                    "name": "Incantesimi Clericali"
+                },
+                "FDkHc480wgrtbSZK": {
+                    "description": "Ogni colpo andato a segno con il morso o con la coda infligge un doppio risucchio di energia, riducendo permanentemente i punti ferita del bersaglio a meno che non venga effettuato un tiro salvezza.",
+                    "name": "Risucchio di Energia"
+                },
+                "hOxTvGdUou6RKSnA": {
+                    "name": "Naturale"
+                },
+                "jKVgHi8xX4gFGa7S": {
+                    "description": "Il Pesce Diavolo Vampiro rigenera 1 punto ferita per round. Questa rigenerazione viene interrotta se il Pesce Diavolo viene trasformato o distrutto con mezzi magici.",
+                    "name": "Rigenerazione"
+                },
+                "mnLwl2sa27zAU4mL": {
+                    "description": "Il Pesce Diavolo Vampiro attacca con la coda, infliggendo 1d4 danni più il doppio del consumo di energia.",
+                    "name": "Coda"
+                },
+                "vTf6RN0jjI36OP1t": {
+                    "description": "Il Pesce Diavolo Vampiro morde, infliggendo 1d6 danni più il doppio di risucchio di energia.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Pesce Diavolo Vampiro (7 DV)"
+        },
+        "Dinosaur, Armored Aquatic": {
+            "items": {
+                "FDmgoVQZUaazMxNv": {
+                    "name": "Morso",
+                    "description": "Il dinosauro acquatico corazzato morde infliggendo 1d4 danni."
+                },
+                "nUvsq7xu614YqIpm": {
+                    "name": "Corazza"
+                }
+            },
+            "biography": "<p>I Dinosauri acquatici corazzati sono creature lente, simili a tartarughe, con gusci spessi. Nonostante i loro movimenti lenti, possono essere pericolosi a causa delle loro pesanti difese. Questi dinosauri si trovano spesso in acque poco profonde o nelle regioni costiere.</p>\n    <p><strong>Terreno:</strong> Fiume/Lago, Oceano.</p>",
+            "name": "Dinosauro Acquatico Corazzato"
+        },
+        "Dinosaur, Flying Carnivorous": {
+            "biography": "<p>I Dinosauri Carnivori Volanti sono pericolosi predatori aerei dotati di denti e artigli affilati. Possono piombare su prede ignare, infliggendo gravi danni. Alcuni possono persino raccogliere creature delle dimensioni di un halfling e portarle via per divorarle in seguito.</p>\n    <p><strong>Terreno:</strong> Montagne, Foresta, Giungla.</p>",
+            "items": {
+                "ApBn44FUaRG44DAu": {
+                    "description": "Il Dinosauro Carnivoro Volante morde infliggendo 1d4 danni.",
+                    "name": "Morso"
+                },
+                "GnOwmV49RL2ZuD1E": {
+                    "description": "Il Dinosauro Carnivoro Volante usa i suoi artigli infliggendo 1d3 danni.",
+                    "name": "Artigliata"
+                },
+                "iPy86hZXIQnmZzSZ": {
+                    "name": "Naturale"
+                }
+            },
+            "name": "Dinosauro Carnivoro Volante"
         }
     },
     "label": "Compendium dei Mostri"
