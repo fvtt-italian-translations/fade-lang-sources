@@ -1100,7 +1100,7 @@
                     "name": "Rigenerazione"
                 }
             },
-            "name": "Pesce Diavolo (5 DV)"
+            "name": "Pesce Diavolo Vampiro (5 DV)"
         },
         "Dervish": {
             "items": {
@@ -1354,6 +1354,86 @@
                 }
             },
             "name": "Dinosauro Carnivoro Volante"
+        },
+        "Dinosaur, Large Herbivore": {
+            "biography": "<p>I grandi dinosauri erbivori spesso si trovano in acque poco profonde per sostenere il loro peso ed evitare i predatori. Possono travolgere qualsiasi intruso che non riesca a sfuggirgli, causando potenzialmente danni ingenti.</p><p>Terreno: qualsiasi clima caldo (preistorico).</p>",
+            "items": {
+                "RzeOrJ4tuSOAkOms": {
+                    "description": "Può travolgere gli avversari se falliscono il tiro salvezza.",
+                    "name": "Travolgere"
+                },
+                "aIjYzIOg9tE9OQUQ": {
+                    "description": "Pelle spessa che fornisce una difesa naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "yhpsBrE5e6qTk1wY": {
+                    "description": "Coda estremamente potente capace di sferrare colpi devastanti.",
+                    "name": "Coda"
+                }
+            },
+            "name": "Dinosauro Erbivoro Grande"
+        },
+        "Dinosaur, Medium Herbivore": {
+            "biography": "<p>I dinosauri erbivori di taglia media sono creature brucatrici a quattro zampe, lunghe dai 4,5 ai 9 metri. Alcuni possono immergersi in acqua per sfuggire ai predatori. Le varietà corazzate possiedono pesanti placche ossee di protezione, che conferiscono loro una migliore difesa e talvolta capacità offensive, come attacchi con il corno o difese dal morso.</p><p>Terreno: qualsiasi clima caldo (preistorico).</p>",
+            "items": {
+                "08bq9GITcBKu1iBv": {
+                    "description": "Pelle spessa che fornisce una difesa naturale. Le varianti corazzate hanno una protezione aggiuntiva.",
+                    "name": "Armatura Naturale"
+                },
+                "KxK352j3yotjxLIa": {
+                    "description": "Coda potente in grado di sferrare colpi potenti.",
+                    "name": "Coda"
+                },
+                "yzuRJXxrTql8dcxR": {
+                    "description": "Può travolgere gli avversari se falliscono il tiro salvezza.",
+                    "name": "Travolgere"
+                }
+            },
+            "name": "Dinosauro Erbivoro Medio"
+        },
+        "Dinosaur, Small Aquatic": {
+            "biography": "<p>I piccoli dinosauri acquatici sono pesci primitivi e creature simili ad anguille che preferiscono fuggire se minacciati. Si trovano spesso nei laghi profondi e negli oceani, nutrendosi di piante marine e piccole prede. Hanno un attacco base con il morso e possono tentare di difendersi con le pinne quando vengono messi alle strette.</p>\n    <p><strong>Terreno:</strong> Fiume/Lago, Oceano.</p>",
+            "items": {
+                "NErEwdCiNWL27r9f": {
+                    "name": "Naturale"
+                },
+                "tKm1NHZykj6ofvOg": {
+                    "description": "Il morso del piccolo dinosauro acquatico infligge 1d2 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Dinosauro Acquatico Piccolo"
+        },
+        "Dinosaur, Small Carnivorous": {
+            "biography": "<p>I piccoli dinosauri carnivori sono spesso veloci e agili e di solito cacciano in branco. Sono noti per i loro denti e artigli affilati, capaci di infliggere gravi ferite. Questi dinosauri sono aggressivi e attaccheranno qualsiasi preda che incontrano.</p>\n    <p><strong>Terreno:</strong> Foresta, Giungla, Prateria.</p>",
+            "items": {
+                "J0rd9ZY0wP7KxX0w": {
+                    "name": "Naturale"
+                },
+                "cbNoeSLG5dOuT3C6": {
+                    "description": "Il piccolo dinosauro carnivoro usa i suoi artigli infliggendo 1 danno.",
+                    "name": "Artiglio"
+                },
+                "hNKKIpYYi7BJlITo": {
+                    "description": "Il morso del piccolo dinosauro carnivoro infligge 1d3 danni.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Dinosauro Carnivoro Piccolo"
+        },
+        "Dinosaur, Small Herbivore": {
+            "items": {
+                "K54tg6Ho4whaJHvi": {
+                    "description": "Attacca con la coda o con il morso.",
+                    "name": "Coda o Morso"
+                },
+                "o7nGGeDlwNs0Z2v8": {
+                    "description": "La pelle spessa fornisce una difesa naturale.",
+                    "name": "Armatura Naturale"
+                }
+            },
+            "biography": "<p>I piccoli dinosauri erbivori sono generalmente non aggressivi e possono stare in piedi sulle zampe posteriori. Da lontano sembrano simili a piccoli dinosauri carnivori. Queste creature generalmente non sono aggressive a meno che non siano provocate, nel qual caso possono attaccare con la coda o con il morso. Se sorpresi o spaventati, possono scappare o caricare gli intrusi in modo casuale.</p><p><strong>Terreno:</strong> qualsiasi clima caldo (preistorico).</p>",
+            "name": "Dinosauro Erbivoro Piccolo"
         }
     },
     "label": "Compendium dei Mostri"
