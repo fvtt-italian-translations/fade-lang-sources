@@ -1434,6 +1434,68 @@
             },
             "biography": "<p>I piccoli dinosauri erbivori sono generalmente non aggressivi e possono stare in piedi sulle zampe posteriori. Da lontano sembrano simili a piccoli dinosauri carnivori. Queste creature generalmente non sono aggressive a meno che non siano provocate, nel qual caso possono attaccare con la coda o con il morso. Se sorpresi o spaventati, possono scappare o caricare gli intrusi in modo casuale.</p><p><strong>Terreno:</strong> qualsiasi clima caldo (preistorico).</p>",
             "name": "Dinosauro Erbivoro Piccolo"
+        },
+        "Djinni, Greater (Pasha)": {
+            "biography": "<p>I Pasha sono i governanti dei djinn sul piano elementale dell'Aria. Appaiono come jinn molto grandi e sono immuni alle armi non magiche o alle armi con meno di +2 di incantamento. I Pasha rigenerano 3 punti ferita per round e possono eseguire tutte le capacità di un normale djinni tutte le volte che lo desiderano, fino a una volta per round. Inoltre, possono entrare o uscire dal Piano Etereo concentrandosi per 1 round completo.</p>\n                <p>I Pasha hanno poteri speciali utilizzabili una volta al giorno, tra cui esaudire il desiderio di un altro, lanciare <em>nube mortale</em>, <em>acqua in gas</em> e <em>controllo del tempo</em>. Quando sono nella loro forma vorticosa, che possono assumere o abbandonare in un singolo round, sono alti 36 metri e hanno un diametro di 12 metri nella parte superiore. Questa forma infligge 3d12 danni a tutto ciò che si trova sul suo cammino e uccide qualsiasi creatura con meno di 5 Dadi Vita a meno che la vittima non effettui un tiro salvezza contro il raggio mortale.</p>\n                <p>I Pasha non possono essere evocati tramite incantesimi e sono influenzati da pochissimi oggetti magici. Appaiono sul Primo Piano solo quando un jinn maltrattato grida aiuto.</p>\n                <p>**Terreno:** Piano dell'Aria, Deserto.</p>\n                <p>**Carico:** 10.000 mon a piena velocità; 20.000 mon a metà velocità. Quando camminano, possono trasportare il doppio di queste quantità.</p>",
+            "items": {
+                "6RmyQACbLBol9TIQ": {
+                    "description": "Una volta al giorno il Pasha può esaudire il desiderio di un altro.",
+                    "name": "Grande Desiderio"
+                },
+                "9ObO5LygQ7aM8Q0K": {
+                    "description": "Il Djinni può creare cibo e bevande come un chierico di 7° livello una volta per round.",
+                    "name": "Creare Cibo e Acqua"
+                },
+                "E070mrK6T9wBdaZR": {
+                    "description": "Il Djinni può diventare invisibile a volontà una volta per round.",
+                    "name": "Invisibilità"
+                },
+                "Ec0cZNEePbUNRVCJ": {
+                    "description": "Il Djinni può assumere forma gassosa una volta per round.",
+                    "name": "Forma Gassosa"
+                },
+                "HtZsg7iYWGgHB6hW": {
+                    "description": "Il Pasha Rigenera 3 Punti Ferita per round.",
+                    "name": "Rigenerazione"
+                },
+                "Qs6Ti5rdvT1LMF1m": {
+                    "description": "<p>Consente all'incantatore di alterare il tempo entro un raggio di 72 metri creando condizioni come pioggia, neve o cielo sereno.</p>",
+                    "name": "Controllo del tempo atmosferico"
+                },
+                "Ua5kWDvoFibarMRa": {
+                    "description": "I Djinni possono creare illusioni che influenzano la vista e l'udito. Le illusioni durano finché non vengono toccate o dissolte.",
+                    "name": "Creare Illusioni"
+                },
+                "YiPgEfHCLjNp27Hn": {
+                    "description": "Protezione magica riduce i danni. I Pasha sono immuni alle armi con meno di +2 all'incantesimo.",
+                    "name": "Armatura Naturale"
+                },
+                "YvJNwqJU0FEDj5gl": {
+                    "description": "Si trasforma in un turbine che infligge 3d12 danni a tutte le creature sul suo cammino. Le creature con meno di 5 DV devono effettuare un tiro salvezza contro il raggio della morte o essere uccise.",
+                    "name": "Turbine"
+                },
+                "ZtvkN4h3LXMFjTAO": {
+                    "description": "Il Djinni può creare beni morbidi e oggetti in legno fino a 1.000 monete oro di peso, con durata permanente.",
+                    "name": "Crea articoli morbidi e oggetti in legno"
+                },
+                "akzirttWciMTxzMl": {
+                    "description": "Il djinni può creare oggetti metallici fino a 1.000 monete d'oro di peso. L'oro dura 1 giorno e il ferro dura 1 round.",
+                    "name": "Creare Oggetti in Metallo"
+                },
+                "chmcvbOkdqsXNsvh": {
+                    "description": "Un colpo potente con i pugni del Pasha.",
+                    "name": "Pugno"
+                },
+                "rtycnS6snswBjKwH": {
+                    "description": "<p>Trasforma fino a 30 metri cubi d'acqua in un gas (come nebbia o vapore) che l'incantatore può controllare.</p>",
+                    "name": "Acqua in Gas"
+                },
+                "tX367OLIxt89qbWw": {
+                    "description": "<p>Crea una nuvola velenosa in movimento che uccide le creature con meno di 6 DV a meno che non superino un tiro salvezza contro veleno.</p>",
+                    "name": "Nube Velenosa"
+                }
+            },
+            "name": "Djinni Grande (Pasha)"
         }
     },
     "label": "Compendium dei Mostri"
