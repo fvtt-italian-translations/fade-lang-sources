@@ -1292,8 +1292,8 @@
       },
       "name": "Devilfish, Vampire (8 HD)"
     },
-    "Dinosaur, Armored Aquatic": {
-      "biography": "<p>Armored aquatic dinosaurs are slow-moving, turtle-like creatures with thick shells. Despite their sluggish movement, they can be dangerous due to their heavy defenses. These dinosaurs are often found in shallow waters or coastal regions.</p>\n    <p><strong>Terrain:</strong> River/Lake, Ocean.</p>",
+    "Dinosaur, Armored Aquatic (6HD)": {
+      "biography": "<p>Armored aquatic dinosaurs are slow-moving, turtle-like creatures with thick shells. Despite their sluggish movement, they can be dangerous due to their heavy defenses. These dinosaurs are often found in shallow waters or coastal regions.</p><p><strong>Note:</strong> The creature's saving throw is equal to a fighter of half the hit die. Example 6HD = SA F3.</p><p><strong>Terrain:</strong> River/Lake, Ocean.</p>",
       "items": {
         "FDmgoVQZUaazMxNv": {
           "description": "The armored aquatic dinosaur bites, dealing 1d4 damage.",
@@ -1303,9 +1303,9 @@
           "name": "Shell"
         }
       },
-      "name": "Dinosaur, Armored Aquatic"
+      "name": "Dinosaur, Armored Aquatic (6HD)"
     },
-    "Dinosaur, Flying Carnivorous": {
+    "Dinosaur, Flying Carnivorous  (1HD)": {
       "biography": "<p>Flying carnivorous dinosaurs are dangerous aerial predators with sharp teeth and claws. They may swoop down on unsuspecting prey, inflicting severe damage. Some can even pick up halfling-sized creatures, carrying them off to devour later.</p>\n    <p><strong>Terrain:</strong> Mountains, Forest, Jungle.</p>",
       "items": {
         "ApBn44FUaRG44DAu": {
@@ -1320,9 +1320,9 @@
           "name": "Natural"
         }
       },
-      "name": "Dinosaur, Flying Carnivorous"
+      "name": "Dinosaur, Flying Carnivorous  (1HD)"
     },
-    "Dinosaur, Large Aquatic": {
+    "Dinosaur, Large Aquatic (9HD)": {
       "biography": "<p>Large aquatic dinosaurs resemble giant sea serpents or large turtles. They are territorial and often aggressive if disturbed. Some may even attempt to swallow human-sized creatures whole. Large aquatic dinosaurs can be found in deep oceans and large rivers.</p>\n    <p><strong>Terrain:</strong> River/Lake, Ocean.</p>",
       "items": {
         "eST9FFkN8DLl8fm7": {
@@ -1333,9 +1333,9 @@
           "name": "Bite"
         }
       },
-      "name": "Dinosaur, Large Aquatic"
+      "name": "Dinosaur, Large Aquatic (9HD)"
     },
-    "Dinosaur, Large Carnivorous": {
+    "Dinosaur, Large Carnivorous (6HD)": {
       "biography": "<p>Large carnivorous dinosaurs are powerful and dangerous predators. They attack using both claws and bites, and some larger species may even swallow prey whole. These dinosaurs are feared in prehistoric regions and will often attack any creature they see as prey.</p>\n    <p><strong>Terrain:</strong> Forest, Jungle, Grassland.</p>",
       "items": {
         "IZ6ksccpeXdzdhY1": {
@@ -1350,9 +1350,9 @@
           "name": "Natural"
         }
       },
-      "name": "Dinosaur, Large Carnivorous"
+      "name": "Dinosaur, Large Carnivorous (6HD)"
     },
-    "Dinosaur, Large Herbivore": {
+    "Dinosaur, Large Herbivore (13HD)": {
       "biography": "<p>Large herbivorous dinosaurs often stand in shallow waters to support their weight and avoid predators. They can trample any intruder who fails to evade them, potentially causing massive damage.</p><p>Terrain: Any warm climate (prehistoric).</p>",
       "items": {
         "RzeOrJ4tuSOAkOms": {
@@ -1368,9 +1368,9 @@
           "name": "Tail"
         }
       },
-      "name": "Dinosaur, Large Herbivore"
+      "name": "Dinosaur, Large Herbivore (13HD)"
     },
-    "Dinosaur, Medium Herbivore": {
+    "Dinosaur, Medium Herbivore (6HD)": {
       "biography": "<p>Medium-sized herbivorous dinosaurs are four-legged browsing creatures, 15 to 30 feet long. Some may move into water to escape predators. Armored varieties possess heavy bony plates for protection, giving them better defense and sometimes offensive capabilities, such as horn attacks or bite defenses.</p><p>Terrain: Any warm climate (prehistoric).</p>",
       "items": {
         "08bq9GITcBKu1iBv": {
@@ -1386,9 +1386,9 @@
           "name": "Trample"
         }
       },
-      "name": "Dinosaur, Medium Herbivore"
+      "name": "Dinosaur, Medium Herbivore (6HD)"
     },
-    "Dinosaur, Small Aquatic": {
+    "Dinosaur, Small Aquatic (2HD)": {
       "biography": "<p>Small aquatic dinosaurs are primitive fish and eel-like creatures that prefer to flee if threatened. They are often found in deep lakes and oceans, feeding on marine plants and small prey. They have a basic bite attack and may attempt to defend themselves with flippers when cornered.</p>\n    <p><strong>Terrain:</strong> River/Lake, Ocean.</p>",
       "items": {
         "NErEwdCiNWL27r9f": {
@@ -1399,9 +1399,9 @@
           "name": "Bite"
         }
       },
-      "name": "Dinosaur, Small Aquatic"
+      "name": "Dinosaur, Small Aquatic (2HD)"
     },
-    "Dinosaur, Small Carnivorous": {
+    "Dinosaur, Small Carnivorous (1HD)": {
       "biography": "<p>Small carnivorous dinosaurs are often quick and agile, usually hunting in packs. They are known for their sharp teeth and claws, capable of inflicting severe wounds. These dinosaurs are aggressive and will attack any prey they encounter.</p>\n    <p><strong>Terrain:</strong> Forest, Jungle, Grassland.</p>",
       "items": {
         "J0rd9ZY0wP7KxX0w": {
@@ -1416,9 +1416,9 @@
           "name": "Bite"
         }
       },
-      "name": "Dinosaur, Small Carnivorous"
+      "name": "Dinosaur, Small Carnivorous (1HD)"
     },
-    "Dinosaur, Small Herbivore": {
+    "Dinosaur, Small Herbivore (1HD)": {
       "biography": "<p>Small herbivorous dinosaurs are usually non-aggressive and may stand on their hind legs. They appear similar to small carnivorous dinosaurs from a distance. These creatures are generally not aggressive unless provoked, in which case they may attack with their tail or bite. If surprised or frightened, they may run away or charge intruders randomly.</p><p><strong>Terrain:</strong> Any warm climate (prehistoric).</p>",
       "items": {
         "K54tg6Ho4whaJHvi": {
@@ -1430,7 +1430,7 @@
           "name": "Natural Armor"
         }
       },
-      "name": "Dinosaur, Small Herbivore"
+      "name": "Dinosaur, Small Herbivore (1HD)"
     },
     "Djinni, Greater (Pasha)": {
       "biography": "<p>Pashas are the rulers of the djinn on the elemental plane of Air. They appear as very large djinn and are immune to non-magical weapons or weapons with less than +2 enchantment. Pashas regenerate 3 hit points per round and can perform all the abilities of a normal djinni as often as desired, up to once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for 1 full round.</p>\n                <p>Pashas have special powers usable once per day, including granting another's wish, casting <em>cloudkill</em>, <em>water to gas</em>, and <em>weather control</em>. When in their whirlwind form, which they can assume or leave in a single round, they stand 120 feet tall and 40 feet in diameter at the top. This form deals 3d12 damage to all in its path and slays any creature with fewer than 5 Hit Dice unless the victim makes a saving throw vs. death ray.</p>\n                <p>Pashas cannot be summoned by spells and are influenced by very few magical items. They appear on the Prime Plane only when a mistreated djinni cries out for aid.</p>\n                <p>**Terrain:** Plane of Air, Desert.</p>\n                <p>**Load:** 10,000 cn at full speed; 20,000 cn at half speed. When walking, they can carry double these amounts.</p>",
@@ -2626,7 +2626,7 @@
       },
       "name": "Horse, Riding"
     },
-    "Hydra": {
+    "Hydra (5HD)": {
       "biography": "<p>The hydra is a massive beast with a dragon-like body and multiple heads resembling snakes. Each hydra has between 5 and 12 heads, with one Hit Die and 8 hit points per head. The hydra attacks ferociously, using each of its heads every round. If a hydra loses a head, the damage it takes determines how many heads remain in the fight.</p>\n        <p>For every 8 points of damage taken, one of the hydra's heads is destroyed, reducing its ability to attack. For example, a hydra with 7 heads that takes 16 points of damage will lose two heads and attack with only five heads the following round.</p>\n        <p>Hydras can be found guarding treasures in remote and dangerous locations. While most hydras are found in swamps or other wilderness areas, variations of this creature exist with specialized abilities.</p>\n        <strong>Terrain:</strong> Swamp.<br>",
       "items": {
         "snr3Gtp9GkvHmKHW": {
@@ -2638,9 +2638,9 @@
           "name": "Natural Armor"
         }
       },
-      "name": "Hydra"
+      "name": "Hydra (5HD)"
     },
-    "Hydra, Flying": {
+    "Hydra, Flying (5HD)": {
       "biography": "<p>The flying hydra is a rare and terrifying version of the standard hydra, with enormous bat-like wings capable of carrying the creature over great distances. Unlike its land-based kin, the flying hydra can only attack with up to three heads at once while in flight. It often uses its agility to swoop down and attack with surprise.</p>\n        <p>Each head delivers powerful bites, and for every 8 points of damage, one head is destroyed, reducing the hydra's ability to attack. Flying hydras are most commonly found in mountainous regions, terrorizing anything that enters their territory.</p>\n        <strong>Terrain:</strong> Mountain.<br>",
       "items": {
         "AVP8wtZdX9pexalv": {
@@ -2656,9 +2656,9 @@
           "name": "Natural Armor"
         }
       },
-      "name": "Hydra, Flying"
+      "name": "Hydra, Flying (5HD)"
     },
-    "Hydra, Sea": {
+    "Hydra, Sea (5HD)": {
       "biography": "<p>The sea hydra is an aquatic version of its land-dwelling cousin, with fins in place of legs. Found in deep lakes or oceans, it is otherwise identical to the normal hydra. Each head attacks in the same way, using its powerful bites in combat, and for every 8 points of damage taken, one head is destroyed.</p>\n        <p>Though adapted for life underwater, sea hydras are no less dangerous and are often used to guard treasure hidden beneath the waves.</p>\n        <strong>Terrain:</strong> Lake, Ocean.<br>",
       "items": {
         "07qKOPXNlBIRjJ2F": {
@@ -2670,7 +2670,7 @@
           "name": "Natural Armor"
         }
       },
-      "name": "Hydra, Sea"
+      "name": "Hydra, Sea (5HD)"
     },
     "Insect Swarm (2 HD)": {
       "biography": "<p>An insect swarm is a mass of small insects acting together as a single force. The swarm may fill a 10' x 10' x 30' area or larger, consisting of either crawling or flying insects, or a mix of both. These swarms may be drawn to light, strange smells, or may be defending a lair, such as a hive or nest.</p><p>The swarm does not make an attack roll, as it is an area effect attack that automatically hits. All armored characters and monsters with AC 5 or better take 2 points of damage per round. Unarmored characters or monsters with AC 6 or worse take 4 points of damage per round.</p><p>A victim who takes the time to swat at the insects (using a weapon or torch) instead of attacking or performing another action takes only 1 point of damage per round. Characters trying to swat with their hands or arms are ineffective.</p><p>If a swarm is attacked, it will relentlessly pursue its attacker. Victims can escape by disappearing from sight (such as with invisibility, moving around a corner, etc.) or by diving underwater, which kills all the insects after one round (normal damage applies during this round).</p><strong>Terrain:</strong> Any (except Arctic)</p>",
