@@ -87,7 +87,7 @@ async function handleItem(pack: PackType, entries: EntryItem[]) {
     if (entry.system.description) {
       outEntry.description = entry.system.description;
     }
-    if (entry.system.gm.notes) {
+    if (entry.system.gm?.notes) {
       outEntry.gmNotes = entry.system.gm.notes;
     }
   }
@@ -158,7 +158,7 @@ interface EntryItem extends BaseEntry {
   system: {
     tags: any[];
     description: string;
-    gm: {
+    gm?: {
       notes: string;
     };
   };
