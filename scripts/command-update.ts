@@ -84,6 +84,12 @@ async function handleItem(pack: PackType, entries: EntryItem[]) {
   for (const entry of entries) {
     const outEntry: TranslationStrings = (out.entries[entry.name] = {});
     outEntry.name = entry.name;
+    if (entry.system.description) {
+      outEntry.description = entry.system.description;
+    }
+    if (entry.system.gm.notes) {
+      outEntry.gmNotes = entry.system.gm.notes;
+    }
   }
 
   const outData = JSON.stringify(out, orderKeysReplacer, 2);
@@ -149,7 +155,13 @@ interface EntryActor extends BaseEntry {
 }
 
 interface EntryItem extends BaseEntry {
-  system: {};
+  system: {
+    tags: any[];
+    description: string;
+    gm: {
+      notes: string;
+    };
+  };
 }
 
 function orderKeysReplacer(key: string, value: any) {
