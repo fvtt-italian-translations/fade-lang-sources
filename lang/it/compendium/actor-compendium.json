@@ -1,7 +1,22 @@
 {
     "entries": {
         "Halfling": {
-            "name": "Halfling"
+            "name": "Halfling",
+            "items": {
+                "s3Um7qXmUAG501Ap": {
+                    "description": "<p>Una piccola lama con una impugnatura a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
+                    "name": "Pugnale"
+                },
+                "YYYKzXvqkOT6oxOu": {
+                    "description": "<p>Questa è un'armatura composta principalmente da piastre e strisce di cuoio. Il cuoio viene spesso bollito nella cera per indurirlo. L'armatura in cuoio fornisce una classe armatura di 7, e poiché è fatta di materiali naturali, può essere indossata dai druidi. È anche leggera e silenziosa abbastanza da poter essere indossata dai ladri.</p>",
+                    "name": "Armatura in Pelle"
+                },
+                "nGeEVDhxPEhOE0Ta": {
+                    "description": "<p>Un arco corto è un arco di 90-120 cm, fatto da un unico pezzo di legno o un composto di diversi legni. Un arco corto richiede entrambe le mani per essere utilizzato. Gli archi richiedono l'uso di frecce come munizioni.</p>",
+                    "name": "Arco Corto"
+                }
+            },
+            "biography": "<p>Gli Halfling sono piccole creature semiumane che spesso vivono vicino ai loro villaggi. Sono abili con le armi da lancio, ricevendo un bonus di +1 ai tiri per colpire quando le usano. Gli Halfling sono eccellenti nel nascondersi, particolarmente nei **boschi** o nella **boscaglia**, dove hanno solo il 10% di probabilità di essere individuati mentre si nascondono.</p>\n        <p>In combattimento, gli Halfling ottengono un bonus di +2 alla **Classe Armatura** quando combattono contro nemici più grandi di un uomo. Per ogni 10 Halfling, uno sarà un capo di **2º Livello**, e fintanto che il capo è vivo e combatte al loro fianco, il loro **morale** è 10 invece di 8.</p>\n        <p>Gli Halfling vivono tipicamente in villaggi, o **contee**, di 30 a 300 abitanti. Ogni villaggio è guidato da uno **sceriffo** (un combattente di livello 2-7) e protetto da una guardia di villaggio di 5-20 miliziani (ciascuno con 2 Dadi Vita).</p>\n        <strong>Abilità Speciali:</strong> Gli Halfling ottengono un bonus di +1 ai tiri per colpire quando usano armi da lancio e un bonus di +2 alla Classe Armatura quando combattono contro creature più grandi.<br>\n        <strong>Terreno:</strong> Collina, Aperto.<br>"
         },
         "Actaeon (Elk Centaur)": {
             "biography": "<p>L'Actaeon è un raro e solitario protettore delle creature dei boschi. Alto quasi 3 metri, ha le braccia, il busto e il volto di un essere umano, ma la parte inferiore del corpo e le corna di un alce. Coperto da una pelliccia marrone, simile a quella di un alce, può mimetizzarsi negli ambienti forestali come se fosse invisibile.</p><p>Gli Actaeon reagiscono in modo aggressivo all'uccisione di creature del bosco o ad altre offese simili. Spesso attaccano con grandi lance di legno o di osso, apparendo all'improvviso dal nascondiglio con una probabilità da 1 a 5 su 1d6 di sorpresa.</p><p>Una volta al giorno, un Actaeon può usare un'arma a soffio che riempie un cubo di 3 metri. Quelli colpiti devono effettuare un tiro salvezza contro il soffio del drago o essere trasformati in una normale creatura della foresta come un gufo, uno scoiattolo o un cervo. Un salvataggio riuscito si traduce in una trasformazione di 24 ore.</p><p>Gli Actaeon sono membri integrali della comunità dei boschi, spesso presenti tra creature come centauri e driadi. La loro rarità e il loro coraggio li rendono celebri campioni della foresta. Collaborano spesso con i druidi per salvaguardare i boschi, in particolare quando si presenta una seria minaccia.</p><p>Alcuni Actaeon possono possedere abilità di incantatore;.</p><p><strong>Habitat:</strong> foreste.<br><strong>Capacità di carico:</strong> 3.000 mon al massimo velocità; 6.000 mon a metà velocità.</p>",
@@ -1577,10 +1592,19 @@
                 },
                 "pxA1B2FtVgROWyX0": {
                     "name": "Guscio di Tartaruga Dragone (Armatura)",
-                    "description": "Il guscio duro della tartaruga dragone fornisce una classe di armatura naturale pari a 0."
+                    "description": "Il guscio duro della tartaruga dragone fornisce una classe armatura naturale 0."
+                },
+                "vXh0I0tiSx0fwFeK": {
+                    "description": "Un morso devastante in grado di distruggere le navi.",
+                    "name": "Morso"
+                },
+                "yKFsb0RBSXPAjFIK": {
+                    "description": "La tartaruga drago può nuotare a una velocità di 27 metri per turno.",
+                    "name": "Nuotare"
                 }
             },
-            "biography": "<p>La Testuggine Dragona è una gigantesca bestia acquatica temuta sia dai marinai che dai pirati. Conosciuta per le sue dimensioni enormi e la sua forza, la Testuggine Dragona può distruggere le navi con i suoi potenti artigli e il suo devastante morso. La sua arma a soffio, un cono di vapore bollente, può far bollire l'acqua intorno a lei e incenerire i suoi nemici in un cono mortale lungo 15 metri e largo 12 metri. Le Tartarughe Drago sono altamente intelligenti e sono note per accumulare tesori da navi affondate.</p><p><strong>Arma a Soffio:</strong> Cono di vapore, lungo 15 metri e largo 12 metri, che infligge danni pari ai punti ferita attuali della Testuggine Dragona.<br><strong>Terreno:</strong> Oceani, Grandi Laghi<br><strong>Bardatura:</strong> Nessuna</p>"
+            "biography": "<p>La Testuggine Dragona è una gigantesca bestia acquatica temuta sia dai marinai che dai pirati. Conosciuta per le sue dimensioni enormi e la sua forza, la Testuggine Dragona può distruggere le navi con i suoi potenti artigli e il suo devastante morso. La sua arma a soffio, un cono di vapore bollente, può far bollire l'acqua intorno a lei e incenerire i suoi nemici in un cono mortale lungo 15 metri e largo 12 metri. Le Tartarughe Drago sono altamente intelligenti e sono note per accumulare tesori da navi affondate.</p><p><strong>Arma a Soffio:</strong> Cono di vapore, lungo 15 metri e largo 12 metri, che infligge danni pari ai punti ferita attuali della Testuggine Dragona.<br><strong>Terreno:</strong> Oceani, Grandi Laghi<br><strong>Bardatura:</strong> Nessuna</p>",
+            "name": "Tartaruga Dragona"
         },
         "Dragon, Black (Large)": {
             "items": {
@@ -1589,9 +1613,1428 @@
                     "name": "Morso"
                 },
                 "dJLAFO2iNVaTZs32": {
-                    "description": "Le dure scaglie del drago nero forniscono classe armatura naturale 0."
+                    "description": "Le dure scaglie del drago nero forniscono classe armatura naturale 0.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "FOQ5EYsLyubVk94o": {
+                    "description": "Il drago può volare a una velocità di 90 metri per turno.",
+                    "name": "Volare"
+                },
+                "OzQ55HMq8J6LHSH4": {
+                    "description": "<p>Sputa una linea di acido corrosivo lunga fino a 27 metri e larga 1,5 metri, in grado di sciogliere sia armature che carne e simili. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio d'Acido"
+                },
+                "TcRkZcH4AekhUgxP": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello e tre incantesimi di 2° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "UH2LWpEgyp0qlXpJ": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
                 }
-            }
+            },
+            "biography": "<p>Il Drago Nero Grande è un terrore nelle paludi e nelle terre paludose, temuto per il suo letale soffio acido. Questa mostruosa creatura può scatenare un devastante getto di acido lungo 27 metri e largo 1,5 metri, in grado di sciogliere l'armatura e dissolvere i suoi nemici. Conosciuto per la sua astuzia malvagia e le sue abilità magiche, questo drago è un pericoloso avversario sia a terra che in aria.</p>\n   <strong>Arma a Soffio:</strong> Acido, 27 metri di lunghezza e 1,5 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n   <strong>Terreno:</strong> Paludi, Terre paludose<br>\n   <strong>Bardatura:</strong> Nessuna",
+            "name": "Drago Nero Grande"
+        },
+        "Dragon, Green (Large)": {
+            "items": {
+                "cCKq1UU93Zyf8My3": {
+                    "description": "<p>Sputa una nube di gas clorino larga 15 metri, profonda 12 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Clorino"
+                },
+                "HfzgUyxEHR12B5rY": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "JYMLuy7jA1rlm24I": {
+                    "description": "Le robuste squame del drago verde forniscono una classe armatura naturale di -1.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "NgNlp1xEMZxyuyOt": {
+                    "description": "Il drago può volare a una velocità di 90 metri per turno.",
+                    "name": "Volare"
+                },
+                "QVwXwr4CgIJdaaXf": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "fnKyCqPXVua8B0Ny": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi quattro incantesimi di 1° livello, quattro incantesimi di 2° livello e tre incantesimi di 3° livello.",
+                    "name": "Lanciare Incantesimi"
+                }
+            },
+            "biography": "<p>Il Drago Verde Grande è noto per il suo mortale soffio di gas clorino, che può avvolgere interi gruppi in una nube tossica. L'arma a soffio di questo drago copre un'ampia area—15 metri di larghezza, 12 metri di profondità e 9 metri di altezza—e infligge danni pari al valore attuale dei punti ferita del drago. Con la sua intelligenza e capacità di lanciare incantesimi, è un nemico formidabile sia a terra che in volo.</p><p><strong>Arma a Soffio:</strong> Nube di gas clorino, 15 metri di larghezza, 12 metri di profondità e 9 metri di altezza, infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Foreste, Paludi<br><strong>Bardatura:</strong> Nessuna</p>",
+            "name": "Drago Verde Grande"
+        },
+        "Dragon, Red (Large)": {
+            "biography": "<p>Il Drago Rosso Grande è una presenza terrificante nelle montagne e nelle grotte dove fa il suo covo. Può scatenare un enorme cono di fuoco, che si estende per 40 metri di lunghezza e 9 metri di larghezza, incenerendo tutto ciò che si trova sul suo cammino. Conosciuto per il suo immenso potere e intelligenza, il Drago Rosso Grande possiede anche una formidabile capacità di lanciare incantesimi che integra i suoi attacchi fisici e a soffio.</p>\n        <strong>Arma a Soffio:</strong> Fuoco, 40 metri di lunghezza e 9 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Montagne, Grotte<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "1pVBakJBZYAfbgkZ": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "9fey2qP5cPFqcxL5": {
+                    "description": "Le robuste squame del drago rosso forniscono classe armatura naturale -3.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "HoZhpOhVtmRIt4hX": {
+                    "name": "Volare",
+                    "description": "Il drago può volare a una velocità di 90 metri per turno."
+                },
+                "nYbhW3joCCdbpO3C": {
+                    "description": "<p>Sputa un cono di fuoco lungo 40 metri e largo 9 metri, infliggendo danni da fuoco pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fuoco"
+                },
+                "AuiVPMpAcP5uBoBU": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, quattro incantesimi di 2° livello e tre incantesimi di 3° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "C3NRHNo9cZMYgMKG": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Drago Rosso Grande"
+        },
+        "Dragon, Black (Huge)": {
+            "biography": "<p>Il Drago Nero Enorme è una creatura minacciosa e vile che regna su aree paludose e paludi con terrore. Può sputare una linea di acido corrosivo lunga fino a 36 metri e larga 1,5 metri, in grado di sciogliere sia l'armatura che la carne. Con la sua intelligenza aumentata e le abilità magiche, questo drago è un formidabile avversario sia a terra che in aria.</p><p><strong>Soffio:</strong> Acido, 36 metri di lunghezza e 1,5 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Paludi, Terre paludose<br><strong>Bardatura:</strong> Nessuna</p>",
+            "items": {
+                "9Ga3RS40OxjwIZyX": {
+                    "description": "<p>Sputa una linea di acido, lunga 36 metri e larga 1,5 metri, infliggendo danni da acido pari al valore corrente dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio d'Acido"
+                },
+                "9y1nJ57GmI4kCxrZ": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "BvWR0VsWeyErgMh2": {
+                    "description": "Le dure scaglie del drago nero forniscono classe armatura naturale -2.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "Qse5ITOMRyP1BNxy": {
+                    "name": "Lanciare Incantesimi",
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, quattro incantesimi di 2° livello e tre incantesimi di 3° livello."
+                },
+                "tOL0vHVqnyWdEy0A": {
+                    "description": "Il drago può volare a una velocità di 108 metri per turno.",
+                    "name": "Volare"
+                },
+                "Oq2dNgSvHYp49tZV": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                }
+            },
+            "name": "Drago Nero Enorme"
+        },
+        "Dragon, White (Huge)": {
+            "items": {
+                "ctC8xwsWE53JV1XK": {
+                    "description": "<p>Sputa un cono di gelo lungo 27 metri e largo 12 metri, infliggendo danni pari ai punti ferita attuali. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gelo"
+                },
+                "3GOvBqXMPPn3ze4l": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "GVgpG6nJW2JUji8I": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "HqfEPOEJiF2ZAN8u": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, tre incantesimi di 2° livello e un incantesimo di 3° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "qbsDQjG0FIlRpWW7": {
+                    "description": "Il drago può volare a una velocità di 110 metri per turno.",
+                    "name": "Volare"
+                },
+                "zAomx0gVx2meRVcQ": {
+                    "description": "Le robuste squame del drago bianco forniscono classe armatura naturale -1.",
+                    "name": "Squame di Drago (Armatura)"
+                }
+            },
+            "biography": "<p>Il Drago Bianco Enorme è un predatore terrificante delle lande ghiacciate. La sua arma a soffio ghiacciata è in grado di avvolgere gruppi di nemici in un cono gelido, che raggiunge i 27 metri di lunghezza e 12 metri di larghezza. Nonostante sia uno dei draghi più deboli nella gerarchia, le sue dimensioni e intelligenza lo rendono un avversario mortale. Oltre agli attacchi fisici, può lanciare incantesimi, rendendolo un nemico ancora più pericoloso.</p>\n        <strong>Arma a Soffio:</strong> Cono di gelo, 27 metri di lunghezza e 12 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Artico, Caverne<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "name": "Drago Bianco Enorme"
+        },
+        "Dragon, Black (Small)": {
+            "biography": "<p>Il Drago Nero Piccolo è un sinistro predatore di paludi e terre paludose. Conosciuto per il suo soffio acido feroce, può scatenare una linea mortale di acido lunga 18 metri e larga 1,5 metri. Nonostante sia uno dei draghi neri più piccoli, la sua astuzia e intelligenza malvagia lo rendono un pericoloso avversario. Può anche lanciare incantesimi, aggiungendo un elemento magico ai suoi attacchi fisici e di soffio.</p>\n        <strong>Arma a Soffio:</strong> Acido, 18 metri di lunghezza e 1,5 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Paludi, Terre paludose<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "1weyznmaNe6adzSw": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi quattro incantesimi di 1° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "67Dv1Yq5GRp7rdCD": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "CnDtGxR4NGonp1OX": {
+                    "description": "<p>Sputa una linea di acido lunga 18 metri e larga 1,5 metri, infliggendo danni da acido pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio d'Acido"
+                },
+                "P4Q8VxAaIxuecC0x": {
+                    "description": "Le robuste squame del Drago Nero forniscono classe armatura naturale 2.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "RxvK0HZ80KJIrKAB": {
+                    "description": "Il drago può volare a una velocità di 72 metri per turno.",
+                    "name": "Volare"
+                },
+                "V1aj6kBUU6l47FfQ": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Drago Nero Piccolo"
+        },
+        "Dragon, Gold (Large)": {
+            "biography": "<p>Il Drago d'Oro Grande è uno dei draghi più potenti e maestosi, capace di sputare sia fuoco che gas clorino. Il suo soffio di fuoco forma un cono lungo 40 metri e largo 9 metri, mentre il suo gas clorino forma una nube larga 15 metri, profonda 12 metri e alta 9 metri. Entrambe le armi a soffio infliggono danni pari al valore attuale dei punti ferita del drago. I draghi d'oro sono noti per la loro intelligenza, forza e profondo senso dell'onore e della legalità. Possiedono anche notevoli abilità magiche, rendendoli avversari formidabili sul campo di battaglia.</p><p><strong>Arma a Soffio:</strong> Fuoco (40 metri di lunghezza, 9 metri di larghezza) o Gas Clorino (15 metri di larghezza, 12 metri di profondità, 9 metri di altezza), infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Montagne, Grotte<br><strong>Bardatura:</strong> Nessuna</p>",
+            "items": {
+                "1QBE5NopgdnEtcq1": {
+                    "description": "Le robuste squame del Drago d'Oro Grande forniscono classe armatura naturale -4.",
+                    "name": "Scaglie di Drago (Armatura)"
+                },
+                "Qi1XHcZAyrelU2em": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "QkzWVaBusp2oGIl5": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, cinque incantesimi di 2° livello, quattro incantesimi di 3° livello e tre incantesimi di 4° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "gewPtTgyqkIydr0D": {
+                    "description": "<p>Sputa una nube di gas clorino larga 15 metri, profonda 12 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Clorino"
+                },
+                "il1nsUf4Dr16jwWW": {
+                    "description": "<p>Sputa un cono di fuoco lungo 40 metri e largo 9 metri, infliggendo danni da fuoco pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fuoco"
+                },
+                "izkoaPAOJTVgPWAW": {
+                    "description": "Il Drago d'Oro Grande può volare a una velocità di 90 metri per turno.",
+                    "name": "Volare"
+                },
+                "vPV136Mw42M0Oo8V": {
+                    "name": "Artiglio",
+                    "description": "Il Drago d'Oro Grande sferra colpi con i suoi artigli affilati."
+                }
+            },
+            "name": "Drago d'Oro Grande"
+        },
+        "Dragon, Green (Huge)": {
+            "biography": "<p>Il Drago Verde Enorme è un maestro delle regioni boschive e paludose, temuto per la sua mortale arma a soffio di gas clorino, che avvolge i nemici in una nube tossica. L'attacco di soffio di questo massiccio drago crea una nube larga 15 metri, profonda 15 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. Il Drago Verde Enorme è altamente intelligente e magicamente potente, capace di lanciare incantesimi oltre alle sue formidabili abilità fisiche.</p><p><strong>Arma a Soffio:</strong> Nube di gas clorino, 15 metri di larghezza, 15 metri di profondità, 9 metri di altezza, infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Foreste, Paludi<br><strong>Bardatura:</strong> Nessuna</p>",
+            "items": {
+                "BioQOUClgNPsA7Gd": {
+                    "description": "Le robuste squame del drago forniscono classe armatura naturale -3.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "DbETJnr8bRxncCYc": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "O6znAFoFMApQfb7o": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, cinque incantesimi di 2° livello, quattro incantesimi di 3° livello e tre incantesimi di 4° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "X821fDE2euuoPWQl": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "nADmS8zGGvfCzDzE": {
+                    "description": "<p>Sputa una nube di gas clorino larga 15 metri, profonda 15 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Clorino"
+                },
+                "pyRLBrP0cbx7OkwC": {
+                    "description": "Il drago può volare a una velocità di 110 metri per turno.",
+                    "name": "Volare"
+                }
+            },
+            "name": "Drago Verde Enorme"
+        },
+        "Dragon, White (Large)": {
+            "items": {
+                "qUjxUg5wSPelwl9y": {
+                    "description": "<p>Sputa un cono di gelo lungo 24 metri e largo 12 metri, infliggendo danni da gelo pari ai punti ferita attuali del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gelo"
+                },
+                "Jes4X615wPxE0OLA": {
+                    "description": "Le robuste squame del drago bianco forniscono classe armatura naturale 2.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "KTOFFuO69mkHDnu4": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "OY8X3AXwNAI1h6F7": {
+                    "description": "Il drago può volare a una velocità di 90 metri per turno.",
+                    "name": "Volare"
+                },
+                "eW0sJoLF735n764p": {
+                    "description": "Questo drago può lanciare un incantesimo di 1° livello, scelto dalla lista standard degli incantesimi.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "j1l2Qbipt5B1uxWe": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                }
+            },
+            "biography": "<p>Il Drago Bianco Grande è un temibile predatore delle lande ghiacciate, spesso incontrato nelle montagne innevate o nelle caverne ghiacciate. La sua arma a soffio gelida può avvolgere i nemici in un cono gelido che si estende per 24 metri di lunghezza e 12 metri di larghezza. Anche se è meno potente dei suoi cugini più grandi, la sua astuta intelligenza e le sue squame ricoperte di gelo lo rendono un avversario formidabile. Può anche lanciare un incantesimo di 1° livello, aggiungendo una minaccia magica alla sua presenza già pericolosa.</p><p><strong>Arma a Soffio:</strong> Cono di gelo, 24 metri di lunghezza e 12 metri di larghezza.<br><strong>Terreno:</strong> Artico, Caverne<br><strong>Bardatura:</strong> Nessuna</p>",
+            "name": "Drago Bianco Grande"
+        },
+        "Gnoll": {
+            "biography": "<p>I gnoll sono grandi e feroci umanoidi con poca intelligenza. Assomigliano a un incrocio tra un umano e una iena e si trovano spesso in zone desertiche o terre selvagge e accidentate. Sebbene siano forti, sono pigri, preferendo intimidire e rubare piuttosto che lavorare. La maggior parte dei gnoll non fabbrica le proprie armi di metallo, ma le ruba agli umani.</p><p>Per ogni gruppo di 20 gnoll, uno sarà un capo con 16 punti ferita che combatte come un mostro con 3 Dadi Vita. Si dice che i gnoll abbiano avuto origine da una combinazione magica di un gnomo e un troll creata da un utilizzatore di magia malvagia.</p><p><strong>Danno Arma:</strong> Dato dall'arma +1.<br><strong>Terreno:</strong> Colline, Montagne.</p>",
+            "items": {
+                "Z4A925qemlBQ3Rny": {
+                    "description": "<p>La lancia è una punta da spinta fissata a un'estremità di un'asta di media-lunga lunghezza (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra della lancia contro la carica.</p>",
+                    "name": "Lancia"
+                },
+                "dnAORK2UAvrxvOFj": {
+                    "description": "La dura pelle del gnoll fornisce una classe armatura naturale di 5.",
+                    "name": "Pelle di Gnoll (Armatura)"
+                }
+            },
+            "name": "Gnoll"
+        },
+        "Dragon, White (Small)": {
+            "biography": "<p><strong>XP con incantesimi è 950.</strong></p><p>Il Drago Bianco Piccolo, sebbene sia il meno potente della sua specie, rappresenta comunque una minaccia significativa. Preferisce climi freddi ed è spesso trovato in regioni artiche o caverne ricoperte di neve. La sua arma a soffio è un devastante cono di gelo che si estende per 24 metri di lunghezza e 9 metri di larghezza, in grado di congelare i suoi nemici sul posto. Nonostante sia uno dei tipi di drago più deboli, la sua intelligenza è notevole, permettendogli di usare tattiche astute contro i suoi avversari. È anche capace di lanciare un incantesimo di 1° livello, rendendolo ancora più pericoloso.</p><p><strong>Arma a Soffio:</strong> Cono di gelo, 24 metri di lunghezza e 9 metri di larghezza.<br><strong>Terreno:</strong> Artico, Caverne<br><strong>Bardatura:</strong> Nessuna</p>",
+            "items": {
+                "BGf7Gs3dtKrzqd5H": {
+                    "description": "<p>Sputa un cono di gelo lungo 24 metri e largo 9 metri, infliggendo danni da gelo pari ai punti ferita attuali del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gelo"
+                },
+                "HyOiMJn8bXj8Sgmq": {
+                    "name": "Volare",
+                    "description": "Il drago può volare a una velocità di 72 metri per turno."
+                },
+                "WFbhsFiknWm1A9Ml": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "XkVgeDtQ9nRLT63c": {
+                    "description": "Le robuste squame del drago bianco forniscono classe armatura naturale 3.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "a8nl5y8EhXm3VYfb": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "jCPMPe3BZw5y2IeX": {
+                    "description": "Questo drago può lanciare un incantesimo di 1° livello, scelto dalla lista standard degli incantesimi.",
+                    "name": "Lanciare Incantesimi"
+                }
+            },
+            "name": "Drago Bianco Piccolo"
+        },
+        "Dragon, Green (Small)": {
+            "biography": "<p>Il Drago Verde Piccolo è noto per il suo mortale soffio di gas clorino, che avvolge i suoi nemici in una nube nociva. La sua arma a soffio assume la forma di una nube di gas larga 15 metri, profonda 12 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. Questo drago utilizza anche la sua intelligenza e la capacità di lanciare incantesimi per aumentare ulteriormente il suo pericolo in combattimento.</p><p><strong>Arma a Soffio:</strong> Nube di gas clorino, 15 metri di larghezza, 12 metri di profondità e 9 metri di altezza, infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Foreste, Paludi<br><strong>Bardatura:</strong> Nessuna</p>",
+            "items": {
+                "HDuwfTbiYdbyi35r": {
+                    "description": "<p>Sputa una nube di gas clorino larga 15 metri, profonda 12 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Clorino"
+                },
+                "l7LgvQ6EDODybcdR": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi tre incantesimi di 1° livello e tre incantesimi di 2° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "IBXExJwmlx66M8HE": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "SrL4qZoGyFLEQ1A7": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "r6w8DTooOi5w449L": {
+                    "description": "Il drago può volare a una velocità di 72 metri per turno.",
+                    "name": "Volare"
+                },
+                "yLrQjR4a0bJQwlQf": {
+                    "description": "Le robuste squame del drago verde forniscono classe armatura naturale 1.",
+                    "name": "Squame di Drago (Armatura)"
+                }
+            },
+            "name": "Drago Verde Piccolo"
+        },
+        "Dragon, Red (Huge)": {
+            "biography": "<p>Il Drago Rosso Enorme è una forza di distruzione terribilmente potente. Il suo soffio infuocato può avvolgere interi gruppi di nemici in un devastante cono di fuoco, estendendosi per 55 metri di lunghezza e 9 metri di larghezza. Come uno dei draghi più grandi e intelligenti, il Drago Rosso Enorme non è solo mortale in combattimento, ma possiede anche potenti abilità magiche, rendendolo un nemico temibile sul campo di battaglia.</p>\n<strong>Arma a Soffio:</strong> Fuoco, 55 metri di lunghezza e 9 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n<strong>Terreno:</strong> Montagne, Grotte<br>\n<strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "7gqWuUbmVY30Ggnk": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "CZI1oLtSaJYQFHC9": {
+                    "description": "<p>Sputa un cono di fuoco lungo 55 metri e largo 9 metri, infliggendo danni da fuoco pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fuoco"
+                },
+                "H0CU1EcasQn0OjND": {
+                    "description": "Il drago può volare a una velocità di 110 metri per turno.",
+                    "name": "Volare"
+                },
+                "QnCAAhRezy21qFai": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "gwKfKr074p3L79rs": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, cinque incantesimi di 2° livello, quattro incantesimi di 3° livello e tre incantesimi di 4° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "sevoTNwHuT9RDIR3": {
+                    "description": "Le robuste squame del drago rosso forniscono classe armatura naturale -5.",
+                    "name": "Squame di Drago (Armatura)"
+                }
+            },
+            "name": "Drago Rosso Enorme"
+        },
+        "Dryad": {
+            "biography": "<p>Le Driadi sono elusivi e bellissimi spiriti degli alberi che abitano nelle foreste profonde. Sebbene siano pacifiche per natura, sono diffidenti verso gli estranei. Se una driade desidera evitare di essere scoperta, si fonde con il suo albero, diventandone parte. Può lanciare <strong>Charme</strong> a volontà, ma usa questo potere solo su coloro che la minacciano o su maschi che trova attraenti. Le vittime di questo incantesimo effettuano il tiro salvezza con una penalità di -2.</p>\n       <p>Gli individui ammaliati possono essere inviati in imboscate mortali o attratti nel suo albero. Una volta dentro, le vittime spesso scompaiono a meno che non vengano salvate rapidamente. Le driadi faranno di tutto per proteggere i loro alberi, poiché sono legate a essi e moriranno se separate dal loro albero per più di 72 metri per oltre un turno. Tipicamente non portano armi, ma possono brandire un giavellotto o una lancia se difendono la loro casa.</p>\n       <p>Nascondono tesori in cavità nascoste sotto le radici del loro albero. Se l'albero di una driade è minacciato, spesso negozierà, liberando eventuali individui catturati piuttosto che rischiare la sua distruzione.</p>\n       <strong>Terreno:</strong> Boschi (densi)",
+            "items": {
+                "EgTjsFceMI49IGUp": {
+                    "description": "<p>La connessione naturale della Driade con la foresta le conferisce classe armatura naturale 9.</p>",
+                    "name": "Armatura"
+                },
+                "KDGBiA1S1aEwd1rM": {
+                    "description": "<p>La Driade può lanciare Charme un numero qualsiasi di volte al giorno. La vittima deve effettuare un tiro salvezza contro incantesimi con una penalità di -2, o sarà ammaliata.</p>",
+                    "name": "Charme"
+                },
+                "tBsoF2ahpwPoTBQZ": {
+                    "description": "<p>Un giavellotto è una lancia leggera a una mano da lancio. Sebbene sia utilizzato principalmente come arma da lancio, può anche essere usato in mischia. Gli halfling e altre razze piccole <em>possono</em> usare questa arma.</p>",
+                    "name": "Giavellotto"
+                }
+            },
+            "name": "Driade"
+        },
+        "Drake, Colddrake": {
+            "biography": "<p>Il Drake del Freddo è un drake dalle squame bianche che vive in caverne ghiacciate profonde sottoterra, evitando la luce del giorno. Può trasformarsi in forme di nano o gnomo per mimetizzarsi nelle comunità sotterranee. In forma di drake, attacca con due artigli e un morso, infliggendo danni moderati. I Drake del Freddo sono altamente intelligenti e caotici, utilizzando le loro abilità di mutaforma e ladro per infiltrarsi e causare problemi tra i nani e gli gnomi con cui vivono.</p>\n        <strong>Abilità Speciali:</strong> Immuni a tutti gli incantesimi di 4° livello o inferiore, ma possono sopprimere questa immunità per 1 round. Possiedono anche le abilità di un ladro di 5° livello e possono trasformarsi in forme di nano o gnomo.<br>\n        <strong>Volo:</strong> Il drago può volare a una velocità di 9 metri per turno, ma solo per 1 ora alla volta.<br>\n        <strong>Terreno:</strong> Sottoterra, Caverne Ghiacciate<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "DSTGVZ5mPLVYLutT": {
+                    "description": "Il drake può volare a una velocità di 9 metri per turno per un massimo di 1 ora alla volta.",
+                    "name": "Volo"
+                },
+                "OgRWFZ2QutxVJpc6": {
+                    "description": "Il drake del freddo è immune agli incantesimi di 4° livello o inferiore. Può sopprimere questa immunità per 1 round, se necessario.",
+                    "name": "Immunità agli Incantesimi di Basso Livello"
+                },
+                "PMDZHqF1qvVJ7yTw": {
+                    "description": "Il drake sferra colpi con i suoi artigli.",
+                    "name": "Artiglio"
+                },
+                "TFjhiO48JKb5zKH4": {
+                    "description": "Il drake del freddo può trasformarsi in forme di nano o gnomo a volontà, imitando caratteristiche umanoidi.",
+                    "name": "Mutaforma"
+                },
+                "Y2yCgqE0zm75uFS6": {
+                    "description": "Il drake del freddo possiede tutte le abilità di un ladro di 5° livello, inclusi colpo alle spalle, scassinare serrature e furtività.",
+                    "name": "Abilità da Ladro"
+                },
+                "gI6C6vRl8W2FGC0O": {
+                    "description": "Le squame naturali del drake del freddo forniscono classe armatura 0.",
+                    "name": "Squame di Drake (Armatura)"
+                },
+                "wUAxNPSZNNqMb7Mn": {
+                    "description": "Un morso potente con denti affilati.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Drake del Freddo"
+        },
+        "Drake, Mandrake": {
+            "biography": "<p>Il Mandrake è un drake di medie dimensioni che spesso si traveste da umano attraverso le sue capacità di mutaforma. In forma di drake, attacca con due artigli e un morso, infliggendo danni minori. I Mandrake sono caotici e amano gli scherzi, spesso utilizzano le loro capacità di mutaforma per integrarsi nella società umana, a volte lavorando come stallieri o nelle taverne. Anche se si divertono a fare scherzi, possono anche servire come agenti per poteri malvagi.</p>\n        <strong>Abilità Speciali:</strong> Immuni a tutti gli incantesimi di 4° livello o inferiore, ma possono sopprimere questa immunità per 1 round. Possiedono anche le abilità di un ladro di 5° livello e possono trasformarsi in forme umanoidi.<br>\n        <strong>Volo:</strong> Il drake può volare a una velocità di 9 metri per turno, ma solo per 1 ora alla volta.<br>\n        <strong>Terreno:</strong> Qualsiasi<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "BZXK38b9S6V4XTKp": {
+                    "description": "Il Mandrake è immune agli incantesimi di 4° livello o inferiore. Può sopprimere questa immunità per 1 round, se necessario.",
+                    "name": "Immunità agli Incantesimi di Basso Livello"
+                },
+                "OM6E1ByjdMO6gGwF": {
+                    "description": "Le squame naturali del Mandrake forniscono classe armatura 0.",
+                    "name": "Squame di Drake (Armatura)"
+                },
+                "R0u9xuAKsXhtcMf9": {
+                    "description": "Il Mandrake possiede tutte le abilità di un ladro di 5° livello, inclusi colpo alle spalle, scassinare serrature e furtività.",
+                    "name": "Abilità da Ladro"
+                },
+                "UMWzoHzJvvi88oDl": {
+                    "description": "Il Mandrake può trasformarsi in forme umanoidi a volontà, imitando umani e semiumani.",
+                    "name": "Mutaforma"
+                },
+                "VE7WXofK5k0xbGP1": {
+                    "description": "Il drake può volare a una velocità di 9 metri per turno per un massimo di 1 ora alla volta.",
+                    "name": "Volo"
+                },
+                "d5WY8PpdyxbfZZFf": {
+                    "description": "Un morso rapido con denti affilati.",
+                    "name": "Morso"
+                },
+                "hKOGkmM5dulVlJjn": {
+                    "description": "Il drake sferra colpi con i suoi artigli.",
+                    "name": "Artiglio"
+                }
+            },
+            "name": "Drake Mandrake"
+        },
+        "Drake, Elemental": {
+            "biography": "<p>I Drake Elementali sono creature rare e pericolose che provengono dai piani elementali e possono trasformarsi in giovani giganti (fino a 1,2 metri più bassi rispetto a quelli normali) sul Piano Primario, o in piccole forme elementali nel loro piano d'origine. In forma di drake, attaccano con artigli e un morso, infliggendo danni significativi. I Drake Elementali sono immuni alle armi normali e d'argento, richiedendo armi magiche per ferirli. Possiedono anche le abilità di un ladro di 5° livello, rendendoli avversari astuti.</p>\n        <strong>Mutaforma:</strong> Sul Piano Primario, i Drake Elementali possono trasformarsi in forme di giovani giganti (giganti di nuvola, pietra, fuoco o tempesta), ma non possono usare le abilità di lancio di rocce giganti. Nel loro piano d'origine, si trasformano in piccole forme elementali con le abilità di un elementale di 6 Dadi Vita.<br>\n        <strong>Immunità Elementale:</strong> Immuni alle armi normali e d'argento; solo le armi magiche possono ferirli.<br>\n        <strong>Volo:</strong> Il drake può volare a una velocità di 9 metri per turno, ma solo per 1 ora alla volta.<br>\n        <strong>Terreno:</strong> Qualsiasi<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "AeEtjeOuHmN3TUHg": {
+                    "description": "Il drake sferra colpi con i suoi artigli.",
+                    "name": "Artiglio"
+                },
+                "Dv8I6dpv3yk95sOi": {
+                    "description": "Il drake elementale possiede tutte le abilità di un ladro di 5° livello, inclusi colpo alle spalle, scassinare serrature e furtività.",
+                    "name": "Abilità da Ladro"
+                },
+                "HLFP6T32OdcrtEpq": {
+                    "description": "Il drake elementale è immune agli incantesimi di 4° livello o inferiore. Può sopprimere questa immunità per 1 round, se necessario.",
+                    "name": "Immunità agli Incantesimi di Basso Livello"
+                },
+                "OLzfrmL4CKCcGo5l": {
+                    "description": "Il drake elementale può trasformarsi in giovani giganti (di nuvola, pietra, fuoco o tempesta) o in piccole forme elementali.",
+                    "name": "Mutaforma"
+                },
+                "eT2pquoKXHMFkkgy": {
+                    "description": "Le squame naturali del drake elementale forniscono classe armatura 0.",
+                    "name": "Squame di Drake (Armatura)"
+                },
+                "iAbCFyy5AXPBmZfE": {
+                    "description": "Il drake è immune alle armi non-magiche e d'argento. Solo le armi magiche possono ferirlo.",
+                    "name": "Immunità Elementale"
+                },
+                "kVvnVy0rZpWjRlpy": {
+                    "description": "Un morso potente con denti affilati.",
+                    "name": "Morso"
+                },
+                "y6TY5HabbT8mn8ca": {
+                    "description": "Il drake può volare a una velocità di 9 metri per turno per un massimo di 1 ora alla volta.",
+                    "name": "Volo"
+                }
+            },
+            "name": "Drake Elementale"
+        },
+        "Drake, Wooddrake": {
+            "biography": "<p>Il Drake dei Boschi è un drake con squame verde scuro che può trasformarsi in forme di elfi o halfling a volontà. In forma di drake, attaccano con due artigli e un morso, infliggendo danni moderati. I Drake dei Boschi sono intelligenti e maliziosi, spesso si integrano nelle comunità elfiche o halfling attraverso le loro capacità di mutaforma. Sono caotici e amano causare problemi, usando le loro abilità da ladro per compiere scherzi e furti.</p>\n        <strong>Abilità Speciali:</strong> Immuni a tutti gli incantesimi di 4° livello o inferiore, ma possono sopprimere questa immunità per 1 round. Possiedono anche le abilità di un ladro di 5° livello e possono trasformarsi in forme di elfo o halfling.<br>\n        <strong>Volo:</strong> Il drake può volare a una velocità di 9 metri per turno, ma solo per 1 ora alla volta.<br>\n        <strong>Terreno:</strong> Qualsiasi<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "91h0W8Jx6tJqw4RV": {
+                    "description": "Il drake può volare a una velocità di 9 metri per turno per un massimo di 1 ora alla volta.",
+                    "name": "Volo"
+                },
+                "91n8Y8S0sIo0yI2M": {
+                    "description": "Il Drake dei Boschi possiede tutte le abilità di un ladro di 5° livello, inclusi colpo alle spalle, scassinare serrature e furtività.",
+                    "name": "Abilità da Ladro"
+                },
+                "WqVGxs9wPNL3YWCF": {
+                    "description": "Il Drake dei Boschi è immune agli incantesimi di 4° livello o inferiore. Può sopprimere questa immunità per 1 round, se necessario.",
+                    "name": "Immunità agli Incantesimi di Basso Livello"
+                },
+                "Xoyo9zOmm5MP4vA5": {
+                    "description": "Le squame del Drake dei Boschi forniscono classe armatura naturale 0.",
+                    "name": "Squame di Drake (Armatura)"
+                },
+                "ZPGgKSsbxag9XPiJ": {
+                    "description": "Il Drake dei Boschi può trasformarsi in forme di elfi o halfling a volontà, imitando caratteristiche umanoidi.",
+                    "name": "Mutaforma"
+                },
+                "nmaO9X64uxUGCTfM": {
+                    "name": "Morso",
+                    "description": "Un morso forte con denti affilati."
+                },
+                "qtP8hqVDpRXua2TQ": {
+                    "description": "Il drake sferra colpi con i suoi artigli.",
+                    "name": "Artiglio"
+                }
+            },
+            "name": "Drake dei Boschi"
+        },
+        "Insect Swarm (3 HD)": {
+            "biography": "<p>Uno Sciame di Insetti è una massa di piccoli insetti che agiscono insieme come una singola forza. Lo sciame può riempire un'area di 3 m x 3 m x 9 m o più grande, costituita da insetti striscianti o volanti, o da un mix di entrambi. Questi sciami possono essere attratti dalla luce, da odori strani, o possono difendere una tana, come un alveare o un nido.</p><p>Lo sciame non effettua un tiro per colpire, poiché è un attacco ad area che colpisce automaticamente. Tutti i personaggi e i mostri corazzati con CA 5 o migliore subiscono 2 punti di danno per round. Le vittime non corazzate o i mostri con CA 6 o peggiore subiscono 4 punti di danno per round.</p><p>Una vittima che prende del tempo per scacciare gli insetti (usando un'arma o una torcia) invece di attaccare o eseguire un'altra azione subisce solo 1 punto di danno per round. I personaggi che cercano di scacciare gli insetti con le mani o le braccia sono inefficaci.</p><p>Se uno sciame viene attaccato, perseguiterà implacabilmente il suo aggressore. Le vittime possono scappare scomparendo dalla vista (come con l'invisibilità, girando un angolo, ecc.) o immergendosi sott'acqua, il che uccide tutti gli insetti dopo un round (i danni normali si applicano durante questo round).</p><strong>Terreno:</strong> Qualsiasi (eccetto Artico)</p>",
+            "items": {
+                "6ndQni01MRotinjU": {
+                    "description": "Attacco ad area che colpisce automaticamente. Le vittime corazzate (CA 5 o migliore) subiscono 2 punti di danno per round; le vittime non corazzate (CA 6 o peggiore) subiscono 4 punti di danno per round. Le vittime che scacciano gli insetti con un'arma o una torcia subiscono solo 1 punto di danno per round.",
+                    "name": "Area d'effetto"
+                },
+                "99KKUzyMXx85NoqB": {
+                    "description": "Se attaccato, lo sciame perseguiterà implacabilmente il suo aggressore. Una vittima può scappare diventando invisibile, scomparendo dalla vista o immergendosi sott'acqua, il che uccide gli insetti dopo un round.",
+                    "name": "Inseguimento Implacabile"
+                },
+                "wtpMFDL133GDuQNo": {
+                    "description": "Lo sciame di insetti offre una protezione naturale di CA 7.",
+                    "name": "Corpo di Sciame"
+                }
+            },
+            "name": "Sciame d'Insetti (3 DV)"
+        },
+        "Dwarf (1 HD)": {
+            "biography": "<p>Un Nano di 1º Livello, alto circa 1,2 metri con una corporatura robusta, tipicamente armato di ascia e indossando un'armatura pesante. I nani sono noti per la loro maestria artigianale e la passione per il buon cibo e le bevande. Possono vedere al buio (Infravisione) fino a 18 metri e sono resistenti alla magia con buoni tiri salvezza.</p>\n       <p>Il morale del Nano è 8, ma aumenta a 10 se combatte sotto la guida di un superiore. I nani sono esperti minatori e possono rilevare trappole, pareti scorrevoli, corridoi in pendenza e nuove costruzioni con una probabilità di 2 su 6.</p>\n       <strong>Terreno:</strong> Sottosuolo, Montagna, Colline.",
+            "items": {
+                "22wUE5fok3UihgBU": {
+                    "description": "<p>Questa è un'armatura composta principalmente da una corazza di maglia con strisce metalliche orizzontali fissate nella maglia. La corazza a bande orizzontali conferisce a un personaggio una classe armatura di 4. Non ha la stessa protezione della corazza di piastre, ma è più economica e leggera.</p>",
+                    "name": "Corazza a Bande Orizzontali"
+                },
+                "NbpN7ee3P6xDlCyW": {
+                    "description": "<p>Un'ascia da battaglia è un'ascia a due mani lunga 60-120 cm, di solito con una doppia lama o una punta sul retro della lama.</p>",
+                    "name": "Ascia da Battaglia"
+                }
+            },
+            "name": "Nano (1 DV)"
+        },
+        "Elf (1 HD)": {
+            "biography": "<p>Gli Elfi sono umanoidi dei boschi, altamente abili nel combattimento e nella magia. Usano le armi in modo efficace e possono lanciare un incantesimo di 1º Livello. Gli elfi sono spesso incontrati in gruppi e, quando appare un gruppo di 15 o più, uno di loro sarà un leader. Questo leader può possedere oggetti magici.</p>\n        <strong>Danno dell'Arma:</strong> Varia in base all'arma.<br>\n        <strong>Speciale:</strong> Ogni elfo ha accesso a un incantesimo di 1º Livello.<br>\n        <strong>Terreno:</strong> Foreste, Boschi.<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "Awh9BzSfDKioN4D1": {
+                    "description": "Ogni elfo può lanciare un incantesimo di 1º Livello. Scegli l'incantesimo casualmente.",
+                    "name": "Incantesimo di 1º Livello"
+                },
+                "MOb2pt51ShnPxa9Y": {
+                    "description": "<p>Un arco corto è un arco di 90-120 cm di lunghezza, realizzato con un unico pezzo di legno o un composto di diversi legni. Un arco corto richiede l'uso di entrambe le mani per essere utilizzato. Gli archi richiedono l'uso di frecce come munizioni.</p>",
+                    "name": "Arco Corto"
+                },
+                "ar1mWVzSp6GdE0ad": {
+                    "description": "Gli elfi hanno una classe armatura naturale 5.",
+                    "name": "Armatura Elfica"
+                },
+                "zwSmPxFBroOoqBHq": {
+                    "description": "<p>Una spada normale è una spada a una mano con una lama diritta o curva lunga di 60-90 cm. Questa categoria di spade comprende una varietà di stili diversi, dai scimitarra alle spade larghe e persino alle stocco.</p>",
+                    "name": "Spada"
+                }
+            },
+            "name": "Elfo (1 DV)"
+        },
+        "Gargoyle": {
+            "biography": "<p>I gargoyle sono costrutti magici, creati dai maghi per servire vari scopi, in particolare come guardiani. Nel tempo, molti gargoyle sono scappati o hanno vissuto più a lungo dei loro creatori, formando gruppi e difendendo i loro territori.</p><p>Simili a orrendi umanoidi con corna, artigli, zanne e ali simili a pipistrelli, i gargoyle sono spesso scambiati per statue a causa della loro pelle simile alla pietra. Astuti e semi-intelligenti, possono rimanere immobili per anni senza bisogno di cibo o bevande, sorvegliando pazientemente il loro territorio.</p><p>I gargoyle sono immuni alle armi normali, al sonno e agli incantesimi di charme. Possono essere danneggiati solo da armi magiche e sono ferocemente territoriali, attaccando chiunque invada il loro dominio.</p><p><strong>Terreno:</strong> Caverna, Rovine.<br><strong>Carico:</strong> 2,000 mon a piena velocità, 4,000 mon a mezza velocità.</p>",
+            "items": {
+                "FnfRZp4XlQLyQEoB": {
+                    "description": "La pelle simile alla pietra del gargoyle fornisce classe armatura naturale 5.",
+                    "name": "Pelle del Gargoyle (Armatura)"
+                },
+                "HzS30Se2qeMy56lZ": {
+                    "description": "Il gargoyle effettua testate con il suo corno.",
+                    "name": "Corno"
+                },
+                "VfvSpfJBBqOWyu5G": {
+                    "description": "Il gargoyle morde con i suoi denti affilati.",
+                    "name": "Morso"
+                },
+                "WvB79kePYE2SnmhI": {
+                    "description": "Il gargoyle sferza con i suoi artigli.",
+                    "name": "Artiglio"
+                },
+                "kNagT8OXATej59bb": {
+                    "description": "I gargoyle possono essere colpiti solo da armi magiche e sono immuni agli incantesimi di sonno e charme.",
+                    "name": "Immunità alle Armi Normali, Sonno e Charme"
+                }
+            },
+            "name": "Gargoyle"
+        },
+        "Giant, Hill": {
+            "biography": "<p>I Giganti delle Colline sono grandi, pelosi e brutali umanoidi con un profondo amore per la distruzione e il caos. Sono alti circa 3,5 metri e indossano pelli di animali. Brandiscono enormi clave o lanciano massi con forza incredibile, capaci di schiacciare anche i nemici più resistenti. Nonostante le loro dimensioni e forza, i Giganti delle Colline non sono particolarmente intelligenti, spesso superati in astuzia da avversari più scaltri.</p><p><strong>Danno Clava:</strong> 2d8.<br><strong>Danno Roccia:</strong> 2d6, fino a 60 metri di distanza.<br><strong>Terreno:</strong> Colline, Montagne.<br></p>",
+            "items": {
+                "4gpnqZRudew1VnHd": {
+                    "description": "La spessa pelle del gigante delle colline fornisce classe armatura naturale 4.",
+                    "name": "Pelle del Gigante delle Colline (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "name": "Clava",
+                    "description": "Il gigante sferra la sua massiccia clava con forza devastante."
+                },
+                "bLrwgfQkoR1Tq7uK": {
+                    "description": "Il gigante lancia un masso fino a 60 metri infliggendo 2d6 danni.",
+                    "name": "Masso"
+                }
+            },
+            "name": "Gigante delle Colline"
+        },
+        "Lizard, Tuatara": {
+            "biography": "<p>Il Sauro Gigante Tuatara è una lucertola carnivora lunga 2,4 metri con pelle color ciottolo e punte bianche lungo la schiena. Ha una membrana sopra gli occhi che gli permette di percepire i cambiamenti di temperatura e \"vedere\" nell'oscurità, conferendogli un'infravisione di 27 metri.</p>\n        <strong>Abilità Speciale:</strong> Infravisione di 27 metri.<br>\n        <strong>Terreno:</strong> Grotta, Deserto, Boschi.<br>\n        <strong>Carico:</strong> 3.000 mon a piena velocità; 6.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di bardature:</strong> x 3.<br>",
+            "items": {
+                "WBiDuTZqogPRek1x": {
+                    "description": "La pelle naturale del tuatara offre una protezione robusta.",
+                    "name": "Armatura Naturale"
+                },
+                "bZlsrkh6qe8PpW33": {
+                    "description": "Un potente morso del tuatara.",
+                    "name": "Morso"
+                },
+                "qvsvOKvLarFTMVXR": {
+                    "description": "Il tuatara usa i suoi artigli per attaccare la preda.",
+                    "name": "Artigli"
+                }
+            },
+            "name": "Sauro Gigante Tuatara"
+        },
+        "Goblin": {
+            "biography": "<p>I goblin sono piccoli e brutti umanoidi, alti tra 1 e 1,5 metri. Hanno orecchie appuntite, denti malformati e la loro pelle varia dal color gesso al grigio livido. I loro occhi brillano di rosso nella luce fioca, permettendo loro di vedere al buio con infravisione fino a 27 metri.</p><p>I goblin vivono in grotte e caverne sotterranee, e sono a disagio alla luce del giorno, combattendo con una penalità di -1 ai tiri per colpire in piena luce. Di notte inviano squadre di caccia per cercare cibo e tendere imboscate a gruppi umani debolmente difesi. I goblin odiano i nani e li attaccano a vista.</p><p>Nel loro rifugio, un re goblin con 15 punti ferita li guida. Combatte come un mostro con 3 Dadi Vita, infliggendo +1 danno extra. Il re è sempre accompagnato da una guardia del corpo di 2d6 goblin che combattono come creature con 2 Dadi Vita. Il morale dei goblin migliora a 9 quando il loro re è presente e vivo.</p><p><strong>Danno Arma:</strong> Dato dall'arma.<br><strong>Terreno:</strong> Caverna, Collina, Montagna, Boschi</p>",
+            "items": {
+                "UX2h4igq8RHRAsrm": {
+                    "name": "Armatura Goblin",
+                    "description": "I goblin hanno un'armatura semplice con classe armatura naturale 6."
+                },
+                "chpsAhb27tnV5IOw": {
+                    "description": "I goblin subiscono una penalità di -1 ai tiri per colpire alla luce del giorno.",
+                    "name": "Penalità alla Luce Diurna"
+                },
+                "xqnbq0Y9tddiHibT": {
+                    "name": "Infravisione",
+                    "description": "I goblin possono vedere al buio fino a 27 metri con infravisione."
+                },
+                "zoTM3PJ5lfZzDHSK": {
+                    "description": "<p>Una spada corta è una spada con una lama dritta di 45-60 cm. Utilizzata principalmente come arma da punta piuttosto che da taglio, questa piccola lama può essere impugnata con una mano.</p>",
+                    "name": "Spada Corta"
+                }
+            },
+            "name": "Goblin"
+        },
+        "Gorgon": {
+            "biography": "<p>Una gorgone è un mostro magico simile a un toro, coperto da grandi scaglie simili al ferro, che si trova di solito in colline o praterie. Le gorgoni possono attaccare con le loro grandi corna o con il loro terribile soffio, una nube di vapore pietrificante che si estende per 18 metri di lunghezza e 3 metri di larghezza. Qualsiasi creatura nell'area deve effettuare un tiro salvezza contro la paralisi o essere pietrificata. Le gorgoni sono immuni al loro stesso soffio e a tutti gli altri attacchi pietrificanti. Native sia al Piano Primario che alla loro casa originaria, il Piano Elementale della Terra, sono creature terrificanti temute per la loro unica capacità di pietrificazione.</p><strong>Terreno:</strong> Colline, Aree Aperte<br><strong>Bardatura:</strong> Piano della Terra",
+            "items": {
+                "TTPwET7J0eTbYt7C": {
+                    "description": "Un potente attacco con le corna. La Gorgone spesso carica con esse, raddoppiando il danno.",
+                    "name": "Corna"
+                },
+                "mmcOZjMOrf7goJy9": {
+                    "description": "Spesse scaglie simili al ferro coprono la Gorgone, conferendole una classe armatura naturale.",
+                    "name": "Scaglie di Ferro"
+                },
+                "yhyfwTAlTTS57kWr": {
+                    "description": "Una nube di vapore lunga 18 metri e larga 3 metri. Qualsiasi creatura nell'area deve fare un tiro salvezza contro pietrificazione o essere pietrificata.",
+                    "name": "Soffio Pietrificante"
+                }
+            },
+            "name": "Gorgone"
+        },
+        "Living Statue, Rock": {
+            "biography": "<p>Una Statua Animata di Pietra vivente ha la parte esterna del corpo parte di pietra riempita di magma fuso. Ogni colpo rilascia magma caldo, infliggendo 2d6 danni per colpo. Le statue di roccia possono trasportare 2.500 mon a piena velocità o 5.000 mon a metà velocità.</p><strong>Terreno:</strong> Qualsiasi (soprattutto Rovine)</p>",
+            "items": {
+                "0W42rXljgC2CJFGS": {
+                    "description": "Un potente attacco che infligge 2d6 danni per colpo, con magma bollente rilasciato dalla sua crosta di pietra.",
+                    "name": "Colpo di Magma"
+                },
+                "iKOQSo049geLDoBD": {
+                    "description": "Il corpo di pietra conferisce una CA 4.",
+                    "name": "Corpo di Pietra"
+                }
+            },
+            "name": "Statua Animata di Pietra"
+        },
+        "Griffon": {
+            "biography": "<p>I Grifoni sono grandi creature maestose con la testa, le ali e gli artigli anteriori di un'aquila e il corpo e le zampe posteriori di un leone. Sono noti per la loro natura feroce e hanno una particolare fame di cavalli. Quando si trovano entro 36 metri da un cavallo, un grifone deve fare un <strong>test di morale</strong> o attaccare immediatamente.</p><p>I grifoni sono capaci di trasportare creature delle dimensioni di un cavallo alla metà della loro velocità di volo. Anche se i grifoni selvatici possono essere addomesticati se catturati giovani, anche i grifoni addestrati mantengono il loro istinto di attaccare i cavalli e devono fare un test di morale quando sono vicini a loro.</p><p><strong>Terreno:</strong> Montagna.<br><strong>Carico:</strong> 3.500 mon alla velocità massima, 7.000 mon alla metà della velocità.</p>",
+            "items": {
+                "0W4MZhhTqBnzb5C2": {
+                    "description": "Quando si trova entro 36 metri da un cavallo, il grifone deve fare un test di morale o attaccare immediatamente.",
+                    "name": "Istinto di Attacco ai Cavalli"
+                },
+                "8KKsOPSWVMB28Rto": {
+                    "name": "Pelle di Grifone (Armatura)",
+                    "description": "La pelle spessa e le piume del grifone forniscono una classe armatura naturale 5."
+                },
+                "iUFm33MoA9xdQYZY": {
+                    "description": "Il grifone colpisce con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "vfZu8rWFD77oR1j4": {
+                    "description": "Il grifone morde con il suo potente becco.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Grifone"
+        },
+        "Harpy": {
+            "biography": "<p>Le Arpie sono creature mostruose con il corpo inferiore di un'aquila gigante e il corpo superiore di una donna orribile. La loro abilità più pericolosa è il loro **canto ipnotico**, che può incantare chiunque lo ascolti. Qualsiasi creatura che ascolta il loro canto deve effettuare un tiro salvezza contro incantesimi o diventare stregata. Se una creatura riesce a effettuare il tiro salvezza, è immune a tutti i canti delle arpie per la durata dell'incontro.</p><p>Le Arpie preferiscono vivere in aree isolate vicino a luoghi con un traffico umano costante, come passi montani o rotte commerciali, dove possono attirare i viaggiatori verso la loro rovina. Una volta che un luogo non è più frequentato da nuove vittime, le arpie si sposteranno in una nuova posizione e ripeteranno il ciclo.</p><p><strong>Terreno:</strong> Collina, Montagna.<br><strong>Carico:</strong> 1.000 mon alla velocità massima, 2.000 mon alla metà della velocità.</p>",
+            "items": {
+                "LaDbLn3E6G3Hn0Hc": {
+                    "description": "L'arpia colpisce con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "bYb7CgsDVGjJDOgU": {
+                    "description": "Le piume robuste e la pelle dell'arpia forniscono una classe armatura naturale 7.",
+                    "name": "Pelle di Arpia (Armatura)"
+                },
+                "dKM7DaeoLWgEoEbP": {
+                    "description": "<p>La lancia è una punta di metallo attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "name": "Lancia"
+                },
+                "mSpmuFMuIyxLfJLe": {
+                    "description": "Le creature che ascoltano il canto dell'arpia devono effettuare un tiro salvezza contro incantesimi o essere stregate. Il successo garantisce l'immunità per il resto dell'incontro.",
+                    "name": "Canto Ipnotico"
+                }
+            },
+            "name": "Arpia"
+        },
+        "Hippogriff": {
+            "biography": "<p>Gli Ippogrifi sono creature magiche con le parti anteriori e la testa di un'aquila gigante e le parti posteriori di un cavallo. Queste creature sono carnivore, preferendo cacciare animali da branco. Discendono da un incrocio magico tra grifoni e cavalli.</p>\n        <p>Gli ippogrifi sono capaci di trasportare prede di dimensioni umane o più piccole e possono essere addomesticati per servire come cavalcature se allevati fin dalla giovane età. Nidificano solitamente in crepacci rocciosi, ma volano ovunque abbiano bisogno di cacciare. Sono nemici naturali dei pegasi, e quando incontrano queste creature, gli ippogrifi devono fare un test di morale o attaccarli nonostante i comandi del loro cavaliere.</p>\n        <strong>Danno con gli artigli:</strong> 1d6 per artiglio.<br>\n        <strong>Danno con il morso:</strong> 1d10.<br>\n        <strong>Abilità speciali:</strong> Nessuna.<br>\n        <strong>Terreno:</strong> Montagna.<br>\n        <strong>Carico:</strong> 3.000 mon alla velocità massima, 6.000 mon alla metà della velocità.",
+            "items": {
+                "9YXQ9qYZ2EC4nFrk": {
+                    "description": "L'ippogrifo colpisce con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "EUH467eXaqYljOXd": {
+                    "description": "L'ippogrifo morde con il suo becco affilato.",
+                    "name": "Morso"
+                },
+                "h7OMkTAyb761Lx2G": {
+                    "description": "La pelle spessa dell'ippogrifo fornisce una classe armatura naturale 5.",
+                    "name": "Pelle di Ippogrifo (Armatura)"
+                }
+            },
+            "name": "Ippogrifo"
+        },
+        "Hobgoblin": {
+            "biography": "<p>Gli Hobgoblin sono parenti più grandi e più malvagi dei goblin, più alti e robusti. Spesso vivono sottoterra in caverne o dungeon, ma si avventurano regolarmente nelle aspre terre selvagge o nei deserti per cacciare, senza subire penalità alla luce del giorno.</p>\n        <p>Un re hobgoblin, insieme a 1d4 guardie del corpo, guida il gruppo nella loro tana. Il re ha 22 punti ferita e combatte come un mostro da 5 DV con un ulteriore bonus di +2 ai danni. Le sue guardie del corpo sono dure come mostri da 4 DV, e ciascuna ha 3d6 punti ferita. Se il re è presente e vivo, il morale degli hobgoblin aumenta a 10.</p>\n        <strong>Danno Arma:</strong> A seconda dell'arma.<br>\n        <strong>Terreno:</strong> Caverna, Collina, Montagna, Bosco.",
+            "items": {
+                "QTLRJeBuPnCoDr89": {
+                    "description": "<p>La lancia è una punta di ferro attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "name": "Lancia"
+                },
+                "pJFpv3ztaIEvVWmr": {
+                    "description": "Gli Hobgoblin indossano un'armatura che fornisce una classe armatura naturale 6.",
+                    "name": "Armatura Hobgoblin"
+                }
+            },
+            "name": "Hobgoblin"
+        },
+        "Insect Swarm (4 HD)": {
+            "biography": "<p>Uno Sciame di Insetti è una massa di piccoli insetti che agiscono insieme come una singola forza. Lo sciame può riempire un'area di 3 m x 3 m x 9 m o più grande, costituita da insetti striscianti o volanti, o da un mix di entrambi. Questi sciami possono essere attratti dalla luce, da odori strani, o possono difendere una tana, come un alveare o un nido.</p><p>Lo sciame non effettua un tiro per colpire, poiché è un attacco ad area che colpisce automaticamente. Tutti i personaggi e i mostri corazzati con CA 5 o migliore subiscono 2 punti di danno per round. Le vittime non corazzate o i mostri con CA 6 o peggiore subiscono 4 punti di danno per round.</p><p>Una vittima che prende del tempo per scacciare gli insetti (usando un'arma o una torcia) invece di attaccare o eseguire un'altra azione subisce solo 1 punto di danno per round. I personaggi che cercano di scacciare gli insetti con le mani o le braccia sono inefficaci.</p><p>Se uno sciame viene attaccato, perseguiterà implacabilmente il suo aggressore. Le vittime possono scappare scomparendo dalla vista (come con l'invisibilità, girando un angolo, ecc.) o immergendosi sott'acqua, il che uccide tutti gli insetti dopo un round (i danni normali si applicano durante questo round).</p><strong>Terreno:</strong> Qualsiasi (eccetto Artico)</p>",
+            "items": {
+                "6ndQni01MRotinjU": {
+                    "description": "Attacco ad area che colpisce automaticamente. Le vittime corazzate (CA 5 o migliore) subiscono 2 punti di danno per round; le vittime non corazzate (CA 6 o peggiore) subiscono 4 punti di danno per round. Le vittime che scacciano gli insetti con un'arma o una torcia subiscono solo 1 punto di danno per round.",
+                    "name": "Area d'effetto"
+                },
+                "99KKUzyMXx85NoqB": {
+                    "description": "Se attaccato, lo sciame perseguiterà implacabilmente il suo aggressore. Una vittima può scappare diventando invisibile, scomparendo dalla vista o immergendosi sott'acqua, il che uccide gli insetti dopo un round.",
+                    "name": "Inseguimento Implacabile"
+                },
+                "wtpMFDL133GDuQNo": {
+                    "description": "Lo sciame di insetti offre una protezione naturale di CA 7.",
+                    "name": "Corpo di Sciame"
+                }
+            },
+            "name": "Sciame d'Insetti (4 DV)"
+        },
+        "Living Statue, Iron": {
+            "items": {
+                "aamsWz9FU5DOrDPr": {
+                    "description": "Un colpo pesante di ferro che infligge 1d8 danni per colpo. Le armi non magiche che colpiscono possono rimanere incastrate a meno che non venga effettuato un tiro salvezza contro incantesimi.",
+                    "name": "Colpo di Ferro"
+                },
+                "Vld22rlax8spCa0o": {
+                    "description": "La forma di ferro offre un'armatura naturale con CA 2.",
+                    "name": "Corpo di ferro"
+                }
+            },
+            "biography": "<p>Una Statua Animata di Ferro vivente è una creatura incantata che può assorbire il metallo. Le armi non magiche che la colpiscono possono rimanere incastrate a meno che l'attaccante non superi un tiro salvezza contro incantesimi. Se lasciate incastrate, la statua assorbirà gradualmente il metallo, espellendo le parti non metalliche. Le statue di ferro trasportano fino a 2.000 mon a piena velocità o 4.000 mon a metà velocità.</p><strong>Terreno:</strong> Qualsiasi (soprattutto Rovine)</p>",
+            "name": "Statua Animata di Ferro"
+        },
+        "Lizard, Horned Chameleon": {
+            "biography": "<p>Il Sauro Gigante Camaleonte Cornuto è una lucertola lunga 2,1 metri che si mimetizza con l'ambiente circostante grazie al suo camuffamento. Sorprende la sua preda con un tiro di 1-5 (su 1d6), attaccando con una lingua appiccicosa o con il suo corno. La lingua può tirare la preda verso un morso feroce.</p>\n        <strong>Abilità Speciale:</strong> Sorprendere con un tiro di 1-5 (su 1d6).<br>\n        <strong>Terreno:</strong> Grotta, Deserto, Boschi.<br>\n        <strong>Carico:</strong> 2.500 mon a piena velocità; 5.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di bardature:</strong> x 3.<br>",
+            "items": {
+                "1PDBmMZxv0MhyOgf": {
+                    "description": "La pelle spessa del camaleonte cornuto gigante offre protezione.",
+                    "name": "Armatura Naturale"
+                },
+                "EZVXEkTaXaepLEiv": {
+                    "description": "<p>Un attacco di morso usato dal camaleonte cornuto gigante. Il camaleonte usa la sua lingua appiccicosa per tirare il bersaglio verso la sua bocca.</p>",
+                    "name": "Morso"
+                },
+                "Fk2pzKM769mSEIqn": {
+                    "description": "<p>A causa della sua capacità di mimetizzarsi con l'ambiente circostante, il camaleonte cornuto sorprende con un tiro di 1-5 (su 1d6).</p>",
+                    "name": "Sorpresa"
+                },
+                "fzzJsXNQEhdwGPqU": {
+                    "description": "L'attacco con il corno usato dal camaleonte cornuto.",
+                    "name": "Corno"
+                }
+            },
+            "name": "Sauro Gigante Camaleonte Cornuto"
+        },
+        "Lizard, Draco": {
+            "biography": "<p>Il Sauro Gigante Draco è una creatura lunga 1,8 metri con ampie alette di pelle tra le gambe. Usa queste alette per planare nell'aria, molto simile a uno scoiattolo volante. I draghi sono comunemente trovati sopra il suolo, anche se possono rifugiarsi in grotte durante periodi di clima estremo.</p><p>Sono carnivori e sono noti per attaccare gli avventurieri quando provocati. Anche se possono planare per lunghe distanze, non possono effettivamente volare. I draghi lucertole generalmente non sono addomesticati come cavalcature senza un addestramento speciale e l'approvazione del DM.</p><p><strong>Terreno:</strong> Grotta, Deserto, Boschi.<br><strong>Carico:</strong> I sauri giganti draco possono trasportare 500 mon a piena velocità o 1.000 mon a metà velocità.<br><strong>Moltiplicatore di bardature:</strong> x 3.</p>",
+            "items": {
+                "onEbX89YbQjnRsyJ": {
+                    "name": "Morso",
+                    "description": "il sauro gigante draco morde con le sue potenti mascelle."
+                },
+                "t6v1bgNETK64G43g": {
+                    "name": "Pelle di Draco (Armatura)",
+                    "description": "La pelle spessa del sauro gigante draco fornisce una Classe Armatura naturale 5."
+                }
+            },
+            "name": "Sauro Gigante Draco"
+        },
+        "Lycanthrope, Devil Swine": {
+            "items": {
+                "8OthCdMyR126OezI": {
+                    "description": "La pelle naturale concede una CA 3 in forma di licantropo.",
+                    "name": "Armatura in Forma di Licantropo"
+                },
+                "ldt8VRqppceDDfOZ": {
+                    "description": "<p>Permette ai Verri Diabolici di incantare un bersaglio umanoide, facendolo considerare l'incantatore come un alleato fidato. Un tiro salvezza riuscito contro incantesimi (a -2) previene l'effetto. Questo incantesimo può essere lanciato tre volte al giorno sia in forma umana che suina, con ogni incantesimo che dura indefinitamente fino a quando non viene dissolto.</p>",
+                    "name": "Charme"
+                },
+                "Ap2Gbs0jf9wVmVXi": {
+                    "description": "Un violento attacco di corna, che trasmette la licantropia.",
+                    "name": "Corno"
+                }
+            },
+            "biography": "<p>I Verri Diabolici sono licantropi mutaforma, che appaiono sia come enormi suini che come umani obesi. Cambiano forma liberamente di notte, ma devono rimanere in una forma durante le ore diurne. I Verri Diabolici sono carnivori, prediligendo la carne umana, e spesso vivono vicino a insediamenti umani dove possono cacciare. Tese agguati alle loro prede, e ogni Verro Diabolico può lanciare <em>Charme</em> fino a tre volte al giorno, sia in forma umana che suina. Le vittime devono effettuare un tiro salvezza contro incantesimi con una penalità di -2; gli umani incantati diventano servitori controllati, con 0-3 solitamente sotto il controllo di un Verro Diabolico.</p><p>In <strong>forma animale</strong>, i Verri Diabolici possono essere danneggiati solo da armi magiche o argentate e comunicano con altri suini. In <strong>forma umana</strong>, possono usare qualsiasi arma, parlare qualsiasi lingua conosciuta e sono vulnerabili agli attacchi normali.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa di un attacco di corna o arma di un Verro Diabolico diventa un Verro Diabolico entro 2d12 giorni. La malattia è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Foreste, paludi o aree vicino a insediamenti umani",
+            "name": "Licantropo Verro Diabolico"
+        },
+        "Lycanthrope, Werebat": {
+            "biography": "<p>I Pipistrelli Mannari sono pericolosi licantropi volanti e intelligenti, spesso confusi con i vampiri. Possono trasformarsi liberamente tra le forme umana e pipistrello, evocando sia pipistrelli normali che giganti per assistenza. I Pipistrelli Mannari hanno una probabilità di 1 su 6 per morso di infliggere una malattia non magica.</p><p>In <strong>forma animale</strong>, i Pipistrelli Mannari possono essere danneggiati solo da armi magiche o argentate e possono comunicare con i pipistrelli. In <strong>forma umana</strong>, possono usare qualsiasi arma, parlare qualsiasi lingua conosciuta e sono vulnerabili agli attacchi normali.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa di un morso di un Pipistrello Mannaro diventa un Pipistrello Mannaro entro 2d12 giorni. Questa condizione è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Variabile, spesso come tipo animale",
+            "items": {
+                "2xL3U96x2u35jyrb": {
+                    "description": "Il Pipistrello Mannaro può volare a 54 metri per turno.",
+                    "name": "Volare"
+                },
+                "YGy42tzBkjc9F7Rj": {
+                    "description": "Può evocare 1d2 pipistrelli normali o giganti, che arrivano in 1d4 round. Può anche evocare 1d4 pipistrelli mannari aggiuntivi.",
+                    "name": "Evocazione Animale"
+                },
+                "pEbe06ruiDGCNrlJ": {
+                    "description": "La pelle naturale concede una CA 4 in forma di licantropo.",
+                    "name": "Armatura in Forma di Licantropo"
+                },
+                "sBDiUp11yJOGyPVh": {
+                    "description": "Un attacco di morso con una probabilità di 1 su 6 di infliggere una malattia non magica.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Licantropo Pipistrello Mannaro"
+        },
+        "Lycanthrope, Wereshark": {
+            "biography": "<p>Gli Squali Mannari sono tritoni affetti da licantropia, trasformandosi in una forma di squalo mako nell'oscurità. Durante la luna piena, devono cambiare e diventare assetati di sangue, perdendo intelligenza e diventando predatori pericolosi. In forma animale, vengono danneggiati solo da armi magiche o argentate. Persistono voci di esseri umani con la stessa afflizione in aree costiere.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa del morso di uno squalo mannaro diventa uno Squalo Mannaro entro 2d12 giorni. La malattia è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Costiero o mare aperto</p>",
+            "items": {
+                "ed69FLLVJJAI7SEv": {
+                    "description": "Un potente morso che trasmette la licantropia.",
+                    "name": "Morso"
+                },
+                "h938pvRuXhr8Sh3z": {
+                    "description": "La pelle naturale concede una CA 4 in forma di licantropo.",
+                    "name": "Armatura in Forma Licantropo"
+                }
+            },
+            "name": "Licantropo Squalo Mannaro"
+        },
+        "Lycanthrope, Werebear": {
+            "biography": "<p>Gli Orsi Mannari sono estremamente intelligenti e spesso preferiscono la solitudine o la compagnia di orsi normali. Possono essere amichevoli se avvicinati pacificamente. In combattimento, un Orso Mannaro che colpisce un bersaglio con entrambi gli artigli può anche eseguire un potente abbraccio dell'orso per un danno aggiuntivo di 2d8.</p><p>In <strong>forma animale</strong>, gli Orsi Mannari possono essere danneggiati solo da armi magiche o argentate, e comunicano con altri orsi. In <strong>forma umana</strong>, possono brandire armi, parlare qualsiasi lingua conosciuta e possono essere attaccati con armi normali.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa degli artigli o del morso di un orso mannaro diventa un Orso Mannaro entro 2d12 giorni. Questa condizione è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Variabile, spesso come tipo animale",
+            "items": {
+                "EpIVdV9gKr8F4DQb": {
+                    "description": "La pelle naturale concede una CA 2 in forma di licantropo.",
+                    "name": "Armatura in Forma di Licantropo"
+                },
+                "SeIIHAo0nJVMgCLo": {
+                    "description": "Se entrambi gli artigli colpiscono lo stesso bersaglio in un turno, l'Orso Mannaro può eseguire un abbraccio dell'orso aggiuntivo stritolando la vittima e infliggendo 2d8 danni.",
+                    "name": "Abbraccio dell'Orso"
+                },
+                "UAFNuVciaeqaN5nn": {
+                    "description": "Può evocare 1d2 orsi normali, che arrivano in 1d4 round.",
+                    "name": "Evocare Animali"
+                },
+                "pvo4UaOWNadixkfS": {
+                    "name": "Artiglio",
+                    "description": "Un potente attacco di artigli usato dagli orsi mannari."
+                },
+                "XOnDFSdZayRr5kkF": {
+                    "description": "Un feroce attacco di morso che trasmette la licantropia.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Licantropo Orso Mannaro"
+        },
+        "Lycanthrope, Werefox": {
+            "biography": "<p>Le Volpi Mannare sono licantropi intelligenti e agili che preferiscono la boscaglia densa, dove mantengono pieno o quasi pieno movimento. Estremamente intelligenti, possono anche essere utilizzatrici di magia, anche se gli incantesimi possono essere lanciati solo in forma umana. Le Volpi Mannare possono ammaliare (sia persone in forma umana che animali in forma di volpe) fino a tre volte al giorno, per una durata massima di 24 ore.</p><p>In <strong>forma animale</strong>, le Volpi Mannare possono essere danneggiate solo da armi magiche o argentate, e comunicano con altre volpi. In <strong>forma umana</strong>, possono usare qualsiasi arma, lanciare incantesimi e sono vulnerabili agli attacchi normali.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa del morso o di un attacco con armi di una volpe mannara diventa una Volpe Mannara entro 2d12 giorni. Questa condizione è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Variabile, spesso come tipo animale",
+            "items": {
+                "J0QeUOSFXyEGCTBb": {
+                    "description": "Può ammaliare sia persone in forma umana che animali in forma di volpe fino a tre volte al giorno. Ogni ammaliamento dura fino a 24 ore.",
+                    "name": "Capacità di Ammaliamento"
+                },
+                "LBG3Li5UehQaMhQj": {
+                    "description": "La pelle naturale concede una CA 6 in forma di licantropo.",
+                    "name": "Armatura in Forma di Licantropo"
+                },
+                "h9G6962ijwgvHbma": {
+                    "description": "<p>Una spada normale è una spada a una mano con una lama diritta o curva lunga da 60 a 90 centimetri. Questa categoria di spada comprende una varietà di stili diversi, che vanno dalle scimitarre alle spade larghe e persino ai stocchi.</p>",
+                    "name": "Spada"
+                },
+                "lksa1UJ89qhxah8D": {
+                    "description": "Un rapido morso che trasmette la licantropia.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Licantropo Volpe Mannara"
+        },
+        "Lycanthrope, Wereboar": {
+            "biography": "<p>I Cinghiali Mannari sono noti per la loro semi-intelligenza e il temperamento irascibile. In forma umana, appaiono spesso come berserker, guadagnando +2 ai tiri per colpire e combattendo fino alla morte. I Cinghiali Mannari non si associano con i Verri Diabolici. In combattimento, i Cinghiali Mannari evocano cinghiali normali per assisterli.</p><p>In <strong>forma animale</strong>, i Cinghiali Mannari possono essere danneggiati solo da armi magiche o argentate, e comunicano con i cinghiali. In <strong>forma umana</strong>, possono parlare qualsiasi lingua conosciuta, essere danneggiati da armi normali e brandire qualsiasi arma.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa di un colpo di zanne di un cinghiale mannaro diventa un Cinghiale Mannaro entro 2d12 giorni. La malattia è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Variabile, spesso come tipo animale",
+            "items": {
+                "G4AEsj2fp80mD1HO": {
+                    "description": "La pelle naturale concede una CA 4.",
+                    "name": "Armatura in Forma di Licantropo"
+                },
+                "kqINnvCBgOoeubTU": {
+                    "description": "Un potente attacco di zanne che trasmette la licantropia.",
+                    "name": "Colpo di Zanne"
+                },
+                "qlmv0w03JFUAIxp8": {
+                    "description": "Può evocare 1d2 cinghiali normali, che arrivano in 1d4 round.",
+                    "name": "Evocazione Animale"
+                }
+            },
+            "name": "Licantropo Cinghiale Mannaro"
+        },
+        "Dragon, Blue (Huge)": {
+            "biography": "<p>Il Drago Blu Enorme è una forza della natura, dominando i cieli e la terra con le sue dimensioni immense e il suo potere. Scatena un devastante soffio di fulmine, che colpisce in una linea lunga 60 metri e larga 1,5 metri, in grado di annientare tutto ciò che si trova sul suo cammino. L'intelletto e la padronanza della magia del Drago Blu Enorme lo rendono un avversario astuto e pericoloso. La sua capacità di lanciare incantesimi aggiunge solo alla minaccia che rappresenta, sia in aria che a terra.</p>\n        <strong>Arma a Soffio:</strong> Fulmine, 60 metri di lunghezza e 1,5 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Deserto, Aree Rocciose<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "IdHCLUcoDgMK6QFj": {
+                    "description": "Le robuste squame del Drago Blu forniscono classe armatura naturale -4.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "Y0C1jIEhSYXeeDL5": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, cinque incantesimi di 2° livello, cinque incantesimi di 3° livello e quattro incantesimi di 4° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "bpoJAMmtqqEQ98rq": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artigio"
+                },
+                "kjImNRe58SKZiPAx": {
+                    "name": "Soffio di Fulmine",
+                    "description": "<p>Sputa una linea di fulmine lunga 60 metri e larga 1,5 metri, infliggendo danni da fulmine pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>"
+                },
+                "sBf82tafjrrgb5g8": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "wYGsGph6lnaOrPPV": {
+                    "description": "Il drago può volare a una velocità di 110 metri per turno.",
+                    "name": "Volare"
+                }
+            },
+            "name": "Drago Blu Enorme"
+        },
+        "Dragon, Blue (Large)": {
+            "biography": "<p>Il Drago Blu Grande è una forza distruttiva nel deserto e nelle regioni aride dove dimora. È temuto per la sua potente arma a soffio, che prende la forma di un fulmine lungo 45 metri e largo 1,5 metri. Questo fulmine mortale può annientare gruppi di nemici in un istante. Oltre ai suoi attacchi fisici, il Drago Blu Grande è un abile incantatore, rendendolo ancora più formidabile.</p>\n        <strong>Arma a Soffio:</strong> Fulmine, 45 metri di lunghezza e 1,5 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Deserto, Aree Rocciose<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "6KejDZFptPy2bnQo": {
+                    "description": "Le robuste squame del Drago Blu Grande forniscono classe armatura naturale -2.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "O3xgXHtlD1fAdb5t": {
+                    "name": "Volare",
+                    "description": "Il Drago Blu Grande può volare a una velocità di 90 metri per turno."
+                },
+                "ITidihSZofC7Z7x2": {
+                    "description": "<p>Sputa una linea di fulmine lunga 45 metri e larga 1,5 metri, infliggendo danni da fulmine pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fulmine"
+                },
+                "OC5OUz0PVs865WLO": {
+                    "description": "Il Drago Blu Grande sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "dGky0UBY75e7nEiS": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "deV1eWNCKf5Yaz0l": {
+                    "name": "Lanciare Incantesimi",
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, cinque incantesimi di 2° livello e tre incantesimi di 3° livello."
+                }
+            },
+            "name": "Drago Blu Grande"
+        },
+        "Dragon, Blue (Small)": {
+            "biography": "<p>Il Drago Blu Piccolo è un predatore temibile delle regioni aride e desertiche, noto per la sua distruttiva arma a soffio di fulmine. Attacca scatenando un fulmine in linea retta lungo 30 metri e largo 1,5 metri, che può infliggere danni significativi a tutto ciò che si trova sul suo cammino. Sebbene sia uno dei draghi blu più piccoli, non è meno pericoloso, e ha alcune capacità di incantare che si aggiungono ai suoi attacchi fisici e al soffio.</p>\n        <strong>Arma a Soffio:</strong> Fulmine, 30 metri di lunghezza e 1,5 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Deserto, Aree Rocciose<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "RPqgLmjsP6yFUvFh": {
+                    "description": "Le robuste squame del Drago Blu Grande forniscono classe armatura naturale 0.",
+                    "name": "Squame di Drago (Armatura)"
+                },
+                "VmEsrHVexZtivhpX": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi quattro incantesimi di 1° livello e quattro incantesimi di 2° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "aCrpRWZiFLKSvW61": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "efirQLLaPZjeADcI": {
+                    "description": "Il Drago Blu Piccolo può volare a una velocità di 72 metri per turno.",
+                    "name": "Volare"
+                },
+                "pByj3T0QPnWjbPm7": {
+                    "description": "Il Drago Blu Piccolo sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "v0qUAELiawwHClib": {
+                    "description": "<p>Sputa una linea di fulmine lunga 30 metri e larga 1,5 metri, infliggendo danni da fulmine pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fulmine"
+                }
+            },
+            "name": "Drago Blu Piccolo"
+        },
+        "Dragon, Gold (Huge)": {
+            "items": {
+                "3jAG8juXFKj6rtH9": {
+                    "name": "Artiglio",
+                    "description": "Il drago sferra colpi con i suoi artigli affilati."
+                },
+                "5NEKJvx21RJb1fMX": {
+                    "description": "<p>Sputa un cono di fuoco lungo 55 metri e largo 9 metri, infliggendo danni da fuoco pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fuoco"
+                },
+                "WVhi0KVuSDG6ccnI": {
+                    "description": "Il Drago d'Oro Enorme può volare a una velocità di 110 metri per turno.",
+                    "name": "Volare"
+                },
+                "bMc3k4RrQWL94qFj": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi cinque incantesimi di 1° livello, cinque incantesimi di 2° livello, cinque incantesimi di 3° livello, quattro incantesimi di 4° livello e tre incantesimi di 5° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "bxXlkdaDI8AqRxsY": {
+                    "description": "<p>Sputa una nube di gas clorino larga 15 metri, profonda 15 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Clorino"
+                },
+                "gWimUEVSicoCYMnT": {
+                    "description": "Le robuste squame del Drago d'Oro Enorme forniscono classe armatura naturale -6.",
+                    "name": "Scaglie di Drago (Armatura)"
+                },
+                "za8h4mPPaD1zSMcr": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                }
+            },
+            "biography": "<p>Il Drago d'Oro Enorme è l'apice della forza e dell'intelligenza tra i draghi, venerato per il suo grande potere e il profondo senso dell'onore. Questo maestoso drago può sputare un cono di fuoco lungo 55 metri e largo 9 metri, oppure una nube di gas clorino larga 15 metri, profonda 15 metri e alta 9 metri. Entrambi gli attacchi a soffio infliggono danni pari al valore attuale dei punti ferita del drago. Conosciuto per le sue immense capacità magiche, il Drago d'Oro Enorme può lanciare potenti incantesimi per integrare la sua forza fisica, rendendolo uno dei draghi più pericolosi e onorevoli da incontrare.</p><p><strong>Arma a Soffio:</strong> Fuoco (55 metri di lunghezza, 9 metri di larghezza) o Gas Clorino (15 metri di larghezza, 15 metri di profondità, 9 metri di altezza), infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Montagne, Grotte<br><strong>Bardatura:</strong> Nessuna</p>",
+            "name": "Drago d'Oro Enorme"
+        },
+        "Dragon, Gold (Small)": {
+            "biography": "<p>Il Drago d'Oro Piccolo è noto per le sue capacità di doppio soffio, che gli permettono di sputare sia fuoco che gas clorino. Il suo soffio di fuoco forma un cono lungo 27 metri e largo 9 metri, mentre il suo gas clorino forma una nube larga 15 metri, profonda 12 metri e alta 9 metri. Entrambe le armi a soffio infliggono danni pari al valore attuale dei punti ferita del drago. I draghi d'oro sono altamente intelligenti e spesso si allineano con cause legali, usando sia la loro forza che la loro magia in battaglia.</p><p><strong>Arma a Soffio:</strong> Fuoco (27 metri di lunghezza, 9 metri di larghezza) o Gas Clorino (15 metri di larghezza, 12 metri di profondità, 9 metri di altezza), infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Montagne, Grotte<br><strong>Bardatura:</strong> Nessuna</p>",
+            "items": {
+                "3TrhL1D7ODu4vQuz": {
+                    "description": "Le robuste squame del Drago d'Oro forniscono classe armatura naturale -2.",
+                    "name": "Scaglie di Drago (Armatura)"
+                },
+                "EfUrARz1cc3UK26q": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "IpQN0sLbHsjDx307": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi quattro incantesimi di 1° livello e quattro incantesimi di 2° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "SU6xvxvmRNVi0IZQ": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "eJLM8CLw4p21Om9n": {
+                    "description": "<p>Sputa un cono di fuoco lungo 27 metri e largo 9 metri, infliggendo danni da fuoco pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fuoco"
+                },
+                "oXny2PIRrPA6YREr": {
+                    "description": "Il drago può volare a una velocità di 72 metri per turno.",
+                    "name": "Volare"
+                },
+                "sMWBIaHBK8mP1qe3": {
+                    "description": "<p>Sputa una nube di gas clorino larga 15 metri, profonda 12 metri e alta 9 metri, infliggendo danni pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Clorino"
+                }
+            },
+            "name": "Drago d'Oro Piccolo"
+        },
+        "Dragon, Red (Small)": {
+            "biography": "<p>Il Drago Rosso Piccolo è un predatore feroce e infuocato. Conosciuto per il suo intenso soffio infuocato, può incenerire i suoi nemici in un cono di fuoco lungo 27 metri e largo 9 metri. Anche se è il più piccolo della sua specie, è comunque incredibilmente pericoloso e comanda rispetto e paura. Le sue abilità di lanciare incantesimi potenziano ulteriormente la sua già formidabile presenza sul campo di battaglia.</p>\n        <strong>Arma a Soffio:</strong> Fuoco, 27 metri di lunghezza e 9 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Montagne, Grotte<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "GQ31mReERdqySL8R": {
+                    "description": "Un morso potente che può frantumare l'armatura.",
+                    "name": "Morso"
+                },
+                "X5EZN1Iew0dhqsZL": {
+                    "description": "Il drago sferra colpi con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "aZKqLLc4Fc4xsqZn": {
+                    "description": "Il drago può volare a una velocità di 72 metri per turno.",
+                    "name": "Volare"
+                },
+                "gAVBQ33p9yjUKQWa": {
+                    "description": "Questo drago può lanciare incantesimi, inclusi tre incantesimi di 1° livello, tre incantesimi di 2° livello e tre incantesimi di 3° livello.",
+                    "name": "Lanciare Incantesimi"
+                },
+                "k5q68fukuHibwr0T": {
+                    "description": "<p>Sputa un cono di fuoco lungo 27 metri e largo 9 metri, infliggendo danni da fuoco pari al valore attuale dei punti ferita del drago. I bersagli possono effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni.</p>",
+                    "name": "Soffio di Fuoco"
+                },
+                "uRelSGc4K26knFAn": {
+                    "description": "Le robuste squame del drago rosso forniscono classe armatura naturale -1.",
+                    "name": "Squame di Drago (Armatura)"
+                }
+            },
+            "name": "Drago Rosso Piccolo"
+        },
+        "Drolem": {
+            "biography": "<p>Un <strong>Drolem</strong> è un tipo di golem che assomiglia a un drago. Può essere fatto per assomigliare a qualsiasi colore di drago o può apparire come uno <strong>scheletro di drago</strong>. Come altri golem, non è vivo, ma un <strong>costrutto</strong> creato da un <strong>mago</strong> o <strong>chierico</strong> di alto livello. I <strong>Drolem</strong> sono estremamente rari, tipicamente costruiti per proteggere un oggetto o una posizione speciale. È necessario un <strong>libro</strong> speciale e diversi materiali rari per creare un <strong>Drolem</strong>.</p><p>Un <strong>Drolem</strong> è <strong>non intelligente</strong> e segue le istruzioni esattamente. Può vedere <strong>creature invisibili</strong> entro 18 metri ed è immune a:</p><ul><li><strong>Charme</strong>, <strong>Paralisi</strong>, <strong>Sonno</strong> e tutti gli incantesimi che influenzano la mente</li><li>Tutte le forme di <strong>fuoco</strong>, <strong>freddo</strong> e <strong>gas</strong></li><li>Incantesimi di <strong>4° livello o inferiore</strong></li><li>Tutte le <strong>armi normali</strong> e <strong>d'argento</strong>, così come le <strong>armi magiche</strong> con incantamento di +2 o inferiore</li></ul><p>Gli artigli del <strong>Drolem</strong> infliggono <strong>2d6</strong> punti di danno ciascuno e le sue mascelle massicce causano <strong>11-30 (1d20 + 10)</strong> punti di danno. Può anche respirare una <strong>nube velenosa</strong> fino a tre volte al giorno. La nube è <strong>6 metri x 6 metri x 6 metri</strong> e le creature nell'area devono effettuare un tiro salvezza contro <strong>respiro del drago</strong> o morire.</p><p><strong>Terreno:</strong> Qualsiasi</p><p><strong>Carico:</strong> 20.000 mon a piena velocità; 40.000 mon a mezza velocità</p>",
+            "items": {
+                "BSFLw1KhMw6CcPFs": {
+                    "description": "Il Drolem sferra colpi con i suoi potenti artigli meccanici.",
+                    "name": "Artiglio"
+                },
+                "COrjcn8QHMb1rJsP": {
+                    "description": "<p>Il corpo meccanico del Drolem fornisce classe armatura -3.</p>",
+                    "name": "Corpo Meccanico (Armatura)"
+                },
+                "PPI7EI4r3OU9zIIN": {
+                    "description": "Il Drolem è immune a tutti gli incantesimi tranne Disintegrazione, Indurire e incantesimi di desiderio.",
+                    "name": "Immunità Magica"
+                },
+                "aLuQ5SIGOAid6fjg": {
+                    "description": "<p>Soffia un cono di gas velenoso, lungo 18 metri e largo 6 metri, infliggendo 20d6 danni da veleno. I bersagli possono effettuare un tiro salvezza contro respiro per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Velenoso"
+                },
+                "eCGEjuMl0AUbokBM": {
+                    "description": "Un morso devastante con precisione meccanica.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Drolem"
+        },
+        "Feathered Behemoth": {
+            "biography": "<p>L'Orso Gufo è un grande e terrificante predatore, che ricorda un misto tra gufo e orso. È un cacciatore feroce, attaccando con artigli mortali e un potente morso. Se entrambi gli artigli colpiscono un bersaglio nello stesso turno, l'orso gufo tenta di afferrare e **stritolare**, schiacciando il suo avversario con le sue potenti braccia per danni aggiuntivi.</p>\n        <strong>Danno Artiglio:</strong> 1d8 per artiglio.<br>\n        <strong>Danno Morso:</strong> 2d8.<br>\n        <strong>Attacco Speciale (Stritolare):</strong> Se entrambi gli artigli colpiscono nello stesso turno, il Colosso stritola il suo avversario, infliggendo un ulteriore 2d8 danni.<br>\n        <strong>Terreno:</strong> Foreste, Caverne<br>\n        <strong>Bardatura:</strong> Nessuna",
+            "items": {
+                "1mxCcmddn1fqtOvP": {
+                    "description": "L'orso gufo sferza con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "SVhHJ68RnMOQERyi": {
+                    "description": "La spessa pelle dell'orso gufo fornisce classe armatura naturale 5.",
+                    "name": "Pelle di Orso Gufo (Armatura)"
+                },
+                "Z2R9fOiHQF3KS9Ts": {
+                    "description": "Un potente morso dal becco dell'orso gufo.",
+                    "name": "Morso"
+                },
+                "6bqnSjL65VS6gKeu": {
+                    "description": "<p>Se entrambi gli artigli colpiscono nello stesso turno, il colosso stritola il suo avversario per un ulteriore [[/r 2d8 #Danno Stritolare]] danno.</p>",
+                    "name": "Stritolare"
+                }
+            },
+            "name": "Orso Gufo"
+        },
+        "Gorgon, Elemental Plane of Earth": {
+            "items": {
+                "Zm5ovXnMlGIt7AhY": {
+                    "description": "Spesse scaglie simili al ferro coprono la Gorgone, conferendole una classe armatura naturale.",
+                    "name": "Scaglie di Ferro"
+                },
+                "hS3TRZIe2x0w8L7w": {
+                    "description": "Un attacco con le corna più piccolo ma potente.",
+                    "name": "Corna"
+                },
+                "uS8QFTgQBKwvxKRK": {
+                    "description": "Una nube di vapore con un raggio di 18 metri che può pietrificare creature non fatte di terra se falliscono un tiro salvezza contro soffio.",
+                    "name": "Soffio Pietrificante"
+                }
+            },
+            "biography": "<p>Nel Piano Elementale della Terra, la Gorgone serve come animale da mandria locale, allevato da creature delle orde. Anche se il suo latte è amaro e oleoso, le creature si affidano alle gorgoni come fonte di cibo. Il suo soffio può ancora pietrificare creature non fatte di terra (con un tiro salvezza riuscito).</p><strong>Terreno:</strong> Piano della Terra",
+            "name": "Gorgone Elementale (Piano della Terra)"
+        },
+        "Grave Worm": {
+            "items": {
+                "ULPe9wii9clbt4na": {
+                    "description": "Ognuno degli otto tentacoli del Verme Iena può paralizzare il suo bersaglio con un colpo riuscito, a meno che non venga effettuato un tiro salvezza contro paralisi. Questo attacco non infligge danni, ma lascia la vittima indifesa per 2d4 turni.",
+                    "name": "Tentacoli Paralizzanti"
+                },
+                "UqndlSUAKeX3jkPy": {
+                    "description": "Qualsiasi creatura colpita da un tentacolo del Verme Iena deve fare un tiro salvezza contro paralisi o essere paralizzata per 2d4 turni. La paralisi può essere curata magicamente, o si esaurisce naturalmente.",
+                    "name": "Paralisi"
+                },
+                "diaROMHfTGB4sNFN": {
+                    "description": "Un piccolo attacco con morso che infligge 1 punto di danno.",
+                    "name": "Morso"
+                },
+                "ma3aZJ0jHu8IUahC": {
+                    "description": "L'esoscheletro resistente del Verme Iena fornisce classe armatura 7.",
+                    "name": "Esoscheletro Duro"
+                }
+            },
+            "biography": "<p>Questo spazzino, noto come Verme Iena, è una creatura lunga 2,7 metri e alta 90 cm, con molte zampe. Può muoversi senza sforzo su pavimenti, pareti e soffitti. La sua piccola bocca è circondata da otto tentacoli lunghi 60 cm, che possono paralizzare una vittima con un colpo riuscito, a meno che non venga effettuato un tiro salvezza contro paralisi. I tentacoli stessi non infliggono danni.</p><p>I Vermi delle Tombe sono noti spazzini, che si nutrono tipicamente dei resti di animali morti. Tuttavia, inseguiranno con entusiasmo prede fresche se l'opportunità si presenta. Attaccano spesso piccoli gruppi di viaggiatori, paralizzando le loro vittime e consumandole entro tre turni, a meno che non vengano interrotti. La paralisi si esaurisce naturalmente in 2d4 turni, a meno che non venga curata magicamente.</p><p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "name": "Verme Iena"
+        },
+        "Horse, Riding": {
+            "items": {
+                "5F1QGqGIRwLBSZj7": {
+                    "name": "Zoccolo"
+                },
+                "Xc9Z7VvvLm4BzI0s": {
+                    "name": "Pelle di Cavallo"
+                }
+            },
+            "biography": "<p>Un <strong>cavallo da sella (o palafreno)</strong> è una cavalcatura robusta e affidabile, capace di trasportare un cavaliere e un equipaggiamento leggero per lunghe distanze. Può viaggiare a una velocità moderata, adatta per i movimenti terrestri generali, ed è ben adatto per gli avventurieri che necessitano di trasporto tra città o attraverso aree selvagge. Il cavallo richiede alimentazione, cura e riposo regolari, ma è abbastanza versatile per la maggior parte dei terreni. Sebbene manchi della velocità di un cavallo da guerra o della resistenza di un cavallo da tiro, è una scelta ideale per i viaggi di base.</p>\n<strong>Carico:</strong> 3.000 mon alla velocità massima, 6.000 mon alla metà della velocità.",
+            "name": "Cavallo da Sella (Palafreno)"
+        },
+        "Hydra": {
+            "biography": "<p>L'Idra è una bestia enorme con un corpo simile a quello di un drago e molte teste che ricordano serpenti. Ogni idra ha tra 5 e 12 teste, con un Dado Vita e 8 punti ferita per testa. L'idra attacca ferocemente, usando ciascuna delle sue teste ogni round. Se un'idra perde una testa, il danno subito determina quante teste rimangono in combattimento.</p>\n        <p>Per ogni 8 punti di danno subiti, una delle teste dell'idra viene distrutta, riducendo la sua capacità di attacco. Ad esempio, un'idra con 7 teste che subisce 16 punti di danno perderà due teste e attaccherà con solo cinque teste nel round successivo.</p>\n        <p>Le idre possono essere trovate a guardia di tesori in luoghi remoti e pericolosi. Sebbene la maggior parte delle idre si trovi nelle paludi o in altre aree selvagge, esistono varianti di questa creatura con abilità specializzate.</p>\n        <strong>Terreno:</strong> Palude.<br>",
+            "items": {
+                "snr3Gtp9GkvHmKHW": {
+                    "description": "Ogni testa infligge un morso che provoca 1d10 danni.",
+                    "name": "Morso"
+                },
+                "u6Eo9BQK8phh7uqs": {
+                    "description": "La pelle dura e squamosa dell'idra offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                }
+            },
+            "name": "Idra"
+        },
+        "Hydra, Flying": {
+            "biography": "<p>L'idra volante è una versione rara e terrificante dell'idra normale, con enormi ali simili a quelle dei pipistrelli capaci di trasportare la creatura su grandi distanze. A differenza dei suoi parenti terrestri, l'idra volante può attaccare solo con un massimo di tre teste alla volta mentre è in volo. Spesso usa la sua agilità per piombare giù e attaccare a sorpresa.</p>\n        <p>Ogni testa infligge potenti morsi e, per ogni 8 punti di danno, una testa viene distrutta, riducendo la capacità di attacco dell'idra. Le idre volanti si trovano più comunemente nelle regioni montuose, terrorizzando qualsiasi cosa entri nel loro territorio.</p>\n        <strong>Terreno:</strong> Montagna.<br>",
+            "items": {
+                "AVP8wtZdX9pexalv": {
+                    "description": "L'idra può volare a 55 metri per turno.",
+                    "name": "Volare"
+                },
+                "Qf4W72243sPbyfxh": {
+                    "description": "Ogni testa infligge un morso che provoca 1d10 danni. Solo 3 teste possono attaccare in volo.",
+                    "name": "Morso"
+                },
+                "XW7BNzKBuqhrziGJ": {
+                    "description": "La pelle dura dell'idra volante offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                }
+            },
+            "name": "Idra Volante"
+        },
+        "Hydra, Sea": {
+            "biography": "<p>L'idra Marina è una versione acquatica del suo cugino terrestre, con pinne al posto delle gambe. Trovata nei laghi profondi o negli oceani, è altrimenti identica all'idra normale. Ogni testa attacca nello stesso modo, usando i suoi potenti morsi in combattimento e, per ogni 8 punti di danno subiti, una testa viene distrutta.</p>\n        <p>Pur essendo adattata alla vita sott'acqua, le idre marine non sono meno pericolose e sono spesso usate per custodire tesori nascosti sotto le onde.</p>\n        <strong>Terreno:</strong> Lago, Oceano.<br>",
+            "items": {
+                "07qKOPXNlBIRjJ2F": {
+                    "description": "Ogni testa attacca con un morso che provoca 1d10 danni.",
+                    "name": "Morso"
+                },
+                "v8qpAuyShMvziAlr": {
+                    "description": "La pelle dura dell'idra marina offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                }
+            },
+            "name": "Idra Marina"
+        },
+        "Insect Swarm (2 HD)": {
+            "items": {
+                "6ndQni01MRotinjU": {
+                    "description": "Attacco ad area che colpisce automaticamente. Le vittime corazzate (CA 5 o migliore) subiscono 2 punti di danno per round; le vittime non corazzate (CA 6 o peggiore) subiscono 4 punti di danno per round. Le vittime che scacciano gli insetti con un'arma o una torcia subiscono solo 1 punto di danno per round.",
+                    "name": "Area d'effetto"
+                },
+                "99KKUzyMXx85NoqB": {
+                    "description": "Se attaccato, lo sciame perseguiterà implacabilmente il suo aggressore. Una vittima può scappare diventando invisibile, scomparendo dalla vista o immergendosi sott'acqua, il che uccide gli insetti dopo un round.",
+                    "name": "Inseguimento Implacabile"
+                },
+                "wtpMFDL133GDuQNo": {
+                    "description": "Lo sciame di insetti offre una protezione naturale di CA 7.",
+                    "name": "Corpo di Sciame"
+                }
+            },
+            "biography": "<p>Uno Sciame di Insetti è una massa di piccoli insetti che agiscono insieme come una singola forza. Lo sciame può riempire un'area di 3 m x 3 m x 9 m o più grande, costituita da insetti striscianti o volanti, o da un mix di entrambi. Questi sciami possono essere attratti dalla luce, da odori strani, o possono difendere una tana, come un alveare o un nido.</p><p>Lo sciame non effettua un tiro per colpire, poiché è un attacco ad area che colpisce automaticamente. Tutti i personaggi e i mostri corazzati con CA 5 o migliore subiscono 2 punti di danno per round. Le vittime non corazzate o i mostri con CA 6 o peggiore subiscono 4 punti di danno per round.</p><p>Una vittima che prende del tempo per scacciare gli insetti (usando un'arma o una torcia) invece di attaccare o eseguire un'altra azione subisce solo 1 punto di danno per round. I personaggi che cercano di scacciare gli insetti con le mani o le braccia sono inefficaci.</p><p>Se uno sciame viene attaccato, perseguiterà implacabilmente il suo aggressore. Le vittime possono scappare scomparendo dalla vista (come con l'invisibilità, girando un angolo, ecc.) o immergendosi sott'acqua, il che uccide tutti gli insetti dopo un round (i danni normali si applicano durante questo round).</p><strong>Terreno:</strong> Qualsiasi (eccetto Artico)</p>",
+            "name": "Sciame di Insetti (2 DV)"
+        },
+        "Living Statue, Crystal": {
+            "biography": "<p>Una Statua Animata di Cristallo è una forma di vita animata composta interamente di cristallo. Appare come una statua normale, spesso umanoide, e può effettuare due attacchi per round. Le statue di cristallo sono immuni agli incantesimi di sonno e possono trasportare fino a 1.500 mon a piena velocità o 3.000 mon a metà velocità.</p><strong>Terreno:</strong> Qualsiasi (soprattutto Rovine)</p>",
+            "items": {
+                "19h2yXoirgg47yrH": {
+                    "description": "La forma di cristallo offre un'armatura naturale CA 4.",
+                    "name": "Corpo di Cristallo"
+                },
+                "A3EQyOIcF95eo8Ki": {
+                    "description": "Un colpo pesante di cristallo che infligge 1d6 danni per colpo.",
+                    "name": "Colpo di Cristallo"
+                }
+            },
+            "name": "Statua Animata di Cristallo"
+        },
+        "Lizard, Gecko": {
+            "biography": "<p>Il Sauro Gigante Geco è un carnivoro notturno lungo 1,5 metri con pelle azzurro pallido e macchie arancione-marroni. I suoi piedi specializzati gli permettono di arrampicarsi su muri o alberi, cadendo sulla sua preda per attaccarla con un potente morso.</p>\n        <strong>Terreno:</strong> Grotta, Deserto, Boschi.<br>\n        <strong>Carico:</strong> 1.500 mon a piena velocità; 3.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di bardature:</strong> x 3.<br>",
+            "items": {
+                "3nOWe7HRJm2AGtxk": {
+                    "description": "La pelle squamosa naturale del geco gigante offre una protezione di base.",
+                    "name": "Armatura Naturale"
+                },
+                "mg1Ed8J6D6tQvI51": {
+                    "description": "Un potente morso del geco gigante.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Sauro Gigante Geco"
+        },
+        "Lycanthrope, Wererat": {
+            "biography": "<p>I Ratti Mannari sono licantropi insoliti perché la loro forma naturale è quella di un grande ratto, e si trasformano in forma umana secondo necessità. Intelligenti e astuti, spesso organizzano imboscate e preferiscono la forma di ratto di dimensioni umane in combattimento, sorprendendo i nemici con un tiro di 1-4 su 1d6. I Ratti Mannari evocano ratti giganti per aiutarli in battaglia, e solo il loro morso trasmette la licantropia.</p><p>In <strong>forma animale</strong>, i Ratti Mannari possono essere danneggiati solo da armi magiche o argentate o da incantesimi, e comunicano con i ratti. In <strong>forma umana</strong>, i Ratti Mannari possono usare qualsiasi arma, parlare qualsiasi lingua conosciuta ed essere danneggiati da armi normali.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa del morso di un ratto mannaro diventa un Ratto Mannaro entro 2d12 giorni. La condizione uccide i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Variabile, spesso come tipo animale",
+            "items": {
+                "4K35d58yVpHX4vww": {
+                    "description": "<p>Una spada corta è una spada con una lama diritta lunga da 45 a 60 centimetri. Utilizzata principalmente come arma da punta piuttosto che da taglio, questa piccola lama può essere usata con una mano.</p>",
+                    "name": "Spada Corta"
+                },
+                "Nie9z1RrZlol9hJl": {
+                    "description": "La pelle naturale concede una CA di 7.",
+                    "name": "Armatura di Pelle Naturale"
+                },
+                "VMN7lzQkDPn66U0J": {
+                    "description": "Un attacco di morso di un ratto mannaro che trasmette la licantropia.",
+                    "name": "Morso"
+                },
+                "h7uPwUDHQySMecIo": {
+                    "description": "CA 9 in forma umana.",
+                    "name": "Armatura in Forma Umana"
+                },
+                "t5IJfYQoRJBKdh1n": {
+                    "description": "Può evocare 1d2 ratti normali, che arrivano in 1d4 round.",
+                    "name": "Evocare Animale"
+                }
+            },
+            "name": "Licantropo Ratto Mannaro"
+        },
+        "Lycanthrope, Wereseal": {
+            "biography": "<p>Le Foche Mannare si trovano tipicamente vicino a coste marine fredde. La più comune femmina di Foca Mannara è non aggressiva, ma il più raro maschio di Foca Mannara è altamente pericoloso, con CA 3, DV 8 e un attacco di morso dannoso. Le femmine evitano il combattimento, mentre i maschi proteggono ferocemente il territorio.</p><p>In <strong>forma animale</strong>, le Foche Mannare possono essere danneggiate solo da armi magiche o argentate, e comunicano con altre foche. In <strong>forma umana</strong>, possono parlare qualsiasi lingua conosciuta, usare armi e sono vulnerabili agli attacchi normali.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa del morso di una foca mannara diventa una Foca Mannara entro 2d12 giorni. La malattia è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Costiero o coste marine fredde",
+            "items": {
+                "3ggPPfy6hiDiOFga": {
+                    "description": "Un potente morso che trasmette la licantropia.",
+                    "name": "Morso"
+                },
+                "X6UKjZy27fUkhnpJ": {
+                    "description": "La pelle naturale concede una CA 5 in forma di licantropo.",
+                    "name": "Armatura in Forma Licantropo"
+                }
+            },
+            "name": "Licantropo Foca Mannara"
+        },
+        "Lycanthrope, Weretiger": {
+            "items": {
+                "ARGxwWisltzTHnKS": {
+                    "description": "Può evocare 1d2 grandi felini (preferibilmente tigri), che arrivano in 1d4 round.",
+                    "name": "Evocare Animale"
+                },
+                "FbvZBj3upi2K7Exb": {
+                    "description": "Un potente attacco con di artigli utilizzato dalle Tigri Mannare.",
+                    "name": "Artiglio"
+                },
+                "KNvGeuLkIBPxHvFz": {
+                    "description": "La pelle naturale concede una CA 3 in forma di licantropo.",
+                    "name": "Armatura in Forma Licantropo"
+                },
+                "WdTIaikaqlN0zq77": {
+                    "description": "Un feroce morso che trasmette la licantropia.",
+                    "name": "Morso"
+                }
+            },
+            "biography": "<p>Le Tigri Mannare sono licantropi feroci e intelligenti, strettamente correlati ai grandi felini. Note per la loro curiosità, diventano altamente pericolose quando provocate. Le Tigri Mannare sono abili nuotatrici e cacciatrici silenziose, spesso sorprendendo le prede con un tiro di 1-4 su 1d6. Possono evocare grandi felini (preferibilmente tigri) per aiutarle se sono nelle vicinanze.</p><p>In <strong>forma animale</strong>, le Tigri Mannare possono essere danneggiate solo da armi magiche o argentate, e comunicano con altri felini. In <strong>forma umana</strong>, possono brandire armi, parlare qualsiasi lingua conosciuta e possono essere attaccate con armi normali.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa degli artigli o del morso di una tigre mannara diventa una Tigre Mannara entro 2d12 giorni. La condizione è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Variabile, spesso come tipo animale",
+            "name": "Licantropo Tigre Mannara"
+        },
+        "Lycanthrope, Werewolf": {
+            "biography": "<p>I Lupi Mannari sono creature semi-intelligenti conosciute per i loro branchi di caccia. Gruppi di cinque o più hanno un capo con 30 punti ferita, che attacca come un mostro da 5 DV e infligge +2 danni per colpo. I Lupi Mannari possono evocare lupi normali per creare branchi più grandi per gli attacchi.</p><p>In <strong>forma animale</strong>, i Lupi Mannari possono essere danneggiati solo da armi magiche o argentate, e comunicano con i lupi. In <strong>forma umana</strong>, possono parlare qualsiasi lingua conosciuta, essere danneggiati da armi normali e possono brandire qualsiasi arma.</p><p><strong>Licantropia</strong>: Qualsiasi umano che perde più della metà dei suoi punti ferita a causa del morso di un lupo mannaro diventa un Lupo Mannaro entro 2d12 giorni. Questa condizione è fatale per i mezz'uomini e può essere curata solo da un chierico di 11º livello o superiore.</p><strong>Terreno:</strong> Variabile, spesso come tipo animale",
+            "items": {
+                "EpcI1oPb4J5rcnxs": {
+                    "description": "La pelle naturale concede una CA 5.",
+                    "name": "Armatura in Forma Naturale"
+                },
+                "i9IgjZiF1213f97e": {
+                    "description": "Un potente morso che trasmette la licantropia.",
+                    "name": "Morso"
+                },
+                "qPYpt1XZOPSQQtdN": {
+                    "description": "Può evocare 1d2 lupi normali, che arrivano in 1d4 round.",
+                    "name": "Evocare Animale"
+                }
+            },
+            "name": "Licantropo Lupo Mannaro"
         }
     },
     "label": "Compendium dei Mostri"
