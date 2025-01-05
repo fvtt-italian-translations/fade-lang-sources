@@ -10,13 +10,20 @@ export async function commandUpdate(source: string, extracted: string) {
   const moduleJsonPath = dirname(source);
   const moduleJson = await readModuleJson(moduleJsonPath);
 
-  const packsWithData: PackWithEntries[] = await Promise.all(
+  const packsWithData: PackWithData[] = await Promise.all(
     moduleJson.packs.map(async (pack) => {
       const extractedFilePath = resolve(extracted, pack.name + ".json");
+      const folderFilePath = resolve(extracted, pack.name + "_folders.json");
+
       const entries: BaseEntry[] = JSON.parse(
         await readFile(extractedFilePath, "utf-8")
       );
-      return { ...pack, entries };
+
+      const folders: FolderEntry[] = JSON.parse(
+        await readFile(folderFilePath, "utf-8")
+      );
+
+      return { ...pack, entries, folders };
     })
   );
 
@@ -25,28 +32,37 @@ export async function commandUpdate(source: string, extracted: string) {
   for (const pack of packsWithData) {
     switch (pack.type) {
       case "Actor":
-        await handleActor(pack, pack.entries as any[]);
+        await handleActor(pack as any);
         break;
       case "Item":
-        await handleItem(pack, pack.entries as any[]);
+        await handleItem(pack as any);
         break;
       case "Macro":
-        await handleMacro(pack, pack.entries as any[]);
+        await handleMacro(pack as any);
         break;
       case "RollTable":
-        await handleRollTable(pack, pack.entries as any[]);
+        await handleRollTable(pack as any);
         break;
     }
   }
 }
 
-async function handleActor(pack: PackType, entries: EntryActor[]) {
+async function handlePackFolders(pack: PackWithData, out: Compendium) {
+  for (const folder of pack.folders) {
+    (out.folders ??= {})[folder.name] = folder.name;
+  }
+}
+
+async function handleActor(pack: PackWithData<EntryActor>) {
   const out: Compendium = {
     label: pack.label,
+    folders: {},
     entries: {},
   };
 
-  for (const entry of entries) {
+  await handlePackFolders(pack, out);
+
+  for (const entry of pack.entries) {
     const outEntry: TranslationStrings = (out.entries[entry.name] = {});
     outEntry.name = entry.name;
     if (entry.system.biography) {
@@ -75,13 +91,16 @@ async function handleActor(pack: PackType, entries: EntryActor[]) {
   await writeFile(join("compendium", pack.name + ".json"), outData);
 }
 
-async function handleItem(pack: PackType, entries: EntryItem[]) {
+async function handleItem(pack: PackWithData<EntryItem>) {
   const out: Compendium = {
     label: pack.label,
+    folders: {},
     entries: {},
   };
 
-  for (const entry of entries) {
+  await handlePackFolders(pack, out);
+
+  for (const entry of pack.entries) {
     const outEntry: TranslationStrings = (out.entries[entry.name] = {});
     outEntry.name = entry.name;
     if (entry.system.description) {
@@ -96,22 +115,56 @@ async function handleItem(pack: PackType, entries: EntryItem[]) {
   await writeFile(join("compendium", pack.name + ".json"), outData);
 }
 
-async function handleMacro(pack: PackType, entries: any) {}
+async function handleMacro(pack: PackWithData<any>) {
+  const out: Compendium = {
+    label: pack.label,
+    folders: {},
+    entries: {},
+  };
 
-async function handleRollTable(pack: PackType, entries: any) {}
+  await handlePackFolders(pack, out);
+
+  for (const entry of pack.entries) {
+    const outEntry: TranslationStrings = (out.entries[entry.name] = {});
+    outEntry.name = entry.name;
+  }
+
+  const outData = JSON.stringify(out, orderKeysReplacer, 2);
+  await writeFile(join("compendium", pack.name + ".json"), outData);
+}
+
+async function handleRollTable(pack: PackWithData<any>) {
+  const out: Compendium = {
+    label: pack.label,
+    folders: {},
+    entries: {},
+  };
+
+  await handlePackFolders(pack, out);
+
+  for (const entry of pack.entries) {
+    const outEntry: TranslationStrings = (out.entries[entry.name] = {});
+    outEntry.name = entry.name;
+  }
+
+  const outData = JSON.stringify(out, orderKeysReplacer, 2);
+  await writeFile(join("compendium", pack.name + ".json"), outData);
+}
 
 type TranslationStrings = {
   [P in string]: string | TranslationStrings;
 };
 
-interface PackWithEntries extends PackType {
-  entries: BaseEntry[];
+interface PackWithData<TData extends BaseEntry = BaseEntry> extends PackType {
+  entries: TData[];
+  folders: FolderEntry[];
 }
 
 interface Compendium {
   label: string;
   mapping?: Record<string, string | { path: string; converter: string }>;
   entries: TranslationStrings;
+  folders?: Record<string, string>;
 }
 
 interface BaseEntry {
@@ -163,6 +216,8 @@ interface EntryItem extends BaseEntry {
     };
   };
 }
+
+interface FolderEntry extends BaseEntry {}
 
 function orderKeysReplacer(key: string, value: any) {
   if (value instanceof Object && !(value instanceof Array)) {

@@ -16,8 +16,8 @@ export async function commandExtract(source: string, extracted: string) {
 
     const { packSources, folders } = await db.getEntries();
 
-    // const folderFilePath = resolve(outDir, "_folders.json");
-    // await writeFile(folderFilePath, prettyPrintJSON(folders), "utf-8");
+    const outFolderFile = resolve(extracted, pack.name + "_folders.json");
+    await writeFile(outFolderFile, prettyPrintJSON(folders), "utf-8");
 
     const outFile = resolve(extracted, pack.name + ".json");
     const outData = JSON.stringify(packSources);
