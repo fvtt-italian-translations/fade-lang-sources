@@ -3666,10 +3666,460 @@
         "Snake, Sea Snake": {
             "items": {
                 "T7HIntFwf55rMP2E": {
-                    "name": "Morso Velenoso"
+                    "name": "Morso Velenoso",
+                    "description": "Un attacco con morso velenoso che uccide a meno che non venga superato un tiro salvezza contro veleno."
+                },
+                "P957YZMiPTRHUznS": {
+                    "description": "La pelle squamosa del serpente marino lo protegge nell'oceano.",
+                    "name": "Armatura Naturale"
                 }
-            }
+            },
+            "biography": "<p>Un Serpente Marino è un serpente acquatico velenoso. Ha una lunghezza media di 1,8 metri e infligge un morso che provoca 1 punto di danno. Le vittime del suo morso devono effettuare un tiro salvezza contro il veleno o morire dopo 1d4 + 2 turni.</p><p>A differenza di altri serpenti, i serpenti marini attaccano gli esseri umani; sono molto aggressivi.</p><p><strong>Terreno:</strong> Oceano.<br></p>",
+            "name": "Serpente, Marino"
+        },
+        "Roc, Small": {
+            "biography": "<p>I Roc Piccoli sono uccelli rapaci massicci che assomigliano a aquile. Sono creature altamente legali e possono essere ostili verso esseri neutrali o caotici. I Roc preferiscono la solitudine e attaccano qualsiasi intruso vicino ai loro nidi a meno che non siano avvicinati con cautela.</p><p>I Roc costruiscono i loro nidi sulle montagne più alte e possono avere 1d6 uova o giovani se incontrati nella loro tana. Possono essere addestrati come bestie da cavalcare se catturati da piccoli.</p><p><strong>Terreno:</strong> Montagne (tana), Qualsiasi (caccia).<br><strong>Carico:</strong> 1,000 mon x DV a piena velocità; 2,000 mon x DV a metà velocità.<br><strong>Moltiplicatore per bardatura:</strong> x 3.</p>",
+            "items": {
+                "9bRPGYSiGUCNApaS": {
+                    "description": "Il Roc Piccolo fende con i suoi affilati artigli.",
+                    "name": "Artiglio"
+                },
+                "JM78qY9fekgktM57": {
+                    "description": "Il Roc Piccolo morde con il suo potente becco.",
+                    "name": "Morso"
+                },
+                "S2zWv6fZ8NKkh0ED": {
+                    "description": "Le spesse piume e la pelle del Roc Piccolo forniscono una Classe Armatura naturale 4.",
+                    "name": "Pelle del Roc Piccolo (Armatura)"
+                }
+            },
+            "name": "Roc Piccolo"
+        },
+        "Salamander, Flame": {
+            "biography": "<p>Le Salamandre del Fuoco sono creature temibili provenienti dal piano elementale del Fuoco. Assomigliano a enormi lucertole serpentiformi, lunghe tra i 3,5 e i 5 metri, con squame di un brillante arancio-giallo e arancio-rosso. Sebbene siano originarie del piano del Fuoco, a volte si trovano in ambienti molto caldi sul Piano Primario, come vulcani o terre desertiche.</p>\n<p>In combattimento, attaccano con i loro artigli e il potente morso. Inoltre, il calore che emanano è intenso e colpisce tutte le creature entro 6 metri, infliggendo 1d8 punti di danno da calore per round. Le salamandre stesse sono completamente immuni a tutte le forme di fuoco.</p>\n<p>Le salamandre del fuoco sono nemiche mortali delle salamandre del ghiaccio e le attaccheranno a vista.</p>\n<strong>Terreno:</strong> Piano del Fuoco.<br>",
+            "items": {
+                "7ltPxSqdfqOO3XVr": {
+                    "description": "Un potente morso che infligge 1d8 danni.",
+                    "name": "Morso"
+                },
+                "hmMrx5Aer5kny06b": {
+                    "description": "La dura pelle squamosa della salamandra del fuoco offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "u5jYk96SWY0vok51": {
+                    "description": "Tutte le creature entro 6 metri dalla salamandra subiscono 1d8 danni da calore per round.",
+                    "name": "Aura di Calore"
+                },
+                "zYidGPVMoriTL2Fy": {
+                    "description": "Un attacco con gli artigli che infligge 1d4 danni.",
+                    "name": "Artiglio"
+                }
+            },
+            "name": "Salamandra del Fuoco"
+        },
+        "Snake, Pit Viper": {
+            "biography": "<p>La Vipera Butterata è un serpente velenoso lungo 1,5 metri di colore grigio-verdastro. La sua testa ha piccole cavità che funzionano come sensori di calore, dandogli un vantaggio automatico di iniziativa e un'infravisione a 18 metri.</p>\n<p>Un morso riuscito richiede un tiro salvezza contro il veleno o la vittima muore istantaneamente.</p>\n<strong>Terreno:</strong> Qualsiasi eccetto Artico.<br>",
+            "items": {
+                "4b6p23QIdcYMUbvN": {
+                    "description": "Un attacco con morso velenoso che uccide a meno che non venga superato un tiro salvezza contro veleno.",
+                    "name": "Morso Velenoso"
+                },
+                "oeBAmg5fOvVtxbei": {
+                    "description": "La pelle squamosa della Vipera Butterata offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "p5kOvtqVyPNaT63L": {
+                    "description": "<p>Nessun tiro necessario, lei vince sempre l'iniziativa.</p>",
+                    "name": "Iniziativa Certa"
+                }
+            },
+            "name": "Serpente, Vipera Butterata"
+        },
+        "Salamander, Frost": {
+            "biography": "<p>La Salamandra dei Ghiacci è una massiccia lucertola a sei zampe proveniente dal piano elementale dell'Aria. Ha squame bianche o bianco-azzurre e preferisce le terre desolate ghiacciate, i ghiacciai e la tundra gelata quando si trova sul Piano Primario. La creatura è estremamente pericolosa e ha la capacità di attaccare con tutti e quattro i suoi artigli e un morso feroce.</p>\n<p>Oltre ai suoi attacchi fisici, la salamandra del ghiaccio emana un'aura di freddo estremo. Tutte le creature entro 6 metri dalla salamandra subiscono 1d8 punti di danno da freddo per round. La salamandra stessa è immune a tutte le forme di freddo.</p>\n<p>Come la sua controparte infuocata, la salamandra dei ghiacci è la nemica mortale delle salamandre del fuoco e le attaccherà a vista.</p>\n<strong>Terreno:</strong> Piano dell'Aria.<br>",
+            "items": {
+                "HSp9n1vyU5yjkJEk": {
+                    "description": "La dura pelle squamosa della salamandra dei ghiacci offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "KTeipjfzdOjcdRl0": {
+                    "description": "Tutte le creature entro 6 metri dalla salamandra subiscono 1d8 danni da freddo per round.",
+                    "name": "Aura di Gelo"
+                },
+                "XebM8sz0bo13Mt4o": {
+                    "description": "Un potente morso che infligge 2d6 danni.",
+                    "name": "Morso"
+                },
+                "xD7KMlQa8DqOdtf7": {
+                    "description": "Un attacco con gli artigli che infligge 1d6 danni.",
+                    "name": "Artiglio"
+                }
+            },
+            "name": "Salamandra dei Ghiacci"
+        },
+        "Spider, Giant (Black Widow)": {
+            "biography": "<p>Il Ragno Gigante Vedova Nera è un aracnide velenoso lungo 1,8 metri, noto per il caratteristico segno rosso a forma di clessidra sul suo addome. Questo predatore di solito rimane vicino alla sua tana ragnatelata, usando le sue ragnatele per intrappolare la preda. Queste ragnatele sono forti quanto quelle create dall'incantesimo <em>web</em> di un utilizzatore di magia.</p><p>Qualsiasi creatura morsa da una Vedova Nera deve superare un tiro salvezza contro il veleno o morire entro un turno. Le sue ragnatele possono essere bruciate via, e gli avventurieri possono provare a liberarsi come per l'incantesimo <em>web</em>.</p><p><strong>Terreno:</strong> Rovine, Boschi.<br></p>",
+            "items": {
+                "A4m10TwHXu27aHmC": {
+                    "name": "Movimento x2 tra Ragnatele"
+                },
+                "BSyPJbMdcCaiAYnf": {
+                    "description": "Un morso velenoso che infligge 2d6 danni. Le vittime devono superare un tiro salvezza contro il veleno o morire entro 1 turno.",
+                    "name": "Morso Velenoso"
+                },
+                "GHvrtLvoCrG8rZtx": {
+                    "description": "Crea ragnatele simili all'incantesimo *ragnatela*, intrappolando la preda.",
+                    "name": "Ragnatele"
+                },
+                "olWYAuYGnUkwSoz0": {
+                    "description": "L'esoscheletro robusto della vedova nera offre protezione.",
+                    "name": "Armatura Naturale"
+                }
+            },
+            "name": "Ragno Gigante, Vedova Nera"
+        },
+        "Sprite": {
+            "items": {
+                "b9cvkt0nUQ5wxsJo": {
+                    "description": "Quando cinque spiritelli agiscono insieme, possono lanciare una maledizione sotto forma di scherzo. Gli effetti sono lasciati all'immaginazione del DM (come far inciampare qualcuno o far crescere il naso di una persona). La maledizione può essere contrastata con un incantesimo di scaccia maledizioni.",
+                    "name": "Malediazione"
+                },
+                "niir3TWuWrJydYo7": {
+                    "description": "La natura agile degli spiritelli conferisce loro una Classe Armatura naturale 5.",
+                    "name": "Ali degli Spiritelli (Armatura)"
+                }
+            },
+            "biography": "<p>Gli Spiritelli sono piccoli umanoidi alati alti circa 30 cm. Sono imparentati con i folletti e gli elfi. Anche se tendono a essere timidi, gli spiritelli sono creature curiose con un senso dell'umorismo particolare.</p><p>Quando cinque spiritelli lavorano insieme, possono lanciare una maledizione sotto forma di scherzo magico. Esempi di questo includono far inciampare qualcuno o far crescere il naso di una persona. L'effetto esatto è lasciato all'immaginazione del DM. Un incantesimo di scaccia maledizioni può contrastare questi effetti. Gli spiritelli non mirano mai a causare la morte, nemmeno se attaccati.</p><p><strong>Terreno:</strong> Boschi.</p>",
+            "name": "Spiritello"
+        },
+        "Snake, Giant Rattlesnake": {
+            "biography": "<p>Il Serpente a Sonagli Gigante è un serpente velenoso che può raggiungere i 3 metri di lunghezza, con il corpo adornato da squame a forma di diamante marroni e bianche. Ha un sonaglio distintivo all'estremità della coda, utilizzato per avvertire le potenziali minacce prima di attaccare. Nonostante le sue dimensioni intimidatorie, è sorprendentemente veloce, attaccando due volte per round: una all'inizio e una alla fine.</p>\n        <p>Un morso riuscito consegna un veleno mortale. Chiunque venga morso deve effettuare un tiro salvezza contro il veleno o morire entro 1d6 turni.</p>\n        <strong>Terreno:</strong> Qualsiasi eccetto Artico.<br>",
+            "items": {
+                "NimOyKwt7IZaBqQd": {
+                    "description": "La dura pelle squamosa del Serpente a Sonagli Gigante offre protezione.",
+                    "name": "Armatura Naturale"
+                },
+                "y5mboMdJ713ojSfN": {
+                    "description": "<p>Un morso velenoso che colpisce due volte per round. Superi un tiro salvezza contro veleno o muori in 1d6 turni.</p>",
+                    "name": "Morso (veleno)"
+                }
+            },
+            "name": "Serpente, a Sonagli Gigante"
+        },
+        "Wolf, Dire": {
+            "biography": "<p>I Lupi Neri sono versioni più grandi e feroci dei lupi normali. Semi-intelligenti e aggressivi, sono cacciatori capaci e operano spesso in branchi. Talvolta vengono addestrati dai goblin come cavalcature, anche se la loro natura selvaggia rende questo processo difficile.</p><p>I lupi neri preferiscono vivere in caverne, boschi o montagne. Se catturati giovani, possono essere addestrati come cavalcature se il DM lo permette.</p><p><strong>Terreno:</strong> Boschi.<br><strong>Carico:</strong> 1.000 mon a piena velocità; 2.000 mon a metà velocità.<br><strong>Moltiplicatore di Bardatura:</strong> x 1/2.</p>",
+            "items": {
+                "eyi2UxZCILIKIHJa": {
+                    "description": "Il lupo nero morde con le sue potenti mascelle.",
+                    "name": "Morso"
+                },
+                "nmc5SxuBNadk1jsp": {
+                    "description": "La robusta pelle del lupo nero offre una Classe Armatura naturale 6.",
+                    "name": "Pelle di Lupo Nero (Armatura)"
+                }
+            },
+            "name": "Lupo Nero"
+        },
+        "Spectre": {
+            "biography": "<p>I Necrospettri sono potenti creature non-morte, che appaiono come esseri traslucidi con espressioni malvagie e occhi fiammeggianti. Un tempo umani o semi-umani, ora servono forze malvagie superiori, spesso come luogotenenti.</p><p>I necrospettri possono essere danneggiati solo da armi magiche. Le armi d'argento non hanno alcun effetto contro di essi. Sono immuni a incantesimi di sonno, charme e paralisi, come tutti i non-morti.</p><p>L'attacco con tocco del necrospettro infligge 1d8 danni e drena due livelli di esperienza dalla vittima. Un personaggio ucciso da un necrospettro risorgerà la notte successiva come necrospettro sotto il suo controllo.</p><p><strong>Terreno:</strong> Rovine</p>",
+            "items": {
+                "588JYafuExywCBGu": {
+                    "name": "Tratti da Non-Morto",
+                    "description": "Può essere colpito solo da armi magiche, non da quelle d'argento. Immune a incantesimi di sonno, charme e paralisi. Un personaggio ucciso da un necrospettro risorge come necrospettro la notte successiva sotto il controllo dell'uccisore."
+                },
+                "9YnPBcPfxNC5P8OJ": {
+                    "description": "La forma incorporea concede una CA 2, danneggiabile solo da armi magiche e d'argento.",
+                    "name": "Forma Incorporea"
+                },
+                "IxRY2IsUy0GGVFi2": {
+                    "description": "Un attacco con tocco che infligge 1d8 danni e provoca un doppio risucchio di energia, riducendo di 2 i livelli del bersaglio.",
+                    "name": "Tocco"
+                },
+                "nF57VloKI3Zsw832": {
+                    "description": "Il necrospettro può volare a 90 metri per turno.",
+                    "name": "Volare"
+                }
+            },
+            "name": "Necrospettro"
+        },
+        "Spider, Giant (Crab Spider)": {
+            "biography": "<p>Il Ragno Gigante Chelato è un predatore lungo 1,5 metri con un'abilità simile a quella di un camaleonte di mimetizzarsi con l'ambiente circostante, sorprendendo la sua preda con un tiro di 1-4 su 1d6. Tende ad aggrapparsi ai soffitti o alle pareti e ad attaccare in agguato cadendo su vittime ignare. Una volta attaccato, può essere visto e combattuto normalmente.</p>\n        <p>Il suo morso è velenoso e un tiro salvezza contro il veleno fallito significa che la vittima muore entro 1d4 turni. Tuttavia, il veleno è debole e il tiro salvezza è effettuato con un bonus di +2.</p>\n        <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "items": {
+                "qJlfB70ZV16MNPAM": {
+                    "description": "<p>Un morso velenoso che infligge 1d8 danni. Le vittime devono superare un tiro salvezza contro il veleno o morire entro [[/r 1d4 #morire in questo numero di turni]] turni. Il veleno è debole e la vittima ottiene +2 al tiro salvezza.</p>",
+                    "name": "Morso Velenoso Debole"
+                },
+                "zxIjnn1VyoLPtYQx": {
+                    "description": "L'esoscheletro del Ragno Gigante Chelato offre una difesa naturale.",
+                    "name": "Armatura Naturale"
+                }
+            },
+            "name": "Ragno Gigante, Chelato"
+        },
+        "Spider, Giant (Tarantella)": {
+            "biography": "<p>Il Ragno Gigante Tarantola è un ragno enorme, lungo 2,1 metri, con zampe pelose e un morso velenoso. Il suo morso non uccide direttamente, ma causa alla vittima movimenti dolorosi e simili a spasmi che ricordano una danza frenetica.</p>\n<p>Se la vittima fallisce un tiro salvezza contro il veleno, è costretta a ballare incontrollabilmente per 2d6 turni. Gli spettatori che assistono al ballo devono anche effettuare un tiro salvezza contro gli incantesimi o iniziare a ballare allo stesso modo. Le vittime che ballano subiscono una penalità di -4 ai tiri per colpire, mentre gli attaccanti guadagnano un bonus di +4 per colpirli. Dopo 5 turni di ballo, le vittime collassano per l'esaurimento e diventano indifese contro ulteriori attacchi.</p>\n<p><strong>Terreno:</strong> Rovine, Boschi.</p>",
+            "items": {
+                "8Jxe2lflqneXEWKk": {
+                    "description": "Un morso velenoso che costringe a superare un tiro salvezza contro il veleno, altrimenti la vittima inizia una danza frenetica.",
+                    "name": "Morso Velenoso"
+                },
+                "SFzY0InaUr1aMYlB": {
+                    "description": "Il corpo peloso del Ragno Gigante Tarantola offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "bJLJtzx2KUAEriwg": {
+                    "description": "Le vittime morse devono superare un tiro salvezza o iniziare una danza magica per 2d6 turni. Anche gli spettatori possono essere colpiti.",
+                    "name": "Danza Magica"
+                }
+            },
+            "name": "Ragno Gigante, Tarantola"
+        },
+        "Trader": {
+            "biography": "<p>I Carovanieri sono commercianti che viaggiano in carovane tra le città, acquistando e vendendo vari beni come vini, sete, gioielli e metalli preziosi. Di solito indossano **corazza di maglia** e portano una **spada** e un **pugnale** per proteggersi.</p>\n        <p>I Carovanieri si organizzano spesso in carovane, costituite da diversi mercanti e **guerrieri** per la protezione. I guerrieri indossano corazza di maglia e brandiscono spade, pugnali e balestre. Il numero di mercanti che compaiono in una carovana dipende dalle dimensioni della carovana, che possono variare da piccoli gruppi a grandi carovane organizzate con numerosi carri.</p>\n        <strong>Armi e Armature:</strong> Corazza di maglia, spada e pugnale.<br>\n        <strong>Organizzazione:</strong> I Carovanieri viaggiano in carovane, con **guerrieri** per la protezione e **animali** per trasportare i beni.<br>\n        <strong>Terreno:</strong> Qualsiasi (tra le città).<br>",
+            "items": {
+                "JybiYr8xV5PgAYXw": {
+                    "name": "Pugnale",
+                    "description": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>"
+                },
+                "mE8RpFWh2fQEAu4s": {
+                    "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare un materiale protettivo flessibile. La corazza di maglia conferisce al personaggio una classe armatura 5.</p>",
+                    "name": "Corazza di Maglia"
+                },
+                "9oZ48BIkjSFigcMW": {
+                    "description": "<p>Una spada a una mano con una lama diritta o curva lunga da 60 a 90 cm. Questa categoria di spade comprende una varietà di stili diversi, che vanno dalle scimitarre alle spade larghe e persino ai stocchi.</p>",
+                    "name": "Spada"
+                }
+            },
+            "name": "Umano, Carovaniere"
+        },
+        "Stirge": {
+            "biography": "<p>L'Uccello Stigeo è una creatura simile a un uccello con un lungo becco. Attacca spingendo il suo becco in una vittima e nutrendosi del loro sangue. Una volta che un Uccello Stigeo colpisce con successo un bersaglio (infliggendo 1d3 punti di danno), si attacca alla vittima. Da lì, succhia 1d3 punti di sangue per round fino a quando la vittima non è morta.</p><p>A causa della sua velocità e del suo attacco in picchiata, un Uccello Stigeo volante guadagna un bonus di +2 al suo primo tiro per colpire contro qualsiasi singolo avversario.</p><p><strong>Danno del Becco:</strong> 1d3 su un colpo riuscito, con 1d3 danni per round dopo l'attacco.<br><strong>Abilità Speciali:</strong> Si attacca succhiando sangue dopo un colpo riuscito.<br><strong>Terreno:</strong> Caverna, Rovine, Boschi.</p>",
+            "items": {
+                "962hZ3AYJQWj3BF0": {
+                    "description": "Una volta attaccato, l'Uccello Stigeo succhia il sangue della vittima, infliggendo 1d3 danni per round.",
+                    "name": "Succhia Sangue"
+                },
+                "Ct9sx25RZDpfsQw5": {
+                    "description": "L'esteriore robusto dell'Uccello Stigeo offre una Classe Armatura naturale 7.",
+                    "name": "Carapace dell'Uccello Stigeo (Armatura)"
+                },
+                "gXffbGqwu4F8nlnu": {
+                    "description": "L'Uccello Stigeo infila il suo becco nel corpo della vittima, infliggendo 1d3 danni. Dopo l'attacco, infligge 1d3 danni per round fino a quando non viene staccato o la vittima muore.",
+                    "name": "Becco"
+                }
+            },
+            "name": "Uccello Stigeo"
+        },
+        "Unicorn": {
+            "biography": "<p>Un Unicorno assomiglia a un cavallo snello e aggraziato con un lungo corno a spirale che sporge dalla sua fronte. Conosciuti per la loro bellezza, nessuno ha mai visto un unicorno non attraente. Sebbene siano timidi ed elusivi, diventano feroci difensori quando minacciati. Solo una fanciulla pura può parlare o cavalcare un unicorno, formando un legame con queste creature mistiche.</p>\n        <p>Gli unicorni possiedono la capacità magica di teletrasportarsi (e il loro cavaliere) fino a 110 metri una volta al giorno. Se hanno un cavaliere, il loro morale migliora a 9. Questi esseri rari preferiscono vivere nelle profondità delle foreste, lontano dalle creature senzienti. I corni degli unicorni sono molto ambiti dai maghi malvagi per l'uso in pozioni alchemiche e ricerche magiche, rendendoli obiettivi per i cacciatori.</p>\n        <strong>Terreno:</strong> Boschi.<br>\n        <strong>Carico:</strong> 2,000 mon a piena velocità; 4,000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di Bardatura:</strong> x 1.<br>",
+            "items": {
+                "66q22s6vJpxqZqpP": {
+                    "description": "La pelle dell'unicorno offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "rXRh4AZqtTGeUEwD": {
+                    "description": "Un attacco con lo zoccolo che infligge 1d8 danni.",
+                    "name": "Zoccolo"
+                },
+                "s28AJJ9ZNBMJWG5G": {
+                    "description": "Un potente attacco con il corno che infligge 1d8 danni.",
+                    "name": "Corno"
+                },
+                "s6MipIvP2ovgHqLv": {
+                    "description": "Una volta al giorno, l'unicorno può teletrasportarsi magicamente con un cavaliere fino a 110 metri.",
+                    "name": "Teletrasporto"
+                }
+            },
+            "name": "Unicorno"
+        },
+        "Wyvern": {
+            "biography": "<p>Una viverna è una creatura temibile che ricorda un drago a due zampe, completo di una lunga coda appuntita. A differenza dei veri draghi, le viverne mancano degli arti anteriori e sono di solito viste in tonalità di marrone, rosso o rosso ruggine. Si trovano comunemente in regioni montuose o in foreste dense, anche se possono essere incontrate in molti ambienti.</p>\n        <p>In battaglia, le viverne usano sia il morso che il pungiglione velenoso. La creatura inarca la coda sopra la testa per pungere i nemici di fronte a essa, e coloro che vengono colpiti dal pungiglione devono superare un tiro salvezza contro veleno o morire. Le viverne sono carnivore, spesso predano grandi animali da mandria come alci e cervi, ma non esiteranno ad attaccare gli umani se incontrate.</p>\n        <strong>Terreno:</strong> Montagna, Boschi.<br>\n        <strong>Carico:</strong> 3.500 mon a piena velocità; 7.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di Bardatura:</strong> x 3.<br>",
+            "items": {
+                "EWN7774DnrEviqMx": {
+                    "description": "Un potente morso che infligge 2d8 danni.",
+                    "name": "Morso"
+                },
+                "PyKoEti7jEYKpnvI": {
+                    "description": "La robusta pelle della viverna, simile a quella di un drago, offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                },
+                "c8ReZVRGbN11FeJ8": {
+                    "name": "Puntura Velenosa",
+                    "description": "Il pungiglione della coda della viverna richiede di superare un tiro salvezza contro veleno. Se fallito, la vittima muore a causa del veleno."
+                },
+                "tNSDjx0uVOZtd3L3": {
+                    "description": "Un pungiglione mortale che infligge 1d6 danni. Le vittime devono superare un tiro salvezza contro veleno o morire.",
+                    "name": "Pungiglione Velenoso"
+                }
+            },
+            "name": "Viverna"
+        },
+        "Wolf, Normal": {
+            "biography": "<p>I Lupi Normali sono grandi carnivori canini intelligenti che cacciano in branchi. Sebbene preferiscano le aree selvagge, i lupi possono occasionalmente essere trovati in caverne. Sono cacciatori implacabili, ma possono essere addomesticati se catturati da cuccioli, anche se il processo è difficile.</p><p>Se un branco di lupi viene ridotto a meno del 50% del suo numero originale, o se vengono incontrati tre o meno lupi, il loro morale scende a 6 invece di 8.</p><p><strong>Terreno:</strong> Boschi.<br><strong>Carico:</strong> 500 mon a piena velocità; 1.000 mon a metà velocità.<br><strong>Moltiplicatore di Bardatura:</strong> x 1/2.</p>",
+            "items": {
+                "KuoBmcgkDYhHaENw": {
+                    "description": "Il lupo morde la sua preda con i suoi denti affilati.",
+                    "name": "Morso"
+                },
+                "fXnF4h1fW8Eitdca": {
+                    "description": "La spessa pelle del lupo offre una Classe Armatura naturale 6.",
+                    "name": "Pelle di Lupo (Armatura)"
+                }
+            },
+            "name": "Lupo Normale"
+        },
+        "Treant": {
+            "biography": "<p>Un Uomo-albero o Treant è una creatura intelligente alta 5,5 metri che assomiglia a un albero, con caratteristiche facciali riconoscibili. Ha due grandi rami che fungono da braccia con mani e cammina su piedi simili a radici. Gli Uomini Albero sono guardiani della foresta e della vita vegetale, e sono amichevoli con altre creature intelligenti della foresta come gli actaeon, i centauri e le driadi. Parlano una lingua lenta e complessa e non si fidano di chiunque usi il fuoco.</p><p>Gli Uomini Albero si mimetizzano quasi perfettamente con gli alberi normali, e tutti gli incontri con loro iniziano a una distanza di 60 metri o meno. Sorprendono con un tiro di 1-3 su un d6 grazie al loro camuffamento. Anche se le armi normali possono ferirli, le armi contundenti (come le mazze) infliggono solo 1 punto di danno per colpo, più eventuali bonus magici e di forza.</p><p>In combattimento, un Uomo Albero attacca con due potenti colpi di ramo. Inoltre, ha la capacità di animare gli alberi vicini, comandando fino a due entro un raggio di 18 metri a muoversi e combattere come Uomini Albero con una velocità di movimento di 9 metri per turno. L'Uomo Albero può scegliere nuovi alberi da animare ogni turno, permettendogli di adattarsi al flusso della battaglia.</p><p><strong>Terreno:</strong> Boschi</p><p></p>",
+            "items": {
+                "NlrwYjK7jNZDNbC6": {
+                    "name": "Resistenza alle Armi Contundenti",
+                    "description": "Prende solo 1 punto di danno per colpo dalle armi contundenti, più eventuali bonus magici e di forza."
+                },
+                "ZoqLsFNbVKyZTW3R": {
+                    "description": "Può animare fino a due alberi entro 18 metri a muoversi a 9 metri per turno e combattere come Uomini Albero. L'Uomo Albero può cambiare quali alberi sta animando ogni turno.",
+                    "name": "Animare Alberi"
+                },
+                "dKWTOekp0weLXwVq": {
+                    "description": "Indistinguibile dagli alberi normali; sorprende gli avversari con un tiro di 1-3 (su 1d6) a una distanza di 60 metri o meno.",
+                    "name": "Mimetizzazione Boschiva"
+                },
+                "o5fApXnU9gIoXhKE": {
+                    "description": "La spessa corteccia di Uomo-albero offre un'armatura naturale con CA 2.",
+                    "name": "Corteccia di Albero"
+                },
+                "vEps56yAUrjWRiw1": {
+                    "description": "Un potente attacco con i rami infligge 2d6 danni per colpo.",
+                    "name": "Colpo di Ramo"
+                }
+            },
+            "name": "Uomo-albero"
+        },
+        "Skeleton": {
+            "items": {
+                "0xmcTUhOK201oyMW": {
+                    "description": "La forma scheletrica fornisce una protezione naturale con una Classe Armatura 7.",
+                    "name": "Ossa"
+                },
+                "9meun3eVuU4gV2Zc": {
+                    "description": "<p>Una spada a una mano con una lama dritta o curva lunga da 60 a 90 cm. Questa categoria di spada comprende una varietà di stili diversi, che vanno dalle scimitarre alle spade larghe e persino ai stocchi.</p>",
+                    "name": "Spada"
+                },
+                "OhPSDqO59ZVGey96": {
+                    "description": "<p>La lancia è una punta perforante attaccata a un'estremità di un'asta di lunghezza media-lunga (1,8 - 2,4 m). I guerrieri, i nani, gli elfi e i mistici possono usare la manovra di lancia contro carica\".</p>",
+                    "name": "Lancia"
+                },
+                "zfwxHH3oAYrGRKN4": {
+                    "name": "Tratti dei Non-Morti",
+                    "description": "Possono essere scacciati dai chierici; immuni agli incantesimi di sonno, charme e altri che alterano la mente."
+                }
+            },
+            "biography": "<p>Gli scheletri animati sono creature non morte spesso create come guardie da incantatori di alto livello o da non morti superiori. Trovati in rovine, cimiteri e dungeon, gli scheletri combattono implacabilmente fino a essere distrutti. Possono essere respinti dai chierici e non sono influenzati da incantesimi di sonno, charme o che alterano la mente.</p><strong>Terreno:</strong> Rovine.</p>",
+            "name": "Scheletro"
+        },
+        "Snake, Giant Racer": {
+            "biography": "<p>Il Biscione Strisciante è un tipo \"medio\" di serpente gigante lungo circa 1,2 metri. Non ha abilità speciali ma è più veloce della maggior parte dei serpenti. Il suo morso può essere pericoloso, infliggendo 1d6 danni. Se ne possono trovare di più grandi, con una lunghezza media di 0,6 metri per Dado Vita e infliggendo 1d8, 1d10, o persino 2d6 punti di danno per morso.</p><p><strong>Terreno:</strong> Qualsiasi eccetto Artico.<br></p>",
+            "items": {
+                "dJWxNZnQmnJx3NZ3": {
+                    "name": "Armatura Naturale",
+                    "description": "Le squame del Biscione Strisciante offrono difesa."
+                },
+                "snpso89oeT0RqWWb": {
+                    "description": "Un attacco con morso dal Biscione Strisciante.",
+                    "name": "Morso"
+                }
+            },
+            "name": "Serpente, Biscione Strisciante"
+        },
+        "Snake, Rock Python": {
+            "biography": "<p>Il Pitone delle Rocce è un serpente gigantesco, che può raggiungere i 9 metri di lunghezza. Le sue squame sono decorate con spirali marroni e gialle, che lo aiutano a mimetizzarsi nel terreno roccioso. Attacca per primo con un morso, affondando i suoi denti nella vittima.</p>\n        <p>Se il morso ha successo, il pitone avvolge le sue potenti spire intorno alla vittima, stringendo per 2d4 punti di danno ogni round fino a quando il serpente muore o rilascia la preda.</p>\n        <strong>Terreno:</strong> Qualsiasi eccetto Artico.<br>",
+            "items": {
+                "YEgt8idhsvpwNcli": {
+                    "description": "<p>Se il morso ha successo, il pitone si avvolge intorno alla vittima, stringendo per [[/r 2d4 #danni da stretta]] ogni round.</p>",
+                    "name": "Strizzare"
+                },
+                "fh7N5kp6gYL9UpOr": {
+                    "description": "L'attacco con morso del Pitone delle Rocce.",
+                    "name": "Morso"
+                },
+                "jKGSeMzdzzkhv4oO": {
+                    "description": "La pelle spessa del Pitone delle Rocce offre una protezione naturale.",
+                    "name": "Armatura Naturale"
+                }
+            },
+            "name": "Serpente, Pitone delle Rocce"
+        },
+        "Snake, Spitting Cobra": {
+            "biography": "<p>Un Cobra Sputante è un serpente grigio-bianco lungo 1 metro. Sputa veleno negli occhi della vittima fino a una distanza di 1,8 metri. Se lo sputo colpisce, la vittima deve effettuare un tiro salvezza contro il veleno o essere accecata.</p>\n        <p>Il morso infligge 1d3 punti di danno, e le vittime devono effettuare un tiro salvezza contro il veleno o morire entro 1d10 turni.</p>\n        <p><strong>Terreno:</strong> Qualsiasi eccetto Artico.</p>",
+            "items": {
+                "0GVGLAD8Z2YGQzBb": {
+                    "description": "Sputa veleno fino a 1,8 metri. Le vittime devono superare un tiro salvezza contro il veleno o essere accecate.",
+                    "name": "Sputa Veleno"
+                },
+                "ZoCcS5PNxAWxEEtz": {
+                    "name": "Morso Velenoso",
+                    "description": "<p>Un attacco con morso che infligge danni e inietta veleno. Il bersaglio deve superare un tiro salvezza contro il veleno o morire entro 1d10 turni.</p>"
+                },
+                "qpZ2UjHZfKakbEvU": {
+                    "name": "Pelle di Serpente"
+                }
+            },
+            "name": "Serpente, Cobra Sputante"
+        },
+        "Thoul": {
+            "items": {
+                "AdolrUmOgZ1ADbwy": {
+                    "description": "Il Thoul si rigenera recuperando 1 punto ferita per round finché è vivo.",
+                    "name": "Rigenerazione"
+                },
+                "Ori6JIAA4qKMpIt7": {
+                    "description": "Il tocco del Thoul può paralizzare, simile all'effetto del tocco di un ghoul.",
+                    "name": "Paralisi"
+                },
+                "WZz0ndNSPZ1fUZes": {
+                    "name": "Spada Corta",
+                    "description": "<p>Una spada corta è una spada con una lama diritta lunga da 45 cm a 60 cm. Utilizzata principalmente come arma da stoccata piuttosto che da taglio, questa piccola lama può essere usata con una mano.</p>"
+                },
+                "mahryQ9sY90qoqwl": {
+                    "description": "La spessa pelle del Thoul offre una Classe Armatura naturale 6.",
+                    "name": "Pelle del Thoul (Armatura)"
+                },
+                "tjpuwBikq01HPtQ5": {
+                    "description": "Il Thoul colpisce con i suoi artigli.",
+                    "name": "Artiglio"
+                }
+            },
+            "biography": "<p>Un Thoul è una combinazione magica di un ghoul, hobgoblin e troll. Queste creature sembrano hobgoblin, ma un'ispezione più approfondita rivela la loro natura mostruosa. I Thoul sono spesso trovati come parte della guardia del corpo di un re hobgoblin o di un sovrano Caotico.</p><p>I Thoul hanno due abilità pericolose: il loro tocco può **paralizzare**, molto simile a un ghoul, e possono **rigenerarsi**, recuperando 1 punto ferita per round finché sono vivi.</p><p><strong>Terreno:</strong> Terre Desolate, Caverna.</p>",
+            "name": "Thoul"
+        },
+        "Troll": {
+            "biography": "<p>I Troll sono umanoidi alti e magri, alti 2,4 metri. Possiedono denti affilati, tratti feroci e pelle chiazzata simile alla gomma. I Troll sono carnivori e preferiscono prede umane o simili agli umani. Si trovano in una varietà di terreni, spesso vivendo tra le rovine delle abitazioni delle loro vittime.</p>\n        <p>I Troll sono estremamente pericolosi a causa delle loro **capacità rigenerative**. Tre round dopo essere stati danneggiati, un Troll inizierà a guarire a un ritmo di **3 punti ferita per round**. Anche gli arti amputati possono strisciare di nuovo verso il corpo del Troll per riunirsi. Tuttavia, i Troll non possono rigenerare i danni causati dal fuoco o dall'acido, e quando vengono attaccati con questi mezzi, il loro morale scende a **8**.</p>\n        <strong>Danno degli Artigli:</strong> 1d6 per artiglio.<br>\n        <strong>Danno del Morso:</strong> 1d10.<br>\n        <strong>Rigenerazione:</strong> I Troll guariscono 3 PF per round a partire da 3 round dopo il danno. Gli arti amputati si riuniscono al corpo a meno che non siano distrutti dal fuoco o dall'acido.<br>\n        <strong>Terreno:</strong> Caverna, Natura Selvaggia (qualunque).",
+            "items": {
+                "0ia2RT843ZiVIfaP": {
+                    "description": "Il troll rigenera 3 punti ferita per round a partire da 3 round dopo essere stato danneggiato. Gli arti amputati si riuniscono al corpo a meno che non siano distrutti dal fuoco o dall'acido.",
+                    "name": "Rigenerazione"
+                },
+                "KQSRzJrsY5zBvVov": {
+                    "description": "Il troll morde con le sue potenti mascelle.",
+                    "name": "Morso"
+                },
+                "OSWDQcklECwzZSjE": {
+                    "description": "Il troll colpisce con i suoi artigli affilati.",
+                    "name": "Artiglio"
+                },
+                "khsMlysK9n25Rs7s": {
+                    "description": "La spessa pelle del troll offre una Classe Armatura naturale 4.",
+                    "name": "Pelle di Troll (Armatura)"
+                }
+            },
+            "name": "Troll"
         }
     },
-    "label": "Compendium dei Mostri"
+    "label": "Bestiario",
+    "folders": {
+        "Dragons": "Draghi",
+        "Monsters & Beasts": "Mostri e Bestie",
+        "Mounts": "Cavalcature",
+        "Devilfish": "Pesce Diavolo",
+        "Dinosaur": "Dinosauro"
+    }
 }
