@@ -344,6 +344,54 @@
       },
       "name": "Bandit"
     },
+    "Bandit (2HD)": {
+      "biography": "<p>Bandits are NPC thieves who have come together to rob others. They typically operate in small groups or larger communities of 3-30 members. Often they send out raiding parties of 2-4 bandits to target travelers.</p>\n      <p>Bandits use deception, pretending to be ordinary people to surprise their victims. They are also known to set up ambushes, blocking roads with obstacles like fallen trees to force travelers to stop. Once stopped, the bandits attack from hiding, using ranged weapons to rob their victims.</p>\n      <p>In a bandit's lair, Treasure Type A can be found, but this is not carried by individual bandits. Bandits may be led by an NPC of any human character class, who is one or more levels higher than the bandits. This leader might have greater ambitions beyond robbery, such as organizing a network of bandit gangs for a more nefarious purpose or seeking revenge for an injustice.</p>\n      <p><strong>Terrain:</strong> Any, usually wilderness along main roads.</p>",
+      "items": {
+        "DsmywWzt0szTd268": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short"
+        },
+        "G1b3GdFhCSqKAkPG": {
+          "description": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+          "name": "Axe, Hand"
+        },
+        "VrHF08EGwEq2BNmn": {
+          "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
+          "name": "Ambush"
+        },
+        "YiKuJU9xRkb16Fr6": {
+          "description": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
+          "name": "Scale Mail"
+        }
+      },
+      "name": "Bandit (2HD)"
+    },
+    "Bandit (3HD)": {
+      "biography": "<p>Bandits are NPC thieves who have come together to rob others. They typically operate in small groups or larger communities of 3-30 members. Often they send out raiding parties of 2-4 bandits to target travelers.</p>\n      <p>Bandits use deception, pretending to be ordinary people to surprise their victims. They are also known to set up ambushes, blocking roads with obstacles like fallen trees to force travelers to stop. Once stopped, the bandits attack from hiding, using ranged weapons to rob their victims.</p>\n      <p>In a bandit's lair, Treasure Type A can be found, but this is not carried by individual bandits. Bandits may be led by an NPC of any human character class, who is one or more levels higher than the bandits. This leader might have greater ambitions beyond robbery, such as organizing a network of bandit gangs for a more nefarious purpose or seeking revenge for an injustice.</p>\n      <p><strong>Terrain:</strong> Any, usually wilderness along main roads.</p>",
+      "items": {
+        "4HL92qylb7n2UTfn": {
+          "description": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+          "name": "Chain Mail"
+        },
+        "7JOmpcBOnv2zeekj": {
+          "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "name": "Dagger"
+        },
+        "PWQC2rxGoHcoEaVD": {
+          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+          "name": "Sword, Normal"
+        },
+        "TZ994VvHe5YbjwlE": {
+          "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+          "name": "Sling"
+        },
+        "VrHF08EGwEq2BNmn": {
+          "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
+          "name": "Ambush"
+        }
+      },
+      "name": "Bandit (3HD)"
+    },
     "Basilisk": {
       "biography": "<p>A basilisk is a magical, nonintelligent creature resembling a 10-foot-long lizard with four legs and a crown-like growth on its head. Often referred to as the \"king of snakes,\" it can be of various colors but is usually bright and distinctive.</p>\n      <p>Basilisks inhabit underground caverns or dense, wild thickets. They have the unique and dangerous ability to petrify any creature they bite or gaze upon, turning them and all their equipment to stone unless a successful saving throw vs. turn to stone is made. If surprised, a character automatically meets the basilisk’s gaze but still gets a saving throw.</p>\n      <p>Characters fighting a basilisk in melee combat must choose to either avoid its gaze, which imposes a -4 penalty to their attack rolls while granting the basilisk a +2 bonus, or meet its gaze and attack normally but risk petrification each round.</p>\n      <p>A mirror can be used to avoid direct eye contact, reducing the penalty to attack rolls to -2. If the basilisk sees its own reflection, it must make a saving throw vs. turn to stone or petrify itself!</p>\n      <p>Basilisks are native to both the Prime Plane and the elemental plane of Earth. On the Plane of Earth, they are creatures made of rock, with their gaze slowing earth-based creatures for 1d6 rounds and burrowing through rock at impressive speeds.</p>\n      <p><strong>Terrain:</strong> Cavern, Woods; Plane of Earth.</p>",
       "items": {
@@ -2462,6 +2510,80 @@
       },
       "name": "Goblin"
     },
+    "Goblin (2HD)": {
+      "biography": "<p>Goblins are small, ugly humanoids standing between 3 1/2 to 4 1/2 feet tall. They have pointed ears, misshapen teeth, and their skin varies from chalky tan to livid gray. Their eyes glow red in dim light, allowing them to see in the dark with infravision up to 90 feet.</p><p>Goblins live in underground caves and caverns, and they are uncomfortable in daylight, fighting with a -1 penalty to attack rolls in bright light. They send hunting parties at night to scavenge food and ambush weakly-defended human groups. Goblins hate dwarves, attacking them on sight.</p><p>In their lair, a goblin king with 15 hit points leads them. He fights as a 3 HD monster, dealing +1 extra damage. The king is always accompanied by a bodyguard of 2d6 goblins who fight as 2 HD creatures. Goblin morale is improved to 9 when their king is present and alive.</p><p><strong>Weapon Damage:</strong> By weapon.<br><strong>Terrain:</strong> Cavern, Hill, Mountain, Woods.</p>",
+      "items": {
+        "UX2h4igq8RHRAsrm": {
+          "description": "Goblins have basic armor, providing a natural Armor Class of 6.",
+          "name": "Goblin Armor"
+        },
+        "chpsAhb27tnV5IOw": {
+          "description": "Goblins suffer a -1 penalty to attack rolls in full daylight.",
+          "name": "Daylight Penalty"
+        },
+        "xqnbq0Y9tddiHibT": {
+          "description": "Goblins can see in the dark up to 90 feet with infravision.",
+          "name": "Infravision"
+        },
+        "zoTM3PJ5lfZzDHSK": {
+          "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+          "name": "Sword, Short"
+        }
+      },
+      "name": "Goblin (2HD)"
+    },
+    "Goblin Bow (1HD)": {
+      "biography": "<p>Goblins are small, ugly humanoids standing between 3 1/2 to 4 1/2 feet tall. They have pointed ears, misshapen teeth, and their skin varies from chalky tan to livid gray. Their eyes glow red in dim light, allowing them to see in the dark with infravision up to 90 feet.</p><p>Goblins live in underground caves and caverns, and they are uncomfortable in daylight, fighting with a -1 penalty to attack rolls in bright light. They send hunting parties at night to scavenge food and ambush weakly-defended human groups. Goblins hate dwarves, attacking them on sight.</p><p>In their lair, a goblin king with 15 hit points leads them. He fights as a 3 HD monster, dealing +1 extra damage. The king is always accompanied by a bodyguard of 2d6 goblins who fight as 2 HD creatures. Goblin morale is improved to 9 when their king is present and alive.</p><p><strong>Weapon Damage:</strong> By weapon.<br><strong>Terrain:</strong> Cavern, Hill, Mountain, Woods.</p>",
+      "items": {
+        "8q0SFLYtwM5bxj8g": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short"
+        },
+        "UX2h4igq8RHRAsrm": {
+          "description": "Goblins have basic armor, providing a natural Armor Class of 6.",
+          "name": "Goblin Armor"
+        },
+        "chpsAhb27tnV5IOw": {
+          "description": "Goblins suffer a -1 penalty to attack rolls in full daylight.",
+          "name": "Daylight Penalty"
+        },
+        "xqnbq0Y9tddiHibT": {
+          "description": "Goblins can see in the dark up to 90 feet with infravision.",
+          "name": "Infravision"
+        },
+        "zoTM3PJ5lfZzDHSK": {
+          "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+          "name": "Sword, Short"
+        }
+      },
+      "name": "Goblin Bow (1HD)"
+    },
+    "Goblin Chief (4HD)": {
+      "biography": "<p>Goblins are small, ugly humanoids standing between 3 1/2 to 4 1/2 feet tall. They have pointed ears, misshapen teeth, and their skin varies from chalky tan to livid gray. Their eyes glow red in dim light, allowing them to see in the dark with infravision up to 90 feet.</p><p>Goblins live in underground caves and caverns, and they are uncomfortable in daylight, fighting with a -1 penalty to attack rolls in bright light. They send hunting parties at night to scavenge food and ambush weakly-defended human groups. Goblins hate dwarves, attacking them on sight.</p><p>In their lair, a goblin king with 15 hit points leads them. He fights as a 3 HD monster, dealing +1 extra damage. The king is always accompanied by a bodyguard of 2d6 goblins who fight as 2 HD creatures. Goblin morale is improved to 9 when their king is present and alive.</p><p><strong>Weapon Damage:</strong> By weapon.<br><strong>Terrain:</strong> Cavern, Hill, Mountain, Woods.</p>",
+      "items": {
+        "NJS656NRjKV8rIJp": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short"
+        },
+        "UX2h4igq8RHRAsrm": {
+          "description": "<p>Goblins chainmail armor, providing an Armor Class of 5.</p>",
+          "name": "Goblin Chainmail"
+        },
+        "chpsAhb27tnV5IOw": {
+          "description": "Goblins suffer a -1 penalty to attack rolls in full daylight.",
+          "name": "Daylight Penalty"
+        },
+        "tyKYQTHELfZOKp93": {
+          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+          "name": "Sword, Normal"
+        },
+        "xqnbq0Y9tddiHibT": {
+          "description": "Goblins can see in the dark up to 90 feet with infravision.",
+          "name": "Infravision"
+        }
+      },
+      "name": "Goblin Chief (4HD)"
+    },
     "Gorgon": {
       "biography": "<p>A gorgon is a magical bull-like monster covered with large ironlike scales, usually found in hills or grasslands. Gorgons can attack with their great horns or with their breath weapon, a cloud of petrifying vapor extending 60' long and 10' wide. Any creature in the area must make a saving throw vs. turn to stone or be petrified. Gorgons are immune to their own breath weapon and all other petrifying attacks. Native to both the Prime Plane and their original home, the Elemental Plane of Earth, they are terrifying creatures feared for their unique petrifying ability.</p><strong>Terrain:</strong> Hill, Open</br><strong>Barding:</strong> Plane of Earth",
       "items": {
@@ -3538,6 +3660,19 @@
         }
       },
       "name": "Salamander, Frost"
+    },
+    "Shadow": {
+      "biography": "<p>Shadows are ghostly, intelligent creatures that are noncorporeal in nature, resembling real shadows. Despite their eerie appearance, they are not undead. These beings dwell in dark, foreboding places such as dungeons, dense forests, or ancient ruins. Shadows are immune to damage from non-magical weapons and can only be harmed by enchanted arms.</p><p>They possess the ability to alter their shape slightly, which helps them blend into their surroundings. Due to their elusive nature, shadows are difficult to detect and often surprise their opponents, achieving surprise on a roll of 1-5 on a d6.</p><p>When a shadow attacks and hits, it inflicts both physical damage and drains 1 point of Strength from the victim. This Strength loss lasts for 8 turns. If a creature’s Strength is reduced to zero, they are transformed into a shadow themselves.</p><p>Shadows are immune to sleep and charm spells. While they share some characteristics with undead creatures, they are not classified as undead and cannot be turned by clerics.</p><p><strong>Common Terrain:</strong> Ruins, Woods.</p>",
+      "items": {
+        "XF4bQn3Y7WjLN9nN": {
+          "description": "<p>When a shadow attacks and hits, it inflicts both physical damage and drains 1 point of Strength from the victim. This Strength loss lasts for 8 turns. If a creature’s Strength is reduced to zero, they are transformed into a shadow themselves.</p>",
+          "name": "Shadow Touch"
+        },
+        "sr74W9WmDynURqBd": {
+          "name": "Natural Shadow Armor"
+        }
+      },
+      "name": "Shadow"
     },
     "Skeleton": {
       "biography": "<p>Animated skeletons are undead creatures often created as guards by high-level spellcasters or greater undead. Found in ruins, graveyards, and dungeons, skeletons fight relentlessly until destroyed. They can be turned by clerics and are unaffected by sleep, charm, or mind-affecting spells.</p><strong>Terrain:</strong> Ruins</p>",
