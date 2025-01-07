@@ -73,7 +73,7 @@ jobs:
         if: ${{ steps.cache-packs.outputs.cache-hit != 'true' }}
         working-directory: ./main
         run: |
-          pnpm run exec extract ../${{ env.PACKS_DIR }} ../${{ env.PACKS_EXTRACT_DIR }}
+          pnpm run exec extract ../system ../compendium ../${{ env.PACKS_EXTRACT_DIR }}
 
       - name: System - Checkout
         uses: actions/checkout@v4
