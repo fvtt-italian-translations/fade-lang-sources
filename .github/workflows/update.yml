@@ -95,8 +95,8 @@ jobs:
       - name: Update Version
         working-directory: ./main
         run: |
-          echo "${{ env.compendiumVersion }}" > compendium_version.txt
-          echo "${{ env.systemVersion }}" > system_version.txt
+          echo "${{ env.compendiumVersion }}" > version_compendium.txt
+          echo "${{ env.systemVersion }}" > version_system.txt
 
       - name: Get Commit Hash
         run: |
