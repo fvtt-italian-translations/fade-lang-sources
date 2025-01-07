@@ -1,0 +1,844 @@
+{
+  "FADE": {
+    "Actor": {
+      "Health": "Hit Points",
+      "HealthMax": "Max HP.",
+      "HealthMaxMonster": "Max HP. Set to zero to autocalculate max HP from hit dice.",
+      "Max": "Max",
+      "Min": "Min",
+      "HealthShort": "HP",
+      "HitDice": "Hit Dice",
+      "HitDiceShort": "HD",
+      "Title": "Title",
+      "Alignment": "Alignment",
+      "Class": "Class",
+      "Species": "Race",
+      "Sex": "Sex",
+      "Age": "Age",
+      "Height": "Height",
+      "Weight": "Weight",
+      "Eyes": "Eyes",
+      "Hair": "Hair",
+      "Deity": "Deity",
+      "Origin": "Origin",
+      "Trainer": "Trainer",
+      "Languages": "Languages",
+      "Level": "Level",
+      "NextLevel": "Next Level",
+      "Experience": "Experience",
+      "XPShort": "XP",
+      "XPBonus": "XP Bonus %",
+      "THAC0": "THAC0",
+      "THBonus": "To-Hit Bonus",
+      "THBonusHint": "Used with ascending armor class (AAC) system, this value is added to attack rolls. Also called attack bonus. To-Hit Bonus is auto-calculated based on THAC0 value.",
+      "PrimeReq": "Prime Req.",
+      "Other": "Other",
+      "RetainerWage": "Wage",
+      "morale": "Morale",
+      "moraleHint": "The morale score indicates a character's or monster's loyalty and courage.",
+      "retainerMorale": "Retainer Morale",
+      "retainerMoraleHint": "The morale score of this character's retainers. A retainer's morale score indicates their loyalty and courage under this character's leadership.",
+      "XPAward": "XP Award",
+      "attackRank": "Attack Rank",
+      "hdConBonus": {
+        "name": "HD Con.",
+        "hint": "Character's Constitution modifier is added to the hit die roll."
+      },
+      "maxLevel": {
+        "hint": "The highest level this class can attain.",
+        "name": "Max Level"
+      },
+      "maxSpellLevel": {
+        "hint": "The highest spell level for this class.",
+        "name": "Max Spell Level"
+      },
+      "firstLevel": {
+        "hint": "The lowest level for this class.",
+        "name": "First Level"
+      },
+      "isRetainer": {
+        "hint": "Is this character a retainer, NPC, hireling or other hired hand.",
+        "name": "Retainer"
+      },
+      "Wrestling": {
+        "long": "Wrestling Rating",
+        "short": "Wrestling",
+        "abbr": "WR"
+      },
+      "Flight": {
+        "abbr": "FLY",
+        "long": "Flight"
+      },
+      "Movement": {
+        "abbr": "MV",
+        "long": "Movement",
+        "turn": "Base",
+        "turnHint": "<b>Feet or yards per 10 minute turn.</b><p>This rate includes many assumed actions such as mapping, peeking around corners, resting, and so forth.</p>",
+        "round": "Round",
+        "roundHint": "<b>Feet or yards per 10 second round.</b><p>Used during combat encounters.</p>",
+        "day": "Overland",
+        "dayHint": "<b>Miles per day. Overland travel.</b><p>Note that terrain effects this rate.</p>",
+        "run": "Run",
+        "runHint": "<b>Feet or yards per 10 second round.</b><p>Used when running or flying at maximum speed during combat encounters. Travel at maximum speed can last for up to 30 rounds (5 minutes) before exhaustion.</p>",
+        "total": "Total",
+        "moveTurn": "Base Movement"
+      },
+      "explore": {
+        "long": "Exploration",
+        "OpenDoor": {
+          "long": "Force open door or lift heavy object.",
+          "short": "Open Door",
+          "abbr": "OD"
+        },
+        "SecretDoor": {
+          "long": "Detect a hidden door or compartment.",
+          "short": "Secret Door",
+          "abbr": "SD"
+        },
+        "ListenDoor": {
+          "long": "Hear a sound through a door or in the distance.",
+          "short": "Listen Door",
+          "abbr": "LD"
+        },
+        "FindTrap": {
+          "long": "Find a concealed medium to large trap or hazard.",
+          "short": "Find Trap",
+          "abbr": "FT"
+        }
+      },
+      "Saves": {
+        "saveAs": {
+          "long": "Save As",
+          "abbr": "SA"
+        },
+        "long": "Saving Throws",
+        "short": "Save",
+        "singular": "Saving Throw",
+        "death": {
+          "long": "Death Ray or Poison",
+          "abbr": "Death"
+        },
+        "wand": {
+          "long": "Magic Wand",
+          "abbr": "Wand"
+        },
+        "paralysis": {
+          "long": "Turn to Stone or Paralysis",
+          "abbr": "Stone"
+        },
+        "breath": {
+          "long": "Dragon Breath",
+          "abbr": "Breath"
+        },
+        "spell": {
+          "long": "Spell or Magic Staff",
+          "abbr": "Spell"
+        }
+      },
+      "Abilities": {
+        "score": "Score",
+        "long": "Ability",
+        "plural": "Abilities",
+        "str": {
+          "long": "Strength",
+          "abbr": "STR",
+          "mod": "To-Hit, Damage, Open Doors",
+          "hint": "<b>Strength (Str) represents a character's physical power.</b><p>It influences the damage dealt with melee weapons like swords and clubs, as well as thrown weapons like spears and knives. It also impacts the character's accuracy when using hand-to-hand weapons and determines their capability for tasks like forcing open locked doors.</p</div>"
+        },
+        "dex": {
+          "long": "Dexterity",
+          "abbr": "DEX",
+          "mod": "Missile To-Hit, AC, Initiative",
+          "hint": "<b>Dexterity (Dex) is the character's nimbleness and grace.</b><p>It affects the character's ability to wield missile and thrown weapons (such as bows and throwing knives) and can make it harder for enemies to hit the character.</p>"
+        },
+        "int": {
+          "long": "Intelligence",
+          "abbr": "INT",
+          "mod": "Language(s)",
+          "hint": "<b>Intelligence (Int) is the character's mental might.</b><p>It affects the number of languages the character can learn.</p>"
+        },
+        "wis": {
+          "long": "Wisdom",
+          "abbr": "WIS",
+          "mod": "Saving Throws vs Spells",
+          "hint": "<b>Wisdom (Wis) is the character's understanding.</b><p>It affects the character's strength in understanding the world, the way things work, the forces of nature, and so forth, including their natural ability to resist magical spells.</p>"
+        },
+        "con": {
+          "long": "Constitution",
+          "abbr": "CON",
+          "mod": "Hit Points/Level",
+          "hint": "<b>Constitution (Con) is the character's physical health and vigor.</b><p>It affects the character's hit points score (i.e., his ability to survive being injured).</p>"
+        },
+        "cha": {
+          "long": "Charisma",
+          "abbr": "CHA",
+          "mod": "Reactions",
+          "retainer": "Retainers",
+          "hint": "<b>Charisma (Cha) is the character's force of personality and presence.</b><p>It affects the way other characters, especially nonplayer characters controlled by the DM, react to the character.</p>"
+        }
+      },
+      "Attacks": {
+        "abbr": "AT#",
+        "short": "# Attacks",
+        "long": "Number of Attacks"
+      },
+      "NumberAppearing": {
+        "abbr": "NA",
+        "short": "# Appearing",
+        "long": "Number Appearing",
+        "abbrLair": "NA lair",
+        "longLair": "Number Appearing in Lair"
+      },
+      "AbilityCount": {
+        "abbr": "SP#",
+        "short": "# Specials",
+        "long": "Special Abilities"
+      },
+      "Treasure": {
+        "short": "Treasure",
+        "long": "Treasure Type"
+      },
+      "Dead": {
+        "name": "Dead",
+        "desc": "Is this actor currently dead?"
+      },
+      "Deaths": {
+        "name": "Deaths",
+        "desc": "<p>Number of times this character has dropped to zero or less hit points.</p><p>In some variants, this is capped at a value equal to the character's <b>constitution</b> score.</p>"
+      },
+      "AT#": {
+        "name": "AT#",
+        "desc": "Number of attacks this round."
+      },
+      "AT#Recv": {
+        "name": "AT# recv.",
+        "desc": "Number of attacks received this round."
+      },
+      "encumbrance": {
+        "unencumbered": {
+          "label": "Unencumbered",
+          "desc": "Free to move without any hindrance."
+        },
+        "lightly": {
+          "label": "Lightly Encumbered",
+          "desc": "Slightly burdened, movement is still easy."
+        },
+        "moderately": {
+          "label": "Moderately Encumbered",
+          "desc": "Noticeable weight, movement is somewhat restricted. Half movement rate."
+        },
+        "encumbered": {
+          "label": "Encumbered",
+          "desc": "Significantly burdened, movement is sluggish."
+        },
+        "heavily": {
+          "label": "Heavily Encumbered",
+          "desc": "Struggling under weight, movement is laborious."
+        },
+        "over": {
+          "label": "Over Encumbered",
+          "desc": "Severely overloaded, movement is impossible."
+        }
+      }
+    },
+    "SheetLabel": {
+      "Character": "Character Sheet (DD)",
+      "Character2": "Character Sheet (Alternate)",
+      "Monster": "Monster Sheet",
+      "ActorMasteryItem": "Actor Mastery Item Sheet",
+      "ArmorItem": "Armor Item Sheet",
+      "ClassItem": "Class Item Sheet",
+      "Item": "Gear Item Sheet",
+      "MasteryDefinitionItem": "Weapon Mastery Definition Item Sheet",
+      "SpellItem": "Spell Item Sheet",
+      "SkillItem": "Skill Item Sheet",
+      "LightItem": "Light Item Sheet",
+      "SpecialAbilityItem": "Special Ability Item Sheet",
+      "WeaponItem": "Weapon Item Sheet"
+    },
+    "Spell": {
+      "SpellLVL": "Spell Level {level}",
+      "slots": "Slots",
+      "resetSlots": "Reset memorized spells to zero casts. Memorized count will not be changed.",
+      "usedSlots": "Used slots",
+      "availableSlots": "Available slots",
+      "cast": "Spell has been cast this many times",
+      "memorized": "Spell has been memorized this many times",
+      "AddLVL": "LVL {level}",
+      "level": "Level",
+      "duration": "Duration",
+      "effect": "Effect",
+      "range": "Range",
+      "targetSelf": "Target Self",
+      "targetOther": "Target Other",
+      "maxTargetFormula": "Max. Target Roll",
+      "durationFormula": "Duration Roll",
+      "healFormula": "Heal Roll"
+    },
+    "Item": {
+      "plural": "Gear",
+      "uses": "Uses",
+      "equip": "Equip",
+      "equipped": "Equipped",
+      "unequip": "Unequip",
+      "isEquippable": "Equippable",
+      "isContainer": "Container",
+      "quantity": {
+        "long": "Quantity",
+        "maxLong": "Max. Quantity",
+        "abbr": "qty",
+        "maxAbbr": "max qty",
+        "abbr2": "#"
+      },
+      "weight": {
+        "short": "Enc (cn)",
+        "short2": "Enc",
+        "long": "Encumbrance (cn)",
+        "long2": "Encumbrance",
+        "abbr": "cn",
+        "abbrPlural": "cns",
+        "desc": "Encumbrance is the weight of an object measured in coin-weight."
+      },
+      "cost": {
+        "abbr": "gp",
+        "long": "Cost (gp)"
+      },
+      "light": {
+        "isLight": "Light",
+        "isFuel": "Fuel",
+        "radius": "Radius",
+        "radiusHint": "Radius is the radius of the dim part of the light.",
+        "typeLabel": "Light Type",
+        "fuelType": "Fuel Type",
+        "bright": "Bright",
+        "brightHint": "Bright is the radius of the central bright part of the light.",
+        "durationHint": "How long the light source lasts before expiring.",
+        "turnsActive": "Turns Active",
+        "turnsActiveHint": "How many turns the light has been active.",
+        "color": "Color",
+        "colorHint": "This is the color of the light as an HTML Color value. eg., #d0a750.",
+        "attenuation": "Attenuation",
+        "angle": "Angle",
+        "luminosity": "Luminosity",
+        "animationType": "Animation Type",
+        "animationSpeed": "Animation Speed",
+        "animationIntensity": "Animation Intensity",
+        "noMoreItem": "{actor} has no more {item} to light.",
+        "noFuel": "{actor} has no fuel for the {item}.",
+        "disabled": "{actor}'s light source has been extinguished.",
+        "enabled": "{actor} has lit their {item}.",
+        "lightTypes": {
+          "torch": "Torch",
+          "lantern": "Lantern",
+          "magic": "Magic",
+          "custom": "Custom"
+        }
+      }
+    },
+    "Weapon": {
+      "plural": "Weapons",
+      "mod": {
+        "dmg": {
+          "long": "Damage Modifier",
+          "short": "Dmg+"
+        },
+        "dmgRanged": {
+          "long": "Ranged Damage Modifier",
+          "short": "Rng. Dmg+"
+        },
+        "toHit": {
+          "long": "To-Hit Modifier",
+          "short": "Hit+"
+        },
+        "toHitRanged": {
+          "long": "Ranged To-Hit Modifier",
+          "short": "Rng. Hit+"
+        }
+      },
+      "range": {
+        "section": "Ranges",
+        "long": "Long",
+        "medium": "Medium",
+        "short": "Short"
+      },
+      "damage": {
+        "abbr": "Dmg",
+        "short": "Damage",
+        "type": "Damage Type",
+        "short2": "2-Hand Damage",
+        "long": "Damage Roll",
+        "long2": "Two-Handed Damage Roll. Only if weapon can be used one-handed, otherwise use damage roll field."
+      },
+      "ammo": {
+        "short": "Ammo",
+        "long": "Ammunition",
+        "load": "Load",
+        "maxLoad": "Max Load"
+      }
+    },
+    "Armor": {
+      "plural": "Armor",
+      "naked": "Without Armor",
+      "long": "Base AC",
+      "hintBase": "<b>Base Armor Class</b><p>This is the base armor class and it doesn't' include modifiers from effects.</p>",
+      "longAAC": "Base AAC",
+      "abbr": "AC",
+      "abbrAAC": "AAC",
+      "total": "Total AC",
+      "totalAAC": "Total AAC",
+      "hintTotal": "<b>Total Armor Class</b><p>This is the total armor class and it includes modifiers from effects.</p>",
+      "shield": {
+        "long": "Shield Equipped",
+        "short": "Shield"
+      },
+      "natural": {
+        "short": "Natural",
+        "desc": "This is considered a natural part of its owner."
+      },
+      "mod": "AC Mod",
+      "armorWeight": {
+        "short": "Weight",
+        "choices": {
+          "none": "None",
+          "light": "Light",
+          "heavy": "Heavy"
+        }
+      }
+    },
+    "Skill": {
+      "plural": "General Skills",
+      "short": "Skill",
+      "long": "General Skill"
+    },
+    "Mastery": {
+      "plural": "Weapon Masteries",
+      "short": "Mastery",
+      "long": "Weapon Mastery",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "weaponTypeTitle": "M=Monster/Missile, H=Hand-held, A=All",
+      "weaponType": "Weapon Type",
+      "weaponTypes": {
+        "monster": {
+          "long": "Monster/Missile",
+          "abbr": "M"
+        },
+        "handheld": {
+          "long": "Hand-held",
+          "abbr": "H"
+        },
+        "all": {
+          "long": "All",
+          "abbr": "A"
+        }
+      },
+      "levels": {
+        "basic": "Basic",
+        "skilled": "Skilled",
+        "expert": "Expert",
+        "master": "Master",
+        "grandMaster": "Grand Master"
+      },
+      "acBonus": "AC Bonus",
+      "acBonusAT": "AT#",
+      "acBonusATTitle": "AC bonus attacks per round",
+      "specialEffects": "Special Effects"
+    },
+    "SpecialAbility": {
+      "plural": "Special Abilities",
+      "short": "Ability",
+      "long": "Special Ability",
+      "abilityMod": "Ability Mod",
+      "autoSuccess": "Auto-Success",
+      "autoSuccessHint": "Automatically succeeds on a natural/unmodified roll of this value.",
+      "autoFail": "Auto-Fail",
+      "autoFailHint": "Automatically fails on a natural/unmodified roll of this value.",
+      "categories": {
+        "explore": "Exploration",
+        "class": "Class Abilities"
+      }
+    },
+    "class": {
+      "key": {
+        "name": "Key",
+        "hint": "The key used for single-letter references to a class. Example for a Fighter would be 'F'."
+      }
+    },
+    "Effect": {
+      "short": "Effect",
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    },
+    "Tags": {
+      "addTags": "Add tags",
+      "desc": "Some tags are used by the system and others are meant for GM or player usage."
+    },
+    "notification": {
+      "selectToken1": "A token must first be selected.",
+      "spellSelectToken": "You must have your token selected to cast a spell.",
+      "notMemorized": "{actorName} tries to cast {spellName}, but the spell is not memorized.",
+      "noTokenWarning": "You must select a token or assign a default character to perform this action.",
+      "noTokenWarning2": "You must select a token to perform this action.",
+      "missingItem": "The required item type ({type}) was not found.",
+      "missingItem2": "{actor} does not have a {type}."
+    },
+    "Chat": {
+      "rollMods": {
+        "weaponMod": "Weapon mod: {mod}",
+        "effectMod": "Attacker effect mod: {mod}",
+        "strengthMod": "Strength mod: {mod}",
+        "dexterityMod": "Dexterity mod: {mod}",
+        "targetMod": "Target effect mod: {mod}",
+        "masteryMod": "Mastery {primsec} mod: {mod}",
+        "unskilledUse": "Unskilled weapon use: {mod}",
+        "masteryPrimDmg": "Weapon mastery primary damage.",
+        "masterySecDmg": "Weapon mastery secondary damage.",
+        "manual": "Manual mod: {mod}"
+      },
+      "damageRoll": {
+        "name": "Damage",
+        "restored": "{hp} hit points restored to {tokenName}.",
+        "mitigated": "{damage} points of {type} damage mitigated.",
+        "applied": "{damage} points of {type} damage applied to {tokenName}.",
+        "killed": "<span class='attack-fail'>{tokenName} has fallen in battle.</span>",
+        "restoredLife": "<span class='attack-success'>{tokenName} has been restored to life.</span>"
+      },
+      "targets": "Targets",
+      "apply": "Apply",
+      "applyDamageDesc": "Apply damage to selected token or target.",
+      "applyHealingDesc": "Apply healing to selected token or target.",
+      "resetSpells": "{actorName} reset memorized spells. Cast counts set to zero.",
+      "effectEnds": "<div>{effectName} on {actorName} ends.</div>",
+      "pass": "Success!",
+      "fail": "Failed",
+      "attackFlavor": "{attacker} {attackType} attacks with {weapon}",
+      "spellCast": "{caster} casts {spell}",
+      "useSpecAbility": "{owner} uses {specAbility}",
+      "attackAC": "<div class='attack-info'>Attack hits <strong>{acAbbr} {hitAC}</strong>.</div>",
+      "attackACAny": "<div class='attack-info'>Natural 20! Attack hits any AC!</strong>.</div>",
+      "attackACNone": "<div class='attack-info'>Attack doesn't hit any AC.</div>",
+      "attackSuccess": "<div class='attack-success'>Attack hit!</div>",
+      "attackFail": "<div class='attack-fail'>Attack missed!</div>",
+      "damageFlavor2": "<div>{weapon} does <span class='damage'>{damage}</span> points of damage.</div>",
+      "healFlavor": "<div>{weapon} restores <span class='damage'>{damage}</span> hit points.</div>",
+      "healRoll": "Heal",
+      "targetACDefMastery": "<span data-tooltip='AC' {cssClass}>{acTotal}</span><span {cssClass} data-tooltip='Adjusted AC with weapon mastery bonus. Attacked {attacksAgainst}/{maxAttacksAgainst} times.'>({defenseMasteryTotal})</span>"
+    },
+    "dialog": {
+      "lightSource": "Light Source",
+      "selectLightSource": "Select Light Source",
+      "ignite": "Enable",
+      "extinguish": "Disable",
+      "selectWeapon": "Select Weapon",
+      "masteryTargetType": "Target Weapon Type",
+      "abilityCheck": "Ability Check",
+      "skillCheck": "Skill Check",
+      "spellcast": {
+        "title": "Cast Spell?",
+        "content": "Do you want to cast the spell or view its description?",
+        "yesLabel": "Cast Spell",
+        "noLabel": "View Description"
+      },
+      "attackMode": {
+        "name": "Attack Mode",
+        "natural": "Natural",
+        "2hand": "Two-Handed",
+        "1hand": "One-Handed"
+      },
+      "attackType": {
+        "breath": "Breath",
+        "missile": "Missile",
+        "melee": "Melee"
+      },
+      "close": "Close",
+      "selectAttack": "Select What to Attack With",
+      "selectSpell": "Select spell to cast",
+      "confirm": "Are you sure?",
+      "applyToPrompt": "Apply to targeted or selected?",
+      "targeted": "Targeted",
+      "selected": "Selected",
+      "noEquippedWeapons": "The selected actor does not have any weapons equipped."
+    },
+    "time": {
+      "sessionCount": "Session Count",
+      "totalCount": "Total Count",
+      "sinceRest": "Since Rest",
+      "rest": "Rest",
+      "next": "Next",
+      "nextDesc": "Advance Turn",
+      "prev": "Previous",
+      "prevDesc": "Revert Turn",
+      "resetSession": "Reset Session",
+      "resetTotal": "Reset Total"
+    },
+    "tabs": {
+      "abilities": "Abilities",
+      "items": "Equipment",
+      "spells": "Spells",
+      "skills": "Skills",
+      "effects": "Effects",
+      "description": "Description",
+      "gmOnly": "GM Only",
+      "levels": "Levels",
+      "primeRequisites": "Prime Requisites",
+      "attributes": "Attributes"
+    },
+    "AttackTypes": {
+      "name": "Attack Type",
+      "hint": "If specified, the spell cast will either trigger a to-hit roll or a saving throw roll prompt.",
+      "types": {
+        "melee": "Melee",
+        "missile": "Missile",
+        "breath": "Breath",
+        "save": "Saving Throw"
+      }
+    },
+    "DamageTypes": {
+      "name": "Damage Types",
+      "types": {
+        "physical": "Physical",
+        "breath": "Breath",
+        "fire": "Fire",
+        "frost": "Frost",
+        "magic": "Magic",
+        "poison": "Poison",
+        "heal": "Healing"
+      }
+    },
+    "combat": {
+      "phases": {
+        "morale": {
+          "name": "Morale Check",
+          "description": "Monsters, Retainers, Hirelings and NPCs roll Morale Checks. Anyone needing to make a saving throw vs. an ongoing effect does so now."
+        },
+        "movement": {
+          "name": "Movement",
+          "description": "Characters who choose to move do so now."
+        },
+        "missile": {
+          "name": "Missile Combat",
+          "description": " Characters using missile and thrown weapons make their attacks."
+        },
+        "magic": {
+          "name": "Magic",
+          "description": "Characters casting spells or using magic items do so now."
+        },
+        "melee": {
+          "name": "Hand-to-Hand Combat",
+          "description": "Characters fighting hand-to-hand make their attacks."
+        },
+        "special": {
+          "name": "Special",
+          "description": "Special actions are resolved."
+        }
+      },
+      "maneuvers": {
+        "nothing": {
+          "name": "Nothing",
+          "description": "Character does absolutely nothing this round. No move, no attack, no nothing."
+        },
+        "moveOnly": {
+          "name": "Move Only",
+          "description": "Character is moving and not attacking this round. This is not a 'Retreat'."
+        },
+        "readyWeapon": {
+          "name": "Ready Weapon",
+          "description": "Character is readying their weapon this round. They may also move at normal speed."
+        },
+        "throw": {
+          "name": "Throw",
+          "description": "Character throws a suitable weapon, applying Dexterity and magic bonuses to the attack roll and Strength and magic bonuses to damage, provided the target is within range."
+        },
+        "fire": {
+          "name": "Fire/Shoot",
+          "description": "Character uses a ranged weapon, applying Dexterity and magic bonuses to the attack roll, provided the target is within the weapon’s range."
+        },
+        "spell": {
+          "name": "Cast Spell",
+          "description": "Character casts a memorized spell. Monsters use this action for magical attacks that aren't ranged or melee."
+        },
+        "magicItem": {
+          "name": "Magic Item",
+          "description": "Character activates a non-weapon magical item, such as a potion, wand, ring, or the passive ability of another magical item."
+        },
+        "attack": {
+          "name": "Attack",
+          "description": "Character makes a melee attack, adding Strength and magic bonuses to both the attack roll and damage."
+        },
+        "withdrawal": {
+          "name": "Withdrawal",
+          "description": "Character backs away from an enemy at 5 feet per round, attacking only if the enemy follows and moves into range during its movement phase."
+        },
+        "retreat": {
+          "name": "Retreat",
+          "description": "Character flees from melee at more than half their speed, losing shield AC bonuses and giving enemies a +2 bonus to attack them in that round."
+        },
+        "lance": {
+          "name": "Lance Attack",
+          "description": "Character on charging mount performs a lance attack, gaining Strength and magic bonuses and dealing double damage if the mount charges at least 20 yards."
+        },
+        "multiAttack": {
+          "name": "Multi-Attack",
+          "description": "Character makes multiple attacks per round, which can include any combination of attacks, throws, disarms, or lance attacks."
+        },
+        "setSpear": {
+          "name": "Set vs Charge",
+          "description": "Character braces a spear, pike, or similar weapon against a charging enemy, gaining Strength and magic bonuses and dealing double damage on a successful hit."
+        },
+        "smash": {
+          "name": "Smash",
+          "description": "Character makes a powerful attack with a -5 penalty to the attack roll; if it hits, they add their full Strength score, along with Strength and magic bonuses, to the weapon's normal damage."
+        },
+        "parry": {
+          "name": "Parry",
+          "description": "Character blocks incoming melee and thrown attacks for an entire round, causing all enemies to take a -4 penalty on their attack rolls against them."
+        },
+        "disarm": {
+          "name": "Disarm",
+          "description": "Character disarms an opponent by hitting without damage; if the target fails a Dexterity check, they drop their weapon."
+        }
+      }
+    },
+    "Size": "Size",
+    "roll": "Roll",
+    "rollMode": "Roll Mode",
+    "operator": "Operator",
+    "modifier": "Modifier",
+    "target": "Target",
+    "GMNotes": "GM Notes",
+    "category": "Category"
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "monster": "Monster"
+    },
+    "Item": {
+      "item": "Item",
+      "weapon": "Weapon",
+      "armor": "Armor",
+      "spell": "Spell",
+      "skill": "General Skill",
+      "light": "Light",
+      "mastery": "Actor Weapon Mastery",
+      "specialAbility": "Special Ability",
+      "treasure": "Treasure",
+      "class": "Character Class",
+      "weaponMastery": "Weapon Mastery Definition"
+    }
+  },
+  "SETTINGS": {
+    "Encumbrance": {
+      "Hint": "Enable automatic tracking of encumbrance and the application of status effects for characters carrying too much. Armor Only determines movement based on armor weight. Dark Dungeons assumes a max load of 2400 coins and five movement rates. Classic assumes a max load of 1600 coins and four movement rates.",
+      "Name": "Encumbrance Tracking",
+      "None": "None",
+      "Basic": "Armor Only",
+      "Classic": "Classic",
+      "Expert": "Dark Dungeons"
+    },
+    "toasts": {
+      "hint": "Display toasts on die rolls.",
+      "name": "Die Roll Toasts"
+    },
+    "EncMax": {
+      "Hint": "The maximum amount a character may carry, in coins, and still be able to move.",
+      "Hint2": "The maximum amount, in coins, that can be carried while still able to move.",
+      "Name": "Encumbrance Max"
+    },
+    "Theme": {
+      "Hint": "Dark mode features a dark backround with light text and light mode features a light background with dark text.",
+      "Name": "Theme",
+      "Dark": "Dark Mode",
+      "Light": "Light Mode"
+    },
+    "move": {
+      "max": {
+        "name": "Max. Move Speed",
+        "hint": "<b>Max ground speed per turn.</b><p>Movement distances are measured in feet when indoors and in yards when outdoors.</p>"
+      },
+      "maxFlight": {
+        "name": "Max. Flight Speed",
+        "hint": "<b>Max flying speed per turn.</b><p>Movement distances are measured in feet when indoors and in yards when outdoors.</p>"
+      }
+    },
+    "rest": {
+      "name": "Rest Turns",
+      "hint": "Configure how often a party must rest while exploring. A value of 6 would mean the party must rest once every six turns. Set to 0 for no resting required."
+    },
+    "initiative": {
+      "formula": {
+        "name": "Initiative Formula",
+        "hint": "Define the formula used to calculate initiative. "
+      },
+      "mode": {
+        "name": "Initiative Mode",
+        "hint": "Choose between group-based or individual-based initiative. Individual (simplified) mode orders solely by initiative roll plus any modifiers. Individual mode adds the 2-handed weapon rule, making 2-handed weapon users lose initiative. Individual (combat checklist) mode combines individual initiative with the combat checklist order when declared actions are enabled. Group (combat checklist) mode groups combatants by token disposition and also sorts within a group by the declared action, if declared actions are enabled. Group (hybrid individual) mode is like the group mode, but adds 2-handed weapon rule within a group's inner sort.",
+        "choices": {
+          "simpleIndividual": "Individual (simplified)",
+          "individual": "Individual",
+          "individualChecklist": "Individual (combat checklist)",
+          "group": "Group (combat checklist)",
+          "groupHybrid": "Group (hybrid individual)"
+        }
+      },
+      "modifier": {
+        "name": "Group Initiative Modifier",
+        "hint": "Choose how to calculate the group initiative modifier.",
+        "choices": {
+          "none": "No Modifier",
+          "average": "Average Dexterity",
+          "highest": "Highest Dexterity"
+        }
+      },
+      "nextRound": {
+        "name": "Initiative Next Round Mode",
+        "hint": "Decide what will occur when the next round is activated in the combat tracker..",
+        "choices": {
+          "hold": "Hold Initiative",
+          "reset": "Reset Initiative",
+          "reroll": "Reroll Initiative"
+        }
+      }
+    },
+    "display": {
+      "abilities": {
+        "name": "Abreviated ability names.",
+        "hint": "Use abbreviations for character sheet abilities score labels."
+      },
+      "saves": {
+        "name": "Short saving throw names.",
+        "hint": "Use short names for saving throws on the character sheet."
+      }
+    },
+    "declaredActions": {
+      "name": "Declared Actions",
+      "hint": "Enable declared actions for encounters."
+    },
+    "collapseState": {
+      "name": "Remember Collapse State",
+      "hint": "When enabled, the item lists will remember their collapse state individually for each character."
+    },
+    "logChanges": {
+      "name": "Log Character Sheet Changes",
+      "hint": "If enabled, logs character sheet changes to the GM via chat."
+    },
+    "weaponMastery": {
+      "name": "Weapon Mastery",
+      "hint": "If enabled, weapon mastery rules will be used."
+    },
+    "toHitSystem": {
+      "name": "To-Hit System (Work-in-progress)",
+      "hint": "The to-hit system determines how attack rolls are handled and also what armor class system is used (AC vs AAC). THAC0 Only system does not use an attack matrix, but instead a simple calculation of the THAC0 value minus the target's AC. Classic system makes use of an attack matrix and THAC0 supporting up to level 25 and AC ranged from -19 to 19. Classic treats natural 1s as fails and 20s as hits, regardless of modifiers AC. Heroic Combat Matrix harkens back to RPGS of the 90s and scales up to level 36 and AC ranged from -20 to 19. Dark Dungeons uses the system from the Dark Dungeons game. AAC and Attack Bonus is similar to THAC0, but features ascending armor class where the higher the AC value, the greater the defensive capability.",
+      "choices": {
+        "thac0": "THAC0 Only (no attack matrix)",
+        "classic": "Classic",
+        "heroic": "Heroic Combat Matrix",
+        "darkdungeons": "Dark Dungeons",
+        "aac": "AAC and Attack Bonus"
+      }
+    }
+  }
+}

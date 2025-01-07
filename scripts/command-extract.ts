@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "fs/promises";
 import { dirname, join, resolve } from "path";
 import { LevelDatabase } from "./lib/level-database";
-import { readModuleJson } from "./lib/read-module-json";
+import { readModuleJson } from "./lib/read-json";
 
 export async function commandExtract(source: string, extracted: string) {
   const moduleJsonPath = dirname(source);

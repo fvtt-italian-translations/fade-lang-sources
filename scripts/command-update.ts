@@ -1,14 +1,35 @@
 import { mkdir, readFile, writeFile } from "fs/promises";
-import { dirname, join, resolve } from "path";
-import { PackType, readModuleJson } from "./lib/read-module-json";
+import { join, resolve } from "path";
+import { mergeAll } from "remeda";
+import { PackType, readModuleJson, readSystemJson } from "./lib/read-json";
 
-export async function commandUpdate(source: string, extracted: string) {
+export async function commandUpdate(
+  systemPath: string,
+  compendiumPath: string,
+  extracted: string
+) {
   await mkdir(resolve("compendium"), { recursive: true }).catch(() =>
     Promise.resolve()
   );
 
-  const moduleJsonPath = dirname(source);
-  const moduleJson = await readModuleJson(moduleJsonPath);
+  const [systemJson, moduleJson] = await Promise.all([
+    readSystemJson(systemPath),
+    readModuleJson(compendiumPath),
+  ]);
+
+  const allLangs = await Promise.all(
+    systemJson.languages
+      .filter((language) => language.lang === "en")
+      .map(async (language) => {
+        const path = join(systemPath, language.path);
+        const file = await readFile(path, "utf-8");
+        return JSON.parse(file);
+      })
+  );
+
+  const langData = mergeAll([{}, ...allLangs]) as TranslationStrings;
+
+  await writeFile("./en.json", JSON.stringify(langData, null, 2));
 
   const packsWithData: PackWithData[] = await Promise.all(
     moduleJson.packs.map(async (pack) => {

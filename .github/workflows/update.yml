@@ -3,9 +3,11 @@ name: Update
 on: workflow_dispatch
 
 env:
-  REMOTE_REPO: Forelius/fade-compendiums
-  REMOTE_REPO_BRANCH: main
-  PACKS_DIR: upstream/packs
+  SYSTEM_REPO: Forelius/fantastic-depths
+  SYSTEM_REPO_BRANCH: main
+  COMPENDIUM_REPO: Forelius/fade-compendiums
+  COMPENDIUM_REPO_BRANCH: main
+  PACKS_DIR: compendium/packs
   PACKS_EXTRACT_DIR: main/tmppacks
 
 jobs:
@@ -50,9 +52,9 @@ jobs:
       - name: Compendiums - Checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ env.REMOTE_REPO }}
-          ref: ${{ env.REMOTE_REPO_BRANCH }}
-          path: upstream
+          repository: ${{ env.COMPENDIUM_REPO }}
+          ref: ${{ env.COMPENDIUM_REPO_BRANCH }}
+          path: compendium
 
       - name: Compendiums - Cache Packs
         id: cache-packs
@@ -62,7 +64,7 @@ jobs:
           key: packs-${{ hashFiles(format('{0}/**/*', env.PACKS_DIR)) }}
 
       - name: Compendiums - Get Version
-        working-directory: ./upstream
+        working-directory: ./compendium
         run: |
           COMPENDIUM_VERSION=$(grep -oP '(?<="version": ")[^"]+' module.json | tr -d '\n')
           echo "compendiumVersion=$COMPENDIUM_VERSION" >> $GITHUB_ENV
@@ -73,22 +75,38 @@ jobs:
         run: |
           pnpm run exec extract ../${{ env.PACKS_DIR }} ../${{ env.PACKS_EXTRACT_DIR }}
 
+      - name: System - Checkout
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SYSTEM_REPO }}
+          ref: ${{ env.SYSTEM_REPO_BRANCH }}
+          path: system
+
+      - name: System - Get Version
+        working-directory: ./system
+        run: |
+          SYSTEM_VERSION=$(grep -oP '(?<="version": ")[^"]+' system.json | tr -d '\n')
+          echo "systemVersion=$SYSTEM_VERSION" >> $GITHUB_ENV
+
       - name: Build
         working-directory: ./main
         run: pnpm run exec update ../${{ env.PACKS_DIR }} ../${{ env.PACKS_EXTRACT_DIR }}
 
       - name: Update Version
         working-directory: ./main
-        run: echo "${{ env.compendiumVersion }}" > version.txt
+        run: |
+          echo "${{ env.compendiumVersion }}" > compendium_version.txt
+          echo "${{ env.systemVersion }}" > system_version.txt
 
       - name: Get Commit Hash
-        working-directory: ./upstream
-        run: echo "UPSTREAM_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+        run: |
+          echo "COMPENDIUM_HASH=$(git -C ./compendium rev-parse --short HEAD)" >> $GITHUB_ENV
+          echo "SYSTEM_HASH=$(git -C ./system rev-parse --short HEAD)" >> $GITHUB_ENV
 
       - name: Update Repo
         working-directory: ./main
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git diff --quiet HEAD || git commit -am "Updated to ${{ env.REMOTE_REPO }}@${{ env.UPSTREAM_HASH }}"
+          git diff --quiet HEAD || git commit -am "Updated to ${{ env.COMPENDIUM_REPO }}@${{ env.COMPENDIUM_HASH }}, ${{ env.SYSTEM_REPO }}@${{ env.SYSTEM_HASH }}"
           git push

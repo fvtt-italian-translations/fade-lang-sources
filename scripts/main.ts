@@ -8,17 +8,19 @@ import { commandUpdate } from "./command-update";
 
 yargs(hideBin(process.argv))
   .command(
-    "update <source> <extracted>",
+    "update <system> <compendium> <extracted>",
     "update the sources",
     (yargs) =>
       yargs
-        .positional("source", { type: "string", demandOption: true })
+        .positional("system", { type: "string", demandOption: true })
+        .positional("compendium", { type: "string", demandOption: true })
         .positional("extracted", { type: "string", demandOption: true }),
     async (argv) => {
-      const source = resolve(argv.source);
+      const system = resolve(argv.system);
+      const compendium = resolve(argv.compendium);
       const extracted = resolve(argv.extracted);
       console.log(`updating sources using packs from ${extracted}`);
-      await commandUpdate(source, extracted);
+      await commandUpdate(system, compendium, extracted);
     }
   )
   .command(
