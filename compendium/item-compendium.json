@@ -57,7 +57,12 @@
       "name": "Aquamarine"
     },
     "Arrow (silver)": {
+      "description": "<p>An arrow made with a silver tip. This can be used to damage certain types of creatures like lycanthropes.</p>",
       "name": "Arrow (silver)"
+    },
+    "Arrows": {
+      "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "name": "Arrows"
     },
     "Art (Choose Type)": {
       "description": "<p>This skill covers the creation of art, such as painting, sculpture, woodcarving, or mosaic. The player must specify the type of art the character practices. A successful skill check allows the character to create works that can improve NPC reactions. For example, presenting a well-crafted portrait or sculpture to an NPC may provide a +2 bonus to reaction rolls. If preferred, the player can choose to base this skill on Wisdom instead of Intelligence.</p>",
@@ -100,6 +105,10 @@
     "Bedroll": {
       "description": "<p>A heavy wooden blanket with a small pillow.</p>",
       "name": "Bedroll"
+    },
+    "Belt": {
+      "description": "<p>It's a belt made of leather.</p>",
+      "name": "Belt"
     },
     "Blackjack": {
       "name": "Blackjack"
@@ -222,6 +231,14 @@
     "Climb Sheer Surface": {
       "description": "<p>The thief can climb steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by their level.</p>",
       "name": "Climb Sheer Surface"
+    },
+    "Cloak, long": {
+      "description": "<p>A long cloak to cover one's shoulders and back. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+      "name": "Cloak, long"
+    },
+    "Cloak, short": {
+      "description": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+      "name": "Cloak, short"
     },
     "Clothes, Fine": {
       "description": "<p>This set of clothing is made from the finest materials and often decorated with embroidery, jewelry, or other adornments. It is suitable for noble gatherings and other high-status occasions.</p>",
@@ -964,6 +981,14 @@
       "description": "<p>Pearl is a gemstone with a smooth, round surface and a lustrous, iridescent sheen. It reflects soft colors like white, pink, and silver, highlighting its elegant and natural beauty. Pearls are highly valued in jewelry for their classic and radiant appearance.</p>",
       "name": "Pearl"
     },
+    "Pellets (lead)": {
+      "description": "<p>Ammunition for a sling.</p>",
+      "name": "Pellets (lead)"
+    },
+    "Pellets (silver)": {
+      "description": "<p>Silver ammunition for a sling.</p>",
+      "name": "Pellets (silver)"
+    },
     "Persuasion": {
       "description": "\n        <p>The Persuasion skill allows a character to influence others through convincing arguments, charm, or logical reasoning. It is used to sway opinions, negotiate peace, or convince someone to take a particular course of action. Successful Persuasion can resolve conflicts, gain allies, or secure valuable information.</p>\n      ",
       "name": "Persuasion"
@@ -1090,6 +1115,14 @@
       "description": "<p>This spell makes spoiled or poisoned food and water safe for consumption. It can purify one ration of preserved food (either iron or standard rations), six waterskins of water, or enough regular food to feed twelve people. If cast on mud, the spell causes the dirt to settle, leaving behind a pool of pure, clear water. The spell does not affect any living creatures.</p>",
       "name": "Purify Food and Water"
     },
+    "Quarrels": {
+      "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+      "name": "Quarrels"
+    },
+    "Quarrels (silver)": {
+      "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+      "name": "Quarrels (silver)"
+    },
     "Quartz": {
       "description": "<p>Quartz is a clear, transparent gemstone with a crystalline structure. It often appears glass-like, reflecting light with a sparkling brilliance. Its purity and clarity make it a popular choice for jewelry and decorative pieces. There are several different types and colors of quartz.</p>",
       "name": "Quartz"
@@ -1105,6 +1138,10 @@
     "Quill Pen": {
       "description": "<p>A large feather sharpened into a writing point.</p>",
       "name": "Quill Pen"
+    },
+    "Quiver": {
+      "description": "<p> This is a container for arrows or quarrels; it is usually made of leather. A lesser-quality quiver is included in the basic cost of a load of ammunition, as noted on the Ammunition Table.</p>",
+      "name": "Quiver"
     },
     "Raise Dead*": {
       "description": "<p>This spell allows the cleric to raise any human, dwarf, halfling, or elf from the dead. The body must be present, and any missing parts will cause corresponding disabilities in the raised character.</p>\n                      <p><strong>Effect:</strong> An 8th-level cleric can raise a body that has been dead up to four days. Each level above 8th extends this limit by four additional days (e.g., a 10th-level cleric can raise bodies dead for up to twelve days).</p>\n                      <p>The character is raised with 1 hit point and is weakened: unable to fight, cast spells, or move faster than half speed. These penalties last for two weeks of complete bed rest, which cannot be hastened by magical healing.</p>\n                      <p><strong>Undead Effect:</strong> When cast on an undead creature within range, the target must make a saving throw vs. spells with a -2 penalty or be destroyed. Vampires that fail the save retreat to their coffins in gaseous form. Against undead creatures stronger than vampires, the spell deals 3d10 damage (saving throw for half).</p>",
