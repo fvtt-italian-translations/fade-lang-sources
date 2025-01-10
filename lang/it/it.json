@@ -161,7 +161,7 @@
             },
             "encumbrance": {
                 "over": {
-                    "desc": "Gravemente sovraccarico, il movimento è impossibile",
+                    "desc": "Gravemente appesantito, è impossibile muoversi",
                     "label": "Troppo Ingombrato"
                 },
                 "unencumbered": {
@@ -367,10 +367,10 @@
                 "type": "Tipo di Danno",
                 "short2": "Danno a 2-Mani",
                 "long": "Dado Danno",
-                "long2": "Tiro per i Danni a 2-Mani solo se l'arma può essere usata con una mano sola, altrimenti usa il campo di tiro per i danni"
+                "long2": "Tira per i danni a 2-Mani solo se l'arma può essere usata con una mano sola, altrimenti tira i danni normali."
             },
             "ammo": {
-                "short": "Ammo",
+                "short": "Munizione",
                 "long": "Proiettili",
                 "load": "Attuali",
                 "maxLoad": "Totali",
@@ -486,8 +486,8 @@
             },
             "targets": "Bersagli",
             "apply": "Applica",
-            "applyDamageDesc": "Applica il danno al token o al bersaglio selezionato",
-            "applyHealingDesc": "Applica la cura al token o al bersaglio selezionato",
+            "applyDamageDesc": "Applica il danno al token / bersaglio selezionato",
+            "applyHealingDesc": "Applica la cura al token / bersaglio selezionato",
             "effectEnds": "<div>{effectName} su {actorName} è terminato</div>",
             "pass": "Successo!",
             "fail": "Fallimento...",
@@ -559,20 +559,20 @@
         "combat": {
             "phases": {
                 "movement": {
-                    "description": "I personaggi che scelgono di muoversi lo fanno adesso",
+                    "description": "I personaggi che scelgono di muoversi lo facciano ora",
                     "name": "Movimento"
                 },
                 "missile": {
                     "name": "Combattimento a Distanza",
-                    "description": " I personaggi che utilizzano armi da lancio e a gittata, effettuano i loro attacchi"
+                    "description": " I personaggi che utilizzano armi da lancio e a gittata effettuano i loro attacchi"
                 },
                 "magic": {
                     "name": "Magia",
-                    "description": "I personaggi che lanciano incantesimi o usano oggetti magici lo fanno ora"
+                    "description": "I personaggi che lanciano incantesimi o usano oggetti magici lo facciano ora"
                 },
                 "melee": {
                     "name": "Combattimento Corpo-a-Corpo",
-                    "description": "I personaggi che combattono corpo a corpo fanno i loro attacchi"
+                    "description": "I personaggi che combattono corpo a corpo faccino i loro attacchi"
                 },
                 "special": {
                     "name": "Speciale",
@@ -601,7 +601,7 @@
                     "description": "Il personaggio lancia un'arma adatta a farlo, applicando Destrezza e bonus magici al TPC e Forza e bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione"
                 },
                 "fire": {
-                    "description": "Il personaggio usa un'arma a distanza, applicando Destrezza e bonus magici al tiro per colpire, a condizione che il bersaglio si trovi entro la portata dell'arma",
+                    "description": "Il personaggio usa un'arma a distanza, applicando Destrezza e bonus magici al tiro per colpire, a condizione che il bersaglio si trovi entro la gittata dell'arma",
                     "name": "Tira"
                 },
                 "spell": {
@@ -614,7 +614,7 @@
                 },
                 "lance": {
                     "name": "Attacco con Lancia",
-                    "description": "Se il cavallo, prima di portare l’attacco del guerriero percorre al galoppo almeno 20 metri la lancia infligge un numero doppio di danni"
+                    "description": "Se il cavallo, prima di portare l’attacco del guerriero percorre al galoppo almeno 20 metri, la lancia infligge un numero doppio di danni"
                 },
                 "attack": {
                     "name": "Attacco",
@@ -622,7 +622,7 @@
                 },
                 "withdrawal": {
                     "name": "Arretrare",
-                    "description": "Il personaggio indietreggia da un nemico da 1,5 metri fino a metà del suo normale movimento, attaccando solo se il nemico lo segue e si sposta nel raggio d'azione durante la sua fase di movimento"
+                    "description": "Il personaggio indietreggia da un nemico a 1,5 metri per round fino alla metà del suo normale movimento, attaccando solo se il nemico lo segue e si sposta nel raggio d'azione durante la sua fase di movimento"
                 },
                 "retreat": {
                     "name": "Ritirata",
@@ -630,7 +630,7 @@
                 },
                 "multiAttack": {
                     "name": "Attacco Multiplo",
-                    "description": "Il personaggio effettua più attacchi per round, che possono includere qualsiasi combinazione di attacchi, lanciare, disarmare o attacchi con la lancia"
+                    "description": "Il personaggio effettua più attacchi per round, che possono includere qualsiasi combinazione di attacchi, lanci, disarmi o attacchi con la lancia"
                 },
                 "setSpear": {
                     "name": "Prepara Lancia",
@@ -661,14 +661,16 @@
             "selectToken1": "Il token deve essere prima selezionato",
             "notMemorized": "{actorName} prova a lanciare {spellName}, ma l'incantesimo non era stato memorizzato",
             "noTokenWarning": "È necessario selezionare un token o assegnare un personaggio predefinito per eseguire questa azione",
-            "noTokenWarning2": "È necessario selezionare un token per eseguire questa azione",
-            "missingItem": "Il tipo di elemento richiesto ({type}) non è stato trovato",
-            "missingItem2": "{actor} non ha un {type}."
+            "noTokenWarning2": "Devi selezionare un token per eseguire questa azione",
+            "missingItem": "Il tipo di elemento richiesto ({type}) non è stato trovato o la sua quantità è paari a zero.",
+            "missingItem2": "{actor} non ha un {type}.",
+            "zeroQuantity": "{itemName} ha una quantità pari a zero e non può essere utilizzato/a.",
+            "noAmmo": "{actorName} non ha munizioni per {weaponName}."
         },
         "class": {
             "key": {
                 "name": "Chiave",
-                "hint": "Chiave utilizzata come riferimento a una classe con una singola lettera. L'esempio di un Guerriero sarebbe \"G\"."
+                "hint": "Chiave utilizzata come riferimento a una classe con una singola lettera. L'esempio di un Guerriero sarebbe \"F\" (Fighter)."
             }
         },
         "Effect": {
@@ -681,7 +683,7 @@
         },
         "Tags": {
             "addTags": "+etichette",
-            "desc": "Alcune etichette vengono utilizzate dal sistema, altre sono destinate all'utilizzo da parte del DM o del giocatore"
+            "desc": "Alcune etichette vengono utilizzate dal sistema, altre sono per il DM o per il giocatore"
         },
         "AttackTypes": {
             "name": "Tipo di attacco",
@@ -715,7 +717,7 @@
     },
     "SETTINGS": {
         "Encumbrance": {
-            "Hint": "Abilita il tracciamento automatico dell'ingombro e l'applicazione degli effetti di stato per i personaggi che trasportano troppo. -Solo Armatura- determina il movimento in base al peso dell'armatura stessa. Dark Dungeons presuppone un carico massimo di 2400 monete e cinque velocità di movimento. Classic presuppone un carico massimo di 1600 monete e quattro velocità di movimento",
+            "Hint": "Abilita il tracciamento automatico dell'ingombro e l'applicazione degli effetti di stato per i personaggi che trasportano troppo. Il Solo Armatura determina il movimento in base al peso dell'armatura stessa. Dark Dungeons prevede un carico massimo di 2400 monete e cinque velocità di movimento. Classic invece un carico massimo di 1600 monete e quattro velocità di movimento",
             "Name": "Tracciatura Ingombro",
             "None": "Nessuna",
             "Basic": "Solo Armatura",
@@ -748,11 +750,11 @@
         },
         "logChanges": {
             "name": "Monitora Modifiche Scheda PG",
-            "hint": "Se abilitato, notifica le modifiche fatte alla scheda del personaggio al GM in chat"
+            "hint": "Se abilitato, notifica al GM in chat tutte le modifiche fatte sulla scheda del personaggio"
         },
         "weaponMastery": {
             "name": "Maestria Armi",
-            "hint": "Se abilitato, verranno utilizzate le regole di maestria delle armi"
+            "hint": "Se abilitato, verranno utilizzate le regole della Maestria delle Armi"
         },
         "toHitSystem": {
             "choices": {
@@ -766,8 +768,8 @@
             "hint": "Questo sistema determina come vengono gestiti i Tiri Per Colpire e anche quale tipo di classe di armatura viene utilizzato (CA vs CAA). Il sistema Solo THAC0 non utilizza una tabella di attacco, ma invece un semplice calcolo del valore THAC0 meno la CA del bersaglio. Il sistema Classico utilizza una tabella di attacco e THAC0 che supportano fino al livello 25 e una CA compresa tra -3 e 9. La Tabella Eroica di Combattimento si rifà ai giochi di ruolo degli anni '90 e scala fino al livello 36 e una CA compreso tra -20 e 19. Dark Dungeons utilizza il sistema del gioco Dark Dungeons. La CAA e il Bonus di Attacco sono simili alla THAC0, ma presentano una classe di armatura ascendente in cui maggiore è il valore della CA, maggiore è la capacità difensiva."
         },
         "EncMax": {
-            "Hint": "La quantità massima che un personaggio può trasportare in monete, ed essere comunque in grado di muoversi",
-            "Hint2": "L'importo massimo in monete, che può essere trasportato mentre si è ancora in grado di muoversi",
+            "Hint": "La quantità massima che un personaggio può trasportare in monete (mon), ed essere comunque in grado di muoversi",
+            "Hint2": "L'importo massimo in monete (mon), che può essere trasportato mentre si muove",
             "Name": "Massimo Ingombro"
         },
         "toasts": {
@@ -816,11 +818,11 @@
         "display": {
             "abilities": {
                 "name": "Caratteristiche abbreviate",
-                "hint": "Usa le abbreviazioni per i nomi dei punteggi delle caratteristiche sulla scheda personaggio"
+                "hint": "Usa le abbreviazioni per i nomi dei punteggi di caratteristica sulla scheda personaggio"
             },
             "saves": {
                 "name": "Tiri Salvezza abbreviati",
-                "hint": "Usa le abbreviazioni per i tiri salvezza sulla scheda del personaggio"
+                "hint": "Usa le abbreviazioni per i Tiri Salvezza sulla scheda del personaggio"
             }
         }
     },
