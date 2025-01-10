@@ -845,5 +845,29 @@
         "aac": "AAC and Attack Bonus"
       }
     }
+  },
+  "FADE_TRANSLATIONS": {
+    "spellRange": {
+      "Touch": "Touch",
+      "Personal": "Personal"
+    },
+    "spellDuration": {
+      "Instantaneous": "Instantaneous",
+      "Permanent": "Permanent",
+      "Concentration": "Concentration"
+    },
+    "monsterAlignment": {
+      "Neutral": "Neutral",
+      "Lawful": "Lawful",
+      "Chaotic": "Chaotic",
+      "Any": "Any",
+      "None": "None",
+      "Chaotic or Neutral": "Chaotic or Neutral"
+    },
+    "monsterSize": {
+      "L": "L",
+      "M": "M",
+      "S": "S"
+    }
   }
 }
