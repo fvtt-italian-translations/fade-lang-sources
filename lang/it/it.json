@@ -235,7 +235,11 @@
                 "name": "AT# RCV",
                 "desc": "Numero di attacchi ricevuti in questo round"
             },
-            "morale": "Morale"
+            "morale": "Morale",
+            "THBonusHint": "Utilizzato con il sistema di classe armatura ascendente (CAA), questo valore viene aggiunto ai tiri per colpire. Chiamato anche bonus d'attacco. Il bonus per colpire è calcolato automaticamente in base al valore di THAC0.",
+            "moraleHint": "Il punteggio di morale indica la lealtà e il coraggio di un PG o di un mostro.",
+            "retainerMorale": "Morale S.",
+            "retainerMoraleHint": "Il punteggio di morale dei seguaci di questo personaggio. Il punteggio di morale di un seguace indica la sua lealtà e il suo coraggio sotto la guida di questo personaggio."
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -246,7 +250,11 @@
             "SpellItem": "Scheda Incantesimo",
             "SkillItem": "Scheda Abilità",
             "SpecialAbilityItem": "Scheda Abilità Speciale",
-            "WeaponItem": "Scheda Arma"
+            "WeaponItem": "Scheda Arma",
+            "Character2": "Scheda-PG FaDe 2.0",
+            "Character": "Scheda-PG FaDe",
+            "Monster": "Scheda Mostro/PNG",
+            "LightItem": "Scheda Luce (oggetto)"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -293,6 +301,38 @@
                 "abbr": "Q.tà",
                 "maxAbbr": "q.tà max",
                 "abbr2": "#"
+            },
+            "equipped": "Equipaggieto",
+            "light": {
+                "isLight": "Luce",
+                "isFuel": "Combustibile",
+                "radius": "Raggio",
+                "radiusHint": "È il raggio della parte fioca della luce.",
+                "typeLabel": "Tipo di Luce",
+                "fuelType": "Tipo di Combustibile",
+                "bright": "Intensa",
+                "brightHint": "Il raggio della parte centrale intensa della luce.",
+                "durationHint": "La durata della sorgente luminosa.",
+                "turnsActiveHint": "Quanti turni la luce è stata accesa.",
+                "turnsActive": "Turni Accesa",
+                "color": "Colore",
+                "colorHint": "Questo è il codice colore HTML della luce. Es., #d0a750.",
+                "attenuation": "Attenuazione",
+                "angle": "Angolo",
+                "luminosity": "Luminosità",
+                "animationType": "Animazione",
+                "animationSpeed": "Velocità Animazione",
+                "animationIntensity": "Intensità Animazione",
+                "noMoreItem": "{actor} non ha più {item} da accendere.",
+                "noFuel": "{actor} non ha più combustibile per la {item}.",
+                "disabled": "La fonte di luce di {actor} si è spenta.",
+                "enabled": "{actor} ha acceso la sua {item}.",
+                "lightTypes": {
+                    "torch": "Torcia",
+                    "lantern": "Lanterna",
+                    "magic": "Magica",
+                    "custom": "Personalizzata"
+                }
             }
         },
         "Weapon": {
@@ -407,7 +447,11 @@
             "autoSuccess": "Auto-Successo",
             "autoSuccessHint": "Ha successo automaticamente con un tiro naturale/non modificato di questo valore",
             "autoFail": "Auto-Fallimento",
-            "autoFailHint": "Fallisce automaticamente con un tiro naturale/non modificato di questo valore"
+            "autoFailHint": "Fallisce automaticamente con un tiro naturale/non modificato di questo valore",
+            "categories": {
+                "explore": "Esplorazione",
+                "class": "Abilità di Classe"
+            }
         },
         "Chat": {
             "rollMods": {
@@ -448,7 +492,8 @@
             "attackFlavor": "{attacker} {attackType} attacca con {weapon}",
             "spellCast": "{caster} lancia {spell}",
             "useSpecAbility": "{owner} usa {specAbility}",
-            "attackAC": "<div class='attack-info'>L'attacco colpisce <strong>CA {hitAC}</strong></div>"
+            "attackAC": "<div class='attack-info'>L'attacco colpisce <strong>CA {hitAC}</strong></div>",
+            "attackACAny": "<div class='attack-info'>20 Naturale! L'attacco colpisce qualsiasi CA!</strong>.</div>"
         },
         "dialog": {
             "lightSource": "Fonte di Luce",
@@ -615,7 +660,8 @@
             "notMemorized": "{actorName} prova a lanciare {spellName}, ma l'incantesimo non era stato memorizzato",
             "noTokenWarning": "È necessario selezionare un token o assegnare un personaggio predefinito per eseguire questa azione",
             "noTokenWarning2": "È necessario selezionare un token per eseguire questa azione",
-            "missingItem": "Il tipo di elemento richiesto ({type}) non è stato trovato"
+            "missingItem": "Il tipo di elemento richiesto ({type}) non è stato trovato",
+            "missingItem2": "{actor} non ha un {type}."
         },
         "class": {
             "key": {
@@ -641,7 +687,8 @@
             "types": {
                 "melee": "Mischia",
                 "missile": "Distanza",
-                "save": "Tiro Salvezza"
+                "save": "Tiro Salvezza",
+                "breath": "Soffio"
             }
         },
         "DamageTypes": {
@@ -661,7 +708,8 @@
         "operator": "Fattore",
         "modifier": "Modificatore",
         "target": "Bersaglio",
-        "GMNotes": "Note del DM"
+        "GMNotes": "Note del DM",
+        "category": "Categoria"
     },
     "SETTINGS": {
         "Encumbrance": {
@@ -789,7 +837,8 @@
             "specialAbility": "Abilità Speciale",
             "treasure": "Tesoro",
             "class": "Classe Personaggio",
-            "weaponMastery": "Definizione Maestria Arma"
+            "weaponMastery": "Definizione Maestria Arma",
+            "light": "Luce"
         }
     }
 }
