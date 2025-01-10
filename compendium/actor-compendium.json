@@ -1,4 +1,19 @@
 {
+  "common": {
+    "alignment": {
+      "Any": "Any",
+      "Chaotic": "Chaotic",
+      "Chaotic or Neutral": "Chaotic or Neutral",
+      "Lawful": "Lawful",
+      "Neutral": "Neutral",
+      "None": "None"
+    },
+    "size": {
+      "L": "L",
+      "M": "M",
+      "S": "S"
+    }
+  },
   "entries": {
     "Actaeon (Elk Centaur)": {
       "biography": "<p>The Actaeon is a rare and solitary protector of woodland creatures. Standing 9 feet tall, it has the arms, torso, and face of a human, but the lower body and antlers of an elk. Covered in a brown, elklike hide, it can blend into forest environments as if invisible.</p><p>Actaeons react aggressively to the slaying of woodland creatures or other similar offenses. They often attack with large wooden or bone spears, appearing suddenly from hiding with a 1-5 chance on a 1d6 for surprise.</p><p>Once per day, an Actaeon can use a breath weapon that fills a 10' cube. Those caught must save vs. dragon breath or be polymorphed into a normal forest creature such as an owl, squirrel, or deer. A successful save results in a 24-hour transformation.</p><p>Actaeons are integral members of the woodland community, often found among creatures such as centaurs and dryads. Their rarity and bravery make them celebrated champions of the forest. They frequently collaborate with druids to safeguard the woodlands, particularly when a serious threat arises.</p><p>Some actaeons may possess spellcasting abilities; refer to the \"Monster Spellcasters\" section on page 215 for more details.</p><p><strong>Habitat:</strong> Forests.<br><strong>Carrying Capacity:</strong> 3,000 cn at full speed; 6,000 cn at half speed.</p>",
@@ -23,6 +38,7 @@
           "name": "Elk Hide"
         }
       },
+      "monsterType": "Humanoid, Enchanted (Very Rare)",
       "name": "Actaeon (Elk Centaur)"
     },
     "Adaptor": {
@@ -30,6 +46,7 @@
       "items": {
         "8XObT0frvKNyuAyk": {
           "description": "<p>Once exposed to a type of magical attack, the adaptor becomes immune to it for 1d10 turns. They change color when adapting to attacks.</p>",
+          "gmNotes": "Adaptation ability.",
           "name": "Adaptation"
         },
         "t4FhucGNGAoEmJ0S": {
@@ -37,6 +54,7 @@
           "name": "Sword, Normal"
         }
       },
+      "monsterType": "Monster (Very Rare)",
       "name": "Adaptor"
     },
     "Aerial Servant (Haoou)": {
@@ -48,6 +66,7 @@
         },
         "Vm7JtHuwwBL9REHf": {
           "description": "<p>The Aerial Servant can move at super-speed, surprising its targets with a 1-7 on a 1d8 roll. This ability allows it to catch targets unawares and quickly complete tasks.</p>",
+          "gmNotes": "Super-speed ability for surprise and rapid movement.",
           "name": "Super-Speed"
         },
         "pPE64L1R45rjmzlY": {
@@ -56,13 +75,16 @@
         },
         "uFYQ6bS7GFxnBjeT": {
           "description": "<p>The Aerial Servant can only be harmed by spells or magical weapons, making it nearly impervious to most physical attacks.</p>",
+          "gmNotes": "Resistance to non-magical attacks.",
           "name": "Magical Resistance"
         },
         "yNi4nsW0MNjZIWBb": {
           "description": "<p>The Aerial Servant can fly at incredible speeds, moving at a rate of 720' (240') per round. This ability allows it to swiftly traverse the battlefield or escape from danger.</p>",
+          "gmNotes": "Flying ability with high movement rate.",
           "name": "Flying"
         }
       },
+      "monsterType": "Planar Monster, Enchanted (Rare)",
       "name": "Aerial Servant (Haoou)"
     },
     "Animal Herd (1 HD)": {
@@ -74,14 +96,17 @@
         },
         "RkmnWtqd7EO1ijOJ": {
           "description": "<p>If the herd panics, they trample anything in their way, causing 1d20 points of damage.</p>",
+          "gmNotes": "Trampling ability causing 1d20 damage.",
           "name": "Trample"
         },
         "bZEaQ5dhKVScqzPx": {
           "description": "<p>If a herd of 16 or more is attacked, there is a 40% chance they will panic and trample anything in their path for 1d20 points of damage.</p>",
+          "gmNotes": "Panic ability causing trampling damage.",
           "name": "Panic"
         },
         "hVgaur0tXowXWhFJ": {
           "description": "<p>When alarmed, females and young will flee while males defend the herd. Males have at least 3 HP per Hit Die.</p>",
+          "gmNotes": "Males protect the herd while females and young escape.",
           "name": "Male Protection"
         },
         "xSKxJGf70eFyTFwD": {
@@ -89,6 +114,7 @@
           "name": "Natural"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Animal Herd (1 HD)"
     },
     "Animal Herd (2 HD)": {
@@ -96,6 +122,7 @@
       "items": {
         "CXVVO15BjYoBIFOZ": {
           "description": "<p>When alarmed, females and young will flee while males defend the herd. Males have at least 3 HP per Hit Die.</p>",
+          "gmNotes": "Males protect the herd while females and young escape.",
           "name": "Male Protection"
         },
         "GlWoyEQkzO2y15HD": {
@@ -108,13 +135,16 @@
         },
         "XaKIQVsgcEXJtryd": {
           "description": "<p>If a herd of 16 or more is attacked, there is a 40% chance they will panic and trample anything in their path for 1d20 points of damage.</p>",
+          "gmNotes": "Panic ability causing trampling damage.",
           "name": "Panic"
         },
         "hvRQ7GMTZIiVvbRU": {
           "description": "<p>If the herd panics, they trample anything in their way, causing 1d20 points of damage.</p>",
+          "gmNotes": "Trampling ability causing 1d20 damage.",
           "name": "Trample"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Animal Herd (2 HD)"
     },
     "Animal Herd (3 HD)": {
@@ -122,6 +152,7 @@
       "items": {
         "InS69b79RY7xtdtj": {
           "description": "<p>When alarmed, females and young will flee while males defend the herd. Males have at least 3 HP per Hit Die.</p>",
+          "gmNotes": "Males protect the herd while females and young escape.",
           "name": "Male Protection"
         },
         "Om1uyivDH1La6zms": {
@@ -130,6 +161,7 @@
         },
         "dQKfqtSz964Zw52e": {
           "description": "<p>If a herd of 16 or more is attacked, there is a 40% chance they will panic and trample anything in their path for 1d20 points of damage.</p>",
+          "gmNotes": "Panic ability causing trampling damage.",
           "name": "Panic"
         },
         "pab6dtppPgrsSwj7": {
@@ -138,9 +170,11 @@
         },
         "vhd6yEVO3p5YkpEj": {
           "description": "<p>If the herd panics, they trample anything in their way, causing 1d20 points of damage.</p>",
+          "gmNotes": "Trampling ability causing 1d20 damage.",
           "name": "Trample"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Animal Herd (3 HD)"
     },
     "Animal Herd (4 HD)": {
@@ -148,10 +182,12 @@
       "items": {
         "7bVXvHbNVGCECusv": {
           "description": "<p>If a herd of 16 or more is attacked, there is a 40% chance they will panic and trample anything in their path for 1d20 points of damage.</p>",
+          "gmNotes": "Panic ability causing trampling damage.",
           "name": "Panic"
         },
         "I8ywnUOL6Qz9XGAY": {
           "description": "<p>When alarmed, females and young will flee while males defend the herd. Males have at least 3 HP per Hit Die.</p>",
+          "gmNotes": "Males protect the herd while females and young escape.",
           "name": "Male Protection"
         },
         "RSaS8mbnLQiPqN8v": {
@@ -160,6 +196,7 @@
         },
         "ZXrizzM0vfvcjlv4": {
           "description": "<p>If the herd panics, they trample anything in their way, causing 1d20 points of damage.</p>",
+          "gmNotes": "Trampling ability causing 1d20 damage.",
           "name": "Trample"
         },
         "aQFkB7GpiRyhXE3I": {
@@ -167,6 +204,7 @@
           "name": "Natural"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Animal Herd (4 HD)"
     },
     "Ant, Giant": {
@@ -183,6 +221,7 @@
           "name": "Ant Shell"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Ant, Giant"
     },
     "Ape, Snow": {
@@ -202,9 +241,11 @@
         },
         "eO7hhMmWuUCJGIq5": {
           "description": "<p>The snow ape's white fur makes it extremely difficult to see in snowy environments, allowing it to surprise opponents on a 1-4 on a d6.</p>",
+          "gmNotes": "Camouflage ability providing surprise advantage in snowy conditions.",
           "name": "Camouflage"
         }
       },
+      "monsterType": "Normal Animal (Rare)",
       "name": "Ape, Snow"
     },
     "Ape, White": {
@@ -220,6 +261,7 @@
           "name": "Rock"
         }
       },
+      "monsterType": "Normal Animal (Rare)",
       "name": "Ape, White"
     },
     "Archon (Female)": {
@@ -227,6 +269,7 @@
       "items": {
         "57Hrp5QDGxyGL96N": {
           "description": "<p>Archons can teleport at will to any location within their sight or to known places.</p>",
+          "gmNotes": "Teleport ability at will.",
           "name": "Teleport"
         },
         "DpDwPhObP5UmyJvE": {
@@ -235,10 +278,12 @@
         },
         "E0vYGW3avZ8aY7IQ": {
           "description": "<p>Archons can cast spells as 12th level clerics. They are immune to fire, poison, and 1st through 4th level spells of all types.</p>",
+          "gmNotes": "Spellcasting ability and immunities.",
           "name": "Spellcasting"
         },
         "TdpX7IPRcZ3n1Ygl": {
           "description": "<p>Once per day, the Archon can use a bolt of purity, which causes all victims to become Lawful and peaceful for [[/r 2d6 #lawful and peaceful for this many turns]] turns. It does not cause damage and removes all evil thoughts (no saving throw).</p>",
+          "gmNotes": "Bolt of Purity causing Lawful and peaceful behavior.",
           "name": "Bolt of Purity"
         },
         "i1ra0P1lUXVoDnmD": {
@@ -254,6 +299,7 @@
           "name": "Gore Attack"
         }
       },
+      "monsterType": "Planar Monster (Very Rare)",
       "name": "Archon (Female)"
     },
     "Archon (Male)": {
@@ -261,14 +307,17 @@
       "items": {
         "0fcDXgEqN5rnrStV": {
           "description": "<p>Once per day, the Archon can use a bolt of purity, which causes all victims to become Lawful and peaceful for [[/r 2d6 #lawful and peaceful for this many turns]] turns. It does not cause damage and removes all evil thoughts (no saving throw).</p>",
+          "gmNotes": "Bolt of Purity causing Lawful and peaceful behavior.",
           "name": "Bolt of Purity"
         },
         "57Hrp5QDGxyGL96N": {
           "description": "<p>Archons can teleport at will to any location within their sight or to known places.</p>",
+          "gmNotes": "Teleport ability at will.",
           "name": "Teleport"
         },
         "E0vYGW3avZ8aY7IQ": {
           "description": "<p>Archons can cast spells as 12th level clerics. They are immune to fire, poison, and 1st through 4th level spells of all types.</p>",
+          "gmNotes": "Spellcasting ability and immunities.",
           "name": "Spellcasting"
         },
         "bjbZ8aquRhls9RRR": {
@@ -284,6 +333,7 @@
           "name": "Sword of Flame"
         }
       },
+      "monsterType": "Planar Monster (Very Rare)",
       "name": "Archon (Male)"
     },
     "Athach": {
@@ -302,6 +352,7 @@
           "name": "Poisonous Bite"
         }
       },
+      "monsterType": "Giant Humanoid (Rare)",
       "name": "Athach"
     },
     "Baboon, Rock": {
@@ -309,6 +360,7 @@
       "items": {
         "DUaQ7HU6CaxPLfNA": {
           "description": "<p>Rock baboons gain a +1 bonus to attack rolls when fighting alongside at least two other members of their pack.</p>",
+          "gmNotes": "Pack Tactics: +1 to attack rolls with at least 2 allies.",
           "name": "Pack Tactics"
         },
         "ERnx2ONXMHh9pwLB": {
@@ -324,6 +376,7 @@
           "name": "Thick Fur"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Baboon, Rock"
     },
     "Bandit": {
@@ -335,6 +388,7 @@
         },
         "VrHF08EGwEq2BNmn": {
           "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
+          "gmNotes": "Ambush tactics for surprise attacks.",
           "name": "Ambush"
         },
         "r8EiuFHqHyRfVPmB": {
@@ -342,6 +396,7 @@
           "name": "Leather Armor"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Bandit"
     },
     "Bandit (2HD)": {
@@ -357,6 +412,7 @@
         },
         "VrHF08EGwEq2BNmn": {
           "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
+          "gmNotes": "Ambush tactics for surprise attacks.",
           "name": "Ambush"
         },
         "YiKuJU9xRkb16Fr6": {
@@ -364,6 +420,7 @@
           "name": "Scale Mail"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Bandit (2HD)"
     },
     "Bandit (3HD)": {
@@ -387,9 +444,11 @@
         },
         "VrHF08EGwEq2BNmn": {
           "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
+          "gmNotes": "Ambush tactics for surprise attacks.",
           "name": "Ambush"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Bandit (3HD)"
     },
     "Basilisk": {
@@ -405,9 +464,11 @@
         },
         "nXflDNUbSQH2jQle": {
           "description": "<p>The basilisk's gaze can turn any creature to stone unless they make a saving throw vs. turn to stone. This effect also applies to equipment carried by the target.</p><p>If a character tries to avoid the gaze, they suffer a -4 penalty to their attack rolls while the basilisk gains a +2 bonus to its attacks. If the character meets the gaze, they must make a saving throw each round.</p><p>Using a mirror to reflect the gaze reduces the attack penalty to -2. If the basilisk sees its reflection (1 on 1d6), it must save or be petrified.</p>",
+          "gmNotes": "Petrifying gaze effect, special rules for avoiding gaze and using mirrors.",
           "name": "Petrifying Gaze"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Basilisk"
     },
     "Bat, Giant": {
@@ -419,6 +480,7 @@
         },
         "RMSoK2ZhRfx1pHuz": {
           "description": "<p>Giant bats use echolocation to navigate. They are immune to sight-based spells such as <em>light</em> but can be blinded by a <em>silence 15' radius</em> spell.</p>",
+          "gmNotes": "Echolocation and immunity to sight-based spells.",
           "name": "Echolocation"
         },
         "aizlkEKiJg5ShfVb": {
@@ -427,9 +489,11 @@
         },
         "rN6NoCLtGTac899H": {
           "description": "<p>Giant bats can fly at a speed of 180' per turn (60' per round).</p>",
+          "gmNotes": "Flying ability of giant bats.",
           "name": "Flying"
         }
       },
+      "monsterType": "Giant Animal (Common)",
       "name": "Bat, Giant"
     },
     "Bat, Giant Vampire": {
@@ -441,10 +505,12 @@
         },
         "H6GHm5uo1ch5WeR6": {
           "description": "<p>While a victim is unconscious, the giant vampire bat can feed, draining 1d4 points of blood each round. If a victim dies from this, they must make a saving throw vs. spells or become an undead creature 24 hours after death.</p>",
+          "gmNotes": "Blood Drain ability of giant vampire bats.",
           "name": "Blood Drain"
         },
         "NmWngkCTL8cXXMc5": {
           "description": "<p>Giant vampire bats can fly at a speed of 180' per turn (60' per round).</p>",
+          "gmNotes": "Flying ability of giant vampire bats.",
           "name": "Flying"
         },
         "XR9sVgJGKxdTvsEX": {
@@ -453,9 +519,11 @@
         },
         "dde1niYiPf30qKpM": {
           "description": "<p>Giant vampire bats use echolocation to navigate. They are immune to sight-based spells such as <em>light</em> but can be blinded by a <em>silence 15' radius</em> spell.</p>",
+          "gmNotes": "Echolocation and immunity to sight-based spells.",
           "name": "Echolocation"
         }
       },
+      "monsterType": "Giant Animal (Rare)",
       "name": "Bat, Giant Vampire"
     },
     "Bat, Normal": {
@@ -463,6 +531,7 @@
       "items": {
         "DVelzTV2fXDMqBjt": {
           "description": "<p>Normal bats can fly at a speed of 120' per turn (40' per round).</p>",
+          "gmNotes": "Flying ability of normal bats.",
           "name": "Flying"
         },
         "HiCgibXrAU2zn45t": {
@@ -471,13 +540,16 @@
         },
         "a6vjDQ5cruUrlfZo": {
           "description": "<p>Normal bats confuse their targets by flying around them in large numbers. For every 10 bats, one character is affected, receiving a -2 penalty to attack rolls and saving throws and being unable to cast spells.</p>",
+          "gmNotes": "Confusion ability for normal bats.",
           "name": "Confusion"
         },
         "t0jgjq3GYGhcnmSy": {
           "description": "<p>Normal bats use echolocation to navigate. They are immune to sight-based spells such as <em>light</em> but can be blinded by a <em>silence 15' radius</em> spell.</p>",
+          "gmNotes": "Echolocation and immunity to sight-based spells.",
           "name": "Echolocation"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Bat, Normal"
     },
     "Bear, Black": {
@@ -489,6 +561,7 @@
         },
         "SLjJ23zrOmuxH5vZ": {
           "description": "<p>If a black bear hits with both claws in the same round, it will hug its target, inflicting an additional [[/r 2d8 #bear hug damage]] damage in the same round.</p>",
+          "gmNotes": "Bear Hug: Additional 2d8 damage if both claws hit in the same round.",
           "name": "Bear Hug"
         },
         "YNA82CLrUiE7oqVc": {
@@ -500,6 +573,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Bear, Black"
     },
     "Bear, Cave": {
@@ -515,6 +589,7 @@
         },
         "AotGOeIyXDLJRXTA": {
           "description": "<p>If a cave bear hits with both claws in the same round, it will hug its target, inflicting an additional 2d8 damage in the same round.</p>",
+          "gmNotes": "Bear Hug: Additional 2d8 damage if both claws hit in the same round.",
           "name": "Bear Hug"
         },
         "K4UshlYEcTrCfZTm": {
@@ -522,6 +597,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Prehistoric Animal (Very Rare)",
       "name": "Bear, Cave"
     },
     "Bear, Grizzly": {
@@ -541,9 +617,11 @@
         },
         "up1CEk8GSDlQKyZn": {
           "description": "<p>If a grizzly bear hits with both claws in the same round, it will hug its target, inflicting an additional 2d8 damage in the same round.</p>",
+          "gmNotes": "Bear Hug: Additional 2d8 damage if both claws hit in the same round.",
           "name": "Bear Hug"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Bear, Grizzly"
     },
     "Bear, Polar": {
@@ -551,6 +629,7 @@
       "items": {
         "8SUzeH4ocbvS9fPS": {
           "description": "<p>If a polar bear hits with both claws in the same round, it will hug its target, inflicting an additional 2d8 damage in the same round.</p>",
+          "gmNotes": "Bear Hug: Additional 2d8 damage if both claws hit in the same round.",
           "name": "Bear Hug"
         },
         "D8VSbYWDW7wFci8t": {
@@ -559,6 +638,7 @@
         },
         "gY5irBQJ9KYA0fY6": {
           "description": "<p>Polar bears are excellent swimmers and can move through water at the same speed as on land.</p>",
+          "gmNotes": "Swimming ability of polar bears.",
           "name": "Swimming"
         },
         "ivELH0DN3qBJiWqb": {
@@ -570,6 +650,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Normal Animal (Rare)",
       "name": "Bear, Polar"
     },
     "Bee, Giant": {
@@ -581,6 +662,7 @@
         },
         "NdPxqMUkMCIqMhiv": {
           "description": "<p>The sting of a giant bee contains a deadly poison. A successful attack forces the victim to make a saving throw vs. poison or die. If successful, the stinger inflicts 1 point of damage per round until removed.</p>",
+          "gmNotes": "Poison Sting: Save vs. poison or die. 1 point/round if saved, until removed.",
           "name": "Poison Sting"
         },
         "uGO8698wkAo1gtLg": {
@@ -588,6 +670,7 @@
           "name": "Sting"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Bee, Giant"
     },
     "Beetle, Giant Fire": {
@@ -595,6 +678,7 @@
       "items": {
         "5UYbl4leGdIro8Uu": {
           "description": "<p>The fire beetle has two glowing glands above its eyes and one near its abdomen, giving off light in a 10-foot radius. These glands continue to glow for 1d6 days after being removed.</p>",
+          "gmNotes": "Glowing glands provide light in a 10' radius for 1d6 days after removal.",
           "name": "Glowing Glands"
         },
         "c2D1fB97wamZOKVf": {
@@ -606,6 +690,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Lowlife (Common)",
       "name": "Beetle, Giant Fire"
     },
     "Beetle, Giant Oil": {
@@ -621,9 +706,11 @@
         },
         "ww7BVXXa06pVdNWl": {
           "description": "<p>The oil beetle can squirt an oily fluid at an attacker within 5 feet. The fluid causes painful blisters, imposing a -2 penalty on the victim's attack rolls until cured by a <em>cure light wounds</em> spell or after 24 hours.</p>",
+          "gmNotes": "Oil Squirt causes a -2 penalty on attack rolls until cured or after 24 hours.",
           "name": "Oil Squirt"
         }
       },
+      "monsterType": "Lowlife (Common)",
       "name": "Beetle, Giant Oil"
     },
     "Beetle, Giant Tiger": {
@@ -635,6 +722,7 @@
         },
         "PPSHALxyoDY7bHjU": {
           "description": "<p>The tiger beetle can move swiftly, running at speeds of 150' per turn (50' per round).</p>",
+          "gmNotes": "Fast movement of the tiger beetle.",
           "name": "Fast Movement"
         },
         "gZe5RBn8FMqJPjFl": {
@@ -642,6 +730,7 @@
           "name": "Carapace"
         }
       },
+      "monsterType": "Lowlife (Common)",
       "name": "Beetle, Giant Tiger"
     },
     "Berserker": {
@@ -657,9 +746,11 @@
         },
         "pvpksxPTMy2jO5Lf": {
           "description": "<p>Berserkers enter a mad rage in combat, gaining +2 to attack rolls against humans and humanoid creatures like kobolds, goblins, and orcs. They fight to the death and may attack comrades in their rage. They never retreat, surrender, or take prisoners.</p>",
+          "gmNotes": "Gains +2 to attack rolls against human or humanoid opponents in battle.",
           "name": "Berserker Rage"
         }
       },
+      "monsterType": "Human (Rare)",
       "name": "Berserker"
     },
     "Black Pudding": {
@@ -667,6 +758,7 @@
       "items": {
         "6PrxxV6qSM6uFhjf": {
           "description": "<p>The black pudding can only be harmed by fire-based attacks, such as a flaming sword. Other attacks merely split it into smaller versions.</p>",
+          "gmNotes": "Can only be harmed by fire-based attacks.",
           "name": "Fire Vulnerability"
         },
         "C1c2m8PtUT6aumqm": {
@@ -679,9 +771,11 @@
         },
         "fjxmLG7056c8mn73": {
           "description": "<p>If struck by a non-fire attack, the black pudding splits into smaller puddings, each with 2 Hit Dice and dealing 1d8 damage. These smaller puddings can be destroyed only by fire-based attacks.</p>",
+          "gmNotes": "Splits into smaller puddings (2 HD each, 1d8 damage) if hit by non-fire attacks.",
           "name": "Split"
         }
       },
+      "monsterType": "Monster (Common)",
       "name": "Black Pudding"
     },
     "Blackball (Deadly Sphere)": {
@@ -689,6 +783,7 @@
       "items": {
         "Ud7TV5xj9AEHpePa": {
           "description": "<p>Only Immortals can control the blackball. It can be defeated using a gate spell to send it to another plane or by a carefully worded wish spell.</p>",
+          "gmNotes": "Can only be controlled by Immortals or banished by specific spells.",
           "name": "Controlled by Immortals"
         },
         "qCYfBNIUmhdwGzpB": {
@@ -697,9 +792,11 @@
         },
         "wi2O9LZKNJpndF1J": {
           "description": "<p>The blackball is immune to all mortal attacks, spells, and effects. It can only be controlled by Immortals, and it is unaffected by all normal combat and magical effects.</p>",
+          "gmNotes": "Immune to all mortal attacks and spells.",
           "name": "Immunity to Mortal Attacks"
         }
       },
+      "monsterType": "Planar Monster (Very Rare)",
       "name": "Blackball (Deadly Sphere)"
     },
     "Blast Spore": {
@@ -718,6 +815,7 @@
           "name": "Floating Fungus"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Blast Spore"
     },
     "Blink Dog": {
@@ -736,6 +834,7 @@
           "name": "Canine Agility"
         }
       },
+      "monsterType": "Monster (Common)",
       "name": "Blink Dog"
     },
     "Boar, Great": {
@@ -754,6 +853,7 @@
           "name": "Massive Tusk"
         }
       },
+      "monsterType": "Giant Animal (Rare)",
       "name": "Boar, Great"
     },
     "Boar, Normal": {
@@ -772,6 +872,7 @@
           "name": "Boar Hide"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Boar, Normal"
     },
     "Brigand": {
@@ -798,6 +899,7 @@
           "name": "Sword, Normal"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Brigand"
     },
     "Buccaneer": {
@@ -816,6 +918,7 @@
           "name": "Crossbow, Lt"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Buccaneer"
     },
     "Bugbear": {
@@ -834,6 +937,7 @@
           "name": "Spear"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Bugbear"
     },
     "Caecilia": {
@@ -852,6 +956,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Caecilia"
     },
     "Camel": {
@@ -870,6 +975,7 @@
           "name": "Thick Hide"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Camel"
     },
     "Cat, Lion": {
@@ -891,6 +997,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Cat, Lion"
     },
     "Cat, Mountain Lion": {
@@ -912,6 +1019,7 @@
           "name": "Claws"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Cat, Mountain Lion"
     },
     "Cat, Panther": {
@@ -933,6 +1041,7 @@
           "name": "Sleek Fur"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Cat, Panther"
     },
     "Cat, Sabre-Tooth Tiger": {
@@ -954,6 +1063,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Prehistoric Animal (Very Rare)",
       "name": "Cat, Sabre-Tooth Tiger"
     },
     "Cat, Tiger": {
@@ -972,6 +1082,7 @@
           "name": "Claws and Bite"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Cat, Tiger"
     },
     "Centaur": {
@@ -986,6 +1097,7 @@
           "name": "Hoof"
         }
       },
+      "monsterType": "Monster (Common)",
       "name": "Centaur"
     },
     "Centipede, Giant": {
@@ -996,6 +1108,7 @@
           "name": "Poison Bite"
         }
       },
+      "monsterType": "Lowlife (Common)",
       "name": "Centipede, Giant"
     },
     "Chimera": {
@@ -1026,6 +1139,7 @@
           "name": "Dragon Head Bite"
         }
       },
+      "monsterType": "Monster (Very Rare)",
       "name": "Chimera"
     },
     "Cockatrice": {
@@ -1043,6 +1157,7 @@
           "name": "Resilient Feathers"
         }
       },
+      "monsterType": "Monster (Very Rare), Planar Monster (Very Rare)",
       "name": "Cockatrice"
     },
     "Crab, Giant": {
@@ -1056,6 +1171,7 @@
           "name": "Crab Shell"
         }
       },
+      "monsterType": "Giant Animal (Rare)",
       "name": "Crab, Giant"
     },
     "Crocodile, Giant": {
@@ -1069,6 +1185,7 @@
           "name": "Hardened Scales"
         }
       },
+      "monsterType": "Giant Animal (Rare)",
       "name": "Crocodile, Giant"
     },
     "Crocodile, Large": {
@@ -1082,6 +1199,7 @@
           "name": "Scales"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Crocodile, Large"
     },
     "Crocodile, Normal": {
@@ -1095,6 +1213,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Crocodile, Normal"
     },
     "Cyclops": {
@@ -1116,6 +1235,7 @@
           "name": "Curse"
         }
       },
+      "monsterType": "Giant Humanoid (Rare)",
       "name": "Cyclops"
     },
     "Dervish": {
@@ -1138,6 +1258,7 @@
           "name": "Leather Armor"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Dervish"
     },
     "Devilfish (1 HD)": {
@@ -1159,6 +1280,7 @@
           "name": "Tail"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish (1 HD)"
     },
     "Devilfish (2 HD)": {
@@ -1180,6 +1302,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish (2 HD)"
     },
     "Devilfish (3 HD)": {
@@ -1201,6 +1324,7 @@
           "name": "Cleric Spells"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish (3 HD)"
     },
     "Devilfish (4 HD)": {
@@ -1222,6 +1346,7 @@
           "name": "Natural"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish (4 HD)"
     },
     "Devilfish, Vampire (5 HD)": {
@@ -1251,6 +1376,7 @@
           "name": "Regeneration"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish, Vampire (5 HD)"
     },
     "Devilfish, Vampire (6 HD)": {
@@ -1280,6 +1406,7 @@
           "name": "Cleric Spells"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish, Vampire (6 HD)"
     },
     "Devilfish, Vampire (7 HD)": {
@@ -1309,6 +1436,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish, Vampire (7 HD)"
     },
     "Devilfish, Vampire (8 HD)": {
@@ -1338,6 +1466,7 @@
           "name": "Tail"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Devilfish, Vampire (8 HD)"
     },
     "Dinosaur, Armored Aquatic (6HD)": {
@@ -1351,6 +1480,7 @@
           "name": "Shell"
         }
       },
+      "monsterType": "Prehistoric Animal (Common)",
       "name": "Dinosaur, Armored Aquatic (6HD)"
     },
     "Dinosaur, Flying Carnivorous  (1HD)": {
@@ -1368,6 +1498,7 @@
           "name": "Natural"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Flying Carnivorous  (1HD)"
     },
     "Dinosaur, Large Aquatic (9HD)": {
@@ -1381,6 +1512,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Large Aquatic (9HD)"
     },
     "Dinosaur, Large Carnivorous (6HD)": {
@@ -1398,6 +1530,7 @@
           "name": "Natural"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Large Carnivorous (6HD)"
     },
     "Dinosaur, Large Herbivore (13HD)": {
@@ -1416,6 +1549,7 @@
           "name": "Tail"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Large Herbivore (13HD)"
     },
     "Dinosaur, Medium Herbivore (6HD)": {
@@ -1434,6 +1568,7 @@
           "name": "Trample"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Medium Herbivore (6HD)"
     },
     "Dinosaur, Small Aquatic (2HD)": {
@@ -1447,6 +1582,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Small Aquatic (2HD)"
     },
     "Dinosaur, Small Carnivorous (1HD)": {
@@ -1464,6 +1600,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Small Carnivorous (1HD)"
     },
     "Dinosaur, Small Herbivore (1HD)": {
@@ -1478,6 +1615,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Dinosaur, Small Herbivore (1HD)"
     },
     "Djinni, Greater (Pasha)": {
@@ -1505,7 +1643,8 @@
         },
         "Qs6Ti5rdvT1LMF1m": {
           "description": "<p>Allows the caster to alter the weather within a 240' radius, creating conditions such as rain, snow, or clear skies.</p>",
-          "name": "Weather Control"
+          "name": "Weather Control",
+          "spellEffect": "Controls weather conditions."
         },
         "Ua5kWDvoFibarMRa": {
           "description": "The djinni can create illusions affecting sight and hearing. The illusions last until touched or dispelled.",
@@ -1533,13 +1672,16 @@
         },
         "rtycnS6snswBjKwH": {
           "description": "<p>Transforms up to 100 cubic feet of water into a gas (such as mist or steam) that the caster can control.</p>",
-          "name": "Water to Gas"
+          "name": "Water to Gas",
+          "spellEffect": "Transforms water into gas."
         },
         "tX367OLIxt89qbWw": {
           "description": "<p>Creates a moving, poisonous cloud that kills creatures with less than 6 HD unless they save vs. poison.</p>",
-          "name": "Cloudkill"
+          "name": "Cloudkill",
+          "spellEffect": "Kills creatures with less than 6 HD."
         }
       },
+      "monsterType": "Planar Monster, Enchanted (Very Rare)",
       "name": "Djinni, Greater (Pasha)"
     },
     "Djinni, Lesser": {
@@ -1582,6 +1724,7 @@
           "name": "Gaseous Form"
         }
       },
+      "monsterType": "Planar Monster, Enchanted (Rare)",
       "name": "Djinni, Lesser"
     },
     "Dolphin": {
@@ -1608,6 +1751,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Dolphin"
     },
     "Dragon Turtle": {
@@ -1634,6 +1778,7 @@
           "name": "Swimming"
         }
       },
+      "monsterType": "Dragon-Kin (Rare)",
       "name": "Dragon Turtle"
     },
     "Dragon, Black (Huge)": {
@@ -1664,6 +1809,7 @@
           "name": "Flying"
         }
       },
+      "monsterType": "Dragon (Very Rare)",
       "name": "Dragon, Black (Huge)"
     },
     "Dragon, Black (Large)": {
@@ -1694,6 +1840,7 @@
           "name": "Dragon Scales (Armor)"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Black (Large)"
     },
     "Dragon, Black (Small)": {
@@ -1724,6 +1871,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Black (Small)"
     },
     "Dragon, Blue (Huge)": {
@@ -1754,6 +1902,7 @@
           "name": "Flying"
         }
       },
+      "monsterType": "Dragon (Very Rare)",
       "name": "Dragon, Blue (Huge)"
     },
     "Dragon, Blue (Large)": {
@@ -1784,6 +1933,7 @@
           "name": "Spellcasting"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Blue (Large)"
     },
     "Dragon, Blue (Small)": {
@@ -1814,6 +1964,7 @@
           "name": "Lightning Breath"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Blue (Small)"
     },
     "Dragon, Gold (Huge)": {
@@ -1848,6 +1999,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Dragon (Very Rare)",
       "name": "Dragon, Gold (Huge)"
     },
     "Dragon, Gold (Large)": {
@@ -1882,6 +2034,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Gold (Large)"
     },
     "Dragon, Gold (Small)": {
@@ -1916,6 +2069,7 @@
           "name": "Chlorine Gas Breath"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Gold (Small)"
     },
     "Dragon, Green (Huge)": {
@@ -1946,6 +2100,7 @@
           "name": "Flying"
         }
       },
+      "monsterType": "Dragon (Very Rare)",
       "name": "Dragon, Green (Huge)"
     },
     "Dragon, Green (Large)": {
@@ -1976,6 +2131,7 @@
           "name": "Spellcasting"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Green (Large)"
     },
     "Dragon, Green (Small)": {
@@ -2006,6 +2162,7 @@
           "name": "Dragon Scales (Armor)"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Green (Small)"
     },
     "Dragon, Red (Huge)": {
@@ -2036,6 +2193,7 @@
           "name": "Dragon Scales (Armor)"
         }
       },
+      "monsterType": "Dragon (Very Rare)",
       "name": "Dragon, Red (Huge)"
     },
     "Dragon, Red (Large)": {
@@ -2066,6 +2224,7 @@
           "name": "Fire Breath"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Red (Large)"
     },
     "Dragon, Red (Small)": {
@@ -2096,6 +2255,7 @@
           "name": "Dragon Scales (Armor)"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, Red (Small)"
     },
     "Dragon, White (Huge)": {
@@ -2126,6 +2286,7 @@
           "name": "Dragon Scales (Armor)"
         }
       },
+      "monsterType": "Dragon (Very Rare)",
       "name": "Dragon, White (Huge)"
     },
     "Dragon, White (Large)": {
@@ -2156,6 +2317,7 @@
           "name": "Cold Breath"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, White (Large)"
     },
     "Dragon, White (Small)": {
@@ -2186,6 +2348,7 @@
           "name": "Spellcasting"
         }
       },
+      "monsterType": "Dragon (Rare)",
       "name": "Dragon, White (Small)"
     },
     "Drake, Colddrake": {
@@ -2220,6 +2383,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Dragon-Kin (Rare)",
       "name": "Drake, Colddrake"
     },
     "Drake, Elemental": {
@@ -2258,6 +2422,7 @@
           "name": "Flight"
         }
       },
+      "monsterType": "Dragon-Kin, Planar Monster, Enchanted (Rare)",
       "name": "Drake, Elemental"
     },
     "Drake, Mandrake": {
@@ -2292,6 +2457,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Dragon-Kin (Rare)",
       "name": "Drake, Mandrake"
     },
     "Drake, Wooddrake": {
@@ -2326,6 +2492,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Dragon-Kin (Rare)",
       "name": "Drake, Wooddrake"
     },
     "Drolem": {
@@ -2352,6 +2519,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Construct, Enchanted (Very Rare)",
       "name": "Drolem"
     },
     "Dryad": {
@@ -2370,6 +2538,7 @@
           "name": "Javelin"
         }
       },
+      "monsterType": "Humanoid (Rare)",
       "name": "Dryad"
     },
     "Dwarf (1 HD)": {
@@ -2384,6 +2553,7 @@
           "name": "Axe, Battle"
         }
       },
+      "monsterType": "Demihuman (Common)",
       "name": "Dwarf (1 HD)"
     },
     "Elf (1 HD)": {
@@ -2391,7 +2561,8 @@
       "items": {
         "Awh9BzSfDKioN4D1": {
           "description": "Each elf can cast a 1st level spell. Choose the spell randomly.",
-          "name": "1st Level Spell"
+          "name": "1st Level Spell",
+          "spellEffect": "Varies depending on spell"
         },
         "MOb2pt51ShnPxa9Y": {
           "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
@@ -2406,6 +2577,7 @@
           "name": "Sword, Normal"
         }
       },
+      "monsterType": "Humanoid",
       "name": "Elf (1 HD)"
     },
     "Feathered Behemoth": {
@@ -2428,6 +2600,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster (Common)",
       "name": "Feathered Behemoth"
     },
     "Gargoyle": {
@@ -2454,6 +2627,7 @@
           "name": "Immunity to Normal Weapons, Sleep, and Charm"
         }
       },
+      "monsterType": "Construct, Enchanted (Rare)",
       "name": "Gargoyle"
     },
     "Giant, Hill": {
@@ -2472,6 +2646,7 @@
           "name": "Rock"
         }
       },
+      "monsterType": "Giant Humanoid (Common)",
       "name": "Giant, Hill"
     },
     "Gnoll": {
@@ -2486,6 +2661,7 @@
           "name": "Gnoll Hide (Armor)"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Gnoll"
     },
     "Goblin": {
@@ -2508,6 +2684,7 @@
           "name": "Sword, Short"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Goblin"
     },
     "Goblin (2HD)": {
@@ -2530,6 +2707,7 @@
           "name": "Sword, Short"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Goblin (2HD)"
     },
     "Goblin Bow (1HD)": {
@@ -2556,6 +2734,7 @@
           "name": "Sword, Short"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Goblin Bow (1HD)"
     },
     "Goblin Chief (4HD)": {
@@ -2582,6 +2761,7 @@
           "name": "Infravision"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Goblin Chief (4HD)"
     },
     "Gorgon": {
@@ -2600,6 +2780,7 @@
           "name": "Petrifying Breath"
         }
       },
+      "monsterType": "Monster (Very Rare), Planar Monster (Very Rare)",
       "name": "Gorgon"
     },
     "Gorgon, Elemental Plane of Earth": {
@@ -2618,6 +2799,7 @@
           "name": "Petrifying Breath"
         }
       },
+      "monsterType": "Planar Monster (Common)",
       "name": "Gorgon, Elemental Plane of Earth"
     },
     "Grave Worm": {
@@ -2640,6 +2822,7 @@
           "name": "Tough Exoskeleton"
         }
       },
+      "monsterType": "Lowlife (Common)",
       "name": "Grave Worm"
     },
     "Griffon": {
@@ -2662,6 +2845,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Griffon"
     },
     "Halfling": {
@@ -2680,6 +2864,7 @@
           "name": "Dagger"
         }
       },
+      "monsterType": "Demihuman (Common)",
       "name": "Halfling"
     },
     "Harpy": {
@@ -2702,6 +2887,7 @@
           "name": "Mesmerizing Song"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Harpy"
     },
     "Hippogriff": {
@@ -2720,6 +2906,7 @@
           "name": "Hippogriff Hide (Armor)"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Hippogriff"
     },
     "Hobgoblin": {
@@ -2734,6 +2921,7 @@
           "name": "Hobgoblin Armor"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Hobgoblin"
     },
     "Horse, Riding": {
@@ -2746,6 +2934,7 @@
           "name": "Horse Hide"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Horse, Riding"
     },
     "Hydra (5HD)": {
@@ -2760,6 +2949,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Hydra (5HD)"
     },
     "Hydra, Flying (5HD)": {
@@ -2778,6 +2968,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Monster (Very Rare)",
       "name": "Hydra, Flying (5HD)"
     },
     "Hydra, Sea (5HD)": {
@@ -2792,6 +2983,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Hydra, Sea (5HD)"
     },
     "Insect Swarm (2 HD)": {
@@ -2810,6 +3002,7 @@
           "name": "Swarm Body"
         }
       },
+      "monsterType": "Lowlife, Enchanted (Rare)",
       "name": "Insect Swarm (2 HD)"
     },
     "Insect Swarm (3 HD)": {
@@ -2828,6 +3021,7 @@
           "name": "Swarm Body"
         }
       },
+      "monsterType": "Lowlife, Enchanted (Rare)",
       "name": "Insect Swarm (3 HD)"
     },
     "Insect Swarm (4 HD)": {
@@ -2846,6 +3040,7 @@
           "name": "Swarm Body"
         }
       },
+      "monsterType": "Lowlife, Enchanted (Rare)",
       "name": "Insect Swarm (4 HD)"
     },
     "Living Statue, Crystal": {
@@ -2860,6 +3055,7 @@
           "name": "Crystal Strike"
         }
       },
+      "monsterType": "Construct, Enchanted (Common)",
       "name": "Living Statue, Crystal"
     },
     "Living Statue, Iron": {
@@ -2874,6 +3070,7 @@
           "name": "Iron Strike"
         }
       },
+      "monsterType": "Construct, Enchanted (Common)",
       "name": "Living Statue, Iron"
     },
     "Living Statue, Rock": {
@@ -2888,6 +3085,7 @@
           "name": "Rock Body"
         }
       },
+      "monsterType": "Construct, Enchanted (Common)",
       "name": "Living Statue, Rock"
     },
     "Lizard, Draco": {
@@ -2902,6 +3100,7 @@
           "name": "Draco Hide (Armor)"
         }
       },
+      "monsterType": "Giant Animal (Common)",
       "name": "Lizard, Draco"
     },
     "Lizard, Gecko": {
@@ -2916,6 +3115,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Giant Animal (Common)",
       "name": "Lizard, Gecko"
     },
     "Lizard, Horned Chameleon": {
@@ -2938,6 +3138,7 @@
           "name": "Horn"
         }
       },
+      "monsterType": "Giant Animal (Common)",
       "name": "Lizard, Horned Chameleon"
     },
     "Lizard, Tuatara": {
@@ -2956,6 +3157,7 @@
           "name": "Claws"
         }
       },
+      "monsterType": "Giant Animal (Common)",
       "name": "Lizard, Tuatara"
     },
     "Lycanthrope, Devil Swine": {
@@ -2971,9 +3173,12 @@
         },
         "ldt8VRqppceDDfOZ": {
           "description": "<p>Allows the Devil Swine to charm a humanoid target, causing it to regard the caster as a trusted ally. A successful saving throw vs. spells (at -2) prevents the effect. This spell can be cast three times per day in either human or swine form, with each charm lasting indefinitely until dispelled.</p>",
-          "name": "Charm Person"
+          "name": "Charm Person",
+          "spellDuration": "Indefinite or until dispelled",
+          "spellEffect": "Charm one humanoid creature"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Devil Swine"
     },
     "Lycanthrope, Werebat": {
@@ -2996,6 +3201,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Werebat"
     },
     "Lycanthrope, Werebear": {
@@ -3022,6 +3228,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Werebear"
     },
     "Lycanthrope, Wereboar": {
@@ -3040,6 +3247,7 @@
           "name": "Animal Summon"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Wereboar"
     },
     "Lycanthrope, Werefox": {
@@ -3062,6 +3270,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Werefox"
     },
     "Lycanthrope, Wererat": {
@@ -3088,6 +3297,7 @@
           "name": "Animal Summon"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Wererat"
     },
     "Lycanthrope, Wereseal": {
@@ -3102,6 +3312,7 @@
           "name": "Were-Form Armor"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Wereseal"
     },
     "Lycanthrope, Wereshark": {
@@ -3116,6 +3327,7 @@
           "name": "Were-Form Armor"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Wereshark"
     },
     "Lycanthrope, Weretiger": {
@@ -3138,6 +3350,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Weretiger"
     },
     "Lycanthrope, Werewolf": {
@@ -3156,6 +3369,7 @@
           "name": "Animal Summon"
         }
       },
+      "monsterType": "Monster, Enchanted (Common)",
       "name": "Lycanthrope, Werewolf"
     },
     "Manticore": {
@@ -3178,6 +3392,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Manticore"
     },
     "Medusa": {
@@ -3192,6 +3407,7 @@
           "name": "Petrifying Gaze"
         }
       },
+      "monsterType": "Monster (Rare), Planar Monster (Very Rare)",
       "name": "Medusa"
     },
     "Medusa, Elemental Plane of Earth": {
@@ -3206,6 +3422,7 @@
           "name": "Tentacle"
         }
       },
+      "monsterType": "Planar Monster (Very Rare)",
       "name": "Medusa, Elemental Plane of Earth"
     },
     "Mimic Shifter": {
@@ -3228,6 +3445,7 @@
           "name": "Shape Change"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Mimic Shifter"
     },
     "Mule": {
@@ -3246,6 +3464,7 @@
           "name": "Hide Armor"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Mule"
     },
     "Mummy": {
@@ -3268,6 +3487,7 @@
           "name": "Fear Aura"
         }
       },
+      "monsterType": "Undead, Enchanted (Rare)",
       "name": "Mummy"
     },
     "Noble": {
@@ -3286,6 +3506,7 @@
           "name": "Plate Mail"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Noble"
     },
     "Nomad": {
@@ -3308,6 +3529,7 @@
           "name": "Leather Armor"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Nomad"
     },
     "Ogre": {
@@ -3322,6 +3544,7 @@
           "name": "Ogre Hide (Armor)"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Ogre"
     },
     "Orb Guardian": {
@@ -3329,7 +3552,9 @@
       "items": {
         "1HimBNKNOMZo7QHE": {
           "description": "<p>This eye spell allows the Orb Guardian to move objects of up to 5,000 cn weight within 120'.</p>",
-          "name": "Telekinesis"
+          "name": "Telekinesis",
+          "spellDuration": "1 round/level",
+          "spellEffect": "Move objects up to 5,000 cn weight."
         },
         "A1QA0e17KkEGOXKs": {
           "description": "The large central eye projects an anti-magic ray that nullifies all magic within 60' in front of it.",
@@ -3341,27 +3566,36 @@
         },
         "CM2VGoQjV7VcSCYR": {
           "description": "<p>This eye spell causes one creature within 120' to flee in panic for 1 turn unless it saves vs. spells.</p>",
-          "name": "Cause Fear"
+          "name": "Cause Fear",
+          "spellEffect": "Causes panic."
         },
         "TzIRq3V6m8WCV0nZ": {
           "description": "<p>This eye spell puts up to 4 Hit Dice of creatures to sleep, without allowing a saving throw.</p>",
-          "name": "Sleep"
+          "name": "Sleep",
+          "spellDuration": "1d4 turns",
+          "spellEffect": "Puts creatures to sleep."
         },
         "WBDEAfThRcusCf3M": {
           "description": "<p>This eye spell turns a creature to stone unless it makes a successful saving throw.</p>",
-          "name": "Flesh to Stone"
+          "name": "Flesh to Stone",
+          "spellEffect": "Turns a creature to stone."
         },
         "fWFnIUKZdcYISbFZ": {
           "description": "<p>This eye spell destroys a target, turning it to dust. A successful saving throw negates the effect.</p>",
-          "name": "Disintegrate"
+          "name": "Disintegrate",
+          "spellDuration": "Instant",
+          "spellEffect": "Destroys a target."
         },
         "jHgMXGjQtZk0Q4lU": {
           "description": "<p>This eye spell instantly kills up to 8 Hit Dice of creatures within 240' unless they make a successful saving throw.</p>",
-          "name": "Death Spell"
+          "name": "Death Spell",
+          "spellDuration": "Instant",
+          "spellEffect": "Instant death."
         },
         "jjsUGzzsBRxSo5T1": {
           "description": "<p>This eye spell slows creatures within 240', halving their movement and attack rates.</p>",
-          "name": "Slow"
+          "name": "Slow",
+          "spellEffect": "Slows creatures."
         },
         "nYoEVUOemH0pw5tx": {
           "description": "The Orb Guardian can fly at a rate of 300' per turn.",
@@ -3369,21 +3603,28 @@
         },
         "s9ewHIuWbcI1ZJCI": {
           "description": "<p>This eye spell inflicts 3d6 points of damage to one creature within 60'.</p>",
-          "name": "Cause Serious Wounds"
+          "name": "Cause Serious Wounds",
+          "spellDuration": "Instant",
+          "spellEffect": "Inflicts serious wounds."
         },
         "uBM98t3UN11XgyM3": {
           "description": "<p>This eye spell affects any creature as if it were a charm person spell, but it works on monsters and other beings.</p>",
-          "name": "Charm Monster"
+          "name": "Charm Monster",
+          "spellDuration": "1 hour/level",
+          "spellEffect": "Charm a monster."
         },
         "w6CqiOY0WND6GmbA": {
           "description": "<p>This eye spell causes one humanoid creature within 120' to regard the Orb Guardian as a trusted friend and ally. The effect lasts for 1 hour per level or until dispelled.</p>",
-          "name": "Charm Person"
+          "name": "Charm Person",
+          "spellDuration": "1 hour/level",
+          "spellEffect": "Charm a humanoid creature."
         },
         "z0aXIBteCOH4Pbdq": {
           "description": "The Orb Guardian's tough, armor-plated skin gives it an Armor Class of 0.",
           "name": "Tough Armor"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Orb Guardian"
     },
     "Orb Guardian, Undead": {
@@ -3391,11 +3632,14 @@
       "items": {
         "3CRzeXPvC61RMi0W": {
           "description": "<p>This eye spell allows the creature to animate corpses within 60'.</p>",
-          "name": "Animate Dead"
+          "name": "Animate Dead",
+          "spellEffect": "Animates corpses."
         },
         "6JC6Zd4pWCdP7TR9": {
           "description": "<p>This eye spell charms one creature within 120' with a -2 penalty to the saving throw.</p>",
-          "name": "Charm"
+          "name": "Charm",
+          "spellDuration": "1 hour/level",
+          "spellEffect": "Charm a creature."
         },
         "8nJv1USwzF9iwCmK": {
           "description": "This eye ray drains two levels of energy from a creature within 60'.",
@@ -3403,11 +3647,15 @@
         },
         "ApnCDFif76KJjZSc": {
           "description": "<p>This eye spell instantly kills up to 8 Hit Dice of creatures within 120' unless they make a successful saving throw.</p>",
-          "name": "Death Spell"
+          "name": "Death Spell",
+          "spellDuration": "Instant",
+          "spellEffect": "Instant death."
         },
         "BG3q3isuKEXM5xUH": {
           "description": "<p>This eye spell moves objects up to 4,000 cn weight within 60'.</p>",
-          "name": "Telekinesis"
+          "name": "Telekinesis",
+          "spellDuration": "1 round/level",
+          "spellEffect": "Moves objects up to 4,000 cn."
         },
         "DaXDapgwcQIkCWcK": {
           "description": "The creature can assume gaseous form at will, becoming immune to physical attacks but unable to use its special abilities.",
@@ -3415,7 +3663,8 @@
         },
         "SVrNyr91zEtD4gs5": {
           "description": "<p>This eye spell creates an area of continual darkness within 120'.</p>",
-          "name": "Continual Darkness"
+          "name": "Continual Darkness",
+          "spellEffect": "Creates an area of darkness."
         },
         "YCluLBsHJuhdiZWA": {
           "description": "A powerful bite attack from the Undead Orb Guardian that inflicts 2d10 points of damage and drains two levels, as a vampire.",
@@ -3435,15 +3684,21 @@
         },
         "dYJTAEZs2MSUgYuz": {
           "description": "<p>This eye spell dispels magic within 60' as if cast by a 26th level spellcaster.</p>",
-          "name": "Dispel Magic"
+          "name": "Dispel Magic",
+          "spellDuration": "Instant",
+          "spellEffect": "Dispels magic."
         },
         "hUWlcoNq53LXBs7J": {
           "description": "<p>This eye spell paralyzes a creature within 60', but elves are immune to its effects.</p>",
-          "name": "Paralysis"
+          "name": "Paralysis",
+          "spellDuration": "1d4+1 rounds",
+          "spellEffect": "Paralyzes a creature."
         },
         "qcYWLZ97acSLxWnJ": {
           "description": "<p>This eye spell animates objects within 60' as the spell.</p>",
-          "name": "Animate Object"
+          "name": "Animate Object",
+          "spellDuration": "1 round/level",
+          "spellEffect": "Animates objects."
         },
         "tsK2vOvAT9WNuZnR": {
           "description": "This eye ray drains one level of energy from a creature within 60'.",
@@ -3454,6 +3709,7 @@
           "name": "Reflection Ray"
         }
       },
+      "monsterType": "Undead Construct, Enchanted (Very Rare)",
       "name": "Orb Guardian, Undead"
     },
     "Orc": {
@@ -3467,6 +3723,7 @@
           "name": "Axe, Hand"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Orc"
     },
     "Pegasus": {
@@ -3481,6 +3738,7 @@
           "name": "Hoof"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Pegasus"
     },
     "Phantasmal Panther": {
@@ -3503,6 +3761,7 @@
           "name": "Ferocious Bite"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Phantasmal Panther"
     },
     "Pirate": {
@@ -3521,6 +3780,7 @@
           "name": "Crossbow, Lt"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Pirate"
     },
     "Pixie": {
@@ -3543,6 +3803,7 @@
           "name": "Surprise Attack"
         }
       },
+      "monsterType": "Humanoid (Rare)",
       "name": "Pixie"
     },
     "Robber Fly": {
@@ -3561,6 +3822,7 @@
           "name": "Robber Fly Carapace (Armor)"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Robber Fly"
     },
     "Roc, Giant": {
@@ -3579,6 +3841,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Roc, Giant"
     },
     "Roc, Large": {
@@ -3597,6 +3860,7 @@
           "name": "Roc Hide (Armor)"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Roc, Large"
     },
     "Roc, Small": {
@@ -3615,6 +3879,7 @@
           "name": "Roc Hide (Armor)"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Roc, Small"
     },
     "Salamander, Flame": {
@@ -3637,6 +3902,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Planar Monster, Enchanted (Very Rare)",
       "name": "Salamander, Flame"
     },
     "Salamander, Frost": {
@@ -3659,6 +3925,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Planar Monster, Enchanted (Very Rare)",
       "name": "Salamander, Frost"
     },
     "Shadow": {
@@ -3672,6 +3939,7 @@
           "name": "Natural Shadow Armor"
         }
       },
+      "monsterType": "Monster, Enchanted (Rare)",
       "name": "Shadow"
     },
     "Skeleton": {
@@ -3694,6 +3962,7 @@
           "name": "Undead Traits"
         }
       },
+      "monsterType": "Undead, Enchanted (Common)",
       "name": "Skeleton"
     },
     "Snake, Giant Racer": {
@@ -3708,6 +3977,7 @@
           "name": "Bite"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Snake, Giant Racer"
     },
     "Snake, Giant Rattlesnake": {
@@ -3722,6 +3992,7 @@
           "name": "Bite (poison)"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Snake, Giant Rattlesnake"
     },
     "Snake, Pit Viper": {
@@ -3740,6 +4011,7 @@
           "name": "Always Wins Initiative"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Snake, Pit Viper"
     },
     "Snake, Rock Python": {
@@ -3758,6 +4030,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Snake, Rock Python"
     },
     "Snake, Sea Snake": {
@@ -3772,6 +4045,7 @@
           "name": "Bite (poison)"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Snake, Sea Snake"
     },
     "Snake, Spitting Cobra": {
@@ -3789,6 +4063,7 @@
           "name": "Snakeskin"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Snake, Spitting Cobra"
     },
     "Spectre": {
@@ -3811,6 +4086,7 @@
           "name": "Flying"
         }
       },
+      "monsterType": "Undead, Enchanted (Rare)",
       "name": "Spectre"
     },
     "Spider, Giant (Black Widow)": {
@@ -3832,6 +4108,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Spider, Giant (Black Widow)"
     },
     "Spider, Giant (Crab Spider)": {
@@ -3846,6 +4123,7 @@
           "name": "Natural Armor"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Spider, Giant (Crab Spider)"
     },
     "Spider, Giant (Tarantella)": {
@@ -3864,6 +4142,7 @@
           "name": "Magical Dance"
         }
       },
+      "monsterType": "Lowlife (Rare)",
       "name": "Spider, Giant (Tarantella)"
     },
     "Sprite": {
@@ -3878,6 +4157,7 @@
           "name": "Sprite Wings (Armor)"
         }
       },
+      "monsterType": "Humanoid (Common)",
       "name": "Sprite"
     },
     "Stirge": {
@@ -3896,6 +4176,7 @@
           "name": "Beak"
         }
       },
+      "monsterType": "Monster (Common)",
       "name": "Stirge"
     },
     "Thoul": {
@@ -3922,6 +4203,7 @@
           "name": "Claw"
         }
       },
+      "monsterType": "Monster (Very Rare)",
       "name": "Thoul"
     },
     "Trader": {
@@ -3940,6 +4222,7 @@
           "name": "Chain Mail"
         }
       },
+      "monsterType": "Human (Common)",
       "name": "Trader"
     },
     "Treant": {
@@ -3966,6 +4249,7 @@
           "name": "Branch Strike"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Treant"
     },
     "Troll": {
@@ -3988,6 +4272,7 @@
           "name": "Troll Hide (Armor)"
         }
       },
+      "monsterType": "Giant Humanoid (Rare)",
       "name": "Troll"
     },
     "Unicorn": {
@@ -4010,6 +4295,7 @@
           "name": "Teleport"
         }
       },
+      "monsterType": "Monster (Rare)",
       "name": "Unicorn"
     },
     "Wolf, Dire": {
@@ -4024,6 +4310,7 @@
           "name": "Dire Wolf Hide (Armor)"
         }
       },
+      "monsterType": "Giant Animal (Rare)",
       "name": "Wolf, Dire"
     },
     "Wolf, Normal": {
@@ -4038,6 +4325,7 @@
           "name": "Wolf Hide (Armor)"
         }
       },
+      "monsterType": "Normal Animal (Common)",
       "name": "Wolf, Normal"
     },
     "Wyvern": {
@@ -4060,6 +4348,7 @@
           "name": "Sting (poison)"
         }
       },
+      "monsterType": "Monster, Dragon-Kin (Rare)",
       "name": "Wyvern"
     }
   },

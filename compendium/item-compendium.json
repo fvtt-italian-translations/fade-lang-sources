@@ -1,4 +1,15 @@
 {
+  "common": {
+    "spellDuration": {
+      "Concentration": "Concentration",
+      "Instantaneous": "Instantaneous",
+      "Permanent": "Permanent"
+    },
+    "spellRange": {
+      "Personal": "Personal",
+      "Touch": "Touch"
+    }
+  },
   "entries": {
     "10' Pole": {
       "description": "<p>A 10-foot-long wooden pole, useful for prodding suspicious areas, triggering traps from a distance, or bridging small gaps. The pole is about 2 inches in diameter and sturdy enough to support a moderate amount of weight.</p>",
@@ -38,7 +49,9 @@
     },
     "Analyze": {
       "description": "<p>This spell allows the caster to handle one item and learn about its enchantment. The caster must use the item correctly: helms must be worn, swords held, bracelets worn on the wrist, etc. Any consequences, such as from cursed or trapped items, will affect the caster as usual, with saving throws if applicable.</p>\n                <p>The caster has a 15% chance plus 5% per level to determine one magical property, or to confirm that the item is non-magical. The spell provides general information, such as whether a weapon’s bonus is “many” or “few,” and estimates the number of charges within 25% accuracy.</p>",
-      "name": "Analyze"
+      "name": "Analyze",
+      "spellEffect": "Analyzes magic on one item",
+      "spellRange": "0 (Touch only)"
     },
     "Animal Training (choose type)": {
       "description": "\n        <p>This skill allows the character to raise, train, and care for one specific type of animal. The animal can be taught simple tricks or basic commands. For each additional type of animal the character wishes to train, they must take this skill again. For example, horse training and dog training are separate skills, but a horse trainer can handle any horse or pony, and a dog trainer can train any breed of dog. This skill is commonly found in cultures with a strong bond to a specific animal type.</p>\n        ",
@@ -46,11 +59,15 @@
     },
     "Animate Dead": {
       "description": "<p>This spell animates skeletons or zombies from normal skeletons or dead bodies within range. The animated undead creatures will follow the spellcaster's commands until destroyed by a cleric or a *Dispel Magic* spell.</p>\n                      <p><strong>Hit Dice:</strong> For each level of the caster, one Hit Die of undead may be animated. Skeletons have the same Hit Dice as the original creature, while zombies gain one extra Hit Die. Humans and demihumans are considered 1 HD creatures for this spell.</p>\n                      <p>Animated undead cannot cast spells but are immune to sleep, charm effects, and poison.</p>",
-      "name": "Animate Dead"
+      "name": "Animate Dead",
+      "spellEffect": "Creates zombies or skeletons"
     },
     "Anti-Plant Shell": {
       "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away) that blocks all plant attacks and prevents damage from plant-like monsters.</p>\n                      <p><strong>Effect on Movement:</strong> While protected, the druid can push through dense growth, creating a path that others may follow. The barrier prevents the druid from physically attacking plants, though spells may still be cast against them.</p>",
-      "name": "Anti-Plant Shell"
+      "name": "Anti-Plant Shell",
+      "spellDuration": "1 round per level of the druid",
+      "spellEffect": "Personal barrier which blocks plants",
+      "spellRange": "0 (druid only)"
     },
     "Aquamarine": {
       "description": "<p>Aquamarine is a gemstone with a light blue color and a smooth, polished surface. It has a crystalline appearance that reflects light, showcasing its clarity and delicate hue. Often used in jewelry, aquamarine is valued for its brilliance and tranquil color.</p>",
@@ -115,11 +132,13 @@
     },
     "Bless*": {
       "description": "<p>This spell enhances the morale of friendly creatures by +1 and grants them a +1 bonus to all attack and damage rolls. It affects only those within a 20' x 20' area and only those who are not yet engaged in melee combat.</p><p>The reversed form, <em>blight</em>, imposes a -1 penalty to morale, attack rolls, and damage rolls of enemies. Each affected creature may make a saving throw vs. spells to avoid these penalties.</p>",
-      "name": "Bless*"
+      "name": "Bless*",
+      "spellEffect": "All within a 20' square area"
     },
     "Blight*": {
       "description": "<p><em>Blight</em>, imposes a -1 penalty to morale, attack rolls, and damage rolls of enemies. Each affected creature may make a saving throw vs. spells to avoid these penalties.</p><p>It affects only those within a 20' x 20' area and only those who are not yet engaged in melee combat.</p>",
-      "name": "Blight*"
+      "name": "Blight*",
+      "spellEffect": "All within a 20' square area"
     },
     "Blind Shooting": {
       "description": "\n        <p>This skill allows the character to shoot at a target without seeing it, typically used in darkness or when the target is outside the range of sight or infravision. The character must be able to hear the target to evaluate its position. A successful skill check allows a shot with no penalties due to darkness, though an attack roll is still required to hit the target.</p>\n        ",
@@ -154,7 +173,9 @@
     },
     "Call Lightning": {
       "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
-      "name": "Call Lightning"
+      "name": "Call Lightning",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Calls lightning bolts from a storm"
     },
     "Caltrops (bag of 20)": {
       "description": "<p>Small metal spikes sufficient to cover a 5’ square area. Creatures moving through the area have a 2-in-6 chance of treading on a spike. Victims suffer a 50% reduction of movement rate until they are healed.</p><p>Three uses max.</p>",
@@ -166,23 +187,28 @@
     },
     "Cause Critical Wounds*": {
       "description": "<p>This spell inflicts 3d6 + 3 points of damage on a creature touched by the caster. A successful melee attack roll is required.</p>",
-      "name": "Cause Critical Wounds*"
+      "name": "Cause Critical Wounds*",
+      "spellEffect": "Inflicts critical damage on one creature"
     },
     "Cause Disease*": {
       "description": "<p><em>Cause</em> <em>disease</em>, infects the target with a wasting disease. The target must make a saving throw vs. spells or suffer a -2 penalty on attack rolls and hindered healing. The disease is fatal within [[/r 2d12 #Cure Disease duration in days]] days unless removed by a <em>cure disease</em> spell.</p>",
-      "name": "Cause Disease*"
+      "name": "Cause Disease*",
+      "spellEffect": "One living creature within range"
     },
     "Cause Fear*": {
       "description": "<p>The reversed form of the spell, <em>cause fear</em>, will make any one creature flee for two turns. The victim may make a saving throw vs. spells to avoid the effect. This reversed spell has a range of 120'.</p>",
-      "name": "Cause Fear*"
+      "name": "Cause Fear*",
+      "spellEffect": "Flee for two turns."
     },
     "Cause Light Wounds*": {
       "description": "<p>This spell cures one living (not undead or non-living) creature of [[/r 1d6+1 #Cure Light Wounds]] points of damage. The caster can cure themselves with this spell.</p><p>Alternately, the spell can be used to cure paralysis (except that caused by a <em>Hold Person</em> or <em>Hold Monster</em> spell), although if it does so then no damage will be cured at the same time.</p><p>The spell will not increase the target's maximum hit points.</p><p>When reversed, this spell, <em>cause light wounds</em>, causes  [[/r 1d6+1 #Cause Light Wounds]] points of damage to the target. No saving throw is allowed, but the caster must make a normal attack roll to inflict this damage.</p>",
-      "name": "Cause Light Wounds*"
+      "name": "Cause Light Wounds*",
+      "spellEffect": "One living creature"
     },
     "Cause Serious Wounds*": {
       "description": "<p>This spell inflicts 2d6 + 2 points of damage on a creature touched by the caster. A successful melee attack roll is required to deliver the spell.</p>",
-      "name": "Cause Serious Wounds*"
+      "name": "Cause Serious Wounds*",
+      "spellEffect": "Causes damage to one creature"
     },
     "Caving": {
       "description": "\n        <p>The character with this skill always knows their location while exploring underground caves, caverns, and river systems. They automatically recall the route taken as long as they were conscious. This skill is especially useful for dwarves and can also help characters navigate mazes. If disoriented or forced to flee for a long distance, a skill check is required to avoid becoming lost.</p>\n        ",
@@ -206,11 +232,15 @@
     },
     "Charm Monster": {
       "description": "<p>This spell is identical in effect to the *Charm Person* spell but can affect any creature except an undead monster.</p>\n                      <p><strong>Multiple Targets:</strong> When cast on creatures with 3 Hit Dice or less, it charms 3d6 (3-18) creatures. For creatures with more than 3 Hit Dice, it affects only one target.</p>\n                      <p>Each creature may make a saving throw vs. spells to avoid the effect.</p>",
-      "name": "Charm Monster"
+      "name": "Charm Monster",
+      "spellDuration": "Special",
+      "spellEffect": "One or more living creatures"
     },
     "Charm Person": {
       "description": "<p>This spell affects humans, demihumans, and certain other creatures. The target must make a saving throw vs. spells; if failed, the target views the caster as a “best friend” and will defend them against any perceived threat. The spell does not affect animals, magical creatures, undead, or creatures larger than ogres.</p>\n                <p>The charmed creature obeys friendly commands but resists those that go against its nature or cause self-harm. The duration depends on the target’s Intelligence, allowing periodic saving throws:</p>\n                <ul>\n                  <li><strong>High Intelligence (13-18):</strong> Save every day</li>\n                  <li><strong>Average Intelligence (9-12):</strong> Save every week</li>\n                  <li><strong>Low Intelligence (3-8):</strong> Save every month</li>\n                </ul>",
-      "name": "Charm Person"
+      "name": "Charm Person",
+      "spellDuration": "Varies based on Intelligence",
+      "spellEffect": "One living person (see description)"
     },
     "Cheating": {
       "description": "\n        <p>This is the skill of winning at gambling games by cheating, such as dealing cards from the bottom of the deck. A Cheating skill roll is made against each character being cheated. If any of them make a successful check against the cheater's roll, they detect the cheating. This skill is limited to characters of Chaotic alignment.</p>\n        ",
@@ -222,7 +252,8 @@
     },
     "Clairvoyance": {
       "description": "<p>This spell allows the caster to see through the eyes of any single creature within 60'. Each turn, the caster can switch to another creature's eyes within range without needing to recast the spell.</p>\n                      <p><strong>Restrictions:</strong> The spell's effect is blocked by two feet of rock or a thin coating of lead. No saving throw applies.</p>",
-      "name": "Clairvoyance"
+      "name": "Clairvoyance",
+      "spellEffect": "See through another's eyes"
     },
     "Cleric": {
       "description": "<p>A cleric is a human character devoted to a significant cause, such as serving an Immortal or embodying the ideals of their alignment. Clerics combine martial prowess with divine magic, using their faith and beliefs to heal, protect, and combat evil. They are restricted to blunt weapons like maces and staves, reflecting their spiritual focus.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Wisdom, granting an experience bonus for scores of 13 or higher.</li><li><strong>Combat and Armor</strong>: Clerics can wear any armor and use shields, but they are limited to non-edged weapons.</li><li><strong>Special Abilities</strong>: Clerics can turn undead, using their divine power to repel or destroy them. They begin casting clerical spells at 2nd level, focusing on healing, protection, and divination.</li><li><strong>Experience Table</strong>: They advance steadily, gaining hit points and new spell slots with each level.</li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong>, a cleric reaches \"Name level\" and is referred to as a patriarch or matriarch. They have the option to establish a stronghold, which can be a fortress or temple serving their clerical order.</li><li><strong>Stronghold Details</strong>: Building a stronghold requires land, which is usually granted by their clerical hierarchy or local rulers. The cleric's order may subsidize construction costs, often covering up to 50%.</li><li>A stronghold attracts retainers: 1d6 x 50 loyal troops of the cleric’s alignment and 1d6 low-level clerics to assist with religious duties. These followers do not require pay and have high morale, reflecting their devotion.</li><li>Alternatively, a cleric may choose to remain a traveling cleric, free from the responsibilities of landownership, focusing on aiding others and spreading their faith through quests and adventures.</li></ul><p>Clerics are pivotal in both spiritual and martial roles, capable of influencing the world through faith, leadership, and divine power. Their journey often balances personal growth, the needs of their order, and the demands of their adventuring life.</p>",
@@ -254,11 +285,13 @@
     },
     "Clothform": {
       "description": "<p>This spell creates up to 30' x 30' of non-magical cloth in a single piece. The cloth is permanent and cannot be dispelled.</p>\n                      <p><strong>Shaping:</strong> If the caster has an appropriate Craft skill (or similar character background in campaigns without skills), they can shape the cloth during creation, forming objects like tents, sails, garments, or ropes. Unshaped cloth can be cut and fashioned later.</p>\n                      <p><strong>Properties:</strong> The cloth resembles tough, undyed linen. It can be created with an unfinished edge to seamlessly join additional cloth created by another *Clothform* spell, making it ideal for sails or large, rugged fabrics.</p>\n                      <p>The cloth extrudes from the caster's hands along the ground, piling up against obstacles without pushing them. It cannot be created in a space occupied by another object or attached to anything except other *Clothform* cloth.</p>\n                      <p>This spell is commonly used for quick shelters or creating rope in adventuring situations.</p>",
-      "name": "Clothform"
+      "name": "Clothform",
+      "spellEffect": "Creates up to 30' x 30' cloth"
     },
     "Cloudkill": {
       "description": "<p>This spell creates a poisonous cloud, 30' wide and 20' tall, that appears next to the caster and moves at a rate of 60' (20' per round) in one direction. The cloud is heavier than air and will sink where possible, but it will dissipate when encountering trees or thick vegetation. In confined spaces, the cloud’s size may be limited.</p>\n                      <p><strong>Effects on Creatures:</strong> All living creatures within the cloud take 1 point of damage per round. Creatures with less than 5 Hit Dice must make a saving throw vs. poison or die.</p>",
-      "name": "Cloudkill"
+      "name": "Cloudkill",
+      "spellEffect": "Creates a moving poisonous cloud"
     },
     "Club": {
       "description": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
@@ -273,39 +306,56 @@
     },
     "Commune": {
       "description": "<p>This spell allows the cleric to ask three yes-or-no questions of the greater powers (such as forces of nature, greater spirits, or Immortals).</p>\n                      <p><strong>Usage:</strong> May only be used once per week. The DM may restrict this to once a month if overused. Once a year, the cleric may ask six questions, usually on a day significant to the powers questioned.</p>",
-      "name": "Commune"
+      "name": "Commune",
+      "spellEffect": "Allows 3 questions",
+      "spellRange": "0"
     },
     "Confuse Alignment*": {
       "description": "<p><em>Confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p><p>This spell allows the spellcaster to determine the alignment (Lawful, Neutral, or Chaotic) of any one creature within 10'. It can also reveal the alignment of an enchanted item or area, if applicable.</p>",
-      "name": "Confuse Alignment*"
+      "name": "Confuse Alignment*",
+      "spellDuration": "1 turn per caster level",
+      "spellEffect": "One creature within 10'"
     },
     "Confusion": {
       "description": "<p>This spell causes confusion among creatures within a 30' radius (60' across). The spell affects 3-18 creatures in the area, with victims under 2 + 1 Hit Dice automatically failing their saves. Creatures with 2 + 1 or more Hit Dice can attempt a saving throw vs. spells each round they remain in the area to avoid confusion.</p><p><strong>Effects of Confusion:</strong> Each round, the DM rolls [[/r 2d6 #confusion effect]] for each affected creature to determine its action, according to the table below:</p><p><strong>Confusion Results</strong></p><table><thead><tr><th>2d6 Roll</th><th>Result</th></tr></thead><tbody><tr><td>2-5</td><td>Attack the spellcaster's party</td></tr><tr><td>6-8</td><td>Do nothing</td></tr><tr><td>9-12</td><td>Attack the creature's own party</td></tr></tbody></table>",
-      "name": "Confusion"
+      "name": "Confusion",
+      "spellEffect": "3-18 creatures in an area 60' across"
     },
     "Conjure Elemental": {
       "description": "<p>This spell allows the caster to summon one elemental (AC -2, HD 16, Damage 3d8) within range. The caster may only summon one elemental of each type (earth, air, fire, water) per day.</p>\n                      <p><strong>Control:</strong> The elemental will follow the caster's commands as long as concentration is maintained. The caster cannot fight, cast other spells, or move more than half speed while maintaining control. If control is lost, the elemental will attempt to kill the caster, attacking anyone in its path while pursuing.</p>\n                      <p>The caster can dismiss a controlled elemental by concentration, while an uncontrolled elemental can be dismissed by a *Dispel Magic* or *Dispel Evil* spell.</p>",
-      "name": "Conjure Elemental"
+      "name": "Conjure Elemental",
+      "spellEffect": "Summons one 16 HD elemental"
     },
     "Contact Outer Plane": {
       "description": "<p>This spell allows the caster to contact an Immortal on an outer plane to seek answers to questions. However, contact with such powerful beings carries the risk of insanity. The caster can ask a number of questions equal to the “distance” to the outer plane.</p>\n                      <p><strong>Plane Distance and Insanity:</strong> “Distance” to a plane refers to the number of planes one would need to cross to reach it. The caster may choose the distance, up to the maximum, which affects the number of questions, chance of correct answers, and insanity risk. Higher-level casters (21st and above) reduce the insanity risk by 5% per level beyond 20.</p>\n                      <p>If insanity does occur, the caster requires game-time rest equal to the plane’s number to recover.</p>\n                      <p><strong>Chance of Insanity and Knowledge</strong></p>\n                      <table>\n                        <thead>\n                          <tr><th>Distance & Questions</th><th>Chance of Insanity</th><th>Chance of Knowing</th><th>Chance of Lying*</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>3</td><td>5%</td><td>25%</td><td>50%</td></tr>\n                          <tr><td>4</td><td>10%</td><td>30%</td><td>45%</td></tr>\n                          <tr><td>5</td><td>15%</td><td>35%</td><td>40%</td></tr>\n                          <tr><td>6</td><td>20%</td><td>40%</td><td>35%</td></tr>\n                          <tr><td>7</td><td>25%</td><td>50%</td><td>30%</td></tr>\n                          <tr><td>8</td><td>30%</td><td>60%</td><td>25%</td></tr>\n                          <tr><td>9</td><td>35%</td><td>70%</td><td>20%</td></tr>\n                          <tr><td>10</td><td>40%</td><td>80%</td><td>15%</td></tr>\n                          <tr><td>11</td><td>45%</td><td>90%</td><td>10%</td></tr>\n                          <tr><td>12</td><td>50%</td><td>95%</td><td>5%</td></tr>\n                        </tbody>\n                      </table>\n                      <p>*The chance of lying also includes cases where the Immortal may not know the answer.</p>\n                      <p>This spell can only be cast once per month.</p>",
-      "name": "Contact Outer Plane"
+      "name": "Contact Outer Plane",
+      "spellDuration": "See below",
+      "spellEffect": "3-12 questions may be answered",
+      "spellRange": "0 (spellcaster only)"
     },
     "Continual Darkness*": {
       "description": "<p><em>Continual</em> <em>darkness</em>, creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
-      "name": "Continual Darkness*"
+      "name": "Continual Darkness*",
+      "spellEffect": "Volume of 60' diameter"
     },
     "Continual Light*": {
       "description": "<p>This spell creates light as bright as daylight in a spherical volume with a 30' radius. It lasts until dispelled or countered by a <em>continual darkness</em> spell. Creatures that suffer penalties in bright daylight also suffer them within the area of effect. </p><p>If cast on a creature’s eyes, the target must make a saving throw vs. spells or be blinded until the effect is removed. This spell can be cast in an area, on an object, or directly on a creature's eyes to cause blindness. </p><p>The reverse, <em>continual darkness</em>, creates a similarly-sized area of total darkness, unaffected by normal light sources and infravision. A <em>continual light</em> spell can cancel it. If cast on a creature’s eyes, the target must make a saving throw vs. spells or be blinded.</p>",
-      "name": "Continual Light*"
+      "name": "Continual Light*",
+      "spellEffect": "Sphere of light 60' across"
     },
     "Control Temperature 10' Radius": {
       "description": "<p>This spell allows the druid to alter the temperature within a 10' radius (20' across) by up to 50 degrees Fahrenheit, either warming or cooling the air. The temperature changes instantly and remains as long as the druid maintains concentration and the spell's duration has not expired.</p>\n                      <p>The effect moves with the druid, and the temperature can be adjusted by concentrating for one round. This spell is especially useful for surviving in extreme cold or heat.</p>",
-      "name": "Control Temperature 10' Radius"
+      "name": "Control Temperature 10' Radius",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Cools or warms air within 10'",
+      "spellRange": "0 (druid only)"
     },
     "Control Winds": {
       "description": "<p>This spell allows the druid to control all air within range, causing it to increase to gale force or slow to dead calm as desired. The caster must concentrate for one full turn (without moving or attacking) to achieve a complete change in wind force.</p>\n                      <p><strong>Effect on Air Creatures:</strong> If the spell is directed at an air creature (like an air elemental), it may make a saving throw vs. spells. If it fails, the druid may slay or control the creature by manipulating the wind. The creature remains controlled as long as the druid concentrates and the spell remains active; if concentration is broken or the spell ends, the creature will turn hostile and attack the druid.</p>\n                      <p><strong>Countering:</strong> A higher-level spellcaster using *Control Winds* can easily counter this spell.</p>",
-      "name": "Control Winds"
+      "name": "Control Winds",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Calms or increases winds",
+      "spellRange": "10' radius per level of the caster"
     },
     "Copper Piece": {
       "name": "Copper Piece"
@@ -320,11 +370,15 @@
     },
     "Create Air": {
       "description": "<p>This spell provides breathable air in a volume of 8,000 cubic feet (such as a 20' x 20' x 20' room) for 1 hour per caster level.</p>\n                      <p><strong>Stationary Use:</strong> Typically cast in enclosed spaces, it remains in one area, providing air for all within.</p>\n                      <p><strong>Mobile Use:</strong> The spell can be cast on enclosed vehicles, living creatures, or items to travel with them, including underwater or in airless environments. For example, a pegasus-rider could cast it on themselves and their mount to travel into outer space. Stealthy movement underwater is impossible due to visible air bubbles.</p>\n                      <p>The spell does not protect against poison gases unless the gas is a natural atmospheric component.</p>",
-      "name": "Create Air"
+      "name": "Create Air",
+      "spellDuration": "1 hour per level of caster",
+      "spellEffect": "Provides breathable air",
+      "spellRange": "Immediate area, 8,000 cu. ft."
     },
     "Create Food": {
       "description": "<p>This spell creates enough food to feed up to 12 men and their mounts for one day. For every level above 8th, it creates enough for 12 more people and mounts.</p>\n                      <p><strong>Note:</strong> Created food spoils after 24 hours and cannot be stored for future use.</p>",
-      "name": "Create Food"
+      "name": "Create Food",
+      "spellEffect": "Creates food for 12 or more"
     },
     "Create Magic Items": {
       "description": "<p>Starting at 9th level, a Magic-User can create permanent magical items such as potions, scrolls, and weapons. This process requires a high-level laboratory, special ingredients, and a significant amount of time and gold.</p>",
@@ -332,11 +386,13 @@
     },
     "Create Poison*": {
       "description": "<p>This spell creates poison in a creature or container upon touch. A creature must succeed on a saving throw vs. poison or die instantly. When cast on a container, the poison affects its contents with no save.</p>\n                      <p><strong>Notes:</strong> Poisoning is usually considered a Chaotic act.</p>",
-      "name": "Create Poison*"
+      "name": "Create Poison*",
+      "spellEffect": "Creates poison in a creature or container"
     },
     "Create Water": {
       "description": "<p>This spell summons an enchanted spring from the ground or a wall, flowing for 6 turns and producing enough water for 12 men and their mounts (about 50 gallons).</p>\n                      <p>Each level above 8th allows the cleric to create water for an additional 12 men and mounts. The caster can control the amount of water produced, up to the spell’s maximum.</p>",
-      "name": "Create Water"
+      "name": "Create Water",
+      "spellEffect": "Creates one magical spring"
     },
     "Crossbow, Heavy": {
       "name": "Crossbow, Heavy"
@@ -358,27 +414,33 @@
     },
     "Cure Blindness": {
       "description": "<p>This spell cures almost any form of blindness, including those caused by <em>light</em> or <em>darkness</em> spells. It will not affect blindness caused by a curse.</p>",
-      "name": "Cure Blindness"
+      "name": "Cure Blindness",
+      "spellEffect": "One living creature"
     },
     "Cure Critical Wounds*": {
       "description": "<p>This spell heals one living creature of 3d6 + 3 points of damage.</p>",
-      "name": "Cure Critical Wounds*"
+      "name": "Cure Critical Wounds*",
+      "spellEffect": "Heals one living creature"
     },
     "Cure Disease*": {
       "description": "<p>This spell cures any disease, including those caused by mummies or green slime. At 11th level or higher, it can also cure lycanthropy.</p><p>The reverse, <em>cause disease</em>, infects the target with a wasting disease. The target must make a saving throw vs. spells or suffer a -2 penalty on attack rolls and hindered healing. The disease is fatal within [[/r 2d12 #Cure Disease duration in days]] days unless removed by a <em>cure disease</em> spell.</p>",
-      "name": "Cure Disease*"
+      "name": "Cure Disease*",
+      "spellEffect": "One living creature within range"
     },
     "Cure Light Wounds*": {
       "description": "<p>This spell cures one living (not undead or non-living) creature of [[/r 1d6+1 #Cure Light Wounds]] points of damage. The caster can cure themselves with this spell.</p><p>Alternately, the spell can be used to cure paralysis (except that caused by a <em>Hold Person</em> or <em>Hold Monster</em> spell), although if it does so then no damage will be cured at the same time.</p><p>The spell will not increase the target's maximum hit points.</p><p>When reversed, this spell, <em>cause light wounds</em>, causes  [[/r 1d6+1 #Cause Light Wounds]] points of damage to the target. No saving throw is allowed, but the caster must make a normal attack roll to inflict this damage.</p>",
-      "name": "Cure Light Wounds*"
+      "name": "Cure Light Wounds*",
+      "spellEffect": "One living creature"
     },
     "Cure Serious Wounds*": {
       "description": "<p>This spell heals 2d6 + 2 points of damage on one living creature when touched by the caster.</p>",
-      "name": "Cure Serious Wounds*"
+      "name": "Cure Serious Wounds*",
+      "spellEffect": "Heals one living creature"
     },
     "Curse*": {
       "description": "<p>This spell imposes a misfortune or penalty on the target. Curses are limited only by the caster's imagination but should be balanced to avoid backfiring on the caster at the DM's discretion.</p>\n                      <p>Typical curse effects include a -4 penalty on attack rolls, -2 on saving throws, or a halved prime requisite. The target may attempt a saving throw vs. spells to avoid the curse.</p>",
-      "name": "Curse*"
+      "name": "Curse*",
+      "spellEffect": "Inflicts a curse on one target"
     },
     "Dagger": {
       "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
@@ -398,7 +460,9 @@
     },
     "Darkness*": {
       "description": "<p><em>Darkness</em>, creates a 30' diameter circle of darkness that blocks all sight except infravision. <em>Darkness</em> can counter <em>light</em> and vice-versa. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the effect ends.</p>",
-      "name": "Darkness*"
+      "name": "Darkness*",
+      "spellDuration": "6 turns + 1 turn/level",
+      "spellEffect": "Volume of 30' diameter"
     },
     "Deception": {
       "description": "\n        <p>The Deception skill enables a character to lie convincingly, mislead others, and create believable falsehoods. It is used to conceal intentions, bluff, or forge information. This skill can be vital for characters trying to hide the truth or manipulate others' perceptions in various social or investigative situations.</p>\n      ",
@@ -406,7 +470,10 @@
     },
     "Detect Danger": {
       "description": "<p>This spell allows the caster to sense hazards by concentrating on places, objects, or creatures within range. The caster needs a full round of concentration to examine one square foot of area, one creature, or one small object. Larger objects require more time.</p>\n                <p>After examination, the caster knows if the target is immediately dangerous, potentially dangerous, or benign, from the caster's point of view. The spell can detect poisons, which other spells might not. The duration is one hour in natural outdoor settings on the Prime Plane; elsewhere, it lasts for only three turns.</p>",
-      "name": "Detect Danger"
+      "name": "Detect Danger",
+      "spellDuration": "One hour",
+      "spellEffect": "Reveals hazards",
+      "spellRange": "5' per level of the caster"
     },
     "Detect Deception": {
       "description": "\n            <p>The character can recognize deceptive behavior in an NPC. This skill does not reveal the truth of specific statements, motivations, or the exact nature of the deception. It only warns the character to distrust the deceptive NPC. The DM rolls secretly, informing the character only if successful. This skill does not work on player characters.</p>\n        ",
@@ -414,15 +481,21 @@
     },
     "Detect Evil": {
       "description": "<p>When the spell is cast, the caster will see evilly enchanted objects within 120' glow dark red. It also causes creates that intent to harm the caster to glow when they are within the area of effect. Not all Chaotic alignment creatures will have evil intentions, but many do. Traps and poisons are neither good nor evil, merely dangerous; this spell does not reveal them.</p>",
-      "name": "Detect Evil"
+      "name": "Detect Evil",
+      "spellDuration": "6 turns (1 hour)",
+      "spellEffect": "Everything within 120'"
     },
     "Detect Invisible": {
       "description": "<p>This spell enables the spellcaster to see all invisible creatures and objects within range. The range is 10' for each level of the spellcaster. For example, a 3rd level spellcaster can use this spell to see invisible things within 30'.</p>",
-      "name": "Detect Invisible"
+      "name": "Detect Invisible",
+      "spellEffect": "The spellcaster only",
+      "spellRange": "10' per level of the spellcaster"
     },
     "Detect Magic": {
       "description": "<p>This spell allows the caster to see a glow around any magical creature, object and place within range. Magical creatures do not get a saving throw against this effect.</p><p>The glow only extends a couple of inches around the magical object, so if it is in a container or behind another object then some or all of the glow may not be visible.</p>",
-      "name": "Detect Magic"
+      "name": "Detect Magic",
+      "spellDuration": "2 turns (20 minutes)",
+      "spellEffect": "Everything within 60'"
     },
     "Detect Secret Door": {
       "description": "<p>To detect a secret door, a character must specify the exact area being searched. The process typically takes one turn (10 minutes) for each 10-foot section of wall, floor, or ceiling. Elves, due to their keen sight, are given a bonus of 1 to their roll. <br>Either the Dungeon Master should roll or the roll should be blind, regardless of whether a secret door is present, to maintain player uncertainty. Once found, the location of the secret door can be noted, allowing future discovery without a roll.</p>",
@@ -442,7 +515,8 @@
     },
     "Dimension Door": {
       "description": "<p>This spell transports one creature (either the caster or a target within 10') to a location up to 360' away. The caster specifies the destination, either by choosing a known location or by stating the direction and distance (up to a maximum of 360').</p>\n                      <p><strong>Destination:</strong> If the specified location is occupied by a solid object, the spell fails with no effect.</p>\n                      <p><strong>Saving Throw:</strong> An unwilling target can make a saving throw vs. spells to avoid being transported.</p>",
-      "name": "Dimension Door"
+      "name": "Dimension Door",
+      "spellEffect": "Safely transport one creature"
     },
     "Disarm": {
       "description": "<p>This is a Fighter Combat Option maneuver available to fighters and mystics <strong>starting at 9th level</strong>, and to demihumans at different experience levels (see their experience tables). It can only be used when attacking an opponent armed with a weapon. The fighter applies their usual Strength and magic bonuses to the attack roll. If the attack hits, no damage is dealt. Instead, the opponent rolls 1d20, subtracts their Dexterity bonuses, and adds the fighter’s Dexterity bonuses. If the final result exceeds the opponent's Dexterity score, they drop their weapon.</p><p>For example, Sir Hogier faces a warrior he wishes to capture alive. The warrior has AC 0 and a Dexterity of 13. Sir Hogier, a 20th-level fighter, has a Strength of 16 and wields a +2 sword, giving him a +4 to attack rolls. His Dexterity is 12, with no bonus. Sir Hogier needs a 7 to hit AC 0. He rolls a 6, adding his +4 bonus to make a total of 10, successfully hitting the warrior.</p><p>The warrior then rolls 1d20 and gets a 15. Subtracting his Dexterity bonus of +1 (from his Dexterity of 13) results in 14. Since Sir Hogier has no Dexterity bonus, the final roll remains 14, which is greater than the warrior’s Dexterity score of 13. The disarm attempt succeeds.</p><p>Once disarmed, the opponent can either switch weapons, losing initiative for the next round, or attempt to retrieve the dropped weapon. To retrieve it, the opponent must retreat and pick up the weapon.</p>",
@@ -454,19 +528,25 @@
     },
     "Dispel Evil": {
       "description": "<p>This spell affects all undead and enchanted monsters within 30'. Each affected creature must make a saving throw vs. spells or be destroyed. If cast on a single creature, it takes a -2 penalty to its saving throw.</p>\n                      <p><strong>Effect:</strong> Banishes creatures from other planes if they fail their saving throw. Those that save must flee and stay away as long as the caster concentrates, remaining stationary.</p>\n                      <p>The spell can also remove a curse from one item or dispel a magical charm effect on a creature.</p>",
-      "name": "Dispel Evil"
+      "name": "Dispel Evil",
+      "spellEffect": "Affects undead, enchanted creatures, or one curse or charm"
     },
     "Dispel Magic": {
       "description": "<p>This spell destroys other spell effects within a 20' x 20' x 20' area. It does not affect magical items but can cancel temporary effects they produce.</p>\n                      <p><strong>Effect:</strong> Automatically dispels spells from casters of equal or lower level. For higher-level casters, there is a 5% chance of failure per level difference.</p>\n                      <p>Examples: A 7th-level caster trying to dispel a spell from a 9th-level caster has a 10% chance of failure.</p>",
-      "name": "Dispel Magic"
+      "name": "Dispel Magic",
+      "spellEffect": "Destroys spells in a 20' cube"
     },
     "Dissolve": {
       "description": "<p>This spell turns soil or rock (but not constructed materials) within 240' into mud, affecting an area up to 3,000 square feet and up to 10' deep. The caster can determine the shape of the area within these limits (e.g., 20' x 150', 30' x 100').</p><p><strong>Movement Effects:</strong> Creatures moving through the mud are slowed to 10% of their normal speed and may become stuck. At the DM's discretion, creatures in the area may need to make a saving throw vs. spells to avoid being stuck.</p><p><strong>Duration:</strong> The effect lasts for [[/r 3d6 #days]] 3-18 days.</p>",
-      "name": "Dissolve"
+      "name": "Dissolve",
+      "spellDuration": "3-18 days",
+      "spellEffect": "Liquefies 3,000 square feet"
     },
     "Dissolve*": {
       "description": "<p>This spell turns soil or rock (but not constructed materials) within 120' into mud. The affected area may be up to 3,000 square feet in surface area and 10' deep. The caster can shape the area within these limits (e.g., 20' x 150', 30' x 100').</p><p><strong>Movement Effects:</strong> Creatures moving through the mud are slowed to 10% of their normal speed and may become stuck. A saving throw vs. spells may be required to avoid being stuck, at the DM's discretion.</p><p><strong>Duration:</strong> The effect lasts for 3-18 days [[/r 3d6 #days]].</p>",
-      "name": "Dissolve*"
+      "name": "Dissolve*",
+      "spellDuration": "3-18 days",
+      "spellEffect": "Liquefies 3000 square feet"
     },
     "Divine Intervention": {
       "description": "<p>In dire situations, a high-level cleric may call upon their deity for direct intervention. This ability is used sparingly and typically involves a significant act of faith or sacrifice. The exact effects and likelihood of success are determined by the DM.</p>",
@@ -482,7 +562,8 @@
     },
     "ESP*": {
       "description": "<p>This spell allows the spellcaster to \"hear\" thoughts. The caster must concentrate in one direction for six rounds (one minute) to hear the thoughts (if any) of a creature within range. The spell allows the caster to understand the thoughts of any single living creature, regardless of language. It does not allow the caster to hear the thoughts of undead creatures.</p>\n                  <p>If more than one creature is within range and in the direction the caster is concentrating, the spellcaster will \"hear\" a confused jumble of thoughts. The caster can sort out the jumble only by concentrating for an extra six rounds to find a single creature.</p>\n                  <p><em>ESP</em> is not hindered by any amount of wood or liquid and will penetrate up to two feet of rock, but a thin coating of lead will block the spell. Targets can make a saving throw vs. spells to avoid the effects.</p>\n                  <p>The reverse of this spell, <em>mindmask</em>, may be cast by touch on any one creature. The recipient is completely immune to <em>ESP</em> and all other forms of mind-reading for the spell's duration.</p>",
-      "name": "ESP*"
+      "name": "ESP*",
+      "spellEffect": "All thoughts in one direction"
     },
     "Electrum Piece": {
       "name": "Electrum Piece"
@@ -505,7 +586,9 @@
     },
     "Entangle": {
       "description": "<p>This spell allows the spellcaster to use any rope-like object of living or once-living material (roots, vines, leather ropes, plant-fiber ropes, etc.) to behave as they order. About 50' of normal 1/2\" diameter vine plus 5' per level of the caster can be affected.</p>\n                  <p>The commands which can be given during an <em>entangle</em> spell include: coil (form a neat stack), coil and knot, loop, loop and knot, tie and knot, and the reverses of all the above. The vine or rope must be within 1' of any object it is to coil around or tie up, so it often must be thrown at the target. This spell is very useful in climbing situations; a spellcaster can toss a rope up the side of a wall or cliff and command it to loop and knot itself around a projection at the height of the throw. Coil and knot effectively ties up a victim.</p>\n                  <p>A person or monster attacked by any use of the spell may make a saving throw vs. spells to avoid the effects of the entangle.</p>",
-      "name": "Entangle"
+      "name": "Entangle",
+      "spellDuration": "1 round per level",
+      "spellEffect": "Controls ropes"
     },
     "Escape": {
       "description": "\n        <p>The Escape skill allows a character to slip free from bonds, such as ropes or manacles, and to break out of physical restraints or confined spaces. Success may depend on the quality of the bindings and the character’s current condition. This skill is also used to evade grapples and similar situations in combat.</p>\n      ",
@@ -517,11 +600,15 @@
     },
     "Faerie Fire": {
       "description": "<p>This spell outlines one or more creatures or objects with a pale, flickering, greenish fire, which does not cause damage. The outlined creatures or objects become more visible, granting a +2 bonus to attack rolls against them. The druid can outline one man-sized creature for each 5 levels of experience, up to a maximum of 48 feet of fire at 20th level.</p><p>The objects or creatures need only be detected in some way (such as by sight, or a <em>detect invisible</em> spell) to be the object of this spell.</p>",
-      "name": "Faerie Fire"
+      "name": "Faerie Fire",
+      "spellDuration": "1 round per level of caster",
+      "spellEffect": "Illuminates creatures or objects"
     },
     "Feeblemind": {
       "description": "<p>This spell affects only magic-users, elves, or other creatures capable of casting magical spells (excluding cleric and druid casters). The target's Intelligence is reduced to 2, rendering them helpless and unable to cast spells or think clearly.</p>\n                      <p><strong>Saving Throw:</strong> The victim may make a saving throw vs. spells, with a -4 penalty, to resist the effect. The feeblemind effect lasts until removed by a *Dispel Magic* or *Cureall* spell.</p>",
-      "name": "Feeblemind"
+      "name": "Feeblemind",
+      "spellDuration": "Permanent until dispelled",
+      "spellEffect": "Lowers Intelligence score to 2"
     },
     "Fighter": {
       "description": "<p>A fighter is a human whose primary focus is martial combat. Renowned for their strength and endurance, fighters excel in melee and ranged combat, often taking the lead in battle to protect their allies. They have the highest hit points among classes, enabling them to withstand significant damage.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Strength, granting experience bonuses for high scores (5% for 13–15, 10% for 16–18).</li><li><strong>Combat Prowess</strong>: Fighters can use any weapon and wear any type of armor, including shields. They are also adept in specialized maneuvers like Lance Attack and Set Spear vs. Charge.</li><li><strong>Hit Dice</strong>: Fighters roll a d8 for hit points at each level up to the 9th. Beyond that, they gain a fixed 2 hit points per level.</li><li><strong>Maximum Level</strong>: 36th.</li></ul><h3>Advancement:</h3><p>At 9th level, fighters achieve Name level and may choose one of two paths:</p><ul><li><strong>Land-Owning Fighter</strong>: Fighters can petition a ruler for land, often gaining the title of Baron (or equivalent). With their stronghold established, they attract up to 50 loyal fighters (levels 1–3) as retainers. In times of war, they may offer military aid to their ruler and receive assistance if their lands are threatened.</li><li><strong>Traveling Fighter</strong>: These fighters eschew land ownership for a life of adventure. Depending on their alignment, they may adopt roles such as knights or paladins, gaining unique abilities like turning undead or detecting evil.</li></ul><h3>Stronghold Details:</h3><p>Fighters who build a stronghold must secure land either by petitioning a ruler, claiming wilderness territory, or purchasing land. As rulers, they manage their dominion, attract settlers, and lead their men-at-arms in defense or expansion of their holdings. Titles can grow with their dominion's success, from Baron to Duke and beyond.</p><p>Fighters are essential to any adventuring party for their durability and combat capabilities, serving as the backbone of both offense and defense. They excel in both leadership roles and frontline combat, making them versatile and resilient characters.</p>",
@@ -537,11 +624,14 @@
     },
     "Find Traps": {
       "description": "<p>This spell causes all mechanical and magical traps within 30' of the spellcaster to emit a faint blue glow. While it reveals the presence of traps, it does not provide information on their type or how to disarm them. Ambushes or natural hazards like quicksand are not considered traps and will not be revealed by this spell.</p>",
-      "name": "Find Traps"
+      "name": "Find Traps",
+      "spellEffect": "Traps within 30' glow",
+      "spellRange": "0 (caster only)"
     },
     "Finger of Death*": {
       "description": "<p>The reversed form of *Raise Dead*, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p>\n                      <p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p>\n                      <p>A Lawful cleric will typically only use *Finger of Death* in life-or-death situations.</p>",
-      "name": "Finger of Death*"
+      "name": "Finger of Death*",
+      "spellEffect": "Kills one living creature or heals high-HD undead"
     },
     "Fire-Building": {
       "description": "\n        <p>This skill allows a character to start a fire without using a tinderbox. A character with a tinderbox and this skill can automatically start fires under ordinary conditions. Without a tinderbox, the character must make a skill check each round, igniting the fire on a 1 or 2 on a 1d6 roll. Adverse conditions, such as high winds or wet wood, require a skill check with penalties as determined by the DM.</p>\n      ",
@@ -549,15 +639,20 @@
     },
     "Fireball": {
       "description": "<p>This spell creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 1d6 fire damage per caster level to every creature in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. spells for half damage.</p>\n                      <p>For example, a fireball cast by a 6th-level caster deals 6d6 (6-36) points of damage. On a successful saving throw, the damage is halved.</p>",
-      "name": "Fireball"
+      "name": "Fireball",
+      "spellEffect": "Explosion in a sphere 40' diameter"
     },
     "Floating Disc": {
       "description": "<p>This spell creates an invisible, horizontal disc capable of carrying up to 5000 cn (500 lbs). The disc remains at the caster's waist height and follows them, staying within 6' at all times. It cannot be used as a weapon or pass through obstacles. When the spell ends, the disc disappears, dropping anything it carried.</p>",
-      "name": "Floating Disc"
+      "name": "Floating Disc",
+      "spellEffect": "Disc remains within 6'",
+      "spellRange": "0"
     },
     "Fly": {
       "description": "<p>This spell grants the target (including the caster, if desired) the ability to fly at will for a duration of 1d6 turns plus an additional turn per caster level.</p>\n                      <p>The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</p>",
-      "name": "Fly"
+      "name": "Fly",
+      "spellDuration": "1d6 turns + 1 turn per caster level",
+      "spellEffect": "One creature may fly"
     },
     "Food Tasting": {
       "description": "\n        <p>The Food Tasting skill provides a character with the ability to detect subtle flavors and potential poisons in food and drink. It can be used to identify the quality and freshness of ingredients or to recognize dangerous substances that might otherwise go unnoticed. A successful check may reveal whether a dish has been tampered with or if it contains any harmful elements. This skill is particularly useful for adventurers wary of sabotage or treachery.</p>\n      ",
@@ -565,11 +660,13 @@
     },
     "Free Monster*": {
       "description": "<p>This spell removes the paralysis effect from up to four creatures affected by *Hold Person* or *Hold Monster*. It has no other effects.</p>",
-      "name": "Free Monster*"
+      "name": "Free Monster*",
+      "spellEffect": "Removes paralysis from 1-4 creatures"
     },
     "Free Person*": {
       "description": "<p>The reverse of *Hold Person*, this spell releases the paralysis of up to four victims of *Hold Person* (including *Hold Person* cast by a cleric). It has no effect on paralysis caused by other sources, such as a ghoul's paralyzing touch.</p>",
-      "name": "Free Person*"
+      "name": "Free Person*",
+      "spellEffect": "Removes paralysis from up to 4 creatures"
     },
     "Gambling": {
       "description": "\n            <p>This skill is the ability to win money in games of skill (competitive card games, for example) and betting. It covers honest games only. A successful check increases the character's chances of winning money at these games.</p>\n        ",
@@ -592,11 +689,14 @@
     },
     "Growth of Animal": {
       "description": "<p>This spell doubles the size of one normal or giant animal, increasing its strength, damage, and carrying capacity accordingly. The animal’s behavior, armor class, and hit points remain unchanged, and the spell has no effect on intelligent or fantastic creatures.</p>",
-      "name": "Growth of Animal"
+      "name": "Growth of Animal",
+      "spellEffect": "Doubles the size of one animal"
     },
     "Growth of Plants*": {
       "description": "<p>This spell causes normal brush or woods to grow densely with vines, creepers, thorns, or similar plant life appropriate to the area. The spell affects up to 3,000 square feet, with dimensions chosen by the caster, and all plants must be entirely within 120' of the caster.</p>\n                      <p><strong>Effect:</strong> The overgrown area becomes impassable to creatures except for those of giant size. The effect remains until removed by the reverse of the spell or by a *Dispel Magic* spell.</p>\n                      <p><strong>Reverse Spell - Shrink Plants:</strong> The reversed form, *Shrink Plants*, reduces all normal plants within the affected area to a passable state, negating the effect of *Growth of Plants*. It does not affect plant-like monsters, such as treants.</p>",
-      "name": "Growth of Plants*"
+      "name": "Growth of Plants*",
+      "spellDuration": "Special",
+      "spellEffect": "Enlarges 3000 square feet of plants"
     },
     "Halberd": {
       "name": "Halberd"
@@ -611,7 +711,9 @@
     },
     "Hallucinatory Terrain": {
       "description": "<p>This spell creates an illusion of a terrain feature, either indoors or outdoors, to hide or mimic terrain. The caster could create an illusory terrain over pits or quicksand, or a forest around a camp.</p>\n                      <p><strong>Area:</strong> The spell affects up to a 240' radius, and the caster may choose a smaller area, such as a room or a specific feature. For larger areas (such as hills), the entire terrain feature must be within 240' of the caster. Features over 480' in diameter cannot be affected.</p>\n                      <p><strong>Duration:</strong> The illusion lasts until an intelligent creature touches it or until dispelled.</p>",
-      "name": "Hallucinatory Terrain"
+      "name": "Hallucinatory Terrain",
+      "spellDuration": "Special",
+      "spellEffect": "Changes or hides terrain in 240' radius (or less)"
     },
     "Hammer, Small": {
       "description": "<p>Used to drive iron spikes into hard surfaces such as stone or wood. It can also be wielded as a weapon, dealing 1d3 points of damage. This item is necessary for setting up certain equipment like ropes or tents.</p>",
@@ -625,11 +727,13 @@
     },
     "Harden*": {
       "description": "<p>This spell turns an area of mud into solid rock, permanently. The affected area can be up to 3,000 square feet in surface area and 10' deep. The caster may shape the area within these limits (e.g., 20' x 150', 30' x 100').</p>\n                      <p>Creatures caught within the area must make a saving throw vs. spells to avoid being trapped in the hardened mud.</p>",
-      "name": "Harden*"
+      "name": "Harden*",
+      "spellEffect": "Turns mud into solid rock"
     },
     "Haste*": {
       "description": "<p>This spell increases the movement and attack speed of up to 24 creatures within a 60' diameter area, allowing them to act at double speed for 3 turns.</p>\n                      <p><strong>Effects:</strong> Hasted creatures move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p>\n                      <p><strong>Reverse Spell:</strong> The reverse, *Slow*, either cancels *Haste* or reduces the target’s movement and attack speed by half. Each affected creature may make a saving throw vs. spells to avoid *Slow*.</p>",
-      "name": "Haste*"
+      "name": "Haste*",
+      "spellEffect": "Up to 24 creatures move double speed"
     },
     "Healing": {
       "description": "<p>Healing allows the treatment of wounds and diagnosis of illnesses among humans and demihumans. A successful skill roll can restore 1d3 hit points to a wounded character. This skill can only be used once per set of wounds, defined as all hit points lost in a single combat. A natural roll of 20 accidentally inflicts [[/r 1d3 #Healing hit points restored]] damage, and the healer may not attempt to treat those wounds again. Success with a roll of 5 or more indicates the healer can determine if an illness is natural or magically induced.</p>",
@@ -641,7 +745,8 @@
     },
     "Heat Metal": {
       "description": "<p>This spell causes one metal object to slowly heat and then cool. It can affect one metal item weighing up to one-half pound (5 cn) per level of the caster. For example, a 12th level caster can heat up to 6 pounds (60 cn), such as a normal sword, while a 20th level caster can heat up to 10 pounds (100 cn), enough to heat a two-handed sword.</p>\n                <p>The heat does not damage magical items but may severely damage normal weapons or items, especially if they contain both wood and metal. If held, the object causes increasing damage each round: 1 point in the first round, 2 in the second, 4 in the third, and 8 in the fourth. The damage then decreases at the same rate over the remaining rounds. In the fourth round, leather, wood, and other flammable materials in contact with the metal catch fire. Total damage over seven rounds is 22 points.</p>\n                <p>The holder gets no saving throw, but fire resistance negates all damage. The holder can drop the item at any time, and creatures of low intelligence are 80% likely to do so each round. The spell disrupts concentration, preventing spellcasting for the duration of damage.</p>\n                <p>Once cast, the spell does not require concentration. Only a <em>dispel magic</em> spell can stop it; normal means, like immersion in water, do not affect it. If cast on an object embedded in a creature (like an arrow or dagger), removing it causes the loss of initiative for that round and inflicts damage for that round as well.</p>",
-      "name": "Heat Metal"
+      "name": "Heat Metal",
+      "spellEffect": "Warms one metal object"
     },
     "Hide in Shadows": {
       "description": "<p>The thief can blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
@@ -657,19 +762,26 @@
     },
     "Hold Animal": {
       "description": "<p>This spell paralyzes normal or giant-sized animals within a range of 180'. The spell does not affect creatures with greater than animal intelligence (2) or fantastic creatures.</p>\n                      <p><strong>Effect:</strong> Each animal makes a saving throw vs. spells to resist paralysis for the spell’s duration. The druid can affect 1 Hit Die of animals per caster level, ignoring any “pluses” to Hit Dice. For example, a 20th-level druid could hold 10 giant toads (2 + 2 HD each).</p>\n                      <p>This spell can also affect summoned, conjured, or controlled animals.</p>",
-      "name": "Hold Animal"
+      "name": "Hold Animal",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Paralyzes several animals"
     },
     "Hold Monster*": {
       "description": "<p>This spell paralyzes [[/r 1d4 #living creatures]] 1-4 living creatures, with effects similar to a *Hold Person* spell, but able to target any living creature (not undead).</p><p><strong>Saving Throw:</strong> Each creature must make a saving throw vs. spells to resist. If cast on a single target, the creature suffers a -2 penalty to the saving throw. If cast on a group, it affects 1d4 creatures (chosen by the caster and within range) with no saving throw penalty.</p><p><strong>Reverse Spell - Free Monster:</strong> The reverse of this spell, *Free Monster*, removes the paralysis from up to four creatures affected by *Hold Person* or *Hold Monster*. It has no other effects.</p>",
-      "name": "Hold Monster*"
+      "name": "Hold Monster*",
+      "spellDuration": "6 turns + 1 turn per level of the caster",
+      "spellEffect": "Paralyzes 1-4 creatures"
     },
     "Hold Person*": {
       "description": "<p>This spell paralyzes up to four creatures, affecting any human, demihuman, or human-like beings such as bugbears, dryads, gnolls, hobgoblins, kobolds, lizard men, ogres, orcs, nixies, pixies, or sprites. It does not affect undead or creatures larger than ogres. Each target must make a saving throw vs. spells or be paralyzed for nine turns. If the spell is cast at a single target, that creature receives a -2 penalty to their saving throw. If cast at a group, up to four creatures of the spellcaster's choice can be affected, but without any penalty to their saving throws. The paralysis can only be removed by the reversed form of this spell or a dispel magic spell.</p><p>The reversed spell, <em>free person</em>, lifts the paralysis from up to four victims affected by the normal form of the spell (including *hold person* cast by a magic-user or an elf). It has no effect on other forms of paralysis, such as that caused by a ghoul.</p>",
-      "name": "Hold Person*"
+      "name": "Hold Person*",
+      "spellEffect": "Paralyzes up to 4 creatures"
     },
     "Hold Portal": {
       "description": "<p>This spell magically holds a door, gate, or similar portal shut for 2-12 turns. A <em>knock</em> spell can open it, or a creature with three or more Hit Dice (or levels) above the caster can break it in one round. If the portal closes within the spell’s duration, it will relock.</p>\n                <p><strong>Example:</strong> A 5th level character can break through a <em>hold portal</em> spell cast by a 2nd level spellcaster.</p>",
-      "name": "Hold Portal"
+      "name": "Hold Portal",
+      "spellDuration": "2d6 turns",
+      "spellEffect": "One door, gate, or similar portal"
     },
     "Holy Symbol": {
       "description": "<p>This is a sign or symbol of a cleric's beliefs. It is often used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
@@ -689,7 +801,8 @@
     },
     "Ice Storm": {
       "description": "<p>This spell creates a storm of ice in a 20' x 20' x 20' area, or the largest available space within those dimensions, dealing 1d6 cold damage per caster level to all creatures in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature may make a saving throw vs. spells for half damage. Fire-type creatures (e.g., red dragons, flame salamanders) suffer a -4 penalty to their saving throws, while cold-type creatures (e.g., frost giants, frost salamanders) are unaffected.</p>",
-      "name": "Ice Storm"
+      "name": "Ice Storm",
+      "spellEffect": "Storm in 20' x 20' x 20' volume"
     },
     "Immunity to Ghoul Paralysis": {
       "description": "<p>Elves are immune to the paralyzing attacks of ghouls. They are, however, still affected by other forms of paralysis.</p>",
@@ -705,7 +818,8 @@
     },
     "Insect Plague": {
       "description": "<p>This spell summons a vast swarm of insects in a 30' radius, obscuring vision and driving off creatures with less than 3 Hit Dice (no saving throw). The caster can direct the swarm to move up to 20' per round within a range of 480' but must remain still and concentrate.</p>\n                      <p>If the caster is disturbed, the insects scatter and the spell ends. This spell can only be cast outdoors and above ground.</p>",
-      "name": "Insect Plague"
+      "name": "Insect Plague",
+      "spellEffect": "Creates a swarm of 30' radius"
     },
     "Intimidation": {
       "description": "\n            <p>This skill allows the character to coerce or intimidate non-player characters (NPCs) into complying with their demands. Intimidation typically involves an implicit or explicit threat of violence or other consequences if the target does not comply. A successful skill check means the NPC is cowed into submission or action favorable to the character.</p>\n            <p>The skill is most effective against NPCs with lower levels or morale and is not usable on player characters. It has no effect on characters of 5th level or higher. NPCs subject to successful Intimidation are unlikely to view the character favorably in the future, and the relationship may be permanently damaged.</p>\n            <p>In situations where physical presence, strength, or combat prowess can be effectively displayed to bolster the threat, the DM may grant a bonus to the roll. However, this skill does not work against targets who are clearly in a superior position (such as a king surrounded by his elite guards).</p>\n        ",
@@ -713,11 +827,15 @@
     },
     "Invisibility": {
       "description": "<p>This spell makes any one creature or object invisible. When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible.</p>\n                  <p>If the spellcaster makes an object invisible that is not being carried or worn, it will become visible again when touched by any living creature. An invisible creature remains invisible until they attack or cast any spell.</p>",
-      "name": "Invisibility"
+      "name": "Invisibility",
+      "spellDuration": "Permanent until broken",
+      "spellEffect": "One creature or object"
     },
     "Invisibility 10' Radius": {
       "description": "<p>This spell makes the recipient and all other creatures within a 10' radius invisible at the time of casting. Creatures that move more than 10' away from the recipient lose their invisibility and cannot regain it by returning to the area.</p>\n                      <p>The invisibility effect is similar to the standard *Invisibility* spell, where invisible creatures and items carried remain unseen until the creature attacks or casts a spell.</p>\n                      <p>All items carried by affected creatures are also rendered invisible.</p>",
-      "name": "Invisibility 10' Radius"
+      "name": "Invisibility 10' Radius",
+      "spellDuration": "Permanent until broken",
+      "spellEffect": "All creatures within 10' become invisible"
     },
     "Iron Spike": {
       "description": "<p>A large, long iron nail that can have either a flat head or an open circular head. It is used to wedge doors open, provide grips for climbing, or anchor ropes. A hammer is required to drive it into hard surfaces like stone or wood.</p>",
@@ -741,11 +859,15 @@
     },
     "Knock": {
       "description": "<p>This spell unlocks any type of lock, including normal and magically locked doors (such as those affected by <em>hold portal</em> or <em>wizard lock</em>). It can also open secret doors, but the door must be located first. The spell does not permanently remove locking magic, which will re-engage once the door is closed again.</p>\n                  <p><em>Knock</em> can unstick a gate, cause a barred door to open (forcing the bar to fall), and make treasure chests open easily. However, if a door is both locked and barred, only one of the locks will be affected.</p>\n                  <p><strong>Note:</strong> If the lock is affected by a spell, the target can make a saving throw vs. spells to resist.</p>",
-      "name": "Knock"
+      "name": "Knock",
+      "spellDuration": "See below",
+      "spellEffect": "One lock or bar"
     },
     "Know Alignment*": {
       "description": "<p>This spell allows the spellcaster to determine the alignment (Lawful, Neutral, or Chaotic) of any one creature within 10'. It can also reveal the alignment of an enchanted item or area, if applicable.</p><p>The reversed form, <em>confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p>",
-      "name": "Know Alignment*"
+      "name": "Know Alignment*",
+      "spellEffect": "One creature within 10'",
+      "spellRange": "0 (caster only)"
     },
     "Knowledge (choose type)": {
       "description": "\n        <p>The character is an expert in one field of study such as history, theology, or geography. A character can make a living teaching or acting as an expert on the chosen subject. With a successful roll, they can provide detailed commentary or insights on the field of study. The specific type of knowledge must be defined, and multiple skills can be chosen for expertise in different subjects.</p>\n      ",
@@ -792,15 +914,21 @@
     },
     "Levitate": {
       "description": "<p>This spell allows the caster to move vertically, up or down, without support. The caster cannot move side to side without pushing against something. Vertical movement is at a rate of 20' per round.</p><p>The spell can only be cast on the caster, who can carry up to 2,000 cn (200 lbs) while levitating. The caster can carry another man-sized creature if it isn’t wearing metal armor or heavily burdened. No saving throw is allowed for the levitated target.</p><p><strong>Duration:</strong> 6 turns plus 1 turn per level.</p>",
-      "name": "Levitate"
+      "name": "Levitate",
+      "spellDuration": "6 turns + 1 turn/level of the caster",
+      "spellEffect": "The caster only",
+      "spellRange": "0"
     },
     "Light*": {
       "description": "<p>This spell creates a large ball of light with a 30' diameter, similar to bright torchlight. If cast on an object, the light moves with it. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the spell ends. If the saving throw succeeds, the light appears behind the target.</p>\n                <p>The reverse, <em>darkness</em>, creates a 30' diameter circle of darkness that blocks all sight except infravision. <em>Darkness</em> can counter <em>light</em> and vice-versa. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the effect ends.</p>",
-      "name": "Light*"
+      "name": "Light*",
+      "spellDuration": "6 turns + 1 turn/level",
+      "spellEffect": "Volume of 30' diameter"
     },
     "Lightning Bolt": {
       "description": "<p>This spell creates a bolt of lightning that begins up to 180' away from the caster and extends 60' further in a straight line. All creatures within the area of effect take 1d6 points of lightning damage per caster level.</p>\n                      <p><strong>Damage:</strong> For example, a 6th-level elf would cast a lightning bolt dealing 6d6 points of damage. Each creature in the path of the bolt may make a saving throw vs. spells for half damage.</p>\n                      <p><strong>Special Effect:</strong> If the bolt strikes a solid surface, it bounces back toward the caster until it reaches its full length of 60'.</p>",
-      "name": "Lightning Bolt"
+      "name": "Lightning Bolt",
+      "spellEffect": "Bolt 60' long, 5' wide"
     },
     "Lip Reading": {
       "description": "\n        <p>Allows the character to \"overhear\" a conversation by watching the target's lips. The character must be able to see the target and understand the language being spoken. Success means the character understands the conversation. The distance and available light affect the difficulty of the skill check.</p>\n        ",
@@ -812,11 +940,15 @@
     },
     "Locate": {
       "description": "<p>This spell allows the druid to sense the direction of one known normal or giant-sized animal or plant within 120 feet. The caster must name the exact type of animal or plant, but does not need to see the specific one to locate it. This spell cannot locate fantastic creatures, plant monsters, or any intelligent creatures or plants.</p><p>The animal or plant gets no saving throw. (This spell is most often used to find special rare plants.)</p>",
-      "name": "Locate"
+      "name": "Locate",
+      "spellEffect": "Detects 1 animal or plant within 120'",
+      "spellRange": "0 (Druid only)"
     },
     "Locate Object": {
       "description": "<p>This spell allows the caster to sense the direction of a known object within range, but not its distance. It can detect a common object with a partial description, such as \"stairs leading up,\" but will only indicate the direction of the nearest such object.  To find a specific object, the caster must <em>know</em> exactly what the object looks like (size, shape, color, etc.). The spell will not locate a creature.</p>",
-      "name": "Locate Object"
+      "name": "Locate Object",
+      "spellEffect": "Detects one object within 120'",
+      "spellRange": "0 (Caster only)"
     },
     "Long Coat (wool)": {
       "name": "Long Coat (wool)"
@@ -838,11 +970,14 @@
     },
     "Magic Jar": {
       "description": "<p>This spell transfers the caster's life force into an inanimate object within 30' (referred to as a \"magic jar\" regardless of its form). The caster’s body falls into a trance. From the magic jar, the caster can attempt to possess a creature within 120' of the jar.</p>\n                      <p><strong>Possession Attempt:</strong> The target must make a saving throw vs. spells. If successful, the caster cannot attempt to possess that creature again for one turn. If failed, the caster takes over the creature’s body, and the creature’s life force is transferred to the magic jar.</p>\n                      <p><strong>Actions in Possessed Body:</strong> The caster can perform normal actions, but no special abilities (similar to *Polymorph Self*). A *Dispel Evil* spell forces the caster's life force back into the magic jar.</p>\n                      <p><strong>Destruction Effects:</strong> If the magic jar is destroyed while the caster's life force is within, the caster dies. If the jar is destroyed while the caster possesses a body, the caster is stranded in that body, and the original owner's life force is destroyed. If the caster’s original body is destroyed, they are stranded in the magic jar until a new body is taken.</p>\n                      <p>Taking over another body is considered a Chaotic act.</p>",
-      "name": "Magic Jar"
+      "name": "Magic Jar",
+      "spellDuration": "See below",
+      "spellEffect": "Take over one body"
     },
     "Magic Missile": {
       "description": "<p>This spell creates a glowing arrow that inflicts [[/r 1d6+1 #Magic missile damage]] (2-7) points of damage to any visible target specified by the caster. The arrow always hits and no saving throw is allowed. After the spell is cast, the arrow appears next to the caster and hovers there until shot.</p><p>For every 5 levels of experience, two additional missiles are created by the same spell. The caster can direct these missiles at one or multiple targets.</p>",
-      "name": "Magic Missile"
+      "name": "Magic Missile",
+      "spellEffect": "Creates 1 or more arrows"
     },
     "Magic-User": {
       "description": "<p>A magic-user is a human character dedicated to the study of arcane knowledge and the casting of spells. They are among the most versatile and powerful classes but are physically fragile and limited in combat abilities. Their focus on magic allows them to wield extraordinary power as they gain experience.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Intelligence, granting an experience bonus for high scores (5% for 13–15, 10% for 16–18).</li><li><strong>Combat Skills</strong>: Magic-users cannot wear armor or use shields and are restricted to using daggers. At the DM's discretion, other light weapons such as staves or slings may be permitted.</li><li><strong>Hit Dice</strong>: They use a d4 for hit points per level up to 9th level. Beyond that, they gain a fixed 1 hit point per level without Constitution bonuses.</li><li><strong>Spellcasting</strong>: Magic-users learn and prepare spells from a spellbook. Their magic includes a wide range of effects, such as attack spells (e.g., Fireball), utility spells (e.g., Knock), and defensive spells (e.g., Shield).</li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong> (Name level), a magic-user becomes a \"Wizard\" (male) or \"Maga\" (female). Wizards can create magic items, such as scrolls or potions.</li><li>Magic-users may construct a tower as a personal stronghold. Once completed, the tower attracts 1d6 apprentices (1st–3rd level magic-users), who serve the wizard as students and assistants.</li><li>If a dungeon is built beneath or near the tower and left unguarded, it may attract monsters. Some wizards encourage this to create a ready source of material for research and training.</li></ul><h3>Stronghold Options:</h3><ul><li><strong>Independent Wizards</strong>: Magic-users building their own towers typically do so without seeking approval from local rulers. However, gaining the ruler's favor might result in gifts or an official title to the land.</li><li><strong>Magists</strong>: Magic-users can serve as court wizards, known as Magists, advising rulers on magical matters in exchange for room, board, and a stipend (usually 3,000 gp per month or more). This arrangement allows continued magical research, often funded by the ruler.</li></ul><p>Magic-users begin their careers as fragile and vulnerable adventurers but grow into formidable spellcasters capable of altering the course of campaigns with their arcane abilities. Their strongholds often serve as hubs of magical research and influence.</p>",
@@ -865,7 +1000,9 @@
     },
     "Massmorph": {
       "description": "<p>This spell causes up to 100 human- or man-sized creatures within a 240' diameter to appear as trees, such as in an orchard or dense forest. The type of tree or plant life should be appropriate to the terrain and environment (for instance, it typically would not work in a desert without large cacti).</p>\n                      <p><strong>Target Types:</strong> Only willing creatures are affected. Larger creatures, like horses, can be included, counting as two or three men-sized creatures each.</p>\n                      <p><strong>Effect:</strong> The illusion hides recipients from others moving through the affected area. A creature’s normal appearance returns if it moves out of the area, but movement within the area does not break the illusion. The spell lasts until dispelled or dismissed by the caster.</p>",
-      "name": "Massmorph"
+      "name": "Massmorph",
+      "spellDuration": "See below",
+      "spellEffect": "Causes illusion of trees within 240' range"
     },
     "Military Tactics": {
       "description": "\n        <p>This skill allows a character to analyze the movement of enemy forces and effectively position their own troops. The player describes their tactical plan, and the DM rolls a Military Tactics skill check. If successful, the DM confirms the plan is viable and offers additional strategic insights. A failed roll means the character misinterprets the enemy's intentions or chooses an ineffective strategy.</p>\n        ",
@@ -881,7 +1018,9 @@
     },
     "Mirror Image": {
       "description": "\n        <p>This spell creates [[/r 1d4 #Number of Images]] illusory duplicates of the spellcaster that move and act like them. The images stay within 3' of the caster and imitate their movements and speech without requiring concentration.</p>\n        <p>The images are not real and cannot take any actions. Any successful attack that would hit the spellcaster instead destroys one of the images, regardless of damage. This continues until all images are gone. Area attacks, such as a fireball, destroy all images at once and also affect the spellcaster.</p>\n      ",
-      "name": "Mirror Image"
+      "name": "Mirror Image",
+      "spellEffect": "The spellcaster only",
+      "spellRange": "0"
     },
     "Mountaineering": {
       "description": "\n        <p>This skill covers the techniques and physical ability required for climbing steep and hazardous terrains, such as mountains and cliffs. Characters with Mountaineering can navigate difficult slopes, secure safe paths, and assist others in ascent or descent. The skill can also be used to avoid dangers like rockslides or falling.</p>\n      ",
@@ -932,11 +1071,15 @@
     },
     "Neutralize Poison*": {
       "description": "<p>This spell renders any poison harmless in a creature, container, or on an object. It can revive a creature poisoned within the last 10 rounds but does not heal any other damage.</p>",
-      "name": "Neutralize Poison*"
+      "name": "Neutralize Poison*",
+      "spellEffect": "Makes poison harmless"
     },
     "Obscure": {
       "description": "<p>This spell causes a misty vapor to rise from the ground, forming a large cloud. The cloud's height is 1 foot per caster level, and its diameter is 10 feet per level. For example, a 20th-level caster could create a cloud 20 feet high and 200 feet in diameter.</p>\n                <p>The cloud blocks vision, though the caster and creatures that can see invisible objects can see dimly through it. Other creatures in the cloud are effectively blind, delayed, and confused by the effect.</p>",
-      "name": "Obscure"
+      "name": "Obscure",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Creates a huge misty cloud",
+      "spellRange": "0 (Druid only)"
     },
     "Oil, flask": {
       "description": "<p>Oil is burned in a lantern for light. A flask of oil may also be thrown as a missile weapon or poured out and ignited to delay pursuit.</p>",
@@ -971,11 +1114,14 @@
     },
     "Pass Plant": {
       "description": "<p>This spell allows the druid to teleport between two trees of the same type. The trees must be large enough to enclose the druid. Upon casting, the druid can step into one tree and immediately step out of another within range.</p>\n                      <p><strong>Teleportation Range by Tree Type:</strong></p>\n                      <table>\n                        <thead>\n                          <tr><th>Tree Type</th><th>Range</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Oak</td><td>600 yards</td></tr>\n                          <tr><td>Ash, Elm, Linden, Yew</td><td>360 yards</td></tr>\n                          <tr><td>Evergreen trees</td><td>300 yards</td></tr>\n                          <tr><td>Other trees</td><td>240 yards</td></tr>\n                        </tbody>\n                      </table>",
-      "name": "Pass Plant"
+      "name": "Pass Plant",
+      "spellEffect": "Short-range teleportation",
+      "spellRange": "0 (druid only)"
     },
     "Passwall": {
       "description": "<p>This spell creates a hole 5' in diameter and 10' deep in solid rock or stone only. The hole may be oriented horizontally or vertically.</p>\n                      <p><strong>End of Duration:</strong> When the spell ends, the stone reappears. Any creature still in the hole at that time must make a saving throw vs. turn to stone. On a success, the creature is ejected from the nearest end of the tunnel; on a failure, the creature is trapped and killed.</p>",
-      "name": "Passwall"
+      "name": "Passwall",
+      "spellEffect": "Creates a hole 10' deep"
     },
     "Pearl": {
       "description": "<p>Pearl is a gemstone with a smooth, round surface and a lustrous, iridescent sheen. It reflects soft colors like white, pink, and silver, highlighting its elegant and natural beauty. Pearls are highly valued in jewelry for their classic and radiant appearance.</p>",
@@ -995,7 +1141,8 @@
     },
     "Phantasmal Force": {
       "description": "<p>This spell creates an illusion that affects everything within the specified area. The illusion can be of anything the caster has seen before. If the caster creates something they have not seen, targets receive a bonus to their saving throws to disbelieve the illusion.</p><p>Non-attacking illusions disappear when touched. If the illusion mimics an attack (like a magic missile or a collapsing wall), the target may save vs. spells to negate its effects. The illusionary creature has AC 9 and disappears when struck.</p><p>The phantasmal force persists as long as the caster maintains concentration. If the caster moves, is damaged, or fails a saving throw, concentration is lost and the illusion vanishes. The spell causes no real damage. Those \"killed\" by it merely fall unconscious for [[/r 1d4 #turns]] turns, and any effects like \"turning to stone\" result in temporary paralysis.</p>",
-      "name": "Phantasmal Force"
+      "name": "Phantasmal Force",
+      "spellEffect": "A volume 20' x 20' x 20'"
     },
     "Pick Pockets": {
       "description": "<p>The character can attempt to pick pockets or take small items from people without being noticed.</p>",
@@ -1014,7 +1161,10 @@
     },
     "Plant Door": {
       "description": "<p>This spell allows the druid to pass freely through any plant growth or barrier, no matter how dense. Trees, vines, and other plants will bend or magically open to create a passage for the druid, who can carry equipment while moving through but cannot bring other creatures with them.</p>\n                      <p>The druid may also hide inside a large tree after casting this spell, though they cannot see what is happening outside the tree while within.</p>",
-      "name": "Plant Door"
+      "name": "Plant Door",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Opens a path through growth",
+      "spellRange": "0 (druid only)"
     },
     "Plate Mail": {
       "description": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
@@ -1033,11 +1183,16 @@
     },
     "Polymorph Other": {
       "description": "<p>This spell transforms the target into another living creature, provided the new form has no more than twice as many Hit Dice as the original. The spell fails if this condition is not met.</p>\n                      <p><strong>Effects of Transformation:</strong> The target's hit points remain unchanged, but they gain all special abilities, tendencies, and behaviors of the new form. For example, a hobgoblin transformed into a mule would think and act as a mule.</p>\n                      <p>This spell cannot create an exact duplicate of a specific individual but only changes the creature’s type or race. For instance, transforming into a “human” does not grant levels or special skills beyond a basic human form.</p>\n                      <p><strong>Saving Throw:</strong> The target may attempt a saving throw vs. spells to avoid transformation. The spell lasts until dispelled or the creature dies.</p>",
-      "name": "Polymorph Other"
+      "name": "Polymorph Other",
+      "spellDuration": "Permanent until dispelled",
+      "spellEffect": "Changes one living creature"
     },
     "Polymorph Self": {
       "description": "<p>This spell allows the caster to take on the physical form of another living creature, provided the new form’s Hit Dice are equal to or less than the caster's. If this condition is not met, the spell fails.</p>\n                      <p><strong>Physical Abilities:</strong> The caster retains their own AC, hit points, attack rolls, and saving throws, and does not gain special abilities (like a ghoul's paralysis) or immunities of the new form. However, they gain the physical capabilities of the form. For example, a caster polymorphed into a frost giant would gain giant strength and the ability to throw boulders, but not cold immunity. A dragon form would allow flight but not breath attacks or spellcasting.</p>\n                      <p><strong>Limitations:</strong> The caster cannot cast spells while polymorphed. The spell lasts for 6 turns + 1 turn per caster level, until dispelled, or until the caster is killed. This spell cannot be used to assume the form of a specific individual.</p>",
-      "name": "Polymorph Self"
+      "name": "Polymorph Self",
+      "spellDuration": "6 turns + 1 turn per level of the caster",
+      "spellEffect": "Caster may change shapes",
+      "spellRange": "0 (Caster only)"
     },
     "Potion of Agility": {
       "description": "<p>This potion increases the drinker's Dexterity score to 18 for 7-12 turns [[/br 1d6+6 #Potion of Agility duration]]. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time. The potion takes effect immediately upon consumption.</p>",
@@ -1081,11 +1236,16 @@
     },
     "Predict Weather": {
       "description": "<p>This spell enables the druid to learn the accurate weather forecast for the next 12 hours within an area of 1 mile in diameter per level of the caster. For example, a 20th-level druid would know the weather within a 20-mile diameter (10-mile radius). This spell does not allow the caster to control the weather, merely to predict it.</p>",
-      "name": "Predict Weather"
+      "name": "Predict Weather",
+      "spellEffect": "Gives knowledge of coming weather",
+      "spellRange": "0 (Druid only)"
     },
     "Produce Fire": {
       "description": "<p>This spell creates a small flame in the caster's hand. The flame sheds light like a torch and does not harm the caster. It can ignite combustible materials like lanterns, torches, or oil without damaging the magical flame itself.</p>\n                <p>The caster can make the flame disappear and reappear at will, once per round. The flame can be thrown or dropped up to 30 feet away, but it disappears one round after leaving the caster's hand. Any fire it ignites continues burning.</p>",
-      "name": "Produce Fire"
+      "name": "Produce Fire",
+      "spellDuration": "2 turns per level",
+      "spellEffect": "Creates fire in hand",
+      "spellRange": "0 (Druid only)"
     },
     "Profession (choose type)": {
       "description": "\n        <p>The character is accomplished at one type of non-labor profession, such as politics, cooking, estate management, horse grooming, or scribing. With a successful skill roll, the character can earn a living through this profession and provide expert commentary on related subjects. The player must specify the exact profession the character is skilled in, and a character may have multiple Profession skills to represent expertise in different fields.</p>\n      ",
@@ -1093,27 +1253,36 @@
     },
     "Protection from Evil": {
       "description": "<p>This spell creates and invisible magical barrier all around the caster's body (less than an inch away). Here’s the revised text with all references to \"cleric\" changed to \"caster\":</p><p>While the spell is in effect, characters and monsters attacking the caster suffer a -1 penalty to their attack rolls, and the caster gains a +1 bonus to all saving throws.</p><p>Additionally, enchanted creatures are unable to touch the caster! (An enchanted creature is one that normal weapons cannot affect, only magical weapons can hit. A creature that can only be hit by a silver weapon—like a werewolf—is not considered enchanted. Any creature that is magically summoned or controlled, such as a <em>charmed</em> character, is also considered enchanted.) This barrier completely protects the caster from all melee or hand-to-hand attacks from such creatures; however, it does not prevent attacks from missile weapons. Enchanted creatures using missile weapons still suffer the -1 penalty to attack rolls but <em>can</em> still hit the caster.</p><p>This spell does not affect a <em>magic missile</em> spell used by magic-users.</p><p>If the caster attacks an enchanted creature during the spell's duration, the spell’s effect changes slightly. Enchanted creatures are then able to touch the caster, but still suffer the attack roll penalty; the penalty and the caster's saving throw adjustments remain until the spell's duration ends.</p>",
-      "name": "Protection from Evil"
+      "name": "Protection from Evil",
+      "spellEffect": "The caster only"
     },
     "Protection from Evil 10' Radius": {
       "description": "<p>This spell creates an invisible barrier around the caster, extending 10' in all directions. It grants each creature within the barrier a +1 bonus to all saving throws, while attacks against those inside suffer a -1 penalty on attack rolls.</p>\n                      <p><strong>Effect:</strong> Enchanted creatures (such as magically summoned or controlled beings) cannot engage in melee with anyone inside the barrier. However, if a protected creature attacks an enchanted one, the barrier no longer prevents melee attacks, though saving throw bonuses and attack roll penalties remain active.</p>\n                      <p>Missile and magical attacks from outside the barrier still suffer the -1 attack penalty but are otherwise unaffected.</p>",
-      "name": "Protection from Evil 10' Radius"
+      "name": "Protection from Evil 10' Radius",
+      "spellEffect": "Creates a 20' diameter barrier",
+      "spellRange": "0"
     },
     "Protection from Lightning": {
       "description": "<p>This spell grants the recipient immunity to a specified amount of electrical damage. The protection amount depends on the druid's experience level: for each level, one die (1d6) of lightning damage is negated. The protected amount is subtracted from the dice of damage that would otherwise be dealt.</p><p><strong>Example:</strong> A 20th-level druid protected by this spell negates up to 20d6 lightning damage. This would allow the druid to absorb two full *Call Lightning* attacks (8d6 each), plus half of a third attack (8 + 8 + 4 = 20). Any damage beyond this would be taken as normal, and the recipient still makes any applicable saving throws.</p>",
-      "name": "Protection from Lightning"
+      "name": "Protection from Lightning",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Protects against lightning attack"
     },
     "Protection from Normal Missiles": {
       "description": "<p>This spell grants the recipient complete protection from all small, nonmagical missiles, such as arrows, quarrels, and thrown spears. All such missile attacks automatically miss the target.</p>\n                      <p><strong>Limitations:</strong> Large missiles (like catapult stones) and magical missiles (like magic arrows) are unaffected by this spell and can still hit the recipient.</p>\n                      <p>The spell can be cast on any one creature within a range of 30'.</p>",
-      "name": "Protection from Normal Missiles"
+      "name": "Protection from Normal Missiles",
+      "spellEffect": "One creature"
     },
     "Protection from Poison": {
       "description": "<p>This spell grants the recipient complete immunity to all poisons for the spell’s duration, including poison from gas traps and *Cloudkill* spells. This protection also extends to any items carried by the recipient, protecting them against poison effects (e.g., a spirit’s poisonous aura).</p>\n                      <p><strong>Bonus to Saving Throws:</strong> The recipient also gains a +4 bonus on saving throws against poisonous breath weapons, such as a green dragon’s breath. This bonus does not apply to non-poisonous breath effects, like a gorgon’s petrifying breath.</p>",
-      "name": "Protection from Poison"
+      "name": "Protection from Poison",
+      "spellDuration": "One turn per level of the caster",
+      "spellEffect": "Gives one creature immunity to all poison"
     },
     "Purify Food and Water": {
       "description": "<p>This spell makes spoiled or poisoned food and water safe for consumption. It can purify one ration of preserved food (either iron or standard rations), six waterskins of water, or enough regular food to feed twelve people. If cast on mud, the spell causes the dirt to settle, leaving behind a pool of pure, clear water. The spell does not affect any living creatures.</p>",
-      "name": "Purify Food and Water"
+      "name": "Purify Food and Water",
+      "spellEffect": "See description"
     },
     "Quarrels": {
       "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
@@ -1129,7 +1298,9 @@
     },
     "Quest*": {
       "description": "<p>This spell compels the target to undertake a specific task or quest as commanded by the caster. The target may attempt a saving throw vs. spells to resist; if successful, the spell has no effect.</p>\n                      <p><strong>Typical Tasks:</strong> The task might include slaying a particular monster, rescuing a prisoner, retrieving a magical item, or embarking on a pilgrimage. If the task is impossible or suicidal, the spell fails automatically.</p>\n                      <p><strong>Duration:</strong> The spell remains in effect until the specified task is completed. This spell compels the target to fulfill the task but does not compel them to do so willingly. Once completed, the target may hold a grudge against the caster, potentially seeking revenge depending on the circumstances of the quest.</p>\n                      <p><strong>Curse:</strong> A target who refuses to undertake the quest is cursed until they resume the task. The nature of this curse is determined by the GM and may be twice the usual strength of a standard curse.</p>",
-      "name": "Quest*"
+      "name": "Quest*",
+      "spellDuration": "Special",
+      "spellEffect": "Compels one creature to perform a task"
     },
     "Quick Draw": {
       "description": "\n        <p>The Quick Draw skill allows a character to swiftly draw and ready a weapon or item, such as a sword or potion, even in stressful situations like combat. This skill can grant an advantage in initiative or allow an immediate action that would normally take longer to perform.</p>\n      ",
@@ -1145,7 +1316,8 @@
     },
     "Raise Dead*": {
       "description": "<p>This spell allows the cleric to raise any human, dwarf, halfling, or elf from the dead. The body must be present, and any missing parts will cause corresponding disabilities in the raised character.</p>\n                      <p><strong>Effect:</strong> An 8th-level cleric can raise a body that has been dead up to four days. Each level above 8th extends this limit by four additional days (e.g., a 10th-level cleric can raise bodies dead for up to twelve days).</p>\n                      <p>The character is raised with 1 hit point and is weakened: unable to fight, cast spells, or move faster than half speed. These penalties last for two weeks of complete bed rest, which cannot be hastened by magical healing.</p>\n                      <p><strong>Undead Effect:</strong> When cast on an undead creature within range, the target must make a saving throw vs. spells with a -2 penalty or be destroyed. Vampires that fail the save retreat to their coffins in gaseous form. Against undead creatures stronger than vampires, the spell deals 3d10 damage (saving throw for half).</p>",
-      "name": "Raise Dead*"
+      "name": "Raise Dead*",
+      "spellEffect": "Raises one dead human or demihuman, or damages undead"
     },
     "Rapid Fire": {
       "description": "<p>A successful Check enables a character to fire a bow twice instead of once. Each shot is made with a penalty of ‐3 to hit. The first arrow is fired according to which side wins initiative, the second arrow is always fired at the end of the round.</p><p>From GAZ13.</p>",
@@ -1161,23 +1333,30 @@
     },
     "Read Languages": {
       "description": "<p>This spell allows the caster to read, but not speak, any unknown languages, codes, or symbols—including treasure maps or secret scripts—for the spell’s duration.</p>",
-      "name": "Read Languages"
+      "name": "Read Languages",
+      "spellEffect": "The spellcaster only",
+      "spellRange": "0"
     },
     "Read Magic": {
       "description": "<p>This spell allows the caster to read any magical words or runes, such as those found on scrolls or inscribed on items. It does not allow the caster to speak the words, only to read and understand them. A spellcaster cannot understand unfamiliar magical writings without using this spell.</p>\n                <p>Once a caster reads a scroll or rune with this spell, they can read or speak that magic again without using this spell. All spell books are written in magical words, and only their owners may read them without using this spell.</p>",
-      "name": "Read Magic"
+      "name": "Read Magic",
+      "spellEffect": "The spellcaster only",
+      "spellRange": "0"
     },
     "Remove Curse*": {
       "description": "<p>This spell removes one curse from a character, item, or area. Some curses, especially those on magical items, may only be lifted temporarily. For permanent removal, a <em>dispel evil</em> spell or a <em>remove curse</em> cast by a higher-level caster may be required (at the DM's discretion).</p>\n                <p>The reverse of this spell, <em>curse</em>, imposes a penalty or misfortune on the target, with effects limited only by the caster's imagination. If the curse is too powerful, it may rebound on the caster (DM's discretion). Typical curses include a -4 penalty to attack rolls, a -2 penalty to saving throws, halving of a prime requisite, or a -4 penalty on others' reaction rolls. The victim may make a saving throw vs. spells to avoid the curse.</p>",
-      "name": "Remove Curse*"
+      "name": "Remove Curse*",
+      "spellEffect": "Removes any one curse"
     },
     "Remove Fear*": {
       "description": "<p>When the spellcaster casts this spell and then touches any living creature, it will calm the creature and remove any fear. If the creature has been affected by a <em>fear</em> spell or effect that normally does not allow a saving throw, the <em>remove fear</em> spell can still be effective. If the spellcaster uses the spell on someone afflicted by a magical fear effect, the victim gets to make a saving throw vs. spells, with a bonus to the roll equal to the spellcaster's level of experience (up to a maximum bonus of +6). If the saving throw is successful, the victim's fear is dispelled. Regardless of the spellcaster's level or any bonuses, a roll of 1 will always fail.</p><p>The reversed form of the spell, <em>cause fear</em>, will make any one creature flee for two turns. The victim may make a saving throw vs. spells to avoid the effect. This reversed spell has a range of 120'.</p>",
-      "name": "Remove Fear*"
+      "name": "Remove Fear*",
+      "spellEffect": "Any one living creature"
     },
     "Remove Quest*": {
       "description": "<p>The reversed form of the quest spell, *Remove Quest* dispels an unwanted quest or removes a quest-related curse. The base chance of successfully removing the quest is 50%, modified by ±5% for each level difference between the caster of *Remove Quest* and the original caster of the quest.</p>\n                      <p>For example, an 11th-level cleric attempting to remove a quest imposed by a 13th-level caster has a 40% chance of success, while a 36th-level cleric removing a quest cast by a 20th-level cleric has a 99% chance of success (capped to prevent automatic success).</p>",
-      "name": "Remove Quest*"
+      "name": "Remove Quest*",
+      "spellEffect": "Removes an unwanted quest or curse"
     },
     "Remove Traps": {
       "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
@@ -1185,11 +1364,14 @@
     },
     "Resist Cold": {
       "description": "<p>When this spell is cast, all creatures within 30' of the spellcaster are protected from freezing temperatures without harm. Those affected also receive a +2 bonus to all saving throws against cold-based attacks. Additionally, any cold damage dealt to them is reduced by 1 point per die, with a minimum of 1 point of damage per die. The effect moves with the spellcaster.</p>",
-      "name": "Resist Cold"
+      "name": "Resist Cold",
+      "spellEffect": "All creatures within 30'",
+      "spellRange": "0"
     },
     "Resist Fire": {
       "description": "<p>For the duration of this spell, the recipient is immune to damage from normal fire and heat. They also receive a +2 bonus to all saving throws against magical fire (such as dragon breath or fireball). Additionally, any damage taken from such magical fire is reduced by 1 point per die of damage, with each die dealing at least 1 point of damage. For red dragon breath, the damage is reduced by 1 point per Hit Die of the dragon, but never below 1 point per Hit Die.</p>",
-      "name": "Resist Fire"
+      "name": "Resist Fire",
+      "spellEffect": "One living creature"
     },
     "Riding (choose type)": {
       "description": "\n        <p>This skill covers the ability to ride and control a specific type of mount, such as a horse, griffon, or dragon. The chosen type must be specified when the skill is selected. Riding involves managing the mount in various situations, including combat, hazardous terrain, and high-speed maneuvers. The skill can also be used to calm and handle a frightened or unruly mount.</p>\n      ",
@@ -1260,7 +1442,9 @@
     },
     "Shield": {
       "description": "<p>This spell creates a magical barrier around the caster, less than an inch away from their body. It grants an AC of 2 against missiles and AC 4 against all other attacks. The barrier moves with the caster, and it does not interfere with the caster’s movements or attacks.</p>\n                <p>If a <em>magic missile</em> is shot at the caster, the caster can make a saving throw vs. spells. If successful, the missile is negated by the shield and has no effect.</p>",
-      "name": "Shield"
+      "name": "Shield",
+      "spellEffect": "The spellcaster only",
+      "spellRange": "0"
     },
     "Shield, Horned": {
       "name": "Shield, Horned"
@@ -1284,7 +1468,9 @@
     },
     "Shrink Plants*": {
       "description": "<p>The reverse of *Growth of Plants*, this spell causes normal plants within the area of effect to shrink, becoming passable. It can be used to negate the effects of *Growth of Plants* but does not affect plant-like monsters such as treants.</p>",
-      "name": "Shrink Plants*"
+      "name": "Shrink Plants*",
+      "spellDuration": "Special",
+      "spellEffect": "Shrinks 3000 square feet of plants"
     },
     "Signaling (choose type)": {
       "description": "\n            <p>This skill allows the character to leave messages that can only be understood by another Signaling specialist of the same culture, trade guild, military force, or \"school.\" The player must specify the type and culture of signals the character studies, such as military trumpet signals, naval flag signals, smoke signals, or drum signals.</p>\n        ",
@@ -1292,7 +1478,8 @@
     },
     "Silence 15' Radius": {
       "description": "<p>This spell creates an area of total silence within a 15' radius, making it impossible to converse or cast spells inside the affected area for the duration of the spell. Those within the sphere can still hear sounds from outside. If the spell is cast on a creature, the target must make a saving throw vs. spells. If the saving throw fails, the effect moves with the creature. If successful, the silence remains stationary, and the creature can leave the affected area.</p>",
-      "name": "Silence 15' Radius"
+      "name": "Silence 15' Radius",
+      "spellEffect": "Sphere of silence 30' across"
     },
     "Silver Piece": {
       "name": "Silver Piece"
@@ -1303,7 +1490,9 @@
     },
     "Sleep": {
       "description": "<p>This spell puts 2-16 Hit Dice of creatures to sleep within a 40' square area. It affects creatures with 4+1 HD or less and does not work against undead or very large creatures, such as dragons. Creatures outside the area of effect are not affected.</p><p>Slapping, kicking, or shaking a sleeping creature will wake it. A single blow with an edged weapon can kill a sleeping creature, regardless of its hit points.</p><p>Your Dungeon Master will roll [[/r 2d8 #Sleep total hit dice affected]] to determine the total Hit Dice or experience levels of creatures affected by the spell. No saving throw is allowed.</p><p>The spell will put the targets to sleep for [[/r 4d4 #Sleep duration in turns]] turns.</p>",
-      "name": "Sleep"
+      "name": "Sleep",
+      "spellDuration": "4d4 (4-16) turns",
+      "spellEffect": "2d8 Hit Dice of living creatures within a 40' square area"
     },
     "Sling": {
       "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
@@ -1311,7 +1500,8 @@
     },
     "Slow*": {
       "description": "<p>The reversed version of *Haste*, *Slow* reduces the movement and attack speed of up to 24 creatures within a 60' diameter area to half their normal rate.</p>\n                      <p><strong>Effect:</strong> Slowed creatures move and attack at half speed but are otherwise unaffected, including spellcasting and magical device usage. Each affected creature may make a saving throw vs. spells to avoid the effect.</p>",
-      "name": "Slow*"
+      "name": "Slow*",
+      "spellEffect": "Up to 24 creatures move at half speed"
     },
     "Smash": {
       "description": "<p>This is a Fighter Combat Option maneuver available to fighters and mystics <strong>starting at 9th level</strong>, and to demihumans at different experience levels (refer to their experience tables). When using this hand-to-hand maneuver, the character automatically loses initiative and takes a -5 penalty to their attack roll (but still applies their Strength and magic bonuses).</p><p>If the attack hits, the character adds their Strength bonus, magic bonuses, and their full Strength score to the weapon's normal damage.</p><p>For example, a fighter with Strength 17 (+2 to attack and damage) using a sword +2 (+2 to attack, 1d8 + 2 damage) would execute a smash as follows: the attack roll is made with a net penalty of -1 (+2 +2 -5). If successful, they roll 1d8 + 21 (17 + 2 + 2) for damage!</p>",
@@ -1319,7 +1509,9 @@
     },
     "Snake Charm": {
       "description": "<p>This spell allows the spellcaster to charm a number of Hit Dice of snakes equal to their level, with no saving throw allowed. For example, a 5th-level spellcaster could charm one 5 HD snake, five 1 HD snakes, or any combination of snakes totaling 5 Hit Dice or less. The charmed snakes will rise up and sway, but will not attack unless provoked.</p><p>If the spell is cast on snakes that are attacking the spellcaster, the duration is [[/r 1d4 + 1 #Snake Charm duration in rounds]]. Otherwise, the spell lasts for [[/r 1d4 + 1 #Snake Charm duration in turns]]. Once the spell ends, the snakes return to their normal behavior, but they will not automatically be hostile unless provoked.</p>",
-      "name": "Snake Charm"
+      "name": "Snake Charm",
+      "spellDuration": "2-5 rounds or 2-5 turns",
+      "spellEffect": "Charms 1 HD of snakes per level of the caster"
     },
     "Snares": {
       "description": "\n            <p>This is the skill of building traps to capture animals, monsters, and unwanted visitors. A successful skill roll means the trap functions properly. The DM can assign modifiers to the skill roll based on the time the character had to set up the trap, the availability of materials, etc.</p>\n        ",
@@ -1327,15 +1519,21 @@
     },
     "Speak with Animals": {
       "description": "<p>When casting this spell, the spellcaster must name one type of animal (such as wolves). For the duration of the spell, the spellcaster can communicate with all animals of that type within 30'; the effect moves with the caster.</p><p>The spell allows the caster to speak to any normal or giant forms of the named animal type, but only to one type at a time. The spell cannot be used to communicate with intelligent animals or fantastic creatures.</p><p>The animals typically react favorably (with a +2 bonus to reaction rolls) and may be persuaded to perform a favor for the spellcaster if the reaction roll is high enough. The animal must be capable of understanding and carrying out the request.</p>",
-      "name": "Speak with Animals"
+      "name": "Speak with Animals",
+      "spellEffect": "Allows conversation within 30'",
+      "spellRange": "0 (caster only)"
     },
     "Speak with Plants": {
       "description": "<p>This spell allows the caster to communicate with plants within a 30' radius, treating them as if they have intelligence. The caster may ask simple favors, such as making a path through dense undergrowth, which the plants will grant if able.</p>\n                      <p><strong>Effect:</strong> Enables communication with plant creatures, including plantlike monsters such as treants.</p>",
-      "name": "Speak with Plants"
+      "name": "Speak with Plants",
+      "spellEffect": "Communicates with plants within 30'",
+      "spellRange": "0"
     },
     "Speak with the Dead": {
       "description": "<p>By means of this spell, a caster may ask three questions of a deceased spirit if the body is within range.</p>\n                <p>A caster of 6th or 7th level can contact recently deceased spirits (those dead up to 4 days). Casters of levels 8-14 have slightly more power (contacting spirits up to 4 months dead), and casters of levels 15-20 have even more (speaking with corpses up to 4 years dead). No time limits apply to casters of 21st level or greater.</p>\n                <p>The spirit will always reply in a tongue known to the caster, but can only offer knowledge of things up to the time of its death. If the spirit's alignment is the same as the caster's, it will provide clear and brief answers; however, if the alignments differ, the spirit may reply in riddles.</p>",
-      "name": "Speak with the Dead"
+      "name": "Speak with the Dead",
+      "spellDuration": "1 round per caster level",
+      "spellEffect": "Caster may ask three questions"
     },
     "Spear": {
       "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
@@ -1382,7 +1580,8 @@
     },
     "Sticks to Snakes": {
       "description": "<p>This spell transforms [[/r 2d8 #sticks into snakes]] sticks into snakes, which may be poisonous (50% chance per snake). The snakes obey the caster's commands but will revert to sticks when slain or when the spell's duration ends.</p><p><strong>Snake Stats:</strong> AC 6; HD 1; AT 1 bite; Dmg 1d4; MV 90' (30'); Save F1; ML 12; AL Neutral; SA poison (50% chance per snake to be poisonous).</p><p>Non-poisonous snakes grant 10 XP each, while poisonous ones grant 13 XP each.</p>",
-      "name": "Sticks to Snakes"
+      "name": "Sticks to Snakes",
+      "spellEffect": "Turns up to 16 sticks into snakes"
     },
     "Storytelling": {
       "description": "\n        <p>The Storytelling skill allows a character to weave captivating tales that can entertain, inspire, or impart wisdom. This skill is used to recount legends, share news, or persuade others through narrative. A successful Storytelling check can captivate an audience, spread information effectively, or even sway public opinion through the power of a well-told story.</p>\n      ",
@@ -1390,7 +1589,8 @@
     },
     "Striking": {
       "description": "<p>This spell allows any one weapon to inflict 1d6 additional points of damage per attack (similar to a magical staff of striking). The weapon will inflict this extra damage with every successful blow for as long as the spell lasts. This bonus does not apply to attack rolls, but only to damage rolls.</p>\n                <p>If the caster casts this spell on a normal weapon, the weapon may then damage creatures which are normally affected only by magic weapons; the weapon will do 1d6 points of damage per strike (regardless of the normal damage of the weapon).</p>",
-      "name": "Striking"
+      "name": "Striking",
+      "spellEffect": "1d6 bonus to damage on 1 weapon"
     },
     "Stronghold Construction": {
       "description": "<p>At Name level, a halfling may build a stronghold, which will attract other halflings to settle there if constructed in a suitable location.</p>",
@@ -1402,7 +1602,8 @@
     },
     "Summon Animals": {
       "description": "<p>This spell allows the druid to summon any or all normal animals within 360'. Only normal, non-magical creatures of animal intelligence are affected, including mammals, reptiles, and amphibians. It does not affect insects, arthropods, humans, or demihumans.</p>\n                      <p><strong>Animal Types:</strong> The druid may summon specific types or every animal within range. The total Hit Dice of responding animals equals the druid’s level, with small creatures (frogs, mice, squirrels, small birds) treated as 1/10 HD each.</p>\n                      <p><strong>Behavior:</strong> Animals respond by coming at their fastest movement rate, understand the druid’s speech, and will assist the druid as able. If harmed, a summoned animal will usually flee, breaking the spell for that animal. If the druid is attacked as a summoned animal arrives, the animal will attack the druid’s opponent, fleeing only if it fails a morale check.</p>\n                      <p>This spell can also be used to calm hostile animals encountered while adventuring.</p>",
-      "name": "Summon Animals"
+      "name": "Summon Animals",
+      "spellEffect": "Calls and befriends normal animals"
     },
     "Survival (choose terrain)": {
       "description": "\n            <p>This skill allows the character to find food, shelter, and water in a single type of terrain (e.g., desert, forest/jungle, mountain/hill, open sea, plains, arctic). The character can forage automatically in fertile areas and uses the skill roll to determine success in searching for resources in more challenging environments. When supporting others, the character receives a +1 penalty to the roll per additional person.</p>\n        ",
@@ -1426,11 +1627,13 @@
     },
     "Telekinesis": {
       "description": "<p>This spell allows the caster to move a creature or object by sheer concentration. The weight of the object can be up to 200 cn (20 lbs) per caster level. For example, a 10th-level caster could move an object up to 2,000 cn (200 lbs).</p>\n                      <p>The object can be moved in any direction at a rate of up to 20' per round. The caster must concentrate, and the movement stops if concentration is broken.</p>\n                      <p><strong>Saving Throws:</strong> An unwilling creature may make a saving throw vs. spells to avoid being moved. If an item is being held, the holder may make a saving throw with a -2 penalty. For items carried but not held, the owner may attempt to grab it with a saving throw at a -5 penalty.</p>",
-      "name": "Telekinesis"
+      "name": "Telekinesis",
+      "spellEffect": "200 cn of weight per level of caster"
     },
     "Teleport": {
       "description": "<p>This spell instantly transports the caster or another creature within 10' to any unoccupied destination on the same plane. Distance does not matter, and the recipient arrives at the destination with all carried equipment. An unwilling target can make a saving throw vs. spells to avoid teleportation.</p>\n                      <p><strong>Restrictions on Destination:</strong> The caster cannot deliberately teleport to an occupied space, and must choose a solid surface for arrival (such as ground level or a building top), not mid-air.</p>\n                      <p><strong>Teleportation Accuracy:</strong> Teleporting carries a risk of inaccuracy based on the caster’s familiarity with the location. Familiarity levels—Casual, General, and Exact—impact the chance of success. The DM rolls d% and consults the table below.</p>\n                      <table>\n                        <thead>\n                          <tr><th>Knowledge of Destination</th><th>Success</th><th>Too High</th><th>Too Low</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Casual (visited once or twice, or by description)</td><td>01-50</td><td>51-75</td><td>76-00</td></tr>\n                          <tr><td>General (visited often or studied magically)</td><td>01-80</td><td>81-90</td><td>91-00</td></tr>\n                          <tr><td>Exact (detailed personal study)</td><td>01-95</td><td>96-99</td><td>00</td></tr>\n                        </tbody>\n                      </table>\n                      <p><strong>Teleport Results:</strong></p>\n                      <ul>\n                        <li><strong>Success:</strong> The recipient arrives at the chosen location.</li>\n                        <li><strong>Too High:</strong> The recipient arrives 1d10 x 10' above the destination, taking 1d6 points of damage per 10' fallen, unless flying or levitating.</li>\n                        <li><strong>Too Low:</strong> The recipient arrives 1d10 x 10' below the destination. Teleporting into solid objects results in instant death unless an open area (e.g., a cave) exists there, at the DM's discretion.</li>\n                      </ul>",
-      "name": "Teleport"
+      "name": "Teleport",
+      "spellEffect": "Transports one creature with equipment"
     },
     "Tent": {
       "description": "<p>Large enough for 2 adult humans.</p>",
@@ -1473,7 +1676,10 @@
     },
     "Truesight": {
       "description": "<p>With *Truesight*, the cleric gains the ability to see all things as they truly are within a 120' radius. The spell reveals all hidden, invisible, and ethereal objects or creatures, functioning as the *detect invisible* spell.</p>\n                      <p>Additionally, the cleric perceives any secret doors, and can see through any form of disguise, polymorph, or other alterations. Deception is impossible. The spell also reveals creatures' alignments, experience, and power levels.</p>",
-      "name": "Truesight"
+      "name": "Truesight",
+      "spellDuration": "1 turn + 1 round per caster level",
+      "spellEffect": "Reveals true forms of all things within 120'",
+      "spellRange": "0"
     },
     "Turn Undead": {
       "description": "<p>Roll [[/r 2d6 #Turn Undead]] for entries with numbers.</p><table style=\"border-style:none; border-width:1px; padding:4px; max-width:800px;\"><thead><tr><th style=\"text-align:left; max-width:83px;\"></th><th style=\"text-align:center; padding:4px;\" colspan=\"17\"><strong>Cleric's Level</strong></th></tr><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; max-width:83px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">1</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">2</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">3</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">4</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">5</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">6</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">8</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-10</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11-12</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">13-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-16</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">17-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-24</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">25-28</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">29-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr></tbody></table><p><strong>Notes:</strong></p><ul><li><strong>7, 9, or 11</strong>: Number needed to turn successfully.</li><li><strong>T</strong>: Automatic turn; turns 2d6 Hit Dice of undead.</li><li><strong>D</strong>: Automatic destroy; destroys 2d6 Hit Dice of undead.</li><li><strong>D+</strong>: Automatic destroy; destroys 3d6 Hit Dice of undead.</li><li><strong>D#</strong>: Automatic destroy; destroys 4d6 Hit Dice of undead.</li></ul><p>Clerics have the divine power to repel or even destroy certain undead creatures, such as skeletons, zombies, and more powerful types. This ability is known as <strong>Turn Undead</strong>. When encountering these undead beings, the cleric can choose to either engage them in combat with weapons or spells, or attempt to turn them.</p><p>To turn undead, the cleric simply announces the intention to do so to the Dungeon Master. No holy symbol or other item is needed unless the DM specifies otherwise. The success of this attempt depends on the cleric’s level and the type of undead faced, as indicated on the Turning Undead table.</p><p>If the cleric succeeds, one or more undead creatures will flee or be destroyed immediately, depending on the result. However, a failed attempt means that particular undead creature cannot be turned by the cleric again during the same encounter. Multiple attempts are allowed in future encounters.</p><p>Should the attempt succeed, the Dungeon Master rolls to determine how many Hit Dice worth of undead are turned. At least one undead creature will always be affected. A turned undead creature will retreat as far as possible, but it has not been destroyed and may return after some time.</p>",
@@ -1505,7 +1711,8 @@
     },
     "Ventriloquism": {
       "description": "<p>This spell allows the caster to make their voice seem to come from another location within range, such as a statue, animal, or a dark corner. The \"source\" of the voice must be within the spell's range.</p>",
-      "name": "Ventriloquism"
+      "name": "Ventriloquism",
+      "spellEffect": "One item or location"
     },
     "Veterinary Healing": {
       "description": "\n        <p>This skill is similar to the Healing skill but pertains to creatures other than humans or demihumans, such as monsters, animals, and other nonhuman creatures. A successful skill roll allows the character to restore [[/r 1d3 #Veterinary Healing (Hit Points Restored)]] hit points to a creature. This skill can be taken in two ways:</p>\n        <ul>\n          <li><strong>General Veterinary Healing</strong>: A +1 penalty applies for each type of creature the character treats.</li>\n          <li><strong>Specialized Veterinary Healing</strong>: Pertains to one specific class of creatures (e.g., equines), with no penalty for that class but a +2 penalty for all others.</li>\n        </ul>\n        <p>A character with this skill who attempts to treat humans or demihumans must roll with a +3 penalty.</p>\n      ",
@@ -1517,19 +1724,24 @@
     },
     "Wall of Fire": {
       "description": "<p>This spell creates a thin, vertical wall of fire in any shape or dimension, totaling 1,200 square feet (e.g., 10' x 120', 20' x 60', 30' x 40'). The wall is opaque and blocks sight, and it cannot be created in a space already occupied by another object.</p>\n                      <p><strong>Duration:</strong> The wall remains as long as the caster concentrates on it without moving.</p>\n                      <p><strong>Breaking Through:</strong> Creatures with less than 4 Hit Dice cannot pass through the wall. Creatures with 4 HD or more may pass through, taking 1d6 fire damage in the process. Undead and cold-using creatures (e.g., white dragons, frost giants) each take double damage (2d6) when breaking through.</p>",
-      "name": "Wall of Fire"
+      "name": "Wall of Fire",
+      "spellEffect": "Creates 1200 square feet of fire"
     },
     "Wall of Ice": {
       "description": "<p>This spell creates a thin, opaque wall of ice covering up to 1,200 square feet (e.g., 10' x 120' or 30' x 40'). The caster chooses the shape, but the wall must rest on the ground or similar support and cannot overlap with other objects.</p>\n                      <p><strong>Breaking Through:</strong> Creatures with less than 4 Hit Dice cannot break through the wall. Creatures with 4 HD or more can break through, taking 1d6 damage in the process. Fire-type creatures suffer double damage (2d6) when breaking through.</p>",
-      "name": "Wall of Ice"
+      "name": "Wall of Ice",
+      "spellEffect": "Wall of 1,200 square feet"
     },
     "Wall of Stone": {
       "description": "<p>This spell creates a vertical stone wall, 2' thick. The caster selects the wall’s dimensions and shape, up to a maximum area of 500 square feet (e.g., 10' x 50', 20' x 25'). The entire wall must be within 60' of the caster.</p>\n                      <p><strong>Placement and Durability:</strong> The wall must be created on the ground or a similar support and cannot occupy a space that already contains another object. The wall lasts until it is either dispelled or physically broken.</p>\n                      <p><strong>Falling Wall:</strong> If the wall topples, it causes 10d10 damage to whatever it hits and then shatters.</p>",
-      "name": "Wall of Stone"
+      "name": "Wall of Stone",
+      "spellDuration": "Special",
+      "spellEffect": "Creates 1000 cubic feet of stone"
     },
     "Warp Wood": {
       "description": "<p>This spell causes wooden weapons to bend and become useless. It affects one arrow for each level of the caster. A spear, javelin, or magical wand counts as two arrows, and a club, bow, or staff counts as four.</p>\n                <p>The spell does not affect other wooden items. If a magical wooden item is targeted, the wielder may make a saving throw vs. spells to avoid the effect. Items carried but not held get no saving throw. Magical items with \"pluses\" might not be affected, with a 10% chance per \"plus\" (for example, an arrow +1 has a 10% chance to be unaffected).</p>",
-      "name": "Warp Wood"
+      "name": "Warp Wood",
+      "spellEffect": "Causes wooden weapons to bend"
     },
     "Water": {
       "description": "<p>Two quarts of drinkable water.</p>",
@@ -1537,7 +1749,8 @@
     },
     "Water Breathing": {
       "description": "<p>This spell enables the recipient to breathe underwater at any depth for one full day. It does not affect movement underwater and does not interfere with breathing air.</p>",
-      "name": "Water Breathing"
+      "name": "Water Breathing",
+      "spellEffect": "One air-breathing creature"
     },
     "Waterskin/Wineskin": {
       "description": "<p>A flexible container made of leather or a preserved animal bladder, with a capacity of two quarts. When filled, it has an encumbrance of 30 coins; when empty, 5 coins. A normal-sized person drinks about 2qts of water per day.</p>",
@@ -1545,7 +1758,8 @@
     },
     "Web": {
       "description": "\n        <p>This spell conjures a thick, sticky web that fills the affected area. The web traps creatures, restricting movement and blocking passage. Giants or creatures with great strength can break through the web in 2 rounds, while a human of average strength will take [[/r 2d4 #Escape Time in Turns]] turns to break free.</p>\n        <p>Flames, such as from a torch, will burn away the web in 2 rounds, dealing [[/r 1d6 #Fire Damage]] damage to anyone caught in it. Magical items like gauntlets of ogre power reduce escape time to 4 rounds.</p>\n      ",
-      "name": "Web"
+      "name": "Web",
+      "spellEffect": "A volume 10' x 10' x 10'"
     },
     "Whip": {
       "name": "Whip"
@@ -1560,11 +1774,13 @@
     },
     "Wizard Eye": {
       "description": "<p>This spell creates an invisible eye, through which the caster can see. The eye is the size of a normal eye and grants the caster infravision with a range of 60'.</p>\n                      <p><strong>Movement:</strong> The wizard eye floats through the air at a speed of up to 120' per turn but cannot pass through solid objects. It cannot move further than 240' from the caster.</p>\n                      <p><strong>Concentration:</strong> The caster must concentrate without moving to see through the eye, directing its movement and observing through it for the spell’s duration.</p>",
-      "name": "Wizard Eye"
+      "name": "Wizard Eye",
+      "spellEffect": "Creates movable invisible eye"
     },
     "Wizard Lock": {
       "description": "\n        <p>This spell functions as a stronger version of the hold portal spell. It can be used on any portal or lock, not just doors, and it remains in effect indefinitely unless dispelled by magic.</p>\n        <p>A knock spell can bypass the wizard lock temporarily. The caster who placed the lock, as well as any spellcaster or creature with three or more levels (or Hit Dice) greater than the caster, can open the locked portal without removing the spell. Once the portal is closed again, the lock re-engages.</p>\n      ",
-      "name": "Wizard Lock"
+      "name": "Wizard Lock",
+      "spellEffect": "One portal or lock"
     },
     "Wolfsbane": {
       "description": "<p>Sold dried or fresh in single sprigs, this herb is used to drive off lycanthropes, who cannot abide its presence. The sprig must be swung or thrown as a weapon to be effective.</p>",
@@ -1572,7 +1788,8 @@
     },
     "Woodform": {
       "description": "<p>This spell creates a mass of wood, up to 1,000 cubic feet in volume, which may be arranged in any shape the caster desires (e.g., 10' x 10' x 10' block, 25' x 20' x 2' wall).</p>\n                      <p><strong>Casting Time:</strong> Varies by design complexity. Simple shapes, like a wall, take 1 round. A staircase may take 10 rounds (1 turn), while more complex designs, like a ship keel, can take up to 12 turns (2 hours). The DM decides casting time for complex designs.</p>\n                      <p><strong>Object Properties:</strong> The wood must be created as a single piece with no moving parts. Once created, the wood is permanent, non-dispellable, and cannot be modified by further woodform spells unless cast by the original caster within two hours to make refinements. The caster may create wood with rough edges, which another woodform can later seamlessly join to the first.</p>\n                      <p>The wood must rest on solid ground or a similar support, and cannot occupy a space already containing an object. The type of wood can be chosen by the caster but may be limited by the DM, especially for exotic or magical woods.</p>\n                      <p><strong>Durability:</strong> The wood lasts until destroyed by damage (e.g., burning, breaking) or spells like *Disintegrate*. It has an AC of -4 (6) and 60 hit points per 1' thickness, based on the Fortifications Table (page 137). Most exterior wooden walls are 8\" thick, giving them 40 hit points.</p>",
-      "name": "Woodform"
+      "name": "Woodform",
+      "spellEffect": "Creates 1,000 cubic feet of wood"
     },
     "Wrestling": {
       "description": "\n            <p>The Wrestling skill enables a character to grapple, pin, or otherwise subdue opponents using hand-to-hand combat techniques. A successful skill roll improves the character's Wrestling Rating (WR), providing a +1 bonus per skill level.</p>\n            <p>In wrestling combat, a character with Wrestling skill gains a bonus on their Wrestling Rating for initiating or resisting grapples and pins. The higher the skill level, the more effective the character becomes, providing a cumulative +1 to WR per level (e.g., Wrestling +1 skill gives +2 WR).</p>\n            <p>This skill is especially useful in situations where the character needs to subdue an opponent without lethal force, or in confined spaces where weapons are impractical. Mastery in Wrestling also allows for improved control over an opponent’s movements, reducing their ability to counterattack or escape.</p>\n        ",
