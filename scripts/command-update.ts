@@ -29,8 +29,6 @@ export async function commandUpdate(
 
   const langData = mergeAll([{}, ...allLangs]) as TranslationStrings;
 
-  await writeFile("./en.json", JSON.stringify(langData, null, 2));
-
   const packsWithData: PackWithData[] = await Promise.all(
     moduleJson.packs.map(async (pack) => {
       const extractedFilePath = resolve(extracted, pack.name + ".json");
@@ -50,10 +48,15 @@ export async function commandUpdate(
 
   const packsMap = new Map(packsWithData.map((p) => [p.name, p]));
 
+  const common: TranslationStrings = {
+    spellRange: Object.fromEntries(commonSpellRange.map((x) => [x, x])),
+    spellDuration: Object.fromEntries(commonSpellDuration.map((x) => [x, x])),
+  };
+
   for (const pack of packsWithData) {
     switch (pack.type) {
       case "Actor":
-        await handleActor(pack as any);
+        await handleActor(pack as any, common);
         break;
       case "Item":
         await handleItem(pack as any);
@@ -66,6 +69,10 @@ export async function commandUpdate(
         break;
     }
   }
+
+  langData["FADE_TRANSLATIONS"] = common;
+
+  await writeFile("./en.json", JSON.stringify(langData, null, 2));
 }
 
 async function handlePackFolders(pack: PackWithData, out: Compendium) {
@@ -74,12 +81,14 @@ async function handlePackFolders(pack: PackWithData, out: Compendium) {
   }
 }
 
-async function handleActor(pack: PackWithData<EntryActor>) {
+async function handleActor(
+  pack: PackWithData<EntryActor>,
+  common: TranslationStrings
+) {
   const out: Compendium = {
     label: pack.label,
     folders: {},
     entries: {},
-    common: {},
   };
 
   await handlePackFolders(pack, out);
@@ -95,14 +104,14 @@ async function handleActor(pack: PackWithData<EntryActor>) {
     }
     if (entry.type === "monster") {
       if (entry.system.details.alignment) {
-        (out.common!.alignment ??= {})[entry.system.details.alignment] =
+        (common.monsterAlignment ??= {})[entry.system.details.alignment] =
           entry.system.details.alignment;
       }
       if (entry.system.details.monsterType) {
         outEntry.monsterType = entry.system.details.monsterType;
       }
       if (entry.system.details.size) {
-        (out.common!.size ??= {})[entry.system.details.size] =
+        (common.monsterSize ??= {})[entry.system.details.size] =
           entry.system.details.size;
       }
     }
@@ -168,10 +177,6 @@ async function handleItem(pack: PackWithData<EntryItem>) {
     label: pack.label,
     folders: {},
     entries: {},
-    common: {
-      spellRange: Object.fromEntries(commonSpellRange.map((x) => [x, x])),
-      spellDuration: Object.fromEntries(commonSpellDuration.map((x) => [x, x])),
-    },
   };
 
   await handlePackFolders(pack, out);
@@ -235,7 +240,6 @@ interface Compendium {
   mapping?: Record<string, string | { path: string; converter: string }>;
   entries: TranslationStrings;
   folders?: Record<string, string>;
-  common?: TranslationStrings;
 }
 
 interface BaseEntry {
