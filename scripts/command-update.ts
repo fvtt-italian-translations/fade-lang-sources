@@ -79,6 +79,7 @@ async function handleActor(pack: PackWithData<EntryActor>) {
     label: pack.label,
     folders: {},
     entries: {},
+    common: {},
   };
 
   await handlePackFolders(pack, out);
@@ -88,6 +89,22 @@ async function handleActor(pack: PackWithData<EntryActor>) {
     outEntry.name = entry.name;
     if (entry.system.biography) {
       outEntry.biography = entry.system.biography;
+    }
+    if (entry.system.gm.notes) {
+      outEntry.gmNotes = entry.system.gm.notes;
+    }
+    if (entry.type === "monster") {
+      if (entry.system.details.alignment) {
+        (out.common!.alignment ??= {})[entry.system.details.alignment] =
+          entry.system.details.alignment;
+      }
+      if (entry.system.details.monsterType) {
+        outEntry.monsterType = entry.system.details.monsterType;
+      }
+      if (entry.system.details.size) {
+        (out.common!.size ??= {})[entry.system.details.size] =
+          entry.system.details.size;
+      }
     }
 
     for (const item of entry.items) {
@@ -101,10 +118,7 @@ async function handleActor(pack: PackWithData<EntryActor>) {
 
       const outItem = ((outEntry.items ??= {})[item._id] =
         {} as TranslationStrings);
-      outItem.name = item.name;
-      if (item.system.description) {
-        outItem.description = item.system.description;
-      }
+      handleItemEmbed(outItem, item);
     }
   }
 
@@ -112,24 +126,59 @@ async function handleActor(pack: PackWithData<EntryActor>) {
   await writeFile(join("compendium", pack.name + ".json"), outData);
 }
 
+const commonSpellRange = ["Touch", "Personal"];
+function isCommonSpellRange(range: string) {
+  return range.match(/^\d+'$/) || commonSpellRange.includes(range);
+}
+
+const commonSpellDuration = ["Instantaneous", "Permanent", "Concentration"];
+function isCommonSpellDuration(duration: string) {
+  return (
+    duration.match(/^\d+ (round|turn|day|hour)s?$/) ||
+    commonSpellDuration.includes(duration)
+  );
+}
+
+function handleItemEmbed(outEntry: TranslationStrings, entry: EntryItem) {
+  outEntry.name = entry.name;
+  if (entry.system.description) {
+    outEntry.description = entry.system.description;
+  }
+  if (entry.system.gm?.notes) {
+    outEntry.gmNotes = entry.system.gm.notes;
+  }
+  if (entry.type === "spell") {
+    if (entry.system.range && !isCommonSpellRange(entry.system.range)) {
+      outEntry.spellRange = entry.system.range;
+    }
+    if (
+      entry.system.duration &&
+      !isCommonSpellDuration(entry.system.duration)
+    ) {
+      outEntry.spellDuration = entry.system.duration;
+    }
+    if (entry.system.effect) {
+      outEntry.spellEffect = entry.system.effect;
+    }
+  }
+}
+
 async function handleItem(pack: PackWithData<EntryItem>) {
   const out: Compendium = {
     label: pack.label,
     folders: {},
     entries: {},
+    common: {
+      spellRange: Object.fromEntries(commonSpellRange.map((x) => [x, x])),
+      spellDuration: Object.fromEntries(commonSpellDuration.map((x) => [x, x])),
+    },
   };
 
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
     const outEntry: TranslationStrings = (out.entries[entry.name] = {});
-    outEntry.name = entry.name;
-    if (entry.system.description) {
-      outEntry.description = entry.system.description;
-    }
-    if (entry.system.gm?.notes) {
-      outEntry.gmNotes = entry.system.gm.notes;
-    }
+    handleItemEmbed(outEntry, entry);
   }
 
   const outData = JSON.stringify(out, orderKeysReplacer, 2);
@@ -186,6 +235,7 @@ interface Compendium {
   mapping?: Record<string, string | { path: string; converter: string }>;
   entries: TranslationStrings;
   folders?: Record<string, string>;
+  common?: TranslationStrings;
 }
 
 interface BaseEntry {
@@ -198,45 +248,127 @@ interface BaseEntry {
   img: string;
 }
 
-interface EntryEmbeddedItem extends BaseEntry {
-  type: "weapon" | "specialAbility" | "armor";
-  system: {
-    tags: any[];
-    description: string;
-    gm: {
-      notes: string;
-    };
+interface EntryActorBase extends BaseEntry {
+  prototypeToken: {
+    name: string;
   };
+  items: EntryItem[];
 }
 
-interface EntryActor extends BaseEntry {
-  system: {
+interface SystemActorBase {
+  biography: string;
+  encumbrance: {
+    label: string;
+    desc: string;
+  };
+  languages: string;
+  gm: { notes: "" };
+}
+
+interface EntryActorMonster extends EntryActorBase {
+  type: "monster";
+  system: SystemActorBase & {
     details: {
       alignment: string;
       size: string;
       monsterType: string;
     };
-    biography: string;
-    encumbrance: {
-      label: string;
-      desc: string;
-    };
   };
-  prototypeToken: {
-    name: string;
-  };
-  items: EntryEmbeddedItem[];
 }
 
-interface EntryItem extends BaseEntry {
-  system: {
-    tags: any[];
-    description: string;
-    gm?: {
-      notes: string;
+interface EntryActorCharacter extends EntryActorBase {
+  type: "character";
+  system: SystemActorBase & {
+    details: {
+      alignment: string;
+      class: string;
+      species: string;
+      title: string;
+      sex: string;
+      height: string;
+      weight: string;
+      eyes: string;
+      hair: string;
     };
   };
 }
+
+type EntryActor = EntryActorMonster | EntryActorCharacter;
+
+interface EntryItemBase extends BaseEntry {}
+
+interface SystemItemBase {
+  description: string;
+  gm: { notes: "" };
+  fuelType: string;
+  ammoType: string;
+}
+
+interface EntryItemItem extends EntryItemBase {
+  type: "item";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemArmor extends EntryItemBase {
+  type: "armor";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemSkill extends EntryItemBase {
+  type: "skill";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemLight extends EntryItemBase {
+  type: "light";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemSpell extends EntryItemBase {
+  type: "spell";
+  system: SystemItemBase & {
+    range: string;
+    duration: string;
+    effect: string;
+  };
+}
+
+interface EntryItemWeapon extends EntryItemBase {
+  type: "weapon";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemMastery extends EntryItemBase {
+  type: "mastery";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemClass extends EntryItemBase {
+  type: "class";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemWeaponMastery extends EntryItemBase {
+  type: "weaponMastery";
+  system: SystemItemBase & {};
+}
+
+interface EntryItemSpecialAbility extends EntryItemBase {
+  type: "specialAbility";
+  system: SystemItemBase & {};
+}
+
+type EntryItem =
+  | EntryItemItem
+  | EntryItemArmor
+  | EntryItemSkill
+  | EntryItemLight
+  | EntryItemSpell
+  | EntryItemWeapon
+  | EntryItemMastery
+  | EntryItemClass
+  | EntryItemWeaponMastery
+  | EntryItemSpecialAbility;
 
 interface FolderEntry extends BaseEntry {}
 
