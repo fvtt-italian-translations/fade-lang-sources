@@ -713,7 +713,8 @@
         "modifier": "Modificatore",
         "target": "Bersaglio",
         "GMNotes": "Note del DM",
-        "category": "Categoria"
+        "category": "Categoria",
+        "vsMagic": "contro Magia"
     },
     "SETTINGS": {
         "Encumbrance": {
@@ -758,7 +759,7 @@
         },
         "toHitSystem": {
             "choices": {
-                "heroic": "Tabella Eroica di Combattimento",
+                "heroic": "BECMI",
                 "darkdungeons": "Dark Dungeons",
                 "aac": "CAA e Attacco Bonus",
                 "thac0": "Solo THAC0 (senza tabella TPC)",
@@ -849,7 +850,24 @@
         "monsterAlignment": {
             "Neutral": "Neutrale",
             "Lawful": "Legale",
-            "Chaotic": "Caotico"
+            "Chaotic": "Caotico",
+            "Any": "Qualsiasi",
+            "None": "Nessuno",
+            "Chaotic or Neutral": "Caotico o Neutrale"
+        },
+        "spellRange": {
+            "Touch": "Tocco",
+            "Personal": "Se stesso/a"
+        },
+        "spellDuration": {
+            "Instantaneous": "Istantaneo",
+            "Permanent": "Permanente",
+            "Concentration": "Concentrazione"
+        },
+        "monsterSize": {
+            "M": "M",
+            "S": "P",
+            "L": "G"
         }
     }
 }
