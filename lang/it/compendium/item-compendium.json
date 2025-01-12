@@ -47,18 +47,23 @@
         },
         "Animate Dead": {
             "name": "Animare i Morti",
-            "description": "<p>Questo incantesimo anima scheletri o zombi da scheletri normali o cadaveri nel raggio d'azione. Le creature non morte animate seguiranno i comandi dell'incantatore fino a quando non verranno distrutte da un chierico o da un incantesimo di *Dispel Magic*.</p>\n                      <p><strong>Dadi Vita:</strong> Per ogni livello dell'incantatore, può essere animato un Dado Vita di non morti. Gli scheletri hanno gli stessi Dadi Vita della creatura originale, mentre gli zombi guadagnano un Dado Vita extra. Gli umani e i semiumani sono considerati creature da 1 DV per questo incantesimo.</p>\n                      <p>Gli non morti animati non possono lanciare incantesimi ma sono immuni al sonno, agli effetti di charme e al veleno.</p>"
+            "description": "<p>Questo incantesimo anima scheletri o zombi da scheletri normali o cadaveri nel raggio d'azione. Le creature non morte animate seguiranno i comandi dell'incantatore fino a quando non verranno distrutte da un chierico o da un incantesimo di *Dispel Magic*.</p>\n                      <p><strong>Dadi Vita:</strong> Per ogni livello dell'incantatore, può essere animato un Dado Vita di non morti. Gli scheletri hanno gli stessi Dadi Vita della creatura originale, mentre gli zombi guadagnano un Dado Vita extra. Gli umani e i semiumani sono considerati creature da 1 DV per questo incantesimo.</p>\n                      <p>Gli non morti animati non possono lanciare incantesimi ma sono immuni al sonno, agli effetti di charme e al veleno.</p>",
+            "spellEffect": "Crea zombie o scheletri"
         },
         "Anti-Plant Shell": {
             "name": "Barriera anti Piante",
-            "description": "<p>Questo incantesimo crea una barriera invisibile attorno al corpo del druido (a meno di un pollice di distanza) che blocca tutti gli attacchi delle piante e previene i danni da mostri simili a piante.</p>\n                      <p><strong>Effetto sul Movimento:</strong> Mentre è protetto, il druido può attraversare la vegetazione densa, creando un percorso che altri possono seguire. La barriera impedisce al druido di attaccare fisicamente le piante, sebbene gli incantesimi possano ancora essere lanciati contro di esse.</p>"
+            "description": "<p>Questo incantesimo crea una barriera invisibile attorno al corpo del druido (a meno di un pollice di distanza) che blocca tutti gli attacchi delle piante e previene i danni da mostri simili a piante.</p>\n                      <p><strong>Effetto sul Movimento:</strong> Mentre è protetto, il druido può attraversare la vegetazione densa, creando un percorso che altri possono seguire. La barriera impedisce al druido di attaccare fisicamente le piante, sebbene gli incantesimi possano ancora essere lanciati contro di esse.</p>",
+            "spellDuration": "1 round per livello del druido",
+            "spellEffect": "Barriera personale che blocca le piante",
+            "spellRange": "0 (druido)"
         },
         "Aquamarine": {
             "name": "Acquamarina",
             "description": "<p>L'Acquamarina è una gemma di colore azzurro chiaro con una superficie liscia e lucida. Ha un aspetto cristallino che riflette la luce, mostrando la sua chiarezza e tonalità delicata. Spesso utilizzata nei gioielli, l'acquamarina è apprezzata per la sua brillantezza e il colore tranquillo.</p>"
         },
         "Arrow (silver)": {
-            "name": "Freccia (argento)"
+            "name": "Freccia (argento)",
+            "description": "<p>Una freccia con la punta d'argento. Può essere usata per danneggiare alcuni tipi di creature come i licantropi.</p>"
         },
         "Art (Choose Type)": {
             "name": "Arte (Scegli Tipo)",
@@ -79,37 +84,47 @@
             "name": "Accetta"
         },
         "Backpack": {
-            "name": "Zaino"
+            "name": "Zaino",
+            "description": "<p>Uno zaino robusto usato per trasportare attrezzature sulla schiena del personaggio. Le cinghie sulle spalle lasciano le mani del personaggio libere per altre azioni. Ha una capacità di 400 monete.</p>"
         },
         "Backstab": {
-            "name": "Colpire alle Spalle"
+            "name": "Colpire alle Spalle",
+            "description": "<p>Quando attacca un avversario ignaro alle spalle, un ladro ottiene un bonus di +4 per colpire e infligge danni doppi.</p>"
         },
         "Banded Mail": {
-            "name": "Corazza a Bande"
+            "name": "Corazza a Bande",
+            "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>"
         },
         "Bargaining": {
-            "name": "Contrattare"
+            "name": "Contrattare",
+            "description": "\n        <p>La competenza nel Negoziare consente a un personaggio di contrattare condizioni favorevoli nelle transazioni o negli accordi. Copre il mercanteggiare sui prezzi, fare argomentazioni persuasive negli accordi commerciali e trovare compromessi che soddisfino tutte le parti. Una prova di Negoziare riuscita può risultare in prezzi migliori, termini vantaggiosi o contratti redditizi.</p>\n      "
         },
         "Bedroll": {
-            "name": "Sacco a pelo"
+            "name": "Sacco a pelo",
+            "description": "<p>Una coperta pesante di legno con un piccolo cuscino.</p>"
         },
         "Blackjack": {
             "name": "Manganello"
         },
         "Bless*": {
-            "name": "Benedizione*"
+            "name": "Benedizione*",
+            "spellEffect": "Tutti entro un'area di 6 metri quadrati",
+            "description": "<p>Questo incantesimo aumenta il morale delle creature amiche di +1 e concede loro un bonus di +1 a tutti i tiri per colpire e ai danni. Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p><p>La forma inversa, <em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p>"
         },
         "Blind Shooting": {
-            "name": "Tiro alla cieca"
+            "name": "Tiro alla cieca",
+            "description": "\n        <p>Questa abilità consente al personaggio di sparare a un bersaglio senza vederlo, solitamente utilizzata nell'oscurità o quando il bersaglio è fuori dalla portata visiva o dall'infravisione. Il personaggio deve essere in grado di sentire il bersaglio per valutarne la posizione. Una prova di abilità riuscita consente un colpo senza penalità dovute all'oscurità, anche se è ancora richiesto un tiro per colpire per centrare il bersaglio.</p>\n        "
         },
         "Blowgun, Long": {
-            "name": "Cerbottana (60 cm +)"
+            "name": "Cerbottana Lunga",
+            "description": "<p>Questa arma è un tubo che misura tra 60 cm e 1,2 metri di lunghezza. L'utente inserisce un piccolo dardo o spina nel tubo, lo punta verso un bersaglio e soffia aria dentro, lanciando il dardo verso il bersaglio. I dardi stessi non causano danni; tuttavia, sono tipicamente rivestiti di veleno. Un dardo da cerbottana graffia solo la vittima, risultando in una penetrazione minima e nessun danno significativo. Se colpita, la vittima deve superare un tiro salvezza contro il veleno o subire i suoi effetti. A seconda delle dimensioni o del livello di esperienza della vittima, potrebbe ricevere un bonus al tiro salvezza (fare riferimento alla Tabella degli Effetti Speciali delle Armi). Nessuna creatura non-morta o immune al veleno può essere influenzata da una cerbottana.</p><p>Usare veleno letale come arma è considerato un atto immorale. A causa dei suoi rischi, le autorità locali o regionali possono vietare il veleno, e in tal caso, i personaggi Legali generalmente si astengono dall'usarlo. Il Dungeon Master (DM) può decidere di vietare ai personaggi giocanti di utilizzare veleni nella loro campagna. I giocatori dovrebbero essere informati che, se scelgono di equipaggiare i loro personaggi con cerbottane, dovrebbero aspettarsi che anche i mostri le possiedano.</p><p>Le cerbottane più lunghe richiedono due mani per essere maneggiate; pertanto, l'utente non può usare uno scudo e perderà sempre l'iniziativa individuale contro i personaggi che usano armi a una mano. Gli halfling e i piccoli non umani, come i goblin, non possono usare questa arma.</p>"
         },
         "Blowgun, Short": {
-            "name": "Cerbottana (<60 cm)"
+            "name": "Cerbottana Corta",
+            "description": "<p>Questa arma è un tubo che misura da 15-60 cm di lunghezza. L'utente inserisce un piccolo dardo o spina nel tubo, lo punta verso un bersaglio e soffia aria dentro, lanciando il dardo verso il bersaglio. I dardi stessi non causano danni; tuttavia, sono tipicamente rivestiti di veleno. Un dardo da cerbottana graffia solo la vittima, risultando in una penetrazione minima e nessun danno significativo. Se colpita, la vittima deve superare un tiro salvezza contro il veleno o subire i suoi effetti. A seconda delle dimensioni o del livello di esperienza della vittima, potrebbe ricevere un bonus al tiro salvezza (fare riferimento alla Tabella degli Effetti Speciali delle Armi). Nessuna creatura non-morta o immune al veleno può essere influenzata da una cerbottana.</p><p>Usare veleno letale come arma è considerato un atto immorale. A causa dei suoi rischi, le autorità locali o regionali possono vietare il veleno, e in tal caso, i personaggi Legali generalmente si astengono dall'usarlo. Il Dungeon Master (DM) può decidere di vietare ai personaggi giocanti di utilizzare veleni nella loro campagna. I giocatori dovrebbero essere informati che, se scelgono di equipaggiare i loro personaggi con cerbottane, dovrebbero aspettarsi che anche i mostri le possiedano.</p><p>Le cerbottane più lunghe richiedono due mani per essere maneggiate; pertanto, l'utente non può usare uno scudo e perderà sempre l'iniziativa individuale contro i personaggi che usano armi a una mano. Gli halfling e i piccoli non umani, come i goblin, non possono usare questa arma.</p>"
         },
         "Blowgun, over 2'": {
-            "name": "Cerbottana (60 cm +)"
+            "name": "Cerbottana (> 60 cm)"
         },
         "Blowgun, to 2'": {
             "name": "Cerbottana (<60 cm)"
@@ -124,100 +139,150 @@
             "name": "Arco Corto"
         },
         "Bravery": {
-            "name": "Coraggio"
+            "name": "Coraggio",
+            "description": "\n        <p>Questa abilità consente al personaggio di resistere agli effetti della paura magica, nonché ai risultati dei controlli di morale o delle abilità come Intimidazione. I PNG che utilizzano questa abilità possono ignorare gli effetti della paura superando una prova di abilità.</p>\n        "
         },
         "Blight*": {
-            "name": "Maledizione* (minore)"
+            "name": "Maledizione* (minore)",
+            "description": "<p><em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p><p>Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p>",
+            "spellEffect": "Tutti entro un'area di 6 metri quadrati"
         },
         "Call Lightning": {
-            "name": "Invocare Fulmini"
+            "name": "Invocare Fulmini",
+            "spellDuration": "1 turno per livello dell'incantatore",
+            "spellEffect": "Chiama fulmini da una tempesta",
+            "description": "<p>Questo incantesimo permette al druido di chiamare fulmini da una tempesta. Deve esserci una tempesta di qualsiasi tipo entro 110 metri dal druido affinché l'incantesimo funzioni, anche se il druido non deve necessariamente trovarsi all'interno della tempesta stessa.</p>\n                      <p><strong>Effetto:</strong> Il druido può chiamare 1 fulmine per turno, colpendo qualsiasi punto bersaglio entro 110 metri. Ogni fulmine colpisce un'area di 6 metri di diametro. Le creature in questa area subiscono 8d6 (8-48) danni elettrici, anche se possono superare un tiro salvezza contro incantesimi per subire metà dei danni.</p>\n                      <p>Il druido può chiamare un fulmine ogni turno fintanto che la tempesta o la durata dell'incantesimo lo permettono.</p>"
         },
         "Caltrops (bag of 20)": {
-            "name": "Triboli (sacco da 20)"
+            "name": "Triboli (sacco da 20)",
+            "description": "<p>Piccoli chiodi di metallo sufficienti a coprire un'area di 1,5 metri quadrati. Le creature che si muovono attraverso l'area hanno una probabilità di 2 su 6 di calpestare un chiodo. Le vittime subiscono una riduzione del 50% della velocità di movimento finché non vengono guarite.</p><p>Massimo di 3 utilizzi.</p>"
         },
         "Carbuncle": {
-            "name": "Carbonchio"
+            "name": "Carbonchio",
+            "description": "<p>Un carbonchio non è una gemma specifica, ma un termine storicamente usato per riferirsi a qualsiasi gemma rossa, in particolare un granato rosso scuro o un rubino. È caratterizzato dal suo colore rosso scuro intenso e dalla superficie liscia e lucida. I carbonchi erano molto apprezzati nell'antichità per il loro aspetto straordinario e spesso venivano incastonati in gioielli e oggetti cerimoniali.</p>"
         },
         "Cause Critical Wounds*": {
-            "name": "Infliggi Ferite Critiche*"
+            "name": "Infliggi Ferite Critiche*",
+            "description": "<p>Questo incantesimo infligge 3d6 + 3 punti di danno a una creatura toccata dall'incantatore. È richiesto un tiro per colpire in mischia con successo.</p>",
+            "spellEffect": "Infligge danni critici a una creatura"
         },
         "Cause Disease*": {
-            "name": "Infliggi Malattie*"
+            "name": "Infliggi Malattie*",
+            "spellEffect": "Una creatura vivente entro portata",
+            "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Cure Disease duration in days]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>"
         },
         "Cause Fear*": {
-            "name": "Terrore*"
+            "name": "Terrore*",
+            "spellEffect": "Fugge per 2 turni.",
+            "description": "<p>La forma inversa dell'incantesimo, <em>Terrore</em>, farà fuggire qualsiasi creatura per due turni. La vittima può superare un tiro salvezza contro incantesimi per evitare l'effetto. Questo incantesimo inverso ha un raggio d'azione di 36 metri.</p>"
         },
         "Cause Light Wounds*": {
-            "name": "Infliggi Ferite Leggere*"
+            "name": "Infliggi Ferite Leggere*",
+            "description": "<p>Questo incantesimo cura una creatura vivente di [[/r 1d6+1 #Cure Light Wounds]] punti di danno (che non sia non-morta o non vivente). L'incantatore può curare se stesso con questo incantesimo.</p><p>In alternativa, l'incantesimo può essere utilizzato per curare la paralisi (eccetto quella causata da un incantesimo <em>Blocca Persone</em> o <em>Blocca Mostri</em>), sebbene in tal caso nessun danno verrà curato contemporaneamente.</p><p>L'incantesimo non aumenterà i punti ferita massimi del bersaglio.</p><p>Quando invertito, questo incantesimo, <em>infliggi ferite leggere</em>, causa [[/r 1d6+1 #Cause Light Wounds]] punti di danno al bersaglio. Non è consentito alcun tiro salvezza, ma l'incantatore deve effettuare un normale tiro per colpire per infliggere questo danno.</p>",
+            "spellEffect": "Una creatura vivente"
         },
         "Cause Serious Wounds*": {
-            "name": "Infliggi ferite Gravi*"
+            "name": "Infliggi ferite Gravi*",
+            "description": "<p>Questo incantesimo infligge 2d6 + 2 punti di danno a una creatura toccata dall'incantatore. È richiesto un tiro per colpire in mischia con successo.</p>",
+            "spellEffect": "Causa danno a una creatura"
         },
         "Caving": {
-            "name": "Scavare"
+            "name": "Scavare",
+            "description": "\n        <p>Il personaggio con questa abilità conosce sempre la propria posizione mentre esplora caverne, grotte e sistemi fluviali sotterranei. Ricorda automaticamente il percorso seguito finché è rimasto cosciente. Questa abilità è particolarmente utile per i nani e può anche aiutare i personaggi a navigare nei labirinti. Se disorientato o costretto a fuggire per una lunga distanza, è richiesta una prova di abilità per evitare di perdersi.</p>\n        "
         },
         "Ceremony (choose specific Immortal)": {
-            "name": "Cerimonia (scegli Immortale specifico)"
+            "name": "Cerimonia (scegli Immortale specifico)",
+            "description": "\n            <p>Il personaggio sa come onorare un Immortale attraverso rituali e cerimonie. Questa abilità consente a un chierico di eseguire i rituali normali del proprio ordine e potrebbe permettere a un personaggio di attirare l'attenzione di un Immortale tramite preghiere devote, digiuno o sacrificio. Questa abilità include la conoscenza di rituali graditi all'Immortale.</p>\n        "
         },
         "Cestus": {
-            "name": "Caestus"
+            "name": "Caestus",
+            "description": "<p>Il <strong>cestus</strong> (plurale: <em>cesti</em>) è un tipo di guanto o fasciatura per le mani con bordi ruvidi e taglienti sul dorso, progettato per aumentare il danno degli attacchi a pugno. Se la campagna include le regole opzionali per l'uso di due armi, un personaggio non subisce la penalità di -4 quando usa un cestus sulla mano secondaria.</p>"
         },
         "Chain Mail": {
-            "name": "Corazza di Maglia"
+            "name": "Corazza di Maglia",
+            "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare un materiale protettivo flessibile. La corazza di maglia conferisce al personaggio una classe di armatura 5.</p>"
         },
         "Charm Monster": {
-            "name": "Charme Mostri"
+            "name": "Charme Mostri",
+            "spellDuration": "Speciale",
+            "spellEffect": "Una o più creature viventi",
+            "description": "<p>Questo incantesimo ha effetti identici a quelli dell'incantesimo *Charme* ma può influenzare qualsiasi creatura tranne un mostro non-morto.</p>\n                      <p><strong>Bersagli Multipli:</strong> Quando viene lanciato su creature con 3 Dadi Vita o meno, affascina 3d6 (3-18) creature. Per creature con più di 3 Dadi Vita, colpisce solo un bersaglio.</p>\n                      <p>Ogni creatura può superare un tiro salvezza contro incantesimi per evitare l'effetto.</p>"
         },
         "Charm Person": {
-            "name": "Charme"
+            "name": "Charme",
+            "spellDuration": "Varie in base all'Intelligenza",
+            "spellEffect": "Una persona vivente (vedi descrizione)",
+            "description": "<p>Questo incantesimo colpisce umani, semiumani e alcune altre creature. Il bersaglio deve superare un tiro salvezza contro incantesimi; se fallisce, il bersaglio vede l'incantatore come il suo \"migliore amico\" e lo difenderà contro qualsiasi minaccia percepita. L'incantesimo non colpisce animali, creature magiche, non-morti o creature più grandi degli orchi.</p>\n                <p>La creatura affascinata obbedisce ai comandi amichevoli ma resiste a quelli che vanno contro la sua natura o causano autolesionismo. La durata dipende dall'Intelligenza del bersaglio, consentendo tiri salvezza periodici:</p>\n                <ul>\n                  <li><strong>Intelligenza Alta (13-18):</strong> Tiro salvezza ogni giorno</li>\n                  <li><strong>Intelligenza Media (9-12):</strong> Tiro salvezza ogni settimana</li>\n                  <li><strong>Intelligenza Bassa (3-8):</strong> Tiro salvezza ogni mese</li>\n                </ul>"
         },
         "Cheating": {
-            "name": "Imbrogliare"
+            "name": "Barare",
+            "description": "\n        <p>Questa è l'abilità di vincere ai giochi d'azzardo barando, come distribuire le carte dal fondo del mazzo. Una prova di abilità di Barare viene fatta contro ogni personaggio che viene imbrogliato. Se uno di loro riesce in una prova contro il tiro del baro, scopre l'inganno. Questa abilità è limitata ai personaggi di allineamento Caotico.</p>\n        "
         },
         "Chest (small strongbox)": {
-            "name": "Baule (piccola cassaforte)"
+            "name": "Baule (piccola cassaforte)",
+            "description": "<p>Gli scrigni sono scatole di legno rinforzate con coperchi e lati che sono stati realizzati in modo preciso per impedire a qualsiasi cosa di entrare o uscire dalla scatola. Il prezzo è per uno scatolato con lucchetto integrato e rinforzi metallici robusti.</p><table style=\"width: 280px; border-width: 1px; margin-left: 0px; margin-right: auto;\" border=\"1\"><colgroup><col><col></colgroup><tbody><tr><td style=\"border-width: 1px; padding: 4px;\">Peso sostenuto (kg/mon)</td><td style=\"border-width: 1px; padding: 4px;\">90/2.000</td></tr><tr><td style=\"border-width: 1px; padding: 4px;\">Volume sostenuto (metri cubi)</td><td style=\"border-width: 1px; padding: 4px;\">0.06 (38x38x38 cm)</td></tr><tr><td style=\"border-width: 1px; padding: 4px;\">Durezza/PF</td><td style=\"border-width: 1px; padding: 4px;\">6/4</td></tr></tbody></table><p> </p>"
         },
         "Clairvoyance": {
-            "name": "Chiaroveggenza"
+            "name": "Chiaroveggenza",
+            "description": "<p>Questo incantesimo permette all'incantatore di vedere attraverso gli occhi di qualsiasi creatura entro 18 metri. Ogni turno, l'incantatore può passare agli occhi di un'altra creatura nel raggio senza dover rilanciare l'incantesimo.</p>\n                      <p><strong>Restrizioni:</strong> L'effetto dell'incantesimo è bloccato da 60 cm di roccia o da un sottile strato di piombo. Non si applica alcun tiro salvezza.</p>",
+            "spellEffect": "Vedere attraverso gli occhi di un altro"
         },
         "Cleric": {
-            "name": "Chierico"
+            "name": "Chierico",
+            "description": "<p>Un chierico è un personaggio umano devoto a una causa significativa, come servire un Immortale o incarnare gli ideali del proprio allineamento. I chierici combinano abilità marziali con magia divina, usando la loro fede e le loro credenze per guarire, proteggere e combattere il male. Sono limitati a usare armi contundenti come mazze e bastoni, riflettendo la loro attenzione spirituale.</p>\n<h3>Caratteristiche Principali:</h3>\n<ul>\n  <li><strong>Requisito Primario</strong>: Saggezza, che garantisce un bonus di esperienza con un punteggio di 13 o superiore.</li>\n  <li><strong>Combattimento e Armature</strong>: I chierici possono indossare qualsiasi armatura e usare scudi, ma possono usare solo armi contundenti.</li>\n  <li><strong>Abilità Speciali</strong>: I chierici possono scacciare i non morti, usando il loro potere divino per respingerli o distruggerli. Iniziano a lanciare incantesimi clericali al 2º livello, concentrandosi su guarigione, protezione e divinazione.</li>\n  <li><strong>Tabella di Esperienza</strong>: Avanzano costantemente, guadagnando punti ferita e nuovi slot incantesimo a ogni livello.</li>\n</ul>\n<h3>Avanzamento:</h3>\n<ul>\n  <li>Al <strong>9º livello</strong>, un chierico riceve il titolo di Patriarca o Matriarca. Ha l'opzione di stabilire una roccaforte, che può essere una fortezza o un tempio al servizio del loro ordine clericale.</li>\n  <li><strong>Roccaforte</strong>: Costruire una roccaforte richiede terra, che di solito è concessa dalla gerarchia clericale o dai governanti locali. L'ordine del chierico può sovvenzionare i costi di costruzione, spesso coprendo fino al 50%.</li>\n  <li>Una roccaforte attira seguaci: 1d6 x 50 truppe fedeli dell'allineamento del chierico e 1d6 chierici di basso livello per assistere con i doveri religiosi. Questi seguaci non richiedono paga e hanno un'alto morale, riflettendo la loro devozione.</li>\n  <li>In alternativa, un chierico può scegliere di rimanere un chierico errante, libero dalle responsabilità della proprietà terriera, concentrandosi sull'aiutare gli altri e diffondere la loro fede attraverso missioni e avventure.</li>\n</ul>\n<p>I chierici sono fondamentali sia nei ruoli spirituali che bellici, capaci di influenzare il mondo attraverso la fede, la leadership e il potere divino. Il loro percorso spesso bilancia la crescita personale, i bisogni del loro ordine e le esigenze della loro vita avventurosa.</p>"
         },
         "Climb Walls": {
             "name": "Scalare Pareti"
         },
         "Clothes, Good": {
-            "name": "Abiti normali"
+            "name": "Abiti normali",
+            "description": "<p>Questi sono abiti di alta qualità, possibilmente adornati con elementi decorativi minori. Sono adatti per partecipare a eventi sociali e per i personaggi che desiderano fare una buona impressione.</p>"
         },
         "Clothes, Fine": {
-            "name": "Abiti raffinati"
+            "name": "Abiti raffinati",
+            "description": "<p>Questo abbigliamento è realizzato con i materiali più pregiati e spesso decorato con ricami, gioielli o altri ornamenti. È adatto per incontri nobiliari e altre occasioni di alto status sociale.</p>"
         },
         "Clothes, Plain": {
-            "name": "Abiti semplici"
+            "name": "Abiti semplici",
+            "description": "<p>Un set di abiti semplici come una tunica e pantaloni, una blusa e una gonna, un vestito o una veste. Adatto per la maggior parte dei viaggi e delle avventure. Non fornisce benefici speciali.</p>"
         },
         "Clothform": {
-            "name": "Formastoffa"
+            "name": "Formastoffa",
+            "spellEffect": "Crea fino a 9 x 9 metri di stoffa",
+            "description": "<p>Questo incantesimo crea fino a 9 x 9 metri di stoffa non magica in un unico pezzo. La stoffa è permanente e non può essere dissolta.</p>\n                      <p><strong>Modellazione:</strong> Se l'incantatore possiede un'abilità di Artigianato adeguata (o un background simile nei giochi di ruolo senza abilità), può modellare la stoffa durante la creazione, formando oggetti come tende, vele, indumenti o corde. La stoffa non sagomata può essere tagliata e lavorata successivamente.</p>\n                      <p><strong>Proprietà:</strong> La stoffa assomiglia a lino grezzo resistente. Può essere creata con un bordo non rifinito per unirsi senza problemi a ulteriore stoffa creata da un altro incantesimo *Formastoffa*, rendendola ideale per vele o grandi tessuti resistenti.</p>\n                      <p>La stoffa si estrude dalle mani dell'incantatore lungo il terreno, accumulandosi contro gli ostacoli senza spingerli. Non può essere creata in uno spazio occupato da un altro oggetto o attaccata a qualsiasi cosa eccetto altra stoffa *Formastoffa*.</p>\n                      <p>Questo incantesimo viene comunemente utilizzato per rifugi rapidi o per creare corde in situazioni di avventura.</p>"
         },
         "Cloudkill": {
-            "name": "Nube Mortale"
+            "name": "Nube Mortale",
+            "spellEffect": "Crea una nube velenosa in movimento",
+            "description": "<p>Questo incantesimo crea una nube velenosa, larga 9 metri e alta 6 metri, che appare accanto all'incantatore e si muove a una velocità di 18 metri (6 metri per round) in una direzione. La nube è più pesante dell'aria e calerà dove possibile, ma si dissiperà quando incontrerà alberi o vegetazione fitta. In spazi confinati, la dimensione della nube può essere limitata.</p>\n                      <p><strong>Effetti sulle Creature:</strong> Tutte le creature viventi all'interno della nube subiscono 1 punto di danno per round. Le creature con meno di 5 Dadi Vita devono superare un tiro salvezza contro veleno o morire.</p>"
         },
         "Club": {
-            "name": "Clava"
+            "name": "Clava",
+            "description": "<p>Una clava è un'arma contundente rudimentale, spesso poco più di un pezzo di legno dalla forma approssimativa, che può essere utilizzata con una mano.</p>"
         },
         "Club or Torch": {
             "name": "Clava o Torcia"
         },
         "Combat Bonuses": {
-            "name": "Bonus di Attacco"
+            "name": "Bonus di Attacco",
+            "description": "<p>Gli halfling ottengono un bonus di +1 a tutti i tiri per colpire quando usano armi a distanza, un bonus di +1 all'iniziativa individuale e un bonus di -2 alla CA quando vengono attaccati da creature più grandi di un uomo.</p>"
         },
         "Commune": {
-            "name": "Comunicazione con gli Dei"
+            "name": "Comunicazione con gli Dei",
+            "spellEffect": "3 domande consentite",
+            "spellRange": "0",
+            "description": "<p>Questo incantesimo permette al chierico di porre tre domande a cui si risponde con sì o no alle potenze superiori (come le forze della natura, gli spiriti maggiori o gli Immortali).</p>\n                      <p><strong>Utilizzo:</strong> Può essere usato solo una volta alla settimana. Il DM può limitare questo utilizzo a una volta al mese se viene usato eccessivamente. Una volta all'anno, il chierico può porre sei domande, solitamente in un giorno significativo per le potenze interrogate.</p>"
         },
         "Confuse Alignment*": {
-            "name": "Occultamento dell'Allineamento*"
+            "name": "Occultamento dell'Allineamento*",
+            "spellDuration": "Un turno per livello dell'incantatore",
+            "spellEffect": "Una creatura entro 3 metri",
+            "description": "<p><em>Occultamento dell' Allineamento</em> dura per un turno per livello dell'incantatore e può essere lanciato su una creatura tramite tocco. Non è consentito alcun tiro salvezza. Per la durata dell'incantesimo, qualsiasi tentativo di discernere l'allineamento del destinatario darà un risultato falso. Questo allineamento falso rimarrà coerente per tutti i successivi tentativi di rilevazione durante la durata dell'incantesimo.</p><p>Questo incantesimo permette all'incantatore di determinare l'allineamento (Legale, Neutrale o Caotico) di qualsiasi creatura entro 3 metri. Può anche rivelare l'allineamento di un oggetto incantato o di un'area, se applicabile.</p>"
         },
         "Confusion": {
-            "name": "Confusione"
+            "name": "Confusione",
+            "spellEffect": "3-18 creature in un'area di 18 metri di diametro",
+            "description": "<p>Questo incantesimo causa confusione tra le creature entro un raggio di 9 metri (18 metri di diametro). L'incantesimo colpisce da 3 a 18 creature nell'area, e le vittime con meno di 2 + 1 Dadi Vita falliscono automaticamente i loro tiri salvezza. Le creature con 2 + 1 o più Dadi Vita possono tentare un tiro salvezza contro incantesimi ogni round che rimangono nell'area per evitare la confusione.</p><p><strong>Effetti della Confusione:</strong> Ogni round, il DM tira [[/r 2d6 #effetto confusione]] per ogni creatura colpita per determinare la sua azione, secondo la tabella seguente:</p><p><strong>Risultati della Confusione</strong></p><table><thead><tr><th>Tiro 2d6</th><th>Risultato</th></tr></thead><tbody><tr><td>2-5</td><td>Attacca il gruppo dell'incantatore</td></tr><tr><td>6-8</td><td>Non fa nulla</td></tr><tr><td>9-12</td><td>Attacca il proprio gruppo</td></tr></tbody></table>"
         },
         "Conjure Elemental": {
             "name": "Evocare Elementali"
@@ -262,13 +327,13 @@
             "name": "Balestra Pesante"
         },
         "Crossbow, Hvy": {
-            "name": "Balestra Pesante"
+            "name": "Balestra Pes"
         },
         "Crossbow, Light": {
             "name": "Balestra Leggera"
         },
         "Crossbow, Lt": {
-            "name": "Balestra Leggera"
+            "name": "Balestra Leg"
         },
         "Crystal": {
             "name": "Cristallo"
@@ -1069,7 +1134,8 @@
             "name": "Torcia"
         },
         "Torch (weapon)": {
-            "name": "Torcia (arma)"
+            "name": "Torcia (arma)",
+            "description": "<p>Questa è solo una torcia normale, ma usata come arma. Se la torcia è spenta, infligge solo 1d2 danni. La torcia è considerata una clava infuocata ed è inclusa nella maestria nell'uso della clava.</p>"
         },
         "Tossed Item": {
             "name": "Oggetto lanciato"
@@ -1088,7 +1154,9 @@
         },
         "Analyze": {
             "name": "Analizzare Oggetti Magici",
-            "description": "<p>Questo incantesimo consente all'incantatore di maneggiare un oggetto e conoscere il suo incantamento. L'incantatore deve usare correttamente l'oggetto: gli elmi devono essere indossati, le spade tenute in mano, i braccialetti portati al polso, ecc. Qualsiasi conseguenza di questa azione, come oggetti maledetti o trappole, si riverserà sull'incantatore come di consueto, con tiri salvezza se applicabili.</p>\n                <p>L'incantatore ha una probabilità del 15% più un 5% per livello di determinare una proprietà magica, o di confermare che l'oggetto non è magico. L'incantesimo fornisce informazioni generali, come se il bonus di un'arma è \"molto\" o \"poco,\" e stima il numero di cariche con un'accuratezza del 25%.</p>"
+            "description": "<p>Questo incantesimo consente all'incantatore di maneggiare un oggetto e conoscere il suo incantamento. L'incantatore deve usare correttamente l'oggetto: gli elmi devono essere indossati, le spade tenute in mano, i braccialetti portati al polso, ecc. Qualsiasi conseguenza di questa azione, come oggetti maledetti o trappole, si riverserà sull'incantatore come di consueto, con tiri salvezza se applicabili.</p>\n                <p>L'incantatore ha una probabilità del 15% più un 5% per livello di determinare una proprietà magica, o di confermare che l'oggetto non è magico. L'incantesimo fornisce informazioni generali, come se il bonus di un'arma è \"molto\" o \"poco,\" e stima il numero di cariche con un'accuratezza del 25%.</p>",
+            "spellEffect": "Analizza la magia su un oggetto",
+            "spellRange": "0 (Tocco)"
         },
         "Animal Training (choose type)": {
             "name": "Addestramento Animale (Scegli tipo)",
@@ -1143,7 +1211,8 @@
             "name": "Muro di Pietra"
         },
         "Warp Wood": {
-            "name": "Torci Legno"
+            "name": "Torci Legno",
+            "description": "<p>Questo incantesimo fa piegare le armi di legno rendendole inutili. Influisce su una freccia per ogni livello dell'incantatore. Una lancia, un giavellotto o una bacchetta magica contano come due frecce, e una clava, un arco o un bastone contano come quattro.</p>\n                <p>L'incantesimo non influisce su altri oggetti di legno. Se un oggetto di legno magico è preso di mira, chi lo impugna può fare un tiro salvezza contro incantesimi per evitare l'effetto. Gli oggetti trasportati ma non tenuti in mano non ottengono tiri salvezza. Gli oggetti magici con \"bonus\" potrebbero non essere influenzati, con una possibilità del 10% per ogni \"bonus\" (per esempio, una freccia +1 ha una probabilità del 10% di non essere influenzata).</p>"
         },
         "Water": {
             "name": "Acqua"
@@ -1173,8 +1242,32 @@
             "name": "Formalegno"
         },
         "Avenger": {
-            "description": "<p>Un Guerriero è un umano il cui focus principale è il combattimento marziale. Rinominati per la loro forza e resistenza, i guerrieri eccellono nel combattimento corpo a corpo e a distanza, spesso prendendo il comando in battaglia per proteggere i loro alleati. Hanno i punti ferita più alti tra le classi, permettendo loro di resistere a danni significativi.</p>\n\n<p><strong>Caratteristiche Chiave</strong>:</p>\n <p><strong>Requisito Principale</strong>: Forza, che garantisce bonus di esperienza per punteggi alti (5% per 13–15, 10% per 16–18).</p>\n <p><strong>Capacità di Combattimento</strong>: I guerrieri possono usare qualsiasi arma e indossare qualsiasi tipo di armatura, inclusi gli scudi. Sono anche esperti in manovre specializzate come Attacco con Lancia e Lancia contro Carica.</p>\n <p><strong>Dadi Vita</strong>: I guerrieri tirano un d8 per i punti ferita a ogni livello fino al 9º. Oltre a questo, guadagnano solo 2 punti ferita per livello.</p>\n <p><strong>Livello Massimo</strong>: 36º.</p>\n\n<p><strong>Avanzamento</strong>:</p>\n<p>Al 9º livello, i guerrieri guadagnano il titolo di Signore/a e possono scegliere uno dei due percorsi:</p>\n <p><strong>Proprietario Terriero</strong>: I guerrieri possono richiedere terra a un sovrano, ottenendo spesso il titolo di Barone (o equivalente). Con la loro roccaforte stabilita, attirano fino a 50 guerrieri leali (livelli 1–3) come seguaci. In tempi di guerra, possono offrire aiuto militare al loro sovrano e ricevere assistenza se le loro terre sono minacciate.</p>\n <p><strong>Errante</strong>: Questi guerrieri rinunciano alla proprietà terriera per una vita di avventure. A seconda del loro allineamento, possono assumere ruoli come Cavaliere o Paladino, acquisendo abilità uniche come Scacciare i Non-morti o Individuare il Male.</p>\n\n<p><strong>Dettagli della Roccaforte</strong>:</p>\n<p>I guerrieri che costruiscono una roccaforte devono assicurarsi la terra tramite una richiesta a un sovrano, la rivendicazione di territori selvaggi o l'acquisto di terre. Come sovrani, gestiscono il loro dominio, attirano coloni e guidano i loro uomini d'arme nella difesa o nell'espansione dei loro possedimenti. I titoli possono crescere con il successo del loro dominio, da Barone a Duca e oltre.\n<p>I guerrieri sono essenziali per qualsiasi gruppo di avventurieri per la loro durabilità e capacità di combattimento, fungendo da spina dorsale sia nell'attacco che nella difesa. Eccellono sia nei ruoli di leadership che nel combattimento in prima linea, rendendoli personaggi versatili e resistenti.</p>",
+            "description": "<p>Un Guerriero è un umano il cui focus principale è il combattimento. Rinominati per la loro forza e resistenza, i guerrieri eccellono nel combattimento corpo a corpo e a distanza, spesso prendendo il comando in battaglia per proteggere i loro alleati. Hanno i punti ferita più alti tra le classi, permettendo loro di resistere a danni significativi.</p>\n\n<p><strong>Caratteristiche Chiave</strong>:</p>\n <p><strong>Requisito Principale</strong>: Forza, che garantisce bonus di esperienza per punteggi alti (5% per 13–15, 10% per 16–18).</p>\n <p><strong>Capacità di Combattimento</strong>: I guerrieri possono usare qualsiasi arma e indossare qualsiasi tipo di armatura, inclusi gli scudi. Sono anche esperti in manovre specializzate come Attacco con Lancia e Lancia contro Carica.</p>\n <p><strong>Dadi Vita</strong>: I guerrieri tirano un d8 per i punti ferita a ogni livello fino al 9º. Oltre a questo, guadagnano solo 2 punti ferita per livello.</p>\n <p><strong>Livello Massimo</strong>: 36º.</p>\n\n<p><strong>Avanzamento</strong>:</p>\n<p>Al 9º livello, i guerrieri guadagnano il titolo di Signore/a e possono scegliere uno dei due percorsi:</p>\n <p><strong>Proprietario Terriero</strong>: I guerrieri possono richiedere terra a un sovrano, ottenendo spesso il titolo di Barone (o equivalente). Con la loro roccaforte stabilita, attirano fino a 50 guerrieri leali (livelli 1–3) come seguaci. In tempi di guerra, possono offrire aiuto militare al loro sovrano e ricevere assistenza se le loro terre sono minacciate.</p>\n <p><strong>Errante</strong>: Questi guerrieri rinunciano alla proprietà terriera per una vita di avventure. A seconda del loro allineamento, possono assumere ruoli come Cavaliere o Paladino, acquisendo abilità uniche come Scacciare i Non-morti o Individuare il Male.</p>\n\n<p><strong>Dettagli della Roccaforte</strong>:</p>\n<p>I guerrieri che costruiscono una roccaforte devono assicurarsi la terra tramite una richiesta a un sovrano, la rivendicazione di territori selvaggi o l'acquisto di terre. Come sovrani, gestiscono il loro dominio, attirano coloni e guidano i loro uomini d'arme nella difesa o nell'espansione dei loro possedimenti. I titoli possono crescere con il successo del loro dominio, da Barone a Duca e oltre.\n<p>I guerrieri sono essenziali per qualsiasi gruppo di avventurieri per la loro durabilità e capacità di combattimento, fungendo da spina dorsale sia nell'attacco che nella difesa. Eccellono sia nei ruoli di leadership che nel combattimento in prima linea, rendendoli personaggi versatili e resistenti.</p>",
             "name": "Vendicatore"
+        },
+        "Arrows": {
+            "description": "<p>Frecce con penne in una faretra. Possono essere usate con un arco lungo o un arco corto.</p>",
+            "name": "Frecce"
+        },
+        "Belt": {
+            "description": "<p>È una cintura di cuoio.</p>",
+            "name": "Cintura"
+        },
+        "Cloak, long": {
+            "name": "Mantello Lungo",
+            "description": "<p>Un lungo mantello per coprire le spalle e la schiena. Alcuni hanno anche il cappuccio. I prezzi possono variare notevolmente a seconda della qualità e dell'ornamento.</p>"
+        },
+        "Climb Sheer Surface": {
+            "name": "Scalare Pareti",
+            "description": "<p>Il ladro può arrampicarsi su superfici ripide, come muri, scogliere o persino soffitti, con una probabilità base di successo determinata dal suo livello.</p>"
+        },
+        "Chain Mail +1": {
+            "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare un materiale protettivo flessibile. La corazza di maglia conferisce al personaggio una classe di armatura 5.</p>",
+            "name": "Corazza di Maglia +1"
+        },
+        "Cloak, short": {
+            "description": "<p>Un mantello corto per coprire le spalle e la schiena e mantenere il calore. Alcuni hanno anche il cappuccio. I prezzi possono variare notevolmente a seconda della qualità e dell'ornamento.</p>",
+            "name": "Mantello Corto"
         }
     },
     "label": "Oggetti Classi Abilità"
