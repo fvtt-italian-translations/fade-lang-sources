@@ -14,6 +14,14 @@
                 "nGeEVDhxPEhOE0Ta": {
                     "description": "<p>Un arco corto è un arco di 90-120 cm, fatto da un unico pezzo di legno o un composto di diversi legni. Un arco corto richiede entrambe le mani per essere utilizzato. Gli archi richiedono l'uso di frecce come munizioni.</p>",
                     "name": "Arco Corto"
+                },
+                "THuKmK2fd6XlcCWM": {
+                    "description": "<p>Frecce in una faretra. Possono essere usate con un arco lungo o un arco corto</p>",
+                    "name": "Frecce"
+                },
+                "XtJrZ4z4q2HizMtH": {
+                    "name": "Arco Corto",
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>"
                 }
             },
             "biography": "<p>Gli Halfling sono piccole creature semiumane che spesso vivono vicino ai loro villaggi. Sono abili con le armi da lancio, ricevendo un bonus di +1 ai tiri per colpire quando le usano. Gli Halfling sono eccellenti nel nascondersi, particolarmente nei **boschi** o nella **boscaglia**, dove hanno solo il 10% di probabilità di essere individuati mentre si nascondono.</p>\n        <p>In combattimento, gli Halfling ottengono un bonus di +2 alla **Classe Armatura** quando combattono contro nemici più grandi di un uomo. Per ogni 10 Halfling, uno sarà un capo di **2º Livello**, e fintanto che il capo è vivo e combatte al loro fianco, il loro **morale** è 10 invece di 8.</p>\n        <p>Gli Halfling vivono tipicamente in villaggi, o **contee**, di 30 a 300 abitanti. Ogni villaggio è guidato da uno **sceriffo** (un combattente di livello 2-7) e protetto da una guardia di villaggio di 5-20 miliziani (ciascuno con 2 Dadi Vita).</p>\n        <strong>Abilità Speciali:</strong> Gli Halfling ottengono un bonus di +1 ai tiri per colpire quando usano armi da lancio e un bonus di +2 alla Classe Armatura quando combattono contro creature più grandi.<br>\n        <strong>Terreno:</strong> Collina, Aperto.<br>",
@@ -39,7 +47,7 @@
                 },
                 "s3WlhYFgTm8JkYwx": {
                     "description": "<p>L'arma a soffio riempie un cubo di 3x3x3 metri. Le vittime devono effettuare un tiro salvezza contro il soffio del drago o trasformarsi in una normale creatura della foresta per 24 ore. Può essere utilizzato una volta al giorno.</p>",
-                    "name": "Arma a Soffio"
+                    "name": "Soffio Metamorfico"
                 }
             },
             "name": "Actaeon (Alce Centauro)",
@@ -578,6 +586,10 @@
                     "description": "<p>La pelliccia bianca della scimmia delle nevi la rende estremamente difficile da vedere in ambienti innevati, permettendole di cogliere di sorpresa gli avversari con un risultato di 1-4 su un d6.</p>",
                     "name": "Mimetismo",
                     "gmNotes": "Abilità di mimetizzazione che fornisce un vantaggio nella sorpresa in luoghi innevati."
+                },
+                "EK4IiPITCrOPDA2Q": {
+                    "name": "Clava",
+                    "description": "<p>Una clava grezza fatta di rami o ossa, usata per colpire gli avversari</p>"
                 }
             },
             "biography": "<p>Le Scimmie delle Nevi sono creature tozze, simili a babbuini, con una pelliccia bianca e ispida, che le rende difficili da individuare in condizioni di neve. Sono piuttosto intelligenti, capaci di usare strumenti semplici come mazze o ossa affilate, ma incapaci di comprendere armi più complesse come gli archi.</p>\n      <p>Queste creature sono solitarie e crudeli, e spesso usano tattiche di imboscata contro le prede più piccole. Se messi alle strette o intrappolati, combattono ferocemente con un morale aumentato.</p>\n      <p>La scimmia delle nevi usa un braccio per impugnare un'arma e l'altro per abbracciare la sua vittima. L'abbraccio infligge 2d6 danni ogni round finché il bersaglio non viene liberato. Le scimmie delle nevi comunicano utilizzando un linguaggio dei segni complesso e lasciano messaggi utilizzando rocce impilate e palle di neve.</p>\n      <p>Le scimmie delle nevi sono onnivore e amano particolarmente mangiare insetti giganti e carne rossa, ma evitano mostri o gruppi molto grandi. Vivono nelle foreste montane innevate e cercano riparo solo durante le forti tempeste di neve.</p>\n      <p><strong>Terreno:</strong> Artico, Montagne (freddo).</p>",
@@ -848,6 +860,14 @@
                 "ee2HYp9XBv0xx6Cr": {
                     "description": "<p>Una spada è una spada a una mano con una lama dritta o curva lunga 60-90 cm. Questa categoria di spade comprende una varietà di tipi diversi di spade, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
                     "name": "Spada"
+                },
+                "lVEa2dkf2ffPfCWD": {
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>",
+                    "name": "Arco Corto"
+                },
+                "vbWKgUUsKF6Jh2JS": {
+                    "description": "<p>Frecce in una faretra. Possono essere usate con un arco lungo o un arco corto</p>",
+                    "name": "Frecce"
                 }
             },
             "biography": "<p>I briganti sono fuorilegge vagamente organizzati e mercenari rinnegati che vivono razziando città e derubando carovane e viaggiatori. La maggior parte sono combattenti con bassi livelli di addestramento ed equipaggiamento.</p><p>I briganti spesso si organizzano in accampamenti di 50-300 uomini, con leader che sono combattenti di livello superiore. Per ogni 20 briganti c'è un leader combattente di 2° livello e per ogni 40 briganti c'è un comandante di 4° livello.</p><p>Metà dei briganti sono a cavallo, indossano una cotta di maglia e portano scudi e spade. Gli altri indossano armature di cuoio, portano scudi, archi corti e spade. I leader indossano corazza di piastre, portano spade e lance e cavalcano cavalli da guerra con bardatura.</p><p><strong>Comandanti dei briganti:</strong> gli accampamenti dei briganti possono essere guidati da un guerriero di 9° livello e potrebbero includere chierici o utenti di magia di livello superiore. C'è una probabilità del 50% che ci sia un mago di 9°-11° livello nel campo e una probabilità del 30% che ci sia un chierico di 8° livello.</p><p><strong>Armi e armature:</strong> la metà i briganti sono dotati di armature di cuoio e archi corti; gli altri cavalcano cavalli dotati di cotta di maglia e scudi.<br><strong>Terreno:</strong> deserto (qualsiasi).<br></p>",
@@ -909,6 +929,14 @@
                 "ynBbC4h4got9Du8n": {
                     "description": "<p>Una balestra leggera è un'arma da tiro di medie dimensioni, anche se richiede comunque due mani per essere brandita. Ha potenti bracci metallici e una corda che viene tirata indietro tramite una leva. Le balestre richiedono l'uso di dardi come munizioni.</p>",
                     "name": "Balestra Leggera"
+                },
+                "Hg0EsYnqTokJ0GIH": {
+                    "name": "Balestra Leg",
+                    "description": "<p>Quest'arma assomiglia alla balestra pesante, ma è di dimensioni minori. Richiede due mani per essere caricata, anche se solo una mano è necessaria per sparare</p><p>Questa balestra è un'arma a due mani; il possessore non può usare uno scudo e perde sempre l'iniziativa individuale rispetto ai personaggi che usano armi a una mano. I mezzuomini e le razze piccole, come i goblin, non possono usare quest'arma</p>"
+                },
+                "w1g1E1gAFE675SkF": {
+                    "description": "<p>Munizioni per una balestra. Talvolta chiamati quadrelli</p>",
+                    "name": "Quadrelli"
                 }
             },
             "name": "Bucaniere o Pirata",
@@ -2331,6 +2359,14 @@
                 "zwSmPxFBroOoqBHq": {
                     "description": "<p>Una spada è una spada a una mano con una lama dritta o curva lunga 60-90 cm. Questa categoria di spade comprende una varietà di tipi diversi di spade, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
                     "name": "Spada"
+                },
+                "763JQiBHmkNJWJd4": {
+                    "description": "<p>Frecce in una faretra. Possono essere usate con un arco lungo o un arco corto</p>",
+                    "name": "Frecce"
+                },
+                "TppmQ4hnRPjQiCO5": {
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>",
+                    "name": "Arco Corto"
                 }
             },
             "name": "Elfo (1 DV)",
@@ -3541,6 +3577,14 @@
                 "yazx11xsGwtwigTS": {
                     "description": "<p>Una balestra leggera è un'arma da lancio di medie dimensioni, anche se richiede ancora due mani per essere brandita. Ha potenti braccia in metallo e una corda che viene tirata indietro usando una leva. Le balestre richiedono l'uso di dardi come munizioni.</p>",
                     "name": "Balestra Leggera"
+                },
+                "Ys2sBA688ilNexWS": {
+                    "name": "Balestra Leg",
+                    "description": "<p>Quest'arma assomiglia alla balestra pesante, ma è di dimensioni minori. Richiede due mani per essere caricata, anche se solo una mano è necessaria per sparare</p><p>Questa balestra è un'arma a due mani; il possessore non può usare uno scudo e perde sempre l'iniziativa individuale rispetto ai personaggi che usano armi a una mano. I semiumani e le razze piccole, come i goblin, non possono usare quest'arma</p>"
+                },
+                "kpklSYDITgvwvJs0": {
+                    "description": "<p>Munizioni per una balestra. Talvolta chiamate dardi</p>",
+                    "name": "Quadrelli"
                 }
             },
             "name": "Umani, Pirata",
@@ -3700,6 +3744,14 @@
                 "VRrrmlnEQhlkA1a6": {
                     "name": "Armatura in Cuoio",
                     "description": "<p>Questa è una corazza composta principalmente da piastre e strisce di cuoio. Il cuoio viene spesso bollito nella cera per indurirlo. L'armatura in cuoio fornisce una classe armatura di 7 e, poiché è realizzata con materiali naturali, può essere indossata dai druidi. È anche abbastanza leggera e silenziosa da poter essere indossata dai ladri.</p>"
+                },
+                "G2oPYcXlZgU5sRLn": {
+                    "name": "Arco Lungo",
+                    "description": "<p>Quest'arma è realizzata da un pezzo di legno curvato, mantenuto in forma da una corda tesa. Viene usata per lanciare frecce</p><p>Questo arco richiede due mani per essere utilizzato, impedendo al possessore di usare uno scudo e perdendo sempre l'iniziativa individuale rispetto a chi impugna armi a una mano. Non è adatto ai mezzuomini e ad altre creature piccole, come i goblin</p>"
+                },
+                "XtbnHIeDkuGw9QVC": {
+                    "description": "<p>Frecce in una faretra. Possono essere usate con un arco lungo o un arco corto</p>",
+                    "name": "Frecce"
                 }
             },
             "biography": "<p>I Nomadi sono tribù erranti, spesso visti nel deserto o nelle steppe. Possono essere commercianti pacifici o feroci razziatori, a seconda del loro allineamento. Piccoli gruppi di nomadi possono essere trovati a caccia o a raccogliere, mentre gruppi più grandi formano grandi campi, con leader di livelli superiori che li guidano.</p><p>I nomadi del deserto sono spesso montati su cammelli o cavalli, equipaggiati con lance, archi e armature in cuoio. I nomadi delle steppe prediligono similmente archi, armature in cuoio e lance, ma sono soliti usare i cavalli.</p><p>Per ogni 25 nomadi, c'è un leader <strong>guerriaro di 2º Livello</strong>, mentre per ogni 40, c'è un <strong>guerriero di 4º Livello</strong>. Gruppi più grandi possono essere guidati da un capo <strong>di 5º Livello</strong> o <strong>di 8º Livello</strong>, con la presenza a volte di chierici e incantatori.</p><p><strong>Armi e Armature:</strong> Lance, archi e armature in cuoio.<br><strong>Leadership:</strong> Le bande di nomadi possono essere guidate da guerrieri di livello superiore, chierici e incantatori, a seconda delle dimensioni del gruppo.<br><strong>Terreno:</strong> Deserto, Steppa.<br></p>",
@@ -4397,6 +4449,14 @@
                 "YiKuJU9xRkb16Fr6": {
                     "name": "Armatura a Scaglie",
                     "description": "<p>Questa è un'armatura composta principalmente da piastre di cuoio su cui sono cucite squame o borchie di metallo per una protezione aggiuntiva. La corazza di squame fornisce a un personaggio una classe armatura 6</p>"
+                },
+                "9rcxbGMvTHk1Y82I": {
+                    "description": "<p>Freccia in una faretra. Possono essere usate con un arco lungo o un arco corto</p>",
+                    "name": "Frecce"
+                },
+                "BBvw1LtUXc89lZK8": {
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>",
+                    "name": "Arco Corto"
                 }
             },
             "monsterType": "Umano (Comune)",
@@ -4424,6 +4484,14 @@
                 "zoTM3PJ5lfZzDHSK": {
                     "name": "Spada Corta",
                     "description": "<p>Una spada corta è una spada con una lama dritta di 45 cm a 60 cm. Utilizzata principalmente come arma da punta piuttosto che da taglio, questa piccola lama può essere usata con una sola mano</p>"
+                },
+                "3x7q5cLSU1xLO0Dv": {
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>",
+                    "name": "Arco Corto"
+                },
+                "8suespQmp9xetIAe": {
+                    "description": "<p>Frecce in una faretra. Possono essere usate con un arco lungo o un arco corto</p>",
+                    "name": "Frecce"
                 }
             },
             "name": "Goblin, Arciere (1DV)",
@@ -4451,6 +4519,18 @@
                 "chpsAhb27tnV5IOw": {
                     "description": "I Goblin subiscono una penalità di -1 ai tiri per colpire in piena luce del giorno.",
                     "name": "Penalità Diurna"
+                },
+                "ELvrloGOfmS5IiLe": {
+                    "description": "<p>Frecce in una faretra. Possono essere usate con un arco lungo o un arco corto</p>",
+                    "name": "Frecce"
+                },
+                "PY3tzyOX97mt2xf9": {
+                    "name": "Arco Corto",
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>"
+                },
+                "UQFe6gjmdAhKZR1V": {
+                    "description": "<p>Una spada normale è una spada a una mano con una lama dritta o curva lunga 60-90 cm. Questa categoria di spada include una varietà di tipi diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte</p>",
+                    "name": "Spada"
                 }
             },
             "monsterType": "Umanoide (Comune)",
@@ -4493,6 +4573,14 @@
                     "description": "<p>I Banditi organizzano spesso imboscate, utilizzando ostacoli come alberi caduti per costringere i viaggiatori a fermarsi, attaccando poi da nascosti con armi a distanza.</p>",
                     "gmNotes": "Tattiche di Agguato per attacchi a sorpresa.",
                     "name": "Imboscata"
+                },
+                "TPunVnDS8yVIvbcV": {
+                    "name": "Fionda",
+                    "description": "<p>Una fionda è una lunga corda di cuoio (1.2 m a 1.8 m) con una tasca a metà lunghezza. Il possessore lega un'estremità della corda attorno al polso e tiene l'altra estremità nella stessa mano. Poi posiziona un proiettile di piombo nella tasca e fa roteare la corda sopra la testa. A metà della rotazione, lascia andare l'estremità libera, rilasciando il proiettile. Le fionde normalmente richiedono proiettili come munizioni, anche se possono essere usate con pietre prese dal terreno, con una penalità di -1 ai tiri per colpire e ai tiri per i danni</p>"
+                },
+                "v3urC2xkuceJtEXt": {
+                    "description": "<p>Munizioni per una fionda</p>",
+                    "name": "Pallini (piombo)"
                 }
             },
             "monsterType": "Umano (Comune)",
