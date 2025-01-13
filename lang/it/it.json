@@ -17,7 +17,7 @@
             "XPShort": "PX",
             "XPBonus": "PX Bonus %",
             "THAC0": "THAC0",
-            "THBonus": "Bonus TPC (CAA)",
+            "THBonus": "TPC+",
             "Health": "Punti Ferita",
             "HealthMax": "PF Massimi",
             "HealthMaxMonster": "Impostalo su zero per calcolare automaticamente i PF massimi dai DV",
@@ -50,7 +50,7 @@
             },
             "isRetainer": {
                 "hint": "Questo personaggio è un servitore, un mercenario o un aiutante",
-                "name": "Servitore"
+                "name": "Seguace"
             },
             "Wrestling": {
                 "long": "Valore di Lotta",
@@ -302,7 +302,7 @@
                 "maxAbbr": "q.tà max",
                 "abbr2": "#"
             },
-            "equipped": "Equipaggieto",
+            "equipped": "(Equipaggiate)",
             "light": {
                 "isLight": "Luce",
                 "isFuel": "Combustibile",
@@ -370,7 +370,7 @@
                 "long2": "Tira per i danni a 2-Mani solo se l'arma può essere usata con una mano sola, altrimenti tira i danni normali."
             },
             "ammo": {
-                "short": "Munizione",
+                "short": "Muniz.",
                 "long": "Proiettili",
                 "load": "Attuali",
                 "maxLoad": "Totali",
@@ -530,7 +530,15 @@
                 "melee": "Mischia",
                 "breath": "Soffio"
             },
-            "noEquippedWeapons": "Il personaggio selezionato non ha armi equipaggiate"
+            "noEquippedWeapons": "Il personaggio selezionato non ha armi equipaggiate",
+            "awardXP": {
+                "short": "Ricompensa PX",
+                "long": "Ricompensa Punti Esperienza",
+                "awarded": "PX assegnati con successo!",
+                "xpAmountTotal": "PX Totali",
+                "xpAmount": "Ammontare in PX",
+                "share": "Condividi"
+            }
         },
         "time": {
             "prev": "Indietro",
@@ -598,7 +606,7 @@
                 },
                 "throw": {
                     "name": "Lancia Arma",
-                    "description": "Il personaggio lancia un'arma adatta a farlo, applicando Destrezza e bonus magici al TPC e Forza e bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione"
+                    "description": "Il personaggio lancia un'arma adatta a farlo, applicando Destrezza e bonus magici al TPC e Forza inclusi i bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione."
                 },
                 "fire": {
                     "description": "Il personaggio usa un'arma a distanza, applicando Destrezza e bonus magici al tiro per colpire, a condizione che il bersaglio si trovi entro la gittata dell'arma",
@@ -665,7 +673,13 @@
             "missingItem": "Il tipo di elemento richiesto ({type}) non è stato trovato o la sua quantità è paari a zero.",
             "missingItem2": "{actor} non ha un {type}.",
             "zeroQuantity": "{itemName} ha una quantità pari a zero e non può essere utilizzato/a.",
-            "noAmmo": "{actorName} non ha munizioni per {weaponName}."
+            "noAmmo": "{actorName} non ha munizioni per {weaponName}.",
+            "reversedTime": "<div>Si torna indietro di {turns} turno/i.</div>",
+            "advancedTime": "<div>Si avanza di {turns} turno/i.</div>",
+            "needRest": "<div class='warning'>Il gruppo è stanco e ha bisogno di riposare.</div><div>I tiri per colpire e i danni subiscono una penalità di -1 fino a quando il gruppo non riposa.</div>",
+            "timeReset1": "Azzeramento del conteggio dei turni della sessione.",
+            "timeReset2": "Azzeramento del conteggio globale dei turni.",
+            "partyRests": "Il gruppo riposa."
         },
         "class": {
             "key": {
@@ -714,7 +728,8 @@
         "target": "Bersaglio",
         "GMNotes": "Note del DM",
         "category": "Categoria",
-        "vsMagic": "contro Magia"
+        "vsMagic": "contro Magia",
+        "name": "Nome"
     },
     "SETTINGS": {
         "Encumbrance": {
@@ -766,7 +781,7 @@
                 "classic": "Classic"
             },
             "name": "Sistema TPC (Work-in-progress)",
-            "hint": "Questo sistema determina come vengono gestiti i Tiri Per Colpire e anche quale tipo di classe di armatura viene utilizzato (CA vs CAA). Il sistema Solo THAC0 non utilizza una tabella di attacco, ma invece un semplice calcolo del valore THAC0 meno la CA del bersaglio. Il sistema Classico utilizza una tabella di attacco e THAC0 che supportano fino al livello 25 e una CA compresa tra -3 e 9. La Tabella Eroica di Combattimento si rifà ai giochi di ruolo degli anni '90 e scala fino al livello 36 e una CA compreso tra -20 e 19. Dark Dungeons utilizza il sistema del gioco Dark Dungeons. La CAA e il Bonus di Attacco sono simili alla THAC0, ma presentano una classe di armatura ascendente in cui maggiore è il valore della CA, maggiore è la capacità difensiva."
+            "hint": "Questo sistema determina come vengono gestiti i Tiri Per Colpire e anche quale tipo di classe di armatura viene utilizzato (CA vs CAA). Il sistema Solo THAC0 non utilizza una tabella di attacco, ma invece un semplice calcolo del valore THAC0 meno la CA del bersaglio. Il sistema Classico utilizza una tabella di attacco e la THAC0 supportando fino al livello 25 e una CA compresa tra -19 e 19. La Tabella BECMI si rifà ai giochi di ruolo degli anni '90 e scala fino al livello 36 e una CA compreso tra -99 e 19. Dark Dungeons utilizza il sistema del gioco Dark Dungeons. La CAA e il Bonus di Attacco sono simili alla THAC0, ma presentano una classe di armatura ascendente in cui maggiore è il valore della CA, maggiore è la capacità difensiva."
         },
         "EncMax": {
             "Hint": "La quantità massima che un personaggio può trasportare in monete (mon), ed essere comunque in grado di muoversi",
