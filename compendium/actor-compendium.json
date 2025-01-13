@@ -16,7 +16,7 @@
         },
         "s3WlhYFgTm8JkYwx": {
           "description": "<p>Breath weapon fills a 10' x 10' x 10' cube. Victims must save vs. dragon breath or be polymorphed into a normal forest creature for 24 hours. Can be used once per day.</p>",
-          "name": "Breath Weapon"
+          "name": "Polymorph Breath"
         },
         "vNHRrrciNY8JkKuI": {
           "description": "Thick, tough hide providing natural armor.",
@@ -212,8 +212,8 @@
     "Ape, Snow": {
       "biography": "<p>Snow apes are squat, baboon-like creatures with shaggy white fur, making them difficult to spot in snowy conditions. They are somewhat intelligent, capable of using simple tools like clubs or sharpened bones but unable to comprehend more complex weapons like bows.</p>\n      <p>These creatures are reclusive and cruel, often using ambush tactics against smaller prey. If cornered or trapped, they fight fiercely with increased morale.</p>\n      <p>The snow ape uses one arm to wield a weapon and the other to hug its victim. The hug deals 2d6 points of damage each round until the target is freed. Snow apes communicate using a complex sign language and leave messages using stacked rocks and snowballs.</p>\n      <p>Snow apes are omnivorous and particularly enjoy eating giant insects and red meat but will avoid very large monsters or groups. They live in snowy mountain forests and only seek shelter during severe snowstorms.</p>\n      <p><strong>Terrain:</strong> Arctic, Mountains (cold).</p>",
       "items": {
-        "LWs36VPjumecjSr9": {
-          "description": "A crude club made from branches or bones, used to strike opponents.",
+        "EK4IiPITCrOPDA2Q": {
+          "description": "<p>A crude club made from branches or bones, used to strike opponents.</p>",
           "name": "Club"
         },
         "Lgch9gj9dYUtZgRF": {
@@ -387,7 +387,11 @@
     "Bandit (2HD)": {
       "biography": "<p>Bandits are NPC thieves who have come together to rob others. They typically operate in small groups or larger communities of 3-30 members. Often they send out raiding parties of 2-4 bandits to target travelers.</p>\n      <p>Bandits use deception, pretending to be ordinary people to surprise their victims. They are also known to set up ambushes, blocking roads with obstacles like fallen trees to force travelers to stop. Once stopped, the bandits attack from hiding, using ranged weapons to rob their victims.</p>\n      <p>In a bandit's lair, Treasure Type A can be found, but this is not carried by individual bandits. Bandits may be led by an NPC of any human character class, who is one or more levels higher than the bandits. This leader might have greater ambitions beyond robbery, such as organizing a network of bandit gangs for a more nefarious purpose or seeking revenge for an injustice.</p>\n      <p><strong>Terrain:</strong> Any, usually wilderness along main roads.</p>",
       "items": {
-        "DsmywWzt0szTd268": {
+        "9rcxbGMvTHk1Y82I": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
+        },
+        "BBvw1LtUXc89lZK8": {
           "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
           "name": "Bow, Short"
         },
@@ -423,7 +427,7 @@
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
           "name": "Sword, Normal"
         },
-        "TZ994VvHe5YbjwlE": {
+        "TPunVnDS8yVIvbcV": {
           "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
           "name": "Sling"
         },
@@ -431,6 +435,10 @@
           "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
           "gmNotes": "Ambush tactics for surprise attacks.",
           "name": "Ambush"
+        },
+        "v3urC2xkuceJtEXt": {
+          "description": "<p>Ammunition for a sling.</p>",
+          "name": "Pellets (lead)"
         }
       },
       "monsterType": "Human (Common)",
@@ -875,13 +883,17 @@
           "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
           "name": "Leather Armor"
         },
-        "a0obwOTukxa9n62r": {
-          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
-          "name": "Bow, Short"
-        },
         "ee2HYp9XBv0xx6Cr": {
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
           "name": "Sword, Normal"
+        },
+        "lVEa2dkf2ffPfCWD": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short"
+        },
+        "vbWKgUUsKF6Jh2JS": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
         }
       },
       "monsterType": "Human (Common)",
@@ -894,13 +906,17 @@
           "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
           "name": "Leather Armor"
         },
+        "Hg0EsYnqTokJ0GIH": {
+          "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+          "name": "Crossbow, Lt"
+        },
         "VyrNE0oM2jvMxbrZ": {
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
           "name": "Sword, Normal"
         },
-        "ynBbC4h4got9Du8n": {
-          "description": "<p>A light crossbow is a medium sized missile weapon, although it still needs two hands to wield. It has powerful metal arms and a string that is pulled back using a lever. Crossbows require the use of bolts as ammunition.</p>",
-          "name": "Crossbow, Lt"
+        "w1g1E1gAFE675SkF": {
+          "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+          "name": "Quarrels"
         }
       },
       "monsterType": "Human (Common)",
@@ -2544,12 +2560,16 @@
     "Elf (1 HD)": {
       "biography": "<p>Elves are woodland humanoids, highly skilled in combat and magic. They use weapons effectively and can cast a 1st-level spell. Elves are often encountered in groups, and when a group of 15 or more appears, one of them will be a leader. This leader may possess magical items.</p>\n        <strong>Weapon Damage:</strong> Varies by weapon.<br>\n        <strong>Special:</strong> Each elf has access to a 1st-level spell.<br>\n        <strong>Terrain:</strong> Forests, Woodlands.<br>\n        <strong>Barding:</strong> None",
       "items": {
+        "763JQiBHmkNJWJd4": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
+        },
         "Awh9BzSfDKioN4D1": {
           "description": "Each elf can cast a 1st level spell. Choose the spell randomly.",
           "name": "1st Level Spell",
           "spellEffect": "Varies depending on spell"
         },
-        "MOb2pt51ShnPxa9Y": {
+        "TppmQ4hnRPjQiCO5": {
           "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
           "name": "Bow, Short"
         },
@@ -2698,9 +2718,13 @@
     "Goblin Bow (1HD)": {
       "biography": "<p>Goblins are small, ugly humanoids standing between 3 1/2 to 4 1/2 feet tall. They have pointed ears, misshapen teeth, and their skin varies from chalky tan to livid gray. Their eyes glow red in dim light, allowing them to see in the dark with infravision up to 90 feet.</p><p>Goblins live in underground caves and caverns, and they are uncomfortable in daylight, fighting with a -1 penalty to attack rolls in bright light. They send hunting parties at night to scavenge food and ambush weakly-defended human groups. Goblins hate dwarves, attacking them on sight.</p><p>In their lair, a goblin king with 15 hit points leads them. He fights as a 3 HD monster, dealing +1 extra damage. The king is always accompanied by a bodyguard of 2d6 goblins who fight as 2 HD creatures. Goblin morale is improved to 9 when their king is present and alive.</p><p><strong>Weapon Damage:</strong> By weapon.<br><strong>Terrain:</strong> Cavern, Hill, Mountain, Woods.</p>",
       "items": {
-        "8q0SFLYtwM5bxj8g": {
+        "3x7q5cLSU1xLO0Dv": {
           "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
           "name": "Bow, Short"
+        },
+        "8suespQmp9xetIAe": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
         },
         "UX2h4igq8RHRAsrm": {
           "description": "Goblins have basic armor, providing a natural Armor Class of 6.",
@@ -2725,9 +2749,17 @@
     "Goblin Chief (4HD)": {
       "biography": "<p>Goblins are small, ugly humanoids standing between 3 1/2 to 4 1/2 feet tall. They have pointed ears, misshapen teeth, and their skin varies from chalky tan to livid gray. Their eyes glow red in dim light, allowing them to see in the dark with infravision up to 90 feet.</p><p>Goblins live in underground caves and caverns, and they are uncomfortable in daylight, fighting with a -1 penalty to attack rolls in bright light. They send hunting parties at night to scavenge food and ambush weakly-defended human groups. Goblins hate dwarves, attacking them on sight.</p><p>In their lair, a goblin king with 15 hit points leads them. He fights as a 3 HD monster, dealing +1 extra damage. The king is always accompanied by a bodyguard of 2d6 goblins who fight as 2 HD creatures. Goblin morale is improved to 9 when their king is present and alive.</p><p><strong>Weapon Damage:</strong> By weapon.<br><strong>Terrain:</strong> Cavern, Hill, Mountain, Woods.</p>",
       "items": {
-        "NJS656NRjKV8rIJp": {
+        "ELvrloGOfmS5IiLe": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
+        },
+        "PY3tzyOX97mt2xf9": {
           "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
           "name": "Bow, Short"
+        },
+        "UQFe6gjmdAhKZR1V": {
+          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+          "name": "Sword, Normal"
         },
         "UX2h4igq8RHRAsrm": {
           "description": "<p>Goblins chainmail armor, providing an Armor Class of 5.</p>",
@@ -2736,10 +2768,6 @@
         "chpsAhb27tnV5IOw": {
           "description": "Goblins suffer a -1 penalty to attack rolls in full daylight.",
           "name": "Daylight Penalty"
-        },
-        "tyKYQTHELfZOKp93": {
-          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-          "name": "Sword, Normal"
         },
         "xqnbq0Y9tddiHibT": {
           "description": "Goblins can see in the dark up to 90 feet with infravision.",
@@ -2836,13 +2864,17 @@
     "Halfling": {
       "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in **woods** or **underbrush**, where there is only a 10% chance of being detected while hiding.</p>\n        <p>In combat, halflings gain a +2 bonus to **Armor Class** when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of **level 2**, and as long as the leader is alive and fighting alongside them, their **morale** is 10 rather than 8.</p>\n        <p>Halflings typically live in villages, or **shires**, of 30 to 300 inhabitants. Each village is led by a **sheriff** (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p>\n        <strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and a +2 bonus to Armor Class when fighting larger creatures.<br>\n        <strong>Terrain:</strong> Hill, Open.<br>",
       "items": {
+        "THuKmK2fd6XlcCWM": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
+        },
+        "XtJrZ4z4q2HizMtH": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short"
+        },
         "YYYKzXvqkOT6oxOu": {
           "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
           "name": "Leather Armor"
-        },
-        "nGeEVDhxPEhOE0Ta": {
-          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
-          "name": "Bow, Short"
         },
         "s3Um7qXmUAG501Ap": {
           "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
@@ -3497,8 +3529,8 @@
     "Nomad": {
       "biography": "<p>Nomads are wandering tribespeople, often seen in the desert or steppes. They may be peaceful traders or fierce raiders, depending on their alignment. Small groups of nomads may be found hunting or foraging, while larger groups form large camps, with leaders of higher levels guiding them.</p><p>Desert nomads are often mounted on camels or horses, equipped with lances, bows, and leather armor. Steppe nomads similarly favor bows, leather armor, and lances, but are mounted on horses.</p><p>For every 25 nomads, there is a <strong>2nd-level fighter</strong> leader, while for every 40, there is a <strong>4th-level fighter</strong>. Larger groups may be led by a <strong>5th-level</strong> or <strong>8th-level</strong> chieftain, with clerics and magic-users also sometimes present.</p><p><strong>Weapons and Armor:</strong> Lances, bows, and leather armor.<br><strong>Leadership:</strong> Nomad bands may be led by higher-level fighters, clerics, and magic-users, depending on the size of the group.<br><strong>Terrain:</strong> Desert, Steppe.<br></p>",
       "items": {
-        "2s2BWrkApSsb225T": {
-          "description": "<p>A long bow is a 4’-6’ bow, either made from a single piece of wood or a composite of different woods. A long bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+        "G2oPYcXlZgU5sRLn": {
+          "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
           "name": "Bow, Long"
         },
         "M7QrSZjCSvOiOqlo": {
@@ -3512,6 +3544,10 @@
         "VRrrmlnEQhlkA1a6": {
           "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
           "name": "Leather Armor"
+        },
+        "XtbnHIeDkuGw9QVC": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
         }
       },
       "monsterType": "Human (Common)",
@@ -3752,17 +3788,21 @@
     "Pirate": {
       "biography": "<p>Pirates are sea raiders who engage in plundering ships and coastal towns. They are often Chaotic fighters known for their cruelty and lawlessness. Pirates are organized into crews based on ship size, with 10 to 80 pirates per ship.</p>\n        <p>For every 30 pirates, there is a 4th-level fighter leader, and each ship has a 5th-level captain. For every fleet of 100 or more pirates, there is an 8th-level commander. Larger pirate fleets may also include an 11th-level Pirate Lord, with a 75% chance of an accompanying 9th-10th level magic-user.</p>\n        <p>Pirates often wear **leather armor**, wield **swords**, and some may carry **crossbows**. Pirates may carry treasure with them or have maps to buried treasure.</p>\n        <strong>Weapons and Armor:</strong> Leather armor, sword, and crossbow.<br>\n        <strong>Special Organization:</strong> Ship-based crew with leadership based on ship size.<br>\n        <strong>Terrain:</strong> Rivers, Lakes, Oceans.<br>",
       "items": {
+        "Ys2sBA688ilNexWS": {
+          "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+          "name": "Crossbow, Lt"
+        },
         "ihr6bytjkIGLlLuh": {
           "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
           "name": "Leather Armor"
         },
+        "kpklSYDITgvwvJs0": {
+          "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+          "name": "Quarrels"
+        },
         "wYgMTS0830ejuAxf": {
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
           "name": "Sword, Normal"
-        },
-        "yazx11xsGwtwigTS": {
-          "description": "<p>A light crossbow is a medium sized missile weapon, although it still needs two hands to wield. It has powerful metal arms and a string that is pulled back using a lever. Crossbows require the use of bolts as ammunition.</p>",
-          "name": "Crossbow, Lt"
         }
       },
       "monsterType": "Human (Common)",

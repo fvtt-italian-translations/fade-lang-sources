@@ -160,6 +160,10 @@
       "description": "\n        <p>This skill allows the character to resist the effects of magical fear, as well as the results of morale checks or skills like Intimidation. NPCs using this skill can ignore fear effects with a successful skill check.</p>\n        ",
       "name": "Bravery"
     },
+    "Bullseye Lantern": {
+      "description": "<p>A hooded lantern is a portable light source enclosed within a metal casing, designed to control the amount and direction of light it emits. The lantern features a hinged, adjustable hood that can be raised or lowered to focus or block the light as needed. When fully opened, the lantern casts light in a 30-foot radius. When the hood is partially closed, the light is reduced to a narrower beam that casts light 50 feet.</p><p>The lantern burns one flask of oil over the course of four hours (24 turns). Its enclosed design helps protect the flame from wind and rain, making it more reliable in outdoor or adverse conditions compared to an open flame.</p>",
+      "name": "Bullseye Lantern"
+    },
     "Call Lightning": {
       "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
       "name": "Call Lightning",
@@ -779,10 +783,6 @@
     "Holy Water": {
       "description": "<p>This water is made holy by a high-level cleric and can cause damage to undead creatures. It is typically stored in a breakable vial or gourd and can be thrown to splash the target.</p>",
       "name": "Holy Water"
-    },
-    "Hooded Lantern": {
-      "description": "<p>A hooded lantern is a portable light source enclosed within a metal casing, designed to control the amount and direction of light it emits. The lantern features a hinged, adjustable hood that can be raised or lowered to focus or block the light as needed. When fully opened, the lantern casts light in a 30-foot radius. When the hood is partially closed, the light is reduced to a narrower beam that casts light 50 feet.</p><p>The lantern burns one flask of oil over the course of four hours (24 turns). Its enclosed design helps protect the flame from wind and rain, making it more reliable in outdoor or adverse conditions compared to an open flame.</p>",
-      "name": "Hooded Lantern"
     },
     "Hunting": {
       "description": "\n        <p>This skill covers the ability to locate, stalk, and hunt game with weapons like bows, slings, or spears. A successful skill roll grants a +1 to hit against unaware targets in peaceful outdoor settings. This bonus does not apply in combat. The character can automatically supply themselves with food in fertile areas and make skill rolls in less abundant regions. The roll has penalties when trying to supply more than one person, with a -1 penalty per additional person.</p>\n      ",
