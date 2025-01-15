@@ -59,7 +59,7 @@ export async function commandUpdate(
         await handleActor(pack as any, common);
         break;
       case "Item":
-        await handleItem(pack as any);
+        await handleItem(pack as any, common);
         break;
       case "Macro":
         await handleMacro(pack as any);
@@ -72,7 +72,7 @@ export async function commandUpdate(
 
   langData["FADE_TRANSLATIONS"] = common;
 
-  await writeFile("./en.json", JSON.stringify(langData, null, 2));
+  await writeFile("./en.json", JSON.stringify(langData, orderKeysReplacer, 2));
 }
 
 async function handlePackFolders(pack: PackWithData, out: Compendium) {
@@ -127,7 +127,7 @@ async function handleActor(
 
       const outItem = ((outEntry.items ??= {})[item._id] =
         {} as TranslationStrings);
-      handleItemEmbed(outItem, item);
+      handleItemEmbed(outItem, item, common);
     }
   }
 
@@ -148,7 +148,11 @@ function isCommonSpellDuration(duration: string) {
   );
 }
 
-function handleItemEmbed(outEntry: TranslationStrings, entry: EntryItem) {
+function handleItemEmbed(
+  outEntry: TranslationStrings,
+  entry: EntryItem,
+  common: TranslationStrings
+) {
   outEntry.name = entry.name;
   if (entry.system.description) {
     outEntry.description = entry.system.description;
@@ -170,9 +174,23 @@ function handleItemEmbed(outEntry: TranslationStrings, entry: EntryItem) {
       outEntry.spellEffect = entry.system.effect;
     }
   }
+  if (entry.type === "class") {
+    if (entry.system.species) {
+      (common.classSpecies ??= {})[entry.system.species] = entry.system.species;
+    }
+
+    for (const [index, level] of entry.system.levels.entries()) {
+      if (level.title) {
+        (outEntry.classLevels ??= {})[`${index}`] = { title: level.title };
+      }
+    }
+  }
 }
 
-async function handleItem(pack: PackWithData<EntryItem>) {
+async function handleItem(
+  pack: PackWithData<EntryItem>,
+  common: TranslationStrings
+) {
   const out: Compendium = {
     label: pack.label,
     folders: {},
@@ -183,7 +201,7 @@ async function handleItem(pack: PackWithData<EntryItem>) {
 
   for (const entry of pack.entries) {
     const outEntry: TranslationStrings = (out.entries[entry.name] = {});
-    handleItemEmbed(outEntry, entry);
+    handleItemEmbed(outEntry, entry, common);
   }
 
   const outData = JSON.stringify(out, orderKeysReplacer, 2);
@@ -349,7 +367,12 @@ interface EntryItemMastery extends EntryItemBase {
 
 interface EntryItemClass extends EntryItemBase {
   type: "class";
-  system: SystemItemBase & {};
+  system: SystemItemBase & {
+    species: string;
+    levels: {
+      title: string;
+    }[];
+  };
 }
 
 interface EntryItemWeaponMastery extends EntryItemBase {
