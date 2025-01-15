@@ -5,7 +5,7 @@
             "description": "<p>Questo anello migliora la classe armatura del portatore di 1. Ha anche l'effetto di migliorare tutti i tiri salvezza di 1</p>"
         },
         "Science (choose type)": {
-            "name": "Scienza (scegli tipo)",
+            "name": "Scienza (scegli)",
             "description": "\n        <p>Il personaggio è esperto in un ramo specifico di studi scientifici, come astronomia, geologia, metallurgia, ecc. Questa competenza consente al personaggio di fornire conoscenze specializzate e fare valutazioni esperte all'interno di quel campo. Il giocatore deve indicare il ramo specifico della scienza in cui il personaggio ha raggiunto la maestria. I personaggi possono acquisire questa abilità più volte per rappresentare la competenza in diverse discipline scientifiche</p>\n      "
         },
         "Shield, Tusked": {
@@ -64,15 +64,15 @@
             "description": "<p>L'Acquamarina è una gemma di colore azzurro chiaro con una superficie liscia e lucida. Ha un aspetto cristallino che riflette la luce, mostrando la sua chiarezza e tonalità delicata. Spesso utilizzata nei gioielli, l'acquamarina è apprezzata per la sua brillantezza e il colore tranquillo.</p>"
         },
         "Arrow (silver)": {
-            "name": "Freccia (argento)",
+            "name": "Frecce (argento)",
             "description": "<p>Una freccia con la punta d'argento. Può essere usata per danneggiare alcuni tipi di creature come i licantropi.</p>"
         },
         "Art (Choose Type)": {
-            "name": "Arte (Scegli Tipo)",
+            "name": "Arte (Scegli)",
             "description": "<p>Questa abilità copre la creazione di arte, come pittura, scultura, intaglio del legno o mosaico. Il giocatore deve specificare il tipo di arte praticata dal personaggio. Un tiro abilità riuscito consente al personaggio di creare opere che possono migliorare le reazioni degli PNG. Ad esempio, presentare un ritratto o una scultura ben fatti a un PNG può fornire un bonus di +2 ai tiri di reazione. Se preferisce il giocatore può scegliere di basare questa abilità sulla Saggezza invece che sull'Intelligenza.</p>"
         },
         "Art (choose type)": {
-            "name": "Arte (Scegli Tipo)",
+            "name": "Arte (Scegli)",
             "description": "\n        <p>Questa abilità comporta la creazione di arte, come pittura, scultura o intaglio del legno. Il personaggio deve scegliere una forma d'arte in cui si specializza, e può acquisire questa abilità più volte per apprendere diverse forme. Un uso riuscito dell'abilità può migliorare le reazioni dei PNG; ad esempio, presentare un ritratto a un PNG può concedere un bonus di +2 ai tiri di reazione. Il personaggio può scegliere di basare questa abilità sulla Saggezza invece che sull'Intelligenza.</p>\n        "
         },
         "Artillery": {
@@ -98,7 +98,7 @@
             "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>"
         },
         "Bargaining": {
-            "name": "Contrattare",
+            "name": "Negoziare",
             "description": "\n        <p>La competenza nel Negoziare consente a un personaggio di contrattare condizioni favorevoli nelle transazioni o negli accordi. Copre il mercanteggiare sui prezzi, fare argomentazioni persuasive negli accordi commerciali e trovare compromessi che soddisfino tutte le parti. Una prova di Negoziare riuscita può risultare in prezzi migliori, termini vantaggiosi o contratti redditizi.</p>\n      "
         },
         "Bedroll": {
@@ -193,7 +193,7 @@
             "description": "\n        <p>Il personaggio con questa abilità conosce sempre la propria posizione mentre esplora caverne, grotte e sistemi fluviali sotterranei. Ricorda automaticamente il percorso seguito finché è rimasto cosciente. Questa abilità è particolarmente utile per i nani e può anche aiutare i personaggi a navigare nei labirinti. Se disorientato o costretto a fuggire per una lunga distanza, è richiesta una prova di abilità per evitare di perdersi.</p>\n        "
         },
         "Ceremony (choose specific Immortal)": {
-            "name": "Cerimonia (scegli Immortale specifico)",
+            "name": "Cerimonia (scegli Immortale)",
             "description": "\n            <p>Il personaggio sa come onorare un Immortale attraverso rituali e cerimonie. Questa abilità consente a un chierico di eseguire i rituali normali del proprio ordine e potrebbe permettere a un personaggio di attirare l'attenzione di un Immortale tramite preghiere devote, digiuno o sacrificio. Questa abilità include la conoscenza di rituali graditi all'Immortale.</p>\n        "
         },
         "Cestus": {
@@ -237,7 +237,7 @@
             "name": "Scalare Pareti"
         },
         "Clothes, Good": {
-            "name": "Abiti normali",
+            "name": "Abiti eleganti",
             "description": "<p>Questi sono abiti di alta qualità, possibilmente adornati con elementi decorativi minori. Sono adatti per partecipare a eventi sociali e per i personaggi che desiderano fare una buona impressione.</p>"
         },
         "Clothes, Fine": {
@@ -530,7 +530,7 @@
             "name": "Incantare corde",
             "spellDuration": "1 round per livello",
             "spellEffect": "Controlla corde",
-            "description": "<p>Questo incantesimo permette all'incantatore di usare qualsiasi oggetto simile a una corda di materiale vivente o che è stato vivente (radici, viti, corde di cuoio, corde di fibre vegetali, ecc.) per comportarsi come ordinato. Circa 15 metri di vite di diametro 1,25 cm normale più 1,5 metri per livello dell'incantatore possono essere influenzati.</p>\n<p>I comandi che possono essere dati durante un incantesimo <em>Incantare corde</em> includono: avvolgere (formare una pila ordinata), avvolgere e annodare, fare un'asola, fare un'asola e annodare, legare e annodare e le inversioni di tutti i comandi sopra elencati. La vite o la corda devono essere entro 30 cm da qualsiasi oggetto attorno al quale deve avvolgersi o legarsi, quindi spesso deve essere lanciata verso il bersaglio. Questo incantesimo è molto utile in situazioni di arrampicata; un incantatore può lanciare una corda su un lato di un muro o di una scogliera e comandarla di avvolgersi e annodarsi attorno a una sporgenza all'altezza del lancio. Avvolgere e annodare lega efficacemente una vittima.</p>\n<p>Una persona o un mostro attaccato da qualsiasi uso dell'incantesimo può fare un tiro salvezza contro incantesimi per evitare gli effetti dell'intrappolamento.</p>"
+            "description": "<p>Questo incantesimo permette all'incantatore di usare qualsiasi oggetto simile a una corda di materiale vivente o che è stato vivente (radici, viti, corde di cuoio, corde di fibre vegetali, ecc.) per comportarsi come ordinato. Circa 15 metri di vite di diametro 1,25 cm normale più 1,5 metri per livello dell'incantatore possono essere influenzati.</p>\n                  <p>I comandi che possono essere dati durante un incantesimo <em>Incantare corde</em> includono: avvolgere (formare una pila ordinata), avvolgere e annodare, fare un'asola, fare un'asola e annodare, legare e annodare e le inversioni di tutti i comandi sopra elencati. La vite o la corda devono essere entro 30 cm da qualsiasi oggetto attorno al quale deve avvolgersi o legarsi, quindi spesso deve essere lanciata verso il bersaglio. Questo incantesimo è molto utile in situazioni di arrampicata; un incantatore può lanciare una corda su un lato di un muro o di una scogliera e comandarla di avvolgersi e annodarsi attorno a una sporgenza all'altezza del lancio. Avvolgere e annodare lega efficacemente una vittima.</p>\n                  <p>Una persona o un mostro attaccato da qualsiasi uso dell'incantesimo può fare un tiro salvezza contro incantesimi per evitare gli effetti dell'intrappolamento.</p>"
         },
         "Escape": {
             "name": "Liberarsi",
@@ -674,7 +674,7 @@
             "description": "<p>Medicina permette il trattamento delle ferite e la diagnosi delle malattie tra umani e semiumani. Una prova di abilità riuscita può ripristinare 1d3 punti ferita a un personaggio ferito. Questa abilità può essere utilizzata solo una volta per serie di ferite, definite come tutti i punti ferita persi in un singolo combattimento. Un tiro naturale di 20 infligge accidentalmente danni pari a [[/r 1d3 #Punti ferita guariti]], e il guaritore non può tentare di trattare nuovamente quelle ferite. Un successo con un tiro di 5 o più indica che il guaritore può determinare se una malattia è naturale o indotta magicamente.</p>"
         },
         "Hear Noise": {
-            "name": "Sentire rumori",
+            "name": "Sentire Rumori",
             "description": "<p>Il ladro ha un senso dell'udito acuto, permettendogli di percepire rumori deboli come passi, sussurri e movimenti di creature nascoste.</p>"
         },
         "Heat Metal": {
@@ -683,7 +683,7 @@
             "description": "<p>Questo incantesimo fa riscaldare e poi raffreddare lentamente un oggetto metallico. Può influenzare un oggetto metallico che pesa fino a 5 mon per livello dell'incantatore. Ad esempio, un incantatore di 12º Livello può riscaldare fino a 27 kg (60 mon), come una spada normale, mentre un incantatore di 20º Livello può riscaldare fino a 45 kg (100 mon), abbastanza per riscaldare una spada a due mani.</p>\n                <p>Il calore non danneggia gli oggetti magici ma può danneggiare gravemente armi o oggetti normali, specialmente se contengono sia legno che metallo. Se tenuto, l'oggetto causa danni crescenti ogni round: 1 punto nel primo round, 2 nel secondo, 4 nel terzo e 8 nel quarto. I danni poi diminuiscono allo stesso ritmo nei round restanti. Nel quarto round, il cuoio, il legno e altri materiali infiammabili a contatto con il metallo prendono fuoco. Il danno totale in sette round è di 22 punti.</p>\n                <p>Il possessore non ottiene un tiro salvezza, ma la resistenza al fuoco annulla tutti i danni. Il possessore può lasciare cadere l'oggetto in qualsiasi momento, e le creature di bassa intelligenza hanno una probabilità dell'80% di farlo ogni round. L'incantesimo interrompe la concentrazione, impedendo il lancio di incantesimi per tutta la durata del danno.</p>\n                <p>Una volta lanciato, l'incantesimo non richiede concentrazione. Solo un incantesimo <em>dissolvi magie</em> può fermarlo; mezzi normali, come l'immersione in acqua, non lo influenzano. Se lanciato su un oggetto incastrato in una creatura (come una freccia o un pugnale), rimuoverlo causa la perdita dell'iniziativa per quel round e infligge danni per quel round.</p>"
         },
         "Hide in Shadows": {
-            "name": "Nascondersi nelle ombre",
+            "name": "Nascondersi nelle Ombre",
             "description": "<p>Il ladro può fondersi con le ombre e diventare quasi invisibile, muovendosi silenziosamente finché rimane fermo o si muove con cautela.</p>"
         },
         "Hiding Ability (indoors)": {
@@ -800,7 +800,7 @@
             "description": "<p>Questo incantesimo permette all'incantatore di determinare l'allineamento (Legale, Neutrale o Caotico) di qualsiasi creatura entro 3 m. Può anche rivelare l'allineamento di un oggetto incantato o di un'area, se applicabile.</p><p>La forma invertita, <em>occultamento dell’allineamento</em>, dura per un turno per livello dell'incantatore e può essere lanciata su una creatura con un tocco. Non è permesso alcun tiro salvezza. Per la durata dell'incantesimo, qualsiasi tentativo di discernere l'allineamento del destinatario produrrà un risultato falso. Questo falso allineamento rimarrà costante per tutti i tentativi di rilevamento successivi durante la durata dell'incantesimo.</p>"
         },
         "Knowledge (choose type)": {
-            "name": "Sapienza (scegli il tipo)",
+            "name": "Sapienza (scegli)",
             "description": "\n        <p>Il personaggio è un esperto in un campo di studio come la storia, la teologia o la geografia. Un personaggio può guadagnarsi da vivere insegnando o agendo come esperto nel soggetto scelto. Con un tiro riuscito, possono fornire commenti dettagliati o approfondimenti sul campo di studio. Il tipo specifico di conoscenza deve essere definito e possono essere scelte più abilità per competenza in diversi argomenti.</p>\n      "
         },
         "Labor": {
@@ -841,7 +841,7 @@
             "description": "<p>Questo incantesimo crea un fulmine che inizia fino a 54 m dall'incantatore ed estende per altri 18 m in linea retta. Tutte le creature nell'area di effetto subiscono 1d6 punti di danno da fulmine per livello dell'incantatore.</p>\n<p><strong>Danno:</strong> Per esempio, un elfo di 6º Livello lancia una saetta che infligge 6d6 punti di danno. Ogni creatura nel percorso del fulmine può effettuare un tiro salvezza contro incantesimi per dimezzare il danno.</p>\n<p><strong>Effetto Speciale:</strong> Se il fulmine colpisce una superficie solida, rimbalza verso l'incantatore fino a raggiungere la sua lunghezza totale di 18 m.</p>"
         },
         "Language (choose type)": {
-            "name": "Linguaggio (scegline uno)",
+            "name": "Linguaggio (scegli)",
             "description": "<p>Permette al personaggio di parlare e leggere una lingua specifica oltre alla sua normale allocazione. Ogni lingua aggiuntiva è scelta separatamente, come <strong>Elfico</strong>, <strong>Nanico</strong>, o <strong>Thyatiano</strong>. Il personaggio deve fare una prova di abilità per comprendere il discorso tecnico o veloce in queste lingue aggiuntive. </p>"
         },
         "Languages": {
@@ -914,7 +914,7 @@
             "description": "<p>Un mago è un personaggio umano dedicato allo studio della conoscenza arcana e al lancio di incantesimi. Essi sono tra le classi più versatili e potenti, ma sono fisicamente fragili e limitati nelle abilità di combattimento. La loro concentrazione sulla magia permette loro di esercitare poteri straordinari man mano che acquisiscono esperienza.</p><h3>Caratteristiche Chiave:</h3><ul><li><strong>Requisito Principale</strong>: Intelligenza, che garantisce un bonus di esperienza per punteggi alti (5% per 13–15, 10% per 16–18).</li><li><strong>Abilità di Combattimento</strong>: I maghi non possono indossare armature o usare scudi e sono limitati all'uso di pugnali. A discrezione del DM, possono essere permessi altre armi leggere come bastoni o fionde.</li><li><strong>Dadi Vita</strong>: Usano un d4 per i punti ferita per livello fino al 9º livello. Oltre a ciò, guadagnano un punto ferita fisso per livello senza bonus di Costituzione.</li><li><strong>Lancio di Incantesimi</strong>: I maghi imparano e preparano incantesimi da un libro di incantesimi. La loro magia include una vasta gamma di effetti, come incantesimi d'attacco (ad es., Palla di Fuoco), incantesimi di utilità (ad es., Bus), e incantesimi difensivi (ad es., Scudo).</li></ul><h3>Avanzamento:</h3><ul><li>Al <strong>9º livello</strong> (Livello Nome), un mago diventa un \"Mago\" (maschio) o \"Maga\" (femmina). I maghi possono creare oggetti magici, come pergamene o pozioni.</li><li>I maghi possono costruire una torre come roccaforte personale. Una volta completata, la torre attira 1d6 apprendisti (maghi di 1º–3º livello), che servono il mago come studenti e assistenti.</li><li>Se un dungeon viene costruito sotto o vicino alla torre e lasciato incustodito, può attrarre mostri. Alcuni maghi incoraggiano questo per creare una fonte pronta di materiale per la ricerca e l'addestramento.</li></ul><h3>Roccaforte:</h3><ul><li><strong>Maghi Indipendenti</strong>: I maghi che costruiscono le proprie torri lo fanno tipicamente senza cercare l'approvazione dei sovrani locali. Tuttavia, guadagnare il favore del sovrano potrebbe comportare doni o un titolo ufficiale per la terra.</li><li><strong>Maghi di Corte</strong>: I maghi possono servire come maghi di corte, noti come Maghi di Corte, consigliando i sovrani su questioni magiche in cambio di vitto, alloggio e uno stipendio (solitamente 3.000 mo al mese o più). Questo accordo consente una continua ricerca magica, spesso finanziata dal sovrano.</li></ul><p>I maghi iniziano le loro carriere come avventurieri fragili e vulnerabili, ma crescono fino a diventare potenti maghi in grado di alterare il corso delle campagne con le loro capacità arcane. Le loro roccaforti spesso servono come centri di ricerca magica e influenza.</p>"
         },
         "Magic-User Spells": {
-            "name": "Incantesimi Mago",
+            "name": "Incantesimi del Mago",
             "description": "<p>Gli elfi possono lanciare incantesimi da mago, anche se ricevono meno incantesimi e di livello inferiore rispetto a un mago dello stesso livello.</p>"
         },
         "Magical Engineering": {
@@ -961,7 +961,7 @@
             "description": "\n        <p>Questa abilità copre le tecniche e le capacità fisiche necessarie per scalare terreni ripidi e pericolosi, come montagne e scogliere. I personaggi con Alpinismo possono navigare su pendii difficili, assicurare percorsi sicuri e assistere altri nella salita o discesa. L'abilità può anche essere utilizzata per evitare pericoli come frane o cadute.</p>\n      "
         },
         "Move Silently": {
-            "name": "Muoversi in silenzio",
+            "name": "Muoversi Silenziosamente",
             "description": "<p>Il ladro può muoversi senza fare alcun rumore, evitando di essere rilevato quando cerca di passare inosservato accanto ad altri.</p>"
         },
         "Muscle": {
@@ -969,7 +969,7 @@
             "description": "\n            <p>L'abilità Muscoloso rappresenta l'addestramento di un personaggio nel sollevamento di pesi e nei compiti fisici faticosi, come aprire porte bloccate, rompere oggetti o spostare grandi pesi. I personaggi con questa abilità possono dirigere gruppi di lavoratori per ottimizzare i loro sforzi quando si spostano carichi pesanti o si usano macchinari semplici come carrucole e leve.</p>\n<p>Con una prova di abilità superata, il personaggio guadagna un bonus di +2 alle prove di Forza per compiti che coinvolgono pura potenza fisica, come forzare l'apertura di una porta o piegare delle sbarre. Questa abilità è inestimabile per i personaggi che spesso si trovano in situazioni fisicamente impegnative.</p>\n<p>L'abilità permette anche al personaggio di applicare i principi di base della fisica a proprio vantaggio, utilizzando la leva e la tecnica per moltiplicare la propria forza effettiva. Molti personaggi che sono lavoratori, guerrieri o atleti possiedono comunemente questa abilità.</p>\n        "
         },
         "Music (choose type)": {
-            "name": "Musica (scegli quale)",
+            "name": "Musica (scegli)",
             "description": "\n        <p>L'abilità Musica rappresenta la competenza di un personaggio con un tipo specifico di strumento musicale, come un liuto, un'arpa o un tamburo. Il tipo di strumento scelto deve essere specificato quando l'abilità viene selezionata. I personaggi con questa abilità possono eseguire melodie che intrattengono, ispirano o calmano. Una prova di abilità Musica riuscita può influenzare l'umore di un pubblico, migliorare gli effetti delle performance magiche o distrarre gli avversari.</p>\n      "
         },
         "Mysticism": {
@@ -1062,7 +1062,7 @@
             "name": "Picca"
         },
         "Piloting (choose type)": {
-            "name": "Navigazione (scegli imbarcazione)",
+            "name": "Navigazione (scegli)",
             "description": "\n        <p>Questa abilità rappresenta la capacità di controllare e manovrare un tipo specifico di imbarcazione, come una nave, una nave volante o un mezzo magico. Il tipo scelto deve essere specificato quando l'abilità viene selezionata. La navigazione comporta l'uso del timone, evitare gli ostacoli e la gestione dell'imbarcazione in varie condizioni, come situazioni meteorologiche o di combattimento.</p>\n      "
         },
         "Planar Geography": {
@@ -1158,7 +1158,7 @@
             "spellRange": "0 (solo Druido)"
         },
         "Profession (choose type)": {
-            "name": "Professione (scegli quale)",
+            "name": "Professione (scegli)",
             "description": "\n        <p>Il personaggio è esperto in un tipo di professione non manuale, come politica, cucina, gestione delle proprietà, cura dei cavalli o scrittura. Con un tiro riuscito di abilità, il personaggio può guadagnarsi da vivere con questa professione e fornire commenti esperti su argomenti correlati. Il giocatore deve specificare la professione esatta in cui il personaggio è abile e un personaggio può avere più abilità di Professione per rappresentare l'esperienza in diversi campi</p>\n      "
         },
         "Protection from Evil": {
@@ -1230,10 +1230,10 @@
             "description": "<p>Cibo non trattato ma sufficiente per una persona per una settimana. È soggetto a deperimento in ambienti umidi, come nei dungeon, ed è ideale per i viaggi terrestri</p>"
         },
         "Read Languages": {
-            "name": "Lettura dei Linguaggi",
+            "name": "Comprendere Linguaggi",
             "spellRange": "0",
             "spellEffect": "Solo l'incantatore",
-            "description": "<p>Questo incantesimo permette all'incantatore di leggere, ma non parlare, qualsiasi lingua sconosciuta, codice o simbolo, inclusi mappe del tesoro o scritti segreti, per la durata dell'incantesimo</p>"
+            "description": "<p>Al 4º livello, un ladro ha una possibilità dell'80% di leggere e comprendere testi o lingue comuni (inclusi codici segreti semplici, lingue antiche, mappe del tesoro, eccetto scritti magici). Se fallisce, deve guadagnare un livello d'esperienza prima di riprovare.</p>"
         },
         "Read Magic": {
             "name": "Lettura del Magico",
@@ -1272,7 +1272,7 @@
             "description": "<p>Per la durata di questo incantesimo, il destinatario è immune ai danni da fuoco e calore normali. Riceve anche un bonus di +2 a tutti i tiri salvezza contro il fuoco magico (come il soffio del drago o la palla di fuoco). Inoltre, qualsiasi danno subito da tale fuoco magico è ridotto di 1 punto per dado di danno, con ogni dado che infligge almeno 1 punto di danno. Per il soffio del drago rosso, il danno è ridotto di 1 punto per Dado Vita del drago, ma mai sotto 1 punto per Dado Vita</p>"
         },
         "Riding (choose type)": {
-            "name": "Cavalcare (scegli cosa)",
+            "name": "Cavalcare (scegli)",
             "description": "\n        <p>Questa abilità copre la capacità di cavalcare e controllare un tipo specifico di cavalcatura, come un cavallo, grifone o drago. Il tipo scelto deve essere specificato quando l'abilità viene selezionata. Cavalcare comporta la gestione della cavalcatura in varie situazioni, inclusi combattimento, terreni pericolosi e manovre ad alta velocità. L'abilità può anche essere usata per calmare e gestire una cavalcatura spaventata o indisciplinata</p>\n      "
         },
         "Ring of Strength +1": {
@@ -1296,7 +1296,7 @@
             "description": "<p>Un sacchetto di stoffa o pelle di 30 cm x 60 cm che può contenere fino a 200 monete. Può essere portato a tracolla o legato a un carro o a una sella. Spesso usato per conservare piccoli oggetti o tesori</p>"
         },
         "Saddle Bags (large)": {
-            "name": "Borse da sella grandi",
+            "name": "Bisacce (grandi)",
             "description": "<p>Le bisacce sono borse di cuoio progettate per adattarsi al dorso di una sella e fornire spazio di archiviazione su un animale da cavalcatura. Le borse sono legate alla sella per evitare che cadano. Una persona può gettarle sulla spalla per assicurarsi che i beni preziosi contenuti nelle bisacce non vengano rubati mentre il cavaliere è lontano dalla sua cavalcatura. La dimensione è in relazione alla taglia dell'animale da cavalcatura</p><table style=\"width: 280px; border-width: 1px; margin-left: 0px; margin-right: auto;\" border=\"1\"><colgroup><col><col></colgroup><tbody><tr><td style=\"border-width: 1px; padding: 4px;\">Peso trasportabile (kg/mon)</td><td style=\"border-width: 1px; padding: 4px;\">25/500</td></tr><tr><td style=\"border-width: 1px; padding: 4px;\">Volume trasportabile (piedi cubici)</td><td style=\"border-width: 1px; padding: 4px;\">5</td></tr></tbody></table>"
         },
         "Saddle and Bridle": {
@@ -1327,7 +1327,7 @@
             "description": "<p>Questo rotolo contiene l'incantesimo dell'utilizzatore di magia *Pietra in Carne*, che è un incantesimo di 6º livello. Quando viene letto ad alta voce, può trasformare una statua o una quantità di pietra fino a 3 x 3 x 3 m in carne. Comunemente usato per ripristinare coloro che sono stati pietrificati da effetti come il respiro di una gorgone. L'incantesimo inverso, *Carne in Pietra*, trasformerà una creatura vivente in pietra, a meno che il bersaglio non riesca a superare un tiro salvezza contro la pietrificazione.</p>"
         },
         "Set Spear vs. Charge": {
-            "name": "Imposta Lancia vs. Carica",
+            "name": "Lancia vs. Carica",
             "description": "<p>Un halfling può preparare una lancia contro un avversario in carica, infliggendo danni doppi se l'attacco colpisce</p>"
         },
         "Shield": {
@@ -1360,8 +1360,8 @@
             "description": "<p>Questo incantesimo inverso di *Crescita dei Vegetali*, fa sì che le piante normali nell'area d'effetto si rimpiccioliscano, diventando attraversabili. Può essere usato per annullare gli effetti di *Crescita dei Vegetali*, ma non influisce sui mostri simili a piante come gli uomini albero (treant)</p>"
         },
         "Signaling (choose type)": {
-            "name": "Segnalazione (scegli tipo)",
-            "description": "\n            <p>Questa abilità permette al personaggio di lasciare messaggi che possono essere compresi solo da un altro specialista in Segnalazione della stessa cultura, gilda di commercianti, forza militare o \"scuola\". Il giocatore deve specificare il tipo e la cultura dei segnali che il personaggio studia, come segnali militari con la tromba, segnali navali con le bandiere, segnali di fumo o segnali di tamburi</p>\n        "
+            "name": "Segnali (scegli)",
+            "description": "\n            <p>Questa abilità permette al personaggio di lasciare messaggi che possono essere compresi solo da un altro specialista in Segnali della stessa cultura, gilda di commercianti, forza militare o \"scuola\". Il giocatore deve specificare il tipo e la cultura dei segnali che il personaggio studia, come segnali militari con la tromba, segnali navali con le bandiere, segnali di fumo o segnali di tamburi</p>\n        "
         },
         "Silence 15' Radius": {
             "name": "Silenzio (4,5m raggio)",
@@ -1383,7 +1383,7 @@
         },
         "Sling": {
             "name": "Fionda",
-            "description": "<p>Una fionda è una lunga corda di cuoio (da 1.2 m a 1.8 m) con una sacca a metà lunghezza. L'utilizzatore lega un'estremità della corda al polso e tiene l'altra estremità nella stessa mano. Quindi, posiziona un pallino di piombo nella sacca e fa oscillare la corda sopra la testa. A metà dell'oscillazione, lascia andare l'estremità libera, rilasciando il pallino. Le fionde richiedono normalmente pallini come munizioni, sebbene possano essere utilizzate con pietre raccolte da terra, con una penalità di -1 ai tiri per colpire e ai danni</p>"
+            "description": "<p>Una fionda è una lunga corda di cuoio (da 1.2 m a 1.8 m) con una sacca a metà lunghezza. L'utilizzatore lega un'estremità della corda al polso e tiene l'altra estremità nella stessa mano. Quindi, posiziona una biglia di piombo nella sacca e fa oscillare la corda sopra la testa. A metà dell'oscillazione, lascia andare l'estremità libera, rilasciando la biglia. Le fionde richiedono normalmente biglie come munizioni, sebbene possano essere utilizzate con pietre raccolte da terra, con una penalità di -1 ai tiri per colpire e ai danni</p>"
         },
         "Slow*": {
             "name": "Lentezza*",
@@ -1440,14 +1440,14 @@
         },
         "Spell Research": {
             "name": "Ricerca Incantesimi",
-            "description": "<p>Un mago/a può fare ricerche e creare nuovi incantesimi da aggiungere al suo libro degli incantesimi. Ciò richiede tempo, risorse e l'approvazione del Dungeon Master. La probabilità di successo si basa sulla complessità dell'incantesimo e sul livello dell'incantatore</p>"
+            "description": "<p>Un mago/a può fare ricerche e creare nuovi incantesimi da aggiungere al suo libro degli incantesimi. Ciò richiede tempo, risorse e l'approvazione del Dungeon Master. La probabilità di successo si basa sulla complessità dell'incantesimo e sul livello dell'incantatore.</p>"
         },
         "Spellbook, travelling": {
-            "name": "Libro degli Incantesimi da viaggio",
+            "name": "Libro Incantesimi da viaggio",
             "description": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>"
         },
         "Spellcasting": {
-            "name": "Lanciare gli Incantesimi",
+            "name": "Lanciare Incantesimi",
             "description": "<p>Gli incantatori possono memorizzare e lanciare incantesimi arcani. Il numero e il livello degli incantesimi che possono preparare è determinato dal loro livello. Gli incantesimi devono essere imparati e registrati nel libro degli incantesimi dell'incantatore prima di poter essere lanciati</p>"
         },
         "Staff": {
@@ -1467,7 +1467,7 @@
             "description": "<p>Questo incantesimo trasforma [[/r 2d8 #bastoni in serpenti]] bastoni in serpenti, che possono essere velenosi (50% di possibilità per serpente). I serpenti obbediscono ai comandi dell'incantatore ma torneranno ad essere bastoni quando vengono uccisi o quando la durata dell'incantesimo termina</p><p><strong>Statistiche del serpente:</strong> CA 6; DV 1; AT 1 morso; Danni 1d4; MV 27 m (9 m); Sal F1; ML 12; AL Neutrale; SA veleno (50% di possibilità per serpente di essere velenoso)</p><p>I serpenti non velenosi concedono 10 PX ciascuno, mentre quelli velenosi concedono 13 PX ciascuno</p>"
         },
         "Storytelling": {
-            "name": "Cantastorie",
+            "name": "Narrazione",
             "description": "\n        <p>L'abilità Narrazione permette a un personaggio di intrecciare racconti affascinanti che possono intrattenere, ispirare o impartire saggezza. Questa abilità viene usata per raccontare leggende, condividere notizie o persuadere gli altri attraverso la narrazione. Un controllo di Narrazione riuscito può catturare un pubblico, diffondere informazioni in modo efficace o persino influenzare l'opinione pubblica grazie al potere di una storia ben raccontata</p>\n      "
         },
         "Striking": {
@@ -1542,8 +1542,8 @@
             "description": "<p>Necessari per scassinare serrature, questi strumenti possono essere usati solo dai ladri. Un set tipico include fili sottili, vari grimaldelli, ecc</p>"
         },
         "Tinder Box": {
-            "name": "Acciarino e pietra focaia",
-            "description": "<p>Una piccola scatola contenente selce, acciaio e esca (trucioli di legno). Usata per accendere fuochi da campo o torce. In condizioni di secco, un fuoco si accende con un tiro di 1 o 2 su un d6. Può essere tentato una volta per round</p>"
+            "name": "Scatola dell'acciarino",
+            "description": "<p>Una piccola scatola contenente pietra focaia, acciarino e esca (trucioli di legno). Usata per accendere fuochi da campo o torce. In condizioni di secco, un fuoco si accende con un tiro di 1 o 2 su un d6. Può essere tentato una volta per round</p>"
         },
         "Topaz": {
             "name": "Topazio",
@@ -1583,7 +1583,7 @@
             "spellRange": "0 (Tocco)"
         },
         "Animal Training (choose type)": {
-            "name": "Addestramento Animale (Scegli tipo)",
+            "name": "Addestramento Animale (Scegli)",
             "description": "\n        <p>Questa abilità consente al personaggio di allevare, addestrare e prendersi cura di un tipo specifico di animale. L'animale può essere addestrato a compiere semplici richieste o comandi di base. Per ogni tipo aggiuntivo di animale che il personaggio desidera addestrare, deve acquisire nuovamente questa abilità. Ad esempio, l'addestramento dei cavalli e l'addestramento dei cani sono abilità separate, ma un addestratore di cavalli può gestire qualsiasi cavallo o pony, e un addestratore di cani può addestrare qualsiasi razza di cane. Questa abilità è comunemente riscontrata in culture con un forte legame con un tipo specifico di animale.</p>\n        "
         },
         "Control Temperature 10' Radius": {
@@ -1740,12 +1740,12 @@
             "name": "Rete (1.8 m x 1.8 m)"
         },
         "Pellets (lead)": {
-            "description": "<p>Munizioni per una fionda.</p>",
-            "name": "Palline (piombo)"
+            "description": "<p>Munizioni a sfera per una fionda.</p>",
+            "name": "Biglie (piombo)"
         },
         "Pellets (silver)": {
-            "description": "<p>Munizioni d'argento per una fionda.</p>",
-            "name": "Palline (argento)"
+            "description": "<p>Munizioni d'argento a sfera per una fionda.</p>",
+            "name": "Biglie (argento)"
         },
         "Hooded Lantern": {
             "name": "Lanterna Schermabile",
@@ -1789,12 +1789,12 @@
         },
         "Bullseye Lantern": {
             "description": "<p>Una lanterna con schermatura è una fonte di luce portatile racchiusa in un involucro di metallo, progettata per controllare la quantità e la direzione della luce che emette. La lanterna ha un schermo a cerniera, regolabile, che può essere sollevato o abbassato per focalizzare o bloccare la luce secondo necessità. Quando è completamente aperto, la lanterna proietta luce in un raggio di 9 metri. Quando è parzialmente chiuso, la luce si riduce a un raggio più stretto che proietta luce per 15 metri.</p><p>La lanterna brucia una fiaschetta di olio nel corso di quattro ore (24 turni). Quando si chiude aiuta a proteggere la fiamma dal vento e dalla pioggia, rendendola più affidabile in condizioni esterne o avverse rispetto a una fiamma aperta</p>",
-            "name": "Lanterna Schermabile"
+            "name": "Lanterna con Lente"
         }
     },
     "label": "Oggetti Classi Abilità",
     "folders": {
-        "Currency": "Valuta",
+        "Currency": "Monete",
         "Level 9": "Livello 9",
         "Level 8": "Livello 8",
         "Magic Items": "Oggetti Magici",
@@ -1821,7 +1821,7 @@
         "Equipment": "Equipaggiamento",
         "Wisdom": "Saggezza",
         "Adventuring Gear": "Equipaggiamento da Avventura",
-        "Armor": "Armatura",
+        "Armor": "Armature",
         "Character Classes": "Classi",
         "Charisma": "Carisma",
         "Cleric": "Chierico",
@@ -1835,7 +1835,7 @@
         "Spells": "Incantesimi",
         "Strength": "Forza",
         "Thief": "Ladro",
-        "Treasure": "Tesoro",
+        "Treasure": "Tesori",
         "Weapon Masteries": "Maestrie delle Armi",
         "Weapons": "Armi"
     }
