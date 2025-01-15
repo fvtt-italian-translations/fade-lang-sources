@@ -313,7 +313,7 @@
                 "bright": "Intensa",
                 "brightHint": "Il raggio della parte centrale intensa della luce.",
                 "durationHint": "La durata della sorgente luminosa.",
-                "turnsActiveHint": "Quanti turni la luce è stata accesa.",
+                "turnsActiveHint": "Quanti turni questo oggetto è stato attivo.",
                 "turnsActive": "Turni Accesa",
                 "color": "Colore",
                 "colorHint": "Questo è il codice colore HTML della luce. Es., #d0a750.",
@@ -887,6 +887,12 @@
             "M": "M",
             "S": "P",
             "L": "G"
+        },
+        "classSpecies": {
+            "Elf": "Elfo",
+            "Halfling": "Halfling",
+            "Human": "Umano",
+            "Dwarf": "Nano"
         }
     }
 }
