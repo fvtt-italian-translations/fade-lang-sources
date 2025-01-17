@@ -253,6 +253,7 @@
         "short": "Weight"
       },
       "hintBase": "<b>Base Armor Class</b><p>This is the base armor class and it doesn't' include modifiers from effects.</p>",
+      "hintRangedAC": "<b>Ranged Armor Class</b><p>The effective armor class versus missile attacks.</p>",
       "hintTotal": "<b>Total Armor Class</b><p>This is the total armor class and it includes modifiers from effects.</p>",
       "long": "Base AC",
       "longAAC": "Base AAC",
@@ -263,6 +264,8 @@
         "short": "Natural"
       },
       "plural": "Armor",
+      "rangedAAC": "Ranged AAC",
+      "rangedAC": "Ranged AC",
       "shield": {
         "long": "Shield Equipped",
         "short": "Shield"
