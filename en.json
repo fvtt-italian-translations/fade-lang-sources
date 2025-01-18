@@ -239,7 +239,21 @@
       "morale": "Morale",
       "moraleHint": "The morale score indicates a character's or monster's loyalty and courage.",
       "retainerMorale": "Retainer Morale",
-      "retainerMoraleHint": "The morale score of this character's retainers. A retainer's morale score indicates their loyalty and courage under this character's leadership."
+      "retainerMoraleHint": "The morale score of this character's retainers. A retainer's morale score indicates their loyalty and courage under this character's leadership.",
+      "sizes": {
+        "G": "Huge",
+        "GHint": "Creatures between 12 and under 25 feet tall, such as frost giants and rocs.",
+        "I": "Immense",
+        "IHint": "Creatures 25 feet tall or larger, such as dragons, titans, and colossal creatures.",
+        "L": "Large",
+        "LHint": "Creatures between 7 and under 12 feet tall, such as ogres, trolls, and large beasts. In standard combat mechanics, this size includes all larger sizes.",
+        "M": "Medium",
+        "MHint": "Creatures between 4 and under 7 feet tall, such as humans, elves, and orcs.",
+        "S": "Small",
+        "SHint": "Creatures between 2 and under 4 feet tall, such as kobolds and goblins. In standard combat mechanics, this size includes all smaller sizes.",
+        "T": "Tiny",
+        "THint": "Creatures less than 2 feet tall, such as pixies, sprites, and giant rats."
+      }
     },
     "Armor": {
       "abbr": "AC",
@@ -547,6 +561,7 @@
         "short": "Short"
       }
     },
+    "bonus": "Bonus",
     "category": "Category",
     "class": {
       "key": {
@@ -697,7 +712,25 @@
         "title": "Cast Spell?",
         "yesLabel": "Cast Spell"
       },
-      "targeted": "Targeted"
+      "targeted": "Targeted",
+      "wrestling": {
+        "attacker": "Attacker",
+        "defender": "Defender",
+        "groupWR": "Total Wrestling Rating",
+        "stateLabel": "Current State",
+        "states": {
+          "attgrab": "Attacker Grabs",
+          "attpin": "Attacker Pin",
+          "atttakedown": "Attacker Takedown",
+          "defgrab": "Defender Grabs",
+          "defpin": "Defender Pin",
+          "deftakedown": "Defender Takedown",
+          "free": "Free"
+        },
+        "statusLabel": "Wrestler Status",
+        "winsRound": "{winner} wins this round.",
+        "wrestlingContest": "Wrestling Contest"
+      }
     },
     "modifier": "Modifier",
     "name": "Name",
@@ -712,6 +745,7 @@
       "notMemorized": "{actorName} tries to cast {spellName}, but the spell is not memorized.",
       "partyRests": "The party rests.",
       "reversedTime": "<div>Time goes back {turns} turn(s).</div>",
+      "selectTarget": "A targetted must first be selected.",
       "selectToken1": "A token must first be selected.",
       "spellSelectToken": "You must have your token selected to cast a spell.",
       "timeReset1": "Resetting session turn count to zero.",
