@@ -307,6 +307,16 @@
       "attackFail": "<div class='attack-fail'>Attack missed!</div>",
       "attackFlavor": "{attacker} {attackType} attacks with {weapon}",
       "attackSuccess": "<div class='attack-success'>Attack hit!</div>",
+      "combatTracker": {
+        "begin": "Combat has begun!",
+        "created": "Combat encounter created.",
+        "ended": "Combat encounter has ended.",
+        "initHeld": "Round {round} started. Initiative held for all combatants.",
+        "initRerolled": "Round {round} started. Initiative rerolled for all combatants.",
+        "initReset": "Round {round} started. Initiative rolls reset.",
+        "initRoll": "{name} rolled {roll} {mod}.",
+        "rollFormula": "Initiative Rolls (Base Formula: {formula})"
+      },
       "damageFlavor2": "<div>{weapon} does <span class='damage'>{damage}</span> points of damage.</div>",
       "damageRoll": {
         "applied": "{damage} points of {type} damage applied to {tokenName}.",
