@@ -239,7 +239,21 @@
             "THBonusHint": "Utilizzato con il sistema di classe armatura ascendente (CAA), questo valore viene aggiunto ai tiri per colpire. Chiamato anche bonus d'attacco. Il bonus per colpire è calcolato automaticamente in base al valore di THAC0.",
             "moraleHint": "Il punteggio di morale indica la lealtà e il coraggio di un PG o di un mostro.",
             "retainerMorale": "Morale S.",
-            "retainerMoraleHint": "Il punteggio di morale dei seguaci di questo personaggio. Il punteggio di morale di un seguace indica la sua lealtà e il suo coraggio sotto la guida di questo personaggio."
+            "retainerMoraleHint": "Il punteggio di morale dei seguaci di questo personaggio. Il punteggio di morale di un seguace indica la sua lealtà e il suo coraggio sotto la guida di questo personaggio.",
+            "sizes": {
+                "I": "Mastodontica",
+                "IHint": "Creature alte 7.5 metri di altezza o più, come draghi, titani e creature colossali.",
+                "L": "Grande",
+                "M": "Media",
+                "MHint": "Creature tra 1.2 e 2.1 metri di altezza, come umani, elfi e orchi.",
+                "S": "Piccola",
+                "SHint": "Creature tra i 60 cm e i 1.2 metri di altezza, come coboldi e goblin. In meccaniche di combattimento standard, questa dimensione include tutte le dimensioni più piccole.",
+                "T": "Minuscola",
+                "THint": "Creature meno di 60 cm di altezza, come pixie, sprite e ratti giganti.",
+                "G": "Enorme",
+                "GHint": "Creature tra i 3.5 m e i 7.5 m di altezza, come i giganti del freddo e i roc.",
+                "LHint": "Creature tra 2.1 e 3.6 metri di altezza, come orchi, troll e grandi bestie. In meccaniche di combattimento, questa dimensione include tutte le dimensioni più grandi."
+            }
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -409,7 +423,10 @@
             "abbrAAC": "CAA",
             "total": "CA Tot",
             "totalAAC": "CAA Totale",
-            "hintTotal": "<b>Classe Armatura Totale</b><p>Questa è la classe armatura totale e include i modificatori derivanti dagli effetti</p>"
+            "hintTotal": "<b>Classe Armatura Totale</b><p>Questa è la classe armatura totale e include i modificatori derivanti dagli effetti</p>",
+            "hintRangedAC": "<b>Classe Armatura a Distanza</b><p>La CA efficace contro gli attacchi con armi da lancio.</p>",
+            "rangedAAC": "CAA a Distanza",
+            "rangedAC": "CA a Distanza"
         },
         "Mastery": {
             "levels": {
@@ -499,7 +516,19 @@
             "spellCast": "{caster} lancia {spell}",
             "useSpecAbility": "{owner} usa {specAbility}",
             "attackAC": "<div class='attack-info'>L'attacco colpisce <strong>CA {hitAC}</strong></div>",
-            "attackACAny": "<div class='attack-info'>20 Naturale! L'attacco colpisce qualsiasi CA!</strong>.</div>"
+            "attackACAny": "<div class='attack-info'>20 Naturale! L'attacco colpisce qualsiasi CA!</strong>.</div>",
+            "combatTracker": {
+                "begin": "Il combattimento ha avuto inizio!",
+                "created": "Combattimento creato.",
+                "ended": "Il combattimento è terminato.",
+                "initHeld": "Il {round}° round è iniziato. Iniziativa mantenuta per tutti i combattenti.",
+                "initRerolled": "Il {round}° round è iniziato. Iniziativa tirata di nuovo per tutti i combattenti.",
+                "initReset": "Inizia il {round}° round. I tiri di iniziativa vengono resettati.",
+                "initRoll": "{name} ha tirato un {roll} {mod}.",
+                "rollFormula": "Tiri di Iniziativa (Formula Base: {formula})"
+            },
+            "targetAC": "<span data-tooltip='Classe armatura in mischia e a distanza (se uguali); altrimenti classe armatura solo in mischia.' {cssClass}>{acTotal}</span>{targetRangedAc}",
+            "targetRangedAC": "/<span data-tooltip='CA per attacchi a distanza.' {cssClass}>{acTotal}</span>"
         },
         "dialog": {
             "lightSource": "Fonte di Luce",
@@ -542,6 +571,29 @@
                 "xpAmountTotal": "PX Totali",
                 "xpAmount": "Ammontare in PX",
                 "share": "Condividi"
+            },
+            "shove": {
+                "attackerRoll": "{attacker} tira i dadi",
+                "defenderResist": "{defender} resiste",
+                "resultsLabel": "Risultato della Spinta"
+            },
+            "wrestling": {
+                "attacker": "Attaccante",
+                "defender": "Difensore",
+                "groupWR": "Valore Totale di Lotta",
+                "stateLabel": "Stato Attuale",
+                "states": {
+                    "attgrab": "Prese dell'Attaccante",
+                    "attpin": "Blocco dell'Attaccante",
+                    "atttakedown": "Atterrata dell'Attaccante",
+                    "defgrab": "Prese del Difensore",
+                    "defpin": "Blocco del Difensore",
+                    "deftakedown": "Atterrate del Difensore",
+                    "free": "Libero/a"
+                },
+                "statusLabel": "Status del Lottatore",
+                "winsRound": "{winner} vince questo round.",
+                "wrestlingContest": "Incontro di Lotta"
             }
         },
         "time": {
@@ -659,6 +711,14 @@
                 "disarm": {
                     "name": "Disarmare",
                     "description": "Il personaggio disarma un avversario colpendolo ma senza infliggere danni; se il bersaglio fallisce una prova di Destrezza, lascia cadere la sua arma"
+                },
+                "guard": {
+                    "description": "L'azione Guardia consente a un combattente di trattenere il proprio attacco in mischia fino alla fine della fase di movimento di un avversario, colpendo se l'avversario si muove entro la portata.",
+                    "name": "Guardia"
+                },
+                "shove": {
+                    "description": "L'azione di Spinta consente a un combattente di sostituire il proprio attacco per spingere un bersaglio indietro o di lato, utilizzando le dimensioni, la forza e il momento per determinare il successo.",
+                    "name": "Spinta"
                 }
             }
         },
@@ -683,7 +743,8 @@
             "needRest": "<div class='warning'>Il gruppo è stanco e ha bisogno di riposare.</div><div>I tiri per colpire e i danni subiscono una penalità di -1 fino a quando il gruppo non riposa.</div>",
             "timeReset1": "Azzeramento del conteggio dei turni della sessione.",
             "timeReset2": "Azzeramento del conteggio globale dei turni.",
-            "partyRests": "Il gruppo riposa."
+            "partyRests": "Il gruppo riposa.",
+            "selectTarget": "Deve essere selezionato un bersaglio."
         },
         "class": {
             "key": {
@@ -733,7 +794,14 @@
         "GMNotes": "Note del DM",
         "category": "Categoria",
         "vsMagic": "contro Magia",
-        "name": "Nome"
+        "name": "Nome",
+        "apps": {
+            "playerCombat": {
+                "title": "Combattimento del Giocatore",
+                "prompt": "Seleziona l'azione di combattimento per questo round. Chiudi questa scheda quando hai finito. Essa si chiuderà automaticamente quando verrà tirata l'iniziativa."
+            }
+        },
+        "bonus": "Bonus"
     },
     "SETTINGS": {
         "Encumbrance": {
