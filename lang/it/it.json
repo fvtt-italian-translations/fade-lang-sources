@@ -650,67 +650,67 @@
             "maneuvers": {
                 "nothing": {
                     "name": "Niente",
-                    "description": "Il personaggio non fa assolutamente nulla in questo round. Nessuna mossa, nessun attacco, niente di niente"
+                    "description": "Il combattente non fa assolutamente nulla in questo round. Nessuna mossa, nessun attacco, niente di niente"
                 },
                 "moveOnly": {
                     "name": "Solo Movimento",
-                    "description": "Il personaggio si sta muovendo e non sta attaccando in questo round. Non è una 'Ritirata'"
+                    "description": "Il combattente si sta muovendo e non sta attaccando in questo round. Non è una 'Ritirata'"
                 },
                 "readyWeapon": {
                     "name": "Prepara Arma",
-                    "description": "Il personaggio sta preparando la sua arma in questo round. Può anche muoversi a velocità normale"
+                    "description": "Il combattente sta preparando la sua arma in questo round. Può anche muoversi a velocità normale"
                 },
                 "throw": {
                     "name": "Lancia Arma",
-                    "description": "Il personaggio lancia un'arma adatta a farlo, applicando Destrezza e bonus magici al TPC e Forza inclusi i bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione."
+                    "description": "Il combattente lancia un'arma adatta a farlo, applicando il modificatore di Destrezza, magici al TPC e Forza inclusi i bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione."
                 },
                 "fire": {
-                    "description": "Il personaggio usa un'arma a distanza, applicando Destrezza e bonus magici al tiro per colpire, a condizione che il bersaglio si trovi entro la gittata dell'arma",
+                    "description": "Il combattente usa un'arma a distanza, applicando Destrezza e bonus magici al tiro per colpire, a condizione che il bersaglio si trovi entro la gittata dell'arma",
                     "name": "Tira"
                 },
                 "spell": {
                     "name": "Lancia Incantesimo",
-                    "description": "Il personaggio lancia un incantesimo memorizzato. I mostri usano questa azione per attacchi magici che non sono a distanza o in mischia"
+                    "description": "Il combattente lancia un incantesimo memorizzato. I mostri usano questa azione per attacchi magici che non sono a distanza o in mischia"
                 },
                 "magicItem": {
                     "name": "Oggetto Magico",
-                    "description": "Il personaggio attiva un oggetto magico che non sia un'arma, come una pozione, una bacchetta, un anello o l'abilità passiva di un altro oggetto magico"
+                    "description": "Il combattente attiva un oggetto magico che non sia un'arma, come una pozione, una bacchetta, un anello o l'abilità passiva di un altro oggetto magico"
                 },
                 "lance": {
                     "name": "Attacco con Lancia",
-                    "description": "Se il cavallo, prima di portare l’attacco del guerriero percorre al galoppo almeno 20 metri, la lancia infligge un numero doppio di danni"
+                    "description": "Il combattente a cavallo carica eseguendo un attacco con lancia, guadagnando i bonus di Forza e magia, infliggendo doppio danno se la cavalcatura carica di almeno 18 metri."
                 },
                 "attack": {
                     "name": "Attacco",
-                    "description": "Il personaggio effettua un attacco in mischia, aggiungendo Forza e bonus magici sia al tiro per colpire che al danno"
+                    "description": "Il combattente effettua un attacco in mischia, aggiungendo Forza e bonus magici sia al tiro per colpire che al danno"
                 },
                 "withdrawal": {
                     "name": "Arretrare",
-                    "description": "Il personaggio indietreggia da un nemico a 1,5 metri per round fino alla metà del suo normale movimento, attaccando solo se il nemico lo segue e si sposta nel raggio d'azione durante la sua fase di movimento"
+                    "description": "Il combattente indietreggia 1,5 metri per round da un nemico fino alla metà del suo normale movimento, attaccando solo se il nemico lo segue e si sposta nel raggio d'azione durante la sua fase di movimento"
                 },
                 "retreat": {
                     "name": "Ritirata",
-                    "description": "Il personaggio fugge dalla mischia a più della metà della sua velocità, perdendo i bonus alla CA dello scudo e dando ai nemici un bonus di +2 per attaccarli in quel round"
+                    "description": "Il combattente fugge dalla mischia a più della metà della sua velocità, perdendo i bonus alla CA dello scudo e dando ai nemici un bonus di +2 per attaccare in quel round"
                 },
                 "multiAttack": {
                     "name": "Attacco Multiplo",
-                    "description": "Il personaggio effettua più attacchi per round, che possono includere qualsiasi combinazione di attacchi, lanci, disarmi o attacchi con la lancia"
+                    "description": "Il combattente effettua più attacchi per round, che possono includere qualsiasi combinazione di attacchi, lanci, disarmi o attacchi con la lancia"
                 },
                 "setSpear": {
                     "name": "Prepara Lancia",
-                    "description": "Il personaggio impugna una lancia, una picca o un'arma simile e la blocca contro il terreno per un nemico in carica, ottenendo Forza e bonus magici e infliggendo danni doppi in caso di colpo andato a segno"
+                    "description": "Il combattente impugna una lancia, una picca o un'arma simile e la blocca contro il terreno per un nemico in carica, ottenendo Forza e bonus magici e infliggendo danni doppi in caso di colpo andato a segno"
                 },
                 "smash": {
                     "name": "Schiantare",
-                    "description": "Il personaggio effettua un attacco potente con una penalità di -5 al tiro per colpire perdendo automaticamente l'iniziativa. Se colpisce, aggiunge ai danni tutto il suo punteggio di Forza, e se applicabili, eventuali bonus derivanti dalla magia e dalla Forza stessa"
+                    "description": "Il combattente effettua un attacco potente con una penalità di -5 al tiro per colpire perdendo automaticamente l'iniziativa. Se colpisce, aggiunge ai danni tutto il suo punteggio di Forza, il modificatore di Forza, e se applicabili, eventuali bonus derivanti dalla magia."
                 },
                 "parry": {
                     "name": "Parare",
-                    "description": "Il personaggio non attacca ma para gli attacchi avversari per un intero round, facendo sì che tutti i nemici subiscano una penalità di -4 ai tiri per colpire contro di loro. Proiettili scagliati con meccanismi non possono essere parati"
+                    "description": "Il combattente non attacca ma para gli attacchi avversari per un intero round, facendo sì che tutti i nemici subiscano una penalità di -4 ai tiri per colpire. Proiettili scagliati con meccanismi non possono essere parati"
                 },
                 "disarm": {
                     "name": "Disarmare",
-                    "description": "Il personaggio disarma un avversario colpendolo ma senza infliggere danni; se il bersaglio fallisce una prova di Destrezza, lascia cadere la sua arma"
+                    "description": "Il combattente disarma un avversario colpendolo ma senza infliggere danni; se il bersaglio fallisce una prova di Destrezza, lascia cadere la sua arma"
                 },
                 "guard": {
                     "description": "L'azione Guardia consente a un combattente di trattenere il proprio attacco in mischia fino alla fine della fase di movimento di un avversario, colpendo se l'avversario si muove entro la portata.",
