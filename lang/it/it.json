@@ -495,7 +495,7 @@
             "damageFlavor2": "<div>{weapon} fa <span class='damage'>{damage}</span> danni</div>",
             "healFlavor": "<div>{weapon} ripristina <span class='damage'>{damage}</span> punti ferita</div>",
             "healRoll": "Cura",
-            "targetACDefMastery": "<span data-tooltip='AC' {cssClass}>{acTotal}</span><span {cssClass} data-tooltip='CA modificata con bonus di maestria nell'arma. Ha attaccato {attacksAgainst}/{maxAttacksAgainst} volte'>({defenseMasteryTotal})</span>",
+            "targetACDefMastery": "<span data-tooltip='CA per attacch in mischia.' {cssClass}>{acTotal}</span>/<span {cssClassMastery} data-tooltip='<p>CA modificata con il bonus della maestria dell'arma. Attaccato {attacksAgainst}/{maxAttacksAgainst} volte.</p>'>{defenseMasteryTotal}</span>{targetRangedAc}",
             "resetSpells": "{actorName} azzera gli incantesimi memorizzati e i loro lanci",
             "damageRoll": {
                 "name": "Danno",
