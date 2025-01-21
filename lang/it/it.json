@@ -671,7 +671,7 @@
                     "description": "Il combattente lancia un'arma adatta a farlo, applicando il modificatore di Destrezza, magici al TPC e Forza inclusi i bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione."
                 },
                 "fire": {
-                    "description": "Il combattente usa un'arma a distanza, applicando Destrezza e bonus magici al tiro per colpire, a condizione che il bersaglio si trovi entro la gittata dell'arma",
+                    "description": "Il combattente utilizza un'arma da lancio, come un arco o una cerbottana, purché il bersaglio sia entro la gittata dell'arma",
                     "name": "Tira"
                 },
                 "spell": {
@@ -749,8 +749,8 @@
             "missingItem2": "{actor} non ha un {type}.",
             "zeroQuantity": "{itemName} ha una quantità pari a zero e non può essere utilizzato/a.",
             "noAmmo": "{actorName} non ha munizioni per {weaponName}.",
-            "reversedTime": "<div>Si torna indietro di {turns} turno/i.</div>",
-            "advancedTime": "<div>Si avanza di {turns} turno/i.</div>",
+            "reversedTime": "<div>Si torna indietro di {turns} turno/i, {rounds} round(s).</div>",
+            "advancedTime": "<div>Si avanza di {turns} turno/i, {rounds} round(s).</div>",
             "needRest": "<div class='warning'>Il gruppo è stanco e ha bisogno di riposare.</div><div>I tiri per colpire e i danni subiscono una penalità di -1 fino a quando il gruppo non riposa.</div>",
             "timeReset1": "Azzeramento del conteggio dei turni della sessione.",
             "timeReset2": "Azzeramento del conteggio globale dei turni.",
