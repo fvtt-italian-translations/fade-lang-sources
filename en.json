@@ -602,13 +602,14 @@
           "name": "Disarm"
         },
         "fire": {
-          "description": "Combatant uses a ranged weapon, applying Dexterity and magic bonuses to the attack roll, provided the target is within the weapon’s range.",
+          "description": "Combatant uses a ranged weapon, such as a bow or breath weapon, provided the target is within the weapon’s range.",
           "name": "Fire/Shoot"
         },
         "guard": {
           "description": "The Guard maneuver allows a combatant to hold their melee attack until the end of an opponent's movement phase, striking if the opponent moves within range.",
           "name": "Guard"
         },
+        "label": "Combat Manuever",
         "lance": {
           "description": "Combatant on charging mount performs a lance attack, gaining Strength and magic bonuses and dealing double damage if the mount charges at least 20 yards.",
           "name": "Lance Attack"
