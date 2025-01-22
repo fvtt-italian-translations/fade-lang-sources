@@ -705,10 +705,12 @@
       },
       "close": "Close",
       "confirm": "Are you sure?",
+      "confirmInitiativeRoll": "One or more combatants have <strong>Nothing</strong> as their declared action. Rolling the group's initiative will freeze declared actions. Are you sure you want to roll the group's initiative?",
       "extinguish": "Disable",
       "ignite": "Enable",
       "lightSource": "Light Source",
       "masteryTargetType": "Target Weapon Type",
+      "no": "No, cancel",
       "noEquippedWeapons": "The selected actor does not have any weapons equipped.",
       "selectAttack": "Select What to Attack With",
       "selectLightSource": "Select Light Source",
@@ -745,7 +747,8 @@
         "statusLabel": "Wrestler Status",
         "winsRound": "{winner} wins this round.",
         "wrestlingContest": "Wrestling Contest"
-      }
+      },
+      "yes": "Yes, go ahead"
     },
     "modifier": "Modifier",
     "name": "Name",
