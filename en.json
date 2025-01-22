@@ -124,33 +124,13 @@
       "PrimeReq": "Prime Req.",
       "RetainerWage": "Wage",
       "Saves": {
-        "breath": {
-          "abbr": "Breath",
-          "long": "Dragon Breath"
-        },
-        "death": {
-          "abbr": "Death",
-          "long": "Death Ray or Poison"
-        },
         "long": "Saving Throws",
-        "paralysis": {
-          "abbr": "Stone",
-          "long": "Turn to Stone or Paralysis"
-        },
         "saveAs": {
           "abbr": "SA",
           "long": "Save As"
         },
         "short": "Save",
-        "singular": "Saving Throw",
-        "spell": {
-          "abbr": "Spell",
-          "long": "Spell or Magic Staff"
-        },
-        "wand": {
-          "abbr": "Wand",
-          "long": "Magic Wand"
-        }
+        "singular": "Saving Throw"
       },
       "Sex": "Sex",
       "Species": "Race",
@@ -504,11 +484,14 @@
       "autoSuccess": "Auto-Success",
       "autoSuccessHint": "Automatically succeeds on a natural/unmodified roll of this value.",
       "categories": {
-        "class": "Class Abilities",
-        "explore": "Exploration"
+        "class": "Class Ability",
+        "explore": "Exploration",
+        "save": "Saving Throw"
       },
       "long": "Special Ability",
       "plural": "Special Abilities",
+      "saveType": "Save Type",
+      "saveTypeHint": "Set this if this special ability is a saving throw.",
       "short": "Ability"
     },
     "Spell": {
@@ -787,6 +770,7 @@
     "operator": "Operator",
     "roll": "Roll",
     "rollMode": "Roll Mode",
+    "shortName": "Short Name",
     "tabs": {
       "abilities": "Abilities",
       "attributes": "Attributes",
