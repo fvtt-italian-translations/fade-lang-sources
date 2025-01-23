@@ -930,7 +930,7 @@
       "spellEffect": "Paralyzes up to 4 creatures"
     },
     "Hold Portal": {
-      "description": "<p>This spell magically holds a door, gate, or similar portal shut for 2-12 turns. A <em>knock</em> spell can open it, or a creature with three or more Hit Dice (or levels) above the caster can break it in one round. If the portal closes within the spell’s duration, it will relock.</p>\n                <p><strong>Example:</strong> A 5th level character can break through a <em>hold portal</em> spell cast by a 2nd level spellcaster.</p>",
+      "description": "<p>This spell magically holds a door, gate, or similar portal shut for [[/r 2d6 #Hold Portal turns]] turns. A <em>knock</em> spell can open it, or a creature with three or more Hit Dice (or levels) above the caster can break it in one round. If the portal closes within the spell’s duration, it will relock.</p><p><strong>Example:</strong> A 5th level character can break through a <em>hold portal</em> spell cast by a 2nd level spellcaster.</p>",
       "name": "Hold Portal",
       "spellDuration": "2d6 turns",
       "spellEffect": "One door, gate, or similar portal"
