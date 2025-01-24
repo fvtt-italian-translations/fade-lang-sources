@@ -479,8 +479,11 @@
             "autoFailHint": "Fallisce automaticamente con un tiro naturale/non modificato di questo valore",
             "categories": {
                 "explore": "Esplorazione",
-                "class": "Abilità di Classe"
-            }
+                "class": "Abilità di Classe",
+                "save": "Tiro Salvezza"
+            },
+            "saveType": "Tipo TS",
+            "saveTypeHint": "Da impostare se questa abilità speciale è un tiro salvezza."
         },
         "Chat": {
             "rollMods": {
@@ -600,7 +603,10 @@
                 "statusLabel": "Status del Lottatore",
                 "winsRound": "{winner} vince questo round.",
                 "wrestlingContest": "Incontro di Lotta"
-            }
+            },
+            "confirmInitiativeRoll": "Uno o più combattenti hanno selezionato <strong>Niente</strong> come azione dichiarata. Effettuando il tiro per l'iniziativa di gruppo bloccherà le azioni dichiarate. Sei sicuro di voler procedere?",
+            "no": "No",
+            "yes": "Si"
         },
         "time": {
             "prev": "Indietro",
@@ -812,7 +818,8 @@
                 "prompt": "Seleziona una manovra di combattimento per questo round. Chiudi questa scheda quando hai finito. Essa si chiuderà automaticamente quando verrà tirata l'iniziativa."
             }
         },
-        "bonus": "Bonus"
+        "bonus": "Bonus",
+        "shortName": "Nome (abbr.)"
     },
     "SETTINGS": {
         "Encumbrance": {
