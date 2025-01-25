@@ -161,6 +161,9 @@
     "Bow, Short": {
       "name": "Bow, Short"
     },
+    "Boxing": {
+      "name": "Boxing"
+    },
     "Bravery": {
       "description": "\n        <p>This skill allows the character to resist the effects of magical fear, as well as the results of morale checks or skills like Intimidation. NPCs using this skill can ignore fear effects with a successful skill check.</p>\n        ",
       "name": "Bravery"
@@ -1632,7 +1635,12 @@
       "spellEffect": "The spellcaster only",
       "spellRange": "0"
     },
+    "Shield Weapon (Any)": {
+      "description": "<p>A shield weapon is a hybrid of a protective shield and a weapon, equipped with blades, spikes, or other protrusions designed for offense. It serves a dual purpose, offering standard defensive capabilities while allowing an additional attack during combat when paired with a one-handed weapon. These weapons, typically used by fighters, thieves, and demihumans, come in various sizes, with larger versions requiring two hands. While versatile, shield weapons are prone to breaking under specific conditions, such as precise attack rolls, adding an element of risk to their use.</p>",
+      "name": "Shield Weapon (Any)"
+    },
     "Shield, Horned": {
+      "description": "<p>This is a small, circular shield measuring about one foot in diameter. It is securely strapped to the wielder’s arm rather than being handheld. A sturdy spike protrudes from the center of the shield, allowing it to double as a weapon. Its robust construction ensures that it is resistant to breakage during combat.</p>",
       "name": "Shield, Horned"
     },
     "Shield, Knife": {
