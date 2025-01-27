@@ -247,9 +247,17 @@
       "description": "\n        <p>This is the skill of winning at gambling games by cheating, such as dealing cards from the bottom of the deck. A Cheating skill roll is made against each character being cheated. If any of them make a successful check against the cheater's roll, they detect the cheating. This skill is limited to characters of Chaotic alignment.</p>\n        ",
       "name": "Cheating"
     },
-    "Chest (small strongbox)": {
-      "description": "<p>Chests are reinforced wooden boxes with lids and sides that are made tight to prevent anything from getting out or into the box. The price is for a box with integrated lock and strong metal reinforcements.</p><table style=\"width: 280px; border-width: 1px; margin-left: 0px; margin-right: auto;\" border=\"1\"><colgroup><col><col></colgroup><tbody><tr><td style=\"border-width: 1px; padding: 4px;\">Weight held (pounds/coins)</td><td style=\"border-width: 1px; padding: 4px;\">200/2,000</td></tr><tr><td style=\"border-width: 1px; padding: 4px;\">Volume held (cu. ft.)</td><td style=\"border-width: 1px; padding: 4px;\">2</td></tr><tr><td style=\"border-width: 1px; padding: 4px;\">Hardness/HP</td><td style=\"border-width: 1px; padding: 4px;\">6/4</td></tr></tbody></table><p> </p>",
-      "name": "Chest (small strongbox)"
+    "Chest, Large": {
+      "description": "<p>Chests are reinforced wooden boxes with lids and sides that are made tight to prevent anything from getting out or into the box. The price is for a box with integrated lock and strong metal reinforcements.</p><p><strong>Coin Capacity: </strong>50k</p><p><strong>Dimensions:</strong> 36\" x 18\" x 18\"</p><p><strong>Volume:</strong> 11,664 cubic inches</p><p><strong>Empty Weight:</strong> ~35 lbs (wood and metal reinforcements)</p>",
+      "name": "Chest, Large"
+    },
+    "Chest, Medium": {
+      "description": "<p>Chests are reinforced wooden boxes with lids and sides that are made tight to prevent anything from getting out or into the box. The price is for a box with integrated lock and strong metal reinforcements.</p><p><strong>Coin Capacity: </strong>25k</p><p><strong>Dimensions:</strong> 24\" x 16\" x 16\"</p><p><strong>Volume:</strong> 6,144 cubic inches</p><p><strong>Empty Weight:</strong> ~20 lbs (wood and metal reinforcements)</p>",
+      "name": "Chest, Medium"
+    },
+    "Chest, Small": {
+      "description": "<p>Chests are reinforced wooden boxes with lids and sides that are made tight to prevent anything from getting out or into the box. The price is for a box with integrated lock and strong metal reinforcements.</p><p><strong>Coin Capacity: </strong>10k</p><p><strong>Dimensions:</strong> 18\" x 12\" x 12\"</p><p><strong>Volume:</strong> 2,592 cubic inches</p><p><strong>Empty Weight:</strong> ~10 lbs (wood and metal reinforcements)</p>",
+      "name": "Chest, Small"
     },
     "Clairvoyance": {
       "description": "<p>This spell allows the caster to see through the eyes of any single creature within 60'. Each turn, the caster can switch to another creature's eyes within range without needing to recast the spell.</p>\n                      <p><strong>Restrictions:</strong> The spell's effect is blocked by two feet of rock or a thin coating of lead. No saving throw applies.</p>",
@@ -1640,10 +1648,10 @@
       "name": "Shield Weapon (Any)"
     },
     "Shield, Horned": {
-      "description": "<p>This is a small, circular shield measuring about one foot in diameter. It is securely strapped to the wielder’s arm rather than being handheld. A sturdy spike protrudes from the center of the shield, allowing it to double as a weapon. Its robust construction ensures that it is resistant to breakage during combat.</p>",
       "name": "Shield, Horned"
     },
     "Shield, Knife": {
+      "description": "<p>This is a compact buckler equipped with one or two short blades extending from its edges. These protrusions allow it to serve both as a defensive tool and an offensive weapon. Its small size makes it easier to maneuver compared to larger shields.</p>",
       "name": "Shield, Knife"
     },
     "Shield, Sword": {
