@@ -247,8 +247,7 @@
       "armorWeight": {
         "choices": {
           "heavy": "Heavy",
-          "light": "Light",
-          "none": "None"
+          "light": "Light"
         },
         "short": "Weight"
       },
@@ -404,10 +403,10 @@
       },
       "plural": "Gear",
       "quantity": {
-        "abbr": "qty",
+        "abbr": "Qty",
         "abbr2": "#",
         "long": "Quantity",
-        "maxAbbr": "max qty",
+        "maxAbbr": "Max Qty",
         "maxLong": "Max. Quantity"
       },
       "unequip": "Unequip",
@@ -534,6 +533,13 @@
         "short2": "2-Hand Damage",
         "type": "Damage Type"
       },
+      "grip": {
+        "label": "Grip",
+        "one": "1-Handed",
+        "oneAbbr": "1H",
+        "two": "2-Handed",
+        "twoAbbr": "2H"
+      },
       "mod": {
         "dmg": {
           "long": "Damage Modifier",
@@ -558,6 +564,10 @@
         "medium": "Medium",
         "section": "Ranges",
         "short": "Short"
+      },
+      "setVsCharge": {
+        "desc": "Indicates if this weapon can be used to set vs. charge.",
+        "label": "Set"
       }
     },
     "apps": {
@@ -752,6 +762,7 @@
     },
     "modifier": "Modifier",
     "name": "Name",
+    "none": "None",
     "notification": {
       "advancedTime": "<div>Time advances {turns} turn(s) {rounds} round(s).</div>",
       "missingItem": "The required item type ({type}) was not found or its quantity is zero.",
