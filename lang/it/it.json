@@ -819,7 +819,56 @@
             }
         },
         "bonus": "Bonus",
-        "shortName": "Nome (abbr.)"
+        "shortName": "Nome (abbr.)",
+        "treasure": {
+            "agate": "Agata",
+            "amber": "Ambra",
+            "amethyst": "Ametista",
+            "aquamarine": "Acquamarina",
+            "carbuncle": "Carbonchio",
+            "coins": "Monete<i>({total} mo)</i>",
+            "coral": "Corallo",
+            "cp": {
+                "abbr": "mr",
+                "plural": "monete di rame"
+            },
+            "crystal": "Cristallo",
+            "diamond": "Diamante",
+            "emerald": "Smeraldo",
+            "ep": {
+                "abbr": "me",
+                "plural": "monete di electrum"
+            },
+            "formatValue": "{name} <i>({value} mo)</i>",
+            "garnet": "Granato",
+            "gems": "Gemme <i>({total} mo)</i>",
+            "gp": {
+                "abbr": "mo",
+                "plural": "monete d'oro"
+            },
+            "jacinth": "Giacinto",
+            "jade": "Giada",
+            "jasper": "Diaspro",
+            "jewelry": "Gioielli <i>({total} mo)</i>",
+            "magic": "Oggetti, Pozioni e Pergamene",
+            "onyx": "Onice",
+            "opal": "Opale",
+            "pearl": "Perla",
+            "pp": {
+                "abbr": "mp",
+                "plural": "monete di platino"
+            },
+            "quartz": "Quarzo",
+            "ruby": "Rubino",
+            "sapphire": "Zaffiro",
+            "sp": {
+                "abbr": "ma",
+                "plural": "monete d'argento"
+            },
+            "special": "Speciale <i>({total} mo)</i>",
+            "topaz": "Topazio",
+            "turquoise": "Turchese"
+        }
     },
     "SETTINGS": {
         "Encumbrance": {
