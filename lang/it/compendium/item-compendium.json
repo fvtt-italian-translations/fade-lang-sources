@@ -833,7 +833,7 @@
             "name": "Blocca Porta",
             "spellDuration": "2d6 turni",
             "spellEffect": "Una porta, un cancello o un portale",
-            "description": "<p>Questo incantesimo chiude magicamente una porta, un cancello o un portale simile per 2-12 turni. Un incantesimo <em>scassinare</em> può spezzare l’incantesimo blocca porta. Esseri molto più vitali e forti (3 o più Dadi Vita) del mago(compresi i personaggi) possono forzare l’apertura di un portale bloccato in un round di tempo; ma il portale si richiuderà (se ciò gli viene permesso) fino al termine dell’azione dell’incantesimo.</p>\n                <p><strong>Esempio:</strong> Un personaggio di 5º livello può sfondare un incantesimo <em>blocca porta</em> lanciato da un incantatore di 2º livello.</p>"
+            "description": "<p>Questo incantesimo chiude magicamente una porta, un cancello o un portale simile per [[/r 2d6 #Hold Portal turns]] turni. Un incantesimo <em>scassinare</em> può spezzare l’incantesimo blocca porta. Esseri molto più vitali e forti (3 o più Dadi Vita) del mago(compresi i personaggi) possono forzare l’apertura di un portale bloccato in un round di tempo; ma il portale si richiuderà (se ciò gli viene permesso) fino al termine dell’azione dell’incantesimo.</p>\n                <p><strong>Esempio:</strong> Un personaggio di 5º livello può sfondare un incantesimo <em>blocca porta</em> lanciato da un incantatore di 2º livello.</p>"
         },
         "Holy Symbol": {
             "name": "Simbolo Sacro",
@@ -1487,7 +1487,8 @@
             "name": "Scudo Appuntito"
         },
         "Shield, Knife": {
-            "name": "Scudo Laminato"
+            "name": "Scudo Laminato",
+            "description": "<p>Questo è un piccolo scudo rotondo dotato di una o due lame corte che si estendono dai suoi bordi. Queste sporgenze gli permettono di servire sia come strumento difensivo che come arma offensiva. La sua dimensione ridotta lo rende più facile da manovrare rispetto agli scudi più grandi.</p>"
         },
         "Shield, Sword": {
             "name": "Scudo Lanceolato"
@@ -2015,6 +2016,42 @@
         },
         "Boxing": {
             "name": "Pugilato"
+        },
+        "Death Ray or Poison": {
+            "name": "Veleno o Raggio della Morte",
+            "description": "<p>Il tiro salvezza contro Veleno o Raggio della Morte è una prova effettuata da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero bersaglio specifico per classe e livello nella tabella dei tiri salvezza; un successo significa evitare o mitigare il danno. Un tiro fallito spesso porta alla morte (nel caso del veleno) o ad altre gravi conseguenze, sebbene regole opzionali possano invece infliggere danni significativi​​​.</p>"
+        },
+        "Magic Wand": {
+            "name": "Bacchetta Magica",
+            "description": "<p>Il tiro salvezza contro Bacchette Magiche viene utilizzato per evitare gli effetti di attacchi o abilità attivati tramite bacchette magiche, come raggi paralizzanti o fasci di energia dannosi. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti nocivi. Il numero bersaglio per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza​​.</p>"
+        },
+        "Shield Weapon (Any)": {
+            "name": "Scudo Arma (Qualsiasi)",
+            "description": "<p>Un'arma scudo è un ibrido tra uno scudo protettivo e un'arma, dotato di lame, spuntoni o altre sporgenze progettate per l'attacco. Ha un doppio scopo, offrendo capacità difensive standard e consentendo un attacco aggiuntivo in combattimento quando abbinato a un'arma a una mano. Queste armi, tipicamente utilizzate da guerrieri, ladri e semiumani, sono disponibili in varie dimensioni, con le versioni più grandi che richiedono due mani. Sebbene versatili, le armi scudo sono soggette a rottura in determinate condizioni, come tiri per colpire particolarmente precisi, aggiungendo un elemento di rischio al loro utilizzo.</p>"
+        },
+        "Spells or Magic Staff": {
+            "name": "Incantesimi, Verga o Bastone Magico",
+            "description": "<p>Il tiro salvezza contro Incantesimi o Bastone Magico include la resistenza contro gli effetti magici lanciati tramite bacchette, bastoni, verghe o incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce spesso o annulla completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti paralizzanti, e copre danni, controllo o condizioni debilitanti causate da dispositivi magici o incantatori. Il numero bersaglio per il successo è basato sulla classe e sul livello del personaggio.</p>"
+        },
+        "Turn to Stone or Paralysis": {
+            "name": "Pietrificazione o Paralisi",
+            "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero immobilizzarlo (paralisi) o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio e l'equipaggiamento che porta in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente​.</p>"
+        },
+        "Chest, Medium": {
+            "name": "Scrigno (Medio)",
+            "description": "<p>Gli scrigni sono casse di legno rinforzate con coperchi e lati sigillati per impedire a qualsiasi cosa di entrare o uscire dal loro interno. Il prezzo si riferisce a uno scrigno con serratura e robusti rinforzi in metallo.</p><p><strong>Capacità in monete: </strong>25k</p><p><strong>Dimensioni:</strong> 61 cm × 41 cm × 41 cm</p><p><strong>Volume:</strong> 100 litri</p><p><strong>Peso a vuoto:</strong> ~9 kg (legno e rinforzi in metallo)</p>"
+        },
+        "Chest, Large": {
+            "name": "Scrigno (Grande)",
+            "description": "<p>Gli scrigni sono casse di legno rinforzate con coperchi e lati sigillati per impedire a qualsiasi cosa di entrare o uscire dall'interno. Il prezzo si riferisce a uno scrigno con serratura e robusti rinforzi in metallo.</p><p><strong>Capacità in monete: </strong>50k</p><p><strong>Dimensioni:</strong> 91 cm × 46 cm × 46 cm</p><p><strong>Volume:</strong> 190 litri</p><p><strong>Peso a vuoto:</strong> ~16 kg (legno e rinforzi in metallo)</p>"
+        },
+        "Chest, Small": {
+            "name": "Scrigno (Piccolo)",
+            "description": "<p>Gli scrigni sono casse di legno rinforzate con coperchi e lati sigillati per impedire a qualsiasi cosa di entrare o uscire dal loro interno. Il prezzo si riferisce a uno scrigno con serratura e robusti rinforzi in metallo.</p><p><strong>Capacità in monete: </strong>10k</p><p><strong>Dimensioni:</strong> 46 cm × 30 cm × 30 cm</p><p><strong>Volume:</strong> 42,5 litri</p><p><strong>Peso a vuoto:</strong> ~4,5 kg (legno e rinforzi in metallo)</p>"
+        },
+        "Dragon Breath": {
+            "name": "Soffio del Drago",
+            "description": "<p>Il tiro salvezza contro Armi a Soffio viene utilizzato per resistere o mitigare gli effetti di un'ampia gamma di potenti attacchi esalati, non limitati ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma a soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito generalmente dimezza i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre un fallimento applica le conseguenze per intero. Il numero bersaglio per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
         }
     },
     "label": "Oggetti Classi Abilità",
@@ -2062,6 +2099,7 @@
         "Thief": "Ladro",
         "Treasure": "Tesori",
         "Weapon Masteries": "Maestrie delle Armi",
-        "Weapons": "Armi"
+        "Weapons": "Armi",
+        "Saving Throws": "Tiri Salvezza"
     }
 }
