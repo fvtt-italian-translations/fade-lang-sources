@@ -400,6 +400,17 @@
                 "maxLoad": "Totali",
                 "type": "Munizioni",
                 "typeHint": "Che tipo di munizione questo oggetto si identifica. Lasciare vuoto se non è una munizione."
+            },
+            "grip": {
+                "label": "Impugnatura",
+                "one": "1-Mano",
+                "oneAbbr": "1M",
+                "two": "2-Mani",
+                "twoAbbr": "2H"
+            },
+            "setVsCharge": {
+                "desc": "Indica se quest'arma può essere usata per contrastare una carica.",
+                "label": "Imposta"
             }
         },
         "Armor": {
@@ -867,8 +878,11 @@
             },
             "special": "Speciale <i>({total} mo)</i>",
             "topaz": "Topazio",
-            "turquoise": "Turchese"
-        }
+            "turquoise": "Turchese",
+            "starstone": "Pietrastella",
+            "tristal": "Tristale"
+        },
+        "none": "Nessuna"
     },
     "SETTINGS": {
         "Encumbrance": {
