@@ -12,6 +12,13 @@
       "description": "<p>The Acting skill enables a character to convincingly portray different personalities, emotions, or even other characters. It is used to deceive others, blend into a new role, or perform on stage. This skill can be crucial when impersonating someone or maintaining a disguise, and can also help in social situations where creating the right impression is essential.</p>",
       "name": "Acting"
     },
+    "Aerial Servant": {
+      "description": "<p>This spell summons an intelligent elemental being called an <strong>Aerial Servant</strong> to retrieve a specified item or creature and return it to the caster. The servant appears immediately, and the cleric must describe the target and its location, or the servant will depart.</p><p>The aerial servant is ethereal at will, allowing it to bypass most barriers, but it cannot pass through a <strong>Protection from Evil</strong> effect.</p><p><strong>Task and Duration:</strong> The servant will attempt to find and bring back the target within the spell's duration (1 day per caster level). If the spell ends before the task is completed—whether the servant is still searching or already returning—it is considered a failure.</p><p><strong>Strength and Carrying Capacity:</strong> The aerial servant has 18 Strength and can carry up to 500 lbs (5,000 cn).</p><p><strong>Failure Consequences:</strong> If the aerial servant cannot complete its task within the spell duration, it goes insane and immediately returns to attack the caster.</p>",
+      "name": "Aerial Servant",
+      "spellDuration": "1 day per level of caster",
+      "spellEffect": "Servant fetches one item or creature",
+      "spellRange": "60"
+    },
     "Agate": {
       "description": "<p>An agate gem is a type of chalcedony known for its distinctive banding patterns and vibrant colors. It often features layers in hues like white, blue, red, or brown, and can have a polished surface with a smooth, glassy appearance. Agates are prized for their unique, natural beauty and are used in jewelry and decorative items.</p>",
       "name": "Agate"
@@ -50,6 +57,12 @@
       "description": "<p>This spell animates skeletons or zombies from normal skeletons or dead bodies within range. The animated undead creatures will follow the spellcaster's commands until destroyed by a cleric or a *Dispel Magic* spell.</p>\n                      <p><strong>Hit Dice:</strong> For each level of the caster, one Hit Die of undead may be animated. Skeletons have the same Hit Dice as the original creature, while zombies gain one extra Hit Die. Humans and demihumans are considered 1 HD creatures for this spell.</p>\n                      <p>Animated undead cannot cast spells but are immune to sleep, charm effects, and poison.</p>",
       "name": "Animate Dead",
       "spellEffect": "Creates zombies or skeletons"
+    },
+    "Animate Objects": {
+      "description": "<p>This spell allows the cleric to animate non-living, non-magical objects, causing them to move and attack. Magical objects are unaffected.</p><p>The spell can animate either:</p><ul><li>One object up to 400 lbs (4,000 cn), roughly the size of two men.</li><li>Multiple smaller objects, as long as their total weight does not exceed 400 lbs.</li></ul><p><strong>Combat Abilities:</strong> The DM determines the movement rate, number of attacks, damage, and armor class of animated objects. As a guideline:</p><ul><li>A man-sized statue might move at 30' per round, attack once per round for [[/r 2d8 #points of damage]] damage, and have AC 1.</li><li>A chair might move at 180' per round, attack twice per round for [[/r 1d4 #points of damage]] damage per attack, and have AC 6.</li></ul><p>All animated objects use the cleric’s chance to hit in combat.</p>",
+      "name": "Animate Objects",
+      "spellEffect": "Causes objects to move",
+      "spellRange": "60"
     },
     "Anti-Plant Shell": {
       "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away) that blocks all plant attacks and prevents damage from plant-like monsters.</p>\n                      <p><strong>Effect on Movement:</strong> While protected, the druid can push through dense growth, creating a path that others may follow. The barrier prevents the druid from physically attacking plants, though spells may still be cast against them.</p>",
@@ -97,6 +110,12 @@
     "Axe, Hand": {
       "name": "Axe, Hand"
     },
+    "Babble*": {
+      "description": "<p>The reverse of *Speak with Monsters*, this spell prevents one creature from communicating in any way.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The target may attempt a saving throw vs. spells, but with a -2 penalty.</li>\n                        <li>If the save fails, the victim is unable to communicate for the spell’s duration.</li>\n                        <li>This includes all forms of communication: speech, hand gestures, writing, telepathy, etc.</li>\n                        <li>The victim can still cast spells but cannot use magic items requiring command words, as the words turn into gibberish.</li>\n                      </ul>\n                      <p><strong>Duration:</strong> 1 turn per level of the caster.</p>",
+      "name": "Babble*",
+      "spellDuration": "1 turn per level of the caster",
+      "spellEffect": "Prevents communication"
+    },
     "Backpack": {
       "description": "<p>A sturdy pack used to carry equipment on the character's back. The shoulder straps leave the character's hands free for other actions. It has a capacity of 400 coins.</p>",
       "name": "Backpack"
@@ -112,6 +131,12 @@
     "Bargaining": {
       "description": "<p>The Bargaining skill allows a character to negotiate favorable terms in transactions or agreements. It covers haggling over prices, making persuasive arguments in trade deals, and finding compromises that satisfy all parties. A successful Bargaining check can result in better prices, advantageous terms, or profitable contracts.</p>",
       "name": "Bargaining"
+    },
+    "Barrier*": {
+      "description": "<p>This spell creates a magical barrier up to 30' in diameter and 30' high, consisting of whirling and dancing hammers. The barrier is obviously dangerous to any who pass through it.</p><p><strong>Damage:</strong> Any creature passing through the barrier takes [[/r 7d10 #points of damage]]<strong> (7-70)</strong> points of damage. No saving throw is allowed.</p><p>This spell is commonly used to block entrances, corridors, or other key passages.</p>",
+      "name": "Barrier*",
+      "spellEffect": "Creates whirling hammers",
+      "spellRange": "60"
     },
     "Bedroll": {
       "description": "<p>A heavy wooden blanket with a small pillow.</p>",
@@ -167,10 +192,6 @@
     "Bravery": {
       "description": "<p>This skill allows the character to resist the effects of magical fear, as well as the results of morale checks or skills like Intimidation. NPCs using this skill can ignore fear effects with a successful skill check.</p>",
       "name": "Bravery"
-    },
-    "Bullseye Lantern": {
-      "description": "<p>A hooded lantern is a portable light source enclosed within a metal casing, designed to control the amount and direction of light it emits. The lantern features a hinged, adjustable hood that can be raised or lowered to focus or block the light as needed. When fully opened, the lantern casts light in a 30-foot radius. When the hood is partially closed, the light is reduced to a narrower beam that casts light 50 feet.</p><p>The lantern burns one flask of oil over the course of four hours (24 turns). Its enclosed design helps protect the flame from wind and rain, making it more reliable in outdoor or adverse conditions compared to an open flame.</p>",
-      "name": "Bullseye Lantern"
     },
     "Call Lightning": {
       "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
@@ -422,6 +443,12 @@
       "description": "<p>Starting at 9th level, a Magic-User can create permanent magical items such as potions, scrolls, and weapons. This process requires a high-level laboratory, special ingredients, and a significant amount of time and gold.</p>",
       "name": "Create Magic Items"
     },
+    "Create Normal Animals": {
+      "description": "<p>This spell allows the cleric to create normal animals out of thin air. The animals appear at a chosen point within 30' and will obey the cleric at all times. They can be commanded to fight, carry items, guard areas, or perform other tasks within their natural abilities.</p>\n                      <p>Once created, the animals can be sent up to 240' away but will continue to follow the cleric's commands. However, if instructions are not carefully worded, they may act according to their natural instincts.</p>\n                      <p><strong>Number and Size of Animals:</strong> The cleric chooses the number of animals, but not their exact type. The DM determines the specific creatures, which may include:</p>\n                      <ul>\n                        <li>1 large animal (e.g., elephant, hippopotamus)</li>\n                        <li>3 medium-sized animals (e.g., bear, great cat)</li>\n                        <li>6 small animals (e.g., wolf, rock baboon)</li>\n                      </ul>\n                      <p>The spell <strong>cannot</strong> create giant animals. The animals disappear when slain or when the spell duration ends.</p>",
+      "name": "Create Normal Animals",
+      "spellEffect": "Creates 1-6 loyal animals",
+      "spellRange": "30"
+    },
     "Create Poison*": {
       "description": "<p>This spell creates poison in a creature or container upon touch. A creature must succeed on a saving throw vs. poison or die instantly. When cast on a container, the poison affects its contents with no save.</p>\n                      <p><strong>Notes:</strong> Poisoning is usually considered a Chaotic act.</p>",
       "name": "Create Poison*",
@@ -474,6 +501,11 @@
       "description": "<p>This spell heals 2d6 + 2 points of damage on one living creature when touched by the caster.</p>",
       "name": "Cure Serious Wounds*",
       "spellEffect": "Heals one living creature"
+    },
+    "Cureall": {
+      "description": "<p>This is the most powerful healing spell available. When used to cure wounds, it restores nearly all damage, leaving the recipient with only [[/r 1d6 #damage remains]] points of damage remaining.</p><p><strong>Healing Process:</strong> Restore the target to full starting hit points, then roll 1d6 and subtract that amount from their total.</p><p><strong>Alternative Uses:</strong> Instead of healing damage, <em>Cureall</em> may be used to cure <em>one</em> of the following conditions:</p><ul><li>Remove a curse</li><li>Neutralize poison</li><li>Cure paralysis</li><li>Cure disease</li><li>Cure blindness</li><li>Remove a <em>Feeblemind</em> effect</li></ul><p>If the recipient is suffering from multiple afflictions (such as wounds and a curse), the cleric must specify which one the spell is curing.</p><p><strong>Effect on Recently Raised Creatures:</strong> If cast on someone who has just been affected by <em>Raise Dead</em>, <em>Cureall</em> eliminates the need for two weeks of bed rest, allowing the target to function normally immediately. This is the only magical healing that works on a newly raised creature.</p>",
+      "name": "Cureall",
+      "spellEffect": "Cures anything"
     },
     "Curse*": {
       "description": "<p>This spell imposes a misfortune or penalty on the target. Curses are limited only by the caster's imagination but should be balanced to avoid backfiring on the caster at the DM's discretion.</p>\n                      <p>Typical curse effects include a -4 penalty on attack rolls, -2 on saving throws, or a halved prime requisite. The target may attempt a saving throw vs. spells to avoid the curse.</p>",
@@ -765,6 +797,13 @@
       "spellEffect": "Traps within 30' glow",
       "spellRange": "0 (caster only)"
     },
+    "Find the Path": {
+      "description": "<p>By casting this spell, the cleric gains the ability to navigate toward a specific place, even if they have never been there before. For the duration of the spell, the cleric instinctively knows the direction to their destination.</p>\n                      <p><strong>Special Knowledge:</strong> In addition to knowing the correct path, the cleric gains magical awareness of any special knowledge needed to reach the location. This may include:</p>\n                      <ul>\n                        <li>The location of secret doors</li>\n                        <li>Hidden or obscured passages</li>\n                        <li>Passwords required to gain entry</li>\n                      </ul>\n                      <p><strong>Duration Effects:</strong> When the spell ends, the cleric retains only a general sense of the direction to the destination; all other special knowledge is forgotten.</p>\n                      <p><strong>Restriction:</strong> If the cleric attempts to record or disclose the special knowledge to others in any way, the spell is instantly negated.</p>\n                      <p>This spell is often used to find fast escape routes or to navigate unknown terrain.</p>",
+      "name": "Find the Path",
+      "spellDuration": "6 turns + 1 turn per level of the caster",
+      "spellEffect": "Shows the path to an area",
+      "spellRange": "0"
+    },
     "Finger of Death*": {
       "description": "<p>The reversed form of *Raise Dead*, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p>\n                      <p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p>\n                      <p>A Lawful cleric will typically only use *Finger of Death* in life-or-death situations.</p>",
       "name": "Finger of Death*",
@@ -897,6 +936,10 @@
       "description": "<p>This spell increases the movement and attack speed of up to 24 creatures within a 60' diameter area, allowing them to act at double speed for 3 turns.</p>\n                      <p><strong>Effects:</strong> Hasted creatures move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p>\n                      <p><strong>Reverse Spell:</strong> The reverse, *Slow*, either cancels *Haste* or reduces the target’s movement and attack speed by half. Each affected creature may make a saving throw vs. spells to avoid *Slow*.</p>",
       "name": "Haste*",
       "spellEffect": "Up to 24 creatures move double speed"
+    },
+    "Healer's Kit": {
+      "description": "<p>A sturdy pack with bandages, splints, needles, threads, herbs and other components used for healing. Comes with enough supplies for 15 uses.</p><p><strong>Requires successful roll of Healer skill to heal [[/r 1d3 #hp healed]] damage.</strong></p><p><em>Resupply may be purchased separately (10 gp), but this item must be purchased first.</em></p>",
+      "name": "Healer's Kit"
     },
     "Healing": {
       "description": "<p>Healing allows the treatment of wounds and diagnosis of illnesses among humans and demihumans. A successful skill roll can restore 1d3 hit points to a wounded character. This skill can only be used once per set of wounds, defined as all hit points lost in a single combat. A natural roll of 20 accidentally inflicts [[/r 1d3 #Healing hit points restored]] damage, and the healer may not attempt to treat those wounds again. Success with a roll of 5 or more indicates the healer can determine if an illness is natural or magically induced.</p>",
@@ -1055,6 +1098,10 @@
       "description": "<p>An oil lantern illuminates a 30-foot radius and consumes one flask of oil over four hours (24 turns). Most lanterns are designed to be enclosed or equipped with shutters to shield the flame from the wind​​.</p>",
       "name": "Lantern"
     },
+    "Lantern, Bullseye": {
+      "description": "<p>A bullseye lantern is a portable light source enclosed within a metal casing, designed to focus a beam of light in a single direction. The lantern features a hinged, adjustable hood that can be raised or lowered to focus or block the light as needed. The lantern illuminates an area up to 60 feet away</p><p>The lantern burns one flask of oil over the course of four hours (24 turns). Its enclosed design helps protect the flame from wind and rain, making it more reliable in outdoor or adverse conditions compared to an open flame.</p>",
+      "name": "Lantern, Bullseye"
+    },
     "Law and Justice (choose culture)": {
       "description": "<p>This skill provides a character with a detailed knowledge of the laws and judicial systems of a specific culture or country. Characters who wish to be a judge or advocate (lawyer) must select this skill. Each culture or nation has its own codes, so characters who wish to be conversant in different nations' legal systems must choose this skill separately for each set of laws they wish to study.</p>\n      <p>A successful skill check can help the character recall specific laws and customs, advise others in legal matters, and argue effectively in courts or other formal settings.</p>",
       "name": "Law and Justice (choose culture)"
@@ -1109,8 +1156,9 @@
       "spellEffect": "Detects one object within 120'",
       "spellRange": "0 (Caster only)"
     },
-    "Long Coat (wool)": {
-      "name": "Long Coat (wool)"
+    "Long Coat, Wool": {
+      "description": "<p>A long coat made of wool.</p>",
+      "name": "Long Coat, Wool"
     },
     "Mace": {
       "name": "Mace"
@@ -1540,6 +1588,12 @@
       "spellEffect": "The spellcaster only",
       "spellRange": "0"
     },
+    "Remove Barrier*": {
+      "description": "<p>This spell instantly destroys one magical barrier created by a cleric. It can also dispel certain barriers created by a magic-user.</p>\n                      <p><strong>Effects:</strong> *Remove Barrier* will destroy a cleric's *Barrier* spell and can also dispel the following magic-user spells:</p>\n                      <ul>\n                        <li><strong>Wall of Ice</strong></li>\n                        <li><strong>Wall of Fire</strong></li>\n                        <li><strong>Clothform</strong></li>\n                        <li><strong>Woodform</strong></li>\n                        <li><strong>Wall of Stone</strong></li>\n                      </ul>\n                      <p><strong>Limitations:</strong> This spell does <em>not</em> affect the following spells: *Wall of Iron*, *Stoneform*, *Ironform*, or *Steelform*.</p>",
+      "name": "Remove Barrier*",
+      "spellEffect": "Removes a magical barrier",
+      "spellRange": "60"
+    },
     "Remove Curse*": {
       "description": "<p>This spell removes one curse from a character, item, or area. Some curses, especially those on magical items, may only be lifted temporarily. For permanent removal, a <em>dispel evil</em> spell or a <em>remove curse</em> cast by a higher-level caster may be required (at the DM's discretion).</p>\n                <p>The reverse of this spell, <em>curse</em>, imposes a penalty or misfortune on the target, with effects limited only by the caster's imagination. If the curse is too powerful, it may rebound on the caster (DM's discretion). Typical curses include a -4 penalty to attack rolls, a -2 penalty to saving throws, halving of a prime requisite, or a -4 penalty on others' reaction rolls. The victim may make a saving throw vs. spells to avoid the curse.</p>",
       "name": "Remove Curse*",
@@ -1725,6 +1779,13 @@
       "spellEffect": "Allows conversation within 30'",
       "spellRange": "0 (caster only)"
     },
+    "Speak with Monsters*": {
+      "description": "<p>This spell grants the cleric the ability to communicate with any living or undead creatures within 30'. Even unintelligent monsters will understand and respond.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>Creatures spoken to will not attack the cleric while in conversation.</li>\n                        <li>However, if attacked, they may defend themselves or flee.</li>\n                        <li>The cleric may ask only one question per round.</li>\n                      </ul>\n                      <p>The spell lasts for one round per level of the cleric.</p>",
+      "name": "Speak with Monsters*",
+      "spellDuration": "1 round per level of the cleric",
+      "spellEffect": "Permits conversation with any monster",
+      "spellRange": "0"
+    },
     "Speak with Plants": {
       "description": "<p>This spell allows the caster to communicate with plants within a 30' radius, treating them as if they have intelligence. The caster may ask simple favors, such as making a path through dense undergrowth, which the plants will grant if able.</p>\n                      <p><strong>Effect:</strong> Enables communication with plant creatures, including plantlike monsters such as treants.</p>",
       "name": "Speak with Plants",
@@ -1879,7 +1940,7 @@
       "name": "Thief"
     },
     "Thieves' Tools": {
-      "description": "<p> Required for picking locks, these items are usable only by thieves. A typical set includes fine wire, various lockpicks, etc.</p>",
+      "description": "<p>Required for picking locks, these items are usable only by thieves. A typical set includes fine wire, various lockpicks, etc. Although the tools may be used many times if successful, <strong>they will break on failure</strong>. There are enough lockpicks and other components for 10 uses.</p>",
       "name": "Thieves' Tools"
     },
     "Tinder Box": {
@@ -2007,6 +2068,10 @@
       "description": "<p>This weapon consists of a long, braided leather strap with a handle, ranging in length from 5 to 30 feet. It is a hand-to-hand weapon capable of causing damage (1d2 points) or entangling opponents. Before each combat round, the wielder must declare whether they are attempting to deal damage or entangle. In either case, a normal attack roll is required.</p><p>If the attack hits, the whip either deals 1d2 points of damage or, if attempting to entangle, forces the target to make a saving throw vs. death ray, potentially with a bonus. The saving throw bonus and the outcome of the entangling attempt are determined using the Weapon Special Effects Table. On a failed saving throw, the target suffers one of the following effects:</p><ul><li><strong>Entangle</strong>: The victim is unable to attack, cast spells, or move until they succeed on a saving throw.</li><li><strong>Slow</strong>: The victim's movement and attack rates are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><p>This weapon is primarily a tactical tool and is often used by thieves or other characters who prefer to support front-line fighters without directly engaging in melee combat.</p><p>A whip can only entangle creatures with a solid form; it has no entangling effect on wraiths, spectres, ethereal creatures, or monsters composed of water (e.g., water elementals). However, these beings still take normal damage from the whip. (Note that a regular whip cannot harm creatures that require magical weapons to hit; such cases require a magical whip.)</p>",
       "name": "Whip (10')"
     },
+    "Whistle": {
+      "description": "<p>A small wooden or metal whistle that can be used to make a loud signal. The distance that the sound can be heard from depends on the environment.</p>",
+      "name": "Whistle"
+    },
     "Wine": {
       "description": "<p>A quart of common wine. It does not include a container and is often carried in a wineskin. Useful for social occasions or in some cases, as a barter item.</p>",
       "name": "Wine"
@@ -2029,6 +2094,12 @@
       "description": "<p>This spell creates a mass of wood, up to 1,000 cubic feet in volume, which may be arranged in any shape the caster desires (e.g., 10' x 10' x 10' block, 25' x 20' x 2' wall).</p>\n                      <p><strong>Casting Time:</strong> Varies by design complexity. Simple shapes, like a wall, take 1 round. A staircase may take 10 rounds (1 turn), while more complex designs, like a ship keel, can take up to 12 turns (2 hours). The DM decides casting time for complex designs.</p>\n                      <p><strong>Object Properties:</strong> The wood must be created as a single piece with no moving parts. Once created, the wood is permanent, non-dispellable, and cannot be modified by further woodform spells unless cast by the original caster within two hours to make refinements. The caster may create wood with rough edges, which another woodform can later seamlessly join to the first.</p>\n                      <p>The wood must rest on solid ground or a similar support, and cannot occupy a space already containing an object. The type of wood can be chosen by the caster but may be limited by the DM, especially for exotic or magical woods.</p>\n                      <p><strong>Durability:</strong> The wood lasts until destroyed by damage (e.g., burning, breaking) or spells like *Disintegrate*. It has an AC of -4 (6) and 60 hit points per 1' thickness, based on the Fortifications Table (page 137). Most exterior wooden walls are 8\" thick, giving them 40 hit points.</p>",
       "name": "Woodform",
       "spellEffect": "Creates 1,000 cubic feet of wood"
+    },
+    "Word of Recall": {
+      "description": "<p>This spell instantly teleports the cleric and all equipment they are carrying to their designated sanctuary, regardless of distance.</p>\n                      <p><strong>Sanctuary Requirement:</strong> The cleric must have a permanent home (such as a castle) that includes a meditation room. This room serves as the spell’s destination.</p>\n                      <p><strong>Initiative Advantage:</strong> During the round this spell is cast, the cleric automatically gains initiative unless surprised.</p>\n                      <p><strong>Restrictions:</strong></p>\n                      <ul>\n                        <li>The spell affects only the cleric and their carried equipment.</li>\n                        <li>Other creatures cannot be transported.</li>\n                      </ul>",
+      "name": "Word of Recall",
+      "spellEffect": "Teleports the caster to sanctuary",
+      "spellRange": "0"
     },
     "Wrestling": {
       "description": "<p>The Wrestling skill enables a character to grapple, pin, or otherwise subdue opponents using hand-to-hand combat techniques. A successful skill roll improves the character's Wrestling Rating (WR), providing a +1 bonus per skill level.</p>\n            <p>In wrestling combat, a character with Wrestling skill gains a bonus on their Wrestling Rating for initiating or resisting grapples and pins. The higher the skill level, the more effective the character becomes, providing a cumulative +1 to WR per level (e.g., Wrestling +1 skill gives +2 WR).</p>\n            <p>This skill is especially useful in situations where the character needs to subdue an opponent without lethal force, or in confined spaces where weapons are impractical. Mastery in Wrestling also allows for improved control over an opponent’s movements, reducing their ability to counterattack or escape.</p>",

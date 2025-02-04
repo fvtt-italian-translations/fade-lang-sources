@@ -337,12 +337,13 @@
       "useSpecAbility": "{owner} uses {specAbility}"
     },
     "DamageTypes": {
-      "name": "Damage Types",
+      "name": "Damage Type",
       "types": {
         "breath": "Breath",
         "fire": "Fire",
         "frost": "Frost",
         "heal": "Healing",
+        "hull": "Hull",
         "magic": "Magic",
         "physical": "Physical",
         "poison": "Poison"
@@ -886,6 +887,7 @@
       "None": "None"
     },
     "monsterSize": {
+      "G": "G",
       "L": "L",
       "M": "M",
       "S": "S"
