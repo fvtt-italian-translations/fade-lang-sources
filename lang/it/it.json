@@ -319,7 +319,7 @@
                 "long": "Quantità",
                 "maxLong": "Quantità Massima",
                 "abbr": "Q.tà",
-                "maxAbbr": "q.tà max",
+                "maxAbbr": "Q.tà Max",
                 "abbr2": "#"
             },
             "equipped": "(Equipaggiate)",
@@ -344,7 +344,7 @@
                 "animationSpeed": "Velocità Animazione",
                 "animationIntensity": "Intensità Animazione",
                 "noMoreItem": "{actor} non ha più {item} da accendere.",
-                "noFuel": "{actor} non ha più combustibile per la {item}.",
+                "noFuel": "{actor} non ha combustibile per illuminazione o oggetti del tipo richiesto.",
                 "disabled": "La fonte di luce di {actor} si è spenta.",
                 "enabled": "{actor} ha acceso la sua {item}.",
                 "lightTypes": {
@@ -356,7 +356,11 @@
                     "bullseye": "Schermabile"
                 },
                 "secondsActive": "Secondi Attiva",
-                "secondsActiveHint": "Quanti secondi questo oggetto è stato attivo."
+                "secondsActiveHint": "Quanti secondi questo oggetto è stato attivo.",
+                "secondsRemaining": "Sec. Rimasti",
+                "secondsRemainingHint": "Quanti secondi durerà questa luce.",
+                "turnsRemaining": "Turni Rimasti",
+                "turnsRemainingHint": "Quanti turni durerà questa luce."
             }
         },
         "Weapon": {
@@ -747,7 +751,11 @@
                     "description": "Il combattimento a mani nude include colpi e lotta. Il difensore non è obbligato a impegnarsi in un combattimento a mani nude e può decidere di attaccare con la sua arma da mischia.",
                     "name": "Combattimento a Mani Nude"
                 },
-                "label": "Manovra di Combattimento"
+                "label": "Manovra di Combattimento",
+                "dodge": {
+                    "name": "Schivare",
+                    "description": "Quando un Guerriero sceglie questa opzione di combattimento, non attacca affatto e si concentra interamente sull'evitare gli attacchi in arrivo. La sua CA aumenta di 5 contro un attacco specifico che sceglie di evitare. Contro qualsiasi altro attacco di cui è a conoscenza, la sua CA aumenta di 3. Contro qualsiasi altro attacco di cui non è a conoscenza, la sua CA aumenta di 1. Questo bonus alla CA dura fino alla fine del turno, e all'inizio del turno successivo non è più in vigore."
+                }
             }
         },
         "Size": "Taglia",
@@ -803,7 +811,7 @@
             }
         },
         "DamageTypes": {
-            "name": "Tipi di Danno",
+            "name": "Tipo di Danno",
             "types": {
                 "physical": "Fisico",
                 "breath": "Soffio",
@@ -811,7 +819,8 @@
                 "frost": "Ghiaccio",
                 "magic": "Magico",
                 "poison": "Veleno",
-                "heal": "Guarigione"
+                "heal": "Guarigione",
+                "hull": "Scafo"
             }
         },
         "roll": "Tiro",
@@ -882,7 +891,10 @@
             "starstone": "Pietrastella",
             "tristal": "Tristale"
         },
-        "none": "Nessuna"
+        "none": "Nessuna",
+        "cursed": "Maledetto",
+        "identified": "Identificato",
+        "unidentified": "Non identificato"
     },
     "SETTINGS": {
         "Encumbrance": {
@@ -1035,7 +1047,8 @@
         "monsterSize": {
             "M": "M",
             "S": "P",
-            "L": "G"
+            "L": "G",
+            "G": "E"
         },
         "classSpecies": {
             "Elf": "Elfo",
