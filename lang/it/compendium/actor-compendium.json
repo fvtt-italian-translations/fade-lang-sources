@@ -456,7 +456,7 @@
                 },
                 "E0vYGW3avZ8aY7IQ": {
                     "description": "<p>Gli Arconti possono lanciare incantesimi come chierici di 12° livello. Sono immuni al fuoco, al veleno e agli incantesimi di livello dal 1° al 4° di tutti i tipi.</p>",
-                    "name": "Lanciare Incantesimi",
+                    "name": "Lanciare Incantesimi/Immunità",
                     "gmNotes": "Abilità di Lanciare Incantesimi e immunità."
                 },
                 "bjbZ8aquRhls9RRR": {
@@ -1451,7 +1451,7 @@
                 },
                 "E0vYGW3avZ8aY7IQ": {
                     "description": "<p>Gli Arconti possono lanciare incantesimi come chierici di 12° livello. Sono immuni al fuoco, al veleno e agli incantesimi di livello dal 1° al 4° di tutti i tipi.</p>",
-                    "name": "Lanciare Incantesimi",
+                    "name": "Lanciare Incantesimi/Immunità",
                     "gmNotes": "Abilità di Lancio incantesimi e immunità."
                 },
                 "TdpX7IPRcZ3n1Ygl": {
@@ -4738,7 +4738,7 @@
             "monsterType": "Costrutto, Magico (Raro)"
         },
         "Giant, Hill": {
-            "biography": "<p>I Giganti delle Colline sono grandi, pelosi e brutali umanoidi con un profondo amore per la distruzione e il caos. Sono alti circa 3,5 metri e indossano pelli di animali. Brandiscono enormi clave o lanciano massi con forza incredibile, capaci di schiacciare anche i nemici più resistenti. Nonostante le loro dimensioni e forza, i Giganti delle Colline non sono particolarmente intelligenti, spesso superati in astuzia da avversari più scaltri.</p><p><strong>Danno Clava:</strong> 2d8.<br><strong>Danno Roccia:</strong> 2d6, fino a 60 metri di distanza.<br><strong>Terreno:</strong> Colline, Montagne.<br></p>",
+            "biography": "<p>I Giganti delle Colline sono umanoidi grandi, pelosi e brutali, con un profondo amore per la distruzione e il caos. Sono alti circa 3,5 metri e indossano pelli di animali. Brandiscono enormi clave e a volte [[/r 1d100 #<p>Il Gigante scaglia un masso se il risultato del dado è uguale o inferiore a 25.</p>]] (25%) scagliano massi (30/60/100) con una forza incredibile, capaci di schiacciare anche i nemici più resistenti. Nonostante la loro grandezza e forza, i Giganti delle Colline non sono particolarmente intelligenti, spesso sconfitti da avversari più astuti.</p><p><strong>Danno con la Clava:</strong> 2d8.<br><strong>Danno con il Masso:</strong> 3d6, fino a 100 di distanza.<br><strong>Terreno:</strong> Colline, Montagne.<br></p>",
             "items": {
                 "4gpnqZRudew1VnHd": {
                     "description": "La spessa pelle del gigante delle colline fornisce classe armatura naturale 4.",
