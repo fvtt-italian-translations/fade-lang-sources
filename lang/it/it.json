@@ -293,7 +293,8 @@
             "resetSlots": "Ripristina gli incantesimi memorizzati a zero lanci. Il conteggio memorizzato non verrà modificato",
             "usedSlots": "Lanci usati",
             "availableSlots": "Lanci disponibili",
-            "cast": "L'incantesimo è stato lanciato questo numero di volte"
+            "cast": "L'incantesimo è stato lanciato questo numero di volte",
+            "durationFormulaHint": "La durata dell'effetto in round. Un simbolo di infinito indica una durata infinita. Uno zero indica un effetto istantaneo senza durata."
         },
         "Item": {
             "plural": "Equipaggiamento",
@@ -894,7 +895,9 @@
         "none": "Nessuna",
         "cursed": "Maledetto",
         "identified": "Identificato",
-        "unidentified": "Non identificato"
+        "unidentified": "Non identificato",
+        "rounds": "round",
+        "turns": "turni"
     },
     "SETTINGS": {
         "Encumbrance": {
