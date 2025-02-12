@@ -84,9 +84,9 @@
       "spellEffect": "Personal barrier which blocks plants",
       "spellRange": "0 (druid only)"
     },
-    "Appear": {
+    "Appear*": {
       "description": "<p>This spell negates invisibility within a <strong>20' x 20' x 20'</strong> area. It affects all invisible creatures and objects inside the area, making them <strong>fully visible</strong>.</p>\n\n                    <h3>Effect:</h3>\n                    <ul>\n                      <li>Affects all <strong>forms of invisibility</strong> (both magical and natural).</li>\n                      <li>Creatures on the <strong>Astral and Ethereal planes</strong> are <strong>not</strong> affected.</li>\n                      <li>All affected creatures <strong>cannot become invisible again</strong> for <strong>1 full turn</strong>.</li>\n                    </ul>",
-      "name": "Appear",
+      "name": "Appear*",
       "spellDuration": "Instantaneous (prevents re-invisibility for 1 turn)",
       "spellEffect": "Reveals all invisible creatures/objects in a 20' cube"
     },
@@ -94,13 +94,33 @@
       "description": "<p>Aquamarine is a gemstone with a light blue color and a smooth, polished surface. It has a crystalline appearance that reflects light, showcasing its clarity and delicate hue. Often used in jewelry, aquamarine is valued for its brilliance and tranquil color.</p>",
       "name": "Aquamarine"
     },
-    "Arrow (silver)": {
-      "description": "<p>An arrow made with a silver tip. This can be used to damage certain types of creatures like lycanthropes.</p>",
-      "name": "Arrow (silver)"
-    },
     "Arrows": {
       "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
       "name": "Arrows"
+    },
+    "Arrows (silver)": {
+      "description": "<p>An arrow made with a silver tip. This can be used to damage certain types of creatures like lycanthropes.</p>",
+      "name": "Arrows (silver)"
+    },
+    "Arrows +1": {
+      "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus. </p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
+      "name": "Arrows +1"
+    },
+    "Arrows +2": {
+      "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
+      "name": "Arrows +2"
+    },
+    "Arrows +3": {
+      "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
+      "name": "Arrows +3"
+    },
+    "Arrows +4": {
+      "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
+      "name": "Arrows +4"
+    },
+    "Arrows +5": {
+      "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
+      "name": "Arrows +5"
     },
     "Art (Choose Type)": {
       "description": "<p>This skill covers the creation of art, such as painting, sculpture, woodcarving, or mosaic. The player must specify the type of art the character practices. A successful skill check allows the character to create works that can improve NPC reactions. For example, presenting a well-crafted portrait or sculpture to an NPC may provide a +2 bonus to reaction rolls. If preferred, the player can choose to base this skill on Wisdom instead of Intelligence.</p>",
@@ -126,8 +146,16 @@
     "Axe, Battle": {
       "name": "Axe, Battle"
     },
+    "Axe, Battle +1": {
+      "description": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
+      "name": "Axe, Battle +1"
+    },
     "Axe, Hand": {
       "name": "Axe, Hand"
+    },
+    "Axe, Hand +1": {
+      "description": "<p>A hand axe is a one handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+      "name": "Axe, Hand +1"
     },
     "Babble*": {
       "description": "<p>The reverse of *Speak with Monsters*, this spell prevents one creature from communicating in any way.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The target may attempt a saving throw vs. spells, but with a -2 penalty.</li>\n                        <li>If the save fails, the victim is unable to communicate for the spell’s duration.</li>\n                        <li>This includes all forms of communication: speech, hand gestures, writing, telepathy, etc.</li>\n                        <li>The victim can still cast spells but cannot use magic items requiring command words, as the words turn into gibberish.</li>\n                      </ul>\n                      <p><strong>Duration:</strong> 1 turn per level of the caster.</p>",
@@ -140,12 +168,53 @@
       "name": "Backpack"
     },
     "Backstab": {
-      "description": "<p>When attacking an unaware opponent from behind, a thief gains a +4 bonus to hit and deals double damage.</p>",
+      "description": "<p>When striking an <strong data-start=\"4029\" data-end=\"4049\">unaware opponent</strong>, a Bard gains <strong data-start=\"4064\" data-end=\"4086\">+2 to attack rolls</strong> and deals <strong data-start=\"4097\" data-end=\"4112\">1.5x damage</strong> (round down).</p>",
       "name": "Backstab"
     },
     "Banded Mail": {
       "description": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
       "name": "Banded Mail"
+    },
+    "Banded Mail +1": {
+      "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Banded Mail +1"
+    },
+    "Bard": {
+      "classLevels": {
+        "0": {
+          "title": "Minstrel"
+        },
+        "1": {
+          "title": "Balladeer"
+        },
+        "2": {
+          "title": "Skald"
+        },
+        "3": {
+          "title": "Lorekeeper"
+        },
+        "4": {
+          "title": "Chronicler"
+        },
+        "5": {
+          "title": "Master of Tales"
+        },
+        "6": {
+          "title": "Virtuoso"
+        },
+        "7": {
+          "title": "Bard"
+        },
+        "8": {
+          "title": "Bardic Master"
+        }
+      },
+      "description": "<h2>The Bard: Keeper of Legends, Master of Song</h2><p>From the dawn of history, bards have roamed the world as keepers of lore, song, and heroism. They are the wandering minstrels, the poetic warriors, the storytellers whose words shape the deeds of kings and heroes alike. Bards are more than mere entertainers—they are the voice of history, the heart of culture, and, when needed, an inspiration on the battlefield.</p><p>Unlike the common thief-turned-minstrel, a true Bard has honed both the martial and mystical aspects of their craft. They wield the power of <em>spell-songs</em>, enchanting allies and bewitching foes with melodies imbued with arcane energy. These spell-songs, much like the incantations of wizards or the prayers of clerics, draw upon an ancient tradition that blends magic with performance. Through song and instrument, they can heal wounds, bolster courage, cloud minds, or even weave illusions so vivid they seem real.</p><p>Though bards may fight alongside warriors and thieves, their true strength lies in their ability to influence the world with words, music, and guile. They are welcome in the courts of kings as much as in the taverns of common folk, gathering news, uncovering secrets, and spreading the tales of legends—sometimes their own.</p><p>Each bard carries an enchanted instrument, a tool of their trade that is as vital as a wizard’s spellbook. Without it, their magic is silent. Some are gifted such instruments by mentors, while others must quest to find their own. A bard’s skill with an instrument is as much a part of their identity as the songs they know, and a seasoned bard can earn a fortune simply by performing for the right audience.</p><p>Whether they choose to settle and establish a great conservatory to pass their wisdom on to students, or continue their travels as a lone wanderer chronicling the stories of the world, all bards share a common purpose: to ensure that no great deed goes unsung, no legend is forgotten, and no soul is left without a melody to guide them.</p><p><em>Adapted from Geoff Gander and Marco Dalmonte’s article at </em><a href=\"https://pandius.com/bardclas.html\"><em>Pandius</em></a><em>.</em></p><h3>Key Characteristics</h3><h4>Prime Requisite</h4><p>Dexterity and Charisma. A Bard gains a 5% experience bonus if both Dexterity and Charisma are 13–15, and a 10% bonus if both are 16 or higher.</p><h4>Combat Skills</h4><ul><li>Bards may use <strong>any one-handed melee weapon and all missile weapons</strong>.</li><li>They <strong>cannot use two-handed weapons</strong>, as these interfere with playing instruments.</li><li>Bards may wear <strong>armor up to chain mail</strong>, but heavier armor imposes penalties on their Thief skills.</li><li>A Bard may wield <strong>shields of medium size or smaller</strong>, but doing so prevents playing an instrument.</li></ul><h4>Hit Dice</h4><ul><li>Bards roll <strong>1d6 for hit points per level</strong> until 9th level, after which they gain <strong>+2 hit points per level</strong>. Constitution adjustments no longer apply at this point.</li></ul><h4>Special Abilities</h4><p>Bards possess several skills similar to Thieves, along with unique abilities that set them apart.</p><ul><li><p><strong>Thief Abilities</strong> (affected by armor type):</p><table border=\"1\"><thead><tr><th>Armor Type</th><th>Hide in Shadows</th><th>Move Silently</th><th>Hear Noise</th><th>Climb Walls</th></tr></thead><tbody><tr><td>Leather Armor</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Scale Mail</td><td>-5%</td><td>-15%</td><td>-5%</td><td>-15%</td></tr><tr><td>Chain Mail</td><td>-10%</td><td>-20%*</td><td>-10%</td><td>-20%</td></tr></tbody></table><p><em>*This penalty may be halved if wearing Elven Chain Mail.</em></p></li><li><p><strong>Read Languages:</strong> At <strong>4th level</strong>, a Bard can read non-magical languages with an <strong>80% chance</strong>.</p></li><li><p><strong>Use Magic Scrolls:</strong> At <strong>10th level</strong>, a Bard can attempt to use magic-user scrolls, with a <strong>10% chance of backfire</strong>.</p></li><li><p><strong>Bardic Charm:</strong> At <strong>3rd level</strong>, a Bard gains the ability to <strong>charm others</strong> through song or poetry (similar to <em>charm person</em>). This improves at higher levels to affect intelligent monsters and, later, even plants.</p></li><li><p><strong>Spell-Songs:</strong> Bards can cast <strong>spell-songs</strong>, a unique form of magic that functions similarly to spells but requires performance and an enchanted instrument.</p></li><li><p><strong>Backstab (Modified):</strong></p><ul><li>When striking an <strong>unaware opponent</strong>, a Bard gains <strong>+2 to attack rolls</strong> and deals <strong>1.5x damage</strong> (round down).</li><li>This allows for precision strikes without the raw lethality of a Thief’s backstab.</li></ul></li></ul><h3>Advancement at Name Level (9th Level)</h3><p>At 9th level, a Bard earns renown and may establish a <strong>Conservatory</strong>, a place dedicated to training apprentices, preserving history, and refining spell-songs. This Conservatory attracts <strong>1d8 1st-level apprentice Bards</strong>, eager to learn from a master of the craft. These apprentices are loyal and dedicated students, though they will not follow the Bard into direct danger.</p><p>A Conservatory serves as a center of culture, storytelling, and music, drawing the attention of nobles, scholars, and fellow adventurers. It may take many forms—a grand hall in a city, a secluded retreat in the mountains, or a hidden sanctuary where lost songs and stories are recovered. The Bard may use this stronghold to research new spell-songs, store historical knowledge, and influence the world through their art.</p><h3>Stronghold Options</h3><p>Bards who choose to establish a Conservatory are expected to offer shelter and hospitality to traveling Bards who seek knowledge or rest. In exchange, these visitors bring news, songs, and secrets from across the land. The Conservatory may gain influential patrons, such as kings or powerful wizards, who see value in the Bard’s wisdom and the knowledge housed within.</p><p>Not all Bards settle in one place. Some prefer to <strong>remain travelers</strong>, continuing their journey as wandering minstrels, historians, and adventurers. These Traveling Bards have a unique connection to the world’s hidden stories. Once per month, they may <strong>learn of an unsung epic</strong>, a forgotten tale, or a legendary figure whose story has yet to be told. This knowledge can lead to lost treasures, rare spell-songs, or even legendary quests.</p><p>While a Bard may choose the life of a wanderer, they are always welcome at the Conservatories of their peers. These sanctuaries provide a place to rest, study, and exchange knowledge, ensuring that no great deed or legend is forgotten.</p>",
+      "name": "Bard"
+    },
+    "Bardic Charm": {
+      "description": "<p>A Bard of <strong data-start=\"10\" data-end=\"33\">3rd level or higher</strong> can charm others through song, poetry, or music, similar to the <em data-start=\"98\" data-end=\"112\">charm person</em> spell. The Bard must perform for <strong data-start=\"146\" data-end=\"174\">three consecutive rounds</strong>, after which the target must make a <strong data-start=\"211\" data-end=\"244\">saving throw vs. Spells at +3</strong> or be charmed. The effect lasts until dispelled, the Bard dismisses it, or the Bard harms the target.</p><p data-start=\"350\" data-end=\"466\">At <strong data-start=\"353\" data-end=\"366\">9th level</strong>, this ability improves, allowing the Bard to charm <strong data-start=\"418\" data-end=\"442\">intelligent monsters</strong> (as <em data-start=\"447\" data-end=\"462\">charm monster</em>).</p><p data-start=\"468\" data-end=\"605\" data-is-last-node=\"\">At <strong data-start=\"471\" data-end=\"485\">15th level</strong>, the Bard can charm <strong data-start=\"506\" data-end=\"516\">plants</strong> (as <em data-start=\"521\" data-end=\"534\">charm plant</em>), influencing intelligent vegetation such as treants or magical flora.</p>",
+      "name": "Bardic Charm"
     },
     "Bargaining": {
       "description": "<p>The Bargaining skill allows a character to negotiate favorable terms in transactions or agreements. It covers haggling over prices, making persuasive arguments in trade deals, and finding compromises that satisfy all parties. A successful Bargaining check can result in better prices, advantageous terms, or profitable contracts.</p>",
@@ -182,6 +251,13 @@
       "description": "<p>This skill allows the character to shoot at a target without seeing it, typically used in darkness or when the target is outside the range of sight or infravision. The character must be able to hear the target to evaluate its position. A successful skill check allows a shot with no penalties due to darkness, though an attack roll is still required to hit the target.</p>",
       "name": "Blind Shooting"
     },
+    "Blissful Slumber": {
+      "description": "<p>When this song is sung, all within <strong>10'</strong> of the bard instantly feel as though they have had a <strong>full night's sleep</strong>. Fatigue penalties are eliminated, and those affected do not need to rest for the night.</p><h3>Effects:</h3><ul><li>Instantly removes all fatigue penalties.</li><li>Replaces the need for a full night's sleep.</li></ul><h3>Limitations:</h3><ul><li>This spell cannot be used for more than <strong>three consecutive days</strong>.</li><li>The bard cannot sing this song more than <strong>four times per week</strong>.</li><li>If overused, fatigue penalties apply as normal, as the body cannot go without sleep indefinitely.</li></ul>",
+      "name": "Blissful Slumber",
+      "spellDuration": "Instant",
+      "spellEffect": "Removes fatigue and eliminates the need for sleep",
+      "spellRange": "0 (bard + recipients only)"
+    },
     "Blowgun, Long": {
       "description": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
       "name": "Blowgun, Long"
@@ -202,8 +278,16 @@
     "Bow, Long": {
       "name": "Bow, Long"
     },
+    "Bow, Long +1": {
+      "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
+      "name": "Bow, Long +1"
+    },
     "Bow, Short": {
       "name": "Bow, Short"
+    },
+    "Bow, Short +1": {
+      "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+      "name": "Bow, Short +1"
     },
     "Boxing": {
       "name": "Boxing"
@@ -211,6 +295,13 @@
     "Bravery": {
       "description": "<p>This skill allows the character to resist the effects of magical fear, as well as the results of morale checks or skills like Intimidation. NPCs using this skill can ignore fear effects with a successful skill check.</p>",
       "name": "Bravery"
+    },
+    "Breathstealer": {
+      "description": "<p>When sung, this spell-song begins to rob the air from those within its area of effect, potentially leading to suffocation.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>Affects all creatures within a <strong>30' x 30' x 30'</strong> area.</li>\n          <li>Each round, all within the area must make a <strong>saving throw vs. Spells</strong> at <strong>-2</strong> or begin suffocating.</li>\n          <li>On a failed save, the victim <strong>loses 3 points of Constitution</strong> temporarily.</li>\n          <li>Those who fail a save must also make a <strong>Constitution check</strong> to move normally.</li>\n          <li>Movement speed is <strong>halved</strong> while suffocating.</li>\n          <li>Suffocating victims <strong>cannot cast spells, speak, or attack</strong>.</li>\n          <li>If a creature’s <strong>Constitution reaches 0, they die</strong>.</li>\n        </ul>\n\n        <h3>Duration:</h3>\n        <ul>\n          <li>The bard may sing for as many rounds as their <strong>Constitution score</strong>.</li>\n          <li>If the bard sings until reaching <strong>0 Constitution</strong>, they pass out for [[/r 2d6 #Rounds Unconscious]].</li>\n        </ul>\n\n        <h3>Recovery:</h3>\n        <ul>\n          <li>Lost Constitution points recover at a rate of [[/r 1d3 #Points per full day of rest]].</li>\n        </ul>\n\n        <h3>Special Notes:</h3>\n        <ul>\n          <li><strong>All creatures</strong> in the area—including the bard’s allies—are affected.</li>\n          <li>Creatures who succeed a saving throw <strong>take no penalties</strong> that round.</li>\n        </ul>",
+      "name": "Breathstealer",
+      "spellDuration": "Special",
+      "spellEffect": "Causes victims to suffocate, losing Constitution each round",
+      "spellRange": "20' + 10'/level of bard"
     },
     "Call Lightning": {
       "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
@@ -268,7 +359,7 @@
       "name": "Chain Mail"
     },
     "Chain Mail +1": {
-      "description": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+      "description": "<p>This is a magic suit of armor primarily composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
       "name": "Chain Mail +1"
     },
     "Charm Monster": {
@@ -344,7 +435,7 @@
       "name": "Cleric"
     },
     "Climb Sheer Surface": {
-      "description": "<p>The thief can climb steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by their level.</p>",
+      "description": "<p>A Bard can climb walls, cliffs, and other vertical surfaces with the same chance as a Thief of the same level. The Bard must have <strong>both hands free</strong> and cannot climb while holding a weapon or instrument. Climbing takes <strong>one round per 10 feet</strong> and failure means slipping at the halfway point, with a chance to catch themselves if the DM allows.</p><h4>Armor Penalties:</h4><ul><li><strong>Scale Mail:</strong> –15%</li><li><strong>Chain Mail:</strong> –20% (–10% if Elven Chain)</li><li><strong>Shield Worn:</strong> Additional –5% (if slung on the back)</li></ul>",
       "name": "Climb Sheer Surface"
     },
     "Cloak, long": {
@@ -390,6 +481,10 @@
     "Club": {
       "description": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
       "name": "Club"
+    },
+    "Club +1": {
+      "description": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
+      "name": "Club +1"
     },
     "Club or Torch": {
       "name": "Club or Torch"
@@ -529,12 +624,20 @@
       "description": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
       "name": "Crossbow, Hvy"
     },
+    "Crossbow, Hvy +1": {
+      "description": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
+      "name": "Crossbow, Hvy +1"
+    },
     "Crossbow, Light": {
       "name": "Crossbow, Light"
     },
     "Crossbow, Lt": {
       "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
       "name": "Crossbow, Lt"
+    },
+    "Crossbow, Lt +1": {
+      "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+      "name": "Crossbow, Lt +1"
     },
     "Crystal": {
       "description": "<p>A crystal gemstone is typically transparent, showcasing a clear and faceted structure that reflects light, creating a sparkling effect. Its clarity and sharp edges make it highly valued for its brilliance and aesthetic appeal, commonly used in jewelry and decorative items.</p>",
@@ -586,6 +689,10 @@
     "Dagger, Silver": {
       "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
       "name": "Dagger, Silver"
+    },
+    "Dagger, Silver +1": {
+      "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
+      "name": "Dagger, Silver +1"
     },
     "Dance": {
       "description": "<p>This spell forces the touched victim to dance uncontrollably, performing a wild jig or similar movement, preventing them from taking meaningful actions.</p>\n                    \n                    <h3>Effects:</h3>\n                    <ul>\n                      <li>The caster must <strong>touch</strong> the target (requires a successful melee attack roll).</li>\n                      <li>The victim receives <strong>no saving throw</strong> to resist.</li>\n                      <li>While dancing, the victim:</li>\n                      <ul>\n                        <li><strong>Cannot attack</strong>, cast spells, or flee.</li>\n                        <li><strong>-4 penalty to all saving throws.</strong></li>\n                        <li><strong>+4 penalty to Armor Class.</strong></li>\n                      </ul>\n                    </ul>\n\n                    <h3>Duration:</h3>\n                    <p>The duration of the effect is based on the caster’s level:</p>\n                    <ul>\n                      <li><strong>Levels 18-20:</strong> [[/r 3 #Rounds of dancing]]</li>\n                      <li><strong>Levels 21-24:</strong> [[/r 4 #Rounds of dancing]]</li>\n                      <li><strong>Levels 25-28:</strong> [[/r 5 #Rounds of dancing]]</li>\n                      <li><strong>Levels 29-32:</strong> [[/r 6 #Rounds of dancing]]</li>\n                      <li><strong>Levels 33-36:</strong> [[/r 7 #Rounds of dancing]]</li>\n                    </ul>",
@@ -841,6 +948,12 @@
       "spellDuration": "1 round per level of caster",
       "spellEffect": "Illuminates creatures or objects"
     },
+    "Faerie Lights": {
+      "description": "<p>This enchanting song conjures <strong>shimmering, flickering lights</strong> that dance around a chosen target, <strong>illuminating a 30' radius</strong> as brightly as a conventional <em>light</em> spell. The lights appear to move with a life of their own, weaving and shifting unpredictably.</p>\n        \n        <p><strong>Effects:</strong></p>\n        <ul>\n          <li><strong>Illuminates a 30' radius</strong> with bright, magical light.</li>\n          <li><strong>Creatures with animal intelligence (2 or less)</strong> must <strong>save vs. paralysis</strong> or be <strong>stunned for [[/r 1d6]] rounds.</strong></li>\n          <li>The lights <strong>have no physical form</strong> and cannot be extinguished by wind, water, or other natural forces.</li>\n          <li>The lights <strong>do not follow</strong> a moving target but remain fixed at the chosen location.</li>\n        </ul>",
+      "name": "Faerie Lights",
+      "spellEffect": "Creates dancing lights that illuminate a 30' radius",
+      "spellRange": "10' + 10'/level"
+    },
     "Feeblemind": {
       "description": "<p>This spell affects only magic-users, elves, or other creatures capable of casting magical spells (excluding cleric and druid casters). The target's Intelligence is reduced to 2, rendering them helpless and unable to cast spells or think clearly.</p>\n                      <p><strong>Saving Throw:</strong> The victim may make a saving throw vs. spells, with a -4 penalty, to resist the effect. The feeblemind effect lasts until removed by a *Dispel Magic* or *Cureall* spell.</p>",
       "name": "Feeblemind",
@@ -919,6 +1032,13 @@
       "name": "Flesh to Stone*",
       "spellEffect": "One creature or object"
     },
+    "Flight Be True": {
+      "description": "<p>This spell-song allows the bard to temporarily enchant one missile attack per round while singing and playing an instrument. The bard must succeed in all required checks to maintain the song.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>One arrow, quarrel, or sling stone per round is enchanted.</li>\n          <li>The enchanted missile gains <strong>+4 to hit</strong>.</li>\n          <li>The missile can damage creatures normally immune to non-silvered or non-magical weapons.</li>\n        </ul>\n\n        <h3>Duration:</h3>\n        <ul>\n          <li>The bard may continue this song for a maximum number of rounds equal to their <strong>Constitution score</strong>.</li>\n          <li>After reaching this limit, the bard <strong>passes out for [[/r 1d4 #Hours Unconscious]] hours</strong>.</li>\n          <li>If the bard stops singing before reaching their limit, there are no negative effects.</li>\n        </ul>",
+      "name": "Flight Be True",
+      "spellDuration": "Special",
+      "spellEffect": "Enhances one missile attack per round",
+      "spellRange": "20' + 10'/level of bard"
+    },
     "Floating Disc": {
       "description": "<p>This spell creates an invisible, horizontal disc capable of carrying up to 5000 cn (500 lbs). The disc remains at the caster's waist height and follows them, staying within 6' at all times. It cannot be used as a weapon or pass through obstacles. When the spell ends, the disc disappears, dropping anything it carried.</p>",
       "name": "Floating Disc",
@@ -992,8 +1112,18 @@
       "spellDuration": "Special",
       "spellEffect": "Enlarges 3000 square feet of plants"
     },
+    "Guardian Angels": {
+      "description": "<p>Once sung, this spell-song grants the bard and all recipients within range a protective blessing for its duration.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>All affected creatures gain a <strong>-2 bonus to AC</strong>, applied against all attacks.</li>\n          <li>Recipients become <strong>immune to all effects from other bardic spell-songs</strong> while this effect lasts.</li>\n        </ul>\n\n        <h3>Area of Effect:</h3>\n        <ul>\n          <li>Affects the bard and all allies within <strong>15' + 5' per bard level</strong>.</li>\n        </ul>\n\n        <h3>Duration:</h3>\n        <ul>\n          <li>The spell lasts for <strong>10 rounds</strong>.</li>\n        </ul>",
+      "name": "Guardian Angels",
+      "spellEffect": "Provides AC bonus and bardic spell-song immunity",
+      "spellRange": "0 (bard + recipients only)"
+    },
     "Halberd": {
       "name": "Halberd"
+    },
+    "Halberd +1": {
+      "description": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
+      "name": "Halberd +1"
     },
     "Half Damage from Dragon Breath": {
       "description": "<p>At 1,600,000 XP, an elf takes only half damage from dragon breath. A successful saving throw reduces the damage to one-quarter.</p>",
@@ -1042,8 +1172,16 @@
     "Hammer, Throwing": {
       "name": "Hammer, Throwing"
     },
+    "Hammer, Throwing +1": {
+      "description": "<p>A throwing hammer is a one-handed hammer with a short haft, and is weighted for throwing. Despite the name, it can also be used in melee.</p>",
+      "name": "Hammer, Throwing +1"
+    },
     "Hammer, War": {
       "name": "Hammer, War"
+    },
+    "Hammer, War +1": {
+      "description": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
+      "name": "Hammer, War +1"
     },
     "Harden*": {
       "description": "<p>This spell turns an area of mud into solid rock, permanently. The affected area can be up to 3,000 square feet in surface area and 10' deep. The caster may shape the area within these limits (e.g., 20' x 150', 30' x 100').</p>\n                      <p>Creatures caught within the area must make a saving throw vs. spells to avoid being trapped in the hardened mud.</p>",
@@ -1069,7 +1207,7 @@
       "name": "Healing"
     },
     "Hear Noise": {
-      "description": "<p>The thief has a heightened sense of hearing, allowing them to detect faint noises such as footsteps, whispers, and the movements of hidden creatures.</p>",
+      "description": "<p>A Bard can detect faint sounds such as footsteps, whispers, or shifting mechanisms with the same chance as a Thief of the same level. The Bard must remain still and concentrate for one round to use this ability. Background noise, such as wind or battle, may impose penalties at the DM’s discretion.</p><h4>Armor Penalties:</h4><ul><li>Scale Mail: –5%</li><li>Chain Mail: –10% (–5% if Elven Chain)</li></ul>",
       "name": "Hear Noise"
     },
     "Heat Metal": {
@@ -1206,6 +1344,10 @@
       "description": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
       "name": "Javelin"
     },
+    "Javelin +1": {
+      "description": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
+      "name": "Javelin +1"
+    },
     "Knock": {
       "description": "<p>This spell unlocks any type of lock, including normal and magically locked doors (such as those affected by <em>hold portal</em> or <em>wizard lock</em>). It can also open secret doors, but the door must be located first. The spell does not permanently remove locking magic, which will re-engage once the door is closed again.</p>\n                  <p><em>Knock</em> can unstick a gate, cause a barred door to open (forcing the bar to fall), and make treasure chests open easily. However, if a door is both locked and barred, only one of the locks will be affected.</p>\n                  <p><strong>Note:</strong> If the lock is affected by a spell, the target can make a saving throw vs. spells to resist.</p>",
       "name": "Knock",
@@ -1228,6 +1370,10 @@
     },
     "Lance": {
       "name": "Lance"
+    },
+    "Lance +1": {
+      "description": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
+      "name": "Lance +1"
     },
     "Lance Attack": {
       "description": "<p>When mounted and using a lance, a fighter can perform a powerful charge attack. The fighter gains double their Strength modifier to the damage roll if the attack is successful. This ability is most effective when charging against opponents.</p>",
@@ -1262,7 +1408,7 @@
       "name": "Leather Armor"
     },
     "Leather Armor +1": {
-      "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Magical leather armor gives an armor class of 7 plus magic bonus, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
       "name": "Leather Armor +1"
     },
     "Levitate": {
@@ -1327,11 +1473,11 @@
       "name": "Mace"
     },
     "Mace +1": {
-      "description": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+      "description": "<p>A magic mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
       "name": "Mace +1"
     },
     "Mace +2": {
-      "description": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+      "description": "<p>A magic mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
       "name": "Mace +2"
     },
     "Magic Door*": {
@@ -1364,6 +1510,11 @@
     "Magic Wand": {
       "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
       "name": "Magic Wand"
+    },
+    "Magic's End": {
+      "description": "<p>When sung, this spell-song dispels all spells and magical effects within its area of effect. However, unlike the <em>Dispel Magic</em> spell, there is always a chance that a spell or effect will resist being dispelled.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>Dispels all <strong>spells and magical effects</strong> within a <strong>20' x 20' x 20'</strong> cube.</li>\n          <li>Each affected spell or effect has a <strong>base 20% resistance</strong> if its level is equal to or lower than the bard's level.</li>\n          <li>For every level higher than the bard's, the resistance increases by <strong>+5%</strong>.</li>\n        </ul>\n\n        <h3>Resistance Calculation:</h3>\n        <ul>\n          <li>Example: A <strong>7th-level bard</strong> attempts to dispel a <em>Cloudkill</em> spell cast by a <strong>12th-level magic-user</strong>.</li>\n          <li>The resistance chance is <strong>20% + (5% x 5) = 45%</strong>.</li>\n          <li>Roll [[/r 1d100 #Dispel Resistance]]; if the result is lower than or equal to the resistance chance, the spell resists being dispelled.</li>\n        </ul>\n\n        <h3>Additional Notes:</h3>\n        <ul>\n          <li>Applies to <strong>spell-like effects from magic items</strong>, with the DM estimating the original caster's level.</li>\n          <li>Permanent magical effects are subject to DM discretion for dispelling.</li>\n        </ul>",
+      "name": "Magic's End",
+      "spellEffect": "Attempts to dispel all magical effects in the area"
     },
     "Magic-User": {
       "classLevels": {
@@ -1460,6 +1611,12 @@
       "name": "Mind Barrier*",
       "spellDuration": "1 hour per caster level",
       "spellEffect": "Grants immunity to mind-affecting magic and +8 to saves vs. mental attacks"
+    },
+    "Mind Render": {
+      "description": "<p>When sung, this spell-song induces an overwhelming, paranoid fear in all sentient beings within the area of effect, unless they successfully resist the effect.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>Every creature within a <strong>30' x 30' x 30'</strong> area must make a <strong>saving throw vs. Spells</strong> at <strong>-2</strong> each round they remain inside.</li>\n          <li>Creatures that <strong>succeed on the save</strong> each round or <strong>leave the area</strong> remain unaffected.</li>\n          <li>Creatures that <strong>fail a saving throw</strong> while in the area instantly become delusional, believing that all nearby beings are enemies.</li>\n        </ul>\n\n        <h3>Frenzied Assault:</h3>\n        <ul>\n          <li>Delusional victims have a <strong>50% chance each round</strong> to attack the nearest person, regardless of friend or foe.</li>\n          <li>Attacks made while in this state gain <strong>+1 to hit and +1 to damage</strong> (stacking with Strength bonuses).</li>\n          <li>The effect persists even if the victim leaves the area of effect.</li>\n          <li>The frenzy lasts for a number of **hours** equal to the **bard's level**.</li>\n        </ul>\n\n        <h3>Ending the Effect:</h3>\n        <ul>\n          <li>The frenzy can be removed with <strong>remove curse, wish, or any other spell that removes enchantments</strong>.</li>\n        </ul>\n\n        <h3>Duration & Risks:</h3>\n        <ul>\n          <li>The bard may maintain this song for a number of rounds equal to their <strong>Constitution score</strong>.</li>\n          <li>If the bard continues playing beyond this limit, they must make a <strong>saving throw vs. Spells</strong> each round or fall under the **same effects** as the victims.</li>\n          <li>The spell-song affects <strong>everyone within the area</strong>, including the bard’s allies.</li>\n        </ul>\n\n        <h3>Rolls:</h3>\n        <ul>\n          <li>Frenzied assault chance: [[/r 1d100 #50% chance to attack the nearest person]]</li>\n          <li>Bard's Constitution limit: [[/r @actor.system.abilities.con.value #Rounds the bard can sing safely]]</li>\n        </ul>",
+      "name": "Mind Render",
+      "spellDuration": "Special",
+      "spellEffect": "Causes paranoia and frenzied attacks in affected creatures"
     },
     "Mirror": {
       "description": "<p>This hand-sized steel mirror is used to look around corners or defend against gaze attacks. When used to observe a foe, the user suffers a -2 penalty to attack rolls and cannot use a shield as they are holding the mirror. The area must be lit for it to be effective.</p>",
@@ -1628,6 +1785,10 @@
     "Pike": {
       "name": "Pike"
     },
+    "Pike +1": {
+      "description": "<p>A pike is an extremely long spear, 7’ to 15’ long. It can only be wielded using two hands. See polearm rules for special usage.</p>",
+      "name": "Pike +1"
+    },
     "Piloting (choose type)": {
       "description": "<p>This skill represents the ability to control and maneuver a specific type of vehicle, such as a ship, airship, or magical conveyance. The chosen type must be specified when the skill is selected. Piloting involves steering, navigating obstacles, and managing the vehicle in various conditions, such as weather or combat situations.</p>",
       "name": "Piloting (choose type)"
@@ -1646,6 +1807,10 @@
     "Plate Mail": {
       "description": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
       "name": "Plate Mail"
+    },
+    "Plate Mail +1": {
+      "description": "<p>This is a magic suit of armor primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Plate Mail +1"
     },
     "Platinum Piece": {
       "name": "Platinum Piece"
@@ -1858,6 +2023,10 @@
       "spellEffect": "The spellcaster only",
       "spellRange": "0"
     },
+    "Read Scroll": {
+      "description": "<p>A Thief of <strong>10th level or higher</strong> can attempt to cast spells from <strong>magic-user scrolls</strong>. This requires <strong>one round of reading</strong>, and the scroll is consumed upon use. There is a <strong>10% chance of backfire</strong>, which may cause the spell to fail, produce a random effect, or target the wrong creature (DM’s discretion). Thieves cannot use cleric or druid scrolls.</p>",
+      "name": "Read Scroll"
+    },
     "Reincarnation": {
       "description": "<p>This spell allows the caster to <strong>return a deceased character to life</strong> by magically creating a <strong>new body</strong> for their life force to inhabit. The spell requires at least a small part of the dead character's body to work.</p>\n                      \n                      <h3>Effects:</h3>\n                      <ul>\n                        <li>The new body <strong>may not be the same race</strong> as the original. The DM may choose or roll on the provided tables.</li>\n                        <li><strong>If reincarnated as a different race</strong>, the character loses all racial abilities of the former body and gains those of the new form.</li>\n                        <li><strong>If reincarnated as a monster</strong>, the monster must be semi-intelligent (at least) and must be able to have the character's original alignment.</li>\n                        <li><strong>Class Restrictions:</strong> If a non-human character is reincarnated as a human, the DM may allow them to choose a new class. If an elf, dwarf, or halfling is reincarnated into another race, they follow the racial limitations.</li>\n                      </ul>\n\n                      <h3>Reincarnation Results:</h3>\n                      <table>\n                        <thead>\n                          <tr><th>1d8 Roll</th><th>New Body Type</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>1</td><td>Human</td></tr>\n                          <tr><td>2</td><td>Human</td></tr>\n                          <tr><td>3</td><td>Human</td></tr>\n                          <tr><td>4</td><td>Dwarf</td></tr>\n                          <tr><td>5</td><td>Elf</td></tr>\n                          <tr><td>6</td><td>Halfling</td></tr>\n                          <tr><td>7</td><td>Original Race</td></tr>\n                          <tr><td>8</td><td>Monster (see below)</td></tr>\n                        </tbody>\n                      </table>\n\n                      <h3>Monster Reincarnation:</h3>\n                      <table>\n                        <thead>\n                          <tr><th>1d6 Roll</th><th>Lawful</th><th>Neutral</th><th>Chaotic</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>1</td><td>Blink Dog</td><td>White Ape</td><td>Bugbear</td></tr>\n                          <tr><td>2</td><td>Gnome</td><td>Bear*</td><td>Gnoll</td></tr>\n                          <tr><td>3</td><td>Neanderthal</td><td>Centaur</td><td>Kobold</td></tr>\n                          <tr><td>4</td><td>Giant Owl</td><td>Griffon</td><td>Manticore</td></tr>\n                          <tr><td>5</td><td>Pegasus</td><td>Lizard Man</td><td>Orc</td></tr>\n                          <tr><td>6</td><td>Treant</td><td>Pixie</td><td>Troglodyte</td></tr>\n                        </tbody>\n                      </table>\n                      <p><em>* Any normal bear</em></p>",
       "name": "Reincarnation",
@@ -1897,6 +2066,12 @@
     "Remove Traps": {
       "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
       "name": "Remove Traps"
+    },
+    "Requiem Melody": {
+      "description": "<p>This haunting spell-song fills the target with unbearable grief and sorrow, rendering them incapable of rational action.</p><h3>Effects:</h3><ul><li>The target suffers a <strong>-1 penalty</strong> to all attack and damage rolls (no saving throw).</li><li>The target must make a <strong>saving throw vs. spells</strong> to resist further effects.</li></ul><h3>On a Failed Saving Throw:</h3><ul><li>The target begins crying uncontrollably and falls into despair.</li><li>They must attack themselves with any available weapon or bare hands.</li><li>Self-inflicted damage is real, and weapon mastery bonuses do not apply.</li><li>This effect lasts for a number of rounds equal to the bard’s Constitution score.</li></ul><h3>On a Successful Saving Throw:</h3><ul><li>The penalty to attack and damage rolls remains as long as the bard continues singing.</li><li>The bard can sing for a maximum number of rounds equal to their Constitution score.</li></ul><h3>After the Song Ends:</h3><ul><li>The bard must make a <strong>Wisdom check</strong> to resist the psychic backlash.</li><li>If successful, the bard is <strong>stunned for </strong>[[/r 1d4 #Stunned rounds]].</li><li>If failed, the bard <strong>passes out for 1 round per round spent singing</strong>.</li></ul><h3>Additional Details:</h3><ul><li>This spell only affects creatures with an <strong>Intelligence score of 3 or higher</strong>.</li><li>The bard can end the song early to avoid the backlash.</li></ul>",
+      "name": "Requiem Melody",
+      "spellDuration": "Special",
+      "spellEffect": "Overwhelms a target with despair, causing self-inflicted harm"
     },
     "Resist Cold": {
       "description": "<p>When this spell is cast, all creatures within 30' of the spellcaster are protected from freezing temperatures without harm. Those affected also receive a +2 bonus to all saving throws against cold-based attacks. Additionally, any cold damage dealt to them is reduced by 1 point per die, with a minimum of 1 point of damage per die. The effect moves with the spellcaster.</p>",
@@ -1971,6 +2146,10 @@
       "description": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
       "name": "Scale Mail"
     },
+    "Scale Mail +1": {
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Scale Mail +1"
+    },
     "Science (choose type)": {
       "description": "<p>The character is an expert in one branch of scientific study, such as astronomy, geology, metallurgy, etc. This expertise allows the character to provide specialized knowledge and make expert judgments within that field. The player must indicate the specific branch of science their character has mastered. Characters may take this skill multiple times to represent expertise in different scientific disciplines.</p>",
       "name": "Science (choose type)"
@@ -2000,9 +2179,17 @@
       "spellEffect": "The spellcaster only",
       "spellRange": "0"
     },
+    "Shield +1": {
+      "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "name": "Shield +1"
+    },
     "Shield Weapon (Any)": {
       "description": "<p>A shield weapon is a hybrid of a protective shield and a weapon, equipped with blades, spikes, or other protrusions designed for offense. It serves a dual purpose, offering standard defensive capabilities while allowing an additional attack during combat when paired with a one-handed weapon. These weapons, typically used by fighters, thieves, and demihumans, come in various sizes, with larger versions requiring two hands. While versatile, shield weapons are prone to breaking under specific conditions, such as precise attack rolls, adding an element of risk to their use.</p>",
       "name": "Shield Weapon (Any)"
+    },
+    "Shield Weapon (Any) +1": {
+      "description": "<p>A magic shield weapon is a hybrid of a protective shield and a weapon, equipped with blades, spikes, or other protrusions designed for offense. It serves a dual purpose, offering standard defensive capabilities while allowing an additional attack during combat when paired with a one-handed weapon. These weapons, typically used by fighters, thieves, and demihumans, come in various sizes, with larger versions requiring two hands. While versatile, shield weapons are prone to breaking under specific conditions, such as precise attack rolls, adding an element of risk to their use.</p>",
+      "name": "Shield Weapon (Any) +1"
     },
     "Shield, Horned": {
       "name": "Shield, Horned"
@@ -2057,6 +2244,10 @@
       "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
       "name": "Sling"
     },
+    "Sling +1": {
+      "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+      "name": "Sling +1"
+    },
     "Slow*": {
       "description": "<p>The reversed version of *Haste*, *Slow* reduces the movement and attack speed of up to 24 creatures within a 60' diameter area to half their normal rate.</p>\n                      <p><strong>Effect:</strong> Slowed creatures move and attack at half speed but are otherwise unaffected, including spellcasting and magical device usage. Each affected creature may make a saving throw vs. spells to avoid the effect.</p>",
       "name": "Slow*",
@@ -2075,6 +2266,20 @@
     "Snares": {
       "description": "<p>This is the skill of building traps to capture animals, monsters, and unwanted visitors. A successful skill roll means the trap functions properly. The DM can assign modifiers to the skill roll based on the time the character had to set up the trap, the availability of materials, etc.</p>",
       "name": "Snares"
+    },
+    "Song of Binding": {
+      "description": "<p>This powerful spell-song paralyzes creatures that hear its melody, rendering them unable to act.</p><h3>Effects:</h3><ul><li><p>The bard may affect up to:</p><ul><li><strong>4 Medium-sized creatures</strong> (up to 7' tall).</li><li><strong>2 Large-sized creatures</strong> (7+' to 12' tall).</li><li><strong>1 Huge-sized creature</strong> (12+' to 25' tall).</li></ul></li><li>The song has <strong>no effect on creatures larger than 25'</strong> (Gargantuan size).</li><li>All affected targets must <strong>hear the song for at least 1 round</strong> before they can be paralyzed.</li><li>Each victim may make a <strong>saving throw vs. Paralysis</strong> to resist the effect.</li><li>On a failed save, the creature is <strong>paralyzed for </strong>[[/r @actor.details.level #Paralyzed rounds]].</li></ul><h3>Ending the Effect:</h3><ul><li>The paralysis lasts for <strong>1 round per level of the bard</strong>.</li><li>It may be removed by normal means, such as the spell <em>free person</em>.</li><li>The paralysis may also be dispelled by the reverse of this song (if available).</li></ul>",
+      "name": "Song of Binding",
+      "spellDuration": "1 round/level",
+      "spellEffect": "Paralyzes creatures who hear the song",
+      "spellRange": "30' (+10'/level of bard)"
+    },
+    "Song of Freedom": {
+      "description": "<p>This spell-song is the opposite of <em>Song of Binding</em>. When sung, it grants those affected an opportunity to break free from paralysis.</p><h3>Effects:</h3><ul><li>Up to <strong>four creatures</strong> within range are affected.</li><li>Each affected creature that is currently <strong>paralysed</strong> may make a new <strong>saving throw vs. Paralysis</strong> every round.</li><li>A successful saving throw immediately removes the paralysis effect.</li><li>The spell-song <strong>lasts for 1 round per level of the bard</strong>.</li></ul><h3>Additional Notes:</h3><ul><li>The song permanently negates any existing paralysis for creatures that successfully save.</li><li>This spell-song has the same range and limitations as <em>Song of Binding</em>.</li></ul>",
+      "name": "Song of Freedom",
+      "spellDuration": "1 round/level",
+      "spellEffect": "Allows paralysed creatures to make additional saving throws each round",
+      "spellRange": "30' (+10'/level)"
     },
     "Speak with Animals": {
       "description": "<p>When casting this spell, the spellcaster must name one type of animal (such as wolves). For the duration of the spell, the spellcaster can communicate with all animals of that type within 30'; the effect moves with the caster.</p><p>The spell allows the caster to speak to any normal or giant forms of the named animal type, but only to one type at a time. The spell cannot be used to communicate with intelligent animals or fantastic creatures.</p><p>The animals typically react favorably (with a +2 bonus to reaction rolls) and may be persuaded to perform a favor for the spellcaster if the reaction roll is high enough. The animal must be capable of understanding and carrying out the request.</p>",
@@ -2106,7 +2311,7 @@
       "name": "Spear"
     },
     "Spear +1": {
-      "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+      "description": "<p>The magic spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
       "name": "Spear +1"
     },
     "Spear +2": {
@@ -2140,6 +2345,10 @@
     "Staff": {
       "name": "Staff"
     },
+    "Staff +1": {
+      "description": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
+      "name": "Staff +1"
+    },
     "Stakes (3) and Mallet": {
       "description": "<p>Three large (18”) wooden stakes and a wooden mallet, often used for destroying vampires or securing ropes and tents. They can also be used to pin down an opponent or object to the ground.</p>",
       "name": "Stakes (3) and Mallet"
@@ -2165,6 +2374,12 @@
       "name": "Sticks to Snakes",
       "spellEffect": "Turns up to 16 sticks into snakes"
     },
+    "Still Night": {
+      "description": "<p>This haunting melody <strong>creates a sphere of absolute silence</strong>, <strong>20' in diameter</strong>, centered on the bard. Within this sphere, <strong>no sound may escape</strong>, but those inside can still hear sounds from the outside. The effect moves <strong>with the bard</strong> for the duration of the spell.</p><h3>Effects:</h3><ul><li><strong>Prevents all sound from being heard outside the sphere.</strong></li><li><strong>Nullifies all spellcasting</strong> within the sphere (verbal components cannot be spoken).</li><li><strong>The sphere moves with the bard</strong> while the effect lasts.</li><li><strong>Creatures inside can still hear sounds coming from outside the sphere.</strong></li></ul>",
+      "name": "Still Night",
+      "spellEffect": "Creates a sphere of absolute silence (20' diameter)",
+      "spellRange": "0 (bard only)"
+    },
     "Stone to Flesh*": {
       "description": "<p>This spell transforms <strong>one statue</strong> (or up to a 10' x 10' x 10' section of stone) into <strong>flesh</strong>. The spell is commonly used to restore a creature that has been petrified by effects such as a gorgon’s breath.</p>\n                      <p>When cast on a petrified character, the recipient is restored with <strong>all previous abilities and equipment</strong> intact.</p>",
       "name": "Stone to Flesh*",
@@ -2187,6 +2402,10 @@
     "Suit Armor": {
       "description": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
       "name": "Suit Armor"
+    },
+    "Suit Armor +1": {
+      "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Suit Armor +1"
     },
     "Summon Animals": {
       "description": "<p>This spell allows the druid to summon any or all normal animals within 360'. Only normal, non-magical creatures of animal intelligence are affected, including mammals, reptiles, and amphibians. It does not affect insects, arthropods, humans, or demihumans.</p>\n                      <p><strong>Animal Types:</strong> The druid may summon specific types or every animal within range. The total Hit Dice of responding animals equals the druid’s level, with small creatures (frogs, mice, squirrels, small birds) treated as 1/10 HD each.</p>\n                      <p><strong>Behavior:</strong> Animals respond by coming at their fastest movement rate, understand the druid’s speech, and will assist the druid as able. If harmed, a summoned animal will usually flee, breaking the spell for that animal. If the druid is attacked as a summoned animal arrives, the animal will attack the druid’s opponent, fleeing only if it fails a morale check.</p>\n                      <p>This spell can also be used to calm hostile animals encountered while adventuring.</p>",
@@ -2231,8 +2450,16 @@
     "Sword, Bastard (1H)": {
       "name": "Sword, Bastard (1H)"
     },
+    "Sword, Bastard (1H) +1": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (1H) +1"
+    },
     "Sword, Bastard (2H)": {
       "name": "Sword, Bastard (2H)"
+    },
+    "Sword, Bastard (2H) +1": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (2H) +1"
     },
     "Sword, Normal": {
       "name": "Sword, Normal"
@@ -2241,12 +2468,24 @@
       "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
       "name": "Sword, Normal +1"
     },
+    "Sword, Normal +2": {
+      "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "name": "Sword, Normal +2"
+    },
     "Sword, Short": {
       "name": "Sword, Short"
+    },
+    "Sword, Short +1": {
+      "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "name": "Sword, Short +1"
     },
     "Sword, Two-Handed": {
       "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
       "name": "Sword, Two-Handed"
+    },
+    "Sword, Two-Handed +1": {
+      "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "name": "Sword, Two-Handed +1"
     },
     "Symbol": {
       "description": "<p>This spell creates a written magical drawing (a <strong>rune</strong>) of great power. The caster must choose one of six possible symbols when memorizing the spell. The rune may be placed on an object (such as a door or wall) or even in mid-air, but it remains fixed in place and cannot move.</p><p>When any <strong>living creature</strong>:</p><ul><li>Passes over or through the rune</li><li>Touches the object bearing the rune</li><li>Reads the rune (foolishly)</li></ul><p>The rune's effect takes place <strong>immediately</strong>, with no saving throw.</p><h3>Saving Throw Exception:</h3><p>A <strong>magic-user</strong> or any creature capable of casting magic-user spells may make a <strong>saving throw vs. spells</strong> if they merely <strong>read or touch</strong> the symbol (rather than pass through it). If the save succeeds, the symbol has no effect.</p><h3>Symbol Effects:</h3><p>There are six standard symbol types:</p><ul><li><strong>Death:</strong> Instantly slays any creature with <strong>75 HP or less</strong>. Creatures with 76+ HP are unaffected.</li><li><strong>Discord:</strong> Causes the victim to attack allies or suffer confusion (as the <em>confusion</em> spell). <strong>Permanent</strong> until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li><strong>Fear:</strong> The victim <strong>flees</strong> at full Running Speed for <strong>30 rounds</strong> (as a wand of fear).</li><li><strong>Insanity:</strong> The victim becomes <strong>insane</strong>, unable to attack, cast spells, or use special abilities or items. The effect is <strong>permanent</strong> until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li><strong>Sleep:</strong> The victim falls into an <strong>unbreakable sleep</strong> and cannot be awakened except by <em>dispel magic</em> or waiting [[/r 1d10+10 #Hours asleep]] hours.</li><li><strong>Stunning:</strong> Affects creatures with <strong>150 HP or less</strong>, stunning them for [[/r 2d6 #Turns stunned]] (as <em>power word stun</em>).</li></ul><h3>Additional Notes:</h3><ul><li>All symbols appear to be normal writings.</li><li>The rune remains active <strong>permanently</strong> until triggered or dispelled.</li><li>The DM may introduce additional symbols with effects such as polymorph, teleport, charm, or geas.</li></ul>",
@@ -2271,6 +2510,32 @@
     "Tent": {
       "description": "<p>Large enough for 2 adult humans.</p>",
       "name": "Tent"
+    },
+    "The Epic": {
+      "description": "<p>This spell-song allows the bard to create a realistic and awe-inspiring battle scene through illusionary magic. Those who witness it must resist its effects or be stunned in amazement.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>The bard creates an illusion of a battle scene anywhere within range, covering an area of 20' x 20' x 20'.</li>\n          <li>All creatures that see it must make a saving throw vs. spells or be stunned for [[/r 1d4 #Stunned rounds]].</li>\n          <li>The illusion can depict warriors, wizards, or entire armies, shaped by the bard’s imagination.</li>\n        </ul>\n\n        <h3>Illusion Mechanics:</h3>\n        <ul>\n          <li>Anyone interacting with the illusion may attempt a new saving throw vs. spells to see through it.</li>\n          <li>The illusion has an armor class of 9 and disappears when touched.</li>\n          <li>If a creature \"dies\" within the illusion, they instead fall unconscious for [[/r 1d6 #Unconscious rounds]].</li>\n        </ul>\n\n        <h3>Additional Details:</h3>\n        <ul>\n          <li>The bard controls all visual elements of the illusion but cannot create sound or physical interaction.</li>\n          <li>Like <i>phantasmal force</i>, this illusion can trick enemies into reacting as if it were real.</li>\n          <li>The illusion remains for the spell’s duration unless dispelled or disbelieved.</li>\n        </ul>",
+      "name": "The Epic",
+      "spellEffect": "Creates an illusory battle scene that stuns onlookers",
+      "spellRange": "10' (+5'/level of bard)"
+    },
+    "The Eternal Wanderer": {
+      "description": "<p>By singing this enchanted melody, the bard grants themselves and nearby allies the ability to travel with supernatural endurance and speed.</p><h3>Effects:</h3><ul><li>All affected creatures have their <strong>movement rates tripled</strong> for the duration.</li><li>While moving under this effect, recipients <strong>do not tire</strong> and suffer no fatigue.</li><li>Travelers may cover great distances in a short time, with <strong>no physical strain</strong>.</li></ul><h3>Rest Requirement:</h3><p>After the spell ends, all affected creatures must rest for a duration equal to the time spent traveling under its effects.</p><h3>Range & Area of Effect:</h3><ul><li>The spell affects the bard and <strong>all allies within 10 feet</strong>, plus an additional <strong>2 feet per level of the bard</strong>.</li></ul>",
+      "name": "The Eternal Wanderer",
+      "spellDuration": "4 hours +1 hour per level",
+      "spellEffect": "Triples movement speed and prevents fatigue",
+      "spellRange": "0 (bard + recipients only)"
+    },
+    "The Hero's Chant": {
+      "description": "<p>This spell-song functions similarly to a <em>bless</em> spell, providing combat and morale benefits to the bard and nearby allies. However, the bard must continue singing for the effect to remain active.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>All affected creatures gain a <strong>+1 bonus to attack rolls</strong> and <strong>+1 to damage rolls</strong>.</li>\n          <li>They also gain a <strong>+1 bonus to all saving throws</strong>.</li>\n          <li>Morale is improved, granting a <strong>+1 bonus to morale checks</strong>.</li>\n        </ul>\n\n        <h3>Duration:</h3>\n        <ul>\n          <li>The bard may sing for a number of rounds equal to his or her <strong>Constitution score</strong>.</li>\n          <li>If the bard exceeds this limit, he or she will fall unconscious for <strong>1d4 turns [[/r 1d4 #Unconscious Turns]]</strong>.</li>\n          <li>If the bard stops singing before reaching the limit, there are no ill effects.</li>\n        </ul>\n\n        <h3>Area of Effect:</h3>\n        <ul>\n          <li>Affects the bard and all allies within <strong>10' + 2' per bard level</strong>.</li>\n        </ul>",
+      "name": "The Hero's Chant",
+      "spellDuration": "Special (up to Constitution rounds)",
+      "spellEffect": "Grants combat and morale bonuses",
+      "spellRange": "0 (bard + recipients only)"
+    },
+    "The Seeker of Magic": {
+      "description": "<p>This mystical song reveals the <strong>magical nature</strong> of all enchanted items within a <strong>20' x 20' x 20'</strong> area. All magical items, including those being worn or carried, will emit a <strong>soft blue halo</strong> for the duration of the spell.</p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li><strong>All magical items within the area glow with a blue halo.</strong></li>\n          <li><strong>Chance to Identify:</strong> The bard has a <strong>3% chance per level</strong> to correctly identify the <strong>exact nature</strong> of a magical item.</li>\n          <li><strong>Limitations:</strong> The bard <strong>cannot</strong> determine the number of charges an item has (if any).</li>\n        </ul>",
+      "name": "The Seeker of Magic",
+      "spellEffect": "Reveals the magical nature of items in a 20' x 20' x 20' area",
+      "spellRange": "0 (bard only)"
     },
     "Thief": {
       "classLevels": {
@@ -2356,6 +2621,10 @@
       "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
       "name": "Trident"
     },
+    "Trident +1": {
+      "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
+      "name": "Trident +1"
+    },
     "Truesight": {
       "description": "<p>With *Truesight*, the cleric gains the ability to see all things as they truly are within a 120' radius. The spell reveals all hidden, invisible, and ethereal objects or creatures, functioning as the *detect invisible* spell.</p>\n                      <p>Additionally, the cleric perceives any secret doors, and can see through any form of disguise, polymorph, or other alterations. Deception is impossible. The spell also reveals creatures' alignments, experience, and power levels.</p>",
       "name": "Truesight",
@@ -2413,6 +2682,12 @@
     "Vial (glass)": {
       "description": "<p>A small, clear glass vial commonly used to store liquids, potions, or other substances. It is fragile and can easily break if dropped or struck. This vial can hold up to 8 ounces of liquid.</p>",
       "name": "Vial (glass)"
+    },
+    "View From Afar": {
+      "description": "<p>This spell-song grants the bard the ability to perceive distant locations, much like a <em>crystal ball</em>. </p>\n\n        <h3>Effects:</h3>\n        <ul>\n          <li>Allows the bard to see a location up to <strong>five miles away</strong>.</li>\n          <li>The bard must know the <strong>name</strong> of the location and provide a <strong>brief description</strong> to focus on it.</li>\n          <li>The bard can rotate their point of view up to <strong>360 degrees</strong> but cannot move.</li>\n          <li>By naming new locations, the bard can switch views within the spell’s duration, though this is <strong>less precise than a wizard eye</strong>.</li>\n        </ul>\n\n        <h3>Limitations:</h3>\n        <ul>\n          <li>The bard <strong>cannot see through solid objects</strong>.</li>\n          <li>Locations protected by <strong>magical wards or enchantments</strong> are blocked.</li>\n          <li>The bard enters a <strong>trance-like state</strong> while the spell is active, completely unaware of their surroundings.</li>\n          <li>If the bard takes <strong>any damage</strong>, their concentration is broken and the spell immediately ends.</li>\n        </ul>",
+      "name": "View From Afar",
+      "spellEffect": "Allows the bard to remotely view distant locations",
+      "spellRange": "0 (bard only)"
     },
     "Wall of Fire": {
       "description": "<p>This spell creates a thin, vertical wall of fire in any shape or dimension, totaling 1,200 square feet (e.g., 10' x 120', 20' x 60', 30' x 40'). The wall is opaque and blocks sight, and it cannot be created in a space already occupied by another object.</p>\n                      <p><strong>Duration:</strong> The wall remains as long as the caster concentrates on it without moving.</p>\n                      <p><strong>Breaking Through:</strong> Creatures with less than 4 Hit Dice cannot pass through the wall. Creatures with 4 HD or more may pass through, taking 1d6 fire damage in the process. Undead and cold-using creatures (e.g., white dragons, frost giants) each take double damage (2d6) when breaking through.</p>",
@@ -2525,7 +2800,9 @@
   },
   "folders": {
     "Adventuring Gear": "Adventuring Gear",
+    "Ammunition": "Ammunition",
     "Armor": "Armor",
+    "Bard": "Bard",
     "Character Classes": "Character Classes",
     "Charisma": "Charisma",
     "Cleric": "Cleric",
