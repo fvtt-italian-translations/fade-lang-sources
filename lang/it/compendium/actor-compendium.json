@@ -548,7 +548,7 @@
                 "1mg9BUAToUwFvn7x": {
                     "name": "Liberazione dal Comando*",
                     "spellEffect": "Rimuove un comando o maledizione non desiderata",
-                    "description": "<p>La forma inversa dell'incantesimo comando, *Liberazione dal Comando*, dissolve una quest non desiderata o rimuove una maledizione legata al comando. La probabilità di successo base per la rimozione del comando è del 50%, modificata di ±5% per ogni differenza di livello tra l'incantatore di <em>Liberazione dal Comando</em> e l'incantatore originale del comando</p>\n                      <p>Ad esempio, un chierico di 11º Livello che tenta di rimuovere un comando imposto da un incantatore di 13º Livello ha una probabilità di successo del 40%, mentre un chierico di 36º Livello che rimuove un comando lanciato da un chierico di 20º Livello ha una probabilità di successo del 99% (limitata per evitare il successo automatico)</p>"
+                    "description": "<p>La forma inversa dell'incantesimo comando, <em>Liberazione dal Comando</em>, dissolve una quest non desiderata o rimuove una maledizione legata al comando. La probabilità di successo base per la rimozione del comando è del 50%, modificata di ±5% per ogni differenza di livello tra l'incantatore di <em>Liberazione dal Comando</em> e l'incantatore originale del comando</p>\n                      <p>Ad esempio, un chierico di 11º Livello che tenta di rimuovere un comando imposto da un incantatore di 13º Livello ha una probabilità di successo del 40%, mentre un chierico di 36º Livello che rimuove un comando lanciato da un chierico di 20º Livello ha una probabilità di successo del 99% (limitata per evitare il successo automatico)</p>"
                 },
                 "2cqXD6t9njT7XocP": {
                     "name": "Infliggi Ferite Critiche*",
@@ -756,7 +756,7 @@
                     "description": "<p>Questo incantesimo cura una creatura vivente (che non sia non-morta o non vivente) di [[/r 1d6+1 #Cura Ferite Leggere]] punti danno. L'incantatore può curare se stesso con questo incantesimo.</p><p>In altrenativa, l'incantesimo può essere usato per curare la paralisi (eccetto quella causata da un incantesimo di <em>Blocca Persone</em> o <em>Blocca Mostri</em>), sebbene in tal caso nessun danno verrà curato allo stesso momento.</p><p>L'incantesimo non aumenterà i punti ferita massimi del bersaglio.</p><p>Quando invertito, questo incantesimo, <em>causa ferite leggere</em>, causa [[/r 1d6+1 #Causa Ferite Leggere]] punti di danno al bersaglio. Non è permesso alcun tiro salvezza, ma l'incantatore deve effettuare un normale tiro per colpire per infliggere questo danno.</p>"
                 },
                 "vBx8BeAQ39K9Lcco": {
-                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Cure Disease duration in days]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
+                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Durata di Cura Malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
                     "name": "Infliggi Malattie*",
                     "spellEffect": "Una creatura vivente entro portata"
                 },
@@ -1744,7 +1744,7 @@
                     "spellEffect": "Crea cibo per 12 o più"
                 },
                 "ORrx6jUEK77GX2vy": {
-                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Cure Disease duration in days]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
+                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Durata di Cura Malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
                     "name": "Infliggi Malattie*",
                     "spellEffect": "Una creatura vivente entro portata"
                 },
@@ -9061,7 +9061,7 @@
                 },
                 "y1GUvskYPE3q4Gn6": {
                     "name": "Infliggi Malattie*",
-                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Cure Disease duration in days]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
+                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Durata di Cura Malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
                     "spellEffect": "Una creatura vivente entro portata"
                 },
                 "5Jak1etR3kITlesi": {
@@ -9568,7 +9568,7 @@
                     "spellEffect": "Previene forme di comunicazione"
                 },
                 "Nj5wF1dLA2RmBFs5": {
-                    "description": "<p>La forma inversa dell'incantesimo comando, *Liberazione dal Comando*, dissolve una quest non desiderata o rimuove una maledizione legata al comando. La probabilità di successo base per la rimozione del comando è del 50%, modificata di ±5% per ogni differenza di livello tra l'incantatore di <em>Liberazione dal Comando</em> e l'incantatore originale del comando</p>\n                      <p>Ad esempio, un chierico di 11º Livello che tenta di rimuovere un comando imposto da un incantatore di 13º Livello ha una probabilità di successo del 40%, mentre un chierico di 36º Livello che rimuove un comando lanciato da un chierico di 20º Livello ha una probabilità di successo del 99% (limitata per evitare il successo automatico)</p>",
+                    "description": "<p>La forma inversa dell'incantesimo comando, <em>Liberazione dal Comando</em>, dissolve una quest non desiderata o rimuove una maledizione legata al comando. La probabilità di successo base per la rimozione del comando è del 50%, modificata di ±5% per ogni differenza di livello tra l'incantatore di <em>Liberazione dal Comando</em> e l'incantatore originale del comando</p>\n                      <p>Ad esempio, un chierico di 11º Livello che tenta di rimuovere un comando imposto da un incantatore di 13º Livello ha una probabilità di successo del 40%, mentre un chierico di 36º Livello che rimuove un comando lanciato da un chierico di 20º Livello ha una probabilità di successo del 99% (limitata per evitare il successo automatico)</p>",
                     "name": "Liberazione dal Comando*",
                     "spellEffect": "Rimuove un comando o maledizione non desiderata"
                 },
@@ -9625,7 +9625,7 @@
                     "spellRange": "0"
                 },
                 "y1GUvskYPE3q4Gn6": {
-                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Cure Disease duration in days]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
+                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Durata di Cura Malattie in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
                     "name": "Infliggi Malattie*",
                     "spellEffect": "Una creatura vivente entro portata"
                 },
@@ -9769,7 +9769,7 @@
                 },
                 "y1GUvskYPE3q4Gn6": {
                     "spellEffect": "Una creatura vivente entro portata",
-                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Cure Disease duration in days]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
+                    "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Durata di Cura Malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
                     "name": "Infliggi Malattie*"
                 },
                 "0BjPAuLWWwgqb8NJ": {
