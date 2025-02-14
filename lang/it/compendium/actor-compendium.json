@@ -11995,7 +11995,8 @@
                     "spellEffect": "Rivela vere forme di tutte le cose entro 36 m",
                     "description": "<p>Con *Vista Rivelante*, il chierico acquisisce la capacità di vedere tutte le cose come sono realmente entro un raggio di 36 m. L'incantesimo rivela tutti gli oggetti o creature nascoste, invisibili ed eterei, funzionando come l'incantesimo *Individuazione dell’Invisibile*</p>\n<p>Inoltre, il chierico percepisce qualsiasi porta segreta e può vedere attraverso qualsiasi forma di travestimento, metamorfosi o altre alterazioni. L'inganno è impossibile. L'incantesimo rivela anche gli allineamenti, l'esperienza e i livelli di potere delle creature</p>",
                     "name": "Visione del Vero",
-                    "spellDuration": "1 turno + 1 round per livello dell'incantatore"
+                    "spellDuration": "1 turno + 1 round per livello dell'incantatore",
+                    "spellRange": "0"
                 },
                 "sOIxeT2vrlavW4LW": {
                     "name": "Localizzare un Oggetto",
@@ -12017,7 +12018,8 @@
                 "1dYVxK7xRt1o3OTG": {
                     "description": "<p>Questo incantesimo consente all'incantatore di comunicare con le piante entro un raggio di 9 m, trattandole come se avessero intelligenza. L'incantatore può chiedere favori semplici, come creare un percorso attraverso una vegetazione fitta, che le piante concederanno se possibile</p>\n                      <p><strong>Effetto:</strong> Consente la comunicazione con creature vegetali, inclusi mostri simili a piante come gli uomini albero (treant)</p>",
                     "name": "Parlare con i Vegetali",
-                    "spellEffect": "Comunica con le piante entro 9 m"
+                    "spellEffect": "Comunica con le piante entro 9 m",
+                    "spellRange": "0"
                 },
                 "2Pc3imgUiRuvj0VY": {
                     "description": "<p>Questo incantesimo infligge 3d6 + 3 punti di danno a una creatura toccata dall'incantatore. È richiesto un tiro per colpire in mischia con successo.</p>",
@@ -12052,7 +12054,8 @@
                 "DLa49EKKZFGvCevO": {
                     "description": "<p>Questo incantesimo crea una barriera invisibile attorno all'incantatore, estendendosi per 3 metri in tutte le direzioni. Conferisce a ogni creatura all'interno della barriera un bonus di +1 a tutti i tiri salvezza, mentre gli attacchi contro coloro che sono all'interno subiscono una penalità di -1 ai tiri per colpire.</p>\n                      <p><strong>Effetto:</strong> Le creature incantate (come esseri evocati o controllati magicamente) non possono ingaggiare combattimenti in mischia con chiunque sia all'interno della barriera. Tuttavia, se una creatura protetta attacca una incantata, la barriera non impedisce più gli attacchi in mischia, sebbene i bonus ai tiri salvezza e le penalità ai tiri per colpire rimangano attivi.</p>\n                      <p>Gli attacchi a distanza e magici provenienti dall'esterno della barriera subiscono comunque la penalità di -1 agli attacchi ma per il resto non sono influenzati</p>",
                     "name": "Protezione dal Male (3 m raggio)",
-                    "spellEffect": "Crea una barriera con un diametro di 6 metri"
+                    "spellEffect": "Crea una barriera con un diametro di 6 metri",
+                    "spellRange": "0"
                 },
                 "DmWi1Y9b9F3hO5ep": {
                     "description": "<p>Questo incantesimo è la forma invertita di *Resurrezione*, e crea un raggio della morte che uccide una singola creatura vivente entro 18 metri a meno che il bersaglio non superi un tiro salvezza contro il raggio della morte.</p>\n                      <p><strong>Effetto sui non-morti:</strong> Se lanciato su una creatura non-morta con 10 o più Dadi Vita (come un fantasma, anima persa, spirito, ombra o speciale), ripristina 3d10 punti ferita invece di infliggere danni.</p>\n                      <p>Un chierico Legale userà tipicamente *Dito della Morte* solo in situazioni di vita o di morte.</p>",
@@ -12192,7 +12195,8 @@
                 "zD049zhdyQjAc55e": {
                     "description": "<p>Quando questo incantesimo viene lanciato, tutte le creature entro 9 m dall'incantatore sono protette dalle temperature di congelamento senza subire danni. Le creature influenzate ricevono anche un bonus di +2 a tutti i tiri salvezza contro attacchi basati sul freddo. Inoltre, qualsiasi danno da freddo inflitto a loro è ridotto di 1 punto per dado, con un minimo di 1 punto di danno per dado. L'effetto si muove con l'incantatore</p>",
                     "name": "Resistenza al Freddo",
-                    "spellEffect": "Tutte le creature entro 9 m"
+                    "spellEffect": "Tutte le creature entro 9 m",
+                    "spellRange": "0"
                 },
                 "zgUBNml0u4wnz2Ka": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -12201,7 +12205,8 @@
                 "znnIFj7YHeRxTIDh": {
                     "description": "<p>Questo incantesimo permette al chierico di porre tre domande a cui si risponde con sì o no alle potenze superiori (come le forze della natura, gli spiriti maggiori o gli Immortali).</p>\n                      <p><strong>Utilizzo:</strong> Può essere usato solo una volta alla settimana. Il DM può limitare questo utilizzo a una volta al mese se viene usato eccessivamente. Una volta all'anno, il chierico può porre sei domande, solitamente in un giorno significativo per le potenze interrogate.</p>",
                     "name": "Comunione",
-                    "spellEffect": "3 domande consentite"
+                    "spellEffect": "3 domande consentite",
+                    "spellRange": "0"
                 }
             }
         },
@@ -12245,7 +12250,8 @@
                 "QwWXozAX6kF1yUNN": {
                     "name": "Parola Magica del Ritorno",
                     "spellEffect": "Teletrasporta il chierico al suo rifugio",
-                    "description": "<p>Questo incantesimo teletrasporta istantaneamente il chierico e tutto l'equipaggiamento che sta trasportando al suo santuario designato, indipendentemente dalla distanza.</p>\n                      <p><strong>Requisito del Santuario:</strong> Il chierico deve avere una residenza permanente (come un castello) che includa una stanza di meditazione. Questa stanza funge da destinazione dell'incantesimo.</p>\n                      <p><strong>Vantaggio sull'Iniziativa:</strong> Durante il round in cui viene lanciato questo incantesimo, il chierico ottiene automaticamente l'iniziativa a meno che non sia sorpreso.</p>\n                      <p><strong>Restrizioni:</strong></p>\n                      <ul>\n                        <li>L'incantesimo colpisce solo il chierico e il suo equipaggiamento trasportato.</li>\n                        <li>Altre creature non possono essere trasportate.</li>\n                      </ul>"
+                    "description": "<p>Questo incantesimo teletrasporta istantaneamente il chierico e tutto l'equipaggiamento che sta trasportando al suo santuario designato, indipendentemente dalla distanza.</p>\n                      <p><strong>Requisito del Santuario:</strong> Il chierico deve avere una residenza permanente (come un castello) che includa una stanza di meditazione. Questa stanza funge da destinazione dell'incantesimo.</p>\n                      <p><strong>Vantaggio sull'Iniziativa:</strong> Durante il round in cui viene lanciato questo incantesimo, il chierico ottiene automaticamente l'iniziativa a meno che non sia sorpreso.</p>\n                      <p><strong>Restrizioni:</strong></p>\n                      <ul>\n                        <li>L'incantesimo colpisce solo il chierico e il suo equipaggiamento trasportato.</li>\n                        <li>Altre creature non possono essere trasportate.</li>\n                      </ul>",
+                    "spellRange": "0"
                 },
                 "RYJuxPpjpwhyh98Y": {
                     "name": "Protezione dal Male",
@@ -12343,7 +12349,8 @@
                     "description": "<p>Con *Vista Rivelante*, il chierico acquisisce la capacità di vedere tutte le cose come sono realmente entro un raggio di 36 m. L'incantesimo rivela tutti gli oggetti o creature nascoste, invisibili ed eterei, funzionando come l'incantesimo *Individuazione dell’Invisibile*</p>\n<p>Inoltre, il chierico percepisce qualsiasi porta segreta e può vedere attraverso qualsiasi forma di travestimento, metamorfosi o altre alterazioni. L'inganno è impossibile. L'incantesimo rivela anche gli allineamenti, l'esperienza e i livelli di potere delle creature</p>",
                     "name": "Visione del Vero",
                     "spellDuration": "1 turno + 1 round per livello dell'incantatore",
-                    "spellEffect": "Rivela vere forme di tutte le cose entro 36 m"
+                    "spellEffect": "Rivela vere forme di tutte le cose entro 36 m",
+                    "spellRange": "0"
                 },
                 "1zUsSk1FpmvfdEeg": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -12438,7 +12445,8 @@
                 "NivrzKgKjHycdvSt": {
                     "description": "<p>Questo incantesimo consente all'incantatore di comunicare con le piante entro un raggio di 9 m, trattandole come se avessero intelligenza. L'incantatore può chiedere favori semplici, come creare un percorso attraverso una vegetazione fitta, che le piante concederanno se possibile</p>\n                      <p><strong>Effetto:</strong> Consente la comunicazione con creature vegetali, inclusi mostri simili a piante come gli uomini albero (treant)</p>",
                     "name": "Parlare con i Vegetali",
-                    "spellEffect": "Comunica con le piante entro 9 m"
+                    "spellEffect": "Comunica con le piante entro 9 m",
+                    "spellRange": "0"
                 },
                 "PDqeRg4BmQPmEnnP": {
                     "description": "<p>La forma inversa dell'incantesimo, <em>Terrore</em>, farà fuggire qualsiasi creatura per due turni. La vittima può superare un tiro salvezza contro incantesimi per evitare l'effetto. Questo incantesimo inverso ha un raggio d'azione di 36 metri.</p>",
