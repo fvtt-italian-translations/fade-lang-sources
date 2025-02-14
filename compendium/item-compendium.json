@@ -94,6 +94,10 @@
       "description": "<p>Aquamarine is a gemstone with a light blue color and a smooth, polished surface. It has a crystalline appearance that reflects light, showcasing its clarity and delicate hue. Often used in jewelry, aquamarine is valued for its brilliance and tranquil color.</p>",
       "name": "Aquamarine"
     },
+    "Arcane Spellcasting": {
+      "description": "<p>Elves harness arcane energy through natural affinity and careful memorization of spells recorded in their spellbooks. Unlike Clerics, who receive divine magic, Elves must prepare spells in advance by studying their books each day. Once a spell is cast, it is erased from memory until re-memorized.</p><p>Elves have a limited selection of spells they can prepare per day, increasing as they gain levels. Their spells range from minor utilities such as <em>Read Magic</em> to devastating attacks like <em>Fireball</em> and reality-warping incantations at higher levels.</p><p>Because of their reliance on spellbooks, Elves must protect and expand their libraries, seeking out lost tomes, scrolls, and ancient knowledge to improve their magical repertoire. Unlike Magic-Users, however, Elves also train in combat, allowing them to wield swords and bows while wearing armor without disrupting their spellcasting.</p>",
+      "name": "Arcane Spellcasting"
+    },
     "Arrows": {
       "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
       "name": "Arrows"
@@ -581,7 +585,7 @@
       "spellEffect": "Creates food for 12 or more"
     },
     "Create Magic Items": {
-      "description": "<p>Starting at 9th level, a Magic-User can create permanent magical items such as potions, scrolls, and weapons. This process requires a high-level laboratory, special ingredients, and a significant amount of time and gold.</p>",
+      "description": "<p>At <strong data-start=\"933\" data-end=\"946\">9th level</strong>, a Magic-User can begin crafting <strong data-start=\"980\" data-end=\"995\">magic items</strong>, but only items <strong data-start=\"1012\" data-end=\"1037\">usable by Magic-Users</strong>. The process involves:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Gathering rare materials related to the item's magic (e.g., dragon scales for fire resistance)</li><li data-start=\"1166\" data-end=\"1226\">Spending time and gold to craft and enchant the item</li><li data-start=\"1227\" data-end=\"1311\">A base cost of 500 gp per spell level for items that duplicate spell effects</li><li data-start=\"1312\" data-end=\"1433\">A 15% minimum chance of failure, determined at the end of the process​</li></ul><p data-start=\"1435\" data-end=\"1739\">Scrolls and potions are the easiest to create, while more powerful items require <strong data-start=\"1516\" data-end=\"1534\">months of work</strong> and possibly special rituals. The <strong data-start=\"1569\" data-end=\"1607\">DM may set additional requirements</strong> for powerful magic items, such as needing a specific location or celestial alignment​.</p>",
       "name": "Create Magic Items"
     },
     "Create Magical Monsters": {
@@ -759,16 +763,12 @@
       "spellEffect": "Everything within 60'"
     },
     "Detect Secret Door": {
-      "description": "<p>To detect a secret door, a character must specify the exact area being searched. The process typically takes one turn (10 minutes) for each 10-foot section of wall, floor, or ceiling. Elves, due to their keen sight, are given a bonus of 1 to their roll. <br>Either the Dungeon Master should roll or the roll should be blind, regardless of whether a secret door is present, to maintain player uncertainty. Once found, the location of the secret door can be noted, allowing future discovery without a roll.</p>",
+      "description": "<p>Elves have a 1 in 3 chance to detect secret and hidden doors when actively searching for them due to their keen sight.</p>",
       "name": "Detect Secret Door"
     },
     "Detection Skills": {
-      "description": "<p>Dwarves can detect traps, sliding walls, sloping corridors, and new construction with a 1 in 3 chance. To search, the dwarf must actively look for these features, and the DM rolls 1d6; a roll of 1 or 2 indicates success.</p>",
+      "description": "<p>Dwarves can detect traps, sliding walls, sloping corridors, and new construction with a 1 in 2 chance. To search, the dwarf must actively look for these features, and the DM rolls 1d6; a roll of 1 or 2 indicates success.</p>",
       "name": "Detection Skills"
-    },
-    "Detection of Secret Doors": {
-      "description": "<p>Elves have a 1 in 3 chance to detect secret and hidden doors when actively searching for them due to their keen sight.</p>",
-      "name": "Detection of Secret Doors"
     },
     "Diamond": {
       "description": "<p>A diamond is a gemstone known for its clear and transparent appearance. It has a smooth, polished surface with a faceted design that enhances its brilliance and reflective properties. Diamonds are highly valued for their unmatched sparkle and elegance, making them a popular choice in jewelry.</p>",
@@ -814,13 +814,17 @@
       "spellDuration": "3-18 days",
       "spellEffect": "Liquefies 3000 square feet"
     },
-    "Divine Intervention": {
-      "description": "<p>In dire situations, a high-level cleric may call upon their deity for direct intervention. This ability is used sparingly and typically involves a significant act of faith or sacrifice. The exact effects and likelihood of success are determined by the DM.</p>",
-      "name": "Divine Intervention"
+    "Divine Spellcasting": {
+      "description": "<p>Clerics <strong data-start=\"309\" data-end=\"344\">do not cast spells at 1st level</strong> but gain access to <strong data-start=\"364\" data-end=\"394\">divine spells at 2nd level</strong>, progressing in power as they level up. Clerics do not need spellbooks but must pray for spells each day.</p>",
+      "name": "Divine Spellcasting"
     },
     "Dragon Breath": {
       "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
       "name": "Dragon Breath"
+    },
+    "Dragon Breath Resistance": {
+      "description": "<p>Elves gain resistance to dragon breath weapons upon reaching 1,600,000 XP, aka level 14. At this point, they automatically take only half damage from any breath weapon, including dragon breath and similar attacks. If the breath weapon allows a saving throw, a successful save reduces the damage to one-quarter​.</p>",
+      "name": "Dragon Breath Resistance"
     },
     "Druid": {
       "classLevels": {
@@ -861,7 +865,7 @@
           "title": "Lord"
         }
       },
-      "description": "<p>A dwarf is a sturdy, short-statured demi-human standing about 4 feet tall and weighing approximately 150 pounds. Known for their resilience and practicality, dwarves are experts in mining, construction, and combat. They often form close-knit clans and value craftsmanship and treasure.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Strength, granting experience bonuses for high scores (5% for a score of 13–15, 10% for 16 or higher). A Constitution score of 9 is required to play a dwarf.</li><li><strong>Combat Abilities</strong>: Dwarves are skilled fighters, able to wield small and medium-sized weapons and use shields. They gain access to Fighter Combat Options, including advanced maneuvers like multiple attacks at higher levels.</li><li><strong>Armor and Weapons</strong>: They can wear any armor but are restricted from using longbows or large melee weapons.</li><li><p><strong>Special Abilities</strong>:</p><ul><li><strong>Infravision</strong>: Dwarves can see up to 60 feet in the dark.</li><li><strong>Stonework Detection</strong>: Their expertise allows them to detect traps, sliding walls, sloping passages, and new construction with a 1–2 roll on a d6.</li><li><strong>Magic Resistance</strong>: As they gain experience, dwarves take reduced damage from spells and magical effects.</li></ul></li></ul><h3>Advancement:</h3><ul><li>Dwarves can progress to a maximum of 12th level.</li><li>Upon reaching 9th level, a dwarf may establish a stronghold in the wilderness. These are typically underground and located in hills or mountains, reflecting their cultural heritage.</li><li>The stronghold attracts a community of loyal dwarves (up to 200), including skilled craftsmen, warriors, and other retainers, creating a self-sustaining settlement.</li></ul><p>Dwarves are resilient and resourceful adventurers, excelling in combat and defensive roles while contributing practical skills and unparalleled durability to any group.</p>",
+      "description": "<p>A dwarf is a sturdy, short-statured demi-human standing about 4 feet tall and weighing approximately 150 pounds. Known for their resilience and practicality, dwarves are experts in mining, construction, and combat. They often form close-knit clans and value craftsmanship and treasure.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Strength, granting experience bonuses for high scores (5% for a score of 13–15, 10% for 16 or higher). A Constitution score of 9 is required to play a dwarf.</li><li><strong>Combat Abilities</strong>: Dwarves are skilled fighters, able to wield small and medium-sized weapons and use shields. They gain access to Fighter Combat Options, including advanced maneuvers like multiple attacks at higher levels.</li><li><strong>Armor and Weapons</strong>: They can wear any armor but are restricted from using longbows or large melee weapons.</li><li><p><strong>Special Abilities</strong>:</p><ul><li><strong>Infravision</strong>: Dwarves can see up to 60 feet in the dark.</li><li><strong>Stonework Detection</strong>: Their expertise allows them to detect traps, sliding walls, sloping passages, and new construction with a 1–2 roll on a d6.</li><li><strong>Magic Resistance</strong>: As they gain experience, dwarves take reduced damage from spells and magical effects.</li><li>Dwarves can speak the languages of Dwarves, Gnomes, Goblins, and Kobolds, in addition to Common and Alignment tongues.</li></ul></li></ul><h3>Advancement:</h3><ul><li>Dwarves can progress to a maximum of 12th level.</li><li>Upon reaching 9th level, a dwarf may establish a stronghold in the wilderness. These are typically underground and located in hills or mountains, reflecting their cultural heritage.</li><li>The stronghold attracts a community of loyal dwarves (up to 200), including skilled craftsmen, warriors, and other retainers, creating a self-sustaining settlement.</li></ul><p>Dwarves are resilient and resourceful adventurers, excelling in combat and defensive roles while contributing practical skills and unparalleled durability to any group.</p>",
       "name": "Dwarf"
     },
     "ESP*": {
@@ -908,7 +912,7 @@
           "title": "Lord Wizard"
         }
       },
-      "description": "<p>Elves are slender, graceful demi-humans with delicate features and pointed ears. They typically stand between 5 and 5½ feet tall and weigh around 120 pounds. As a blend of fighters and magic-users, elves are skilled in combat and capable of casting spells, making them versatile and powerful adventurers.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Intelligence. If both scores are 13 or higher, the elf gains a 5% experience bonus. If Intelligence is 16 or greater, this bonus increases to 10%.</li><li><strong>Combat and Spellcasting</strong>: Elves can use all types of armor and weapons while also casting magic-user spells. They are particularly effective in combat when uninjured and can utilize both fighting and magical strategies.</li><li><strong>Hit Dice</strong>: Elves roll 1d6 per level for hit points, with a maximum level of 10. They gain an additional +2 hit points at 10th level.</li><li><p><strong>Special Abilities</strong>:</p><ul><li>Infravision allows them to see up to 60 feet in the dark.</li><li>A natural immunity to ghoul paralysis.</li><li>They excel at finding secret doors, succeeding on a 1 or 2 when rolling a d6.</li><li>Elves gain resistance to dragon breath attacks at higher experience levels, taking half or one-quarter damage depending on their saving throw success.</li></ul></li></ul><h3>Advancement and Strongholds:</h3><p>Elves reach Name level at 9th level and may establish a stronghold in a natural, beautiful location, such as atop great trees or near waterfalls. These strongholds foster harmony with nearby animals, enabling communication and mutual protection. Elves can only advance to 10th level, but their combination of skills and magical abilities balances this limitation.</p><p>Their dual nature as fighters and magic-users makes elves both formidable allies and dangerous foes in any adventure.</p>",
+      "description": "<p>Elves are slender, graceful demi-humans with delicate features and pointed ears. They typically stand between 5 and 5½ feet tall and weigh around 120 pounds. As a blend of fighters and magic-users, elves are skilled in combat and capable of casting spells, making them versatile and powerful adventurers.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Intelligence. If both scores are 13 or higher, the elf gains a 5% experience bonus. If Intelligence is 16 or greater, this bonus increases to 10%.</li><li><strong>Combat and Spellcasting</strong>: Elves can use all types of armor and weapons while also casting magic-user spells. They are particularly effective in combat when uninjured and can utilize both fighting and magical strategies.</li><li><strong>Hit Dice</strong>: Elves roll 1d6 per level for hit points, with a maximum level of 10. They gain an additional +2 hit points at 10th level.</li><li><p><strong>Special Abilities</strong>:</p><ul><li>Infravision allows them to see up to 60 feet in the dark.</li><li>A natural immunity to ghoul paralysis.</li><li>They excel at finding secret doors, succeeding on a 1 or 2 when rolling a d6.</li><li>Elves gain resistance to dragon breath attacks at higher experience levels, taking half or one-quarter damage depending on their saving throw success.</li><li>Elves can speak the languages of Elves, Gnolls, Hobgoblins, and Orcs, in addition to Common and their alignment tongue.</li></ul></li></ul><h3>Advancement and Strongholds:</h3><p>Elves reach Name level at 9th level and may establish a stronghold in a natural, beautiful location, such as atop great trees or near waterfalls. These strongholds foster harmony with nearby animals, enabling communication and mutual protection. Elves can only advance to 10th level, but their combination of skills and magical abilities balances this limitation.</p><p>Their dual nature as fighters and magic-users makes elves both formidable allies and dangerous foes in any adventure.</p>",
       "name": "Elf"
     },
     "Emerald": {
@@ -933,9 +937,13 @@
       "description": "<p>The Escape skill allows a character to slip free from bonds, such as ropes or manacles, and to break out of physical restraints or confined spaces. Success may depend on the quality of the bindings and the character’s current condition. This skill is also used to evade grapples and similar situations in combat.</p>",
       "name": "Escape"
     },
-    "Exorcism": {
-      "description": "<p>Exorcism is a special ritual that high-level clerics (9th level or above) can perform to drive out possessing entities or malevolent spirits from a creature or location. The cleric must perform the ritual for a specified duration, and success depends on the cleric's level and the strength of the spirit.</p>",
-      "name": "Exorcism"
+    "Establish Stronghold": {
+      "description": "<p>At <strong data-start=\"826\" data-end=\"861\">9th level (Patriarch/Matriarch)</strong>, a Cleric can establish a <strong data-start=\"888\" data-end=\"920\">church, temple, or monastery</strong>, attracting followers and gaining religious influence.</p>",
+      "name": "Establish Stronghold"
+    },
+    "Establish Tower": {
+      "description": "<div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"94e4c5d5-5098-4cde-a312-9426bf7d6f38\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p data-start=\"59\" data-end=\"403\">Upon reaching <strong data-start=\"73\" data-end=\"86\">9th level</strong>, a Magic-User may choose to <strong data-start=\"115\" data-end=\"132\">build a tower</strong>, establishing themselves as a land-owning wizard. Unlike Fighters or Clerics, a Magic-User does not need <strong data-start=\"238\" data-end=\"273\">permission from the local ruler</strong> to construct a stronghold, as rulers generally avoid antagonizing powerful wizards​.</p><h4 data-start=\"405\" data-end=\"438\">Attracting Apprentices</h4><p data-start=\"439\" data-end=\"770\">Once a tower is built, the Magic-User will attract <strong data-start=\"490\" data-end=\"509\">1d6 apprentices</strong>, all <strong data-start=\"515\" data-end=\"544\">Magic-Users of levels 1–3</strong>. These apprentices seek training, and while they are loyal, they will not sacrifice themselves for their master. The <strong data-start=\"662\" data-end=\"723\">DM determines their names, backgrounds, and personalities</strong>​.</p><h4 data-start=\"772\" data-end=\"818\">Stronghold and Dungeon Construction</h4><p data-start=\"819\" data-end=\"1303\">A wizard's tower may include a <strong data-start=\"850\" data-end=\"880\">dungeon beneath or near it</strong>. Some wizards construct dungeons as secure laboratories, while others <strong data-start=\"951\" data-end=\"971\">leave an opening</strong>, attracting <strong data-start=\"984\" data-end=\"1006\">wandering monsters</strong> that take up residence. Some wizards encourage this, using monsters for research, spell experimentation, or personal defense​. However, monster-infested dungeons often cause conflict with <strong data-start=\"1238\" data-end=\"1259\">local communities</strong> and attract adventurers seeking treasure.</p><h4 data-start=\"1305\" data-end=\"1357\">Alternative to a Tower: Becoming a Magist</h4><p data-start=\"1358\" data-end=\"1754\">Instead of building a tower, a Name-level Magic-User may <strong data-start=\"1415\" data-end=\"1446\">seek employment as a Magist</strong> in an existing stronghold. A Magist serves a ruler as an <strong data-start=\"1504\" data-end=\"1534\">advisor on magical matters</strong>, handles magical needs, and is well-compensated—typically <strong data-start=\"1593\" data-end=\"1624\">at least 3,000 gp per month</strong>. However, this requires the Magic-User to swear an <strong data-start=\"1676\" data-end=\"1694\">oath of fealty</strong> to the ruler​.</p><p data-start=\"1756\" data-end=\"1843\" data-is-last-node=\"\">Would you like additional details, such as construction costs or typical tower layouts?</p></div></div></div></div><div class=\"mb-2 flex gap-3 empty:hidden -ml-2\"><div class=\"items-center justify-start rounded-xl p-1 flex\"><div class=\"flex items-center\"><p></p></div></div></div>",
+      "name": "Establish Tower"
     },
     "Explosive Cloud": {
       "description": "<p>This spell creates a 30' diameter, 20' tall cloud of <strong>greenish gas</strong> filled with <strong>sparkling explosions</strong>, appearing next to the caster. It visually resembles the <em>Cloudkill</em> spell but has different effects.</p><h3>Effects:</h3><ul><li>The cloud moves away from the caster at a speed of <strong>20' per round</strong> in a direction chosen by the caster.</li><li><strong>Poisonous Gas:</strong> Each creature in the cloud must make a <strong>saving throw vs. spells</strong> or be **paralyzed** for 1 round. They may attempt a new saving throw each round.</li><li><strong>Explosions:</strong> The cloud is filled with **tiny detonations**, dealing damage each round to all creatures inside.</li></ul><h3>Damage:</h3><p>Each creature inside the cloud takes <strong>1 point of damage per 2 caster levels</strong> (rounded down). This damage <strong>ignores resistances</strong> (affecting creatures immune to fire, gas, electricity, etc.).</p><ul><li><strong>Levels 18-19:</strong> [[/r 9 #Explosive Cloud Damage]]</li><li><strong>Levels 20-21:</strong> [[/r 10 #Explosive Cloud Damage]]</li><li><strong>Levels 22-23:</strong> [[/r 11 #Explosive Cloud Damage]]</li><li><strong>Levels 24-25:</strong> [[/r 12 #Explosive Cloud Damage]]</li><li><strong>Levels 26-27:</strong> [[/r 13 #Explosive Cloud Damage]]</li><li><strong>Levels 28-29:</strong> [[/r 14 #Explosive Cloud Damage]]</li><li><strong>Levels 30-31:</strong> [[/r 15 #Explosive Cloud Damage]]</li><li><strong>Levels 32-33:</strong> [[/r 16 #Explosive Cloud Damage]]</li><li><strong>Levels 34-35:</strong> [[/r 17 #Explosive Cloud Damage]]</li><li><strong>Level 36:</strong> [[/r 18 #Explosive Cloud Damage]]</li></ul><h3>Duration:</h3><p>The cloud persists for <strong>6 turns</strong> (60 rounds).</p>",
@@ -1094,6 +1102,10 @@
       "spellDuration": "Until completed or removed",
       "spellEffect": "Compels one creature"
     },
+    "Ghoul Paralysis Immunity": {
+      "description": "<p>Elves are immune to the paralyzing attacks of ghouls. They are, however, still affected by other forms of paralysis.</p>",
+      "name": "Ghoul Paralysis Immunity"
+    },
     "Gold Piece": {
       "name": "Gold Piece"
     },
@@ -1124,10 +1136,6 @@
     "Halberd +1": {
       "description": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
       "name": "Halberd +1"
-    },
-    "Half Damage from Dragon Breath": {
-      "description": "<p>At 1,600,000 XP, an elf takes only half damage from dragon breath. A successful saving throw reduces the damage to one-quarter.</p>",
-      "name": "Half Damage from Dragon Breath"
     },
     "Halfling": {
       "classLevels": {
@@ -1279,10 +1287,6 @@
       "spellDuration": "One turn per caster level",
       "spellEffect": "Grants immunity or resistance to spells and weapons"
     },
-    "Immunity to Ghoul Paralysis": {
-      "description": "<p>Elves are immune to the paralyzing attacks of ghouls. They are, however, still affected by other forms of paralysis.</p>",
-      "name": "Immunity to Ghoul Paralysis"
-    },
     "Infravision": {
       "description": "<p>Elves have infravision, allowing them to see in the dark up to 60 feet. They can perceive creatures and objects based on their temperature difference from the surroundings.</p>",
       "name": "Infravision"
@@ -1376,16 +1380,12 @@
       "name": "Lance +1"
     },
     "Lance Attack": {
-      "description": "<p>When mounted and using a lance, a fighter can perform a powerful charge attack. The fighter gains double their Strength modifier to the damage roll if the attack is successful. This ability is most effective when charging against opponents.</p>",
+      "description": "<p>When mounted and using a lance, an elf can perform a powerful charge attack. The elf gains double their Strength modifier to the damage roll if the attack is successful. This ability is most effective when charging against opponents.</p>",
       "name": "Lance Attack"
     },
     "Language (choose type)": {
       "description": "<p>Allows the character to speak and read a specific language beyond their normal allocation. Each additional language is chosen separately, such as <strong>Elvish</strong>, <strong>Dwarven</strong>, or <strong>Thyatian</strong>. The character must make a skill check to understand technical or fast-paced speech in these additional languages. </p>",
       "name": "Language (choose type)"
-    },
-    "Languages": {
-      "description": "<p>Dwarves can speak the languages of Dwarves, Gnomes, Goblins, and Kobolds, in addition to Common and Alignment tongues.</p>",
-      "name": "Languages"
     },
     "Lantern": {
       "description": "<p>An oil lantern illuminates a 30-foot radius and consumes one flask of oil over four hours (24 turns). Most lanterns are designed to be enclosed or equipped with shutters to shield the flame from the wind​​.</p>",
@@ -1486,10 +1486,6 @@
       "spellDuration": "Until dispelled or 7 uses",
       "spellEffect": "Creates one passage"
     },
-    "Magic Duel": {
-      "description": "<p>Experienced Magic-Users can engage in magical duels, using their spells and abilities to counter or disrupt another caster’s magic. This is often used to resolve conflicts between rival spellcasters.</p>",
-      "name": "Magic Duel"
-    },
     "Magic Jar": {
       "description": "<p>This spell transfers the caster's life force into an inanimate object within 30' (referred to as a \"magic jar\" regardless of its form). The caster’s body falls into a trance. From the magic jar, the caster can attempt to possess a creature within 120' of the jar.</p>\n                      <p><strong>Possession Attempt:</strong> The target must make a saving throw vs. spells. If successful, the caster cannot attempt to possess that creature again for one turn. If failed, the caster takes over the creature’s body, and the creature’s life force is transferred to the magic jar.</p>\n                      <p><strong>Actions in Possessed Body:</strong> The caster can perform normal actions, but no special abilities (similar to *Polymorph Self*). A *Dispel Evil* spell forces the caster's life force back into the magic jar.</p>\n                      <p><strong>Destruction Effects:</strong> If the magic jar is destroyed while the caster's life force is within, the caster dies. If the jar is destroyed while the caster possesses a body, the caster is stranded in that body, and the original owner's life force is destroyed. If the caster’s original body is destroyed, they are stranded in the magic jar until a new body is taken.</p>\n                      <p>Taking over another body is considered a Chaotic act.</p>",
       "name": "Magic Jar",
@@ -1506,6 +1502,10 @@
       "description": "<p>This spell creates a glowing arrow that inflicts [[/r 1d6+1 #Magic missile damage]] (2-7) points of damage to any visible target specified by the caster. The arrow always hits and no saving throw is allowed. After the spell is cast, the arrow appears next to the caster and hovers there until shot.</p><p>For every 5 levels of experience, two additional missiles are created by the same spell. The caster can direct these missiles at one or multiple targets.</p>",
       "name": "Magic Missile",
       "spellEffect": "Creates 1 or more arrows"
+    },
+    "Magic Resistance": {
+      "description": "<p data-start=\"36\" data-end=\"448\">Upon reaching 1,400,000 experience points, a Dwarf gains an innate resistance to magic, reducing the damage they take from spells and certain magical effects. This resistance applies to all damage-causing spells and spell-like effects, including those from magical items and special abilities of monsters (such as a beholder’s eye rays). However, it does not apply to dragon breath attacks.</p><h4 data-start=\"450\" data-end=\"477\">Damage Reduction</h4><ul data-start=\"478\" data-end=\"848\"><li data-start=\"478\" data-end=\"657\">When subjected to a damage-dealing spell or magical effect, the Dwarf automatically takes only half damage. The total damage rolled is divided by 2, rounding down.</li><li data-start=\"658\" data-end=\"848\">If the effect allows a saving throw, a successful save further reduces the damage to one-quarter of the total rolled. In this case, divide the damage by 4, rounding down.</li></ul><h4 data-start=\"850\" data-end=\"880\">Minimum Damage Rule</h4><ul data-start=\"881\" data-end=\"997\"><li data-start=\"881\" data-end=\"997\">If the final damage calculation results in ½ a point or less, the Dwarf instead takes 1 point of damage.</li></ul><p data-start=\"999\" data-end=\"1140\" data-is-last-node=\"\">This ability reflects the Dwarves' natural toughness and resistance to arcane forces, making them incredibly resilient against hostile magic.</p>",
+      "name": "Magic Resistance"
     },
     "Magic Wand": {
       "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -1548,10 +1548,6 @@
       },
       "description": "<p>A magic-user is a human character dedicated to the study of arcane knowledge and the casting of spells. They are among the most versatile and powerful classes but are physically fragile and limited in combat abilities. Their focus on magic allows them to wield extraordinary power as they gain experience.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Intelligence, granting an experience bonus for high scores (5% for 13–15, 10% for 16–18).</li><li><strong>Combat Skills</strong>: Magic-users cannot wear armor or use shields and are restricted to using daggers. At the DM's discretion, other light weapons such as staves or slings may be permitted.</li><li><strong>Hit Dice</strong>: They use a d4 for hit points per level up to 9th level. Beyond that, they gain a fixed 1 hit point per level without Constitution bonuses.</li><li><strong>Spellcasting</strong>: Magic-users learn and prepare spells from a spellbook. Their magic includes a wide range of effects, such as attack spells (e.g., Fireball), utility spells (e.g., Knock), and defensive spells (e.g., Shield).</li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong> (Name level), a magic-user becomes a \"Wizard\" (male) or \"Maga\" (female). Wizards can create magic items, such as scrolls or potions.</li><li>Magic-users may construct a tower as a personal stronghold. Once completed, the tower attracts 1d6 apprentices (1st–3rd level magic-users), who serve the wizard as students and assistants.</li><li>If a dungeon is built beneath or near the tower and left unguarded, it may attract monsters. Some wizards encourage this to create a ready source of material for research and training.</li></ul><h3>Stronghold Options:</h3><ul><li><strong>Independent Wizards</strong>: Magic-users building their own towers typically do so without seeking approval from local rulers. However, gaining the ruler's favor might result in gifts or an official title to the land.</li><li><strong>Magists</strong>: Magic-users can serve as court wizards, known as Magists, advising rulers on magical matters in exchange for room, board, and a stipend (usually 3,000 gp per month or more). This arrangement allows continued magical research, often funded by the ruler.</li></ul><p>Magic-users begin their careers as fragile and vulnerable adventurers but grow into formidable spellcasters capable of altering the course of campaigns with their arcane abilities. Their strongholds often serve as hubs of magical research and influence.</p>",
       "name": "Magic-User"
-    },
-    "Magic-User Spells": {
-      "description": "<p>Elves can cast Magic-User spells, though they receive fewer and lower-level spells compared to a Magic-User of the same level.</p>",
-      "name": "Magic-User Spells"
     },
     "Magical Engineering": {
       "description": "<p>Grants the ability to recognize the basic principles behind unfamiliar magical devices. This does not include training in the design or fabrication of magical artifacts but does allow identification of common magical items with a successful skill check.  It doesn't allow a character to recognize uncommon magical items or to distinguish trapped or cursed items from those that are safe.</p>",
@@ -1643,7 +1639,7 @@
       "name": "Move Silently"
     },
     "Multiple Attacks": {
-      "description": "<p>This maneuver is a Fighter Combat Option available to human fighters <strong>starting at level 12</strong>, and to demihumans at different experience levels (refer to their experience tables). In melee combat, if the fighter can hit an opponent with a roll of 2 or higher (after applying all modifiers), they gain two attacks per round against that target. At level 24, this increases to three attacks per round, and at level 36, it becomes four attacks per round.</p><p>Each attack in this series can be a different type, including a throw, a standard attack, a lance attack, or a disarm. The fighter can combine these maneuvers in any sequence; for example, a character with three attacks per round could perform an attack, a disarm, and another attack, or throw three knives in succession. This maneuver is most effective under optimal conditions, and the character can replace any attack with movement or another action if desired.</p>",
+      "description": "<p>This maneuver is a combat option available to <strong>Dwarves starting at 660,000 XP</strong>. In melee combat, if the Dwarf can hit an opponent with a roll of <strong>2 or higher</strong> (after applying all modifiers), they gain <strong>two attacks per round</strong> against that target. At <strong>2,200,000 XP</strong>, this increases to <strong>three attacks per round</strong>. A Dwarf <strong>never gains four attacks per round</strong>.</p><p>Each attack in this series can be a different type, including a <strong>throw, a standard attack, a lance attack, or a disarm</strong> (except against giant-sized opponents). The Dwarf can combine these maneuvers in any sequence; for example, a character with three attacks per round could perform an attack, a disarm, and another attack, or throw three axes in succession. This maneuver is most effective under optimal conditions, and the character can replace any attack with movement or another action if desired.</p>",
       "name": "Multiple Attacks"
     },
     "Muscle": {
@@ -1661,10 +1657,6 @@
     "Mysticism": {
       "description": "<p>This skill allows a character to instinctively know the proper actions to take in order to please the Immortals in general. A successful skill check can indicate the appropriate behavior or ritual to use when encountering sacred objects, places, or situations related to the Immortals.</p>\n      <p>For example, a successful check might reveal that the party should leave an offering at a shrine or avoid disturbing a holy site. This skill also allows a character to recognize symbols and artifacts of the Immortals, as well as to interpret omens or signs given by them.</p>",
       "name": "Mysticism"
-    },
-    "Name-Level Benefits": {
-      "description": "<p>At Name level (9th), an elf can build a stronghold deep in the forest. Friendly animals within 5 miles of the stronghold will aid the elf by providing warnings, delivering messages, and helping in other ways.</p>",
-      "name": "Name-Level Benefits"
     },
     "Nature Lore": {
       "description": "<p>This skill provides knowledge of plant and animal life in a specific terrain (e.g., desert, forest, jungle). The character can identify edible and poisonous plants, spot signs of unnatural danger, and know when something is out of place in the natural environment. When used in the character's home terrain, they receive a -2 bonus to their skill check; in unfamiliar but similar terrain, no bonus or penalty applies; in very different terrain, a penalty of up to +4 may be imposed.</p>",
@@ -1737,7 +1729,7 @@
       "name": "Paper, sheet"
     },
     "Parry": {
-      "description": "<p>This is a combat maneuver accessible to fighters and mystics <strong>starting at 9th level</strong>, and to demi-humans at other specific experience levels (refer to their experience tables). When using this maneuver, the fighter does not make an attack roll. Instead, they focus on blocking incoming attacks for the entire combat round, imposing a -4 penalty on all melee and thrown weapon attacks made against them (but not missile weapon attacks).</p>",
+      "description": "<p>This is a combat option available to Dwarves starting at 660,000 XP. When using this maneuver, the Dwarf does not make an attack roll. Instead, they focus entirely on blocking incoming attacks for the entire combat round, imposing a –4 penalty on all melee and thrown weapon attacks made against them. This penalty does not apply to missile weapon attacks.</p>",
       "name": "Parry"
     },
     "Pass Plant": {
@@ -2130,10 +2122,6 @@
     "Saddle and Bridle": {
       "name": "Saddle and Bridle"
     },
-    "Sanctify Ground": {
-      "description": "<p>A cleric can sanctify an area, such as a shrine or graveyard, to prevent the entry of undead and demonic creatures. This ritual requires special materials and time, and its duration and effectiveness are determined by the cleric's level.</p>",
-      "name": "Sanctify Ground"
-    },
     "Sapphire": {
       "description": "<p>Sapphire is a gemstone known for its deep blue color and brilliance. It has a smooth, polished surface with a faceted appearance, showcasing its clarity and vibrant hue. Sapphires are highly prized in jewelry for their stunning color and elegant sparkle.</p>",
       "name": "Sapphire"
@@ -2254,7 +2242,7 @@
       "spellEffect": "Up to 24 creatures move at half speed"
     },
     "Smash": {
-      "description": "<p>This is a Fighter Combat Option maneuver available to fighters and mystics <strong>starting at 9th level</strong>, and to demihumans at different experience levels (refer to their experience tables). When using this hand-to-hand maneuver, the character automatically loses initiative and takes a -5 penalty to their attack roll (but still applies their Strength and magic bonuses).</p><p>If the attack hits, the character adds their Strength bonus, magic bonuses, and their full Strength score to the weapon's normal damage.</p><p>For example, a fighter with Strength 17 (+2 to attack and damage) using a sword +2 (+2 to attack, 1d8 + 2 damage) would execute a smash as follows: the attack roll is made with a net penalty of -1 (+2 +2 -5). If successful, they roll 1d8 + 21 (17 + 2 + 2) for damage!</p>",
+      "description": "<p>This is a combat option available to Dwarves starting at 660,000 XP. When using this hand-to-hand maneuver, the Dwarf automatically loses initiative and takes a –5 penalty to their attack roll (but still applies their Strength and magic bonuses).</p><p>If the attack hits, the Dwarf adds their Strength bonus, magic bonuses, and their full Strength score to the weapon’s normal damage.</p><p>For example, a Dwarf with Strength 17 (+2 to attack and damage) using a war hammer +2 (1d8 +2 damage, +2 to attack) would execute a smash as follows: the attack roll is made with a net penalty of –1 (+2 +2 –5). If successful, they roll 1d8 + 21 (17 + 2 + 2) for damage!</p>",
       "name": "Smash"
     },
     "Snake Charm": {
@@ -2323,7 +2311,7 @@
       "name": "Special Defenses"
     },
     "Spell Research": {
-      "description": "<p>A Magic-User can research and create new spells to add to their spellbook. This requires time, resources, and the approval of the Dungeon Master. The chance of success is based on the complexity of the spell and the magic-user’s level.</p>",
+      "description": "<p>A Magic-User can attempt to create a new spell, but it must be of a level they can cast. The process requires:</p><ul data-start=\"402\" data-end=\"590\"><li data-start=\"402\" data-end=\"434\">1,000 gp per spell level</li><li data-start=\"435\" data-end=\"480\">Two weeks of research per spell level</li><li data-start=\"481\" data-end=\"544\">Rare components, often requiring an adventure to obtain</li><li data-start=\"545\" data-end=\"590\">A fully stocked laboratory or library</li></ul><p data-start=\"592\" data-end=\"897\">The <strong data-start=\"596\" data-end=\"617\">chance of success</strong> depends on the Magic-User's <strong data-start=\"646\" data-end=\"678\">Intelligence score and level</strong>, with modifications for spell difficulty​. If a research attempt fails, the process must be restarted, but each failure grants a <strong data-start=\"851\" data-end=\"875\">+5% cumulative bonus</strong> to future attempts.</p><p><em>A Magic-User typically does not have a sufficient library for advanced research until 18th level, or at least 9th level if they have collected extensive magical tomes​. While research is technically possible at any level, low-level characters will likely struggle to meet the requirements.</em></p>",
       "name": "Spell Research"
     },
     "Spellbook": {
@@ -2333,10 +2321,6 @@
     "Spellbook, travelling": {
       "description": "<p>A Spellbook is an essential feature of any Magic-User's kit. This is where their spells and formulae are stored, and is used to prepare for spellcasting.</p><p>A smaller, more portable option is the leather-bound Traveling spellbook. This book is typically about 10” x 6.5” in size with 64 pages. It can store up to 64 levels of spells. Either will fit into a backpack or satchel. In general, a Magic-Users' starting book is assumed to be a Traveling book, but a player may start with a Reference book if the GM allows it.</p><p>The initial spellbook of a Magic-User is given as a gift from their instructors.</p>",
       "name": "Spellbook, travelling"
-    },
-    "Spellcasting": {
-      "description": "<p>Magic-Users can memorize and cast arcane spells. The number and level of spells they can prepare is determined by their level. Spells must be learned and recorded in the magic-user’s spellbook before they can be cast.</p>",
-      "name": "Spellcasting"
     },
     "Spells or Magic Staff": {
       "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -2661,14 +2645,6 @@
     "Use Magic Items": {
       "description": "<p>Magic-Users can utilize various magical items, such as wands, staves, and scrolls, that are typically unavailable to non-spellcasting classes. This ability allows them to activate magical effects stored within these items.</p>",
       "name": "Use Magic Items"
-    },
-    "Use of Blessed Items": {
-      "description": "<p>Clerics can use blessed items such as scrolls with cleric spells and other religious artifacts. This ability allows them to invoke the power of their deity through these items.</p>",
-      "name": "Use of Blessed Items"
-    },
-    "Use of Holy Water": {
-      "description": "<p>Clerics can create and use holy water. Holy water is a special substance that harms undead creatures, dealing 1d8 damage on a successful hit when thrown. It is created by performing a blessing ritual on pure water.</p>",
-      "name": "Use of Holy Water"
     },
     "Ventriloquism": {
       "description": "<p>This spell allows the caster to make their voice seem to come from another location within range, such as a statue, animal, or a dark corner. The \"source\" of the voice must be within the spell's range.</p>",
