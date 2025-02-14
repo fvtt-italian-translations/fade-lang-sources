@@ -793,7 +793,7 @@
         },
         "Hear Noise": {
             "name": "Sentire Rumori",
-            "description": "<p>Il ladro ha un senso dell'udito acuto, permettendogli di percepire rumori deboli come passi, sussurri e movimenti di creature nascoste.</p>"
+            "description": "<p>Un Bardo può percepire suoni deboli come passi, sussurri o meccanismi in movimento con la stessa probabilità di un Ladro dello stesso livello. Il Bardo deve rimanere immobile e concentrarsi per un turno per usare questa abilità. Rumori di fondo, come vento o combattimenti, possono imporre penalità a discrezione del DM.</p>\n\n<h4>Penalità all'Armatura:</h4>\n<ul>\n  <li>Corazza a Scaglie: –5%</li>\n  <li>Corazza di Maglia: –10% (–5% se Maglia Elfica)</li>\n</ul>"
         },
         "Heat Metal": {
             "name": "Scaldare Metalli",
@@ -1939,10 +1939,10 @@
         },
         "Climb Sheer Surface": {
             "name": "Scalare Pareti",
-            "description": "<p>Il ladro può arrampicarsi su superfici ripide, come muri, scogliere o persino soffitti, con una probabilità base di successo determinata dal suo livello.</p>"
+            "description": "<p>Un Bardo può arrampicarsi su muri, scogliere e altre superfici verticali con la stessa probabilità di un Ladro dello stesso livello. Il Bardo deve avere <strong>entrambe le mani libere</strong> e non può arrampicarsi mentre impugna un'arma o uno strumento. L'arrampicata richiede <strong>un turno per ogni 3 metri</strong> e un fallimento comporta una scivolata a metà percorso, con una possibilità di aggrapparsi se il DM lo permette.</p>\n\n<h4>Penalità all'Armatura:</h4>\n<ul>\n  <li><strong>Corazza a Scaglie:</strong> –15%</li>\n  <li><strong>Corazza di Maglia:</strong> –20% (–10% se Maglia Elfica)</li>\n  <li><strong>Scudo Indossato:</strong> Ulteriore –5% (se portato sulla schiena)</li>\n</ul>"
         },
         "Chain Mail +1": {
-            "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare un materiale protettivo flessibile. La corazza di maglia conferisce al personaggio una classe di armatura 5.</p>",
+            "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare un materiale protettivo flessibile. La corazza di maglia conferisce al personaggio una classe di armatura 5, ma questa armatura fornisce un bonus aggiuntivo.</p><p><em>Un'armatura magica pesa la metà della sua controparte non magica.</em></p>",
             "name": "Corazza di Maglia +1"
         },
         "Cloak, short": {
@@ -2130,7 +2130,7 @@
             "description": "<p>Una lanterna a lente sporgente è una fonte di luce portatile racchiusa in una custodia di metallo, progettata per focalizzare un fascio di luce in una sola direzione. La lanterna è dotata di una copertura regolabile con cerniera che può essere sollevata o abbassata per concentrare o bloccare la luce a seconda delle necessità. La lanterna illumina un'area fino a 18 metri di distanza.</p><p>La lanterna consuma una fiaschetta di olio nell'arco di quattro ore (24 turni). Il suo design chiuso aiuta a proteggere la fiamma dal vento e dalla pioggia, rendendola più affidabile in condizioni esterne o avverse rispetto a una fiamma aperta.</p>"
         },
         "Leather Armor +1": {
-            "description": "<p>Si tratta di una corazza composta principalmente da piastre e strisce di cuoio. Il cuoio viene spesso bollito nella cera per indurirlo. La corazza di cuoio non magica conferisce classe armatura 7, e poiché è fatta di materiali naturali, può essere indossata dai druidi. È anche abbastanza leggera e silenziosa da poter essere indossata dai ladri.</p>",
+            "description": "<p>Questa è un'armatura magica composta principalmente da piastre e strisce di cuoio. Il cuoio è spesso bollito nella cera per indurirlo. Un'armatura di cuoio magica fornisce una Classe Armatura 7 più il bonus magico e, poiché è fatta di materiali naturali, può essere indossata dai druidi. È inoltre abbastanza leggera e silenziosa da poter essere indossata dai ladri.</p>\n\n<p><em>Un'armatura magica pesa la metà della sua controparte non magica.</em></p>",
             "name": "Armatura in Cuoio +1"
         },
         "Life Drain*": {
@@ -2366,6 +2366,100 @@
         },
         "Statue": {
             "spellRange": "0 (Incantatore)"
+        },
+        "Appear*": {
+            "name": "Mostrarsi*",
+            "spellDuration": "Istantaneo (impedisce di tornare invisibili per 1 turno)",
+            "spellEffect": "Rivela tutte le creature e gli oggetti invisibili in un cubo di 6 m di lato",
+            "description": "<p>Questo incantesimo annulla l'invisibilità all'interno di un'area di <strong>6 m x 6 m x 6 m</strong>. Influenza tutte le creature e gli oggetti invisibili nell'area, rendendoli <strong>completamente visibili</strong>.</p>\n\n                    <h3>Effetto:</h3>\n                    <ul>\n                      <li>Influenza tutte le <strong>forme di invisibilità</strong> (sia magica che naturale).</li>\n                      <li>Le creature nei <strong>Piani Astrale ed Etereo</strong> <strong>non</strong> sono influenzate.</li>\n                      <li>Tutte le creature colpite <strong>non possono tornare invisibili</strong> per <strong>1 turno completo</strong>.</li>\n                    </ul>"
+        },
+        "Arrows (silver)": {
+            "description": "<p>Una freccia con la punta d'argento. Può essere usata per ferire alcuni tipi di creature, come i licantropi.</p>",
+            "name": "Frecce (argento)"
+        },
+        "Arrows +1": {
+            "name": "Frecce +1",
+            "description": "<p>Frecce impennate in una faretra. Possono essere usate con un arco lungo o un arco corto. Queste frecce sono magiche e forniscono un bonus al tiro per colpire e ai danni.</p><p><strong>Importante:</strong> Essendo armi di classe A, questi proiettili diventano non magici dopo l'uso, anche se il tiro per colpire mancasse il bersaglio.</p>"
+        },
+        "Arrows +2": {
+            "name": "Frecce +2",
+            "description": "<p>Frecce impennate in una faretra. Possono essere usate con un arco lungo o un arco corto. Queste frecce sono magiche e forniscono un bonus al tiro per colpire e ai danni.</p><p><strong>Importante:</strong> Essendo armi di classe A, questi proiettili diventano non magici dopo l'uso, anche se il tiro per colpire mancasse il bersaglio.</p>"
+        },
+        "Arrows +3": {
+            "description": "<p>Frecce impennate in una faretra. Possono essere usate con un arco lungo o un arco corto. Queste frecce sono magiche e forniscono un bonus al tiro per colpire e ai danni.</p><p><strong>Importante:</strong> Essendo armi di classe A, questi proiettili diventano non magici dopo l'uso, anche se il tiro per colpire mancasse il bersaglio.</p>",
+            "name": "Frecce +3"
+        },
+        "Arrows +4": {
+            "name": "Frecce +4",
+            "description": "<p>Frecce impennate in una faretra. Possono essere usate con un arco lungo o un arco corto. Queste frecce sono magiche e forniscono un bonus al tiro per colpire e ai danni.</p><p><strong>Importante:</strong> Essendo armi di classe A, questi proiettili diventano non magici dopo l'uso, anche se il tiro per colpire mancasse il bersaglio.</p>"
+        },
+        "Arrows +5": {
+            "name": "Frecce +5",
+            "description": "<p>Frecce impennate in una faretra. Possono essere usate con un arco lungo o un arco corto. Queste frecce sono magiche e forniscono un bonus al tiro per colpire e ai danni.</p><p><strong>Importante:</strong> Essendo armi di classe A, questi proiettili diventano non magici dopo l'uso, anche se il tiro per colpire mancasse il bersaglio.</p>"
+        },
+        "Axe, Battle +1": {
+            "description": "<p>L'ascia da battaglia è un'ascia a due mani lunga tra 60 cm e 120 cm, solitamente con una doppia lama o una punta sul retro della lama.</p>",
+            "name": "Ascia da Battaglia +1"
+        },
+        "Axe, Hand +1": {
+            "name": "Accetta +1",
+            "description": "<p>Un'ascia da lancio è un'ascia a una mano lunga tra 30 cm e 60 cm, solitamente con una singola lama. Spesso viene lanciata mentre il suo proprietario si avvicina al combattimento in mischia.</p>"
+        },
+        "Banded Mail +1": {
+            "description": "<p>Questa è un'armatura magica composta principalmente da una corazza di maglia con strisce orizzontali di metallo fissate alla maglia stessa. La corazza a bande fornisce una Classe Armatura 4, ma offre un bonus aggiuntivo. Non garantisce la stessa protezione di una corazza a piastre, ma è più economica e leggera.</p><p><em>Un'armatura magica pesa la metà della sua controparte non magica.</em></p>",
+            "name": "Corazza a Bande Orizzontali +1"
+        },
+        "Bard": {
+            "classLevels": {
+                "0": {
+                    "title": "Menestrello"
+                },
+                "1": {
+                    "title": "Musico"
+                },
+                "2": {
+                    "title": "Compositore"
+                },
+                "3": {
+                    "title": "Giullare"
+                },
+                "4": {
+                    "title": "Narratore"
+                },
+                "5": {
+                    "title": "Mastro Narratore"
+                },
+                "6": {
+                    "title": "Virtuoso"
+                },
+                "7": {
+                    "title": "Bardo"
+                },
+                "8": {
+                    "title": "Mastro Bardo"
+                }
+            },
+            "name": "Bardo",
+            "description": "<h2>Il Bardo: Custode delle Leggende, Maestro del Canto</h2>\n<p>Fin dall'alba della storia, i bardi hanno vagato per il mondo come custodi della saggezza, del canto e dell'eroismo. Sono i menestrelli erranti, i guerrieri poetici, i narratori le cui parole plasmano le gesta di re ed eroi. I bardi sono più di semplici intrattenitori: sono la voce della storia, il cuore della cultura e, quando necessario, un'ispirazione sul campo di battaglia.</p>\n<p>Contrariamente al comune ladro che diventa menestrello, un vero Bardo ha affinato sia l'aspetto marziale che quello mistico della sua arte. Egli brandisce il potere di <em>cantare canzoni magiche</em>, incantando alleati e stregando nemici con melodie imbevute di energia arcana. Queste canzoni magiche, proprio come le invocazioni dei maghi o le preghiere dei chierici, attingono a una tradizione antica che fonde magia ed esibizione. Questo indica in pratica che il bardo possiede una capacità di <em>fascinazione innata</em> che riesce ad affinare con l’esperienza e a sfruttare a proprio vantaggio, acquisendo una capacità paragonabile alla fascinazione magica prodotta dagli incantatori arcani. Attraverso il canto e lo strumento musicale, possono curare ferite, incoraggiare, offuscare le menti o persino creare illusioni così vivide da sembrare reali.</p>\n<p>Pur combattendo al fianco di guerrieri e ladri, la vera forza dei bardi risiede nella loro capacità di influenzare il mondo con parole, musica e astuzia. Sono benvenuti nelle corti dei re tanto quanto nelle taverne della gente comune, raccogliendo notizie, scoprendo segreti e diffondendo le storie delle leggende, spesso le proprie.</p>\n<p>Ogni bardo porta con sé uno strumento incantato, uno strumento della sua arte che è tanto vitale quanto il libro degli incantesimi di un mago. Senza di esso, la sua magia è muta. Alcuni ricevono questi strumenti da mentori, mentre altri devono intraprendere una quest per trovarli da soli. L'abilità di un bardo con uno strumento è una parte integrante della sua identità, tanto quanto le canzoni che conosce, e un bardo esperto può guadagnare una fortuna semplicemente esibendosi per il pubblico giusto.</p>\n<p>Infine, il bardo è particolarmente abile nel <em>raccogliere informazioni</em> (ottiene gratuitamente l’omonima abilità generale basata sul Carisma), parlando con la gente dei luoghi in cui girovaga senza che sia costretto a sborsare una sola moneta d’oro. Questo gli permette di conoscere sempre nuovi pettegolezzi, nuove leggende, e storie poco conosciute dalla maggioranza delle persone, e di diventare una vera e propria miniera di informazioni.</p>\n<p>Che scelgano di stabilirsi e fondare un grande conservatorio per trasmettere la loro saggezza agli studenti, o continuare i loro viaggi come solitari narratori delle storie del mondo, tutti i bardi condividono un obiettivo comune: garantire che nessuna grande impresa rimanga senza canto, che nessuna leggenda venga dimenticata e che nessuna anima sia lasciata senza una melodia che la guidi.</p>\n<p><em>Adattato dall'articolo di Geoff Gander e Marco Dalmonte su </em><a href=\"https://pandius.com/bardclas.html\"><em>Pandius</em></a><em>.</em></p>\n<h3>Caratteristiche Principali</h3>\n<h4>Requisito Primario</h4>\n<p>Destrezza e Carisma. Un Bardo guadagna un bonus del 5% di esperienza se sia la Destrezza che il Carisma sono tra 13 e 15, e un bonus del 10% se entrambi sono 16 o superiori.</p>\n<h4>Competenze in Combattimento</h4>\n<ul>\n  <li>I bardi possono usare <strong>qualsiasi arma da mischia a una mano e tutte le armi a distanza</strong>.</li>\n  <li><strong>Non possono usare armi a due mani</strong>, in quanto queste interferiscono con il suonare degli strumenti musicali.</li>\n  <li>I bardi possono indossare <strong>armature fino alla corazza di maglia</strong>, ma armature più pesanti impongono penalità alle loro abilità da ladro.</li>\n  <li>Un Bardo può impugnare <strong>scudi di dimensioni medie o più piccoli</strong>, ma farlo impedisce l'uso dello strumento musicale.</li>\n</ul>\n<h4>Dadi Vita</h4>\n<ul>\n  <li>I bardi tirano <strong>1d6 per i punti ferita per livello</strong> fino al 9° livello, dopodiché guadagnano <strong>+2 punti ferita per livello</strong>. Gli aggiustamenti alla Costituzione non si applicano più a questo punto.</li>\n</ul>\n<h4>Abilità Speciali</h4>\n<p>I bardi possiedono diverse abilità simili a quelle dei ladri, insieme a capacità uniche che li distinguono.</p>\n<ul>\n  <li><p><strong>Abilità da Ladro</strong> (influenza il tipo di armatura indossata):</p>\n    <table border=\"1\">\n      <thead>\n        <tr><th>Tipo di Armatura</th><th>Nascondersi nelle Ombre</th><th>Muoversi Silenziosamente</th><th>Sentire Rumori</th><th>Scalare Pareti</th></tr>\n      </thead>\n      <tbody>\n        <tr><td>Armatura in Cuoio</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n        <tr><td>Armatura a Scaglie</td><td>-5%</td><td>-15%</td><td>-5%</td><td>-15%</td></tr>\n        <tr><td>Corazza di Maglia</td><td>-10%</td><td>-20%*</td><td>-10%</td><td>-20%</td></tr>\n      </tbody>\n    </table>\n    <p><em>*Questa penalità può essere ridotta della metà se indossata la Corazza di Maglia Elfica.</em></p>\n  </li>\n  <li><p><strong>Leggere Linguaggi:</strong> Al <strong>4° livello</strong>, un Bardo può leggere linguaggi non magici con una <strong>probabilità dell'80%</strong>.</p></li>\n  <li><p><strong>Usare Pergamene Magiche:</strong> Al <strong>10° livello</strong>, un Bardo può tentare di usare pergamene da mago, con una <strong>probabilità del 10% di fallire</strong>.</p></li>\n  <li><p><strong>Charme del Bardo:</strong> Al <strong>3° livello</strong>, un Bardo acquisisce la capacità di <strong>incantare gli altri</strong> attraverso il canto o la poesia (simile a <em>Charme</em>). Questo migliora ai livelli successivi per influenzare mostri intelligenti e, successivamente, anche piante.</p></li>\n  <li><p><strong>Canzoni-Incantesimo:</strong> I bardi possono lanciare <strong>canzoni-incantesimo</strong>, una forma unica di magia che funziona in modo simile agli incantesimi ma richiede esibirsi con uno strumento musicale incantato.</p></li>\n  <li><p><strong>Colpire alle Spalle (Modificato):</strong></p>\n    <ul>\n      <li>Quando colpisce un <strong>avversario ignaro</strong>, un Bardo ottiene <strong>+2 ai tiri per colpire</strong> e infligge <strong>1,5x danno</strong> (arrotondando per difetto).</li>\n      <li>Questo consente colpi di precisione senza la letalità grezza di un colpo alle spalle di un Ladro.</li>\n    </ul>\n  </li>\n</ul>\n<h3>Avanzamento al Livello di Nome (9° Livello)</h3>\n<p>Al 9° livello, un Bardo guadagna notorietà e può fondare un <strong>Conservatorio</strong>, un luogo dedicato alla formazione degli apprendisti, alla conservazione della storia e al perfezionamento delle canzoni-incantesimo. Questo Conservatorio attira <strong>1d8 apprendisti Bardi di 1° livello</strong>, desiderosi di imparare da un maestro dell'arte. Questi apprendisti sono studenti leali e devoti, anche se non seguiranno mai il Bardo in situazioni di pericolo diretto.</p>\n<p>Un Conservatorio funge da centro di cultura, narrazione e musica, attirando l'attenzione di nobili, studiosi e altri avventurieri. Può assumere molte forme: una grande sala in una città, un rifugio isolato tra le montagne o un santuario nascosto dove si recuperano canzoni e storie perdute. Il Bardo può utilizzare questa roccaforte per studiare nuove canzoni-incantesimo, conservare conoscenze storiche e influenzare il mondo attraverso la sua arte.</p>\n<h3>Opzioni per la Roccaforte</h3>\n<p>I bardi che scelgono di fondare un Conservatorio sono tenuti a offrire riparo e ospitalità ai bardi viaggiatori che cercano conoscenza o riposo. In cambio, questi visitatori portano notizie, canzoni e segreti da tutto il paese</p>"
+        },
+        "Bardic Charm": {
+            "name": "Charme Bardico",
+            "description": "<p>Un Bardo di <strong data-start=\"10\" data-end=\"33\">3° livello o superiore</strong> può incantare gli altri tramite canto, poesia o musica, in modo simile all'incantesimo <em data-start=\"98\" data-end=\"112\">Charme</em>. Il Bardo deve esibirsi per <strong data-start=\"146\" data-end=\"174\">tre turni consecutivi</strong>, dopodiché il bersaglio deve effettuare un <strong data-start=\"211\" data-end=\"244\">tiro salvezza contro gli incantesimi con +3</strong> o essere incantato. L'effetto dura fino a quando non viene dissolto, fino a quando il Bardo non lo annulla, o fino a quando il Bardo non danneggia il bersaglio.</p><p data-start=\"350\" data-end=\"466\">Al <strong data-start=\"353\" data-end=\"366\">9° livello</strong>, questa abilità migliora, permettendo al Bardo di incantare <strong data-start=\"418\" data-end=\"442\">mostri intelligenti</strong> (come <em data-start=\"447\" data-end=\"462\">Charme Mostri</em>).</p><p data-start=\"468\" data-end=\"605\" data-is-last-node=\"\">Al <strong data-start=\"471\" data-end=\"485\">15° livello</strong>, il Bardo può incantare <strong data-start=\"506\" data-end=\"516\">piante</strong> (come <em data-start=\"521\" data-end=\"534\">Charme delle Piante</em>), influenzando vegetazione intelligente come gli uomini-albero o flora magica.</p>"
+        },
+        "Blissful Slumber": {
+            "name": "Riposo del Guerriero",
+            "spellDuration": "Istantaneo",
+            "spellEffect": "Gli individui si sentono completamente riposati",
+            "spellRange": "0 (bardo + destinatari)",
+            "description": "<p>Il bardo deve cantare questa canzone magica per un turno, al termine del quale tutti coloro che si trovano entro <strong>3 m</strong> dal bardo si sentono immediatamente come se avessero avuto un <strong>riposo completo</strong> durante tutta la notte. Le penalità da fatica vengono eliminate, e chi è affetto non ha bisogno di riposare per la notte.</p>\n<h3>Effetti:</h3>\n<ul>\n  <li>Rimuove istantaneamente tutte le penalità da fatica.</li>\n  <li>Sostituisce la necessità di un riposo completo di 8 ore per la notte.</li>\n</ul>\n<h3>Limitazioni:</h3>\n<ul>\n  <li>Questa canzone non può essere utilizzata per più di <strong>tre giorni consecutivi</strong>.</li>\n  <li>Il bardo non può esibire questa canzone più di <strong>quattro volte a settimana</strong>.</li>\n  <li>Se utilizzata troppo, le penalità da fatica si applicano come di consueto, poiché il corpo non può fare a meno del sonno indefinitamente.</li></ul>"
+        },
+        "Bow, Long +1": {
+            "name": "Arco Lungo +1",
+            "description": "<p>Quest'arma è realizzata da un pezzo di legno curvato, mantenuta in forma da una corda tesa e viene usata per scagliare frecce.</p><p>Questo arco richiede entrambe le mani per essere usato, impedendo a chi lo usa di impugnare uno scudo e facendogli sempre perdere l'iniziativa individuale contro chi usa armi a una mano. Non è adatto per halfling e altre creature di piccola taglia, come i goblin.</p>"
+        },
+        "Bow, Short +1": {
+            "description": "<p>Un arco corto è un arco di 90–120 cm, realizzato da un singolo pezzo di legno o da un composito di diversi tipi di legno. Un arco corto richiede entrambe le mani per essere usato. Gli archi necessitano di frecce come munizioni.</p>",
+            "name": "Arco Corto +1"
         }
     },
     "label": "Oggetti Classi Abilità",
@@ -2414,6 +2508,7 @@
         "Treasure": "Tesori",
         "Weapon Masteries": "Maestrie delle Armi",
         "Weapons": "Armi",
-        "Saving Throws": "Tiri Salvezza"
+        "Saving Throws": "Tiri Salvezza",
+        "Bard": "Bardo"
     }
 }
