@@ -259,6 +259,10 @@
                 "G": "Enorme",
                 "GHint": "Creature tra i 3.5 m e i 7.5 m di altezza, come i giganti del freddo e i roc.",
                 "LHint": "Creature tra 2.1 e 3.6 metri di altezza, come orchi, troll e grandi bestie. In meccaniche di combattimento, questa dimensione include tutte le dimensioni più grandi."
+            },
+            "enchanted": {
+                "name": "Incantato",
+                "hint": "Le creature incantate possono essere colpite solo da armi magiche o incantesimi"
             }
         },
         "SheetLabel": {
@@ -294,7 +298,8 @@
             "usedSlots": "Lanci usati",
             "availableSlots": "Lanci disponibili",
             "cast": "L'incantesimo è stato lanciato questo numero di volte",
-            "durationFormulaHint": "La durata dell'effetto in round. Un simbolo di infinito indica una durata infinita. Uno zero indica un effetto istantaneo senza durata."
+            "durationFormulaHint": "La durata dell'effetto in round. Un simbolo di infinito indica una durata infinita. Uno zero indica un effetto istantaneo senza durata.",
+            "casts": "Lanci"
         },
         "Item": {
             "plural": "Equipaggiamento",
@@ -1048,10 +1053,11 @@
             "Concentration": "Concentrazione"
         },
         "monsterSize": {
-            "M": "M",
-            "S": "P",
-            "L": "G",
-            "G": "E"
+            "M": "Med",
+            "S": "Pic",
+            "L": "Gra",
+            "G": "Eno",
+            "I": "Mas"
         },
         "classSpecies": {
             "Elf": "Elfo",
