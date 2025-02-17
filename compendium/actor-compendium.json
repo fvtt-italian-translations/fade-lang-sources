@@ -14952,6 +14952,89 @@
       "monsterType": "Lowlife, Enchanted (Rare)",
       "name": "Insect Swarm (4 HD)"
     },
+    "Kobold": {
+      "biography": "<p>Kobolds are small, doglike humanoids with scaly, rust-brown skin and no hair. They live in underground tunnels and prefer to fight using ambush tactics. Their infravision extends up to 90 feet, allowing them to navigate in darkness with ease.</p><p data-start=\"357\" data-end=\"679\">Kobolds organize into clans of 10 to 60 members. Each lair is ruled by a chieftain with 9 hit points who fights as a 2 HD monster. The chieftain is protected by 1d6 bodyguards (6 HP each, fighting as 1+1 HD monsters). As long as the chieftain is alive, the kobolds in the lair have increased morale (8 instead of 6).</p><p data-start=\"681\" data-end=\"845\">These creatures have an intense hatred for gnomes and attack them on sight. Some kobolds possess magical talent, with spellcasters existing among their ranks.</p><p data-start=\"847\" data-end=\"891\"><strong data-start=\"847\" data-end=\"859\">Terrain:</strong> Cavern, Hill, Mountain, Wood.</p>",
+      "items": {
+        "EU13fdL3kJ6WUgjx": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand"
+        },
+        "L9j3uC4pPABhuWyH": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short"
+        },
+        "PlgT6HDYGEUV3X7P": {
+          "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "name": "Dagger"
+        },
+        "PqWby05zIrd4uQcq": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison"
+        },
+        "Ut6z89Qy7PKzvxR2": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
+        },
+        "WCLCwElMKNjgaE2o": {
+          "name": "Kobold Scaly Skin"
+        },
+        "flaLEWZHyb2dN0ND": {
+          "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+          "name": "Sword, Short"
+        },
+        "lgOxc5JNsdnq4fLC": {
+          "name": "Infravision"
+        },
+        "nY49Mm5a8dOl9qaL": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff"
+        },
+        "o48r5pZGnKT1Dyrj": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis"
+        },
+        "vr0JZniP9kCuFYsy": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath"
+        }
+      },
+      "monsterType": "Monster (Common)",
+      "name": "Kobold"
+    },
+    "Kobold Chieftain": {
+      "biography": "<p>The <strong>Kobold Chieftain</strong> is the leader of a kobold clan, ruling alongside 1d6 bodyguards. The chieftain has <strong>9 hit points</strong> and fights as a 2 HD monster. As long as the chieftain remains alive, all kobolds in the lair have an improved morale of <strong>8 instead of 6</strong>.</p>\n      <p>Kobolds are small, doglike humanoids with scaly, rust-brown skin. They dwell in underground lairs and rely on <strong>ambush tactics</strong> to overwhelm enemies. Their <strong>infravision (90 feet)</strong> allows them to navigate in darkness with ease.</p>\n      <p>Kobolds <strong>hate gnomes</strong> and attack them on sight. Some kobold clans have spellcasters among their ranks.</p>\n      <p><strong>Terrain:</strong> Cavern, Hill, Mountain, Wood.</p>",
+      "items": {
+        "1TmHWsFF13XyX6Rm": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff"
+        },
+        "AjDOu8GjILzQRcWH": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison"
+        },
+        "L5yZ1tO4dHN0Kiaq": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis"
+        },
+        "TiBd3VONJ66bXyQQ": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand"
+        },
+        "hGmftAXszlMDnzeU": {
+          "description": "<p>A crude but deadly short blade wielded by the kobold chieftain.</p>",
+          "name": "Chieftain's Blade"
+        },
+        "hoKOG86GeLh29V0z": {
+          "name": "Scaly Skin"
+        },
+        "vEjq8mmKoTvsb31V": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath"
+        }
+      },
+      "monsterType": "Humanoid (Common)",
+      "name": "Kobold Chieftain"
+    },
     "Living Statue, Crystal": {
       "biography": "<p>A living crystal statue is an animated life form composed entirely of crystal. It appears as a normal statue, often humanoid, and can deliver two attacks per round. Crystal statues are unaffected by sleep spells and can carry up to 1,500 cn at full speed or 3,000 cn at half speed.</p><strong>Terrain:</strong> Any (especially Ruins)</p>",
       "items": {
