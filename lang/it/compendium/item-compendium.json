@@ -2517,11 +2517,89 @@
             "name": "Fondare una Roccaforte"
         },
         "Hide (indoors)": {
-            "name": "Nascondersi (interni)"
+            "name": "Nascondersi (interni)",
+            "description": "<p data-start=\"478\" data-end=\"814\">Al chiuso o nei dungeon, un Halfling può tentare di nascondersi nelle ombre o andare in coperture, ma con meno successo rispetto agli ambienti naturali. Se ci sono ombre o nascondigli sufficienti, ha una possibilità del 33% di rimanere invisibile (tirato segretamente dal DM). Se non c'è alcuna copertura disponibile, l'Halfling non può nascondersi affatto.</p><p data-start=\"816\" data-end=\"993\" data-is-last-node=\"\">Una luce intensa, come una fonte luminosa magica che elimina le ombre, impedisce il nascondersi. Un Halfling non può usare questa abilità mentre porta una fonte di luce.</p>"
         },
         "Hide (natural)": {
             "name": "Nascondersi (esterni)",
             "description": "<p>All'aperto, un Halfling può svanire tra boschi, arbusti o terreni naturali simili, rendendosi estremamente difficile da individuare. Se rimane immobile in tale copertura, ha il 90% di possibilità di restare inosservato (tirato segretamente dal DM). Questa abilità funziona solo in ambienti naturali e non richiede ombre. Se l'Halfling si muove, perde immediatamente l'effetto e diventa visibile.</p>"
+        },
+        "Faerie Lights": {
+            "spellRange": "3 m + 3 m/livello",
+            "description": "<p>Questa canzone magica evoca <strong>luci scintillanti e tremolanti</strong> che danzano attorno a un bersaglio scelto, <strong>illuminando un raggio di 9 m</strong> con la stessa intensità dell' incantesimo <em>Luce</em>. Le luci evocate sembrano muoversi come vive, intrecciandosi e cambiando forma in modo imprevedibile.</p>\n        \n        <p><strong>Effetti:</strong></p>\n        <ul>\n          <li><strong>Illumina un raggio di 9 m</strong> con luce magica intensa.</li>\n          <li><strong>Le creature con intelligenza animale (2 o meno)</strong> devono <strong>superare un tiro salvezza contro paralisi</strong> o rimanere <strong>stordite per [[/r 1d6]] round.</strong></li>\n          <li>Le luci <strong>non hanno forma fisica</strong> e non possono essere spente dal vento, dall'acqua o da altre forze naturali.</li>\n          <li>Le luci <strong>non seguono</strong> un bersaglio in movimento ma restano fisse nella posizione scelta.</li>\n        </ul>",
+            "name": "Luci Danzanti",
+            "spellEffect": "Crea luci danzanti che illuminano fino a un raggio di 9 m"
+        },
+        "Flight Be True": {
+            "spellDuration": "Speciale",
+            "spellEffect": "Migliora un attacco a distanza per round",
+            "description": "<p>Questa canzone magica permette al bardo di incantare temporaneamente un attacco a distanza per round mentre canta e suona uno strumento musicale. Il bardo deve superare tutte le prove richieste per mantenere la canzone.</p>\n\n<h3>Effetti:</h3>\n<ul>\n  <li>Una freccia, quadrello o pietra da fionda per round viene incantata.</li>\n  <li>Il proiettile incantato ottiene <strong>+4 al tiro per colpire</strong>.</li>\n  <li>Il proiettile può danneggiare creature normalmente immuni alle armi non argentate o non magiche.</li>\n</ul>\n\n<h3>Durata:</h3>\n<ul>\n  <li>Il bardo può continuare questa canzone per un numero massimo di round pari al suo <strong>punteggio di Costituzione</strong>.</li>\n  <li>Dopo aver raggiunto questo limite, il bardo <strong>perde i sensi per [[/r 1d4 #Ore privo di sensi]] ore</strong>.</li>\n  <li>Se il bardo interrompe il canto prima di raggiungere il limite, non subisce effetti negativi.</li>\n</ul>",
+            "spellRange": "6 m + 3 m/livello del bardo",
+            "name": "Tiro Impeccabile"
+        },
+        "Ghoul Paralysis Immunity": {
+            "description": "<p>Gli Elfi sono immuni agli attacchi paralizzanti dei ghoul. Sono, tuttavia, ancora influenzati da altre forme di paralisi.</p>",
+            "name": "Immunità alla Paralisi dei Ghoul"
+        },
+        "Halberd +1": {
+            "description": "<p>Una alabarda è un'arma su asta grande, lunga da 1.8 m a 2.4 m, la cui testa ha una lunga punta con una lama a forma di ascia su un lato e un gancio sull'altro lato.<br>Grazie alla sua lunghezza, un personaggio con un'arma su asta può attaccare un nemico anche quando c'è un altro alleato o nemico tra loro. Spesso, i portatori di armi su asta si posizionano nella seconda fila di combattimento, colpendo al di sopra delle teste dei loro compagni in prima linea per colpire i combattenti nemici in prima linea. <em>Consulta le regole per altri dettagli speciali.</em></p>",
+            "name": "Alabarda +1"
+        },
+        "Magic Resistance": {
+            "name": "Resistenza alla Magia",
+            "description": "<p>Al raggiungimento di 300.000 PX, un Halfling ottiene una resistenza innata alla magia. Subisce automaticamente la metà dei danni da qualsiasi incantesimo o effetto magico che causa danni (inclusi gli oggetti magici). Se l'effetto permette un tiro salvezza, un tiro riuscito riduce ulteriormente i danni a un quarto.</p><p data-start=\"351\" data-end=\"514\">Quando si calcolano i danni ridotti, arrotondare sempre per difetto. Se il danno finale è pari a mezzo punto o meno, l'Halfling subisce invece 1 punto di danno.</p>"
+        },
+        "Guardian Angels": {
+            "description": "<p>Una volta cantata, questa canzone magica conferisce al bardo e a tutti i destinatari nel raggio d'azione una benedizione protettiva per la durata dell'effetto.</p>\n\n<h3>Effetti:</h3>\n<ul>\n  <li>Tutte le creature influenzate ottengono un <strong>bonus di -2 alla CA</strong>, applicato contro tutti gli attacchi.</li>\n  <li>I destinatari diventano <strong>immuni a tutti gli effetti di altre canzoni-magiche bardiche</strong> nella durata di questo effetto.</li>\n</ul>\n\n<h3>Area di Effetto:</h3>\n<ul>\n  <li>Influenza il bardo e tutti gli alleati entro <strong>4.5 m + 1.5 m per livello del bardo</strong>.</li>\n</ul>\n\n<h3>Durata:</h3>\n<ul>\n  <li>L'incantesimo dura <strong>10 round</strong>.</li>\n</ul>",
+            "name": "Angeli Custodi",
+            "spellEffect": "Conferisce bonus alla CA e immunità alle canzoni magiche bardiche",
+            "spellRange": "0 (bardo + destinatari)"
+        },
+        "Magic's End": {
+            "description": "<p>Quando viene cantata, questa canzone magica dissolve tutti gli incantesimi e gli effetti magici all'interno della sua area di effetto. Tuttavia, a differenza dell'incantesimo <em>Dissolvi Magie</em>, vi è sempre una possibilità che un incantesimo o un effetto resista alla dissoluzione.</p>\n\n<h3>Effetti:</h3>\n<ul>\n  <li>Dissolve tutti gli <strong>incantesimi ed effetti magici</strong> all'interno di un cubo di <strong>6 m x 6 m x 6 m</strong>.</li>\n  <li>Ogni incantesimo o effetto colpito ha una <strong>resistenza base del 20%</strong> se il suo livello è uguale o inferiore al livello del bardo.</li>\n  <li>Per ogni livello superiore a quello del bardo, la resistenza aumenta di <strong>+5%</strong>.</li>\n</ul>\n\n<h3>Calcolo della Resistenza:</h3>\n<ul>\n  <li>Esempio: Un <strong>bardo di 7º Livello</strong> tenta di dissolvere un incantesimo <em>Nube Mortale</em> lanciato da un <strong>mago di 12º Livello</strong>.</li>\n  <li>La possibilità di resistenza è <strong>20% + (5% x 5) = 45%</strong>.</li>\n  <li>Tirare [[/r 1d100 #Resistenza alla dissoluzione]]; se il risultato è inferiore o uguale alla possibilità di resistenza, l'incantesimo resiste alla dissoluzione.</li>\n</ul>\n\n<h3>Note Aggiuntive:</h3>\n<ul>\n  <li>Si applica agli <strong>effetti magici simili a incantesimi provenienti da oggetti magici</strong>, con il DM che stima il livello originale dell'incantatore.</li>\n  <li>Gli effetti magici permanenti sono soggetti alla discrezione del DM per la dissoluzione.</li>\n</ul>",
+            "name": "E la Magia Svanì",
+            "spellEffect": "Tenta di dissolvere tutti gli effetti magici nell'area"
+        },
+        "Maze": {
+            "description": "<p>Questo incantesimo crea un labirinto indistruttibile nel <strong>Piano Astrale</strong> e intrappola istantaneamente una vittima al suo interno. Il bersaglio <strong>non</strong> riceve un tiro salvezza.</p>\n\n                    <h3>Tempo di fuga:</h3>\n                    <p>L'intelligenza della vittima determina quanto tempo rimane intrappolata.</p>\n                    <ul>\n                      <li><strong>Intelligenza da Non a Bassa (1-8):</strong> [[/r 1d6 #Turni intrappolato nel labirinto]] turni</li>\n                      <li><strong>Intelligenza Media (9-12):</strong> [[/r 2d20 #Round intrappolato nel labirinto]] round</li>\n                      <li><strong>Intelligenza Alta (13-17):</strong> [[/r 2d4 #Round intrappolato nel labirinto]] round</li>\n                      <li><strong>Intelligenza da Genio (18+):</strong> [[/r 1d4 #Round intrappolato nel labirinto]] round</li>\n                    </ul>\n\n                    <h3>Meccaniche:</h3>\n                    <ul>\n                      <li>La vittima viene rimossa dal campo di battaglia per la durata.</li>\n                      <li>Quando scappa, <strong>riappare esattamente nel luogo</strong> dove è stata originariamente intrappolata.</li>\n                      <li>Il labirinto è <strong>indistruttibile</strong> e esiste solo nel Piano Astrale.</li>\n                      <li>Teletrasporto e viaggio dimensionale <strong>non possono</strong> aggirare questo effetto.</li>\n                    </ul>",
+            "name": "Labirinto",
+            "spellDuration": "Vedi descrizione",
+            "spellEffect": "Intrappola un essere vivente in un labirinto astrale"
+        },
+        "Metal to Wood": {
+            "description": "<p>Questo incantesimo trasforma permanentemente il metallo in legno morto.</p>\n                      <h3>Effetti:</h3>\n                      <ul>\n                        <li>L'incantatore può trasmutare fino a <strong>2.3 kg (50 mon) di metallo per livello dell'incantatore</strong>.</li>\n                        <li>La trasformazione è <strong>permanente</strong> e <strong>non può essere invertita da dissolvi magie</strong>.</li>\n                        <li>Gli <strong>oggetti magici di metallo</strong> hanno una <strong>probabilità del 90% di resistere</strong> a questo effetto.</li>\n                        <li>L'armatura trasformata in legno <strong>cade dal portatore</strong>.</li>\n                        <li>Le armi trasformate in legno <strong>diventano clave di legno non magiche</strong>.</li>\n                      </ul>",
+            "name": "Metallo in Legno",
+            "spellEffect": "Trasforma il metallo in legno morto"
+        },
+        "Meteor Swarm": {
+            "description": "<p>Questo incantesimo crea <strong>4 meteore grandi</strong> oppure <strong>8 meteore più piccole</strong> (scelte dall'incantatore). Ogni meteora <strong>non manca mai</strong> il suo bersaglio ed esplode come una palla di fuoco all'impatto.</p>\n\n                    <h3>Opzioni delle Meteore:</h3>\n                    <ul>\n                      <li><strong>4 Meteore Grandi:</strong> Ognuna colpisce per [[/r 8d6 #Danno da Impatto della Meteora]] punti e poi esplode per [[/r 8d6 #Danno da Esplosione]] punti di danno da fuoco.</li>\n                      <li><strong>8 Meteore Piccole:</strong> Ognuna colpisce per [[/r 4d6 #Danno da Impatto della Meteora]] punti e poi esplode per [[/r 4d6 #Danno da Esplosione]] punti di danno da fuoco.</li>\n                    </ul>\n\n                    <h3>Meccaniche:</h3>\n                    <ul>\n                      <li>Le meteore possono essere dirette su <strong>bersagli diversi</strong> entro il raggio, ma solo una meteora può colpire una singola creatura.</li>\n                      <li>Il <strong>danno da impatto</strong> è automatico (nessun tiro salvezza).</li>\n                      <li>Ogni meteora crea un'<strong>esplosione con raggio di 6 m</strong> all'impatto.</li>\n                      <li><strong>Danno da esplosione:</strong> Le creature entro l'area dell'esplosione possono effettuare un <strong>tiro salvezza contro incantesimi</strong> per subire metà danno.</li>\n                      <li>Le creature resistenti al fuoco o che usano il fuoco sono <strong>pienamente colpite dal danno da impatto</strong>, ma possono resistere al danno da esplosione.</li>\n                      <li>Le aree colpite da esplosioni sovrapposte subiscono danni da esplosione multipli separatamente.</li>\n                    </ul>",
+            "spellEffect": "Crea 4 o 8 meteore infuocate che esplodono all'impatto",
+            "name": "Pioggia di Meterore"
+        },
+        "Move Earth": {
+            "description": "<p>Questo incantesimo permette all'incantatore di <strong>spostare grandi quantità di terreno</strong> (ma non roccia) entro un raggio di <strong>72 m</strong>. L'incantesimo sposta il terreno a una velocità di <strong>18 m per turno</strong>.</p>\n                      <h3>Effetti:</h3>\n                      <ul>\n                        <li>Il terreno può essere spostato <strong>orizzontalmente</strong> per creare <strong>colline, argini o barriere</strong>.</li>\n                        <li>Il terreno può essere spostato <strong>verticalmente</strong> per creare una fossa o trincea <strong>fino a 72 m di profondità</strong> (a meno che non sia fermato dalla roccia di fondo).</li>\n                        <li>Una volta spostato, il terreno <strong>rimane in posizione permanentemente</strong> alla fine della durata dell'incantesimo.</li>\n                      </ul>\n                      <h3>Utilizzi:</h3>\n                      <ul>\n                        <li><strong>Costruire fortificazioni</strong> o rimodellare paesaggi.</li>\n                        <li><strong>Creare barriere difensive</strong> o bloccare sentieri.</li>\n                        <li><strong>Scavare trincee o tunnel</strong> per scopi tattici.</li>\n                      </ul>"
+        },
+        "Mind Barrier*": {
+            "description": "<p>Questo incantesimo concede a una creatura una potente protezione contro gli <b>effetti mentali</b> per <b>1 ora per livello dell'incantatore</b>. Un bersaglio non consenziente può effettuare un <b>tiro salvezza contro incantesimi</b> per resistere.</p>\n\n                    <h2>Effetti:</h2>\n                    <ul>\n                      <li>Il bersaglio è <b>completamente immune</b> a ESP, <i>Chiaroveggenza</i>, <i>Chiaroudienza</i>, <i>spieare con sfera di cristallo</i> e simili rilevazioni magiche.</li>\n                      <li>Impedisce la raccolta di informazioni magiche (come <i>Contattare Piani Esterni)</i> o <i>Evocare un Oggetto</i>).</li>\n                      <li>Per la durata, l'incantatore o il destinatario <b>non esiste effettivamente</b> per questi effetti.</li>\n                      <li>Il bersaglio ottiene <b>+8 a tutti i tiri salvezza</b> contro <b>Charme, di illusioni di creazioni spettrali, Demenza Precoce, </b> e altri attacchi mentali.</li>\n                      <li>Un tiro naturale di <b>1 fallisce sempre</b>, indipendentemente dai bonus.</li>\n                    </ul>",
+            "name": "Barriera Mentale*",
+            "spellDuration": "1 ora per livello del mago",
+            "spellEffect": "Concede immunità alla magia che influenza la mente e +8 ai tiri salvezza contro gli attacchi mentali"
+        },
+        "Hammer, War +1": {
+            "name": "Martello da Guerra +1",
+            "description": "<p>Un martello da guerra è un grande martello a una mano, solitamente lungo da 60 cm a 90 cm. La testa di un martello da guerra è spesso simmetrica per favorirne l'equilibrio.</p>"
+        },
+        "Hammer, Throwing +1": {
+            "description": "<p>Un martello da lancio è un martello a una mano con un manico corto, bilanciato per il lancio. Nonostante il nome, può essere utilizzato anche in mischia.</p>",
+            "name": "Martello da lancio +1"
+        },
+        "Javelin +1": {
+            "description": "<p>Un giavellotto è una lancia leggera a una mano. Sebbene venga principalmente usata come arma da lancio, può essere utilizzata anche in mischia. Gli Halfling e altre razze piccole <em>possono</em> usare questa arma.</p>",
+            "name": "Giavellotto +1"
+        },
+        "Lance +1": {
+            "name": "Lancia da Cavaliere +1",
+            "description": "<p>Una lancia da cavaliere è una lancia estremamente lunga, da 2,7 m a 3,6 m. È troppo ingombrante per essere utilizzata a piedi e può essere usata solo quando si è a cavallo, caso in cui può essere utilizzata con una mano nonostante la sua lunghezza. Vedi le regole per l'uso di questa arma.</p>"
         }
     },
     "label": "Oggetti Classi Abilità",
