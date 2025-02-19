@@ -239,7 +239,11 @@
             },
             "AT#Recv": {
                 "name": "AT# RCV",
-                "desc": "Numero di attacchi ricevuti in questo round"
+                "desc": "Numero di attacchi ricevuti in questo round",
+                "descM": "Numero di attacchi da mostri/distanza ricevuti in questo turno.",
+                "descH": "Numero di attacchi in mischia ricevuti questo turno.",
+                "nameH": "AT# ricev. M",
+                "nameM": "AT# ricev. M/D"
             },
             "morale": "Morale",
             "THBonusHint": "Utilizzato con il sistema di classe armatura ascendente (CAA), questo valore viene aggiunto ai tiri per colpire. Chiamato anche bonus d'attacco. Il bonus per colpire è calcolato automaticamente in base al valore di THAC0.",
@@ -487,7 +491,9 @@
             "primary": "Primaria",
             "secondary": "Secondaria",
             "weaponTypeTitle": "M=Mostro/Distanza, I=In Mano, T=Tutte",
-            "weaponType": "Tipo Arma"
+            "weaponType": "Tipo Arma",
+            "acBonusType": "Tipo Bonus CA",
+            "acBonusTypeHint": "Il tipo di attacco a cui si applica il bonus alla CA."
         },
         "SpecialAbility": {
             "plural": "Abilità Speciali",
