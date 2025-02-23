@@ -348,7 +348,8 @@
       "targetACDefMastery": "<span data-tooltip='Armor class for melee attacks.' {cssClass}>{acTotal}</span>/<span {cssClassMastery} data-tooltip='<p>Adjusted armor class with weapon mastery ({masteryName}) bonus. Attacked {attAgainst}/{maxAttAgainst} times.</p>'>{defenseMasteryTotal}</span>{targetRangedAc}",
       "targetRangedAC": "/<span data-tooltip='Armor class for ranged attacks.' {cssClass}>{acTotal}</span>",
       "targets": "Targets",
-      "useSpecAbility": "{owner} uses {specAbility}"
+      "useSpecAbility": "{owner} uses {specAbility}",
+      "useWithTarget": "{owner} uses {used} ({operator}{target})"
     },
     "DamageTypes": {
       "name": "Damage Type",
