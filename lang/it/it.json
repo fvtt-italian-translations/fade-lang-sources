@@ -271,6 +271,10 @@
             "castAs": {
                 "hint": "Alcuni mostri possono lanciare incantesimi o possedere altre abilità equivalenti a una specifica classe e livello. Specificare classe e livello, simile al tiro salvezza. Esempio: Un mostro che può lanciare incantesimi come un mago di 9º livello avrebbe un valore di 'Lancia Incantesimi come' pari a 'M9'.",
                 "name": "Lancia Incantesimi come"
+            },
+            "classAbilityAs": {
+                "name": "Classe Ablt Come",
+                "hint": "Alcuni mostri possiedono le abilità di classe di una specifica classe e livello. Specificare come chiave di classe e livello, simile a \"salva come\". Esempio: Un mostro con abilità di classe da ladro di 2º livello avrebbe una capacità di classe indicata come 'L2'."
             }
         },
         "SheetLabel": {
@@ -568,7 +572,8 @@
                 "rollFormula": "Tiri di Iniziativa (Formula Base: {formula})"
             },
             "targetAC": "<span data-tooltip='Classe armatura in mischia e a distanza (se uguali); altrimenti classe armatura solo in mischia.' {cssClass}>{acTotal}</span>{targetRangedAc}",
-            "targetRangedAC": "/<span data-tooltip='CA per attacchi a distanza.' {cssClass}>{acTotal}</span>"
+            "targetRangedAC": "/<span data-tooltip='CA per attacchi a distanza.' {cssClass}>{acTotal}</span>",
+            "useWithTarget": "{owner} usa {used} ({operator}{target})"
         },
         "dialog": {
             "lightSource": "Fonte di Luce",
@@ -610,7 +615,8 @@
                 "awarded": "PX assegnati con successo!",
                 "xpAmountTotal": "PX Totali",
                 "xpAmount": "Ammontare in PX",
-                "share": "Condividi"
+                "share": "Condividi",
+                "awardedCharacter": "{name} ha ricevuto {amount} PX!"
             },
             "shove": {
                 "attackerRoll": "{attacker} tira i dadi",
@@ -1052,7 +1058,9 @@
             "Any": "Qualsiasi",
             "None": "Nessuno",
             "Chaotic or Neutral": "Caotico o Neutrale",
-            "Lawful or Neutral": "Legale o Neutrale"
+            "Lawful or Neutral": "Legale o Neutrale",
+            "Any (often Chaotic)": "Qualsiasi (spesso Caotico)",
+            "Lawful (with master) or Chaotic (without)": "Legale (con maestro) o Caotico (senza)"
         },
         "spellRange": {
             "Touch": "Tocco",
