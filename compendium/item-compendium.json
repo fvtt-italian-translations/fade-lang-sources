@@ -1203,10 +1203,18 @@
       "description": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
       "name": "Hammer, War +1"
     },
+    "Hand Drum": {
+      "description": "<p>A frame drum that was used in various forms of music. Although it can be played with the hand, it is often accompanied by a stick or beater.</p>",
+      "name": "Hand Drum"
+    },
     "Harden*": {
       "description": "<p>This spell turns an area of mud into solid rock, permanently. The affected area can be up to 3,000 square feet in surface area and 10' deep. The caster may shape the area within these limits (e.g., 20' x 150', 30' x 100').</p>\n                      <p>Creatures caught within the area must make a saving throw vs. spells to avoid being trapped in the hardened mud.</p>",
       "name": "Harden*",
       "spellEffect": "Turns mud into solid rock"
+    },
+    "Harp": {
+      "description": "<p>A stringed instrument played by plucking the strings, often associated with both folk and court music.</p>",
+      "name": "Harp"
     },
     "Haste*": {
       "description": "<p>This spell increases the movement and attack speed of up to 24 creatures within a 60' diameter area, allowing them to act at double speed for 3 turns.</p>\n                      <p><strong>Effects:</strong> Hasted creatures move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p>\n                      <p><strong>Reverse Spell:</strong> The reverse, *Slow*, either cancels *Haste* or reduces the target’s movement and attack speed by half. Each affected creature may make a saving throw vs. spells to avoid *Slow*.</p>",
@@ -1480,6 +1488,10 @@
       "description": "<p>This spell causes a body of water to lower to <strong>half its normal depth</strong> in an area up to <strong>10,000 square feet</strong> (width and length).</p>\n                      <h3>Effects:</h3>\n                      <ul>\n                        <li>The spell affects the area for the entire duration (or until dispelled).</li>\n                        <li>If cast on a <strong>flowing body of water</strong> (such as a river or ocean), the water remains lowered in that area, and surrounding water <strong>does not</strong> flow in until the spell ends.</li>\n                        <li><strong>Ships and boats</strong> in the affected area may become <strong>stuck</strong>.</li>\n                      </ul>\n                      <h3>At Spell Expiration:</h3>\n                      <ul>\n                        <li>The water rushes back in <strong>suddenly</strong>, causing a violent surge.</li>\n                        <li>Affected ships suffer <strong>1d12 + 20 (21-32)</strong> points of hull damage.</li>\n                        <li>Creatures on deck must make a <strong>saving throw vs. spells</strong> or be swept overboard.</li>\n                      </ul>\n                      <h3>Uses:</h3>\n                      <ul>\n                        <li><strong>Ford a river</strong> by temporarily reducing its depth.</li>\n                        <li><strong>Reveal hidden areas</strong> by lowering pools of water.</li>\n                        <li><strong>Strand ships</strong> by dropping the water level around them.</li>\n                      </ul>",
       "name": "Lower Water",
       "spellEffect": "Cuts depths to half normal"
+    },
+    "Lute": {
+      "description": "<p>A plucked string instrument with a rounded body and a fretted neck, popular in both secular and sacred music.</p>",
+      "name": "Lute"
     },
     "Mace": {
       "name": "Mace"
@@ -2034,6 +2046,10 @@
     "Read Scroll": {
       "description": "<p>A Thief of <strong>10th level or higher</strong> can attempt to cast spells from <strong>magic-user scrolls</strong>. This requires <strong>one round of reading</strong>, and the scroll is consumed upon use. There is a <strong>10% chance of backfire</strong>, which may cause the spell to fail, produce a random effect, or target the wrong creature (DM’s discretion). Thieves cannot use cleric or druid scrolls.</p>",
       "name": "Read Scroll"
+    },
+    "Recorder": {
+      "description": "<p>A woodwind instrument with a whistle mouthpiece, popular in various forms of music.</p>",
+      "name": "Recorder"
     },
     "Reincarnation": {
       "description": "<p>This spell allows the caster to <strong>return a deceased character to life</strong> by magically creating a <strong>new body</strong> for their life force to inhabit. The spell requires at least a small part of the dead character's body to work.</p>\n                      \n                      <h3>Effects:</h3>\n                      <ul>\n                        <li>The new body <strong>may not be the same race</strong> as the original. The DM may choose or roll on the provided tables.</li>\n                        <li><strong>If reincarnated as a different race</strong>, the character loses all racial abilities of the former body and gains those of the new form.</li>\n                        <li><strong>If reincarnated as a monster</strong>, the monster must be semi-intelligent (at least) and must be able to have the character's original alignment.</li>\n                        <li><strong>Class Restrictions:</strong> If a non-human character is reincarnated as a human, the DM may allow them to choose a new class. If an elf, dwarf, or halfling is reincarnated into another race, they follow the racial limitations.</li>\n                      </ul>\n\n                      <h3>Reincarnation Results:</h3>\n                      <table>\n                        <thead>\n                          <tr><th>1d8 Roll</th><th>New Body Type</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>1</td><td>Human</td></tr>\n                          <tr><td>2</td><td>Human</td></tr>\n                          <tr><td>3</td><td>Human</td></tr>\n                          <tr><td>4</td><td>Dwarf</td></tr>\n                          <tr><td>5</td><td>Elf</td></tr>\n                          <tr><td>6</td><td>Halfling</td></tr>\n                          <tr><td>7</td><td>Original Race</td></tr>\n                          <tr><td>8</td><td>Monster (see below)</td></tr>\n                        </tbody>\n                      </table>\n\n                      <h3>Monster Reincarnation:</h3>\n                      <table>\n                        <thead>\n                          <tr><th>1d6 Roll</th><th>Lawful</th><th>Neutral</th><th>Chaotic</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>1</td><td>Blink Dog</td><td>White Ape</td><td>Bugbear</td></tr>\n                          <tr><td>2</td><td>Gnome</td><td>Bear*</td><td>Gnoll</td></tr>\n                          <tr><td>3</td><td>Neanderthal</td><td>Centaur</td><td>Kobold</td></tr>\n                          <tr><td>4</td><td>Giant Owl</td><td>Griffon</td><td>Manticore</td></tr>\n                          <tr><td>5</td><td>Pegasus</td><td>Lizard Man</td><td>Orc</td></tr>\n                          <tr><td>6</td><td>Treant</td><td>Pixie</td><td>Troglodyte</td></tr>\n                        </tbody>\n                      </table>\n                      <p><em>* Any normal bear</em></p>",
