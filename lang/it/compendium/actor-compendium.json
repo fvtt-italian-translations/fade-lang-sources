@@ -1555,7 +1555,9 @@
                     "spellEffect": "Crea veleno in una creatura o in un contenitore"
                 },
                 "9fM3j6FsLMNQLHNr": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "spellEffect": "Sfera oscura del diametro di 18 m",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>"
                 },
                 "ABPzQUnLEhNZaJ6a": {
                     "description": "<p>Questo è l'incantesimo di guarigione più potente disponibile. Quando usato per curare le ferite, ripristina quasi tutti i danni, lasciando il destinatario con solo [[/r 1d6 #danni rimanenti]] punti ferita rimanenti.</p><p><strong>Processo di Guarigione:</strong> Ripristina i punti ferita iniziali del bersaglio, quindi tira 1d6 e sottrai quel valore dal totale.</p><p><strong>Usi Alternativi:</strong> Invece di curare i danni, <em>Cura Totale</em> può essere usato per rimuovere <em>una</em> delle seguenti condizioni:</p><ul><li>Rimuovere una maledizione</li><li>Neutralizzare un veleno</li><li>Curare la paralisi</li><li>Curare una malattia</li><li>Curare la cecità</li><li>Rimuovere un effetto di <em>Demenza Precoce</em></li></ul><p>Se il destinatario soffre di più afflizioni (come ferite e una maledizione), il chierico deve specificare quale condizione sta curando.</p><p><strong>Effetto sulle Creature Appena Resuscitate:</strong> Se lanciato su qualcuno che è stato appena riportato in vita con <em>Resurrezione</em>, <em>Cura Totale</em> elimina la necessità di due settimane di riposo a letto, permettendo al bersaglio di riprendersi immediatamente. Questo è l'unico incantesimo di guarigione magica che ha effetto su una creatura appena resuscitata.</p>",
@@ -1593,7 +1595,8 @@
                 },
                 "DdntpIwHlHOkpS1w": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "EIlqU03lgO8z34hN": {
                     "description": "<p><em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p><p>Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p>",
@@ -1607,7 +1610,8 @@
                 },
                 "GSRSNFUEAPJR1RlG": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "IhJuCCY3OjI8DaRa": {
                     "name": "Cura Cecità",
@@ -1754,7 +1758,8 @@
                 },
                 "Oj9GrwEFeD6GBTsV": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "TvMSBDMxwsMhqKN5": {
                     "description": "<p>Questo incantesimo cura qualsiasi malattia, comprese quelle causate da mummie o dalla fanghiglia verde. Dall'11º livello in poi, può anche curare la licantropia.</p><p>L'inverso, <em>Infliggi Malattie</em>, infetta il bersaglio con una malattia tremenda e devastante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 a tutti i suoi tiri per colpire. Le ferite della vittima non possono essere curate con la magia e il decorso naturale è due volte più lungo del normale. La malattia è fatale entro [[/r 2d12 #Durata del cura malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>cura malattie</em></p>",
@@ -10669,12 +10674,32 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
                 },
                 "uFYQ6bS7GFxnBjeT": {
-                    "name": "Resistenza Magica"
+                    "name": "Resistenza Magica",
+                    "description": "<p>Il Servo Fluttuante può essere ferito solo da incantesimi o armi magiche, rendendolo quasi immune alla maggior parte degli attacchi fisici.</p>",
+                    "gmNotes": "Resistenza agli attacchi non-magici."
                 },
                 "yNi4nsW0MNjZIWBb": {
-                    "name": "Volare"
+                    "name": "Volare",
+                    "description": "<p>Il Servo Fluttuante può volare a velocità incredibili, muovendosi a una velocità di 216 m (72 m) per round. Questa abilità gli permette di attraversare rapidamente il campo di battaglia o sfuggire al pericolo.</p>",
+                    "gmNotes": "Abilità di volo con alta velocità di movimento."
+                },
+                "8zMkH5NaF4ejB9yM": {
+                    "description": "Il Servo Fluttuante tenta di afferrare il suo bersaglio. In caso di successo, il bersaglio deve superare un tiro salvezza contro incantesimi o essere afferrato saldamente.",
+                    "name": "Afferrare"
+                },
+                "Vm7JtHuwwBL9REHf": {
+                    "description": "<p>Il Servo Fluttuante può muoversi a super-velocità, sorprendendo i suoi bersagli con un risultato di 1-7 su un tiro di 1d8. Questa abilità gli permette di cogliere i bersagli impreparati e completare rapidamente le sue missioni.</p>",
+                    "gmNotes": "Abilità di super-velocità per sorpresa e movimento rapido.",
+                    "name": "Super-Velocità"
+                },
+                "pPE64L1R45rjmzlY": {
+                    "description": "La nebbia vorticosa del Servo Fluttuante fornisce una protezione naturale.",
+                    "name": "Armatura Eterea"
                 }
-            }
+            },
+            "monsterType": "Mostro Planare, Magico (Raro)",
+            "name": "Servo Fluttuante (Haoou)*",
+            "biography": "<p>I servi fluttuanti, noti anche come haoou, sono figure umanoidi composte di nebbia vorticosa e hanno una presenza inquietante. Sono nativi del piano elementale dell’Aria e si trovano solo sul Piano Materiale quando evocati da un chierico tramite l’incantesimo Servo Fluttuante.</p>\n      <p>Questi esseri non gradiscono essere evocati per servire e provano risentimento verso coloro che li portano sul Piano Materiale. Nonostante ciò, non interpretano intenzionalmente i comandi in modo errato. Sono esseri potenti che non si impegnano in combattimento ma sono eccezionalmente abili nel catturare e recuperare oggetti o creature come ordinato dai loro evocatori.</p>\n      <p>Solo armi magiche o incantesimi possono ferirli, e possono viaggiare a velocità incredibili, spesso sorprendendo i loro bersagli. La loro presa è quasi impossibile da sfuggire, con una probabilità di liberarsi per la vittima pari alla percentuale dei suoi Dadi Vita o livello.</p>\n      <p>Sul loro piano natale, gli haoou hanno un impero in regioni con pochi altri abitanti, dove spesso si scontrano con helion e djinn. Temono creature e attacchi legati all’elemento della terra.</p>\n      <p><strong>Terreno:</strong> Piano dell’Aria; Qualsiasi.</p>\n      <p><strong>Capacità di carico:</strong> 500 mon a piena velocità; 1000 mon a mezza velocità quando trasportano oggetti o prigionieri.</p>"
         },
         "Black Pudding*": {
             "items": {
