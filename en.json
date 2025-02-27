@@ -476,8 +476,8 @@
     "SheetLabel": {
       "ActorMasteryItem": "Actor Mastery Item Sheet",
       "ArmorItem": "Armor Item Sheet",
-      "Character": "Character Sheet (DD)",
-      "Character2": "Character Sheet (Alternate)",
+      "Character": "Character Sheet (Old School)",
+      "Character2": "Character Sheet",
       "ClassItem": "Class Item Sheet",
       "Item": "Gear Item Sheet",
       "LightItem": "Light Item Sheet",
@@ -714,6 +714,16 @@
           "name": "Special"
         }
       }
+    },
+    "condition": {
+      "addStatusEffect": {
+        "hint": "If checked, the condition will be added as a status effect.",
+        "name": "Status Effect"
+      },
+      "key": {
+        "hint": "The key used for refering to this item. Can be one or more characters in length and should not include any special characters."
+      },
+      "plural": "Conditions"
     },
     "cursed": "Cursed",
     "dialog": {
@@ -1046,6 +1056,7 @@
     "Item": {
       "armor": "Armor",
       "class": "Character Class",
+      "condition": "Condition",
       "item": "Item",
       "light": "Light",
       "mastery": "Actor Weapon Mastery",
