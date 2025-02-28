@@ -586,7 +586,8 @@
                 },
                 "BYg6CpfE4yoEUVoT": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "BhV0CE314AnKXftZ": {
                     "name": "Dito della Morte*",
@@ -656,7 +657,8 @@
                 },
                 "WcX83aRD9MDGGVRQ": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "YyVzk08hBIuLamq3": {
                     "name": "Benedizione*",
@@ -789,7 +791,9 @@
                     "spellEffect": "Raddoppia le dimensioni di un animale"
                 },
                 "5gp2MJ6awBVkgvbz": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "9eQxUUhrluL6Lxxi": {
                     "description": "<p><em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p><p>Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p>",
@@ -803,7 +807,8 @@
                 },
                 "PnOatLzqlNMh12zZ": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "fQblyLGEy0TTohom": {
                     "description": "<p>Questo incantesimo cura una creatura vivente (che non sia non-morta o non vivente) di [[/r 1d6+1 #Cura Ferite Leggere]] punti danno. L'incantatore può curare se stesso con questo incantesimo.</p><p>In altrenativa, l'incantesimo può essere usato per curare la paralisi (eccetto quella causata da un incantesimo di <em>Blocca Persone</em> o <em>Blocca Mostri</em>), sebbene in tal caso nessun danno verrà curato allo stesso momento.</p><p>L'incantesimo non aumenterà i punti ferita massimi del bersaglio.</p><p>Quando invertito, questo incantesimo, <em>causa ferite leggere</em>, causa [[/r 1d6+1 #Causa Ferite Leggere]] punti di danno al bersaglio. Non è permesso alcun tiro salvezza, ma l'incantatore deve effettuare un normale tiro per colpire per infliggere questo danno.</p>",
@@ -8951,7 +8956,8 @@
                 },
                 "0BjPAuLWWwgqb8NJ": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "5FX1rH3OFvk5xuDa": {
                     "name": "Scaccia Maledizioni*",
@@ -8971,7 +8977,9 @@
                     "spellDuration": "12 turni (2 ore)"
                 },
                 "CAcA0Z9qZBgd6KYL": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "CkI4Sis8wrX3MnO2": {
                     "name": "Silenzio (4,5m raggio)",
@@ -9017,7 +9025,8 @@
                 },
                 "Xf3qr4CBJaqtwsGa": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "Xio7icmL3YY4BdvY": {
                     "name": "Veleno o Raggio della Morte",
@@ -9274,7 +9283,8 @@
                 },
                 "nSJocVIDCVar7qIX": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "otzkm1l52aOEfh2D": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -10791,7 +10801,9 @@
                     "description": "<p>Questo incantesimo paralizza fino a quattro creature, influenzando qualsiasi umano, semiumano o essere simile a un umano come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchetti, orchi, nixie, pixie o folletto. Non influisce su non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per nove turni. Se l'incantesimo è lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell'incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla versione inversa di questo incantesimo o da un incantesimo dissolvi magie.</p><p>L'incantesimo inverso, <em>liberatore</em>, solleva la paralisi da un massimo di quattro vittime colpite dalla forma normale dell'incantesimo (incluso *blocca persone* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p>"
                 },
                 "CAcA0Z9qZBgd6KYL": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "Ca31zRDqNzXkGTqc": {
                     "name": "Animare gli Oggetti",
@@ -10860,7 +10872,8 @@
                 },
                 "OYou50DiNR1KIumR": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "RLk9v605Eu7GIOCI": {
                     "name": "Individuazione del Male",
@@ -10981,7 +10994,8 @@
                 },
                 "0BjPAuLWWwgqb8NJ": {
                     "spellEffect": "Paralizza fino a 4 creature",
-                    "name": "Liberazione dall’Imposizione*"
+                    "name": "Liberazione dall’Imposizione*",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "8qS81izn5xmUbjdd": {
                     "name": "Incantare i Serpenti",
@@ -11075,7 +11089,8 @@
                 },
                 "Xf3qr4CBJaqtwsGa": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "Xio7icmL3YY4BdvY": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -11237,7 +11252,8 @@
                 },
                 "OYou50DiNR1KIumR": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "ShDup1ASxnFM5H32": {
                     "name": "Parlare con gli Animali",
@@ -11258,7 +11274,8 @@
                 },
                 "0BjPAuLWWwgqb8NJ": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "0t7g0As9ZoCMkpYy": {
                     "name": "Charme"
@@ -11285,7 +11302,9 @@
                     "spellEffect": "Cura una creatura vivente"
                 },
                 "CAcA0Z9qZBgd6KYL": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "Imcm3F7nAzqdHo2t": {
                     "description": "<p>Questo incantesimo aumenta il morale delle creature amiche di +1 e concede loro un bonus di +1 a tutti i tiri per colpire e ai danni. Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p><p>La forma inversa, <em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p>",
@@ -11301,7 +11320,8 @@
                 },
                 "Xf3qr4CBJaqtwsGa": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "Xio7icmL3YY4BdvY": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -11453,7 +11473,8 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi"
                 }
-            }
+            },
+            "monsterType": "Mostro Planare, Magico (Raro)"
         },
         "Dragon Turtle*": {
             "items": {
@@ -11594,7 +11615,8 @@
                     "name": "Muro di Fuoco",
                     "spellDuration": "varia"
                 }
-            }
+            },
+            "monsterType": "Mostro Planare, Magico (Raro)"
         },
         "Elemental, Air (Device)*": {
             "items": {
@@ -12014,7 +12036,8 @@
                 },
                 "X0oMUdMG1IxA0fC8": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "atScgN89OIsaYBhw": {
                     "name": "Benedizione*",
@@ -12129,7 +12152,9 @@
                     "spellDuration": "12 turni (2 ore)"
                 },
                 "K1wJfIWV9CIz3ocC": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "QSsRsgLRGXP8ZTW9": {
                     "description": "<p>La forma inversa dell'incantesimo, <em>Terrore</em>, farà fuggire qualsiasi creatura per due turni. La vittima può superare un tiro salvezza contro incantesimi per evitare l'effetto. Questo incantesimo inverso ha un raggio d'azione di 36 metri.</p>",
@@ -12151,7 +12176,8 @@
                 },
                 "V7SZVaqWNFdlZDNi": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "Yu3zdKenSITWUnWH": {
                     "description": "<p>Questo incantesimo crea una barriera magica invisibile attorno al corpo dell'incantatore (a meno di 3 cm di distanza). </p><p>Finché l'incantesimo è in effetto, i personaggi e i mostri che attaccano l'incantatore subiscono una penalità di -1 ai tiri per colpire, e l'incantatore ottiene un bonus di +1 a tutti i tiri salvezza.</p><p>Inoltre, le creature incantate non possono toccare l'incantatore! (Una creatura incantata è quella che non può essere colpita da armi normali, ma solo da armi magiche. Una creatura che può essere colpita solo da un'arma d'argento—come un lupo mannaro—non è considerata incantata. Qualsiasi creatura evocata o controllata magicamente, come un personaggio <em>incantato</em>, è anche considerata incantata.) Questa barriera protegge completamente l'incantatore da tutti gli attacchi in mischia o corpo a corpo da tali creature; tuttavia, non previene gli attacchi da armi da lancio. Le creature incantate che usano armi da lancio subiscono comunque la penalità di -1 ai tiri per colpire ma <em>possono</em> ancora colpire l'incantatore.</p><p>Questo incantesimo non influisce su un incantesimo di <em>dardo incantato</em> usato da maghi.</p><p>Se l'incantatore attacca una creatura incantata durante la durata dell'incantesimo, l'effetto dell'incantesimo cambia leggermente. Le creature incantate possono quindi toccare l'incantatore, ma subiscono comunque la penalità ai tiri per colpire; la penalità e i bonus ai tiri salvezza dell'incantatore rimangono fino alla fine della durata dell'incantesimo</p>",
@@ -12194,7 +12220,8 @@
                 },
                 "kDkp46qLE5Wachtx": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "nRL7Rb2bMoa8qRHu": {
                     "description": "<p>Quando l'incantesimo viene lanciato, l'incantatore vedrà gli oggetti incantati malvagi entro 36 metri brillare di rosso scuro. Fa anche brillare le creature che intendono nuocere all'incantatore quando si trovano nell'area di effetto. Non tutte le creature di allineamento Caotico avranno intenzioni malvagie, ma molte sì. Trappole e veleni non sono né buoni né cattivi, semplicemente pericolosi e questo incantesimo non li rivela.</p>",
@@ -12409,11 +12436,14 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "2d6uL6dwy4S7T9tQ": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "5IFcP1P3mvcqMiIP": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "6TcoI7SSGlKxjLXu": {
                     "name": "Tenebre Magiche*",
@@ -12438,7 +12468,8 @@
                 },
                 "99PBq8KuFAau5G3k": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "9dd3qnxRL8UfGfMH": {
                     "name": "Luce Magica*",
@@ -12558,7 +12589,8 @@
                 },
                 "gDrwEOVgcn8F1zNR": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "izTcRrJtXv0pO5gr": {
                     "description": "<p>Questo incantesimo distrugge istantaneamente una barriera magica creata da un chierico. Può anche dissipare alcune barriere create da un mago.</p>\n                      <p><strong>Effetti:</strong> *Rimozione di Barriera* distruggerà l'incantesimo *Barriera* di un chierico e può anche dissipare i seguenti incantesimi di un mago:</p>\n                      <ul>\n                        <li><strong>Muro di Ghiaccio</strong></li>\n                        <li><strong>Muro di Fuoco</strong></li>\n                        <li><strong>Formastoffa</strong></li>\n                        <li><strong>Formalegno</strong></li>\n                        <li><strong>Muro di Pietra</strong></li>\n                      </ul>\n                      <p><strong>Limitazioni:</strong> Questo incantesimo <em>non</em> ha effetto sugli incantesimi: *Muro di Ferro*, *Formapietra*, *Formaferro*, o *Formacciaio*.</p>",
@@ -12656,7 +12688,9 @@
                     "spellRange": "18"
                 },
                 "LDzmROMj99YEJhve": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "LIr92jcHMiRyzumZ": {
                     "name": "Individuazione del Magico",
@@ -12763,7 +12797,8 @@
                 },
                 "ALOn9EqbPF9b8dj0": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "AcXoY2JZxM6wPx0q": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -12790,7 +12825,8 @@
                 },
                 "FoYFYOTPH54Dni3Y": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "GwkF8sDcfXeX8vWX": {
                     "description": "<p><em>Occultamento dell' Allineamento</em> dura per un turno per livello dell'incantatore e può essere lanciato su una creatura tramite tocco. Non è consentito alcun tiro salvezza. Per la durata dell'incantesimo, qualsiasi tentativo di discernere l'allineamento del destinatario darà un risultato falso. Questo allineamento falso rimarrà coerente per tutti i successivi tentativi di rilevazione durante la durata dell'incantesimo.</p><p>Questo incantesimo permette all'incantatore di determinare l'allineamento (Legale, Neutrale o Caotico) di qualsiasi creatura entro 3 metri. Può anche rivelare l'allineamento di un oggetto incantato o di un'area, se applicabile.</p>",
@@ -12822,7 +12858,8 @@
                 },
                 "NMrkrq78vMAoaiwq": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "PXQCivD8vTYdYEy5": {
                     "description": "<p>Questo incantesimo costringe il bersaglio a intraprendere un compito specifico o una missione come comandato dall'incantatore. Il bersaglio può tentare un tiro salvezza contro incantesimi per resistere; se riesce, l'incantesimo non ha effetto.</p>\n                      <p><strong>Compiti Tipici:</strong> Il compito può includere l'uccisione di un particolare mostro, il salvataggio di un prigioniero, il recupero di un oggetto magico o l'intraprendere un pellegrinaggio. Se il compito è impossibile o suicida, l'incantesimo fallisce automaticamente</p>\n                      <p><strong>Durata:</strong> L'incantesimo rimane in vigore fino al completamento del compito specificato. Questo incantesimo costringe il bersaglio a portare a termine il compito, ma non lo costringe a farlo volontariamente. Una volta completato, il bersaglio potrebbe nutrire rancore verso l'incantatore, potenzialmente cercando vendetta a seconda delle circostanze della missione</p>\n                      <p><strong>Maledizione:</strong> Un bersaglio che rifiuta di intraprendere la missione è maledetto fino a quando non riprende il compito. La natura di questa maledizione è determinata dal GM e può essere il doppio della forza usuale di una maledizione standard</p>",
@@ -13190,7 +13227,8 @@
                 },
                 "EJ4SQKd9bSv7GbRp": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "EhXiUBURvRWDH0Re": {
                     "description": "<p>Questo incantesimo permette al chierico di animare oggetti non viventi e non magici, facendoli muovere e attaccare. Gli oggetti magici non sono influenzati.</p><p>L'incantesimo può animare:</p><ul><li>Un oggetto fino a 180 kg (4.000 mon), all'incirca delle dimensioni di due uomini.</li><li>Più oggetti più piccoli, purché il loro peso totale non superi i 180 kg.</li></ul><p><strong>Abilità in Combattimento:</strong> Il DM determina la velocità di movimento, il numero di attacchi, il danno e la classe armatura degli oggetti animati. Come linea guida:</p><ul><li>Una statua delle dimensioni di un uomo potrebbe muoversi a 9 m per round, attaccare una volta per round per [[/r 2d8 #punti di danno]] danni e avere CA 1.</li><li>Una sedia potrebbe muoversi a 54 m per round, attaccare due volte per round per [[/r 1d4 #punti di danno]] danni per attacco e avere CA 6.</li></ul><p>Tutti gli oggetti animati usano la probabilità di colpire del chierico in combattimento.</p>",
@@ -13212,7 +13250,8 @@
                 },
                 "J7UVUjVRRZXll0AZ": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "Kvh9RrTorrsBEoH8": {
                     "description": "<p>Questo incantesimo cura una creatura vivente (che non sia non-morta o non vivente) di [[/r 1d6+1 #Cura Ferite Leggere]] punti danno. L'incantatore può curare se stesso con questo incantesimo.</p><p>In altrenativa, l'incantesimo può essere usato per curare la paralisi (eccetto quella causata da un incantesimo di <em>Blocca Persone</em> o <em>Blocca Mostri</em>), sebbene in tal caso nessun danno verrà curato allo stesso momento.</p><p>L'incantesimo non aumenterà i punti ferita massimi del bersaglio.</p><p>Quando invertito, questo incantesimo, <em>causa ferite leggere</em>, causa [[/r 1d6+1 #Causa Ferite Leggere]] punti di danno al bersaglio. Non è permesso alcun tiro salvezza, ma l'incantatore deve effettuare un normale tiro per colpire per infliggere questo danno.</p>",
@@ -13294,7 +13333,9 @@
                     "spellRange": "18"
                 },
                 "bTexVMWTlmjtDX9r": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "bvpXwnqXt0paTRBw": {
                     "description": "<p>Questo incantesimo crea una barriera magica invisibile attorno al corpo dell'incantatore (a meno di 3 cm di distanza). </p><p>Finché l'incantesimo è in effetto, i personaggi e i mostri che attaccano l'incantatore subiscono una penalità di -1 ai tiri per colpire, e l'incantatore ottiene un bonus di +1 a tutti i tiri salvezza.</p><p>Inoltre, le creature incantate non possono toccare l'incantatore! (Una creatura incantata è quella che non può essere colpita da armi normali, ma solo da armi magiche. Una creatura che può essere colpita solo da un'arma d'argento—come un lupo mannaro—non è considerata incantata. Qualsiasi creatura evocata o controllata magicamente, come un personaggio <em>incantato</em>, è anche considerata incantata.) Questa barriera protegge completamente l'incantatore da tutti gli attacchi in mischia o corpo a corpo da tali creature; tuttavia, non previene gli attacchi da armi da lancio. Le creature incantate che usano armi da lancio subiscono comunque la penalità di -1 ai tiri per colpire ma <em>possono</em> ancora colpire l'incantatore.</p><p>Questo incantesimo non influisce su un incantesimo di <em>dardo incantato</em> usato da maghi.</p><p>Se l'incantatore attacca una creatura incantata durante la durata dell'incantesimo, l'effetto dell'incantesimo cambia leggermente. Le creature incantate possono quindi toccare l'incantatore, ma subiscono comunque la penalità ai tiri per colpire; la penalità e i bonus ai tiri salvezza dell'incantatore rimangono fino alla fine della durata dell'incantesimo</p>",
@@ -13319,7 +13360,8 @@
                 },
                 "fz7jAd5AQXSu4rH7": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "hSkSNacigB5Wmz6o": {
                     "description": "<p>Questo incantesimo conferisce al chierico la capacità di comunicare con qualsiasi creatura vivente o non-morta entro 9 m. Anche i mostri non intelligenti comprenderanno e risponderanno.</p>\n                      <p><strong>Effetti:</strong></p>\n                      <ul>\n                        <li>Le creature a cui si parla non attaccheranno il chierico durante la conversazione.</li>\n                        <li>Se però vengono attaccate, potrebbero difendersi o fuggire.</li>\n                        <li>Il chierico può fare solo una domanda per round.</li>\n                      </ul>\n                      <p>L'incantesimo dura un round per ogni livello del chierico.</p>",
@@ -13381,7 +13423,8 @@
                 },
                 "8iKjMfWMLHDtZPcR": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "90wdBWg3MmyYAvhZ": {
                     "name": "Occultamento dell'Allineamento*",
@@ -13488,7 +13531,9 @@
                     "description": "<p>Questo incantesimo fa emettere una debole luce blu a tutte le trappole meccaniche e magiche entro 9 metri dall'incantatore. Mentre rivela la presenza di trappole, non fornisce informazioni sul loro tipo o su come disattivarle. Agguati o pericoli naturali come le sabbie mobili non sono considerati trappole e non saranno rivelati da questo incantesimo.</p>"
                 },
                 "04s4yr6GYPf8Gnoo": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "spellEffect": "Sfera oscura del diametro di 18 m",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>"
                 },
                 "2RP9pLwkVGbF0C9z": {
                     "description": "<p>Questo incantesimo cura 2d6 + 2 punti danno a una creatura vivente quando toccata dall'incantatore</p>",
@@ -13625,7 +13670,8 @@
                 },
                 "PJnmZqXMzRNbECug": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "PhBi10GgmTXkGOFv": {
                     "description": "<p>Questo incantesimo cura una creatura vivente (che non sia non-morta o non vivente) di [[/r 1d6+1 #Cura Ferite Leggere]] punti danno. L'incantatore può curare se stesso con questo incantesimo.</p><p>In altrenativa, l'incantesimo può essere usato per curare la paralisi (eccetto quella causata da un incantesimo di <em>Blocca Persone</em> o <em>Blocca Mostri</em>), sebbene in tal caso nessun danno verrà curato allo stesso momento.</p><p>L'incantesimo non aumenterà i punti ferita massimi del bersaglio.</p><p>Quando invertito, questo incantesimo, <em>causa ferite leggere</em>, causa [[/r 1d6+1 #Causa Ferite Leggere]] punti di danno al bersaglio. Non è permesso alcun tiro salvezza, ma l'incantatore deve effettuare un normale tiro per colpire per infliggere questo danno.</p>",
@@ -13725,7 +13771,8 @@
                 },
                 "puLkrXMFhYv8KrlJ": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "s5rhiMq7VcHTvaUG": {
                     "name": "Luce Magica*",
@@ -13748,7 +13795,9 @@
                     "description": "<p>Questo incantesimo raddoppia le dimensioni di un animale normale o gigante, aumentando di conseguenza la sua forza, danni e capacità di trasporto. Il comportamento, la classe armatura e i punti ferita dell'animale rimangono invariati, e l'incantesimo non ha effetto su creature intelligenti o fantastiche.</p>"
                 },
                 "4BWgy3fadtTckufg": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "4UGR5Xujj9agtdEf": {
                     "name": "Protezione dal Male",
@@ -13763,7 +13812,8 @@
                 },
                 "HCS6v4uE3XwqPHux": {
                     "spellEffect": "Paralizza fino a 4 creature",
-                    "name": "Liberazione dall’Imposizione*"
+                    "name": "Liberazione dall’Imposizione*",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "PCmhdtQDyoyehUGU": {
                     "name": "Luce Perenne*",
@@ -13883,7 +13933,8 @@
                 },
                 "8p2YujJ9At9Xd1uf": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "9Tzn6nxPHFVsgc0S": {
                     "description": "<p>Questo incantesimo cura qualsiasi malattia, comprese quelle causate da mummie o dalla fanghiglia verde. Dall'11º livello in poi, può anche curare la licantropia.</p><p>L'inverso, <em>Infliggi Malattie</em>, infetta il bersaglio con una malattia tremenda e devastante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 a tutti i suoi tiri per colpire. Le ferite della vittima non possono essere curate con la magia e il decorso naturale è due volte più lungo del normale. La malattia è fatale entro [[/r 2d12 #Durata del cura malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>cura malattie</em></p>",
@@ -13931,7 +13982,8 @@
                 },
                 "Iwx9XApzzAScjxKE": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "LaJxeWOSftyFccta": {
                     "description": "<p>Questo incantesimo permette all'incantatore di vedere un bagliore attorno a qualsiasi creatura, oggetto e luogo magico entro il raggio d'azione. Le creature magiche non devono effettuare un tiro salvezza contro questo effetto.</p><p>Il bagliore si estende solo per un paio di centimetri attorno all'oggetto magico, quindi se è in un contenitore o dietro un altro oggetto, una parte o tutto il bagliore potrebbe non essere visibile.</p>",
@@ -14251,7 +14303,8 @@
                 },
                 "2KkmIAF4bGOsCDj1": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "3RUSo6cPJq5tJy6Q": {
                     "description": "<p>Questo incantesimo rende sicuro il consumo di cibo e acqua avariati o avvelenati. Può purificare una razione di cibo conservato (sia razioni di ferro che standard), sei otri d'acqua, o abbastanza cibo normale per nutrire dodici persone. Se lanciato sul fango, l'incantesimo fa depositare la terra, lasciando una pozza di acqua pura e limpida. L'incantesimo non influenza nessuna creatura vivente</p>",
@@ -14260,7 +14313,8 @@
                 },
                 "43TGCgN7pm5ZtuLb": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "6QN2zIjfDTQpJYdb": {
                     "description": "<p>La forma inversa dell'incantesimo comando, *Liberazione dal Comando*, dissolve una quest non desiderata o rimuove una maledizione legata al comando. La probabilità di successo base per la rimozione del comando è del 50%, modificata di ±5% per ogni differenza di livello tra l'incantatore di <em>Liberazione dal Comando</em> e l'incantatore originale del comando</p>\n                      <p>Ad esempio, un chierico di 11º Livello che tenta di rimuovere un comando imposto da un incantatore di 13º Livello ha una probabilità di successo del 40%, mentre un chierico di 36º Livello che rimuove un comando lanciato da un chierico di 20º Livello ha una probabilità di successo del 99% (limitata per evitare il successo automatico)</p>",
@@ -14437,7 +14491,8 @@
                 },
                 "oFlW9LE374KXEzYj": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "oNfclEdudU6OhOjM": {
                     "description": "<p>Questo incantesimo cura una creatura vivente di 3d6 + 3 punti ferita</p>",
@@ -14493,7 +14548,9 @@
                     "spellEffect": "Ogni cosa entro 18 metri"
                 },
                 "txMdfoKfTMlrzydm": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "spellEffect": "Sfera oscura del diametro di 18 m",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>"
                 },
                 "u8NZaAScyUv3g9QE": {
                     "description": "<p><em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p><p>Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p>",
@@ -14528,7 +14585,8 @@
             "items": {
                 "19BG3ABA3LXbriio": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "5ISdCdyBwLheKdEt": {
                     "name": "Veleno o Raggio della Morte",
@@ -14806,7 +14864,8 @@
                 },
                 "MdspDClzMJmQXYgc": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "Ntx0XEhh8rSAnqBU": {
                     "name": "Sopravvivenza",
@@ -14830,11 +14889,14 @@
                     "spellRange": "0 (Incantatore)"
                 },
                 "VVGX6DrLePb6EH2Z": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "YRRqHA2BV4gaCAtE": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "aJqCU1tGQ6al1d03": {
                     "description": "<p>Mediante questo incantesimo, un incantatore può porre tre domande a uno spirito defunto se il corpo è entro il raggio d'azione</p>\n<p>Un incantatore di 6º o 7º livello può contattare spiriti recentemente defunti (morti da fino a 4 giorni). Gli incantatori di livelli 8-14 hanno un potere leggermente maggiore (contattando spiriti morti fino a 4 mesi), e gli incantatori di livelli 15-20 hanno ancora più potere (parlando con cadaveri morti fino a 4 anni). Nessun limite di tempo si applica agli incantatori di 21º livello o superiore</p>\n<p>Lo spirito risponderà sempre in una lingua conosciuta dall'incantatore, ma può offrire solo conoscenze fino al momento della sua morte. Se l'allineamento dello spirito è lo stesso dell'incantatore, fornirà risposte chiare e brevi; tuttavia, se gli allineamenti differiscono, lo spirito può rispondere in enigmi</p>",
@@ -14959,7 +15021,8 @@
                 },
                 "C8BPJyJpAa4zFUaK": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "Grs1XKOG7WWjIDc6": {
                     "spellEffect": "Permette di conversare con qualsiasi mostro",
@@ -14987,7 +15050,9 @@
                     "spellEffect": "Il Servo recupera un oggetto o una creatura"
                 },
                 "MgaroTaG1N3OLjQd": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "OKSGsTGBtQoa7DTF": {
                     "spellRange": "0",
@@ -15048,7 +15113,8 @@
                 },
                 "gARaqZJe2Nf3OGme": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "iGoAxzNj5y2YdIqc": {
                     "spellEffect": "Ogni cosa entro 18 metri",
@@ -15095,7 +15161,8 @@
                 },
                 "3zTP2ziwhwQqiY4m": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "4utuhT5Tk06ymiRm": {
                     "description": "<p>Questo incantesimo evoca un vasto sciame di insetti in un raggio di 9 m, oscurando la vista e allontanando le creature con meno di 3 Dadi Vita (nessun tiro salvezza). L'incantatore può dirigere lo sciame a muoversi fino a 6 m per round entro un raggio di 144 m, ma deve rimanere fermo e concentrato.</p>\n                      <p>Se l'incantatore viene disturbato, gli insetti si disperdono e l'incantesimo termina. Questo incantesimo può essere lanciato solo all'aperto e in superficie.</p>",
@@ -15408,7 +15475,8 @@
                 },
                 "CCUwS6gOHZsDuU05": {
                     "name": "Animare i Morti",
-                    "spellEffect": "Crea zombie o scheletri"
+                    "spellEffect": "Crea zombie o scheletri",
+                    "description": "<p>Questo incantesimo anima scheletri normali o corpi morti entro il raggio, trasformandoli in scheletri o zombi incantati. Questi non-morti obbediscono all’incantatore finché non vengono distrutti da un incantesimo di Dissolvi Magie o da un altro chierico.</p>\n                      <p><strong>Effetto:</strong> Per ogni livello di esperienza, l’incantatore può animare 1 DV di non-morti. Gli scheletri mantengono i DV della creatura originale, mentre gli zombi hanno +1 DV.</p>\n                      <p>Gli umani e i semiumani sono trattati come 1 DV per questo incantesimo. Il cadavere di un umano verrebbe animato come uno scheletro da 1 DV o uno zombi da 2 DV.</p>\n                      <p><strong>Note:</strong> I non-morti animati sono immuni agli effetti di sonno, charme e veleno. Usare questo incantesimo per il bene è consigliato agli incantatori legali, poiché animare i morti è spesso visto come un atto Caotico.</p>"
                 },
                 "Ckb8kDUYJkVGiX7W": {
                     "name": "Resurrezione*",
@@ -15424,7 +15492,8 @@
                 },
                 "EvsIX4IcKlDvTs9m": {
                     "name": "Maledizione* (Maggiore)",
-                    "spellEffect": "Rimuove una qualsiasi maledizione"
+                    "spellEffect": "Rimuove una qualsiasi maledizione",
+                    "description": "<p><em>Maledizione</em> impone una penalità o una sventura sul bersaglio, con effetti limitati solo dall’immaginazione dell’incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi sull’incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di una caratteristica principale o una penalità di -4 ai tiri di reazione degli altri. La vittima può superare un tiro salvezza contro incantesimi per evitare la maledizione.</p>"
                 },
                 "GMiYmIkaRPE4QypU": {
                     "name": "Terremoto",
@@ -15504,7 +15573,9 @@
                     "description": "<p>Questo incantesimo crea una barriera magica invisibile attorno al corpo dell'incantatore (a meno di 3 cm di distanza). </p><p>Finché l'incantesimo è in effetto, i personaggi e i mostri che attaccano l'incantatore subiscono una penalità di -1 ai tiri per colpire, e l'incantatore ottiene un bonus di +1 a tutti i tiri salvezza.</p><p>Inoltre, le creature incantate non possono toccare l'incantatore! (Una creatura incantata è quella che non può essere colpita da armi normali, ma solo da armi magiche. Una creatura che può essere colpita solo da un'arma d'argento—come un lupo mannaro—non è considerata incantata. Qualsiasi creatura evocata o controllata magicamente, come un personaggio <em>incantato</em>, è anche considerata incantata.) Questa barriera protegge completamente l'incantatore da tutti gli attacchi in mischia o corpo a corpo da tali creature; tuttavia, non previene gli attacchi da armi da lancio. Le creature incantate che usano armi da lancio subiscono comunque la penalità di -1 ai tiri per colpire ma <em>possono</em> ancora colpire l'incantatore.</p><p>Questo incantesimo non influisce su un incantesimo di <em>dardo incantato</em> usato da maghi.</p><p>Se l'incantatore attacca una creatura incantata durante la durata dell'incantesimo, l'effetto dell'incantesimo cambia leggermente. Le creature incantate possono quindi toccare l'incantatore, ma subiscono comunque la penalità ai tiri per colpire; la penalità e i bonus ai tiri salvezza dell'incantatore rimangono fino alla fine della durata dell'incantesimo</p>"
                 },
                 "X47aFuC5NmAiiwO5": {
-                    "name": "Tenebre Perenni*"
+                    "name": "Tenebre Perenni*",
+                    "description": "<p><em>Tenebre Perenni</em>, crea un’area di dimensioni simili di oscurità totale, non influenzata da fonti di luce normali e infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarlo. Se lanciato sugli occhi di una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi o essere accecato.</p>",
+                    "spellEffect": "Sfera oscura del diametro di 18 m"
                 },
                 "b4VKkNFdFO1p1rEN": {
                     "spellRange": "0",
@@ -15640,7 +15711,8 @@
                 },
                 "MzqPblOsrONNxX0o": {
                     "name": "Liberazione dall’Imposizione*",
-                    "spellEffect": "Paralizza fino a 4 creature"
+                    "spellEffect": "Paralizza fino a 4 creature",
+                    "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "NgAyCkksg3T5tkzq": {
                     "description": "<p>Questo incantesimo fa emettere una debole luce blu a tutte le trappole meccaniche e magiche entro 9 metri dall'incantatore. Mentre rivela la presenza di trappole, non fornisce informazioni sul loro tipo o su come disattivarle. Agguati o pericoli naturali come le sabbie mobili non sono considerati trappole e non saranno rivelati da questo incantesimo.</p>",
@@ -18129,7 +18201,8 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
                 }
-            }
+            },
+            "monsterType": "Mostro Planare, Magico (Raro)"
         },
         "Plasm, Normal*": {
             "items": {
@@ -18159,7 +18232,8 @@
                 "ZDgLHxCwRVY98qAp": {
                     "name": "Nascondersi"
                 }
-            }
+            },
+            "monsterType": "Mostro Planare, Magico (Raro)"
         },
         "Plesiosaurus": {
             "items": {
@@ -24003,7 +24077,8 @@
                 "m9bR80lnQpOyERrq": {
                     "name": "Armatura"
                 }
-            }
+            },
+            "monsterType": "Mostro Planare, Magico (Raro)"
         },
         "Lizard Man": {
             "items": {
