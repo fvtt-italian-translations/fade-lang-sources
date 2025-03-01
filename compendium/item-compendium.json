@@ -246,10 +246,18 @@
       "name": "Bless*",
       "spellEffect": "All within a 20' square area"
     },
+    "Blessed": {
+      "description": "<p>This effect improves the morale of friendly creatures by +1 and gives the recipients a +1 bonus on all attack and damage rolls. It will only affect creatures in a 20' X 20' area, and only those who are not yet in melee.</p>",
+      "name": "Blessed"
+    },
     "Blight*": {
       "description": "<p><em>Blight</em>, imposes a -1 penalty to morale, attack rolls, and damage rolls of enemies. Each affected creature may make a saving throw vs. spells to avoid these penalties.</p><p>It affects only those within a 20' x 20' area and only those who are not yet engaged in melee combat.</p>",
       "name": "Blight*",
       "spellEffect": "All within a 20' square area"
+    },
+    "Blighted": {
+      "description": "<p>Blight, places a -1 penalty on enemies' morale, attack rolls, and damage rolls. Each victim may make a saving throw vs. spells to avoid the penalties. It will only affect creatures in a 20' X 20' area.</p>",
+      "name": "Blighted"
     },
     "Blind Shooting": {
       "description": "<p>This skill allows the character to shoot at a target without seeing it, typically used in darkness or when the target is outside the range of sight or infravision. The character must be able to hear the target to evaluate its position. A successful skill check allows a shot with no penalties due to darkness, though an attack roll is still required to hit the target.</p>",
@@ -957,6 +965,9 @@
       "description": "<div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"94e4c5d5-5098-4cde-a312-9426bf7d6f38\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p data-start=\"59\" data-end=\"403\">Upon reaching <strong data-start=\"73\" data-end=\"86\">9th level</strong>, a Magic-User may choose to <strong data-start=\"115\" data-end=\"132\">build a tower</strong>, establishing themselves as a land-owning wizard. Unlike Fighters or Clerics, a Magic-User does not need <strong data-start=\"238\" data-end=\"273\">permission from the local ruler</strong> to construct a stronghold, as rulers generally avoid antagonizing powerful wizards​.</p><h4 data-start=\"405\" data-end=\"438\">Attracting Apprentices</h4><p data-start=\"439\" data-end=\"770\">Once a tower is built, the Magic-User will attract <strong data-start=\"490\" data-end=\"509\">1d6 apprentices</strong>, all <strong data-start=\"515\" data-end=\"544\">Magic-Users of levels 1–3</strong>. These apprentices seek training, and while they are loyal, they will not sacrifice themselves for their master. The <strong data-start=\"662\" data-end=\"723\">DM determines their names, backgrounds, and personalities</strong>​.</p><h4 data-start=\"772\" data-end=\"818\">Stronghold and Dungeon Construction</h4><p data-start=\"819\" data-end=\"1303\">A wizard's tower may include a <strong data-start=\"850\" data-end=\"880\">dungeon beneath or near it</strong>. Some wizards construct dungeons as secure laboratories, while others <strong data-start=\"951\" data-end=\"971\">leave an opening</strong>, attracting <strong data-start=\"984\" data-end=\"1006\">wandering monsters</strong> that take up residence. Some wizards encourage this, using monsters for research, spell experimentation, or personal defense​. However, monster-infested dungeons often cause conflict with <strong data-start=\"1238\" data-end=\"1259\">local communities</strong> and attract adventurers seeking treasure.</p><h4 data-start=\"1305\" data-end=\"1357\">Alternative to a Tower: Becoming a Magist</h4><p data-start=\"1358\" data-end=\"1754\">Instead of building a tower, a Name-level Magic-User may <strong data-start=\"1415\" data-end=\"1446\">seek employment as a Magist</strong> in an existing stronghold. A Magist serves a ruler as an <strong data-start=\"1504\" data-end=\"1534\">advisor on magical matters</strong>, handles magical needs, and is well-compensated—typically <strong data-start=\"1593\" data-end=\"1624\">at least 3,000 gp per month</strong>. However, this requires the Magic-User to swear an <strong data-start=\"1676\" data-end=\"1694\">oath of fealty</strong> to the ruler​.</p><p data-start=\"1756\" data-end=\"1843\" data-is-last-node=\"\">Would you like additional details, such as construction costs or typical tower layouts?</p></div></div></div></div><div class=\"mb-2 flex gap-3 empty:hidden -ml-2\"><div class=\"items-center justify-start rounded-xl p-1 flex\"><div class=\"flex items-center\"><p></p></div></div></div>",
       "name": "Establish Tower"
     },
+    "Exhausted": {
+      "name": "Exhausted"
+    },
     "Explosive Cloud": {
       "description": "<p>This spell creates a 30' diameter, 20' tall cloud of <strong>greenish gas</strong> filled with <strong>sparkling explosions</strong>, appearing next to the caster. It visually resembles the <em>Cloudkill</em> spell but has different effects.</p><h3>Effects:</h3><ul><li>The cloud moves away from the caster at a speed of <strong>20' per round</strong> in a direction chosen by the caster.</li><li><strong>Poisonous Gas:</strong> Each creature in the cloud must make a <strong>saving throw vs. spells</strong> or be **paralyzed** for 1 round. They may attempt a new saving throw each round.</li><li><strong>Explosions:</strong> The cloud is filled with **tiny detonations**, dealing damage each round to all creatures inside.</li></ul><h3>Damage:</h3><p>Each creature inside the cloud takes <strong>1 point of damage per 2 caster levels</strong> (rounded down). This damage <strong>ignores resistances</strong> (affecting creatures immune to fire, gas, electricity, etc.).</p><ul><li><strong>Levels 18-19:</strong> [[/r 9 #Explosive Cloud Damage]]</li><li><strong>Levels 20-21:</strong> [[/r 10 #Explosive Cloud Damage]]</li><li><strong>Levels 22-23:</strong> [[/r 11 #Explosive Cloud Damage]]</li><li><strong>Levels 24-25:</strong> [[/r 12 #Explosive Cloud Damage]]</li><li><strong>Levels 26-27:</strong> [[/r 13 #Explosive Cloud Damage]]</li><li><strong>Levels 28-29:</strong> [[/r 14 #Explosive Cloud Damage]]</li><li><strong>Levels 30-31:</strong> [[/r 15 #Explosive Cloud Damage]]</li><li><strong>Levels 32-33:</strong> [[/r 16 #Explosive Cloud Damage]]</li><li><strong>Levels 34-35:</strong> [[/r 17 #Explosive Cloud Damage]]</li><li><strong>Level 36:</strong> [[/r 18 #Explosive Cloud Damage]]</li></ul><h3>Duration:</h3><p>The cloud persists for <strong>6 turns</strong> (60 rounds).</p>",
       "name": "Explosive Cloud",
@@ -1342,6 +1353,9 @@
       "spellDuration": "Until mission is accomplished",
       "spellEffect": "Summons one creature",
       "spellRange": "0 (Caster only)"
+    },
+    "Invulnerable": {
+      "name": "Invulnerable"
     },
     "Iron Spike": {
       "description": "<p>A large, long iron nail that can have either a flat head or an open circular head. It is used to wedge doors open, provide grips for climbing, or anchor ropes. A hammer is required to drive it into hard surfaces like stone or wood.</p>",
@@ -1946,6 +1960,10 @@
       "name": "Projected Image",
       "spellEffect": "Creates one image"
     },
+    "Protected": {
+      "description": "<p>This effect creates an invisible magical barrier surrounding the spell target's body, less than an inch away.</p><p>In addition, enchanted creatures cannot touch the spell target. (An enchanted creature is one that cannot be harmed by normal weapons and can only be affected by magical weapons. A creature that can only be harmed by silver weapons, such as a werewolf, is not considered enchanted.</p><p>Creatures that are magically summoned or controlled, like a charmed character, are also classified as enchanted.) The barrier completely protects the spell target from all melee or hand- to - hand attacks from these creatures, although it does not block attacks from missile weapons.Enchanted creatures using missile weapons still suffer the - 1 attack penalty but can hit the spell target.</p><p>This effect does not block magic missile spells used by magic - users.</p><p>If the spell target attacks an enchanted creature while this effect is active, the barrier's properties change slightly. Enchanted creatures can then touch the spell target, but they still suffer the attack roll penalty.The attack penalty and the spell target's saving throw bonus remain until the effect ends.</p>",
+      "name": "Protected"
+    },
     "Protection from Evil": {
       "description": "<p>This spell creates and invisible magical barrier all around the caster's body (less than an inch away). Here’s the revised text with all references to \"cleric\" changed to \"caster\":</p><p>While the spell is in effect, characters and monsters attacking the caster suffer a -1 penalty to their attack rolls, and the caster gains a +1 bonus to all saving throws.</p><p>Additionally, enchanted creatures are unable to touch the caster! (An enchanted creature is one that normal weapons cannot affect, only magical weapons can hit. A creature that can only be hit by a silver weapon—like a werewolf—is not considered enchanted. Any creature that is magically summoned or controlled, such as a <em>charmed</em> character, is also considered enchanted.) This barrier completely protects the caster from all melee or hand-to-hand attacks from such creatures; however, it does not prevent attacks from missile weapons. Enchanted creatures using missile weapons still suffer the -1 penalty to attack rolls but <em>can</em> still hit the caster.</p><p>This spell does not affect a <em>magic missile</em> spell used by magic-users.</p><p>If the caster attacks an enchanted creature during the spell's duration, the spell’s effect changes slightly. Enchanted creatures are then able to touch the caster, but still suffer the attack roll penalty; the penalty and the caster's saving throw adjustments remain until the spell's duration ends.</p>",
       "name": "Protection from Evil",
@@ -2231,6 +2249,10 @@
     },
     "Shield, Tusked": {
       "name": "Shield, Tusked"
+    },
+    "Shielded": {
+      "description": "<h2>Shield</h2><p>A magical barrier envelops the affected individual, forming less than an inch from their body and moving with them. While this status is active, the individual's Armor Class is set to <strong>2</strong> against missile attacks and <strong>4</strong> against all other attacks.</p><p>If the individual is targeted by a <em>magic missile</em>, they may make a <strong>saving throw vs. spells</strong> for each missile. On a successful save, the magic missile is absorbed by the barrier and evaporates without causing harm.</p>",
+      "name": "Shielded"
     },
     "Shipbuilding": {
       "description": "<p>This is the skill of designing and building ships. It allows a character to supervise the construction of professional-quality ships, whether made by muscle or by magic. Successful use of the skill lets characters evaluate ships they encounter to determine who built them and when.</p>",
@@ -2816,6 +2838,7 @@
     "Charisma": "Charisma",
     "Cleric": "Cleric",
     "Clothes": "Clothes",
+    "Conditions": "Conditions",
     "Constitution": "Constitution",
     "Currency": "Currency",
     "Dexterity": "Dexterity",
