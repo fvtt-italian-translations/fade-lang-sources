@@ -287,10 +287,11 @@
             "SkillItem": "Scheda Abilità",
             "SpecialAbilityItem": "Scheda Abilità Speciale",
             "WeaponItem": "Scheda Arma",
-            "Character2": "Scheda-PG FaDe 2.0",
-            "Character": "Scheda-PG FaDe",
+            "Character2": "Scheda-PG FaDe",
+            "Character": "Scheda-PG FaDe (con schede)",
             "Monster": "Scheda Mostro/PNG",
-            "LightItem": "Scheda Luce (oggetto)"
+            "LightItem": "Scheda Luce (oggetto)",
+            "Treasure": "Scheda Tesoro"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -501,7 +502,8 @@
             "weaponTypeTitle": "M=Mostro/Distanza, I=In Mano, T=Tutte",
             "weaponType": "Tipo Arma",
             "acBonusType": "Tipo Bonus CA",
-            "acBonusTypeHint": "Il tipo di attacco a cui si applica il bonus alla CA."
+            "acBonusTypeHint": "Il tipo di attacco a cui si applica il bonus alla CA.",
+            "summary": "<p>Tipo di arma: {weaponType}<br/>Primaria: {primaryType}<br/>Effetti speciali: {special}<br/>Gittate: {short}/{medium}/{long}<br/>{defense}</p>"
         },
         "SpecialAbility": {
             "plural": "Abilità Speciali",
@@ -920,7 +922,14 @@
         "rounds": "round",
         "turns": "turni",
         "condition": {
-            "plural": "Condizioni"
+            "plural": "Condizioni",
+            "addStatusEffect": {
+                "name": "Effetto di Stato",
+                "hint": "Se selezionato, la condizione verrà aggiunta come effetto di stato."
+            },
+            "key": {
+                "hint": "Lettera chiave utilizzata per fare riferimento a questo oggetto. Può essere lunga uno o più caratteri ma non deve includere caratteri speciali."
+            }
         }
     },
     "SETTINGS": {
