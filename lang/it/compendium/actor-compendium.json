@@ -613,7 +613,8 @@
                 "H5gPGvZbBiWOXbVq": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "JNVdUgpufjHyxmgU": {
                     "name": "Comando*",
@@ -647,7 +648,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "Ukv1m9PQnyhET7ov": {
                     "description": "<p>Questo incantesimo consente all'incantatore di comunicare con le piante entro un raggio di 9 m, trattandole come se avessero intelligenza. L'incantatore può chiedere favori semplici, come creare un percorso attraverso una vegetazione fitta, che le piante concederanno se possibile</p>\n                      <p><strong>Effetto:</strong> Consente la comunicazione con creature vegetali, inclusi mostri simili a piante come gli uomini albero (treant)</p>",
@@ -8976,7 +8978,8 @@
                     "spellEffect": "Volume di 9 m di diametro",
                     "name": "Tenebre Magiche*",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "CAcA0Z9qZBgd6KYL": {
                     "name": "Tenebre Perenni*",
@@ -8999,7 +9002,8 @@
                     "description": "<p>Questo incantesimo aumenta il morale delle creature amiche di +1 e concede loro un bonus di +1 a tutti i tiri per colpire e ai danni. Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p><p>La forma inversa, <em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p>"
                 },
                 "N6ebxz1IGUFbuni7": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Il morso del Pesce Diavolo infligge 1 punto di danno."
                 },
                 "RLk9v605Eu7GIOCI": {
                     "name": "Individuazione del Male",
@@ -9019,7 +9023,8 @@
                     "description": "<p>Questo incantesimo crea una barriera magica invisibile attorno al corpo dell'incantatore (a meno di 3 cm di distanza). </p><p>Finché l'incantesimo è in effetto, i personaggi e i mostri che attaccano l'incantatore subiscono una penalità di -1 ai tiri per colpire, e l'incantatore ottiene un bonus di +1 a tutti i tiri salvezza.</p><p>Inoltre, le creature incantate non possono toccare l'incantatore! (Una creatura incantata è quella che non può essere colpita da armi normali, ma solo da armi magiche. Una creatura che può essere colpita solo da un'arma d'argento—come un lupo mannaro—non è considerata incantata. Qualsiasi creatura evocata o controllata magicamente, come un personaggio <em>incantato</em>, è anche considerata incantata.) Questa barriera protegge completamente l'incantatore da tutti gli attacchi in mischia o corpo a corpo da tali creature; tuttavia, non previene gli attacchi da armi da lancio. Le creature incantate che usano armi da lancio subiscono comunque la penalità di -1 ai tiri per colpire ma <em>possono</em> ancora colpire l'incantatore.</p><p>Questo incantesimo non influisce su un incantesimo di <em>dardo incantato</em> usato da maghi.</p><p>Se l'incantatore attacca una creatura incantata durante la durata dell'incantesimo, l'effetto dell'incantesimo cambia leggermente. Le creature incantate possono quindi toccare l'incantatore, ma subiscono comunque la penalità ai tiri per colpire; la penalità e i bonus ai tiri salvezza dell'incantatore rimangono fino alla fine della durata dell'incantesimo</p>"
                 },
                 "UfKMdtQV8NZdD8Pu": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "La coda del Pesce Diavolo infligge 1 punto di danno."
                 },
                 "VAMstKLn0VoDdcAe": {
                     "name": "Soffio del Drago",
@@ -9057,7 +9062,8 @@
                 "oO9TlPky3zra8eYe": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "okAwvrWTdbzEVumt": {
                     "name": "Naturale"
@@ -9110,7 +9116,8 @@
                     "name": "Bacchetta Magica"
                 },
                 "fKX3yo2LrwCu5dAm": {
-                    "name": "Incantesimi da Chierico"
+                    "name": "Incantesimi da Chierico",
+                    "description": "I Pesci Diavolo chierici possono lanciare incantesimi come un chierico di 4º livello. Gli incantesimi includono Cura Ferite Leggere, Luce Magica e Protezione dal Male."
                 },
                 "hbAf6JEZOJAuGQGr": {
                     "description": "<p>Questo incantesimo cura qualsiasi malattia, comprese quelle causate da mummie o dalla fanghiglia verde. Dall'11º livello in poi, può anche curare la licantropia.</p><p>L'inverso, <em>Infliggi Malattie</em>, infetta il bersaglio con una malattia tremenda e devastante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 a tutti i suoi tiri per colpire. Le ferite della vittima non possono essere curate con la magia e il decorso naturale è due volte più lungo del normale. La malattia è fatale entro [[/r 2d12 #Durata del cura malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>cura malattie</em></p>",
@@ -9137,7 +9144,9 @@
                     "spellEffect": "Fugge per 2 turni."
                 }
             },
-            "monsterType": "Mostro, Magico (Raro)"
+            "monsterType": "Mostro, Magico (Raro)",
+            "name": "Pesce Diavolo, Vescovo",
+            "biography": "<p>I Pesci Diavolo sono una razza di chierici marini caotici che somigliano a mante per forma, dimensioni e aspetto. Al di fuori dei loro rifugi, si trovano sempre in gruppi di 20 o più. La coda e il morso di un Pesce Diavolo standard con 4 dadi vita infliggono 1 punto di danno ciascuno.</p>\n<p>Un gruppo di Pesci Diavolo erranti è composto dai seguenti mostri per ogni 20:</p>\n<ul>\n  <li><p>15 <strong>Accoliti</strong> (1DV)</p></li>\n  <li><p>1 <strong>Prete</strong> (2DV)</p></li>\n  <li><p>1 <strong>Curato</strong> (3DV)</p></li>\n  <li><p>1 <strong>Vescovo</strong> (4DV)</p></li>\n  <li><p>1 <strong>Patriarca</strong> (5DV)</p></li>\n  <li><p>1 <strong>Matriarca</strong> (6DV)</p></li>\n</ul>\n<p><strong>Terreno:</strong> Oceano, Fiumi Costieri, Rive.</p>"
         },
         "Devilfish, Curate": {
             "items": {
@@ -9177,7 +9186,8 @@
                 "P5kc8d3KhnxBDN1Q": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "QvOdFVTAlVb1BHXa": {
                     "name": "Veleno o Raggio della Morte",
@@ -9215,7 +9225,8 @@
                     "spellEffect": "Ammalia 1 DV di serpenti per livello dell'incantatore"
                 },
                 "g2dwTtnlsSOrz5aN": {
-                    "name": "Incantesimi da Chierico"
+                    "name": "Incantesimi da Chierico",
+                    "description": "I Pesci Diavolo chierici possono lanciare incantesimi come un chierico di 3º livello. Gli incantesimi includono Cura Ferite Leggere, Luce Magica e Protezione dal Male."
                 },
                 "oYivsa5SOdMDJbRZ": {
                     "description": "<p>Questo incantesimo rende sicuro il consumo di cibo e acqua avariati o avvelenati. Può purificare una razione di cibo conservato (sia razioni di ferro che standard), sei otri d'acqua, o abbastanza cibo normale per nutrire dodici persone. Se lanciato sul fango, l'incantesimo fa depositare la terra, lasciando una pozza di acqua pura e limpida. L'incantesimo non influenza nessuna creatura vivente</p>",
@@ -9267,7 +9278,8 @@
                     "spellEffect": "Ogni cosa entro 18 metri"
                 },
                 "NW14KODps2DTlQdl": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Il morso del Pesce Diavolo infligge 1 punto di danno."
                 },
                 "OIryYt8cnWAAOYkS": {
                     "description": "<p>Questo incantesimo crea un'area di silenzio totale entro un raggio di 4.5 m, rendendo impossibile conversare o lanciare incantesimi all'interno dell'area interessata per la durata dell'incantesimo. Coloro che si trovano nella sfera possono ancora sentire i suoni provenienti dall'esterno. Se l'incantesimo viene lanciato su una creatura, il bersaglio deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, l'effetto si muove con la creatura. Se riesce, il silenzio rimane stazionario e la creatura può lasciare l'area interessata</p>",
@@ -9275,13 +9287,15 @@
                     "spellEffect": "Sfera di silenzio di 9 m di diametro"
                 },
                 "WHBad8UnyMNxjClD": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "La coda del Pesce Diavolo infligge 1 punto di danno."
                 },
                 "jqmnjNeq57Ho6Xjv": {
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "nSJocVIDCVar7qIX": {
                     "name": "Liberazione dall’Imposizione*",
@@ -9293,7 +9307,9 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 }
             },
-            "monsterType": "Mostro, Magico (Raro)"
+            "monsterType": "Mostro, Magico (Raro)",
+            "name": "Pesce Diavolo, Curato",
+            "biography": "<p>I Pesci Diavolo sono una razza di chierici marini caotici che somigliano a mante per forma, dimensioni e aspetto. Al di fuori dei loro rifugi, si trovano sempre in gruppi di 20 o più. La coda e il morso di un Pesce Diavolo standard con 3 dadi vita infliggono 1 punto di danno ciascuno.</p>\n<p>Un gruppo di Pesci Diavolo erranti è composto dai seguenti mostri per ogni 20:</p>\n<ul>\n  <li><p>15 <strong>Accoliti</strong> (1DV)</p></li>\n  <li><p>1 <strong>Prete</strong> (2DV)</p></li>\n  <li><p>1 <strong>Curato</strong> (3DV)</p></li>\n  <li><p>1 <strong>Vescovo</strong> (4DV)</p></li>\n  <li><p>1 <strong>Patriarca</strong> (5DV)</p></li>\n  <li><p>1 <strong>Matriarca</strong> (6DV)</p></li>\n</ul>\n<p><strong>Terreno:</strong> Oceano, Fiumi Costieri, Rive.</p>"
         },
         "Devilfish, Matriarch": {
             "items": {
@@ -9961,7 +9977,8 @@
                 }
             },
             "biography": "<p>Le api giganti, note anche come \"api assassine\", sono insetti aggressivi lunghi trenta centimetri e dal temperamento sgradevole. Attaccheranno chiunque si trovi entro 9 metri dal loro alveare. Se un'ape gigante colpisce con la sua puntura, l'ape muore, ma la vittima deve effettuare un tiro salvezza contro veleno o morire.</p>\n      <p>Se il tiro salvezza ha successo, il pungiglione infligge comunque 1 punto di danno per round mentre si fa strada nella vittima, a meno che non venga rimosso spendendo un round per estrarlo.</p>\n      <p>Le api giganti preferiscono costruire i loro alveari in piccole grotte o aree sotterranee vicino alla superficie. Ci saranno sempre almeno 10 api e una regina dentro o vicino all'alveare. Alcune api nell'alveare possono avere 1 dado vita ciascuna (13 PX) e l'ape regina ha 2 dadi vita (35 PX) e può pungere ripetutamente senza morire.</p>\n      <p>Le api giganti producono miele magico che, se consumato in grandi quantità (circa due pinte), ha una pozione di effetto curativo di metà forza, che cura 1d4 danni.</p>\n      <p><strong>Terreno:</strong> pianura, bosco, montagna, collina.</p>",
-            "monsterType": "Cattivo (Raro)"
+            "monsterType": "Cattivo (Raro)",
+            "name": "Ape Gigante (1DV)"
         },
         "Devilfish, Priest": {
             "items": {
@@ -9998,7 +10015,8 @@
                 "RGqI65190Oo4Mfj8": {
                     "spellEffect": "Volume di 9 m di diametro",
                     "name": "Luce Magica*",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "Vjc2iAzbXdouaJEd": {
                     "description": "<p>Questo incantesimo rende sicuro il consumo di cibo e acqua avariati o avvelenati. Può purificare una razione di cibo conservato (sia razioni di ferro che standard), sei otri d'acqua, o abbastanza cibo normale per nutrire dodici persone. Se lanciato sul fango, l'incantesimo fa depositare la terra, lasciando una pozza di acqua pura e limpida. L'incantesimo non influenza nessuna creatura vivente</p>",
@@ -10033,23 +10051,27 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "eHXmedMGAqeHo7fq": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "La coda del Pesce Diavolo infligge 1 punto di danno."
                 },
                 "evl8GjJhZLCoJge2": {
-                    "name": "Incantesimi da Chierico"
+                    "name": "Incantesimi da Chierico",
+                    "description": "I Pesci Diavolo chierici possono lanciare incantesimi come un chierico di 2º livello. Gli incantesimi includono Cura Ferite Leggere, Luce Magica e Protezione dal Male."
                 },
                 "l29WjDu5064jX0tF": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago"
                 },
                 "lfrbXATIvhvXfxI9": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Il morso del Pesce Diavolo infligge 1 punto di danno."
                 },
                 "oJ7sMlIzOny2c0v1": {
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "zukfJKlzCNSYiZ9o": {
                     "description": "<p>Quando l'incantatore lancia questo incantesimo e poi tocca qualsiasi creatura vivente, calma la creatura e rimuove qualsiasi paura. Se la creatura è stata colpita da un incantesimo di <em>paura</em> o effetto che normalmente non permette un tiro salvezza, l'incantesimo <em>scacciapaura</em> può comunque essere efficace. Se l'incantatore usa l'incantesimo su qualcuno afflitto da un effetto di paura magica, la vittima può effettuare un tiro salvezza contro incantesimi, con un bonus al tiro pari al livello di esperienza dell'incantatore (fino a un massimo di +6). Se il tiro salvezza è riuscito, la paura della vittima viene dissipata. Indipendentemente dal livello dell'incantatore o da eventuali bonus, un tiro di 1 fallirà sempre</p><p>La forma inversa dell'incantesimo, <em>terrore</em>, farà fuggire qualsiasi creatura per due turni. La vittima può effettuare un tiro salvezza contro incantesimi per evitare l'effetto. Questo incantesimo inverso ha un raggio d'azione di 36 m</p>",
@@ -10057,7 +10079,9 @@
                     "spellEffect": "Una qualsiasi creatura vivente"
                 }
             },
-            "monsterType": "Mostro, Magico (Raro)"
+            "monsterType": "Mostro, Magico (Raro)",
+            "biography": "<p>I Pesci Diavolo sono una razza di chierici marini caotici che somigliano a mante per forma, dimensioni e aspetto. Al di fuori dei loro rifugi, si trovano sempre in gruppi di 20 o più. La coda e il morso di un Pesce Diavolo standard con 2 dadi vita infliggono 1 punto di danno ciascuno.</p>\n<p>Un gruppo di Pesci Diavolo erranti è composto dai seguenti mostri per ogni 20:</p>\n<ul>\n  <li><p>15 <strong>Accoliti</strong> (1DV)</p></li>\n  <li><p>1 <strong>Prete</strong> (2DV)</p></li>\n  <li><p>1 <strong>Curato</strong> (3DV)</p></li>\n  <li><p>1 <strong>Vescovo</strong> (4DV)</p></li>\n  <li><p>1 <strong>Patriarca</strong> (5DV)</p></li>\n  <li><p>1 <strong>Matriarca</strong> (6DV)</p></li>\n</ul>\n<p><strong>Terreno:</strong> Oceano, Fiumi Costieri, Rive.</p>",
+            "name": "Pesce Diavolo, Prete"
         },
         "Devilfish, Acolyte": {
             "items": {
@@ -10077,7 +10101,8 @@
                     "name": "Naturale"
                 },
                 "IibyxcsqeSwthIzE": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Il morso del Pesce Diavolo infligge 1 punto di danno."
                 },
                 "U4BwxqLmL6QjGBnU": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -10088,10 +10113,13 @@
                     "name": "Bacchetta Magica"
                 },
                 "w4p9y4rTsuPDAISh": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "La coda del Pesco Diavolo infligge 1 punto di danno."
                 }
             },
-            "monsterType": "Mostro, Magico (Raro)"
+            "monsterType": "Mostro, Magico (Raro)",
+            "name": "Pesce Diavolo, Accolito",
+            "biography": "<p>I Pesci Diavolo sono una razza di chierici marini caotici che somigliano a mante per forma, dimensioni e aspetto. Al di fuori dei loro rifugi, si trovano sempre in gruppi di 20 o più. La coda e il morso di un Pesce Diavolo standard con 1-4 dadi vita infliggono 1 punto di danno ciascuno.</p>\n<p>Un gruppo di Pesci Diavolo erranti è composto dai seguenti mostri per ogni 20:</p>\n<ul>\n  <li><p>15 <strong>Accoliti</strong> (1DV)</p></li>\n  <li><p>1 <strong>Prete</strong> (2DV)</p></li>\n  <li><p>1 <strong>Curato</strong> (3DV)</p></li>\n  <li><p>1 <strong>Vescovo</strong> (4DV)</p></li>\n  <li><p>1 <strong>Patriarca</strong> (5DV)</p></li>\n  <li><p>1 <strong>Matriarca</strong> (6DV)</p></li>\n</ul>\n<p><strong>Terreno:</strong> Oceano, Fiumi Costieri, Rive.</p>"
         },
         "Giant, Cloud": {
             "items": {
@@ -10732,17 +10760,31 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "Mb263yzzVl4wCkr6": {
-                    "name": "Tocco Corrosivo"
+                    "name": "Tocco Corrosivo",
+                    "description": "Il tocco del protoplasma nero infligge 3d8 danni alle creature viventi, corrode il metallo e dissolve il legno in 1 turno."
                 },
                 "aa6Qa9ILXBKM5kRz": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
                 },
                 "fjxmLG7056c8mn73": {
-                    "name": "Scindersi"
+                    "name": "Scindersi",
+                    "description": "<p>Se colpito da un attacco che non sia da fuoco, il protoplasma nero si divide in protoplasmi più piccoli, ciascuno con 2 dadi vita e che infligge 1d8 danni. Questi protoplasmi più piccoli possono essere distrutti solo da attacchi da fuoco.</p>",
+                    "gmNotes": "Si divide in protoplasmi più piccoli (2 dadi vita ciascuno, 1d8 danni) se colpito da attacchi che non siano da fuoco."
+                },
+                "6PrxxV6qSM6uFhjf": {
+                    "description": "<p>Il protoplasma nero può essere danneggiato solo da attacchi da fuoco, come una spada fiammeggiante. Altri attacchi lo dividono semplicemente in protoplasmi più piccoli.</p>",
+                    "gmNotes": "Può essere danneggiato solo da attacchi da fuoco.",
+                    "name": "Vulnerabile al Fuoco"
+                },
+                "C1c2m8PtUT6aumqm": {
+                    "name": "Corpo Corrosivo",
+                    "description": "Il corpo del protoplasma nero è corrosivo e può essere danneggiato solo da attacchi da fuoco. Altri attacchi lo dividono in protoplasmi più piccoli."
                 }
             },
-            "monsterType": "Mostro (Comune)"
+            "monsterType": "Mostro (Comune)",
+            "biography": "<p>Un Protoplasma Nero è una massa nera priva di intelligenza, che varia da 1,5 a 9 metri di diametro. Queste creature sono sempre affamate e attaccheranno ogni essere vivente che incontrano. Il loro tocco corrosivo infligge 3d8 danni a creature viventi e può dissolvere il legno e corrodere il metallo in un turno. Non possono danneggiare la pietra.</p>\n      <p>I protoplasmi neri possono muoversi sui soffitti e sulle pareti e possono passare attraverso piccole aperture, sebbene questo sia un processo lento che potrebbe richiedere un intero turno o più. Sono immuni a tutti gli attacchi che non siano di fuoco; qualsiasi arma o incantesimo che colpisce un protoplasma nero lo dividerà in protoplasmi più piccoli, ciascuno con 2 dadi vita e che infligge 1d8 danni. Solo gli attacchi basati sul fuoco, come una spada fiammeggiante, possono infliggere danni completi a un protoplasma nero.</p>\n      <p>Nonostante di solito non abbiano tesori, potrebbero essere trovati vicino a gemme a a resti di vittime precedenti.</p>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "name": "Protoplasma Nero*"
         },
         "Devilfish, Matriarch*": {
             "items": {
@@ -10790,7 +10832,8 @@
                     "spellEffect": "Volume di 9 m di diametro",
                     "name": "Tenebre Magiche*",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "AY5IzkyvjtJGmLwC": {
                     "name": "Sciame di Insetti",
@@ -11040,7 +11083,8 @@
                 "oO9TlPky3zra8eYe": {
                     "spellEffect": "Volume di 9 m di diametro",
                     "name": "Luce Magica*",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "okAwvrWTdbzEVumt": {
                     "name": "Naturale"
@@ -11104,7 +11148,8 @@
                     "spellEffect": "Una creatura vivente"
                 },
                 "fKX3yo2LrwCu5dAm": {
-                    "name": "Incantesimi da Chierico"
+                    "name": "Incantesimi da Chierico",
+                    "description": "<p>I Pesci Diavolo chierici possono lanciare incantesimi come un chierico di 6º livello. Gli incantesimi includono Cura Ferite Leggere, Luce Magica e Protezione dal Male.</p>"
                 },
                 "t80NhHp75W4hiz1Q": {
                     "description": "<p>Questo incantesimo rende sicuro il consumo di cibo e acqua avariati o avvelenati. Può purificare una razione di cibo conservato (sia razioni di ferro che standard), sei otri d'acqua, o abbastanza cibo normale per nutrire dodici persone. Se lanciato sul fango, l'incantesimo fa depositare la terra, lasciando una pozza di acqua pura e limpida. L'incantesimo non influenza nessuna creatura vivente</p>",
@@ -11120,9 +11165,19 @@
                     "description": "<p><em>Infliggi Malattie</em>, infetta il bersaglio con una malattia debilitante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 ai tiri per colpire e una guarigione rallentata. La malattia è fatale entro [[/r 2d12 #Cure Disease duration in days]] giorni a meno che non venga rimossa da un incantesimo <em>Cura Malattie</em>.</p>",
                     "name": "Infliggi Malattie*",
                     "spellEffect": "Una creatura vivente entro portata"
+                },
+                "VEXKFLmvOpb28fKH": {
+                    "description": "<p>La coda del Pesce Diavolo infligge 1d4 punti di danno e un risucchio di energia che riduce il personaggio bersaglio di 2 livelli. Vedi i vampiri per ulteriori informazioni.</p>",
+                    "name": "Coda + Risucchio"
+                },
+                "si2XAjbFXmBwt2f8": {
+                    "name": "Morso + Risucchio",
+                    "description": "<p>1d4 punti di danno e un risucchio di energia che riduce il personaggio bersaglio di 2 livelli. Vedi i vampiri per ulteriori informazioni.</p>"
                 }
             },
-            "monsterType": "Mostro, Magico (Raro)"
+            "monsterType": "Mostro, Magico (Raro)",
+            "biography": "<p>I Pesci Diavolo sono una razza di chierici caotici sottomarini che somigliano a mante per forma, dimensioni e aspetto. Fuori dalle loro tane, si trovano sempre in gruppi di 20 o più. La coda e il morso di un Pesce Diavolo Matriarca infliggono 1d4/1d6 punti di danno e un doppio risucchio di livello.</p>\n<p>Possono essere danneggiati solo da armi magiche o d'argento (o oggetti sacri, come i vampiri), ma possono essere scacciati da un chierico, come i normali vampiri. Possono charmare e rigenerarsi come i normali vampiri, ma non possono cambiare forma.</p>\n<p>Un gruppo di Pesci Diavolo erranti è composto dai seguenti mostri per 20:</p>\n<ul>\n  <li><p>15 Accoliti (1HD)</p></li>\n  <li><p>1 Prete (2HD)</p></li>\n  <li><p>1 Curato (3HD)</p></li>\n  <li><p>1 Vescovo (4HD)</p></li>\n  <li><p>1 Patriarca (5HD)</p></li>\n  <li><p>1 Matriarca (6HD)</p></li>\n</ul>\n<p><strong>Terreno:</strong> Oceano, Fiumi Costieri, Rive.</p>",
+            "name": "Pesce Diavolo, Matriarca*"
         },
         "Devilfish, Patriarch*": {
             "items": {
@@ -11205,7 +11260,8 @@
                 "oO9TlPky3zra8eYe": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "t80NhHp75W4hiz1Q": {
                     "name": "Purificazione dei Cibi e dell’Acqua",
@@ -11280,7 +11336,8 @@
                     "description": "<p><em>Sblocca Persona</em>, rimuove la paralisi da fino a 4 vittime colpite dalla forma normale dell’incantesimo (incluso *Blocca Persona* lanciato da un mago o un elfo). Non ha effetto su altre forme di paralisi, come quella causata da un ghoul.</p><p>Questo incantesimo paralizza fino a 4 creature, colpendo qualsiasi umano, semiumano o umanoidi come bugbear, driadi, gnoll, hobgoblin, coboldi, uomini lucertola, orchi, orchetti, nixie, pixie o folletti. Non influenza i non-morti o creature più grandi degli orchi. Ogni bersaglio deve superare un tiro salvezza contro incantesimi o essere paralizzato per 9 turni. Se l’incantesimo viene lanciato su un singolo bersaglio, quella creatura riceve una penalità di -2 al suo tiro salvezza. Se lanciato su un gruppo, fino a quattro creature a scelta dell’incantatore possono essere colpite, ma senza alcuna penalità ai loro tiri salvezza. La paralisi può essere rimossa solo dalla forma inversa di questo incantesimo o da un incantesimo Dissolvi Magie.</p>"
                 },
                 "0t7g0As9ZoCMkpYy": {
-                    "name": "Charme"
+                    "name": "Charme",
+                    "description": "<p>Lo sguardo della creatura può incantare. Ogni vittima che incontra lo sguardo può effettuare un tiro salvezza contro le magie per evitare l'incantesimo, ma con una penalità di -2 al tiro. Vedi la descrizione del vampiro per ulteriori informazioni.</p>"
                 },
                 "5FX1rH3OFvk5xuDa": {
                     "description": "<p>Questo incantesimo rimuove una maledizione da un personaggio, oggetto o area. Alcune maledizioni, specialmente quelle su oggetti magici, possono essere sollevate solo temporaneamente. Per la rimozione permanente, potrebbe essere necessario un incantesimo di <em>distruzione del male</em> o un <em>scaccia maledizioni</em> lanciato da un incantatore di livello superiore (a discrezione del DM)</p>\n                <p>L'inverso di questo incantesimo, <em>maledizione</em>, impone una penalità o una sfortuna sul bersaglio, con effetti limitati solo dall'immaginazione dell'incantatore. Se la maledizione è troppo potente, potrebbe ritorcersi contro l'incantatore (a discrezione del DM). Le maledizioni tipiche includono una penalità di -4 ai tiri per colpire, una penalità di -2 ai tiri salvezza, il dimezzamento di un requisito principale, o una penalità di -4 ai tiri di reazione degli altri. La vittima può fare un tiro salvezza contro incantesimi per evitare la maledizione</p>",
@@ -11296,7 +11353,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "BoRibw7PChFvR2kj": {
                     "description": "<p>Questo incantesimo cura 2d6 + 2 punti danno a una creatura vivente quando toccata dall'incantatore</p>",
@@ -11314,7 +11372,8 @@
                     "spellEffect": "Tutti entro un'area di 6 metri quadrati"
                 },
                 "MxHZC6GMKAkbCqd4": {
-                    "name": "Rigenerazione"
+                    "name": "Rigenerazione",
+                    "description": "<p>Rigenera 3 punti ferita per round. La rigenerazione inizia nel round successivo al danno subito dal mostro e continua fino a quando i suoi punti ferita arrivano a zero.</p>"
                 },
                 "VnBA8ntBGH7CVR1H": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -11345,7 +11404,8 @@
                     "spellEffect": "Una creatura vivente"
                 },
                 "fKX3yo2LrwCu5dAm": {
-                    "name": "Incantesimi da Chierico"
+                    "name": "Incantesimi da Chierico",
+                    "description": "<p>I Pesci Diavolo chierici possono lanciare incantesimi come un chierico di 5º livello. Gli incantesimi includono Cura Ferite Leggere, Luce Magica e Protezione dal Male.</p>"
                 },
                 "okAwvrWTdbzEVumt": {
                     "name": "Naturale"
@@ -11385,14 +11445,25 @@
                     "description": "<p>Quando l'incantatore lancia questo incantesimo e poi tocca qualsiasi creatura vivente, calma la creatura e rimuove qualsiasi paura. Se la creatura è stata colpita da un incantesimo di <em>paura</em> o effetto che normalmente non permette un tiro salvezza, l'incantesimo <em>scacciapaura</em> può comunque essere efficace. Se l'incantatore usa l'incantesimo su qualcuno afflitto da un effetto di paura magica, la vittima può effettuare un tiro salvezza contro incantesimi, con un bonus al tiro pari al livello di esperienza dell'incantatore (fino a un massimo di +6). Se il tiro salvezza è riuscito, la paura della vittima viene dissipata. Indipendentemente dal livello dell'incantatore o da eventuali bonus, un tiro di 1 fallirà sempre</p><p>La forma inversa dell'incantesimo, <em>terrore</em>, farà fuggire qualsiasi creatura per due turni. La vittima può effettuare un tiro salvezza contro incantesimi per evitare l'effetto. Questo incantesimo inverso ha un raggio d'azione di 36 m</p>",
                     "name": "Scacciapaura*",
                     "spellEffect": "Una qualsiasi creatura vivente"
+                },
+                "UfKMdtQV8NZdD8Pu": {
+                    "description": "<p>La coda del Pesce Diavolo infligge 1d4 punti di danno e un risucchio di energia che riduce il personaggio bersaglio di 2 livelli. Vedi i vampiri per ulteriori informazioni.</p>",
+                    "name": "Coda + Risucchio"
+                },
+                "N6ebxz1IGUFbuni7": {
+                    "description": "<p>1d4 punti di danno e un risucchio di energia che riduce il personaggio bersaglio di 2 livelli. Vedi i vampiri per ulteriori informazioni.</p>",
+                    "name": "Morso + Risucchio"
                 }
             },
-            "monsterType": "Mostro, Magico (Raro)"
+            "monsterType": "Mostro, Magico (Raro)",
+            "name": "Pesce Diavolo, Patriarca*",
+            "biography": "<p>I Pesci Diavolo sono una razza di chierici caotici sottomarini che somigliano a mante per forma, dimensioni e aspetto. Fuori dalle loro tane, si trovano sempre in gruppi di 20 o più. La coda e il morso di un Pesce Diavolo Patriarca infliggono 1d4/1d6 punti di danno e un doppio risucchio di livello.</p>\n<p>Possono essere danneggiati solo da armi magiche o d'argento (o oggetti sacri, come i vampiri), ma possono essere scacciati da un chierico, come i normali vampiri. Possono charmare e rigenerarsi come i normali vampiri, ma non possono cambiare forma.</p>\n<p>Un gruppo di Pesci Diavolo erranti è composto dai seguenti mostri per 20:</p>\n<ul>\n  <li><p>15 Accoliti (1HD)</p></li>\n  <li><p>1 Prete (2HD)</p></li>\n  <li><p>1 Curato (3HD)</p></li>\n  <li><p>1 Vescovo (4HD)</p></li>\n  <li><p>1 Patriarca (5HD)</p></li>\n  <li><p>1 Matriarca (6HD)</p></li>\n</ul>\n<p><strong>Terreno:</strong> Oceano, Fiumi Costieri, Rive.</p>"
         },
         "Djinni, Greater; Pasha*": {
             "items": {
                 "chmcvbOkdqsXNsvh": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "Un colpo potente con i pugni del pasha."
                 },
                 "guG5WoQzMOSjhDxk": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -11407,58 +11478,98 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
                 },
                 "tX367OLIxt89qbWw": {
-                    "name": "Nube Mortale"
+                    "name": "Nube Mortale",
+                    "description": "<p>Crea una nuvola velenosa in movimento che uccide le creature con meno di 6 DV a meno che non superino un tiro salvezza contro veleno.</p>",
+                    "spellEffect": "Uccide creature con meno di 6 DV."
                 },
                 "DZunK0g8zomZrIAI": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
                 },
                 "E070mrK6T9wBdaZR": {
-                    "name": "Invisibilità"
+                    "name": "Invisibilità",
+                    "description": "Una volta per round il genio può diventare invisibile."
                 },
                 "Ec0cZNEePbUNRVCJ": {
-                    "name": "Forma Gassosa"
+                    "name": "Forma Gassosa",
+                    "description": "Una volta per round il genio può assumere forma gassosa."
                 },
                 "HtZsg7iYWGgHB6hW": {
-                    "name": "Rigenerazione"
+                    "name": "Rigenerazione",
+                    "description": "Il Pasha rigenera 3 funti ferita per round."
                 },
                 "IZtmzQpJrvlz04eW": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica"
                 },
                 "YiPgEfHCLjNp27Hn": {
-                    "name": "Armatura Naturale"
+                    "name": "Armatura Naturale",
+                    "description": "Protezione magica che riduce i danni. I Pasha sono immuni alle armi magiche inferiori a +2."
                 },
                 "YvJNwqJU0FEDj5gl": {
-                    "name": "Turbine"
+                    "name": "Turbine",
+                    "description": "Si trasforma in una tromba d'aria che infligge 3d12 danni a tutte le creature sul suo percorso. Le creature con meno di 5 DV devono superare un tiro salvezza contro raggio della morte o essere uccise."
                 },
                 "Qs6Ti5rdvT1LMF1m": {
-                    "name": "Controllo del Tempo Atmosferico"
+                    "name": "Controllo del Tempo Atmosferico",
+                    "description": "<p>Consente all'incantatore di modificare il tempo atmosferico all'interno di un raggio di 72 m, creando condizioni come pioggia, neve o cieli sereni.</p>",
+                    "spellEffect": "Controlla le condizioni del tempo atmosferico."
+                },
+                "Ua5kWDvoFibarMRa": {
+                    "description": "Il genio può creare illusioni che influenzano la vista e l'udito. Le illusioni durano fino a quando non vengono toccate o dissolte.",
+                    "name": "Creare Illusioni"
+                },
+                "rtycnS6snswBjKwH": {
+                    "description": "<p>Trasforma fino a 2,8 metri cubi di acqua in un gas (come nebbia o vapore) che l’incantatore può controllare.</p>",
+                    "name": "Acqua in Gas",
+                    "spellEffect": "Trasforma acqua in gas."
+                },
+                "6RmyQACbLBol9TIQ": {
+                    "description": "Una volta al giorno, il pasha può esaudire un desiderio altrui.",
+                    "name": "Realizzare un Desiderio"
+                },
+                "9ObO5LygQ7aM8Q0K": {
+                    "description": "Il genio può creare cibo e bevande come un chierico di 7º livello, una volta per round.",
+                    "name": "Creare Cibo e Bevande"
+                },
+                "akzirttWciMTxzMl": {
+                    "name": "Creare Oggetti Metallici",
+                    "description": "Il djinni può creare oggetti metallici fino a un peso di 1.000 mon. L’oro dura 1 giorno e il ferro dura 1 round."
+                },
+                "ZtvkN4h3LXMFjTAO": {
+                    "description": "Il djinni può creare merci leggere e oggetti di legno fino a un peso di 1.000 mon, con durata permanente.",
+                    "name": "Creare Merci Leggere e Oggetti di Legno"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "name": "Genio Maggiore, Pasha*",
+            "biography": "<p>I Pasha sono i governanti dei Geni nella <em>Dimensione dell'Aria</em>. Appaiono come geni molto grandi e sono immuni a armi non magiche o armi con meno di +2 di incantamento. I Pasha rigenerano 3 punti ferita per round e possono compiere tutte le abilità di un normale genio ogni volta che lo desiderano, fino a una volta per round. Inoltre, possono entrare o uscire dalla Dimensione Eterea concentrandosi per un intero round.</p>\n                <p>I Pasha possiedono poteri speciali utilizzabili una volta al giorno, inclusi il <em>Realizzare il desiderio</em> altrui, lanciare <em>Nube Mortale</em>, <em>Trasforma acqua in gas</em>, e <em>Controllo del tempo Atmosferico</em>. Quando assumono la loro forma di tromba d'aria, che possono assumere o tornare normali in un solo round, sono alti 36 metri e hanno un diametro di 12 metri nella parte superiore. Questa forma infligge 3d12 danni a tutti coloro che si trovano nel suo cammino e uccide qualsiasi creatura con meno di 5 DV, a meno che la vittima non superi un tiro salvezza contro il raggio della morte.</p>\n                <p>I Pasha non possono essere evocati da incantesimi e sono influenzati da pochissimi oggetti magici. Appaiono nella Prima Dimensione solo quando un genio maltrattato invoca aiuto.</p>\n                <p><strong>Terreno:</strong> Dimensione dell'Aria, Deserto.</p>\n                <p><strong>Carico:</strong> 10.000 mon a velocità normale; 20.000 mon a velocità ridotta. Camminando, possono portare il doppio di questi volumi.</p>"
         },
         "Djinni, Lesser*": {
             "items": {
                 "0jRrvzsfLXSlGpsd": {
-                    "name": "Armatura Naturale"
+                    "name": "Armatura Naturale",
+                    "description": "Protezione mistica che riduce il danno."
                 },
                 "B8WXgVtqdOL3TutL": {
                     "name": "Veleno o Raggio della Morte",
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
                 },
                 "Dg8LQON2gHdBiwjZ": {
-                    "name": "Turbine"
+                    "name": "Turbine",
+                    "description": "Si trasforma in una tromba d'aria che infligge 2d6 danni a tutte le creature sul suo percorso. Le creature piccole devono superare un tiro salvezza contro il raggio della morte o essere spazzate via."
                 },
                 "TUfpVbUSxTWiHHIv": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "cG6tqhFZKj07j3Ua": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "Un colpo potente con il pugno del genio."
                 },
                 "6LUGuA3f08vqFI6d": {
-                    "name": "Invisibilità"
+                    "name": "Invisibilità",
+                    "description": "Il genio può diventare invisibile a piacimento, tre volte al giorno."
                 },
                 "Zn5MYVlBnhtNiJpA": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -11469,19 +11580,39 @@
                     "name": "Bacchetta Magica"
                 },
                 "r1aYCsV6X4kZT8TY": {
-                    "name": "Forma Gassosa"
+                    "name": "Forma Gassosa",
+                    "description": "Il genio può assumere forma gassosa tre volte al giorno."
                 },
                 "t37cRYiFrYvGBFJF": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi"
+                },
+                "EitdsaVvbPfih18L": {
+                    "description": "Il genio può creare oggetti metallici fino a un peso di 1.000 mon. L’oro dura 1 giorno e il ferro dura 1 round.",
+                    "name": "Creare Oggetti Metallici"
+                },
+                "QSGpuTqFWyvSZ9iw": {
+                    "description": "Il genio può creare merci leggere e oggetti di legno fino a un peso di 1.000 mon, con durata permanente.",
+                    "name": "Creare Merci Leggere e Oggetti di Legno"
+                },
+                "1xkoekbWiJubVI4p": {
+                    "description": "Il genio può creare cibo e bevande come un chierico di 7º livello, tre volte al giorno.",
+                    "name": "Creare Cibo e Bevande"
+                },
+                "XkVhneHyxE2jPe9f": {
+                    "name": "Creare Illusioni",
+                    "description": "Il genio può creare illusioni che influenzano vista e udito. Le illusioni durano finché non vengono toccate o dissolte."
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Raro)"
+            "monsterType": "Mostro Planare, Magico (Raro)",
+            "biography": "<p>I Geni sono creature incantate intelligenti e dotate di libero arbitrio, provenienti dal piano degli elementali dell’Aria. Appaiono come esseri alti e simili agli umani, con pari probabilità di essere maschi o femmine. Nonostante il loro allineamento caotico, sono generalmente di buon cuore e spesso usano i loro poteri per aiutare gli altri.</p>\n                <p>I geni sono di natura altamente magica e possono essere feriti solo da magia o armi magiche. Ogni genio possiede sette poteri unici che può usare tre volte al giorno:</p>\n                <ul>\n                  <li>Creare cibo e bevande (come un chierico di 7º livello).</li>\n                  <li>Creare oggetti metallici fino a 1.000 mon di peso (temporanei: l’oro dura 1 giorno, il ferro dura 1 round).</li>\n                  <li>Creare merci leggere e oggetti di legno fino a 1.000 mon di peso (permanenti).</li>\n                  <li>Diventare invisibile.</li>\n                  <li>Assumere forma gassosa.</li>\n                  <li>Formare una tromba d'aria.</li>\n                  <li>Creare illusioni che influenzano vista e udito (durano finché non vengono toccate o dissolte).</li>\n                </ul>\n                <p>Un genio può attaccare con un potente pugno o trasformarsi in una tromba d'aria che infligge 2d6 danni a tutti sul suo percorso. La trasformazione richiede 5 round, e il vortice può spazzare via creature con meno di 2 DV a meno che non superino un tiro salvezza contro il raggio della morte. Se un genio viene ucciso, il suo spirito torna al proprio piano.</p>\n                <p>I geni detestano essere schiavizzati dai maghi e li guardano con sospetto. Sul loro piano, sono immuni alle armi normali, a tutti gli incantesimi di 1º livello e agli attacchi basati sull’acqua. Possono anche rilevare creature invisibili a piacimento.</p>\n                <p>**Terreno:** Piano dell’Aria, Deserto (preferito).</p>\n                <p>**Carico:** Un genio può trasportare 3.500 mon di peso a piena velocità o 7.000 mon a mezza velocità. In momenti di grande necessità, può trasportare fino a 12.000 mon per una breve durata (3 turni camminando o 1 turno volando), ma dopo deve riposare 1 turno.</p>",
+            "name": "Genio Minore*"
         },
         "Dragon Turtle*": {
             "items": {
                 "11d47taqkx1pS5hC": {
-                    "name": "Artiglio"
+                    "name": "Artiglio",
+                    "description": "La Testuggine Dragona colpisce con i suoi artigli massicci."
                 },
                 "LQCqEEh6H7pFpTu7": {
                     "name": "Soffio del Drago",
@@ -11504,13 +11635,25 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
                 },
                 "vXh0I0tiSx0fwFeK": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Un morso devastante capace di distruggere navi."
                 },
                 "yKFsb0RBSXPAjFIK": {
-                    "name": "Nuotare"
+                    "name": "Nuotare",
+                    "description": "La testuggine dragona può nuotare a una velocità di 27 metri per turno."
+                },
+                "2u6rTeGuBSYK870h": {
+                    "name": "Soffio di Vapore",
+                    "description": "<p>Emette un cono di vapore bollente, lungo 15 metri e largo 12 metri, infliggendo danni da vapore pari ai punti ferita attuali del drago. I bersagli possono effettuare un tiro salvezza contro l'arma da soffio del drago per subire metà danno.</p>"
+                },
+                "pxA1B2FtVgROWyX0": {
+                    "name": "Guscio Testuggine Dragona (Armatura)",
+                    "description": "Il guscio corazzato della testuggine gragona fornisce una classe armatura naturale 0."
                 }
             },
-            "monsterType": "Dragonide (Raro)"
+            "monsterType": "Dragonide (Raro)",
+            "name": "Testuggine Dragona*",
+            "biography": "<p>La Testuggine Dragona è una massiccia bestia acquatica temuta da marinai e pirati. Conosciuta per la sua enorme dimensione e forza, la Testuggine Dragona può schiacciare le navi con i suoi potenti artigli e il suo morso devastante. La sua arma da soffio, un cono bollente di vapore, può far bollire l'acqua intorno a sé e incenerire i suoi nemici con un mortale cono lungo 15 metri e largo 12 metri. Le Testuggine Dragona sono altamente intelligenti e sono note per accumulare tesori provenienti da navi affondate.</p><p><strong>Arma da soffio:</strong> Cono di vapore, lungo 15 metri e largo 12 metri, che infligge danni pari ai punti ferita attuali della Testuggine Dragona.<br><strong>Terreno:</strong> Oceani, Grandi Laghi<br><strong>Armatura:</strong> Nessuna</p>"
         },
         "Drolem*": {
             "items": {
@@ -12024,7 +12167,8 @@
                 "ORg4lx4h2qi8AQmQ": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "UU8GULUVsbqocifB": {
                     "description": "<p>Questo incantesimo cura quasi ogni forma di cecità, comprese quelle causate da incantesimi di <em>luce</em> o <em>tenebre</em>. Non influirà sulla cecità causata da una maledizione.</p>",
@@ -12151,7 +12295,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "K1wJfIWV9CIz3ocC": {
                     "name": "Tenebre Perenni*",
@@ -12288,8 +12433,22 @@
                     "name": "Comunione",
                     "spellEffect": "3 domande consentite",
                     "spellRange": "0"
+                },
+                "i0SwdqWPRManfR9K": {
+                    "name": "Controlla Non-Morti",
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>22 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>"
+                },
+                "pPVlvcAjkY73RdDj": {
+                    "name": "Pelle Hag"
+                },
+                "xdi5G8TarHU2PlbE": {
+                    "description": "<p>L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno a -4</strong> o <strong>morire istantaneamente.</strong></p>",
+                    "name": "Artigli di Ferro (Velenosi)"
                 }
-            }
+            },
+            "monsterType": "Umanoide (Molto Raro)",
+            "name": "Hag Nero (11 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>22 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o                   <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (12 HD)": {
             "items": {
@@ -12451,7 +12610,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "7D6id91vW9PtOXm8": {
                     "description": "<p>Questo incantesimo permette a un'arma qualsiasi di infliggere 1d6 punti danno aggiuntivi per attacco (simile a un bastone magico da colpo). L'arma infliggerà questo danno extra con ogni colpo riuscito finché dura l'incantesimo. Questo bonus non si applica ai tiri per colpire, ma solo ai tiri per danni</p>\n                <p>Se l'incantatore lancia questo incantesimo su un'arma normale, l'arma può quindi danneggiare creature che normalmente sono influenzate solo da armi magiche; l'arma farà 1d6 punti danno per colpo (indipendentemente dal danno normale dell'arma)</p>",
@@ -12476,7 +12636,8 @@
                 "9dd3qnxRL8UfGfMH": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "AeDa9DifPW4Imeyz": {
                     "description": "<p>Questo incantesimo evoca un essere elementale intelligente chiamato <strong>Servo Fluttuante</strong> per recuperare un oggetto o una creatura specificata e riportarlo all'incantatore. Il servo appare immediatamente, e il chierico deve descrivere il bersaglio e la sua posizione, altrimenti se ne andrà.</p><p>Il servo fluttuante è etereo a volontà, il che gli permette di superare la maggior parte delle barriere, ma non può attraversare un effetto di <strong>Protezione dal Male</strong>.</p><p><strong>Compito e Durata:</strong> Il servo cercherà di trovare e riportare il bersaglio entro la durata dell'incantesimo (1 giorno per livello dell'incantatore). Se l'incantesimo termina prima che il compito sia portato a termine, sia che il servitore stia ancora cercando o stia già tornando, viene considerato un fallimento.</p><p><strong>Forza e Capacità di Carico:</strong> Il servo fluttuante ha una Forza di 18 e può trasportare fino a 227 kg (5.000 mon).</p><p><strong>Conseguenze del Fallimento:</strong> Se il servo fluttuante non riesce a completare il suo compito entro la durata dell'incantesimo, impazzisce e torna immediatamente per attaccare l'incantatore.</p>",
@@ -12661,8 +12822,23 @@
                     "spellDuration": "6 turni + 1 turno per livello dell'incantatore",
                     "spellEffect": "Mostra la via fi no ad un luogo indicato",
                     "spellRange": "0"
+                },
+                "KubmOnVm7HPgp2jq": {
+                    "description": "<p>L'Hag Nero ha una pelle spessa e verrucosa che fornisce una protezione naturale, conferendole <strong>CA 4</strong>.</p>",
+                    "name": "Pelle Hag"
+                },
+                "UvAyPTctALjcHRiE": {
+                    "description": "<p>L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>",
+                    "name": "Artigli di Ferro (Velenosi)"
+                },
+                "cR7g8XhlLHrRt342": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>24 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>",
+                    "name": "Controlla Non-Morti"
                 }
-            }
+            },
+            "monsterType": "Umanoide (Molto Raro)",
+            "name": "Hag Nero (12 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>24 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o                   <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (13 HD)": {
             "items": {
@@ -12757,7 +12933,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "yu8C4h6orCkI3DNS": {
                     "name": "Parlare con gli Animali",
@@ -12996,7 +13173,8 @@
                 "nposUFcOTP4JO5Zo": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "p4ZARMd4ZGgPhTz8": {
                     "description": "<p>La forma inversa dell'incantesimo, <em>Terrore</em>, farà fuggire qualsiasi creatura per due turni. La vittima può superare un tiro salvezza contro incantesimi per evitare l'effetto. Questo incantesimo inverso ha un raggio d'azione di 36 metri.</p>",
@@ -13034,8 +13212,23 @@
                     "description": "<p>Questo incantesimo cura una creatura vivente (che non sia non-morta o non vivente) di [[/r 1d6+1 #Cura Ferite Leggere]] punti danno. L'incantatore può curare se stesso con questo incantesimo.</p><p>In altrenativa, l'incantesimo può essere usato per curare la paralisi (eccetto quella causata da un incantesimo di <em>Blocca Persone</em> o <em>Blocca Mostri</em>), sebbene in tal caso nessun danno verrà curato allo stesso momento.</p><p>L'incantesimo non aumenterà i punti ferita massimi del bersaglio.</p><p>Quando invertito, questo incantesimo, <em>causa ferite leggere</em>, causa [[/r 1d6+1 #Causa Ferite Leggere]] punti di danno al bersaglio. Non è permesso alcun tiro salvezza, ma l'incantatore deve effettuare un normale tiro per colpire per infliggere questo danno.</p>",
                     "name": "Cura Ferite Leggere*",
                     "spellEffect": "Una creatura vivente"
+                },
+                "Jgd91rIHuHWWXnQj": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>26 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>",
+                    "name": "Controlla Non-Morti"
+                },
+                "UuvYg9ECJGMBnsTF": {
+                    "name": "Pelle Hag",
+                    "description": "<p>L'Hag Nero ha una pelle spessa e verrucosa che fornisce una protezione naturale, conferendole <strong>CA 4</strong>.</p>"
+                },
+                "b9FNJEJaOBNHDsbt": {
+                    "name": "Artigli di Ferro (Velenosi)",
+                    "description": "<p>L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>"
                 }
-            }
+            },
+            "monsterType": "Umanoide (Molto Raro)",
+            "name": "Hag Nero (13 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>26 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o                   <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (14 HD)": {
             "items": {
@@ -13215,7 +13408,8 @@
                 "AyJBdk6gmIR9DevA": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "Bd1PNnfVprrnP1VL": {
                     "description": "<p>Questo incantesimo cura qualsiasi malattia, comprese quelle causate da mummie o dalla fanghiglia verde. Dall'11º livello in poi, può anche curare la licantropia.</p><p>L'inverso, <em>Infliggi Malattie</em>, infetta il bersaglio con una malattia tremenda e devastante. Il bersaglio deve superare un tiro salvezza contro incantesimi o subire una penalità di -2 a tutti i suoi tiri per colpire. Le ferite della vittima non possono essere curate con la magia e il decorso naturale è due volte più lungo del normale. La malattia è fatale entro [[/r 2d12 #Durata del cura malattia in giorni]] giorni a meno che non venga rimossa da un incantesimo <em>cura malattie</em></p>",
@@ -13312,7 +13506,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "Wy1PzblRX2g8Tif6": {
                     "description": "<p>Questo incantesimo rende sicuro il consumo di cibo e acqua avariati o avvelenati. Può purificare una razione di cibo conservato (sia razioni di ferro che standard), sei otri d'acqua, o abbastanza cibo normale per nutrire dodici persone. Se lanciato sul fango, l'incantesimo fa depositare la terra, lasciando una pozza di acqua pura e limpida. L'incantesimo non influenza nessuna creatura vivente</p>",
@@ -13407,8 +13602,23 @@
                     "description": "<p>Questo incantesimo aumenta il morale delle creature amiche di +1 e concede loro un bonus di +1 a tutti i tiri per colpire e ai danni. Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p><p>La forma inversa, <em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p>",
                     "name": "Benedizione*",
                     "spellEffect": "Tutti entro un'area di 6 metri quadrati"
+                },
+                "lM74iyPm19xLOcEE": {
+                    "name": "Artigli di Ferro (Velenosi)",
+                    "description": "<p>L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>"
+                },
+                "vLP4HRPLAfbYQyDH": {
+                    "description": "<p>L'Hag Nero ha una pelle spessa e verrucosa che fornisce una protezione naturale, conferendole <strong>CA 4</strong>.</p>",
+                    "name": "Pelle Hag"
+                },
+                "yREM8Ihv114BT8LN": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>28 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>",
+                    "name": "Controlla Non-Morti"
                 }
-            }
+            },
+            "monsterType": "Umanoide (Molto Raro)",
+            "name": "Hag Nero (14 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>28 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o                   <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (15 HD)": {
             "items": {
@@ -13546,7 +13756,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "3oriBOFG7ef6IuLT": {
                     "description": "<p><em>Maledizione</em>, impone una penalità di -1 al morale, ai tiri per colpire e ai danni dei nemici. Ogni creatura influenzata può effettuare un tiro salvezza contro incantesimi per evitare queste penalità.</p><p>Influisce solo su coloro che si trovano in un'area di 6 metri x 6 metri e solo su quelli che non sono ancora impegnati in combattimento corpo a corpo.</p>",
@@ -13779,9 +13990,25 @@
                 "s5rhiMq7VcHTvaUG": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
+                },
+                "HrzrXvRhXwvrdQuE": {
+                    "name": "Artigli di Ferro (Velenosi)",
+                    "description": "<p>L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>"
+                },
+                "L8G6rBRDOAi5YxGd": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>30 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>",
+                    "name": "Controlla Non-Morti"
+                },
+                "UunZO9GfnAWJS5eL": {
+                    "name": "Pelle Hag",
+                    "description": "<p>L'Hag Nero ha una pelle spessa e verrucosa che fornisce una protezione naturale, conferendole <strong>CA 4</strong>.</p>"
                 }
-            }
+            },
+            "monsterType": "Umanoide (Molto Raro)",
+            "name": "Hag Nero (15 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>30 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (16 HD)": {
             "items": {
@@ -13875,7 +14102,8 @@
                 "zXDVuL55YGi7a5Sk": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "1DKXThOZc9wnlsVr": {
                     "description": "<p>Questo incantesimo costringe il bersaglio a intraprendere un compito specifico o una missione come comandato dall'incantatore. Il bersaglio può tentare un tiro salvezza contro incantesimi per resistere; se riesce, l'incantesimo non ha effetto.</p>\n                      <p><strong>Compiti Tipici:</strong> Il compito può includere l'uccisione di un particolare mostro, il salvataggio di un prigioniero, il recupero di un oggetto magico o l'intraprendere un pellegrinaggio. Se il compito è impossibile o suicida, l'incantesimo fallisce automaticamente</p>\n                      <p><strong>Durata:</strong> L'incantesimo rimane in vigore fino al completamento del compito specificato. Questo incantesimo costringe il bersaglio a portare a termine il compito, ma non lo costringe a farlo volontariamente. Una volta completato, il bersaglio potrebbe nutrire rancore verso l'incantatore, potenzialmente cercando vendetta a seconda delle circostanze della missione</p>\n                      <p><strong>Maledizione:</strong> Un bersaglio che rifiuta di intraprendere la missione è maledetto fino a quando non riprende il compito. La natura di questa maledizione è determinata dal GM e può essere il doppio della forza usuale di una maledizione standard</p>",
@@ -13896,7 +14124,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "2CuSTV5sF9DGwqFb": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -14153,8 +14382,23 @@
                     "name": "Parlare con i Morti",
                     "spellDuration": "1 round per livello dell'incantatore",
                     "spellEffect": "L'incantatore può porre tre domande"
+                },
+                "FtzVehv6sTk2SEkj": {
+                    "description": "<p>L'Hag Nero ha una pelle spessa e verrucosa che fornisce una protezione naturale, conferendole <strong>CA 4</strong>.</p>",
+                    "name": "Pelle Hag"
+                },
+                "m4NcCQEiQrxBP3q1": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>32 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>",
+                    "name": "Controlla Non-Morti"
+                },
+                "zVqy0MwSacGkdYtA": {
+                    "description": "<p>L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>",
+                    "name": "Artigli di Ferro (Velenosi)"
                 }
-            }
+            },
+            "monsterType": "Umanoide (Molto Raro)",
+            "name": "Hag Nero (16 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>32 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (17 HD)": {
             "items": {
@@ -14187,7 +14431,9 @@
                 "C0vGYc5IKpXcjVoN": {
                     "name": "Desiderio",
                     "spellDuration": "Speciale",
-                    "spellRange": "Speciale"
+                    "spellRange": "Speciale",
+                    "spellEffect": "Altera la realtà",
+                    "description": "<p><strong>Desiderio</strong> è l'incantesimo più potente disponibile per un chierico, capace di alterare la realtà stessa. Tuttavia, i suoi effetti sono soggetti a una stretta interpretazione da parte del DM.</p>\n\n<h3>Requisiti</h3>\n<ul>\n  <li>Solo i chierici di <strong>36º livello</strong> con <strong>Saggezza 18+</strong> possono lanciare questo incantesimo.</li>\n  <li><strong>I desideri non si trovano mai su pergamene</strong>, ma possono esistere in oggetti rari come anelli.</li>\n</ul>\n\n<h3>Formulazione del Desiderio</h3>\n<p>L'incantatore deve esprimere chiaramente il suo desiderio. La formulazione esatta è cruciale, poiché l'incantesimo segue il significato letterale piuttosto che l'intento. Il DM può interpretare il desiderio in modo stretto, generoso o anche malizioso.</p>\n<ul>\n  <li>Se un desiderio è formulato con <strong>avidità o malizia</strong>, il DM dovrebbe distorcere i suoi risultati.</li>\n  <li>Il DM può <strong>vietare desideri irragionevoli</strong>, facendo fallire l'incantesimo.</li>\n  <li>Dopo un desiderio mal interpretato, il DM dovrebbe spiegare il difetto nella formulazione.</li>\n</ul>\n<p>Esempi di <strong>desideri mal formulati</strong>:</p>\n<ul>\n  <li><em>\"Desidero sapere tutto su questo dungeon.\"</em> → Il personaggio sa tutto, ma lo dimentica in un secondo.</li>\n  <li><em>\"Desidero un milione di pezzi d'oro.\"</em> → L'oro cade sul personaggio, schiacciandolo, poi scompare.</li>\n  <li><em>\"Desidero poteri permanenti di sguardo basilisco.\"</em> → L'incantatore cresce una testa di basilisco extra.</li>\n</ul>\n\n<h3>Effetti Permessi</h3>\n<p><strong>Sostituzione dell'incantesimo:</strong> Un desiderio può replicare:</p>\n<ul>\n  <li>Qualsiasi <strong>incantesimo di mago di 8º livello o inferiore</strong></li>\n  <li>Qualsiasi <strong>incantesimo di chierico/druido di 6º livello o inferiore</strong></li>\n  <li>Questo uso di un desiderio è <strong>meno probabile</strong> che venga distorto.</li>\n</ul>\n\n<h3>Danneggiare Altri</h3>\n<p>Se un desiderio danneggia direttamente una creatura:</p>\n<ul>\n  <li>La vittima deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong>.</li>\n  <li>Se riesce, <strong>la metà dell'effetto rimbalza</strong> sull'incantatore, che deve anche effettuare il salvataggio (con penalità di -4).</li>\n  <li>Se il desiderio <strong>causa solo disagi</strong> (ad esempio, teletrasportandoli in una prigione), non è permesso alcun tiro salvezza.</li>\n</ul>\n\n<h3>Ottenere Tesoro</h3>\n<p>Un desiderio può evocare fino a <strong>50.000 mo</strong>, ma:</p>\n<ul>\n  <li>L'incantatore <strong>perde 1 PX per ogni moneta d'oro</strong> guadagnata.</li>\n  <li>Questa perdita di PX <strong>non può essere recuperata con alcun mezzo</strong>.</li>\n</ul>\n\n<h3>Modifiche ai Punteggi di Abilità</h3>\n<ul>\n  <li>Un desiderio può <strong>temporaneamente</strong> aumentare un punteggio di abilità fino a un <strong>massimo di 18</strong> per <strong>6 turni</strong>.</li>\n  <li>Un desiderio può <strong>permanentemente</strong> aumentare un punteggio di abilità di <strong>1 punto per ogni desiderio lanciato</strong>:</li>\n  <ul>\n    <li>Per aumentare la Forza da 15 a 16 sono necessari 16 desideri.</li>\n    <li>Per aumentarla da 16 a 17 sono necessari altri 17 desideri.</li>\n    <li>Tutti i desideri devono essere lanciati <strong>entro 1 settimana</strong>.</li>\n    <li>I desideri <strong>non possono</strong> abbassare permanentemente i punteggi di abilità.</li>\n  </ul>\n</ul>\n\n<h3>Massimo Livello di Esperienza</h3>\n<ul>\n  <li>Un desiderio <strong>non può</strong> superare il limite di 36º livello per i personaggi umani.</li>\n  <li>Tuttavia, un desiderio può concedere ai semiumani <strong>+1 Dado Vita</strong> (nuovi massimi: <strong>9 per gli halfling, 11 per gli elfi, 13 per i nani</strong>).</li>\n</ul>\n\n<h3>Cambiamenti di Razza</h3>\n<p>Un desiderio può cambiare permanentemente la razza di un personaggio:</p>\n<ul>\n  <li>I semiumani diventano umani <strong>guerrieri</strong> dello stesso livello.</li>\n  <li>Gli elfi diventano <strong>utenti di magia o guerrieri</strong> (scelti dall'incantatore del desiderio).</li>\n  <li>Gli umani diventano semiumani, ma <strong>mai al di sopra del loro limite di razza</strong>.</li>\n  <li>Se riluttante, il bersaglio guadagna un <strong>bonus di +5 al tiro salvezza contro gli incantesimi</strong> per resistere al cambiamento.</li>\n</ul>\n\n<h3>Cambiare Eventi Passati</h3>\n<p>Un desiderio può alterare <strong>un evento del giorno precedente</strong>:</p>\n<ul>\n  <li>Trasformando una <strong>sconfitta in una vittoria</strong> (se possibile).</li>\n  <li>Cambiando una <strong>morte in una sopravvivenza al limite della morte</strong>.</li>\n  <li>Cambiando una <strong>perdita permanente in una temporanea</strong>.</li>\n</ul>\n<p>Il DM può avvertire i giocatori se il loro desiderio <strong>supera i limiti dell'incantesimo</strong>.</p>\n\n<h3>Restrizioni Importanti</h3>\n<ul>\n  <li>Gli effetti etichettati come <strong>\"immutabili anche da un desiderio\"</strong> <strong>non possono</strong> essere alterati.</li>\n  <li>I desideri <strong>non possono alterare le meccaniche del gioco</strong> (ad esempio, \"i draghi non possono più sputare fuoco\").</li>\n  <li>I desideri irragionevoli o avidi <strong>hanno meno probabilità di riuscire</strong>.</li>\n</ul>"
                 },
                 "EjAnrqNHVsqNRRG5": {
                     "name": "Cura Ferite Leggere*",
@@ -14249,7 +14495,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "gGVbAzZLogUefnjM": {
                     "name": "Incantesimo di Babele*",
@@ -14301,7 +14548,9 @@
                 },
                 "1idNv8ekKpz7qvP0": {
                     "name": "Sopravvivenza",
-                    "spellDuration": "6 turni (1 ora) per livello del druido"
+                    "spellDuration": "6 turni (1 ora) per livello del druido",
+                    "spellEffect": "Protegge una creatura da tutti i danni non magici provenienti dall'ambiente",
+                    "description": "<p>Questo incantesimo garantisce al destinatario una protezione completa contro tutti i pericoli ambientali <strong>non magici</strong>. Mentre l’incantesimo è in effetto, il destinatario non ha bisogno di aria, cibo, acqua o sonno.</p>\n                      <p><strong>La protezione include:</strong></p>\n                      <ul>\n                        <li>Sopravvivenza in condizioni di caldo o freddo estremi (come deserti o bufere di neve).</li>\n                        <li>Respirazione in ambienti senza aria (sottoterra, sott’acqua, nello spazio, ecc.).</li>\n                        <li>Sopravvivenza nel vuoto o in atmosfere naturali tossiche.</li>\n                        <li>Immunità ai danni ambientali di altri piani (come il Piano Elementale del Fuoco).</li>\n                      </ul>\n                      <p><strong>Limitazioni:</strong></p>\n                      <ul>\n                        <li><strong>Non</strong> protegge dai danni <em>magici</em>, inclusi gli incantesimi.</li>\n                        <li><strong>Non</strong> previene danni da attacchi, veleni, armi da soffio o colpi fisici.</li>\n                      </ul>"
                 },
                 "2KkmIAF4bGOsCDj1": {
                     "name": "Maledizione* (Maggiore)",
@@ -14345,7 +14594,8 @@
                 "AhP1udaV9CLw9vOs": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "EuWRubdfVrHSaCCY": {
                     "description": "<p>Questo incantesimo fa emettere una debole luce blu a tutte le trappole meccaniche e magiche entro 9 metri dall'incantatore. Mentre rivela la presenza di trappole, non fornisce informazioni sul loro tipo o su come disattivarle. Agguati o pericoli naturali come le sabbie mobili non sono considerati trappole e non saranno rivelati da questo incantesimo.</p>",
@@ -14479,7 +14729,8 @@
                     "name": "Viaggiare",
                     "spellDuration": "Un turno per livello del mago",
                     "spellEffect": "Consente il volo e la forma gassosa",
-                    "spellRange": "0"
+                    "spellRange": "0",
+                    "description": "<p>Questo incantesimo conferisce all'incantatore una mobilità incredibile, consentendo il volo, i viaggi planari e persino la trasformazione in forma gassosa.</p>\n<p><strong>Effetti:</strong></p>\n<ul>\n  <li>L'incantatore può <strong>volare</strong> a una velocità di <strong>108 m (36 m)</strong>, simile all'incantesimo <em>Volo</em>.</li>\n  <li>Una volta per turno, l'incantatore può <strong>spostarsi in un piano vicino</strong> concentrandosi per 1 round.</li>\n  <li>Il chierico può portare <strong>una creatura aggiuntiva per ogni 5 livelli</strong> (arrotondato per difetto), a condizione che stia toccando al momento del viaggio planare.</li>\n  <li>Le creature riluttanti possono effettuare un <strong>tiro salvezza contro gli incantesimi</strong> per resistere al trasporto.</li>\n</ul>\n<p><strong>Forma Gassosa:</strong></p>\n<ul>\n  <li>Concentrandosi per un intero round, l'incantatore può diventare <strong>gassoso</strong>.</li>\n  <li>In forma gassosa, l'incantatore e tutto l'equipaggiamento trasportato si trasformano in nebbia.</li>\n  <li>Mentre è gassoso, il chierico può muoversi a <strong>218 m (72 m)</strong>, ma non può attaccare, lanciare incantesimi o usare oggetti.</li>\n  <li>In questa forma, l'incantatore è immune ai danni non magici, ma non può attraversare un incantesimo <em>Protezione dal Male</em> o un <em>Scudo Anti-Magia</em>.</li>\n</ul>"
                 },
                 "mJ0lpA56fE5BtZu9": {
                     "description": "<p>Questo incantesimo crea una luce potente come la luce del giorno in un volume sferico con un raggio di 9 metri. Dura fino a quando non viene dissolto o annullato dall'incantesimo <em>Tenebre Perenni</em>. Le creature che subiscono penalità in piena luce del giorno le subiscono anche all'interno dell'area di effetto.</p><p>Se lanciato sugli occhi di una creatura, il bersaglio deve fare un tiro salvezza contro incantesimi o essere accecato finché l'effetto non viene rimosso. Questo incantesimo può essere lanciato in un'area, su un oggetto o direttamente sugli occhi di una creatura per causare cecità.</p><p>Il rovescio, <em>oscurità continua</em>, crea un'area di totale oscurità di dimensioni simili, non influenzata dalle fonti di luce normali e dall'infravisione. Un incantesimo di <em>Luce Perenne</em> può annullarla. Se lanciato sugli occhi di una creatura, il bersaglio deve fare un tiro salvezza contro incantesimi o essere accecato.</p>",
@@ -14580,8 +14831,23 @@
                     "name": "Occultamento dell'Allineamento*",
                     "spellDuration": "Un turno per livello dell'incantatore",
                     "spellEffect": "Una creatura entro 3 m"
+                },
+                "WFW1vFcJsXDRjZ3Q": {
+                    "description": "<p>L'Hag Nero ha una pelle spessa e verrucosa che fornisce una protezione naturale, conferendole <strong>CA 4</strong>.</p>",
+                    "name": "Pelle Hag"
+                },
+                "ab4MVX18druyfu1h": {
+                    "description": "<p>L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>",
+                    "name": "Artigli di Ferro (Velenosi)"
+                },
+                "jKUVt8HvDATaWrFT": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>34 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>",
+                    "name": "Controlla Non-Morti"
                 }
-            }
+            },
+            "monsterType": "Umanoide (Molto Raro)",
+            "name": "Hag Nero (17 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>34 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (18 HD)": {
             "items": {
@@ -14607,7 +14873,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "Isa8SXKsl4W63zAJ": {
                     "name": "Sottrai Vita*",
@@ -14751,7 +15018,8 @@
                 "udIWxEXNqiYUdSJj": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "vpt0w6u117rGirmw": {
                     "name": "Creare Animali Normali",
@@ -15007,8 +15275,17 @@
                     "description": "<p>Questo incantesimo colpisce tutti i non-morti e i mostri incantati entro 9 metri. Ogni creatura colpita deve superare un tiro salvezza contro incantesimi o essere distrutta. Se lanciato su una singola creatura, subisce una penalità di -2 al suo tiro salvezza.</p>\n                      <p><strong>Effetto:</strong> Bandisce le creature da altri piani se falliscono il loro tiro salvezza. Quelle che lo superano devono fuggire e rimanere lontane finché l'incantatore si concentra, rimanendo fermo.</p>\n                      <p>L'incantesimo può anche rimuovere una maledizione da un oggetto o dissolvere un effetto di charme magico su una creatura.</p>",
                     "name": "Distruzione del Male",
                     "spellEffect": "Colpisce non-morti, creature incantate o una singola maledizione o charme"
+                },
+                "Cj02kWuZzQBPfPuO": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>36 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>"
+                },
+                "K0F8uKPh1J3IwXdl": {
+                    "description": "<p>L'Hag Nero ha una pelle spessa e verrucosa che fornisce una protezione naturale, conferendole <strong>CA 4</strong>.</p>",
+                    "name": "Pelle Hag"
                 }
-            }
+            },
+            "name": "Hag Nero (18 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>36 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (19 HD)": {
             "items": {
@@ -15077,7 +15354,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "ViLv7CmgxKAzOxHK": {
                     "name": "Sottrai Vita*",
@@ -15400,7 +15678,8 @@
                 "pfh4GteIk0LM0Hx0": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "r1eS4zkgjp6top8X": {
                     "description": "<p>Questo potente incantesimo fa tremare violentemente il terreno, creando crepe e distruzione in un'area fino a 18 m². L'area colpita aumenta di 1.5 m per livello dell'incantatore oltre il 17º.</p>\n                      <p><strong>Area d'Effetto:</strong></p>\n                      <ul>\n                        <li>Chierico di 17º livello: 18 m²</li>\n                        <li>Chierico di 18º livello: 19.5 m²</li>\n                        <li>Chierico di 19º livello: 21 m²</li>\n                        <li>+1.5 m per ogni livello aggiuntivo</li>\n                      </ul>\n                      <p><strong>Effetti:</strong></p>\n                      <ul>\n                        <li>Piccole abitazioni crollano in macerie.</li>\n                        <li>Strutture più grandi subiscono gravi crepe.</li>\n                        <li>Colline, scogliere e formazioni terrose provocano frane.</li>\n                        <li>Crepe possono aprirsi nel terreno, inghiottendo casualmente 1 creatura su 6.</li>\n                      </ul>\n                      <p>Una creatura in pericolo di cadere in una crepa può tentare un <strong>tiro salvezza contro morte</strong> per evitare di essere schiacciata.</p>",
@@ -15434,8 +15713,13 @@
                     "description": "<p>Questo incantesimo infligge 3d6 + 3 punti di danno a una creatura toccata dall'incantatore. È richiesto un tiro per colpire in mischia con successo.</p>",
                     "name": "Infliggi Ferite Critiche*",
                     "spellEffect": "Infligge danni critici a una creatura"
+                },
+                "pizjJXx3KJK90Tw1": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>38 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>"
                 }
-            }
+            },
+            "name": "Hag Nero (19 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>38 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Black Hag (20 HD)": {
             "items": {
@@ -15460,7 +15744,8 @@
                 "A01r44OZ7H6OJWvr": {
                     "name": "Luce Magica*",
                     "spellEffect": "Volume di 9 m di diametro",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p>Questo incantesimo crea una sfera di luce, come se fosse emessa da una torcia luminosa o una lampada. Se l’incantesimo viene lanciato su un oggetto (come un’arma), la luce si muove con l’oggetto.</p><p>Se l’incantesimo viene lanciato sugli occhi di una creatura, la vittima deve superare un tiro salvezza contro incantesimi. Se il tiro salvezza fallisce, la vittima è accecata dalla luce per la durata dell’incantesimo, o finché l’effetto dell’incantesimo non viene annullato.</p><p>Quando invertito, questo incantesimo, <em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "Anl7UHDLRQqVfVFR": {
                     "name": "Individuazione della Corretta Via",
@@ -15656,7 +15941,8 @@
                     "name": "Tenebre Magiche*",
                     "spellEffect": "Volume di 9 m di diametro",
                     "spellRange": "36",
-                    "spellDuration": "12 turni (2 ore)"
+                    "spellDuration": "12 turni (2 ore)",
+                    "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>"
                 },
                 "6QLo7NLzY1M2E1CT": {
                     "description": "<p>Questo incantesimo permette al chierico di creare animali normali dal nulla. Gli animali appaiono in un punto scelto entro 9 m e obbediranno sempre al chierico. Possono essere comandati per combattere, trasportare oggetti, sorvegliare aree o eseguire altri compiti entro le loro capacità naturali.</p>\n                      <p>Una volta creati, gli animali possono essere inviati fino a 72 m di distanza ma continueranno a seguire i comandi del chierico. Tuttavia, se le istruzioni non sono formulate con attenzione, potrebbero agire secondo i loro istinti naturali.</p>\n                      <p><strong>Numero e Dimensioni degli Animali:</strong> Il chierico sceglie il numero di animali, ma non il loro tipo esatto. Il DM determina le creature specifiche, che possono includere:</p>\n                      <ul>\n                        <li>1 animale grande (es. elefante, ippopotamo)</li>\n                        <li>3 animali di medie dimensioni (es. orso, grande felino)</li>\n                        <li>6 animali piccoli (es. lupo, babbuino)</li>\n                      </ul>\n                      <p>L'incantesimo <strong>non può</strong> creare animali giganti. Gli animali scompaiono quando vengono uccisi o quando la durata dell'incantesimo termina.</p>",
@@ -15861,8 +16147,13 @@
                 "xBoFazB52srv0mMW": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "tBiUkUO40MndRCoY": {
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse <strong>40 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>"
                 }
-            }
+            },
+            "name": "Hag Nero (20 DV)",
+            "biography": "<p>L' <strong>Hag Nero</strong> è una creatura terrificante e orribile dall'aspetto di una brutta femmina umana con <strong>capelli neri e pelle blu-nera verrucosa</strong>. A differenza dei normali incantatori, <strong>si diletta nella distruzione</strong> e <strong>controlla i non-morti come se fosse essa stessa un non-morto</strong>.</p>\n      <p><strong>Controllo dei non-morti:</strong> L'Hag Nero può controllare i non-morti come se avesse <strong>40 DV</strong>, rendendola una forza necromantica estremamente pericolosa.</p>\n      <p><strong>Artigli velenosi:</strong> L'Hag Nero attacca con <strong>artigli di ferro rivestiti di veleno</strong>. Qualsiasi creatura colpita deve <strong>superare un tiro salvezza contro veleno con -4</strong> o <strong>morire istantaneamente.</strong></p>\n      <p><strong>Lancio di incantesimi:</strong> L'Hag Nero è un incantatore naturale, lanciando incantesimi come un <strong>chierico di 7º livello</strong>. (Incantesimi non precaricati.)</p>\n      <p><strong>Tane oscure e servitori malvagi:</strong> Gli Hag Neri vivono in <strong>caverne oscure o foreste profonde</strong>, solitamente accompagnate da <strong>3d6 creature malvagie (spesso non-morti).</strong></p>\n      <p><strong>Compagni:</strong> Spesso tengono <strong>vermi , melme e protoplasmi</strong> come alleati.</p>\n      <p><strong>Terreno:</strong> Boschi.</p>"
         },
         "Elemental Ruler, Air (Plane of Air)*": {
             "items": {
@@ -18001,10 +18292,12 @@
         "Draft Horse": {
             "items": {
                 "26hw86qMxeOJap1G": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Una pelle spessa e robusta forma uno scudo naturale."
                 },
                 "5BzXhEGQPKo9JbRS": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Un morso disperato inferto da un cavallo non abituato al combattimento.."
                 },
                 "DROfvODx23xpx806": {
                     "name": "Soffio del Drago",
@@ -18027,7 +18320,9 @@
                     "name": "Bacchetta Magica"
                 }
             },
-            "monsterType": "Animale Normale (Comune)"
+            "monsterType": "Animale Normale (Comune)",
+            "name": "Cavallo da Tiro",
+            "biography": "<p>Un cavallo da tiro è un animale grande e robusto, allevato per resistenza e forza. Usato principalmente come animale da soma o per arare e trainare carri, non è destinato al combattimento e fuggirà se attaccato.</p>\n<p><strong>Terreno:</strong> Aperto</p>\n<p><strong>Carico:</strong> 9.000 mon</p>\n<p><strong>Moltiplicatore bardatura:</strong> x1</p>"
         },
         "Kobold": {
             "items": {
