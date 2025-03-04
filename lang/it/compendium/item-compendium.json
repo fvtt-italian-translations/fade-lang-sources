@@ -2914,7 +2914,26 @@
             "name": "Liuto"
         },
         "Blessed": {
-            "name": "Benedetto"
+            "name": "Benedetto",
+            "description": "<p>Questo effetto migliora il morale delle creature amichevoli di +1 e conferisce ai beneficiari un bonus di +1 a tutti i tiri per colpire e ai tiri per i danni. Avrà effetto solo sulle creature in un'area di 6 × 6 metri e solo su coloro che non sono ancora in mischia.</p>"
+        },
+        "Protected": {
+            "name": "Protetto",
+            "description": "<p>Questo effetto crea una barriera magica invisibile che circonda il corpo del bersaglio dell'incantesimo, a meno di 2,5 cm di distanza.</p> <p>Inoltre, le creature incantate non possono toccare il bersaglio dell'incantesimo. (Una creatura incantata è una creatura che non può essere danneggiata da armi normali e può essere colpita solo da armi magiche. Una creatura che può essere danneggiata solo da armi d'argento, come un lupo mannaro, non è considerata incantata).</p> <p>Le creature evocate magicamente o controllate, come un personaggio sotto l'effetto dello charme, sono anch'esse classificate come incantate. La barriera protegge completamente il bersaglio dell'incantesimo da tutti gli attacchi in mischia o corpo a corpo di queste creature, sebbene non blocchi gli attacchi con armi da lancio. Le creature incantate che utilizzano armi da lancio subiscono comunque una penalità di -1 al tiro per colpire ma possono colpire il bersaglio dell'incantesimo.</p> <p>Questo effetto non blocca gli incantesimi dardi incantati lanciati dai maghi.</p> <p>Se il bersaglio dell'incantesimo attacca una creatura incantata mentre questo effetto è attivo, le proprietà della barriera cambiano leggermente. Le creature incantate possono allora toccare il bersaglio dell'incantesimo, ma subiscono comunque la penalità al tiro per colpire. La penalità all'attacco e il bonus ai tiri salvezza del bersaglio rimangono fino alla fine dell'effetto.</p>"
+        },
+        "Invulnerable": {
+            "name": "Invulnerabile"
+        },
+        "Exhausted": {
+            "name": "Esausto"
+        },
+        "Shielded": {
+            "description": "<h2>Scudo</h2> <p>Una barriera magica avvolge l'individuo affetto, formando uno strato a meno di 2,5 cm dal suo corpo e muovendosi con lui. Mentre questo stato è attivo, l'individuo ha Classe Armatura <strong>2</strong> contro attacchi a distanza e <strong>4</strong> contro tutti gli altri attacchi.</p> <p>Se l'individuo è bersaglio di un <em>dardo incantato</em>, allora può effettuare un <strong>tiro salvezza contro incantesimi</strong> per ogni dardo. Con un tiro salvezza riuscito, il dardo incantato viene assorbito dalla barriera ed evapora senza causare danni.</p>",
+            "name": "Schermato"
+        },
+        "Blighted": {
+            "description": "<p>Maledizione infligge una penalità di -1 al morale, ai tiri per colpire e per ferire. Ogni vittima può effettuare un tiro salvezza contro incantesimi per evitare le penalità. Influisce solo sulle creature in un'area di 6 m × 6 m.</p>",
+            "name": "Maledetto"
         }
     },
     "label": "Oggetti Classi Abilità",
