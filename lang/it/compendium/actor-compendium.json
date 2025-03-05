@@ -11658,7 +11658,8 @@
         "Drolem*": {
             "items": {
                 "eCGEjuMl0AUbokBM": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Un morso devastante di precisione meccanica."
                 },
                 "gBlJrtPXHNiznZ1o": {
                     "name": "Veleno o Raggio della Morte",
@@ -11677,16 +11678,29 @@
                     "name": "Soffio del Drago"
                 },
                 "BSFLw1KhMw6CcPFs": {
-                    "name": "Artiglio"
+                    "name": "Artiglio",
+                    "description": "Il drolem dilania con i suoi potenti artigli meccanici."
                 },
                 "PPI7EI4r3OU9zIIN": {
-                    "name": "Immunità alla Magia"
+                    "name": "Immunità alla Magia",
+                    "description": "Il drolem è immune a tutti gli incantesimi tranne Disintegrare, Dissoluzione e Desiderio."
                 },
                 "iv3ah0125sLkHCUO": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi"
+                },
+                "COrjcn8QHMb1rJsP": {
+                    "description": "<p>Il corpo meccanico del drolem fornisce una Classe Armatura -3.</p>",
+                    "name": "Corpo Meccanico (Armatura)"
+                },
+                "aLuQ5SIGOAid6fjg": {
+                    "description": "<p>Soffia un cono di gas velenoso, lungo 18 metri e largo 9, che infligge 20d6 danni da veleno. I bersagli possono effettuare un tiro salvezza contro il soffio per dimezzare i danni.</p>",
+                    "name": "Soffio di Gas Velenoso"
                 }
-            }
+            },
+            "monsterType": "Costrutto Magico (Molto Raro)",
+            "biography": "<p>Un <strong>Drolem</strong> è un tipo di golem che assomiglia a un drago. Può essere fatto per somigliare a qualsiasi colore di drago o può apparire come uno <strong>scheletro di drago</strong>. Come altri golem, non è vivo, ma è un <strong>costrutto</strong> creato da un <strong>mago</strong> o <strong>chierico</strong> di alto livello. I <strong>Drolem</strong> sono estremamente rari, tipicamente costruiti per proteggere un oggetto o un luogo speciale. Per creare un <strong>Drolem</strong> sono necessari un <strong>libro</strong> speciale e diversi materiali rari.</p><p>Un <strong>Drolem</strong> è <strong>non intelligente</strong> e segue esattamente le istruzioni. Può vedere le <strong>creature invisibili</strong> entro 18 m ed è immune a:</p><ul><li><strong>charme</strong>, <strong>blocco</strong>, <strong>sonno</strong> e tutti gli incantesimi che influenzano la mente</li><li>Tutte le forme di <strong>fuoco</strong>, <strong>freddo</strong> e <strong>gas</strong></li><li>Incantesimi di <strong>4º livello o inferiore</strong></li><li>Tutte le <strong>armi normali</strong> e <strong>d’argento</strong>, così come le <strong>armi magiche</strong> fiano a +2 </li></ul><p>Gli artigli del <strong>Drolem</strong> infliggono <strong>2d6</strong> danno ciascuno, e le sue mascelle massicce causano <strong>11-30 (1d20 + 10)</strong> danni. Può anche emettere una <strong>nuvola velenosa</strong> fino a tre volte al giorno. La nuvola ha un volume di <strong>6 m x 6 m x 6 m</strong>, e le creature al suo interno devono superare un tiro salvezza contro <strong>Soffio del drago</strong> o morire.</p><p><strong>Terreno:</strong> Qualsiasi</p><p><strong>Carico:</strong> 2000 mon a piena velocità; 4000 mon a mezza velocità</p>",
+            "name": "Drolem*"
         },
         "Efreeti (Greater; Amir)*": {
             "items": {
@@ -11711,7 +11725,9 @@
                 "08Q63DGutU7h3LgD": {
                     "name": "Desiderio",
                     "spellDuration": "varia",
-                    "spellRange": "Illimitato"
+                    "spellRange": "Illimitato",
+                    "description": "Una volta al giorno, può Realizzare un desiderio a un'altra creatura.",
+                    "spellEffect": "Realizza un desiderio."
                 },
                 "LS2QScDvTkxIP2HJ": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -11722,14 +11738,33 @@
                     "name": "Bacchetta Magica"
                 },
                 "VP1jrGmNSxDrwNvS": {
-                    "name": "Rigenerazione"
+                    "name": "Rigenerazione",
+                    "description": "Rigenera 2 PF per round."
                 },
                 "bDxRsTdCoYDpNrCq": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "q0wZe1hk3X28QF5I": {
+                    "description": "Un attacco in mischia devastante che infligge 3d10 danni per colpo.",
+                    "name": "Pugno Ardente"
+                },
+                "C70FZIEFd8JdE6tr": {
+                    "description": "Può entrare o uscire dal Piano Etereo concentrandosi per un round completo.",
+                    "name": "Viaggio Etereo"
+                },
+                "TdzmsfLynbNijNyd": {
+                    "description": "La forma surriscaldata conferisce una CA 2. Non può essere danneggiato da armi normali o da armi magiche con modificatore di incantamento inferiore a +2.",
+                    "name": "Avvolto dalle Fiamme"
+                },
+                "Xg7L1dRpPQeE3Yfy": {
+                    "description": "Può trasformarsi a piacimento in una colonna di fuoco, incendiando tutti gli oggetti infiammabili entro 4,5 m. Mentre è in questa forma, gli attacchi in mischia infliggono 2d8 danni da fuoco aggiuntivi.",
+                    "name": "Forma Fiammeggiante"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "biography": "<p>Nella Dimensione del Fuoco, i governanti degli Efriti sono noti come Amir. Questi potenti esseri appaiono come efriti maggiori enormi, alti tra 4,5 e 9 m. A differenza degli efriti minori, un amir non può essere ferito da armi normali o da armi magiche con un modificatore inferiore a +2. Inoltre, rigenerano 2 punti ferita per round.</p><p>Gli Amir possiedono tutte le abilità di un efriti minore e possono usarle a piacimento, una volta per round. Inoltre, possono entrare o uscire dal Piano Etereo concentrandosi per un intero round.</p><p>Una volta al giorno, un Amir può <em>Realizzare un desiderio</em> di un altro, lanciare <em>Palla di Fuoco</em> o scatenare una <em>Nube Esplosiva</em>, tutto come se fosse lanciato da un mago di 20º livello.</p><p>Gli Amir possono assumere la forma di un pilastro di fiamme senza limite, incendiando tutti gli oggetti infiammabili entro 4,5 m. In questa forma, i loro attacchi in mischia infliggono 2d8 danni da fuoco aggiuntivi.</p><p>Questi esseri non possono essere evocati da incantesimi e sono resistenti alla maggior parte degli oggetti magici. Appaiono raramente sul Piano Primario, facendolo solo in risposta alle grida di un Efriti minacciato. Quando lo fanno, possono apparire ovunque ma preferiscono ambienti caldi come i deserti.</p><p><strong>Terreno:</strong> Piano del Fuoco</p><p><strong>Carico:</strong> Vola con fino a 1000 mon a piena velocità o 2000 mon a mezza velocità. Cammina con fino a 2000 mon a piena velocità o 4000 mon a mezza velocità.</p>",
+            "name": "Efriti Maggiore, Amir*"
         },
         "Efreeti, Lesser*": {
             "items": {
@@ -11750,7 +11785,8 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
                 },
                 "q9EEZNUW5enhMryR": {
-                    "name": "Invisibilità"
+                    "name": "Invisibilità",
+                    "description": "<p>Può diventare invisibile a piacimento.</p>"
                 },
                 "OPAyVgmbv0Tzd8kG": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -11758,10 +11794,30 @@
                 },
                 "AGdsEiZohYiMu22K": {
                     "name": "Muro di Fuoco",
-                    "spellDuration": "varia"
+                    "spellDuration": "varia",
+                    "description": "Crea un muro di fiamme lungo 18 metri, bloccando il passaggio e infliggendo danni da fuoco a coloro che tentano di attraversarlo. Utilizzabile 3 volte al giorno.",
+                    "spellEffect": "Crea un muro di fuoco."
+                },
+                "CZooGZ0vFrVZ6D3s": {
+                    "description": "<p>Può creare oggetti e produrre illusioni a piacimento.</p>",
+                    "name": "Illusioni"
+                },
+                "MihPVThlyoz895F7": {
+                    "description": "La forma surriscaldata conferisce una CA 3. Può essere danneggiato solo da armi magiche.",
+                    "name": "Avvolto dalle Fiamme"
+                },
+                "eQtLd0MLjPKkAn1f": {
+                    "description": "Una volta per turno, si trasforma in una colonna di fuoco per un massimo di 3 round, incendiando oggetti infiammabili entro 1,5 metri. Mentre è in questa forma, gli attacchi in mischia infliggono 1d8 danni da fuoco aggiuntivi.",
+                    "name": "Forma Fiammeggiante"
+                },
+                "i2sLR7V4BKeJ8UV6": {
+                    "description": "Un attacco in mischia devastante che infligge 2d8 danni.",
+                    "name": "Pugno Ardente"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Raro)"
+            "monsterType": "Mostro Planare, Magico (Raro)",
+            "biography": "<p>Gli Efreeti Minori sono potenti esseri incantati provenienti dal piano elementale del Fuoco. Appaiono come fumo che si condensa in umanoidi di dimensioni gigantesche avvolti dalle fiamme. L’aria intorno a loro è calda e fumosa, e irradiano un’aura di minaccia. Gli Efreeti Minori sono altamente magici e possono essere feriti solo da armi magiche. Se uccisi, il loro spirito torna al Piano del Fuoco.</p><p>Gli Efreeti Minori possono creare oggetti, produrre illusioni e rendersi invisibili a piacimento. Possono anche lanciare <em>Muro di Fuoco</em> fino a 3 volte al giorno. Una volta per turno, possono trasformarsi in una Colonna di fiamme per un massimo di 3 round, incendiando tutti gli oggetti infiammabili entro 1,5 m. In questa forma, i loro attacchi in mischia infliggono 1d8 danni da fuoco aggiuntivi.</p><p>Evocare un Efreeti Minore richiede un mago di alto livello con accesso agli incantesimi <em>Creare Mostri Magici</em> e <em>Desiderio</em>. Una volta evocato, l’Efreeti Minore deve servire per 101 giorni, ma cercherà di distorcere le istruzioni del suo padrone in modi che causino problemi.</p><p>Gli Efreeti Minori abitano in grandi città sul loro piano natale, simili a quelle degli umani benestanti che vivono nei deserti. Disprezzano i djinn e li attaccano a vista. Sebbene generalmente in pace con gli elementali del fuoco, in passato hanno combattuto guerre contro di loro. Gli Efreeti Minori temono creature e attacchi basati sull’acqua.</p><p><strong>Terreno:</strong> Piano del Fuoco</p><p><strong>Carico:</strong> 500 mon a piena velocità, 1000 mon a mezza velocità</p>",
+            "name": "Efreeti Minore*"
         },
         "Elemental, Air (Device)*": {
             "items": {
@@ -16199,7 +16255,8 @@
         "Elemental Ruler, Air (Plane of Air)*": {
             "items": {
                 "3RX1mNEYsYQp4N49": {
-                    "name": "Immunità Elementale"
+                    "name": "Immunità Elementale",
+                    "description": "<p>Immune agli incantesimi di 1°-5° livello, veleno, charme, blocco, illusioni ed effetti di morte istantanea.</p>"
                 },
                 "AidaETxZPxy7gSmN": {
                     "name": "Veleno o Raggio della Morte",
@@ -16220,9 +16277,27 @@
                 "nfqqMfs8fBmRnlsD": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "2ySfbQyc8s4GV1Nz": {
+                    "description": "<p>Le vittime colpite devono effettuare un tiro salvezza contro il raggio della morte o verranno immediatamente schiacciate. Probabilità del 95% di distruzione dell'oggetto (-5% in più se magico).</p>",
+                    "name": "Colpi Schiaccianti"
+                },
+                "QcJvudS45nxtD6lN": {
+                    "description": "<p>Un massiccio colpo tempestoso infligge 8d12 danni (per 41 DV). Il danno varia in base ai Dadi Vita (vedi tabella di progressione).</p>",
+                    "name": "Colpo Tempestoso"
+                },
+                "TnagsdkgEUPm9wo4": {
+                    "description": "<p>Il vento vivo garantisce CA -11 a 41 DV (vedi tabella di progressione). Può essere danneggiato solo da armi +4 o superiori.</p>",
+                    "name": "Forma Tempestosa"
+                },
+                "TzekOfMAvKoM3tTr": {
+                    "description": "<p>Può evocare rinforzi dal Piano dell'Aria, arrivando in 3 round o 3 turni.</p>",
+                    "name": "Evocare Creature d'Aria"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "biography": "<p><strong>I signori supremi del Piano Elementale dell'Aria</strong>, queste entità sono vaste tempeste torreggianti, alte almeno 25 metri (0,6 metri per Dado Vita). Essi governano immense città di nuvole e comandano gli elementali dell'aria inferiori.</p>\n      <p><strong>Potere Immenso:</strong> Questi signori sono <strong>immuni agli incantesimi di 1º-5º Livello, veleni, charme, blocco, illusioni e tutta la magia a morte istantanea</strong> (come disintegrazione). Possono essere feriti solo da <strong>armi +4 o superiori</strong>.</p>\n      <p><strong>Colpi Devastanti:</strong> Una vittima colpita da un sovrano elementale deve <strong>superare un tiro salvezza contro raggio della morte</strong> o essere istantaneamente schiacciata, indipendentemente dai danni subiti. Qualsiasi oggetto trasportato ha il 95% di possibilità di essere distrutto (-5% in più se magico).</p>\n      <p><strong>Evocazione:</strong> I Signori Elementali dell'Aria possono evocare creature del loro piano a piacimento, con rinforzi che arrivano entro <strong>3 round a 3 turni</strong>.</p>\n      <p><strong>Dadi Vita e Progressione:</strong> I Signori Elementali dell'Aria crescono il loro potere con l'età:</p>\n      <ul>\n      <li><strong>41-48 DV:</strong> CA -11, 8d12 danni per pugno, PX 28.500</li>\n      <li><strong>49-56 DV:</strong> CA -12, 9d12 danni per pugno, PX 36.500</li>\n      <li><strong>57-64 DV:</strong> CA -13, 10d12 danni per pugno, PX 44.500</li>\n      <li><strong>65-72 DV:</strong> CA -14, 11d12 danni per pugno, PX 52.500</li>\n      <li><strong>73-80 DV:</strong> CA -15, 12d12 danni per pugno, PX 60.500</li>\n      </ul>\n      <p>Queste entità interagiscono raramente con i mortali, governando il loro piano con assoluta autorità.</p>\n      <p><strong>Terreno:</strong> Piano Elementale dell'Aria</p>",
+            "name": "Signore Elementale dell'Aria (Piano dell'Aria)*"
         },
         "Elemental Ruler, Earth (Plane of Earth)*": {
             "items": {
@@ -16239,7 +16314,8 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
                 },
                 "qDoQy2khtmGzfJrz": {
-                    "name": "Immunità Elementale"
+                    "name": "Immunità Elementale",
+                    "description": "<p>Immune agli incantesimi di 1°-5° livello, veleno, charme, blocco, illusioni ed effetti di morte istantanea.</p>"
                 },
                 "82Gv5Uyay6vxzsWE": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -16248,9 +16324,27 @@
                 "bfiEyIGS1qCVKA4b": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago"
+                },
+                "tH1tk7sBrlUFmMVR": {
+                    "name": "Forma Rocciosa Colossale",
+                    "description": "<p>La forma rocciosa colossale garantisce CA -11 a 41 DV (vedi tabella di progressione). Può essere danneggiato solo da armi +4 o superiori.</p>"
+                },
+                "WJtrGwOjDo0lFiiE": {
+                    "description": "<p>Può evocare rinforzi dal Piano della Terra, arrivando in 3 round o 3 turni.</p>",
+                    "name": "Evoca Creature di Terra"
+                },
+                "konZ00OPksZ1bi6s": {
+                    "description": "<p>Le vittime colpite devono effettuare un tiro salvezza contro il raggio della morte o verranno immediatamente schiacciate. Probabilità del 95% di distruzione dell'oggetto (-5% per ogni “+” nel caso di oggetti magici).</p>",
+                    "name": "Colpi Schiaccianti"
+                },
+                "m2y0QoAA25eZRnOt": {
+                    "description": "<p>Un pugno devastante che frantuma la roccia che infligge 8d12 danni (per 41 DV). Il danno varia in base ai Dadi Vita (vedi tabella di progressione).</p>",
+                    "name": "Colpo della Montagna"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "biography": "<p><strong>I supremi signori del Piano Elementale della Terra</strong> sono colossali montagne mobili, alte almeno 25 m (0,6 m per Dado Vita). Supervisionano vasti domini sotterranei fatti di pura pietra e metallo.</p>\n      <p><strong>Potere Immenso:</strong> Questi signori sono <strong>immuni agli incantesimi di 1º-5º livello, veleno, charme, blocco, illusioni e ogni magia a morte istantanea</strong> (come disintegrare). Possono essere feriti solo da <strong>armi +4 o superiori</strong>.</p>\n      <p><strong>Colpi Schiaccianti:</strong> Una vittima colpita da un signore elementale deve superare un <strong>tiro salvezza contro il raggio della morte</strong> o essere schiacciata istantaneamente, indipendentemente dal danno subito. Qualsiasi oggetto che porta con sé ha una probabilità del 95% di distruzione (-5% per ogni “più” nel caso di oggetti magici).</p>\n      <p><strong>Evocazione:</strong> I Signori Elementali della Terra possono evocare creature del loro piano a piacimento, con rinforzi che arrivano in <strong>3 round a 3 turni</strong>.</p>\n      <p><strong>Dadi Vita e Progressione:</strong> I Signori Elementali della Terra crescono in potenza con l’età:</p>\n      <ul>\n      <li><strong>41-48 DV:</strong> CA -11, 8d12 danni per pugno, PX 28.500</li>\n      <li><strong>49-56 DV:</strong> CA -12, 9d12 danni per pugno, PX 36.500</li>\n      <li><strong>57-64 DV:</strong> CA -13, 10d12 danni per pugno, PX 44.500</li>\n      <li><strong>65-72 HD:</strong> CA -14, 11d12 danni per pugno, PX 52.500</li>\n      <li><strong>73-80 HD:</strong> CA -15, 12d12 danni per pugno, PX 60.500</li>\n      </ul>\n      <p>I Signori Elementali della Terra interagiscono raramente con gli estranei, concentrandosi sulla protezione e il governo dei loro vasti imperi sotterranei.</p>\n      <p><strong>Terreno:</strong> Piano Elementale della Terra</p>",
+            "name": "Signore Elementale della Terra (Piano della Terra)*"
         },
         "Elemental Ruler, Fire (Plane of Fire)*": {
             "items": {
@@ -16281,7 +16375,8 @@
                     "name": "Colpo Infuocato"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "biography": "<p><strong>I supremi signori del Piano Elementale del Fuoco</strong> sono immensi esseri infernali viventi alti almeno 25 m (0,6 m per Dado Vita). Supervisionano imperi di fiamme e fiumi di lava, governando con un potere schiacciante.</p>\n<p><strong>Immenso Potere:</strong> Questi signori sono <strong>immuni agli incantesimi di 1º-5º livello, veleno, charme, immobilizzazione, illusioni e ogni magia a morte istantanea</strong> (come disintegrare). Possono essere feriti solo da <strong>armi +4 o superiori</strong>.</p>\n<p><strong>Colpi Schiaccianti:</strong> Una vittima colpita da un signore elementale deve superare un <strong>tiro salvezza contro raggio di morte</strong> o essere istantaneamente ridotta in cenere, indipendentemente dal danno subito. Qualsiasi oggetto che porta con sé ha una probabilità del 95% di distruzione (-5% per ogni “più” se magico).</p>\n<p><strong>Evocazione:</strong> I Signori Elementali del Fuoco possono evocare creature del loro piano a piacimento, con rinforzi che arrivano in <strong>3 round a 3 turni</strong>.</p>\n<p><strong>Dadi Vita e Progressione:</strong> I Signori Elementali del Fuoco crescono in potenza con l’età:</p>\n<ul>\n<li><strong>41-48 DV:</strong> CA -11, 8d12 danni per pugno, PX 28.500</li>\n<li><strong>49-56 DV:</strong> CA -12, 9d12 danni per pugno, PX 36.500</li>\n<li><strong>57-64 DV:</strong> CA -13, 10d12 danni per pugno, PX 44.500</li>\n<li><strong>65-72 DV:</strong> CA -14, 11d12 danni per pugno, PX 52.500</li>\n<li><strong>73-80 DV:</strong> CA -15, 12d12 danni per pugno, PX 60.500</li>\n</ul>\n<p>Questi signori lasciano raramente il loro regno, considerando le creature del Piano Primario deboli e di breve durata.</p>\n<p><strong>Terreno:</strong> Piano Elementale del Fuoco</p>"
         },
         "Elemental Ruler, Water (Plane of Water)*": {
             "items": {
@@ -16332,6 +16427,14 @@
                 "s2TF3Zt4ogrVVIDR": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "J5E0CuhaTE7LdoqO": {
+                    "description": "<p>Una potente esplosione d'aria che infligge 3d8 danni (per 16 DV). Il danno varia in base ai Dadi Vita (vedi tabella di progressione).</p>",
+                    "name": "Colpo Ciclonico"
+                },
+                "Cjrt8bPIDo89dU6Y": {
+                    "description": "<p>In quanto creature di aria pura, sono immuni al soffocamento e possono passare attraverso piccole aperture.</p>",
+                    "name": "Resistenze e Debolezze Elementali"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)"
