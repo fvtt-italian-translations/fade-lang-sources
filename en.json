@@ -316,7 +316,7 @@
         "initRoll": "{name} rolled {roll} {mod}.",
         "rollFormula": "Initiative Rolls (Base Formula: {formula})"
       },
-      "damageFlavor2": "<div>{weapon} does <span class='damage'>{damage}</span> points of damage.</div>",
+      "damageFlavor2": "<div>{attacker}: {weapon} does <span class='damage'>{damage}</span> points of damage.</div>",
       "damageRoll": {
         "applied": "{damage} points of {type} damage applied to {tokenName}.",
         "killed": "<span class='attack-fail'>{tokenName} has fallen in battle.</span>",
@@ -327,7 +327,7 @@
       },
       "effectEnds": "<div>{effectName} on {actorName} ends.</div>",
       "fail": "Failed",
-      "healFlavor": "<div>{weapon} restores <span class='damage'>{damage}</span> hit points.</div>",
+      "healFlavor": "<div>{attacker}: {weapon} restores <span class='damage'>{damage}</span> hit points.</div>",
       "healRoll": "Heal",
       "pass": "Success!",
       "resetSpells": "{actorName} reset memorized spells. Cast counts set to zero.",
