@@ -14,7 +14,7 @@
       "Abilities": {
         "cha": {
           "abbr": "CHA",
-          "hint": "<b>Charisma (Cha) is the character's force of personality and presence.</b><p>It affects the way other characters, especially nonplayer characters controlled by the DM, react to the character.</p>",
+          "hint": "<b>Charisma (Cha) is the character's force of personality and presence.</b><p>It affects the way other characters, especially nonplayer characters controlled by the DM, react to the character.</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
           "key": "CH",
           "long": "Charisma",
           "mod": "Reactions",
@@ -22,21 +22,21 @@
         },
         "con": {
           "abbr": "CON",
-          "hint": "<b>Constitution (Con) is the character's physical health and vigor.</b><p>It affects the character's hit points score (i.e., his ability to survive being injured).</p>",
+          "hint": "<b>Constitution (Con) is the character's physical health and vigor.</b><p>It affects the character's hit points score (i.e., his ability to survive being injured).</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
           "key": "CN",
           "long": "Constitution",
           "mod": "Hit Points/Level"
         },
         "dex": {
           "abbr": "DEX",
-          "hint": "<b>Dexterity (Dex) is the character's nimbleness and grace.</b><p>It affects the character's ability to wield missile and thrown weapons (such as bows and throwing knives) and can make it harder for enemies to hit the character.</p>",
+          "hint": "<b>Dexterity (Dex) is the character's nimbleness and grace.</b><p>It affects the character's ability to wield missile and thrown weapons (such as bows and throwing knives) and can make it harder for enemies to hit the character.</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
           "key": "DX",
           "long": "Dexterity",
           "mod": "Missile To-Hit, AC, Initiative"
         },
         "int": {
           "abbr": "INT",
-          "hint": "<b>Intelligence (Int) is the character's mental might.</b><p>It affects the number of languages the character can learn.</p>",
+          "hint": "<b>Intelligence (Int) is the character's mental might.</b><p>It affects the number of languages the character can learn.</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
           "key": "IN",
           "long": "Intelligence",
           "mod": "Language(s)"
@@ -46,14 +46,14 @@
         "score": "Score",
         "str": {
           "abbr": "STR",
-          "hint": "<b>Strength (Str) represents a character's physical power.</b><p>It influences the damage dealt with melee weapons like swords and clubs, as well as thrown weapons like spears and knives. It also impacts the character's accuracy when using hand-to-hand weapons and determines their capability for tasks like forcing open locked doors.</p</div>",
+          "hint": "<b>Strength (Str) represents a character's physical power.</b><p>It influences the damage dealt with melee weapons like swords and clubs, as well as thrown weapons like spears and knives. It also impacts the character's accuracy when using hand-to-hand weapons and determines their capability for tasks like forcing open locked doors.</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
           "key": "ST",
           "long": "Strength",
           "mod": "To-Hit, Damage, Open Doors"
         },
         "wis": {
           "abbr": "WIS",
-          "hint": "<b>Wisdom (Wis) is the character's understanding.</b><p>It affects the character's strength in understanding the world, the way things work, the forces of nature, and so forth, including their natural ability to resist magical spells.</p>",
+          "hint": "<b>Wisdom (Wis) is the character's understanding.</b><p>It affects the character's strength in understanding the world, the way things work, the forces of nature, and so forth, including their natural ability to resist magical spells.</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
           "key": "WS",
           "long": "Wisdom",
           "mod": "Saving Throws vs Spells"
@@ -72,6 +72,7 @@
         "short": "# Attacks"
       },
       "Class": "Class",
+      "ClassHint": "<p>Class can be selected by manually typing the class name or drag/droppping the class item onto the character sheet. It is possible to type any value, but class data will only be synched if the class name matches exactly.</p><p><i>Click label to view class sheet.</i></p>",
       "Dead": {
         "desc": "Is this actor currently dead?",
         "name": "Dead"
@@ -194,26 +195,6 @@
         }
       },
       "explore": {
-        "FindTrap": {
-          "abbr": "FT",
-          "long": "Find a concealed medium to large trap or hazard.",
-          "short": "Find Trap"
-        },
-        "ListenDoor": {
-          "abbr": "LD",
-          "long": "Hear a sound through a door or in the distance.",
-          "short": "Listen Door"
-        },
-        "OpenDoor": {
-          "abbr": "OD",
-          "long": "Force open door or lift heavy object.",
-          "short": "Open Door"
-        },
-        "SecretDoor": {
-          "abbr": "SD",
-          "long": "Detect a hidden door or compartment.",
-          "short": "Secret Door"
-        },
         "long": "Exploration"
       },
       "firstLevel": {
@@ -825,6 +806,7 @@
     "operator": "Operator",
     "roll": "Roll",
     "rollMode": "Roll Mode",
+    "rollWithCtrl": "<p>Roll {name} check.</p><p><i>Click to roll. Ctrl-click to roll without mod.</i></p>",
     "rounds": "rounds",
     "shortName": "Short Name",
     "tabs": {
