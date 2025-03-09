@@ -1241,6 +1241,10 @@
       "description": "<p>A sturdy pack with bandages, splints, needles, threads, herbs and other components used for healing. Comes with enough supplies for 15 uses.</p><p><strong>Requires successful roll of Healer skill to heal [[/r 1d3 #hp healed]] damage.</strong></p><p><em>Resupply may be purchased separately (10 gp), but this item must be purchased first.</em></p>",
       "name": "Healer's Kit"
     },
+    "Healer's Kit Supplies": {
+      "description": "<p>Supplies used for a healer's kit. Requires the Healer's Kit item and the Healing skill to be used.</p>",
+      "name": "Healer's Kit Supplies"
+    },
     "Healing": {
       "description": "<p>Healing allows the treatment of wounds and diagnosis of illnesses among humans and demihumans. A successful skill roll can restore 1d3 hit points to a wounded character. This skill can only be used once per set of wounds, defined as all hit points lost in a single combat. A natural roll of 20 accidentally inflicts [[/r 1d3 #Healing hit points restored]] damage, and the healer may not attempt to treat those wounds again. Success with a roll of 5 or more indicates the healer can determine if an illness is natural or magically induced.</p>",
       "name": "Healing"
