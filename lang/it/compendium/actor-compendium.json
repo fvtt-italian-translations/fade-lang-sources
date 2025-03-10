@@ -4677,7 +4677,8 @@
                 "R2LhYaHYOHuusyZM": {
                     "name": "Individuazione del Magico",
                     "spellEffect": "Ogni cosa entro 18 metri",
-                    "spellRange": "0"
+                    "spellRange": "0",
+                    "description": "<p>Questo incantesimo consente al mago di vedere un bagliore che circonda tutti gli oggetti magici, le creature e i luoghi entro 18 m. Il mago può vedere il bagliore solo se gli oggetti sono visibili; gli oggetti nascosti non mostreranno il loro bagliore. Non è consentito alcun tiro salvezza.</p>\n                <p><strong>Esempio:</strong> Dopo aver lanciato l'incantesimo, un mago può vedere una porta luminosa (chiusa con la magia) e una pozione luminosa. Una bacchetta magica all'interno di uno scrigno del tesoro non sarebbe visibile poiché lo scrigno nasconde il suo bagliore.</p>"
                 },
                 "VwCEZVk0ffpe8Adj": {
                     "description": "<p>Questo incantesimo permette all'incantatore di leggere qualsiasi parola o runa magica, come quelle che si trovano su pergamene o incise su oggetti. Non permette all'incantatore di pronunciare le parole, ma solo di leggerle e capirle. Un incantatore non può comprendere scritti magici sconosciuti senza usare questo incantesimo</p>\n                <p>Una volta che un incantatore legge una pergamena o una runa con questo incantesimo, può leggere o pronunciare quella magia di nuovo senza usare questo incantesimo. Tutti i libri di incantesimi sono scritti in parole magiche e solo i loro proprietari possono leggerli senza usare questo incantesimo</p>",
@@ -11759,7 +11760,7 @@
                 },
                 "Xg7L1dRpPQeE3Yfy": {
                     "description": "Può trasformarsi a piacimento in una colonna di fuoco, incendiando tutti gli oggetti infiammabili entro 4,5 m. Mentre è in questa forma, gli attacchi in mischia infliggono 2d8 danni da fuoco aggiuntivi.",
-                    "name": "Forma Fiammeggiante"
+                    "name": "Piroforma"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -11808,7 +11809,7 @@
                 },
                 "eQtLd0MLjPKkAn1f": {
                     "description": "Una volta per turno, si trasforma in una colonna di fuoco per un massimo di 3 round, incendiando oggetti infiammabili entro 1,5 metri. Mentre è in questa forma, gli attacchi in mischia infliggono 1d8 danni da fuoco aggiuntivi.",
-                    "name": "Forma Fiammeggiante"
+                    "name": "Piroforma"
                 },
                 "i2sLR7V4BKeJ8UV6": {
                     "description": "Un attacco in mischia devastante che infligge 2d8 danni.",
@@ -11984,7 +11985,7 @@
                 },
                 "WokJJ402zMuxiYbO": {
                     "description": "<p>Un colpo devastante che infligge 2d8 danni. Infligge 1d8 danni aggiuntivi contro i nemici che toccano il suolo.</p>",
-                    "name": "Colpi Schiaccianti"
+                    "name": "Colpo Schiacciante"
                 }
             },
             "monsterType": "Mostro Planare Magico (Comune)",
@@ -12014,10 +12015,25 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
                 },
                 "YX96UHDqeOu0qowe": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> dagli attacchi da fuoco, danni normali da terra e acqua, e <strong>danni minimi</strong> (1 PF per dado) da attacchi d’aria.</p>"
+                },
+                "vro7dvu8hKeICByj": {
+                    "description": "<p>Infligge 1d8 danni aggiuntivi ai nemici che si trovano su un terreno solido.</p>",
+                    "name": "Colpo Terroso"
+                },
+                "F3t9gU3FwlBKNEFc": {
+                    "description": "<p>La massiccia forma rocciosa da CA -2. Può essere ferito solo da magia o armi magiche.</p>",
+                    "name": "Corpo Roccioso"
+                },
+                "rkF56vWfVvOI9yvk": {
+                    "description": "<p>Un colpo travolgente che infligge 3d8 danni. Infligge 1d8 danni aggiuntivi ai nemici che toccano terra.</p>",
+                    "name": "Colpo Schiacciante"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "name": "Elementale della Terra (Incantesimo)*",
+            "biography": "<p>Il tipo più potente di elementale della terra, evocato tramite un <strong>incantesimo dei maghi</strong>, appare come un colosso torreggiante di pietra <strong>alto 4,8 m</strong>. Si muove deliberatamente ma infligge colpi catastrofici capaci di frantumare roccia e ossa allo stesso modo.</p>\n      <p>Gli elementali della terra sono più formidabili quando combattono su terreno solido, infliggendo <strong>1d8 danni extra</strong> a qualsiasi creatura che tocca la terra.</p>\n      <p>Gli elementali evocati con incantesimi richiedono un controllo costante. Se l’evocatore è distratto o la sua concentrazione viene interrotta, l’elementale lo attaccherà. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali della terra subiscono <strong>danni doppi dagli attacchi da fuoco</strong>, danni normali da terra e acqua, e <strong>danni minimi (1 PF per dado) dagli attacchi d'aria</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>8.000 mon a piena velocità</strong> o <strong>16.000 mon a mezza velocità</strong>.</p>"
         },
         "Elemental, Earth (Staff)*": {
             "items": {
@@ -12042,10 +12058,25 @@
                     "name": "Bacchetta Magica"
                 },
                 "MsCH3g02LfN9TVft": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> da attacchi da fuoco, danni normali da terra e acqua e <strong>danni minimi</strong> (1 HP per dado) da attacchi d'aria.</p>"
+                },
+                "QoYEofVHKCdZxRpL": {
+                    "description": "<p>La massiccia forma rocciosa da CA 2. Può essere danneggiata solo dalla magia o dalle armi magiche.</p>",
+                    "name": "Corpo Roccioso"
+                },
+                "dVcBi3hfXnt2H25q": {
+                    "description": "<p>Un potente colpo che infligge 1d8 danni. Infligge 1d8 danni aggiuntivi ai nemici che toccano terra.</p>",
+                    "name": "Colpo Schiacciante"
+                },
+                "eMByxqi4O8Qp5UPD": {
+                    "name": "Colpo Terroso",
+                    "description": "<p>Infligge 1d8 danni aggiuntivi ai nemici che si trovano su un terreno solido.</p>"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "biography": "<p>Il tipo più debole di elementale della terra, evocato tramite un bastone magico, appare come una massa torreggiante a forma umanoide di roccia e terra <strong>alta 2,4 m</strong>. Si muove lentamente ma infligge colpi schiaccianti contro i suoi nemici.</p><p>Gli elementali della terra sono più potenti quando combattono su terreno solido, infliggendo <strong>1d8 danni extra</strong> a qualsiasi creatura che tocca la terra.</p><p>Gli elementali della terra evocati con un bastone richiedono un controllo costante, e se l’evocatore viene distratto, l’elementale si rivolterà contro di lui. Queste creature possono essere ferite solo da magia o armi magiche.</p><p>Gli elementali della terra subiscono <strong>danni doppi dagli attacchi da fuoco</strong>, danni normali da terra e acqua, e <strong>danni minimi (1 PF per dado) da attacchi d’aria</strong>.</p><p><strong>Terreno:</strong> Qualsiasi</p><p><strong>Carico:</strong> Può trasportare <strong>4.000 mon a piena velocità</strong> o <strong>8.000 mon a mezza velocità</strong>.</p>",
+            "name": "Elemnetale della Terra (Bastone Magico)*"
         },
         "Elemental, Fire (Device)*": {
             "items": {
@@ -12070,10 +12101,25 @@
                     "name": "Bacchetta Magica"
                 },
                 "EeQJiP4f5BwMJC5H": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> dagli attacchi d'acqua, danni normali da fuoco e aria e <strong>danni minimi</strong> (1 HP per dado) dagli attacchi di terra.</p>"
+                },
+                "9q3z1S4M8lkw7o3Y": {
+                    "description": "<p>Un attacco rovente che infligge 2d8 danni da fuoco. Infligge 1d8 danni aggiuntivi alle creature vulnerabili al calore.</p>",
+                    "name": "Tocco Bruciante"
+                },
+                "m1x7OuMHAJQJnrXw": {
+                    "name": "Piroforma",
+                    "description": "<p>Il fuoco vivente da CA 0. Può essere danneggiato solo dalla magia o dalle armi magiche.</p>"
+                },
+                "I0HooTs3Q35ESMiS": {
+                    "name": "Ondata Rovente",
+                    "description": "<p>Infligge 1d8 danni da fuoco aggiuntivi alle creature deboli al calore.</p>"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "biography": "<p>Un elementale del fuoco evocato da un oggetto magico è più grande e potente di uno evocato da un bastone magico, apparendo come un inferno torreggiante <strong>alto 3,6 m</strong>. Si muove con velocità tremolante e incendia tutto ciò che tocca.</p>\n      <p>Gli elementali del fuoco sono particolarmente letali contro le creature vulnerabili al fuoco, infliggendo <strong>1d8 danni extra</strong> alle creature deboli al calore.</p>\n      <p>Gli elementali evocati da oggetti richiedono un controllo continuo, e se la concentrazione dell’evocatore viene interrotta, l’elementale si rivolterà contro di lui. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali del fuoco subiscono <strong>danni doppi da attacchi d’acqua</strong>, danni normali da fuoco e aria, e <strong>danni minimi (1 PF per dado) dagli attacchi di terra</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>6.000 mon a piena velocità</strong> o <strong>12.000 mon a mezza velocità</strong>.</p>",
+            "name": "Elementale del Fuoco (Oggetto)*"
         },
         "Elemental, Fire (Spell)*": {
             "items": {
@@ -12098,10 +12144,25 @@
                     "name": "Bacchetta Magica"
                 },
                 "3hClIyJvrtfowLMa": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> dagli attacchi d'acqua, danni normali da fuoco e aria e <strong>danni minimi</strong> (1 HP per dado) dagli attacchi di terra.</p>"
+                },
+                "NEff6DAuCgIH75Lq": {
+                    "description": "<p>Un attacco bruciante che infligge 3d8 danni da fuoco. Infligge 1d8 danni aggiuntivi alle creature vulnerabili al calore.</p>",
+                    "name": "Tocco Bruciante"
+                },
+                "nCjp830T2Y2SYDGU": {
+                    "description": "<p>Il fuoco vivente da CA -2. Può essere danneggiato solo dalla magia o dalle armi magiche.</p>",
+                    "name": "Piroforma"
+                },
+                "bgqeParKp6kqoahn": {
+                    "name": "Ondata Rovente",
+                    "description": "<p>Infligge 1d8 danni da fuoco aggiuntivi alle creature deboli al calore.</p>"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "biography": "<p>Il più potente degli elementali del fuoco, evocato tramite un <strong>incantesimo dei maghi</strong>, appare come un inferno massiccio <strong>alto 4,8 m</strong>. Si muove con velocità incredibile e consuma tutto sul suo cammino.</p>\n      <p>Gli elementali del fuoco sono particolarmente pericolosi contro le creature vulnerabili al fuoco, infliggendo <strong>1d8 danni extra</strong> alle creature deboli al calore.</p>\n      <p>Gli elementali evocati con incantesimi richiedono un controllo costante. Se l’evocatore è distratto o la sua concentrazione viene interrotta, l’elementale lo attaccherà. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali del fuoco subiscono <strong>danni doppi dagli attacchi d’acqua</strong>, danni normali da fuoco e aria, e <strong>danni minimi (1 PF per dado) dagli attacchi di terra</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>8.000 mon a piena velocità</strong> o <strong>16.000 mon a mezza velocità</strong>.</p>",
+            "name": "Elementale del Fuoco (Incantesimo)*"
         },
         "Elemental, Fire (Staff)*": {
             "items": {
@@ -12126,10 +12187,25 @@
                     "name": "Bacchetta Magica"
                 },
                 "7fHgRxW1Txtj1sZa": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> dagli attacchi d'acqua, danni normali da fuoco e aria e <strong>danni minimi</strong> (1 HP per dado) dagli attacchi di terra.</p>"
+                },
+                "XLH7VOJlwcdHeKCZ": {
+                    "name": "Piroforma",
+                    "description": "<p>Il fuoco vivente da CA 2. Può essere danneggiato solo dalla magia o dalle armi magiche.</p>"
+                },
+                "RlHqfLEa4x53VjIN": {
+                    "name": "Ondata Rovente",
+                    "description": "<p>Infligge 1d8 danni da fuoco aggiuntivi alle creature deboli al calore.</p>"
+                },
+                "tL0PDHsC1Nwo90Za": {
+                    "description": "<p>Un attacco bruciante che infligge 1d8 danni da fuoco. Infligge 1d8 danni aggiuntivi alle creature vulnerabili al calore.</p>",
+                    "name": "Tocco Bruciante"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "biography": "<p>Il tipo più debole di elementale del fuoco, evocato tramite un bastone magico, appare come una colonna di fiamme ruggenti <strong>alto 2,4 m</strong>. Si muove con velocità tremolante e brucia tutto ciò che tocca.</p>\n      <p>Gli elementali del fuoco sono particolarmente letali contro le creature vulnerabili al fuoco, infliggendo <strong>1d8 danni extra</strong> alle creature deboli al calore.</p>\n      <p>Gli elementali del fuoco evocati con un bastone richiedono un controllo costante. Se l’evocatore viene distratto, l’elementale si rivolterà contro di lui. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali del fuoco subiscono <strong>danni doppi dagli attacchi d’acqua</strong>, danni normali da fuoco e aria, e <strong>danni minimi (1 PF per dado) dagli attacchi di terra</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>4.000 mon a piena velocità</strong> o <strong>8.000 mon a mezza velocità</strong>.</p>",
+            "name": "Elementale del Fuoco (Bastone Magico)*"
         },
         "Elemental, Water (Device)*": {
             "items": {
@@ -12154,10 +12230,25 @@
                     "name": "Bacchetta Magica"
                 },
                 "xwjPRNUNNqFLmGVd": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> dagli attacchi d'aria, danni normali da acqua e terra e <strong>danni minimi</strong> (1 HP per dado) dagli attacchi da fuoco.</p>"
+                },
+                "RUSProFHqW7YlLqU": {
+                    "description": "<p>Una potente ondata che infligge 2d8 danni. Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>",
+                    "name": "Onda Schiacciante"
+                },
+                "halNEvsQKVPqysPi": {
+                    "description": "<p>Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>",
+                    "name": "Ondata Annegante"
+                },
+                "y6Uud7shCPkAICY0": {
+                    "name": "Idroforma",
+                    "description": "<p>L'acqua vivente da CA 0. Può essere danneggiata solo dalla magia o dalle armi magiche.</p>"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "biography": "<p>Un elementale dell’acqua evocato da un oggetto magico è più grande e potente di uno evocato da un bastone magico, apparendo come un’onda torreggiante <strong>alta 3,6 m</strong>. Si sposta in avanti con impeto, abbattendo ostacoli e annegando i nemici.</p>\n      <p>Gli elementali dell’acqua sono particolarmente pericolosi per le creature che non sanno nuotare, infliggendo <strong>1d8 danni extra</strong> quando attaccano nemici nell’acqua.</p>\n      <p>Gli elementali evocati da dispositivi richiedono un controllo continuo, e se la concentrazione dell’evocatore viene interrotta, l’elementale si rivolterà contro di lui. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali dell’acqua subiscono <strong>danni doppi dagli attacchi d’aria</strong>, danni normali da acqua e terra, e <strong>danni minimi (1 PF per dado) dagli attacchi da fuoco</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>6.000 mon a piena velocità</strong> o <strong>12.000 mon a mezza velocità</strong>.</p>",
+            "name": "Elementale dell'Acua (Oggetto)*"
         },
         "Elemental, Water (Spell)*": {
             "items": {
@@ -12182,10 +12273,25 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "trCfMyBpWMNBQ4Jx": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> dagli attacchi d'aria, danni normali da acqua e terra e <strong>danni minimi</strong> (1 HP per dado) dagli attacchi da fuoco.</p>"
+                },
+                "YfRwmb9NMByDpJU7": {
+                    "name": "Onda Schiacciante",
+                    "description": "<p>Una potente ondata che infligge 3d8 danni. Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>"
+                },
+                "CabU4a9tJ6zsaAee": {
+                    "description": "<p>Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>",
+                    "name": "Ondata Annegante"
+                },
+                "bADNbZUFyoq5kzwd": {
+                    "description": "<p>L'acqua vivente da CA -2. Può essere danneggiata solo dalla magia o dalle armi magiche.</p>",
+                    "name": "Idroforma"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "biography": "<p>Il tipo più potente di elementale dell’acqua, evocato tramite un <strong>incantesimo dei maghi</strong>, appare come un’onda torreggiante e fragorosa <strong>alta 4,8 m</strong>. Si sposta in avanti con impeto, travolgendo i nemici e schiantandoli con immensa forza.</p>\n      <p>Gli elementali dell’acqua sono particolarmente letali contro le creature che non sanno nuotare, infliggendo <strong>1d8 danni extra</strong> quando attaccano nemici nell’acqua.</p>\n      <p>Gli elementali evocati con incantesimi richiedono un controllo costante. Se l’evocatore è distratto o la sua concentrazione viene interrotta, l’elementale lo attaccherà. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali dell’acqua subiscono <strong>danni doppi dagli attacchi d’aria</strong>, danni normali da acqua e terra, e <strong>danni minimi (1 PF per dado) dagli attacchi da fuoco</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>8.000 mon a piena velocità</strong> o <strong>16.000 mon a mezza velocità</strong>.</p>",
+            "name": "Elementale dell'Acqua (Incantesimo)*"
         },
         "Elemental, Water (Staff)*": {
             "items": {
@@ -12210,10 +12316,25 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "Ekmqb8VtCBltoQxG": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce <strong>danni doppi</strong> dagli attacchi d'aria, danni normali da acqua e terra e <strong>danni minimi</strong> (1 HP per dado) dagli attacchi da fuoco.</p>"
+                },
+                "V6l44nbJTmkoZWOg": {
+                    "description": "<p>Una potente ondata che infligge 1d8 danni. Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>",
+                    "name": "Onda Schiacciante"
+                },
+                "1tSbG78HgPKnpQfY": {
+                    "description": "<p>Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>",
+                    "name": "Ondata Annegante"
+                },
+                "8EwVfQSn6Flw00q5": {
+                    "description": "<p>L'acqua vivente da CA 2. Può essere danneggiata solo dalla magia o dalle armi magiche.</p>",
+                    "name": "Idroforma"
                 }
             },
-            "monsterType": "Mostro Planare Magico (Comune)"
+            "monsterType": "Mostro Planare Magico (Comune)",
+            "biography": "<p>Il tipo più debole di elementale dell'acqua, evocato tramite un bastone magico, appare come una grande onda vivente <strong>alta 2,4 m</strong>. Si solleva sulla terraferma ma si muove con facilità nell'acqua, colpendo con immensa forza.</p>\n      <p>Gli elementali dell'acqua sono particolarmente letali contro le creature che non sanno nuotare, infliggendo <strong>1d8 danni extra</strong> quando attaccano i nemici in acqua.</p>\n      <p>Gli elementali dell'acqua evocati tramite bastone richiedono un controllo costante. Se l'evocatore è distratto, l'elementale si rivolterà contro di lui. Queste creature possono essere danneggiate solo dalla magia o dalle armi magiche.</p>\n      <p>Gli elementali dell'acqua subiscono <strong>danni doppi dagli attacchi d'aria</strong>, danni normali da acqua e terra e <strong>danni minimi (1 HP per dado) dagli attacchi da fuoco</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>4.000 mon a piena velocità</strong> o <strong>8.000 mon a metà velocità</strong>.</p>",
+            "name": "Elementale dell'Acqua (Bastone Magico)*"
         },
         "Orb Guardian, Undead*": {
             "items": {
@@ -16605,16 +16726,31 @@
                     "name": "Pietrificazione o Paralisi"
                 },
                 "UFy1SjlFFqj15CCU": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Immune al soffocamento, estremamente resistente allo spostamento o alla respinta.</p>"
+                },
+                "2uwmDUxTpAJnMkPE": {
+                    "description": "<p>Può formare fino a un arto per Dado Vita, ma può attaccare solo una volta per round.</p>",
+                    "name": "Corpo Elemntale"
+                },
+                "B7FzrhS9fwwvo7rV": {
+                    "description": "<p>Un colpo devastante che infligge 3d8 danni (per 16 DV). I danni variano in base ai Dadi Vita (vedi tabella di progressione).</p>",
+                    "name": "Sbattere Terreno"
+                },
+                "ypNmEIkQUcCjqIoA": {
+                    "description": "<p>Un corpo di pietra massiccio che da CA -2 a 16 DV (vedi tabella di progressione). Può essere danneggiato solo dalla magia o da armi magiche.</p>",
+                    "name": "Forma di Pietra"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
-            "biography": "<p>Gli elementali del Piano della Terra vivono nel profondo di un universo fatto di rocce infinite, pietre preziose e tunnel. Governano vasti regni sotterranei di pietra solida, dove si riferiscono a sé stessi come “popolo” e si considerano la razza più antica di tutte.</p>\n      <p>Sul loro piano natale, gli Elementali della Terra appaiono come enormi forme mutevoli di pietra, capaci di modellarsi a piacimento. Possono formare un numero di arti pari ai loro Dadi Vita, ma possono colpire solo una volta per round.</p>\n      <p>La loro dimensione si basa sui Dadi Vita, variando da <strong>1 DV (piccolo pezzo di pietra)</strong> a <strong>32 DV (essere massiccio delle dimensioni di una fortezza)</strong>. Vivono fino a 35 Dadi Vita prima di invecchiare e sgretolarsi.</p>\n      <p>Gli Elementali della Terra diffidano delle creature del Piano Primario, riconoscendole dal loro movimento innaturale. Tuttavia, se un visitatore appare in forma elementale, la penalità di reazione è ridotta.                        </p>\n      <p><strong>DV & Scalabilità:</strong> Gli Elementali della Terra variano grandemente in potenza:</p>\n      <ul>\n      <li><strong>1-2 DV:</strong> CA 5, 1d2 danni, PX 20</li>\n      <li><strong>3-4 DV:</strong> CA 4, 1d4 danni, PX 75</li>\n      <li><strong>5-6 DV:</strong> CA 3, 1d6 danni, PX 275</li>\n      <li><strong>7-8 DV:</strong> CA 2, 1d8 danni, PX 650</li>\n      <li><strong>9-10 DV:</strong> CA 1, 2d6 danni, PX 1.000</li>\n      <li><strong>11-12 DV:</strong> CA 0, 2d8 danni, PX 1.250</li>\n      <li><strong>13-14 DV:</strong> CA -1, 2d10 danni, PX 1.500</li>\n      <li><strong>15-16 DV:</strong> CA -2, 3d8 danni, PX 1.850</li>\n      <li><strong>17+ DV:</strong> Cresce in dimensioni e forza, oltre gli elementali normali</li>\n      </ul>\n      <p>Alcuni Elementali della Terra diventano chierici o maghi, ma solo dopo aver raggiunto 9 DV o più.</p>\n      <p><strong>Terreno:</strong> Piano Elementale della Terra</p>"
+            "biography": "<p>Gli elementali del Piano della Terra vivono nel profondo di un universo fatto di rocce infinite, pietre preziose e tunnel. Governano vasti regni sotterranei di pietra solida, dove si riferiscono a sé stessi come “popolo” e si considerano la razza più antica di tutte.</p>\n      <p>Sul loro piano natale, gli Elementali della Terra appaiono come enormi forme mutevoli di pietra, capaci di modellarsi a piacimento. Possono formare un numero di arti pari ai loro Dadi Vita, ma possono colpire solo una volta per round.</p>\n      <p>La loro dimensione si basa sui Dadi Vita, variando da <strong>1 DV (piccolo pezzo di pietra)</strong> a <strong>32 DV (essere massiccio delle dimensioni di una fortezza)</strong>. Vivono fino a 35 Dadi Vita prima di invecchiare e sgretolarsi.</p>\n      <p>Gli Elementali della Terra diffidano delle creature del Piano Primario, riconoscendole dal loro movimento innaturale. Tuttavia, se un visitatore appare in forma elementale, la penalità di reazione è ridotta.                        </p>\n      <p><strong>DV & Scalabilità:</strong> Gli Elementali della Terra variano grandemente in potenza:</p>\n      <ul>\n      <li><strong>1-2 DV:</strong> CA 5, 1d2 danni, PX 20</li>\n      <li><strong>3-4 DV:</strong> CA 4, 1d4 danni, PX 75</li>\n      <li><strong>5-6 DV:</strong> CA 3, 1d6 danni, PX 275</li>\n      <li><strong>7-8 DV:</strong> CA 2, 1d8 danni, PX 650</li>\n      <li><strong>9-10 DV:</strong> CA 1, 2d6 danni, PX 1.000</li>\n      <li><strong>11-12 DV:</strong> CA 0, 2d8 danni, PX 1.250</li>\n      <li><strong>13-14 DV:</strong> CA -1, 2d10 danni, PX 1.500</li>\n      <li><strong>15-16 DV:</strong> CA -2, 3d8 danni, PX 1.850</li>\n      <li><strong>17+ DV:</strong> Cresce in dimensioni e forza, oltre gli elementali normali</li>\n      </ul>\n      <p>Alcuni Elementali della Terra diventano chierici o maghi, ma solo dopo aver raggiunto 9 DV o più.</p>\n      <p><strong>Terreno:</strong> Piano Elementale della Terra</p>",
+            "name": "Elementale della Terra (Piano della Terra)*"
         },
         "Elemental, Fire (Plane of Fire)*": {
             "items": {
                 "p5bpTvPmjKdOYrh7": {
-                    "name": "Colpo Infuocato"
+                    "name": "Colpo Infuocato",
+                    "description": "<p>Un attacco bruciante che infligge 3d8 danni da fuoco (per 16 DV). I danni variano in base ai Dadi Vita (vedi tabella di progressione).</p>"
                 },
                 "tFey2MIcVVAY6Ude": {
                     "name": "Soffio del Drago",
@@ -16637,10 +16773,21 @@
                     "name": "Bacchetta Magica"
                 },
                 "bNsGQW2tz5rPxvt2": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Completamente immune al fuoco, ma subisce il doppio dei danni dagli attacchi d'acqua.</p>"
+                },
+                "CgCAL2AfRu9tP7Hy": {
+                    "description": "<p>Può formare fino a un arto per Dado Vita, ma può attaccare solo una volta per round.</p>",
+                    "name": "Corpo Elementale"
+                },
+                "aGTWvM0yGGdD9kPK": {
+                    "description": "<p>Il corpo in fiamme da CA -2 a 16 DV (vedi tabella di progressione). Può essere danneggiato solo dalla magia o dalle armi magiche.</p>",
+                    "name": "Forma Sfolgorante"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "biography": "<p>Gli elementali del Piano del Fuoco esistono in un mondo infinito di fiamme ruggenti e fiumi di lava. Governano vaste città di fuoco e calore, considerandosi i più potenti tra tutti gli esseri elementali.</p>\n      <p>Sul loro piano natale, gli Elementali del Fuoco appaiono come enormi inferni vorticanti, capaci di modellare le loro fiamme a piacimento. Possono formare un numero di arti pari ai loro Dadi Vita, ma possono colpire solo una volta per round.</p>\n      <p>La loro dimensione si basa sui Dadi Vita, variando da <strong>1 DV (brace tremolante)</strong> a <strong>32 DV (inferno massiccio brucia città)</strong>. Vivono fino a 35 Dadi Vita prima di iniziare a spegnersi.</p>\n      <p>Gli Elementali del Fuoco sono ostili verso le creature del Piano Primario e le riconoscono per la mancanza di una fiamma interiore. Tuttavia, se un visitatore appare in forma elementale, la penalità di reazione è ridotta.</p>\n      <p><strong>Dadi Vita e Progressione:</strong> Gli Elementali del Fuoco variano in potenza:</p>\n      <ul>\n      <li><strong>1-2 DV:</strong> CA 5, 1d2 danni, PX 20</li>\n      <li><strong>3-4 DV:</strong> CA 4, 1d4 danni, PX 75</li>\n      <li><strong>5-6 DV:</strong> CA 3, 1d6 danni, PX 275</li>\n      <li><strong>7-8 DV:</strong> CA 2, 1d8 danni, PX 650</li>\n      <li><strong>9-10 DV:</strong> CA 1, 2d6 danni, PX 1.000</li>\n      <li><strong>11-12 DV:</strong> CA 0, 2d8 danni, PX 1.250</li>\n      <li><strong>13-14 DV:</strong> CA -1, 2d10 danni, PX 1.500</li>\n      <li><strong>15-16 DV:</strong> CA -2, 3d8 danni, PX 1.850</li>\n      <li><strong>17+ DV:</strong> Diventa ancora più grande e forte</li>\n      </ul>\n      <p>Alcuni Elementali del Fuoco diventano potenti incantatori, ma solo dopo aver raggiunto 9 DV o più.</p>\n      <p><strong>Terreno:</strong> Piano Elementale del Fuoco</p>",
+            "name": "Elementale del Fuoco (Piano del Fuoco)*"
         },
         "Elemental, Water (Plane of Water)*": {
             "items": {
@@ -16665,15 +16812,31 @@
                     "name": "Pietrificazione o Paralisi"
                 },
                 "8wDVJJ6RZ3pA8cM8": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Immune all'annegamento e al soffocamento, ma subisce il doppio dei danni dagli attacchi d'aria.</p>"
+                },
+                "CVYq9OomNIMHDlpB": {
+                    "description": "<p>Il corpo d'acqua corrente da CA -2 a 16 DV (vedi tabella di progressione). Può essere danneggiato solo dalla magia o dalle armi magiche.</p>",
+                    "name": "Idroforma"
+                },
+                "jd7bRa4vhdtnZvbw": {
+                    "name": "Corpo Elementale",
+                    "description": "<p>Può formare fino a un arto per Dado Vita, ma può attaccare solo una volta per round.</p>"
+                },
+                "mQputQJf1vJexI0C": {
+                    "description": "<p>Un attacco come un onda schiacciante che infligge 3d8 danni (per 16 DV). I danni variano in base ai Dadi Vita (vedi tabella di progressione).</p>",
+                    "name": "Marea Dirompente"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "biography": "<p>Gli elementali del Piano dell’Acqua governano un vasto oceano infinito di regni liquidi. Abitano città sottomarine fatte di pure correnti mutevoli e si riferiscono a sé stessi come le “vere forme fluide viventi”.</p>\n      <p>Sul loro piano natale, gli Elementali dell’Acqua appaiono come immense maree in movimento, capaci di rimodellare i loro corpi a piacimento. Possono formare un numero di arti pari ai loro Dadi Vita, ma possono colpire solo una volta per round.</p>\n      <p>La loro dimensione si basa sui Dadi Vita, variando da <strong>1 DV (piccola increspatura)</strong> a <strong>32 DV (tsunami massiccio che inghiotte città)</strong>. Vivono fino a 35 Dadi Vita prima di iniziare a dissolversi nel mare infinito.</p>\n      <p>Gli Elementali dell’Acqua vedono le creature del Piano Primario come innaturali e aliene, percependo immediatamente la loro secchezza. Tuttavia, se un visitatore appare in forma elementale, la penalità di reazione è ridotta.</p>\n      <p><strong>Dadi Vita e Progressione:</strong> Gli Elementali dell’Acqua variano grandemente in potenza:</p>\n      <ul>\n      <li><strong>1-2 DV:</strong> CA 5, 1d2 danni, PX 20</li>\n      <li><strong>3-4 DV:</strong> CA 4, 1d4 danni, PX 75</li>\n      <li><strong>5-6 DV:</strong> CA 3, 1d6 danni, PX 275</li>\n      <li><strong>7-8 DV:</strong> CA 2, 1d8 danni, PX 650</li>\n      <li><strong>9-10 DV:</strong> CA 1, 2d6 danni, PX 1.000</li>\n      <li><strong>11-12 DV:</strong> CA 0, 2d8 danni, PX 1.250</li>\n      <li><strong>13-14 DV:</strong> CA -1, 2d10 danni, PX 1.500</li>\n      <li><strong>15-16 DV:</strong> CA -2, 3d8 danni, PX 1.850</li>\n      <li><strong>17+ DV:</strong> Diventa ancora più grande e potente</li>\n      </ul>\n      <p>Alcuni Elementali dell’Acqua diventano chierici o incantatori, ma solo dopo aver raggiunto 9 DV o più.</p>\n      <p><strong>Terreno:</strong> Piano Elementale dell’Acqua</p>",
+            "name": "Elementale dell'Acqua (Piano dell'Acqua)*"
         },
         "Elephant, Normal": {
             "items": {
                 "09gPCUTR2BTn0oH0": {
-                    "name": "Travolgere"
+                    "name": "Travolgere",
+                    "description": "<p>Un attacco schiacciante che infligge 4d8 danni.</p>"
                 },
                 "2M32uun46JbsPDTA": {
                     "name": "Bacchetta Magica",
@@ -16696,10 +16859,17 @@
                     "name": "Soffio del Drago"
                 },
                 "szIAigQ76eYe3evs": {
-                    "name": "Pelle Spessa"
+                    "name": "Pelle Spessa",
+                    "description": "<p>La spessa pelle naturale da CA 5.</p>"
+                },
+                "Us7kaHKUbNGwZ5A1": {
+                    "name": "Zanne",
+                    "description": "<p>Le potenti zanne infliggono 2d4 danni ciascuna.</p>"
                 }
             },
-            "monsterType": "Animale Normale (Raro)"
+            "monsterType": "Animale Normale (Raro)",
+            "biography": "<p>Gli elefanti sono massicci erbivori quadrupedi che abitano i margini delle foreste subtropicali, vivendo in grandi branchi. Nonostante la loro natura calma, diventano estremamente pericolosi quando provocati o nel difendere i loro piccoli.</p>\n      <p>Gli elefanti attaccano con una <strong>carica</strong> ogni volta che è possibile, infliggendo <strong>doppio danno con le zanne</strong>. Nei round successivi, hanno una <strong>probabilità del 75% di attaccare con le zanne</strong> e una <strong>probabilità del 25% di calpestare</strong>.</p>\n      <p><strong>Valore dell'avorio:</strong> Le zanne degli elefanti sono molto apprezzate, vendute a <strong>100-600 mo per zanna</strong>.</p>\n      <p><strong>Guerra e Lavoro:</strong> Gli elefanti sono talvolta addestrati come cavalcature da guerra e possono essere equipaggiati con bardatura (costo moltiplicato per <strong>3x</strong>). Sono inoltre usati come animali da tiro e da cavalcata.</p>\n      <p><strong>Capacità di Carico:</strong> 9.000 mon a velocità completa, 18.000 mon a velocità ridotta.</p>\n      <p><strong>Terreno:</strong> Spazi aperti, boschi (subtropicali).</p>",
+            "name": "Elefante Normale"
         },
         "Elephant, Prehistoric (Mastodon)": {
             "items": {
@@ -16722,9 +16892,23 @@
                 "tXCnFE63KweX1okm": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago"
+                },
+                "sQRRvQl7Cp6IjWp2": {
+                    "description": "<p>La spessa pelliccia insieme alla pelle danno una CA 3.</p>",
+                    "name": "Pelle Irsuta"
+                },
+                "VUFNbNvUEusAHcGl": {
+                    "description": "<p>Un attacco travolgente che infligge 4d8 danni.</p>",
+                    "name": "Calpestamento Mastodontico"
+                },
+                "zvOvREy30aVadkZx": {
+                    "name": "Zanne Giganti",
+                    "description": "<p>Le enormi zanne ricurve infliggono 2d6 danni ciascuna.</p>"
                 }
             },
-            "monsterType": "Animale Preistorico (Molto Raro)"
+            "monsterType": "Animale Preistorico (Molto Raro)",
+            "biography": "<p>Il mastodonte preistorico è un enorme creatura simile a un elefante dal pelo arruffato che vaga per le terre fredde e ghiacciate e ambienti appartenenti al \"mondo perduto\". È più grande e più forte degli elefanti normali e possiede zanne più lunghe e curve che fungono da armi devastanti.</p>\n      <p><strong>Combattimento:</strong> I mastodonti attaccano con una <strong>carica</strong> ogni volta che è possibile, infliggendo <strong>doppio danno con le zanne</strong>. Nei round successivi, hanno una <strong>probabilità del 75% di attaccare con le zanne</strong> e una <strong>probabilità del 25% di calpestare</strong>.</p>\n      <p><strong>Valore dell'avorio:</strong> Le zanne del mastodonte sono molto preziose, valutate a <strong>200-800 mo ciascuna</strong>.</p>\n      <p><strong>Guerra e Caccia:</strong> Alcune culture primitive cacciano i mastodonti per la loro carne e l'avorio, mentre altre li addestrano per la guerra, equipaggiandoli con bardatura (costo moltiplicato per <strong>3x</strong>).</p>\n      <p><strong>Capacità di Carico:</strong> 7.500 mon a velocità completa, 15.000 mon a velocità ridotta.</p>\n      <p><strong>Terreno:</strong> Spazi aperti, boschi (Preistorici).</p>",
+            "name": "Elefante Preistorico"
         },
         "Faerie": {
             "items": {
@@ -16749,15 +16933,39 @@
                     "name": "Soffio del Drago"
                 },
                 "JSnD3OoJPtSjgsgH": {
-                    "name": "Invisibilità Naturale"
+                    "name": "Invisibilità Naturale",
+                    "description": "<p>Le Faerie sono invisibili in ogni momento, a meno che non vengano rivelate dalla magia. Possono vedere le creature invisibili normalmente.</p>"
+                },
+                "i9wiDAe00gLguXqh": {
+                    "name": "Crea Nebbia",
+                    "description": "<p>Una volta per round, una Faerie può evocare un cubo di nebbia di 3 m attorno a sé, oscurando la vista.</p>"
+                },
+                "pW4os8y9EOMaAKem": {
+                    "description": "<p>Una volta per round, una Faerie può evocare una brezza che fa tremolare le fiamme, spegne le candele e le consente di volare a 72 m (24 m) per un turno.</p>",
+                    "name": "Evoca Brezza"
+                },
+                "3wFBjpCCg6PyGDN2": {
+                    "description": "<p>Una volta per round, una Faerie può trasformarsi in una nebbia simile a una nuvola, muovendosi attraverso piccole aperture e diventando immune agli attacchi non magici.</p>",
+                    "name": "Forma Gassosa"
+                },
+                "7Aj4kRPEfzQV8CUH": {
+                    "description": "<p>Le Faerie possono usare armi minuscole, infliggendo danni in base al tipo di arma.</p>",
+                    "name": "Arma Faerie"
+                },
+                "wiUuAVJxnXNDgDhM": {
+                    "description": "<p>Una volta per round, una Faerie può trasformare la nebbia in pioggerella.</p>",
+                    "name": "Condensa Nebbia"
                 }
             },
-            "monsterType": "Umanoide (Raro)"
+            "monsterType": "Umanoide (Raro)",
+            "biography": "<p><strong>Le Faerie sono piccole umanoidi alate che abitano l'aria e le nuvole.</strong> Hanno tratti di più razze: nasi e barbe nanici, occhi e orecchie elfiche, e corpi della taglia degli halfling. Il loro abitat nel cielo è nascosto alla maggior parte delle altre creature.</p>\n      <p><strong>Invisibilità Naturale:</strong> Le Faerie sono <strong>invisibili in ogni momento</strong> e non possono essere viste con la vista normale. Tuttavia, esse <strong>possono vedere creature invisibili</strong> senza difficoltà.</p>\n      <p><strong>Abilità Magiche Innate:</strong> Le Faerie possono usare i seguenti poteri <strong>a volontà, una volta per turno:</strong></p>\n      <ul>\n      <li><strong>Assumi la Forma Gassosa:</strong> Funziona come la pozione.</li>\n      <li><strong>Crea Nebbia:</strong> Forma un cubo di nebbia di 3 m intorno alla Faerie.</li>\n      <li><strong>Condensa la Nebbia:</strong> Provoca una pioggerellina all'interno della nebbia.</li>\n      <li><strong>Ritorna alla Forma Normale:</strong> Esce dallo stato gassoso.</li>\n      <li><strong>Evoca una Brezza:</strong> Provoca al tremolio delle fiamme, spegne le candele, e permette alla Faerie di volare a 108 m (36 m) per un turno.</li>\n      </ul>\n      <p><strong>Società delle Faerie:</strong> Le Faerie vivono in abitazioni fluttuanti fatte di \"nuvole,\" godendo della vita al di sopra delle tempeste. Il loro impero del vento è conosciuto solo da loro e da poche creature dell'aria.</p>\n      <p><strong>Leader e Incantatori:</strong> Le Faerie comuni hanno <strong>1+1 DV</strong>, ma i loro leader possono avere fino a <strong>9 DV</strong>. Alcune Faerie rare sono maghi o chierici.</p>\n      <p><strong>Terreno:</strong> Qualsiasi.</p>",
+            "name": "Faerie"
         },
         "Ferret, Giant": {
             "items": {
                 "wf0T97Gg0WwD6HON": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "<p>Un morso affilato che infligge 1d8 danni.</p>"
                 },
                 "6VY1OEN25tNlOn7g": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -16778,14 +16986,21 @@
                 "gMrZbG9tKjkrweMZ": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "pgxVLWhWFrFGALJY": {
+                    "description": "<p>I furetti giganti sono estremamente veloci e agili, il che li rende ottimi cacciatori di creature sotterranee.</p>",
+                    "name": "Riflessi Rapidi"
                 }
             },
-            "monsterType": "Animale Gigante (Comune)"
+            "monsterType": "Animale Gigante (Comune)",
+            "biography": "<p>I furetti giganti sono mammiferi lunghi e snelli con pelliccia bianco-gialla e occhi rossi, che crescono fino a <strong>1 m di lunghezza</strong>. Sono cacciatori naturali di <strong>topi giganti</strong>, capaci di inseguirli nelle tane sotterranee.</p>\n      <p>Nonostante la loro utilità, i furetti giganti sono altamente <strong>imprevedibili</strong> e possono diventare aggressivi, a volte attaccando i loro addestratori.</p>\n      <p><strong>Terreno:</strong> Caverna, Bosco.</p>",
+            "name": "Furetto Gigante"
         },
         "Fish, Giant Bass": {
             "items": {
                 "jf2fwD8Qvnf3oPrY": {
-                    "name": "Pelle di Scaglie"
+                    "name": "Pelle di Scaglie",
+                    "description": "<p>La pelle squamosa naturale da CA 7.</p>"
                 },
                 "zdV4bo9LmKoxCYBG": {
                     "name": "Pietrificazione o Paralisi",
@@ -16804,14 +17019,17 @@
                     "name": "Bacchetta Magica"
                 },
                 "fPFxlrlBGfDKHkOc": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "<p>Uno sgombro gigante morde e infligge 1d6 danni.</p>"
                 },
                 "fvh8rMZkf91TK61x": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
                 }
             },
-            "monsterType": "Animale Gigante (Comune)"
+            "monsterType": "Animale Gigante (Comune)",
+            "biography": "<p>Gli sgombri giganti sono enormi pesci d'acqua dolce, solitamente timorosi ed evitano il combattimento. Tuttavia, <strong>attaccano se una creatura delle dimensioni di un halfling o più piccola</strong> galleggia nelle vicinanze, scambiandola per cibo.</p>\n      <p>Gli sgombri giganti a volte vengono evocati e comandati dagli <strong>spiritelli acquatici</strong> per combattere a loro fianco.</p>\n      <p><strong>Terreno:</strong> fiume, lago.</p>",
+            "name": "Pesce, Sgombro Gigante"
         },
         "Gargantua, Gargoyle*": {
             "items": {
@@ -16820,7 +17038,8 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "rJD0FKjdM9k96hid": {
-                    "name": "Artiglio"
+                    "name": "Artiglio",
+                    "description": "<p>I massicci artigli di pietra infliggono <strong>3d4 danni</strong>.</p>"
                 },
                 "vfUOKTInc6NRMJnd": {
                     "name": "Pietrificazione o Paralisi",
@@ -16839,9 +17058,25 @@
                     "name": "Soffio del Drago"
                 },
                 "sQ3zxnfBUUiAEYXA": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "<p>Un morso potente che infligge <strong>4d6 danni</strong>.</p>"
+                },
+                "Yykvx6tJo9Zq1v5l": {
+                    "name": "Immunità magica",
+                    "description": "<p>il gargantua gargoyle è immune alle <strong>armi normali</strong> e può essere danneggiato solo da <strong>armi e incantesimi magici.</strong></p>"
+                },
+                "ZO03bh6pySsBRjoY": {
+                    "description": "<p>Il corpo di pietra indurita fornisce CA 4. Immune alle armi normali.</p>",
+                    "name": "Pelle di Pietra"
+                },
+                "TC9nk62ws43Z1pZw": {
+                    "description": "<p>Usa il suo corno di pietra per trafiggere i nemici, infliggendo <strong>4d4 danni</strong>.</p>",
+                    "name": "Corno Sanguinario"
                 }
-            }
+            },
+            "name": "Gargantua, Gargoyle*",
+            "biography": "<p>Il <strong>gargantua gargoyle</strong> è un <strong>colossale costrutto di pietra alato</strong>, alto oltre <strong>6 m</strong>. Creato dal folle mago Gargantua, è un predatore devastante dei cieli.</p>\n      <p><strong>Natura Incantata:</strong> A differenza della maggior parte dei gargantua, questa creatura è completamente magica. È immune alle armi normali e può essere danneggiata solo da <strong>attacchi o armi magiche</strong>.</p>\n      <p><strong>Caccia e Combattimento:</strong> Può <strong>volare a grande velocità (90 m)</strong> e attacca con i suoi <strong>massicci artigli di pietra, morso e corno</strong>.</p>\n      <p><strong>Modifiche alle Dimensioni:</strong></p>\n      <ul>\n      <li><strong>Il doppio dell'altezza</strong> di un gargoyle normale.</li>\n      <li><strong>8× i normali Dadi Vita</strong> (32 DV).</li>\n      <li><strong>2× la normale velocità di movimento</strong> (54 m a terra, 90 m in volo).</li>\n      <li><strong>4× la normale potenza d'attacco.</strong></li>\n      <li><strong>8× la normale capacità di carico.</strong></li>\n      <li><strong>Tipo di Tesoro moltiplicato x4.</strong></li>\n      </ul>\n      <p><strong>Terreno:</strong> Uguale a quello della specie originale (Rovine, Montagne).</p>",
+            "monsterType": "Costrutto Magico (Molto Raro)"
         },
         "Gargantua, Grave Worm": {
             "items": {
@@ -16864,8 +17099,23 @@
                 "3opiCDVB2woFoW4H": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "MNEpmUc36kjoiP8S": {
+                    "name": "Tentacoli Paralizzanti",
+                    "description": "<p>8 attacchi coi tentacoli, ognuno dei quali infligge <strong>1d4+1 danni</strong>. I bersagli devono effettuare un <strong>tiro salvezza contro paralisi</strong> o non essere in grado di muoversi.</p>"
+                },
+                "8MEccpgA3kRZ2Z6U": {
+                    "description": "<p>Il gargantua verme-iena è <strong>troppo grande per muoversi silenziosamente</strong> e <strong>non può sorprendere i nemici</strong>. Subisce anche una penalità di <strong>-4 agli attacchi</strong> contro avversari di dimensioni umane o più piccoli.</p>",
+                    "name": "Penalità per dimensioni enormi"
+                },
+                "tlHMsIFVmroLnbI8": {
+                    "description": "<p>L'armatura chitinosa indurita fornisce CA 3.</p>",
+                    "name": "Pelle Chitinosa"
                 }
-            }
+            },
+            "biography": "<p>Il <strong>gargantua verme-iena</strong> è un <strong>gigantesco, grottesco artropode</strong> creato attraverso esperimenti magici dal folle mago Gargantua. È il doppio della grandezza di un normale gargantua verme-iena, raggiungendo fino a <strong>12 m di lunghezza</strong></p>\n      <p><strong>Caccia e Combattimento:</strong> Questo massiccio spazzino <strong>non può sorprendere i nemici</strong> a causa delle sue dimensioni e del rumore che produce mentre si muove. Subisce una <strong>penalità di -4 agli attacchi</strong> contro creature di taglia umana o inferiori</p>\n      <p><strong>Tentacoli Paralizzanti:</strong> Il verme si scaglia con <strong>8 tentacoli paralizzanti</strong>, ognuno dei quali infligge <strong>1d4+1 danni</strong>. Ogni creatura colpita deve effettuare un <strong>tiro salvezza contro la paralisi</strong> o essere incapace di muoversi</p>\n      <p><strong>Appetito Massiccio:</strong> I gargantua verme-iena si nutrono principalmente di cadaveri, ma attaccheranno creature viventi se affamati</p>\n      <p><strong>Modifiche alle Dimensioni:</strong></p>\n      <ul>\n      <li><strong>Il doppio dell'altezza</strong> di un normale gargantua verme-iena.</li>\n      <li><strong>8× i normali Dadi Vita</strong> (25 DV).</li>\n      <li><strong>2× la normale velocità di movimento</strong> (72 m).</li>\n      <li><strong>4× la normale potenza d'attacco.</strong></li>\n      <li><strong>8× la normale capacità di carico.</strong></li>\n      <li><strong>Tipo di Tesoro moltiplicato x4.</strong></li>\n      </ul>\n      <p><strong>Terreno:</strong> Uguale a quello della specie originale (Sotterraneo, Rovine).</p>",
+            "monsterType": "Cattivo (Molto Raro)",
+            "name": "Gargantua, Verme-Iena"
         },
         "Gargantua, Troll": {
             "items": {
@@ -18144,9 +18394,23 @@
                 "kJw1RRHlUZT0sG7K": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "UCEANMdebaaWGOab": {
+                    "description": "<p>La pelle spessa e simile a una roccia da CA 1. Chi la osserva il 70% di possibilità di scambiare la tracina per una roccia.</p>",
+                    "name": "Pelle Mimetica"
+                },
+                "j8L7UA74V33D8BJW": {
+                    "description": "<p>Colpisce fino a 4 volte per round. Ogni colpo infligge 1d4 danni e obbliga a un <strong>tiro salvezza contro veleno</strong>. Il fallimento comporta la <strong>morte istantanea</strong>.</p>",
+                    "name": "Aculei Velenosi"
+                },
+                "zK1Sh5HsT2xn5m8V": {
+                    "description": "<p>Le tracine giganti assomigliano a rocce naturali o a pezzi di carbone. Le creature hanno una <strong>probabilità del 70% di scambiarli per terreno</strong> a meno che non vengano disturbate.</p>",
+                    "name": "Mimetica Mortale"
                 }
             },
-            "monsterType": "Animale Gigante (Comune)"
+            "monsterType": "Animale Gigante (Comune)",
+            "biography": "<p><strong>Le Tracine Giganti</strong> si trovano in acque salate poco profonde, rimanendo immobili sul fondo del mare. Il loro mimetismo naturale li rende difficili da rilevare; <strong>gli osservatori hanno una probabilità del 70% di scambiarli per una roccia o un pezzo di carbone</strong></p>\n      <p>Quando vengono disturbati, i pesci si scagliano contro i nemici, e anche se accidentalmente toccati, le vittime vengono colpite da 4 degli aculei che ricoprono il loro corpo (<strong>quattro spine velenose</strong>). Se una creatura <strong>colpisce o tocca la Tracina Gigante</strong>, viene automaticamente colpita da tutte e quattro le spine</p>\n      <p><strong>Veleno:</strong> Ogni creatura colpita da una spina deve effettuare un <strong>tiro salvezza contro il veleno</strong> per ogni colpo. Il fallimento comporta la morte istantanea</p>\n      <p>Nonostante le loro difese pericolose, le Tracine Giganti sono normalmente pacifiche e attaccano solo quando provocate.</p>\n      <p><strong>Terreno:</strong> Oceano (Acque Poco Profonde)</p>",
+            "name": "Pesce, Tracina Gigante"
         },
         "Fish, Giant Sturgeon": {
             "items": {
@@ -18167,17 +18431,25 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "sg7a0HT2Dnoi1mJW": {
-                    "name": "Inghiottire"
+                    "name": "Inghiottire",
+                    "description": "<p>Se lo storione ottiene un <strong>18 o più</strong> in un attacco, ingoia il suo bersaglio. Una vittima ingoiata subisce <strong>2d6 danni a round</strong> e deve effettuare un <strong>tiro salvezza contro il raggio della morte</strong> o essere <strong>paralizzata</strong>. Se non è paralizzata, può attaccare dall'interno.</p>"
                 },
                 "vJXF8ryNgn3c75t2": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "<p>Un morso potente che infligge 2d10 danni.</p>"
                 },
                 "vTvsYvn2ZqgudiZK": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "JwzyOduEVKOQ8aUa": {
+                    "description": "<p>Scaglie spesse, simili a armature, forniscono CA 0.</p>",
+                    "name": "Armatura di Scaglie"
                 }
             },
-            "monsterType": "Animale Gigante (Comune)"
+            "monsterType": "Animale Gigante (Comune)",
+            "biography": "<p>Lo <strong>storione gigante</strong> è un massiccio pesce corazzato che raggiunge quasi <strong>9 m di lunghezza</strong>. È un predatore aggressivo, capace di inghiottire le prede intere.</p>\n      <p><strong>Attacco con il morso:</strong> Lo storione infligge un devastante morso che causa 2d10 danni.</p>\n      <p><strong>Inghiottire intero:</strong> Se lo storione tira <strong>18 o più</strong> su un attacco, <strong>inghiotte il bersaglio</strong>. Una vittima inghiottita subisce <strong>2d6 danni per round</strong> e deve effettuare un <strong>tiro salvezza contro il raggio della morte</strong> o essere <strong>paralizzata</strong>. Se non paralizzata, può attaccare dall'interno.</p>\n      <p><strong>Squame spesse:</strong> Il suo corpo è ricoperto da un'armatura naturale, conferendogli <strong>CA 0</strong>.</p>\n      <p><strong>Terreno:</strong> Fiume, Lago, Oceano.</p>",
+            "name": "Pesce, Storione Gigante"
         },
         "Golem, Bone*": {
             "items": {
@@ -19055,7 +19327,8 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
                 }
             },
-            "name": "Verme Purpureo"
+            "name": "Verme Purpureo",
+            "monsterType": "Cattivo (Molto Raro)"
         },
         "Rat, Giant": {
             "items": {
@@ -21330,7 +21603,8 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
                 }
-            }
+            },
+            "monsterType": "Cattivo (Molto Raro)"
         },
         "Lich, Cleric (28HD)*": {
             "items": {
@@ -24722,6 +24996,7 @@
         "Giants": "Giganti",
         "Thugs": "Assassini",
         "Spider, Planar": "Ragni Planari",
-        "Nightshades": "Ombre"
+        "Nightshades": "Ombre",
+        "Elementals": "Elementali"
     }
 }
