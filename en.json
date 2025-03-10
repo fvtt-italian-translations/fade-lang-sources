@@ -701,6 +701,12 @@
         }
       }
     },
+    "concatLogic": {
+      "and": "and",
+      "name": "Logic",
+      "none": "",
+      "or": "or"
+    },
     "condition": {
       "addStatusEffect": {
         "hint": "If checked, the condition will be added as a status effect.",
