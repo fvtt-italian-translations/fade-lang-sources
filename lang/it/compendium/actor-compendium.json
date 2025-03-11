@@ -10129,7 +10129,8 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante scaglia un masso che infligge 3d6 danni.</p>"
                 },
                 "5BDNY3e1BEVBUdTj": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -10146,9 +10147,19 @@
                 "NE8HtSQvKM3t6qTy": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>Abiti pallidi che forniscono una Classe Armatura 4.</p>",
+                    "name": "Vesti Pallide (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>",
+                    "name": "Arma Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle nuvole sono esseri feroci con pelle e capelli bianchi o grigi. Alti 6 m, indossano vesti pallide e possiedono un acuto senso della vista e dell'olfatto, rendendoli difficili da sorprendere (solo 1 possibilità su 1d6). Sono in grado di lanciare massi a distanze di 18, 39 o 60 m. Questi giganti risiedono in castelli costruiti alle pendici delle montagne o appollaiati su enormi nuvole.</p><p>Come guardie, reclutano [[/r 1d6 #Piccoli Roc Guardia]] piccoli roc (se in nuvole o montagne) o [[/r 6d6 #Lupi Neri Guardia]] lupi neri (solo in montagne).</p><p>I giganti delle nuvole disprezzano essere disturbati e spesso bloccano i passi montani per scoraggiare gli intrusi.</p><p><strong>Danno da Arma Gigante:</strong> 6d6.<br><strong>Danno da Roccia:</strong> 3d6, fino a 60 m di gittata.<br><strong>Terreno:</strong> Nuvole o Montagne.<br></p>",
+            "name": "Gigante delle Nuvole"
         },
         "Giant, Fire": {
             "items": {
@@ -10173,10 +10184,21 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante scaglia un masso che infligge 3d6 danni.</p>"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>Armatura di rame, ottone o bronzo che fornisce una Classe Armatura 4.</p>",
+                    "name": "Rame, Ottone o Bronzo (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>",
+                    "name": "Arma Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "name": "Gigante del Fuoco",
+            "biography": "<p>I giganti del fuoco hanno pelle rossa, capelli neri come il carbone e folte barbe. Alti circa 5 m, indossano armature fatte di rame, ottone o bronzo. Spesso lanciano massi a distanze di 18, 39 o 60 m. Questi giganti risiedono tipicamente vicino a vulcani o in altri ambienti estremamente caldi, con i loro castelli spesso costruiti in fango nero cotto rinforzato con ferro grezzo.</p><p>Come compagne, hanno sempre o [[/r 1d100 #1-3 Idre se il tiro è uguale o inferiore a 20, altrimenti 3-18 Mastini Infernali]] [[/r 1d3 #Idre]] idre (20%) oppure [[/r 3d6 #Mastini Infernali]] mastini infernali (80%).</p><p>Sono completamente immuni agli attacchi da fuoco.</p><p><strong>Danno da Arma Gigante:</strong> 5d6.<br><strong>Danno da Roccia:</strong> 3d6, fino a 60 m di gittata.<br><strong>Terreno:</strong> Vulcani, Ambienti Estremamente Caldi.<br></p>"
         },
         "Giant, Frost": {
             "items": {
@@ -10201,10 +10223,21 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante scaglia un masso che infligge 3d6 danni.</p>"
+                },
+                "alORBYpCG84giJUl": {
+                    "name": "Arma Gigante",
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>Armatura di pelliccia o di ferro che fornisce una Classe Armatura 4.</p>",
+                    "name": "Pelliccia o Ferro (Armatura)"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti dei ghiacci sono esseri imponenti con pelle pallida e capelli giallo chiaro o blu chiaro. Alti 5,4 m, hanno barbe lunghe e folte e indossano pelli di pelliccia insieme a un’armatura di ferro. Sono capaci di lanciare rocce a distanze di 18, 39 o 60 m. Questi giganti costruiscono tipicamente castelli sopra la linea degli alberi in montagne innevate.</p><p>Hanno sempre con sé come compagni [[/r 1d100 #Orsi polari se il tiro è uguale o inferiore a 20, altrimenti Lupi]] [[/r 3d6 #Orsi polari]] orsi polari (20%) o [[/r 6d6 #Lupi]] lupi (80%).</p><p>Sono completamente immuni agli attacchi da freddo.</p><p><strong>Danno Arma Gigante:</strong> 4d6.<br><strong>Danno Roccia:</strong> 3d6, fino a 60 m di portata.<br><strong>Terreno:</strong> Montagne innevate.<br></p>",
+            "name": "Gigante dei Ghiacci"
         },
         "Giant, Mountain (12HD)": {
             "items": {
@@ -10217,7 +10250,8 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
                 },
                 "CKsnOepzqbykCeF5": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -10230,9 +10264,19 @@
                 "NE8HtSQvKM3t6qTy": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>",
+                    "name": "Arma Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle collina. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>",
+            "name": "Gigante delle Montagne (12DV)"
         },
         "Giant, Mountain (13HD)": {
             "items": {
@@ -10257,10 +10301,21 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>",
+                    "name": "Arma Gigante"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di portata.<br><strong>Terreno:</strong> Montagne.<br></p>",
+            "name": "Gigante delle Montagne (13DV)"
         },
         "Giant, Mountain (14HD)": {
             "items": {
@@ -10285,10 +10340,21 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
+                },
+                "alORBYpCG84giJUl": {
+                    "name": "Arma Gigante",
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>",
+            "name": "Gigante delle Montagne (14DV)"
         },
         "Giant, Mountain (15HD)": {
             "items": {
@@ -10297,7 +10363,8 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
                 },
                 "0FZcVbr7OO5tfjtF": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -10314,9 +10381,19 @@
                 "NE8HtSQvKM3t6qTy": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "name": "Pelle Grigiastra Pelosa (Armatura)",
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>",
+                    "name": "Arma Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>",
+            "name": "Gigante delle Montagne (15DV)"
         },
         "Giant, Mountain (16HD)": {
             "items": {
@@ -10325,7 +10402,8 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
                 },
                 "0FZcVbr7OO5tfjtF": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -10342,9 +10420,19 @@
                 "NE8HtSQvKM3t6qTy": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "name": "Arma Gigante",
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>",
+            "name": "Gigante delle Montagne (16DV)"
         },
         "Giant, Mountain (17HD)": {
             "items": {
@@ -10365,14 +10453,25 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
                 },
                 "GHvSzOhTJST6AGoY": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>",
+                    "name": "Arma Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "name": "Gigante delle Montagne (17DV)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>"
         },
         "Giant, Mountain (18HD)": {
             "items": {
@@ -10397,10 +10496,21 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "name": "Arma Gigante",
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "name": "Gigante delle Montagne (18DV)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>"
         },
         "Giant, Mountain (19HD)": {
             "items": {
@@ -10417,7 +10527,8 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
                 },
                 "NE8HtSQvKM3t6qTy": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -10426,9 +10537,19 @@
                 "GHvSzOhTJST6AGoY": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "name": "Arma Gigante",
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>",
+            "name": "Gigante delle Montagne (19DV)"
         },
         "Giant, Mountain (20HD)": {
             "items": {
@@ -10449,14 +10570,25 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante lancia un masso.</p>"
                 },
                 "CKsnOepzqbykCeF5": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle fornisce una Classe Armatura naturale 0.</p>",
+                    "name": "Pelle Grigiastra Pelosa (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>",
+                    "name": "Arma Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle montagne somigliano nell’aspetto ai giganti delle rocce o delle colline. Sono coperti di peli, hanno la pelle grigiastra e sono alti tra 3,6 e 6 m, misurando tipicamente 0,3 m di altezza per Dado Vita.</p><p>Questi giganti frequentemente [[/r 1d100 # < 80 sta trasportando massi]] (80% delle volte) trasportano massi, che possono lanciare a grandi distanze (30/60/120m) per [[/r 4d6 # Danno dei massi]] danni per colpo. Generalmente riservati, i giganti di montagna possono anche essere mercenari, disposti a combattere per qualsiasi forza significativa.</p><p>In combattimento ravvicinato, brandiscono spade massicce o clave di pietra, infliggendo [[/r 5d10 # Danno arma gigante]] danni.</p><p><strong>Danno Arma Gigante:</strong> 5d10.<br><strong>Danno Roccia:</strong> 4d6, fino a 120 m di gittata.<br><strong>Terreno:</strong> Montagne.<br></p>",
+            "name": "Gigante delle Montagne (20DV)"
         },
         "Giant, Sea (10HD)": {
             "items": {
@@ -10479,9 +10611,27 @@
                 "doOqPJEk1bcceYqN": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "xZ15aoeHRerhZS5f": {
+                    "description": "<p>La pelle di un gigante del mare assomiglia a quella di un normale essere umano, ma fornisce una protezione naturale di Classe Armatura 0.</p>",
+                    "name": "Pelle (Armatura)"
+                },
+                "VvkVToJWvCsdFKKE": {
+                    "name": "Idrospinta (Sott'acqua)",
+                    "description": "<p>Un’area di corrente a forma di cono lunga 15 m e larga 9 m alla sua base. Tutti all’interno del cono vengono spinti a 18 m di distanza dal gigante a grande velocità (nessun tiro salvezza per impedire il movimento forzato). Ogni vittima catturata dalla corrente deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Stordito per questo numero di round]] round.</p>"
+                },
+                "HkO7haOE8LZxOxVN": {
+                    "description": "<p>Una lancia enorme impugnata da un gigante del mare.</p>",
+                    "name": "Lancia Gigante"
+                },
+                "eU9NkD77b1hmQhrW": {
+                    "name": "Idrospinta (Superficie)",
+                    "description": "<p>Sulla superficie dell’oceano, il getto d’acqua si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Hull points of damage\" data-formula=\"2d6\" data-tooltip=\"2d6 #Hull points of damage\">2d6</a> punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p>"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti del mare sono tipicamente esseri amichevoli, sebbene siano raramente incontrati poiché preferiscono abitare nei canyon più profondi dell’oceano. Somigliano in modo sorprendente agli umani, a parte la loro altezza imponente di 4,5 a 6 m. Questi giganti possono respirare sott’acqua ma sono capaci di trattenere il respiro fino a un intero turno quando lasciano brevemente il mare, un evento raro. Sebbene possano brandire armi, di solito lance massicce che infliggono 1d10 × 4 danni, lo fanno raramente.</p><p>Una notevole abilità dei giganti del mare è il loro controllo sulle correnti d’acqua. Sott’acqua, possono generare un potente getto in un cono che si estende per 15 m di lunghezza e 9 m di larghezza alla base, spingendo con forza tutto ciò che si trova nell’area a 18 m di distanza senza consentire un tiro salvezza. Ogni creatura colpita deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Round storditi dal getto d’acqua]] round. Sulla superficie dell’oceano, questo effetto si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere [[/r 2d6 #Punti scafo di danno]] punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p><p><strong>Terreno:</strong> Mare Profondo.</p>",
+            "name": "Gigante del Mare (10DV)"
         },
         "Giant, Sea (11HD)": {
             "items": {
@@ -10504,9 +10654,27 @@
                 "doOqPJEk1bcceYqN": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "VvkVToJWvCsdFKKE": {
+                    "description": "<p>Un’area di corrente a forma di cono lunga 15 m e larga 9 m alla sua base. Tutti all’interno del cono vengono spinti a 18 m di distanza dal gigante a grande velocità (nessun tiro salvezza per impedire il movimento forzato). Ogni vittima catturata dalla corrente deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Stordito per questo numero di round]] round.</p>",
+                    "name": "Idrospinta (Sott'acqua)"
+                },
+                "eU9NkD77b1hmQhrW": {
+                    "name": "Idrospinta (Superficie)",
+                    "description": "<p>Sulla superficie dell’oceano, il getto d’acqua si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Hull points of damage\" data-formula=\"2d6\" data-tooltip=\"2d6 #Hull points of damage\">2d6</a> punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p>"
+                },
+                "xZ15aoeHRerhZS5f": {
+                    "description": "<p>La pelle di un gigante del mare assomiglia a quella di un normale essere umano, ma fornisce una protezione naturale di Classe Armatura 0.</p>",
+                    "name": "Pelle (Armatura)"
+                },
+                "HkO7haOE8LZxOxVN": {
+                    "name": "Lancia Gigante",
+                    "description": "<p>Una lancia enorme impugnata da un gigante del mare.</p>"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti del mare sono tipicamente esseri amichevoli, sebbene siano raramente incontrati poiché preferiscono abitare nei canyon più profondi dell’oceano. Somigliano in modo sorprendente agli umani, a parte la loro altezza imponente di 4,5 a 6 m. Questi giganti possono respirare sott’acqua ma sono capaci di trattenere il respiro fino a un intero turno quando lasciano brevemente il mare, un evento raro. Sebbene possano brandire armi, di solito lance massicce che infliggono 1d10 × 4 danni, lo fanno raramente.</p><p>Una notevole abilità dei giganti del mare è il loro controllo sulle correnti d’acqua. Sott’acqua, possono generare un potente getto in un cono che si estende per 15 m di lunghezza e 9 m di larghezza alla base, spingendo con forza tutto ciò che si trova nell’area a 18 m di distanza senza consentire un tiro salvezza. Ogni creatura colpita deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Round storditi dal getto d’acqua]] round. Sulla superficie dell’oceano, questo effetto si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere [[/r 2d6 #Punti scafo di danno]] punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p><p><strong>Terreno:</strong> Mare Profondo.</p>",
+            "name": "Gigante del Mare (11DV)"
         },
         "Giant, Sea (12HD)": {
             "items": {
@@ -10529,9 +10697,27 @@
                 "doOqPJEk1bcceYqN": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "HkO7haOE8LZxOxVN": {
+                    "description": "<p>Una lancia enorme impugnata da un gigante del mare.</p>",
+                    "name": "Lancia Gigante"
+                },
+                "xZ15aoeHRerhZS5f": {
+                    "description": "<p>La pelle di un gigante del mare assomiglia a quella di un normale essere umano, ma fornisce una protezione naturale di Classe Armatura 0.</p>",
+                    "name": "Pelle (Armatura)"
+                },
+                "VvkVToJWvCsdFKKE": {
+                    "name": "Idrospinta (Sott'acqua)",
+                    "description": "<p>Un’area di corrente a forma di cono lunga 15 m e larga 9 m alla sua base. Tutti all’interno del cono vengono spinti a 18 m di distanza dal gigante a grande velocità (nessun tiro salvezza per impedire il movimento forzato). Ogni vittima catturata dalla corrente deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Stordito per questo numero di round]] round.</p>"
+                },
+                "eU9NkD77b1hmQhrW": {
+                    "name": "Idrospinta (Superficie)",
+                    "description": "<p>Sulla superficie dell’oceano, il getto d’acqua si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Hull points of damage\" data-formula=\"2d6\" data-tooltip=\"2d6 #Hull points of damage\">2d6</a> punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p>"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti del mare sono tipicamente esseri amichevoli, sebbene siano raramente incontrati poiché preferiscono abitare nei canyon più profondi dell’oceano. Somigliano in modo sorprendente agli umani, a parte la loro altezza imponente di 4,5 a 6 m. Questi giganti possono respirare sott’acqua ma sono capaci di trattenere il respiro fino a un intero turno quando lasciano brevemente il mare, un evento raro. Sebbene possano brandire armi, di solito lance massicce che infliggono 1d10 × 4 danni, lo fanno raramente.</p><p>Una notevole abilità dei giganti del mare è il loro controllo sulle correnti d’acqua. Sott’acqua, possono generare un potente getto in un cono che si estende per 15 m di lunghezza e 9 m di larghezza alla base, spingendo con forza tutto ciò che si trova nell’area a 18 m di distanza senza consentire un tiro salvezza. Ogni creatura colpita deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Round storditi dal getto d’acqua]] round. Sulla superficie dell’oceano, questo effetto si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere [[/r 2d6 #Punti scafo di danno]] punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p><p><strong>Terreno:</strong> Mare Profondo.</p>",
+            "name": "Gigante del Mare (12DV)"
         },
         "Giant, Sea (13HD)": {
             "items": {
@@ -10554,9 +10740,27 @@
                 "yUFNZjLjwk6pnOxY": {
                     "name": "Bacchetta Magica",
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                },
+                "xZ15aoeHRerhZS5f": {
+                    "description": "<p>La pelle di un gigante del mare assomiglia a quella di un normale essere umano, ma fornisce una protezione naturale di Classe Armatura 0.</p>",
+                    "name": "Pelle (Armatura)"
+                },
+                "eU9NkD77b1hmQhrW": {
+                    "description": "<p>Sulla superficie dell’oceano, il getto d’acqua si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Hull points of damage\" data-formula=\"2d6\" data-tooltip=\"2d6 #Hull points of damage\">2d6</a> punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p>",
+                    "name": "Idrospinta (Superficie)"
+                },
+                "VvkVToJWvCsdFKKE": {
+                    "description": "<p>Un’area di corrente a forma di cono lunga 15 m e larga 9 m alla sua base. Tutti all’interno del cono vengono spinti a 18 m di distanza dal gigante a grande velocità (nessun tiro salvezza per impedire il movimento forzato). Ogni vittima catturata dalla corrente deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Stordito per questo numero di round]] round.</p>",
+                    "name": "Idrospinta (Sott'acqua)"
+                },
+                "HkO7haOE8LZxOxVN": {
+                    "description": "<p>Una lancia enorme impugnata da un gigante del mare.</p>",
+                    "name": "Lancia Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "name": "Gigante del Mare (13DV)",
+            "biography": "<p>I giganti del mare sono tipicamente esseri amichevoli, sebbene siano raramente incontrati poiché preferiscono abitare nei canyon più profondi dell’oceano. Somigliano in modo sorprendente agli umani, a parte la loro altezza imponente di 4,5 a 6 m. Questi giganti possono respirare sott’acqua ma sono capaci di trattenere il respiro fino a un intero turno quando lasciano brevemente il mare, un evento raro. Sebbene possano brandire armi, di solito lance massicce che infliggono 1d10 × 4 danni, lo fanno raramente.</p><p>Una notevole abilità dei giganti del mare è il loro controllo sulle correnti d’acqua. Sott’acqua, possono generare un potente getto in un cono che si estende per 15 m di lunghezza e 9 m di larghezza alla base, spingendo con forza tutto ciò che si trova nell’area a 18 m di distanza senza consentire un tiro salvezza. Ogni creatura colpita deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Round storditi dal getto d’acqua]] round. Sulla superficie dell’oceano, questo effetto si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere [[/r 2d6 #Punti scafo di danno]] punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p><p><strong>Terreno:</strong> Mare Profondo.</p>"
         },
         "Giant, Sea (14HD)": {
             "items": {
@@ -10579,9 +10783,27 @@
                 "cRilBLbqZqF3jH5m": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "HkO7haOE8LZxOxVN": {
+                    "name": "Lancia Gigante",
+                    "description": "<p>Una lancia enorme impugnata da un gigante del mare.</p>"
+                },
+                "VvkVToJWvCsdFKKE": {
+                    "description": "<p>Un’area di corrente a forma di cono lunga 15 m e larga 9 m alla sua base. Tutti all’interno del cono vengono spinti a 18 m di distanza dal gigante a grande velocità (nessun tiro salvezza per impedire il movimento forzato). Ogni vittima catturata dalla corrente deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Stordito per questo numero di round]] round.</p>",
+                    "name": "Idrospinta (Sott'acqua)"
+                },
+                "eU9NkD77b1hmQhrW": {
+                    "name": "Idrospinta (Superficie)",
+                    "description": "<p>Sulla superficie dell’oceano, il getto d’acqua si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Hull points of damage\" data-formula=\"2d6\" data-tooltip=\"2d6 #Hull points of damage\">2d6</a> punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p>"
+                },
+                "xZ15aoeHRerhZS5f": {
+                    "description": "<p>La pelle di un gigante del mare assomiglia a quella di un normale essere umano, ma fornisce una protezione naturale di Classe Armatura 0.</p>",
+                    "name": "Pelle (Armatura)"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti del mare sono tipicamente esseri amichevoli, sebbene siano raramente incontrati poiché preferiscono abitare nei canyon più profondi dell’oceano. Somigliano in modo sorprendente agli umani, a parte la loro altezza imponente di 4,5 a 6 m. Questi giganti possono respirare sott’acqua ma sono capaci di trattenere il respiro fino a un intero turno quando lasciano brevemente il mare, un evento raro. Sebbene possano brandire armi, di solito lance massicce che infliggono 1d10 × 4 danni, lo fanno raramente.</p><p>Una notevole abilità dei giganti del mare è il loro controllo sulle correnti d’acqua. Sott’acqua, possono generare un potente getto in un cono che si estende per 15 m di lunghezza e 9 m di larghezza alla base, spingendo con forza tutto ciò che si trova nell’area a 18 m di distanza senza consentire un tiro salvezza. Ogni creatura colpita deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Round storditi dal getto d’acqua]] round. Sulla superficie dell’oceano, questo effetto si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere [[/r 2d6 #Punti scafo di danno]] punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p><p><strong>Terreno:</strong> Mare Profondo.</p>",
+            "name": "Gigante del Mare (14DV)"
         },
         "Giant, Sea (15HD)": {
             "items": {
@@ -10604,9 +10826,27 @@
                 "cRilBLbqZqF3jH5m": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "HkO7haOE8LZxOxVN": {
+                    "description": "<p>Una lancia enorme impugnata da un gigante del mare.</p>",
+                    "name": "Lancia Gigante"
+                },
+                "VvkVToJWvCsdFKKE": {
+                    "description": "<p>Un’area di corrente a forma di cono lunga 15 m e larga 9 m alla sua base. Tutti all’interno del cono vengono spinti a 18 m di distanza dal gigante a grande velocità (nessun tiro salvezza per impedire il movimento forzato). Ogni vittima catturata dalla corrente deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Stordito per questo numero di round]] round.</p>",
+                    "name": "Idrospinta (Sott'acqua)"
+                },
+                "eU9NkD77b1hmQhrW": {
+                    "name": "Idrospinta (Superficie)",
+                    "description": "<p>Sulla superficie dell’oceano, il getto d’acqua si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Hull points of damage\" data-formula=\"2d6\" data-tooltip=\"2d6 #Hull points of damage\">2d6</a> punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p>"
+                },
+                "xZ15aoeHRerhZS5f": {
+                    "description": "<p>La pelle di un gigante del mare assomiglia a quella di un normale essere umano, ma fornisce una protezione naturale di Classe Armatura 0.</p>",
+                    "name": "Pelle (Armatura)"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "name": "Gigante del Mare (15DV)",
+            "biography": "<p>I giganti del mare sono tipicamente esseri amichevoli, sebbene siano raramente incontrati poiché preferiscono abitare nei canyon più profondi dell’oceano. Somigliano in modo sorprendente agli umani, a parte la loro altezza imponente di 4,5 a 6 m. Questi giganti possono respirare sott’acqua ma sono capaci di trattenere il respiro fino a un intero turno quando lasciano brevemente il mare, un evento raro. Sebbene possano brandire armi, di solito lance massicce che infliggono 1d10 × 4 danni, lo fanno raramente.</p><p>Una notevole abilità dei giganti del mare è il loro controllo sulle correnti d’acqua. Sott’acqua, possono generare un potente getto in un cono che si estende per 15 m di lunghezza e 9 m di larghezza alla base, spingendo con forza tutto ciò che si trova nell’area a 18 m di distanza senza consentire un tiro salvezza. Ogni creatura colpita deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Round storditi dal getto d’acqua]] round. Sulla superficie dell’oceano, questo effetto si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere [[/r 2d6 #Punti scafo di danno]] punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p><p><strong>Terreno:</strong> Mare Profondo.</p>"
         },
         "Giant, Sea (9HD)": {
             "items": {
@@ -10629,9 +10869,27 @@
                 "doOqPJEk1bcceYqN": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "VvkVToJWvCsdFKKE": {
+                    "description": "<p>Un’area di corrente a forma di cono lunga 15 m e larga 9 m alla sua base. Tutti all’interno del cono vengono spinti a 18 m di distanza dal gigante a grande velocità (nessun tiro salvezza per impedire il movimento forzato). Ogni vittima catturata dalla corrente deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Stordito per questo numero di round]] round.</p>",
+                    "name": "Idrospinta (Sott'acqua)"
+                },
+                "eU9NkD77b1hmQhrW": {
+                    "name": "Idrospinta (Superficie)",
+                    "description": "<p>Sulla superficie dell’oceano, il getto d’acqua si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Hull points of damage\" data-formula=\"2d6\" data-tooltip=\"2d6 #Hull points of damage\">2d6</a> punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p>"
+                },
+                "xZ15aoeHRerhZS5f": {
+                    "description": "<p>La pelle di un gigante del mare assomiglia a quella di un normale essere umano, ma fornisce una protezione naturale di Classe Armatura 0.</p>",
+                    "name": "Pelle (Armatura)"
+                },
+                "HkO7haOE8LZxOxVN": {
+                    "description": "<p>Una lancia enorme impugnata da un gigante del mare.</p>",
+                    "name": "Lancia Gigante"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti del mare sono tipicamente esseri amichevoli, sebbene siano raramente incontrati poiché preferiscono abitare nei canyon più profondi dell’oceano. Somigliano in modo sorprendente agli umani, a parte la loro altezza imponente di 4,5 a 6 m. Questi giganti possono respirare sott’acqua ma sono capaci di trattenere il respiro fino a un intero turno quando lasciano brevemente il mare, un evento raro. Sebbene possano brandire armi, di solito lance massicce che infliggono 1d10 × 4 danni, lo fanno raramente.</p><p>Una notevole abilità dei giganti del mare è il loro controllo sulle correnti d’acqua. Sott’acqua, possono generare un potente getto in un cono che si estende per 15 m di lunghezza e 9 m di larghezza alla base, spingendo con forza tutto ciò che si trova nell’area a 18 m di distanza senza consentire un tiro salvezza. Ogni creatura colpita deve superare un tiro salvezza contro il raggio della morte o essere stordita per [[/r 1d6 #Round storditi dal getto d’acqua]] round. Sulla superficie dell’oceano, questo effetto si trasforma in un’onda massiccia che misura 36 m di lunghezza e 18 m di larghezza alla base, capace di infliggere [[/r 2d6 #Punti scafo di danno]] punti scafo di danno a qualsiasi imbarcazione sul suo percorso.</p><p><strong>Terreno:</strong> Mare Profondo.</p>",
+            "name": "Gigante del Mare (9DV)"
         },
         "Giant, Stone": {
             "items": {
@@ -10656,10 +10914,21 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante scaglia un masso (100,200,300m) infliggendo 3d6 danni.</p>"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La pelle rocciosa di un gigante delle rocce fornisce una Classe Armatura naturale 4.</p>",
+                    "name": "Pelle Similroccia (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "description": "<p>Il gigante fa roteare la sua enorme clava di stalattiti con una forza devastante.</p>",
+                    "name": "Clava Stalattite"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>Questi giganti sono alti 4,2 m e hanno una pelle grigia simile alla roccia. Brandiscono grandi stalattiti come clave e lanciano frequentemente rocce con portate di 30/60/90 m. Le loro abitazioni consistono in caverne o rozze capanne di pietra, e c’è una [[/r 1d100 #Tira 50 o meno per guardie orso delle caverne]] probabilità del 50% che abbiano [[/r 1d4 #Orsi delle caverne di guardia]] orsi delle caverne come guardie.</p><p><strong>Danno Clava:</strong> 3d6.<br><strong>Danno Roccia:</strong> 3d6, fino a 90 m di portata.<br><strong>Terreno:</strong> Caverne, Montagne.<br></p>",
+            "name": "Gigante delle Rocce"
         },
         "Giant, Storm": {
             "items": {
@@ -10680,17 +10949,29 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
                 },
                 "bLrwgfQkoR1Tq7uK": {
-                    "name": "Macigno"
+                    "name": "Macigno",
+                    "description": "<p>Il gigante scaglia un masso che infligge 3d6 danni.</p>"
                 },
                 "dYqfr0mECHyGEXBX": {
-                    "name": "Fulmine"
+                    "name": "Fulmine",
+                    "description": "<p>Un gigante della tempesta può lanciare un <em>fulmine</em> ogni 5 round. Questo fulmine infliggerà danni pari ai punti ferita rimanenti del gigante. Un tiro salvezza contro gli incantesimi riuscito ridurrà il danno a metà.</p>"
                 },
                 "NE8HtSQvKM3t6qTy": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "4gpnqZRudew1VnHd": {
+                    "description": "<p>La loro pelle color bronzo fornisce una Classe Armatura naturale 2.</p>",
+                    "name": "Pelle Bronzea (Armatura)"
+                },
+                "alORBYpCG84giJUl": {
+                    "name": "Arma Gigante",
+                    "description": "<p>Il gigante brandisce la sua enorme arma con una forza devastante.</p>"
                 }
             },
-            "monsterType": "Umanoide Gigante (Raro)"
+            "monsterType": "Umanoide Gigante (Raro)",
+            "biography": "<p>I giganti delle tempeste sono i più alti tra tutti i giganti, spesso superando i 6,6 m di altezza. Hanno la pelle color bronzo con capelli rossi o gialli brillanti. Raramente [[/r 1d100 #Il gigante lancia un masso se il tiro è uguale o inferiore a 10]] (10%) lanciano massi, con portate di 45, 90 o 135 m. Appassionati di temporali, possono crearne uno in appena 1 turno. Se una tempesta è già presente, un gigante della tempesta può scatenare un fulmine una volta ogni 5 round, infliggendo danni pari ai loro punti ferita rimanenti (un tiro salvezza contro incantesimi riuscito riduce questo danno della metà). Questi giganti costruiscono le loro case sulle cime delle montagne, in castelli di nuvole o nelle profondità sottomarine.</p><p>I loro castelli sono sempre sorvegliati da [[/r 2d4 #Grifoni da guardia]] grifoni (se in montagne o nuvole) o da [[/r 3d6 #Granchi giganti da guardia]] granchi giganti (se sott’acqua).</p><p>Immuni ai fulmini, i giganti della tempesta si trovano spesso nel cuore di violente tempeste, godendo del caos del clima.</p><p><strong>Danno Arma Gigante:</strong> 8d6.<br><strong>Danno Roccia:</strong> 3d6, fino a 135 m di portata.<br><strong>Terreno:</strong> Montagne, Nuvole o Mare Profondo.<br></p>",
+            "name": "Gigante delle Tempeste"
         },
         "Aerial Servant (Haoou)*": {
             "items": {
@@ -17120,21 +17401,24 @@
         "Gargantua, Troll": {
             "items": {
                 "IglWoz13wu8vKUfH": {
-                    "name": "Rigenerazione"
+                    "name": "Rigenerazione",
+                    "description": "<p>Il troll gargantua si rigenera <strong>4x volte più velocemente</strong> di un troll normale. Gli arti mozzati ricrescono a meno che non vengano distrutti con <strong>fuoco o acido.</strong></p>"
                 },
                 "UMq4B7GCQTZTeSMQ": {
                     "name": "Veleno o Raggio della Morte",
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
                 },
                 "YzdWrFfajSH0qtbb": {
-                    "name": "Artiglio"
+                    "name": "Artiglio",
+                    "description": "<p>Attacco massiccio con artigli che infligge <strong>4d6 danni</strong>.</p>"
                 },
                 "Iyumby0Jcsa2ws8g": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi"
                 },
                 "OStM7ZIhTRE8uEwh": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "<p>Un morso potente che infligge <strong>4d10 danni</strong>.</p>"
                 },
                 "g1zNAHZcQDYpxbfy": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -17149,14 +17433,19 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "zvt3eMa8mZHs4YVR": {
-                    "name": "Pelle Spessa"
+                    "name": "Pelle Spessa",
+                    "description": "<p>La pelle spessa e gommosa fornisce CA 4.</p>"
                 }
-            }
+            },
+            "biography": "<p>Il <strong>gargantua troll</strong> è un <strong>bruto rigenerante</strong>, alto oltre <strong>9 m</strong>. Creato dal folle mago Gargantua, questo troll enorme è una forza di distruzione devastante</p>\n      <p><strong>Caccia e Combattimento:</strong> Un gargantua troll può muoversi a velocità incredibile (72 m) e scatena attacchi devastanti con <strong>due enormi artigli e un morso schiacciante</strong></p>\n      <p><strong>Rigenerazione:</strong> Il troll si rigenera <strong>4× più velocemente</strong> rispetto a un troll normale. Anche gli arti recisi ricrescono rapidamente, a meno che non vengano distrutti dal fuoco o dall'acido</p>\n      <p><strong>Modifiche alle Dimensioni:</strong></p>\n      <ul>\n      <li><strong>Il doppio dell'altezza</strong> di un troll normale</li>\n      <li><strong>8× i normali Dadi Vita</strong> (51 DV)</li>\n      <li><strong>2× la normale velocità di movimento</strong> (72 m)</li>\n      <li><strong>4× la normale potenza d'attacco</strong></li>\n      <li><strong>8× la normale capacità di carico</strong></li>\n      <li><strong>Tipo di Tesoro moltiplicato x4</strong></li>\n      </ul>\n      <p><strong>Terreno:</strong> Uguale a quello della specie originale (Palude, Colline, Caverne)</p>",
+            "monsterType": "Umanoide Gigante (Molto Raro)",
+            "name": "Gargantua, Troll"
         },
         "Gargoyle*": {
             "items": {
                 "WvB79kePYE2SnmhI": {
-                    "name": "Artiglio"
+                    "name": "Artiglio",
+                    "description": "Il gargoyle dilania con i suoi artigli."
                 },
                 "kvkmlI4KYcxt3BVv": {
                     "name": "Veleno o Raggio della Morte",
@@ -17171,20 +17460,33 @@
                     "name": "Soffio del Drago"
                 },
                 "HzS30Se2qeMy56lZ": {
-                    "name": "Corno"
+                    "name": "Corno",
+                    "description": "Il gargoyle colpisce di testa col suo corno."
                 },
                 "L0A5URcVDLn6YZq5": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi"
                 },
                 "VfvSpfJBBqOWyu5G": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Il gargoyle morde con i suoi denti affilati."
                 },
                 "mZfAwmb7dt9Aax6y": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "FnfRZp4XlQLyQEoB": {
+                    "description": "Simile alla pietra, la pelle del gargoyle fornisce una Classe Armatura naturale 5.",
+                    "name": "Pelle Gargoyle (Armatura)"
+                },
+                "kNagT8OXATej59bb": {
+                    "description": "I gargoyle possono essere colpiti solo da armi magiche e sono immuni agli incantesimi di sonno e di charme.",
+                    "name": "Immunità alle armi normali, al Sonno e Charme"
                 }
-            }
+            },
+            "monsterType": "Costrutto Magico (Raro)",
+            "name": "Gargoyle*",
+            "biography": "<p>I gargoyle sono costrutti magici, creati dai maghi per servire vari scopi, in particolare come guardiani. Col passare del tempo, molti gargoyle sono fuggiti o hanno superato i loro creatori, formando gruppi e difendendo i propri territori.</p><p>Assomigliando a umanoidi orrendi con corna, artigli, zanne e ali simili a quelle dei pipistrelli, i gargoyle vengono spesso scambiati per statue a causa della loro pelle simile alla pietra. Astuti e semi-intelligenti, possono rimanere immobili per anni senza necessità di nutrirsi, sorvegliando pazientemente il loro territorio.</p><p>I gargoyle sono immuni alle armi normali, al sonno e agli incantesimi di charme. Possono essere feriti solo da armi magiche e sono ferocemente territoriali, attaccando chiunque invada il loro dominio.</p><p><strong>Terreno:</strong> Caverna, Rovine.<br><strong>Carico:</strong> 2.000 mon a velocità completa, 4.000 mon a velocità ridotta.</p>"
         },
         "Gelatinous Cube": {
             "items": {
@@ -17207,15 +17509,29 @@
                 "Q2rXs1tUNb5xWUlE": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "1R5bbtAS8tIWuGHC": {
+                    "description": "<p>Il corpo trasparente lo rende difficile da vedere, sorprendendo i nemici con un tiro di 1-4 (su 1d6). Fornisce CA 8.</p>",
+                    "name": "Forma Semi-Liquida"
+                },
+                "gofT02l6V9PeKv6v": {
+                    "name": "Immunità al Freddo e ai Fulmini",
+                    "description": "<p>Il cubo gelatinoso non subisce danni da attacchi da <strong>freddo o fulmine</strong>.</strong></p>"
+                },
+                "p2Cfj69wx0eIXA1f": {
+                    "description": "<p>Se il cubo gelatinoso colpisce, infligge <strong>2d4 danni</strong> e il bersaglio deve effettuare un <strong>tiro salvezza contro paralisi</strong> o rimanere <strong>paralizzato per 2-8 turni</strong>. I bersagli paralizzati vengono colpiti automaticamente.</p>",
+                    "name": "Inglobare e Paralizzare"
                 }
             },
             "monsterType": "Mostro (Comune)",
-            "name": "Cubo Gelatinoso"
+            "name": "Cubo Gelatinoso",
+            "biography": "<p>Il <strong>cubo gelatinoso</strong> è una massiccia melma quasi invisibile che si muove attraverso i corridoi del dungeon, consumando tutto il materiale organico sul suo cammino.</p>\n      p><strong>Attacco a Sorpresa:</strong> A causa della sua trasparenza, è difficile da vedere, sorprendendo i nemici <strong>con un tiro da 1 a 4 (su 1d6)</strong>.</p>\n      <p><strong>Attacco Paralizzante:</strong> Se una creatura viene colpita, subisce <strong>2d4 danni</strong> e deve effettuare un <strong>tiro salvezza contro la paralisi</strong> o essere <strong>paralizzata per 2-8 turni</strong>. Una creatura paralizzata viene colpita automaticamente.</p>\n      <p><strong>Assorbimento:</strong> Il cubo raccoglie armi, monete e altri oggetti non digeribili mentre si muove. Questi possono essere visibili al suo interno.</p>\n      <p><strong>Resistenze:</strong> Il cubo gelatinoso è <strong>immune al freddo e al fulmine</strong>.</p>\n      <p><strong>Riproduzione:</strong> I cubi gelatinosi si riproducono dividendosi in due esemplari adulti; non esistono cubi più piccoli o \"giovani\".</p>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>"
         },
         "Ghoul": {
             "items": {
                 "2t58xQJdgJP2JY0S": {
-                    "name": "Artiglio"
+                    "name": "Artiglio",
+                    "description": "<p>Gli artigli affilati infliggono <strong>1d3 danni</strong>. Se colpisce, il bersaglio deve superare un tiro salvezza contro la paralisi o rimanere <strong>paralizzato per 2d4 turni.</strong></p>"
                 },
                 "ueXi6y4u6FHy32jH": {
                     "name": "Soffio del Drago",
@@ -17226,10 +17542,12 @@
                     "name": "Bacchetta Magica"
                 },
                 "8Rt5PYlWd8gnHbvf": {
-                    "name": "Resilienza dei Non Morti"
+                    "name": "Resilienza dei Non Morti",
+                    "description": "<p>I ghoul sono <strong>immuni agli incantesimi del sonno e dello charme.</strong></p>"
                 },
                 "DznwtrjdxJ1NZna1": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "<p>Il morso di un ghoul infligge <strong>1d3 danni</strong>. Se colpisce, il bersaglio deve superare un tiro salvezza contro la paralisi o rimanere <strong>paralizzato per 2d4 turni.</strong></p>"
                 },
                 "QvG6ihzq8w37JOQt": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -17244,7 +17562,9 @@
                     "name": "Veleno o Raggio della Morte"
                 }
             },
-            "name": "Ghoul"
+            "name": "Ghoul",
+            "monsterType": "Non-Morto (Comune)",
+            "biography": "<p>I ghoul sono dei <strong>non-morti orribili e bestiali</strong> che bramano la carne dei vivi. Non conservano alcun ricordo reale delle loro vite passate, si comportano come predatori voraci, e sono <strong>incapaci di parlare</strong></p>\n      <p><strong>Natura dei non-morti:</strong> I ghoul sono <strong>immuni al sonno e agli incantesimi di charme</strong></p>\n      <p><strong>Attacchi paralizzanti:</strong> Qualsiasi creatura di dimensioni di un orco o inferiori (eccetto gli elfi) colpita da un ghoul deve effettuare un <strong>tiro salvezza contro la paralisi</strong> o essere paralizzata per <strong>2d4 turni</strong>. Un ghoul ignora le vittime paralizzate per attaccare altri avversari</p>\n      <p><strong>Avversione alla luce solare:</strong> Pur non subendo danni dal sole, i ghoul evitano la luce del giorno e preferiscono cacciare di notte</p>\n      <p><strong>Spazzino:</strong> Quando non vi è preda viva disponibile, i ghoul si nutrono di <strong>carne in decomposizione e cadaveri</strong></p>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>"
         },
         "Gnome (1HD)": {
             "items": {
@@ -17265,7 +17585,8 @@
                     "name": "Pietrificazione o Paralisi"
                 },
                 "SK36xuf491Vy21wj": {
-                    "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare una maglia protettivo flessibile. La corazza di maglia fornisce a un personaggio una classe armatura 5</p>"
+                    "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare una maglia protettivo flessibile. La corazza di maglia fornisce a un personaggio una classe armatura 5</p>",
+                    "name": "Armatura Gnomo"
                 },
                 "Ujm6ptcAMfWAaNvr": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
@@ -17280,14 +17601,21 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "scq9xCz7kMeZWdMR": {
-                    "name": "Infravisione"
+                    "name": "Infravisione",
+                    "description": "<p>Gli gnomi possono vedere al buio con l' <strong>infravisione fino a 27 m</strong>.</p>"
                 },
                 "sevisB2jq6Pdj8bw": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica"
+                },
+                "EHPxKnFB5RvSPpOM": {
+                    "name": "Incremento Morale Comandante",
+                    "description": "<p>Se è presente un <strong>comandante o un capoclan degli gnomi</strong>, tutti gli gnomi nelle vicinanze hanno <strong>Morale 10 invece di 8</strong>.</p>"
                 }
             },
-            "monsterType": "Umanoide (Comune)"
+            "monsterType": "Umanoide (Comune)",
+            "biography": "<p>Gli gnomi sono <strong>piccoli umanoidi</strong> strettamente imparentati con i nani, alti circa 1 - 1,2 m con <strong>nasi lunghi e barbe folte</strong>. Vivono tipicamente in <strong>tane o città sotterranee</strong> e sono noti per la loro abilità artigianale.</p>\n      <p><strong>Infravisione:</strong> Gli gnomi hanno un’<strong>infravisione ben sviluppata con una portata di 27 m</strong>.</p>\n      <p><strong>Fabbri e Minatori:</strong> Eccellenti lavoratori del metallo, gli gnomi hanno un profondo amore per <strong>oro e gemme</strong> e a volte corrono rischi per ottenerli. Hanno anche un vivo interesse per la meccanica.</p>\n      <p><strong>Armi Preferite:</strong> Gli gnomi prediligono <strong>balestre e martelli da guerra</strong> in combattimento.</p>\n      <p><strong>Nemici di Coboldi e Goblin:</strong> Gli gnomi considerano queste creature ladre e <strong>attaccano i coboldi a vista</strong>.</p>\n      <p><strong>Bonus di Comando:</strong></p>\n      <ul>\n      <li><strong>Per ogni 20 gnomi</strong>, c'è un <strong>comandante con 11 PF</strong>, che combatte come un **mostro da 2 DV**.</li>\n      <li><strong>Nei villaggi degli gnomi</strong>, il **capoclan (18 PF, attacca come 4 DV, +1 ai danni)** è protetto da **1d6 guardie del corpo (10-13 PF, attaccano come 3 DV)**.</li>\n      <li>Se il **capoclan o il leader è vivo**, tutti gli gnomi a vista hanno <strong>Morale 10</strong> invece di 8.</li>\n      </ul>\n      <p><strong>Incantatori Gnomi:</strong> Alcuni gnomi possono usare la magia.</p>\n      <p><strong>Terreno:</strong> Caverna, Aperto.</p>",
+            "name": "Gnomo (1DV)"
         },
         "Gnome, Leader": {
             "items": {
@@ -17304,7 +17632,8 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "VVRBTaDbBgfEtObF": {
-                    "name": "Infravisione"
+                    "name": "Infravisione",
+                    "description": "<p>Gli gnomi possono vedere al buio con l' <strong>infravisione fino a 27 m</strong>.</p>"
                 },
                 "hT1PjmqbZ2u2U6zA": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -17313,9 +17642,22 @@
                 "jTY6JQOUDHYg4iuA": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica"
+                },
+                "BDyygqJK073isA00": {
+                    "description": "<p>Il comandante degli gnomi impugna un <strong>martello da guerra o una balestra</strong>, infliggendo danni maggiori.</p>",
+                    "name": "Arma Gnomo"
+                },
+                "VyaS9hGuWFJ6qpy6": {
+                    "description": "<p>Se è presente un <strong>comandante gnomo</strong>, tutti gli gnomi nelle vicinanze hanno <strong>Morale 10 invece di 8</strong>.</p>",
+                    "name": "Incremento Morale Comandante"
+                },
+                "WjuqULQbIdqUVUFH": {
+                    "name": "Armatura Gnomo"
                 }
             },
-            "monsterType": "Umanoide (Comune)"
+            "monsterType": "Umanoide (Comune)",
+            "biography": "<p>Il <strong>comandante degli gnomi</strong> è un guerriero temprato dalla battaglia che comanda piccoli gruppi di gnomi nelle loro tane o città sotterranee.</p>\n      <p><strong>Infravisione:</strong> Gli gnomi hanno un’<strong>infravisione in un raggio di 27 m</strong>.</p>\n      <p><strong>Fabbri e Minatori:</strong> Gli gnomi eccellono nella lavorazione del metallo e nell’estrazione mineraria, con un profondo amore per <strong>oro e gemme</strong>.</p>\n      <p><strong>Armi Preferite:</strong> I comandanti degli gnomi spesso brandiscono <strong>martelli da guerra o balestre</strong>, infliggendo colpi più forti rispetto agli gnomi normali.</p>\n      <p><strong>Nemici di Coboldi e Goblin:</strong> Gli gnomi disprezzano queste creature e <strong>attaccano i coboldi a vista</strong>.</p>\n      <p><strong>Potenziamento di Comando:</strong> Finché il comandante degli gnomi è vivo, <strong>tutti gli gnomi a vista hanno Morale 10 invece di 8</strong>.</p>\n      <p><strong>Terreno:</strong> Caverna, Aperto.</p>",
+            "name": "Gnomo Comandante"
         },
         "Golem, Amber*": {
             "items": {
@@ -17338,8 +17680,31 @@
                 "lwE456TjtUcQPTmV": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "68GVjoqsdHzSn3VN": {
+                    "description": "<p>Realizzato in ambra lucidata, questo golem ha <strong>CA 6</strong> ed è molto resistente.</p>",
+                    "name": "Corpo d'Ambra"
+                },
+                "fEOEtoID3oo7AiDq": {
+                    "name": "Segugio Infallibile",
+                    "description": "<p>Il golem d'ambra può <strong>seguire il suo bersaglio senza errori</strong>, seguendo perfettamente tracce e odori.</p>"
+                },
+                "mqOAkBcCDUUvEOz1": {
+                    "description": "<p>Il golem d'ambra può <strong>vedere le creature invisibili entro 18 m</strong>, rendendo difficile evitarlo.</p>",
+                    "name": "Individuare l'Invisibile"
+                },
+                "vK6XUHWUveEXJUzO": {
+                    "description": "<p>Il golem d'ambra è <strong>immune al sonno, allo charme, agli incantesimi di blocco e agli attacchi da gas</strong> poiché non respira.</p>",
+                    "name": "Immunità del Golem"
+                },
+                "3R456yKrZB55Ut7Z": {
+                    "description": "<p>Il golem d'ambra colpisce con i suoi enormi artigli, infliggendo <strong>2d10 danni.</strong></p>",
+                    "name": "Artiglio"
                 }
-            }
+            },
+            "biography": "<p>Il <strong>golem d’ambra</strong> è un costrutto incantato a forma di <strong>felinide gigante</strong>, che tipicamente ricorda un leone o una tigre. È realizzato in ambra lucidata, conferendogli un aspetto lucente e traslucido.</p>\n      <p><strong>Inseguitore Impeccabile:</strong> Il golem d’ambra è <strong>un esperto nel rintracciare</strong> il suo bersaglio, seguendo odori e tracce senza mai fallire.</p>\n      <p><strong>Rileva Invisibilità:</strong> Il golem d’ambra può <strong>vedere creature invisibili entro 18 m</strong>, rendendolo difficile da eludere.</p>\n      <p><strong>Resistenze:</strong></p>\n      <ul>\n      <li><strong>Immune a incantesimi di sonno, charme e blocco.</strong></li>\n      <li><strong>Non respira</strong>, rendendolo immune a tutti gli attacchi basati su gas.</li>\n      </ul>\n      <p><strong>Terreno:</strong> Variabile.</p>",
+            "monsterType": "Costrutto Magico (Raro)",
+            "name": "Golem d'Ambra*"
         },
         "Golem, Mud*": {
             "items": {
@@ -17362,8 +17727,12 @@
                 "aH8GIzMy8cQESSQV": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "IcEp96PdWEAU4qF2": {
+                    "name": "Immunità del Golem"
                 }
-            }
+            },
+            "monsterType": "Costrutto Magico (Raro)"
         },
         "Golem, Obsidian*": {
             "items": {
@@ -17390,8 +17759,12 @@
                 "q2f2MyKrfufx0Tkk": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "Tt5I3tdHlBOkVoOW": {
+                    "name": "Immunità del Golem"
                 }
-            }
+            },
+            "monsterType": "Costrutto Magico (Raro)"
         },
         "Golem, Wood*": {
             "items": {
@@ -17418,7 +17791,8 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
                 }
-            }
+            },
+            "monsterType": "Costrutto Magico (Raro)"
         },
         "Grab Grass": {
             "items": {
@@ -18488,8 +18862,23 @@
                 "y4ZiUjcErJAjeGGJ": {
                     "description": "<p>Una spada è una spada a una mano con una lama dritta o curva lunga 60-90 cm. Questa categoria di spade comprende una varietà di tipi diversi di spade, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
                     "name": "Spada"
+                },
+                "0n5F4mx21Sz7pgKN": {
+                    "description": "<p>Il golem d'osso è <strong>immune al sonno, allo charme, agli incantesimi di blocco e agli attacchi da gas</strong> poiché non respira.</p>",
+                    "name": "Immunità del Golem"
+                },
+                "8Tug7hfkOAckmLvB": {
+                    "description": "<p>Fatto di ossa fuse magicamente, questo golem ha <strong>CA 2</strong> e non può essere danneggiato dalle armi normali.</p>",
+                    "name": "Telaio Scheletrico"
+                },
+                "D6HHVlsEViY9h4v6": {
+                    "description": "<p>Il golem d'osso è completamente <strong>immune al fuoco, al freddo e agli attacchi elettrici.</strong></p>",
+                    "name": "Immunità al Fuoco, al Freddo e all'Elettricità"
                 }
-            }
+            },
+            "name": "Golem d'Osso*",
+            "biography": "<p>Il <strong>golem d’osso</strong> è un costrutto terrificante fatto con <strong>le ossa di molteplici umanoidi</strong>, unite insieme da una potente magia.</p>\n<p><strong>Combattimento Multi-Arma:</strong> Un golem d’ossa ha quattro braccia, permettendogli di brandire <strong>quattro armi a una mano</strong> o <strong>due armi a due mani</strong>. Può attaccare <strong>due bersagli separati per round</strong>.</p>\n<p><strong>Resistenze:</strong></p>\n<ul>\n<li><strong>Immune a fuoco, freddo e attacchi elettrici.</strong></li>\n<li><strong>Non influenzato da incantesimi di sonno, charme e blocco.</strong></li>\n<li><strong>Non respira</strong>, rendendolo immune a tutti gli attacchi da gas.</li>\n</ul>\n<p><strong>Terreno:</strong> Variabile.</p>",
+            "monsterType": "Costrutto Magico (Raro)"
         },
         "Golem, Bronze*": {
             "items": {
@@ -18512,8 +18901,31 @@
                 "XD2wVOQf0d8isC6R": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago"
+                },
+                "11y9G5PO2eRqp0Ek": {
+                    "name": "Immunità al Fuoco",
+                    "description": "<p>Il golem di bronzo è <strong>completamente immune a tutti gli attacchi da fuoco</strong>, incluso il fuoco magico.</p>"
+                },
+                "6YDsFVl97SwMku0r": {
+                    "description": "<p>Il golem di bronzo sferra un pugno devastante, infliggendo <strong>3d10 danni contundenti</strong> più <strong>1d10 danni da fuoco</strong> per colpo.</p>",
+                    "name": "Pugno Ardente"
+                },
+                "D9xCrL9Rxnjsicsc": {
+                    "description": "<p>Quando viene colpito con un'<strong>arma da taglio</strong>, l'attaccante deve effettuare un <strong>tiro salvezza contro il raggio della morte</strong> o subire <strong>2d6 danni da fuoco</strong> dal sangue fuso del golem.</p>",
+                    "name": "Sangue Bruciante"
+                },
+                "gNZjCoAG96h7y1Z1": {
+                    "description": "<p>Il corpo metallico e spesso del golem di bronzo fornisce <strong>CA 0</strong> e lo rende quasi invulnerabile ai danni.</p>",
+                    "name": "Placcatura Bronzea"
+                },
+                "FGYcNZlbWadTB8Rc": {
+                    "name": "Immunità del Golem",
+                    "description": "<p>Il golem di bronzo è <strong>immune al sonno, allo charme, agli incantesimi di blocco e agli attacchi da gas</strong> poiché non respira.</p>"
                 }
-            }
+            },
+            "biography": "<p>Il <strong>golem di bronzo</strong> è un massiccio costrutto umanoide alto 4,8 m fatto di <strong>bronzo massiccio</strong>. Somiglia a un gigante del fuoco torreggiante con vene incandescenti e fuse sotto la sua superficie metallica.</p>\n      <p><strong>Sangue Ardente:</strong> Qualsiasi creatura che danneggia il golem di bronzo con un’<strong>arma da taglio</strong> deve superare un <strong>tiro salvezza contro il raggio della morte</strong> o subire <strong>2d6 danni</strong> mentre il sangue infuocato schizza dalla ferita.</p>\n      <p><strong>Colpi Infuocati:</strong> Gli attacchi in mischia del golem di bronzo sono <strong>surriscaldati</strong>, infliggendo <strong>1d10 danni da fuoco</strong> aggiuntivi per colpo.</p>\n      <p><strong>Immunità al Fuoco:</strong> Il golem di bronzo è completamente <strong>immune a tutti gli attacchi da fuoco</strong>, incluso il fuoco magico.</p>\n      <p><strong>Resistenze:</strong></p>\n      <ul>\n      <li><strong>Immune a incantesimi di sonno, charme e blocco.</strong></li>\n      <li><strong>Non respira</strong>, rendendolo immune a tutti gli attacchi da gas.</li>\n      </ul>\n      <p><strong>Terreno:</strong> Variabile.</p>",
+            "monsterType": "Costrutto Magico (Raro)",
+            "name": "Golem di Bronzo*"
         },
         "Green Slime*": {
             "items": {
