@@ -100,6 +100,7 @@
       "Level": "Level",
       "Max": "Max",
       "Min": "Min",
+      "Mod": "Mod",
       "Movement": {
         "abbr": "MV",
         "day": "Overland",
@@ -519,8 +520,10 @@
       "usedSlots": "Used slots"
     },
     "Tags": {
+      "addLanguage": "Add Language",
       "addTags": "Add tags",
-      "desc": "Some tags are used by the system and others are meant for GM or player usage."
+      "desc": "Some tags are used by the system and others are meant for GM or player usage.",
+      "languageDesc": "Add one or more languages."
     },
     "Weapon": {
       "ammo": {
@@ -818,6 +821,10 @@
     "rollWithCtrl": "<p>Roll {name} check.</p><p><i>Click to roll. Ctrl-click to roll without mod.</i></p>",
     "rounds": "rounds",
     "shortName": "Short Name",
+    "species": {
+      "classes": "Classes",
+      "requiredScores": "Required Attribute Scores"
+    },
     "tabs": {
       "abilities": "Abilities",
       "attributes": "Attributes",
