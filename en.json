@@ -766,6 +766,10 @@
         "resultsLabel": "Shove Results"
       },
       "skillCheck": "Skill Check",
+      "specialAbilities": {
+        "content": "Would you like to automatically add the related special abilities from {type} {name}?",
+        "title": "Add special abilities?"
+      },
       "spellcast": {
         "content": "Do you want to cast the spell or view its description?",
         "noLabel": "View Description",
@@ -823,6 +827,8 @@
     "shortName": "Short Name",
     "species": {
       "classes": "Classes",
+      "female": "Female",
+      "male": "Male",
       "requiredScores": "Required Attribute Scores"
     },
     "tabs": {
