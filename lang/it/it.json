@@ -489,7 +489,7 @@
             "short": "Maestria",
             "weaponTypes": {
                 "handheld": {
-                    "abbr": "I",
+                    "abbr": "H",
                     "long": "In Mano"
                 },
                 "all": {
@@ -650,7 +650,11 @@
             },
             "confirmInitiativeRoll": "Uno o più combattenti hanno selezionato <strong>Niente</strong> come azione dichiarata. Effettuando il tiro per l'iniziativa di gruppo bloccherà le azioni dichiarate. Sei sicuro di voler procedere?",
             "no": "No",
-            "yes": "Si"
+            "yes": "Si",
+            "specialAbilities": {
+                "title": "Aggiungere abilità speciali?",
+                "content": "Vuoi aggiungere automaticamente le abilità speciali correlate da {type} {name}?"
+            }
         },
         "time": {
             "prev": "Indietro",
@@ -950,7 +954,9 @@
         },
         "species": {
             "requiredScores": "Punteggi Attributi Richiesti",
-            "classes": "Classi"
+            "classes": "Classi",
+            "female": "Femmina",
+            "male": "Maschio"
         }
     },
     "SETTINGS": {
@@ -970,7 +976,7 @@
         },
         "move": {
             "max": {
-                "name": "Velocità Max di Movimento",
+                "name": "Velocità Max di Mov.",
                 "hint": "<b>Velocità massima al suolo per turno.</b><p>Le distanze di movimento sono misurate in metri</p>"
             },
             "maxFlight": {
@@ -1107,11 +1113,11 @@
             "Concentration": "Concentrazione"
         },
         "monsterSize": {
-            "M": "Med",
-            "S": "Pic",
-            "L": "Gra",
-            "G": "Eno",
-            "I": "Mas"
+            "M": "M",
+            "S": "S",
+            "L": "L",
+            "G": "G",
+            "I": "I"
         },
         "classSpecies": {
             "Elf": "Elfo",
