@@ -17729,10 +17729,29 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "IcEp96PdWEAU4qF2": {
-                    "name": "Immunità del Golem"
+                    "name": "Immunità del Golem",
+                    "description": "<p>Il golem di fango è <strong>immune al sonno, allo charme, agli incantesimi di blocco e agli attacchi basati sul gas</strong> poiché non respira.</p>"
+                },
+                "VCZPDETerBVWjqMu": {
+                    "name": "Camminare nel Fango",
+                    "description": "<p>Il golem di fango può <strong>camminare o nuotare nel fango e nelle sabbie mobili senza affondare</strong>. Può rimanere sommerso indefinitamente.</p>"
+                },
+                "hZ6wscq8PpEyaQmu": {
+                    "name": "Afferrare",
+                    "description": "<p>Il golem di fango colpisce con i suoi artigli spessi e simili ad argilla, infliggendo <strong>2d6 danni per colpo.</strong></p>"
+                },
+                "8W3mQy8J2AvDesez": {
+                    "description": "<p>La forma morbida e mutevole del golem di fango gli conferisce <strong>CA 9</strong>. È altamente resistente agli attacchi schiaccianti.</p>",
+                    "name": "Corpo Fangoso"
+                },
+                "cPFxYUmDsa5mLkAS": {
+                    "description": "<p>Il golem di fango avvolge la sua vittima, infliggendo <strong>2d6 danni a round</strong> mentre soffoca la preda.</p>",
+                    "name": "Abbraccio Soffocante"
                 }
             },
-            "monsterType": "Costrutto Magico (Raro)"
+            "monsterType": "Costrutto Magico (Raro)",
+            "name": "Golem di Fango*",
+            "biography": "<p>Il <strong>golem di fango</strong> è un costrutto magico umanoide fatto interamente di <strong>fango vivente</strong>. È alto circa 1,8 m e ha un corpo mutevole e senza lineamenti.</p>\n      <p><strong>Movimento Attraverso Fango e Sabbie Mobili:</strong> Il golem di fango può <strong>camminare o nuotare su fango e sabbie mobili senza affondare</strong>. Può rimanere completamente sommerso in queste sostanze indefinitamente.</p>\n      <p><strong>Abbraccio Soffocante:</strong> Il golem di fango attacca con le sue massicce braccia simili all’argilla, cercando di <strong>inglobare e soffocare</strong> la sua vittima. Un colpo riuscito infligge automaticamente <strong>2d6 danni per round</strong> mentre la vittima lotta per respirare.</p>\n      <p><strong>Resistenze:</strong></p>\n      <ul>\n      <li><strong>Immune a incantesimi di sonno, charme e blocco.</strong></li>\n      <li><strong>Non respira</strong>, rendendolo immune a tutti gli attacchi basati sui gas.</li>\n      </ul>\n      <p><strong>Terreno:</strong> Variabile.</p>"
         },
         "Golem, Obsidian*": {
             "items": {
@@ -17761,10 +17780,29 @@
                     "name": "Incantesimi, Verga o Bastone Magico"
                 },
                 "Tt5I3tdHlBOkVoOW": {
-                    "name": "Immunità del Golem"
+                    "name": "Immunità del Golem",
+                    "description": "<p>Il golem di ossidiana è <strong>immune al sonno, allo charme, agli incantesimi di blocco e agli attacchi basati sul gas</strong> poiché non respira.</p>"
+                },
+                "gNsuMOFDqryIKJrz": {
+                    "description": "<p>Il golem di ossidiana <strong>comprende e obbedisce a semplici comandi</strong>, spesso attivati tramite password o enigmi.</p>",
+                    "name": "Parole di Comando"
+                },
+                "hIcTgdKBwLBs6Kfh": {
+                    "description": "<p>Quando il golem di ossidiana viene ridotto a 0 HP, <strong>si frantuma in macerie senza valore</strong> e non può essere riparato.</p>",
+                    "name": "Morte Sconvolgente"
+                },
+                "niGqK90elURoqQ1i": {
+                    "description": "<p>Scolpito nel vetro vulcanico, il golem di ossidiana ha <strong>CA 3</strong> ed è resistente alla maggior parte degli attacchi fisici.</p>",
+                    "name": "Corpo d'Ossidiana"
+                },
+                "tTp7Fby9FBrhUfQx": {
+                    "description": "<p>Il golem di ossidiana può tentare di <strong>abbracciare e schiacciare</strong> il suo avversario, infliggendo <strong>2d4 danni.</strong></p>",
+                    "name": "Abbraccio Schiacciante"
                 }
             },
-            "monsterType": "Costrutto Magico (Raro)"
+            "monsterType": "Costrutto Magico (Raro)",
+            "biography": "<p>Il <strong>golem d’ossidiana</strong> è un costrutto animato magicamente scolpito da <strong>vetro vulcanico nero</strong>. Possiede una forma umanoide dai tratti frastagliati e affilati.</p>\n      <p><strong>Arma o Abbraccio Schiacciante:</strong> Il golem può attaccare con un’<strong>arma</strong> o tentare di <strong>abbracciare e schiacciare il suo avversario</strong> (infliggendo 2d4 danni).</p>\n      <p><strong>Morte Frantumante:</strong> Quando ridotto a 0 PF, il golem <strong>si frantuma in macerie senza valore</strong>, impedendo qualsiasi forma di riparazione o rianimazione.</p>\n      <p><strong>Parola e Comandi:</strong> Sebbene privo di piena intelligenza, il golem <strong>comprende comandi semplici</strong> e può essere controllato tramite <strong>parole d’ordine o indovinelli specifici</strong>.</p>\n      <p><strong>Resistenze:</strong></p>\n      <ul>\n      <li><strong>Immune a incantesimi di sonno, charme e immobilizzazione.</strong></li>\n      <li><strong>Non respira</strong>, rendendolo immune a tutti gli attacchi basati su gas.</li>\n      </ul>\n      <p><strong>Terreno:</strong> Variabile.</p>",
+            "name": "Golem d'Ossidiana*"
         },
         "Golem, Wood*": {
             "items": {
@@ -17785,14 +17823,29 @@
                     "name": "Veleno o Raggio della Morte"
                 },
                 "JSCuRNb9m8lsKiMk": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "<p>Il golem di legno colpisce con un pesante pugno di legno, infliggendo <strong>1d8 danni.</strong></p>"
                 },
                 "Jo4qkJlyQ5WgBxfC": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "ZkU9KULG5b7OuLxX": {
+                    "name": "Corpo Legnoso",
+                    "description": "<p>Costituito da rigidi arti di legno, questo golem ha <strong>CA 7</strong> e subisce una penalità all'iniziativa di <strong>-1</strong></p>"
+                },
+                "53FevOawTSKSlVYv": {
+                    "description": "<p>Il golem di legno subisce <strong>+1 danno per dado dal fuoco</strong> e subisce una penalità di <strong>-2 ai tiri salvezza contro il fuoco</strong></p>",
+                    "name": "Vulnerabilità al Fuoco"
+                },
+                "AD6HtM8WugUU1HF8": {
+                    "description": "<p>Il golem di legno è <strong>immune a tutti gli attacchi basati sul freddo</strong> e <strong>immune alle armi da lancio</strong>, incluso il *dardo incantato*.</p>",
+                    "name": "Immunità al Freddo e ai Proiettili"
                 }
             },
-            "monsterType": "Costrutto Magico (Raro)"
+            "monsterType": "Costrutto Magico (Raro)",
+            "biography": "<p>Il <strong>golem di legno</strong> è un rozzo costrutto umanoide alto 90 cm, animato dalla magia per servire come guardiano o servitore (I am Groot).</p>\n      <p><strong>Movimenti Rigidi:</strong> A causa della sua forma rigida, <strong>subisce una penalità di -1 ai tiri di iniziativa</strong>.</p>\n      <p><strong>Vulnerabilità al Fuoco:</strong> I golem di legno <strong>bruciano facilmente</strong>, subendo una <strong>penalità di -2 a tutti i tiri salvezza contro il fuoco</strong>. Gli attacchi di fuoco infliggono anche <strong>+1 punto per dado di danno extra</strong>.</p>\n      <p><strong>Resistenze:</strong></p>\n      <ul>\n      <li><strong>Immune agli attacchi basati sul freddo.</strong></li>\n      <li><strong>Immune agli attacchi a distanza</strong>, incluso *dardo incantato*.</li>\n      </ul>\n      <p><strong>Terreno:</strong> Variabile.</p>",
+            "name": "Golem di Legno*"
         },
         "Grab Grass": {
             "items": {
@@ -17815,9 +17868,15 @@
                 "iMH2DD6dN8o8dfTo": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "dHiANf1jnnNFGjFJ": {
+                    "description": "<p>Quando una creatura entra nell'erba assassina, essa viene <strong>trattenuta</strong>. La fuga è possibile con una <strong>possibilità base del 5% per round</strong>, che aumenta di <strong>+5% per punto di Forza superiore a 12</strong>.</p>",
+                    "name": "Viticci Afferranti"
                 }
             },
-            "monsterType": "Cattivo (Comune)"
+            "monsterType": "Cattivo (Comune)",
+            "biography": "<p>L’<strong>erba assassina</strong> appare identica all’erba alta normale (alta da 1 a 1,5 m) ma è in realtà <strong>una pianta predatoria animata</strong>.</p>\n      <p><strong>Attacco Afferrante:</strong> Chiunque si muova dentro o attraverso l’erba assassina, sarà <strong>trattenuto</strong> mentre l’erba cerca di tenerlo fermo.</p>\n      <p><strong>Liberarsi:</strong> Un individuo intrappolato ha una <strong>probabilità del 5% per round</strong> di sfuggire se ha una forza di 12 o inferiore. Per ogni punto di forza sopra 12, la probabilità aumenta del <strong>+5% </strong> (ad esempio, FOR 16 = 25% di probabilità per round).</p>\n      <p><strong>Distruggere l’Erba:</strong> La zona di erba assassina ha <strong>1 Dado Vita per quadrato di 1,5 m</strong>. Ogni <strong>8 danni</strong> distrugge una sezione di 1,5 m.</p>\n      <p><strong>Terreno:</strong> Collina, Giungla, Aperto.</p>",
+            "name": "Erba Assassina"
         },
         "Gray Ooze": {
             "items": {
@@ -17840,9 +17899,30 @@
                 "xKs9xfugedfrtxaI": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi"
+                },
+                "8ip2Q10p1HqtQbxn": {
+                    "name": "Dissolvenza di Armature e Armi",
+                    "description": "<p>Al contatto, la melma <strong>distrugge armature e armi normali in 1 round</strong>. <strong>Gli oggetti magici si dissolvono in 1 turno.</strong></p>"
+                },
+                "ShJiaS8uink912qk": {
+                    "name": "Difese della Melma"
+                },
+                "3Zi7iU2RDmtZGY48": {
+                    "description": "<p>La melma vischiosa è <strong>immune agli attacchi da freddo e fuoco.</strong></p>",
+                    "name": "Immunità al Freddo e al Fuoco"
+                },
+                "iBo2u6iV6Obho7if": {
+                    "description": "<p>La melma vischiosa secerne un acido potente, che infligge <strong>2d8 danni</strong> quando entra in contatto con la pelle nuda.</p>",
+                    "name": "Tocco Acidico"
+                },
+                "yLrn7pBeBGwpft15": {
+                    "name": "Melma Collosa",
+                    "description": "<p>Una volta che la melma colpisce un bersaglio, <strong>si attacca a lui</strong>, infliggendo automaticamente <strong>2d8 danni per round</strong> e <strong>continuando a distruggere le armature non magiche.</strong></p>"
                 }
             },
-            "monsterType": "Cattivo (Comune)"
+            "monsterType": "Cattivo (Comune)",
+            "biography": "<p>La <strong>melma vischiosa</strong> è un orrore gocciolante pericoloso e stillante che appare come <strong>una macchia di pietra bagnata</strong> (diametro di 2,4 m) o una <strong>massa simile a un masso</strong> (diametro di 1,2 m), rendendolo difficile da individuare.</p>\n      <p><strong>Tocco Acido:</strong> La melma secerne un potente acido che infligge <strong>2d8 danni</strong> quando tocca la pelle nuda.</p>\n      <p><strong>Dissoluzione di Armature e Armi:</strong> Armature e armi normali vengono <strong>distrutte in 1 round</strong> quando toccate dalla melma. <strong>Gli oggetti magici si dissolvono in 1 turno.</strong></p>\n      <p><strong>Fango Appiccicoso:</strong> Una volta che colpisce una vittima, la melma <strong>si attacca a essa</strong>, continuando a infliggere <strong>2d8 danni per round</strong> e <strong>distruggendo automaticamente armature non magiche</strong>.</p>\n      <p><strong>Resistenze e Debolezze:</strong></p>\n      <ul>\n      <li><strong>Immune a freddo e fuoco.</strong></li>\n      <li><strong>Può essere ferita da armi e fulmini.</strong></li>\n      </ul>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "name": "Melma Vischiosa"
         },
         "Gremlin": {
             "items": {
@@ -17865,10 +17945,31 @@
                 "oFj4jP8zBXyCgoBH": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "7GHvKM3pDeXLEGQz": {
+                    "description": "<p>Qualsiasi creatura che <strong>fallisce un attacco</strong> contro un gremlin deve <strong>rilanciare l'attacco contro se stessa.</strong></p>",
+                    "name": "Inversione Attacco Mancato"
+                },
+                "CwGzIpfsotT4VgJp": {
+                    "name": "Interferenza Meccanica",
+                    "description": "<p>I gremlin causano il <strong>guasto degli oggetti meccanici</strong>. Le balestre potrebbero spezzarsi, le armi potrebbero rompersi e i dispositivi magici potrebbero malfunzionare. Il DM determina l'effetto esatto.</p>"
+                },
+                "Czly8LPSZZF8e1Iz": {
+                    "description": "<p>Il piccolo e dispettoso gremlin ha <strong>CA 7</strong>, il che lo rende piuttosto facile da colpire.</p>",
+                    "name": "Corpo Gremlin"
+                },
+                "IALq6quS6KrBjkdh": {
+                    "description": "<p>Il gremlin irradia un'aura di caos di <strong>6 m.</strong> Le creature all'interno dell'aura devono <strong>tirare salvezza contro gli incantesimi ogni round</strong> o subire una sfortuna casuale, determinata dal DM.</p>",
+                    "name": "Aura Caotica"
+                },
+                "bGiGyiG5hjElwosb": {
+                    "name": "Inversione Incantesimo",
+                    "description": "<p>Qualsiasi personaggio che lancia un incantesimo all'interno dell'aura caotica deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong>. Se ha successo, l'incantesimo colpisce i gremlin; se fallisce, l'incantesimo si ritorce contro chi lo lancia.</p>"
                 }
             },
             "monsterType": "Mostro (Raro)",
-            "name": "Gremlin"
+            "name": "Gremlin",
+            "biography": "<p>Il <strong>gremlin</strong> è un umanoide dispettoso alto 90 cm con <strong>pelle grigio-verde pallida, grandi occhi bovini e orecchie a punta</strong>. Hanno un <strong>senso dell’umorismo malvagio</strong> e adorano causare caos.</p>\n      <p><strong>Aura Caotica (Raggio di 6 m):</strong> I gremlin irradiano una potente aura di caos, dove <strong>“tutto ciò che può andare storto andrà storto”</strong>. Ogni round, tutte le creature nell’aura devono <strong>superare un tiro salvezza contro incantesimi</strong> o subire sfortuna casuale (determinata dal DM).</p>\n      <p><strong>Attacchi Mancati:</strong> Qualsiasi creatura che <strong>manca un attacco</strong> contro un gremlin deve <strong>ritirare l’attacco contro sé stessa</strong>.</p>\n      <p><strong>Inversione degli Incantesimi:</strong> Qualsiasi personaggio che lancia un incantesimo entro l’aura caotica deve <strong>fare un tiro salvezza contro incantesimi</strong>. Se riesce, l’incantesimo colpisce i gremlin; se fallisce, si ritorce contro e colpisce l’incantatore.</p>\n      <p><strong>Interferenza Meccanica:</strong> I gremlin adorano rompere oggetti meccanici—<strong>le balestre potrebbero spezzarsi, le teste d’ascia potrebbero staccarsi</strong> e i dispositivi magici potrebbero malfunzionare in modi bizzarri.</p>\n      <p><strong>Incantatori Gremlin:</strong> Alcuni gremlin praticano la magia; vedi <strong>Incantatori Mostruosi</strong> per dettagli.</p>\n      <p><strong>Terreno:</strong> Qualsiasi.</p>"
         },
         "Halfling (2HD)": {
             "items": {
@@ -17910,7 +18011,8 @@
                 }
             },
             "monsterType": "Semiumano (Comune)",
-            "biography": "<p>Gli Halfling sono piccole creature semiumane che spesso vivono vicino ai loro villaggi. Sono abili con le armi da lancio, ricevendo un bonus di +1 ai tiri per colpire quando le usano. Gli Halfling sono eccellenti nel nascondersi, particolarmente nei **boschi** o nella **boscaglia**, dove hanno solo il 10% di probabilità di essere individuati mentre si nascondono.</p>\n        <p>In combattimento, gli Halfling ottengono un bonus di +2 alla **Classe Armatura** quando combattono contro nemici più grandi di un uomo. Per ogni 10 Halfling, uno sarà un capo di **2º Livello**, e fintanto che il capo è vivo e combatte al loro fianco, il loro **morale** è 10 invece di 8.</p>\n        <p>Gli Halfling vivono tipicamente in villaggi, o **contee**, di 30 a 300 abitanti. Ogni villaggio è guidato da uno **sceriffo** (un combattente di livello 2-7) e protetto da una guardia di villaggio di 5-20 miliziani (ciascuno con 2 Dadi Vita).</p>\n        <strong>Abilità Speciali:</strong> Gli Halfling ottengono un bonus di +1 ai tiri per colpire quando usano armi da lancio e un bonus di +2 alla Classe Armatura quando combattono contro creature più grandi.<br>\n        <strong>Terreno:</strong> Collina, Aperto.<br>"
+            "biography": "<p>Gli Halfling sono piccole creature semiumane che spesso vivono vicino ai loro villaggi. Sono abili con le armi da lancio, ricevendo un bonus di +1 ai tiri per colpire quando le usano. Gli Halfling sono eccellenti nel nascondersi, particolarmente nei **boschi** o nella **boscaglia**, dove hanno solo il 10% di probabilità di essere individuati mentre si nascondono.</p>\n        <p>In combattimento, gli Halfling ottengono un bonus di +2 alla **Classe Armatura** quando combattono contro nemici più grandi di un uomo. Per ogni 10 Halfling, uno sarà un capo di **2º Livello**, e fintanto che il capo è vivo e combatte al loro fianco, il loro **morale** è 10 invece di 8.</p>\n        <p>Gli Halfling vivono tipicamente in villaggi, o **contee**, di 30 a 300 abitanti. Ogni villaggio è guidato da uno **sceriffo** (un combattente di livello 2-7) e protetto da una guardia di villaggio di 5-20 miliziani (ciascuno con 2 Dadi Vita).</p>\n        <strong>Abilità Speciali:</strong> Gli Halfling ottengono un bonus di +1 ai tiri per colpire quando usano armi da lancio e un bonus di +2 alla Classe Armatura quando combattono contro creature più grandi.<br>\n        <strong>Terreno:</strong> Collina, Aperto.<br>",
+            "name": "Halfling (2DV)"
         },
         "Haunt, Banshee*": {
             "items": {
@@ -17933,8 +18035,35 @@
                 "XC85X7BrPpY5Impt": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago"
+                },
+                "ahOh34PMlmysHXzG": {
+                    "description": "<p>La Banshee può fissare un bersaglio da <strong>18 m di distanza</strong>. La vittima deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o essere <strong>paralizzata per</strong> [[/r 2d4 #Round paralizzato dallo sguardo.]] <strong>round.</strong></p>",
+                    "name": "Sguardo Paralizzante"
+                },
+                "apKqm1bxpYluRHwm": {
+                    "description": "<p>La Banshee può <strong>spostarsi sul Piano Etereo 3 volte al giorno</strong>, rimanendovi per <strong>1d8 giorni</strong>.</p>",
+                    "name": "Fuga nel Piano Etereo"
+                },
+                "XrwvkzoBFcqCU5US": {
+                    "description": "<p>Il tocco della Banshee infligge [[/r 1d4*10 #Anni di invecchiamento]]<strong> anni di invecchiamento</strong>. Ogni 10 anni invecchiati riduce la Costituzione di <strong>1 punto permanentemente</strong>.</p><p> Un desiderio ripristina solo un punto perso in questo modo, e magie meno potenti non possono influire sulla perdita. Tutto l’invecchiamento può essere contrastato solo con una pozione di longevità o un desiderio. Se la Costituzione di una vittima scende a 0, la vittima muore permanentemente e non può essere resuscitata.</p><p><em>Gli elfi possono ignorare gli effetti dei primi 200 anni di invecchiamento; i nani possono ignorare i primi 50 anni, e gli halfling, i primi 20 anni.</em></p>",
+                    "name": "Tocco Invecchiante"
+                },
+                "3g4QVS5f89vhSfQD": {
+                    "description": "<p>La Banshee può <strong>lamentarsi tre volte al giorno</strong>. Tutti coloro che si trovano entro <strong>18 m</strong> devono effettuare un <strong>tiro salvezza contro il raggio della morte</strong> o <strong>morire all'istante.</strong></p>",
+                    "name": "Lamento Mortale"
+                },
+                "AJSg7SJcAMsyeC20": {
+                    "description": "<p>La Banshee è un'entità incorporea, il che la rende difficile da colpire, conferendole <strong>CA -3.</strong></p>",
+                    "name": "Forma Banshee"
+                },
+                "d4MbJ3H8fVMd6H3F": {
+                    "description": "<p>La Banshee emana una rete di ectoplasma di <strong>3 m di raggio</strong>. Dopo <strong>3 round</strong>, le creature al suo interno devono effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o essere trascinate nel <strong>Piano Etereo</strong>.</p>",
+                    "name": "Rete Ectoplasmica"
                 }
-            }
+            },
+            "biography": "<p>La <strong>Banshee</strong> è un’anima non-morta tormentata che infesta brughiere desolate, foreste e dungeon. È una guardiana del suo dominio e può persino proteggere certe creature come folletti o pixie, scacciando gli intrusi con i suoi lamenti terrificanti.</p>\n      <p><strong>Natura Non-Morta:</strong> La Banshee è una creatura non-morta, immune a sonno, charme e incantesimi che influenzano la mente. Può essere ferita solo da <strong>armi magiche +2 o superiori</strong> ed è immune a tutti gli incantesimi eccetto quelli che colpiscono specificamente esseri malvagi.</p>\n      <p><strong>Rete Ectoplasmatica:</strong> La Banshee emana viticci spettrali che formano lentamente una <strong>rete con raggio di 3 m</strong>. Dopo 3 round, questa rete si solidifica. Qualsiasi creatura vivente intrappolata nella rete deve superare un <strong>tiro salvezza contro incantesimi</strong> o essere trascinata nel <strong>Piano Etereo</strong>, dove la Banshee può attaccare senza interferenze dal mondo fisico.</p>\n      <p><strong>Sguardo Paralizzante:</strong> La Banshee può fissare una vittima negli occhi da <strong>18 m di distanza</strong>. Il bersaglio deve superare un <strong>tiro salvezza contro incantesimi</strong> o essere <strong>paralizzato per 2d4 round</strong>.</p>\n      <p><strong>Tocco Invecchiante:</strong> Se la Banshee tocca una vittima, infligge <strong>1d4 × 10 anni di invecchiamento innaturale</strong>. Questo effetto di invecchiamento riduce permanentemente <strong>1 punto di Costituzione per ogni 10 anni invecchiati</strong> e può essere annullato solo da una <strong>pozione di longevità</strong> o un <strong>incantesimo desiderio</strong>.</p>\n      <p><strong>Lamento Mortale:</strong> La Banshee può emettere un potente <strong>lamento tre volte al giorno</strong>. Tutte le creature entro <strong>18 m</strong> devono superare un <strong>tiro salvezza contro raggio di morte</strong> o <strong>morire istantaneamente</strong>. La Banshee usa tipicamente un lamento a distanza per spaventare gli intrusi; PNG e mostri che sentono il lamento devono fare una <strong>prova di morale con una penalità di +4</strong>. Se evitata, la Banshee non inseguirà.</p>\n      <p><strong>Fuga nel Piano Etereo:</strong> Quando gravemente minacciata, la Banshee può <strong>spostarsi nel Piano Etereo fino a 3 volte al giorno</strong> e vi rimarrà per <strong>1d8 giorni</strong> prima di tornare.</p>\n      <p><strong>Resistenza allo Scacciare:</strong> Se un chierico tenta di scacciare una Banshee e ottiene un risultato “D”, la Banshee può fare un <strong>tiro salvezza contro incantesimi</strong> per resistere alla distruzione.</p>\n      <p><strong>Tesoro:</strong> La Banshee custodisce le ricchezze delle vittime passate, conservate da qualche parte nel suo dominio infestato.</p>\n      <p><strong>Terreno:</strong> Rovine, Brughiere, Foreste Profonde.</p>",
+            "monsterType": "Non-Morto Magico (Molto raro)",
+            "name": "Anima Persa, Banshee*"
         },
         "Haunt, Ghost* (Chaotic)": {
             "items": {
@@ -18948,9 +19077,27 @@
                 "zeNIASrLCk7BT83l": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica"
+                },
+                "3DRjHIRtRi52v7x1": {
+                    "description": "<p>Una volta a contatto con la carne, la fanghiglia <strong>si attacca e trasforma la vittima in fanghiglia verde in 1d4 round</strong> a meno che non venga bruciata o curata con <strong>cura malattie</strong></p>",
+                    "name": "Carne in Fanghiglia"
+                },
+                "9JElIjXdGGxpbWlr": {
+                    "description": "<p>La fanghiglia verde è una massa amorfa e appiccicosa con <strong>CA 20</strong>. Può sempre essere colpita.</p>",
+                    "name": "Corpo di Fanghiglia"
+                },
+                "W3mMRNOtN61uDis6": {
+                    "description": "<p>La fanghiglia verde <strong>dissolve istantaneamente stoffa e pelle</strong>, <strong>legno e metallo in 6 round</strong>, ma <strong>non può dissolvere la pietra.</strong></p>",
+                    "name": "Tocco Dissolvente"
+                },
+                "eEMvbIGHWI3H3Niu": {
+                    "description": "<p>La fanghiglia verde può essere danneggiata solo dal <strong>fuoco o dal freddo</strong>. Bruciandola <strong>i danni vengono suddivisi tra la fanghiglia e la sua vittima.</strong></p>",
+                    "name": "Vulnerabilità al Fuoco e al Freddo"
                 }
             },
-            "monsterType": "Cattivo (Comune)"
+            "monsterType": "Cattivo (Comune)",
+            "biography": "<p>La <strong>fanghiglia verde</strong> è un orrore privo di mente che <strong>si attacca a soffitti e pareti</strong>, aspettando di cadere su vittime ignare.</p>\n      <p><strong>Sempre Colpita:</strong> La fanghiglia verde ha <strong>CA 20</strong> e può sempre essere colpita dagli attacchi.</p>\n      <p><strong>Tocco Distruttivo:</strong> <strong>Dissolve istantaneamente stoffa e cuoio</strong>, <strong>legno e metallo in 6 round</strong>, ma <strong>non può dissolvere la pietra</strong>.</p>\n      <p><strong>Trasformazione del Corpo:</strong> Quando la fanghiglia verde tocca la carne, <strong>si attacca</strong> e inizia a <strong>trasformare la vittima in fanghiglia verde</strong>. Il processo è <strong>irreversibile dopo 1d4 round</strong> a meno che non venga bruciato o rimosso con <strong>cura malattia</strong>.</p>\n      <p><strong>Brucia e Rimuovi:</strong> La fanghiglia verde <strong>non può essere raschiata via</strong>. Fuoco e freddo la danneggiano, ma <strong>il fuoco ferisce anche la vittima</strong> (dividendo i danni tra entrambi).</p>\n      <p><strong>Resistenze e Debolezze:</strong></p>\n      <ul>\n      <li><strong>Immune a tutti gli attacchi eccetto fuoco o freddo.</strong></li>\n      <li><strong>Non può essere ferita da armi normali.</strong></li>\n      </ul>\n      <p><strong>Terreno:</strong> Caverna, Rovine.</p>",
+            "name": "Fanghiglia Verde*"
         },
         "Nightshade, Nightwalker (23HD)*": {
             "items": {
@@ -19552,10 +19699,12 @@
         "Greater Phoenix*": {
             "items": {
                 "8CTLmHRKJMUPmaQv": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "L'aura ardente della Fenice Maggiore rafforza la sua armatura naturale."
                 },
                 "miog1gThkRhRulOu": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "La Fenice Maggiore morde con un becco fiammeggiante."
                 },
                 "qyQsSTmEhfFbSbzO": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -19570,10 +19719,13 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
                 },
                 "8Qgfih0yFxZ4FB5D": {
-                    "name": "Deflagrazione"
+                    "name": "Deflagrazione",
+                    "gmNotes": "Innescata dalla morte o dalla distruzione.",
+                    "description": "Dopo la distruzione, la Fenice Maggiore esplode in un raggio di 6 m per [[/r 1d10*10 #Danni da esplosione]] (salvezza contro il soffio del drago per la metà), ignorando le protezioni dal fuoco; risorge 1 round dopo per fuggire."
                 },
                 "LjGi9juF2dHaaIvk": {
-                    "name": "Artiglio"
+                    "name": "Artiglio",
+                    "description": "La Fenice Maggiore colpisce con i suoi artigli infuocati."
                 },
                 "gDZyZ64GfY1kmoBB": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -19582,9 +19734,16 @@
                 "vInhI2VVljzPTlvS": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "WCP6dQ3o1YKMkrPe": {
+                    "description": "La Fenice Maggiore emette un'aura infuocata in un raggio di 6 m, infliggendo [[/r 6d6 danni da fuoco per round]] a tutti coloro che si trovano nel raggio d'azione, ignorando le protezioni dal fuoco.",
+                    "gmNotes": "La fiamma della fenice supera ogni resistenza al fuoco.",
+                    "name": "Aura Fiammante"
                 }
             },
-            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+            "monsterType": "Mostro Planare, Magico (Molto Raro)",
+            "name": "Fenice Maggiore*",
+            "biography": "<p>Nata dal piano elementale del Fuoco, la Fenice Maggiore assume la forma di un’immensa aquila rosso-arancione avvolta in fiamme ardenti. Raramente vista sul Piano Primario, si adatta a qualsiasi clima ma evita i rifugi sotterranei. Rimane tranquilla a meno che non venga sfidata.</p><p>Impervia a ogni fuoco, incantesimo di charme e blocco, devia anche i colpi di armi magiche inferiori a +3. In combattimento, usa artigli e becco, il suo bagliore radiante brucia i nemici entro un raggio di 6 m per [[/r 6d6 #Danni da fuoco per round]], non ostacolato da difese contro il fuoco grazie alla natura distinta della fiamma di fenice.</p><p>Quando sconfitta, la Fenice Maggiore esplode in un raggio di 6 m, scatenando [[/r 1d10*10 #Danno da esplosione]] (tiro salvezza contro soffio del drago per dimezzare, ignorando la protezione dal fuoco), poi risorge dalle sue ceneri 1 round dopo, completamente rinnovata, e prende il volo per fuggire. Solo un desiderio può eliminarla permanentemente; il suo ciclo di rinascita è un enigma irrisolto.</p><p>Ogni abbattimento produce una piuma. Una singola piuma (valore 25.000 mo) permette di creare una pozione di resistenza al fuoco di fenice, che fornisce immunità totale a fuoco normale e magico, dimezza i danni da soffio di fuoco (un quarto con un tiro salvezza) e conferisce resistenza standard al fuoco di fenice.<br><b>Terreno:</b> Qualsiasi; Piano del Fuoco</p>"
         },
         "Pony": {
             "items": {
