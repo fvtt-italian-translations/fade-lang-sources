@@ -18086,8 +18086,27 @@
                 "rhYVvgkVYERtqdAb": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "ft9azWn3PWj01Dcj": {
+                    "description": "Una volta per turno, il fantasma può tentare di possedere una creatura entro 9 m. La vittima deve effettuare un tiro salvezza contro incantesimi o cadere sotto il controllo del sudario finché non viene esorcizzata.",
+                    "name": "Giara Magica (Possessione)"
+                },
+                "DaIrwMz6uLLDxXGv": {
+                    "name": "Forma Fantasma"
+                },
+                "LYsuSLceu7laSoML": {
+                    "description": "<p>Il fantasma può fissare un bersaglio entro 18 m. La vittima deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o essere <strong>paralizzata per</strong> [[/r 2d4 #Round paralizzato dallo sguardo.]] <strong>round.</strong></p>"
+                },
+                "NmV5cQxqwcj7qviO": {
+                    "description": "<p>Il tocco del Sudario infligge [[/r 1d4*10 #Anni di invecchiamento]]<strong>anni di invecchiamento</strong>. Ogni 10 anni di invecchiamento riducono la Costituzione di <strong>1 punto in modo permanente.</strong></p><p>Un desiderio ripristinerà solo un punto perso in questo modo e una magia meno potente non può influenzare la perdita. Ogni invecchiamento può essere contrastato solo con una pozione di longevità o un desiderio. Se la Costituzione di una vittima scende a 0, la vittima muore in modo permanente e non può essere resuscitata.</p><p><em>Gli elfi possono ignorare gli effetti dei primi 200 anni di invecchiamento; i nani possono ignorare i primi 50 anni e gli halfling i primi 20 anni.</em></p>"
+                },
+                "ZZ4OxcywKvSTfpIM": {
+                    "description": "Una rete spettrale di 3 m di raggio si forma attorno al sudario in 3 round. Ogni creatura al suo interno deve effettuare un tiro salvezza contro incantesimi o essere trascinata nel Piano Eterico."
                 }
-            }
+            },
+            "biography": "<p>Il <strong>Sudario Caotico</strong> è un’ingannevole e anima persa maligna che prospera su confusione e paura. Porta una candela scura, una torcia o una lanterna che tremola in modo inquietante nelle ombre, apparendo in forme mutevoli e disturbanti.</p>\n      <p><strong>Natura Non-Morta:</strong> Il Sudario è immune a sonno, charme e incantesimi che influenzano la mente. Può essere ferito solo da <strong>armi magiche +2 o superiori</strong> ed è immune a tutti gli incantesimi eccetto quelli che colpiscono esseri malvagi.</p>\n      <p><strong>Rete Ectoplasmica:</strong> Una rete spettrale con raggio di 3 m si forma attorno al sudario in 3 round. Le creature al suo interno devono superare un <strong>tiro salvezza contro incantesimi</strong> o essere <strong>trascinate nel Piano Etereo</strong>.</p>\n      <p><strong>Sguardo Paralizzante:</strong> Il Sudario può fissare un bersaglio entro <strong>18 m</strong>. La vittima deve superare un <strong>tiro salvezza contro incantesimi</strong> o essere <strong>paralizzata per 2d4 round</strong>.</p>\n      <p><strong>Tocco Invecchiante:</strong> Un tocco riuscito invecchia la vittima di <strong>1d4 × 10 anni</strong> istantaneamente, riducendo <strong>1 punto di Costituzione per ogni 10 anni</strong> invecchiati. Un <strong>tiro salvezza contro incantesimi</strong> annulla questo effetto.</p>\n      <p><strong>Giara Magica (Possessione):</strong> Una volta per turno, il sudario può tentare di <strong>possedere una creatura entro 9 m</strong>. La vittima deve superare un <strong>tiro salvezza contro incantesimi</strong> o cadere sotto il controllo del sudario finché non viene esorcizzata.</p>\n      <p><strong>Fuga nel Piano Etereo:</strong> Il Sudario può spostarsi nel <strong>Piano Etereo 3 volte al giorno</strong> e rimanervi per <strong>1d8 giorni</strong>.</p>\n      <p><strong>Resistenza allo Scacciare:</strong> Se un chierico tenta di scacciarlo e ottiene un “D”, il Sudario può fare un <strong>tiro salvezza contro incantesimi</strong> per resistere alla distruzione.</p>\n      <p><strong>Terreno:</strong> Rovine, Terre Maledette, Case Infestate.</p>",
+            "monsterType": "Non-Morto Magico",
+            "name": "Anima Persa, Sudario* (Caotico)"
         },
         "Haunt, Ghost* (Lawful)": {
             "items": {
@@ -18110,8 +18129,27 @@
                 "sYCbjnyWfeBz9nrO": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "mq8FArksNiWh2PXw": {
+                    "description": "<p>Il tocco del sudario infligge [[/r 1d4*10 #Anni di invecchiamanto]] <strong>anni di invecchiamento</strong>. Ogni 10 anni di invecchiamento riducono la Costituzione di <strong>1 punto permanentemente</strong></p><p>Un desiderio ripristinerà solo un punto perso in questo modo, e la magia meno potente non può influenzare tale perdita. Tutto l'invecchiamento può essere contrastato solo con una pozione di longevità o un desiderio. Se la Costituzione di una vittima scende a 0, la vittima muore in modo permanente e non può essere resuscitata</p><p><em>Gli elfi possono ignorare gli effetti dei primi 200 anni di invecchiamento; i nani possono ignorare i primi 50 anni, e gli halfling, i primi 20 anni</em></p>"
+                },
+                "86WjV96SE07A3aaz": {
+                    "description": "Una volta per turno, il sudario può tentare di possedere una creatura entro 9 m. Se ha successo, il sudario controlla il suo corpo fino a quando non viene esorcizzato.",
+                    "name": "Giara Magica (Possessione)"
+                },
+                "JyFWeeSroU6kdCRm": {
+                    "description": "<p>Il Sudario può fissare lo sguardo su un bersaglio entro 18 m. La vittima deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o essere <strong>paralizzata</strong> per [[/r 2d4 #Round paralizzato dallo sguardo.]] round.</p>"
+                },
+                "Vp2V6LheroPDo5NT": {
+                    "description": "Una rete spettrale di 3 m di raggio si forma attorno al sudario in 3 round. Ogni creatura al suo interno deve effettuare un tiro salvezza contro incantesimi o essere trascinata nel Piano Etereo."
+                },
+                "XvX7rVpHjcySklM8": {
+                    "name": "Forma Fantasma"
                 }
-            }
+            },
+            "monsterType": "Non-Morto Magico",
+            "biography": "<p>Il <strong>Sudario Legale</strong> è un’anima persa inquieta che permane nel mondo mortale, cercando di guidare i vivi o risolvere questioni in sospeso. Spesso appare portando una <strong>lanterna o candela</strong> e condurrà gli avventurieri verso un tesoro o lontano dal pericolo se trattato con rispetto.</p>\n      <p><strong>Natura Non-Morta:</strong> Il Sudario è immune a sonno, charme e incantesimi che influenzano la mente. Può essere ferito solo da <strong>armi magiche +2 o superiori</strong> ed è immune a tutti gli incantesimi eccetto quelli che colpiscono esseri malvagi.</p>\n      <p><strong>Rete Ectoplasmatica:</strong> Una rete spettrale con raggio di 3 m si forma attorno al sudario in 3 round. Le creature al suo interno devono superare un <strong>tiro salvezza contro incantesimi</strong> o essere <strong>trascinate nel Piano Etereo</strong>.</p>\n      <p><strong>Sguardo Paralizzante:</strong> Il Sudario può fissare un bersaglio entro <strong>18 m</strong>. La vittima deve superare un <strong>tiro salvezza contro incantesimi</strong> o essere <strong>paralizzata per 2d4 round</strong>.</p>\n      <p><strong>Tocco Invecchiante:</strong> Un tocco riuscito invecchia la vittima di <strong>1d4 × 10 anni</strong> istantaneamente, riducendo <strong>1 punto di Costituzione per ogni 10 anni</strong> invecchiati.</p>\n      <p><strong>Giara Magica (Possessione):</strong> Una volta per turno, il sudario può tentare di <strong>possedere una creatura entro 9 m</strong>. Se riesce, il sudario controlla il loro corpo finché non viene esorcizzato.</p>\n      <p><strong>Fuga nel Piano Etereo:</strong> Il Sudario può spostarsi nel <strong>Piano Etereo 3 volte al giorno</strong> e rimanervi per <strong>1d8 giorni</strong>.</p>\n      <p><strong>Resistenza allo Scacciare:</strong> Se un chierico tenta di scacciarlo e ottiene un “D”, il Sudario può fare un <strong>tiro salvezza contro incantesimi</strong> per resistere alla distruzione.</p>\n      <p><strong>Terreno:</strong> Rovine, Cimiteri, Santuari Dimenticati.</p>",
+            "name": "Anima Persa, Sudario* (Legale)"
         },
         "Haunt, Ghost* (Neutral)": {
             "items": {
@@ -18134,8 +18172,27 @@
                 "kN04tJl3Q2PnvIjF": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico"
+                },
+                "BAcW36Su5AR7L20Y": {
+                    "description": "Una volta per turno, il sudario può tentare di possedere una creatura entro 9 m. La vittima deve effettuare un tiro salvezza contro incantesimi o cadere sotto il controllo del fantasma finché non viene esorcizzata.",
+                    "name": "Giara Magica (Possessione)"
+                },
+                "Q14HkdlsymqEvlW9": {
+                    "description": "<p>Il sudario può fissare un bersaglio entro 18 m. La vittima deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o essere <strong>paralizzata per</strong> [[/r 2d4 #Round paralizzato dallo sguardo.]] <strong>round.</strong></p>"
+                },
+                "imoGDwfY1aDd3QZY": {
+                    "name": "Forma Fantasma"
+                },
+                "s7M0XX3cvxrfgk3o": {
+                    "description": "Una rete spettrale di 3 m di raggio si forma attorno al sudario in 3 round. Ogni creatura al suo interno deve effettuare un tiro salvezza contro incantesimi o essere trascinata nel Piano Etereo."
+                },
+                "HXqoUDlSyfPsP99P": {
+                    "description": "<p>Il tocco del sudario infligge [[/r 1d4*10 #Anni di invecchiamento]] <strong>anni di invecchiamento</strong>. Ogni 10 anni di invecchiamento riducono la Costituzione di <strong>1 punto permanentemente</strong></p><p>Un desiderio ripristinerà solo un punto perso in questo modo, e la magia meno potente non può influenzare tale perdita. Tutto l'invecchiamento può essere contrastato solo con una pozione di longevità o un desiderio. Se la Costituzione di una vittima scende a 0, la vittima muore in modo permanente e non può essere resuscitata</p><p><em>Gli elfi possono ignorare gli effetti dei primi 200 anni di invecchiamento; i nani possono ignorare i primi 50 anni, e gli halfling, i primi 20 anni</em></p>"
                 }
-            }
+            },
+            "biography": "<p>Il <strong>Sudario Neutrale</strong> è un'anima persa, che permane a causa del tradimento, della perdita o di affari incompiuti. Appare spesso in forma addolorata, cercando aiuto dai vivi prima di ricorrere alla violenza.</p>\n      <p><strong>Natura dei non-morti:</strong> Il Sudario è immune al sonno, agli incantesimi di charme e a quelli che influenzano la mente. Può essere ferito solo da <strong>armi magiche +2 o superiori</strong> ed è immune a tutti gli incantesimi eccetto quelli che influenzano esseri malvagi.</p>\n      <p><strong>Rete Ectoplasmica:</strong> Una rete spettrale di raggio 3 m si forma attorno al sudario in 3 turni. Le creature al suo interno devono effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o essere <strong>trasportate nel Piano Etereo</strong>.</p>\n      <p><strong>Sguardo Paralizzante:</strong> Il Sudario può fissare un bersaglio entro <strong>18 m</strong>. La vittima deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o essere <strong>paralizzata per 2d4 turni</strong>.</p>\n      <p><strong>Tocco Invecchiante:</strong> Un tocco riuscito invecchia istantaneamente la vittima per <strong>1d4 × 10 anni</strong>, riducendo di <strong>1 punto di Costituzione per ogni 10 anni</strong> invecchiati. Un <strong>tiro salvezza contro gli incantesimi</strong> annulla questo effetto.</p>\n      <p><strong>Giara Magica (Possessione):</strong> Una volta per turno, il sudario può tentare di <strong>possedere una creatura entro 9 m</strong>. La vittima deve effettuare un <strong>tiro salvezza contro gli incantesimi</strong> o cadere sotto il controllo del sudario fino all'esorcismo.</p>\n      <p><strong>Fuga nel Piano Etereo:</strong> Il Sudario può spostarsi nel <strong>Piano Etereo 3× al giorno</strong> e vi rimanere per <strong>1d8 giorni</strong>.</p>\n      <p><strong>Resistenza al Turning:</strong> Se un chierico tenta di scacciare il sudario e ottiene un \"D\", il Sudario può effettuare un <strong>tiro salvezza contro gli incantesimi</strong> per resistere alla distruzione.</p>\n      <p><strong>Terreno:</strong> Rovine, Terre Maledette, Case Infestate.</p>",
+            "monsterType": "Non-Morto Magico",
+            "name": "Anima Persa, Sudario* (Neutrale)"
         },
         "Haunt, Poltergeist*": {
             "items": {
@@ -18158,8 +18215,12 @@
                 "txL1F2M0kZlkaDFn": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte"
+                },
+                "FDIxRzU1C01iOieo": {
+                    "name": "Forma Fantasma"
                 }
-            }
+            },
+            "monsterType": "Non-Morto Magico"
         },
         "Headsman (10HD)": {
             "items": {
@@ -25454,7 +25515,8 @@
                 "dntDTXhUgER5r3D6": {
                     "name": "Tocco"
                 }
-            }
+            },
+            "monsterType": "Non-Morto Magico"
         },
         "Lich, Cleric (22HD)*": {
             "items": {
