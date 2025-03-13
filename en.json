@@ -477,7 +477,9 @@
     },
     "Size": "Size",
     "Skill": {
+      "bonusHint": "A roll bonus for having the skill.",
       "long": "General Skill",
+      "penaltyHint": "A roll penalty for not having the skill.",
       "plural": "General Skills",
       "short": "Skill"
     },
@@ -820,6 +822,7 @@
       "zeroQuantity": "{itemName} has a quantity of zero and can't be used."
     },
     "operator": "Operator",
+    "penalty": "Penalty",
     "roll": "Roll",
     "rollMode": "Roll Mode",
     "rollWithCtrl": "<p>Roll {name} check.</p><p><i>Click to roll. Ctrl-click to roll without mod.</i></p>",
