@@ -157,8 +157,17 @@ function handleItemEmbed(
   if (entry.system.description) {
     outEntry.description = entry.system.description;
   }
+  if (entry.system.shortName) {
+    outEntry.shortName = entry.system.shortName;
+  }
   if (entry.system.gm?.notes) {
     outEntry.gmNotes = entry.system.gm.notes;
+  }
+  if (entry.system.unidentifiedName) {
+    outEntry.unidentifiedName = entry.system.unidentifiedName;
+  }
+  if (entry.system.unidentifiedDesc) {
+    outEntry.unidentifiedDesc = entry.system.unidentifiedDesc;
   }
   if (entry.type === "spell") {
     if (entry.system.range && !isCommonSpellRange(entry.system.range)) {
@@ -322,6 +331,9 @@ interface EntryItemBase extends BaseEntry {}
 interface SystemItemBase {
   description: string;
   gm: { notes: "" };
+  shortName?: string;
+  unidentifiedName?: string;
+  unidentifiedDesc?: string;
   fuelType: string;
   ammoType: string;
 }
