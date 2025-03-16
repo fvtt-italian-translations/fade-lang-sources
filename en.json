@@ -357,6 +357,10 @@
     },
     "GMNotes": "GM Notes",
     "Item": {
+      "charges": {
+        "long": "Charges",
+        "maxLong": "Max. Charges"
+      },
       "cost": {
         "abbr": "gp",
         "long": "Cost (gp)"
@@ -365,7 +369,10 @@
       "equipped": "Equipped",
       "isContainer": "Container",
       "isEquippable": "Equippable",
-      "isUsable": "Usable",
+      "isUsable": {
+        "hint": "Specify if item can be used, which will also enable usage tracking for the item.",
+        "name": "Usable"
+      },
       "light": {
         "angle": "Angle",
         "animationIntensity": "Animation Intensity",
