@@ -365,6 +365,7 @@
       "equipped": "Equipped",
       "isContainer": "Container",
       "isEquippable": "Equippable",
+      "isUsable": "Usable",
       "light": {
         "angle": "Angle",
         "animationIntensity": "Animation Intensity",
@@ -773,12 +774,17 @@
         "title": "Add special abilities?"
       },
       "spellcast": {
-        "content": "Do you want to cast the spell or view its description?",
+        "content": "Do you want to cast the spell or only view its description?",
         "noLabel": "View Description",
         "title": "Cast Spell?",
         "yesLabel": "Cast Spell"
       },
       "targeted": "Targeted",
+      "useItem": {
+        "content": "Do you want to use the item or only view its description?",
+        "title": "Use item?",
+        "yesLabel": "Use Item"
+      },
       "wrestling": {
         "attacker": "Attacker",
         "defender": "Defender",
