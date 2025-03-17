@@ -5423,7 +5423,7 @@
                 },
                 "iKOQSo049geLDoBD": {
                     "description": "Il corpo di pietra conferisce una CA 4.",
-                    "name": "Corpo di Pietra"
+                    "name": "Corpo di Pietrifica"
                 },
                 "6Dibj2P8XLxH4bZj": {
                     "name": "Pietrificazione o Paralisi",
@@ -5451,7 +5451,7 @@
                     "shortName": "Soffio"
                 }
             },
-            "name": "Statua Animata di Pietra",
+            "name": "Statua Animata di Pietrifica",
             "monsterType": "Costrutto, Magico (Comune)"
         },
         "Griffon": {
@@ -8256,7 +8256,7 @@
                 },
                 "WBDEAfThRcusCf3M": {
                     "description": "<p>Questo incantesimo degli occhi trasforma una creatura in pietra a meno che non superi un tiro salvezza.</p>",
-                    "name": "Carne in Pietra",
+                    "name": "Carne in Pietrifica",
                     "spellEffect": "Trasforma una creatura in pietra."
                 },
                 "fWFnIUKZdcYISbFZ": {
@@ -18509,7 +18509,7 @@
                 },
                 "ypNmEIkQUcCjqIoA": {
                     "description": "<p>Un corpo di pietra massiccio che da CA -2 a 16 DV (vedi tabella di progressione). Può essere danneggiato solo dalla magia o da armi magiche.</p>",
-                    "name": "Forma di Pietra"
+                    "name": "Forma di Pietrifica"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -18883,7 +18883,7 @@
                 },
                 "ZO03bh6pySsBRjoY": {
                     "description": "<p>Il corpo di pietra indurita fornisce CA 4. Immune alle armi normali.</p>",
-                    "name": "Pelle di Pietra"
+                    "name": "Pelle di Pietrifica"
                 },
                 "TC9nk62ws43Z1pZw": {
                     "description": "<p>Usa il suo corno di pietra per trafiggere i nemici, infliggendo <strong>4d4 danni</strong>.</p>",
@@ -19898,9 +19898,15 @@
                 },
                 "exftHbnxFfXBlJud": {
                     "name": "Sguardo Paralizzante"
+                },
+                "FOpg8iJn4NDtsYeu": {
+                    "description": "<p>In combattimento, un poltergeist lancia telecineticamente <strong>due oggetti per round</strong>. Le vittime colpite devono superare un <strong>tiro salvezza contro incantesimi</strong> o subire un istantaneo <strong>invecchiamento soprannaturale di 10 anni</strong>. Ogni <strong>10 anni invecchiati in questo modo</strong> comporta la <strong>perdita permanente di 1 punto di Costituzione</strong>.</p><p>Danno da Oggetti Lanciati:</p><ul><li>Minuscolo (ciottolo, utensile): [[/r 1 #Danno da oggetto lanciato]]</li><li>Piccolo (pugnale, libro): [[/r 1d6 #Danno da oggetto lanciato]]</li><li>Medio (sedia, elmo): [[/r 2d6 #Danno da oggetto lanciato]]</li><li>Grande (cassa, masso): [[/r 3d6 #Danno da oggetto lanciato]]</li></ul><p>Uno scontro prolungato con un poltergeist può essere devastante, poiché ogni tiro salvezza fallito prosciuga la vitalità e la durata della vita della vittima.</p>",
+                    "name": "Assalto Telecinetico (Invecchiamento)",
+                    "unidentifiedName": "Attacco Invecchiante"
                 }
             },
-            "monsterType": "Non-Morto Magico"
+            "monsterType": "Non-Morto Magico",
+            "biography": "<p>Il <strong>Poltergeist</strong> è un’anima persa invisibile che esiste per tormentare gli intrusi. A differenza di altre anime perse, non ha forma fisica e non può essere visto senza magia. La sua presenza è nota solo per il movimento inquietante degli oggetti e la formazione improvvisa di una rete ectoplasmatica.</p>\n      <p><strong>Natura Non-Morta:</strong> Il Poltergeist è immune a sonno, charme e incantesimi che influenzano la mente. Può essere ferito solo da <strong>armi magiche +2 o superiori</strong> ed è immune a tutti gli incantesimi eccetto quelli che colpiscono esseri malvagi.</p>\n      <p><strong>Invisibilità:</strong> Il Poltergeist è naturalmente invisibile e può essere rilevato solo con mezzi magici.</p>\n      <p><strong>Rete Ectoplasmatica:</strong> Una rete spettrale con raggio di 3 m si forma attorno al Poltergeist in 3 round. Le creature al suo interno devono superare un <strong>tiro salvezza contro incantesimi</strong> o essere <strong>trascinate nel Piano Etereo</strong>.</p>\n      <p><strong>Sguardo Paralizzante:</strong> Il Poltergeist può fissare un bersaglio entro <strong>18 m</strong>. La vittima deve superare un <strong>tiro salvezza contro incantesimi</strong> o essere <strong>paralizzata per 2d4 round</strong>.</p>\n      <p><strong>Assalto Telecinetico:</strong> Il Poltergeist può lanciare due oggetti per round contro gli avversari, infliggendo danni basati sulla dimensione dell’oggetto. È richiesto un tiro salvezza contro incantesimi per evitare l’effetto invecchiante.</p>\n      <p><strong>Attacco Invecchiante:</strong> Ogni colpo da un oggetto lanciato invecchia la vittima di <strong>10 anni</strong>. Un <strong>tiro salvezza contro incantesimi</strong> annulla questo effetto.</p>\n      <p><strong>Fuga nel Piano Etereo:</strong> Il Poltergeist può spostarsi nel <strong>Piano Etereo 3 volte al giorno</strong> e rimanervi per <strong>1d8 giorni</strong>.</p>\n      <p><strong>Resistenza allo Scacciare:</strong> Se un chierico tenta di scacciarlo e ottiene un “D”, il Poltergeist può fare un <strong>tiro salvezza contro incantesimi</strong> per resistere alla distruzione.</p>\n      <p><strong>Terreno:</strong> Rovine, Edifici Infestati.</p>"
         },
         "Headsman (10HD)": {
             "items": {
