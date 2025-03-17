@@ -385,6 +385,14 @@
                 "secondsRemainingHint": "Quanti secondi durerà questa luce.",
                 "turnsRemaining": "Turni Rimasti",
                 "turnsRemainingHint": "Quanti turni durerà questa luce."
+            },
+            "charges": {
+                "long": "Cariche",
+                "maxLong": "Cariche Max"
+            },
+            "isUsable": {
+                "hint": "Specificare se l'ioggetto può essere utilizzato, il che consentirà anche il monitoraggio del suo utilizzo.",
+                "name": "Usabile"
             }
         },
         "Weapon": {
@@ -600,7 +608,7 @@
             "selectWeapon": "Seleziona arma",
             "spellcast": {
                 "title": "Lanciare l'incantesimo?",
-                "content": "Vuoi lanciare l'incantesimo o vedere la sua descrizione?",
+                "content": "Vuoi lanciare l'incantesimo o vedere solo la sua descrizione?",
                 "yesLabel": "Lancia incantesimo",
                 "noLabel": "Vedi descrizione"
             },
@@ -654,6 +662,11 @@
             "specialAbilities": {
                 "title": "Aggiungere abilità speciali?",
                 "content": "Vuoi aggiungere automaticamente le abilità speciali correlate da {type} {name}?"
+            },
+            "useItem": {
+                "title": "Usare oggetto?",
+                "yesLabel": "Usa oggetto",
+                "content": "Vuoi utilizzare l'oggetto o visualizzarne solo la descrizione?"
             }
         },
         "time": {
@@ -795,7 +808,9 @@
         "Skill": {
             "plural": "Abilità Generali",
             "short": "Abilità",
-            "long": "Abilità Generali"
+            "long": "Abilità Generali",
+            "bonusHint": "Un bonus al tiro per chi ha l'abilità.",
+            "penaltyHint": "Una penalità al tiro per chi non ha l'abilità."
         },
         "notification": {
             "spellSelectToken": "Devi selezionare il tuo token per poter lanciare un incantesimo",
@@ -958,7 +973,11 @@
             "female": "Femmina",
             "male": "Maschio"
         },
-        "penalty": "Penalità"
+        "penalty": "Penalità",
+        "showResult": {
+            "hint": "Mostrare il risultato?",
+            "name": "Risultato"
+        }
     },
     "SETTINGS": {
         "Encumbrance": {
