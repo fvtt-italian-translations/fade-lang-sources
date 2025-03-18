@@ -19921,7 +19921,8 @@
                 "RRWviuvgImhNu7ws": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedName": "Corazza a Bande Orizzontali",
-                    "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>"
+                    "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "SM7D0A3g5xpQ9dsp": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -19954,11 +19955,13 @@
                     "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "YNH9aJKxyjjNejxP": {
-                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM)."
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM).",
+                    "name": "Fiala di Veleno"
                 },
                 "7JMyNuocfApmu35g": {
                     "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
-                    "name": "Lama del Boia"
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -19995,7 +19998,8 @@
                 "lOeEDXB44WW3wZJu": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
-                    "unidentifiedName": "Corazza a Bande Orizzontali"
+                    "unidentifiedName": "Corazza a Bande Orizzontali",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "v2kpVpV2J5vCaBq2": {
                     "description": "<p>Uno scudo è un grande pezzo solido di legno o metallo che viene tenuto in una mano o legato a un braccio. Viene usato per parare gli attacchi in mischia e fornire copertura dagli attacchi con proiettili. Uno scudo viene normalmente usato in combinazione con un'armatura e fornisce un bonus extra di -1 alla classe armatura del personaggio. Se usato senza altre armature, uno scudo fornisce un bonus di -1 alla classe armatura naturale del personaggio di 9, per una classe armatura totale di 8. Gli scudi di legno possono essere usati dai druidi, poiché sono fatti principalmente di materiali naturali.</p>",
@@ -20004,7 +20008,17 @@
                 },
                 "8Wev8TVJUCZSkMrX": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "ZESwPOn5zD9cmW3E": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
+                },
+                "5CE257wDbY3PO73Z": {
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM).",
+                    "name": "Fiala di Veleno"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20041,7 +20055,8 @@
                 "7jFKQbi2wtACoxvI": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedName": "Corazza a Bande Orizzontali",
-                    "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>"
+                    "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "Jtmm2xWsbDU7NCDm": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -20050,10 +20065,17 @@
                 },
                 "2I6SrVUBlk2j5AI9": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "9IDL9teVWGmPGie6": {
-                    "name": "Fiala di Veleno"
+                    "name": "Fiala di Veleno",
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM)."
+                },
+                "qWfqnWmw84WUN8wT": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20095,7 +20117,17 @@
                 },
                 "bDrdfkJdkDSJe2U3": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "1Kz9wThSQidK8UQs": {
+                    "name": "Fiala di Veleno",
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM)."
+                },
+                "iQCcgPEax5cknhI9": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20137,7 +20169,17 @@
                 },
                 "O76YLh0LxQrRXafC": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "P4ZzoX9CXmkxYmSz": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
+                },
+                "x3CC2fFv8zi5vtBO": {
+                    "name": "Fiala di Veleno",
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM)."
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20179,7 +20221,17 @@
                 },
                 "q7gVBoioYPlMitqW": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "xHhqRuqdDqgzUfFD": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "unidentifiedName": "Lama del Boia",
+                    "name": "Lama del Boia"
+                },
+                "7N9j4oe5giPG2nyu": {
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM).",
+                    "name": "Fiala di Veleno"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20226,7 +20278,17 @@
                 },
                 "F7qbZQ5ajdaGYbNV": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "EZtOIMAA9Aggifyv": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
+                },
+                "h0CabiY3uzv9rWDI": {
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM).",
+                    "name": "Fiala di Veleno"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20273,7 +20335,17 @@
                 },
                 "qcMFW8OipASmKnpD": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "4wByBXtKwGBXH9jq": {
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM).",
+                    "name": "Fiala di Veleno"
+                },
+                "LCMpol7kMqqI7YlL": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20320,7 +20392,17 @@
                 },
                 "4Ri1xMOZXsZTSoZK": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "KNn1cFbaF9PAbIr4": {
+                    "name": "Fiala di Veleno",
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM)."
+                },
+                "EbCx9L18H5SWI8fG": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20367,7 +20449,17 @@
                 },
                 "Kjs5kqvkJVJ3DDxI": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "1LzN6RE2wRGow9uQ": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
+                },
+                "n2791DuSGG9jvx0G": {
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM).",
+                    "name": "Fiala di Veleno"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20414,7 +20506,17 @@
                 },
                 "HA9mEbbql2u2bD3r": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "kNA6xZmH1GI0uIOo": {
+                    "name": "Fiala di Veleno",
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM)."
+                },
+                "ulbLuVOVr9VDvKJU": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20451,7 +20553,8 @@
                 "UAxfTeTLcqL3tS1c": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
-                    "unidentifiedName": "Corazza a Bande Orizzontali"
+                    "unidentifiedName": "Corazza a Bande Orizzontali",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "UkjuLw6r6UJhq8KX": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -20460,7 +20563,17 @@
                 },
                 "xRuNvvmuy5ujqUc9": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
+                },
+                "9HUBLWGeeyRbLe6W": {
+                    "description": "Un'arma da esecutore finemente affilata, progettata per uccisioni rapide e pulite.",
+                    "name": "Lama del Boia",
+                    "unidentifiedName": "Lama del Boia"
+                },
+                "GEqIzxQdTopyPIrT": {
+                    "description": "Un boia è addestrato all'uso dei veleni. Se un bersaglio viene colpito con un'arma avvelenata, deve effettuare un tiro salvezza contro veleno o subire effetti aggiuntivi (determinati dal DM).",
+                    "name": "Fiala di Veleno"
                 }
             },
             "monsterType": "Umano (Raro)",
@@ -20799,7 +20912,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 }
             },
             "monsterType": "Umano (Raro)"
@@ -21090,6 +21204,9 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "74SajMEj6vbCCm57": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21126,6 +21243,9 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica",
                     "shortName": "Bacchetta"
+                },
+                "A08vSbMUrFQXgoxR": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21162,6 +21282,9 @@
                 },
                 "sFCPsKdBybX2QNw1": {
                     "name": "Nascondersi"
+                },
+                "aBPlsshmeUN5AeFl": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21228,6 +21351,9 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte",
                     "shortName": "Morte"
+                },
+                "gpbA1pYe9wuaWtNO": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21264,6 +21390,9 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "ourA0vfPu3k9xsam": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21300,6 +21429,9 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica",
                     "shortName": "Bacchetta"
+                },
+                "Gt0VsJmzloZvPDNv": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21366,6 +21498,9 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "qR7iRIRTQKXjRQ9l": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21402,6 +21537,9 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi",
                     "shortName": "Pietrifica"
+                },
+                "yJ4ERD1Q36F7fu1c": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -21875,6 +22013,9 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "DgyBle5vmCiX7GKM": {
+                    "name": "Zoccoli"
                 }
             },
             "monsterType": "Animale Normale (Comune)"
@@ -22298,7 +22439,8 @@
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>"
                 },
                 "cRfkrRzLX4wbXBJl": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "25m1OnivKJJKH2RW": {
                     "description": "<p>Al raggiungimento del <strong data-start=\"73\" data-end=\"86\">9º Livello</strong>, un Mago può scegliere di <strong data-start=\"115\" data-end=\"132\">costruire una torre</strong>, stabilendosi come mago proprietario di terre. A differenza dei Guerrieri o dei Chierici, un Mago non ha bisogno di <strong data-start=\"238\" data-end=\"273\">permesso dal sovrano locale</strong> per costruire una roccaforte, poiché i sovrani generalmente evitano di antagonizzare i potenti maghi​.</p>\n<h4 data-start=\"405\" data-end=\"438\">Attirare Apprendisti</h4>\n<p data-start=\"439\" data-end=\"770\">Una volta che la torre è costruita, il Mago attirerà <strong data-start=\"490\" data-end=\"509\">1d6 apprendisti</strong>, tutti <strong data-start=\"515\" data-end=\"544\">Magi di livello 1–3</strong>. Questi apprendisti cercano formazione, e anche se leali, non si sacrificheranno per il loro maestro. Il <strong data-start=\"662\" data-end=\"723\">DM determina i loro nomi, background e personalità</strong>​.</p>\n<h4 data-start=\"772\" data-end=\"818\">Costruzione della Torre e del Dungeon</h4>\n<p data-start=\"819\" data-end=\"1303\">La torre di un mago può includere un <strong data-start=\"850\" data-end=\"880\">dungeon sotto o vicino ad essa</strong>. Alcuni maghi costruiscono dungeon come laboratori sicuri, mentre altri <strong data-start=\"951\" data-end=\"971\">lasciano un'apertura</strong>, attirando <strong data-start=\"984\" data-end=\"1006\">mostri erranti</strong> che si stabiliscono. Alcuni maghi incoraggiano questo, usando i mostri per ricerche, esperimenti magici o difesa personale​. Tuttavia, i dungeon infestati dai mostri causano spesso conflitti con <strong data-start=\"1238\" data-end=\"1259\">le comunità locali</strong> e attirano avventurieri in cerca di tesori.</p>\n<h4 data-start=\"1305\" data-end=\"1357\">Alternativa alla Torre: Diventare un Arcimago</h4>\n<p data-start=\"1358\" data-end=\"1754\">Invece di costruire una torre, un Mago di livello 9 può <strong data-start=\"1415\" data-end=\"1446\">cercare impiego come Arcimago</strong> in una roccaforte esistente. Un Arcimago serve un sovrano come <strong data-start=\"1504\" data-end=\"1534\">consigliere su questioni magiche</strong>, si occupa delle necessità magiche e viene ben compensato, tipicamente <strong data-start=\"1593\" data-end=\"1624\">almeno 3.000 mo al mese</strong>. Tuttavia, ciò richiede che il Mago presti un <strong data-start=\"1676\" data-end=\"1694\">giuramento di fedeltà</strong> al sovrano​.</p>",
@@ -22320,10 +22462,12 @@
                     "shortName": "Pietrifica"
                 },
                 "iniApM1cwhhcHoYh": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "lToDWI5FwfcgVj5O": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -22334,14 +22478,18 @@
             "items": {
                 "Zx8edg2LyqrXP22o": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "OJ8iGgVa9sn9VLTH": {
                     "name": "Fondare una roccaforte",
                     "description": "<p>Al raggiungimento del <strong data-start=\"73\" data-end=\"86\">9º Livello</strong>, un Mago può scegliere di <strong data-start=\"115\" data-end=\"132\">costruire una torre</strong>, stabilendosi come mago proprietario di terre. A differenza dei Guerrieri o dei Chierici, un Mago non ha bisogno di <strong data-start=\"238\" data-end=\"273\">permesso dal sovrano locale</strong> per costruire una roccaforte, poiché i sovrani generalmente evitano di antagonizzare i potenti maghi​.</p>\n<h4 data-start=\"405\" data-end=\"438\">Attirare Apprendisti</h4>\n<p data-start=\"439\" data-end=\"770\">Una volta che la torre è costruita, il Mago attirerà <strong data-start=\"490\" data-end=\"509\">1d6 apprendisti</strong>, tutti <strong data-start=\"515\" data-end=\"544\">Magi di livello 1–3</strong>. Questi apprendisti cercano formazione, e anche se leali, non si sacrificheranno per il loro maestro. Il <strong data-start=\"662\" data-end=\"723\">DM determina i loro nomi, background e personalità</strong>​.</p>\n<h4 data-start=\"772\" data-end=\"818\">Costruzione della Torre e del Dungeon</h4>\n<p data-start=\"819\" data-end=\"1303\">La torre di un mago può includere un <strong data-start=\"850\" data-end=\"880\">dungeon sotto o vicino ad essa</strong>. Alcuni maghi costruiscono dungeon come laboratori sicuri, mentre altri <strong data-start=\"951\" data-end=\"971\">lasciano un'apertura</strong>, attirando <strong data-start=\"984\" data-end=\"1006\">mostri erranti</strong> che si stabiliscono. Alcuni maghi incoraggiano questo, usando i mostri per ricerche, esperimenti magici o difesa personale​. Tuttavia, i dungeon infestati dai mostri causano spesso conflitti con <strong data-start=\"1238\" data-end=\"1259\">le comunità locali</strong> e attirano avventurieri in cerca di tesori.</p>\n<h4 data-start=\"1305\" data-end=\"1357\">Alternativa alla Torre: Diventare un Arcimago</h4>\n<p data-start=\"1358\" data-end=\"1754\">Invece di costruire una torre, un Mago di livello 9 può <strong data-start=\"1415\" data-end=\"1446\">cercare impiego come Arcimago</strong> in una roccaforte esistente. Un Arcimago serve un sovrano come <strong data-start=\"1504\" data-end=\"1534\">consigliere su questioni magiche</strong>, si occupa delle necessità magiche e viene ben compensato, tipicamente <strong data-start=\"1593\" data-end=\"1624\">almeno 3.000 mo al mese</strong>. Tuttavia, ciò richiede che il Mago presti un <strong data-start=\"1676\" data-end=\"1694\">giuramento di fedeltà</strong> al sovrano​.</p>"
                 },
                 "OPl5rpqP568LnYIO": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "zunX0yIpkT74wxiZ": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -22358,7 +22506,8 @@
                     "name": "Ricerca Incantesimi"
                 },
                 "hiwcxG3sRCzCeC0K": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "mJRnnp4fQWbieukl": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -22375,7 +22524,8 @@
                     "name": "Usare Oggetti Magici"
                 },
                 "BV8lSad2usJiEqjj": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "HSxhs4z5zqdBGLkI": {
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>",
@@ -22451,10 +22601,12 @@
                     "shortName": "Bacchetta"
                 },
                 "c3cxvEdn9icMk9e9": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "f5n60QraFWlHMXH7": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "nnfQ6oQACia1Il7D": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -22468,10 +22620,14 @@
                 },
                 "3CqevYotoOjc3yWW": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "A6nCduc5clSutac3": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "ApwwM1wI8B1m5wRj": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -22558,14 +22714,16 @@
                     "shortName": "Morte"
                 },
                 "WwB5OCNXK3rJWc6o": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "5ZJuMvjiN1IbGZmm": {
                     "name": "Fondare una roccaforte",
                     "description": "<p>Al raggiungimento del <strong data-start=\"73\" data-end=\"86\">9º Livello</strong>, un Mago può scegliere di <strong data-start=\"115\" data-end=\"132\">costruire una torre</strong>, stabilendosi come mago proprietario di terre. A differenza dei Guerrieri o dei Chierici, un Mago non ha bisogno di <strong data-start=\"238\" data-end=\"273\">permesso dal sovrano locale</strong> per costruire una roccaforte, poiché i sovrani generalmente evitano di antagonizzare i potenti maghi​.</p>\n<h4 data-start=\"405\" data-end=\"438\">Attirare Apprendisti</h4>\n<p data-start=\"439\" data-end=\"770\">Una volta che la torre è costruita, il Mago attirerà <strong data-start=\"490\" data-end=\"509\">1d6 apprendisti</strong>, tutti <strong data-start=\"515\" data-end=\"544\">Magi di livello 1–3</strong>. Questi apprendisti cercano formazione, e anche se leali, non si sacrificheranno per il loro maestro. Il <strong data-start=\"662\" data-end=\"723\">DM determina i loro nomi, background e personalità</strong>​.</p>\n<h4 data-start=\"772\" data-end=\"818\">Costruzione della Torre e del Dungeon</h4>\n<p data-start=\"819\" data-end=\"1303\">La torre di un mago può includere un <strong data-start=\"850\" data-end=\"880\">dungeon sotto o vicino ad essa</strong>. Alcuni maghi costruiscono dungeon come laboratori sicuri, mentre altri <strong data-start=\"951\" data-end=\"971\">lasciano un'apertura</strong>, attirando <strong data-start=\"984\" data-end=\"1006\">mostri erranti</strong> che si stabiliscono. Alcuni maghi incoraggiano questo, usando i mostri per ricerche, esperimenti magici o difesa personale​. Tuttavia, i dungeon infestati dai mostri causano spesso conflitti con <strong data-start=\"1238\" data-end=\"1259\">le comunità locali</strong> e attirano avventurieri in cerca di tesori.</p>\n<h4 data-start=\"1305\" data-end=\"1357\">Alternativa alla Torre: Diventare un Arcimago</h4>\n<p data-start=\"1358\" data-end=\"1754\">Invece di costruire una torre, un Mago di livello 9 può <strong data-start=\"1415\" data-end=\"1446\">cercare impiego come Arcimago</strong> in una roccaforte esistente. Un Arcimago serve un sovrano come <strong data-start=\"1504\" data-end=\"1534\">consigliere su questioni magiche</strong>, si occupa delle necessità magiche e viene ben compensato, tipicamente <strong data-start=\"1593\" data-end=\"1624\">almeno 3.000 mo al mese</strong>. Tuttavia, ciò richiede che il Mago presti un <strong data-start=\"1676\" data-end=\"1694\">giuramento di fedeltà</strong> al sovrano​.</p>"
                 },
                 "oL06WjTrL2nI1zdL": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "7BJLVc5fYc6pY7sg": {
                     "description": "<p>Gli Incantatori possono utilizzare vari oggetti magici, come bacchette, bastoni e pergamene, che sono tipicamente non disponibili per le classi non incantatrici. Questa abilità permette loro di attivare effetti magici immagazzinati in questi oggetti</p>",
@@ -22577,7 +22735,10 @@
                 },
                 "MBmIwxXqstiJx2Mm": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "SfuBpSp4QGlW60L1": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -22585,7 +22746,8 @@
                     "shortName": "Soffio"
                 },
                 "UBl7UJggcDZQKLTY": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "WUgVxmbSwSs4o6A2": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -22606,7 +22768,10 @@
                 },
                 "YUTAnPAQuBMmHeBO": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "jVL4EY1SE38Syez8": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -22618,7 +22783,8 @@
                     "description": "<p>Un Mago può tentare di creare un nuovo incantesimo, ma deve essere di un livello che può lanciare. Il processo richiede:</p>\n\n<ul data-start=\"402\" data-end=\"590\">\n  <li data-start=\"402\" data-end=\"434\">1.000 mo per livello dell'incantesimo</li>\n  <li data-start=\"435\" data-end=\"480\">Due settimane di ricerca per livello dell'incantesimo</li>\n  <li data-start=\"481\" data-end=\"544\">Componenti rari, spesso richiedenti un'avventura per essere ottenuti</li>\n  <li data-start=\"545\" data-end=\"590\">Un laboratorio o una biblioteca completamente forniti</li>\n</ul>\n\n<p data-start=\"592\" data-end=\"897\">La <strong data-start=\"596\" data-end=\"617\">probabilità di successo</strong> dipende dal <strong data-start=\"646\" data-end=\"678\">punteggio di Intelligenza e dal livello</strong> del Mago, con modificatori in base alla difficoltà dell'incantesimo. Se un tentativo di ricerca fallisce, il processo deve essere ricominciato, ma ogni fallimento conferisce un <strong data-start=\"851\" data-end=\"875\">bonus cumulativo del +5%</strong> ai tentativi futuri.</p>\n\n<p><em>Un mago di solito non possiede una biblioteca adeguata per ricerche avanzate fino al 18º Livello, o almeno al 9º Livello se ha raccolto tomi magici in grande quantità. Sebbene la ricerca sia tecnicamente possibile a qualsiasi livello, i personaggi di basso livello probabilmente faticheranno a soddisfare i requisiti.</em></p>"
                 },
                 "uUsJLBQb7kcTuUvK": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "r3ozua8hse2Hx880": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -22639,14 +22805,16 @@
                     "shortName": "Morte"
                 },
                 "Ho5kOY1vehuhLT1w": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "LwEHzckbs2mIBgOJ": {
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>",
                     "name": "Creare Oggetti Magici"
                 },
                 "OrDEulbgkLUp8aBS": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "PQqxy7in3N7lxQou": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -22741,7 +22909,10 @@
                 },
                 "hsYzjudIeRIxOvso": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili.",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>"
                 },
                 "jVJgdudA5MiotiKB": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -22768,17 +22939,20 @@
                     "shortName": "Pietrifica"
                 },
                 "badKZEMDlxG7Rj5K": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "9uKxY3ZQEVoXtEAk": {
                     "description": "<p>Al raggiungimento del <strong data-start=\"73\" data-end=\"86\">9º Livello</strong>, un Mago può scegliere di <strong data-start=\"115\" data-end=\"132\">costruire una torre</strong>, stabilendosi come mago proprietario di terre. A differenza dei Guerrieri o dei Chierici, un Mago non ha bisogno di <strong data-start=\"238\" data-end=\"273\">permesso dal sovrano locale</strong> per costruire una roccaforte, poiché i sovrani generalmente evitano di antagonizzare i potenti maghi​.</p>\n<h4 data-start=\"405\" data-end=\"438\">Attirare Apprendisti</h4>\n<p data-start=\"439\" data-end=\"770\">Una volta che la torre è costruita, il Mago attirerà <strong data-start=\"490\" data-end=\"509\">1d6 apprendisti</strong>, tutti <strong data-start=\"515\" data-end=\"544\">Magi di livello 1–3</strong>. Questi apprendisti cercano formazione, e anche se leali, non si sacrificheranno per il loro maestro. Il <strong data-start=\"662\" data-end=\"723\">DM determina i loro nomi, background e personalità</strong>​.</p>\n<h4 data-start=\"772\" data-end=\"818\">Costruzione della Torre e del Dungeon</h4>\n<p data-start=\"819\" data-end=\"1303\">La torre di un mago può includere un <strong data-start=\"850\" data-end=\"880\">dungeon sotto o vicino ad essa</strong>. Alcuni maghi costruiscono dungeon come laboratori sicuri, mentre altri <strong data-start=\"951\" data-end=\"971\">lasciano un'apertura</strong>, attirando <strong data-start=\"984\" data-end=\"1006\">mostri erranti</strong> che si stabiliscono. Alcuni maghi incoraggiano questo, usando i mostri per ricerche, esperimenti magici o difesa personale​. Tuttavia, i dungeon infestati dai mostri causano spesso conflitti con <strong data-start=\"1238\" data-end=\"1259\">le comunità locali</strong> e attirano avventurieri in cerca di tesori.</p>\n<h4 data-start=\"1305\" data-end=\"1357\">Alternativa alla Torre: Diventare un Arcimago</h4>\n<p data-start=\"1358\" data-end=\"1754\">Invece di costruire una torre, un Mago di livello 9 può <strong data-start=\"1415\" data-end=\"1446\">cercare impiego come Arcimago</strong> in una roccaforte esistente. Un Arcimago serve un sovrano come <strong data-start=\"1504\" data-end=\"1534\">consigliere su questioni magiche</strong>, si occupa delle necessità magiche e viene ben compensato, tipicamente <strong data-start=\"1593\" data-end=\"1624\">almeno 3.000 mo al mese</strong>. Tuttavia, ciò richiede che il Mago presti un <strong data-start=\"1676\" data-end=\"1694\">giuramento di fedeltà</strong> al sovrano​.</p>",
                     "name": "Fondare una roccaforte"
                 },
                 "AndVsgznqQcAjjY7": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "DwUMTvlLnoAYKRPK": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "J4CCkbSGY6BZ8BNO": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -22838,17 +23012,23 @@
                     "name": "Usare Oggetti Magici"
                 },
                 "UwYNZK0YaPqE8H1l": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "cD0UgQvUDqWaT6OH": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "fX2K8vCuewarvTkG": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "kSu6s1l0aVBTsrR5": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -22862,7 +23042,8 @@
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>"
                 },
                 "rmZznRAIejxinCqs": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "19LZhCjtt8AGMcNq": {
                     "name": "Pietrificazione o Paralisi",
@@ -22876,7 +23057,10 @@
                 },
                 "9179moinOb3mUKys": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "ANS85haGb2Wk3Ujt": {
                     "name": "Veleno o Raggio della Morte",
@@ -22888,7 +23072,8 @@
                     "name": "Fondare una roccaforte"
                 },
                 "arIgoqY6CLpQyEvS": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "dB5lXpMdxVSbAuK9": {
                     "description": "<p>Un Mago può tentare di creare un nuovo incantesimo, ma deve essere di un livello che può lanciare. Il processo richiede:</p>\n\n<ul data-start=\"402\" data-end=\"590\">\n  <li data-start=\"402\" data-end=\"434\">1.000 mo per livello dell'incantesimo</li>\n  <li data-start=\"435\" data-end=\"480\">Due settimane di ricerca per livello dell'incantesimo</li>\n  <li data-start=\"481\" data-end=\"544\">Componenti rari, spesso richiedenti un'avventura per essere ottenuti</li>\n  <li data-start=\"545\" data-end=\"590\">Un laboratorio o una biblioteca completamente forniti</li>\n</ul>\n\n<p data-start=\"592\" data-end=\"897\">La <strong data-start=\"596\" data-end=\"617\">probabilità di successo</strong> dipende dal <strong data-start=\"646\" data-end=\"678\">punteggio di Intelligenza e dal livello</strong> del Mago, con modificatori in base alla difficoltà dell'incantesimo. Se un tentativo di ricerca fallisce, il processo deve essere ricominciato, ma ogni fallimento conferisce un <strong data-start=\"851\" data-end=\"875\">bonus cumulativo del +5%</strong> ai tentativi futuri.</p>\n\n<p><em>Un mago di solito non possiede una biblioteca adeguata per ricerche avanzate fino al 18º Livello, o almeno al 9º Livello se ha raccolto tomi magici in grande quantità. Sebbene la ricerca sia tecnicamente possibile a qualsiasi livello, i personaggi di basso livello probabilmente faticheranno a soddisfare i requisiti.</em></p>",
@@ -22900,7 +23085,8 @@
                     "shortName": "Incantesimo"
                 },
                 "p2KKiNVxTUSLSg7s": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "EzGFe2UnFm7PO27D": {
                     "description": "<p>Gli Incantatori possono utilizzare vari oggetti magici, come bacchette, bastoni e pergamene, che sono tipicamente non disponibili per le classi non incantatrici. Questa abilità permette loro di attivare effetti magici immagazzinati in questi oggetti</p>",
@@ -22941,7 +23127,8 @@
                     "description": "<p>Gli Incantatori possono utilizzare vari oggetti magici, come bacchette, bastoni e pergamene, che sono tipicamente non disponibili per le classi non incantatrici. Questa abilità permette loro di attivare effetti magici immagazzinati in questi oggetti</p>"
                 },
                 "CweeTN8Ri8hFUJ2u": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "ueiTNxxQMC4z5Xxb": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -22953,14 +23140,19 @@
                     "description": "<p>Al raggiungimento del <strong data-start=\"73\" data-end=\"86\">9º Livello</strong>, un Mago può scegliere di <strong data-start=\"115\" data-end=\"132\">costruire una torre</strong>, stabilendosi come mago proprietario di terre. A differenza dei Guerrieri o dei Chierici, un Mago non ha bisogno di <strong data-start=\"238\" data-end=\"273\">permesso dal sovrano locale</strong> per costruire una roccaforte, poiché i sovrani generalmente evitano di antagonizzare i potenti maghi​.</p>\n<h4 data-start=\"405\" data-end=\"438\">Attirare Apprendisti</h4>\n<p data-start=\"439\" data-end=\"770\">Una volta che la torre è costruita, il Mago attirerà <strong data-start=\"490\" data-end=\"509\">1d6 apprendisti</strong>, tutti <strong data-start=\"515\" data-end=\"544\">Magi di livello 1–3</strong>. Questi apprendisti cercano formazione, e anche se leali, non si sacrificheranno per il loro maestro. Il <strong data-start=\"662\" data-end=\"723\">DM determina i loro nomi, background e personalità</strong>​.</p>\n<h4 data-start=\"772\" data-end=\"818\">Costruzione della Torre e del Dungeon</h4>\n<p data-start=\"819\" data-end=\"1303\">La torre di un mago può includere un <strong data-start=\"850\" data-end=\"880\">dungeon sotto o vicino ad essa</strong>. Alcuni maghi costruiscono dungeon come laboratori sicuri, mentre altri <strong data-start=\"951\" data-end=\"971\">lasciano un'apertura</strong>, attirando <strong data-start=\"984\" data-end=\"1006\">mostri erranti</strong> che si stabiliscono. Alcuni maghi incoraggiano questo, usando i mostri per ricerche, esperimenti magici o difesa personale​. Tuttavia, i dungeon infestati dai mostri causano spesso conflitti con <strong data-start=\"1238\" data-end=\"1259\">le comunità locali</strong> e attirano avventurieri in cerca di tesori.</p>\n<h4 data-start=\"1305\" data-end=\"1357\">Alternativa alla Torre: Diventare un Arcimago</h4>\n<p data-start=\"1358\" data-end=\"1754\">Invece di costruire una torre, un Mago di livello 9 può <strong data-start=\"1415\" data-end=\"1446\">cercare impiego come Arcimago</strong> in una roccaforte esistente. Un Arcimago serve un sovrano come <strong data-start=\"1504\" data-end=\"1534\">consigliere su questioni magiche</strong>, si occupa delle necessità magiche e viene ben compensato, tipicamente <strong data-start=\"1593\" data-end=\"1624\">almeno 3.000 mo al mese</strong>. Tuttavia, ciò richiede che il Mago presti un <strong data-start=\"1676\" data-end=\"1694\">giuramento di fedeltà</strong> al sovrano​.</p>"
                 },
                 "4J9x51nS8znHSeoo": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "7YAFPYqdTavOJrdy": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "9RMsYsrhMD9c8Mh5": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "5qnkV2t4s2hl4Imv": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -23024,7 +23216,8 @@
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>"
                 },
                 "xfoMNsoIVJU1ZP3g": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "yyELVjtfYYX7bpyu": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -23037,7 +23230,8 @@
                     "shortName": "Morte"
                 },
                 "N8YbTCtvSvmedQVT": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "iG1w0q5JI3TDNbfx": {
                     "name": "Bacchetta Magica",
@@ -23058,11 +23252,15 @@
                     "shortName": "Incantesimo"
                 },
                 "CO2UDxA5kpUNHXZO": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "IWFa1l16yTmVzE8s": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "aV9hfBOl3i6u1e5f": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -23328,14 +23526,16 @@
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>"
                 },
                 "csB2UOJcJBwpF62a": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "fH9NOSqVcXiEURDu": {
                     "description": "<p>Gli Incantatori possono utilizzare vari oggetti magici, come bacchette, bastoni e pergamene, che sono tipicamente non disponibili per le classi non incantatrici. Questa abilità permette loro di attivare effetti magici immagazzinati in questi oggetti</p>",
                     "name": "Usare Oggetti Magici"
                 },
                 "oXkejbVck1AL8jeN": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "xkimbY4VkdkOc3IS": {
                     "name": "Veleno o Raggio della Morte",
@@ -23344,7 +23544,10 @@
                 },
                 "154Cy6swueKxiFyr": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "5yai0sLDXZEyZ9aS": {
                     "name": "Soffio del Drago",
@@ -23352,7 +23555,8 @@
                     "shortName": "Soffio"
                 },
                 "AqadNcvEtyjmdbOm": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "9MrVzeAEVSsDA1wq": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -23420,10 +23624,12 @@
                     "shortName": "Incantesimo"
                 },
                 "uQIYsRweMxYkJwFs": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "n3q0Nh2OdgAiYacH": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "pMLhCwG00rA4lUY3": {
                     "name": "Pietrificazione o Paralisi",
@@ -23445,7 +23651,8 @@
                     "shortName": "Soffio"
                 },
                 "OdCJXmaqMppoPoBT": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "P9478MbQlc3dD13v": {
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>",
@@ -23453,7 +23660,10 @@
                 },
                 "PQlorTpxho1uJdtf": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "WSdw4y3bqTORinti": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -23994,6 +24204,9 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "vyaPBXpLbIPkpyrZ": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -24060,6 +24273,20 @@
                     "name": "Soffio del Drago",
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "shortName": "Soffio"
+                },
+                "1U0aUBSIToA6049F": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "name": "Arma Lunga",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi."
+                },
+                "JWEAyUBJCbGkZU66": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
+                },
+                "VEwD3CbH2ePrEc5R": {
+                    "name": "Chitina",
+                    "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale."
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -24368,6 +24595,20 @@
                     "name": "Soffio del Drago",
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "shortName": "Soffio"
+                },
+                "1JdGmt0UCzg6InbR": {
+                    "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
+                    "name": "Chitina"
+                },
+                "GtqVkgUsKwEuqe3N": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "Z6gOTv87quprnvs3": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -24460,7 +24701,8 @@
                     "shortName": "Pietrifica"
                 },
                 "nTs5QjhgxDNIpoCa": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "5HANTvx2ORkNyWk0": {
                     "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>",
@@ -24480,7 +24722,8 @@
                     "shortName": "Morte"
                 },
                 "1OKxK0TVDfJX3y9B": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "6oeO9GqCY6x5SpM7": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -24495,6 +24738,14 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica",
                     "shortName": "Bacchetta"
+                },
+                "RRohpG5y6DfuR8UP": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "YLdImMKtU2ukhVUC": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -24504,7 +24755,8 @@
         "Lich, Cleric (26HD)*": {
             "items": {
                 "1m6y4CK31lLDpLM1": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "20ATgpaenBrCSJkZ": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -24517,7 +24769,8 @@
                     "shortName": "Morte"
                 },
                 "BMVVcRGDheJdmeA8": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "odarv85vdfFbjGJF": {
                     "name": "Fondare una Roccaforte",
@@ -24544,6 +24797,14 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica",
                     "shortName": "Bacchetta"
+                },
+                "cch3KfF3XFYG9DRQ": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "RPIAsHoOto7HnCbF": {
+                    "name": "Servi Non-Morti",
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare)."
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -24585,14 +24846,24 @@
                     "name": "Scacciare i Non-Morti"
                 },
                 "xIY2q9rGMmMkK5nA": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "Go1RUL8ygvBfjhYv": {
                     "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>",
                     "name": "Fondare una Roccaforte"
                 },
                 "HGh930dy2jbUXgIc": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
+                },
+                "yydNjYrXyT6C5xfd": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "S0VJthpMHkaZbVIE": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -24660,7 +24931,8 @@
                     "shortName": "Bacchetta"
                 },
                 "JXHvO6bens3sYJFD": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "zXxhgvfILhoZdeq7": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -24672,10 +24944,19 @@
                     "name": "Incantesimi Divini"
                 },
                 "QqLrP9wj4kc2xacr": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "RNLmuGb6MEjr1H8P": {
                     "name": "Scacciare i Non-Morti"
+                },
+                "R0LGyAvQOuKBbJ0T": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
+                },
+                "HLQicxbNLKDAU7PV": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -24734,7 +25015,8 @@
                     "shortName": "Morte"
                 },
                 "YQep5dqt3hRH0VqD": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "ekztNjqlHiQGQCPe": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -24747,7 +25029,8 @@
                     "shortName": "Bacchetta"
                 },
                 "zRDAF4gb2WidlwoH": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "nBUk0h1LADPeaR9o": {
                     "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>",
@@ -24765,6 +25048,14 @@
                 },
                 "byI2qJ23yp5LY3mA": {
                     "name": "Scacciare i Non-Morti"
+                },
+                "7dB3FJqe5qpUVh85": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
+                },
+                "A7R92v2UzAaNOY98": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -24784,7 +25075,8 @@
                     "shortName": "Bacchetta"
                 },
                 "hxBmFGacf2ihuSt3": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "rd6atxuplmuueuvp": {
                     "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>",
@@ -24800,7 +25092,8 @@
                     "shortName": "Soffio"
                 },
                 "BCPBDfeL3plRVKVY": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "KEAylSE0oNUJucJS": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -24814,6 +25107,14 @@
                 },
                 "OogtgoTX8rOTwoCD": {
                     "name": "Scacciare i Non-Morti"
+                },
+                "LSlU63r1VV6hyvhv": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "kbb0kX6fUoDCzabJ": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -24828,7 +25129,8 @@
                     "shortName": "Morte"
                 },
                 "OltVsmlQKC0pjaCj": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "i3jvSnldK4dO8tpm": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -24840,7 +25142,8 @@
                     "name": "Fondare una Roccaforte"
                 },
                 "aUmZqBDateMd2NS6": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "Dj56Az49C7wM8Kek": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -24863,6 +25166,14 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "j9L9Ttwhbm9NViFw": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
+                },
+                "WYnK55oMOnV7RH95": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -24904,6 +25215,9 @@
                 },
                 "nhaAX6iUXr6AgFA1": {
                     "name": "Restringere"
+                },
+                "XB9JFZk1BQTil8QO": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -25022,7 +25336,8 @@
                 "YhbFZHXeQwWakJ5q": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
-                    "unidentifiedName": "Corazza a Bande Orizzontali"
+                    "unidentifiedName": "Corazza a Bande Orizzontali",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "ezAGJYct5oebp0S7": {
                     "description": "<p>Il ladro può fondersi con le ombre e diventare quasi invisibile, muovendosi silenziosamente finché rimane fermo o si muove con cautela.</p>",
@@ -25044,7 +25359,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "kEn8gAeguUi4m6HQ": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -25110,12 +25426,14 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "YhbFZHXeQwWakJ5q": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedName": "Corazza a Bande Orizzontali",
-                    "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>"
+                    "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "ezAGJYct5oebp0S7": {
                     "description": "<p>Il ladro può fondersi con le ombre e diventare quasi invisibile, muovendosi silenziosamente finché rimane fermo o si muove con cautela.</p>",
@@ -25207,7 +25525,8 @@
                 },
                 "2wIGNrh034dQKVa8": {
                     "name": "Dissolvi Magie",
-                    "spellEffect": "Distrugge incantesimi in un cubo di 6 metri di lato"
+                    "spellEffect": "Distrugge incantesimi in un cubo di 6 metri di lato",
+                    "description": "<p>Questo incantesimo rimuove gli effetti degli incantesimi esistenti in un'area di 6 x 6 x 6 m. Gli effetti degli incantesimi lanciati da un incantatore di livello uguale o inferiore vengono automaticamente dissolti.</p>\n                      <p><strong>Incantatori di livello superiore:</strong> gli effetti creati da un incantatore di livello superiore possono resistere alla dissolvenza. La probabilità di fallimento è del 5% per differenza di livello. Ad esempio, un mago di 7° livello che dissolve un incantesimo lanciato da un chierico di 9° livello ha una probabilità di fallimento del 10%.</p>\n                      <p><strong>Oggetti magici:</strong> questo incantesimo non influenza gli oggetti magici stessi, ma può interrompere gli effetti attivi che producono. Ad esempio, dissolvere la magia può liberare una persona dal controllo di un anello di controllo umano.</p>"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)"
@@ -25267,7 +25586,8 @@
                     "shortName": "Morte"
                 },
                 "2i8ooMARddloPYU9": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "Ws6zpCeIYilhAqq7": {
                     "name": "Soffio del Drago",
@@ -25282,7 +25602,8 @@
                     "name": "Scacciare i Non-Morti"
                 },
                 "9Rvyrr6dHoW6Ymxm": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "AOyrMTEOm6PxCrxD": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -25297,6 +25618,14 @@
                 "YI6AGnPGgZfGU6cF": {
                     "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>",
                     "name": "Fondare una Roccaforte"
+                },
+                "I44LL7LlWfM1iHIe": {
+                    "name": "Evocare Non-Morti",
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto"
+                },
+                "4ahbV4KD2kEII4Ay": {
+                    "name": "Servi Non-Morti",
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare)."
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -25306,7 +25635,8 @@
         "Lich, Cleric (34HD)*": {
             "items": {
                 "ic5Ann5RL6wWLJgl": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "mZSKA9qUw7KUCv24": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -25323,7 +25653,8 @@
                     "shortName": "Bacchetta"
                 },
                 "h9WK7FvL1FUcXI4a": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "3KE3xto6H1ACUJoF": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -25346,6 +25677,14 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi",
                     "shortName": "Pietrifica"
+                },
+                "AFxSeQAbHbIIYKCK": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
+                },
+                "IE5XF5FeaNXp9QXJ": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -25360,7 +25699,8 @@
                     "shortName": "Morte"
                 },
                 "rB9YkM8tTMlohl6O": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "tJpiakh2hAuoxnar": {
                     "name": "Scacciare i Non-Morti"
@@ -25394,7 +25734,16 @@
                     "shortName": "Soffio"
                 },
                 "pVyZKXIbLE4Bw1AX": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
+                },
+                "cYzChU7VC6ztqfAs": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
+                },
+                "khtzEpnA4Ydc4xFc": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -25411,7 +25760,8 @@
                 "YhbFZHXeQwWakJ5q": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
-                    "unidentifiedName": "Corazza a Bande Orizzontali"
+                    "unidentifiedName": "Corazza a Bande Orizzontali",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "ezAGJYct5oebp0S7": {
                     "description": "<p>Il ladro può fondersi con le ombre e diventare quasi invisibile, muovendosi silenziosamente finché rimane fermo o si muove con cautela.</p>",
@@ -25433,7 +25783,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "0rJHuurjOiC9x8vI": {
                     "description": "<p>Il personaggio può tentare di borseggiare o prendere piccoli oggetti dalle persone senza essere notato.</p>",
@@ -25513,7 +25864,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "YhbFZHXeQwWakJ5q": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
@@ -25592,7 +25944,8 @@
                 "YhbFZHXeQwWakJ5q": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
-                    "unidentifiedName": "Corazza a Bande Orizzontali"
+                    "unidentifiedName": "Corazza a Bande Orizzontali",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "ezAGJYct5oebp0S7": {
                     "description": "<p>Il ladro può fondersi con le ombre e diventare quasi invisibile, muovendosi silenziosamente finché rimane fermo o si muove con cautela.</p>",
@@ -25612,7 +25965,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "MbaupWf96psRhOiB": {
                     "name": "Sorpresa"
@@ -25909,7 +26263,8 @@
                     "shortName": "Morte"
                 },
                 "nlojMeno35JcAxuM": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "olm5nFXlHC9KY4PG": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -25917,7 +26272,8 @@
                     "shortName": "Bacchetta"
                 },
                 "pbyaHv9WxGgNgXsF": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "ufgAbtvhMadelkFH": {
                     "name": "Fondare una roccaforte",
@@ -25930,7 +26286,10 @@
                 },
                 "vpQKRk8whHVBPTxj": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "2pLhz2rl6SlU8tiY": {
                     "description": "<p>Un Mago può tentare di creare un nuovo incantesimo, ma deve essere di un livello che può lanciare. Il processo richiede:</p>\n\n<ul data-start=\"402\" data-end=\"590\">\n  <li data-start=\"402\" data-end=\"434\">1.000 mo per livello dell'incantesimo</li>\n  <li data-start=\"435\" data-end=\"480\">Due settimane di ricerca per livello dell'incantesimo</li>\n  <li data-start=\"481\" data-end=\"544\">Componenti rari, spesso richiedenti un'avventura per essere ottenuti</li>\n  <li data-start=\"545\" data-end=\"590\">Un laboratorio o una biblioteca completamente forniti</li>\n</ul>\n\n<p data-start=\"592\" data-end=\"897\">La <strong data-start=\"596\" data-end=\"617\">probabilità di successo</strong> dipende dal <strong data-start=\"646\" data-end=\"678\">punteggio di Intelligenza e dal livello</strong> del Mago, con modificatori in base alla difficoltà dell'incantesimo. Se un tentativo di ricerca fallisce, il processo deve essere ricominciato, ma ogni fallimento conferisce un <strong data-start=\"851\" data-end=\"875\">bonus cumulativo del +5%</strong> ai tentativi futuri.</p>\n\n<p><em>Un mago di solito non possiede una biblioteca adeguata per ricerche avanzate fino al 18º Livello, o almeno al 9º Livello se ha raccolto tomi magici in grande quantità. Sebbene la ricerca sia tecnicamente possibile a qualsiasi livello, i personaggi di basso livello probabilmente faticheranno a soddisfare i requisiti.</em></p>",
@@ -25946,7 +26305,8 @@
                     "shortName": "Soffio"
                 },
                 "PKFQlRj0DnumkG6B": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "Wu8aAojlwigPtx2Z": {
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>",
@@ -26084,6 +26444,9 @@
                 },
                 "k7xaH1hTbV0VTVnL": {
                     "name": "Morso"
+                },
+                "Up5mjWkJJU1wkuqu": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -26123,6 +26486,9 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "7iCd9aoWPp4rjM93": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -26143,10 +26509,12 @@
                     "shortName": "Pietrifica"
                 },
                 "PISLHF2zqgzanXR2": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "UfCGYlua7qrz33MW": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "GpO8MggajqLprEDE": {
                     "name": "Scacciare i Non-Morti"
@@ -26170,6 +26538,14 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "rHpjRjGBn3v2R2QR": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "o3br5ZN3y1JAxwaz": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -26197,7 +26573,8 @@
                     "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>"
                 },
                 "CB6EgNsM3D2PAwVv": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "RdLYBdjQTgus3bbY": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -26213,12 +26590,21 @@
                     "shortName": "Bacchetta"
                 },
                 "cq8SIpY4JiZKZoa8": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "i9fX7geHG7umXFuX": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte",
                     "shortName": "Morte"
+                },
+                "lPFjb6pPLhVlPAbW": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "S34vmfLDdtYm1Doo": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -26260,6 +26646,9 @@
                 },
                 "T9JwWRhck2X1agR1": {
                     "name": "Nascondersi"
+                },
+                "4wSe77GrRUOBBian": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -26430,10 +26819,12 @@
                     "shortName": "Bacchetta"
                 },
                 "5xlutcww1g8XVZIK": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "EOXhCumhOuUzQ3pB": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "IszS536VMcKBilgo": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -26465,6 +26856,14 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "FvCsWaysxLsRg5sx": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "UY6i4PcMPsb5nBky": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -26483,7 +26882,8 @@
                     "name": "Incantesimi Divini"
                 },
                 "ALpsxxO57MMqkM6N": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "AhOVELUhY5Tt24Pp": {
                     "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>",
@@ -26503,7 +26903,8 @@
                     "name": "Scacciare i Non-Morti"
                 },
                 "onwaEJsBvN2rX10S": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "wkXgQnWh9uIfJfsL": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -26514,6 +26915,14 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica",
                     "shortName": "Bacchetta"
+                },
+                "CkMWujORxRtSZFYI": {
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "5DxP2LJ6HGfhm2F2": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
@@ -26699,7 +27108,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "EWcpSOpOBTVHpsi2": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -26733,7 +27143,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "YhbFZHXeQwWakJ5q": {
                     "name": "Corazza a Bande Orizzontali",
@@ -26851,7 +27262,8 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "YhbFZHXeQwWakJ5q": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
@@ -26933,12 +27345,14 @@
                 },
                 "WZZkXHFz27S39WOP": {
                     "name": "Garrota",
-                    "unidentifiedName": "Garrota"
+                    "unidentifiedName": "Garrota",
+                    "description": "Un filo da strangolamento usato per uccisioni silenziose. Un attacco riuscito può impedire al bersaglio di parlare o lanciare incantesimi."
                 },
                 "YhbFZHXeQwWakJ5q": {
                     "description": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
                     "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da corazza di maglia con strisce orizzontali di metallo agganciate alla maglia. La corazza a bande fornisce al personaggio una classe armatura 4. Non ha la stessa protezione dell'armatura a piastre, ma è più economica e leggera.</p>",
-                    "unidentifiedName": "Corazza a Bande Orizzontali"
+                    "unidentifiedName": "Corazza a Bande Orizzontali",
+                    "name": "Corazza a Bande + Abilità"
                 },
                 "ezAGJYct5oebp0S7": {
                     "description": "<p>Il ladro può fondersi con le ombre e diventare quasi invisibile, muovendosi silenziosamente finché rimane fermo o si muove con cautela.</p>",
@@ -27137,7 +27551,18 @@
                     "shortName": "Pietrifica"
                 },
                 "46XX9eVXLEZj2glo": {
-                    "description": "L'Uomo Scorpione impugna un'enorme arma lunga, che infligge [[/r 3d6 #Danni da arma lunga]]."
+                    "description": "L'Uomo Scorpione impugna un'enorme arma lunga, che infligge [[/r 3d6 #Danni da arma lunga]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "9nZ0k0O12QReT99d": {
+                    "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
+                    "name": "Chitina"
+                },
+                "WKHVm2hgnal5JMwj": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -27148,7 +27573,10 @@
             "items": {
                 "QYdKFf79DlnmQDyM": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili.",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>"
                 },
                 "RZCXhZ3c0KKbu7kA": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -27160,7 +27588,8 @@
                     "description": "<p>Al raggiungimento del <strong data-start=\"73\" data-end=\"86\">9º Livello</strong>, un Mago può scegliere di <strong data-start=\"115\" data-end=\"132\">costruire una torre</strong>, stabilendosi come mago proprietario di terre. A differenza dei Guerrieri o dei Chierici, un Mago non ha bisogno di <strong data-start=\"238\" data-end=\"273\">permesso dal sovrano locale</strong> per costruire una roccaforte, poiché i sovrani generalmente evitano di antagonizzare i potenti maghi​.</p>\n<h4 data-start=\"405\" data-end=\"438\">Attirare Apprendisti</h4>\n<p data-start=\"439\" data-end=\"770\">Una volta che la torre è costruita, il Mago attirerà <strong data-start=\"490\" data-end=\"509\">1d6 apprendisti</strong>, tutti <strong data-start=\"515\" data-end=\"544\">Magi di livello 1–3</strong>. Questi apprendisti cercano formazione, e anche se leali, non si sacrificheranno per il loro maestro. Il <strong data-start=\"662\" data-end=\"723\">DM determina i loro nomi, background e personalità</strong>​.</p>\n<h4 data-start=\"772\" data-end=\"818\">Costruzione della Torre e del Dungeon</h4>\n<p data-start=\"819\" data-end=\"1303\">La torre di un mago può includere un <strong data-start=\"850\" data-end=\"880\">dungeon sotto o vicino ad essa</strong>. Alcuni maghi costruiscono dungeon come laboratori sicuri, mentre altri <strong data-start=\"951\" data-end=\"971\">lasciano un'apertura</strong>, attirando <strong data-start=\"984\" data-end=\"1006\">mostri erranti</strong> che si stabiliscono. Alcuni maghi incoraggiano questo, usando i mostri per ricerche, esperimenti magici o difesa personale​. Tuttavia, i dungeon infestati dai mostri causano spesso conflitti con <strong data-start=\"1238\" data-end=\"1259\">le comunità locali</strong> e attirano avventurieri in cerca di tesori.</p>\n<h4 data-start=\"1305\" data-end=\"1357\">Alternativa alla Torre: Diventare un Arcimago</h4>\n<p data-start=\"1358\" data-end=\"1754\">Invece di costruire una torre, un Mago di livello 9 può <strong data-start=\"1415\" data-end=\"1446\">cercare impiego come Arcimago</strong> in una roccaforte esistente. Un Arcimago serve un sovrano come <strong data-start=\"1504\" data-end=\"1534\">consigliere su questioni magiche</strong>, si occupa delle necessità magiche e viene ben compensato, tipicamente <strong data-start=\"1593\" data-end=\"1624\">almeno 3.000 mo al mese</strong>. Tuttavia, ciò richiede che il Mago presti un <strong data-start=\"1676\" data-end=\"1694\">giuramento di fedeltà</strong> al sovrano​.</p>"
                 },
                 "adNxjucUb4MFYof3": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "cPG8AaJAthGQ2ims": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -27182,7 +27611,8 @@
                     "shortName": "Pietrifica"
                 },
                 "4BzUHOyCSghsIQSN": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "8EdDWMXn0v6BhWE1": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -27190,7 +27620,8 @@
                     "shortName": "Soffio"
                 },
                 "BPzz8mx3WSlRJJWE": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "I9BA1rWiLbhUzSH4": {
                     "description": "<p>Al <strong data-start=\"933\" data-end=\"946\">9º livello</strong>, un mago può iniziare a creare <strong data-start=\"980\" data-end=\"995\">oggetti magici</strong>, ma solo oggetti <strong data-start=\"1012\" data-end=\"1037\">utilizzabili dai maghi</strong>. Il processo comporta:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Raccogliere materiali rari legati alla magia dell'oggetto (ad esempio, squame di drago per la resistenza al fuoco)</li><li data-start=\"1166\" data-end=\"1226\">Trascorrere tempo e oro per fabbricare e incantare l'oggetto</li><li data-start=\"1227\" data-end=\"1311\">Un costo base di 500 mo per livello dell'incantesimo per oggetti che duplicano effetti di incantesimi</li><li data-start=\"1312\" data-end=\"1433\">Una probabilità minima di fallimento del 15%, determinata alla fine del processo</li></ul><p data-start=\"1435\" data-end=\"1739\">Pergamene e pozioni sono le più facili da creare, mentre oggetti più potenti richiedono <strong data-start=\"1516\" data-end=\"1534\">mesi di lavoro</strong> e possibilmente rituali speciali. Il <strong data-start=\"1569\" data-end=\"1607\">DM può stabilire requisiti aggiuntivi</strong> per oggetti magici potenti, come la necessità di un luogo specifico o un allineamento celeste</p>",
@@ -27209,10 +27640,14 @@
             "items": {
                 "QPKeDjbDJokYeiSD": {
                     "spellRange": "18",
-                    "name": "Individuazione dell'Invisibile"
+                    "name": "Individuazione dell'Invisibile",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili.",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>"
                 },
                 "QcrXUPHDYBasmvM9": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "RfQeRNNACcA61eqa": {
                     "name": "Fondare una roccaforte",
@@ -27223,7 +27658,8 @@
                     "name": "Usare Oggetti Magici"
                 },
                 "f3SYRiA70ZgGlyBO": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 },
                 "gKVxsAy1Mg7rk2kj": {
                     "name": "Creare Oggetti Magici",
@@ -27254,7 +27690,8 @@
                     "name": "Ricerca Incantesimi"
                 },
                 "4oG53sy4XMDA0LhJ": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "M1De4bOeXXLtI4mj": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -27292,6 +27729,20 @@
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "shortName": "Incantesimo"
+                },
+                "BQCOEuGzXYpPrGLk": {
+                    "name": "Pungiglione",
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione."
+                },
+                "CSngQRYKsQm7IcZu": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "BmRPsS48IZlE34Za": {
+                    "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
+                    "name": "Chitina"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -27324,6 +27775,20 @@
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "shortName": "Incantesimo"
+                },
+                "6ar4hBFyNMOnkTKy": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
+                },
+                "FzkerxGd0kX6MZPN": {
+                    "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
+                    "name": "Chitina"
+                },
+                "QhPWcGVBPefkFUoA": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -27356,6 +27821,20 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "gUVPrlPk2UB267Un": {
+                    "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
+                    "name": "Chitina"
+                },
+                "ma11DxnTFbHkfaph": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "name": "Pungiglione",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione."
+                },
+                "yAr1rzBopsNvUEBM": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -27430,6 +27909,9 @@
                 },
                 "mwiei3qSp6NJRIhW": {
                     "name": "Nascondersi"
+                },
+                "J68N5M247VbFQVnr": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -27469,6 +27951,9 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi",
                     "shortName": "Pietrifica"
+                },
+                "ivwRh184ZnNQt6bw": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -27505,6 +27990,9 @@
                 },
                 "UApspC5Iqd6J0AeY": {
                     "name": "Pugno"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)"
@@ -27816,7 +28304,10 @@
                 },
                 "VNhqrfUplPvpDx06": {
                     "name": "Individuazione dell'Invisibile",
-                    "spellRange": "18"
+                    "spellRange": "18",
+                    "description": "<p>Questo incantesimo consente al lich di individuare creature invisibili entro un raggio di 18 metri.</p>",
+                    "spellDuration": "1 minuto/livello",
+                    "spellEffect": "Rivela entità invisibili."
                 },
                 "oCuAkTdJzJEVN8sV": {
                     "name": "Pietrificazione o Paralisi",
@@ -27824,7 +28315,8 @@
                     "shortName": "Pietrifica"
                 },
                 "pb4ATX5Iv9Ecx9Su": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "rrVgd6ZKVKKYSkYC": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -27837,7 +28329,8 @@
                     "shortName": "Morte"
                 },
                 "hWlAxV0MNNzopkHM": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "2tHqrRacdRQ8UnPs": {
                     "description": "<p>Un Mago può tentare di creare un nuovo incantesimo, ma deve essere di un livello che può lanciare. Il processo richiede:</p>\n\n<ul data-start=\"402\" data-end=\"590\">\n  <li data-start=\"402\" data-end=\"434\">1.000 mo per livello dell'incantesimo</li>\n  <li data-start=\"435\" data-end=\"480\">Due settimane di ricerca per livello dell'incantesimo</li>\n  <li data-start=\"481\" data-end=\"544\">Componenti rari, spesso richiedenti un'avventura per essere ottenuti</li>\n  <li data-start=\"545\" data-end=\"590\">Un laboratorio o una biblioteca completamente forniti</li>\n</ul>\n\n<p data-start=\"592\" data-end=\"897\">La <strong data-start=\"596\" data-end=\"617\">probabilità di successo</strong> dipende dal <strong data-start=\"646\" data-end=\"678\">punteggio di Intelligenza e dal livello</strong> del Mago, con modificatori in base alla difficoltà dell'incantesimo. Se un tentativo di ricerca fallisce, il processo deve essere ricominciato, ma ogni fallimento conferisce un <strong data-start=\"851\" data-end=\"875\">bonus cumulativo del +5%</strong> ai tentativi futuri.</p>\n\n<p><em>Un mago di solito non possiede una biblioteca adeguata per ricerche avanzate fino al 18º Livello, o almeno al 9º Livello se ha raccolto tomi magici in grande quantità. Sebbene la ricerca sia tecnicamente possibile a qualsiasi livello, i personaggi di basso livello probabilmente faticheranno a soddisfare i requisiti.</em></p>",
@@ -27861,7 +28354,8 @@
                     "name": "Usare Oggetti Magici"
                 },
                 "O60iO2lcKTrDPaso": {
-                    "name": "Incantesimi Arcani"
+                    "name": "Incantesimi Arcani",
+                    "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -28450,6 +28944,9 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte",
                     "shortName": "Morte"
+                },
+                "ia5ZpAJE2P7foDys": {
+                    "name": "Zoccoli"
                 }
             },
             "monsterType": "Animale Normale (Comune)"
@@ -28683,7 +29180,8 @@
                     "shortName": "Bacchetta"
                 },
                 "P0WSkcipgbTBSJzF": {
-                    "name": "Tocco"
+                    "name": "Tocco",
+                    "description": "Un tocco mortale che infligge 1d10 danni e può paralizzare il bersaglio per 1d100 giorni (si applica il tiro salvezza)."
                 },
                 "e4ReEtoR28AJx9Lw": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -28701,7 +29199,8 @@
                     "shortName": "Pietrifica"
                 },
                 "SCWqgjSu24gyhK04": {
-                    "name": "Armatura"
+                    "name": "Armatura",
+                    "description": "Gli abiti pregiati e la forma scheletrica costituiscono un'armatura naturale."
                 },
                 "W0lalZF2S5Xwxwpb": {
                     "description": "<p>I chierici <strong data-start=\"309\" data-end=\"344\">non lanciano incantesimi al 1º livello</strong>, ma ottengono l'accesso agli <strong data-start=\"364\" data-end=\"394\">incantesimi divini al 2º livello</strong>, accrescendo potenza man mano che salgono di livello. I chierici non necessitano di libri degli incantesimi ma devono pregare per gli incantesimi ogni giorno.</p>",
@@ -28715,7 +29214,12 @@
                     "name": "Scacciare i Non-Morti"
                 },
                 "IxnKAh2r1ivUzxsJ": {
-                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto"
+                    "description": "Il lich può evocare altri potenti non-morti in aiuto. Concentrandosi, la creatura (o le creature) evocata arriverà 1d100 round dopo in base alla loro distanza. L'evocazione può essere eseguita ripetutamente, ma ogni tipo di creatura risponderà solo una volta al giorno. Per determinare quale creatura viene evocata, tira 1d20:<br>Tiro 1-5: Necrospettro (2d4)<br>Tiro 6-9: Vampiro (1d6)<br>Tiro 10-12: Fantasma, Mezzombra (1d3)<br>Tiro 13-15: Anima Persa, Sudario (1d2 Caotico)<br>Tiro 16: Anima Persa, Poltergeist (1d2)<br>Tiro 17: Spirito, Druj<br>Tiro 18: Spirito, Revenant<br>Tiro 19: Ombra (qualsiasi 1)<br>Tiro 20: Beholder Non-Morto",
+                    "name": "Evocare Non-Morti"
+                },
+                "c4VrMKZyuonlwmU8": {
+                    "description": "Un lich clericale ha normalmente 3d4 tipi di altri non morti nelle vicinanze, che agiscono come servitori. Di solito è presente una tana completa per ogni tipo (il numero massimo che appare).",
+                    "name": "Servi Non-Morti"
                 }
             },
             "monsterType": "Non-Morto Magico",
