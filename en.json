@@ -559,6 +559,10 @@
         "two": "2-Handed",
         "twoAbbr": "2H"
       },
+      "isSlow": {
+        "desc": "Slow weapons always lose initiative.",
+        "label": "Slow"
+      },
       "mod": {
         "dmg": {
           "long": "Damage Modifier",
@@ -1012,22 +1016,12 @@
       "mode": {
         "choices": {
           "group": "Group (combat checklist)",
-          "groupHybrid": "Group (hybrid individual)",
           "individual": "Individual",
           "individualChecklist": "Individual (combat checklist)",
           "simpleIndividual": "Individual (simplified)"
         },
-        "hint": "Choose between group-based or individual-based initiative. Individual (simplified) mode orders solely by initiative roll plus any modifiers. Individual mode adds the 2-handed weapon rule, making 2-handed weapon users lose initiative. Individual (combat checklist) mode combines individual initiative with the combat checklist order when declared actions are enabled. Group (combat checklist) mode groups combatants by token disposition and also sorts within a group by the declared action, if declared actions are enabled. Group (hybrid individual) mode is like the group mode, but adds 2-handed weapon rule within a group's inner sort.",
+        "hint": "Choose between group-based or individual-based initiative. Individual (simplified) mode orders solely by initiative roll plus any modifiers. Individual mode adds the 2-handed weapon rule, making 2-handed weapon users lose initiative. Individual (combat checklist) mode combines individual initiative with the combat checklist order when declared actions are enabled. Group (combat checklist) mode groups combatants by token disposition and also sorts within a group by the declared action, if declared actions are enabled. Group (slow weapons) mode is like the group mode, but adds the slow weapon rule.",
         "name": "Initiative Mode"
-      },
-      "modifier": {
-        "choices": {
-          "average": "Average Dexterity",
-          "highest": "Highest Dexterity",
-          "none": "No Modifier"
-        },
-        "hint": "Choose how to calculate the group initiative modifier.",
-        "name": "Group Initiative Modifier"
       },
       "nextRound": {
         "choices": {
