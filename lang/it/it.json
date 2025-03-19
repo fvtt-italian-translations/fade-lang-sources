@@ -1062,7 +1062,7 @@
                     "group": "Gruppo (combat controllato)",
                     "groupHybrid": "Gruppo (individuale ibrido)"
                 },
-                "hint": "Scegli tra iniziativa di gruppo o individuale. L'iniziativa INDIVIDUALE (SEMPLIFICATA) consiste esclusivamente tramite un tiro di iniziativa più eventuali modificatori. La modalità INDIVIDUALE aggiunge la regola dell'arma a due mani, facendo perdere l'iniziativa a chi utilizza armi a due mani. La modalità INDIVIDUALE (COMBAT CONTROLLATO) combina l'iniziativa individuale con l'ordine della lista di controllo di combattimento quando le azioni dichiarate sono abilitate. La modalità GRUPPO (COMBAT CONTROLLATO) raggruppa i combattenti in base alla disposizione dei token e li ordina anche all'interno di un gruppo in base all'azione dichiarata, se le azioni dichiarate sono abilitate. La modalità GRUPPO (ARMI LENTE) è come la modalità Gruppo, ma aggiunge la regola dell'arma lenta."
+                "hint": "Scegli tra iniziativa di gruppo o iniziativa individuale. La modalità INDIVIDUALE (SEMPLIFICATA) ordina esclusivamente per tiro di iniziativa più eventuali modificatori. La modalità INDIVIDUALE aggiunge la regola delle armi a 2-mani, facendo perdere l'iniziativa agli utilizzatori di armi a 2-mani. La modalità INDIVIDUALE (COMBAT CONTROLLATO) combina l'iniziativa individuale con l'ordine della lista di combattimento controllato quando sono abilitate le azioni dichiarate. La modalità GRUPPO (COMBAT CONTROLLATO) raggruppa i combattenti in base alla disposizione dei token e ordina anche all'interno di un gruppo in base alle azioni dichiarate (se abilitate)."
             },
             "modifier": {
                 "name": "Modificatore Iniziativa di Gruppo",
