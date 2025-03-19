@@ -21195,10 +21195,13 @@
                     "shortName": "Soffio"
                 },
                 "WhFsZgIT56T5V1aT": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle dell'Ombra Errante della Notte nera come la pece, devia gli assalti minori."
                 },
                 "a3i3knXa7hf2teq5": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "L'Ombra Errante della Notte colpisce con i pugni, infliggendo [[/r 3d10 #Danni da pugno]] più veleno (penalità al tiro salvezza -2), con una probabilità del 50% di distruggere l'armatura.",
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico."
                 },
                 "4nXs2WYXtOjvApiU": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -21206,7 +21209,14 @@
                     "shortName": "Incantesimo"
                 },
                 "74SajMEj6vbCCm57": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Errante della Notte evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "e3waXrbpGUWTeXSJ": {
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
+                    "name": "Sguardo"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -21226,10 +21236,13 @@
                     "shortName": "Soffio"
                 },
                 "lS6Xlbq5hzb1F48u": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "L'Ombra Errante della Notte colpisce con i pugni, infliggendo [[/r 3d10 #Danni da pugno]] più veleno (penalità al tiro salvezza -2), con una probabilità del 50% di distruggere l'armatura.",
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico."
                 },
                 "TkifZqOyesOvWv8X": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle dell'Ombra Errante della Notte nera come la pece, devia gli assalti minori."
                 },
                 "fDtQZ2JETDxwS5pu": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -21247,7 +21260,14 @@
                     "shortName": "Bacchetta"
                 },
                 "A08vSbMUrFQXgoxR": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Errante della Notte evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "9Iw5ynR7S878rEVw": {
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
+                    "name": "Sguardo"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -21267,7 +21287,9 @@
                     "shortName": "Incantesimo"
                 },
                 "tCu2TaNEpd4GWlZp": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "L'Ombra Errante della Notte colpisce con i pugni, infliggendo [[/r 3d10 #Danni da pugno]] più veleno (penalità al tiro salvezza -2), con una probabilità del 50% di distruggere l'armatura.",
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico."
                 },
                 "y5B7VnfSe00XG3nu": {
                     "name": "Pietrificazione o Paralisi",
@@ -21285,10 +21307,18 @@
                     "shortName": "Bacchetta"
                 },
                 "sFCPsKdBybX2QNw1": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle dell'Ombra Errante della Notte nera come la pece, devia gli assalti minori."
                 },
                 "aBPlsshmeUN5AeFl": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Errante della Notte evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "48g1hy95CRzvfe7q": {
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
+                    "name": "Sguardo"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -21338,10 +21368,13 @@
                     "shortName": "Bacchetta"
                 },
                 "VrPiC5YHMMI7sA5g": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "L'Ombra Errante della Notte colpisce con i pugni, infliggendo [[/r 3d10 #Danni da pugno]] più veleno (penalità al tiro salvezza -2), con una probabilità del 50% di distruggere l'armatura.",
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico."
                 },
                 "gzkpJQ4cp0ObYu9N": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle dell'Ombra Errante della Notte nera come la pece, devia gli assalti minori."
                 },
                 "nEmOAOxS8bV6LPQL": {
                     "name": "Incantesimi, Verga o Bastone Magico",
@@ -21359,7 +21392,14 @@
                     "shortName": "Morte"
                 },
                 "gpbA1pYe9wuaWtNO": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Errante della Notte evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "haklXNUUEQM6Ytqg": {
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
+                    "name": "Sguardo"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -21404,7 +21444,8 @@
                 },
                 "ourA0vfPu3k9xsam": {
                     "name": "Evocare Non-Morti",
-                    "description": "Ogni 4 ore, l'Ombra Chirottero d'Ombra, evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji))."
+                    "description": "Ogni 4 ore, l'Ombra Chirottero d'Ombra, evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
                 },
                 "zNEpsQsDYlNPw4Pa": {
                     "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
@@ -21424,7 +21465,8 @@
                     "shortName": "Pietrifica"
                 },
                 "W5ju90TleaCfr2P1": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La carne di ossidiana dell'Ombra Chirottero d'Ombra, respinge gli attacchi minori."
                 },
                 "ACs7m3MQbDOaS8wP": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -21437,7 +21479,9 @@
                     "shortName": "Morte"
                 },
                 "NQv7h0ULUX358sb9": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "L'Ombra Chirottero d'Ombra, sorprende in picchiata con una probabilità del 90%, infliggendo [[/r 1d6+6 #Danni da Picchiata]] più veleno (penalità al tiro salvezza -2), trasformandosi in pipistrello gigante in caso di tiro salvezza fallito.",
+                    "gmNotes": "Viene trasformato in pipistrello gigante e rimane sotto l'effetto dello charme fino a che viene dissolto."
                 },
                 "NqRPyhEdvQ7NQkQt": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -21450,7 +21494,14 @@
                     "shortName": "Bacchetta"
                 },
                 "Gt0VsJmzloZvPDNv": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Ombra Chirottero d'Ombra, evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "FqN6ssTx9QrcS6bV": {
+                    "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
+                    "gmNotes": "Colpisce scudi/armi, riparabili tramite magia di alto livello.",
+                    "name": "Risucchia Magico"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -21495,7 +21546,9 @@
                     "shortName": "Bacchetta"
                 },
                 "A6LZ5Lc8sTzrH0dr": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "gmNotes": "Viene trasformato in pipistrello gigante e rimane sotto l'effetto dello charme fino a che viene dissolto.",
+                    "description": "L'Ombra Chirottero d'Ombra, sorprende in picchiata con una probabilità del 90%, infliggendo [[/r 1d6+6 #Danni da Picchiata]] più veleno (penalità al tiro salvezza -2), trasformandosi in pipistrello gigante in caso di tiro salvezza fallito."
                 },
                 "N51hRdkSkQNogP1d": {
                     "name": "Soffio del Drago",
@@ -21503,7 +21556,8 @@
                     "shortName": "Soffio"
                 },
                 "Xn0fXUHl9tXXnzy1": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La carne di ossidiana dell'Ombra Chirottero d'Ombra, respinge gli attacchi minori."
                 },
                 "exOMbakplgP6fKmZ": {
                     "name": "Veleno o Raggio della Morte",
@@ -21521,7 +21575,14 @@
                     "shortName": "Incantesimo"
                 },
                 "qR7iRIRTQKXjRQ9l": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Ombra Chirottero d'Ombra, evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "viHkzZQHoynpa3jC": {
+                    "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
+                    "name": "Risucchia Magico",
+                    "gmNotes": "Colpisce scudi/armi, riparabili tramite magia di alto livello."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -21541,10 +21602,13 @@
                     "shortName": "Morte"
                 },
                 "KQhUmErE9gnjxAuO": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "L'Ombra Chirottero d'Ombra, sorprende in picchiata con una probabilità del 90%, infliggendo [[/r 1d6+6 #Danni da Picchiata]] più veleno (penalità al tiro salvezza -2), trasformandosi in pipistrello gigante in caso di tiro salvezza fallito.",
+                    "gmNotes": "Viene trasformato in pipistrello gigante e rimane sotto l'effetto dello charme fino a che viene dissolto."
                 },
                 "XPAuUFLC3BmXXb83": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La carne di ossidiana dell'Ombra Chirottero d'Ombra, respinge gli attacchi minori."
                 },
                 "sTuPfJiRpMwbYp8G": {
                     "name": "Soffio del Drago",
@@ -21562,7 +21626,14 @@
                     "shortName": "Pietrifica"
                 },
                 "yJ4ERD1Q36F7fu1c": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Ombra Chirottero d'Ombra, evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "GEUK0Juu0syLyf1d": {
+                    "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
+                    "gmNotes": "Colpisce scudi/armi, riparabili tramite magia di alto livello.",
+                    "name": "Risucchia Magico"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -23791,6 +23862,19 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi",
                     "shortName": "Pietrifica"
+                },
+                "nXKBbaTwLKB6G8fC": {
+                    "name": "Colpo con Arto",
+                    "description": "Il Mek colpisce con un arto pesante, infliggendo [[/r 1d6*10 #Danni con arto pesante]]."
+                },
+                "AeMC0GcysRMwUmHB": {
+                    "description": "Il Mek emette una nube paralizzante di 6 m, paralizzando per [[/r 1d3 #Turni paralizzati]] (salvezza contro soffio del drago ogni round).",
+                    "gmNotes": "Ogni round colpisce tutti coloro che si trovano entro un raggio di 6 m.",
+                    "name": "Soffio Paralizzante"
+                },
+                "P05bfaBsxQbDeYOO": {
+                    "description": "Il guscio metallico del Mek offre una difesa formidabile.",
+                    "name": "Guscio Metallico"
                 }
             },
             "monsterType": "Costrutto Magico (Raro)",
@@ -23822,6 +23906,19 @@
                     "name": "Soffio del Drago",
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "shortName": "Soffio"
+                },
+                "KAyakfpKtiC7hu5a": {
+                    "description": "Il Mek emette una nube paralizzante di 6 m, paralizzando per [[/r 1d3 #Turni paralizzati]] (salvezza contro soffio del drago ogni round).",
+                    "gmNotes": "Ogni round colpisce tutti coloro che si trovano entro un raggio di 6 m.",
+                    "name": "Soffio Paralizzante"
+                },
+                "TTvsA3jLwtpb56iz": {
+                    "description": "Il guscio metallico del Mek offre una difesa formidabile.",
+                    "name": "Guscio Metallico"
+                },
+                "rWmjNAYDWBmVccxI": {
+                    "description": "Il Mek colpisce con un arto pesante, infliggendo [[/r 1d6*10 #Danni con arto pesante]].",
+                    "name": "Colpo con Arto"
                 }
             },
             "monsterType": "Costrutto Magico (Raro)",
@@ -23853,6 +23950,19 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "G8VGycUsYNAGkAaS": {
+                    "description": "Il Mek emette una nube paralizzante di 6 m, paralizzando per [[/r 1d3 #Turni paralizzati]] (salvezza contro soffio del drago ogni round).",
+                    "gmNotes": "Ogni round colpisce tutti coloro che si trovano entro un raggio di 6 m.",
+                    "name": "Soffio Paralizzante"
+                },
+                "cWBrzjXMru58r95W": {
+                    "description": "Il Mek colpisce con un arto pesante, infliggendo [[/r 1d6*10 #Danni con arto pesante]].",
+                    "name": "Colpo con Arto"
+                },
+                "tp4J5kR8W228Ns7v": {
+                    "description": "Il guscio metallico del Mek offre una difesa formidabile.",
+                    "name": "Guscio Metallico"
                 }
             },
             "monsterType": "Costrutto Magico (Raro)",
@@ -23885,6 +23995,19 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte",
                     "shortName": "Morte"
+                },
+                "5nOaO6YyZY7lmYY3": {
+                    "description": "Il guscio metallico del Mek offre una difesa formidabile.",
+                    "name": "Guscio Metallico"
+                },
+                "70JxbyIUlu7X4Bu5": {
+                    "description": "Il Mek colpisce con un arto pesante, infliggendo [[/r 1d6*10 #Danni con arto pesante]].",
+                    "name": "Colpo con Arto"
+                },
+                "NpQidZZT4hTFQpao": {
+                    "gmNotes": "Ogni round colpisce tutti coloro che si trovano entro un raggio di 6 m.",
+                    "description": "Il Mek emette una nube paralizzante di 6 m, paralizzando per [[/r 1d3 #Turni paralizzati]] (salvezza contro soffio del drago ogni round).",
+                    "name": "Soffio Paralizzante"
                 }
             },
             "monsterType": "Costrutto Magico (Raro)",
@@ -23917,6 +24040,19 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte",
                     "shortName": "Morte"
+                },
+                "fuurnDsMRy7sHeLx": {
+                    "description": "Il guscio metallico del Mek offre una difesa formidabile.",
+                    "name": "Guscio Metallico"
+                },
+                "XtQuHAcAhOswOh42": {
+                    "description": "Il Mek colpisce con un arto pesante, infliggendo [[/r 1d6*10 #Danni con arto pesante]].",
+                    "name": "Colpo con Arto"
+                },
+                "TE0nWMaVA5BIs01K": {
+                    "description": "Il Mek emette una nube paralizzante di 6 m, paralizzando per [[/r 1d3 #Turni paralizzati]] (salvezza contro soffio del drago ogni round).",
+                    "gmNotes": "Ogni round colpisce tutti coloro che si trovano entro un raggio di 6 m.",
+                    "name": "Soffio Paralizzante"
                 }
             },
             "monsterType": "Costrutto Magico (Raro)",
@@ -24319,10 +24455,13 @@
                     "shortName": "Soffio"
                 },
                 "MnSqjBeTPIhaSqpa": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle dell'Ombra Errante della Notte nera come la pece, devia gli assalti minori."
                 },
                 "Oal2X9lJ1O4ovgJk": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "L'Ombra Errante della Notte colpisce con i pugni, infliggendo [[/r 3d10 #Danni da pugno]] più veleno (penalità al tiro salvezza -2), con una probabilità del 50% di distruggere l'armatura.",
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico."
                 },
                 "VaHR9pGNBBrtwqNw": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -24340,7 +24479,14 @@
                     "shortName": "Incantesimo"
                 },
                 "vyaPBXpLbIPkpyrZ": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, l'Errante della Notte evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "9HhQgB8wp7p2U6Sq": {
+                    "name": "Sguardo",
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -25334,7 +25480,8 @@
                     "shortName": "Incantesimo"
                 },
                 "znE1BPthe6qxRQXy": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle nera come la pece dell'Ombra Verme Notturno, resiste a tutti tranne ai colpi più potenti."
                 },
                 "5kK4QlP50w55S2Pw": {
                     "name": "Pietrificazione o Paralisi",
@@ -25342,7 +25489,9 @@
                     "shortName": "Pietrifica"
                 },
                 "jtCcifU8oMfLg7A8": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "L'Ombra Verme Notturno, morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2).",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto."
                 },
                 "eBlAsUYDArtdie6u": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -25350,10 +25499,19 @@
                     "shortName": "Soffio"
                 },
                 "nhaAX6iUXr6AgFA1": {
-                    "name": "Restringere"
+                    "name": "Restringere",
+                    "gmNotes": "Permanente finché non viene dissolto.",
+                    "description": "L'Ombra Verme Notturno, rimpicciolisce un nemico entro 18 m a 30 cm (TS contro incantesimi), ottenendo poi +4 al TxC contro di esso."
                 },
                 "XB9JFZk1BQTil8QO": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, il Verme Notturno, evoca non-morti minori [1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji].",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "t1VOG32z2pQcUHnE": {
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
+                    "name": "Coda Pungente"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -26624,15 +26782,18 @@
                     "shortName": "Bacchetta"
                 },
                 "sQcQD62t2tysXXoC": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle nera come la pece dell'Ombra Verme Notturno, resiste a tutti tranne ai colpi più potenti."
                 },
                 "usg6jjHujg7U5ae0": {
                     "name": "Restringere",
-                    "gmNotes": "Permanente finché non viene dissolto."
+                    "gmNotes": "Permanente finché non viene dissolto.",
+                    "description": "L'Ombra Verme Notturno, rimpicciolisce un nemico entro 18 m a 30 cm (TS contro incantesimi), ottenendo poi +4 al TxC contro di esso."
                 },
                 "3H9EG3pFdUeqz0YS": {
                     "name": "Morso",
-                    "description": "L'Ombra Verme Notturno, morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2)."
+                    "description": "L'Ombra Verme Notturno, morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2).",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto."
                 },
                 "7ejwSyJnP6onoO4m": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -26650,7 +26811,14 @@
                     "shortName": "Soffio"
                 },
                 "7iCd9aoWPp4rjM93": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, il Verme Notturno, evoca non-morti minori [1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji].",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "q8fBBnf2Q9vCqDIN": {
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "name": "Coda Pungente"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -26778,7 +26946,9 @@
         "Nightshade, Nightcrawler (27HD)*": {
             "items": {
                 "jMHFcGSbnmJLmRaX": {
-                    "name": "Restringere"
+                    "name": "Restringere",
+                    "gmNotes": "Permanente finché non viene dissolto.",
+                    "description": "L'Ombra Verme Notturno, rimpicciolisce un nemico entro 18 m a 30 cm (TS contro incantesimi), ottenendo poi +4 al TxC contro di esso."
                 },
                 "sjAybq0vIPNA2iSl": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -26796,7 +26966,9 @@
                     "shortName": "Soffio"
                 },
                 "xe9WiLm5ep5fhgjU": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "L'Ombra Verme Notturno, morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2).",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto."
                 },
                 "4HSNhlD28K36bkE3": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -26809,10 +26981,18 @@
                     "shortName": "Morte"
                 },
                 "T9JwWRhck2X1agR1": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle nera come la pece dell'Ombra Verme Notturno, resiste a tutti tranne ai colpi più potenti."
                 },
                 "4wSe77GrRUOBBian": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "description": "Ogni 4 ore, il Verme Notturno, evoca non-morti minori [1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji].",
+                    "gmNotes": "Tirare 1d6 per il tipo."
+                },
+                "guMpfdic9z4HCGBi": {
+                    "name": "Coda Pungente",
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -28061,7 +28241,9 @@
         "Nightshade, Nightcrawler (28HD)*": {
             "items": {
                 "oForEgSiOi8jGiW6": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto.",
+                    "description": "L'Ombra Verme Notturno, morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2)."
                 },
                 "ocdyHlkOG9XHdmpc": {
                     "name": "Pietrificazione o Paralisi",
@@ -28074,7 +28256,9 @@
                     "shortName": "Soffio"
                 },
                 "Pgh4v5YjoUZfRwS5": {
-                    "name": "Restringere"
+                    "name": "Restringere",
+                    "description": "L'Ombra Verme Notturno, rimpicciolisce un nemico entro 18 m a 30 cm (TS contro incantesimi), ottenendo poi +4 al TxC contro di esso.",
+                    "gmNotes": "Permanente finché non viene dissolto."
                 },
                 "VNKMrqKptYBUm7hv": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -28092,10 +28276,18 @@
                     "shortName": "Bacchetta"
                 },
                 "mwiei3qSp6NJRIhW": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle nera come la pece dell'Ombra Verme Notturno, resiste a tutti tranne ai colpi più potenti."
                 },
                 "J68N5M247VbFQVnr": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "description": "Ogni 4 ore, il Verme Notturno, evoca non-morti minori [1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji]."
+                },
+                "Ie3Du7E210umSkXP": {
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
+                    "name": "Coda Pungente"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -28110,7 +28302,9 @@
                     "shortName": "Morte"
                 },
                 "vAbvZzCG51Fep3KH": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "L'Ombra Verme Notturno, morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2).",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto."
                 },
                 "23Bo6hlUn1WiQCVh": {
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
@@ -28123,7 +28317,8 @@
                     "shortName": "Incantesimo"
                 },
                 "9k7zV8KXLZX4FSvd": {
-                    "name": "Nascondersi"
+                    "name": "Nascondersi",
+                    "description": "La pelle nera come la pece dell'Ombra Verme Notturno, resiste a tutti tranne ai colpi più potenti."
                 },
                 "D6kqVBZbJN6On9Kz": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -28131,7 +28326,9 @@
                     "shortName": "Bacchetta"
                 },
                 "SctFaaWwnM7lFx6n": {
-                    "name": "Restringere"
+                    "name": "Restringere",
+                    "description": "L'Ombra Verme Notturno, rimpicciolisce un nemico entro 18 m a 30 cm (TS contro incantesimi), ottenendo poi +4 al TxC contro di esso.",
+                    "gmNotes": "Permanente finché non viene dissolto."
                 },
                 "TXTJdLhE5d3z7vQl": {
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
@@ -28139,7 +28336,14 @@
                     "shortName": "Pietrifica"
                 },
                 "ivwRh184ZnNQt6bw": {
-                    "name": "Evocare Non-Morti"
+                    "name": "Evocare Non-Morti",
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "description": "Ogni 4 ore, il Verme Notturno, evoca non-morti minori [1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico), 6 spirito druji]."
+                },
+                "3wVRIqiG1jGjrndZ": {
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
+                    "name": "Coda Pungente"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -28184,7 +28388,8 @@
                 },
                 "EXqWakUSsqsooPEp": {
                     "name": "Evocare Non-Morti",
-                    "description": "Ogni 4 ore, l'Errante della Notte evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico))."
+                    "description": "Ogni 4 ore, l'Errante della Notte evoca non-morti minori (1d6: 1-3 fantasma (mezzombra), 4-5 anima persa (sudario caotico)).",
+                    "gmNotes": "Tirare 1d6 per il tipo."
                 },
                 "cHZlzIWYcVuB9PZX": {
                     "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
@@ -28232,6 +28437,9 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "E706L7ILmcAixDge": {
+                    "name": "Aura di Paura"
                 }
             },
             "monsterType": "Mostro (Raro)"
