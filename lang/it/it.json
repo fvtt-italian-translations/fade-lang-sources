@@ -59,7 +59,8 @@
             },
             "Flight": {
                 "abbr": "VOLARE",
-                "long": "Volo"
+                "long": "Volo",
+                "hint": "Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento normale."
             },
             "Movement": {
                 "abbr": "MV",
@@ -1108,7 +1109,8 @@
             "name": "Durata del Round"
         },
         "turnDurationSec": {
-            "hint": "Il numero di secondi che un turno rappresenta nel gioco. È utilizzato dal contatore di turni e spesso rappresenta una durata di dieci minuti, ma può variare. È importante chiarire che questa definizione di turno è diversa dai turni in combattimento."
+            "hint": "Il numero di secondi che un turno rappresenta nel gioco. È utilizzato dal contatore di turni e spesso rappresenta una durata di dieci minuti, ma può variare. È importante chiarire che questa definizione di turno è diversa dai turni in combattimento.",
+            "name": "Durata del Turno"
         }
     },
     "TYPES": {
