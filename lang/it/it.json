@@ -58,21 +58,21 @@
                 "abbr": "VL"
             },
             "Flight": {
-                "abbr": "VOLARE",
-                "long": "Volo",
+                "abbr": "Sec.",
+                "long": "Secondario",
                 "hint": "Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento normale."
             },
             "Movement": {
                 "abbr": "MV",
                 "long": "Movimento",
                 "turn": "Normale",
-                "turnHint": "<b>Metri per turno di 10 minuti.</b><p>Questo lasso di tempo include molte azioni presunte come mappare,</b><p> sbirciare dietro gli angoli, riposare e così via</p>",
+                "turnHint": "<b>Metri per turno.</b><p>Questo lasso di tempo include molte azioni presunte come mappare,</b><p> sbirciare dietro gli angoli, riposare e così via</p>",
                 "round": "Round",
-                "roundHint": "<b>Metri per round di 10 secondi.</b><p>Usato durante i combattimenti</p>",
+                "roundHint": "<b>Metri per round.</b><p>Usato durante i combattimenti</p>",
                 "day": "Viaggio",
                 "dayHint": "<b>Miglia al giorno (1 miglio=1,6km). Utilizzato per i viaggi via terra.</b><p>Nota che il terreno influisce su questo valore</p>",
                 "run": "Corsa",
-                "runHint": "<b>Metri per round di 10 secondi.</b><p>Utilizzato quando si corre o si vola alla massima velocità durante il combattimento. Viaggiare alla massima velocità può durare fino a 30 round (5 minuti)</p>",
+                "runHint": "<b>Metri per round di 10 secondi.</b><p>Utilizzato quando ci si muove alla massima velocità durante il combattimento. Viaggiare alla massima velocità può durare fino a 30 round (5 minuti)</p>",
                 "total": "Totale",
                 "moveTurn": "Movimento Base"
             },
@@ -988,7 +988,7 @@
     },
     "SETTINGS": {
         "Encumbrance": {
-            "Hint": "Abilita il tracciamento automatico dell'ingombro e l'applicazione degli effetti di stato per i personaggi che trasportano troppo. Il Solo Armatura determina il movimento in base al peso dell'armatura stessa. Dark Dungeons prevede un carico massimo di 2400 monete e cinque velocità di movimento. Classic invece un carico massimo di 1600 monete e quattro velocità di movimento",
+            "Hint": "Abilita il tracciamento automatico dell'ingombro e l'applicazione degli effetti di stato per i personaggi che trasportano troppo. Il Solo Armatura determina il movimento in base al peso dell'armatura stessa. Dark Dungeons prevede un carico massimo di 2400 monete e cinque velocità di movimento. Classic invece un carico massimo di 1600 monete e quattro velocità di movimento e tiene traccia del peso dell'armatura, delle armi e del tesoro, presuppone 80 monete per l'equipaggiamento da avventura e ha quattro velocità di movimento",
             "Name": "Tracciatura Ingombro",
             "None": "Nessuna",
             "Basic": "Solo Armatura",
@@ -1007,13 +1007,13 @@
                 "hint": "<b>Velocità massima al suolo per turno.</b><p>Le distanze di movimento sono misurate in metri</p>"
             },
             "maxFlight": {
-                "name": "Max. Velocità di Volo",
-                "hint": "<b>Velocità di volo massima per turno.</b><p>Le distanze di movimento sono misurate in metri</p>"
+                "name": "Max. Velocità Secondaria",
+                "hint": "<b>Velocità massima per turno.</b><p>Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento normale. Le distanze di movimento sono misurate in metri</p>"
             }
         },
         "declaredActions": {
             "name": "Azioni Dichiarate",
-            "hint": "Abilita le azioni dichiarate per gli incontri"
+            "hint": "Abilita le azioni dichiarate per gli incontri. Le azioni dichiarate sono consigliate se si utilizza la checklist di combattimento."
         },
         "collapseState": {
             "name": "Memorizza Compressione",
@@ -1035,8 +1035,8 @@
                 "thac0": "Solo THAC0 (senza tabella TPC)",
                 "classic": "Classic"
             },
-            "name": "Sistema TPC (Work-in-progress)",
-            "hint": "Questo sistema determina come vengono gestiti i Tiri Per Colpire e anche quale tipo di classe di armatura viene utilizzato (CA vs CAA). Il sistema Solo THAC0 non utilizza una tabella di attacco, ma invece un semplice calcolo del valore THAC0 meno la CA del bersaglio. Il sistema Classico utilizza una tabella di attacco e la THAC0 supportando fino al livello 25 e una CA compresa tra -19 e 19. La Tabella BECMI si rifà ai giochi di ruolo degli anni '90 e scala fino al livello 36 e una CA compreso tra -99 e 19. Dark Dungeons utilizza il sistema del gioco Dark Dungeons. La CAA e il Bonus di Attacco sono simili alla THAC0, ma presentano una classe di armatura ascendente in cui maggiore è il valore della CA, maggiore è la capacità difensiva."
+            "name": "Sistema TxC",
+            "hint": "Il sistema TxC determina come vengono gestiti i Tiri Per Colpire e anche quale tipo di classe di armatura viene utilizzato (CA vs CAA). Il sistema Solo THAC0 non utilizza una tabella di attacco, ma invece un semplice calcolo del valore THAC0 meno la CA del bersaglio. Il sistema Classico utilizza una tabella di attacco e la THAC0 supportando fino al livello 25 e una CA compresa tra -19 e 19. La Tabella BECMI si rifà ai giochi di ruolo degli anni '90 e scala fino al livello 36 e una CA compreso tra -99 e 19. Dark Dungeons utilizza il sistema del gioco Dark Dungeons. La CAA e il Bonus di Attacco sono simili alla THAC0, ma presentano una classe di armatura ascendente in cui maggiore è il valore della CA, maggiore è la capacità difensiva."
         },
         "EncMax": {
             "Hint": "La quantità massima che un personaggio può trasportare in monete (mon), ed essere comunque in grado di muoversi",
