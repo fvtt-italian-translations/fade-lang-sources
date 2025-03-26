@@ -483,7 +483,9 @@
             "hintTotal": "<b>Classe Armatura Totale</b><p>Questa è la classe armatura totale e include i modificatori derivanti dagli effetti</p>",
             "hintRangedAC": "<b>Classe Armatura a Distanza</b><p>La CA efficace contro gli attacchi con armi da lancio.</p>",
             "rangedAAC": "CAA a Distanza",
-            "rangedAC": "CA a Distanza"
+            "rangedAC": "CA a Distanza",
+            "modBase": "Mod CA Naturale",
+            "dexterityBonus": "Bonus Destrazza: {bonus}"
         },
         "Mastery": {
             "levels": {
@@ -1097,7 +1099,16 @@
             "choices": {
                 "darkdungeons": "Dark Dungeons",
                 "simple": "Semplice"
-            }
+            },
+            "name": "Sistema di Modificatori dei Punteggi di Abilità",
+            "hint": "Il Sistema di Modificatori dei Punteggi delle Abilità determina come vengono calcolati i modificatori dei loro punteggi. Dark Dungeons sarà compatibile con molti sistemi di gioco \"Base/Esperto\" ed è l'impostazione predefinita. Fornisce semplicemente un bonus di +1 sui punteggi di 15 o più, mentre applica una penalità di -1 sui punteggi pari o inferiori a 6."
+        },
+        "roundDurationSec": {
+            "hint": "Numero di secondi in un round nel tempo di gioco.",
+            "name": "Durata del Round"
+        },
+        "turnDurationSec": {
+            "hint": "Il numero di secondi che un turno rappresenta nel gioco. È utilizzato dal contatore di turni e spesso rappresenta una durata di dieci minuti, ma può variare. È importante chiarire che questa definizione di turno è diversa dai turni in combattimento."
         }
     },
     "TYPES": {
