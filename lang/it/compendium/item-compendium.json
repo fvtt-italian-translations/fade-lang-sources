@@ -3189,7 +3189,40 @@
             "description": "<p>Gli Incantatori possono utilizzare vari oggetti magici, come bacchette, bastoni e pergamene, che sono tipicamente non disponibili per le classi non incantatrici. Questa abilità permette loro di attivare effetti magici immagazzinati in questi oggetti</p>"
         },
         "Arcane Spellcasting (M)": {
-            "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>"
+            "description": "<p data-start=\"31\" data-end=\"347\">I maghi sfruttano l'energia arcana attraverso uno <strong data-start=\"73\" data-end=\"115\">studio intenso e una memorizzazione attenta</strong> degli incantesimi registrati nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, i maghi devono <strong data-start=\"215\" data-end=\"244\">preparare gli incantesimi in anticipo</strong> studiando i loro libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria finché non viene ri-memorizzato</p><p data-start=\"349\" data-end=\"650\">I maghi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che guadagnano livelli. I loro incantesimi spaziano da utilità minori come <em data-start=\"502\" data-end=\"514\">Lettura del Magico</em> ad attacchi devastanti come <em data-start=\"543\" data-end=\"553\">Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">A causa della loro dipendenza dai libri degli incantesimi, i maghi devono proteggere ed espandere le loro biblioteche, cercando <strong data-start=\"758\" data-end=\"804\">tomi perduti, pergamene e conoscenze antiche</strong> per migliorare il loro repertorio magico</p>",
+            "name": "Incantesimi Arcani (M)"
+        },
+        "Arcane Spellcasting (E)": {
+            "description": "<p>Gli Elfi sfruttano l'energia arcana attraverso un'affinità naturale e una meticolosa memorizzazione degli incantesimi scritti nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, gli Elfi devono preparare gli incantesimi in anticipo studiando i loro libri ogni giorno. Una volta lanciato un incantesimo, questo viene cancellato dalla memoria finché non viene rimemorizzato.</p><p>Gli Elfi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che avanzano di livello. I loro incantesimi variano da utilità minori come <em>Lettura del Magico</em> ad attacchi devastanti come <em>Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti.</p><p>A causa della loro dipendenza dai libri degli incantesimi, gli Elfi devono proteggere ed espandere le loro biblioteche, cercando tomi perduti, pergamene e conoscenze antiche per migliorare il loro repertorio magico. A differenza dei Maghi, tuttavia, gli Elfi si addestrano anche nel combattimento, permettendo loro di maneggiare armi e indossare armature senza interrompere il loro lancio di incantesimi.</p>",
+            "name": "Incantesimi Arcani (E)"
+        },
+        "Breath Resistance (H)": {
+            "description": "<p>Al raggiungimento di 2.100.000 PX, un Halfling ottiene resistenza alle armi da soffio, inclusi il soffio dei draghi e altri attacchi basati sul soffio. Subiscono automaticamente metà danno da tali effetti, e se è previsto un tiro salvezza e lo superano, il danno viene ulteriormente ridotto a un quarto.</p><p data-start=\"878\" data-end=\"1021\" data-is-last-node=\"\">Come per la resistenza alla magia, le frazioni vengono arrotondate per difetto, e qualsiasi danno finale di mezzo punto o meno risulta in 1 punto di danno subito.</p>",
+            "name": "Resistenza al Soffio (H)"
+        },
+        "Detect Evil (AV)": {
+            "description": "<p>Un Vendicatore può usare Individuazione del Male (come l'incantesimo del chierico) concentrandosi una volta per round. Questa capacità ha una portata di 36 m ma non può essere usata nello stesso round di un attacco.</p>",
+            "name": "Individuazione del Male (AV)"
+        },
+        "Climb Sheer Surface (B)": {
+            "description": "<p>Un Bardo può arrampicarsi su pareti, scogliere e altre superfici verticali con la stessa probabilità di un Ladro dello stesso livello. Il Bardo deve avere <strong>entrambe le mani libere</strong> e non può arrampicarsi mentre tiene un'arma o uno strumento. L'arrampicata richiede <strong>un round per ogni 3 metri</strong> e un fallimento significa scivolare a metà strada, con la possibilità di afferrarsi se il DM lo consente</p><h4>Penalità per l'Armatura:</h4><ul><li><strong>Armatura a Scaglie:</strong> –15%</li><li><strong>Corazza di Maglia:</strong> –20% (–10% se Corazza di Maglia Elfica)</li><li><strong>Scudo Indossato:</strong> Ulteriore –5% (se portato sulla schiena)</li></ul>",
+            "name": "Scalare Pareti Ripide (B)"
+        },
+        "Combat Bonuses (H)": {
+            "description": "<p>Gli Halfling ottengono un bonus di +1 a tutti i tiri per colpire quando usano armi a distanza, un bonus di +1 all'iniziativa individuale e un bonus di -2 alla CA quando vengono attaccati da creature più grandi di dimensioni umane.</p><p>Una creatura è considerata più grande di dimensioni umane se la sua descrizione include termini come \"gigante\", \"mastodontica\" o \"enorme\". Inoltre, le creature del mondo reale che il DM ritiene più grandi di un umano (come un cavallo) rientrano in questa categoria. Come linea guida generale, qualsiasi creatura non umanoide senza una dimensione specificata può essere considerata più grande di dimensioni umane se ha 4 o più Dadi Vita (DV)</p>",
+            "name": "Bonus in Combattimento (H)"
+        },
+        "Detect Evil (PA)": {
+            "description": "<p>Un Paladino può lanciare Individuazione del Male (come per l'<em data-start=\"66\" data-end=\"80\">incantesimo del chierico</em>) concentrandosi una volta per round. Questa capacità ha una portata di 36 m ma non può essere usata nello stesso round di un attacco.</p>",
+            "name": "Individuazione del Male (PA)"
+        },
+        "Detect Secret Door (E)": {
+            "description": "<p>Gli elfi hanno 1 probabilità su 3 di individuare porte segrete e nascoste quando le cercano attivamente, grazie alla loro vista acuta.</p>",
+            "name": "Individuare Porte Segrete (E)"
+        },
+        "Detection Skills (D)": {
+            "description": "<p>I nani possono individuare trappole, pareti mobili, corridoi in pendenza e nuove costruzioni con una probabilità di 1 su 3. Per cercare, il nano deve cercare attivamente queste caratteristiche e il DM tira 1d6; un tiro di 1 o 2 indica successo.</p>",
+            "name": "Capacità di individuazione (D)"
         }
     },
     "label": "Oggetti Classi Abilità",
