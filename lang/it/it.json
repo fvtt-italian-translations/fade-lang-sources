@@ -991,7 +991,7 @@
     },
     "SETTINGS": {
         "Encumbrance": {
-            "Hint": "Abilita il tracciamento automatico dell'ingombro e l'applicazione degli effetti di stato per i personaggi che trasportano troppo. Il Solo Armatura determina il movimento in base al peso dell'armatura stessa. Dark Dungeons prevede un carico massimo di 2400 monete e cinque velocità di movimento. Classic invece un carico massimo di 1600 monete e quattro velocità di movimento e tiene traccia del peso dell'armatura, delle armi e del tesoro, presuppone 80 monete per l'equipaggiamento da avventura e ha quattro velocità di movimento",
+            "Hint": "<p>Abilita il tracciamento automatico dell'ingombro e il calcolo delle velocità di movimento. L'impostazione \"Solo Armatura\" calcola il movimento in base al peso dell'armatura. \"Classic\" imposta un carico massimo di 1.600 monete, tiene traccia del peso di armature, armi e bottino, aggiungendo 80 monete per l'equipaggiamento da avventura e utilizzando quattro velocità di movimento. \"Dark Dungeons\" assume un carico massimo di 2.400 mon, tiene traccia del peso di tutti gli oggetti trasportati e utilizza cinque velocità di movimento.</p>",
             "Name": "Tracciatura Ingombro",
             "None": "Nessuna",
             "Basic": "Solo Armatura",
