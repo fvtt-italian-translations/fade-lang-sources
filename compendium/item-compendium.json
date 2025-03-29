@@ -2225,6 +2225,19 @@
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
+    "Potion of Flying": {
+      "description": "<p>The user may fly at up to 120' per round without tiring (as the effects of the magic-user spell).</p><p>This potion is contained in a delicate vial, its contents swirling with an enigmatic shimmer that defies description. A subtle, elusive fragrance wafts from it, hinting at possibilities beyond the ordinary.</p>",
+      "name": "Potion of Flying",
+      "unidentifiedDesc": "<p>This potion is contained in a delicate vial, its contents swirling with an enigmatic shimmer that defies description. A subtle, elusive fragrance wafts from it, hinting at possibilities beyond the ordinary.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Giant Strength": {
+      "description": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p><strong>Damage Increase:</strong> All weapon attacks inflict double normal damage.</p><p><strong>Boulder Throwing:</strong> The user can throw small boulders with a range of 60/130/200 feet, dealing 3d6 points of damage per hit.</p><p><strong>Compatibility Restriction:</strong> The potion does not work if the user is already benefiting from a strength-adjusting magical item (e.g., gauntlets of ogre power).</p><p>The potion swirls with a frosty blue hue, tiny crystalline flecks catching the light as it moves. Its scent is sharp and bracing, like icy mountain air, with an underlying metallic tang. On the tongue, it delivers a bitter chill and leaves a faint, numbing sensation, as if touched by frost.</p></div></div></div></div></div></div>",
+      "gmNotes": "A potion of Giant Strength. Lasts 1d6+1 turns.\nDamage Increase: All weapon attacks inflict double normal damage.\nBoulder Throwing: The user can throw small boulders with a range of 60/130/200 feet, dealing 3d6 points of damage per hit.\nCompatibility Restriction: The potion does not work if the user is already benefiting from a strength-adjusting magical item (e.g., gauntlets of ogre power).",
+      "name": "Potion of Giant Strength",
+      "unidentifiedDesc": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p>The potion swirls with a frosty blue hue, tiny crystalline flecks catching the light as it moves. Its scent is sharp and bracing, like icy mountain air, with an underlying metallic tang. On the tongue, it delivers a bitter chill and leaves a faint, numbing sensation, as if touched by frost.</p></div></div></div></div></div></div>",
+      "unidentifiedName": "Mysterious Potion"
+    },
     "Potion of Healing": {
       "description": "<p>This potion restores 2-7 hit points [[/r 1d6+1 #Potion of Healing hit points restored.]] or cures paralysis for a single creature. Its effects take place immediately upon consumption.</p>",
       "name": "Potion of Healing",
@@ -3198,6 +3211,12 @@
       "spellDuration": "Special",
       "spellEffect": "Creates 1000 cubic feet of stone"
     },
+    "Wand of Secret Door Detection (M)": {
+      "description": "<p>The user may find any secrer door within 20', using one charge per secret door found.</p><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This elegantly crafted wand is made from a shimmering silver wood, adorned with intricate carvings of ancient symbols. Its tip glows faintly with a soft, ethereal light, pulsating gently as if alive. When held, the wand seems to hum with a subtle energy, guiding its wielder with an intuitive warmth. A delicate crystal embedded in the handle refracts light in mesmerizing patterns, hinting at its hidden abilities.</span></p>",
+      "name": "Wand of Secret Door Detection (M)",
+      "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This elegantly crafted wand is made from a shimmering silver wood, adorned with intricate carvings of ancient symbols. Its tip glows faintly with a soft, ethereal light, pulsating gently as if alive. When held, the wand seems to hum with a subtle energy, guiding its wielder with an intuitive warmth. A delicate crystal embedded in the handle refracts light in mesmerizing patterns, hinting at its hidden abilities.</span></p>",
+      "unidentifiedName": "An Unusual Wand"
+    },
     "Warp Wood": {
       "description": "<p>This spell causes wooden weapons to bend and become useless. It affects one arrow for each level of the caster. A spear, javelin, or magical wand counts as two arrows, and a club, bow, or staff counts as four.</p>\n                <p>The spell does not affect other wooden items. If a magical wooden item is targeted, the wielder may make a saving throw vs. spells to avoid the effect. Items carried but not held get no saving throw. Magical items with \"pluses\" might not be affected, with a 10% chance per \"plus\" (for example, an arrow +1 has a 10% chance to be unaffected).</p>",
       "name": "Warp Wood",
@@ -3349,6 +3368,7 @@
     "Strength": "Strength",
     "Thief": "Thief",
     "Treasure": "Treasure",
+    "Wands": "Wands",
     "Weapon Masteries": "Weapon Masteries",
     "Weapons": "Weapons",
     "Wisdom": "Wisdom"
