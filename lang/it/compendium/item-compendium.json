@@ -3226,6 +3226,17 @@
         },
         "Detection (D)": {
             "description": "<p>I nani possono individuare trappole, muri scorrevoli, corridoi in pendenza e nuove costruzioni con una probabilità di 1 su 2. Per cercare, il nano deve cercare attivamente queste caratteristiche e il DM tira 1d6; un tiro di 1 o 2 indica successo.</p>"
+        },
+        "Mystic": {
+            "classLevels": {
+                "8": {
+                    "title": "Maestro"
+                },
+                "3": {
+                    "title": "Adepto"
+                }
+            },
+            "name": "Mistico"
         }
     },
     "label": "Oggetti Classi Abilità",
