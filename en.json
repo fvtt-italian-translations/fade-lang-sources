@@ -826,7 +826,7 @@
     "name": "Name",
     "none": "None",
     "notification": {
-      "advancedTime": "<div>Time advances {turns} turn(s) {rounds} round(s).</div>",
+      "advancedTime": "<div>Time advances.<br/>Turns: {turns}<br/>Rounds: {rounds}</div>",
       "missingItem": "The required item type ({type}) was not found or its quantity is zero.",
       "missingItem2": "{actor} does not have a {type}.",
       "needRest": "<div class='warning'>The party is tired and needs to rest.</div><div>Attack and damage rolls should have a -1 penatly until party rests.</div>",
@@ -835,7 +835,7 @@
       "noTokenWarning2": "You must select a token to perform this action.",
       "notMemorized": "{actorName} tries to cast {spellName}, but the spell is not memorized.",
       "partyRests": "The party rests.",
-      "reversedTime": "<div>Time goes back {turns} turn(s) {rounds} round(s).</div>",
+      "reversedTime": "<div>Time reverses.<br/>Turns: {turns}<br/>Rounds: {rounds}</div>",
       "selectTarget": "A targetted must first be selected.",
       "selectToken1": "A token must first be selected.",
       "spellSelectToken": "You must have your token selected to cast a spell.",
