@@ -196,7 +196,7 @@
             "Other": "Altro",
             "RetainerWage": "Paga",
             "explore": {
-                "long": "Explorazione",
+                "long": "Esplorazione",
                 "OpenDoor": {
                     "long": "Forzare porte o sollevare oggetti pesanti",
                     "short": "Forzare Porte",
@@ -829,8 +829,8 @@
             "missingItem2": "{actor} non ha un {type}.",
             "zeroQuantity": "{itemName} ha una quantità pari a zero e non può essere utilizzato/a.",
             "noAmmo": "{actorName} non ha munizioni equipaggiate per {weaponName}.",
-            "reversedTime": "<div>Si torna indietro di {turns} turno/i, {rounds} round(s).</div>",
-            "advancedTime": "<div>Si avanza di {turns} turno/i, {rounds} round(s).</div>",
+            "reversedTime": "<div>Il tempo va indietro.<br/>Giri: {turns}<br/>Rounds: {rounds}</div>",
+            "advancedTime": "<div>Il tempo va avanti.<br/>Turni: {turni}<br/>Round: {round}</div>",
             "needRest": "<div class='warning'>Il gruppo è stanco e ha bisogno di riposare.</div><div>I tiri per colpire e i danni subiscono una penalità di -1 fino a quando il gruppo non riposa.</div>",
             "timeReset1": "Azzeramento del conteggio dei turni della sessione.",
             "timeReset2": "Azzeramento del conteggio globale dei turni.",
@@ -1114,6 +1114,10 @@
         "turnDurationSec": {
             "hint": "Il numero di secondi che un turno rappresenta nel gioco. È utilizzato dal contatore di turni e spesso rappresenta una durata di dieci minuti, ma può variare. È importante chiarire che questa definizione di turno è diversa dai turni in combattimento.",
             "name": "Durata del Turno"
+        },
+        "showExplorationTarget": {
+            "hint": "Se abilitato, mostra il valore del tiro per il bersaglio sulla scheda del personaggio.",
+            "name": "Mostra Obiettivo Esplorazione"
         }
     },
     "TYPES": {
