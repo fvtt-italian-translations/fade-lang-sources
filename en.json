@@ -372,6 +372,9 @@
       "equipped": "Equipped",
       "isContainer": "Container",
       "isEquippable": "Equippable",
+      "isTreasure": {
+        "hint": "Specify if the item counts as treasure when calculating encumbrance."
+      },
       "isUsable": {
         "hint": "Specify if item can be used, which will also enable usage tracking for the item.",
         "name": "Usable"
