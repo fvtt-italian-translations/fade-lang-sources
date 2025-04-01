@@ -767,6 +767,7 @@
         "xpAmount": "XP Amount",
         "xpAmountTotal": "Total XP Amount"
       },
+      "cancel": "Cancel",
       "close": "Close",
       "confirm": "Are you sure?",
       "confirmInitiativeRoll": "One or more combatants have <strong>Nothing</strong> as their declared action. Rolling the group's initiative will freeze the declared actions. Are you sure you want to proceed with rolling the group's initiative?",
@@ -783,8 +784,14 @@
       "selected": "Selected",
       "shove": {
         "attackerRoll": "{attacker} Roll",
+        "calculate": "Calculate",
         "defenderResist": "{defender} Resist",
-        "resultsLabel": "Shove Results"
+        "failed": "The shove attempt failed.",
+        "result10": "<div>The defender is shoved 10 feet and must save vs. Paralysis at -2 or fall prone.</div>",
+        "result15": "<div>The defender is shoved 15 feet and must save vs. Paralysis at -4 or fall prone.</div>",
+        "result5": "<div>The defender is shoved 5 feet back.</div>",
+        "resultsLabel": "Shove Results",
+        "title": "Shove - Defender Resist Value"
       },
       "skillCheck": "Skill Check",
       "specialAbilities": {
