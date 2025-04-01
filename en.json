@@ -856,6 +856,7 @@
     "operator": "Operator",
     "penalty": "Penalty",
     "roll": "Roll",
+    "rollFormula": "Roll Formula",
     "rollMode": "Roll Mode",
     "rollWithCtrl": "<p>Roll {name} check.</p><p><i>Click to roll. Ctrl-click to roll without mod.</i></p>",
     "rounds": "rounds",
@@ -1005,6 +1006,9 @@
       "Hint": "Dark mode features a dark backround with light text and light mode features a light background with dark text.",
       "Light": "Light Mode",
       "Name": "Theme"
+    },
+    "abilityCheckFormula": {
+      "name": "Ability Check Roll Formula"
     },
     "abilityScoreModSystem": {
       "choices": {
