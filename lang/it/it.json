@@ -646,7 +646,13 @@
             "shove": {
                 "attackerRoll": "{attacker} tira i dadi",
                 "defenderResist": "{defender} resiste",
-                "resultsLabel": "Risultato della Spinta"
+                "resultsLabel": "Risultato della Spinta",
+                "result15": "",
+                "result5": "",
+                "title": "",
+                "calculate": "",
+                "failed": "",
+                "result10": ""
             },
             "wrestling": {
                 "attacker": "Attaccante",
@@ -677,7 +683,8 @@
                 "title": "Usare oggetto?",
                 "yesLabel": "Usa oggetto",
                 "content": "Vuoi utilizzare l'oggetto o visualizzarne solo la descrizione?"
-            }
+            },
+            "cancel": ""
         },
         "time": {
             "prev": "Indietro",
