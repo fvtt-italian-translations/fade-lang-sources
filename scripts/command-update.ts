@@ -81,6 +81,15 @@ async function handlePackFolders(pack: PackWithData, out: Compendium) {
   }
 }
 
+function getEntry(out: Compendium, entry: BaseEntry): TranslationStrings {
+  if (out[entry.name]) {
+    console.warn("duplicated entry: ", entry.name);
+  }
+  return (out[entry.name] = {
+    // __entry: entry as any
+  });
+}
+
 async function handleActor(
   pack: PackWithData<EntryActor>,
   common: TranslationStrings
@@ -94,7 +103,7 @@ async function handleActor(
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = (out.entries[entry.name] = {});
+    const outEntry: TranslationStrings = getEntry(out, entry);
     outEntry.name = entry.name;
     if (entry.system.biography) {
       outEntry.biography = entry.system.biography;
@@ -187,10 +196,25 @@ function handleItemEmbed(
     if (entry.system.species) {
       (common.classSpecies ??= {})[entry.system.species] = entry.system.species;
     }
-
     for (const [index, level] of entry.system.levels.entries()) {
+      const classLevels = (outEntry.classLevels ??= {});
+      const classLevel = (classLevels[`${index}`] ??= {});
       if (level.title) {
-        (outEntry.classLevels ??= {})[`${index}`] = { title: level.title };
+        classLevel.title = level.title;
+      }
+    }
+    for (const [index, ability] of entry.system.classAbilities.entries()) {
+      const classAbilities = (outEntry.classAbilities ??= {});
+      const classAbility = (classAbilities[`${index}`] ??= {});
+      if (ability.name) {
+        classAbility.name = ability.name;
+      }
+    }
+    for (const [index, item] of entry.system.classItems.entries()) {
+      const classItems = (outEntry.classItems ??= {});
+      const classItem = (classItems[`${index}`] ??= {});
+      if (item.name) {
+        classItem.name = item.name;
       }
     }
   }
@@ -209,7 +233,7 @@ async function handleItem(
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = (out.entries[entry.name] = {});
+    const outEntry: TranslationStrings = getEntry(out, entry);
     handleItemEmbed(outEntry, entry, common);
   }
 
@@ -227,7 +251,7 @@ async function handleMacro(pack: PackWithData<any>) {
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = (out.entries[entry.name] = {});
+    const outEntry: TranslationStrings = getEntry(out, entry);
     outEntry.name = entry.name;
   }
 
@@ -245,7 +269,7 @@ async function handleRollTable(pack: PackWithData<any>) {
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = (out.entries[entry.name] = {});
+    const outEntry: TranslationStrings = getEntry(out, entry);
     outEntry.name = entry.name;
   }
 
@@ -383,6 +407,13 @@ interface EntryItemClass extends EntryItemBase {
     species: string;
     levels: {
       title: string;
+      femaleTitle: string;
+    }[];
+    classAbilities: {
+      name: string;
+    }[];
+    classItems: {
+      name: string;
     }[];
   };
 }
