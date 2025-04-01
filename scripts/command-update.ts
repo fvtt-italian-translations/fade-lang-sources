@@ -82,10 +82,10 @@ async function handlePackFolders(pack: PackWithData, out: Compendium) {
 }
 
 function getEntry(out: Compendium, entry: BaseEntry): TranslationStrings {
-  if (out[entry.name]) {
+  if (out.entries[entry.name]) {
     console.warn("duplicated entry: ", entry.name);
   }
-  return (out[entry.name] = {
+  return (out.entries[entry.name] = {
     // __entry: entry as any
   });
 }
