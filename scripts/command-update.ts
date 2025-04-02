@@ -193,8 +193,13 @@ function handleItemEmbed(
     }
   }
   if (entry.type === "class") {
+    if (entry.system.alignment) {
+      const classAlignment = (common.classAlignment ??= {});
+      classAlignment[entry.system.alignment] = entry.system.alignment;
+    }
     if (entry.system.species) {
-      (common.classSpecies ??= {})[entry.system.species] = entry.system.species;
+      const classSpecies = (common.classSpecies ??= {});
+      classSpecies[entry.system.species] = entry.system.species;
     }
     for (const [index, level] of entry.system.levels.entries()) {
       const classLevels = (outEntry.classLevels ??= {});
@@ -216,6 +221,11 @@ function handleItemEmbed(
       if (item.name) {
         classItem.name = item.name;
       }
+    }
+  }
+  if (entry.type === "weapon") {
+    if (entry.system.mastery) {
+      outEntry.weaponMastery = entry.system.mastery;
     }
   }
 }
@@ -393,7 +403,9 @@ interface EntryItemSpell extends EntryItemBase {
 
 interface EntryItemWeapon extends EntryItemBase {
   type: "weapon";
-  system: SystemItemBase & {};
+  system: SystemItemBase & {
+    mastery: string;
+  };
 }
 
 interface EntryItemMastery extends EntryItemBase {
@@ -405,6 +417,7 @@ interface EntryItemClass extends EntryItemBase {
   type: "class";
   system: SystemItemBase & {
     species: string;
+    alignment: string;
     levels: {
       title: string;
       femaleTitle: string;
