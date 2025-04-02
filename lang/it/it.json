@@ -396,7 +396,7 @@
                 "name": "Usabile"
             },
             "isTreasure": {
-                "hint": ""
+                "hint": "Specificare se l'oggetto è considerato un tesoro nel calcolo dell'ingombro."
             }
         },
         "Weapon": {
@@ -446,7 +446,7 @@
                 "one": "1-Mano",
                 "oneAbbr": "1M",
                 "two": "2-Mani",
-                "twoAbbr": "2H"
+                "twoAbbr": "2M"
             },
             "setVsCharge": {
                 "desc": "Indica se quest'arma può essere usata per contrastare una carica.",
@@ -647,12 +647,12 @@
                 "attackerRoll": "{attacker} tira i dadi",
                 "defenderResist": "{defender} resiste",
                 "resultsLabel": "Risultato della Spinta",
-                "result15": "",
-                "result5": "",
-                "title": "",
-                "calculate": "",
-                "failed": "",
-                "result10": ""
+                "result15": "<div>Il difensore viene spinto a 4,5 m e deve salvarsi contro la paralisi con -4 o cadere prono.</div>",
+                "result5": "<div>Il difensore viene spinto indietro di 1,5 m.</div>",
+                "title": "Spinta - Valore Resistenza Difensore",
+                "calculate": "Calcola",
+                "failed": "Tentativo di spinta fallito.",
+                "result10": "<div>Il difensore viene spinto di 3 m e deve effettuare un tiro salvezza contro la paralisi a -2 o cadere prono.</div>"
             },
             "wrestling": {
                 "attacker": "Attaccante",
@@ -997,11 +997,12 @@
         },
         "changes": "Modifiche",
         "items": "Oggetti",
-        "type": "Tipo"
+        "type": "Tipo",
+        "rollFormula": "Tiro Formula"
     },
     "SETTINGS": {
         "Encumbrance": {
-            "Hint": "<p>Abilita il tracciamento automatico dell'ingombro e il calcolo delle velocità di movimento. L'impostazione \"Solo Armatura\" calcola il movimento in base al peso dell'armatura. \"Classic\" imposta un carico massimo di 1.600 monete, tiene traccia del peso di armature, armi e bottino, aggiungendo 80 monete per l'equipaggiamento da avventura e utilizzando quattro velocità di movimento. \"Dark Dungeons\" assume un carico massimo di 2.400 mon, tiene traccia del peso di tutti gli oggetti trasportati e utilizza cinque velocità di movimento.</p>",
+            "Hint": "Abilita il tracciamento automatico dell'ingombro e il calcolo delle velocità di movimento. L'impostazione \"Solo Armatura\" calcola il movimento in base al peso dell'armatura. \"Classic\" imposta un carico massimo di 1.600 monete, tiene traccia del peso di armature, armi e bottino, aggiungendo 80 mon per l'equipaggiamento da avventura e utilizzando quattro velocità di movimento. \"Dark Dungeons - BECMI\" assume un carico massimo di 2.400 mon, tiene traccia del peso di tutti gli oggetti trasportati e utilizza cinque velocità di movimento.",
             "Name": "Tracciatura Ingombro",
             "None": "Nessuna",
             "Basic": "Solo Armatura",
@@ -1128,6 +1129,9 @@
         "showExplorationTarget": {
             "hint": "Se abilitato, mostra il valore del tiro per il bersaglio sulla scheda del personaggio.",
             "name": "Mostra Obiettivo Esplorazione"
+        },
+        "abilityCheckFormula": {
+            "name": "Formula del Tiro del Controllo di Abilità"
         }
     },
     "TYPES": {
