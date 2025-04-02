@@ -82,12 +82,16 @@ async function handlePackFolders(pack: PackWithData, out: Compendium) {
 }
 
 function getEntry(out: Compendium, entry: BaseEntry): TranslationStrings {
-  if (out.entries[entry.name]) {
-    console.warn("duplicated entry: ", entry.name);
+  const newEntry: TranslationStrings = { _id: entry._id };
+  const previous = out.entries[entry.name];
+  if (previous) {
+    out.entries[entry.name] = Array.isArray(previous)
+      ? [...previous, newEntry]
+      : [previous, newEntry];
+    return newEntry;
   }
-  return (out.entries[entry.name] = {
-    // __entry: entry as any
-  });
+  out.entries[entry.name] = newEntry;
+  return newEntry;
 }
 
 async function handleActor(
@@ -103,7 +107,7 @@ async function handleActor(
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = getEntry(out, entry);
+    const outEntry = getEntry(out, entry);
     outEntry.name = entry.name;
     if (entry.system.biography) {
       outEntry.biography = entry.system.biography;
@@ -140,8 +144,7 @@ async function handleActor(
     }
   }
 
-  const outData = JSON.stringify(out, orderKeysReplacer, 2);
-  await writeFile(join("compendium", pack.name + ".json"), outData);
+  await exportPack(out, pack.name);
 }
 
 const commonSpellRange = ["Touch", "Personal"];
@@ -243,12 +246,11 @@ async function handleItem(
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = getEntry(out, entry);
+    const outEntry = getEntry(out, entry);
     handleItemEmbed(outEntry, entry, common);
   }
 
-  const outData = JSON.stringify(out, orderKeysReplacer, 2);
-  await writeFile(join("compendium", pack.name + ".json"), outData);
+  await exportPack(out, pack.name);
 }
 
 async function handleMacro(pack: PackWithData<any>) {
@@ -261,12 +263,11 @@ async function handleMacro(pack: PackWithData<any>) {
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = getEntry(out, entry);
+    const outEntry = getEntry(out, entry);
     outEntry.name = entry.name;
   }
 
-  const outData = JSON.stringify(out, orderKeysReplacer, 2);
-  await writeFile(join("compendium", pack.name + ".json"), outData);
+  await exportPack(out, pack.name);
 }
 
 async function handleRollTable(pack: PackWithData<any>) {
@@ -279,12 +280,11 @@ async function handleRollTable(pack: PackWithData<any>) {
   await handlePackFolders(pack, out);
 
   for (const entry of pack.entries) {
-    const outEntry: TranslationStrings = getEntry(out, entry);
+    const outEntry = getEntry(out, entry);
     outEntry.name = entry.name;
   }
 
-  const outData = JSON.stringify(out, orderKeysReplacer, 2);
-  await writeFile(join("compendium", pack.name + ".json"), outData);
+  await exportPack(out, pack.name);
 }
 
 type TranslationStrings = {
@@ -299,7 +299,7 @@ interface PackWithData<TData extends BaseEntry = BaseEntry> extends PackType {
 interface Compendium {
   label: string;
   mapping?: Record<string, string | { path: string; converter: string }>;
-  entries: TranslationStrings;
+  entries: Record<string, TranslationStrings | TranslationStrings[]>;
   folders?: Record<string, string>;
 }
 
@@ -454,6 +454,26 @@ type EntryItem =
   | EntryItemSpecialAbility;
 
 interface FolderEntry extends BaseEntry {}
+
+async function exportPack(out: Compendium, name: string) {
+  // fix duplicates
+  for (const [key, entry] of Object.entries(out.entries)) {
+    if (!Array.isArray(entry)) {
+      delete entry._id;
+      continue;
+    }
+    console.warn(
+      `pack ${name}, duplicated entry: ${key} (${entry.length} times)`
+    );
+    delete out.entries[key];
+    for (const e of entry) {
+      out.entries[`${key}@${e._id}`] = e;
+      delete e._id;
+    }
+  }
+  const outData = JSON.stringify(out, orderKeysReplacer, 2);
+  await writeFile(join("compendium", name + ".json"), outData);
+}
 
 function orderKeysReplacer(key: string, value: any) {
   if (value instanceof Object && !(value instanceof Array)) {
