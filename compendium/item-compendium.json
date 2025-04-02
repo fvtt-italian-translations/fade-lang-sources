@@ -220,23 +220,37 @@
       "description": "<p> The mystic is only surprised on a roll of 1 (on 1d6)</p>",
       "name": "Awareness"
     },
-    "Axe, Battle": {
-      "name": "Axe, Battle"
-    },
     "Axe, Battle +1": {
       "description": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
       "name": "Axe, Battle +1",
       "unidentifiedDesc": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
-      "unidentifiedName": "Axe, Battle"
+      "unidentifiedName": "Axe, Battle",
+      "weaponMastery": "Axe, Battle"
     },
-    "Axe, Hand": {
-      "name": "Axe, Hand"
+    "Axe, Battle@cmPtfMLPOc8Qdt2X": {
+      "description": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
+      "name": "Axe, Battle",
+      "unidentifiedDesc": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
+      "weaponMastery": "Axe, Battle"
+    },
+    "Axe, Battle@zvuQWDUougitaGAd": {
+      "name": "Axe, Battle"
     },
     "Axe, Hand +1": {
       "description": "<p>A hand axe is a one handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
       "name": "Axe, Hand +1",
       "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
-      "unidentifiedName": "Axe, Hand"
+      "unidentifiedName": "Axe, Hand",
+      "weaponMastery": "Axe, Hand"
+    },
+    "Axe, Hand@KlE02jJDCz0W1OGA": {
+      "description": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+      "name": "Axe, Hand",
+      "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+      "weaponMastery": "Axe, Hand"
+    },
+    "Axe, Hand@Xm4WH2asJt2oRKm1": {
+      "name": "Axe, Hand"
     },
     "Babble*": {
       "description": "<p>The reverse of *Speak with Monsters*, this spell prevents one creature from communicating in any way.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The target may attempt a saving throw vs. spells, but with a -2 penalty.</li>\n                        <li>If the save fails, the victim is unable to communicate for the spell’s duration.</li>\n                        <li>This includes all forms of communication: speech, hand gestures, writing, telepathy, etc.</li>\n                        <li>The victim can still cast spells but cannot use magic items requiring command words, as the words turn into gibberish.</li>\n                      </ul>\n                      <p><strong>Duration:</strong> 1 turn per level of the caster.</p>",
@@ -1011,7 +1025,13 @@
       "name": "Belt",
       "unidentifiedDesc": "<p>It's a belt made of leather.</p>"
     },
-    "Blackjack": {
+    "Blackjack@RksAN1Xa2JeKa7Im": {
+      "description": "<p>A blackjack, also known as a cosh, is a small leather club usually filled with sand. Blackjacks are too soft to do significant damage, but are very useful for temporarily knocking people unconscious without doing permanent damage.</p><p>The weapon has no effect on those wearing metal armor of any sort, or any unarmored monster of AC 0 or less. See rules for other details about this weapon, including the ability to knockout, stun and delay the victim.</p><p> </p>",
+      "name": "Blackjack",
+      "unidentifiedDesc": "<p>A blackjack, also known as a cosh, is a small leather club usually filled with sand. Blackjacks are too soft to do significant damage, but are very useful for temporarily knocking people unconscious without doing permanent damage.</p><p>The weapon has no effect on those wearing metal armor of any sort, or any unarmored monster of AC 0 or less. See rules for other details about this weapon, including the ability to knockout, stun and delay the victim.</p><p> </p>",
+      "weaponMastery": "Blackjack"
+    },
+    "Blackjack@dJE3Ix8k3YUNFr6M": {
       "name": "Blackjack"
     },
     "Blankout": {
@@ -1050,12 +1070,14 @@
     "Blowgun, Long": {
       "description": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
       "name": "Blowgun, Long",
-      "unidentifiedDesc": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>"
+      "unidentifiedDesc": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
+      "weaponMastery": "Blowgun, over 2'"
     },
     "Blowgun, Short": {
       "description": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
       "name": "Blowgun, Short",
-      "unidentifiedDesc": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>"
+      "unidentifiedDesc": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
+      "weaponMastery": "Blowgun, to 2'"
     },
     "Blowgun, over 2'": {
       "name": "Blowgun, over 2'"
@@ -1063,26 +1085,45 @@
     "Blowgun, to 2'": {
       "name": "Blowgun, to 2'"
     },
-    "Bola": {
-      "name": "Bola"
+    "Bola@4u775b0uMAQXFZp4": {
+      "description": "<p>This weapon consists of a cord with weighted balls at the ends, designed to be whirled and thrown at a target. While it deals minimal damage (1d2 points), it has the potential to entangle, slow, or delay the victim.</p><ul><li><p><strong>Critical Effect</strong>: If the attack roll is a natural 20 (excluding modifiers), the victim must make a saving throw vs. death ray. On a failed save, the victim is immediately paralyzed and will die from strangulation in [[/r 1d6+2#Rounds before dying of strangulation]]<strong> (3-8 rounds total)</strong> unless rescued. If freed, the victim remains paralyzed for [[/r 2d6#Rounds paralyzed]]<strong> (2-12 rounds)</strong>. Creatures that do not breathe (e.g., constructs) are immune to this effect.</p></li><li><p><strong>Normal Effect</strong>: If the attack roll succeeds but is not a natural 20, the victim must still make a saving throw vs. death ray. A successful save negates all effects except for damage. On a failed save, the effect depends on the victim’s size or experience level, as determined by the <strong>Weapon Special Effects Table</strong>.</p></li><li><p><strong>Escaping the Bola</strong>:</p><ul><li>The victim may attempt a new saving throw during the hand-to-hand combat phase of each round. A successful save means the bola has been removed.</li><li>If another character helps to remove the bola, the victim rolls their own saving throw vs. death ray with a <strong>+2 bonus</strong>.</li><li>The bola can also be destroyed. If the victim has an edged weapon and chooses to destroy it, they may spend <strong>1 round</strong> doing so. Otherwise, the bola remains intact, and the victim may choose to drop it or hold onto it.</li></ul></li><li><p><strong>Possible Effects (from the Weapon Special Effects Table)</strong>:</p><ul><li><strong>Entangle</strong>: The victim cannot attack, move, or cast spells until they successfully make a saving throw.</li><li><strong>Slow</strong>: The victim is slowed, moving and attacking at half their normal rate and unable to cast spells.</li><li><strong>Delay</strong>: The victim automatically loses individual initiative for the next round.</li></ul></li></ul><p>This weapon only affects solid creatures. Creatures such as wraiths, spectres, ethereal beings, or water-based monsters (e.g., water elementals) are immune.</p><ul><li><p><strong>Encumbrance</strong>: Bolas are cumbersome to carry and can become tangled. For each additional bola carried, the encumbrance triples:</p><ul><li>1 bola = 5 en</li><li>2 bolas = 15 en</li><li>3 bolas = 45 en, and so on.</li></ul></li></ul>",
+      "name": "Bola",
+      "unidentifiedDesc": "<p>This weapon consists of a cord with weighted balls at the ends, designed to be whirled and thrown at a target. While it deals minimal damage (1d2 points), it has the potential to entangle, slow, or delay the victim.</p><ul><li><p><strong>Critical Effect</strong>: If the attack roll is a natural 20 (excluding modifiers), the victim must make a saving throw vs. death ray. On a failed save, the victim is immediately paralyzed and will die from strangulation in [[/r 1d6+2#Rounds before dying of strangulation]]<strong> (3-8 rounds total)</strong> unless rescued. If freed, the victim remains paralyzed for [[/r 2d6#Rounds paralyzed]]<strong> (2-12 rounds)</strong>. Creatures that do not breathe (e.g., constructs) are immune to this effect.</p></li><li><p><strong>Normal Effect</strong>: If the attack roll succeeds but is not a natural 20, the victim must still make a saving throw vs. death ray. A successful save negates all effects except for damage. On a failed save, the effect depends on the victim’s size or experience level, as determined by the <strong>Weapon Special Effects Table</strong>.</p></li><li><p><strong>Escaping the Bola</strong>:</p><ul><li>The victim may attempt a new saving throw during the hand-to-hand combat phase of each round. A successful save means the bola has been removed.</li><li>If another character helps to remove the bola, the victim rolls their own saving throw vs. death ray with a <strong>+2 bonus</strong>.</li><li>The bola can also be destroyed. If the victim has an edged weapon and chooses to destroy it, they may spend <strong>1 round</strong> doing so. Otherwise, the bola remains intact, and the victim may choose to drop it or hold onto it.</li></ul></li><li><p><strong>Possible Effects (from the Weapon Special Effects Table)</strong>:</p><ul><li><strong>Entangle</strong>: The victim cannot attack, move, or cast spells until they successfully make a saving throw.</li><li><strong>Slow</strong>: The victim is slowed, moving and attacking at half their normal rate and unable to cast spells.</li><li><strong>Delay</strong>: The victim automatically loses individual initiative for the next round.</li></ul></li></ul><p>This weapon only affects solid creatures. Creatures such as wraiths, spectres, ethereal beings, or water-based monsters (e.g., water elementals) are immune.</p><ul><li><p><strong>Encumbrance</strong>: Bolas are cumbersome to carry and can become tangled. For each additional bola carried, the encumbrance triples:</p><ul><li>1 bola = 5 en</li><li>2 bolas = 15 en</li><li>3 bolas = 45 en, and so on.</li></ul></li></ul>"
     },
-    "Bow, Long": {
-      "name": "Bow, Long"
+    "Bola@ZO4T66UN5EoZgGGA": {
+      "name": "Bola"
     },
     "Bow, Long +1": {
       "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
       "name": "Bow, Long +1",
       "unidentifiedDesc": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
-      "unidentifiedName": "Bow, Long"
+      "unidentifiedName": "Bow, Long",
+      "weaponMastery": "Bow, Long"
     },
-    "Bow, Short": {
-      "name": "Bow, Short"
+    "Bow, Long@0Jf2W2MElEhO23aX": {
+      "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
+      "name": "Bow, Long",
+      "unidentifiedDesc": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
+      "weaponMastery": "Bow, Long"
+    },
+    "Bow, Long@DEfN5wCW1QE5g60q": {
+      "name": "Bow, Long"
     },
     "Bow, Short +1": {
       "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
       "name": "Bow, Short +1",
       "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
-      "unidentifiedName": "Bow, Short"
+      "unidentifiedName": "Bow, Short",
+      "weaponMastery": "Bow, Short"
+    },
+    "Bow, Short@CnlBl1rnFo1yEYZE": {
+      "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+      "name": "Bow, Short",
+      "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+      "weaponMastery": "Bow, Short"
+    },
+    "Bow, Short@h8Giak8qWvAz3bgI": {
+      "name": "Bow, Short"
     },
     "Boxing": {
       "name": "Boxing"
@@ -1152,10 +1193,14 @@
       "description": "<p>The character knows how to honor an Immortal through ritual and ceremony. This skill allows a cleric to perform normal rituals of their order and could permit a character to gain an Immortal's attention through devout prayer, fasting, or sacrifice. This skill includes knowledge of rituals pleasing to the Immortal.</p>",
       "name": "Ceremony (choose specific Immortal)"
     },
-    "Cestus": {
+    "Cestus@EKVqXGRILWWf9GYm": {
+      "name": "Cestus"
+    },
+    "Cestus@zuJutH4zGWRzZltK": {
       "description": "<p>The <strong>cestus</strong> (plural: <em>cesti</em>) is a type of glove or hand-wrap with rough, cutting edges on the back, designed to increase the damage of punching attacks. If the campaign includes the optional rules for using two weapons, a character does not incur the -4 penalty when using a cestus on their offhand.</p>",
       "name": "Cestus",
-      "unidentifiedDesc": "<p>The <strong>cestus</strong> (plural: <em>cesti</em>) is a type of glove or hand-wrap with rough, cutting edges on the back, designed to increase the damage of punching attacks. If the campaign includes the optional rules for using two weapons, a character does not incur the -4 penalty when using a cestus on their offhand.</p>"
+      "unidentifiedDesc": "<p>The <strong>cestus</strong> (plural: <em>cesti</em>) is a type of glove or hand-wrap with rough, cutting edges on the back, designed to increase the damage of punching attacks. If the campaign includes the optional rules for using two weapons, a character does not incur the -4 penalty when using a cestus on their offhand.</p>",
+      "weaponMastery": "Cestus"
     },
     "Chain Mail": {
       "description": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
@@ -1337,13 +1382,15 @@
     "Club": {
       "description": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
       "name": "Club",
-      "unidentifiedDesc": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>"
+      "unidentifiedDesc": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
+      "weaponMastery": "Club or Torch"
     },
     "Club +1": {
       "description": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
       "name": "Club +1",
       "unidentifiedDesc": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
-      "unidentifiedName": "Club"
+      "unidentifiedName": "Club",
+      "weaponMastery": "Club or Torch"
     },
     "Club or Torch": {
       "name": "Club or Torch"
@@ -1493,13 +1540,15 @@
     "Crossbow, Hvy": {
       "description": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
       "name": "Crossbow, Hvy",
-      "unidentifiedDesc": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>"
+      "unidentifiedDesc": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
+      "weaponMastery": "Crossbow, Heavy"
     },
     "Crossbow, Hvy +1": {
       "description": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
       "name": "Crossbow, Hvy +1",
       "unidentifiedDesc": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
-      "unidentifiedName": "Crossbow, Hvy"
+      "unidentifiedName": "Crossbow, Hvy",
+      "weaponMastery": "Crossbow, Heavy"
     },
     "Crossbow, Light": {
       "name": "Crossbow, Light"
@@ -1507,13 +1556,15 @@
     "Crossbow, Lt": {
       "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
       "name": "Crossbow, Lt",
-      "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>"
+      "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+      "weaponMastery": "Crossbow, Light"
     },
     "Crossbow, Lt +1": {
       "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
       "name": "Crossbow, Lt +1",
       "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
-      "unidentifiedName": "Crossbow, Lt"
+      "unidentifiedName": "Crossbow, Lt",
+      "weaponMastery": "Crossbow, Light"
     },
     "Crystal": {
       "description": "<p>A crystal gemstone is typically transparent, showcasing a clear and faceted structure that reflects light, creating a sparkling effect. Its clarity and sharp edges make it highly valued for its brilliance and aesthetic appeal, commonly used in jewelry and decorative items.</p>",
@@ -1560,27 +1611,34 @@
       "name": "Curse* (C)",
       "spellEffect": "Removes any one curse"
     },
-    "Dagger": {
-      "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
-      "name": "Dagger",
-      "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>"
-    },
     "Dagger +1": {
       "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. This dagger has a damage bonus of [[@mod.dmg]] and a to-hit bonus of [[@mod.toHit]].</p><p></p>",
       "name": "Dagger +1",
       "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
-      "unidentifiedName": "Dagger"
+      "unidentifiedName": "Dagger",
+      "weaponMastery": "Dagger"
     },
     "Dagger, Silver": {
       "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
       "name": "Dagger, Silver",
-      "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>"
+      "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
+      "weaponMastery": "Dagger"
     },
     "Dagger, Silver +1": {
       "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
       "name": "Dagger, Silver +1",
       "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
-      "unidentifiedName": "Dagger, Silver"
+      "unidentifiedName": "Dagger, Silver",
+      "weaponMastery": "Dagger"
+    },
+    "Dagger@BNJmlgLFy9eGjCnQ": {
+      "name": "Dagger"
+    },
+    "Dagger@GDdHrRnx7lkkKkmJ": {
+      "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+      "name": "Dagger",
+      "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+      "weaponMastery": "Dagger"
     },
     "Dance": {
       "description": "<p>This spell forces the touched victim to dance uncontrollably, performing a wild jig or similar movement, preventing them from taking meaningful actions.</p>\n                    \n                    <h3>Effects:</h3>\n                    <ul>\n                      <li>The caster must <strong>touch</strong> the target (requires a successful melee attack roll).</li>\n                      <li>The victim receives <strong>no saving throw</strong> to resist.</li>\n                      <li>While dancing, the victim:</li>\n                      <ul>\n                        <li><strong>Cannot attack</strong>, cast spells, or flee.</li>\n                        <li><strong>-4 penalty to all saving throws.</strong></li>\n                        <li><strong>+4 penalty to Armor Class.</strong></li>\n                      </ul>\n                    </ul>\n\n                    <h3>Duration:</h3>\n                    <p>The duration of the effect is based on the caster’s level:</p>\n                    <ul>\n                      <li><strong>Levels 18-20:</strong> [[/r 3 #Rounds of dancing]]</li>\n                      <li><strong>Levels 21-24:</strong> [[/r 4 #Rounds of dancing]]</li>\n                      <li><strong>Levels 25-28:</strong> [[/r 5 #Rounds of dancing]]</li>\n                      <li><strong>Levels 29-32:</strong> [[/r 6 #Rounds of dancing]]</li>\n                      <li><strong>Levels 33-36:</strong> [[/r 7 #Rounds of dancing]]</li>\n                    </ul>",
@@ -2125,15 +2183,19 @@
       "description": "<p>To search for traps, the player must specify the exact area they are examining, such as a 20-foot square room or a 20-foot corridor. Searching takes one turn (10 minutes) per area, and the Dungeon Master rolls to determine success. Thieves have a percentage-based chance to detect traps, determined by their level, while dwarves have a superior chance to locate large mechanical traps, such as pit traps, due to their natural affinity with stonework. The DM may modify the difficulty for especially hidden traps. Non-thief characters generally cannot detect traps unless their presence is obvious​​.</p>",
       "name": "Find Trap"
     },
-    "Find Traps": {
+    "Find Traps (B)": {
+      "description": "<p data-start=\"22\" data-end=\"277\">A Bard can detect hidden or magical traps with the same chance as a Thief of the same level. This requires careful inspection and takes <strong data-start=\"158\" data-end=\"188\">one round per 10-foot area</strong>. Unlike a Thief, a Bard <strong data-start=\"213\" data-end=\"236\">cannot Remove Traps</strong> but can warn others of their presence.</p><h4 data-start=\"279\" data-end=\"306\">Armor Penalties:</h4><ul data-start=\"307\" data-end=\"376\" data-is-last-node=\"\"><li data-start=\"307\" data-end=\"330\"><strong data-start=\"309\" data-end=\"324\">Scale Mail:</strong> –5%</li><li data-start=\"331\" data-end=\"376\" data-is-last-node=\"\"><strong data-start=\"333\" data-end=\"348\">Chain Mail:</strong> –10% (–5% if Elven Chain)</li></ul>",
+      "name": "Find Traps (B)"
+    },
+    "Find Traps@8S7I45ND2XGwlJ45": {
+      "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
+      "name": "Find Traps"
+    },
+    "Find Traps@ruJLZD4L4Qkzg8RU": {
       "description": "<p>This spell causes all mechanical and magical traps within 30' of the spellcaster to emit a faint blue glow. While it reveals the presence of traps, it does not provide information on their type or how to disarm them. Ambushes or natural hazards like quicksand are not considered traps and will not be revealed by this spell.</p>",
       "name": "Find Traps",
       "spellEffect": "Traps within 30' glow",
       "spellRange": "0 (caster only)"
-    },
-    "Find Traps (B)": {
-      "description": "<p data-start=\"22\" data-end=\"277\">A Bard can detect hidden or magical traps with the same chance as a Thief of the same level. This requires careful inspection and takes <strong data-start=\"158\" data-end=\"188\">one round per 10-foot area</strong>. Unlike a Thief, a Bard <strong data-start=\"213\" data-end=\"236\">cannot Remove Traps</strong> but can warn others of their presence.</p><h4 data-start=\"279\" data-end=\"306\">Armor Penalties:</h4><ul data-start=\"307\" data-end=\"376\" data-is-last-node=\"\"><li data-start=\"307\" data-end=\"330\"><strong data-start=\"309\" data-end=\"324\">Scale Mail:</strong> –5%</li><li data-start=\"331\" data-end=\"376\" data-is-last-node=\"\"><strong data-start=\"333\" data-end=\"348\">Chain Mail:</strong> –10% (–5% if Elven Chain)</li></ul>",
-      "name": "Find Traps (B)"
     },
     "Find the Path": {
       "description": "<p>By casting this spell, the cleric gains the ability to navigate toward a specific place, even if they have never been there before. For the duration of the spell, the cleric instinctively knows the direction to their destination.</p>\n                      <p><strong>Special Knowledge:</strong> In addition to knowing the correct path, the cleric gains magical awareness of any special knowledge needed to reach the location. This may include:</p>\n                      <ul>\n                        <li>The location of secret doors</li>\n                        <li>Hidden or obscured passages</li>\n                        <li>Passwords required to gain entry</li>\n                      </ul>\n                      <p><strong>Duration Effects:</strong> When the spell ends, the cleric retains only a general sense of the direction to the destination; all other special knowledge is forgotten.</p>\n                      <p><strong>Restriction:</strong> If the cleric attempts to record or disclose the special knowledge to others in any way, the spell is instantly negated.</p>\n                      <p>This spell is often used to find fast escape routes or to navigate unknown terrain.</p>",
@@ -2263,14 +2325,21 @@
       "spellEffect": "Provides AC bonus and bardic spell-song immunity",
       "spellRange": "0 (bard + recipients only)"
     },
-    "Halberd": {
-      "name": "Halberd"
-    },
     "Halberd +1": {
       "description": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
       "name": "Halberd +1",
       "unidentifiedDesc": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
-      "unidentifiedName": "Halberd"
+      "unidentifiedName": "Halberd",
+      "weaponMastery": "Halberd"
+    },
+    "Halberd@2UWnXlZ2iehdlsuM": {
+      "description": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
+      "name": "Halberd",
+      "unidentifiedDesc": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
+      "weaponMastery": "Halberd"
+    },
+    "Halberd@75QE39yfWqwqyWqL": {
+      "name": "Halberd"
     },
     "Halfling": {
       "classAbilities": {
@@ -2355,23 +2424,37 @@
       "name": "Hammer, Small",
       "unidentifiedDesc": "<p>Used to drive iron spikes into hard surfaces such as stone or wood. It can also be wielded as a weapon, dealing 1d3 points of damage. This item is necessary for setting up certain equipment like ropes or tents.</p>"
     },
-    "Hammer, Throwing": {
-      "name": "Hammer, Throwing"
-    },
     "Hammer, Throwing +1": {
       "description": "<p>A throwing hammer is a one-handed hammer with a short haft, and is weighted for throwing. Despite the name, it can also be used in melee.</p>",
       "name": "Hammer, Throwing +1",
       "unidentifiedDesc": "<p>A throwing hammer is a one-handed hammer with a short haft, and is weighted for throwing. Despite the name, it can also be used in melee.</p>",
-      "unidentifiedName": "Hammer, Throwing"
+      "unidentifiedName": "Hammer, Throwing",
+      "weaponMastery": "Hammer, Throwing"
     },
-    "Hammer, War": {
-      "name": "Hammer, War"
+    "Hammer, Throwing@HkT7WoeYJNCRi5JJ": {
+      "description": "<p>A throwing hammer is a one-handed hammer with a short haft, and is weighted for throwing. Despite the name, it can also be used in melee.</p>",
+      "name": "Hammer, Throwing",
+      "unidentifiedDesc": "<p>A throwing hammer is a one-handed hammer with a short haft, and is weighted for throwing. Despite the name, it can also be used in melee.</p>",
+      "weaponMastery": "Hammer, Throwing"
+    },
+    "Hammer, Throwing@e083tcfrTtobFJqA": {
+      "name": "Hammer, Throwing"
     },
     "Hammer, War +1": {
       "description": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
       "name": "Hammer, War +1",
       "unidentifiedDesc": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
-      "unidentifiedName": "Hammer, War"
+      "unidentifiedName": "Hammer, War",
+      "weaponMastery": "Hammer, War"
+    },
+    "Hammer, War@JbGxnUvAzBMKZuBX": {
+      "description": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
+      "name": "Hammer, War",
+      "unidentifiedDesc": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
+      "weaponMastery": "Hammer, War"
+    },
+    "Hammer, War@S1esHYaQ6gvqielc": {
+      "name": "Hammer, War"
     },
     "Hand Drum": {
       "description": "<p>A frame drum that was used in various forms of music. Although it can be played with the hand, it is often accompanied by a stick or beater.</p>",
@@ -2579,16 +2662,21 @@
       "name": "Jasper",
       "unidentifiedDesc": "<p>Jasper is an opaque gemstone featuring earthy tones like red, brown, and yellow. It often has unique natural patterns and a smooth, polished surface, highlighting its rich colors and intricate designs. Jasper is valued for its grounding and protective qualities in various cultures.</p>"
     },
-    "Javelin": {
-      "description": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
-      "name": "Javelin",
-      "unidentifiedDesc": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>"
-    },
     "Javelin +1": {
       "description": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
       "name": "Javelin +1",
       "unidentifiedDesc": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
-      "unidentifiedName": "Javelin"
+      "unidentifiedName": "Javelin",
+      "weaponMastery": "Javelin"
+    },
+    "Javelin@28Xz895ZHD2UMukN": {
+      "name": "Javelin"
+    },
+    "Javelin@4PRKm7wgHL8tjrkB": {
+      "description": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
+      "name": "Javelin",
+      "unidentifiedDesc": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
+      "weaponMastery": "Javelin"
     },
     "Knock": {
       "description": "<p>This spell unlocks any type of lock, including normal and magically locked doors (such as those affected by <em>hold portal</em> or <em>wizard lock</em>). It can also open secret doors, but the door must be located first. The spell does not permanently remove locking magic, which will re-engage once the door is closed again.</p>\n                  <p><em>Knock</em> can unstick a gate, cause a barred door to open (forcing the bar to fall), and make treasure chests open easily. However, if a door is both locked and barred, only one of the locks will be affected.</p>\n                  <p><strong>Note:</strong> If the lock is affected by a spell, the target can make a saving throw vs. spells to resist.</p>",
@@ -2610,18 +2698,25 @@
       "description": "<p>This skill represents expertise in one type of manual labor such as bricklaying, farming, mining, or stonecutting. Characters can make their living with this skill and interpret information related to their occupation. Specify which type of labor the skill pertains to, such as <strong>bricklaying</strong>, <strong>mining</strong>, or <strong>stonecutting</strong>. A character can select multiple Labor skills, each representing a different proficiency.</p>",
       "name": "Labor"
     },
-    "Lance": {
-      "name": "Lance"
-    },
     "Lance +1": {
       "description": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
       "name": "Lance +1",
       "unidentifiedDesc": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
-      "unidentifiedName": "Lance"
+      "unidentifiedName": "Lance",
+      "weaponMastery": "Lance"
     },
     "Lance Attack": {
       "description": "<p>When mounted and using a lance, a character can perform a powerful charge attack. If the attack is successful, the character gains double their Strength modifier to the damage roll. This ability is most effective when charging against opponents.</p>",
       "name": "Lance Attack"
+    },
+    "Lance@gUUAH9zgkDIZn6FS": {
+      "description": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
+      "name": "Lance",
+      "unidentifiedDesc": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
+      "weaponMastery": "Lance"
+    },
+    "Lance@vASYhx44JCoiRfao": {
+      "name": "Lance"
     },
     "Language (choose type)": {
       "description": "<p>Allows the character to speak and read a specific language beyond their normal allocation. Each additional language is chosen separately, such as <strong>Elvish</strong>, <strong>Dwarven</strong>, or <strong>Thyatian</strong>. The character must make a skill check to understand technical or fast-paced speech in these additional languages. </p>",
@@ -2734,20 +2829,28 @@
       "name": "Lute",
       "unidentifiedName": "Lute"
     },
-    "Mace": {
-      "name": "Mace"
-    },
     "Mace +1": {
       "description": "<p>A magic mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
       "name": "Mace +1",
       "unidentifiedDesc": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
-      "unidentifiedName": "Mace"
+      "unidentifiedName": "Mace",
+      "weaponMastery": "Mace"
     },
     "Mace +2": {
       "description": "<p>A magic mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
       "name": "Mace +2",
       "unidentifiedDesc": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
-      "unidentifiedName": "Mace"
+      "unidentifiedName": "Mace",
+      "weaponMastery": "Mace"
+    },
+    "Mace@BPEBQB0DJ9Vm4E5A": {
+      "description": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+      "name": "Mace",
+      "unidentifiedDesc": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+      "weaponMastery": "Mace"
+    },
+    "Mace@XvoTtuQrsmpMJROH": {
+      "name": "Mace"
     },
     "Magic Door*": {
       "description": "<p>This spell creates a magical, invisible doorway that only the spellcaster may use. It forms a passage through up to <strong>10 feet</strong> of non-living solid material (wall, floor, ceiling, or ground). The door cannot be created in living objects.</p>\n\n                    <h3>Mechanics & Rules:</h3>\n                    <ul>\n                      <li>The door is <strong>invisible</strong> and can only be detected by <em>Detect Magic</em>.</li>\n                      <li>It <strong>cannot be destroyed</strong> except by <em>Dispel Magic</em> (normal chances for success).</li>\n                      <li>The passage remains until it has been used <strong>seven times</strong> (each one-way passage counts as a use) or is dispelled.</li>\n                    </ul>",
@@ -3401,7 +3504,8 @@
     "Net (6'x6')": {
       "description": "<p>A net is an open weave of rope or cord that serves as a versatile tool and weapon. Small nets, measuring up to 10' x 10', are commonly used in hunting and adventuring. They can function as either hand-to-hand or thrown weapons. The encumbrance of a net depends on its size. Widely available in most campaign settings, nets are inexpensive but easily damaged. They are one of humanity’s earliest tools, used since prehistoric times, and are popular among humanoid monsters for hunting and defense.</p><p>Nets are only effective against creatures with a solid form. They do not work on wraiths, spectres, ethereal beings, or creatures made of water, like water elementals. While nets cause no physical damage, they can entangle, slow, or delay a target. To ensnare a target, the wielder must succeed on a normal attack roll. If successful, the target must then make a saving throw vs. death ray, potentially with bonuses from the Weapon Special Effects Table. A successful save negates the effect, and the net falls away harmlessly. Failure results in one of several effects depending on the target's size or experience.</p><p>An entangled victim may attempt a saving throw each round during the hand-to-hand combat phase to free themselves. Success indicates the net has been removed. If the target has a dagger (but not a longer or non-bladed weapon) in hand when ensnared, they gain a +4 bonus to their saving throw. If successful, the dagger cuts through and destroys the net.</p><h3>Net and Target Size:</h3><p>Nets are sized to correspond with the dimensions of their intended targets. Targets larger than the net gain bonuses to their saving throw based on the difference in size. For each size category larger, the target receives a +4 bonus to the save. A natural roll of 1 is always a failure unless the total bonus is +20 or more. The Nets Table provides the appropriate net size for various victim sizes.</p><h4>Nets Table:</h4><table><thead><tr><th>Victim's Size</th><th>Approximate Height</th><th>Net Size</th></tr></thead><tbody><tr><td>Very small</td><td>Up to 1'</td><td>2' x 2'</td></tr><tr><td>Small</td><td>1+ to 3'</td><td>4' x 4'</td></tr><tr><td>Medium</td><td>3+ to 6'</td><td>6' x 6'</td></tr><tr><td>Large</td><td>6+ to 10'</td><td>9' x 9'</td></tr><tr><td>Very large</td><td>10+ to 15'</td><td>12' x 12'</td></tr><tr><td>Huge</td><td>15+ to 20'</td><td>16' x 16'</td></tr><tr><td>Mammoth</td><td>20+ to 30'</td><td>25' x 25'</td></tr></tbody></table><p>Nets measuring 6' x 6' or smaller can be wielded with one hand. Larger nets require two hands and are subject to penalties associated with two-handed weapons. The wielder cannot use a shield, always loses individual initiative against those not using two-handed weapons, and halflings or small humanoids (like goblins) cannot use nets larger than 6' x 6'.</p><h3>Magical Nets:</h3><p>Magical nets are rare and impervious to all but fire or acid. Daggers and other weapons cannot cut through them, and an ensnared victim can only remove the net, not destroy it.</p><h3>Effects of Ensnarement:</h3><p>When ensnared, a victim suffers one of the following effects, as determined by the Weapon Special Effects Table:</p><ul><li><strong>Entangle</strong>: The victim cannot move, attack, or cast spells until a successful saving throw.</li><li><strong>Slow</strong>: The victim’s movement and attacks are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><h3>Durability and Repair:</h3><p>A net is easily damaged by edged weapons, claws, or bites. If damaged, it becomes useless unless repaired. Repairing a net requires 1d3 turns of uninterrupted work with rope or cord.</p><p>A well-maintained net remains a practical and effective tool for adventurers, offering non-lethal means of control and strategy in combat.</p>",
       "name": "Net (6'x6')",
-      "unidentifiedDesc": "<p>A net is an open weave of rope or cord that serves as a versatile tool and weapon. Small nets, measuring up to 10' x 10', are commonly used in hunting and adventuring. They can function as either hand-to-hand or thrown weapons. The encumbrance of a net depends on its size. Widely available in most campaign settings, nets are inexpensive but easily damaged. They are one of humanity’s earliest tools, used since prehistoric times, and are popular among humanoid monsters for hunting and defense.</p><p>Nets are only effective against creatures with a solid form. They do not work on wraiths, spectres, ethereal beings, or creatures made of water, like water elementals. While nets cause no physical damage, they can entangle, slow, or delay a target. To ensnare a target, the wielder must succeed on a normal attack roll. If successful, the target must then make a saving throw vs. death ray, potentially with bonuses from the Weapon Special Effects Table. A successful save negates the effect, and the net falls away harmlessly. Failure results in one of several effects depending on the target's size or experience.</p><p>An entangled victim may attempt a saving throw each round during the hand-to-hand combat phase to free themselves. Success indicates the net has been removed. If the target has a dagger (but not a longer or non-bladed weapon) in hand when ensnared, they gain a +4 bonus to their saving throw. If successful, the dagger cuts through and destroys the net.</p><h3>Net and Target Size:</h3><p>Nets are sized to correspond with the dimensions of their intended targets. Targets larger than the net gain bonuses to their saving throw based on the difference in size. For each size category larger, the target receives a +4 bonus to the save. A natural roll of 1 is always a failure unless the total bonus is +20 or more. The Nets Table provides the appropriate net size for various victim sizes.</p><h4>Nets Table:</h4><table><thead><tr><th>Victim's Size</th><th>Approximate Height</th><th>Net Size</th></tr></thead><tbody><tr><td>Very small</td><td>Up to 1'</td><td>2' x 2'</td></tr><tr><td>Small</td><td>1+ to 3'</td><td>4' x 4'</td></tr><tr><td>Medium</td><td>3+ to 6'</td><td>6' x 6'</td></tr><tr><td>Large</td><td>6+ to 10'</td><td>9' x 9'</td></tr><tr><td>Very large</td><td>10+ to 15'</td><td>12' x 12'</td></tr><tr><td>Huge</td><td>15+ to 20'</td><td>16' x 16'</td></tr><tr><td>Mammoth</td><td>20+ to 30'</td><td>25' x 25'</td></tr></tbody></table><p>Nets measuring 6' x 6' or smaller can be wielded with one hand. Larger nets require two hands and are subject to penalties associated with two-handed weapons. The wielder cannot use a shield, always loses individual initiative against those not using two-handed weapons, and halflings or small humanoids (like goblins) cannot use nets larger than 6' x 6'.</p><h3>Magical Nets:</h3><p>Magical nets are rare and impervious to all but fire or acid. Daggers and other weapons cannot cut through them, and an ensnared victim can only remove the net, not destroy it.</p><h3>Effects of Ensnarement:</h3><p>When ensnared, a victim suffers one of the following effects, as determined by the Weapon Special Effects Table:</p><ul><li><strong>Entangle</strong>: The victim cannot move, attack, or cast spells until a successful saving throw.</li><li><strong>Slow</strong>: The victim’s movement and attacks are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><h3>Durability and Repair:</h3><p>A net is easily damaged by edged weapons, claws, or bites. If damaged, it becomes useless unless repaired. Repairing a net requires 1d3 turns of uninterrupted work with rope or cord.</p><p>A well-maintained net remains a practical and effective tool for adventurers, offering non-lethal means of control and strategy in combat.</p>"
+      "unidentifiedDesc": "<p>A net is an open weave of rope or cord that serves as a versatile tool and weapon. Small nets, measuring up to 10' x 10', are commonly used in hunting and adventuring. They can function as either hand-to-hand or thrown weapons. The encumbrance of a net depends on its size. Widely available in most campaign settings, nets are inexpensive but easily damaged. They are one of humanity’s earliest tools, used since prehistoric times, and are popular among humanoid monsters for hunting and defense.</p><p>Nets are only effective against creatures with a solid form. They do not work on wraiths, spectres, ethereal beings, or creatures made of water, like water elementals. While nets cause no physical damage, they can entangle, slow, or delay a target. To ensnare a target, the wielder must succeed on a normal attack roll. If successful, the target must then make a saving throw vs. death ray, potentially with bonuses from the Weapon Special Effects Table. A successful save negates the effect, and the net falls away harmlessly. Failure results in one of several effects depending on the target's size or experience.</p><p>An entangled victim may attempt a saving throw each round during the hand-to-hand combat phase to free themselves. Success indicates the net has been removed. If the target has a dagger (but not a longer or non-bladed weapon) in hand when ensnared, they gain a +4 bonus to their saving throw. If successful, the dagger cuts through and destroys the net.</p><h3>Net and Target Size:</h3><p>Nets are sized to correspond with the dimensions of their intended targets. Targets larger than the net gain bonuses to their saving throw based on the difference in size. For each size category larger, the target receives a +4 bonus to the save. A natural roll of 1 is always a failure unless the total bonus is +20 or more. The Nets Table provides the appropriate net size for various victim sizes.</p><h4>Nets Table:</h4><table><thead><tr><th>Victim's Size</th><th>Approximate Height</th><th>Net Size</th></tr></thead><tbody><tr><td>Very small</td><td>Up to 1'</td><td>2' x 2'</td></tr><tr><td>Small</td><td>1+ to 3'</td><td>4' x 4'</td></tr><tr><td>Medium</td><td>3+ to 6'</td><td>6' x 6'</td></tr><tr><td>Large</td><td>6+ to 10'</td><td>9' x 9'</td></tr><tr><td>Very large</td><td>10+ to 15'</td><td>12' x 12'</td></tr><tr><td>Huge</td><td>15+ to 20'</td><td>16' x 16'</td></tr><tr><td>Mammoth</td><td>20+ to 30'</td><td>25' x 25'</td></tr></tbody></table><p>Nets measuring 6' x 6' or smaller can be wielded with one hand. Larger nets require two hands and are subject to penalties associated with two-handed weapons. The wielder cannot use a shield, always loses individual initiative against those not using two-handed weapons, and halflings or small humanoids (like goblins) cannot use nets larger than 6' x 6'.</p><h3>Magical Nets:</h3><p>Magical nets are rare and impervious to all but fire or acid. Daggers and other weapons cannot cut through them, and an ensnared victim can only remove the net, not destroy it.</p><h3>Effects of Ensnarement:</h3><p>When ensnared, a victim suffers one of the following effects, as determined by the Weapon Special Effects Table:</p><ul><li><strong>Entangle</strong>: The victim cannot move, attack, or cast spells until a successful saving throw.</li><li><strong>Slow</strong>: The victim’s movement and attacks are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><h3>Durability and Repair:</h3><p>A net is easily damaged by edged weapons, claws, or bites. If damaged, it becomes useless unless repaired. Repairing a net requires 1d3 turns of uninterrupted work with rope or cord.</p><p>A well-maintained net remains a practical and effective tool for adventurers, offering non-lethal means of control and strategy in combat.</p>",
+      "weaponMastery": "Net"
     },
     "Neutralize Poison*": {
       "description": "<p>This spell renders any poison harmless in a creature, container, or on an object. It can revive a creature poisoned within the last 10 rounds but does not heal any other damage.</p>",
@@ -3559,14 +3663,21 @@
       "description": "<p>The character can attempt to pick pockets or take small items from people without being noticed.</p>",
       "name": "Pick Pockets"
     },
-    "Pike": {
-      "name": "Pike"
-    },
     "Pike +1": {
       "description": "<p>A pike is an extremely long spear, 7’ to 15’ long. It can only be wielded using two hands. See polearm rules for special usage.</p>",
       "name": "Pike +1",
       "unidentifiedDesc": "<p>A pike is an extremely long spear, 7’ to 15’ long. It can only be wielded using two hands. See polearm rules for special usage.</p>",
-      "unidentifiedName": "Pike"
+      "unidentifiedName": "Pike",
+      "weaponMastery": "Pike"
+    },
+    "Pike@UV2uwnF90kcSTHnz": {
+      "description": "<p>A pike is an extremely long spear, 7’ to 15’ long. It can only be wielded using two hands. See polearm rules for special usage.</p>",
+      "name": "Pike",
+      "unidentifiedDesc": "<p>A pike is an extremely long spear, 7’ to 15’ long. It can only be wielded using two hands. See polearm rules for special usage.</p>",
+      "weaponMastery": "Pike"
+    },
+    "Pike@xmX5YTtWGfFoqg8c": {
+      "name": "Pike"
     },
     "Piloting (choose type)": {
       "description": "<p>This skill represents the ability to control and maneuver a specific type of vehicle, such as a ship, airship, or magical conveyance. The chosen type must be specified when the skill is selected. Piloting involves steering, navigating obstacles, and managing the vehicle in various conditions, such as weather or combat situations.</p>",
@@ -3600,12 +3711,17 @@
     "Polearm": {
       "description": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>",
       "name": "Polearm",
-      "unidentifiedDesc": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>"
+      "unidentifiedDesc": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>",
+      "weaponMastery": "Polearm, Other"
     },
-    "Poleaxe": {
+    "Poleaxe@2W0EKMmhK88j375C": {
+      "name": "Poleaxe"
+    },
+    "Poleaxe@bdF776Lh1mZnFNEa": {
       "description": "<p>A poleaxe consists of an axe blade (usually single sided, but occasionally double sided) with a 6’ to 8' long shaft. It is wielded in both hands like a large two-handed axe.</p>",
       "name": "Poleaxe",
-      "unidentifiedDesc": "<p>A poleaxe consists of an axe blade (usually single sided, but occasionally double sided) with a 6’ to 8' long shaft. It is wielded in both hands like a large two-handed axe.</p>"
+      "unidentifiedDesc": "<p>A poleaxe consists of an axe blade (usually single sided, but occasionally double sided) with a 6’ to 8' long shaft. It is wielded in both hands like a large two-handed axe.</p>",
+      "weaponMastery": "Poleaxe"
     },
     "Polymorph Any Object": {
       "description": "<p>This spell functions similarly to the <em>Polymorph Others</em> spell but extends its effects to objects as well as creatures. The spell transforms one target into another form, following the rules outlined below.</p><h3>Target Limitations:</h3><ul><li><strong>Objects:</strong> If the object is part of a larger whole (e.g., a wall section), the spell affects a volume of up to <strong>10' × 10' × 10'</strong>.</li><li><strong>Creatures:</strong> A creature may attempt a <strong>saving throw vs. spells</strong> (at a <strong>-4 penalty</strong>) to resist the effect.</li><li><strong>Hit Dice Limit:</strong> A creature with more than <strong>twice the caster’s level</strong> in Hit Dice is immune (e.g., a 20th level caster cannot affect a 41+ HD creature).</li></ul><h3>Duration Based on Transformation:</h3><ul><li><strong>Same Kingdom:</strong> If the transformation remains within the same kingdom (e.g., animal to animal), the effect is <strong>permanent</strong> until dispelled.</li><li><strong>Adjacent Kingdom:</strong> If changing between adjacent kingdoms (e.g., animal → vegetable or vegetable → mineral), the effect lasts <strong>1 hour per caster level</strong> ([[/r @actor.details.level*360 #Duration in rounds]]).</li><li><strong>Distant Kingdom:</strong> If changing between distant kingdoms (e.g., animal → mineral), the effect lasts <strong>1 turn per caster level</strong> ([[/r @actor.details.level*60 #Duration in rounds]]).</li></ul><h3>Additional Rules & Notes:</h3><ul><li>Newly created creatures are <strong>not automatically friendly</strong> to the caster.</li><li><strong>Polymorph does not affect age or hit points</strong>—these remain unchanged.</li><li>The spell can be reversed via a <em>Dispel Magic</em> spell (normal chances of success apply).</li><li>For additional polymorphing rules, refer to <em>Polymorph Self</em> and <em>Polymorph Others</em>.</li></ul>",
@@ -3851,15 +3967,19 @@
       "name": "Ration, Standard",
       "unidentifiedDesc": "<p>Untreated food sufficient for one person for one week. It is prone to spoilage in damp environments, such as dungeons, and is best for overland travel.</p>"
     },
-    "Read Languages": {
+    "Read Languages (B)": {
+      "description": "<p>At <strong data-start=\"2735\" data-end=\"2748\">4th level</strong>, a Bard can decipher <strong data-start=\"2770\" data-end=\"2785\">non-magical</strong> writings, such as ancient scripts, inscriptions, or coded messages, with an <strong data-start=\"2862\" data-end=\"2887\">80% chance of success</strong>. This requires <strong data-start=\"2903\" data-end=\"2936\">one turn of study per passage</strong>. A failed attempt means the Bard cannot understand the text until they gain another level. This skill does not allow the Bard to read magical writings or scrolls.</p>",
+      "name": "Read Languages (B)"
+    },
+    "Read Languages@wNNNgISgsuDtGapt": {
+      "description": "<p>A character with is ability can decipher written languages (including treasure maps and codes) with a base chance of success.</p>",
+      "name": "Read Languages"
+    },
+    "Read Languages@ws0ObLFkCK62OpKq": {
       "description": "<p>This spell allows the caster to read, but not speak, any unknown languages, codes, or symbols—including treasure maps or secret scripts—for the spell’s duration.</p>",
       "name": "Read Languages",
       "spellEffect": "The spellcaster only",
       "spellRange": "0"
-    },
-    "Read Languages (B)": {
-      "description": "<p>At <strong data-start=\"2735\" data-end=\"2748\">4th level</strong>, a Bard can decipher <strong data-start=\"2770\" data-end=\"2785\">non-magical</strong> writings, such as ancient scripts, inscriptions, or coded messages, with an <strong data-start=\"2862\" data-end=\"2887\">80% chance of success</strong>. This requires <strong data-start=\"2903\" data-end=\"2936\">one turn of study per passage</strong>. A failed attempt means the Bard cannot understand the text until they gain another level. This skill does not allow the Bard to read magical writings or scrolls.</p>",
-      "name": "Read Languages (B)"
     },
     "Read Magic": {
       "description": "<p>This spell allows the caster to read any magical words or runes, such as those found on scrolls or inscribed on items. It does not allow the caster to speak the words, only to read and understand them. A spellcaster cannot understand unfamiliar magical writings without using this spell.</p>\n                <p>Once a caster reads a scroll or rune with this spell, they can read or speak that magic again without using this spell. All spell books are written in magical words, and only their owners may read them without using this spell.</p>",
@@ -4052,12 +4172,6 @@
       "spellEffect": "Allows caster to change form completely",
       "spellRange": "0 (caster only)"
     },
-    "Shield": {
-      "description": "<p>This spell creates a magical barrier around the caster, less than an inch away from their body. It grants an AC of 2 against missiles and AC 4 against all other attacks. The barrier moves with the caster, and it does not interfere with the caster’s movements or attacks.</p>\n                <p>If a <em>magic missile</em> is shot at the caster, the caster can make a saving throw vs. spells. If successful, the missile is negated by the shield and has no effect.</p>",
-      "name": "Shield",
-      "spellEffect": "The spellcaster only",
-      "spellRange": "0"
-    },
     "Shield +1": {
       "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
       "name": "Shield +1",
@@ -4075,20 +4189,56 @@
       "unidentifiedDesc": "<p>A shield weapon is a hybrid of a protective shield and a weapon, equipped with blades, spikes, or other protrusions designed for offense. It serves a dual purpose, offering standard defensive capabilities while allowing an additional attack during combat when paired with a one-handed weapon. These weapons, typically used by fighters, thieves, and demihumans, come in various sizes, with larger versions requiring two hands. While versatile, shield weapons are prone to breaking under specific conditions, such as precise attack rolls, adding an element of risk to their use.</p>",
       "unidentifiedName": "Shield Weapon (Any)"
     },
-    "Shield, Horned": {
+    "Shield, Horned@c1Pb7jq7pyg6uRn6": {
+      "description": "<p>This is a small, circular shield measuring about one foot in diameter. It is securely strapped to the wielder’s arm rather than being handheld. A sturdy spike protrudes from the center of the shield, allowing it to double as a weapon. Its robust construction ensures that it is resistant to breakage during combat.</p>",
+      "name": "Shield, Horned",
+      "unidentifiedDesc": "<p>This is a small, circular shield measuring about one foot in diameter. It is securely strapped to the wielder’s arm rather than being handheld. A sturdy spike protrudes from the center of the shield, allowing it to double as a weapon. Its robust construction ensures that it is resistant to breakage during combat.</p>",
+      "unidentifiedName": "Shield, Horned",
+      "weaponMastery": "Shield, Horned"
+    },
+    "Shield, Horned@dzrVNtO75OgaouEF": {
       "name": "Shield, Horned"
     },
-    "Shield, Knife": {
+    "Shield, Knife@O2NdirV4U5vXLo1D": {
+      "name": "Shield, Knife"
+    },
+    "Shield, Knife@qfCLTbwrUKRukz0d": {
       "description": "<p>This is a compact buckler equipped with one or two short blades extending from its edges. These protrusions allow it to serve both as a defensive tool and an offensive weapon. Its small size makes it easier to maneuver compared to larger shields.</p>",
       "name": "Shield, Knife",
       "unidentifiedDesc": "<p>This is a compact buckler equipped with one or two short blades extending from its edges. These protrusions allow it to serve both as a defensive tool and an offensive weapon. Its small size makes it easier to maneuver compared to larger shields.</p>",
-      "unidentifiedName": "Shield, Knife"
+      "unidentifiedName": "Shield, Knife",
+      "weaponMastery": "Shield, Knife"
     },
-    "Shield, Sword": {
+    "Shield, Sword@hzYAVJ6gLy56aebO": {
+      "description": "<p>This is a medium-sized shield, designed with one or two blades attached. Depending on the shield's shape, the blades extend from the sides if it is round, or from the ends if it is oblong. This combination provides both defensive protection and an additional offensive option in combat.</p>",
+      "name": "Shield, Sword",
+      "unidentifiedDesc": "<p>This is a medium-sized shield, designed with one or two blades attached. Depending on the shield's shape, the blades extend from the sides if it is round, or from the ends if it is oblong. This combination provides both defensive protection and an additional offensive option in combat.</p>",
+      "unidentifiedName": "Shield, Sword",
+      "weaponMastery": "Shield, Sword"
+    },
+    "Shield, Sword@k8u5w3Tm5wuo6j27": {
       "name": "Shield, Sword"
     },
-    "Shield, Tusked": {
+    "Shield, Tusked@hShLOFsdthE8CIwc": {
+      "description": "<p>This is a large shield featuring one to four short blades projecting from its sides, and it may also include a central spike for added offensive capability. Due to its size, this shield requires the use of both hands, preventing the wielder from using another weapon or shield simultaneously. Characters wielding this shield always lose individual initiative to opponents not using two-handed weapons. It is unsuitable for halflings and similarly small creatures such as goblins.</p>",
+      "name": "Shield, Tusked",
+      "unidentifiedDesc": "<p>This is a large shield featuring one to four short blades projecting from its sides, and it may also include a central spike for added offensive capability. Due to its size, this shield requires the use of both hands, preventing the wielder from using another weapon or shield simultaneously. Characters wielding this shield always lose individual initiative to opponents not using two-handed weapons. It is unsuitable for halflings and similarly small creatures such as goblins.</p>",
+      "unidentifiedName": "Shield, Tusked",
+      "weaponMastery": "Shield, Tusked"
+    },
+    "Shield, Tusked@qIp5Mj3CYAyqxk2t": {
       "name": "Shield, Tusked"
+    },
+    "Shield@efbE0gN8tqL8K94z": {
+      "description": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "name": "Shield",
+      "unidentifiedDesc": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>"
+    },
+    "Shield@u93tgQ9zyIS1ka9X": {
+      "description": "<p>This spell creates a magical barrier around the caster, less than an inch away from their body. It grants an AC of 2 against missiles and AC 4 against all other attacks. The barrier moves with the caster, and it does not interfere with the caster’s movements or attacks.</p>\n                <p>If a <em>magic missile</em> is shot at the caster, the caster can make a saving throw vs. spells. If successful, the missile is negated by the shield and has no effect.</p>",
+      "name": "Shield",
+      "spellEffect": "The spellcaster only",
+      "spellRange": "0"
     },
     "Shielded": {
       "description": "<h2>Shield</h2><p>A magical barrier envelops the affected individual, forming less than an inch from their body and moving with them. While this status is active, the individual's Armor Class is set to <strong>2</strong> against missile attacks and <strong>4</strong> against all other attacks.</p><p>If the individual is targeted by a <em>magic missile</em>, they may make a <strong>saving throw vs. spells</strong> for each missile. On a successful save, the magic missile is absorbed by the barrier and evaporates without causing harm.</p>",
@@ -4131,16 +4281,21 @@
       "spellDuration": "4d4 (4-16) turns",
       "spellEffect": "2d8 Hit Dice of living creatures within a 40' square area"
     },
-    "Sling": {
-      "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
-      "name": "Sling",
-      "unidentifiedDesc": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>"
-    },
     "Sling +1": {
       "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
       "name": "Sling +1",
       "unidentifiedDesc": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
-      "unidentifiedName": "Sling"
+      "unidentifiedName": "Sling",
+      "weaponMastery": "Sling"
+    },
+    "Sling@lIFJrgXGx6tItqad": {
+      "name": "Sling"
+    },
+    "Sling@mvbNrNhrCVQQy1BZ": {
+      "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+      "name": "Sling",
+      "unidentifiedDesc": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+      "weaponMastery": "Sling"
     },
     "Slow*": {
       "description": "<p>The reversed version of *Haste*, *Slow* reduces the movement and attack speed of up to 24 creatures within a 60' diameter area to half their normal rate.</p>\n                      <p><strong>Effect:</strong> Slowed creatures move and attack at half speed but are otherwise unaffected, including spellcasting and magical device usage. Each affected creature may make a saving throw vs. spells to avoid the effect.</p>",
@@ -4208,22 +4363,28 @@
       "spellDuration": "1 round per caster level",
       "spellEffect": "Caster may ask three questions"
     },
-    "Spear": {
-      "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
-      "name": "Spear",
-      "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>"
-    },
     "Spear +1": {
       "description": "<p>The magic spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
       "name": "Spear +1",
       "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
-      "unidentifiedName": "Spear"
+      "unidentifiedName": "Spear",
+      "weaponMastery": "Spear"
     },
     "Spear +2": {
       "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
       "name": "Spear +2",
       "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
-      "unidentifiedName": "Spear"
+      "unidentifiedName": "Spear",
+      "weaponMastery": "Spear"
+    },
+    "Spear@bdCgwbl2VvKzBgG7": {
+      "name": "Spear"
+    },
+    "Spear@tfbRwWqAkCsIotTj": {
+      "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+      "name": "Spear",
+      "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+      "weaponMastery": "Spear"
     },
     "Spell Research": {
       "description": "<p>A character can attempt to create a new spell, provided it is of a level they can cast. The process requires:</p><ul><li><p>1,000 gp per spell level</p></li><li><p>Two weeks of research per spell level</p></li><li><p>Rare components, often necessitating an adventure to obtain</p></li><li><p>A fully stocked laboratory or library</p></li></ul><p>The chance of success depends on the character's Intelligence score and level, with modifications for spell difficulty. If a research attempt fails, the process must be restarted, but each failure grants a +5% cumulative bonus to future attempts.</p><p>Typically, a character does not have a sufficient library for advanced research until reaching 18th level, or at least 9th level if they have collected extensive magical tomes. While research is technically possible at any level, lower-level characters may struggle to meet the requirements.</p>",
@@ -4245,14 +4406,21 @@
       "name": "Spells or Magic Staff",
       "shortName": "Spell"
     },
-    "Staff": {
-      "name": "Staff"
-    },
     "Staff +1": {
       "description": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
       "name": "Staff +1",
       "unidentifiedDesc": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
-      "unidentifiedName": "Staff"
+      "unidentifiedName": "Staff",
+      "weaponMastery": "Staff"
+    },
+    "Staff@A4nQHbJt1qy5ByzL": {
+      "description": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
+      "name": "Staff",
+      "unidentifiedDesc": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
+      "weaponMastery": "Staff"
+    },
+    "Staff@XHxiGh3ht690C4NP": {
+      "name": "Staff"
     },
     "Stakes (3) and Mallet": {
       "description": "<p>Three large (18”) wooden stakes and a wooden mallet, often used for destroying vampires or securing ropes and tents. They can also be used to pin down an opponent or object to the ground.</p>",
@@ -4340,15 +4508,21 @@
       "spellEffect": "Brings weather to druid's area",
       "spellRange": "5 miles or more"
     },
-    "Survival": {
+    "Survival (choose terrain)": {
+      "description": "<p>This skill allows the character to find food, shelter, and water in a single type of terrain (e.g., desert, forest/jungle, mountain/hill, open sea, plains, arctic). The character can forage automatically in fertile areas and uses the skill roll to determine success in searching for resources in more challenging environments. When supporting others, the character receives a +1 penalty to the roll per additional person.</p>",
+      "name": "Survival (choose terrain)"
+    },
+    "Survival@chuJwAFSZjZnW2qR": {
+      "description": "<p>This spell grants the recipient complete protection against all <strong>non-magical</strong> environmental hazards. While the spell is in effect, the recipient does not need air, food, water, or sleep.</p>\n                      <p><strong>Protection Includes:</strong></p>\n                      <ul>\n                        <li>Survival in extreme heat or cold (such as deserts or blizzards).</li>\n                        <li>Breathing in airless environments (underground, underwater, space, etc.).</li>\n                        <li>Survival in vacuum or toxic natural atmospheres.</li>\n                        <li>Immunity to environmental damage from other planes (such as the Elemental Plane of Fire).</li>\n                      </ul>\n                      <p><strong>Limitations:</strong></p>\n                      <ul>\n                        <li>Does <strong>not</strong> protect against <em>magical</em> damage, including spells.</li>\n                        <li>Does <strong>not</strong> prevent attack damage, poisons, breath weapons, or physical blows.</li>\n                      </ul>",
+      "name": "Survival",
+      "spellDuration": "One hour per caster level",
+      "spellEffect": "Protects one creature against all non-magical damage from the environment"
+    },
+    "Survival@nHQ68PUUgA9WCGxA": {
       "description": "<p>This spell protects the recipient from <strong>all non-magical environmental damage</strong>, allowing them to endure extreme conditions without harm.</p>\n\n        <h2>Protection Effects:</h2>\n        <ul>\n          <li>Prevents damage from <strong>normal heat or cold</strong>.</li>\n          <li>Eliminates the need for <strong>air, food, water, or sleep</strong> while active.</li>\n          <li>Protects against <strong>all natural environmental hazards</strong>, even in other planes of existence.</li>\n        </ul>\n\n        <h2>Limitations:</h2>\n        <ul>\n          <li>Does <strong>not</strong> protect against <strong>magical damage</strong> of any kind.</li>\n          <li>Does <strong>not</strong> prevent damage from <strong>attacks, poisons, breath weapons, or physical blows</strong>.</li>\n        </ul>\n\n        <h2>Example Uses:</h2>\n        <ul>\n          <li><strong>Desert or Blizzard:</strong> Prevents harm from extreme temperatures.</li>\n          <li><strong>Underwater or Underground:</strong> Enables survival without air.</li>\n          <li><strong>Space Travel:</strong> Protects against vacuum exposure.</li>\n          <li><strong>Elemental Plane of Fire:</strong> Prevents conditional fire damage from the natural environment.</li>\n        </ul>",
       "name": "Survival",
       "spellDuration": "One hour per level",
       "spellEffect": "Protects one creature against non-magical environmental damage"
-    },
-    "Survival (choose terrain)": {
-      "description": "<p>This skill allows the character to find food, shelter, and water in a single type of terrain (e.g., desert, forest/jungle, mountain/hill, open sea, plains, arctic). The character can forage automatically in fertile areas and uses the skill roll to determine success in searching for resources in more challenging environments. When supporting others, the character receives a +1 penalty to the roll per additional person.</p>",
-      "name": "Survival (choose terrain)"
     },
     "Sword": {
       "description": "<p>When this spell is cast, a <strong>glowing sword</strong> made of magical energy appears next to the caster. The caster may direct the sword to attack any creature within <strong>30 feet</strong> simply by concentrating.</p>\n\n                    <h3>Combat Details:</h3>\n                    <ul>\n                      <li>The sword attacks <strong>twice per round</strong>.</li>\n                      <li>It attacks using the caster's <strong>attack rolls</strong> and level.</li>\n                      <li>Deals damage as a <strong>two-handed sword (1d10)</strong>.</li>\n                      <li>Can hit any target, including those requiring <strong>magical weapons</strong> to be harmed.</li>\n                    </ul>\n\n                    <h3>Rules & Mechanics:</h3>\n                    <ul>\n                      <li>The caster must <strong>concentrate</strong> to control the sword.</li>\n                      <li>If concentration is broken, the sword <strong>stops attacking</strong> but remains in existence.</li>\n                      <li>The sword remains for <strong>1 round per caster level</strong>.</li>\n                      <li>It <strong>cannot be destroyed</strong> except by <em>Dispel Magic</em> (normal success chance) or a <em>Wish</em>.</li>\n                    </ul>",
@@ -4356,58 +4530,92 @@
       "spellDuration": "1 round per level",
       "spellEffect": "Creates a magical sword"
     },
-    "Sword, Bastard (1H)": {
-      "name": "Sword, Bastard (1H)"
-    },
     "Sword, Bastard (1H) +1": {
       "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "name": "Sword, Bastard (1H) +1",
       "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
-      "unidentifiedName": "Sword, Bastard (1H)"
+      "unidentifiedName": "Sword, Bastard (1H)",
+      "weaponMastery": "Sword, Bastard Sword, Bastard (1H)"
     },
-    "Sword, Bastard (2H)": {
-      "name": "Sword, Bastard (2H)"
+    "Sword, Bastard (1H)@Y1BN5kWs27xDnOaq": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (1H)",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "weaponMastery": "Sword, Bastard Sword, Bastard (1H)"
+    },
+    "Sword, Bastard (1H)@aXDrvQWmYJ0btqHr": {
+      "name": "Sword, Bastard (1H)"
     },
     "Sword, Bastard (2H) +1": {
       "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "name": "Sword, Bastard (2H) +1",
       "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
-      "unidentifiedName": "Sword, Bastard (2H)"
+      "unidentifiedName": "Sword, Bastard (2H)",
+      "weaponMastery": "Sword, Bastard Sword, Bastard (2H)"
     },
-    "Sword, Normal": {
-      "name": "Sword, Normal"
+    "Sword, Bastard (2H)@9fob9ePbWx5SsdkS": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (2H)",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "weaponMastery": "Sword, Bastard Sword, Bastard (2H)"
+    },
+    "Sword, Bastard (2H)@JMNhDfXCgxyVbdeS": {
+      "name": "Sword, Bastard (2H)"
     },
     "Sword, Normal +1": {
       "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
       "name": "Sword, Normal +1",
       "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-      "unidentifiedName": "Sword, Normal"
+      "unidentifiedName": "Sword, Normal",
+      "weaponMastery": "Sword, Normal"
     },
     "Sword, Normal +2": {
       "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
       "name": "Sword, Normal +2",
       "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-      "unidentifiedName": "Sword, Normal"
+      "unidentifiedName": "Sword, Normal",
+      "weaponMastery": "Sword, Normal"
     },
-    "Sword, Short": {
-      "name": "Sword, Short"
+    "Sword, Normal@OZA38dJ95QpcLMxh": {
+      "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "name": "Sword, Normal",
+      "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "weaponMastery": "Sword, Normal"
+    },
+    "Sword, Normal@bQoTvv6mB9MAPRkc": {
+      "name": "Sword, Normal"
     },
     "Sword, Short +1": {
       "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
       "name": "Sword, Short +1",
       "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
-      "unidentifiedName": "Sword, Short"
+      "unidentifiedName": "Sword, Short",
+      "weaponMastery": "Sword, Short"
     },
-    "Sword, Two-Handed": {
-      "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
-      "name": "Sword, Two-Handed",
-      "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>"
+    "Sword, Short@5Ymnj5Zixi4qy6r3": {
+      "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "name": "Sword, Short",
+      "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "weaponMastery": "Sword, Short"
+    },
+    "Sword, Short@hTNSMlouOaX77XdE": {
+      "name": "Sword, Short"
     },
     "Sword, Two-Handed +1": {
       "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
       "name": "Sword, Two-Handed +1",
       "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
-      "unidentifiedName": "Sword, Two-Handed"
+      "unidentifiedName": "Sword, Two-Handed",
+      "weaponMastery": "Sword, Two-Handed"
+    },
+    "Sword, Two-Handed@bRrOmQkJASjmTfvF": {
+      "name": "Sword, Two-Handed"
+    },
+    "Sword, Two-Handed@zCLw6dqJW8j5LITE": {
+      "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "name": "Sword, Two-Handed",
+      "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "weaponMastery": "Sword, Two-Handed"
     },
     "Symbol": {
       "description": "<p>This spell creates a written magical drawing (a <strong>rune</strong>) of great power. The caster must choose one of six possible symbols when memorizing the spell. The rune may be placed on an object (such as a door or wall) or even in mid-air, but it remains fixed in place and cannot move.</p><p>When any <strong>living creature</strong>:</p><ul><li>Passes over or through the rune</li><li>Touches the object bearing the rune</li><li>Reads the rune (foolishly)</li></ul><p>The rune's effect takes place <strong>immediately</strong>, with no saving throw.</p><h3>Saving Throw Exception:</h3><p>A <strong>magic-user</strong> or any creature capable of casting magic-user spells may make a <strong>saving throw vs. spells</strong> if they merely <strong>read or touch</strong> the symbol (rather than pass through it). If the save succeeds, the symbol has no effect.</p><h3>Symbol Effects:</h3><p>There are six standard symbol types:</p><ul><li><strong>Death:</strong> Instantly slays any creature with <strong>75 HP or less</strong>. Creatures with 76+ HP are unaffected.</li><li><strong>Discord:</strong> Causes the victim to attack allies or suffer confusion (as the <em>confusion</em> spell). <strong>Permanent</strong> until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li><strong>Fear:</strong> The victim <strong>flees</strong> at full Running Speed for <strong>30 rounds</strong> (as a wand of fear).</li><li><strong>Insanity:</strong> The victim becomes <strong>insane</strong>, unable to attack, cast spells, or use special abilities or items. The effect is <strong>permanent</strong> until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li><strong>Sleep:</strong> The victim falls into an <strong>unbreakable sleep</strong> and cannot be awakened except by <em>dispel magic</em> or waiting [[/r 1d10+10 #Hours asleep]] hours.</li><li><strong>Stunning:</strong> Affects creatures with <strong>150 HP or less</strong>, stunning them for [[/r 2d6 #Turns stunned]] (as <em>power word stun</em>).</li></ul><h3>Additional Notes:</h3><ul><li>All symbols appear to be normal writings.</li><li>The rune remains active <strong>permanently</strong> until triggered or dispelled.</li><li>The DM may introduce additional symbols with effects such as polymorph, teleport, charm, or geas.</li></ul>",
@@ -5423,7 +5631,8 @@
     "Torch (weapon)": {
       "description": "<p>This is just a regular torch, but wielded as a weapon. If the torch is unlit, then it only does 1d2 damage. The torch is considered to be a flaming club, and is covered under the club weapon mastery.</p>",
       "name": "Torch (weapon)",
-      "unidentifiedDesc": "<p>This is just a regular torch, but wielded as a weapon. If the torch is unlit, then it only does 1d2 damage. The torch is considered to be a flaming club, and is covered under the club weapon mastery.</p>"
+      "unidentifiedDesc": "<p>This is just a regular torch, but wielded as a weapon. If the torch is unlit, then it only does 1d2 damage. The torch is considered to be a flaming club, and is covered under the club weapon mastery.</p>",
+      "weaponMastery": "Club or Torch"
     },
     "Tossed Item": {
       "name": "Tossed Item"
@@ -5438,23 +5647,35 @@
       "spellEffect": "Long-range teleportation",
       "spellRange": "Infinite"
     },
-    "Travel": {
+    "Travel@0YsvPReEgJGz7v1P": {
+      "description": "<p>This spell grants the caster incredible mobility, allowing flight, planar travel, and even transformation into gaseous form.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The caster can <strong>fly</strong> at a rate of <strong>360' (120')</strong>, similar to the <em>Fly</em> spell.</li>\n                        <li>Once per turn, the caster may <strong>shift into a nearby plane</strong> by concentrating for one round.</li>\n                        <li>The cleric may bring <strong>one additional creature per 5 levels</strong> (rounded down), provided they are touching at the moment of planar travel.</li>\n                        <li>Unwilling creatures may make a <strong>saving throw vs. spells</strong> to resist being taken.</li>\n                      </ul>\n                      <p><strong>Gaseous Form:</strong></p>\n                      <ul>\n                        <li>By concentrating for one full round, the caster may become <strong>gaseous</strong>.</li>\n                        <li>In gaseous form, the caster and all carried equipment transform into mist.</li>\n                        <li>While gaseous, the cleric may move at <strong>720' (240')</strong> but cannot attack, cast spells, or use items.</li>\n                        <li>In this form, the caster is immune to non-magical damage but cannot pass through a <em>Protection from Evil</em> spell or <em>Anti-Magic Shell</em>.</li>\n                      </ul>",
+      "name": "Travel",
+      "spellDuration": "One turn per caster level",
+      "spellEffect": "Allows aerial or gaseous travel",
+      "spellRange": "0"
+    },
+    "Travel@iQALAILzrYSGlnyf": {
       "description": "<p>This spell grants the caster great mobility, including aerial flight, planar travel, and the ability to become gaseous. It lasts for <strong>one turn per caster level</strong>.</p>\n                    \n                    <h3>Flight:</h3>\n                    <ul>\n                      <li>The caster can fly as per the <em>Fly</em> spell, at a speed of <strong>360' (120')</strong>.</li>\n                    </ul>\n\n                    <h3>Planar Travel:</h3>\n                    <ul>\n                      <li>The caster can enter a nearby plane of existence by concentrating for <strong>one round</strong>.</li>\n                      <li>A maximum of <strong>one plane per turn</strong> can be traversed.</li>\n                      <li>The caster may bring <strong>one additional creature per five levels</strong> (rounded down).</li>\n                      <li>To bring others, they must be touching the caster at the moment of transition.</li>\n                      <li>Unwilling creatures may make a <strong>saving throw vs. spells</strong> to resist the effect.</li>\n                      <li>The caster cannot send others while remaining behind—he must accompany them.</li>\n                    </ul>\n\n                    <h3>Gaseous Form:</h3>\n                    <ul>\n                      <li>The caster may assume gaseous form by concentrating for <strong>one full round</strong>.</li>\n                      <li>If interrupted, no transformation occurs.</li>\n                      <li>Unlike the potion of gaseous form, <strong>all carried equipment transforms as well</strong>.</li>\n                      <li>In gaseous form, the caster moves at <strong>double flight speed (720' / 240')</strong>.</li>\n                      <li>The caster cannot use items or cast spells while gaseous.</li>\n                      <li>Only magical attacks (weapons or spells) can harm the caster in gaseous form.</li>\n                      <li>The caster cannot pass through a <em>Protection from Evil</em> effect or an <em>Anti-Magic Shell</em>.</li>\n                    </ul>",
       "name": "Travel",
       "spellDuration": "One turn per caster level",
       "spellEffect": "Allows aerial or gaseous travel",
       "spellRange": "0 (caster only)"
     },
-    "Trident": {
-      "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
-      "name": "Trident",
-      "unidentifiedDesc": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>"
-    },
     "Trident +1": {
       "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
       "name": "Trident +1",
       "unidentifiedDesc": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
-      "unidentifiedName": "Trident"
+      "unidentifiedName": "Trident",
+      "weaponMastery": "Trident"
+    },
+    "Trident@C1JwS1nFYRRwwqPf": {
+      "name": "Trident"
+    },
+    "Trident@yxTxTKRhWTzhjYZu": {
+      "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
+      "name": "Trident",
+      "unidentifiedDesc": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
+      "weaponMastery": "Trident"
     },
     "Truesight": {
       "description": "<p>With *Truesight*, the cleric gains the ability to see all things as they truly are within a 120' radius. The spell reveals all hidden, invisible, and ethereal objects or creatures, functioning as the *detect invisible* spell.</p>\n                      <p>Additionally, the cleric perceives any secret doors, and can see through any form of disguise, polymorph, or other alterations. Deception is impossible. The spell also reveals creatures' alignments, experience, and power levels.</p>",
@@ -5557,7 +5778,13 @@
       "name": "Water",
       "unidentifiedDesc": "<p>Two quarts of drinkable water.</p>"
     },
-    "Water Breathing": {
+    "Water Breathing@BpqXZwoqpKj1q4nx": {
+      "description": "<p>This spell enables the recipient to breathe underwater at any depth for the duration of the spell. It does not affect the recipient's movement underwater nor interfere with breathing air if the recipient emerges from the water.</p>",
+      "name": "Water Breathing",
+      "spellDuration": "1 day (24 hours)",
+      "spellEffect": "One air-breathing creature"
+    },
+    "Water Breathing@k0yDKHOUXeE2pwoZ": {
       "description": "<p>This spell enables the recipient to breathe underwater at any depth for one full day. It does not affect movement underwater and does not interfere with breathing air.</p>",
       "name": "Water Breathing",
       "spellEffect": "One air-breathing creature"
@@ -5568,7 +5795,13 @@
       "unidentifiedDesc": "<p>A flexible container made of leather or a preserved animal bladder, with a capacity of two quarts. When filled, it has an encumbrance of 30 coins; when empty, 5 coins. A normal-sized person drinks about 2qts of water per day.</p>",
       "unidentifiedName": "Waterskin/Wineskin"
     },
-    "Weather Control": {
+    "Weather Control@ASkheAFBTyF3q6vU": {
+      "description": "<p>This spell allows the magic-user to alter the weather within a <strong>240-yard radius</strong>. The spell works only outdoors and affects <strong>all creatures in the area</strong>, including the caster. The effects last as long as the caster concentrates without moving. If the caster is aboard a moving vessel, the effect moves with it.</p>\n                    <p><strong>Weather Conditions & Effects:</strong></p>\n                    <ul>\n                      <li><strong>Rain:</strong> Missile attacks suffer a <strong>-2 penalty</strong>. After 30 minutes (3 turns), the ground becomes muddy, halving movement speed.</li>\n                      <li><strong>Snow:</strong> Visibility reduced to <strong>20 feet</strong>, and movement is halved. Rivers and streams may freeze. Mud remains after the snow thaws, continuing to halve movement.</li>\n                      <li><strong>Fog:</strong> Visibility limited to <strong>20 feet</strong>. Movement speed is halved. Creatures may become lost and move in the wrong direction.</li>\n                      <li><strong>Clear Skies:</strong> Cancels bad weather effects (rain, snow, fog), but does not remove secondary effects such as mud.</li>\n                      <li><strong>Intense Heat:</strong> Movement speed is halved. Any excess water (rain, snow, or magically created water) evaporates.</li>\n                      <li><strong>High Winds:</strong> Missile attacks and flying are impossible. Movement is halved. At sea, ships sailing with the wind move <strong>50% faster</strong>. In desert environments, a sandstorm is created, causing <strong>20' visibility</strong> and halving movement.</li>\n                      <li><strong>Tornado:</strong> A <strong>whirlwind</strong> is created under the caster's control, acting as a <strong>12 HD air elemental</strong>. At sea, treat this effect as a storm or gale.</li>\n                    </ul>\n                    <p><strong>Concentration Required:</strong> The spell ends immediately if the caster stops concentrating.</p>",
+      "name": "Weather Control",
+      "spellEffect": "All weather within 240 yards",
+      "spellRange": "0 (Magic-user only)"
+    },
+    "Weather Control@xXwbkfTsctrqdPdz": {
       "description": "<p>This spell grants the druid the power to manipulate the weather within a <strong>240-yard radius</strong>.</p>\n                      <h3>Effects:</h3>\n                      <ul>\n                        <li>The caster may create <strong>one specific weather condition</strong> that affects <strong>all creatures in the area</strong>, including the caster.</li>\n                        <li>The spell requires <strong>concentration</strong>, and the caster must remain still.</li>\n                        <li>If the caster is moved (e.g., on a ship), the effect moves with them.</li>\n                        <li>The spell <strong>only functions outdoors</strong>.</li>\n                      </ul>\n                      <h3>Weather Effects:</h3>\n                      <ul>\n                        <li><strong>Rain:</strong> Missile attacks suffer a <strong>-2 penalty</strong>. After 3 turns, the ground becomes muddy, <strong>halving movement speed</strong>.</li>\n                        <li><strong>Snow:</strong> Visibility is <strong>reduced to 20'</strong>, and movement is <strong>halved</strong>. Rivers and streams may freeze. Mud persists after thawing.</li>\n                        <li><strong>Fog:</strong> Visibility drops to <strong>20'</strong>, movement is <strong>halved</strong>. Creatures within may become lost.</li>\n                        <li><strong>Clear:</strong> Cancels rain, snow, and fog, but does not remove secondary effects (e.g., mud).</li>\n                        <li><strong>Intense Heat:</strong> Movement is <strong>halved</strong>. Excess water sources (rain, snow, puddles) dry up.</li>\n                        <li><strong>High Winds:</strong> <strong>No flying or missile attacks</strong> are possible. Movement is <strong>halved</strong>. Ships <strong>sailing with the wind move 50% faster</strong>. In deserts, creates a sandstorm (20' visibility, half movement).</li>\n                        <li><strong>Tornado:</strong> Creates a whirlwind under the druid’s control, acting as a <strong>12 HD air elemental</strong>. At sea, it functions as a <strong>storm or gale</strong>.</li>\n                      </ul>",
       "name": "Weather Control",
       "spellEffect": "All weather within 240 yards",
@@ -5585,7 +5818,8 @@
     "Whip (10')": {
       "description": "<p>This weapon consists of a long, braided leather strap with a handle, ranging in length from 5 to 30 feet. It is a hand-to-hand weapon capable of causing damage (1d2 points) or entangling opponents. Before each combat round, the wielder must declare whether they are attempting to deal damage or entangle. In either case, a normal attack roll is required.</p><p>If the attack hits, the whip either deals 1d2 points of damage or, if attempting to entangle, forces the target to make a saving throw vs. death ray, potentially with a bonus. The saving throw bonus and the outcome of the entangling attempt are determined using the Weapon Special Effects Table. On a failed saving throw, the target suffers one of the following effects:</p><ul><li><strong>Entangle</strong>: The victim is unable to attack, cast spells, or move until they succeed on a saving throw.</li><li><strong>Slow</strong>: The victim's movement and attack rates are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><p>This weapon is primarily a tactical tool and is often used by thieves or other characters who prefer to support front-line fighters without directly engaging in melee combat.</p><p>A whip can only entangle creatures with a solid form; it has no entangling effect on wraiths, spectres, ethereal creatures, or monsters composed of water (e.g., water elementals). However, these beings still take normal damage from the whip. (Note that a regular whip cannot harm creatures that require magical weapons to hit; such cases require a magical whip.)</p>",
       "name": "Whip (10')",
-      "unidentifiedDesc": "<p>This weapon consists of a long, braided leather strap with a handle, ranging in length from 5 to 30 feet. It is a hand-to-hand weapon capable of causing damage (1d2 points) or entangling opponents. Before each combat round, the wielder must declare whether they are attempting to deal damage or entangle. In either case, a normal attack roll is required.</p><p>If the attack hits, the whip either deals 1d2 points of damage or, if attempting to entangle, forces the target to make a saving throw vs. death ray, potentially with a bonus. The saving throw bonus and the outcome of the entangling attempt are determined using the Weapon Special Effects Table. On a failed saving throw, the target suffers one of the following effects:</p><ul><li><strong>Entangle</strong>: The victim is unable to attack, cast spells, or move until they succeed on a saving throw.</li><li><strong>Slow</strong>: The victim's movement and attack rates are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><p>This weapon is primarily a tactical tool and is often used by thieves or other characters who prefer to support front-line fighters without directly engaging in melee combat.</p><p>A whip can only entangle creatures with a solid form; it has no entangling effect on wraiths, spectres, ethereal creatures, or monsters composed of water (e.g., water elementals). However, these beings still take normal damage from the whip. (Note that a regular whip cannot harm creatures that require magical weapons to hit; such cases require a magical whip.)</p>"
+      "unidentifiedDesc": "<p>This weapon consists of a long, braided leather strap with a handle, ranging in length from 5 to 30 feet. It is a hand-to-hand weapon capable of causing damage (1d2 points) or entangling opponents. Before each combat round, the wielder must declare whether they are attempting to deal damage or entangle. In either case, a normal attack roll is required.</p><p>If the attack hits, the whip either deals 1d2 points of damage or, if attempting to entangle, forces the target to make a saving throw vs. death ray, potentially with a bonus. The saving throw bonus and the outcome of the entangling attempt are determined using the Weapon Special Effects Table. On a failed saving throw, the target suffers one of the following effects:</p><ul><li><strong>Entangle</strong>: The victim is unable to attack, cast spells, or move until they succeed on a saving throw.</li><li><strong>Slow</strong>: The victim's movement and attack rates are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><p>This weapon is primarily a tactical tool and is often used by thieves or other characters who prefer to support front-line fighters without directly engaging in melee combat.</p><p>A whip can only entangle creatures with a solid form; it has no entangling effect on wraiths, spectres, ethereal creatures, or monsters composed of water (e.g., water elementals). However, these beings still take normal damage from the whip. (Note that a regular whip cannot harm creatures that require magical weapons to hit; such cases require a magical whip.)</p>",
+      "weaponMastery": "Whip"
     },
     "Whistle": {
       "description": "<p>A small wooden or metal whistle that can be used to make a loud signal. The distance that the sound can be heard from depends on the environment.</p>",
@@ -5645,7 +5879,10 @@
       "spellEffect": "Teleports the caster to sanctuary",
       "spellRange": "0"
     },
-    "Wrestling": {
+    "Wrestling@ZtreWv5SWGV33kYo": {
+      "name": "Wrestling"
+    },
+    "Wrestling@y87CgAv0iENRhZ4E": {
       "description": "<p>The Wrestling skill enables a character to grapple, pin, or otherwise subdue opponents using hand-to-hand combat techniques. A successful skill roll improves the character's Wrestling Rating (WR), providing a +1 bonus per skill level.</p>\n            <p>In wrestling combat, a character with Wrestling skill gains a bonus on their Wrestling Rating for initiating or resisting grapples and pins. The higher the skill level, the more effective the character becomes, providing a cumulative +1 to WR per level (e.g., Wrestling +1 skill gives +2 WR).</p>\n            <p>This skill is especially useful in situations where the character needs to subdue an opponent without lethal force, or in confined spaces where weapons are impractical. Mastery in Wrestling also allows for improved control over an opponent’s movements, reducing their ability to counterattack or escape.</p>",
       "name": "Wrestling"
     }
