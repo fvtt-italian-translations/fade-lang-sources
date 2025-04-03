@@ -1433,7 +1433,8 @@
         "Polearm": {
             "name": "Arma Lunga",
             "description": "<p>Quest'arma copre tutte le altre varietà di armi su asta che non sono elencate individualmente nella lista delle armi. Alcune di queste armi includono scure d'arme, bill, glavio, partigiana, giusarma, roncola e spuntone. Vedi regole per speciali.</p>",
-            "unidentifiedDesc": "<p>Quest'arma copre tutte le altre varietà di armi su asta che non sono elencate individualmente nella lista delle armi. Alcune di queste armi includono scure d'arme, bill, glavio, partigiana, giusarma, roncola e spuntone. Vedi regole per speciali.</p>"
+            "unidentifiedDesc": "<p>Quest'arma copre tutte le altre varietà di armi su asta che non sono elencate individualmente nella lista delle armi. Alcune di queste armi includono scure d'arme, bill, glavio, partigiana, giusarma, roncola e spuntone. Vedi regole per speciali.</p>",
+            "weaponMastery": "Arma Lunga, Altro"
         },
         "Polymorph Other": {
             "name": "Metamorfosi",
@@ -4808,13 +4809,15 @@
             "name": "Spada Bastarda (2M) +1",
             "description": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
             "unidentifiedDesc": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
-            "unidentifiedName": "Spada Bastarda (2M)"
+            "unidentifiedName": "Spada Bastarda (2M)",
+            "weaponMastery": "Spada Bastarda (2M)"
         },
         "Sword, Bastard (1H) +1": {
             "name": "Spada Bastarda (1M) +1",
             "description": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
             "unidentifiedDesc": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
-            "unidentifiedName": "Spada Bastarda (1M)"
+            "unidentifiedName": "Spada Bastarda (1M)",
+            "weaponMastery": "Spada Bastarda (1M)"
         },
         "Sword, Two-Handed +1": {
             "name": "Spadone a 2 Mani +1",
@@ -5633,7 +5636,9 @@
             "unidentifiedDesc": "<p>Un'accetta è un'ascia a una mano di 30-60 cm di lunghezza, di solito con una singola lama. Un'accetta viene spesso lanciata mentre il suo proprietario si precipita verso la mischia.</p>"
         },
         "Bola@4u775b0uMAQXFZp4": {
-            "name": "Bola"
+            "name": "Bola",
+            "description": "<p>Quest'arma consiste in una corda con palle appesantite alle estremità, progettata per essere fatta roteare e lanciata contro un bersaglio. Sebbene infligga danni minimi (1d2 punti), ha il potenziale per intrappolare, rallentare o ritardare la vittima.</p><ul><li><p><strong>Effetto Critico</strong>: Se il tiro per colpire è un 20 naturale (esclusi i modificatori), la vittima deve superare un tiro salvezza contro raggio della morte. In caso di fallimento, la vittima viene immediatamente paralizzata e morirà per strangolamento in [[/r 1d6+2#Round prima di morire di strangolamento]]<strong> (3-8 round totali)</strong> a meno che non venga soccorsa. Se liberata, la vittima rimane paralizzata per [[/r 2d6#Round paralizzati]]<strong> (2-12 round)</strong>. Le creature che non respirano (ad esempio, costrutti) sono immuni a questo effetto.</p></li><li><p><strong>Effetto Normale</strong>: Se il tiro per colpire riesce ma non è un 20 naturale, la vittima deve comunque superare un tiro salvezza contro raggio della morte. Un tiro riuscito annulla tutti gli effetti tranne i danni. In caso di fallimento, l'effetto dipende dalla taglia o dal livello di esperienza della vittima, come determinato dalla <strong>Tabella degli Effetti Speciali delle Armi</strong>.</p></li><li><p><strong>Liberarsi dalla Bolas</strong>:</p><ul><li>La vittima può tentare un nuovo tiro salvezza durante la fase di combattimento corpo a corpo di ogni round. Un tiro riuscito significa che la bola è stata rimossa.</li><li>Se un altro personaggio aiuta a rimuovere la bolas, la vittima tira il proprio tiro salvezza contro raggio della morte con un <strong>bonus di +2</strong>.</li><li>La bolas può anche essere distrutta. Se la vittima ha un'arma da taglio e sceglie di distruggerla, può trascorrere <strong>1 round</strong> a farlo. Altrimenti, la bolas rimane intatta e la vittima può scegliere di lasciarla cadere o tenerla.</li></ul></li><li><p><strong>Possibili Effetti (dalla Tabella degli Effetti Speciali delle Armi)</strong>:</p><ul><li><strong>Intrappolare</strong>: La vittima non può attaccare, muoversi o lanciare incantesimi finché non supera con successo un tiro salvezza.</li><li><strong>Rallentare</strong>: La vittima è rallentata, si muove e attacca a metà del suo ritmo normale e non può lanciare incantesimi.</li><li><strong>Ritardare</strong>: La vittima perde automaticamente l'iniziativa individuale per il round successivo.</li></ul></li></ul><p>Quest'arma colpisce solo creature solide. Creature come spettri, fantasmi, esseri eterei o mostri basati sull'acqua (ad esempio, elementali dell'acqua) sono immuni.</p><ul><li><p><strong>Ingombro</strong>: Le bolas sono ingombranti da trasportare e possono aggrovigliarsi. Per ogni bola aggiuntiva trasportata, l'ingombro triplica:</p><ul><li>1 bola = 5 mon</li><li>2 bolas = 15 mon</li><li>3 bolas = 45 mon, e così via.</li></ul></li></ul>",
+            "unidentifiedDesc": "<p>Quest'arma consiste in una corda con palle appesantite alle estremità, progettata per essere fatta roteare e lanciata contro un bersaglio. Sebbene infligga danni minimi (1d2 punti), ha il potenziale per intrappolare, rallentare o ritardare la vittima.</p><ul><li><p><strong>Effetto Critico</strong>: Se il tiro per colpire è un 20 naturale (esclusi i modificatori), la vittima deve superare un tiro salvezza contro raggio della morte. In caso di fallimento, la vittima viene immediatamente paralizzata e morirà per strangolamento in [[/r 1d6+2#Round prima di morire di strangolamento]]<strong> (3-8 round totali)</strong> a meno che non venga soccorsa. Se liberata, la vittima rimane paralizzata per [[/r 2d6#Round paralizzati]]<strong> (2-12 round)</strong>. Le creature che non respirano (ad esempio, costrutti) sono immuni a questo effetto.</p></li><li><p><strong>Effetto Normale</strong>: Se il tiro per colpire riesce ma non è un 20 naturale, la vittima deve comunque superare un tiro salvezza contro raggio della morte. Un tiro riuscito annulla tutti gli effetti tranne i danni. In caso di fallimento, l'effetto dipende dalla taglia o dal livello di esperienza della vittima, come determinato dalla <strong>Tabella degli Effetti Speciali delle Armi</strong>.</p></li><li><p><strong>Liberarsi dalla Bolas</strong>:</p><ul><li>La vittima può tentare un nuovo tiro salvezza durante la fase di combattimento corpo a corpo di ogni round. Un tiro riuscito significa che la bola è stata rimossa.</li><li>Se un altro personaggio aiuta a rimuovere la bolas, la vittima tira il proprio tiro salvezza contro raggio della morte con un <strong>bonus di +2</strong>.</li><li>La bolas può anche essere distrutta. Se la vittima ha un'arma da taglio e sceglie di distruggerla, può trascorrere <strong>1 round</strong> a farlo. Altrimenti, la bolas rimane intatta e la vittima può scegliere di lasciarla cadere o tenerla.</li></ul></li><li><p><strong>Possibili Effetti (dalla Tabella degli Effetti Speciali delle Armi)</strong>:</p><ul><li><strong>Intrappolare</strong>: La vittima non può attaccare, muoversi o lanciare incantesimi finché non supera con successo un tiro salvezza.</li><li><strong>Rallentare</strong>: La vittima è rallentata, si muove e attacca a metà del suo ritmo normale e non può lanciare incantesimi.</li><li><strong>Ritardare</strong>: La vittima perde automaticamente l'iniziativa individuale per il round successivo.</li></ul></li></ul><p>Quest'arma colpisce solo creature solide. Creature come spettri, fantasmi, esseri eterei o mostri basati sull'acqua (ad esempio, elementali dell'acqua) sono immuni.</p><ul><li><p><strong>Ingombro</strong>: Le bolas sono ingombranti da trasportare e possono aggrovigliarsi. Per ogni bola aggiuntiva trasportata, l'ingombro triplica:</p><ul><li>1 bola = 5 mon</li><li>2 bolas = 15 mon</li><li>3 bolas = 45 mon, e così via.</li></ul></li></ul>"
         },
         "Bow, Long@0Jf2W2MElEhO23aX": {
             "description": "<p>Quest'arma è realizzata da un pezzo di legno curvato, mantenuto in forma da una corda tesa. Viene usata per lanciare frecce</p><p>Questo arco richiede due mani per essere utilizzato, impedendo al possessore di usare uno scudo e perdendo sempre l'iniziativa individuale rispetto a chi impugna armi a una mano. Non è adatto ai mezzuomini e ad altre creature piccole, come i goblin</p>",
@@ -5645,7 +5650,8 @@
             "name": "Arco Lungo"
         },
         "Find Traps@8S7I45ND2XGwlJ45": {
-            "name": "Scoprire Trappole"
+            "name": "Scoprire Trappole",
+            "description": "<p>L'utilizzatore di questa abilità può rilevare trappole su pareti, pavimenti e soffitti, con una probabilità di successo di base determinata dal suo livello.</p>"
         },
         "Find Traps@ruJLZD4L4Qkzg8RU": {
             "name": "Scoprire Trappole",
@@ -5660,12 +5666,14 @@
             "weaponMastery": "Martello da lancio"
         },
         "Read Languages@wNNNgISgsuDtGapt": {
-            "name": "Comprendere Linguaggi"
+            "name": "Comprendere Linguaggi",
+            "description": "<p>Un personaggio con questa abilità può decifrare i linguaggi scritti (inclusi mappe del tesoro e codici) con una probabilità di successo di base.</p>"
         },
         "Read Languages@ws0ObLFkCK62OpKq": {
             "spellRange": "0",
             "name": "Comprendere Linguaggi",
-            "spellEffect": "Solo l'incantatore"
+            "spellEffect": "Solo l'incantatore",
+            "description": "<p>Questo incantesimo consente all'incantatore di leggere, ma non parlare, lingue, codici o simboli sconosciuti, comprese mappe del tesoro o scritture segrete, per la durata dell'incantesimo.</p>"
         },
         "Shield@efbE0gN8tqL8K94z": {
             "name": "Scudo",
@@ -5675,7 +5683,8 @@
         "Shield@u93tgQ9zyIS1ka9X": {
             "name": "Scudo",
             "spellEffect": "Solo l'incantatore",
-            "spellRange": "0"
+            "spellRange": "0",
+            "description": "<p>Questo incantesimo crea una barriera magica attorno all'incantatore, a meno di due centimetri dal suo corpo. Conferisce una CA 2 contro i proiettili e una CA 4 contro tutti gli altri attacchi. La barriera si muove con l'incantatore e non interferisce con i suoi movimenti o attacchi.</p>\n                <p>Se un <em>Dardo Incantato</em> viene scagliato contro l'incantatore, l'incantatore può effettuare un tiro salvezza contro incantesimi. In caso di successo, il proiettile viene annullato dallo scudo e non ha effetto.</p>"
         },
         "Spear@bdCgwbl2VvKzBgG7": {
             "name": "Lancia"
@@ -5699,12 +5708,16 @@
             "description": "<p>Questo incantesimo garantisce al destinatario una protezione completa contro tutti i pericoli ambientali <strong>non magici</strong>. Mentre l’incantesimo è in effetto, il destinatario non ha bisogno di aria, cibo, acqua o sonno.</p>\n                      <p><strong>La protezione include:</strong></p>\n                      <ul>\n                        <li>Sopravvivenza in condizioni di caldo o freddo estremi (come deserti o bufere di neve).</li>\n                        <li>Respirazione in ambienti senza aria (sottoterra, sott’acqua, nello spazio, ecc.).</li>\n                        <li>Sopravvivenza nel vuoto o in atmosfere naturali tossiche.</li>\n                        <li>Immunità ai danni ambientali di altri piani (come il Piano Elementale del Fuoco).</li>\n                      </ul>\n                      <p><strong>Limitazioni:</strong></p>\n                      <ul>\n                        <li><strong>Non</strong> protegge dai danni <em>magici</em>, inclusi gli incantesimi.</li>\n                        <li><strong>Non</strong> previene danni da attacchi, veleni, armi da soffio o colpi fisici.</li>\n                      </ul>"
         },
         "Survival@nHQ68PUUgA9WCGxA": {
-            "name": "Sopravvivenza"
+            "name": "Sopravvivenza",
+            "description": "<p>Questo incantesimo protegge il destinatario da <strong>tutti i danni ambientali non magici</strong>, permettendogli di sopportare condizioni estreme senza subire danni.</p>\n\n        <h2>Effetti di Protezione:</h2>\n        <ul>\n          <li>Previene i danni da <strong>calore o freddo normale</strong>.</li>\n          <li>Elimina la necessità di <strong>aria, cibo, acqua o sonno</strong> mentre è attivo.</li>\n          <li>Protegge da <strong>tutti i pericoli ambientali naturali</strong>, anche in altri piani di esistenza.</li>\n        </ul>\n\n        <h2>Limitazioni:</h2>\n        <ul>\n          <li><strong>Non</strong> protegge da <strong>danni magici</strong> di alcun tipo.</li>\n          <li><strong>Non</strong> previene i danni da <strong>attacchi, veleni, armi da soffio o colpi fisici</strong>.</li>\n        </ul>\n\n        <h2>Esempi di Utilizzo:</h2>\n        <ul>\n          <li><strong>Deserto o Tormenta di Neve:</strong> Previene i danni da temperature estreme.</li>\n          <li><strong>Sott'acqua o Sottoterra:</strong> Consente la sopravvivenza senza aria.</li>\n          <li><strong>Viaggio Spaziale:</strong> Protegge dall'esposizione al vuoto.</li>\n          <li><strong>Piano Elementale del Fuoco:</strong> Previene i danni condizionali da fuoco dell'ambiente naturale.</li>\n        </ul>",
+            "spellDuration": "1 ora per livello",
+            "spellEffect": "Protegge una creatura dai danni ambientali non magici"
         },
         "Sword, Bastard (2H)@9fob9ePbWx5SsdkS": {
             "name": "Spada Bastarda (2M)",
             "description": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
-            "unidentifiedDesc": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>"
+            "unidentifiedDesc": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
+            "weaponMastery": "Spada Bastarda (2M)"
         },
         "Sword, Normal@OZA38dJ95QpcLMxh": {
             "weaponMastery": "Spada",
@@ -5815,7 +5828,8 @@
         "Sword, Bastard (1H)@Y1BN5kWs27xDnOaq": {
             "description": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
             "name": "Spada Bastarda (1M)",
-            "unidentifiedDesc": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>"
+            "unidentifiedDesc": "<p>Una spada bastarda, nota anche come spada lunga, è una spada con una lama lunga (da 90 cm a 120 cm) e stretta che può essere usata sia a una mano che a due mani. La stessa competenza con l'arma copre entrambe le tecniche di utilizzo</p>",
+            "weaponMastery": "Spada Bastarda (1M)"
         },
         "Sword, Bastard (1H)@aXDrvQWmYJ0btqHr": {
             "name": "Spada Bastarda (1M)"
@@ -5848,7 +5862,8 @@
             "name": "Viaggiare",
             "spellDuration": "Un turno per livello del mago",
             "spellEffect": "Consente il volo e la forma gassosa",
-            "spellRange": "0 (Incantatore)"
+            "spellRange": "0 (Incantatore)",
+            "description": "<p>Questo incantesimo conferisce all'incantatore una mobilità incredibile, inclusi il volo, il viaggio planare e la capacità di diventare gassoso. Dura per <strong>un turno per livello dell'incantatore</strong>.</p>\n                    \n                    <h3>Volo:</h3>\n                    <ul>\n                      <li>L'incantatore può volare come per l'incantesimo <em>Volo</em>, a una velocità di <strong>108 m (36 m)</strong>.</li>\n                    </ul>\n\n                    <h3>Viaggio Planare:</h3>\n                    <ul>\n                      <li>L'incantatore può entrare in un piano di esistenza vicino concentrandosi per <strong>1 round</strong>.</li>\n                      <li>Un massimo di <strong>1 piano x turno</strong> può essere attraversato.</li>\n                      <li>L'incantatore può portare <strong>1 creatura aggiuntiva ogni 5 livelli</strong> (arrotondato per difetto).</li>\n                      <li>Per portare altri, devono toccare l'incantatore al momento della transizione.</li>\n                      <li>Le creature non consenzienti possono effettuare un <strong>tiro salvezza contro incantesimi</strong> per resistere all'effetto.</li>\n                      <li>L'incantatore non può inviare altri rimanendo indietro, ma deve accompagnarli.</li>\n                    </ul>\n\n                    <h3>Forma Gassosa:</h3>\n                    <ul>\n                      <li>L'incantatore può assumere la forma gassosa concentrandosi per <strong>1 round completo</strong>.</li>\n                      <li>Se interrotto, non avviene alcuna trasformazione.</li>\n                      <li>A differenza della pozione di forma gassosa, <strong>anche tutto l'equipaggiamento trasportato si trasforma</strong>.</li>\n                      <li>In forma gassosa, l'incantatore si muove a <strong>doppia velocità di volo (216 m / 72 m)</strong>.</li>\n                      <li>L'incantatore non può usare oggetti o lanciare incantesimi mentre è gassoso.</li>\n                      <li>Solo gli attacchi magici (armi o incantesimi) possono danneggiare l'incantatore in forma gassosa.</li>\n                      <li>L'incantatore non può attraversare un effetto di <em>Protezione dal Male</em> o una <em>Barriera Anti-Magia</em>.</li>\n                    </ul>"
         },
         "Trident@C1JwS1nFYRRwwqPf": {
             "name": "Tridente"
@@ -5860,23 +5875,101 @@
             "weaponMastery": "Tridente"
         },
         "Water Breathing@BpqXZwoqpKj1q4nx": {
-            "name": "Respirare sott'Acqua"
+            "name": "Respirare sott'Acqua",
+            "description": "<p>Questo incantesimo consente al destinatario di respirare sott'acqua a qualsiasi profondità per la durata dell'incantesimo. Non influenza il movimento del destinatario sott'acqua né interferisce con la respirazione dell'aria se il destinatario emerge dall'acqua.</p>",
+            "spellDuration": "1 giorno (24 ore)",
+            "spellEffect": "1 creatura che respira aria"
         },
         "Water Breathing@k0yDKHOUXeE2pwoZ": {
-            "name": "Respirare sott'Acqua"
+            "name": "Respirare sott'Acqua",
+            "description": "<p>Questo incantesimo consente al destinatario di respirare sott'acqua a qualsiasi profondità per un giorno intero. Non influisce sui movimenti sott'acqua e non interferisce con la respirazione dell'aria.</p>",
+            "spellEffect": "1 creatura che respira aria"
         },
         "Weather Control@ASkheAFBTyF3q6vU": {
-            "name": "Controllo del Tempo Atmosferico"
+            "name": "Controllo del Tempo Atmosferico",
+            "description": "<p>Questo incantesimo permette al mago di alterare il tempo atmosferico entro un <strong>raggio di 220 metri</strong>. L'incantesimo funziona solo all'aperto e colpisce <strong>tutte le creature nell'area</strong>, incluso l'incantatore. Gli effetti durano finché l'incantatore si concentra senza muoversi. Se l'incantatore è a bordo di una nave in movimento, l'effetto si sposta con essa.</p>\n                    <p><strong>Condizioni Atmosferiche ed Effetti:</strong></p>\n                    <ul>\n                      <li><strong>Pioggia:</strong> Gli attacchi a distanza subiscono una <strong>penalità di -2</strong>. Dopo 30 minuti (3 turni), il terreno diventa fangoso, dimezzando la velocità di movimento.</li>\n                      <li><strong>Neve:</strong> Visibilità ridotta a <strong>6 metri</strong>, e il movimento è dimezzato. Fiumi e torrenti possono congelarsi. Il fango rimane dopo lo scioglimento della neve, continuando a dimezzare il movimento.</li>\n                      <li><strong>Nebbia:</strong> Visibilità limitata a <strong>6 metri</strong>. La velocità di movimento è dimezzata. Le creature possono perdersi e muoversi nella direzione sbagliata.</li>\n                      <li><strong>Cieli Sereni:</strong> Annulla gli effetti del maltempo (pioggia, neve, nebbia), ma non rimuove gli effetti secondari come il fango.</li>\n                      <li><strong>Calore Intenso:</strong> La velocità di movimento è dimezzata. Qualsiasi acqua in eccesso (pioggia, neve o acqua creata magicamente) evapora.</li>\n                      <li><strong>Venti Forti:</strong> Gli attacchi a distanza e il volo sono impossibili. Il movimento è dimezzato. In mare, le navi che navigano con il vento si muovono <strong>del 50% più velocemente</strong>. Negli ambienti desertici, si crea una tempesta di sabbia, causando una <strong>visibilità di 6 m</strong> e dimezzando il movimento.</li>\n                      <li><strong>Tornado:</strong> Viene creato un <strong></strong> sotto il controllo dell'incantatore, che agisce come un <strong>elementale dell'aria da 12 DV</strong>. In mare, considera questo effetto come una tempesta o una burrasca.</li>\n                    </ul>\n                    <p><strong>Concentrazione Richiesta:</strong> L'incantesimo termina immediatamente se l'incantatore smette di concentrarsi.</p>",
+            "spellEffect": "Tutto il tempo atmosferico entro 220 metri",
+            "spellRange": "Solo l'incantatore"
         },
         "Weather Control@xXwbkfTsctrqdPdz": {
             "name": "Controllo del Tempo Atmosferico",
-            "spellRange": "0 (druido)"
+            "spellRange": "0 (druido)",
+            "description": "<p>Questo incantesimo conferisce al druido il potere di manipolare il tempo atmosferico entro un <strong>raggio di 220 metri</strong>.</p>\n                      <h3>Effetti:</h3>\n                      <ul>\n                        <li>L'incantatore può creare <strong>una specifica condizione atmosferica</strong> che colpisce <strong>tutte le creature nell'area</strong>, incluso l'incantatore.</li>\n                        <li>L'incantesimo richiede <strong>concentrazione</strong>, e l'incantatore deve rimanere fermo.</li>\n                        <li>Se l'incantatore viene spostato (ad esempio, su una nave), l'effetto si muove con lui.</li>\n                        <li>L'incantesimo <strong>funziona solo all'aperto</strong>.</li>\n                      </ul>\n                      <h3>Effetti Atmosferici:</h3>\n                      <ul>\n                        <li><strong>Pioggia:</strong> Gli attacchi a distanza subiscono una <strong>penalità di -2</strong>. Dopo 3 turni, il terreno diventa fangoso, <strong>dimezzando la velocità di movimento</strong>.</li>\n                        <li><strong>Neve:</strong> La visibilità è <strong>ridotta a 6 m</strong>, e il movimento è <strong>dimezzato</strong>. Fiumi e torrenti possono congelarsi. Il fango persiste dopo lo scioglimento.</li>\n                        <li><strong>Nebbia:</strong> La visibilità scende a <strong>6 m</strong>, il movimento è <strong>dimezzato</strong>. Le creature all'interno possono perdersi.</li>\n                        <li><strong>Sereno:</strong> Annulla pioggia, neve e nebbia, ma non rimuove effetti secondari (ad esempio, fango).</li>\n                        <li><strong>Calore Intenso:</strong> Il movimento è <strong>dimezzato</strong>. Le fonti d'acqua in eccesso (pioggia, neve, pozzanghere) si asciugano.</li>\n                        <li><strong>Venti Forti:</strong> <strong>Impossibile volare o effettuare attacchi a distanza</strong>. Il movimento è <strong>dimezzato</strong>. Le navi <strong>che navigano con il vento si muovono del 50% più velocemente</strong>. Nei deserti, crea una tempesta di sabbia (visibilità di 6 m, movimento dimezzato).</li>\n                        <li><strong>Tornado:</strong> Crea un vortice sotto il controllo del druido, che agisce come un <strong>elementale dell'aria da 12 DV</strong>. In mare, funziona come una <strong>tempesta o una burrasca</strong>.</li>\n                      </ul>",
+            "spellEffect": "Tutto il tempo atmosferico entro 220 metri"
         },
         "Wrestling@ZtreWv5SWGV33kYo": {
             "name": "Lotta"
         },
         "Wrestling@y87CgAv0iENRhZ4E": {
-            "name": "Lotta"
+            "name": "Lotta",
+            "description": "<p>L'abilità di Lotta consente a un personaggio di afferrare, immobilizzare o altrimenti sottomettere gli avversari usando tecniche di combattimento in mischia. Un tiro di abilità riuscito migliora il Valore di Lotta (VL) del personaggio, fornendo un bonus di +1 per livello di abilità.</p>\n            <p>Nel combattimento di lotta, un personaggio con l'abilità di Lotta ottiene un bonus al proprio Valore di Lotta per iniziare o resistere a prese e immobilizzazioni. Più alto è il livello di abilità, più efficace diventa il personaggio, fornendo un bonus cumulativo di +1 al VL per livello (ad esempio, Lotta +1 dà +2 VL).</p>\n            <p>Questa abilità è particolarmente utile in situazioni in cui il personaggio deve sottomettere un avversario senza usare forza letale, o in spazi ristretti dove le armi sono impraticabili. La maestria nella Lotta permette anche un miglior controllo sui movimenti dell'avversario, riducendo la sua capacità di contrattaccare o fuggire.</p>"
+        },
+        "Blackjack@RksAN1Xa2JeKa7Im": {
+            "description": "<p>Una clava di cuoio, nota anche come manganello, è una piccola clava di pelle solitamente riempita di sabbia. Le clave di cuoio sono troppo morbide per infliggere danni significativi, ma sono molto utili per mettere temporaneamente fuori combattimento le persone senza causare danni permanenti.</p><p>L'arma non ha effetto su chi indossa armature metalliche di qualsiasi tipo, o su qualsiasi mostro senza armatura con CA 0 o inferiore. Consulta le regole per altri dettagli su quest'arma, inclusa la capacità di mettere fuori combattimento, stordire e ritardare la vittima.</p><p> </p>",
+            "name": "Manganello",
+            "unidentifiedDesc": "<p>Una clava di cuoio, nota anche come manganello, è una piccola clava di pelle solitamente riempita di sabbia. Le clave di cuoio sono troppo morbide per infliggere danni significativi, ma sono molto utili per mettere temporaneamente fuori combattimento le persone senza causare danni permanenti.</p><p>L'arma non ha effetto su chi indossa armature metalliche di qualsiasi tipo, o su qualsiasi mostro senza armatura con CA 0 o inferiore. Consulta le regole per altri dettagli su quest'arma, inclusa la capacità di mettere fuori combattimento, stordire e ritardare la vittima.</p><p> </p>",
+            "weaponMastery": "Manganello"
+        },
+        "Shield, Horned@c1Pb7jq7pyg6uRn6": {
+            "unidentifiedDesc": "<p>Questo è un piccolo scudo circolare che misura circa 30 cm di diametro. È saldamente legato al braccio di chi lo impugna, anziché essere tenuto in mano. Una robusta punta sporge dal centro dello scudo, consentendogli di raddoppiare come arma. La sua robusta fattura assicura che sia resistente alla rottura durante il combattimento.</p>",
+            "name": "Scudo Appuntito",
+            "description": "<p>Questo è un piccolo scudo circolare che misura circa 30 cm di diametro. È saldamente legato al braccio di chi lo impugna, anziché essere tenuto in mano. Una robusta punta sporge dal centro dello scudo, consentendogli di raddoppiare come arma. La sua robusta fattura assicura che sia resistente alla rottura durante il combattimento.</p>",
+            "unidentifiedName": "Scudo Appuntito",
+            "weaponMastery": "Scudo Appuntito"
+        },
+        "Shield, Tusked@hShLOFsdthE8CIwc": {
+            "description": "<p>Questo è un grande scudo con una o quattro lame corte che sporgono dai lati e può anche includere una punta centrale per una maggiore capacità offensiva. A causa delle sue dimensioni, questo scudo richiede l'uso di entrambe le mani, impedendo a chi lo impugna di usare un'altra arma o scudo contemporaneamente. I personaggi che impugnano questo scudo perdono sempre l'iniziativa individuale contro gli avversari che non usano armi a due mani. Non è adatto per gli halfling e creature simili di piccole dimensioni come i goblin.</p>",
+            "name": "Scudo Dentato",
+            "unidentifiedDesc": "<p>Questo è un grande scudo con una o quattro lame corte che sporgono dai lati e può anche includere una punta centrale per una maggiore capacità offensiva. A causa delle sue dimensioni, questo scudo richiede l'uso di entrambe le mani, impedendo a chi lo impugna di usare un'altra arma o scudo contemporaneamente. I personaggi che impugnano questo scudo perdono sempre l'iniziativa individuale contro gli avversari che non usano armi a due mani. Non è adatto per gli halfling e creature simili di piccole dimensioni come i goblin.</p>",
+            "unidentifiedName": "Scudo Dentato",
+            "weaponMastery": "Scudo Dentato"
+        },
+        "Cestus@zuJutH4zGWRzZltK": {
+            "unidentifiedDesc": "<p>Il <strong>cestus</strong> (plurale: <em>cesti</em>) è un tipo di guanto o fascia per la mano con bordi ruvidi e taglienti sul dorso, progettato per aumentare i danni degli attacchi di pugno. Se la campagna include le regole opzionali per l'uso di due armi, un personaggio non subisce la penalità di -4 quando usa un cestus sulla mano secondaria.</p>",
+            "description": "<p>Il <strong>cestus</strong> (plurale: <em>cesti</em>) è un tipo di guanto o fascia per la mano con bordi ruvidi e taglienti sul dorso, progettato per aumentare i danni degli attacchi da pugno. Se la campagna include le regole opzionali per l'uso di due armi, un personaggio non subisce la penalità di -4 quando usa un cestus sulla mano secondaria.</p>",
+            "name": "Cestus",
+            "weaponMastery": "Cestus"
+        },
+        "Shield, Sword@hzYAVJ6gLy56aebO": {
+            "unidentifiedDesc": "<p>Questo è uno scudo di medie dimensioni, progettato con una o due lame attaccate. A seconda della forma dello scudo, le lame si estendono dai lati se è rotondo, o dalle estremità se è oblungo. Questa combinazione fornisce sia protezione difensiva che un'opzione offensiva aggiuntiva in combattimento.</p>",
+            "description": "<p>Questo è uno scudo di medie dimensioni, progettato con una o due lame attaccate. A seconda della forma dello scudo, le lame si estendono dai lati se è rotondo, o dalle estremità se è oblungo. Questa combinazione fornisce sia protezione difensiva che un'opzione offensiva aggiuntiva in combattimento.</p>",
+            "name": "Scudo Lanceolato",
+            "unidentifiedName": "Scudo Lanceolato",
+            "weaponMastery": "Scudo Lanceolato"
+        },
+        "Blackjack@dJE3Ix8k3YUNFr6M": {
+            "name": "Manganello"
+        },
+        "Cestus@EKVqXGRILWWf9GYm": {
+            "name": "Cestus"
+        },
+        "Poleaxe@2W0EKMmhK88j375C": {
+            "name": "Ascia Lunga a 2-mani"
+        },
+        "Poleaxe@bdF776Lh1mZnFNEa": {
+            "description": "<p>Un ascia lunga è costituita da una lama d'ascia (solitamente monolama, ma occasionalmente bilama) con un'asta lunga da 1.8 m a 2.4 m. Viene impugnata con entrambe le mani come una grande ascia a due mani.</p>",
+            "name": "Ascia Lunga a 2-mani",
+            "unidentifiedDesc": "<p>Un ascia lunga è costituita da una lama d'ascia (solitamente monolama, ma occasionalmente bilama) con un'asta lunga da 1.8 m a 2.4 m. Viene impugnata con entrambe le mani come una grande ascia a due mani.</p>",
+            "weaponMastery": "Ascia Lunga a 2-mani"
+        },
+        "Shield, Horned@dzrVNtO75OgaouEF": {
+            "name": "Scudo Appuntito"
+        },
+        "Shield, Knife@O2NdirV4U5vXLo1D": {
+            "name": "Scudo Laminato"
+        },
+        "Shield, Knife@qfCLTbwrUKRukz0d": {
+            "description": "<p>Questo è uno scudo laminato compatto dotato di una o due lame corte che si estendono dai bordi. Queste sporgenze gli consentono di fungere sia da strumento difensivo che da arma offensiva. Le sue piccole dimensioni lo rendono più facile da manovrare rispetto agli scudi più grandi.</p>",
+            "name": "Scudo Laminato",
+            "unidentifiedDesc": "<p>Questo è uno scudo laminato compatto dotato di una o due lame corte che si estendono dai bordi. Queste sporgenze gli consentono di fungere sia da strumento difensivo che da arma offensiva. Le sue piccole dimensioni lo rendono più facile da manovrare rispetto agli scudi più grandi.</p>",
+            "unidentifiedName": "Scudo Laminato",
+            "weaponMastery": "Scudo Laminato"
+        },
+        "Shield, Sword@k8u5w3Tm5wuo6j27": {
+            "name": "Scudo Lanceolato"
+        },
+        "Shield, Tusked@qIp5Mj3CYAyqxk2t": {
+            "name": "Scudo Dentato"
         }
     },
     "label": "Oggetti Classi Abilità",
