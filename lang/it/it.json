@@ -611,7 +611,7 @@
             "applyToPrompt": "Applicare al bersagliato o al selezionato?",
             "targeted": "Bersagliato",
             "selected": "Selezionato",
-            "masteryTargetType": "Seleziona il tipo di arma",
+            "masteryTargetType": "Tipo d'Attacco del Bersaglio",
             "abilityCheck": "Prova di Caratteristica",
             "skillCheck": "Prova di Abilità",
             "selectLightSource": "Seleziona fonte luminosa",
@@ -625,7 +625,7 @@
                 "noLabel": "Vedi descrizione"
             },
             "attackMode": {
-                "name": "Il Difensore attacca con",
+                "name": "La Tua Modalità d'Attacco",
                 "natural": "Naturale",
                 "2hand": "2-Mani",
                 "1hand": "1-Mano"
@@ -870,7 +870,7 @@
             "languageDesc": "Aggiungere una o più lingue."
         },
         "AttackTypes": {
-            "name": "Tipo di attacco",
+            "name": "Il Tuo Tipo d'Attacco",
             "hint": "Se specificato, l'incantesimo lanciato attiverà un tiro per colpire o un tiro salvezza",
             "types": {
                 "melee": "Mischia",
@@ -895,7 +895,7 @@
         "roll": "Tiro",
         "rollMode": "Modalità Tiro",
         "operator": "Fattore",
-        "modifier": "Modificatore",
+        "modifier": "Modificatore (DM)",
         "target": "Bersaglio",
         "GMNotes": "Note del DM",
         "category": "Categoria",
