@@ -608,6 +608,23 @@
         "noDeclaredActions": "Fantastic Depths is not configured to use declared actions.",
         "prompt": "Select combat manuever for this round.",
         "title": "Player Combat"
+      },
+      "turnTracker": {
+        "conditionHint": "When the party needs rest, they will be given the specified condition. The condition will be removed upon resting. This requires that all party members be added to the party tracker, otherwise the system can't determine which characters to apply the condition to.",
+        "conditionName": "Needs Rest Condition",
+        "next": "Next",
+        "nextDesc": "Advance Turn",
+        "prev": "Previous",
+        "prevDesc": "Revert Turn",
+        "resetSession": "Reset Session",
+        "resetTotal": "Reset Total",
+        "rest": "Rest",
+        "saveConfig": "Save Configuration",
+        "sessionCount": "Session Count",
+        "sinceRest": "Since Rest",
+        "totalCount": "Total Count",
+        "turnsHint": "Configure how often a party must rest while exploring. A value of 6 would mean the party must rest once every six turns. Set to 0 for no resting required.",
+        "turnsName": "Rest Turns"
       }
     },
     "bonus": "Bonus",
@@ -832,16 +849,17 @@
     "name": "Name",
     "none": "None",
     "notification": {
-      "advancedTime": "<div>Time advances.<br/>Turns: {turns}<br/>Rounds: {rounds}</div>",
+      "advancedTime": "<div>Time advances {turns} turn(s), {rounds} round(s).</div>",
       "missingItem": "The required item type ({type}) was not found or its quantity is zero.",
       "missingItem2": "{actor} does not have a {type}.",
-      "needRest": "<div class='warning'>The party is tired and needs to rest.</div><div>Attack and damage rolls should have a -1 penatly until party rests.</div>",
+      "needRest": "<div class='warning'>The party is tired and needs to rest.</div>",
+      "needRestSoon": "<div class='warning'>The party will need to rest next turn, or their attack and damage rolls may be penalized until they do.</div>",
       "noAmmo": "{actorName} does not have {weaponName} ammunition equipped.",
       "noTokenWarning": "You must select a token or assign a default character to perform this action.",
       "noTokenWarning2": "You must select a token to perform this action.",
       "notMemorized": "{actorName} tries to cast {spellName}, but the spell is not memorized.",
       "partyRests": "The party rests.",
-      "reversedTime": "<div>Time reverses.<br/>Turns: {turns}<br/>Rounds: {rounds}</div>",
+      "reversedTime": "<div>Time reverses {turns} turn(s), {rounds} round(s).</div>",
       "selectTarget": "A targetted must first be selected.",
       "selectToken1": "A token must first be selected.",
       "spellSelectToken": "You must have your token selected to cast a spell.",
@@ -870,6 +888,7 @@
     "tabs": {
       "abilities": "Abilities",
       "attributes": "Attributes",
+      "config": "Config.",
       "description": "Description",
       "effects": "Effects",
       "gmOnly": "GM Only",
@@ -877,21 +896,10 @@
       "levels": "Levels",
       "primeRequisites": "Prime Reqs",
       "skills": "Skills",
-      "spells": "Spells"
+      "spells": "Spells",
+      "tracker": "Tracker"
     },
     "target": "Target",
-    "time": {
-      "next": "Next",
-      "nextDesc": "Advance Turn",
-      "prev": "Previous",
-      "prevDesc": "Revert Turn",
-      "resetSession": "Reset Session",
-      "resetTotal": "Reset Total",
-      "rest": "Rest",
-      "sessionCount": "Session Count",
-      "sinceRest": "Since Rest",
-      "totalCount": "Total Count"
-    },
     "treasure": {
       "agate": "Agate",
       "amber": "Amber",
@@ -1075,10 +1083,6 @@
         "hint": "<b>Max secondary movement speed per turn.</b><p> Secondary movement can be any other type of movement the creature is capable of besides ground movement. Movement distances are measured in feet when indoors and in yards when outdoors.</p>",
         "name": "Max. Secondary Speed"
       }
-    },
-    "rest": {
-      "hint": "Configure how often a party must rest while exploring. A value of 6 would mean the party must rest once every six turns. Set to 0 for no resting required.",
-      "name": "Rest Turns"
     },
     "roundDurationSec": {
       "hint": "The number of seconds a round represent in game time.",
