@@ -1071,7 +1071,7 @@
       }
     },
     "logChanges": {
-      "hint": "If enabled, logs character sheet changes to the GM via chat.",
+      "hint": "If enabled, logs character sheet changes to the GM via chat. This can be useful for troubleshoot issues.",
       "name": "Log Character Sheet Changes"
     },
     "move": {
@@ -1083,6 +1083,11 @@
         "hint": "<b>Max secondary movement speed per turn.</b><p> Secondary movement can be any other type of movement the creature is capable of besides ground movement. Movement distances are measured in feet when indoors and in yards when outdoors.</p>",
         "name": "Max. Secondary Speed"
       }
+    },
+    "packs": {
+      "actorPack": "Actor Compendium",
+      "itemPack": "Item Compendium",
+      "rollTablePack": "Rollable Tables Compendium"
     },
     "roundDurationSec": {
       "hint": "The number of seconds a round represent in game time.",
