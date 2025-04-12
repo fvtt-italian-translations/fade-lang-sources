@@ -2684,6 +2684,10 @@
       "spellDuration": "See below",
       "spellEffect": "One lock or bar"
     },
+    "Knocked Out": {
+      "description": "<p>Knockout is simply a short sleep. The victim is unconscious and completely helpless. Feel free to cut their throat.</p>",
+      "name": "Knocked Out"
+    },
     "Know Alignment*": {
       "description": "<p>This spell allows the spellcaster to determine the alignment (Lawful, Neutral, or Chaotic) of any one creature within 10'. It can also reveal the alignment of an enchanted item or area, if applicable.</p><p>The reversed form, <em>confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p>",
       "name": "Know Alignment*",
@@ -3349,97 +3353,97 @@
           "name": "Mystic Natural Armor"
         },
         "1": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "2": {
           "name": "Mystic Natural Armor"
         },
         "3": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "4": {
           "name": "Mystic Natural Armor"
         },
         "5": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "6": {
           "name": "Mystic Natural Armor"
         },
         "7": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "8": {
           "name": "Mystic Natural Armor"
         },
         "9": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "10": {
           "name": "Mystic Natural Armor"
         },
         "11": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "12": {
           "name": "Mystic Natural Armor"
         },
         "13": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "14": {
           "name": "Mystic Natural Armor"
         },
         "15": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "16": {
           "name": "Mystic Natural Armor"
         },
         "17": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "18": {
           "name": "Mystic Natural Armor"
         },
         "19": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "20": {
           "name": "Mystic Natural Armor"
         },
         "21": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "22": {
           "name": "Mystic Natural Armor"
         },
         "23": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "24": {
           "name": "Mystic Natural Armor"
         },
         "25": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "26": {
           "name": "Mystic Natural Armor"
         },
         "27": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "28": {
           "name": "Mystic Natural Armor"
         },
         "29": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         },
         "30": {
           "name": "Mystic Natural Armor"
         },
         "31": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike (MY)"
         }
       },
       "classLevels": {
@@ -4505,6 +4509,10 @@
       "description": "<p>This spell allows any one weapon to inflict 1d6 additional points of damage per attack (similar to a magical staff of striking). The weapon will inflict this extra damage with every successful blow for as long as the spell lasts. This bonus does not apply to attack rolls, but only to damage rolls.</p>\n                <p>If the caster casts this spell on a normal weapon, the weapon may then damage creatures which are normally affected only by magic weapons; the weapon will do 1d6 points of damage per strike (regardless of the normal damage of the weapon).</p>",
       "name": "Striking",
       "spellEffect": "1d6 bonus to damage on 1 weapon"
+    },
+    "Stunned (1 round)": {
+      "description": "<p>With the one-round stuns caused in unarmed combat, the victim cannot make any attacks until the stun wears off. (In some other types of stun, the stun might go on awhile, allowing the stunned character to attack, ineffectually, after a certain amount of time has passed.)</p><p>Also, while stunned, the victim moves at one-third the normal movement rate for whatever speed he is attempting. He suffers a -4 penalty to all his saving throws. He suffers a +4 penalty to his armor class (thus an AC 5 becomes a 9). He cannot concentrate, cast spells, or use magical items. He cannot use general skills. Any weapon mastery skill he possesses above Basic level is reduced to Basic level.</p>",
+      "name": "Stunned (1 round)"
     },
     "Suit Armor": {
       "description": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
@@ -5745,9 +5753,9 @@
       "name": "Turquoise",
       "unidentifiedDesc": "<p>Turquoise is a vibrant blue-green gemstone often featuring natural veining or matrix patterns. It has a smooth, polished surface and is highly valued for its striking color and unique texture, making it popular in jewelry and decorative arts.</p>"
     },
-    "Unarmed Strike": {
+    "Unarmed Strike (MY)": {
       "description": "<ul style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px; padding: 0px 0px 0px 1.5em; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><li style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);\"><span style=\"font-family: Barlow, sans-serif\"><strong>Mystic Special Abilities Table</strong></span></li></ul><div><div><table><thead><tr><th>Level</th><th>AC</th><th>Movement</th><th>Hand Attacks (#AT)</th><th>Damage</th><th>Abilities</th></tr></thead><tbody><tr><td>1</td><td>9</td><td>120'</td><td>1</td><td>1d4</td><td></td></tr><tr><td>2</td><td>8</td><td>130'</td><td>1</td><td>1d4+1</td><td>Awareness</td></tr><tr><td>3</td><td>7</td><td>140'</td><td>1</td><td>1d6</td><td></td></tr><tr><td>4</td><td>6</td><td>150'</td><td>1</td><td>1d6+1</td><td>Heal Self</td></tr><tr><td>5</td><td>5</td><td>160'</td><td>2</td><td>1d8</td><td></td></tr><tr><td>6</td><td>4</td><td>170'</td><td>2</td><td>1d8+1</td><td>Speak with Animals</td></tr><tr><td>7</td><td>3</td><td>180'</td><td>2</td><td>1d10</td><td></td></tr><tr><td>8</td><td>2</td><td>190'</td><td>2</td><td>1d12</td><td>Resistance</td></tr><tr><td>9*</td><td>1</td><td>200'</td><td>3</td><td>2d8</td><td></td></tr><tr><td>10</td><td>0</td><td>210'</td><td>3</td><td>2d10</td><td>Speak with Anyone</td></tr><tr><td>11</td><td>-1</td><td>220'</td><td>3</td><td>2d12</td><td></td></tr><tr><td>12</td><td>-2</td><td>240'</td><td>3</td><td>3d8+1</td><td>Mind Block</td></tr><tr><td>13</td><td>-3</td><td>260'</td><td>4</td><td>4d6+2</td><td></td></tr><tr><td>14</td><td>-4</td><td>280'</td><td>4</td><td>5d6</td><td>Blankout</td></tr><tr><td>15</td><td>-5</td><td>300'</td><td>4</td><td>4d8</td><td></td></tr><tr><td>16</td><td>-6</td><td>320'</td><td>4</td><td>3d12</td><td>Gentle Touch</td></tr></tbody></table></div><div><p><span>*The mystic receives the Fighter Combat Options (excluding multiple attacks); see the description of them under \"Combat Maneuvers\" in Chapter 8. The mystic can use these Combat Options with weapons or in unarmed fighting.</span></p></div></div><p></p><ul><li><p>As mystics progress in levels, their unarmed attacks become equivalent to the following weapons:</p></li></ul><table style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); --table-background-color: none; width: 751.6px; border-collapse: collapse; background: rgba(0, 0, 0, 0.05); border-top: 1px solid var(--color-border-light-tertiary); border-bottom: 1px solid var(--color-border-light-tertiary); margin: 0.5em 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><tbody><tr style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);\"><td data-colwidth=\"78\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px 0.25em 2px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\"><strong>Level</strong></span></p></td><td data-colwidth=\"148\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\"><strong>Weapon Equivalent</strong></span></p></td></tr><tr style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); background-color: rgba(255, 255, 255, 0.2);\"><td data-colwidth=\"78\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px 0.25em 2px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">2</span></p></td><td data-colwidth=\"148\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">Silver Weapon</span></p></td></tr><tr style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);\"><td data-colwidth=\"78\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px 0.25em 2px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">5</span></p></td><td data-colwidth=\"148\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">+1 Weapon</span></p></td></tr><tr style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); background-color: rgba(255, 255, 255, 0.2);\"><td data-colwidth=\"78\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px 0.25em 2px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">8</span></p></td><td data-colwidth=\"148\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">+2 Weapon</span></p></td></tr><tr style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);\"><td data-colwidth=\"78\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px 0.25em 2px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">11</span></p></td><td data-colwidth=\"148\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">+3 Weapon</span></p></td></tr><tr style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); background-color: rgba(255, 255, 255, 0.2);\"><td data-colwidth=\"78\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px 0.25em 2px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">14</span></p></td><td data-colwidth=\"148\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">+4 Weapon</span></p></td></tr><tr style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track);\"><td data-colwidth=\"78\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px 0.25em 2px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">16-36</span></p></td><td data-colwidth=\"148\" style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); padding: 0.25em 0px;\"><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0.5em 0px\"><span style=\"font-family: Barlow, sans-serif\">+5 Weapon</span></p></td></tr></tbody></table>",
-      "name": "Unarmed Strike",
+      "name": "Unarmed Strike (MY)",
       "unidentifiedName": "Unarmed Strike"
     },
     "Use Magic Items (M)": {
@@ -5936,7 +5944,7 @@
       "spellEffect": "Teleports the caster to sanctuary",
       "spellRange": "0"
     },
-    "Wrestling@ZtreWv5SWGV33kYo": {
+    "Wrestling@dcWA8HsSOulBe6Zq": {
       "name": "Wrestling"
     },
     "Wrestling@y87CgAv0iENRhZ4E": {
