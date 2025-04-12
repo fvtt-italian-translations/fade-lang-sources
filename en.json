@@ -12,6 +12,7 @@
         "nameM": "AT# recv. M"
       },
       "Abilities": {
+        "base": "Base ability score: This is the ability score as it was rolled.",
         "cha": {
           "abbr": "CHA",
           "hint": "<b>Charisma (Cha) is the character's force of personality and presence.</b><p>It affects the way other characters, especially nonplayer characters controlled by the DM, react to the character.</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
@@ -51,6 +52,7 @@
           "long": "Strength",
           "mod": "To-Hit, Damage, Open Doors"
         },
+        "tempMod": "This is a manually entered temporary modifier to the ability score.",
         "wis": {
           "abbr": "WIS",
           "hint": "<b>Wisdom (Wis) is the character's understanding.</b><p>It affects the character's strength in understanding the world, the way things work, the forces of nature, and so forth, including their natural ability to resist magical spells.</p><p><i>Click label to roll ability check. Ctrl-click to roll without modifier.</i></p>",
@@ -166,6 +168,7 @@
         "hint": "Some monsters have the class abilities of a specific class and level. Specify as class key and level, similar to save as. Example: A monster with 2nd level thief class abilities would have a class ability as of 'T2'.",
         "name": "Class Abl. As"
       },
+      "effectiveLevel": "Effective Level",
       "enchanted": {
         "hint": "This enchanted creature can only be hit by magical weapons or spells.",
         "name": "Enchanted"
@@ -440,7 +443,8 @@
       "acBonusAT": "AT#",
       "acBonusATTitle": "AC bonus attacks per round",
       "acBonusType": "AC Bonus Type",
-      "acBonusTypeHint": "The type of attack that the AC bonus applies to.",
+      "acBonusTypeHint": "The type of attack to which the AC (or other) bonus applies.",
+      "bonusType": "Bonus Type",
       "levels": {
         "basic": "Basic",
         "expert": "Expert",
@@ -469,8 +473,13 @@
         "monster": {
           "abbr": "M",
           "long": "Monster/Missile"
+        },
+        "wr": {
+          "abbr": "WR",
+          "long": "Wrestling"
         }
-      }
+      },
+      "wrBonus": "WR Bonus"
     },
     "SheetLabel": {
       "ActorMasteryItem": "Actor Mastery Item Sheet",
