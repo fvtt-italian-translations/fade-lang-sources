@@ -151,7 +151,9 @@
                     "retainer": "Seguaci",
                     "hint": "<b>Il carisma (Car) è la forza della personalità e della presenza del personaggio.</b><p>Influenza il modo in cui gli altri personaggi, in particolare i personaggi non giocanti controllati dal DM, reagiscono al personaggio.</p><p><i>Clicca sull'etichetta per effettuare una prova di abilità. Ctrl-clic per effettuare un tiro senza modificatore.</i></p>",
                     "key": "CR"
-                }
+                },
+                "base": "Punteggio base di abilità: è il punteggio di abilità così come è stato tirato.",
+                "tempMod": "Si tratta di un modificatore temporaneo inserito manualmente al punteggio dell'abilità."
             },
             "AbilityCount": {
                 "long": "Abilità Speciali",
@@ -279,7 +281,8 @@
             },
             "ClassHint": "<p>La classe può essere selezionata digitando manualmente il nome della classe o trascinando/rilasciando l'oggetto della classe sulla scheda del personaggio. È possibile digitare qualsiasi valore, ma i dati della classe saranno sincronizzati solo se il nome della classe corrisponde esattamente.</p><p><i>Clicca sull'etichetta per visualizzare la scheda della classe.</i></p>",
             "rarity": "Rarità",
-            "Mod": "Mod"
+            "Mod": "Mod",
+            "effectiveLevel": "Livello Effettivo"
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -531,8 +534,14 @@
             "weaponTypeTitle": "M=Mostro/Distanza, I=In Mano, T=Tutte",
             "weaponType": "Tipo Arma",
             "acBonusType": "Tipo Bonus CA",
-            "acBonusTypeHint": "Il tipo di attacco a cui si applica il bonus alla CA.",
-            "summary": "<p>Tipo di arma: {weaponType}<br/>Primaria: {primaryType}<br/>Effetti speciali: {special}<br/>Gittate: {short}/{medium}/{long}<br/>{defense}</p>"
+            "acBonusTypeHint": "Il tipo di attacco a cui si applica il bonus CA (o altro bonus).",
+            "summary": "<p>Tipo di arma: {weaponType}<br/>Primaria: {primaryType}<br/>Effetti speciali: {special}<br/>Gittate: {short}/{medium}/{long}<br/>{defense}</p>",
+            "bonusType": "Tipo Bonus",
+            "wrBonus": "Bonus VL",
+            "trainingFails": {
+                "hint": "Numero di tentativi falliti per raggiungere il livello successivo. Il passaggio al livello di maestria successivo non è automatico; tuttavia, ogni tentativo successivo aumenta la probabilità di successo.",
+                "name": "Addestramento"
+            }
         },
         "SpecialAbility": {
             "plural": "Abilità Speciali",
@@ -1164,6 +1173,14 @@
             "rollTablePack": "Compendium delle Tabelle",
             "actorPack": "Bestiario",
             "itemPack": "Oggetti Classi Abilità"
+        },
+        "monsterAbilityScores": {
+            "choices": {
+                "withoutmod": "Senza Modificatore",
+                "withmod": "Con Modificatore"
+            },
+            "name": "Punteggi di Abilità dei Mostri",
+            "hint": "Se abilitata, la scheda del mostro includerà i punteggi di abilità, proprio come la scheda del personaggio. Seleziona l'opzione \"Senza Modificatore\" per ignorare i modificatori di caratteristica. Seleziona \"Con Modificatore\" per includerli. Includendo i modificatori, non solo verranno visualizzati sulla scheda, ma verranno anche inclusi nei tiri di dado, come i bonus ai tiri per attacco e per danni."
         }
     },
     "TYPES": {
