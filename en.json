@@ -640,6 +640,7 @@
         "turnsName": "Rest Turns"
       }
     },
+    "attackRoll": "Attack Roll",
     "bonus": "Bonus",
     "category": "Category",
     "changes": "Changes",
@@ -884,6 +885,11 @@
     "penalty": "Penalty",
     "roll": "Roll",
     "rollFormula": "Roll Formula",
+    "rollFormulaType": {
+      "advantage": "ADV",
+      "disadvantage": "DIS",
+      "normal": "Normal"
+    },
     "rollMode": "Roll Mode",
     "rollWithCtrl": "<p>Roll {name} check.</p><p><i>Click to roll. Ctrl-click to roll without mod.</i></p>",
     "rounds": "rounds",
