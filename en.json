@@ -817,8 +817,11 @@
       "close": "Close",
       "confirm": "Are you sure?",
       "confirmInitiativeRoll": "One or more combatants have <strong>Nothing</strong> as their declared action. Rolling the group's initiative will freeze the declared actions. Are you sure you want to proceed with rolling the group's initiative?",
-      "extinguish": "Disable",
-      "ignite": "Enable",
+      "lightManager": {
+        "extinguish": "Disable",
+        "ignite": "Enable",
+        "title": "Light Manager"
+      },
       "lightSource": "Light Source",
       "masteryTargetType": "Target Weapon Type",
       "no": "No, cancel",
