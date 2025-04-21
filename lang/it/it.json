@@ -701,7 +701,9 @@
             },
             "cancel": "Annulla",
             "lightManager": {
-                "extinguish": "Disattiva"
+                "extinguish": "Disattiva",
+                "ignite": "Abilita",
+                "title": "Gestione Luci"
             }
         },
         "time": {
@@ -949,9 +951,21 @@
             "userTables": {
                 "actions": {
                     "load": "Attuali",
-                    "new": "Aggiungi"
+                    "new": "Aggiungi",
+                    "createTable": "Crea Tabella",
+                    "saveTable": "Salva Modifiche"
                 },
-                "bonus": "Bonus"
+                "bonus": "Bonus",
+                "minimum": "Minimo",
+                "removePrompt": "Rimuovere Tabella?",
+                "selectTable": "Seleziona Tabella...",
+                "tableId": "Tabella ID",
+                "tableName": "Nome Tabella",
+                "tableType": "Tipo Tabella",
+                "tableTypes": {
+                    "bonus": "Bonus Tabella"
+                },
+                "title": "Tabelle Utente"
             }
         },
         "bonus": "Bonus",
@@ -1046,8 +1060,8 @@
         "type": "Tipo",
         "rollFormula": "Tiro Formula",
         "rollFormulaType": {
-            "advantage": "VAN",
-            "disadvantage": "SVA",
+            "advantage": "Vantaggio",
+            "disadvantage": "Svantaggio",
             "normal": "Normale"
         },
         "attackRoll": "Tiro per Colpire"
