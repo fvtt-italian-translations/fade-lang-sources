@@ -10,9 +10,6 @@
             "name": "Scienza (scegli)",
             "description": "<p>Il personaggio è esperto in un ramo specifico di studi scientifici, come astronomia, geologia, metallurgia, ecc. Questa competenza consente al personaggio di fornire conoscenze specializzate e fare valutazioni esperte all'interno di quel campo. Il giocatore deve indicare il ramo specifico della scienza in cui il personaggio ha raggiunto la maestria. I personaggi possono acquisire questa abilità più volte per rappresentare la competenza in diverse discipline scientifiche</p>"
         },
-        "Shield, Tusked": {
-            "name": "Scudo Dentato"
-        },
         "10' Pole": {
             "name": "Pertica (3m)",
             "description": "<p>Una pertica di legno lunga 3 metri, utile per sondare aree sospette, attivare trappole a distanza o colmare piccoli spazi. La pertica ha un diametro di circa 5 cm ed è abbastanza robusta da supportare un peso moderato.</p>",
@@ -70,10 +67,6 @@
             "description": "<p>L'Acquamarina è una gemma di colore azzurro chiaro con una superficie liscia e lucida. Ha un aspetto cristallino che riflette la luce, mostrando la sua chiarezza e tonalità delicata. Spesso utilizzata nei gioielli, l'acquamarina è apprezzata per la sua brillantezza e il colore tranquillo.</p>",
             "unidentifiedDesc": "<p>L'Acquamarina è una gemma di colore azzurro chiaro con una superficie liscia e lucida. Ha un aspetto cristallino che riflette la luce, mostrando la sua chiarezza e tonalità delicata. Spesso utilizzata nei gioielli, l'acquamarina è apprezzata per la sua brillantezza e il colore tranquillo.</p>"
         },
-        "Arrow (silver)": {
-            "name": "Frecce (argento)",
-            "description": "<p>Una freccia con la punta d'argento. Può essere usata per danneggiare alcuni tipi di creature come i licantropi.</p>"
-        },
         "Art (Choose Type)": {
             "name": "Arte (Scegli)",
             "description": "<p>Questa abilità copre la creazione di arte, come pittura, scultura, intaglio del legno o mosaico. Il giocatore deve specificare il tipo di arte praticata dal personaggio. Un tiro abilità riuscito consente al personaggio di creare opere che possono migliorare le reazioni degli PNG. Ad esempio, presentare un ritratto o una scultura ben fatti a un PNG può fornire un bonus di +2 ai tiri di reazione. Se preferisce il giocatore può scegliere di basare questa abilità sulla Saggezza invece che sull'Intelligenza.</p>"
@@ -85,12 +78,6 @@
         "Artillery": {
             "name": "Artiglieria",
             "description": "<p>Questa abilità consente a un personaggio di comandare l'equipaggio con un pezzo di artiglieria, come una catapulta o un trabucco. Sebbene la conoscenza dell'abilità sia sufficiente per il funzionamento generale, è richiesto un tiro abilità ogni volta che l'artiglieria viene puntata su un nuovo bersaglio. Questa abilità consente anche al personaggio di effettuare calcoli precisi riguardo a traiettoria, distanza e peso del lancio. Può essere acquisita più volte per imparare sia il funzionamento che la costruzione di armi da assedio. Se un dispositivo di artiglieria viene utilizzato o costruito senza che un personaggio possieda questa abilità, è più soggetto a malfunzionamenti o guasti.</p>"
-        },
-        "Axe, Battle": {
-            "name": "Ascia da Battaglia"
-        },
-        "Axe, Hand": {
-            "name": "Accetta"
         },
         "Backpack": {
             "name": "Zaino",
@@ -115,9 +102,6 @@
             "name": "Sacco a pelo",
             "description": "<p>Una coperta pesante di legno con un piccolo cuscino.</p>",
             "unidentifiedDesc": "<p>Una coperta pesante di legno con un piccolo cuscino.</p>"
-        },
-        "Blackjack": {
-            "name": "Manganello"
         },
         "Bless*": {
             "name": "Benedizione*",
@@ -145,15 +129,6 @@
         },
         "Blowgun, to 2'": {
             "name": "Cerbottana (<60 cm)"
-        },
-        "Bola": {
-            "name": "Bolas"
-        },
-        "Bow, Long": {
-            "name": "Arco Lungo"
-        },
-        "Bow, Short": {
-            "name": "Arco Corto"
         },
         "Bravery": {
             "name": "Coraggio",
@@ -214,11 +189,6 @@
             "name": "Cerimonia (scegli Immortale)",
             "description": "<p>Il personaggio sa come onorare un Immortale attraverso rituali e cerimonie. Questa abilità consente a un chierico di eseguire i rituali normali del proprio ordine e potrebbe permettere a un personaggio di attirare l'attenzione di un Immortale tramite preghiere devote, digiuno o sacrificio. Questa abilità include la conoscenza di rituali graditi all'Immortale.</p>"
         },
-        "Cestus": {
-            "name": "Caestus",
-            "description": "<p>Il <strong>cestus</strong> (plurale: <em>cesti</em>) è un tipo di guanto o fasciatura per le mani con bordi ruvidi e taglienti sul dorso, progettato per aumentare il danno degli attacchi a pugno. Se la campagna include le regole opzionali per l'uso di due armi, un personaggio non subisce la penalità di -4 quando usa un cestus sulla mano secondaria.</p>",
-            "unidentifiedDesc": "<p>Il <strong>cestus</strong> (plurale: <em>cesti</em>) è un tipo di guanto o fasciatura per le mani con bordi ruvidi e taglienti sul dorso, progettato per aumentare il danno degli attacchi a pugno. Se la campagna include le regole opzionali per l'uso di due armi, un personaggio non subisce la penalità di -4 quando usa un cestus sulla mano secondaria.</p>"
-        },
         "Chain Mail": {
             "name": "Corazza di Maglia",
             "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare un materiale protettivo flessibile. La corazza di maglia conferisce al personaggio una classe di armatura 5.</p>",
@@ -239,10 +209,6 @@
         "Cheating": {
             "name": "Barare",
             "description": "<p>Questa è l'abilità di vincere ai giochi d'azzardo barando, come distribuire le carte dal fondo del mazzo. Una prova di abilità di Barare viene fatta contro ogni personaggio che viene imbrogliato. Se uno di loro riesce in una prova contro il tiro del baro, scopre l'inganno. Questa abilità è limitata ai personaggi di allineamento Caotico.</p>"
-        },
-        "Chest (small strongbox)": {
-            "name": "Baule (piccola cassaforte)",
-            "description": "<p>Gli scrigni sono scatole di legno rinforzate con coperchi e lati che sono stati realizzati in modo preciso per impedire a qualsiasi cosa di entrare o uscire dalla scatola. Il prezzo è per uno scatolato con lucchetto integrato e rinforzi metallici robusti.</p><table style=\"width: 280px; border-width: 1px; margin-left: 0px; margin-right: auto;\" border=\"1\"><colgroup><col><col></colgroup><tbody><tr><td style=\"border-width: 1px; padding: 4px;\">Peso sostenuto (kg/mon)</td><td style=\"border-width: 1px; padding: 4px;\">90/2.000</td></tr><tr><td style=\"border-width: 1px; padding: 4px;\">Volume sostenuto (metri cubi)</td><td style=\"border-width: 1px; padding: 4px;\">0.06 (38x38x38 cm)</td></tr><tr><td style=\"border-width: 1px; padding: 4px;\">Durezza/PF</td><td style=\"border-width: 1px; padding: 4px;\">6/4</td></tr></tbody></table><p> </p>"
         },
         "Clairvoyance": {
             "name": "Chiaroveggenza",
@@ -293,9 +259,6 @@
                 }
             }
         },
-        "Climb Walls": {
-            "name": "Scalare Pareti"
-        },
         "Clothes, Good": {
             "name": "Abiti eleganti",
             "description": "<p>Questi sono abiti di alta qualità, possibilmente adornati con elementi decorativi minori. Sono adatti per partecipare a eventi sociali e per i personaggi che desiderano fare una buona impressione.</p>",
@@ -329,10 +292,6 @@
         },
         "Club or Torch": {
             "name": "Clava o Torcia"
-        },
-        "Combat Bonuses": {
-            "name": "Bonus di Attacco",
-            "description": "<p>Gli halfling ottengono un bonus di +1 a tutti i tiri per colpire quando usano armi a distanza, un bonus di +1 all'iniziativa individuale e un bonus di -2 alla CA quando vengono attaccati da creature più grandi di dimensioni umane</p><p>Una creatura è considerata più grande di dimensioni umane se la sua descrizione include termini come \"gigante\", \"mastodontica\" o \"enorme\". Inoltre, creature del mondo reale che il DM ritiene più grandi di un umano (come un cavallo) rientrano anch'esse in questa categoria. Come linea guida generale, qualsiasi creatura non umanoide senza una dimensione specificata può essere considerata più grande di dimensioni umane se ha 4 o più Dadi Vita (DV)</p>"
         },
         "Commune": {
             "name": "Comunicazione con gli Dei",
@@ -461,11 +420,6 @@
             "description": "<p>Questo incantesimo impone una sfortuna o una penalità sul bersaglio. Le maledizioni sono limitate solo dall'immaginazione dell'incantatore ma dovrebbero essere bilanciate per evitare di ritorcersi contro l'incantatore a discrezione del DM.</p>\n                      <p>Tipici effetti della maledizione includono una penalità di -4 ai tiri per colpire, -2 ai tiri salvezza o dimezzamento del requisito primario. Il bersaglio può tentare un tiro salvezza contro incantesimi per evitare la maledizione.</p>",
             "spellEffect": "Infligge una maledizione a un bersaglio"
         },
-        "Dagger": {
-            "name": "Pugnale",
-            "description": "<p>Una piccola lama con un'impugnatura a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-            "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>"
-        },
         "Dagger +1": {
             "name": "Pugnale +1",
             "description": "<p>Una lama piccola con un'impugnatura a una mano. Può essere usata in mischia o lanciata come arma a distanza. Questo pugnale ha un bonus ai danni di [[@mod.dmg]] e un bonus al tiro per colpire di [[@mod.toHit]].</p><p></p>",
@@ -513,21 +467,12 @@
         "Detect Magic": {
             "name": "Individuazione del Magico",
             "spellEffect": "Ogni cosa entro 18 metri",
-            "spellDuration": "2 turni (20 minuti)",
             "description": "<p>Questo incantesimo consente al mago di vedere un bagliore che circonda tutti gli oggetti magici, le creature e i luoghi entro 18 m. Il mago può vedere il bagliore solo se gli oggetti sono visibili; gli oggetti nascosti non mostreranno il loro bagliore. Non è consentito alcun tiro salvezza.</p>\n                <p><strong>Esempio:</strong> Dopo aver lanciato l'incantesimo, un mago può vedere una porta luminosa (chiusa con la magia) e una pozione luminosa. Una bacchetta magica all'interno di uno scrigno del tesoro non sarebbe visibile poiché lo scrigno nasconde il suo bagliore.</p>",
             "spellRange": "0"
         },
         "Detect Secret Door": {
             "name": "Cercare Porte Segrete",
             "description": "<p>Per individuare una porta segreta, un personaggio deve specificare l'area esatta da ispezionare. Il processo richiede in genere un turno (10 minuti) per ogni sezione di 3 m di muro, pavimento o soffitto. Gli elfi, grazie alla loro vista acuta, ricevono un bonus di +1 al loro tiro. <br>Sia il Dungeon Master che il tiro deve essere alla cieca, indipendentemente dalla presenza o meno di una porta segreta, per mantenere l'incertezza del giocatore. Una volta trovata, la posizione della porta segreta può essere annotata, consentendo la scoperta futura senza un tiro.</p>"
-        },
-        "Detection Skills": {
-            "name": "Capacità di individuazione",
-            "description": "<p>I nani possono rilevare trappole, pareti scorrevoli, corridoi in pendenza e nuove costruzioni con una probabilità di 1 su 2. Per cercare, il nano deve attivamente cercare queste caratteristiche, e il DM tira 1d6; un tiro di 1 o 2 indica successo.</p>"
-        },
-        "Detection of Secret Doors": {
-            "name": "Individuare Porte e Passaggi Segreti",
-            "description": "<p>Gli elfi hanno una probabilità di 1 su 3 di rilevare porte segrete e nascoste quando le cercano attivamente grazie alla loro vista acuta.</p>"
         },
         "Diamond": {
             "name": "Diamante",
@@ -568,10 +513,6 @@
             "spellDuration": "3-18 giorni",
             "spellEffect": "Liquefa 280 metri quadrati",
             "description": "<p>Questo incantesimo trasforma il terreno o la roccia (ma non i materiali costruiti) entro 72 metri nel fango, influenzando un'area fino a 280 metri quadrati e fino a 3 metri di profondità. L'incantatore può determinare la forma dell'area entro questi limiti (ad esempio, 6 m x 45 m, 9 m x 30 m).</p><p><strong>Effetti del Movimento:</strong> Le creature che si muovono attraverso il fango sono rallentate al 10% della loro velocità normale e possono rimanere bloccate. A discrezione del DM, le creature nell'area possono dover effettuare un tiro salvezza contro incantesimi per evitare di rimanere bloccate.</p><p><strong>Durata:</strong> L'effetto dura per [[/r 3d6 #giorni]] 3-18 giorni.</p>"
-        },
-        "Divine Intervention": {
-            "name": "Intervento Divino",
-            "description": "<p>In situazioni disperate, un chierico di alto livello può invocare il proprio dio per un'intervento diretto. Questa abilità è usata con parsimonia e tipicamente comporta un atto significativo di fede o sacrificio. Gli effetti esatti e la probabilità di successo sono determinati dal DM.</p>"
         },
         "Druid": {
             "name": "Druido",
@@ -749,10 +690,6 @@
             "name": "Liberarsi",
             "description": "<p>L'abilità Liberarsi permette a un personaggio di evadere da vincoli, come corde o manette, e di sfuggire a restrizioni fisiche o spazi confinati. Il successo può dipendere dalla qualità delle legature e dalla condizione attuale del personaggio. Questa abilità viene anche utilizzata per evitare prese e situazioni simili nel combattimento.</p>"
         },
-        "Exorcism": {
-            "name": "Esorcismo",
-            "description": "<p>L'esorcismo è un rituale speciale che i chierici di alto livello (9º livello o superiore) possono eseguire per scacciare entità possedenti o spiriti malevoli da una creatura o da un luogo. Il chierico deve eseguire il rituale per una durata specificata, e il successo dipende dal livello del chierico e dalla forza dello spirito.</p>"
-        },
         "Faerie Fire": {
             "name": "Fuoco Fatuo",
             "spellDuration": "1 round per livello dell'incantatore",
@@ -803,18 +740,9 @@
             "spellEffect": "Ingrandisce 280 m² di piante",
             "description": "<p>Questo incantesimo fa crescere densamente arbusti o boschi normali con viti, rampicanti, spine o piante simili che crescono all'area. L'incantesimo colpisce fino a 280 m², con dimensioni scelte dall'incantatore, e tutte le piante devono essere interamente entro 36 m dall'incantatore.</p>\n                      <p><strong>Effetto:</strong> L'area ricoperta di vegetazione diventa impraticabile per le creature tranne quelle di dimensioni giganti. L'effetto rimane fino a quando non viene rimosso dalla versione inversa dell'incantesimo o da un incantesimo *Dissolvi Magie*.</p>\n                      <p><strong>Incantesimo Inverso - Riduzione Vegetale:</strong> La forma inversa riduce tutte le piante normali nell'area interessata a uno stato praticabile, annullando l'effetto di *Crescita dei Vegetali*. Non ha effetto su mostri simili a piante, come gli ent.</p>"
         },
-        "Halberd": {
-            "name": "Alabarda"
-        },
         "Find Trap": {
             "name": "Scoprire Trappole",
             "description": "<p>Per cercare trappole, il giocatore deve specificare l'area esatta che sta esaminando, come una stanza quadrata di 6 metri o un corridoio di 6 metri. La ricerca richiede un turno (10 minuti) per area, e il Dungeon Master tira i dadi per determinare il successo. I ladri hanno una probabilità percentuale di rilevare trappole, determinata dal loro livello, mentre i nani hanno una maggiore possibilità di individuare grandi trappole meccaniche, come trappole a fossa, grazie alla loro affinità naturale con la lavorazione della pietra. Il DM può modificare la difficoltà per trappole particolarmente nascoste. I personaggi non ladri generalmente non possono rilevare trappole a meno che la loro presenza non sia evidente.</p>"
-        },
-        "Find Traps": {
-            "name": "Scoprire Trappole",
-            "description": "<p>Questo incantesimo fa emettere una debole luce blu a tutte le trappole meccaniche e magiche entro 9 metri dall'incantatore. Mentre rivela la presenza di trappole, non fornisce informazioni sul loro tipo o su come disattivarle. Agguati o pericoli naturali come le sabbie mobili non sono considerati trappole e non saranno rivelati da questo incantesimo.</p>",
-            "spellEffect": "Trappole entro 9 m emettono una luce",
-            "spellRange": "0 (Incantatore)"
         },
         "Finger of Death*": {
             "name": "Dito della Morte*",
@@ -850,10 +778,6 @@
             "name": "Libera Mostri*",
             "spellEffect": "Rimuove la paralisi da 1-4 creature",
             "description": "<p>Questo incantesimo rimuove l'effetto di paralisi da un massimo di quattro creature colpite da *Blocca Persone* o *Blocca Mostri*. Non ha altri effetti.</p>"
-        },
-        "Half Damage from Dragon Breath": {
-            "name": "Danno Dimezzato dal Soffio del Drago",
-            "description": "<p>Con 1,600,000 PX, un elfo subisce solo metà dei danni dal soffio del drago. Un tiro salvezza riuscito riduce i danni a un quarto.</p>"
         },
         "Halfling": {
             "name": "Halfling",
@@ -928,12 +852,6 @@
             "description": "<p>Usato per piantare punte di ferro in superfici dure come pietra o legno. Può anche essere utilizzato come arma, infliggendo 1d3 punti di danno. Questo oggetto è necessario per installare determinate attrezzature come corde o tende.</p>",
             "unidentifiedDesc": "<p>Usato per piantare punte di ferro in superfici dure come pietra o legno. Può anche essere utilizzato come arma, infliggendo 1d3 punti di danno. Questo oggetto è necessario per installare determinate attrezzature come corde o tende.</p>"
         },
-        "Hammer, Throwing": {
-            "name": "Martello da lancio"
-        },
-        "Hammer, War": {
-            "name": "Martello da guerra"
-        },
         "Harden*": {
             "name": "Indurire*",
             "spellEffect": "Trasforma il fango in roccia solida",
@@ -960,14 +878,6 @@
         "Hide in Shadows": {
             "name": "Nascondersi nelle Ombre",
             "description": "<p>L'abilità consente di mimetizzarsi nell'ombra e di diventare quasi invisibili, muovendosi silenziosamente finché si rimane fermi o ci si muove con cautela.</p>"
-        },
-        "Hiding Ability (indoors)": {
-            "name": "Nascondersi (interni)",
-            "description": "<p>I halfling possono nascondersi con una probabilità di successo del 90% in ambienti naturali quando rimangono immobili. All'interno, hanno una probabilità del 33% di nascondersi con successo nelle ombre o dietro ripari.</p>"
-        },
-        "Hiding Ability (natural)": {
-            "name": "Nascondersi (esterni)",
-            "description": "<p>I halfling possono nascondersi con una probabilità di successo del 90% in ambienti naturali quando rimangono immobili. All'interno, hanno una probabilità del 33% di nascondersi con successo nelle ombre o dietro ripari.</p>"
         },
         "Hold Animal": {
             "name": "Blocca Animali",
@@ -1011,10 +921,6 @@
             "name": "Tempesta / Muro di Ghiaccio",
             "spellEffect": "Tempesta in un volume 6 m x 6 m x 6 m",
             "description": "<p>Questo incantesimo crea una tempesta di ghiaccio in un'area di 6 m x 6 m x 6 m, o nello spazio più grande disponibile entro queste dimensioni, infliggendo 1d6 danni da freddo per livello dell'incantatore a tutte le creature nell'area.</p>\n                      <p><strong>Tiro Salvezza:</strong> Ogni creatura può fare un tiro salvezza contro incantesimi per dimezzare i danni. Le creature di tipo fuoco (es. draghi rossi, salamandre di fuoco) subiscono una penalità di -4 ai loro tiri salvezza, mentre le creature di tipo freddo (es. giganti del gelo, salamandre del gelo) non sono influenzate.</p>"
-        },
-        "Immunity to Ghoul Paralysis": {
-            "name": "Immunità dalla paralisi dei ghoul",
-            "description": "<p>Gli elfi sono immuni agli attacchi paralizzanti dei ghoul. Tuttavia, sono ancora influenzati da altre forme di paralisi.</p>"
         },
         "Infravision": {
             "name": "Infravisione",
@@ -1067,11 +973,6 @@
             "description": "<p>Il diaspro è una gemma opaca che presenta tonalità terrose come il rosso, il marrone e il giallo. Spesso ha motivi naturali unici e una superficie liscia e lucida, mettendo in risalto i suoi colori ricchi e i disegni intricati. Il diaspro è apprezzato per le sue qualità di messa a terra e protezione in varie culture.</p>",
             "unidentifiedDesc": "<p>Il diaspro è una gemma opaca che presenta tonalità terrose come il rosso, il marrone e il giallo. Spesso ha motivi naturali unici e una superficie liscia e lucida, mettendo in risalto i suoi colori ricchi e i disegni intricati. Il diaspro è apprezzato per le sue qualità di messa a terra e protezione in varie culture.</p>"
         },
-        "Javelin": {
-            "name": "Giavellotto",
-            "description": "<p>Un giavellotto è una lancia leggera da lancio a una mano. Sebbene usata principalmente come arma da lancio, può essere utilizzata anche in mischia. Gli halfling e altre razze piccole <em>possono</em> usare quest'arma.</p>",
-            "unidentifiedDesc": "<p>Un giavellotto è una lancia leggera a una mano da lancio. Sebbene sia utilizzato principalmente come arma da lancio, può anche essere usato in mischia. Gli halfling e altre razze piccole <em>possono</em> usare questa arma.</p>"
-        },
         "Knock": {
             "name": "Scassinare",
             "spellDuration": "Vedi sotto",
@@ -1092,17 +993,10 @@
             "name": "Lavoro",
             "description": "<p>Questa abilità rappresenta l'esperienza in un tipo di lavoro manuale come la muratura, l'agricoltura, l'estrazione mineraria o la lavorazione della pietra. I personaggi possono guadagnarsi da vivere con questa abilità e interpretare informazioni relative alla loro occupazione. Specificare a quale tipo di lavoro l'abilità si riferisce, come <strong>muratura</strong>, <strong>estrazione mineraria</strong>, o <strong>lavorazione della pietra</strong>. Un personaggio può selezionare più abilità di Lavoro, ognuna rappresentando una diversa competenza.</p>"
         },
-        "Lance": {
-            "name": "Lancia da Cavaliere"
-        },
         "Leather Armor": {
             "name": "Armatura in cuoio",
             "description": "<p>Questa è un'armatura composta principalmente da piastre e strisce di cuoio. Il cuoio è spesso bollito nella cera per indurirlo. L'armatura in cuoio fornisce una classe armatura 7 e, poiché è fatta di materiali naturali, può essere indossata dai druidi. È anche leggera e abbastanza silenziosa da essere indossata dai ladri.</p>",
             "unidentifiedDesc": "<p>Quest'armatura è composta principalmente da piastre e strisce in cuoio. La pelle viene spesso bollita nella cera per indurirla. L'armatura in cuoio conferisce una classe armatura di 7 e poiché è realizzata con materiali naturali può essere indossata dai druidi. È anche abbastanza leggera e silenziosa da poter essere indossata dai ladri.</p>"
-        },
-        "Leather Armor+1": {
-            "name": "Armatura in cuoio +1",
-            "description": "<p>Questa è un'armatura composta principalmente da piastre e strisce di cuoio. Il cuoio è spesso bollito nella cera per indurirlo. L'armatura in cuoio non magica fornisce una classe armatura 7 e, poiché è fatta di materiali naturali, può essere indossata dai druidi. È anche leggera e abbastanza silenziosa da essere indossata dai ladri.</p>"
         },
         "Lance Attack": {
             "name": "Attacco con Lancia",
@@ -1129,10 +1023,6 @@
         "Language (choose type)": {
             "name": "Linguaggio (scegli)",
             "description": "<p>Permette al personaggio di parlare e leggere una lingua specifica oltre alla sua normale allocazione. Ogni lingua aggiuntiva è scelta separatamente, come <strong>Elfico</strong>, <strong>Nanico</strong>, o <strong>Thyatiano</strong>. Il personaggio deve fare una prova di abilità per comprendere il discorso tecnico o veloce in queste lingue aggiuntive. </p>"
-        },
-        "Languages": {
-            "name": "Linguaggi",
-            "description": "<p>I nani possono parlare le lingue di Nani, Gnomi, Goblin e Coboldi, oltre al Comune e alle lingue degli Allineamenti.</p>"
         },
         "Lantern": {
             "name": "Lanterna",
@@ -1161,9 +1051,6 @@
             "spellRange": "0 (solo Druido)",
             "description": "<p>Questo incantesimo permette al druido di percepire la direzione di un animale o una pianta normale o di dimensioni giganti entro 36 metri. L'incantatore deve nominare il tipo esatto di animale o pianta, ma non ha bisogno di vedere quello specifico per localizzarlo. Questo incantesimo non può localizzare creature fantastiche, mostri vegetali o qualsiasi creatura o pianta intelligente.</p><p>L'animale o la pianta non ha diritto a un tiro salvezza. (Questo incantesimo è usato più spesso per trovare piante rare speciali.)</p>"
         },
-        "Mace": {
-            "name": "Mazza"
-        },
         "Mace +1": {
             "name": "Mazza +1",
             "description": "<p>Una mazza magica è un'arma da mischia a una mano composta da un'asta lunga 60-90 cm con una testa pesante di metallo. La testa può essere liscia (a forma di sfera o di pera), può contenere flange o borchie, o può persino essere scolpita nella forma di un pugno, di un teschio o di un altro oggetto rotondeggiante.</p>",
@@ -1178,18 +1065,11 @@
             "unidentifiedDesc": "<p>Una mazza è un’arma da mischia a una mano costituita da un’asta lunga 60-90 cm con una pesante testa metallica. La testa può essere liscia (rotonda o a forma di pera), può avere flange o borchie, o può persino essere scolpita a forma di pugno, teschio o altro oggetto tondeggiante.</p>",
             "weaponMastery": "Mazza"
         },
-        "Magic Duel": {
-            "name": "Duello Magico",
-            "description": "<p>I Maghi esperti possono impegnarsi in duelli magici, usando i loro incantesimi e abilità per contrastare o interrompere la magia di un altro incantatore. Questo è spesso utilizzato per risolvere conflitti tra incantatori rivali.</p>"
-        },
         "Locate Object": {
             "name": "Localizzare un Oggetto",
             "spellEffect": "Rileva un oggetto entro il raggio",
             "spellRange": "18 m + 3 m per livello dell'incantatore",
             "description": "<p>L'incantatore può localizzare un oggetto specifico entro il raggio d'azione. L'incantatore deve conoscere l'aspetto esatto dell'oggetto o specificare un tipo comune come \"qualsiasi rampa di scale\".</p>\n      <p>L'incantesimo punterà verso l'oggetto specificato più vicino entro il raggio d'azione, fornendo la direzione ma non la distanza. Il raggio d'azione aumenta di 3 m per livello dell'incantatore.</p>"
-        },
-        "Long Coat (wool)": {
-            "name": "Cappotto Lungo (lana)"
         },
         "Magic Jar": {
             "name": "Giara Magica",
@@ -1252,10 +1132,6 @@
                 }
             }
         },
-        "Magic-User Spells": {
-            "name": "Incantesimi del Mago",
-            "description": "<p>Gli elfi possono lanciare incantesimi da mago, anche se ricevono meno incantesimi e di livello inferiore rispetto a un mago dello stesso livello.</p>"
-        },
         "Magical Engineering": {
             "name": "Ingegneria Magica",
             "description": "<p>Conferisce la capacità di riconoscere i principi di base dietro dispositivi magici sconosciuti. Questo non include l'addestramento nella progettazione o fabbricazione di manufatti magici, ma consente di identificare oggetti magici comuni con una prova di abilità riuscita. Non permette a un personaggio di riconoscere oggetti magici non comuni o di distinguere oggetti trappola o maledetti da quelli sicuri.</p>"
@@ -1315,10 +1191,6 @@
         "Mysticism": {
             "name": "Misticismo",
             "description": "<p>Questa abilità permette a un personaggio di sapere istintivamente quali azioni compiere per compiacere gli Immortali in generale. Una prova di abilità riuscita può indicare il comportamento o il rituale appropriato da usare quando si incontrano oggetti sacri, luoghi o situazioni legate agli Immortali.</p>\n      <p>Ad esempio, una prova riuscita potrebbe rivelare che il gruppo dovrebbe lasciare un'offerta a un santuario o evitare di disturbare un sito sacro. Questa abilità permette anche a un personaggio di riconoscere simboli e artefatti degli Immortali, così come di interpretare presagi o segni dati da loro.</p>"
-        },
-        "Name-Level Benefits": {
-            "name": "Benefici al 9° Livello",
-            "description": "<p>Al 9º livello, un elfo può costruire una roccaforte nel profondo della foresta. Gli animali amici entro 8 km dalla roccaforte aiuteranno l'elfo fornendo avvertimenti, consegnando messaggi e aiutando in altri modi.</p>"
         },
         "Nature Lore": {
             "name": "Sapienza: Natura",
@@ -1402,9 +1274,6 @@
             "name": "Svuotare Tasche",
             "description": "<p>Il personaggio può tentare di borseggiare o prendere piccoli oggetti dalle persone senza essere notato.</p>"
         },
-        "Pike": {
-            "name": "Picca"
-        },
         "Piloting (choose type)": {
             "name": "Navigazione (scegli)",
             "description": "<p>Questa abilità rappresenta la capacità di controllare e manovrare un tipo specifico di imbarcazione, come una nave, una nave volante o un mezzo magico. Il tipo scelto deve essere specificato quando l'abilità viene selezionata. La navigazione comporta l'uso del timone, evitare gli ostacoli e la gestione dell'imbarcazione in varie condizioni, come situazioni meteorologiche o di combattimento.</p>"
@@ -1427,11 +1296,6 @@
         },
         "Platinum Piece": {
             "name": "Moneta di Platino"
-        },
-        "Poleaxe": {
-            "name": "Ascia Lunga a 2-mani",
-            "description": "<p>Un'ascia lunga consiste in una lama d'ascia (di solito a un solo lato, ma occasionalmente a doppio lato) con un'asta lunga da 1.8 a 2.4 m. Viene impugnata con entrambe le mani come una grande ascia a due mani.</p>",
-            "unidentifiedDesc": "<p>Un'ascia lunga consiste in una lama d'ascia (di solito a un solo lato, ma occasionalmente a doppio lato) con un'asta lunga da 1.8 a 2.4 m. Viene impugnata con entrambe le mani come una grande ascia a due mani.</p>"
         },
         "Polearm": {
             "name": "Arma Lunga",
@@ -1601,12 +1465,6 @@
             "description": "<p>Cibo non trattato ma sufficiente per una persona per una settimana. È soggetto a deperimento in ambienti umidi, come nei dungeon, ed è ideale per i viaggi terrestri</p>",
             "unidentifiedDesc": "<p>Cibo non trattato ma sufficiente per una persona per una settimana. È soggetto a deperimento in ambienti umidi, come nei dungeon, ed è ideale per i viaggi terrestri</p>"
         },
-        "Read Languages": {
-            "name": "Comprendere Linguaggi",
-            "spellRange": "0",
-            "spellEffect": "Solo l'incantatore",
-            "description": "<p>Al 4º livello, un ladro ha una possibilità dell'80% di leggere e comprendere testi o lingue comuni (inclusi codici segreti semplici, lingue antiche, mappe del tesoro, eccetto scritti magici). Se fallisce, deve guadagnare un livello d'esperienza prima di riprovare.</p>"
-        },
         "Read Magic": {
             "name": "Lettura del Magico",
             "spellRange": "0",
@@ -1681,10 +1539,6 @@
         "Saddle and Bridle": {
             "name": "Sella e briglie"
         },
-        "Sanctify Ground": {
-            "name": "Santificare Area",
-            "description": "<p>Un chierico può santificare un'area, come un santuario o un cimitero, per impedire l'ingresso di creature non-morte e demoniache. Questo rituale richiede materiali speciali e tempo, e la sua durata ed efficacia sono determinate dal livello del chierico</p>"
-        },
         "Sapphire": {
             "name": "Zaffiro",
             "description": "<p>Lo zaffiro è una gemma nota per il suo colore blu intenso e la sua brillantezza. Ha una superficie liscia e lucida con un aspetto sfaccettato, che mette in mostra la sua chiarezza e tonalità vivace. Gli zaffiri sono molto apprezzati in gioielleria per il loro colore straordinario e il loro scintillio elegante</p>",
@@ -1714,24 +1568,6 @@
         "Set Spear vs. Charge": {
             "name": "Lancia vs. Carica",
             "description": "<p>Un personaggio a piedi armato di lancia, picca, spada, scudo o lancia può impostare l'arma contro una carica. Una carica avviene quando un mostro si precipita verso il personaggio, coprendo almeno 20 m prima di attaccare. Questa manovra può essere usata anche contro l'attacco con la lancia di un altro personaggio.</p><p>Per \"impostare contro la carica\", il personaggio appoggia l'arma contro il terreno, puntandola verso il nemico in avvicinamento. I bonus di Forza e magia si applicano sia ai tiri per colpire che a quelli per i danni. Se l'attacco ha successo, il personaggio infligge il doppio dei danni, con gli aggiustamenti applicati dopo il danno doppio.</p><p>Il personaggio deve dichiarare la manovra imposta contro carica prima di entrare in combattimento corpo a corpo con l'avversario che carica. Ad esempio, se il gruppo del personaggio vince l'iniziativa e si aspetta una carica, può dichiarare questa manovra. Allo stesso modo, se i mostri in carica vengono individuati diversi round prima, il personaggio può impostare la propria arma contro la carica in anticipo.</p><p>In genere, l'attacco viene effettuato durante la fase di movimento del mostro, non appena entra nel raggio d'azione dell'arma. Se l'attacco riesce e uccide il mostro, impedisce alla creatura di attaccare. Se l'attacco non uccide il mostro, può quindi attaccare durante la sua fase di mischia nella sequenza di combattimento.</p>"
-        },
-        "Shield": {
-            "name": "Scudo",
-            "spellRange": "0",
-            "spellEffect": "Solo l'incantatore",
-            "description": "<p>Questo incantesimo crea una barriera magica intorno all'incantatore, a meno di un pollice dal corpo. Concede una classe armatura di 2 contro i proiettili e una classe armatura di 4 contro tutti gli altri attacchi. La barriera si muove con l'incantatore e non interferisce con i movimenti o gli attacchi dell'incantatore.</p>\n                <p>Se un <em>dardo incantato</em> viene lanciato contro l'incantatore, quest'ultimo può effettuare un tiro salvezza contro incantesimi. Se riesce, il dardo è annullato dalla barriera e non ha alcun effetto.</p>"
-        },
-        "Shield, Horned": {
-            "name": "Scudo Appuntito"
-        },
-        "Shield, Knife": {
-            "name": "Scudo Laminato",
-            "description": "<p>Questo è un piccolo scudo rotondo dotato di una o due lame corte che si estendono dai suoi bordi. Queste sporgenze gli permettono di servire sia come strumento difensivo che come arma offensiva. La sua dimensione ridotta lo rende più facile da manovrare rispetto agli scudi più grandi.</p>",
-            "unidentifiedDesc": "<p>Questo è un piccolo scudo rotondo dotato di una o due lame corte che si estendono dai suoi bordi. Queste sporgenze gli permettono di servire sia come strumento difensivo che come arma offensiva. La sua dimensione ridotta lo rende più facile da manovrare rispetto agli scudi più grandi.</p>",
-            "unidentifiedName": "Scudo Laminato"
-        },
-        "Shield, Sword": {
-            "name": "Scudo Lanceolato"
         },
         "Shipbuilding": {
             "name": "Cantiere Navale",
@@ -1770,11 +1606,6 @@
         "Silver Piece": {
             "name": "Moneta d'Argento"
         },
-        "Sling": {
-            "name": "Fionda",
-            "description": "<p>Una fionda è una lunga corda di cuoio (da 1.2 m a 1.8 m) con una sacca a metà lunghezza. L'utilizzatore lega un'estremità della corda al polso e tiene l'altra estremità nella stessa mano. Quindi, posiziona una biglia di piombo nella sacca e fa oscillare la corda sopra la testa. A metà dell'oscillazione, lascia andare l'estremità libera, rilasciando la biglia. Le fionde richiedono normalmente biglie come munizioni, sebbene possano essere utilizzate con pietre raccolte da terra, con una penalità di -1 ai tiri per colpire e ai danni</p>",
-            "unidentifiedDesc": "<p>Una fionda è una lunga corda di cuoio (1.2 m a 1.8 m) con una tasca a metà lunghezza. Il possessore lega un'estremità della corda attorno al polso e tiene l'altra estremità nella stessa mano. Poi posiziona un proiettile di piombo nella tasca e fa roteare la corda sopra la testa. A metà della rotazione, lascia andare l'estremità libera, rilasciando il proiettile. Le fionde normalmente richiedono proiettili come munizioni, anche se possono essere usate con pietre prese dal terreno, con una penalità di -1 ai tiri per colpire e ai tiri per i danni</p>"
-        },
         "Slow*": {
             "name": "Lentezza*",
             "spellEffect": "Fino a 24 creature si muovono a metà velocità",
@@ -1812,11 +1643,6 @@
             "spellEffect": "L'incantatore può porre tre domande",
             "description": "<p>Mediante questo incantesimo, un incantatore può porre tre domande a uno spirito defunto se il corpo è entro il raggio d'azione</p>\n<p>Un incantatore di 6º o 7º livello può contattare spiriti recentemente defunti (morti da fino a 4 giorni). Gli incantatori di livelli 8-14 hanno un potere leggermente maggiore (contattando spiriti morti fino a 4 mesi), e gli incantatori di livelli 15-20 hanno ancora più potere (parlando con cadaveri morti fino a 4 anni). Nessun limite di tempo si applica agli incantatori di 21º livello o superiore</p>\n<p>Lo spirito risponderà sempre in una lingua conosciuta dall'incantatore, ma può offrire solo conoscenze fino al momento della sua morte. Se l'allineamento dello spirito è lo stesso dell'incantatore, fornirà risposte chiare e brevi; tuttavia, se gli allineamenti differiscono, lo spirito può rispondere in enigmi</p>"
         },
-        "Spear": {
-            "name": "Lancia",
-            "description": "<p>La lancia è una punta perforante attaccata a un'estremità di un'asta di lunghezza media o lunga (da 1.8 m a 2.4 m). I guerrieri, i nani, gli elfi e i mistici possono usare la manovra di impiego della lancia contro la carica</p>",
-            "unidentifiedDesc": "<p>La lancia è una punta perforante attaccata a un'estremità di un'asta di lunghezza media o lunga (da 1.8 m a 2.4 m). I guerrieri, i nani, gli elfi e i mistici possono usare la manovra di impiego della lancia contro la carica</p>"
-        },
         "Spear +1": {
             "name": "Lancia +1",
             "description": "<p>La lancia magica è una punta perforante attaccata a un'estremità di un'asta di lunghezza media o lunga (da 1.8 m a 2.4 m). I guerrieri, i nani, gli elfi e i mistici possono usare la manovra di attacco della lancia contro la carica</p>",
@@ -1831,10 +1657,6 @@
             "unidentifiedName": "Lancia",
             "weaponMastery": "Lancia"
         },
-        "Special Defenses": {
-            "name": "Difese Speciali",
-            "description": "<p>A 300,000 PX, gli halfling subiscono metà danno dagli incantesimi e dagli effetti simili agli incantesimi. A 2,100,000 PX, subiscono metà danno dalle armi a soffio. Se un tiro salvezza riesce, il danno è ridotto a un quarto</p>"
-        },
         "Spell Research": {
             "name": "Ricerca Incantesimi",
             "description": "<p>Un personaggio può tentare di creare un nuovo incantesimo, a patto che sia di un livello che può lanciare. Il processo richiede:</p><ul><li><p>1.000 mo per livello di incantesimo</p></li><li><p>Due settimane di ricerca per livello di incantesimo</p></li><li><p>Componenti rari, che spesso richiedono un'avventura per essere ottenuti.</p></li><li><p>Un laboratorio o una biblioteca completamente forniti</p></li></ul><p>La probabilità di successo dipende dal punteggio di Intelligenza e dal livello del personaggio, con modifiche per la difficoltà dell'incantesimo. Se un tentativo di ricerca fallisce, il processo deve essere riavviato, ma ogni fallimento garantisce un bonus cumulativo del +5% ai tentativi futuri.</p><p>In genere, un personaggio non ha una biblioteca sufficiente per la ricerca avanzata fino al raggiungimento del 18° livello, o almeno del 9° livello se ha raccolto numerosi tomi magici. Mentre la ricerca è tecnicamente possibile a qualsiasi livello, i personaggi di livello inferiore potrebbero avere difficoltà a soddisfare i requisiti.</p>"
@@ -1843,13 +1665,6 @@
             "name": "Libro Incantesimi da viaggio",
             "description": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>",
             "unidentifiedDesc": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>"
-        },
-        "Spellcasting": {
-            "name": "Lanciare Incantesimi",
-            "description": "<p>Gli incantatori possono memorizzare e lanciare incantesimi arcani. Il numero e il livello degli incantesimi che possono preparare è determinato dal loro livello. Gli incantesimi devono essere imparati e registrati nel libro degli incantesimi dell'incantatore prima di poter essere lanciati</p>"
-        },
-        "Staff": {
-            "name": "Bastone a 2-mani"
         },
         "Stakes (3) and Mallet": {
             "name": "Pioli (3) e mazzuolo",
@@ -1874,10 +1689,6 @@
             "spellEffect": "Bonus di 1d6 ai danni su 1 arma",
             "description": "<p>Questo incantesimo permette a un'arma qualsiasi di infliggere 1d6 punti danno aggiuntivi per attacco (simile a un bastone magico da colpo). L'arma infliggerà questo danno extra con ogni colpo riuscito finché dura l'incantesimo. Questo bonus non si applica ai tiri per colpire, ma solo ai tiri per danni</p>\n                <p>Se l'incantatore lancia questo incantesimo su un'arma normale, l'arma può quindi danneggiare creature che normalmente sono influenzate solo da armi magiche; l'arma farà 1d6 punti danno per colpo (indipendentemente dal danno normale dell'arma)</p>"
         },
-        "Stronghold Construction": {
-            "name": "Costruire Roccaforte",
-            "description": "<p>Al livello 9, un halfling può costruire una roccaforte, che attirerà altri halfling a stabilirsi lì se costruita in un luogo adatto.</p>"
-        },
         "Suit Armor": {
             "name": "Armatura Completa",
             "description": "<p>Questa è un'armatura composta principalmente da piastre metalliche sovrapposte, con cotta di maglia sotto. Conosciuta anche come armatura da giostra, l'armatura completa deve essere fatta su misura per adattarsi al suo proprietario—ed è spesso indossata dai nobili tanto come simbolo di status quanto per protezione. Tuttavia, fornisce più protezione di qualsiasi altra armatura (non magica). L'armatura conferisce al personaggio una classe armatura 0, e riduce anche tutti i danni inflitti al personaggio da attacchi ad area (come incantesimi di Palla di Fuoco e soffio di drago) di un punto per dado di danno. Se l'armatura è magica, riduce tali danni di un ulteriore punto per due punti di bonus di potenziamento. Sfortunatamente, poiché l'armatura è progettata per l'uso nei tornei e nelle parate dove chi la indossa trascorre il tempo a cavallo, è molto ingombrante e rumorosa quando viene indossata a piedi. Quando a piedi, qualcuno che indossa l'armatura può essere udito muoversi fino a 36 m di distanza, annullando qualsiasi possibilità di sorpresa; e ha solo 1 possibilità su 6 per round di riuscire a stare in piedi senza aiuto se viene atterrato</p>",
@@ -1891,23 +1702,6 @@
         "Survival (choose terrain)": {
             "name": "Sopravvivenza (scegli terreno)",
             "description": "<p>Questa abilità permette al personaggio di trovare cibo, riparo e acqua in un singolo tipo di terreno (ad esempio, deserto, foresta/giungla, montagna/collina, mare aperto, pianure, artico). Il personaggio può foraggiare automaticamente in aree fertili e utilizza la prova di abilità per determinare il successo nella ricerca di risorse in ambienti più difficili. Quando supporta altri, il personaggio riceve una penalità di +1 al tiro per ogni persona aggiuntiva</p>"
-        },
-        "Sword, Bastard (1H)": {
-            "name": "Spada Bastarda (1M)"
-        },
-        "Sword, Bastard (2H)": {
-            "name": "Spada Bastarda (2M)"
-        },
-        "Sword, Normal": {
-            "name": "Spada"
-        },
-        "Sword, Short": {
-            "name": "Spada Corta"
-        },
-        "Sword, Two-Handed": {
-            "name": "Spadone a 2 mani",
-            "description": "<p>Quest'arma, chiamata anche spadone, è il tipo di spada più grande. È simile alla spada normale (sopra) ma molto più lunga, di solito da 135 cm a 195 cm</p><p>Questa spada è un'arma a due mani; chi la brandisce non può usare uno scudo e perde sempre l'iniziativa individuale rispetto ai personaggi che non usano armi a due mani. Gli halfling e i piccoli semiumani come i goblin non possono usare quest'arma</p>",
-            "unidentifiedDesc": "<p>Quest'arma, chiamata anche spadone, è il tipo di spada più grande. È simile alla spada normale ma molto più lunga, solitamente da 135 cm a 195 cm di lunghezza</p><p>Questa spada è un'arma a due mani; chi la impugna non può usare uno scudo e perde sempre l'iniziativa individuale rispetto ai personaggi che non usano un'arma a due mani. Halfling e piccoli semiumani come i goblin non possono usare quest'arma</p>"
         },
         "Telekinesis": {
             "name": "Telecinesi",
@@ -1923,11 +1717,6 @@
             "name": "Tenda",
             "description": "<p>Grande abbastanza per 2 umani adulti.</p>",
             "unidentifiedDesc": "<p>Grande abbastanza per 2 umani adulti.</p>"
-        },
-        "Trident": {
-            "name": "Tridente",
-            "description": "<p>Un tridente è una corta lancia (da 120 cm a 180 cm) che è divisa alla fine in tre denti, come una forchetta. Ogni dente è solitamente dotato di uncini. Un tridente è usato in una mano sia in mischia che come arma da lancio, ed è spesso utilizzato come lancia da pesca, poiché gli uncini sulle punte possono sollevare il pesce dall'acqua quando il tridente viene ritirato</p>",
-            "unidentifiedDesc": "<p>Un tridente è una corta lancia (da 120 cm a 180 cm) che è divisa alla fine in tre denti, come una forchetta. Ogni dente è solitamente dotato di uncini. Un tridente è usato in una mano sia in mischia che come arma da lancio, ed è spesso utilizzato come lancia da pesca, poiché gli uncini sulle punte possono sollevare il pesce dall'acqua quando il tridente viene ritirato</p>"
         },
         "Truesight": {
             "name": "Vista Rivelante",
@@ -2875,18 +2664,10 @@
             "name": "Seguire Tracce",
             "description": "<p>Il personaggio può seguire le tracce. Il DM può adattare la possibilità di successo a seconda delle circostanze, come l'età delle tracce, il tipo di terreno, il numero di tracce da seguire e altri fattori. Una prova di abilità riuscita indica che il personaggio ha seguito con successo le tracce fino alla loro destinazione o al prossimo punto significativo</p>"
         },
-        "Turn Undead": {
-            "name": "Scacciare i Non-Morti",
-            "description": "<p><strong>Regola</strong>: Un paladino/vendicatore può scacciare i non morti, come se fosse un chierico di un terzo del suo livello di esperienza effettivo (arrotondando tutte le frazioni per difetto).</p><p>Tira [[/r 2d6 #Scacciare i Non-Morti]] per le voci con numeri.</p><table style=\"border-style:none; border-width:1px; padding:4px; max-width:500px;\"><thead><tr><th style=\"text-align:left; max-width:83px;\"></th><th style=\"text-align:center; padding:4px;\" colspan=\"8\"><strong>Livello Paladino / Vendicatore</strong></th></tr><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; max-width:83px;\"><strong>Non-Morto</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-11</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">12-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-17</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">18-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-23</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">24-26</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">27-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Scheletro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombi</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spettro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Presenza</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummia</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Necrospettro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampiro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Fantasma</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Anima Persa</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirito</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ombra</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Speciale</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr></tbody></table><p><strong>Note:</strong></p><ul><li><strong>7, 9, o 11</strong>: risultato necessario, tirando 2d6, per scacciare.</li><li><strong>T</strong>: scaccia automaticamente 2d6 Dadi Vita di Non-morti.</li><li><strong>D</strong>: distruzione automatica di 2d6 Dadi Vita di Non-morti.</li><li><strong>D+</strong>: distruzione automatica di 3d6 Dadi Vita di Non-morti.</li></ul><p>Un Paladino può scacciare i non morti come un chierico di un terzo del suo livello, arrotondando per difetto. Ad esempio, un Paladino di 6° o 7° livello scaccia i non morti con l'abilità di un chierico di 2° livello.</p>"
-        },
         "Turquoise": {
             "name": "Turchese",
             "description": "<p>Il turchese è una gemma di colore blu-verde vibrante che presenta spesso venature naturali o motivi a matrice. Ha una superficie liscia e lucida ed è molto apprezzato per il suo colore brillante e la sua consistenza unica, rendendolo popolare nella gioielleria e nelle arti decorative</p>",
             "unidentifiedDesc": "<p>Il turchese è una gemma di colore blu-verde vibrante che presenta spesso venature naturali o motivi a matrice. Ha una superficie liscia e lucida ed è molto apprezzato per il suo colore brillante e la sua consistenza unica, rendendolo popolare nella gioielleria e nelle arti decorative</p>"
-        },
-        "Use Magic Items": {
-            "name": "Usare Oggetti Magici",
-            "description": "<p>Gli Incantatori possono utilizzare vari oggetti magici, come bacchette, bastoni e pergamene, che sono tipicamente non disponibili per le classi non incantatrici. Questa abilità permette loro di attivare effetti magici immagazzinati in questi oggetti</p>"
         },
         "Analyze": {
             "name": "Analizzare Oggetti Magici",
@@ -2909,10 +2690,6 @@
             "name": "Cura Ferite Gravi*",
             "spellEffect": "Cura una creatura vivente",
             "description": "<p>Questo incantesimo cura 2d6 + 2 punti danno a una creatura vivente quando toccata dall'incantatore</p>"
-        },
-        "Fighter Combat Options": {
-            "name": "Opzioni di Combattimento del Guerriero",
-            "description": "<p>Con 900.000 PX, gli halfling ottengono accesso alle Opzioni di Combattimento del Guerriero, inclusi attacchi multipli e manovre avanzate come Schiantare e Parare.</p>"
         },
         "Cure Light Wounds*": {
             "name": "Cura Ferite Leggere*",
@@ -2981,12 +2758,7 @@
         "Detect Evil": {
             "name": "Individuazione del Male",
             "description": "<p>Questo incantesimo consente all'incantatore di vedere un bagliore che circonda tutti gli oggetti incantati in modo malvagio entro 18 m. Farà anche brillare le creature che vogliono danneggiare l'incantatore quando si trovano nel raggio d'azione. Tuttavia, l'incantesimo non consente all'incantatore di sentire i pensieri effettivi delle creature.</p><p>Ricorda che l'allineamento caotico non è automaticamente uguale a quello malvagio, sebbene molti mostri caotici abbiano intenzioni malvagie. Le trappole e il veleno non sono né buoni né malvagi, ma semplicemente pericolosi.</p>",
-            "spellDuration": "6 turni (1 ora)",
             "spellEffect": "Ogni cosa entro 18 metri"
-        },
-        "Wrestling": {
-            "name": "Lottare",
-            "description": "<p>L'abilità di Lottare permette a un personaggio di afferrare, immobilizzare o in altro modo sottomettere gli avversari utilizzando tecniche di combattimento corpo a corpo. Un tiro abilità riuscito migliora il punteggio di lottare del personaggio (PL), fornendo un bonus di +1 per livello di abilità</p>\n            <p>Nel combattimento di lottare, un personaggio con abilità di lottare ottiene un bonus al proprio Punteggio di Wrestling per iniziare o resistere ad afferrare e immobilizzare. Più alto è il livello di abilità, più efficace diventa il personaggio, fornendo un +1 cumulativo al WR per livello (es: abilità Lottare +1 conferisce +2 PL)</p>\n            <p>Questa abilità è particolarmente utile nelle situazioni in cui il personaggio deve sottomettere un avversario senza forza letale, o in spazi confinati dove le armi sono poco pratiche. La padronanza nel Wrestling consente anche un miglior controllo sui movimenti dell'avversario, riducendo la loro capacità di contrattaccare o fuggire</p>"
         },
         "Waterskin/Wineskin": {
             "name": "Otre",
@@ -2994,18 +2766,10 @@
             "unidentifiedName": "Otre",
             "unidentifiedDesc": "<p>Un contenitore flessibile fatto di pelle o di una vescica animale conservata, con una capacità di due litri. Quando è pieno, ha un ingombro di 30 mon; quando è vuoto, 5 mon. Una persona di dimensioni normali beve circa 2 litri di acqua al giorno</p>"
         },
-        "Use of Holy Water": {
-            "name": "Uso di Acqua Santa",
-            "description": "<p>I chierici possono creare e usare acqua santa. L'acqua santa è una sostanza speciale che danneggia le creature non-morte, infliggendo 1d8 danni con un colpo riuscito quando viene lanciata. È creata eseguendo un rituale di benedizione sull'acqua pura</p>"
-        },
         "Ventriloquism": {
             "name": "Ventriloquismo",
             "spellEffect": "Un oggetto o una posizione",
             "description": "<p>Questo incantesimo permette all'incantatore di far sembrare che la sua voce provenga da un'altra posizione all'interno del raggio, come una statua, un animale o un angolo buio. La \"fonte\" della voce deve essere all'interno del raggio dell'incantesimo</p>"
-        },
-        "Use of Blessed Items": {
-            "name": "Uso di Oggetti Benedetti",
-            "description": "<p>I chierici possono usare oggetti benedetti come pergamene con incantesimi da chierico e altri artefatti religiosi. Questa abilità permette loro di invocare il potere della loro divinità attraverso questi oggetti</p>"
         },
         "Veterinary Healing": {
             "name": "Guarigione Veterinaria",
@@ -3041,11 +2805,6 @@
             "name": "Acqua",
             "description": "<p>Due litri di acqua potabile.</p>",
             "unidentifiedDesc": "<p>Due litri di acqua potabile.</p>"
-        },
-        "Water Breathing": {
-            "name": "Respirare sott'Acqua",
-            "spellEffect": "Una creatura che respira aria",
-            "description": "<p>Questo incantesimo consente al destinatario di respirare sott'acqua a qualsiasi profondità per un giorno intero. Non influisce sul movimento sott'acqua e non interferisce con la respirazione dell'aria</p>"
         },
         "Web": {
             "name": "Ragnatela",
@@ -3150,10 +2909,6 @@
             "name": "Biglie (argento)",
             "unidentifiedDesc": "<p>Munizioni d'argento a sfera per una fionda.</p>"
         },
-        "Hooded Lantern": {
-            "name": "Lanterna Schermabile",
-            "description": "<p>Una lanterna schermata è una fonte di luce portatile racchiusa in un involucro metallico, progettata per controllare la quantità e la direzione della luce emessa. La lanterna è dotata di uno schermo regolabile a cerniera che può essere alzato o abbassato per focalizzare o bloccare la luce secondo necessità. Quando è completamente aperta, la lanterna illumina un raggio di 9 m. Quando lo schermo è parzialmente chiuso, la luce è ridotta a un fascio più stretto che illumina 15 m.</p><p>La lanterna brucia una fiaschetta d'olio nell'arco di quattro ore (24 turni). Il suo design chiuso aiuta a proteggere la fiamma dal vento e dalla pioggia, rendendola più affidabile in condizioni esterne o avverse rispetto a una fiamma aperta.</p>"
-        },
         "Quarrels": {
             "description": "<p>Munizioni per balestra. A volte chiamate quadrelli</p>",
             "name": "Quadrelli",
@@ -3204,10 +2959,6 @@
             "unidentifiedDesc": "<p>Il libro degli incantesimi è un oggetto voluminoso, di circa 60 cm quadrati e 5-15 cm di spessore, con un peso di almeno 9 kg. Non può entrare in nessun sacco normale, indipendentemente dalle dimensioni, ma può essere trasportato in uno zaino o in una bisaccia. Scritto in scrittura magica, il libro degli incantesimi può essere letto solo dal suo proprietario a meno che un'altra persona non utilizzi un incantesimo di lettura della magia</p>",
             "unidentifiedName": "Libro Incantesimi"
         },
-        "Turn Undead (Paladin/Avenger)": {
-            "name": "Scacciare i Non-Morti (Paladino/Vendicatore)",
-            "description": "<h3>Tabella Scacciare Non-Morti del Paladino / Vendicatore </h3><div style=\"padding:4px;\"><table style=\"border-style:none; border-width:1px; padding:4px; max-width:500px;\"><thead><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; max-width:83px;\"><strong>Non-Morto</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-11</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">12-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-17</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">18-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-23</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">24-26</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">27-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Scheletro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombi</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spettro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Presenza</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummia</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Necrospettro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampiro</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Fantasma</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Anima Persa</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirito</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ombra</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Speciali</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr></tbody></table></div><p><strong>Legenda</strong>:</p><ul><li><strong>7, 9, 11</strong>: 7, 9 o 11: risultato necessario, tirando 2d6, per scacciare i Non-morti.</li><li><strong>T</strong>: Automaticamente scacciati 2d6 Dadi Vita di Non-morti.</li><li><strong>D</strong>: Distruzione automatica di 2d6 Dadi Vita di Non-morti.</li><li><strong>D+</strong>: distruzione automatica di [[/r 3d6 #Hit Dice]] Dadi Vita di Non-morti.</li></ul><p></p>"
-        },
         "Unarmed Strike": {
             "name": "Colpo senz'armi",
             "description": "<p>Durante la fase a corpo a corpo di un round di combattimento, un giocatore può colpire il bersaglio con un pugno, un calcio, la testa, il gomito o il ginocchio. Se l'attaccante intende usare il pugno, deve essere a mani vuote, oppure può lasciare cadere o riporre un oggetto nella mano con cui colpisce.</p>",
@@ -3219,10 +2970,6 @@
             "description": "<p>Questa arma consiste in una lunga cinghia di cuoio intrecciato con un manico, di lunghezza variabile da 1.5 a 9 metri. È un'arma da corpo a corpo capace di causare danni (1d2 punti) o di intrappolare gli avversari. Prima di ogni round di combattimento, il possessore deve dichiarare se intende infliggere danni o intrappolare. In entrambi i casi è richiesto un normale tiro per colpire</p><p>Se l'attacco colpisce, la frusta infligge 1d2 punti di danno o, se tenta di intrappolare, costringe il bersaglio a effettuare un tiro salvezza contro raggio della morte, potenzialmente con un bonus. Il bonus al tiro salvezza e l'esito del tentativo di intrappolamento sono determinati utilizzando la Tabella degli Effetti Speciali delle Armi. In caso di tiro salvezza fallito, il bersaglio subisce uno dei seguenti effetti:</p><ul><li><strong>Intrappolare</strong>: La vittima non può attaccare, lanciare incantesimi o muoversi finché non supera un tiro salvezza</li><li><strong>Rallentare</strong>: La velocità di movimento e di attacco della vittima sono dimezzate e non può lanciare incantesimi</li><li><strong>Ritardare</strong>: La vittima perde automaticamente l'iniziativa nel round successivo</li></ul><p>Quest'arma è principalmente uno strumento tattico e viene spesso utilizzata dai ladri o altri personaggi che preferiscono supportare i combattenti in prima linea senza impegnarsi direttamente nel combattimento corpo a corpo</p><p>Una frusta può intrappolare solo creature con una forma solida; non ha effetto di intrappolamento su apparizioni, spettri, creature eteree o mostri composti di acqua (es: elementali dell'acqua). Tuttavia, questi esseri subiscono comunque danni normali dalla frusta. (Nota che una frusta normale non può danneggiare le creature che richiedono armi magiche per essere colpite; in tali casi è necessaria una frusta magica)</p>",
             "unidentifiedDesc": "<p>Questa arma consiste in una lunga cinghia di cuoio intrecciato con un manico, di lunghezza variabile da 1.5 a 9 metri. È un'arma da corpo a corpo capace di causare danni (1d2 punti) o di intrappolare gli avversari. Prima di ogni round di combattimento, il possessore deve dichiarare se intende infliggere danni o intrappolare. In entrambi i casi è richiesto un normale tiro per colpire</p><p>Se l'attacco colpisce, la frusta infligge 1d2 punti di danno o, se tenta di intrappolare, costringe il bersaglio a effettuare un tiro salvezza contro raggio della morte, potenzialmente con un bonus. Il bonus al tiro salvezza e l'esito del tentativo di intrappolamento sono determinati utilizzando la Tabella degli Effetti Speciali delle Armi. In caso di tiro salvezza fallito, il bersaglio subisce uno dei seguenti effetti:</p><ul><li><strong>Intrappolare</strong>: La vittima non può attaccare, lanciare incantesimi o muoversi finché non supera un tiro salvezza</li><li><strong>Rallentare</strong>: La velocità di movimento e di attacco della vittima sono dimezzate e non può lanciare incantesimi</li><li><strong>Ritardare</strong>: La vittima perde automaticamente l'iniziativa nel round successivo</li></ul><p>Quest'arma è principalmente uno strumento tattico e viene spesso utilizzata dai ladri o altri personaggi che preferiscono supportare i combattenti in prima linea senza impegnarsi direttamente nel combattimento corpo a corpo</p><p>Una frusta può intrappolare solo creature con una forma solida; non ha effetto di intrappolamento su apparizioni, spettri, creature eteree o mostri composti di acqua (es: elementali dell'acqua). Tuttavia, questi esseri subiscono comunque danni normali dalla frusta. (Nota che una frusta normale non può danneggiare le creature che richiedono armi magiche per essere colpite; in tali casi è necessaria una frusta magica)</p>",
             "weaponMastery": "Frusta"
-        },
-        "Bullseye Lantern": {
-            "description": "<p>Una lanterna con schermatura è una fonte di luce portatile racchiusa in un involucro di metallo, progettata per controllare la quantità e la direzione della luce che emette. La lanterna ha un schermo a cerniera, regolabile, che può essere sollevato o abbassato per focalizzare o bloccare la luce secondo necessità. Quando è completamente aperto, la lanterna proietta luce in un raggio di 9 metri. Quando è parzialmente chiuso, la luce si riduce a un raggio più stretto che proietta luce per 15 metri.</p><p>La lanterna brucia una fiaschetta di olio nel corso di quattro ore (24 turni). Quando si chiude aiuta a proteggere la fiamma dal vento e dalla pioggia, rendendola più affidabile in condizioni esterne o avverse rispetto a una fiamma aperta</p>",
-            "name": "Lanterna con Lente"
         },
         "Sword, Normal +1": {
             "name": "Spada +1",
@@ -3404,19 +3151,6 @@
             "spellRange": "0",
             "description": "<p>Questo incantesimo conferisce al chierico la capacità di comunicare con qualsiasi creatura vivente o non-morta entro 9 m. Anche i mostri non intelligenti comprenderanno e risponderanno.</p>\n                      <p><strong>Effetti:</strong></p>\n                      <ul>\n                        <li>Le creature a cui si parla non attaccheranno il chierico durante la conversazione.</li>\n                        <li>Se però vengono attaccate, potrebbero difendersi o fuggire.</li>\n                        <li>Il chierico può fare solo una domanda per round.</li>\n                      </ul>\n                      <p>L'incantesimo dura un round per ogni livello del chierico.</p>"
         },
-        "Survival": {
-            "name": "Sopravvivenza",
-            "spellDuration": "1 ora per livello",
-            "spellEffect": "Protegge una creatura da tutti i danni non magici ambientali",
-            "description": "<p>Questo incantesimo protegge il destinatario da <strong>tutti i danni ambientali non magici</strong>, consentendogli di sopportare condizioni estreme senza danni.</p>\n\n        <h2>Effetti di Protezione:</h2>\n        <ul>\n          <li>Prevenzione dei danni da <strong>calore o freddo normale</strong>.</li>\n          <li>Elimina la necessità di <strong>aria, cibo, acqua o sonno</strong> mentre è attivo.</li>\n          <li>Protegge da <strong>tutti i pericoli ambientali naturali</strong>, anche in altri piani di esistenza.</li>\n        </ul>\n\n        <h2>Limitazioni:</h2>\n        <ul>\n          <li><strong>Non</strong> protegge da <strong>danni magici</strong> di alcun tipo.</li>\n          <li><strong>Non</strong> previene danni da <strong>attacchi, veleni, armi da fiato o colpi fisici</strong>.</li>\n        </ul>\n\n        <h2>Esempi di Utilizzo:</h2>\n        <ul>\n          <li><strong>Deserto o Tempesta di Neve:</strong> Previene danni da temperature estreme.</li>\n          <li><strong>Sott'acqua o Sottoterra:</strong> Consente la sopravvivenza senza aria.</li>\n          <li><strong>Viaggio nello Spazio:</strong> Protegge dall'esposizione al vuoto.</li>\n          <li><strong>Piano Elementale del Fuoco:</strong> Previene danni da fuoco condizionato nell'ambiente naturale.</li>\n        </ul>"
-        },
-        "Travel": {
-            "name": "Viaggiare",
-            "spellDuration": "1 turno per livello dell'incantatore",
-            "spellEffect": "Consente il volo e la forma gassosa",
-            "spellRange": "0 (Incantatore)",
-            "description": "<p>Questo incantesimo conferisce all'incantatore una grande mobilità, inclusa la capacità di volare, viaggiare tra i piani e diventare gassoso. Dura per <strong>un turno per livello dell'incantatore</strong>.</p>\n                \n                <h3>Volo:</h3>\n                <ul>\n                  <li>L'incantatore può volare come per l'incantesimo <em>Volare</em>, a una velocità di <strong>108 m (36 m)</strong>.</li>\n                </ul>\n\n                <h3>Viaggio Planare:</h3>\n                <ul>\n                  <li>L'incantatore può entrare in un piano dell'esistenza vicino concentrandosi per <strong>1 round</strong>.</li>\n                  <li>È possibile attraversare un massimo di <strong>1 piano per turno</strong>.</li>\n                  <li>L'incantatore può portare con sé <strong>1 creatura aggiuntiva ogni 5 livelli</strong> (arrotondato per difetto).</li>\n                  <li>Per portare altri, devono essere a contatto con l'incantatore al momento della transizione.</li>\n                  <li>Le creature non disposte possono effettuare un <strong>tiro salvezza contro incantesimi</strong> per resistere all'effetto.</li>\n                  <li>L'incantatore non può inviare altri rimanendo indietro—deve accompagnarli.</li>\n                </ul>\n\n                <h3>Forma Gassosa:</h3>\n                <ul>\n                  <li>L'incantatore può assumere forma gassosa concentrandosi per <strong>1 round intero</strong>.</li>\n                  <li>Se interrotto, non avviene alcuna trasformazione.</li>\n                  <li>A differenza della pozione di forma gassosa, <strong>tutto l'equipaggiamento trasportato si trasforma anch'esso</strong>.</li>\n                  <li>In forma gassosa, l'incantatore si muove a <strong>doppia velocità di volo (216 m / 72 m)</strong>.</li>\n                  <li>L'incantatore non può usare oggetti o lanciare incantesimi mentre è in forma gassosa.</li>\n                  <li>Solo attacchi magici (armi o incantesimi) possono danneggiare l'incantatore in forma gassosa.</li>\n                  <li>L'incantatore non può attraversare un effetto di <em>Protezione dal Male</em> o una <em>Barriera Anti-Magia</em>.</li>\n                </ul>"
-        },
         "Wish": {
             "spellRange": "Speciale",
             "description": "<p>L'incantesimo <strong>Desiderio</strong> è l'incantesimo più potente che un incantatore possa lanciare. Non si trova mai su pergamene, ma può essere inserito in rari oggetti magici, come anelli. Solo incantatori di <strong>36º livello</strong> con un <strong>punteggio di Saggezza di 18 +</strong> possono lanciare questo incantesimo.</p>\n\n    <h2>Formulare il Desiderio:</h2>\n    <p>Il giocatore deve <strong>dichiarare o scrivere chiaramente il desiderio esatto</strong>. La formulazione è di fondamentale importanza, poiché il desiderio seguirà solitamente il significato letterale delle parole pronunciate, indipendentemente dalle intenzioni dell'incantatore.</p>\n    <p>Il DM è responsabile di mantenere l'equilibrio del gioco. Desideri formulati male possono avere conseguenze indesiderate, mentre desideri egoistici o avidi possono essere deliberatamente distorti dal DM. Se un desiderio è irragionevole, il DM può semplicemente decidere che non ha alcun effetto.</p>\n\n    <h3>Esempi di desideri mal formulati:</h3>\n    <ul>\n      <li><strong>\"Desidero sapere tutto su questo dungeon.\"</strong> - Il personaggio ottiene una conoscenza completa per un momento, ma poi dimentica immediatamente tutto.</li>\n      <li><strong>\"Desidero un milione di monete d'oro.\"</strong> - Le monete d'oro potrebbero apparire, ma potrebbero cadere sull'incantatore (schiacciandolo) per poi svanire.</li>\n      <li><strong>\"Desidero ottenere permanentemente il potere dello sguardo di un basilisco mantenendo tutte le mie abilità.\"</strong> - Questo potrebbe far sì che l'incantatore cresca una testa aggiuntiva di basilisco.</li>\n    </ul>\n\n    <h2>Limitazioni ed Effetti del Desiderio:</h2>\n    <ul>\n      <li>Un desiderio <strong>non può</strong> essere usato per ottenere <strong>punti esperienza</strong> o <strong>livelli</strong>.</li>\n      <li>Un desiderio formulato correttamente può sostituire <strong>qualsiasi incantesimo da incantatore di 8º livello o inferiore</strong> o <strong>qualsiasi incantesimo clericale o druidico di 6º livello o inferiore</strong>, a discrezione del DM.</li>\n      <li>Se il desiderio è usato per <strong>danneggiare una creatura</strong>, il bersaglio può effettuare un <strong>tiro salvezza contro incantesimi</strong>. Se ha successo, l'effetto è dimezzato e l'altra metà si ritorce contro l'incantatore (che può salvare con un <strong>penalità di -4</strong>).</li>\n      <li>Se il desiderio è usato per <strong>infastidire</strong> piuttosto che danneggiare (come teletrasportare una vittima in una cella), non è consentito alcun tiro salvezza.</li>\n    </ul>\n\n    <h2>Usi Speciali di un Desiderio:</h2>\n    <ul>\n      <li>Un desiderio può creare tesori, fino a <strong>50.000 monete d'oro</strong>. Tuttavia, l'incantatore <strong>perde 1 PX per ogni moneta d'oro</strong> ottenuta, e questa perdita non può essere recuperata.</li>\n      <li>Un desiderio può modificare temporaneamente <strong>un punteggio di caratteristica</strong> fino a un minimo di 3 o un massimo di 18, con una durata di <strong>sei turni</strong>.</li>\n      <li>Gli aumenti permanenti dei punteggi di caratteristica richiedono l'uso di <strong>un numero di desideri pari al punteggio desiderato</strong> (ad esempio, aumentare la Forza da 15 a 16 richiede <strong>16 desideri</strong> entro una settimana).</li>\n      <li>I desideri non possono <strong>ridurre permanentemente i punteggi di caratteristica</strong>.</li>\n    </ul>\n\n    <h2>Effetti Razziali e di Classe:</h2>\n    <ul>\n      <li>Un desiderio non può elevare un personaggio umano oltre il <strong>36º livello</strong>, ma può concedere a un semiumano un <strong>Dado Vita</strong> aggiuntivo (massimo DV: <strong>Halfling 9, Elfi 11, Nani 13</strong>).</li>\n      <li>Un desiderio può trasformare un <strong>semiumano in umano</strong> (o viceversa), permettendogli di avanzare come una nuova classe allo stesso livello.</li>\n      <li>Se un desiderio è usato per <strong>cambiare la classe di un altro personaggio</strong>, il bersaglio può effettuare un <strong>tiro salvezza contro incantesimi con un bonus di +5</strong> per resistere.</li>\n    </ul>\n\n    <h2>Modificare Eventi Passati:</h2>\n    <p>Un desiderio può alterare eventi accaduti nelle ultime <strong>24 ore</strong>. Tuttavia, non può ribaltare completamente probabilità impossibili. Esempi includono:</p>\n    <ul>\n      <li>Una battaglia persa può essere trasformata in una sconfitta meno grave.</li>\n      <li>La morte di un personaggio potrebbe diventare un'esperienza quasi mortale.</li>\n      <li>Una perdita permanente può essere convertita in una temporanea.</li>\n    </ul>\n\n    <h2>Nota Importante:</h2>\n    <p>Se un effetto è dichiarato <strong>immutabile \"anche con un desiderio\"</strong>, questa limitazione prevale sulle normali capacità dell'incantesimo.</p>\n\n    <h2>Equilibrio del Gioco e Discrezione del DM:</h2>\n    <p>Il DM deve assicurarsi che i desideri rimangano ragionevoli. Un desiderio <strong>non può alterare le meccaniche fondamentali del gioco</strong> (come impedire ai draghi di usare i loro soffi). Più un desiderio è irragionevole, meno è probabile che abbia successo come previsto.</p>",
@@ -3452,12 +3186,6 @@
             "spellEffect": "Crea una barriera personale che difende dalle magie",
             "spellRange": "0 (Incantatore)",
             "description": "<p>Questo incantesimo crea un <strong>barriera magica invisibile</strong> attorno all'incantatore, formando un guscio protettivo che blocca completamente ogni magia.</p>  \n                      <h3>Effetti:</h3>  \n                      <ul>  \n                        <li>La barriera circonda il corpo dell'incantatore a una distanza di <strong>di 2 cm </strong>.</li>  \n                        <li><strong>Impedisce a ogni magia</strong> di attraversarla, inclusi gli incantesimi dell'incantatore stesso.</li>  \n                        <li>L'incantatore può <strong>terminare l'effetto quando vuole</strong> prima della scadenza della durata.</li>  \n                        <li>La barriera dura per <strong>12 turni</strong> a meno che non venga interrotta.</li>  \n                        <li><strong>Nessuna forma di magia</strong> (eccetto un <strong>desiderio</strong>) può annullare o dissolvere la barriera, nemmeno <strong>dissolvi magie</strong>.</li>  \n                      </ul>"
-        },
-        "Appear": {
-            "description": "<p>Questo incantesimo annulla l'invisibilità all'interno di un'area di <strong>6 m x 6 m x 6 m</strong>. Influisce su tutte le creature e gli oggetti invisibili all'interno dell'area, rendendoli <strong>completamente visibili</strong>.</p>  \n\n                    <h3>Effetto:</h3>  \n                    <ul>  \n                      <li>Influisce su <strong>tutte le forme di invisibilità</strong> (sia magica che naturale).</li>  \n                      <li>Le creature sui <strong>Piani Astrale ed Etereo</strong> <strong>non</strong> ne sono influenzate.</li>  \n                      <li>Tutte le creature colpite <strong>non possono diventare di nuovo invisibili</strong> per <strong>1 turno completo</strong>.</li>  \n                    </ul>",
-            "name": "Mostrarsi*",
-            "spellDuration": "Istantaneo (impedisce di diventare di nuovo invisibile per 1 turno)",
-            "spellEffect": "Rivela tutte le creature/oggetti invisibili in un cubo di 6 m"
         },
         "Charm Plant": {
             "name": "Charme delle Piante",
@@ -4389,14 +4117,6 @@
             "unidentifiedName": "Arco Corto",
             "weaponMastery": "Arco Corto"
         },
-        "Arcane Spellcasting": {
-            "description": "<p>Gli Elfi incanalano l'energia arcana grazie alla loro affinità naturale e alla meticolosa memorizzazione degli incantesimi scritti nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, gli Elfi devono preparare in anticipo i loro incantesimi studiando i propri libri ogni giorno. Una volta lanciato, un incantesimo viene cancellato dalla memoria fino a quando non viene nuovamente memorizzato.</p><p>Gli Elfi hanno una selezione limitata di incantesimi che possono preparare ogni giorno, aumentando con il progredire dei livelli. I loro incantesimi spaziano da utilità minori come <em>Lettura del Magico</em> ad attacchi devastanti come <em>Palla di Fuoco</em> e potenti incantesimi capaci di alterare la realtà ai livelli più alti.</p><p>A causa della loro dipendenza dai libri degli incantesimi, gli Elfi devono proteggere ed espandere le proprie biblioteche, cercando tomi perduti, pergamene e antiche conoscenze per migliorare il loro repertorio magico. A differenza dei Maghi, tuttavia, gli Elfi si addestrano anche nel combattimento, il che permette loro di brandire spade e archi mentre indossano armature senza interferire con il lancio degli incantesimi.</p>",
-            "name": "Incantesimi Arcani"
-        },
-        "Breath Resistance": {
-            "name": "Resistenza al Soffio",
-            "description": "<p>Al raggiungimento di 2.100.000 PX, un Halfling ottiene resistenza alle armi a soffio, inclusi i soffi dei draghi e altri attacchi basati sul respiro. Subisce automaticamente metà danno da tali effetti e, se è consentito un tiro salvezza, un successo riduce ulteriormente il danno a un quarto.</p><p data-start=\"878\" data-end=\"1021\" data-is-last-node=\"\">Come per la resistenza alla magia, le frazioni vengono arrotondate per difetto e qualsiasi danno finale di ½ punto o meno risulta in 1 punto di danno subito.</p>"
-        },
         "Crossbow, Lt +1": {
             "name": "Balestra Leggera +1",
             "description": "<p>Questa arma somiglia alla balestra pesante ma è di dimensioni più ridotte. Richiede due mani per essere caricata, ma può essere sparata con una sola mano.</p><p>Questa balestra è un'arma a due mani; chi la impugna non può usare uno scudo e perde sempre l'iniziativa individuale contro i personaggi che usano armi a una mano. Gli halfling e le razze di piccola taglia, come i goblin, non possono usare quest'arma.</p>",
@@ -4407,14 +4127,6 @@
         "Dark Allegiance": {
             "name": "Alleanza Oscura",
             "description": "<p>Un Vendicatore non può avere seguaci umani o semiumani, ma può tentare di persuadere mostri Caotici a servirlo. Se una creatura Caotica non è immediatamente ostile, il Vendicatore può offrirle cibo o tesori, usando parole o gesti per segnalare amicizia. Se questo fallisce, il Vendicatore può ricorrere a minacce o alla forza, e se la creatura si arrende, potrebbe diventare un seguace.</p><p data-start=\"419\" data-end=\"663\">Se il Tiro Reazione della creatura indica amicizia, essa accetta di seguire e obbedire al Vendicatore. Questo effetto dura quanto un incantesimo Charme, dopodiché la creatura è libera dall'influenza e non può essere nuovamente ammaliata.</p><p data-start=\"665\" data-end=\"820\" data-is-last-node=\"\">Un Vendicatore può controllare un numero di seguaci mostri Caotici pari al suo massimo punteggio di Carisma. Se perde un seguace, può tentare di reclutarne un altro.</p>"
-        },
-        "Divine Magic": {
-            "name": "Magia Divina",
-            "description": "<p>Se un Vendicatore ha un punteggio di Saggezza pari a 13 o superiore, può lanciare incantesimi da chierico come se fosse un chierico di un terzo del suo livello (arrotondato per difetto). Ad esempio, un Vendicatore di 12º–14º livello lancia incantesimi come un chierico di 4º livello. Se la Saggezza del Vendicatore è 12 o inferiore, non può lanciare incantesimi ma può comunque essere un Vendicatore.</p><p>Per ottenere questa abilità, il Vendicatore deve imparare meditazione e lancio di incantesimi dai chierici del suo ordine. Questo addestramento ha un costo determinato dal DM, con un minimo suggerito di 10.000 mon per ogni livello di incantesimo da chierico guadagnato.</p>"
-        },
-        "Establish Tower": {
-            "name": "Fondare una roccaforte",
-            "description": "<p>Al raggiungimento del <strong data-start=\"73\" data-end=\"86\">9º Livello</strong>, un Mago può scegliere di <strong data-start=\"115\" data-end=\"132\">costruire una torre</strong>, stabilendosi come mago proprietario di terre. A differenza dei Guerrieri o dei Chierici, un Mago non ha bisogno di <strong data-start=\"238\" data-end=\"273\">permesso dal sovrano locale</strong> per costruire una roccaforte, poiché i sovrani generalmente evitano di antagonizzare i potenti maghi​.</p>\n<h4 data-start=\"405\" data-end=\"438\">Attirare Apprendisti</h4>\n<p data-start=\"439\" data-end=\"770\">Una volta che la torre è costruita, il Mago attirerà <strong data-start=\"490\" data-end=\"509\">1d6 apprendisti</strong>, tutti <strong data-start=\"515\" data-end=\"544\">Magi di livello 1–3</strong>. Questi apprendisti cercano formazione, e anche se leali, non si sacrificheranno per il loro maestro. Il <strong data-start=\"662\" data-end=\"723\">DM determina i loro nomi, background e personalità</strong>​.</p>\n<h4 data-start=\"772\" data-end=\"818\">Costruzione della Torre e del Dungeon</h4>\n<p data-start=\"819\" data-end=\"1303\">La torre di un mago può includere un <strong data-start=\"850\" data-end=\"880\">dungeon sotto o vicino ad essa</strong>. Alcuni maghi costruiscono dungeon come laboratori sicuri, mentre altri <strong data-start=\"951\" data-end=\"971\">lasciano un'apertura</strong>, attirando <strong data-start=\"984\" data-end=\"1006\">mostri erranti</strong> che si stabiliscono. Alcuni maghi incoraggiano questo, usando i mostri per ricerche, esperimenti magici o difesa personale​. Tuttavia, i dungeon infestati dai mostri causano spesso conflitti con <strong data-start=\"1238\" data-end=\"1259\">le comunità locali</strong> e attirano avventurieri in cerca di tesori.</p>\n<h4 data-start=\"1305\" data-end=\"1357\">Alternativa alla Torre: Diventare un Arcimago</h4>\n<p data-start=\"1358\" data-end=\"1754\">Invece di costruire una torre, un Mago di livello 9 può <strong data-start=\"1415\" data-end=\"1446\">cercare impiego come Arcimago</strong> in una roccaforte esistente. Un Arcimago serve un sovrano come <strong data-start=\"1504\" data-end=\"1534\">consigliere su questioni magiche</strong>, si occupa delle necessità magiche e viene ben compensato, tipicamente <strong data-start=\"1593\" data-end=\"1624\">almeno 3.000 mo al mese</strong>. Tuttavia, ciò richiede che il Mago presti un <strong data-start=\"1676\" data-end=\"1694\">giuramento di fedeltà</strong> al sovrano​.</p>"
         },
         "Breathstealer": {
             "description": "<p>Quando viene cantato, questa canzone magica inizia a privare dell'aria coloro che si trovano nella sua area di effetto, portando potenzialmente al soffocamento.</p>\n\n        <h3>Effetti:</h3>\n        <ul>\n          <li>Colpisce tutte le creature all'interno di un'area di <strong>9 m x 9 m x 9 m</strong>.</li>\n          <li>Ogni round, tutti coloro che si trovano nell'area devono <strong>superare un tiro salvezza contro Incantesimi</strong> con <strong>-2</strong> o iniziare a soffocare.</li>\n          <li>Con un tiro salvezza fallito, la vittima <strong>perde temporaneamente 3 punti di Costituzione</strong>.</li>\n          <li>Chi fallisce il tiro salvezza deve anche effettuare una <strong>prova di Costituzione</strong> per muoversi normalmente.</li>\n          <li>La velocità di movimento è <strong>dimezzata</strong> mentre si soffoca.</li>\n          <li>Le vittime che soffocano <strong>non possono lanciare incantesimi, parlare o attaccare</strong>.</li>\n          <li>Una <strong>creatura muore quando la sua Costituzione va a 0 </strong>.</li>\n        </ul>\n\n        <h3>Durata:</h3>\n        <ul>\n          <li>Il bardo può cantare per un numero di round pari al proprio <strong>punteggio di Costituzione</strong>.</li>\n          <li>Se il bardo canta fino a raggiungere <strong>0 Costituzione</strong>, sviene per [[/r 2d6 #Round di Incoscienza]].</li>\n        </ul>\n\n        <h3>Recupero:</h3>\n        <ul>\n          <li>I punti di Costituzione persi si recuperano al ritmo di [[/r 1d3 #Punti per ogni giorno di riposo completo]].</li>\n        </ul>\n\n        <h3>Note Speciali:</h3>\n        <ul>\n          <li><strong>Tutte le creature </strong> sono colpite nell'area, compresi gli alleati del bardo.</li>\n          <li>Le creature che superano il tiro salvezza <strong>non subiscono penalità</strong> in quel round.</li>\n        </ul>",
@@ -4448,22 +4160,6 @@
             "description": "<p>I chierici <strong data-start=\"309\" data-end=\"344\">non lanciano incantesimi al 1º livello</strong>, ma ottengono l'accesso agli <strong data-start=\"364\" data-end=\"394\">incantesimi divini al 2º livello</strong>, accrescendo potenza man mano che salgono di livello. I chierici non necessitano di libri degli incantesimi ma devono pregare per gli incantesimi ogni giorno.</p>",
             "name": "Incantesimi Divini"
         },
-        "Dragon Breath Resistance": {
-            "description": "<p>Gli Elfi ottengono resistenza alle armi da soffio dei draghi al raggiungimento di 1.600.000 PX, ovvero al 14º livello. A questo punto, subiscono automaticamente solo la metà del danno da qualsiasi arma da soffio, inclusi il soffio dei draghi e attacchi simili. Se l'arma da soffio consente un tiro salvezza, un tiro salvezza riuscito riduce il danno a un quarto​.</p>",
-            "name": "Resistenza al Soffio del Drago"
-        },
-        "Establish Stronghold": {
-            "description": "<p>Al <strong data-start=\"826\" data-end=\"861\">9º livello (Patriarca/Matriarca)</strong>, un Chierico può fondare una <strong data-start=\"888\" data-end=\"920\">chiesa, tempio o monastero</strong>, attirando seguaci e guadagnando influenza religiosa.</p>",
-            "name": "Fondare una Roccaforte"
-        },
-        "Hide (indoors)": {
-            "name": "Nascondersi (interni)",
-            "description": "<p data-start=\"478\" data-end=\"814\">Al chiuso o nei dungeon, un Halfling può tentare di nascondersi nelle ombre o andare in coperture, ma con meno successo rispetto agli ambienti naturali. Se ci sono ombre o nascondigli sufficienti, ha una possibilità del 33% di rimanere invisibile (tirato segretamente dal DM). Se non c'è alcuna copertura disponibile, l'Halfling non può nascondersi affatto.</p><p data-start=\"816\" data-end=\"993\" data-is-last-node=\"\">Una luce intensa, come una fonte luminosa magica che elimina le ombre, impedisce il nascondersi. Un Halfling non può usare questa abilità mentre porta una fonte di luce.</p>"
-        },
-        "Hide (natural)": {
-            "name": "Nascondersi (esterni)",
-            "description": "<p>All'aperto, un Halfling può svanire tra boschi, arbusti o terreni naturali simili, rendendosi estremamente difficile da individuare. Se rimane immobile in tale copertura, ha il 90% di possibilità di restare inosservato (tirato segretamente dal DM). Questa abilità funziona solo in ambienti naturali e non richiede ombre. Se l'Halfling si muove, perde immediatamente l'effetto e diventa visibile.</p>"
-        },
         "Faerie Lights": {
             "spellRange": "3 m + 3 m/livello",
             "description": "<p>Questa canzone magica evoca <strong>luci scintillanti e tremolanti</strong> che danzano attorno a un bersaglio scelto, <strong>illuminando un raggio di 9 m</strong> con la stessa intensità dell' incantesimo <em>Luce</em>. Le luci evocate sembrano muoversi come vive, intrecciandosi e cambiando forma in modo imprevedibile.</p>\n        \n        <p><strong>Effetti:</strong></p>\n        <ul>\n          <li><strong>Illumina un raggio di 9 m</strong> con luce magica intensa.</li>\n          <li><strong>Le creature con intelligenza animale (2 o meno)</strong> devono <strong>superare un tiro salvezza contro paralisi</strong> o rimanere <strong>stordite per [[/r 1d6]] round.</strong></li>\n          <li>Le luci <strong>non hanno forma fisica</strong> e non possono essere spente dal vento, dall'acqua o da altre forze naturali.</li>\n          <li>Le luci <strong>non seguono</strong> un bersaglio in movimento ma restano fisse nella posizione scelta.</li>\n        </ul>",
@@ -4477,20 +4173,12 @@
             "spellRange": "6 m + 3 m/livello del bardo",
             "name": "Tiro Impeccabile"
         },
-        "Ghoul Paralysis Immunity": {
-            "description": "<p>Gli Elfi sono immuni agli attacchi paralizzanti dei ghoul. Sono, tuttavia, ancora influenzati da altre forme di paralisi.</p>",
-            "name": "Immunità alla Paralisi dei Ghoul"
-        },
         "Halberd +1": {
             "description": "<p>Una alabarda è un'arma su asta grande, lunga da 1.8 m a 2.4 m, la cui testa ha una lunga punta con una lama a forma di ascia su un lato e un gancio sull'altro lato.<br>Grazie alla sua lunghezza, un personaggio con un'arma su asta può attaccare un nemico anche quando c'è un altro alleato o nemico tra loro. Spesso, i portatori di armi su asta si posizionano nella seconda fila di combattimento, colpendo al di sopra delle teste dei loro compagni in prima linea per colpire i combattenti nemici in prima linea. <em>Consulta le regole per altri dettagli speciali.</em></p>",
             "name": "Alabarda +1",
             "unidentifiedDesc": "<p>Una alabarda è un'arma su asta grande, lunga da 1.8 m a 2.4 m, la cui testa ha una lunga punta con una lama a forma di ascia su un lato e un gancio sull'altro lato.<br>Grazie alla sua lunghezza, un personaggio con un'arma su asta può attaccare un nemico anche quando c'è un altro alleato o nemico tra loro. Spesso, i portatori di armi su asta si posizionano nella seconda fila di combattimento, colpendo al di sopra delle teste dei loro compagni in prima linea per colpire i combattenti nemici in prima linea. <em>Consulta le regole per altri dettagli speciali.</em></p>",
             "unidentifiedName": "Alabarda",
             "weaponMastery": "Alabarda"
-        },
-        "Magic Resistance": {
-            "name": "Resistenza alla Magia",
-            "description": "<p>Al raggiungimento di 300.000 PX, un Halfling ottiene una resistenza innata alla magia. Subisce automaticamente la metà dei danni da qualsiasi incantesimo o effetto magico che causa danni (inclusi gli oggetti magici). Se l'effetto permette un tiro salvezza, un tiro riuscito riduce ulteriormente i danni a un quarto.</p><p data-start=\"351\" data-end=\"514\">Quando si calcolano i danni ridotti, arrotondare sempre per difetto. Se il danno finale è pari a mezzo punto o meno, l'Halfling subisce invece 1 punto di danno.</p>"
         },
         "Guardian Angels": {
             "description": "<p>Una volta cantata, questa canzone magica conferisce al bardo e a tutti i destinatari nel raggio d'azione una benedizione protettiva per la durata dell'effetto.</p>\n\n<h3>Effetti:</h3>\n<ul>\n  <li>Tutte le creature influenzate ottengono un <strong>bonus di -2 alla CA</strong>, applicato contro tutti gli attacchi.</li>\n  <li>I destinatari diventano <strong>immuni a tutti gli effetti di altre canzoni-magiche bardiche</strong> nella durata di questo effetto.</li>\n</ul>\n\n<h3>Area di Effetto:</h3>\n<ul>\n  <li>Influenza il bardo e tutti gli alleati entro <strong>4.5 m + 1.5 m per livello del bardo</strong>.</li>\n</ul>\n\n<h3>Durata:</h3>\n<ul>\n  <li>L'incantesimo dura <strong>10 round</strong>.</li>\n</ul>",
@@ -4559,10 +4247,6 @@
             "unidentifiedName": "Lancia da cavaliere",
             "weaponMastery": "Lancia da cavaliere"
         },
-        "Oath of Aid": {
-            "description": "<p>Un Paladino deve assistere chiunque richieda aiuto, con due eccezioni: non è obbligato ad aiutare personaggi malvagi o cause malvagie, e se è già impegnato in una missione per un'autorità superiore (come una quête o un servizio a un sovrano), può offrire solo un'assistenza limitata come fornire riparo, consigli o guida, accompagnata da una spiegazione per il suo rifiuto.</p><p>Questa assistenza non comporta mai la donazione di denaro o oggetti ed è fornita solo per un breve periodo attraverso un servizio diretto.</p>",
-            "name": "Giuramento di Aiuto"
-        },
         "Permanence": {
             "spellDuration": "Permanente, fin quando non sia disperso",
             "description": "<p>Questo incantesimo permette al mago di rendere permanente un altro incantesimo da mago di <strong>7º livello o inferiore</strong>. Tuttavia, questo incantesimo <strong>non può</strong> essere usato su:</p>\n                    <ul>\n                      <li>Incantesimi con una durata <strong>istantanea</strong> o <strong>permanente</strong> (ad esempio, <em>Dissolvi magie, Palla di Fuoco, Fulmine Magico</em>).</li>\n                      <li>Qualsiasi <strong>incantesimo clericale</strong>.</li>\n                      <li>Qualsiasi <strong>incantesimo da mago di 8º o 9º livello</strong>.</li>\n                    </ul>\n                    \n                    <h3>Regole e Restrizioni:</h3>\n                    <ul>\n                      <li>Il DM può decidere che alcune combinazioni di incantesimi siano sbilanciate e vietarle.</li>\n                      <li><strong>Dissolvi Magie</strong> lanciato da un mago di pari livello o superiore può rimuovere l'effetto di permanenza (si applicano le normali probabilità di successo).</li>\n                      <li><strong>Gli oggetti possono essere soggetti un solo incantesimo Permanenza,</strong> eccetto le armi (vedi sotto).</li>\n                      <li><strong>Le creature possono avere solo due incantesimi Permanenza.</strong> Un terzo tentativo fallirà automaticamente.</li>\n                      <li><strong>Le armi possono ricevere fino a cinque incantesimi Permanenza</strong>, ma ogni incantesimo oltre il primo ha una probabilità di fallimento del 25%. In caso di fallimento, l'arma viene completamente distrutta.</li>\n                    </ul>\n\n                    <h3>Usi Comuni della Permanenza:</h3>\n                    <h4>Su Creature:</h4>\n                    <ul>\n                      <li><em>Individuazione del Magico</em></li>\n                      <li><em>Protezione dal Male</em></li>\n                      <li><em>Lettura dei Linguaggi</em></li>\n                      <li><em>Lettura del Magico</em></li>\n                      <li><em>Individuazione dell'Invisibile</em></li>\n                      <li><em>Volo</em></li>\n                    </ul>\n\n                    <h4>Su Aree:</h4>\n                    <ul>\n                      <li><em>Luce Magica</em></li>\n                      <li><em>Creazione Spettrale</em></li>\n                      <li><em>Confusione</em></li>\n                      <li><em>Nube Mortale</em></li>\n                    </ul>\n\n                    <h3>Oggetti Magici e Permanenza:</h3>\n                    <p>Un <strong>incantesimo Permanenza non incanta gli oggetti</strong>; lega solo un incantesimo a un oggetto, rendendolo più fragile di un vero oggetto incantato. Un mago non ha bisogno di <em>Permanenza</em> per creare oggetti magici permanenti.</p>",
@@ -4593,10 +4277,6 @@
             "name": "Olografia",
             "spellEffect": "Crea un’immagine"
         },
-        "Read Scroll": {
-            "description": "<p>Un Ladro di <strong>10º livello o superiore</strong> può tentare di lanciare incantesimi da <strong>pergamene da mago</strong>. Questo richiede <strong>un round di lettura</strong>, e la pergamena viene consumata all'uso. C'è una <strong>probabilità del 10% di contraccolpo</strong>, che può causare il fallimento dell'incantesimo, produrre un effetto casuale o colpire la creatura sbagliata (a discrezione del DM). I Ladri non possono usare pergamene da chierico o da druido.</p>",
-            "name": "Leggere Pergamene"
-        },
         "Remove Geas*": {
             "spellEffect": "Rimuove un imposizione da una creatura",
             "name": "Liberazione dall’Imposizione*",
@@ -4607,14 +4287,6 @@
             "spellEffect": "Inverte la forza di gravità in un cubo di 9 metri di lato",
             "description": "<p>Questo incantesimo fa sì che tutte le creature e gli oggetti entro un cubo di <strong>9 m x 9 m x 9 m</strong> <strong>cadano verso l'alto</strong> per <strong>2 secondi</strong> (1/5 di un round).</p><h3>Effetto:</h3><ul><li>Colpisce tutte le creature e gli oggetti nell'area.</li><li>\"Cadono\" verso l'alto fino a <strong>20 m</strong> istantaneamente.</li><li>Urtare un soffitto o un ostacolo causa <strong>1d6 danni per ogni 3 m caduti</strong>.</li><li>Dopo <strong>2 secondi</strong>, la gravità torna normale, facendo ricadere le vittime verso il basso e subire ulteriori danni da caduta.</li><li>I PNG colpiti devono effettuare una <strong>prova di morale</strong>.</li></ul><h3>Esempio:</h3><p>In una stanza alta <strong>12 m</strong>, i giganti colpiscono il soffitto (4d6 danni) e poi ricadono sul pavimento (altri 4d6 danni), subendo un totale di <strong>8d6 danni</strong>.</p>",
             "name": "Inversione della Gravità"
-        },
-        "Right of Sanctuary": {
-            "name": "Sacra Ospitalità",
-            "description": "<p>Un Vendicatore può visitare qualsiasi castello, rovina o dungeon governato da un mostro o personaggio intelligente Caotico e, usando la lingua dell'allineamento, richiedere formalmente la Sacra Ospitalità. Se concessa, il Vendicatore riceve protezione temporanea e ospitalità, secondo l'usanza del Santuario.</p><p>Un Vendicatore può anche tentare di ingannare governanti non Caotici facendosi passare per un cavaliere e richiedendo il Santuario. Se il governante viene ingannato con successo (e nessuna magia di rilevazione dell'allineamento rivela l'inganno), fornirà la stessa ospitalità che concederebbe a un vero cavaliere.</p>"
-        },
-        "Sacred Retinue": {
-            "description": "<p>Un Paladino può viaggiare solo con un numero di seguaci pari o inferiore al suo livello effettivo da chierico (un terzo del suo livello da Paladino, arrotondando per difetto). Per esempio, se un Paladino può lanciare incantesimi o scacciare i non-morti come un chierico di 5º livello, può avere fino a cinque seguaci che lo accompagnano.</p>",
-            "name": "Sacri Seguaci"
         },
         "Shapechange": {
             "spellEffect": "Permette all'incantatore di cambiare forma completamente",
@@ -4879,12 +4551,6 @@
             "name": "Muro di Ferro",
             "spellEffect": "Crea una parete di ferro di 45 mq"
         },
-        "Weather Control": {
-            "description": "<p>Questo incantesimo concede al druido il potere di manipolare il tempo atmosferico entro un <strong>raggio di 220 metri</strong></p>\n                      <h3>Effetti:</h3>\n                      <ul>\n                        <li>L'incantatore può creare <strong>una specifica condizione meteorologica</strong> che influisce su <strong>tutte le creature nell'area</strong>, incluso l'incantatore.</li>\n                        <li>L'incantesimo richiede <strong>concentrazione</strong>, e l'incantatore deve rimanere fermo.</li>\n                        <li>Se l'incantatore viene spostato (ad esempio, su una nave), l'effetto si muove con lui.</li>\n                        <li>L'incantesimo <strong>funziona solo all'aperto</strong>.</li>\n                      </ul>\n                      <h3>Effetti Meteorologici:</h3>\n                      <ul>\n                        <li><strong>Pioggia:</strong> Gli attacchi a distanza subiscono una <strong>penalità di -2</strong>. Dopo 3 turni, il terreno diventa fangoso, <strong>dimezzando la velocità di movimento</strong>.</li>\n                        <li><strong>Neve:</strong> La visibilità è <strong>ridotta a 6 m</strong>, e il movimento è <strong>dimezzato</strong>. Fiumi e torrenti possono congelarsi. Il fango persiste dopo lo scioglimento.</li>\n                        <li><strong>Nebbia:</strong> La visibilità scende a <strong>6 m</strong>, il movimento è <strong>dimezzato</strong>. Le creature all'interno possono perdersi.</li>\n                        <li><strong>Sereno:</strong> Annulla pioggia, neve e nebbia, ma non rimuove gli effetti secondari (ad esempio, il fango).</li>\n                        <li><strong>Caldo Intenso:</strong> Il movimento è <strong>dimezzato</strong>. Le fonti d'acqua in eccesso (pioggia, neve, pozzanghere) si asciugano.</li>\n                        <li><strong>Venti Forti:</strong> <strong>Impossibile volare o effettuare attacchi a distanza</strong>. Il movimento è <strong>dimezzato</strong>. Le navi <strong>che navigano col vento si muovono il 50% più velocemente</strong>. Nei deserti, crea una tempesta di sabbia (visibilità 6 m, movimento dimezzato).</li>\n                        <li><strong>Tornado:</strong> Crea un vortice sotto il controllo del druido, che agisce come un <strong>elementale dell'aria da 12 DV</strong>. In mare, funziona come una <strong>tempesta o burrasca</strong>.</li>\n                      </ul>",
-            "spellRange": "0 (druido)",
-            "name": "Controllo del Tempo Atmosferico",
-            "spellEffect": "Le condizioni atmosferiche entro 220 metri"
-        },
         "Recorder": {
             "name": "Flauto",
             "description": "<p>Uno strumento a fiato in legno con un bocchino a fischio, popolare in varie forme di musica.</p>",
@@ -4977,14 +4643,6 @@
         "Detect Evil (PA)": {
             "description": "<p>Un Paladino può lanciare Individuazione del Male (come per l'<em data-start=\"66\" data-end=\"80\">incantesimo del chierico</em>) concentrandosi una volta per round. Questa capacità ha una portata di 36 m ma non può essere usata nello stesso round di un attacco.</p>",
             "name": "Individuazione del Male (PA)"
-        },
-        "Detect Secret Door (E)": {
-            "description": "<p>Gli elfi hanno 1 probabilità su 3 di individuare porte segrete e nascoste quando le cercano attivamente, grazie alla loro vista acuta.</p>",
-            "name": "Individuare Porte Segrete (E)"
-        },
-        "Detection Skills (D)": {
-            "description": "<p>I nani possono individuare trappole, pareti mobili, corridoi in pendenza e nuove costruzioni con una probabilità di 1 su 3. Per cercare, il nano deve cercare attivamente queste caratteristiche e il DM tira 1d6; un tiro di 1 o 2 indica successo.</p>",
-            "name": "Capacità di individuazione (D)"
         },
         "Detection (D)": {
             "description": "<p>I nani possono individuare trappole, muri scorrevoli, corridoi in pendenza e nuove costruzioni con una probabilità di 1 su 2. Per cercare, il nano deve cercare attivamente queste caratteristiche e il DM tira 1d6; un tiro di 1 o 2 indica successo.</p>",
@@ -5900,9 +5558,6 @@
             "spellRange": "0 (druido)",
             "description": "<p>Questo incantesimo conferisce al druido il potere di manipolare il tempo atmosferico entro un <strong>raggio di 220 metri</strong>.</p>\n                      <h3>Effetti:</h3>\n                      <ul>\n                        <li>L'incantatore può creare <strong>una specifica condizione atmosferica</strong> che colpisce <strong>tutte le creature nell'area</strong>, incluso l'incantatore.</li>\n                        <li>L'incantesimo richiede <strong>concentrazione</strong>, e l'incantatore deve rimanere fermo.</li>\n                        <li>Se l'incantatore viene spostato (ad esempio, su una nave), l'effetto si muove con lui.</li>\n                        <li>L'incantesimo <strong>funziona solo all'aperto</strong>.</li>\n                      </ul>\n                      <h3>Effetti Atmosferici:</h3>\n                      <ul>\n                        <li><strong>Pioggia:</strong> Gli attacchi a distanza subiscono una <strong>penalità di -2</strong>. Dopo 3 turni, il terreno diventa fangoso, <strong>dimezzando la velocità di movimento</strong>.</li>\n                        <li><strong>Neve:</strong> La visibilità è <strong>ridotta a 6 m</strong>, e il movimento è <strong>dimezzato</strong>. Fiumi e torrenti possono congelarsi. Il fango persiste dopo lo scioglimento.</li>\n                        <li><strong>Nebbia:</strong> La visibilità scende a <strong>6 m</strong>, il movimento è <strong>dimezzato</strong>. Le creature all'interno possono perdersi.</li>\n                        <li><strong>Sereno:</strong> Annulla pioggia, neve e nebbia, ma non rimuove effetti secondari (ad esempio, fango).</li>\n                        <li><strong>Calore Intenso:</strong> Il movimento è <strong>dimezzato</strong>. Le fonti d'acqua in eccesso (pioggia, neve, pozzanghere) si asciugano.</li>\n                        <li><strong>Venti Forti:</strong> <strong>Impossibile volare o effettuare attacchi a distanza</strong>. Il movimento è <strong>dimezzato</strong>. Le navi <strong>che navigano con il vento si muovono del 50% più velocemente</strong>. Nei deserti, crea una tempesta di sabbia (visibilità di 6 m, movimento dimezzato).</li>\n                        <li><strong>Tornado:</strong> Crea un vortice sotto il controllo del druido, che agisce come un <strong>elementale dell'aria da 12 DV</strong>. In mare, funziona come una <strong>tempesta o una burrasca</strong>.</li>\n                      </ul>",
             "spellEffect": "Tutto il tempo atmosferico entro 220 metri"
-        },
-        "Wrestling@ZtreWv5SWGV33kYo": {
-            "name": "Lotta"
         },
         "Wrestling@y87CgAv0iENRhZ4E": {
             "name": "Lotta",
