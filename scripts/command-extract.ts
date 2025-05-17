@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "fs/promises";
+import { mkdir, writeFile } from "fs/promises";
 import { dirname, join, resolve } from "path";
 import { LevelDatabase } from "./lib/level-database";
 import { readModuleJson } from "./lib/read-json";
@@ -20,7 +20,7 @@ export async function commandExtract(source: string, extracted: string) {
     await writeFile(outFolderFile, prettyPrintJSON(folders), "utf-8");
 
     const outFile = resolve(extracted, pack.name + ".json");
-    const outData = JSON.stringify(packSources);
+    const outData = prettyPrintJSON(packSources);
     await writeFile(outFile, outData, "utf-8");
   }
 }

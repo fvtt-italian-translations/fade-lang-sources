@@ -211,11 +211,11 @@ function handleItemEmbed(
         classLevel.title = level.title;
       }
     }
-    for (const [index, ability] of entry.system.classAbilities.entries()) {
-      const classAbilities = (outEntry.classAbilities ??= {});
-      const classAbility = (classAbilities[`${index}`] ??= {});
+    for (const [index, ability] of entry.system.specialAbilities.entries()) {
+      const specialAbilities = (outEntry.specialAbilities ??= {});
+      const specialAbility = (specialAbilities[`${index}`] ??= {});
       if (ability.name) {
-        classAbility.name = ability.name;
+        specialAbility.name = ability.name;
       }
     }
     for (const [index, item] of entry.system.classItems.entries()) {
@@ -422,7 +422,7 @@ interface EntryItemClass extends EntryItemBase {
       title: string;
       femaleTitle: string;
     }[];
-    classAbilities: {
+    specialAbilities: {
       name: string;
     }[];
     classItems: {
