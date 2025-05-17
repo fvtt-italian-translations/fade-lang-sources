@@ -166,21 +166,11 @@
       "description": "<p>This skill enables a character to command the crew of a piece of artillery, such as a catapult or trebuchet. While knowledge of the skill suffices for general operation, a skill check is required each time the artillery is aimed at a new target. This skill also allows the character to make precise calculations regarding trajectory, distance, and throw weight. It can be taken multiple times to learn both operation and construction of siege weapons. If an artillery device is improperly operated or built without a character possessing this skill, it is more prone to malfunction or failure.</p>",
       "name": "Artillery"
     },
+    "Asleep": {
+      "description": "<p>The affected actor is sleeping and will not awaken until the condition wears off or they are awakened by someone. To awaken someone who is magically asleep, one must slap their face, shake them, or pour cold or hot water on them—essentially, anything that will snap them out of their slumber.</p>",
+      "name": "Asleep"
+    },
     "Avenger": {
-      "classAbilities": {
-        "0": {
-          "name": "Dark Allegiance"
-        },
-        "1": {
-          "name": "Detect Evil (AV)"
-        },
-        "2": {
-          "name": "Right of Sanctuary (AV)"
-        },
-        "3": {
-          "name": "Turn Undead (AV)"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Avenger"
@@ -213,8 +203,22 @@
         "26": {},
         "27": {}
       },
-      "description": "<p>A Chaotic traveling fighter can achieve the title of Avenger if they meet specific requirements. Fighters who do not meet these conditions may instead become knights (described separately).</p><ol><li><p><strong>Fealty to a Clerical Order</strong>: To become a avenger, the fighter must swear an oath of service to a Chaotic clerical order. Only fighters of Name level or higher are eligible. Once accepted, the avenger is bound to serve the order and may be summoned by its leaders at any time to perform tasks that align with the powers of Evil.</p></li><li><p><strong>Detect Evil</strong>: A avenger can detect evil, as per the cleric spell, once per round by concentrating. This ability has a range of 120 feet but cannot be used in the same round as an attack.</p></li><li><p><strong>Cleric Spells</strong>: A avenger with a Wisdom score of 13 or higher can cast cleric spells as if they were a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin can cast spells as a 3rd-level cleric.</li><li>At 17th level, the paladin can cast spells as a 5th-level cleric.</li></ul></li><li>Fighters with Wisdom scores of 12 or less can still become avengers but cannot cast spells. Avengers are trained in meditation and spellcasting by the clerics of their order, who provide this service without accepting compensation.</li><li><p><strong>Turn Undead</strong>: Avengers can turn undead with the same ability as a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the avenger turns undead as a 3rd-level cleric.</li><li>At 16th or 17th level, the avenger turns undead as a 5th-level cleric.</li></ul></li><li><p><strong>Hireling Limit</strong>: An avenger is prohibited from having human or demihuman hirelings. However, they are allowed to try and persuade Chaotic monsters to become their hirelings.</p><ul><li><p>If a Chaotic creature is not immediately hostile, the avenger can offer food or treasure, signaling friendship through words or gestures.</p></li><li><p>If this approach fails, using threats or engaging in combat and achieving surrender might work similarly.</p></li><li><p>If the creature's Reaction roll results in friendship, it is convinced to follow and obey the avenger. This effect lasts as long as a charm spell cast by a magic-user; once it ends, it cannot be renewed.</p></li><li><p>The avenger can have as many Chaotic monster hirelings as their Charisma score permits; once one is lost, they may attempt to persuade another.</p></li></ul></li><li><p><strong>Requesting Sanctuary</strong>:</p><p>An avenger may approach any castle, ruin, or dungeon overseen by an intelligent Chaotic creature or individual, and using their alignment language, request Sanctuary (see knight, above). The avenger can also pose as a knight to seek Sanctuary from other rulers. If they successfully fool the ruler (and evade any magic that reveals alignment), the ruler will offer them standard Sanctuary.</p></li></ol><hr><p></p><h3>Paladin / Avenger Turn Undead Table</h3><div style=\"padding:4px;\"><table style=\"border-style:none; border-width:1px; padding:4px; max-width:500px;\"><thead><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; max-width:83px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-11</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">12-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-17</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">18-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-23</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">24-26</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">27-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr></tbody></table></div><p><strong>Legend</strong>:</p><ul><li><strong>7, 9, 11</strong>: Roll 2d6 and meet or exceed this number to turn undead.</li><li><strong>T</strong>: Automatically turn undead.</li><li><strong>D</strong>: Automatically destroy undead.</li><li><strong>D+</strong>: Automatically destroy [[/r 3d6 #Hit Dice]] Hit Dice of undead.</li></ul><p></p>",
-      "name": "Avenger"
+      "description": "<p>A Chaotic traveling fighter can achieve the title of Avenger if they meet specific requirements. Fighters who do not meet these conditions may instead become knights (described separately).</p><ol><li><p><strong>Fealty to a Clerical Order</strong>: To become a avenger, the fighter must swear an oath of service to a Chaotic clerical order. Only fighters of Name level or higher are eligible. Once accepted, the avenger is bound to serve the order and may be summoned by its leaders at any time to perform tasks that align with the powers of Evil.</p></li><li><p><strong>Detect Evil</strong>: A avenger can detect evil, as per the cleric spell, once per round by concentrating. This ability has a range of 120 feet but cannot be used in the same round as an attack.</p></li><li><p><strong>Cleric Spells</strong>: A avenger with a Wisdom score of 13 or higher can cast cleric spells as if they were a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin can cast spells as a 3rd-level cleric.</li><li>At 17th level, the paladin can cast spells as a 5th-level cleric.</li></ul></li><li>Fighters with Wisdom scores of 12 or less can still become avengers but cannot cast spells. Avengers are trained in meditation and spellcasting by the clerics of their order, who provide this service without accepting compensation.</li><li><p><strong>Turn Undead</strong>: Avengers can turn undead with the same ability as a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the avenger turns undead as a 3rd-level cleric.</li><li>At 16th or 17th level, the avenger turns undead as a 5th-level cleric.</li></ul></li><li><p><strong>Hireling Limit</strong>: An avenger is prohibited from having human or demihuman hirelings. However, they are allowed to try and persuade Chaotic monsters to become their hirelings.</p><ul><li><p>If a Chaotic creature is not immediately hostile, the avenger can offer food or treasure, signaling friendship through words or gestures.</p></li><li><p>If this approach fails, using threats or engaging in combat and achieving surrender might work similarly.</p></li><li><p>If the creature's Reaction roll results in friendship, it is convinced to follow and obey the avenger. This effect lasts as long as a charm spell cast by a magic-user; once it ends, it cannot be renewed.</p></li><li><p>The avenger can have as many Chaotic monster hirelings as their Charisma score permits; once one is lost, they may attempt to persuade another.</p></li></ul></li><li><p><strong>Requesting Sanctuary</strong>:</p><p>An avenger may approach any castle, ruin, or dungeon overseen by an intelligent Chaotic creature or individual, and using their alignment language, request Sanctuary (see knight, above). The avenger can also pose as a knight to seek Sanctuary from other rulers. If they successfully fool the ruler (and evade any magic that reveals alignment), the ruler will offer them standard Sanctuary.</p></li></ol><hr><p></p><h3>Paladin / Avenger Turn Undead Table</h3><div style=\"padding:4px;\"><table style=\"border-style:none; border-width:1px; padding:4px; width:95%;\"><thead><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; min-width:90px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-11</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">12-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-17</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">18-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-23</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">24-26</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">27-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;min-width:90px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr></tbody></table></div><p><strong>Legend</strong>:</p><ul><li><strong>7, 9, 11</strong>: Roll 2d6 and meet or exceed this number to turn undead.</li><li><strong>T</strong>: Automatically turn undead.</li><li><strong>D</strong>: Automatically destroy undead.</li><li><strong>D+</strong>: Automatically destroy [[/r 3d6 #Hit Dice]] Hit Dice of undead.</li></ul><p></p>",
+      "name": "Avenger",
+      "specialAbilities": {
+        "0": {
+          "name": "Dark Allegiance"
+        },
+        "1": {
+          "name": "Detect Evil (AV)"
+        },
+        "2": {
+          "name": "Right of Sanctuary (AV)"
+        },
+        "3": {
+          "name": "Turn Undead (AV)"
+        }
+      }
     },
     "Awareness": {
       "description": "<p> The mystic is only surprised on a roll of 1 (on 1d6)</p>",
@@ -280,7 +284,65 @@
       "unidentifiedName": "Banded Mail"
     },
     "Bard": {
-      "classAbilities": {
+      "classLevels": {
+        "0": {
+          "title": "Minstrel"
+        },
+        "1": {
+          "title": "Balladeer"
+        },
+        "2": {
+          "title": "Skald"
+        },
+        "3": {
+          "title": "Lorekeeper"
+        },
+        "4": {
+          "title": "Chronicler"
+        },
+        "5": {
+          "title": "Master of Tales"
+        },
+        "6": {
+          "title": "Virtuoso"
+        },
+        "7": {
+          "title": "Bard"
+        },
+        "8": {
+          "title": "Bardic Master"
+        },
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {}
+      },
+      "description": "<h2>The Bard: Keeper of Legends, Master of Song</h2><p>From the dawn of history, bards have roamed the world as keepers of lore, song, and heroism. They are the wandering minstrels, the poetic warriors, the storytellers whose words shape the deeds of kings and heroes alike. Bards are more than mere entertainers—they are the voice of history, the heart of culture, and, when needed, an inspiration on the battlefield.</p><p>Unlike the common thief-turned-minstrel, a true Bard has honed both the martial and mystical aspects of their craft. They wield the power of <em>spell-songs</em>, enchanting allies and bewitching foes with melodies imbued with arcane energy. These spell-songs, much like the incantations of wizards or the prayers of clerics, draw upon an ancient tradition that blends magic with performance. Through song and instrument, they can heal wounds, bolster courage, cloud minds, or even weave illusions so vivid they seem real.</p><p>Though bards may fight alongside warriors and thieves, their true strength lies in their ability to influence the world with words, music, and guile. They are welcome in the courts of kings as much as in the taverns of common folk, gathering news, uncovering secrets, and spreading the tales of legends—sometimes their own.</p><p>Each bard carries an enchanted instrument, a tool of their trade that is as vital as a wizard’s spellbook. Without it, their magic is silent. Some are gifted such instruments by mentors, while others must quest to find their own. A bard’s skill with an instrument is as much a part of their identity as the songs they know, and a seasoned bard can earn a fortune simply by performing for the right audience.</p><p>Whether they choose to settle and establish a great conservatory to pass their wisdom on to students, or continue their travels as a lone wanderer chronicling the stories of the world, all bards share a common purpose: to ensure that no great deed goes unsung, no legend is forgotten, and no soul is left without a melody to guide them.</p><p><em>Adapted from Geoff Gander and Marco Dalmonte’s article at </em><a href=\"https://pandius.com/bardclas.html\"><em>Pandius</em></a><em>.</em></p><h3>Key Characteristics</h3><h4>Prime Requisite</h4><p>Dexterity and Charisma. A Bard gains a 5% experience bonus if both Dexterity and Charisma are 13–15, and a 10% bonus if both are 16 or higher.</p><h4>Combat Skills</h4><ul><li>Bards may use <strong>any one-handed melee weapon and all missile weapons</strong>.</li><li>They <strong>cannot use two-handed weapons</strong>, as these interfere with playing instruments.</li><li>Bards may wear <strong>armor up to chain mail</strong>, but heavier armor imposes penalties on their Thief skills.</li><li>A Bard may wield <strong>shields of medium size or smaller</strong>, but doing so prevents playing an instrument.</li></ul><h4>Hit Dice</h4><ul><li>Bards roll <strong>1d6 for hit points per level</strong> until 9th level, after which they gain <strong>+2 hit points per level</strong>. Constitution adjustments no longer apply at this point.</li></ul><h4>Special Abilities</h4><p>Bards possess several skills similar to Thieves, along with unique abilities that set them apart.</p><ul><li><p><strong>Thief Abilities</strong> (affected by armor type):</p><table border=\"1\"><thead><tr><th>Armor Type</th><th>Hide in Shadows</th><th>Move Silently</th><th>Hear Noise</th><th>Climb Walls</th></tr></thead><tbody><tr><td>Leather Armor</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Scale Mail</td><td>-5%</td><td>-15%</td><td>-5%</td><td>-15%</td></tr><tr><td>Chain Mail</td><td>-10%</td><td>-20%*</td><td>-10%</td><td>-20%</td></tr></tbody></table><p><em>*This penalty may be halved if wearing Elven Chain Mail.</em></p></li><li><p><strong>Read Languages:</strong> At <strong>4th level</strong>, a Bard can read non-magical languages with an <strong>80% chance</strong>.</p></li><li><p><strong>Use Magic Scrolls:</strong> At <strong>10th level</strong>, a Bard can attempt to use magic-user scrolls, with a <strong>10% chance of backfire</strong>.</p></li><li><p><strong>Bardic Charm:</strong> At <strong>3rd level</strong>, a Bard gains the ability to <strong>charm others</strong> through song or poetry (similar to <em>charm person</em>). This improves at higher levels to affect intelligent monsters and, later, even plants.</p></li><li><p><strong>Spell-Songs:</strong> Bards can cast <strong>spell-songs</strong>, a unique form of magic that functions similarly to spells but requires performance and an enchanted instrument.</p></li><li><p><strong>Backstab (Modified):</strong></p><ul><li>When striking an <strong>unaware opponent</strong>, a Bard gains <strong>+2 to attack rolls</strong> and deals <strong>1.5x damage</strong> (round down).</li><li>This allows for precision strikes without the raw lethality of a Thief’s backstab.</li></ul></li></ul><h3>Advancement at Name Level (9th Level)</h3><p>At 9th level, a Bard earns renown and may establish a <strong>Conservatory</strong>, a place dedicated to training apprentices, preserving history, and refining spell-songs. This Conservatory attracts <strong>1d8 1st-level apprentice Bards</strong>, eager to learn from a master of the craft. These apprentices are loyal and dedicated students, though they will not follow the Bard into direct danger.</p><p>A Conservatory serves as a center of culture, storytelling, and music, drawing the attention of nobles, scholars, and fellow adventurers. It may take many forms—a grand hall in a city, a secluded retreat in the mountains, or a hidden sanctuary where lost songs and stories are recovered. The Bard may use this stronghold to research new spell-songs, store historical knowledge, and influence the world through their art.</p><h3>Stronghold Options</h3><p>Bards who choose to establish a Conservatory are expected to offer shelter and hospitality to traveling Bards who seek knowledge or rest. In exchange, these visitors bring news, songs, and secrets from across the land. The Conservatory may gain influential patrons, such as kings or powerful wizards, who see value in the Bard’s wisdom and the knowledge housed within.</p><p>Not all Bards settle in one place. Some prefer to <strong>remain travelers</strong>, continuing their journey as wandering minstrels, historians, and adventurers. These Traveling Bards have a unique connection to the world’s hidden stories. Once per month, they may <strong>learn of an unsung epic</strong>, a forgotten tale, or a legendary figure whose story has yet to be told. This knowledge can lead to lost treasures, rare spell-songs, or even legendary quests.</p><p>While a Bard may choose the life of a wanderer, they are always welcome at the Conservatories of their peers. These sanctuaries provide a place to rest, study, and exchange knowledge, ensuring that no great deed or legend is forgotten.</p>",
+      "name": "Bard",
+      "specialAbilities": {
         "0": {
           "name": "Backstab"
         },
@@ -941,65 +1003,7 @@
         "219": {
           "name": "Open Locks (B)"
         }
-      },
-      "classLevels": {
-        "0": {
-          "title": "Minstrel"
-        },
-        "1": {
-          "title": "Balladeer"
-        },
-        "2": {
-          "title": "Skald"
-        },
-        "3": {
-          "title": "Lorekeeper"
-        },
-        "4": {
-          "title": "Chronicler"
-        },
-        "5": {
-          "title": "Master of Tales"
-        },
-        "6": {
-          "title": "Virtuoso"
-        },
-        "7": {
-          "title": "Bard"
-        },
-        "8": {
-          "title": "Bardic Master"
-        },
-        "9": {},
-        "10": {},
-        "11": {},
-        "12": {},
-        "13": {},
-        "14": {},
-        "15": {},
-        "16": {},
-        "17": {},
-        "18": {},
-        "19": {},
-        "20": {},
-        "21": {},
-        "22": {},
-        "23": {},
-        "24": {},
-        "25": {},
-        "26": {},
-        "27": {},
-        "28": {},
-        "29": {},
-        "30": {},
-        "31": {},
-        "32": {},
-        "33": {},
-        "34": {},
-        "35": {}
-      },
-      "description": "<h2>The Bard: Keeper of Legends, Master of Song</h2><p>From the dawn of history, bards have roamed the world as keepers of lore, song, and heroism. They are the wandering minstrels, the poetic warriors, the storytellers whose words shape the deeds of kings and heroes alike. Bards are more than mere entertainers—they are the voice of history, the heart of culture, and, when needed, an inspiration on the battlefield.</p><p>Unlike the common thief-turned-minstrel, a true Bard has honed both the martial and mystical aspects of their craft. They wield the power of <em>spell-songs</em>, enchanting allies and bewitching foes with melodies imbued with arcane energy. These spell-songs, much like the incantations of wizards or the prayers of clerics, draw upon an ancient tradition that blends magic with performance. Through song and instrument, they can heal wounds, bolster courage, cloud minds, or even weave illusions so vivid they seem real.</p><p>Though bards may fight alongside warriors and thieves, their true strength lies in their ability to influence the world with words, music, and guile. They are welcome in the courts of kings as much as in the taverns of common folk, gathering news, uncovering secrets, and spreading the tales of legends—sometimes their own.</p><p>Each bard carries an enchanted instrument, a tool of their trade that is as vital as a wizard’s spellbook. Without it, their magic is silent. Some are gifted such instruments by mentors, while others must quest to find their own. A bard’s skill with an instrument is as much a part of their identity as the songs they know, and a seasoned bard can earn a fortune simply by performing for the right audience.</p><p>Whether they choose to settle and establish a great conservatory to pass their wisdom on to students, or continue their travels as a lone wanderer chronicling the stories of the world, all bards share a common purpose: to ensure that no great deed goes unsung, no legend is forgotten, and no soul is left without a melody to guide them.</p><p><em>Adapted from Geoff Gander and Marco Dalmonte’s article at </em><a href=\"https://pandius.com/bardclas.html\"><em>Pandius</em></a><em>.</em></p><h3>Key Characteristics</h3><h4>Prime Requisite</h4><p>Dexterity and Charisma. A Bard gains a 5% experience bonus if both Dexterity and Charisma are 13–15, and a 10% bonus if both are 16 or higher.</p><h4>Combat Skills</h4><ul><li>Bards may use <strong>any one-handed melee weapon and all missile weapons</strong>.</li><li>They <strong>cannot use two-handed weapons</strong>, as these interfere with playing instruments.</li><li>Bards may wear <strong>armor up to chain mail</strong>, but heavier armor imposes penalties on their Thief skills.</li><li>A Bard may wield <strong>shields of medium size or smaller</strong>, but doing so prevents playing an instrument.</li></ul><h4>Hit Dice</h4><ul><li>Bards roll <strong>1d6 for hit points per level</strong> until 9th level, after which they gain <strong>+2 hit points per level</strong>. Constitution adjustments no longer apply at this point.</li></ul><h4>Special Abilities</h4><p>Bards possess several skills similar to Thieves, along with unique abilities that set them apart.</p><ul><li><p><strong>Thief Abilities</strong> (affected by armor type):</p><table border=\"1\"><thead><tr><th>Armor Type</th><th>Hide in Shadows</th><th>Move Silently</th><th>Hear Noise</th><th>Climb Walls</th></tr></thead><tbody><tr><td>Leather Armor</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Scale Mail</td><td>-5%</td><td>-15%</td><td>-5%</td><td>-15%</td></tr><tr><td>Chain Mail</td><td>-10%</td><td>-20%*</td><td>-10%</td><td>-20%</td></tr></tbody></table><p><em>*This penalty may be halved if wearing Elven Chain Mail.</em></p></li><li><p><strong>Read Languages:</strong> At <strong>4th level</strong>, a Bard can read non-magical languages with an <strong>80% chance</strong>.</p></li><li><p><strong>Use Magic Scrolls:</strong> At <strong>10th level</strong>, a Bard can attempt to use magic-user scrolls, with a <strong>10% chance of backfire</strong>.</p></li><li><p><strong>Bardic Charm:</strong> At <strong>3rd level</strong>, a Bard gains the ability to <strong>charm others</strong> through song or poetry (similar to <em>charm person</em>). This improves at higher levels to affect intelligent monsters and, later, even plants.</p></li><li><p><strong>Spell-Songs:</strong> Bards can cast <strong>spell-songs</strong>, a unique form of magic that functions similarly to spells but requires performance and an enchanted instrument.</p></li><li><p><strong>Backstab (Modified):</strong></p><ul><li>When striking an <strong>unaware opponent</strong>, a Bard gains <strong>+2 to attack rolls</strong> and deals <strong>1.5x damage</strong> (round down).</li><li>This allows for precision strikes without the raw lethality of a Thief’s backstab.</li></ul></li></ul><h3>Advancement at Name Level (9th Level)</h3><p>At 9th level, a Bard earns renown and may establish a <strong>Conservatory</strong>, a place dedicated to training apprentices, preserving history, and refining spell-songs. This Conservatory attracts <strong>1d8 1st-level apprentice Bards</strong>, eager to learn from a master of the craft. These apprentices are loyal and dedicated students, though they will not follow the Bard into direct danger.</p><p>A Conservatory serves as a center of culture, storytelling, and music, drawing the attention of nobles, scholars, and fellow adventurers. It may take many forms—a grand hall in a city, a secluded retreat in the mountains, or a hidden sanctuary where lost songs and stories are recovered. The Bard may use this stronghold to research new spell-songs, store historical knowledge, and influence the world through their art.</p><h3>Stronghold Options</h3><p>Bards who choose to establish a Conservatory are expected to offer shelter and hospitality to traveling Bards who seek knowledge or rest. In exchange, these visitors bring news, songs, and secrets from across the land. The Conservatory may gain influential patrons, such as kings or powerful wizards, who see value in the Bard’s wisdom and the knowledge housed within.</p><p>Not all Bards settle in one place. Some prefer to <strong>remain travelers</strong>, continuing their journey as wandering minstrels, historians, and adventurers. These Traveling Bards have a unique connection to the world’s hidden stories. Once per month, they may <strong>learn of an unsung epic</strong>, a forgotten tale, or a legendary figure whose story has yet to be told. This knowledge can lead to lost treasures, rare spell-songs, or even legendary quests.</p><p>While a Bard may choose the life of a wanderer, they are always welcome at the Conservatories of their peers. These sanctuaries provide a place to rest, study, and exchange knowledge, ensuring that no great deed or legend is forgotten.</p>",
-      "name": "Bard"
+      }
     },
     "Bardic Charm": {
       "description": "<p>A Bard of <strong data-start=\"10\" data-end=\"33\">3rd level or higher</strong> can charm others through song, poetry, or music, similar to the <em data-start=\"98\" data-end=\"112\">charm person</em> spell. The Bard must perform for <strong data-start=\"146\" data-end=\"174\">three consecutive rounds</strong>, after which the target must make a <strong data-start=\"211\" data-end=\"244\">saving throw vs. Spells at +3</strong> or be charmed. The effect lasts until dispelled, the Bard dismisses it, or the Bard harms the target.</p><p data-start=\"350\" data-end=\"466\">At <strong data-start=\"353\" data-end=\"366\">9th level</strong>, this ability improves, allowing the Bard to charm <strong data-start=\"418\" data-end=\"442\">intelligent monsters</strong> (as <em data-start=\"447\" data-end=\"462\">charm monster</em>).</p><p data-start=\"468\" data-end=\"605\" data-is-last-node=\"\">At <strong data-start=\"471\" data-end=\"485\">15th level</strong>, the Bard can charm <strong data-start=\"506\" data-end=\"516\">plants</strong> (as <em data-start=\"521\" data-end=\"534\">charm plant</em>), influencing intelligent vegetation such as treants or magical flora.</p>",
@@ -1161,7 +1165,7 @@
       "unidentifiedDesc": "<p>A carbuncle is not a specific gemstone but rather a term historically used to refer to any red gemstone, particularly a deep red garnet or ruby. It is characterized by its rich, dark red color and smooth, polished surface. Carbuncles were highly valued in ancient times for their striking appearance and were often set in jewelry and ceremonial objects.</p>"
     },
     "Cause Critical Wounds*": {
-      "description": "<p>This spell inflicts 3d6 + 3 points of damage on a creature touched by the caster. A successful melee attack roll is required.</p>",
+      "description": "<p>This spell inflicts [[/r 3d6+3 # points of damage]] points of damage on a creature touched by the caster. A successful melee attack roll is required.</p>",
       "name": "Cause Critical Wounds*",
       "spellEffect": "Inflicts critical damage on one creature"
     },
@@ -1256,17 +1260,6 @@
       "spellEffect": "See through another's eyes"
     },
     "Cleric": {
-      "classAbilities": {
-        "0": {
-          "name": "Turn Undead (C)"
-        },
-        "1": {
-          "name": "Divine Spellcasting"
-        },
-        "2": {
-          "name": "Establish Stronghold (C)"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Acolyte"
@@ -1324,7 +1317,18 @@
         "35": {}
       },
       "description": "<p>A cleric is a human character devoted to a significant cause, such as serving an Immortal or embodying the ideals of their alignment. Clerics combine martial prowess with divine magic, using their faith and beliefs to heal, protect, and combat evil. They are restricted to blunt weapons like maces and staves, reflecting their spiritual focus.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Wisdom, granting an experience bonus for scores of 13 or higher.</li><li><strong>Combat and Armor</strong>: Clerics can wear any armor and use shields, but they are limited to non-edged weapons.</li><li><strong>Special Abilities</strong>: Clerics can turn undead, using their divine power to repel or destroy them. They begin casting clerical spells at 2nd level, focusing on healing, protection, and divination.</li><li><strong>Experience Table</strong>: They advance steadily, gaining hit points and new spell slots with each level.</li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong>, a cleric reaches \"Name level\" and is referred to as a patriarch or matriarch. They have the option to establish a stronghold, which can be a fortress or temple serving their clerical order.</li><li><strong>Stronghold Details</strong>: Building a stronghold requires land, which is usually granted by their clerical hierarchy or local rulers. The cleric's order may subsidize construction costs, often covering up to 50%.</li><li>A stronghold attracts retainers: 1d6 x 50 loyal troops of the cleric’s alignment and 1d6 low-level clerics to assist with religious duties. These followers do not require pay and have high morale, reflecting their devotion.</li><li>Alternatively, a cleric may choose to remain a traveling cleric, free from the responsibilities of landownership, focusing on aiding others and spreading their faith through quests and adventures.</li></ul><p>Clerics are pivotal in both spiritual and martial roles, capable of influencing the world through faith, leadership, and divine power. Their journey often balances personal growth, the needs of their order, and the demands of their adventuring life.</p>",
-      "name": "Cleric"
+      "name": "Cleric",
+      "specialAbilities": {
+        "0": {
+          "name": "Turn Undead (C)"
+        },
+        "1": {
+          "name": "Divine Spellcasting"
+        },
+        "2": {
+          "name": "Establish Stronghold (C)"
+        }
+      }
     },
     "Climb Sheer Surface": {
       "description": "<p>The use of this ability allows for climbing steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by the user's level.</p>",
@@ -1851,38 +1855,6 @@
       "name": "Druid"
     },
     "Dwarf": {
-      "classAbilities": {
-        "0": {
-          "name": "Detection (D)"
-        },
-        "1": {
-          "name": "Infravision (D)"
-        },
-        "2": {
-          "name": "Lance Attack"
-        },
-        "3": {
-          "name": "Set Spear vs. Charge"
-        },
-        "4": {
-          "name": "Magic Resistance (D)"
-        },
-        "5": {
-          "name": "Establish Stronghold (D)"
-        },
-        "6": {
-          "name": "Disarm"
-        },
-        "7": {
-          "name": "Multiple Attacks"
-        },
-        "8": {
-          "name": "Parry"
-        },
-        "9": {
-          "name": "Smash"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Veteran"
@@ -1926,7 +1898,39 @@
         "21": {}
       },
       "description": "<p>A dwarf is a sturdy, short-statured demi-human standing about 4 feet tall and weighing approximately 150 pounds. Known for their resilience and practicality, dwarves are experts in mining, construction, and combat. They often form close-knit clans and value craftsmanship and treasure.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Strength, granting experience bonuses for high scores (5% for a score of 13–15, 10% for 16 or higher). A Constitution score of 9 is required to play a dwarf.</li><li><strong>Combat Abilities</strong>: Dwarves are skilled fighters, able to wield small and medium-sized weapons and use shields. They gain access to Fighter Combat Options, including advanced maneuvers like multiple attacks at higher levels.</li><li><strong>Armor and Weapons</strong>: They can wear any armor but are restricted from using longbows or large melee weapons.</li><li><p><strong>Special Abilities</strong>:</p><ul><li><strong>Infravision</strong>: Dwarves can see up to 60 feet in the dark.</li><li><strong>Stonework Detection</strong>: Their expertise allows them to detect traps, sliding walls, sloping passages, and new construction with a 1–2 roll on a d6.</li><li><strong>Magic Resistance</strong>: As they gain experience, dwarves take reduced damage from spells and magical effects.</li><li>Dwarves can speak the languages of Dwarves, Gnomes, Goblins, and Kobolds, in addition to Common and Alignment tongues.</li></ul></li></ul><h3>Advancement:</h3><ul><li>Dwarves can progress to a maximum of 12th level.</li><li>Upon reaching 9th level, a dwarf may establish a stronghold in the wilderness. These are typically underground and located in hills or mountains, reflecting their cultural heritage.</li><li>The stronghold attracts a community of loyal dwarves (up to 200), including skilled craftsmen, warriors, and other retainers, creating a self-sustaining settlement.</li></ul><p>Dwarves are resilient and resourceful adventurers, excelling in combat and defensive roles while contributing practical skills and unparalleled durability to any group.</p>",
-      "name": "Dwarf"
+      "name": "Dwarf",
+      "specialAbilities": {
+        "0": {
+          "name": "Detection (D)"
+        },
+        "1": {
+          "name": "Infravision (D)"
+        },
+        "2": {
+          "name": "Lance Attack"
+        },
+        "3": {
+          "name": "Set Spear vs. Charge"
+        },
+        "4": {
+          "name": "Magic Resistance (D)"
+        },
+        "5": {
+          "name": "Establish Stronghold (D)"
+        },
+        "6": {
+          "name": "Disarm"
+        },
+        "7": {
+          "name": "Multiple Attacks"
+        },
+        "8": {
+          "name": "Parry"
+        },
+        "9": {
+          "name": "Smash"
+        }
+      }
     },
     "ESP*": {
       "description": "<p>This spell allows the spellcaster to \"hear\" thoughts. The caster must concentrate in one direction for six rounds (one minute) to hear the thoughts (if any) of a creature within range. The spell allows the caster to understand the thoughts of any single living creature, regardless of language. It does not allow the caster to hear the thoughts of undead creatures.</p>\n                  <p>If more than one creature is within range and in the direction the caster is concentrating, the spellcaster will \"hear\" a confused jumble of thoughts. The caster can sort out the jumble only by concentrating for an extra six rounds to find a single creature.</p>\n                  <p><em>ESP</em> is not hindered by any amount of wood or liquid and will penetrate up to two feet of rock, but a thin coating of lead will block the spell. Targets can make a saving throw vs. spells to avoid the effects.</p>\n                  <p>The reverse of this spell, <em>mindmask</em>, may be cast by touch on any one creature. The recipient is completely immune to <em>ESP</em> and all other forms of mind-reading for the spell's duration.</p>",
@@ -1943,44 +1947,6 @@
       "name": "Electrum Piece"
     },
     "Elf": {
-      "classAbilities": {
-        "0": {
-          "name": "Arcane Spellcasting (E)"
-        },
-        "1": {
-          "name": "Detect Secret Door"
-        },
-        "2": {
-          "name": "Ghoul Paralysis Immunity (E)"
-        },
-        "3": {
-          "name": "Infravision (E)"
-        },
-        "4": {
-          "name": "Lance Attack"
-        },
-        "5": {
-          "name": "Set Spear vs. Charge"
-        },
-        "6": {
-          "name": "Establish Stronghold (E)"
-        },
-        "7": {
-          "name": "Disarm"
-        },
-        "8": {
-          "name": "Multiple Attacks"
-        },
-        "9": {
-          "name": "Parry"
-        },
-        "10": {
-          "name": "Smash"
-        },
-        "11": {
-          "name": "Dragon Breath Resistance (E)"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Veteran Medium"
@@ -2022,7 +1988,42 @@
         "19": {}
       },
       "description": "<p>Elves are slender, graceful demi-humans with delicate features and pointed ears. They typically stand between 5 and 5½ feet tall and weigh around 120 pounds. As a blend of fighters and magic-users, elves are skilled in combat and capable of casting spells, making them versatile and powerful adventurers.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Intelligence. If both scores are 13 or higher, the elf gains a 5% experience bonus. If Intelligence is 16 or greater, this bonus increases to 10%.</li><li><strong>Combat and Spellcasting</strong>: Elves can use all types of armor and weapons while also casting magic-user spells. They are particularly effective in combat when uninjured and can utilize both fighting and magical strategies.</li><li><strong>Hit Dice</strong>: Elves roll 1d6 per level for hit points, with a maximum level of 10. They gain an additional +2 hit points at 10th level.</li><li><p><strong>Special Abilities</strong>:</p><ul><li>Infravision allows them to see up to 60 feet in the dark.</li><li>A natural immunity to ghoul paralysis.</li><li>They excel at finding secret doors, succeeding on a 1 or 2 when rolling a d6.</li><li>Elves gain resistance to dragon breath attacks at higher experience levels, taking half or one-quarter damage depending on their saving throw success.</li><li>Elves can speak the languages of Elves, Gnolls, Hobgoblins, and Orcs, in addition to Common and their alignment tongue.</li></ul></li></ul><h3>Advancement and Strongholds:</h3><p>Elves reach Name level at 9th level and may establish a stronghold in a natural, beautiful location, such as atop great trees or near waterfalls. These strongholds foster harmony with nearby animals, enabling communication and mutual protection. Elves can only advance to 10th level, but their combination of skills and magical abilities balances this limitation.</p><p>Their dual nature as fighters and magic-users makes elves both formidable allies and dangerous foes in any adventure.</p>",
-      "name": "Elf"
+      "name": "Elf",
+      "specialAbilities": {
+        "0": {
+          "name": "Arcane Spellcasting (E)"
+        },
+        "1": {
+          "name": "Detect Secret Door"
+        },
+        "2": {
+          "name": "Ghoul Paralysis Immunity (E)"
+        },
+        "3": {
+          "name": "Infravision (E)"
+        },
+        "4": {
+          "name": "Lance Attack"
+        },
+        "5": {
+          "name": "Set Spear vs. Charge"
+        },
+        "6": {
+          "name": "Establish Stronghold (E)"
+        },
+        "7": {
+          "name": "Disarm"
+        },
+        "8": {
+          "name": "Multiple Attacks"
+        },
+        "9": {
+          "name": "Parry"
+        },
+        "10": {
+          "name": "Smash"
+        }
+      }
     },
     "Emerald": {
       "description": "<p>Emerald is a gemstone known for its rich green color and vibrant hue. It typically has a smooth, polished surface with a faceted appearance, enhancing its brilliance and clarity. Highly valued in jewelry, emeralds are prized for their striking beauty and elegance.</p>",
@@ -2048,7 +2049,7 @@
       "name": "Escape"
     },
     "Establish Stronghold (C)": {
-      "description": "<p style=\"margin-top: 0px; margin-right: 0px; margin-bottom: var(--sds-space-x02); margin-left: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.5; font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word; color: rgb(255, 255, 255); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(22, 22, 22); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">A cleric who chooses to establish a stronghold with the approval of his clerical order is known as a \"land-owning cleric.\" This term is convenient, as a land-owning cleric can still adventure with friends and is not bound to his land.</span></p><p style=\"margin-top: 0px; margin-right: 0px; margin-bottom: var(--sds-space-x02); margin-left: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.5; font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word; color: rgb(255, 255, 255); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(22, 22, 22); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: var(--sds-font-family-01)\"><strong style=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: var(--sds-font-weight-bold); font-stretch: inherit; line-height: 1.5; font-family: var(--sds-font-family-01); font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word;\">Advantages:</strong></span> The cleric can advance within his order, receive financial support for building the stronghold, and potentially expand his lands, leading to significant wealth.</p><p style=\"margin-top: 0px; margin-right: 0px; margin-bottom: var(--sds-space-x02); margin-left: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.5; font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word; color: rgb(255, 255, 255); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(22, 22, 22); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: var(--sds-font-family-01)\"><strong style=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: var(--sds-font-weight-bold); font-stretch: inherit; line-height: 1.5; font-family: var(--sds-font-family-01); font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word;\">Disadvantages:</strong></span> The cleric becomes the primary authority for his order in the area, bearing responsibilities to the local populace that may hinder his ability to travel with old adventuring companions or present him with challenging issues.</p><p style=\"margin-top: 0px; margin-right: 0px; margin-bottom: var(--sds-space-x02); margin-left: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.5; font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word; color: rgb(255, 255, 255); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(22, 22, 22); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">When a 9th-level cleric decides to build a stronghold, he must seek permission from a superior, either an official of his order or a local ruler. The ruler should grant the land unless there are past issues; in such cases, the ruler may require a service, like a quest, before approval. The DM will determine if the cleric's order has the authority to grant land based on the campaign's setting.</span></p><p style=\"margin-top: 0px; margin-right: 0px; margin-bottom: var(--sds-space-x02); margin-left: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.5; font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word; color: rgb(255, 255, 255); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(22, 22, 22); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">If the cleric has a clean record, his order may assist with construction costs, typically covering up to 50% of the expenses. The player can design the stronghold, and the DM will assess the costs, deciding what portion the order will fund. Regardless of the financial support, the stronghold remains the cleric's property, and he cannot deny access to order members, nor can he be reassigned against his will.</span></p><p style=\"margin-top: 0px; margin-right: 0px; margin-bottom: var(--sds-space-x02); margin-left: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.5; font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word; color: rgb(255, 255, 255); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(22, 22, 22); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Once the stronghold is built, a number of lower-level clerics (typically 1d6) will arrive to assist with its clerical functions. These clerics are there to help operate the stronghold, not to join the cleric on adventures. The DM should create each assistant cleric with their own name, personality, background, goals, and abilities.</span></p><p style=\"margin: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 1.5; font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--sds-font-size-body-large); vertical-align: baseline; box-sizing: border-box; animation: 0.5s ease-in-out 0s 1 normal forwards running uw7MuK6mMhzORp5Jtfgj; white-space: break-spaces; overflow-wrap: break-word; color: rgb(255, 255, 255); letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(22, 22, 22); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">If the cleric manages his land and serves his order well, he is likely to gain power within the clerical hierarchy, receive additional land, and see an increase in tax income from the growing settlements around his stronghold.</span></p>",
+      "description": "<p>A cleric who chooses to establish a stronghold with the approval of his clerical order is known as a \"land-owning cleric.\" This term is convenient, as a land-owning cleric can still adventure with friends and is not bound to his land.</p><p><strong>Advantages:</strong> The cleric can advance within his order, receive financial support for building the stronghold, and potentially expand his lands, leading to significant wealth.</p><p><strong>Disadvantages:</strong> The cleric becomes the primary authority for his order in the area, bearing responsibilities to the local populace that may hinder his ability to travel with old adventuring companions or present him with challenging issues.</p><p>When a 9th-level cleric decides to build a stronghold, he must seek permission from a superior, either an official of his order or a local ruler. The ruler should grant the land unless there are past issues; in such cases, the ruler may require a service, like a quest, before approval. The DM will determine if the cleric's order has the authority to grant land based on the campaign's setting.</p><p>If the cleric has a clean record, his order may assist with construction costs, typically covering up to 50% of the expenses. The player can design the stronghold, and the DM will assess the costs, deciding what portion the order will fund. Regardless of the financial support, the stronghold remains the cleric's property, and he cannot deny access to order members, nor can he be reassigned against his will.</p><p>Once the stronghold is built, a number of lower-level clerics (typically 1d6) will arrive to assist with its clerical functions. These clerics are there to help operate the stronghold, not to join the cleric on adventures. The DM should create each assistant cleric with their own name, personality, background, goals, and abilities.</p><p>If the cleric manages his land and serves his order well, he is likely to gain power within the clerical hierarchy, receive additional land, and see an increase in tax income from the growing settlements around his stronghold.</p>",
       "name": "Establish Stronghold (C)"
     },
     "Establish Stronghold (D)": {
@@ -2097,29 +2098,6 @@
       "spellEffect": "Lowers Intelligence score to 2"
     },
     "Fighter": {
-      "classAbilities": {
-        "0": {
-          "name": "Lance Attack"
-        },
-        "1": {
-          "name": "Set Spear vs. Charge"
-        },
-        "2": {
-          "name": "Disarm"
-        },
-        "3": {
-          "name": "Establish Stronghold (F)"
-        },
-        "4": {
-          "name": "Parry"
-        },
-        "5": {
-          "name": "Smash"
-        },
-        "6": {
-          "name": "Multiple Attacks"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Normal Man"
@@ -2180,7 +2158,30 @@
         "36": {}
       },
       "description": "<p>A fighter is a human whose primary focus is martial combat. Renowned for their strength and endurance, fighters excel in melee and ranged combat, often taking the lead in battle to protect their allies. They have the highest hit points among classes, enabling them to withstand significant damage.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Strength, granting experience bonuses for high scores (5% for 13–15, 10% for 16–18).</li><li><strong>Combat Prowess</strong>: Fighters can use any weapon and wear any type of armor, including shields. They are also adept in specialized maneuvers like Lance Attack and Set Spear vs. Charge.</li><li><strong>Hit Dice</strong>: Fighters roll a d8 for hit points at each level up to the 9th. Beyond that, they gain a fixed 2 hit points per level.</li><li><strong>Maximum Level</strong>: 36th.</li></ul><h3>Advancement:</h3><p>At 9th level, fighters achieve Name level and may choose one of two paths:</p><ul><li><strong>Land-Owning Fighter</strong>: Fighters can petition a ruler for land, often gaining the title of Baron (or equivalent). With their stronghold established, they attract up to 50 loyal fighters (levels 1–3) as retainers. In times of war, they may offer military aid to their ruler and receive assistance if their lands are threatened.</li><li><strong>Traveling Fighter</strong>: These fighters eschew land ownership for a life of adventure. Depending on their alignment, they may adopt roles such as knights or paladins, gaining unique abilities like turning undead or detecting evil.</li></ul><h3>Stronghold Details:</h3><p>Fighters who build a stronghold must secure land either by petitioning a ruler, claiming wilderness territory, or purchasing land. As rulers, they manage their dominion, attract settlers, and lead their men-at-arms in defense or expansion of their holdings. Titles can grow with their dominion's success, from Baron to Duke and beyond.</p><p>Fighters are essential to any adventuring party for their durability and combat capabilities, serving as the backbone of both offense and defense. They excel in both leadership roles and frontline combat, making them versatile and resilient characters.</p>",
-      "name": "Fighter"
+      "name": "Fighter",
+      "specialAbilities": {
+        "0": {
+          "name": "Lance Attack"
+        },
+        "1": {
+          "name": "Set Spear vs. Charge"
+        },
+        "2": {
+          "name": "Disarm"
+        },
+        "3": {
+          "name": "Establish Stronghold (F)"
+        },
+        "4": {
+          "name": "Parry"
+        },
+        "5": {
+          "name": "Smash"
+        },
+        "6": {
+          "name": "Multiple Attacks"
+        }
+      }
     },
     "Find Trap": {
       "description": "<p>To search for traps, the player must specify the exact area they are examining, such as a 20-foot square room or a 20-foot corridor. Searching takes one turn (10 minutes) per area, and the Dungeon Master rolls to determine success. Thieves have a percentage-based chance to detect traps, determined by their level, while dwarves have a superior chance to locate large mechanical traps, such as pit traps, due to their natural affinity with stonework. The DM may modify the difficulty for especially hidden traps. Non-thief characters generally cannot detect traps unless their presence is obvious​​.</p>",
@@ -2345,38 +2346,6 @@
       "name": "Halberd"
     },
     "Halfling": {
-      "classAbilities": {
-        "0": {
-          "name": "Combat Bonuses (H)"
-        },
-        "1": {
-          "name": "Hide, Indoors (H)"
-        },
-        "2": {
-          "name": "Hide, Natural (H)"
-        },
-        "3": {
-          "name": "Set Spear vs. Charge"
-        },
-        "4": {
-          "name": "Magic Resistance (H)"
-        },
-        "5": {
-          "name": "Disarm"
-        },
-        "6": {
-          "name": "Multiple Attacks"
-        },
-        "7": {
-          "name": "Parry"
-        },
-        "8": {
-          "name": "Smash"
-        },
-        "9": {
-          "name": "Breath Resistance (H)"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Halfling Veteran"
@@ -2414,7 +2383,39 @@
         "17": {}
       },
       "description": "<p>A halfling is a small, childlike demi-human standing about 3 feet tall and weighing around 60 pounds. Known for their love of comfort and community, halflings are woodland folk who excel in outdoor abilities and camaraderie with elves and dwarves. Despite their size, they are resourceful and capable combatants.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Dexterity, granting an experience bonus (5% for either score of 13 or higher, 10% for both).</li><li><p><strong>Abilities</strong>:</p><ul><li>Halflings receive a +2 bonus to AC against larger creatures, a +1 bonus to attack rolls with missile weapons, and a +1 bonus to individual initiative.</li><li>They have a 90% chance to hide in woodlands and a 33% chance to hide in shadows within buildings or dungeons, provided they remain motionless.</li></ul></li><li><strong>Weapons and Armor</strong>: Halflings may use any small-sized weapons (e.g., short swords, daggers) and wear any armor specifically tailored to their size. Shields are allowed.</li><li><strong>Combat Skills</strong>: They gain access to fighter combat options, including multiple attacks at higher levels.</li></ul><h3>Advancement:</h3><ul><li>Halflings can advance to a maximum of 8th level, gaining the title \"Sheriff\" upon reaching this level.</li><li>As they progress, halflings develop enhanced resistances, such as taking half damage from spells and breath weapons at high experience thresholds.</li></ul><h3>Strongholds:</h3><ul><li>Halflings can construct strongholds at any level if they have the resources. A stronghold often attracts a community of other halflings, creating a new settlement or shire.</li><li>These strongholds are typically located in tranquil, scenic areas like rolling hills or near streams, reflecting their preference for a peaceful lifestyle.</li></ul><p>Halflings balance their physical limitations with their keen abilities and resilience, making them adaptable and valuable members of any adventuring party.</p>",
-      "name": "Halfling"
+      "name": "Halfling",
+      "specialAbilities": {
+        "0": {
+          "name": "Combat Bonuses (H)"
+        },
+        "1": {
+          "name": "Hide, Indoors (H)"
+        },
+        "2": {
+          "name": "Hide, Natural (H)"
+        },
+        "3": {
+          "name": "Set Spear vs. Charge"
+        },
+        "4": {
+          "name": "Magic Resistance (H)"
+        },
+        "5": {
+          "name": "Disarm"
+        },
+        "6": {
+          "name": "Multiple Attacks"
+        },
+        "7": {
+          "name": "Parry"
+        },
+        "8": {
+          "name": "Smash"
+        },
+        "9": {
+          "name": "Breath Resistance (H)"
+        }
+      }
     },
     "Hallucinatory Terrain": {
       "description": "<p>This spell creates an illusion of a terrain feature, either indoors or outdoors, to hide or mimic terrain. The caster could create an illusory terrain over pits or quicksand, or a forest around a camp.</p>\n                      <p><strong>Area:</strong> The spell affects up to a 240' radius, and the caster may choose a smaller area, such as a room or a specific feature. For larger areas (such as hills), the entire terrain feature must be within 240' of the caster. Features over 480' in diameter cannot be affected.</p>\n                      <p><strong>Duration:</strong> The illusion lasts until an intelligent creature touches it or until dispelled.</p>",
@@ -2901,23 +2902,6 @@
       "spellEffect": "Attempts to dispel all magical effects in the area"
     },
     "Magic-User": {
-      "classAbilities": {
-        "0": {
-          "name": "Arcane Spellcasting (M)"
-        },
-        "1": {
-          "name": "Spell Research"
-        },
-        "2": {
-          "name": "Use Magic Items (M)"
-        },
-        "3": {
-          "name": "Create Magic Items"
-        },
-        "4": {
-          "name": "Establish Tower (M)"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Medium"
@@ -2975,7 +2959,24 @@
         "35": {}
       },
       "description": "<p>A magic-user is a human character dedicated to the study of arcane knowledge and the casting of spells. They are among the most versatile and powerful classes but are physically fragile and limited in combat abilities. Their focus on magic allows them to wield extraordinary power as they gain experience.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Intelligence, granting an experience bonus for high scores (5% for 13–15, 10% for 16–18).</li><li><strong>Combat Skills</strong>: Magic-users cannot wear armor or use shields and are restricted to using daggers. At the DM's discretion, other light weapons such as staves or slings may be permitted.</li><li><strong>Hit Dice</strong>: They use a d4 for hit points per level up to 9th level. Beyond that, they gain a fixed 1 hit point per level without Constitution bonuses.</li><li><strong>Spellcasting</strong>: Magic-users learn and prepare spells from a spellbook. Their magic includes a wide range of effects, such as attack spells (e.g., Fireball), utility spells (e.g., Knock), and defensive spells (e.g., Shield).</li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong> (Name level), a magic-user becomes a \"Wizard\" (male) or \"Maga\" (female). Wizards can create magic items, such as scrolls or potions.</li><li>Magic-users may construct a tower as a personal stronghold. Once completed, the tower attracts 1d6 apprentices (1st–3rd level magic-users), who serve the wizard as students and assistants.</li><li>If a dungeon is built beneath or near the tower and left unguarded, it may attract monsters. Some wizards encourage this to create a ready source of material for research and training.</li></ul><h3>Stronghold Options:</h3><ul><li><strong>Independent Wizards</strong>: Magic-users building their own towers typically do so without seeking approval from local rulers. However, gaining the ruler's favor might result in gifts or an official title to the land.</li><li><strong>Magists</strong>: Magic-users can serve as court wizards, known as Magists, advising rulers on magical matters in exchange for room, board, and a stipend (usually 3,000 gp per month or more). This arrangement allows continued magical research, often funded by the ruler.</li></ul><p>Magic-users begin their careers as fragile and vulnerable adventurers but grow into formidable spellcasters capable of altering the course of campaigns with their arcane abilities. Their strongholds often serve as hubs of magical research and influence.</p>",
-      "name": "Magic-User"
+      "name": "Magic-User",
+      "specialAbilities": {
+        "0": {
+          "name": "Arcane Spellcasting (M)"
+        },
+        "1": {
+          "name": "Spell Research"
+        },
+        "2": {
+          "name": "Use Magic Items (M)"
+        },
+        "3": {
+          "name": "Create Magic Items"
+        },
+        "4": {
+          "name": "Establish Tower (M)"
+        }
+      }
     },
     "Magical Engineering": {
       "description": "<p>Grants the ability to recognize the basic principles behind unfamiliar magical devices. This does not include training in the design or fabrication of magical artifacts but does allow identification of common magical items with a successful skill check.  It doesn't allow a character to recognize uncommon magical items or to distinguish trapped or cursed items from those that are safe.</p>",
@@ -3088,7 +3089,143 @@
       "name": "Music (choose type)"
     },
     "Mystic": {
-      "classAbilities": {
+      "classItems": {
+        "0": {
+          "name": "Mystic Natural Armor"
+        },
+        "1": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "2": {
+          "name": "Mystic Natural Armor"
+        },
+        "3": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "4": {
+          "name": "Mystic Natural Armor"
+        },
+        "5": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "6": {
+          "name": "Mystic Natural Armor"
+        },
+        "7": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "8": {
+          "name": "Mystic Natural Armor"
+        },
+        "9": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "10": {
+          "name": "Mystic Natural Armor"
+        },
+        "11": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "12": {
+          "name": "Mystic Natural Armor"
+        },
+        "13": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "14": {
+          "name": "Mystic Natural Armor"
+        },
+        "15": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "16": {
+          "name": "Mystic Natural Armor"
+        },
+        "17": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "18": {
+          "name": "Mystic Natural Armor"
+        },
+        "19": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "20": {
+          "name": "Mystic Natural Armor"
+        },
+        "21": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "22": {
+          "name": "Mystic Natural Armor"
+        },
+        "23": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "24": {
+          "name": "Mystic Natural Armor"
+        },
+        "25": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "26": {
+          "name": "Mystic Natural Armor"
+        },
+        "27": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "28": {
+          "name": "Mystic Natural Armor"
+        },
+        "29": {
+          "name": "Unarmed Strike (MY)"
+        },
+        "30": {
+          "name": "Mystic Natural Armor"
+        },
+        "31": {
+          "name": "Unarmed Strike (MY)"
+        }
+      },
+      "classLevels": {
+        "0": {
+          "title": "Novice"
+        },
+        "1": {
+          "title": "Seeker"
+        },
+        "2": {
+          "title": "Disciple"
+        },
+        "3": {
+          "title": "Adept"
+        },
+        "4": {
+          "title": "Guardian"
+        },
+        "5": {
+          "title": "Sage"
+        },
+        "6": {
+          "title": "Venerable"
+        },
+        "7": {
+          "title": "Elightened"
+        },
+        "8": {
+          "title": "Master"
+        },
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {}
+      },
+      "description": "<p>Mystics are monastic individuals who follow a strict discipline of meditation, self-denial, isolation, and mastery of their physical form, excelling in unarmed combat. They live in cloisters—monastic communities—and venture out to seek spiritual growth and life lessons, typically joining diverse adventuring parties rather than traveling with other mystics. Mystics gain experience from treasure only by donating it to the needy, and they must tithe ten percent to their cloister. Their oath is binding; breaking it results in expulsion, an inability to gain new experience levels, a loss of one level per year away from the cloister, and exclusion from similar cloisters, though a Dungeon Master may offer a grand quest for redemption.</p><p>Most mystics (75%) are Lawful, yet all are fully devoted to their neutral discipline, relying on inner strength and non-magical abilities rather than nature’s power, unlike druids. Recognizable by their robes or unique garb, mystics also perform a distinctive salute: upon meeting a presumed peaceful creature, they raise a fist, cover it with the other hand, and bow slightly, symbolizing a greeting (the bow), readiness to fight if necessary (the fist), and peaceful intent (the covered fist).</p><h3 style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0px 0px 0.5rem; padding: 0px; font-weight: bold; font-size: 1.25em; border-bottom: 1px solid var(--color-underline-header); color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"font-family: Barlow, sans-serif\"><strong>Key Characteristics</strong></span></h3><ul><li><p><strong>Minimum Scores:</strong> To become a mystic, a character must achieve scores of 13 or higher in both Wisdom and Dexterity abilities.</p></li><li><p><strong>Armor:</strong> Mystics are prohibited from wearing any form of armor and are also barred from using protective magical items (such as rings, cloaks, etc.); they depend entirely on their discipline for defense.</p></li><li><p><strong>Weapons:</strong> While mystics are trained in the use of all weapons, not all choose to carry them. Higher-level mystics, in particular, often travel unarmed or equipped solely with a walking-staff, which also serves as a quarter-staff.</p></li></ul><h3>Special Restrictions</h3><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Mystics are not permitted to use protective magical devices (such as rings, cloaks, etc.). All material possessions (money, magical items, etc.) earned, bought, or obtained as treasure by the mystic are considered to be owned by his cloister, rather than by the mystic himself. If the cloister requires something \"owned\" by a mystic, the head of the cloister need only request it.</span></p>",
+      "name": "Mystic",
+      "specialAbilities": {
         "0": {
           "name": "Awareness"
         },
@@ -3350,143 +3487,7 @@
         "86": {
           "name": "Remove Traps"
         }
-      },
-      "classItems": {
-        "0": {
-          "name": "Mystic Natural Armor"
-        },
-        "1": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "2": {
-          "name": "Mystic Natural Armor"
-        },
-        "3": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "4": {
-          "name": "Mystic Natural Armor"
-        },
-        "5": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "6": {
-          "name": "Mystic Natural Armor"
-        },
-        "7": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "8": {
-          "name": "Mystic Natural Armor"
-        },
-        "9": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "10": {
-          "name": "Mystic Natural Armor"
-        },
-        "11": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "12": {
-          "name": "Mystic Natural Armor"
-        },
-        "13": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "14": {
-          "name": "Mystic Natural Armor"
-        },
-        "15": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "16": {
-          "name": "Mystic Natural Armor"
-        },
-        "17": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "18": {
-          "name": "Mystic Natural Armor"
-        },
-        "19": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "20": {
-          "name": "Mystic Natural Armor"
-        },
-        "21": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "22": {
-          "name": "Mystic Natural Armor"
-        },
-        "23": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "24": {
-          "name": "Mystic Natural Armor"
-        },
-        "25": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "26": {
-          "name": "Mystic Natural Armor"
-        },
-        "27": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "28": {
-          "name": "Mystic Natural Armor"
-        },
-        "29": {
-          "name": "Unarmed Strike (MY)"
-        },
-        "30": {
-          "name": "Mystic Natural Armor"
-        },
-        "31": {
-          "name": "Unarmed Strike (MY)"
-        }
-      },
-      "classLevels": {
-        "0": {
-          "title": "Novice"
-        },
-        "1": {
-          "title": "Seeker"
-        },
-        "2": {
-          "title": "Disciple"
-        },
-        "3": {
-          "title": "Adept"
-        },
-        "4": {
-          "title": "Guardian"
-        },
-        "5": {
-          "title": "Sage"
-        },
-        "6": {
-          "title": "Venerable"
-        },
-        "7": {
-          "title": "Elightened"
-        },
-        "8": {
-          "title": "Master"
-        },
-        "9": {},
-        "10": {},
-        "11": {},
-        "12": {},
-        "13": {},
-        "14": {},
-        "15": {}
-      },
-      "description": "<p>Mystics are monastic individuals who follow a strict discipline of meditation, self-denial, isolation, and mastery of their physical form, excelling in unarmed combat. They live in cloisters—monastic communities—and venture out to seek spiritual growth and life lessons, typically joining diverse adventuring parties rather than traveling with other mystics. Mystics gain experience from treasure only by donating it to the needy, and they must tithe ten percent to their cloister. Their oath is binding; breaking it results in expulsion, an inability to gain new experience levels, a loss of one level per year away from the cloister, and exclusion from similar cloisters, though a Dungeon Master may offer a grand quest for redemption.</p><p>Most mystics (75%) are Lawful, yet all are fully devoted to their neutral discipline, relying on inner strength and non-magical abilities rather than nature’s power, unlike druids. Recognizable by their robes or unique garb, mystics also perform a distinctive salute: upon meeting a presumed peaceful creature, they raise a fist, cover it with the other hand, and bow slightly, symbolizing a greeting (the bow), readiness to fight if necessary (the fist), and peaceful intent (the covered fist).</p><h3 style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0px 0px 0.5rem; padding: 0px; font-weight: bold; font-size: 1.25em; border-bottom: 1px solid var(--color-underline-header); color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"font-family: Barlow, sans-serif\"><strong>Key Characteristics</strong></span></h3><ul><li><p><strong>Minimum Scores:</strong> To become a mystic, a character must achieve scores of 13 or higher in both Wisdom and Dexterity abilities.</p></li><li><p><strong>Armor:</strong> Mystics are prohibited from wearing any form of armor and are also barred from using protective magical items (such as rings, cloaks, etc.); they depend entirely on their discipline for defense.</p></li><li><p><strong>Weapons:</strong> While mystics are trained in the use of all weapons, not all choose to carry them. Higher-level mystics, in particular, often travel unarmed or equipped solely with a walking-staff, which also serves as a quarter-staff.</p></li></ul><h3>Special Restrictions</h3><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Mystics are not permitted to use protective magical devices (such as rings, cloaks, etc.). All material possessions (money, magical items, etc.) earned, bought, or obtained as treasure by the mystic are considered to be owned by his cloister, rather than by the mystic himself. If the cloister requires something \"owned\" by a mystic, the head of the cloister need only request it.</span></p>",
-      "name": "Mystic"
+      }
     },
     "Mystic Natural Armor": {
       "description": "<div><table><thead><tr><th>Level</th><th>AC</th><th>Movement</th><th>Hand Attacks (#AT)</th><th>Damage</th><th>Abilities</th></tr></thead><tbody><tr><td>1</td><td>9</td><td>120'</td><td>1</td><td>1d4</td><td></td></tr><tr><td>2</td><td>8</td><td>130'</td><td>1</td><td>1d4+1</td><td>Awareness</td></tr><tr><td>3</td><td>7</td><td>140'</td><td>1</td><td>1d6</td><td></td></tr><tr><td>4</td><td>6</td><td>150'</td><td>1</td><td>1d6+1</td><td>Heal Self</td></tr><tr><td>5</td><td>5</td><td>160'</td><td>2</td><td>1d8</td><td></td></tr><tr><td>6</td><td>4</td><td>170'</td><td>2</td><td>1d8+1</td><td>Speak with Animals</td></tr><tr><td>7</td><td>3</td><td>180'</td><td>2</td><td>1d10</td><td></td></tr><tr><td>8</td><td>2</td><td>190'</td><td>2</td><td>1d12</td><td>Resistance</td></tr><tr><td>9*</td><td>1</td><td>200'</td><td>3</td><td>2d8</td><td></td></tr><tr><td>10</td><td>0</td><td>210'</td><td>3</td><td>2d10</td><td>Speak with Anyone</td></tr><tr><td>11</td><td>-1</td><td>220'</td><td>3</td><td>2d12</td><td></td></tr><tr><td>12</td><td>-2</td><td>240'</td><td>3</td><td>3d8+1</td><td>Mind Block</td></tr><tr><td>13</td><td>-3</td><td>260'</td><td>4</td><td>4d6+2</td><td></td></tr><tr><td>14</td><td>-4</td><td>280'</td><td>4</td><td>5d6</td><td>Blankout</td></tr><tr><td>15</td><td>-5</td><td>300'</td><td>4</td><td>4d8</td><td></td></tr><tr><td>16</td><td>-6</td><td>320'</td><td>4</td><td>3d12</td><td>Gentle Touch</td></tr></tbody></table></div><div><p>*The mystic receives the Fighter Combat Options (excluding multiple attacks); see the description of them under \"Combat Maneuvers\" in Chapter 8. The mystic can use these Combat Options with weapons or in unarmed fighting.</p></div>",
@@ -3572,20 +3573,6 @@
       "spellEffect": "Target suffers -8 to saves vs. mental attacks and is vulnerable to mind-affecting spells"
     },
     "Paladin": {
-      "classAbilities": {
-        "0": {
-          "name": "Detect Evil (PA)"
-        },
-        "1": {
-          "name": "Oath of Aid (PA)"
-        },
-        "2": {
-          "name": "Sacred Retinue (PA)"
-        },
-        "3": {
-          "name": "Turn Undead (PA)"
-        }
-      },
       "classLevels": {
         "0": {
           "title": "Paladin"
@@ -3618,8 +3605,22 @@
         "26": {},
         "27": {}
       },
-      "description": "<p>A Lawful traveling fighter can achieve the title of paladin if they meet specific requirements. Fighters who do not meet these conditions may instead become knights (described separately).</p><ol><li><p><strong>Fealty to a Clerical Order</strong>: To become a paladin, the fighter must swear an oath of service to a Lawful clerical order. Only fighters of Name level or higher are eligible. Once accepted, the paladin is bound to serve the order and may be summoned by its leaders at any time to perform tasks that align with the powers of Good.</p></li><li><p><strong>Detect Evil</strong>: A paladin can detect evil, as per the cleric spell, once per round by concentrating. This ability has a range of 120 feet but cannot be used in the same round as an attack.</p></li><li><p><strong>Cleric Spells</strong>: A paladin with a Wisdom score of 13 or higher can cast cleric spells as if they were a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin can cast spells as a 3rd-level cleric.</li><li>At 17th level, the paladin can cast spells as a 5th-level cleric. Fighters with Wisdom scores of 12 or less can still become paladins but cannot cast spells. Paladins are trained in meditation and spellcasting by the clerics of their order, who provide this service without accepting compensation.</li></ul></li><li><p><strong>Turn Undead</strong>: Paladins can turn undead with the same ability as a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin turns undead as a 3rd-level cleric.</li><li>At 16th or 17th level, the paladin turns undead as a 5th-level cleric.</li></ul></li><li><p><strong>Hireling Limit</strong>: The paladin can be accompanied by a number of hirelings equal to or less than their effective clerical level. For example, a paladin with the abilities of a 5th-level cleric may travel with up to five hirelings.</p></li><li><p><strong>Assisting Others</strong>: A paladin must provide aid to anyone who requests it, except in the following cases:</p><ul><li>The paladin is not obligated to assist evil individuals or support evil goals.</li><li>If engaged in a mission for a higher authority (such as a quest or serving a noble), the paladin may offer limited help, such as advice or temporary shelter, and must explain their inability to provide further assistance. Aid is limited to services and does not include monetary or material donations.</li></ul></li></ol><hr><p></p><h3>Paladin Turn Undead Table</h3><div style=\"padding:4px;\"><table style=\"border-style:none; border-width:1px; padding:4px; max-width:500px;\"><thead><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; max-width:83px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-11</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">12-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-17</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">18-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-23</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">24-26</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">27-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr></tbody></table></div><p><strong>Legend</strong>:</p><ul><li><strong>7, 9, 11</strong>: Roll 2d6 and meet or exceed this number to turn undead.</li><li><strong>T</strong>: Automatically turn undead.</li><li><strong>D</strong>: Automatically destroy undead.</li><li><strong>D+</strong>: Automatically destroy [[/r 3d6 #Hit Dice]] Hit Dice of undead.</li></ul>",
-      "name": "Paladin"
+      "description": "<p>A Lawful traveling fighter can achieve the title of paladin if they meet specific requirements. Fighters who do not meet these conditions may instead become knights (described separately).</p><ol><li><p><strong>Fealty to a Clerical Order</strong>: To become a paladin, the fighter must swear an oath of service to a Lawful clerical order. Only fighters of Name level or higher are eligible. Once accepted, the paladin is bound to serve the order and may be summoned by its leaders at any time to perform tasks that align with the powers of Good.</p></li><li><p><strong>Detect Evil</strong>: A paladin can detect evil, as per the cleric spell, once per round by concentrating. This ability has a range of 120 feet but cannot be used in the same round as an attack.</p></li><li><p><strong>Cleric Spells</strong>: A paladin with a Wisdom score of 13 or higher can cast cleric spells as if they were a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin can cast spells as a 3rd-level cleric.</li><li>At 17th level, the paladin can cast spells as a 5th-level cleric. Fighters with Wisdom scores of 12 or less can still become paladins but cannot cast spells. Paladins are trained in meditation and spellcasting by the clerics of their order, who provide this service without accepting compensation.</li></ul></li><li><p><strong>Turn Undead</strong>: Paladins can turn undead with the same ability as a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin turns undead as a 3rd-level cleric.</li><li>At 16th or 17th level, the paladin turns undead as a 5th-level cleric.</li></ul></li><li><p><strong>Hireling Limit</strong>: The paladin can be accompanied by a number of hirelings equal to or less than their effective clerical level. For example, a paladin with the abilities of a 5th-level cleric may travel with up to five hirelings.</p></li><li><p><strong>Assisting Others</strong>: A paladin must provide aid to anyone who requests it, except in the following cases:</p><ul><li>The paladin is not obligated to assist evil individuals or support evil goals.</li><li>If engaged in a mission for a higher authority (such as a quest or serving a noble), the paladin may offer limited help, such as advice or temporary shelter, and must explain their inability to provide further assistance. Aid is limited to services and does not include monetary or material donations.</li></ul></li></ol><hr><p></p><h3>Paladin Turn Undead Table</h3><div style=\"padding:4px;\"><table style=\"border-style:none; border-width:1px; padding:4px; width:95%;\"><thead><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; min-width:90px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-11</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">12-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-17</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">18-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-23</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">24-26</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">27-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;min-width:90px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr></tbody></table></div><p><strong>Legend</strong>:</p><ul><li><strong>7, 9, 11</strong>: Roll 2d6 and meet or exceed this number to turn undead.</li><li><strong>T</strong>: Automatically turn undead.</li><li><strong>D</strong>: Automatically destroy undead.</li><li><strong>D+</strong>: Automatically destroy [[/r 3d6 #Hit Dice]] Hit Dice of undead.</li></ul>",
+      "name": "Paladin",
+      "specialAbilities": {
+        "0": {
+          "name": "Detect Evil (PA)"
+        },
+        "1": {
+          "name": "Oath of Aid (PA)"
+        },
+        "2": {
+          "name": "Sacred Retinue (PA)"
+        },
+        "3": {
+          "name": "Turn Undead (PA)"
+        }
+      }
     },
     "Paper, sheet": {
       "name": "Paper, sheet"
@@ -4713,7 +4714,65 @@
       "spellRange": "0 (bard only)"
     },
     "Thief": {
-      "classAbilities": {
+      "classLevels": {
+        "0": {
+          "title": "Apprentice"
+        },
+        "1": {
+          "title": "Footpad"
+        },
+        "2": {
+          "title": "Robber"
+        },
+        "3": {
+          "title": "Burglar"
+        },
+        "4": {
+          "title": "Cutpurse"
+        },
+        "5": {
+          "title": "Sharper"
+        },
+        "6": {
+          "title": "Pilferer"
+        },
+        "7": {
+          "title": "Thief"
+        },
+        "8": {
+          "title": "Master Thief"
+        },
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {},
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {},
+        "33": {},
+        "34": {},
+        "35": {}
+      },
+      "description": "<p>A thief is a human adventurer specializing in stealth, agility, and subterfuge. They excel in tasks like lockpicking, trap disarming, and infiltration, relying on dexterity and cunning to navigate challenges rather than brute force.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Dexterity, granting a 5% experience bonus for scores of 13–15 and 10% for 16 or higher.</li><li><strong>Combat Skills</strong>: Thieves may use any one-handed melee weapon and missile weapons but cannot wield two-handed weapons. They are restricted to leather armor and cannot use shields.</li><li><strong>Hit Dice</strong>: Thieves roll a d4 for hit points per level until 9th level, after which they gain 2 hit points per level.</li><li><p><strong>Special Abilities</strong>:</p><ul><li>Open Locks, Find and Remove Traps, Climb Walls, Move Silently, Hide in Shadows, Pick Pockets, and Hear Noise.</li><li>At 4th level, they can read non-magical languages (80% chance).</li><li>At 10th level, they can cast magic-user spells from scrolls (10% chance of backfire).</li><li>Backstabbing: A thief gains +4 to attack rolls when unnoticed and deals double damage on a successful hit.</li></ul></li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong>, a thief becomes a \"Master Thief\" and may establish a hideout, such as a fortified house or network of secret chambers.</li><li>The hideout attracts 2d6 1st-level apprentice thieves who seek training under the master thief.</li><li>A thief may rise in the ranks of the Thieves' Guild, eventually leading a branch or even the guild itself.</li></ul><h3>Stronghold Options:</h3><ul><li>Thieves often rely on the local Thieves' Guild for resources when establishing a hideout. The guild may help them become a guildmaster or expand into new territories.</li><li>If the thief remains unaffiliated, they are considered a rogue, maintaining guild membership for support but operating independently.</li></ul><p>Thieves thrive on their agility, sharp wits, and resourcefulness, providing unique skills to adventuring parties while navigating the fine line between heroics and illicit activity.</p>",
+      "name": "Thief",
+      "specialAbilities": {
         "0": {
           "name": "Backstab"
         },
@@ -5584,65 +5643,7 @@
         "289": {
           "name": "Remove Traps"
         }
-      },
-      "classLevels": {
-        "0": {
-          "title": "Apprentice"
-        },
-        "1": {
-          "title": "Footpad"
-        },
-        "2": {
-          "title": "Robber"
-        },
-        "3": {
-          "title": "Burglar"
-        },
-        "4": {
-          "title": "Cutpurse"
-        },
-        "5": {
-          "title": "Sharper"
-        },
-        "6": {
-          "title": "Pilferer"
-        },
-        "7": {
-          "title": "Thief"
-        },
-        "8": {
-          "title": "Master Thief"
-        },
-        "9": {},
-        "10": {},
-        "11": {},
-        "12": {},
-        "13": {},
-        "14": {},
-        "15": {},
-        "16": {},
-        "17": {},
-        "18": {},
-        "19": {},
-        "20": {},
-        "21": {},
-        "22": {},
-        "23": {},
-        "24": {},
-        "25": {},
-        "26": {},
-        "27": {},
-        "28": {},
-        "29": {},
-        "30": {},
-        "31": {},
-        "32": {},
-        "33": {},
-        "34": {},
-        "35": {}
-      },
-      "description": "<p>A thief is a human adventurer specializing in stealth, agility, and subterfuge. They excel in tasks like lockpicking, trap disarming, and infiltration, relying on dexterity and cunning to navigate challenges rather than brute force.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Dexterity, granting a 5% experience bonus for scores of 13–15 and 10% for 16 or higher.</li><li><strong>Combat Skills</strong>: Thieves may use any one-handed melee weapon and missile weapons but cannot wield two-handed weapons. They are restricted to leather armor and cannot use shields.</li><li><strong>Hit Dice</strong>: Thieves roll a d4 for hit points per level until 9th level, after which they gain 2 hit points per level.</li><li><p><strong>Special Abilities</strong>:</p><ul><li>Open Locks, Find and Remove Traps, Climb Walls, Move Silently, Hide in Shadows, Pick Pockets, and Hear Noise.</li><li>At 4th level, they can read non-magical languages (80% chance).</li><li>At 10th level, they can cast magic-user spells from scrolls (10% chance of backfire).</li><li>Backstabbing: A thief gains +4 to attack rolls when unnoticed and deals double damage on a successful hit.</li></ul></li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong>, a thief becomes a \"Master Thief\" and may establish a hideout, such as a fortified house or network of secret chambers.</li><li>The hideout attracts 2d6 1st-level apprentice thieves who seek training under the master thief.</li><li>A thief may rise in the ranks of the Thieves' Guild, eventually leading a branch or even the guild itself.</li></ul><h3>Stronghold Options:</h3><ul><li>Thieves often rely on the local Thieves' Guild for resources when establishing a hideout. The guild may help them become a guildmaster or expand into new territories.</li><li>If the thief remains unaffiliated, they are considered a rogue, maintaining guild membership for support but operating independently.</li></ul><p>Thieves thrive on their agility, sharp wits, and resourcefulness, providing unique skills to adventuring parties while navigating the fine line between heroics and illicit activity.</p>",
-      "name": "Thief"
+      }
     },
     "Thieves' Tools": {
       "description": "<p>Required for picking locks, these items are usable only by thieves. A typical set includes fine wire, various lockpicks, etc. Although the tools may be used many times if successful, <strong>they will break on failure</strong>. There are enough lockpicks and other components for 10 uses.</p>",
@@ -5733,7 +5734,7 @@
       "name": "Turn Undead (AV)"
     },
     "Turn Undead (C)": {
-      "description": "<p>Roll [[/r 2d6 #Turn Undead]] for entries with numbers.</p><table style=\"border-style:none; border-width:1px; padding:4px; max-width:800px;\"><thead><tr><th style=\"text-align:left; max-width:83px;\"></th><th style=\"text-align:center; padding:4px;\" colspan=\"17\"><strong>Cleric's Level</strong></th></tr><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; max-width:83px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">1</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">2</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">3</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">4</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">5</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">6</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">8</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-10</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11-12</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">13-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-16</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">17-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-24</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">25-28</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">29-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr></tbody></table><p><strong>Notes:</strong></p><ul><li><strong>7, 9, or 11</strong>: Number needed to turn successfully.</li><li><strong>T</strong>: Automatic turn; turns 2d6 Hit Dice of undead.</li><li><strong>D</strong>: Automatic destroy; destroys 2d6 Hit Dice of undead.</li><li><strong>D+</strong>: Automatic destroy; destroys 3d6 Hit Dice of undead.</li><li><strong>D#</strong>: Automatic destroy; destroys 4d6 Hit Dice of undead.</li></ul><p>Clerics have the divine power to repel or even destroy certain undead creatures, such as skeletons, zombies, and more powerful types. This ability is known as <strong>Turn Undead</strong>. When encountering these undead beings, the cleric can choose to either engage them in combat with weapons or spells, or attempt to turn them.</p><p>To turn undead, the cleric simply announces the intention to do so to the Dungeon Master. No holy symbol or other item is needed unless the DM specifies otherwise. The success of this attempt depends on the cleric’s level and the type of undead faced, as indicated on the Turning Undead table.</p><p>If the cleric succeeds, one or more undead creatures will flee or be destroyed immediately, depending on the result. However, a failed attempt means that particular undead creature cannot be turned by the cleric again during the same encounter. Multiple attempts are allowed in future encounters.</p><p>Should the attempt succeed, the Dungeon Master rolls to determine how many Hit Dice worth of undead are turned. At least one undead creature will always be affected. A turned undead creature will retreat as far as possible, but it has not been destroyed and may return after some time.</p>",
+      "description": "<p>Roll [[/r 2d6 #Turn Undead]] for entries with numbers.</p><table class=\"compact-table\" style=\"border-style:none; border-width:1px; padding:4px; width:95%;\"><thead><tr><th style=\"text-align:left; min-width:83px;\"></th><th style=\"text-align:center; padding:4px;\" colspan=\"17\"><strong>Cleric's Level</strong></th></tr><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; width:110px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">1</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">2</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">3</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">4</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">5</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">6</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">8</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-10</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11-12</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">13-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-16</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">17-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-24</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">25-28</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">29-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr></tbody></table><p><strong>Notes:</strong></p><ul><li><strong>7, 9, or 11</strong>: Number needed to turn successfully.</li><li><strong>T</strong>: Automatic turn; turns 2d6 Hit Dice of undead.</li><li><strong>D</strong>: Automatic destroy; destroys 2d6 Hit Dice of undead.</li><li><strong>D+</strong>: Automatic destroy; destroys 3d6 Hit Dice of undead.</li><li><strong>D#</strong>: Automatic destroy; destroys 4d6 Hit Dice of undead.</li></ul><p>Clerics have the divine power to repel or even destroy certain undead creatures, such as skeletons, zombies, and more powerful types. This ability is known as <strong>Turn Undead</strong>. When encountering these undead beings, the cleric can choose to either engage them in combat with weapons or spells, or attempt to turn them.</p><p>To turn undead, the cleric simply announces the intention to do so to the Dungeon Master. No holy symbol or other item is needed unless the DM specifies otherwise. The success of this attempt depends on the cleric’s level and the type of undead faced, as indicated on the Turning Undead table.</p><p>If the cleric succeeds, one or more undead creatures will flee or be destroyed immediately, depending on the result. However, a failed attempt means that particular undead creature cannot be turned by the cleric again during the same encounter. Multiple attempts are allowed in future encounters.</p><p>Should the attempt succeed, the Dungeon Master rolls to determine how many Hit Dice worth of undead are turned. At least one undead creature will always be affected. A turned undead creature will retreat as far as possible, but it has not been destroyed and may return after some time.</p>",
       "name": "Turn Undead (C)"
     },
     "Turn Undead (PA)": {

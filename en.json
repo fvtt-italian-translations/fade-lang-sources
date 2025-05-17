@@ -70,8 +70,9 @@
       "Alignment": "Alignment",
       "Attacks": {
         "abbr": "AT#",
+        "groupHint": "Which attack group this attack belongs to. Click to cycle through the six available groups.",
         "long": "Number of Attacks",
-        "short": "# Attacks"
+        "short": "Attacks"
       },
       "Class": "Class",
       "ClassHint": "<p>Class can be selected by manually typing the class name or drag/droppping the class item onto the character sheet. It is possible to type any value, but class data will only be synched if the class name matches exactly.</p><p><i>Click label to view class sheet.</i></p>",
@@ -86,11 +87,6 @@
       "Deity": "Deity",
       "Experience": "Experience",
       "Eyes": "Eyes",
-      "Flight": {
-        "abbr": "Sec.",
-        "hint": "Secondary movement can be any other type of movement the creature is capable of besides ground movement.",
-        "long": "Secondary"
-      },
       "Hair": "Hair",
       "Health": "Hit Points",
       "HealthMax": "Max HP.",
@@ -224,6 +220,11 @@
       },
       "morale": "Morale",
       "moraleHint": "The morale score indicates a character's or monster's loyalty and courage.",
+      "movement2": {
+        "abbr": "Sec.",
+        "hint": "Secondary movement can be any other type of movement the creature is capable of besides ground movement.",
+        "long": "Secondary"
+      },
       "rarity": "Rarity",
       "retainerMorale": "Retainer Morale",
       "retainerMoraleHint": "The morale score of this character's retainers. A retainer's morale score indicates their loyalty and courage under this character's leadership.",
@@ -251,6 +252,11 @@
           "light": "Light"
         },
         "short": "Weight"
+      },
+      "av": {
+        "hint": "Armor value indicates how many points of damage the armor stops.",
+        "long": "Armor Value",
+        "short": "AV"
       },
       "dexterityBonus": "Dexterity bonus: {bonus}",
       "hintBase": "<b>Base Armor Class</b><p>This is the base armor class and it doesn't' include modifiers from effects.</p>",
@@ -343,14 +349,16 @@
     "DamageTypes": {
       "name": "Damage Type",
       "types": {
-        "acid": "Acid",
         "breath": "Breath",
+        "corrosive": "Corrosive",
+        "fall": "Fall",
         "fire": "Fire",
         "frost": "Frost",
         "heal": "Healing",
         "hull": "Hull",
         "magic": "Magic",
         "physical": "Physical",
+        "piercing": "Armor-piercing",
         "poison": "Poison"
       }
     },
@@ -455,6 +463,10 @@
       "long": "Weapon Mastery",
       "plural": "Weapon Masteries",
       "primary": "Primary",
+      "required": {
+        "hint": "This actor or class has basic profiency with all weapon types.",
+        "name": "Basic Proficiency"
+      },
       "secondary": "Secondary",
       "short": "Mastery",
       "specialEffects": "Special Effects",
@@ -491,16 +503,16 @@
       "Character": "Character Sheet (tabbed)",
       "Character2": "Character Sheet",
       "ClassDefinitionItem": "Class Definition Item Sheet",
-      "Condition": "Condition Item Sheet",
+      "ConditionItem": "Condition Item Sheet",
       "Item": "Gear Item Sheet",
       "LightItem": "Light Item Sheet",
       "MasteryDefinitionItem": "Weapon Mastery Definition Item Sheet",
       "Monster": "Monster Sheet",
       "SkillItem": "Skill Item Sheet",
       "SpecialAbilityItem": "Special Ability Item Sheet",
-      "Species": "Ancestry Item Sheet",
+      "SpeciesItem": "Ancestry Item Sheet",
       "SpellItem": "Spell Item Sheet",
-      "Treasure": "Treasure Item Sheet",
+      "TreasureItem": "Treasure Item Sheet",
       "WeaponItem": "Weapon Item Sheet"
     },
     "Size": "Size",
@@ -635,6 +647,7 @@
         "saveConfig": "Save Configuration",
         "sessionCount": "Session Count",
         "sinceRest": "Since Rest",
+        "title": "Turn Tracker",
         "totalCount": "Total Count",
         "turnsHint": "Configure how often a party must rest while exploring. A value of 6 would mean the party must rest once every six turns. Set to 0 for no resting required.",
         "turnsName": "Rest Turns"
@@ -826,6 +839,11 @@
       "masteryTargetType": "Target Weapon Type",
       "no": "No, cancel",
       "noEquippedWeapons": "The selected actor does not have any weapons equipped.",
+      "rollFormulaType": {
+        "advantage": "Advantage",
+        "disadvantage": "Disadvantage",
+        "normal": "Normal"
+      },
       "selectAttack": "Select What to Attack With",
       "selectLightSource": "Select Light Source",
       "selectSpell": "Select spell to cast",
@@ -879,6 +897,7 @@
       },
       "yes": "Yes, go ahead"
     },
+    "folder": "Folder",
     "identified": "Identified",
     "items": "Items",
     "modifier": "Modifier",
@@ -888,6 +907,7 @@
       "advancedTime": "<div>Time advances {turns} turn(s), {rounds} round(s).</div>",
       "missingItem": "The required item type ({type}) was not found or its quantity is zero.",
       "missingItem2": "{actor} does not have a {type}.",
+      "missingSave": "The actor does not have the requested saving throw type ({type}).",
       "needRest": "<div class='warning'>The party is tired and needs to rest.</div>",
       "needRestSoon": "<div class='warning'>The party will need to rest next turn, or their attack and damage rolls may be penalized until they do.</div>",
       "noAmmo": "{actorName} does not have {weaponName} ammunition equipped.",
@@ -907,12 +927,8 @@
     "penalty": "Penalty",
     "roll": "Roll",
     "rollFormula": "Roll Formula",
-    "rollFormulaType": {
-      "advantage": "Advantage",
-      "disadvantage": "Disadvantage",
-      "normal": "Normal"
-    },
     "rollMode": "Roll Mode",
+    "rollTable": "Roll Table",
     "rollWithCtrl": "<p>Roll {name} check.</p><p><i>Click to roll. Ctrl-click to roll without mod.</i></p>",
     "rounds": "rounds",
     "shortName": "Short Name",
@@ -1086,6 +1102,10 @@
         "name": "Short saving throw names."
       }
     },
+    "extraRollOptions": {
+      "hint": "Toggles the display of advantage/disadvantage on some rolls.",
+      "name": "Show Extra Roll Options"
+    },
     "initiative": {
       "formula": {
         "hint": "Define the formula used to calculate initiative. ",
@@ -1128,10 +1148,14 @@
         "hint": "<b>Max ground speed per turn.</b><p>Movement distances are measured in feet when indoors and in yards when outdoors.</p>",
         "name": "Max. Move Speed"
       },
-      "maxFlight": {
+      "maxMove2": {
         "hint": "<b>Max secondary movement speed per turn.</b><p> Secondary movement can be any other type of movement the creature is capable of besides ground movement. Movement distances are measured in feet when indoors and in yards when outdoors.</p>",
         "name": "Max. Secondary Speed"
       }
+    },
+    "mvRoundDivisor": {
+      "hint": "This field represents the divisor used to calculate the movement rate per round from the base movement rate.",
+      "name": "Movement Rate Per Round Divisor"
     },
     "packs": {
       "actorPack": "Actor Compendium",
@@ -1141,6 +1165,10 @@
     "roundDurationSec": {
       "hint": "The number of seconds a round represent in game time.",
       "name": "Round Duration"
+    },
+    "runRoundDivisor": {
+      "hint": "This field represents the divisor used to calculate the running speed movement rate per round from the base movement rate.",
+      "name": "Run Rate Per Round Divisor"
     },
     "showExplorationTarget": {
       "hint": "Shows the target roll value on the character sheet if enabled.",
@@ -1164,6 +1192,10 @@
     "turnDurationSec": {
       "hint": "The number of seconds a turn represents in the game. It is utilized by the turn tracker and often represents a duration of ten minutes, although this may vary. It is important to clarify that this definition of a turn is different from the turns tracked in combat.",
       "name": "Turn Duration"
+    },
+    "useArmorValue": {
+      "hint": "Armor Value (AV) is an optional armor system attribute that allows for physical damage mitigation to be assigned to armor items. Enabling this will result in AV showing on actor sheets. Enabling will also result in AV being factored in when applying any damage.",
+      "name": "Use Armor Value"
     },
     "weaponMastery": {
       "hint": "If enabled, weapon mastery rules will be used.",
