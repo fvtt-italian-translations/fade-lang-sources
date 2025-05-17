@@ -282,7 +282,10 @@
             "ClassHint": "<p>La classe può essere selezionata digitando manualmente il nome della classe o trascinando/rilasciando l'oggetto della classe sulla scheda del personaggio. È possibile digitare qualsiasi valore, ma i dati della classe saranno sincronizzati solo se il nome della classe corrisponde esattamente.</p><p><i>Clicca sull'etichetta per visualizzare la scheda della classe.</i></p>",
             "rarity": "Rarità",
             "Mod": "Mod",
-            "effectiveLevel": "Livello Effettivo"
+            "effectiveLevel": "Livello Effettivo",
+            "movement2": {
+                "long": "Secondaria"
+            }
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -704,6 +707,9 @@
                 "extinguish": "Disattiva",
                 "ignite": "Abilita",
                 "title": "Gestione Luci"
+            },
+            "rollFormulaType": {
+                "normal": "Normale"
             }
         },
         "time": {
@@ -911,7 +917,8 @@
                 "poison": "Veleno",
                 "heal": "Guarigione",
                 "hull": "Scafo",
-                "acid": "Acido"
+                "acid": "Acido",
+                "corrosive": "Corrosiva"
             }
         },
         "roll": "Tiro",
