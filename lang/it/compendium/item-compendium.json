@@ -246,6 +246,17 @@
                 "0": {
                     "title": "Accolito"
                 }
+            },
+            "specialAbilities": {
+                "0": {
+                    "name": "Scacciare Non-Morti (C)"
+                },
+                "1": {
+                    "name": "Incantesimi Divini"
+                },
+                "2": {
+                    "name": "Stabire una Roccaforte (C)"
+                }
             }
         },
         "Clothes, Good": {
@@ -543,6 +554,38 @@
                 "8": {
                     "title": "Signore"
                 }
+            },
+            "specialAbilities": {
+                "0": {
+                    "name": "Individuazione (D)"
+                },
+                "1": {
+                    "name": "Infravisione (D)"
+                },
+                "2": {
+                    "name": "Attacco con Lancia"
+                },
+                "3": {
+                    "name": "Lancia vs. Carica"
+                },
+                "4": {
+                    "name": "Resistenza alla Magia (D)"
+                },
+                "5": {
+                    "name": "Stabilire una Roccaforte (D)"
+                },
+                "6": {
+                    "name": "Disarmare"
+                },
+                "7": {
+                    "name": "Attacchi Multipli"
+                },
+                "8": {
+                    "name": "Parata"
+                },
+                "9": {
+                    "name": "Schiantare"
+                }
             }
         },
         "ESP*": {
@@ -583,6 +626,41 @@
                 },
                 "8": {
                     "title": "Signore-Mago"
+                }
+            },
+            "specialAbilities": {
+                "4": {
+                    "name": "Attacco con Lancia"
+                },
+                "9": {
+                    "name": "Parata"
+                },
+                "2": {
+                    "name": "Immunità alla paralisi dei Ghoul (E)"
+                },
+                "3": {
+                    "name": "Infravisione (E)"
+                },
+                "0": {
+                    "name": "Incantesimi Arcani (E)"
+                },
+                "1": {
+                    "name": "Cercare Porte Segrete"
+                },
+                "5": {
+                    "name": "Lancia vs. Carica"
+                },
+                "6": {
+                    "name": "Stabilire una Roccaforte (E)"
+                },
+                "7": {
+                    "name": "Disarmare"
+                },
+                "8": {
+                    "name": "Attacchi Multipli"
+                },
+                "10": {
+                    "name": "Schiantare"
                 }
             }
         },
@@ -725,6 +803,38 @@
                 },
                 "7": {
                     "title": "Sceriffo"
+                }
+            },
+            "specialAbilities": {
+                "1": {
+                    "name": "Nascondersi - Luoghi Chiusi (H)"
+                },
+                "0": {
+                    "name": "Bonus in Combattimento (H)"
+                },
+                "2": {
+                    "name": "Nascondersi - Luoghi Aperti (H)"
+                },
+                "3": {
+                    "name": "Lancia vs. Carica"
+                },
+                "4": {
+                    "name": "Resistenza Magica (H)"
+                },
+                "5": {
+                    "name": "Disarmare"
+                },
+                "6": {
+                    "name": "Attacchi Multipli"
+                },
+                "7": {
+                    "name": "Parata"
+                },
+                "8": {
+                    "name": "Schiantare"
+                },
+                "9": {
+                    "name": "Resistenza al Soffio (H)"
                 }
             }
         },
@@ -999,6 +1109,23 @@
                 },
                 "0": {
                     "title": "Medium"
+                }
+            },
+            "specialAbilities": {
+                "0": {
+                    "name": "Incantesimi Arcani (M)"
+                },
+                "1": {
+                    "name": "Ricerca Incantesimi"
+                },
+                "2": {
+                    "name": "Usare Oggetti Magici (M)"
+                },
+                "3": {
+                    "name": "Creare Oggetti Magici"
+                },
+                "4": {
+                    "name": "Stabilire una Torre (M)"
                 }
             }
         },
@@ -1626,6 +1753,878 @@
                 "8": {
                     "title": "Mastro Ladro"
                 }
+            },
+            "specialAbilities": {
+                "0": {
+                    "name": "Colpire alle Spalle"
+                },
+                "1": {
+                    "name": "Scalare Pareti"
+                },
+                "2": {
+                    "name": "Scoprire Trappole"
+                },
+                "3": {
+                    "name": "Sentire Rumori"
+                },
+                "34": {
+                    "name": "Scalare Pareti"
+                },
+                "35": {
+                    "name": "Scoprire Trappole"
+                },
+                "91": {
+                    "name": "Scoprire Trappole"
+                },
+                "92": {
+                    "name": "Sentire Rumori"
+                },
+                "93": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "94": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "95": {
+                    "name": "Scassinare Serrature"
+                },
+                "96": {
+                    "name": "Svuotare Tasche"
+                },
+                "97": {
+                    "name": "Rimuovere Trappole"
+                },
+                "98": {
+                    "name": "Scalare Pareti"
+                },
+                "110": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "111": {
+                    "name": "Scassinare Serrature"
+                },
+                "112": {
+                    "name": "Svuotare Tasche"
+                },
+                "113": {
+                    "name": "Rimuovere Trappole"
+                },
+                "114": {
+                    "name": "Scalare Pareti"
+                },
+                "115": {
+                    "name": "Scoprire Trappole"
+                },
+                "116": {
+                    "name": "Sentire Rumori"
+                },
+                "117": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "118": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "133": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "134": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "135": {
+                    "name": "Scassinare Serrature"
+                },
+                "136": {
+                    "name": "Svuotare Tasche"
+                },
+                "137": {
+                    "name": "Rimuovere Trappole"
+                },
+                "138": {
+                    "name": "Scalare Pareti"
+                },
+                "139": {
+                    "name": "Scoprire Trappole"
+                },
+                "140": {
+                    "name": "Sentire Rumori"
+                },
+                "152": {
+                    "name": "Svuotare Tasche"
+                },
+                "153": {
+                    "name": "Rimuovere Trappole"
+                },
+                "154": {
+                    "name": "Scalare Pareti"
+                },
+                "155": {
+                    "name": "Scoprire Trappole"
+                },
+                "156": {
+                    "name": "Sentire Rumori"
+                },
+                "157": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "158": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "159": {
+                    "name": "Scassinare Serrature"
+                },
+                "160": {
+                    "name": "Svuotare Tasche"
+                },
+                "162": {
+                    "name": "Scalare Pareti"
+                },
+                "163": {
+                    "name": "Scoprire Trappole"
+                },
+                "172": {
+                    "name": "Sentire Rumori"
+                },
+                "173": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "174": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "175": {
+                    "name": "Scassinare Serrature"
+                },
+                "176": {
+                    "name": "Svuotare Tasche"
+                },
+                "177": {
+                    "name": "Rimuovere Trappole"
+                },
+                "178": {
+                    "name": "Scalare Pareti"
+                },
+                "179": {
+                    "name": "Scoprire Trappole"
+                },
+                "180": {
+                    "name": "Sentire Rumori"
+                },
+                "202": {
+                    "name": "Scalare Pareti"
+                },
+                "203": {
+                    "name": "Scoprire Trappole"
+                },
+                "204": {
+                    "name": "Sentire Rumori"
+                },
+                "205": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "206": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "207": {
+                    "name": "Scassinare Serrature"
+                },
+                "208": {
+                    "name": "Svuotare Tasche"
+                },
+                "214": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "215": {
+                    "name": "Scassinare Serrature"
+                },
+                "216": {
+                    "name": "Svuotare Tasche"
+                },
+                "217": {
+                    "name": "Rimuovere Trappole"
+                },
+                "218": {
+                    "name": "Scalare Pareti"
+                },
+                "219": {
+                    "name": "Scoprire Trappole"
+                },
+                "221": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "222": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "223": {
+                    "name": "Scassinare Serrature"
+                },
+                "228": {
+                    "name": "Sentire Rumori"
+                },
+                "229": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "239": {
+                    "name": "Scassinare Serrature"
+                },
+                "243": {
+                    "name": "Scoprire Trappole"
+                },
+                "252": {
+                    "name": "Sentire Rumori"
+                },
+                "278": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "6": {
+                    "name": "Scassinare Serrature"
+                },
+                "7": {
+                    "name": "Svuotare Tasche"
+                },
+                "8": {
+                    "name": "Comprendere Linguaggi"
+                },
+                "4": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "5": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "9": {
+                    "name": "Rimuovere Trappole"
+                },
+                "10": {
+                    "name": "Scalare Pareti"
+                },
+                "11": {
+                    "name": "Scoprire Trappole"
+                },
+                "12": {
+                    "name": "Sentire Rumori"
+                },
+                "13": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "14": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "15": {
+                    "name": "Scassinare Serrature"
+                },
+                "16": {
+                    "name": "Svuotare Tasche"
+                },
+                "17": {
+                    "name": "Rimuovere Trappole"
+                },
+                "18": {
+                    "name": "Scalare Pareti"
+                },
+                "19": {
+                    "name": "Scoprire Trappole"
+                },
+                "24": {
+                    "name": "Svuotare Tasche"
+                },
+                "20": {
+                    "name": "Sentire Rumori"
+                },
+                "21": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "25": {
+                    "name": "Rimuovere Trappole"
+                },
+                "22": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "23": {
+                    "name": "Scassinare Serrature"
+                },
+                "26": {
+                    "name": "Scalare Pareti"
+                },
+                "27": {
+                    "name": "Scoprire Trappole"
+                },
+                "28": {
+                    "name": "Sentire Rumori"
+                },
+                "29": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "30": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "31": {
+                    "name": "Scassinare Serrature"
+                },
+                "39": {
+                    "name": "Scassinare Serrature"
+                },
+                "40": {
+                    "name": "Svuotare Tasche"
+                },
+                "41": {
+                    "name": "Rimuovere Trappole"
+                },
+                "32": {
+                    "name": "Svuotare Tasche"
+                },
+                "33": {
+                    "name": "Rimuovere Trappole"
+                },
+                "36": {
+                    "name": "Sentire Rumori"
+                },
+                "42": {
+                    "name": "Scalare Pareti"
+                },
+                "37": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "38": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "43": {
+                    "name": "Scoprire Trappole"
+                },
+                "44": {
+                    "name": "Sentire Rumori"
+                },
+                "45": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "46": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "47": {
+                    "name": "Scassinare Serrature"
+                },
+                "48": {
+                    "name": "Svuotare Tasche"
+                },
+                "49": {
+                    "name": "Rimuovere Trappole"
+                },
+                "50": {
+                    "name": "Scalare Pareti"
+                },
+                "51": {
+                    "name": "Scoprire Trappole"
+                },
+                "52": {
+                    "name": "Sentire Rumori"
+                },
+                "53": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "54": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "55": {
+                    "name": "Scassinare Serrature"
+                },
+                "56": {
+                    "name": "Svuotare Tasche"
+                },
+                "57": {
+                    "name": "Rimuovere Trappole"
+                },
+                "58": {
+                    "name": "Scalare Pareti"
+                },
+                "59": {
+                    "name": "Scoprire Trappole"
+                },
+                "60": {
+                    "name": "Sentire Rumori"
+                },
+                "61": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "62": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "63": {
+                    "name": "Scassinare Serrature"
+                },
+                "64": {
+                    "name": "Svuotare Tasche"
+                },
+                "65": {
+                    "name": "Rimuovere Trappole"
+                },
+                "66": {
+                    "name": "Scalare Pareti"
+                },
+                "67": {
+                    "name": "Scoprire Trappole"
+                },
+                "68": {
+                    "name": "Sentire Rumori"
+                },
+                "69": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "70": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "71": {
+                    "name": "Scassinare Serrature"
+                },
+                "72": {
+                    "name": "Svuotare Tasche"
+                },
+                "73": {
+                    "name": "Rimuovere Trappole"
+                },
+                "74": {
+                    "name": "Scalare Pareti"
+                },
+                "75": {
+                    "name": "Scoprire Trappole"
+                },
+                "76": {
+                    "name": "Sentire Rumori"
+                },
+                "77": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "78": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "79": {
+                    "name": "Scassinare Serrature"
+                },
+                "80": {
+                    "name": "Svuotare Tasche"
+                },
+                "81": {
+                    "name": "Rimuovere Trappole"
+                },
+                "82": {
+                    "name": "Scalare Pareti"
+                },
+                "83": {
+                    "name": "Scoprire Trappole"
+                },
+                "84": {
+                    "name": "Sentire Rumori"
+                },
+                "85": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "86": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "87": {
+                    "name": "Scassinare Serrature"
+                },
+                "88": {
+                    "name": "Svuotare Tasche"
+                },
+                "89": {
+                    "name": "Rimuovere Trappole"
+                },
+                "90": {
+                    "name": "Scalare Pareti"
+                },
+                "99": {
+                    "name": "Scoprire Trappole"
+                },
+                "100": {
+                    "name": "Sentire Rumori"
+                },
+                "101": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "102": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "103": {
+                    "name": "Scassinare Serrature"
+                },
+                "104": {
+                    "name": "Svuotare Tasche"
+                },
+                "105": {
+                    "name": "Rimuovere Trappole"
+                },
+                "106": {
+                    "name": "Scalare Pareti"
+                },
+                "107": {
+                    "name": "Scoprire Trappole"
+                },
+                "108": {
+                    "name": "Sentire Rumori"
+                },
+                "109": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "119": {
+                    "name": "Scassinare Serrature"
+                },
+                "120": {
+                    "name": "Svuotare Tasche"
+                },
+                "121": {
+                    "name": "Rimuovere Trappole"
+                },
+                "122": {
+                    "name": "Scalare Pareti"
+                },
+                "123": {
+                    "name": "Scoprire Trappole"
+                },
+                "124": {
+                    "name": "Sentire Rumori"
+                },
+                "125": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "126": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "127": {
+                    "name": "Scassinare Serrature"
+                },
+                "128": {
+                    "name": "Svuotare Tasche"
+                },
+                "129": {
+                    "name": "Rimuovere Trappole"
+                },
+                "130": {
+                    "name": "Scalare Pareti"
+                },
+                "131": {
+                    "name": "Scoprire Trappole"
+                },
+                "132": {
+                    "name": "Sentire Rumori"
+                },
+                "141": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "146": {
+                    "name": "Scalare Pareti"
+                },
+                "142": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "147": {
+                    "name": "Scoprire Trappole"
+                },
+                "148": {
+                    "name": "Sentire Rumori"
+                },
+                "143": {
+                    "name": "Scassinare Serrature"
+                },
+                "144": {
+                    "name": "Svuotare Tasche"
+                },
+                "149": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "145": {
+                    "name": "Rimuovere Trappole"
+                },
+                "150": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "151": {
+                    "name": "Scassinare Serrature"
+                },
+                "161": {
+                    "name": "Rimuovere Trappole"
+                },
+                "164": {
+                    "name": "Sentire Rumori"
+                },
+                "165": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "166": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "167": {
+                    "name": "Scassinare Serrature"
+                },
+                "168": {
+                    "name": "Svuotare Tasche"
+                },
+                "169": {
+                    "name": "Rimuovere Trappole"
+                },
+                "170": {
+                    "name": "Scalare Pareti"
+                },
+                "182": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "183": {
+                    "name": "Scassinare Serrature"
+                },
+                "171": {
+                    "name": "Scoprire Trappole"
+                },
+                "184": {
+                    "name": "Svuotare Tasche"
+                },
+                "185": {
+                    "name": "Rimuovere Trappole"
+                },
+                "186": {
+                    "name": "Scalare Pareti"
+                },
+                "187": {
+                    "name": "Scoprire Trappole"
+                },
+                "181": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "188": {
+                    "name": "Sentire Rumori"
+                },
+                "189": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "190": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "191": {
+                    "name": "Scassinare Serrature"
+                },
+                "192": {
+                    "name": "Svuotare Tasche"
+                },
+                "195": {
+                    "name": "Scoprire Trappole"
+                },
+                "196": {
+                    "name": "Sentire Rumori"
+                },
+                "197": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "198": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "199": {
+                    "name": "Scassinare Serrature"
+                },
+                "193": {
+                    "name": "Rimuovere Trappole"
+                },
+                "194": {
+                    "name": "Scalare Pareti"
+                },
+                "200": {
+                    "name": "Svuotare Tasche"
+                },
+                "201": {
+                    "name": "Rimuovere Trappole"
+                },
+                "209": {
+                    "name": "Rimuovere Trappole"
+                },
+                "210": {
+                    "name": "Scalare Pareti"
+                },
+                "211": {
+                    "name": "Scoprire Trappole"
+                },
+                "212": {
+                    "name": "Sentire Rumori"
+                },
+                "213": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "220": {
+                    "name": "Sentire Rumori"
+                },
+                "227": {
+                    "name": "Scoprire Trappole"
+                },
+                "230": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "224": {
+                    "name": "Svuotare Tasche"
+                },
+                "225": {
+                    "name": "Rimuovere Trappole"
+                },
+                "226": {
+                    "name": "Scalare Pareti"
+                },
+                "231": {
+                    "name": "Scassinare Serrature"
+                },
+                "232": {
+                    "name": "Svuotare Tasche"
+                },
+                "233": {
+                    "name": "Rimuovere Trappole"
+                },
+                "234": {
+                    "name": "Scalare Pareti"
+                },
+                "235": {
+                    "name": "Scoprire Trappole"
+                },
+                "236": {
+                    "name": "Sentire Rumori"
+                },
+                "237": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "238": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "240": {
+                    "name": "Svuotare Tasche"
+                },
+                "241": {
+                    "name": "Rimuovere Trappole"
+                },
+                "242": {
+                    "name": "Scalare Pareti"
+                },
+                "244": {
+                    "name": "Sentire Rumori"
+                },
+                "245": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "246": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "247": {
+                    "name": "Scassinare Serrature"
+                },
+                "248": {
+                    "name": "Svuotare Tasche"
+                },
+                "249": {
+                    "name": "Rimuovere Trappole"
+                },
+                "250": {
+                    "name": "Scalare Pareti"
+                },
+                "251": {
+                    "name": "Scoprire Trappole"
+                },
+                "253": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "254": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "255": {
+                    "name": "Scassinare Serrature"
+                },
+                "256": {
+                    "name": "Svuotare Tasche"
+                },
+                "257": {
+                    "name": "Rimuovere Trappole"
+                },
+                "261": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "262": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "263": {
+                    "name": "Scassinare Serrature"
+                },
+                "264": {
+                    "name": "Svuotare Tasche"
+                },
+                "258": {
+                    "name": "Scalare Pareti"
+                },
+                "265": {
+                    "name": "Rimuovere Trappole"
+                },
+                "266": {
+                    "name": "Scalare Pareti"
+                },
+                "259": {
+                    "name": "Scoprire Trappole"
+                },
+                "260": {
+                    "name": "Sentire Rumori"
+                },
+                "267": {
+                    "name": "Scoprire Trappole"
+                },
+                "268": {
+                    "name": "Sentire Rumori"
+                },
+                "269": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "270": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "271": {
+                    "name": "Scassinare Serrature"
+                },
+                "272": {
+                    "name": "Svuotare Tasche"
+                },
+                "273": {
+                    "name": "Rimuovere Trappole"
+                },
+                "274": {
+                    "name": "Scalare Pareti"
+                },
+                "282": {
+                    "name": "Scalare Pareti"
+                },
+                "275": {
+                    "name": "Scoprire Trappole"
+                },
+                "283": {
+                    "name": "Scoprire Trappole"
+                },
+                "276": {
+                    "name": "Sentire Rumori"
+                },
+                "284": {
+                    "name": "Sentire Rumori"
+                },
+                "277": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "279": {
+                    "name": "Scassinare Serrature"
+                },
+                "280": {
+                    "name": "Svuotare Tasche"
+                },
+                "281": {
+                    "name": "Rimuovere Trappole"
+                },
+                "285": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "286": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "287": {
+                    "name": "Scassinare Serrature"
+                },
+                "288": {
+                    "name": "Svuotare Tasche"
+                },
+                "289": {
+                    "name": "Rimuovere Trappole"
+                }
             }
         },
         "Thieves' Tools": {
@@ -1728,6 +2727,29 @@
                 "4": {
                     "title": "Eroe"
                 }
+            },
+            "specialAbilities": {
+                "6": {
+                    "name": "Attacchi Multipli"
+                },
+                "0": {
+                    "name": "Attacco con Lancia"
+                },
+                "1": {
+                    "name": "Lancia vs. Carica"
+                },
+                "2": {
+                    "name": "Disarmare"
+                },
+                "3": {
+                    "name": "Stabilire una Roccaforte (F)"
+                },
+                "4": {
+                    "name": "Parata"
+                },
+                "5": {
+                    "name": "Schiantare"
+                }
             }
         },
         "Detect Evil": {
@@ -1821,6 +2843,20 @@
                 "0": {
                     "title": "Vendicatore"
                 }
+            },
+            "specialAbilities": {
+                "0": {
+                    "name": "Alleanza Oscura"
+                },
+                "1": {
+                    "name": "Individuazione del Male (AV)"
+                },
+                "2": {
+                    "name": "Diritto di la Sacra Ospitalità (AV)"
+                },
+                "3": {
+                    "name": "Scacciare Non-Morti (AV)"
+                }
             }
         },
         "Arrows": {
@@ -1897,6 +2933,20 @@
             "classLevels": {
                 "0": {
                     "title": "Paladino"
+                }
+            },
+            "specialAbilities": {
+                "0": {
+                    "name": "Individuazione del Male (PA)"
+                },
+                "1": {
+                    "name": "Giuramento di Aiuto (PA)"
+                },
+                "2": {
+                    "name": "Sacri Seguaci (PA)"
+                },
+                "3": {
+                    "name": "Scacciare Non-Morti (PA)"
                 }
             }
         },
@@ -2375,7 +3425,663 @@
                 }
             },
             "name": "Bardo",
-            "description": "<h2>Il Bardo: Custode delle Leggende, Maestro del Canto</h2>\n<p>Fin dall'alba della storia, i bardi hanno vagato per il mondo come custodi della saggezza, del canto e dell'eroismo. Sono i menestrelli erranti, i guerrieri poetici, i narratori le cui parole plasmano le gesta di re ed eroi. I bardi sono più di semplici intrattenitori: sono la voce della storia, il cuore della cultura e, quando necessario, un'ispirazione sul campo di battaglia.</p>\n<p>Contrariamente al comune ladro che diventa menestrello, un vero Bardo ha affinato sia l'aspetto marziale che quello mistico della sua arte. Egli brandisce il potere di <em>cantare canzoni magiche</em>, incantando alleati e stregando nemici con melodie imbevute di energia arcana. Queste canzoni magiche, proprio come le invocazioni dei maghi o le preghiere dei chierici, attingono a una tradizione antica che fonde magia ed esibizione. Questo indica in pratica che il bardo possiede una capacità di <em>fascinazione innata</em> che riesce ad affinare con l’esperienza e a sfruttare a proprio vantaggio, acquisendo una capacità paragonabile alla fascinazione magica prodotta dagli incantatori arcani. Attraverso il canto e lo strumento musicale, possono curare ferite, incoraggiare, offuscare le menti o persino creare illusioni così vivide da sembrare reali.</p>\n<p>Pur combattendo al fianco di guerrieri e ladri, la vera forza dei bardi risiede nella loro capacità di influenzare il mondo con parole, musica e astuzia. Sono benvenuti nelle corti dei re tanto quanto nelle taverne della gente comune, raccogliendo notizie, scoprendo segreti e diffondendo le storie delle leggende, spesso le proprie.</p>\n<p>Ogni bardo porta con sé uno strumento incantato, uno strumento della sua arte che è tanto vitale quanto il libro degli incantesimi di un mago. Senza di esso, la sua magia è muta. Alcuni ricevono questi strumenti da mentori, mentre altri devono intraprendere una quest per trovarli da soli. L'abilità di un bardo con uno strumento è una parte integrante della sua identità, tanto quanto le canzoni che conosce, e un bardo esperto può guadagnare una fortuna semplicemente esibendosi per il pubblico giusto.</p>\n<p>Infine, il bardo è particolarmente abile nel <em>raccogliere informazioni</em> (ottiene gratuitamente l’omonima abilità generale basata sul Carisma), parlando con la gente dei luoghi in cui girovaga senza che sia costretto a sborsare una sola moneta d’oro. Questo gli permette di conoscere sempre nuovi pettegolezzi, nuove leggende, e storie poco conosciute dalla maggioranza delle persone, e di diventare una vera e propria miniera di informazioni.</p>\n<p>Che scelgano di stabilirsi e fondare un grande conservatorio per trasmettere la loro saggezza agli studenti, o continuare i loro viaggi come solitari narratori delle storie del mondo, tutti i bardi condividono un obiettivo comune: garantire che nessuna grande impresa rimanga senza canto, che nessuna leggenda venga dimenticata e che nessuna anima sia lasciata senza una melodia che la guidi.</p>\n<p><em>Adattato dall'articolo di Geoff Gander e Marco Dalmonte su </em><a href=\"https://pandius.com/bardclas.html\"><em>Pandius</em></a><em>.</em></p>\n<h3>Caratteristiche Principali</h3>\n<h4>Requisito Primario</h4>\n<p>Destrezza e Carisma. Un Bardo guadagna un bonus del 5% di esperienza se sia la Destrezza che il Carisma sono tra 13 e 15, e un bonus del 10% se entrambi sono 16 o superiori.</p>\n<h4>Competenze in Combattimento</h4>\n<ul>\n <li>I bardi possono usare <strong>qualsiasi arma da mischia a una mano e tutte le armi a distanza</strong>.</li>\n  <li><strong>Non possono usare armi a due mani</strong>, in quanto queste interferiscono con il suonare degli strumenti musicali.</li>\n  <li>I bardi possono indossare <strong>armature fino alla corazza di maglia</strong>, ma armature più pesanti impongono penalità alle loro abilità da ladro.</li>\n  <li>Un Bardo può impugnare <strong>scudi di dimensioni medie o più piccoli</strong>, ma farlo impedisce l'uso dello strumento musicale.</li>\n</ul>\n<h4>Dadi Vita</h4>\n<ul>\n  <li>I bardi tirano <strong>1d6 per i punti ferita per livello</strong> fino al 9° livello, dopodiché guadagnano <strong>+2 punti ferita per livello</strong>. Gli aggiustamenti alla Costituzione non si applicano più a questo punto.</li>\n</ul>\n<h4>Abilità Speciali</h4>\n<p>I bardi possiedono diverse abilità simili a quelle dei ladri, insieme a capacità uniche che li distinguono.</p>\n<ul>\n  <li><p><strong>Abilità da Ladro</strong> (influenza il tipo di armatura indossata):</p>\n    <table border=\"1\">\n      <thead>\n        <tr><th>Tipo di Armatura</th><th>Nascondersi nelle Ombre</th><th>Muoversi Silenziosamente</th><th>Sentire Rumori</th><th>Scalare Pareti</th></tr>\n      </thead>\n      <tbody>\n        <tr><td>Armatura in Cuoio</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n        <tr><td>Armatura a Scaglie</td><td>-5%</td><td>-15%</td><td>-5%</td><td>-15%</td></tr>\n        <tr><td>Corazza di Maglia</td><td>-10%</td><td>-20%*</td><td>-10%</td><td>-20%</td></tr>\n      </tbody>\n    </table>\n    <p><em>*Questa penalità può essere ridotta della metà se indossata la Corazza di Maglia Elfica.</em></p>\n  </li>\n  <li><p><strong>Leggere Linguaggi:</strong> Al <strong>4° livello</strong>, un Bardo può leggere linguaggi non magici con una <strong>probabilità dell'80%</strong>.</p></li>\n  <li><p><strong>Usare Pergamene Magiche:</strong> Al <strong>10° livello</strong>, un Bardo può tentare di usare pergamene da mago, con una <strong>probabilità del 10% di fallire</strong>.</p></li>\n  <li><p><strong>Charme del Bardo:</strong> Al <strong>3° livello</strong>, un Bardo acquisisce la capacità di <strong>incantare gli altri</strong> attraverso il canto o la poesia (simile a <em>Charme</em>). Questo migliora ai livelli successivi per influenzare mostri intelligenti e, successivamente, anche piante.</p></li>\n  <li><p><strong>Canzoni-Incantesimo:</strong> I bardi possono lanciare <strong>canzoni-incantesimo</strong>, una forma unica di magia che funziona in modo simile agli incantesimi ma richiede esibirsi con uno strumento musicale incantato.</p></li>\n  <li><p><strong>Colpire alle Spalle (Modificato):</strong></p>\n    <ul>\n      <li>Quando colpisce un <strong>avversario ignaro</strong>, un Bardo ottiene <strong>+2 ai tiri per colpire</strong> e infligge <strong>1,5x danno</strong> (arrotondando per difetto).</li>\n      <li>Questo consente colpi di precisione senza la letalità grezza di un colpo alle spalle di un Ladro.</li>\n    </ul>\n  </li>\n</ul>\n<h3>Avanzamento al Livello di Nome (9° Livello)</h3>\n<p>Al 9° livello, un Bardo guadagna notorietà e può fondare un <strong>Conservatorio</strong>, un luogo dedicato alla formazione degli apprendisti, alla conservazione della storia e al perfezionamento delle canzoni-incantesimo. Questo Conservatorio attira <strong>1d8 apprendisti Bardi di 1° livello</strong>, desiderosi di imparare da un maestro dell'arte. Questi apprendisti sono studenti leali e devoti, anche se non seguiranno mai il Bardo in situazioni di pericolo diretto.</p>\n<p>Un Conservatorio funge da centro di cultura, narrazione e musica, attirando l'attenzione di nobili, studiosi e altri avventurieri. Può assumere molte forme: una grande sala in una città, un rifugio isolato tra le montagne o un santuario nascosto dove si recuperano canzoni e storie perdute. Il Bardo può utilizzare questa roccaforte per studiare nuove canzoni-incantesimo, conservare conoscenze storiche e influenzare il mondo attraverso la sua arte.</p>\n<h3>Opzioni per la Roccaforte</h3>\n<p>I bardi che scelgono di fondare un Conservatorio sono tenuti a offrire riparo e ospitalità ai bardi viaggiatori che cercano conoscenza o riposo. In cambio, questi visitatori portano notizie, canzoni e segreti da tutto il paese</p>"
+            "description": "<h2>Il Bardo: Custode delle Leggende, Maestro del Canto</h2>\n<p>Fin dall'alba della storia, i bardi hanno vagato per il mondo come custodi della saggezza, del canto e dell'eroismo. Sono i menestrelli erranti, i guerrieri poetici, i narratori le cui parole plasmano le gesta di re ed eroi. I bardi sono più di semplici intrattenitori: sono la voce della storia, il cuore della cultura e, quando necessario, un'ispirazione sul campo di battaglia.</p>\n<p>Contrariamente al comune ladro che diventa menestrello, un vero Bardo ha affinato sia l'aspetto marziale che quello mistico della sua arte. Egli brandisce il potere di <em>cantare canzoni magiche</em>, incantando alleati e stregando nemici con melodie imbevute di energia arcana. Queste canzoni magiche, proprio come le invocazioni dei maghi o le preghiere dei chierici, attingono a una tradizione antica che fonde magia ed esibizione. Questo indica in pratica che il bardo possiede una capacità di <em>fascinazione innata</em> che riesce ad affinare con l’esperienza e a sfruttare a proprio vantaggio, acquisendo una capacità paragonabile alla fascinazione magica prodotta dagli incantatori arcani. Attraverso il canto e lo strumento musicale, possono curare ferite, incoraggiare, offuscare le menti o persino creare illusioni così vivide da sembrare reali.</p>\n<p>Pur combattendo al fianco di guerrieri e ladri, la vera forza dei bardi risiede nella loro capacità di influenzare il mondo con parole, musica e astuzia. Sono benvenuti nelle corti dei re tanto quanto nelle taverne della gente comune, raccogliendo notizie, scoprendo segreti e diffondendo le storie delle leggende, spesso le proprie.</p>\n<p>Ogni bardo porta con sé uno strumento incantato, uno strumento della sua arte che è tanto vitale quanto il libro degli incantesimi di un mago. Senza di esso, la sua magia è muta. Alcuni ricevono questi strumenti da mentori, mentre altri devono intraprendere una quest per trovarli da soli. L'abilità di un bardo con uno strumento è una parte integrante della sua identità, tanto quanto le canzoni che conosce, e un bardo esperto può guadagnare una fortuna semplicemente esibendosi per il pubblico giusto.</p>\n<p>Infine, il bardo è particolarmente abile nel <em>raccogliere informazioni</em> (ottiene gratuitamente l’omonima abilità generale basata sul Carisma), parlando con la gente dei luoghi in cui girovaga senza che sia costretto a sborsare una sola moneta d’oro. Questo gli permette di conoscere sempre nuovi pettegolezzi, nuove leggende, e storie poco conosciute dalla maggioranza delle persone, e di diventare una vera e propria miniera di informazioni.</p>\n<p>Che scelgano di stabilirsi e fondare un grande conservatorio per trasmettere la loro saggezza agli studenti, o continuare i loro viaggi come solitari narratori delle storie del mondo, tutti i bardi condividono un obiettivo comune: garantire che nessuna grande impresa rimanga senza canto, che nessuna leggenda venga dimenticata e che nessuna anima sia lasciata senza una melodia che la guidi.</p>\n<p><em>Adattato dall'articolo di Geoff Gander e Marco Dalmonte su </em><a href=\"https://pandius.com/bardclas.html\"><em>Pandius</em></a><em>.</em></p>\n<h3>Caratteristiche Principali</h3>\n<h4>Requisito Primario</h4>\n<p>Destrezza e Carisma. Un Bardo guadagna un bonus del 5% di esperienza se sia la Destrezza che il Carisma sono tra 13 e 15, e un bonus del 10% se entrambi sono 16 o superiori.</p>\n<h4>Competenze in Combattimento</h4>\n<ul>\n <li>I bardi possono usare <strong>qualsiasi arma da mischia a una mano e tutte le armi a distanza</strong>.</li>\n  <li><strong>Non possono usare armi a due mani</strong>, in quanto queste interferiscono con il suonare degli strumenti musicali.</li>\n  <li>I bardi possono indossare <strong>armature fino alla corazza di maglia</strong>, ma armature più pesanti impongono penalità alle loro abilità da ladro.</li>\n  <li>Un Bardo può impugnare <strong>scudi di dimensioni medie o più piccoli</strong>, ma farlo impedisce l'uso dello strumento musicale.</li>\n</ul>\n<h4>Dadi Vita</h4>\n<ul>\n  <li>I bardi tirano <strong>1d6 per i punti ferita per livello</strong> fino al 9° livello, dopodiché guadagnano <strong>+2 punti ferita per livello</strong>. Gli aggiustamenti alla Costituzione non si applicano più a questo punto.</li>\n</ul>\n<h4>Abilità Speciali</h4>\n<p>I bardi possiedono diverse abilità simili a quelle dei ladri, insieme a capacità uniche che li distinguono.</p>\n<ul>\n  <li><p><strong>Abilità da Ladro</strong> (influenza il tipo di armatura indossata):</p>\n    <table border=\"1\">\n      <thead>\n        <tr><th>Tipo di Armatura</th><th>Nascondersi nelle Ombre</th><th>Muoversi Silenziosamente</th><th>Sentire Rumori</th><th>Scalare Pareti</th></tr>\n      </thead>\n      <tbody>\n        <tr><td>Armatura in Cuoio</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n        <tr><td>Armatura a Scaglie</td><td>-5%</td><td>-15%</td><td>-5%</td><td>-15%</td></tr>\n        <tr><td>Corazza di Maglia</td><td>-10%</td><td>-20%*</td><td>-10%</td><td>-20%</td></tr>\n      </tbody>\n    </table>\n    <p><em>*Questa penalità può essere ridotta della metà se indossata la Corazza di Maglia Elfica.</em></p>\n  </li>\n  <li><p><strong>Leggere Linguaggi:</strong> Al <strong>4° livello</strong>, un Bardo può leggere linguaggi non magici con una <strong>probabilità dell'80%</strong>.</p></li>\n  <li><p><strong>Usare Pergamene Magiche:</strong> Al <strong>10° livello</strong>, un Bardo può tentare di usare pergamene da mago, con una <strong>probabilità del 10% di fallire</strong>.</p></li>\n  <li><p><strong>Charme del Bardo:</strong> Al <strong>3° livello</strong>, un Bardo acquisisce la capacità di <strong>incantare gli altri</strong> attraverso il canto o la poesia (simile a <em>Charme</em>). Questo migliora ai livelli successivi per influenzare mostri intelligenti e, successivamente, anche piante.</p></li>\n  <li><p><strong>Canzoni-Incantesimo:</strong> I bardi possono lanciare <strong>canzoni-incantesimo</strong>, una forma unica di magia che funziona in modo simile agli incantesimi ma richiede esibirsi con uno strumento musicale incantato.</p></li>\n  <li><p><strong>Colpire alle Spalle (Modificato):</strong></p>\n    <ul>\n      <li>Quando colpisce un <strong>avversario ignaro</strong>, un Bardo ottiene <strong>+2 ai tiri per colpire</strong> e infligge <strong>1,5x danno</strong> (arrotondando per difetto).</li>\n      <li>Questo consente colpi di precisione senza la letalità grezza di un colpo alle spalle di un Ladro.</li>\n    </ul>\n  </li>\n</ul>\n<h3>Avanzamento al Livello di Nome (9° Livello)</h3>\n<p>Al 9° livello, un Bardo guadagna notorietà e può fondare un <strong>Conservatorio</strong>, un luogo dedicato alla formazione degli apprendisti, alla conservazione della storia e al perfezionamento delle canzoni-incantesimo. Questo Conservatorio attira <strong>1d8 apprendisti Bardi di 1° livello</strong>, desiderosi di imparare da un maestro dell'arte. Questi apprendisti sono studenti leali e devoti, anche se non seguiranno mai il Bardo in situazioni di pericolo diretto.</p>\n<p>Un Conservatorio funge da centro di cultura, narrazione e musica, attirando l'attenzione di nobili, studiosi e altri avventurieri. Può assumere molte forme: una grande sala in una città, un rifugio isolato tra le montagne o un santuario nascosto dove si recuperano canzoni e storie perdute. Il Bardo può utilizzare questa roccaforte per studiare nuove canzoni-incantesimo, conservare conoscenze storiche e influenzare il mondo attraverso la sua arte.</p>\n<h3>Opzioni per la Roccaforte</h3>\n<p>I bardi che scelgono di fondare un Conservatorio sono tenuti a offrire riparo e ospitalità ai bardi viaggiatori che cercano conoscenza o riposo. In cambio, questi visitatori portano notizie, canzoni e segreti da tutto il paese</p>",
+            "specialAbilities": {
+                "0": {
+                    "name": "Colpire alle Spalle"
+                },
+                "1": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "2": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "3": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "4": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "5": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "6": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "7": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "64": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "65": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "66": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "70": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "71": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "72": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "73": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "76": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "77": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "78": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "79": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "80": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "81": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "92": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "93": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "94": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "95": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "96": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "97": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "98": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "99": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "100": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "101": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "102": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "103": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "104": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "105": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "106": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "107": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "108": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "109": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "110": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "111": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "112": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "113": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "119": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "120": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "121": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "122": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "134": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "135": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "136": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "137": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "138": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "139": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "158": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "159": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "160": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "161": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "179": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "180": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "193": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "194": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "195": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "196": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "197": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "198": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "204": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "205": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "206": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "214": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "215": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "216": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "16": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "17": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "8": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "9": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "10": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "11": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "12": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "14": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "15": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "18": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "19": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "20": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "21": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "23": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "24": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "25": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "26": {
+                    "name": "Comprendere Linguaggi (B)"
+                },
+                "22": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "27": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "28": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "29": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "30": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "31": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "32": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "33": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "34": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "35": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "36": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "37": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "38": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "39": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "40": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "41": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "42": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "43": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "44": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "45": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "46": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "47": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "48": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "50": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "51": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "52": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "53": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "49": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "54": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "55": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "56": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "57": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "58": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "59": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "60": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "69": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "61": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "62": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "67": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "68": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "74": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "75": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "82": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "83": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "84": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "85": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "86": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "87": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "125": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "126": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "88": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "89": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "90": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "91": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "114": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "115": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "116": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "127": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "128": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "117": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "118": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "123": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "124": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "129": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "130": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "131": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "133": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "140": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "132": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "141": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "142": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "143": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "144": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "145": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "146": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "154": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "155": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "147": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "148": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "156": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "149": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "150": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "151": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "152": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "153": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "157": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "162": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "163": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "164": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "165": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "166": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "167": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "168": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "169": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "178": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "170": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "171": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "172": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "173": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "174": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "175": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "176": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "177": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "181": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "182": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "183": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "184": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "185": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "186": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "187": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "188": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "189": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "190": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "191": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "192": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "199": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "202": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "203": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "200": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "201": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "207": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "208": {
+                    "name": "Scalare Pareti Ripide (B)"
+                },
+                "209": {
+                    "name": "Scoprire Trappole (B)"
+                },
+                "210": {
+                    "name": "Sentire Rumori (B)"
+                },
+                "211": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "212": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "213": {
+                    "name": "Scassinare Serrature (B)"
+                },
+                "217": {
+                    "name": "Nascondersi nelle Ombre (B)"
+                },
+                "218": {
+                    "name": "Muoversi Silenziosamente (B)"
+                },
+                "219": {
+                    "name": "Scassinare Serrature (B)"
+                }
+            }
         },
         "Bardic Charm": {
             "name": "Charme Bardico",
@@ -3061,6 +4767,269 @@
                 },
                 "9": {
                     "name": "Colpo senz'armi (MY)"
+                }
+            },
+            "specialAbilities": {
+                "0": {
+                    "name": "Consapevolezza"
+                },
+                "1": {
+                    "name": "Scalare Pareti"
+                },
+                "2": {
+                    "name": "Scoprire Trappole"
+                },
+                "3": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "4": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "12": {
+                    "name": "Scoprire Trappole"
+                },
+                "29": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "30": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "31": {
+                    "name": "Rimuovere Trappole"
+                },
+                "40": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "42": {
+                    "name": "Rimuovere Trappole"
+                },
+                "52": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "5": {
+                    "name": "Rimuovere Trappole"
+                },
+                "6": {
+                    "name": "Scalare Pareti"
+                },
+                "9": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "10": {
+                    "name": "Rimuovere Trappole"
+                },
+                "11": {
+                    "name": "Scalare Pareti"
+                },
+                "7": {
+                    "name": "Scoprire Trappole"
+                },
+                "13": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "8": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "14": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "15": {
+                    "name": "Rimuovere Trappole"
+                },
+                "16": {
+                    "name": "Scalare Pareti"
+                },
+                "17": {
+                    "name": "Scoprire Trappole"
+                },
+                "18": {
+                    "name": "Auto Guarigione"
+                },
+                "19": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "35": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "20": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "21": {
+                    "name": "Rimuovere Trappole"
+                },
+                "36": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "22": {
+                    "name": "Scalare Pareti"
+                },
+                "23": {
+                    "name": "Scoprire Trappole"
+                },
+                "24": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "25": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "26": {
+                    "name": "Rimuovere Trappole"
+                },
+                "27": {
+                    "name": "Scalare Pareti"
+                },
+                "28": {
+                    "name": "Scoprire Trappole"
+                },
+                "32": {
+                    "name": "Parlare con gli Animali"
+                },
+                "33": {
+                    "name": "Scalare Pareti"
+                },
+                "34": {
+                    "name": "Scoprire Trappole"
+                },
+                "37": {
+                    "name": "Rimuovere Trappole"
+                },
+                "38": {
+                    "name": "Scalare Pareti"
+                },
+                "39": {
+                    "name": "Scoprire Trappole"
+                },
+                "44": {
+                    "name": "Scalare Pareti"
+                },
+                "45": {
+                    "name": "Scoprire Trappole"
+                },
+                "46": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "47": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "48": {
+                    "name": "Rimuovere Trappole"
+                },
+                "41": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "43": {
+                    "name": "Resistenza (MY)"
+                },
+                "49": {
+                    "name": "Scalare Pareti"
+                },
+                "50": {
+                    "name": "Scoprire Trappole"
+                },
+                "51": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "53": {
+                    "name": "Rimuovere Trappole"
+                },
+                "54": {
+                    "name": "Parlare con tutti"
+                },
+                "55": {
+                    "name": "Scalare Pareti"
+                },
+                "56": {
+                    "name": "Scoprire Trappole"
+                },
+                "57": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "58": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "61": {
+                    "name": "Scoprire Trappole"
+                },
+                "59": {
+                    "name": "Rimuovere Trappole"
+                },
+                "60": {
+                    "name": "Scalare Pareti"
+                },
+                "62": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "63": {
+                    "name": "Barriera Mentale"
+                },
+                "64": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "65": {
+                    "name": "Rimuovere Trappole"
+                },
+                "66": {
+                    "name": "Scalare Pareti"
+                },
+                "83": {
+                    "name": "Scoprire Trappole"
+                },
+                "67": {
+                    "name": "Scoprire Trappole"
+                },
+                "68": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "69": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "70": {
+                    "name": "Rimuovere Trappole"
+                },
+                "71": {
+                    "name": "Oscuramento"
+                },
+                "72": {
+                    "name": "Scalare Pareti"
+                },
+                "73": {
+                    "name": "Scoprire Trappole"
+                },
+                "74": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "75": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "76": {
+                    "name": "Rimuovere Trappole"
+                },
+                "77": {
+                    "name": "Scalare Pareti"
+                },
+                "78": {
+                    "name": "Scoprire Trappole"
+                },
+                "79": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "80": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "81": {
+                    "name": "Rimuovere Trappole"
+                },
+                "82": {
+                    "name": "Scalare Pareti"
+                },
+                "84": {
+                    "name": "Nascondersi nelle Ombre"
+                },
+                "85": {
+                    "name": "Muoversi Silenziosamente"
+                },
+                "86": {
+                    "name": "Rimuovere Trappole"
                 }
             }
         },
