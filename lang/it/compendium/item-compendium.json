@@ -1370,7 +1370,8 @@
         "Pouch, Belt": {
             "name": "Borsa da cintura",
             "description": "<p>Una piccola borsa fatta di pelle o tessuto, tipicamente indossata su una cintura. Può contenere fino a 50 monete e viene utilizzata per trasportare piccoli oggetti di valore o altri piccoli oggetti</p>",
-            "unidentifiedDesc": "<p>Una piccola borsa fatta di pelle o tessuto, tipicamente indossata su una cintura. Può contenere fino a 50 monete e viene utilizzata per trasportare piccoli oggetti di valore o altri piccoli oggetti</p>"
+            "unidentifiedDesc": "<p>Una piccola borsa fatta di pelle o tessuto, tipicamente indossata su una cintura. Può contenere fino a 50 monete e viene utilizzata per trasportare piccoli oggetti di valore o altri piccoli oggetti</p>",
+            "unidentifiedName": "Borsa da cintura"
         },
         "Predict Weather": {
             "name": "Predire il Tempo Atmosferico",
@@ -1521,12 +1522,14 @@
         "Sack, Large": {
             "name": "Sacco grande",
             "description": "<p>Un sacco di iuta, stoffa o pelle di 60 cm x 120 cm che può contenere fino a 600 monete. Di solito viene portato a tracolla o legato a un carro o a una sella, rendendolo utile per trasportare grandi quantità di tesori o oggetti ingombranti</p>",
-            "unidentifiedDesc": "<p>Un sacco di iuta, stoffa o pelle di 60 cm x 120 cm che può contenere fino a 600 monete. Di solito viene portato a tracolla o legato a un carro o a una sella, rendendolo utile per trasportare grandi quantità di tesori o oggetti ingombranti</p>"
+            "unidentifiedDesc": "<p>Un sacco di iuta, stoffa o pelle di 60 cm x 120 cm che può contenere fino a 600 monete. Di solito viene portato a tracolla o legato a un carro o a una sella, rendendolo utile per trasportare grandi quantità di tesori o oggetti ingombranti</p>",
+            "unidentifiedName": "Sacco grande"
         },
         "Sack, Small": {
             "name": "Sacco piccolo",
             "description": "<p>Un sacchetto di stoffa o pelle di 30 cm x 60 cm che può contenere fino a 200 monete. Può essere portato a tracolla o legato a un carro o a una sella. Spesso usato per conservare piccoli oggetti o tesori</p>",
-            "unidentifiedDesc": "<p>Un sacchetto di stoffa o pelle di 30 cm x 60 cm che può contenere fino a 200 monete. Può essere portato a tracolla o legato a un carro o a una sella. Spesso usato per conservare piccoli oggetti o tesori</p>"
+            "unidentifiedDesc": "<p>Un sacchetto di stoffa o pelle di 30 cm x 60 cm che può contenere fino a 200 monete. Può essere portato a tracolla o legato a un carro o a una sella. Spesso usato per conservare piccoli oggetti o tesori</p>",
+            "unidentifiedName": "Sacco piccolo"
         },
         "Saddle Bags (large)": {
             "name": "Bisacce (grandi)",
@@ -1554,7 +1557,8 @@
         "Scroll Case": {
             "name": "Porta Pergamena",
             "description": "<p>Un tubo di cuoio oliato con un tappo. Non è completamente impermeabile</p>",
-            "unidentifiedDesc": "<p>Un tubo di cuoio oliato con un tappo. Non è completamente impermeabile</p>"
+            "unidentifiedDesc": "<p>Un tubo di cuoio oliato con un tappo. Non è completamente impermeabile</p>",
+            "unidentifiedName": "Porta Pergamena"
         },
         "Scroll of Stone to Flesh": {
             "name": "Pietra in Carne (pergamena)",
@@ -1661,7 +1665,8 @@
         "Spellbook, travelling": {
             "name": "Libro Incantesimi da viaggio",
             "description": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>",
-            "unidentifiedDesc": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>"
+            "unidentifiedDesc": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>",
+            "unidentifiedName": "Libro Incantesimi da viaggio"
         },
         "Stakes (3) and Mallet": {
             "name": "Pioli (3) e mazzuolo",
@@ -2868,7 +2873,8 @@
         "Belt": {
             "description": "<p>È una cintura di cuoio.</p>",
             "name": "Cintura",
-            "unidentifiedDesc": "<p>È una cintura di cuoio.</p>"
+            "unidentifiedDesc": "<p>È una cintura di cuoio.</p>",
+            "unidentifiedName": "Cintura"
         },
         "Cloak, long": {
             "name": "Mantello Lungo",
@@ -5706,6 +5712,12 @@
         "Asleep": {
             "description": "<p>Il personaggio colpito sta dormendo e non si sveglierà finché la condizione non svanisce o finché qualcuno non lo sveglia. Per risvegliare qualcuno che è magicamente addormentato, bisogna schiaffeggiarlo in viso, scuoterlo o versargli acqua fredda o calda addosso, essenzialmente, qualsiasi cosa che lo faccia uscire dal suo sonno.</p>",
             "name": "Addormentato"
+        },
+        "Healing Staff (C)": {
+            "weaponMastery": "Bastone Ferrato"
+        },
+        "Scroll Case (water-tight)": {
+            "unidentifiedDesc": "<p>Un tubo di cuoio oliato con un tappo. Non è completamente impermeabile</p>"
         }
     },
     "label": "Oggetti Classi Abilità",
