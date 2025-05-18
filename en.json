@@ -380,9 +380,14 @@
         "abbr": "gp",
         "long": "Cost (gp)"
       },
+      "dropped": {
+        "hint": "A dropped item can't be used and does not count towards encumbrance.",
+        "name": "Dropped"
+      },
       "equip": "Equip",
       "equipped": "Equipped",
       "isContainer": "Container",
+      "isDropped": "Dropped",
       "isEquippable": "Equippable",
       "isTreasure": {
         "hint": "Specify if the item counts as treasure when calculating encumbrance."
@@ -437,13 +442,15 @@
       "unequip": "Unequip",
       "uses": "Uses",
       "weight": {
-        "abbr": "cn",
         "abbrPlural": "cns",
-        "desc": "Encumbrance is the weight of an object measured in coin-weight.",
-        "long": "Encumbrance (cn)",
-        "long2": "Encumbrance",
-        "short": "Enc (cn)",
+        "desc": "Encumbrance value of the item.",
+        "long": "Encumbrance",
+        "short": "Enc",
         "short2": "Enc"
+      },
+      "weightEquipped": {
+        "desc": "Encumbrance value of the item when worn or equipped.",
+        "short": "Enc Equipped"
       }
     },
     "Mastery": {
@@ -579,9 +586,7 @@
       "damage": {
         "abbr": "Dmg",
         "long": "Damage Roll",
-        "long2": "Two-Handed Damage Roll. Only if weapon can be used one-handed, otherwise use damage roll field.",
         "short": "Damage",
-        "short2": "2-Hand Damage",
         "type": "Damage Type"
       },
       "grip": {
