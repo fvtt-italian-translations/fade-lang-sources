@@ -222,8 +222,9 @@
             },
             "Attacks": {
                 "abbr": "AT#",
-                "short": "# Attacchi",
-                "long": "Numero di Attacchi"
+                "short": "Attacchi",
+                "long": "Numero di Attacchi",
+                "groupHint": "A quale gruppo appartiene questo attacco? Clicca per scorrere tra i sei gruppi disponibili."
             },
             "NumberAppearing": {
                 "abbr": "PA",
@@ -284,7 +285,9 @@
             "Mod": "Mod",
             "effectiveLevel": "Livello Effettivo",
             "movement2": {
-                "long": "Secondaria"
+                "long": "Secondaria",
+                "abbr": "Sec.",
+                "hint": "Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento via terra."
             }
         },
         "SheetLabel": {
@@ -304,7 +307,10 @@
             "Treasure": "Scheda Tesoro",
             "Species": "Scheda Razza",
             "Condition": "Scheda Condizione",
-            "ClassDefinitionItem": "Scheda Definizione di Classe"
+            "ClassDefinitionItem": "Scheda Definizione di Classe",
+            "ConditionItem": "Scheda Condizione",
+            "SpeciesItem": "Scheda Stirpe",
+            "TreasureItem": "Scheda Tesoro"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -497,7 +503,12 @@
             "rangedAAC": "CAA a Distanza",
             "rangedAC": "CA a Distanza",
             "modBase": "Mod CA Naturale",
-            "dexterityBonus": "Bonus Destrazza: {bonus}"
+            "dexterityBonus": "Bonus Destrazza: {bonus}",
+            "av": {
+                "hint": "Il valore dell'armatura indica quanti punti danno l'armatura blocca.",
+                "long": "Valore Armatura",
+                "short": "VA"
+            }
         },
         "Mastery": {
             "levels": {
@@ -544,6 +555,10 @@
             "trainingFails": {
                 "hint": "Numero di tentativi falliti per raggiungere il livello successivo. Il passaggio al livello di maestria successivo non è automatico; tuttavia, ogni tentativo successivo aumenta la probabilità di successo.",
                 "name": "Addestramento"
+            },
+            "required": {
+                "hint": "Questo personaggio o classe ha una competenza di base con tutti i tipi di armi.",
+                "name": "Competanza Base"
             }
         },
         "SpecialAbility": {
@@ -709,7 +724,9 @@
                 "title": "Gestione Luci"
             },
             "rollFormulaType": {
-                "normal": "Normale"
+                "normal": "Normale",
+                "advantage": "Vantaggio",
+                "disadvantage": "Svantaggio"
             }
         },
         "time": {
@@ -874,7 +891,8 @@
             "timeReset2": "Azzeramento del conteggio globale dei turni.",
             "partyRests": "Il gruppo riposa.",
             "selectTarget": "Deve essere selezionato un bersaglio.",
-            "needRestSoon": "<div class='warning'>Il gruppo dovrà riposare nel turno successivo, altrimenti i suoi TxC e di danno potrebbero essere penalizzati finché non lo farà.</div>"
+            "needRestSoon": "<div class='warning'>Il gruppo dovrà riposare nel turno successivo, altrimenti i suoi TxC e di danno potrebbero essere penalizzati finché non lo farà.</div>",
+            "missingSave": "Il personaggio non possiede il tipo di tiro salvezza richiesto ({type})."
         },
         "class": {
             "key": {
@@ -918,7 +936,9 @@
                 "heal": "Guarigione",
                 "hull": "Scafo",
                 "acid": "Acido",
-                "corrosive": "Corrosiva"
+                "corrosive": "Corrosiva",
+                "fall": "Caduta",
+                "piercing": "Penetra-Armatura"
             }
         },
         "roll": "Tiro",
@@ -953,7 +973,8 @@
                 "conditionHint": "Quando il gruppo ha bisogno di riposo, gli verrà assegnata la condizione appropriata. La condizione verrà rimossa al riposo. Questo richiede che tutti i membri del gruppo siano aggiunti al tracker del gruppo, altrimenti il sistema non sarà in grado di determinare a quali personaggi applicare la condizione.",
                 "turnsHint": "Imposta la frequenza con cui un gruppo deve riposare durante l'esplorazione. Un valore di 6 significa che il gruppo deve riposare una volta ogni sei turni. Imposta a 0 per non dover riposare.",
                 "prev": "Precedente",
-                "rest": "Riposa"
+                "rest": "Riposa",
+                "title": "Traccia Turno"
             },
             "userTables": {
                 "actions": {
@@ -1071,7 +1092,9 @@
             "disadvantage": "Svantaggio",
             "normal": "Normale"
         },
-        "attackRoll": "Tiro per Colpire"
+        "attackRoll": "Tiro per Colpire",
+        "folder": "Cartella",
+        "rollTable": "Tabella"
     },
     "SETTINGS": {
         "Encumbrance": {
@@ -1096,6 +1119,10 @@
             "maxFlight": {
                 "name": "Max. Velocità Secondaria",
                 "hint": "<b>Velocità massima per turno.</b><p>Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento normale. Le distanze di movimento sono misurate in metri</p>"
+            },
+            "maxMove2": {
+                "name": "Max. Velocità di Mov. Sec.",
+                "hint": "<b>Velocità massima di movimento secondario per turno.</b><p> Il movimento secondario può essere qualsiasi altro tipo di movimento che la creatura sia in grado di compiere, oltre al movimento via terra. Le distanze di movimento sono misurate in metri al chiuso e all'aperto.</p>"
             }
         },
         "declaredActions": {
@@ -1218,6 +1245,22 @@
             },
             "name": "Punteggi di Abilità dei Mostri",
             "hint": "Se abilitata, la scheda del mostro includerà i punteggi di abilità, proprio come la scheda del personaggio. Seleziona l'opzione \"Senza Modificatore\" per ignorare i modificatori di caratteristica. Seleziona \"Con Modificatore\" per includerli. Includendo i modificatori, non solo verranno visualizzati sulla scheda, ma verranno anche inclusi nei tiri di dado, come i bonus ai tiri per attacco e per danni."
+        },
+        "extraRollOptions": {
+            "hint": "Attiva/disattiva la visualizzazione di vantaggio/svantaggio su alcuni tiri.",
+            "name": "Mostra Opzioni Tiro Extra"
+        },
+        "runRoundDivisor": {
+            "name": "Divisore Movimento Normale",
+            "hint": "Questo campo rappresenta il divisore utilizzato per calcolare la corsa per round rispetto alla velocità di movimento normale."
+        },
+        "useArmorValue": {
+            "hint": "Il Valore Armatura (VA) è un attributo opzionale del sistema di armature che consente di assegnare una mitigazione del danno fisico agli elementi dell'armatura. Abilitando questa opzione, il VA verrà visualizzato nelle schede dei personaggi. Abilitando questa opzione, il VA verrà anche considerato quando si applica qualsiasi danno.",
+            "name": "Usa Valore Armatura"
+        },
+        "mvRoundDivisor": {
+            "hint": "Questo campo rappresenta il divisore utilizzato per calcolare la velocità di movimento nel round di combattimento rispetto alla velocità di movimento normale.",
+            "name": "Divisore per la Corsa"
         }
     },
     "TYPES": {
