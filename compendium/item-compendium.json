@@ -1027,7 +1027,8 @@
     "Belt": {
       "description": "<p>It's a belt made of leather.</p>",
       "name": "Belt",
-      "unidentifiedDesc": "<p>It's a belt made of leather.</p>"
+      "unidentifiedDesc": "<p>It's a belt made of leather.</p>",
+      "unidentifiedName": "Belt"
     },
     "Blackjack@RksAN1Xa2JeKa7Im": {
       "description": "<p>A blackjack, also known as a cosh, is a small leather club usually filled with sand. Blackjacks are too soft to do significant damage, but are very useful for temporarily knocking people unconscious without doing permanent damage.</p><p>The weapon has no effect on those wearing metal armor of any sort, or any unarmored monster of AC 0 or less. See rules for other details about this weapon, including the ability to knockout, stun and delay the victim.</p><p> </p>",
@@ -2503,6 +2504,19 @@
       "description": "<p>Healing allows the treatment of wounds and diagnosis of illnesses among humans and demihumans. A successful skill roll can restore 1d3 hit points to a wounded character. This skill can only be used once per set of wounds, defined as all hit points lost in a single combat. A natural roll of 20 accidentally inflicts [[/r 1d3 #Healing hit points restored]] damage, and the healer may not attempt to treat those wounds again. Success with a roll of 5 or more indicates the healer can determine if an illness is natural or magically induced.</p>",
       "name": "Healing"
     },
+    "Healing Herbs": {
+      "description": "<p>This potion restores 1-4 hit points [[/r 1d4 # Healing herbs hit points restored.]] or cures paralysis for a single creature. Its effects take place immediately upon consumption.</p>",
+      "name": "Healing Herbs",
+      "unidentifiedDesc": "<p>This potion restores 1-4 hit points [[/r 1d4 # Healing herbs hit points restored.]] or cures paralysis for a single creature. Its effects take place immediately upon consumption.</p>",
+      "unidentifiedName": "Healing Herbs"
+    },
+    "Healing Staff (C)": {
+      "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff, <strong>designed exclusively for clerics</strong>, has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff can heal [[/r 1d6+1 # hit point healed]] hit points per charge expended, as the spell cure light wounds. Alternately, with an expenditure of two charges, the staff can cast cure disease.</span></p>",
+      "name": "Healing Staff (C)",
+      "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
+      "unidentifiedName": "Unusual Staff",
+      "weaponMastery": "Staff"
+    },
     "Hear Noise": {
       "description": "<p>Those with this ability possess a heightened sense of hearing, enabling them to detect faint noises such as footsteps, whispers, and the movements of hidden creatures.</p>",
       "name": "Hear Noise"
@@ -3823,7 +3837,8 @@
     "Pouch, Belt": {
       "description": "<p>A small pouch made of leather or cloth, typically worn on a belt. It can hold up to 50 coins and is used to carry small valuables or other small items.</p>",
       "name": "Pouch, Belt",
-      "unidentifiedDesc": "<p>A small pouch made of leather or cloth, typically worn on a belt. It can hold up to 50 coins and is used to carry small valuables or other small items.</p>"
+      "unidentifiedDesc": "<p>A small pouch made of leather or cloth, typically worn on a belt. It can hold up to 50 coins and is used to carry small valuables or other small items.</p>",
+      "unidentifiedName": "Pouch, Belt"
     },
     "Power Word Blind": {
       "description": "<p>With this spell, the caster may blind one victim within <strong>120'</strong>. The effect is automatic—no saving throw is allowed. The duration of the blindness depends on the victim's current hit points.</p>\n\n                    <h3>Effect Based on Hit Points:</h3>\n                    <ul>\n                      <li><strong>1-40 HP:</strong> Blinded for <strong>[[/r 1d4 #Days Blinded]]</strong> days.</li>\n                      <li><strong>41-80 HP:</strong> Blinded for <strong>[[/r 2d4 #Hours Blinded]]</strong> hours.</li>\n                      <li><strong>81+ HP:</strong> The spell has no effect.</li>\n                    </ul>\n\n                    <h3>Blinded Condition:</h3>\n                    <ul>\n                      <li>Blinded creatures suffer a <strong>-4 penalty</strong> to all saving throws.</li>\n                      <li>Blinded creatures also suffer a <strong>+4 penalty</strong> to their armor class.</li>\n                    </ul>\n\n                    <h3>Removing the Blindness:</h3>\n                    <ul>\n                      <li>A <em>Cure Blindness</em> or <em>Cureall</em> spell can remove the effect, but only if cast by a cleric whose level is <strong>equal to or higher</strong> than the caster of <em>Power Word Blind</em>.</li>\n                    </ul>",
@@ -4147,12 +4162,14 @@
     "Sack, Large": {
       "description": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>",
       "name": "Sack, Large",
-      "unidentifiedDesc": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>"
+      "unidentifiedDesc": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>",
+      "unidentifiedName": "Sack, Large"
     },
     "Sack, Small": {
       "description": "<p>A 1' x 2' cloth or leather bag that can hold up to 200 coins. It can be carried over the shoulder or tied onto a cart or saddle. Often used to store small items or treasure.</p>",
       "name": "Sack, Small",
-      "unidentifiedDesc": "<p>A 1' x 2' cloth or leather bag that can hold up to 200 coins. It can be carried over the shoulder or tied onto a cart or saddle. Often used to store small items or treasure.</p>"
+      "unidentifiedDesc": "<p>A 1' x 2' cloth or leather bag that can hold up to 200 coins. It can be carried over the shoulder or tied onto a cart or saddle. Often used to store small items or treasure.</p>",
+      "unidentifiedName": "Sack, Small"
     },
     "Sacred Retinue (PA)": {
       "description": "<p>A Paladin may only travel with a number of hirelings equal to or less than their effective cleric level (one-third of their Paladin level, rounding down). For example, if a Paladin can cast spells or turn undead as a 5th-level cleric, they may have up to five hirelings accompany them.</p>",
@@ -4194,7 +4211,14 @@
     "Scroll Case": {
       "description": "<p>An oiled leather tube with a cap. Not completely watertight.</p>",
       "name": "Scroll Case",
-      "unidentifiedDesc": "<p>An oiled leather tube with a cap. Not completely watertight.</p>"
+      "unidentifiedDesc": "<p>An oiled leather tube with a cap. Not completely watertight.</p>",
+      "unidentifiedName": "Scroll Case"
+    },
+    "Scroll Case (water-tight)": {
+      "description": "<p>A water-tight oiled leather tube with a fancy sealed cap.</p><p>Holds three scrolls.</p>",
+      "name": "Scroll Case (water-tight)",
+      "unidentifiedDesc": "<p>An oiled leather tube with a cap. Not completely watertight.</p>",
+      "unidentifiedName": "Scroll Case (water-tight)"
     },
     "Scroll of Stone to Flesh": {
       "description": "<p>This scroll contains the magic-user spell *Stone to Flesh*, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, *Flesh to Stone*, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p>",
@@ -4438,9 +4462,10 @@
       "unidentifiedName": "Spellbook"
     },
     "Spellbook, travelling": {
-      "description": "<p>A Spellbook is an essential feature of any Magic-User's kit. This is where their spells and formulae are stored, and is used to prepare for spellcasting.</p><p>A smaller, more portable option is the leather-bound Traveling spellbook. This book is typically about 10” x 6.5” in size with 64 pages. It can store up to 64 levels of spells. Either will fit into a backpack or satchel. In general, a Magic-Users' starting book is assumed to be a Traveling book, but a player may start with a Reference book if the GM allows it.</p><p>The initial spellbook of a Magic-User is given as a gift from their instructors.</p>",
+      "description": "<p>A Spellbook is an essential feature of any Magic-User's kit. This is where their spells and formulae are stored, and is used to prepare for spellcasting.</p><p>A smaller, more portable option is the leather-bound Traveling spellbook. This book is typically about 10” x 6.5” in size with sixty-four pages. It can store up to thirty-two spells. Either will fit into a backpack or satchel. In general, a Magic-Users' starting book is assumed to be a Traveling book.</p><p>The initial spellbook of a Magic-User is given as a gift from their instructors.</p>",
       "name": "Spellbook, travelling",
-      "unidentifiedDesc": "<p>A Spellbook is an essential feature of any Magic-User's kit. This is where their spells and formulae are stored, and is used to prepare for spellcasting.</p><p>A smaller, more portable option is the leather-bound Traveling spellbook. This book is typically about 10” x 6.5” in size with 64 pages. It can store up to 64 levels of spells. Either will fit into a backpack or satchel. In general, a Magic-Users' starting book is assumed to be a Traveling book, but a player may start with a Reference book if the GM allows it.</p><p>The initial spellbook of a Magic-User is given as a gift from their instructors.</p>"
+      "unidentifiedDesc": "<p>A Spellbook is an essential feature of any Magic-User's kit. This is where their spells and formulae are stored, and is used to prepare for spellcasting.</p><p>A smaller, more portable option is the leather-bound Traveling spellbook. This book is typically about 10” x 6.5” in size with 64 pages. It can store up to 64 levels of spells. Either will fit into a backpack or satchel. In general, a Magic-Users' starting book is assumed to be a Traveling book, but a player may start with a Reference book if the GM allows it.</p><p>The initial spellbook of a Magic-User is given as a gift from their instructors.</p>",
+      "unidentifiedName": "Spellbook, travelling"
     },
     "Spells or Magic Staff": {
       "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
