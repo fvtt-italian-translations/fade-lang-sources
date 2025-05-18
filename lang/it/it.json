@@ -410,7 +410,11 @@
             },
             "isTreasure": {
                 "hint": "Specificare se l'oggetto è considerato un tesoro nel calcolo dell'ingombro."
-            }
+            },
+            "dropped": {
+                "name": "Lasciato"
+            },
+            "isDropped": "Lasciato"
         },
         "Weapon": {
             "plural": "Armi",
