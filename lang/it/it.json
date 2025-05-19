@@ -341,7 +341,7 @@
             "weight": {
                 "abbr": "mon",
                 "abbrPlural": "mon",
-                "desc": "L'ingombro è il valore tra volume e il peso di un oggetto misurato in monete d'oro (1mo = 50g)",
+                "desc": "Ingombro dell' oggetto misurato in monete d'oro (1mo = 50g)",
                 "short": "Ing (mon)",
                 "short2": "Ing",
                 "long": "Ingombro (mon)",
@@ -412,9 +412,14 @@
                 "hint": "Specificare se l'oggetto è considerato un tesoro nel calcolo dell'ingombro."
             },
             "dropped": {
-                "name": "Lasciato"
+                "name": "Lasciato",
+                "hint": "Un oggetto abbandonato non può essere utilizzato e non viene conteggiato come ingombro."
             },
-            "isDropped": "Lasciato"
+            "isDropped": "Lasciato",
+            "weightEquipped": {
+                "desc": "Valore di ingombro dell'oggetto indossato o equipaggiato.",
+                "short": "Ing. Equipaggiato"
+            }
         },
         "Weapon": {
             "plural": "Armi",
