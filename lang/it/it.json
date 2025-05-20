@@ -1148,7 +1148,11 @@
         },
         "weaponMastery": {
             "name": "Maestria Armi",
-            "hint": "Se abilitato, verranno utilizzate le regole della Maestria delle Armi"
+            "hint": "Se abilitato, verranno utilizzate le regole della Maestria delle Armi",
+            "choices": {
+                "none": "Nessuno",
+                "classic": "Classic"
+            }
         },
         "toHitSystem": {
             "choices": {
