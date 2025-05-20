@@ -685,6 +685,10 @@
       "key": {
         "hint": "The key used for single-letter references to a class. Example for a Fighter would be 'F'.",
         "name": "Key"
+      },
+      "unskilledToHitMod": {
+        "hint": "Unskilled weapon usage attack roll penalty.",
+        "name": "U/S Mod"
       }
     },
     "combat": {
@@ -1203,7 +1207,12 @@
       "name": "Use Armor Value"
     },
     "weaponMastery": {
-      "hint": "If enabled, weapon mastery rules will be used.",
+      "choices": {
+        "classic": "Classic",
+        "heroic": "Heroic",
+        "none": "None"
+      },
+      "hint": "The weapon mastery system is optional and allows characters to specialize in specific weapon types. None will disable weapon mastery. Classic provides simple proficiency rules where, depending on the class, unskilled weapon usage incurs a penalty and specializing in a weapon results in an attack and damge roll bonus. Heroic is a complex system where there are multiple levels of mastery, mastery-based skills, AC bonus and other combat mechanics.",
       "name": "Weapon Mastery"
     }
   },
