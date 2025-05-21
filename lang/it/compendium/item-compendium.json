@@ -1664,7 +1664,7 @@
         },
         "Spellbook, travelling": {
             "name": "Libro Incantesimi da viaggio",
-            "description": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>",
+            "description": "<p>Un libro degli incantesimi è una elemento essenziale per qualsiasi utente di magia. È qui che vengono conservati i suoi incantesimi e le sue formule, e viene utilizzato per prepararsi al lancio degli incantesimi.</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro ha in genere una dimensione di circa 25 x 16,5 cm ed è composto da 64 pagine e può contenere fino a 32 incantesimi. Entrambi possono stare in uno zaino o in una borsa. In generale, il libro di base è considerato un libro da viaggio.</p><p>Il libro degli incantesimi iniziale viene dato in dono dai suoi insegnanti.</p>",
             "unidentifiedDesc": "<p>Un libro degli incantesimi è una caratteristica essenziale dell'equipaggiamento di qualsiasi mago. Qui vengono conservati i loro incantesimi e formule, ed è usato per prepararsi al lancio degli incantesimi</p><p>Un'opzione più piccola e portatile è il libro degli incantesimi da viaggio rilegato in pelle. Questo libro è tipicamente di circa 25 cm x 16.5 cm con 64 pagine. Può conservare fino a 64 livelli di incantesimi. Entrambi possono essere inseriti in uno zaino o in una borsa a tracolla. In generale, si presume che il libro iniziale di un incantatore sia un libro da viaggio, ma un giocatore può iniziare con un libro di riferimento se il GM lo permette</p><p>Il libro degli incantesimi iniziale di un incantatore è dato come regalo dai loro istruttori</p>",
             "unidentifiedName": "Libro Incantesimi da viaggio"
         },
@@ -5268,7 +5268,7 @@
         },
         "Wand of Secret Door Detection (M)": {
             "description": "<p>Chi la usa può trovare qualsiasi porta segreta entro 6 m, utilizzando una carica per ogni porta segreta trovata.</p><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta elegantemente realizzata è realizzata in legno argentato scintillante, adornata con intricate incisioni di simboli antichi. La sua punta brilla debolmente con una luce morbida ed eterea, pulsando delicatamente come se fosse viva. Quando viene impugnata, la bacchetta sembra ronzare con un'energia sottile, guidando chi la impugna con un calore intuitivo. Un delicato cristallo incastonato nell'impugnatura rifrange la luce in motivi ipnotizzanti, alludendo alle sue abilità nascoste.</span></p>",
-            "unidentifiedName": "Una normale bacchetta",
+            "unidentifiedName": "Una bacchetta insolita",
             "name": "Bacchetta Trova Porte Segrete (M)",
             "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta magica, realizzata con eleganza, è realizzata in legno argentato scintillante ed è decorata con intricati intagli di simboli antichi. La sua punta brilla debolmente con una luce morbida ed eterea, pulsando delicatamente come se fosse viva. Quando viene impugnata, la bacchetta sembra ronzare con un'energia sottile, guidando chi la impugna con un calore intuitivo. Un delicato cristallo incastonato nell'impugnatura rifrange la luce in motivi ipnotizzanti, alludendo alle sue abilità nascoste.</span></p>"
         },
@@ -5714,10 +5714,23 @@
             "name": "Addormentato"
         },
         "Healing Staff (C)": {
-            "weaponMastery": "Bastone Ferrato"
+            "weaponMastery": "Bastone Ferrato",
+            "name": "Bastone della Guarigione (C)",
+            "unidentifiedName": "Bastone insolito",
+            "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questo bastone, <strong>creato esclusivamente per chierici</strong>, ha un aspetto robusto e levigato, realizzato in un ricco legno scuro. La sommità è adornata con un simbolo di guarigione splendidamente intagliato, circondato da intricati disegni che evocano un senso di potere divino</span></p><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questo bastone può guarire [[/r 1d6+1 # punti ferita guariti]] punti ferita per carica spesa, come l'incantesimo guarire ferite leggere. In alternativa, con l'impiego di due cariche, il bastone può lanciare curare malattia</span></p>",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questo bastone ha un aspetto robusto e levigato, realizzato in un ricco legno scuro. La sommità è adornata con un simbolo di guarigione splendidamente intagliato, circondato da intricati disegni che evocano un senso di potere divino</span></p>"
         },
         "Scroll Case (water-tight)": {
-            "unidentifiedDesc": "<p>Un tubo di cuoio oliato con un tappo. Non è completamente impermeabile</p>"
+            "unidentifiedDesc": "<p>Un tubo di cuoio oliato con un tappo. Non è completamente impermeabile</p>",
+            "description": "<p>Un tubo di cuoio oliato a tenuta stagna con un elegante tappo sigillato.</p><p>Contiene tre pergamene.</p>",
+            "name": "Custodia per pergamene (a tenuta stagna)",
+            "unidentifiedName": "Custodia per pergamene (a tenuta stagna)"
+        },
+        "Healing Herbs": {
+            "name": "Erbe Curative",
+            "unidentifiedDesc": "<p>Questa pozione ripristina 1-4 punti ferita [[/r 1d4 # Punti ferita ripristinati dalle erbe curative.]] o cura la paralisi di una singola creatura. I suoi effetti si manifestano immediatamente dopo il consumo.</p>",
+            "description": "<p>Questa pozione ripristina 1-4 punti ferita [[/r 1d4 # Punti ferita ripristinati dalle erbe curative.]] o cura la paralisi di una singola creatura. I suoi effetti si manifestano immediatamente dopo il consumo.</p>",
+            "unidentifiedName": "Erbe Curative"
         }
     },
     "label": "Oggetti Classi Abilità",
