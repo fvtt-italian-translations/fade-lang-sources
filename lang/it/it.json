@@ -907,6 +907,10 @@
             "key": {
                 "name": "Chiave",
                 "hint": "Chiave utilizzata come riferimento a una classe con una singola lettera. L'esempio di un Guerriero sarebbe \"F\" (Fighter)."
+            },
+            "unskilledToHitMod": {
+                "name": "S/M Mod",
+                "hint": "Penalità al tiro per colpire dovuto all'uso di armi senza maestria (S/M)."
             }
         },
         "Effect": {
@@ -1148,10 +1152,11 @@
         },
         "weaponMastery": {
             "name": "Maestria Armi",
-            "hint": "Se abilitato, verranno utilizzate le regole della Maestria delle Armi",
+            "hint": "La maestria delle armi è opzionale e permette ai personaggi di specializzarsi in specifici tipi di armi. Nessuno di questi sistemi ne impedirà la padronanza. La modalità Classica offre semplici regole di competenza in cui, a seconda della classe, l'uso non specializzato di un'arma comporta una penalità e la specializzazione in un'arma comporta un bonus al tiro per colpire e per i danni. La modalità Eroica è un sistema complesso in cui sono presenti diversi livelli di padronanza, abilità basate sulla padronanza, bonus alla CA e altre meccaniche di combattimento.",
             "choices": {
                 "none": "Nessuno",
-                "classic": "Classic"
+                "classic": "Classic",
+                "heroic": "Eroico"
             }
         },
         "toHitSystem": {
