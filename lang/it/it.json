@@ -919,7 +919,11 @@
             "Toggle": "Effetto ON/OFF",
             "Temporary": "Effetti Temporanei",
             "Passive": "Effetti Passivi",
-            "Inactive": "Effetti Inattivi"
+            "Inactive": "Effetti Inattivi",
+            "status": {
+                "infravision": "Infravisione",
+                "slowed": "Rallentato"
+            }
         },
         "Tags": {
             "addTags": "+etichette",
@@ -1075,7 +1079,8 @@
                 "hint": "Se selezionato, la condizione verrà aggiunta come effetto di stato."
             },
             "key": {
-                "hint": "Lettera chiave utilizzata per fare riferimento a questo oggetto. Può essere lunga uno o più caratteri ma non deve includere caratteri speciali."
+                "hint": "Lettera chiave utilizzata per fare riferimento a questo oggetto. Può essere lunga uno o più caratteri ma non deve includere caratteri speciali.",
+                "name": "Chiave"
             }
         },
         "rollWithCtrl": "<p>Tira prova su {name}.</p><p><i>Clicca per effettuare il tiro. Ctrl-click per effettuare il tiro senza mod.</i></p>",
