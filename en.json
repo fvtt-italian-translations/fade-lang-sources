@@ -202,6 +202,10 @@
         "hint": "The lowest level for this class.",
         "name": "First Level"
       },
+      "firstSpellLevel": {
+        "hint": "The first spell level for this class.",
+        "name": "First Spell Level"
+      },
       "hdConBonus": {
         "hint": "Character's Constitution modifier is added to the hit die roll.",
         "name": "HD Con."
@@ -368,7 +372,13 @@
       "Source": "Source",
       "Temporary": "Temporary Effects",
       "Toggle": "Toggle Effect",
-      "short": "Effect"
+      "short": "Effect",
+      "status": {
+        "hasted": "Hasted",
+        "infravision": "Infravision",
+        "mirrorImaged": "Mirror Imaged",
+        "slowed": "Slowed"
+      }
     },
     "GMNotes": "GM Notes",
     "Item": {
@@ -505,6 +515,7 @@
       "wrBonus": "WR Bonus"
     },
     "SheetLabel": {
+      "ActorClassItem": "Actor Class Item Sheet",
       "ActorMasteryItem": "Actor Mastery Item Sheet",
       "ArmorItem": "Armor Item Sheet",
       "Character": "Character Sheet (tabbed)",
@@ -552,6 +563,7 @@
       "SpellLVL": "Spell Level {level}",
       "availableSlots": "Available slots",
       "cast": "Spell has been cast this many times",
+      "castSlots": "Spells cast",
       "casts": "casts",
       "duration": "Duration",
       "durationFormula": "Duration Roll",
@@ -565,8 +577,7 @@
       "resetSlots": "Reset memorized spells to zero casts. Memorized count will not be changed.",
       "slots": "Slots",
       "targetOther": "Target Other",
-      "targetSelf": "Target Self",
-      "usedSlots": "Used slots"
+      "targetSelf": "Target Self"
     },
     "Tags": {
       "addLanguage": "Add Language",
@@ -682,9 +693,13 @@
     "category": "Category",
     "changes": "Changes",
     "class": {
+      "castAsKey": {
+        "hint": "They key of the class that this class casts as. For instance, Elf class can cast as M (Magic-User). Some classes allow casting at 1/3rd the level and these can be designated with /3 after the class key.",
+        "name": "Cast As Key"
+      },
       "key": {
         "hint": "The key used for single-letter references to a class. Example for a Fighter would be 'F'.",
-        "name": "Key"
+        "name": "Class Key"
       },
       "unskilledToHitMod": {
         "hint": "Unskilled weapon usage attack roll penalty.",
@@ -814,7 +829,8 @@
         "name": "Status Effect"
       },
       "key": {
-        "hint": "The key used for refering to this item. Can be one or more characters in length and should not include any special characters."
+        "hint": "The key used for refering to this item. Can be one or more characters in length and should not include any special characters.",
+        "name": "Key"
       },
       "plural": "Conditions"
     },
@@ -1093,6 +1109,14 @@
       "hint": "The Ability Score Modifier System determines how ability score modifiers are calculated. Dark Dungeons is going to be compatible with many 'Basic/Expert' game system and is the default. Simple provides a simple +1 bonus on scores 15 and above while applying a -1 penalty on scores at or below 6.",
       "name": "Ability Score Modifier System"
     },
+    "classSystem": {
+      "choices": {
+        "advanced": "Advanced",
+        "single": "Single"
+      },
+      "hint": "Specify whether multiple classes are allowed per character. Selecting \"Single\" will disable multiple classes, and the UI for class data will remain unchanged. Choosing \"Advanced\" will enable multiple classes, allowing for manual configuration of elements related to each class being used. Due to the complex nature of multi-class characters, automation and display of hit dice and XP bonuses will be shown per class, and it will be up to the players and GM to handle the calculations.",
+      "name": "Character Class System"
+    },
     "collapseState": {
       "hint": "When enabled, the item lists will remember their collapse state individually for each character.",
       "name": "Remember Collapse State"
@@ -1222,8 +1246,9 @@
       "monster": "Monster"
     },
     "Item": {
+      "actorClass": "Actor Class",
       "armor": "Armor",
-      "class": "Character Class",
+      "class": "Character Class Definition",
       "condition": "Condition",
       "item": "Item",
       "light": "Light",
