@@ -701,6 +701,10 @@
         "hint": "The key used for single-letter references to a class. Example for a Fighter would be 'F'.",
         "name": "Class Key"
       },
+      "primary": {
+        "hint": "When a class is designated as primary, it will be considered when awarding XP and determining which class's saving throws to use. If multiple classes are designated as primary, XP is divided evenly, up to one point away from the next level, and saving throws are determined by taking the best from all primary classes.",
+        "name": "Primary"
+      },
       "unskilledToHitMod": {
         "hint": "Unskilled weapon usage attack roll penalty.",
         "name": "U/S Mod"
