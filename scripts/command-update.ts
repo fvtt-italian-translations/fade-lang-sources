@@ -149,7 +149,7 @@ async function handleActor(
 
 const commonSpellRange = ["Touch", "Personal"];
 function isCommonSpellRange(range: string) {
-  return range.match(/^\d+'$/) || commonSpellRange.includes(range);
+  return range.match(/^\d+'?$/) || commonSpellRange.includes(range);
 }
 
 const commonSpellDuration = ["Instantaneous", "Permanent", "Concentration"];
@@ -389,7 +389,11 @@ interface EntryItemSkill extends EntryItemBase {
 
 interface EntryItemLight extends EntryItemBase {
   type: "light";
-  system: SystemItemBase & {};
+  system: SystemItemBase & {
+    light: {
+      radius: number;
+    };
+  };
 }
 
 interface EntryItemSpell extends EntryItemBase {
@@ -405,6 +409,11 @@ interface EntryItemWeapon extends EntryItemBase {
   type: "weapon";
   system: SystemItemBase & {
     mastery: string;
+    range: {
+      long?: number;
+      medium?: number;
+      short?: number;
+    };
   };
 }
 
@@ -433,7 +442,16 @@ interface EntryItemClass extends EntryItemBase {
 
 interface EntryItemWeaponMastery extends EntryItemBase {
   type: "weaponMastery";
-  system: SystemItemBase & {};
+  system: SystemItemBase & {
+    levels: {
+      special: string;
+      range: {
+        long?: number;
+        medium?: number;
+        short?: number;
+      };
+    }[];
+  };
 }
 
 interface EntryItemSpecialAbility extends EntryItemBase {
