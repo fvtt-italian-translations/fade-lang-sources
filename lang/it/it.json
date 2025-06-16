@@ -57,11 +57,6 @@
                 "short": "Lotta",
                 "abbr": "VL"
             },
-            "Flight": {
-                "abbr": "Sec.",
-                "long": "Secondario",
-                "hint": "Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento normale."
-            },
             "Movement": {
                 "abbr": "MV",
                 "long": "Movimento",
@@ -77,33 +72,13 @@
                 "moveTurn": "Movimento Base"
             },
             "Saves": {
-                "death": {
-                    "long": "Veleno o Raggio della Morte",
-                    "abbr": "Morte"
-                },
-                "wand": {
-                    "long": "Bacchetta Magica",
-                    "abbr": "Bacchetta"
-                },
-                "paralysis": {
-                    "abbr": "Pietrifica",
-                    "long": "Pietrificazione o Paralisi"
-                },
                 "saveAs": {
                     "long": "Salva come",
                     "abbr": "TS"
                 },
                 "long": "Tiri Salvezza",
                 "short": "TS",
-                "singular": "Tiro Salvezza",
-                "breath": {
-                    "long": "Soffio del Drago",
-                    "abbr": "Soffio"
-                },
-                "spell": {
-                    "long": "Incantesimi, Verga o Bastone Magico",
-                    "abbr": "Incantesimi"
-                }
+                "singular": "Tiro Salvezza"
             },
             "Abilities": {
                 "dex": {
@@ -198,27 +173,7 @@
             "Other": "Altro",
             "RetainerWage": "Paga",
             "explore": {
-                "long": "Esplorazione",
-                "OpenDoor": {
-                    "long": "Forzare porte o sollevare oggetti pesanti",
-                    "short": "Forzare Porte",
-                    "abbr": "FP"
-                },
-                "SecretDoor": {
-                    "long": "Individua porte o passaggi segreti",
-                    "short": "Passaggi Segreti",
-                    "abbr": "PS"
-                },
-                "ListenDoor": {
-                    "long": "Origliare porte o sentire rumori a distanza",
-                    "short": "Sentire Rumori",
-                    "abbr": "SR"
-                },
-                "FindTrap": {
-                    "long": "Trova una trappola o un pericolo nascosto di dimensioni medio-grandi",
-                    "short": "Scoprire Trappole",
-                    "abbr": "ST"
-                }
+                "long": "Esplorazione"
             },
             "Attacks": {
                 "abbr": "AT#",
@@ -242,8 +197,6 @@
                 "desc": "Numero di attacchi fatti in questo round"
             },
             "AT#Recv": {
-                "name": "AT# RCV",
-                "desc": "Numero di attacchi ricevuti in questo round",
                 "descM": "Numero di attacchi da mostri/distanza ricevuti in questo turno.",
                 "descH": "Numero di attacchi in mischia ricevuti questo turno.",
                 "nameH": "AT# ricev. M",
@@ -293,7 +246,6 @@
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
             "ArmorItem": "Scheda Armatura",
-            "ClassItem": "Scheda Classe",
             "Item": "Scheda Equipaggiamento",
             "MasteryDefinitionItem": "Scheda Definizione Maestria Armi",
             "SpellItem": "Scheda Incantesimo",
@@ -304,9 +256,6 @@
             "Character": "Scheda-PG FaDe (con schede)",
             "Monster": "Scheda Mostro/PNG",
             "LightItem": "Scheda Luce (oggetto)",
-            "Treasure": "Scheda Tesoro",
-            "Species": "Scheda Razza",
-            "Condition": "Scheda Condizione",
             "ClassDefinitionItem": "Scheda Definizione di Classe",
             "ConditionItem": "Scheda Condizione",
             "SpeciesItem": "Scheda Stirpe",
@@ -327,7 +276,6 @@
             "SpellLVL": "{level}° Livello",
             "slots": "Lanci",
             "resetSlots": "Ripristina gli incantesimi memorizzati a zero lanci. Il conteggio memorizzato non verrà modificato",
-            "usedSlots": "Lanci usati",
             "availableSlots": "Lanci disponibili",
             "cast": "L'incantesimo è stato lanciato questo numero di volte",
             "durationFormulaHint": "La durata dell'effetto in round. Un simbolo di infinito indica una durata infinita. Uno zero indica un effetto istantaneo senza durata.",
@@ -339,13 +287,11 @@
             "equip": "Equipaggia",
             "unequip": "Riponi",
             "weight": {
-                "abbr": "mon",
                 "abbrPlural": "mon",
                 "desc": "Ingombro dell' oggetto misurato in monete d'oro (1mo = 50g)",
                 "short": "Ing (mon)",
                 "short2": "Ing",
-                "long": "Ingombro (mon)",
-                "long2": "Ingombro"
+                "long": "Ingombro (mon)"
             },
             "cost": {
                 "abbr": "mo",
@@ -371,8 +317,6 @@
                 "bright": "Intensa",
                 "brightHint": "Il raggio della parte centrale intensa della luce.",
                 "durationHint": "La durata della sorgente luminosa.",
-                "turnsActiveHint": "Quanti turni questo oggetto è stato attivo.",
-                "turnsActive": "Turni Accesa",
                 "color": "Colore",
                 "colorHint": "Questo è il codice colore HTML della luce. Es., #d0a750.",
                 "attenuation": "Attenuazione",
@@ -393,8 +337,6 @@
                     "candle": "Candela",
                     "bullseye": "Schermabile"
                 },
-                "secondsActive": "Secondi Attiva",
-                "secondsActiveHint": "Quanti secondi questo oggetto è stato attivo.",
                 "secondsRemaining": "Sec. Rimasti",
                 "secondsRemainingHint": "Quanti secondi durerà questa luce.",
                 "turnsRemaining": "Turni Rimasti",
@@ -451,9 +393,7 @@
                 "abbr": "Dnn",
                 "short": "Danno",
                 "type": "Tipo di Danno",
-                "short2": "Danno a 2-Mani",
-                "long": "Dado Danno",
-                "long2": "Tira per i danni a 2-Mani solo se l'arma può essere usata con una mano sola, altrimenti tira i danni normali."
+                "long": "Dado Danno"
             },
             "ammo": {
                 "short": "Muniz.",
@@ -489,7 +429,6 @@
             "armorWeight": {
                 "short": "Peso",
                 "choices": {
-                    "none": "Nullo",
                     "light": "Leggero",
                     "heavy": "Pesante"
                 }
@@ -655,20 +594,12 @@
             "abilityCheck": "Prova di Caratteristica",
             "skillCheck": "Prova di Abilità",
             "selectLightSource": "Seleziona fonte luminosa",
-            "ignite": "Accendi",
-            "extinguish": "Spegni",
             "selectWeapon": "Seleziona arma",
             "spellcast": {
                 "title": "Lanciare l'incantesimo?",
                 "content": "Vuoi lanciare l'incantesimo o vedere solo la sua descrizione?",
                 "yesLabel": "Lancia incantesimo",
                 "noLabel": "Vedi descrizione"
-            },
-            "attackMode": {
-                "name": "La Tua Modalità d'Attacco",
-                "natural": "Naturale",
-                "2hand": "2-Mani",
-                "1hand": "1-Mano"
             },
             "attackType": {
                 "missile": "Distanza",
@@ -679,7 +610,6 @@
             "awardXP": {
                 "short": "Ricompensa PX",
                 "long": "Ricompensa Punti Esperienza",
-                "awarded": "PX assegnati con successo!",
                 "xpAmountTotal": "PX Totali",
                 "xpAmount": "Ammontare in PX",
                 "share": "Condividi",
@@ -737,18 +667,6 @@
                 "advantage": "Vantaggio",
                 "disadvantage": "Svantaggio"
             }
-        },
-        "time": {
-            "prev": "Indietro",
-            "prevDesc": "Ripristina Turno",
-            "resetSession": "Ricomincia Sessione",
-            "resetTotal": "Azzera Totale",
-            "sessionCount": "N° Sessione",
-            "totalCount": "Tot Sessioni",
-            "sinceRest": "Ultimo Riposo",
-            "rest": "Riposa",
-            "next": "Prossimo",
-            "nextDesc": "Turno Successivo"
         },
         "tabs": {
             "abilities": "Caratteristiche",
@@ -952,7 +870,6 @@
                 "poison": "Veleno",
                 "heal": "Guarigione",
                 "hull": "Scafo",
-                "acid": "Acido",
                 "corrosive": "Corrosiva",
                 "fall": "Caduta",
                 "piercing": "Penetra-Armatura"
@@ -1105,11 +1022,6 @@
         "items": "Oggetti",
         "type": "Tipo",
         "rollFormula": "Tiro Formula",
-        "rollFormulaType": {
-            "advantage": "Vantaggio",
-            "disadvantage": "Svantaggio",
-            "normal": "Normale"
-        },
         "attackRoll": "Tiro per Colpire",
         "folder": "Cartella",
         "rollTable": "Tabella"
@@ -1133,10 +1045,6 @@
             "max": {
                 "name": "Max. Velocità di Mov.",
                 "hint": "<b>Velocità massima al suolo per turno.</b><p>Le distanze di movimento sono misurate in metri</p>"
-            },
-            "maxFlight": {
-                "name": "Max. Velocità Secondaria",
-                "hint": "<b>Velocità massima per turno.</b><p>Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento normale. Le distanze di movimento sono misurate in metri</p>"
             },
             "maxMove2": {
                 "name": "Max. Velocità di Mov. Sec.",
@@ -1184,10 +1092,6 @@
             "hint": "Mostra frasi speciali ai tiri di dado",
             "name": "Complimenti Tiro Dado"
         },
-        "rest": {
-            "name": "Turni di Riposo",
-            "hint": "Configura la frequenza con cui un gruppo deve riposarsi durante l'esplorazione. Un valore pari a 6 significherebbe che il gruppo deve riposare una volta ogni sei turni. Impostalo su 0 per non richiedere il riposo"
-        },
         "initiative": {
             "formula": {
                 "name": "Formula per l'Iniziativa",
@@ -1199,19 +1103,9 @@
                     "simpleIndividual": "Individuale (semplificata)",
                     "individual": "Individuale",
                     "individualChecklist": "Individuale (combattimento controllato)",
-                    "group": "Gruppo (combat controllato)",
-                    "groupHybrid": "Gruppo (individuale ibrido)"
+                    "group": "Gruppo (combat controllato)"
                 },
                 "hint": "Scegli tra iniziativa di gruppo o iniziativa individuale. La modalità INDIVIDUALE (SEMPLIFICATA) ordina esclusivamente per tiro di iniziativa più eventuali modificatori. La modalità INDIVIDUALE aggiunge la regola delle armi a 2-mani, facendo perdere l'iniziativa agli utilizzatori di armi a 2-mani. La modalità INDIVIDUALE (COMBAT CONTROLLATO) combina l'iniziativa individuale con l'ordine della lista di combattimento controllato quando sono abilitate le azioni dichiarate. La modalità GRUPPO (COMBAT CONTROLLATO) raggruppa i combattenti in base alla disposizione dei token e ordina anche all'interno di un gruppo in base alle azioni dichiarate (se abilitate)."
-            },
-            "modifier": {
-                "name": "Modificatore Iniziativa di Gruppo",
-                "hint": "Scegli come calcolare il modificatore dell'iniziativa di gruppo",
-                "choices": {
-                    "none": "Nessun Modificatore",
-                    "average": "Destrezza Media",
-                    "highest": "Destrezza Massima"
-                }
             },
             "nextRound": {
                 "name": "Modalità Prossimo Turno d'Iniziativa",
@@ -1235,8 +1129,7 @@
         },
         "abilityScoreModSystem": {
             "choices": {
-                "darkdungeons": "Dark Dungeons",
-                "simple": "Semplice"
+                "darkdungeons": "Dark Dungeons"
             },
             "name": "Sistema di Modificatori dei Punteggi di Abilità",
             "hint": "Il Sistema di Modificatori dei Punteggi delle Abilità determina come vengono calcolati i modificatori dei loro punteggi. Dark Dungeons sarà compatibile con molti sistemi di gioco \"Base/Esperto\" ed è l'impostazione predefinita. Fornisce semplicemente un bonus di +1 sui punteggi di 15 o più, mentre applica una penalità di -1 sui punteggi pari o inferiori a 6."
