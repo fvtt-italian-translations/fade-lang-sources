@@ -296,7 +296,6 @@
         "Commune": {
             "name": "Comunicazione con gli Dei",
             "spellEffect": "3 domande consentite",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo permette al chierico di porre tre domande a cui si risponde con sì o no alle potenze superiori (come le forze della natura, gli spiriti maggiori o gli Immortali).</p>\n                      <p><strong>Utilizzo:</strong> Può essere usato solo una volta alla settimana. Il DM può limitare questo utilizzo a una volta al mese se viene usato eccessivamente. Una volta all'anno, il chierico può porre sei domande, solitamente in un giorno significativo per le potenze interrogate.</p>"
         },
         "Confuse Alignment*": {
@@ -467,8 +466,7 @@
         "Detect Magic": {
             "name": "Individuazione del Magico",
             "spellEffect": "Ogni cosa entro 18 metri",
-            "description": "<p>Questo incantesimo consente al mago di vedere un bagliore che circonda tutti gli oggetti magici, le creature e i luoghi entro 18 m. Il mago può vedere il bagliore solo se gli oggetti sono visibili; gli oggetti nascosti non mostreranno il loro bagliore. Non è consentito alcun tiro salvezza.</p>\n                <p><strong>Esempio:</strong> Dopo aver lanciato l'incantesimo, un mago può vedere una porta luminosa (chiusa con la magia) e una pozione luminosa. Una bacchetta magica all'interno di uno scrigno del tesoro non sarebbe visibile poiché lo scrigno nasconde il suo bagliore.</p>",
-            "spellRange": "0"
+            "description": "<p>Questo incantesimo consente al mago di vedere un bagliore che circonda tutti gli oggetti magici, le creature e i luoghi entro 18 m. Il mago può vedere il bagliore solo se gli oggetti sono visibili; gli oggetti nascosti non mostreranno il loro bagliore. Non è consentito alcun tiro salvezza.</p>\n                <p><strong>Esempio:</strong> Dopo aver lanciato l'incantesimo, un mago può vedere una porta luminosa (chiusa con la magia) e una pozione luminosa. Una bacchetta magica all'interno di uno scrigno del tesoro non sarebbe visibile poiché lo scrigno nasconde il suo bagliore.</p>"
         },
         "Detect Secret Door": {
             "name": "Cercare Porte Segrete",
@@ -758,7 +756,6 @@
         "Floating Disc": {
             "name": "Disco Fluttuante",
             "spellEffect": "Il disco rimane entro 1.8 m",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo crea un disco invisibile e orizzontale capace di trasportare fino a 5000 mon (250 kg). Il disco rimane all'altezza della vita dell'incantatore e lo segue, rimanendo entro 1.8 m in ogni momento. Non può essere utilizzato come arma o attraversare ostacoli. Quando l'incantesimo termina, il disco scompare, lasciando cadere qualsiasi cosa stesse trasportando.</p>"
         },
         "Fly": {
@@ -998,7 +995,6 @@
             "name": "Levitazione",
             "spellEffect": "Solo l'incantatore",
             "spellDuration": "6 turni + 1 turno per livello dell'incantatore",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo permette all'incantatore di muoversi verticalmente, su o giù, senza supporto. L'incantatore non può muoversi lateralmente senza spingere contro qualcosa. Il movimento verticale avviene a una velocità di 6 m per round.</p><p>L'incantesimo può essere lanciato solo sull'incantatore, che può trasportare fino a 2.000 mon (100 kg) mentre levita. L'incantatore può trasportare un'altra creatura della dimensione di un uomo se non indossa un'armatura metallica o non è pesantemente caricata. Non è permesso alcun tiro salvezza per il bersaglio levitato.</p><p><strong>Durata:</strong> 6 turni più 1 turno per livello.</p>"
         },
         "Light*": {
@@ -1161,7 +1157,6 @@
         "Mirror Image": {
             "name": "immagini Illusorie",
             "spellEffect": "Solo l'incantatore",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo crea [[/r 1d4 #Numero di Immagini]] duplicati illusori dell'incantatore che si muovono e agiscono come lui. Le immagini rimangono entro 90 cm dall'incantatore e imitano i suoi movimenti e discorsi senza richiedere concentrazione.</p>\n        <p>Le immagini non sono reali e non possono compiere alcuna azione. Qualsiasi attacco riuscito che colpirebbe l'incantatore distrugge invece una delle immagini, indipendentemente dai danni. Questo continua finché tutte le immagini non sono sparite. Gli attacchi d'area, come una palla di fuoco, distruggono tutte le immagini contemporaneamente e colpiscono anche l'incantatore.</p>"
         },
         "Mountaineering": {
@@ -1388,13 +1383,11 @@
         "Protection from Evil": {
             "name": "Protezione dal Male",
             "spellEffect": "Solo l'incantatore",
-            "description": "<p>Questo incantesimo crea una barriera magica invisibile attorno all'incantatore, estendendosi a meno di 3 cm dal suo corpo. Concede un bonus di +1 a tutti i tiri salvezza e impone una penalità di -1 ai tiri per colpire effettuati contro l'incantatore. L'incantesimo protegge anche l'incantatore dagli attacchi di creature incantate in combattimento corpo a corpo.</p>\n                <p><strong>Creature Incantate:</strong> Creature che non possono essere danneggiate da armi non magiche, creature che possono essere colpite solo da armi magiche, o creature che sono evocate o controllate magicamente (come una creatura ammaliata). Questo non include le creature che richiedono armi d'argento, come i lupi mannari.</p>\n                <p>Le creature incantate non sono in grado di toccare l'incantatore con attacchi corpo a corpo, ma possono ancora usare armi a distanza (con una penalità di -1 ai tiri per colpire). La barriera non influisce sugli incantesimi di <em>dardo incantato</em>. Se l'incantatore attacca qualsiasi creatura in corpo a corpo, l'incantesimo fornisce comunque la penalità al tiro per colpire e il bonus al tiro salvezza, ma non impedisce più il contatto da parte delle creature incantate.</p>",
-            "spellRange": "0"
+            "description": "<p>Questo incantesimo crea una barriera magica invisibile attorno all'incantatore, estendendosi a meno di 3 cm dal suo corpo. Concede un bonus di +1 a tutti i tiri salvezza e impone una penalità di -1 ai tiri per colpire effettuati contro l'incantatore. L'incantesimo protegge anche l'incantatore dagli attacchi di creature incantate in combattimento corpo a corpo.</p>\n                <p><strong>Creature Incantate:</strong> Creature che non possono essere danneggiate da armi non magiche, creature che possono essere colpite solo da armi magiche, o creature che sono evocate o controllate magicamente (come una creatura ammaliata). Questo non include le creature che richiedono armi d'argento, come i lupi mannari.</p>\n                <p>Le creature incantate non sono in grado di toccare l'incantatore con attacchi corpo a corpo, ma possono ancora usare armi a distanza (con una penalità di -1 ai tiri per colpire). La barriera non influisce sugli incantesimi di <em>dardo incantato</em>. Se l'incantatore attacca qualsiasi creatura in corpo a corpo, l'incantesimo fornisce comunque la penalità al tiro per colpire e il bonus al tiro salvezza, ma non impedisce più il contatto da parte delle creature incantate.</p>"
         },
         "Protection from Evil 10' Radius": {
             "name": "Protezione dal Male (3 m raggio)",
             "spellEffect": "Crea una barriera protettiva di 6 m di diametro",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo crea una barriera magica invisibile attorno all'incantatore, estendendosi in un raggio di 3 metri (6 metri di diametro). Questa barriera protegge dagli attacchi da parte di creature con un allineamento diverso da quello dell'incantatore.</p>\n<p><strong>Effetti sugli Alleati:</strong> Ogni creatura all'interno della barriera guadagna un bonus di +1 a tutti i tiri salvezza, mentre gli attacchi contro di essa subiscono una penalità di -1 al tiro per colpire.</p>\n<p><strong>Creature Incantate:</strong> Le creature incantate (ad esempio, creature evocate o controllate magicamente) non possono combattere corpo a corpo con nessuno all'interno della barriera. Tuttavia, se qualcuno all'interno della barriera attacca una creatura incantata, questa protezione contro il corpo a corpo termina per quella creatura, sebbene il bonus di +1 ai tiri salvezza e la penalità di -1 agli attacchi rimangano in vigore.</p>\n<p><strong>Attacchi a Distanza e Magici:</strong> Gli attacchi a distanza e magici provenienti dall'esterno della barriera possono colpire quelli all'interno, subendo solo la penalità di -1 al tiro per colpire.</p>"
         },
         "Protection from Lightning": {
@@ -1460,7 +1453,6 @@
         },
         "Read Magic": {
             "name": "Lettura del Magico",
-            "spellRange": "0",
             "spellEffect": "Solo l'incantatore",
             "description": "<p>Questo incantesimo permette all'incantatore di leggere qualsiasi parola o runa magica, come quelle che si trovano su pergamene o incise su oggetti. Non permette all'incantatore di pronunciare le parole, ma solo di leggerle e capirle. Un incantatore non può comprendere scritti magici sconosciuti senza usare questo incantesimo</p>\n                <p>Una volta che un incantatore legge una pergamena o una runa con questo incantesimo, può leggere o pronunciare quella magia di nuovo senza usare questo incantesimo. Tutti i libri di incantesimi sono scritti in parole magiche e solo i loro proprietari possono leggerli senza usare questo incantesimo</p>"
         },
@@ -1485,7 +1477,6 @@
         },
         "Resist Cold": {
             "name": "Resistenza al Freddo",
-            "spellRange": "0",
             "spellEffect": "Tutte le creature entro 9 m",
             "description": "<p>Quando questo incantesimo viene lanciato, tutte le creature entro 9 m dall'incantatore sono protette dalle temperature di congelamento senza subire danni. Le creature influenzate ricevono anche un bonus di +2 a tutti i tiri salvezza contro attacchi basati sul freddo. Inoltre, qualsiasi danno da freddo inflitto a loro è ridotto di 1 punto per dado, con un minimo di 1 punto di danno per dado. L'effetto si muove con l'incantatore</p>"
         },
@@ -1629,7 +1620,6 @@
         },
         "Speak with Plants": {
             "name": "Parlare con le Piante",
-            "spellRange": "0",
             "spellEffect": "Comunica con le piante entro 9 m",
             "description": "<p>Questo incantesimo consente all'incantatore di comunicare con le piante entro un raggio di 9 m, trattandole come se avessero intelligenza. L'incantatore può chiedere favori semplici, come creare un percorso attraverso una vegetazione fitta, che le piante concederanno se possibile</p>\n                      <p><strong>Effetto:</strong> Consente la comunicazione con creature vegetali, inclusi mostri simili a piante come gli uomini albero (treant)</p>"
         },
@@ -1719,7 +1709,6 @@
             "name": "Vista Rivelante",
             "description": "<p>Con *Vista Rivelante*, il chierico acquisisce la capacità di vedere tutte le cose come sono realmente entro un raggio di 36 m. L'incantesimo rivela tutti gli oggetti o creature nascoste, invisibili ed eterei, funzionando come l'incantesimo *Individuazione dell’Invisibile*</p>\n<p>Inoltre, il chierico percepisce qualsiasi porta segreta e può vedere attraverso qualsiasi forma di travestimento, metamorfosi o altre alterazioni. L'inganno è impossibile. L'incantesimo rivela anche gli allineamenti, l'esperienza e i livelli di potere delle creature</p>",
             "spellDuration": "1 turno + 1 round per livello dell'incantatore",
-            "spellRange": "0",
             "spellEffect": "Rivela vere forme di tutte le cose entro 36 m"
         },
         "Thief": {
@@ -3034,21 +3023,18 @@
         "Word of Recall": {
             "name": "Parola Magica del Ritorno",
             "spellEffect": "Teletrasporta il chierico al suo rifugio",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo teletrasporta istantaneamente il chierico e tutto l'equipaggiamento che sta trasportando al suo santuario designato, indipendentemente dalla distanza.</p>\n                      <p><strong>Requisito del Santuario:</strong> Il chierico deve avere una residenza permanente (come un castello) che includa una stanza di meditazione. Questa stanza funge da destinazione dell'incantesimo.</p>\n                      <p><strong>Vantaggio sull'Iniziativa:</strong> Durante il round in cui viene lanciato questo incantesimo, il chierico ottiene automaticamente l'iniziativa a meno che non sia sorpreso.</p>\n                      <p><strong>Restrizioni:</strong></p>\n                      <ul>\n                        <li>L'incantesimo colpisce solo il chierico e il suo equipaggiamento trasportato.</li>\n                        <li>Altre creature non possono essere trasportate.</li>\n                      </ul>"
         },
         "Aerial Servant": {
             "name": "Servo Fluttuante",
             "spellDuration": "1 giorno per livello dell'incantatore",
             "spellEffect": "Il Servo recupera un oggetto o una creatura",
-            "spellRange": "18",
             "description": "<p>Questo incantesimo evoca un essere elementale intelligente chiamato <strong>Servo Fluttuante</strong> per recuperare un oggetto o una creatura specificata e riportarlo all'incantatore. Il servo appare immediatamente, e il chierico deve descrivere il bersaglio e la sua posizione, altrimenti se ne andrà.</p><p>Il servo fluttuante è etereo a volontà, il che gli permette di superare la maggior parte delle barriere, ma non può attraversare un effetto di <strong>Protezione dal Male</strong>.</p><p><strong>Compito e Durata:</strong> Il servo cercherà di trovare e riportare il bersaglio entro la durata dell'incantesimo (1 giorno per livello dell'incantatore). Se l'incantesimo termina prima che il compito sia portato a termine, sia che il servitore stia ancora cercando o stia già tornando, viene considerato un fallimento.</p><p><strong>Forza e Capacità di Carico:</strong> Il servo fluttuante ha una Forza di 18 e può trasportare fino a 227 kg (5.000 mon).</p><p><strong>Conseguenze del Fallimento:</strong> Se il servo fluttuante non riesce a completare il suo compito entro la durata dell'incantesimo, impazzisce e torna immediatamente per attaccare l'incantatore.</p>"
         },
         "Animate Objects": {
             "description": "<p>Questo incantesimo permette al chierico di animare oggetti non viventi e non magici, facendoli muovere e attaccare. Gli oggetti magici non sono influenzati.</p><p>L'incantesimo può animare:</p><ul><li>Un oggetto fino a 180 kg (4.000 mon), all'incirca delle dimensioni di due uomini.</li><li>Più oggetti più piccoli, purché il loro peso totale non superi i 180 kg.</li></ul><p><strong>Abilità in Combattimento:</strong> Il DM determina la velocità di movimento, il numero di attacchi, il danno e la classe armatura degli oggetti animati. Come linea guida:</p><ul><li>Una statua delle dimensioni di un uomo potrebbe muoversi a 9 m per round, attaccare una volta per round per [[/r 2d8 #punti di danno]] danni e avere CA 1.</li><li>Una sedia potrebbe muoversi a 54 m per round, attaccare due volte per round per [[/r 1d4 #punti di danno]] danni per attacco e avere CA 6.</li></ul><p>Tutti gli oggetti animati usano la probabilità di colpire del chierico in combattimento.</p>",
             "name": "Animare gli Oggetti",
-            "spellEffect": "Fa muovere gli oggetti",
-            "spellRange": "18"
+            "spellEffect": "Fa muovere gli oggetti"
         },
         "Babble*": {
             "name": "Incantesimo di Babele*",
@@ -3059,13 +3045,11 @@
         "Barrier*": {
             "description": "<p>Questo incantesimo crea una barriera magica fino a 9 m di diametro e 9 m di altezza, composta da martelli roteanti e danzanti. La barriera è chiaramente pericolosa per chiunque la attraversi.</p><p><strong>Danno:</strong> Qualsiasi creatura che attraversa la barriera subisce [[/r 7d10 #punti di danno]]<strong> (7-70)</strong> punti di danno. Non è consentito alcun tiro salvezza.</p><p>Questo incantesimo è comunemente usato per bloccare ingressi, corridoi o altri passaggi chiave.</p>",
             "name": "Barriera*",
-            "spellEffect": "Crea dei martelli roteanti",
-            "spellRange": "18"
+            "spellEffect": "Crea dei martelli roteanti"
         },
         "Create Normal Animals": {
             "name": "Creare Animali Normali",
             "spellEffect": "Crea da 1 a 6 animali fedeli al chierico",
-            "spellRange": "9",
             "description": "<p>Questo incantesimo permette al chierico di creare animali normali dal nulla. Gli animali appaiono in un punto scelto entro 9 m e obbediranno sempre al chierico. Possono essere comandati per combattere, trasportare oggetti, sorvegliare aree o eseguire altri compiti entro le loro capacità naturali.</p>\n                      <p>Una volta creati, gli animali possono essere inviati fino a 72 m di distanza ma continueranno a seguire i comandi del chierico. Tuttavia, se le istruzioni non sono formulate con attenzione, potrebbero agire secondo i loro istinti naturali.</p>\n                      <p><strong>Numero e Dimensioni degli Animali:</strong> Il chierico sceglie il numero di animali, ma non il loro tipo esatto. Il DM determina le creature specifiche, che possono includere:</p>\n                      <ul>\n                        <li>1 animale grande (es. elefante, ippopotamo)</li>\n                        <li>3 animali di medie dimensioni (es. orso, grande felino)</li>\n                        <li>6 animali piccoli (es. lupo, babbuino)</li>\n                      </ul>\n                      <p>L'incantesimo <strong>non può</strong> creare animali giganti. Gli animali scompaiono quando vengono uccisi o quando la durata dell'incantesimo termina.</p>"
         },
         "Cureall": {
@@ -3083,7 +3067,6 @@
             "name": "Individuazione della Corretta Via",
             "spellDuration": "6 turni + 1 turno per livello del chierico",
             "spellEffect": "Mostra la via fi no ad un luogo indicato",
-            "spellRange": "0",
             "description": "<p>Lanciando questo incantesimo, il chierico acquisisce la capacità di orientarsi verso un luogo specifico, anche se non vi è mai stato prima. Per tutta la durata dell'incantesimo, il chierico sa istintivamente la direzione da seguire per raggiungere la destinazione.</p>\n                      <p><strong>Conoscenza Speciale:</strong> Oltre a conoscere il percorso corretto, il chierico acquisisce consapevolezza magica di eventuali informazioni speciali necessarie per raggiungere il luogo. Queste possono includere:</p>\n                      <ul>\n                        <li>La posizione di porte segrete</li>\n                        <li>Passaggi nascosti o occultati</li>\n                        <li>Parole d’ordine necessarie per accedere</li>\n                      </ul>\n                      <p><strong>Effetti alla Scadenza:</strong> Quando l'incantesimo termina, il chierico conserva solo un senso generale della direzione verso la destinazione; tutte le altre conoscenze speciali vengono dimenticate.</p>\n                      <p><strong>Restrizione:</strong> Se il chierico tenta di annotare o rivelare in qualsiasi modo le informazioni speciali ad altri, l'incantesimo viene immediatamente annullato.</p>\n                      <p>Questo incantesimo è spesso usato per trovare vie di fuga rapide o per orientarsi in territori sconosciuti.</p>"
         },
         "Healer's Kit": {
@@ -3095,7 +3078,6 @@
         "Holy Word": {
             "name": "Parola Sacra",
             "spellEffect": "Tutti gli esseri viventi in un raggio di 12 metri",
-            "spellRange": "0",
             "description": "<p>Questo potente incantesimo colpisce tutte le creature, amiche o nemiche, entro un raggio di 12 m dall'incantatore. Le creature di allineamenti diversi da quello del chierico subiscono i seguenti effetti, senza possibilità di tiro salvezza:</p>\n                      <table>\n                        <thead>\n                          <tr><th>Livello Creatura / DV</th><th>Effetto</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Fino al 5º Livello / DV</td><td>Uccisa istantaneamente</td></tr>\n                          <tr><td>6º - 8º Livello / DV</td><td>Stordita per [[/r 2d10 #turni]] turni</td></tr>\n                          <tr><td>9º - 12º Livello / DV</td><td>Diventa sorda per [[/r 1d6 #turni]] turni</td></tr>\n                          <tr><td>13+ Livello / DV</td><td>Stordita per [[/r 1d10 #round]] round</td></tr>\n                        </tbody>\n                      </table>\n                      <p><strong>Tiro Salvezza:</strong> Qualsiasi creatura di 13º livello / DV o superiore, o una che condivide l'allineamento del chierico, può tentare un tiro salvezza contro incantesimi per annullare tutti gli effetti.</p>\n                      <p><strong>Ostacoli:</strong> *Parola Sacra* non viene bloccata dalla pietra o materiali solidi, tranne che dal piombo. Viene anche fermata da una *Barriera Anti-Magia*.</p>"
         },
         "Lantern, Bullseye": {
@@ -3134,7 +3116,6 @@
         "Remove Barrier*": {
             "name": "Rimozione di Barriera*",
             "spellEffect": "Rimuove una barriera magica",
-            "spellRange": "18",
             "description": "<p>Questo incantesimo distrugge istantaneamente una barriera magica creata da un chierico. Può anche dissipare alcune barriere create da un mago.</p>\n                      <p><strong>Effetti:</strong> *Rimozione di Barriera* distruggerà l'incantesimo *Barriera* di un chierico e può anche dissipare i seguenti incantesimi di un mago:</p>\n                      <ul>\n                        <li><strong>Muro di Ghiaccio</strong></li>\n                        <li><strong>Muro di Fuoco</strong></li>\n                        <li><strong>Formastoffa</strong></li>\n                        <li><strong>Formalegno</strong></li>\n                        <li><strong>Muro di Pietra</strong></li>\n                      </ul>\n                      <p><strong>Limitazioni:</strong> Questo incantesimo <em>non</em> ha effetto sugli incantesimi: *Muro di Ferro*, *Formapietra*, *Formaferro*, o *Formacciaio*.</p>"
         },
         "Restore*": {
@@ -3146,7 +3127,6 @@
             "name": "Parlare con i Mostri*",
             "spellDuration": "1 round per livello del chierico",
             "spellEffect": "Permette di conversare con qualsiasi mostro",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo conferisce al chierico la capacità di comunicare con qualsiasi creatura vivente o non-morta entro 9 m. Anche i mostri non intelligenti comprenderanno e risponderanno.</p>\n                      <p><strong>Effetti:</strong></p>\n                      <ul>\n                        <li>Le creature a cui si parla non attaccheranno il chierico durante la conversazione.</li>\n                        <li>Se però vengono attaccate, potrebbero difendersi o fuggire.</li>\n                        <li>Il chierico può fare solo una domanda per round.</li>\n                      </ul>\n                      <p>L'incantesimo dura un round per ogni livello del chierico.</p>"
         },
         "Wish": {
@@ -5195,7 +5175,6 @@
         "Darkness* (C)": {
             "spellDuration": "12 turni (2 ore)",
             "spellEffect": "Volume di 9 m di diametro",
-            "spellRange": "36",
             "description": "<p><em>Tenebre Magiche</em>, crea invece una sfera di oscurità. Bloccherà ogni vista eccetto l’infravisione. <em>Tenebre Magiche</em> annulla un incantesimo di <em>Luce Magica</em> se lanciato su di esso, ma può a sua volta essere annullato da un altro incantesimo di <em>Luce Magica</em>. Se lanciato sugli occhi di un avversario, <em>Tenebre Magiche</em> causa cecità per la durata dell’incantesimo o finché non viene annullato. Se la vittima supera un tiro salvezza contro incantesimi, l’incantesimo non ha effetto.</p>",
             "name": "Tenebre Magiche* (C)"
         },
@@ -5233,7 +5212,6 @@
             "name": "Protezione dal Male (C)"
         },
         "Protection from Evil 10' Radius (C)": {
-            "spellRange": "0",
             "description": "<p>Questo incantesimo crea una barriera invisibile attorno all'incantatore, estendendosi per 3 metri in tutte le direzioni. Conferisce a ogni creatura all'interno della barriera un bonus di +1 a tutti i tiri salvezza, mentre gli attacchi contro coloro che sono all'interno subiscono una penalità di -1 ai tiri per colpire.</p>\n                      <p><strong>Effetto:</strong> Le creature incantate (come esseri evocati o controllati magicamente) non possono ingaggiare combattimenti in mischia con chiunque sia all'interno della barriera. Tuttavia, se una creatura protetta attacca una incantata, la barriera non impedisce più gli attacchi in mischia, sebbene i bonus ai tiri salvezza e le penalità ai tiri per colpire rimangano attivi.</p>\n                      <p>Gli attacchi a distanza e magici provenienti dall'esterno della barriera subiscono comunque la penalità di -1 agli attacchi ma per il resto non sono influenzati</p>",
             "spellEffect": "Crea una barriera con un diametro di 6 metri",
             "name": "Protezione dal Male nel raggio di 3 m (C)"
@@ -5330,7 +5308,6 @@
             "description": "<p>Un personaggio con questa abilità può decifrare i linguaggi scritti (inclusi mappe del tesoro e codici) con una probabilità di successo di base.</p>"
         },
         "Read Languages@ws0ObLFkCK62OpKq": {
-            "spellRange": "0",
             "name": "Comprendere Linguaggi",
             "spellEffect": "Solo l'incantatore",
             "description": "<p>Questo incantesimo consente all'incantatore di leggere, ma non parlare, lingue, codici o simboli sconosciuti, comprese mappe del tesoro o scritture segrete, per la durata dell'incantesimo.</p>"
@@ -5343,7 +5320,6 @@
         "Shield@u93tgQ9zyIS1ka9X": {
             "name": "Scudo",
             "spellEffect": "Solo l'incantatore",
-            "spellRange": "0",
             "description": "<p>Questo incantesimo crea una barriera magica attorno all'incantatore, a meno di due centimetri dal suo corpo. Conferisce una CA 2 contro i proiettili e una CA 4 contro tutti gli altri attacchi. La barriera si muove con l'incantatore e non interferisce con i suoi movimenti o attacchi.</p>\n                <p>Se un <em>Dardo Incantato</em> viene scagliato contro l'incantatore, l'incantatore può effettuare un tiro salvezza contro incantesimi. In caso di successo, il proiettile viene annullato dallo scudo e non ha effetto.</p>"
         },
         "Spear@bdCgwbl2VvKzBgG7": {
@@ -5389,8 +5365,7 @@
             "name": "Viaggiare",
             "description": "<p>Questo incantesimo conferisce all'incantatore una mobilità incredibile, consentendo il volo, i viaggi planari e persino la trasformazione in forma gassosa.</p>\n<p><strong>Effetti:</strong></p>\n<ul>\n  <li>L'incantatore può <strong>volare</strong> a una velocità di <strong>108 m (36 m)</strong>, simile all'incantesimo <em>Volo</em>.</li>\n  <li>Una volta per turno, l'incantatore può <strong>spostarsi in un piano vicino</strong> concentrandosi per 1 round.</li>\n  <li>Il chierico può portare <strong>una creatura aggiuntiva per ogni 5 livelli</strong> (arrotondato per difetto), a condizione che stia toccando al momento del viaggio planare.</li>\n  <li>Le creature riluttanti possono effettuare un <strong>tiro salvezza contro gli incantesimi</strong> per resistere al trasporto.</li>\n</ul>\n<p><strong>Forma Gassosa:</strong></p>\n<ul>\n  <li>Concentrandosi per un intero round, l'incantatore può diventare <strong>gassoso</strong>.</li>\n  <li>In forma gassosa, l'incantatore e tutto l'equipaggiamento trasportato si trasformano in nebbia.</li>\n  <li>Mentre è gassoso, il chierico può muoversi a <strong>218 m (72 m)</strong>, ma non può attaccare, lanciare incantesimi o usare oggetti.</li>\n  <li>In questa forma, l'incantatore è immune ai danni non magici, ma non può attraversare un incantesimo <em>Protezione dal Male</em> o un <em>Scudo Anti-Magia</em>.</li>\n</ul>",
             "spellDuration": "Un turno per livello del mago",
-            "spellEffect": "Consente il volo e la forma gassosa",
-            "spellRange": "0"
+            "spellEffect": "Consente il volo e la forma gassosa"
         },
         "Axe, Hand@Xm4WH2asJt2oRKm1": {
             "name": "Accetta"
