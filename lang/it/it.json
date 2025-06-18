@@ -241,6 +241,10 @@
                 "long": "Secondaria",
                 "abbr": "Sec.",
                 "hint": "Il movimento secondario può essere qualsiasi altro tipo di movimento di cui la creatura è capace, oltre al movimento via terra."
+            },
+            "firstSpellLevel": {
+                "hint": "Il primo livello di incantesimi per questa classe",
+                "name": "Livello del Primo Incantesimo"
             }
         },
         "SheetLabel": {
@@ -259,7 +263,8 @@
             "ClassDefinitionItem": "Scheda Definizione di Classe",
             "ConditionItem": "Scheda Condizione",
             "SpeciesItem": "Scheda Stirpe",
-            "TreasureItem": "Scheda Tesoro"
+            "TreasureItem": "Scheda Tesoro",
+            "ActorClassItem": "Scheda Oggetto di Classe del PG"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -843,7 +848,9 @@
             "Inactive": "Effetti Inattivi",
             "status": {
                 "infravision": "Infravisione",
-                "slowed": "Rallentato"
+                "slowed": "Rallentato",
+                "hasted": "Velocizzato",
+                "mirrorImaged": "Immagini Illusorie"
             }
         },
         "Tags": {
