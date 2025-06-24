@@ -23289,6 +23289,39 @@
             "monsterType": "Umanoide (Comune)",
             "name": "Uomo Lucertola",
             "biography": "<p>Gli Uomini Lucertola prosperano in paludi, fiumi, laghi e caverne costiere, le loro forme umanoidi adornate da pelli squamose, mani artigliate, code e teste rettiliane. Variando da verdi o marroni spenti a rossi, blu, gialli o verdi vivaci, queste tribù acquatiche cacciano senza sosta, spesso catturando umani e semiumani per banchetti nei loro covi</p><p>Semi-intelligenti, brandiscono lance o grandi clave trattate come mazze, con un bonus di +1 al danno grazie alla loro forza formidabile (ad esempio, [[/r 1d6+1 #Danno dell'arma]] per la lancia). Uno su dieci parla un Comune rudimentale, permettendo negoziati tesi, anche se la fame può prevalere sul dialogo se non viene offerto cibo, spingendoli a cibarsi dei loro interlocutori</p><p>Vivendo vite dure, vagano in bande di [[/r 2d4 #Uomini Lucertola erranti]] o covi di [[/r 6d6 #Uomini Lucertola nel covo]], a volte servendo altre razze come guerrieri o esploratori per il sostentamento. Neutrali e pragmatici, accumulano tesori modesti, valutando solo ciò che aiuta la loro sopravvivenza (DV 2 + 1, PX 25)<br><b>Terreno:</b> Caverna, Fiume/Lago, Paludi</p>"
+        },
+        "Wight*": {
+            "items": {
+                "8wy9Np4lC8Sgfl57": {
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte"
+                },
+                "ADFcAjKxFmRR1RQt": {
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta"
+                },
+                "Jgl4mM9xYTBL2mEv": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "M3tlcSo9qIaqTad9": {
+                    "unidentifiedName": "Colpo senz'armi"
+                },
+                "YAaYlLRO4FK1j3mF": {
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo",
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
+                },
+                "hGFDADYLhqNhrDKg": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                }
+            },
+            "monsterType": "Non-Morto, Magico (Comune)"
         }
     },
     "label": "Bestiario",
