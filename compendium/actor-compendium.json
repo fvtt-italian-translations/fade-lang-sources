@@ -23208,6 +23208,43 @@
       "monsterType": "Giant Animal",
       "name": "Weasel, Giant"
     },
+    "Wight*": {
+      "biography": "<p>A wight is an undead spirit that inhabits the body of a deceased human or demihuman. It resembles its living form but appears bone-white and emaciated, with hollow, lifeless eyes. Its burial garments are typically tattered and filthy.</p><p>Wights can only be harmed by silvered or magical weapons. They are greatly feared due to their ability to drain life energy with each strike. Each successful hit drains one level of experience or Hit Die from the victim. Any individual completely drained of life energy by a wight will transform into a wight themselves within 1d4 days and will be under the control of the slayer.</p><p><strong>Terrain:</strong> Barren Lands, Ruins.</p>",
+      "items": {
+        "8wy9Np4lC8Sgfl57": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "ADFcAjKxFmRR1RQt": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "Jgl4mM9xYTBL2mEv": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "M3tlcSo9qIaqTad9": {
+          "description": "<p><span style=\"font-family: Barlow, sans-serif\">Each successful hit drains one level of experience or Hit Die from the victim. Any individual completely drained of life energy by a wight will transform into a wight themselves within 1d4 days and will be under the control of the slayer.</span></p>",
+          "name": "Energy Drain (Touch)",
+          "unidentifiedName": "Unarmed Strike"
+        },
+        "YAaYlLRO4FK1j3mF": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "hGFDADYLhqNhrDKg": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "monsterType": "Undead, Enchanted",
+      "name": "Wight*"
+    },
     "Wolf, Dire": {
       "biography": "<p>Dire wolves are larger and more ferocious versions of normal wolves. Semi-intelligent and fierce, they are capable hunters and often operate in packs. They are sometimes trained by goblins as mounts, though their savage nature makes this process difficult.</p><p>Dire wolves prefer to live in caves, woods, or mountains. If captured young, they may be trained as mounts if the DM permits.</p><p><strong>Terrain:</strong> Woods.<br><strong>Load:</strong> 1,000 cn at full speed; 2,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x 1/2.</p>",
       "items": {
