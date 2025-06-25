@@ -2551,7 +2551,7 @@
           "shortName": "Spell"
         },
         "rHB8iWWyo9agygc7": {
-          "description": "If the Caecilia rolls a natural 19 or 20 on its attack, it swallows the target whole. The swallowed victim takes 1d8 damage each round until either the victim or the Caecilia is dead.",
+          "description": "<p>If the Caecilia rolls a natural 19 or 20 on its attack, it swallows the target whole. The swallowed victim takes [[/r 1d8 #swallowed damage]] damage each round until either the victim or the Caecilia is dead.</p>",
           "name": "Swallow Whole"
         },
         "tBl1sXWafPGBdZGF": {
@@ -2693,7 +2693,7 @@
           "name": "Thick Fur"
         },
         "dUE4qTqPYQvFCQGR": {
-          "description": "The Mountain Lion attacks with its claws and bite. Damage is 1d3/1d3/1d6.",
+          "description": "<p>The Mountain Lion attacks with its claws and bite.</p>",
           "name": "Claws"
         }
       },
@@ -2756,7 +2756,7 @@
           "shortName": "Wand"
         },
         "FdxwqE9Jmr4pO50j": {
-          "description": "The Sabre-Tooth Tiger attacks with its claws and bite. Damage is 1d10/1d10/1d10.",
+          "description": "<p>The Sabre-Tooth Tiger attacks with its claws and bite. </p>",
           "name": "Claws"
         },
         "QY1YThuG6PKdE4ZV": {
@@ -2805,9 +2805,12 @@
           "description": "Tigers can ambush their prey with exceptional skill, surprising on a roll of 1-4 on 1d6 in dense foliage or wooded areas.",
           "name": "Ambush"
         },
-        "YiPwIoEnfvrKf4sA": {
-          "description": "The Tiger attacks with its claws and bite. Damage is 1d8/1d8/2d8.",
-          "name": "Claws and Bite"
+        "HB06RYsTXQtAwtTW": {
+          "name": "Bite"
+        },
+        "dUE4qTqPYQvFCQGR": {
+          "description": "<p>The Mountain Lion attacks with its claws and bite.</p>",
+          "name": "Claws"
         },
         "dmmgYdUFzehFZusQ": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -2841,6 +2844,12 @@
     "Centaur": {
       "biography": "<p>A centaur is a creature with the head, arms, and upper body of a man joined to the body and legs of a horse. They are of average human intelligence and often carry weapons (clubs, lances, and bows; one weapon per creature). A centaur may use a charge attack with a lance.</p>\n    <p>Centaurs will form into small tribes or families. Their homes are in dense thickets or woods. The females and young will usually stay in the lair. If attacked, females and young will attempt to flee; if escape is impossible, they will fight to the death. The young fight as 2-HD monsters and do less damage (1d2/1d2/1d4).</p>\n    <p>There can be centaur spellcasters; see \"Monster Spellcasters.\"</p>\n    <p><strong>Terrain:</strong> Woods, Open, Wooded Hills.<br><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed.</p>",
       "items": {
+        "CnlBl1rnFo1yEYZE": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short",
+          "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "weaponMastery": "Bow, Short"
+        },
         "HcHatsCl5AlOrXAb": {
           "description": "The Centaur's natural armor provides protection equivalent to leather armor.",
           "name": "Armor"
@@ -2851,7 +2860,7 @@
           "shortName": "Spell"
         },
         "OZYUuIABaHdFscCo": {
-          "description": "The Centaur attacks with two hooves, each dealing 1d6 damage.",
+          "description": "<p>The Centaur attacks with two hooves.</p>",
           "name": "Hoof"
         },
         "SyH5DQxBesB2f0hd": {
@@ -2864,10 +2873,22 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "gUUAH9zgkDIZn6FS": {
+          "description": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
+          "name": "Lance",
+          "unidentifiedDesc": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
+          "weaponMastery": "Lance"
+        },
         "iuiBXzsSoZnLknW9": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "mUWPpr5HVdABGAeZ": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows",
+          "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "unidentifiedName": "Arrows"
         },
         "pdgwH0RNp3yfsb2n": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -2937,11 +2958,11 @@
           "shortName": "Death"
         },
         "Jc19FXGOk9ur5UCt": {
-          "description": "A headbutt attack by the goat head dealing 2d4 damage.",
+          "description": "<p>A headbutt attack by the goat head.</p>",
           "name": "Goat Head Butt"
         },
         "TNhSowbEaCNobr0l": {
-          "description": "A claw attack dealing 1d3 damage.",
+          "description": "<p>Lion-like claws.</p>",
           "name": "Claw"
         },
         "UMIamk1GqgCtYzgy": {
@@ -2954,7 +2975,7 @@
           "shortName": "Breath"
         },
         "Y0nYzFCQrDloogx1": {
-          "description": "A bite attack by the lion head dealing 1d10 damage.",
+          "description": "<p>A bite attack by the lion head.</p>",
           "name": "Lion Head Bite"
         },
         "YjnAZPuMGycBuYH6": {
@@ -2963,7 +2984,7 @@
           "shortName": "Spell"
         },
         "gVsOo4fbJ6Y5SxYn": {
-          "description": "A bite attack by the dragon head dealing 3d4 damage.",
+          "description": "<p>A bite attack by the dragon head.</p>",
           "name": "Dragon Head Bite"
         }
       },
