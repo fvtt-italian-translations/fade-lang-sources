@@ -3790,7 +3790,7 @@
       "name": "Dinosaur, Small Herbivore (1HD)"
     },
     "Djinni, Greater; Pasha*": {
-      "biography": "<p>Pashas are the rulers of the djinn on the elemental plane of Air. They appear as very large djinn and are immune to non-magical weapons or weapons with less than +2 enchantment. Pashas regenerate 3 hit points per round and can perform all the abilities of a normal djinni as often as desired, up to once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for 1 full round.</p>\n                <p>Pashas have special powers usable once per day, including granting another's wish, casting <em>cloudkill</em>, <em>water to gas</em>, and <em>weather control</em>. When in their whirlwind form, which they can assume or leave in a single round, they stand 120 feet tall and 40 feet in diameter at the top. This form deals 3d12 damage to all in its path and slays any creature with fewer than 5 Hit Dice unless the victim makes a saving throw vs. death ray.</p>\n                <p>Pashas cannot be summoned by spells and are influenced by very few magical items. They appear on the Prime Plane only when a mistreated djinni cries out for aid.</p>\n                <p>**Terrain:** Plane of Air, Desert.</p>\n                <p>**Load:** 10,000 cn at full speed; 20,000 cn at half speed. When walking, they can carry double these amounts.</p>",
+      "biography": "<p>Pashas are the rulers of the djinn on the elemental plane of Air. They appear as very large djinn and are <strong>immune to non-magical weapons or weapons with less than +2 enchantment</strong>. Pashas regenerate 3 hit points per round and can perform all the abilities of a normal djinni as often as desired, up to once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for 1 full round.</p><p>Pashas have special powers usable once per day, including granting another's wish, casting <em>cloudkill</em>, <em>water to gas</em>, and <em>weather control</em>. When in their whirlwind form, which they can assume or leave in a single round, they stand 120 feet tall and 40 feet in diameter at the top. This form deals 3d12 damage to all in its path and slays any creature with fewer than 5 Hit Dice unless the victim makes a saving throw vs. death ray.</p><p>Pashas cannot be summoned by spells and are influenced by very few magical items. They appear on the Prime Plane only when a mistreated djinni cries out for aid.</p><p><strong>Terrain:</strong> Plane of Air, Desert.</p><p><strong>Load:</strong> 10,000 cn at full speed; 20,000 cn at half speed. When walking, they can carry double these amounts.</p>",
       "items": {
         "6RmyQACbLBol9TIQ": {
           "description": "Once per day, the pasha can grant another's wish.",
@@ -15781,7 +15781,7 @@
       "name": "Metamorph, Leader"
     },
     "Mimic Shifter": {
-      "biography": "<p>Mimic Shifters are man-sized shape-changing creatures known for their intelligence and malevolent nature. They can transform into the exact form of any human, demihuman, or humanoid they see (up to 7 feet tall). After assuming the form of their target, they aim to kill the original person and take their place, often using stealth and deception to avoid alerting others.</p>\n                <p>Once in disguise, they attack the group from within, often when the party is already engaged in combat. Mimic Shifters are immune to sleep and charm spells and save as 8th-level fighters due to their magical resilience. Upon death, they revert to their natural form—a hairless, genderless humanoid with pale, rubbery skin.</p>\n                <p>Mimic Shifters can establish a limited telepathic link with their intended victim, quickly learning everything their target knows. However, they cannot use memorized spells of spellcasting victims. Spellcaster Mimic Shifters are rare but can cast spells in any form they take.</p>\n                <p>**Terrain:** Any.</p>",
+      "biography": "<p>Mimic Shifters are man-sized shape-changing creatures known for their intelligence and malevolent nature. They can transform into the exact form of any human, demihuman, or humanoid they see (up to 7 feet tall). After assuming the form of their target, they aim to kill the original person and take their place, often using stealth and deception to avoid alerting others.</p><p>Once in disguise, they attack the group from within, often when the party is already engaged in combat. Mimic Shifters are <strong>immune to sleep and charm spells</strong> and save as 8th-level fighters due to their magical resilience. Upon death, they revert to their natural form—a hairless, genderless humanoid with pale, rubbery skin.</p><p>Mimic Shifters can establish a limited telepathic link with their intended victim, quickly learning everything their target knows. However, they cannot use memorized spells of spellcasting victims. Spellcaster Mimic Shifters are rare but can cast spells in any form they take.</p><p><strong>Terrain:</strong> Any.</p>",
       "items": {
         "BPlCgwMG3jdterIN": {
           "description": "Establishes a telepathic link with its intended victim, learning all the target knows, but cannot use memorized spells.",
@@ -17559,14 +17559,14 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "k9ARv6rtYwFNUEle": {
+          "description": "<p>If the creature is severely damaged (6 bit points or less remaining), it can use a ferocious bite attack (+ 2 bonus to attack roll).</p>",
+          "name": "Ferocious Bite*"
+        },
         "kFZq77NpEFnfXbV4": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
-        },
-        "nwi4HdSm30kv585s": {
-          "description": "If the Phantasmal Panther has 6 or fewer hit points remaining, it can use a ferocious bite attack with a +2 bonus to hit, dealing 1d6 damage.",
-          "name": "Ferocious Bite"
         },
         "ti6vINtaeHpVjGBT": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
