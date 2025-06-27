@@ -263,7 +263,8 @@
             "ConditionItem": "Scheda Condizione",
             "SpeciesItem": "Scheda Stirpe",
             "TreasureItem": "Scheda Tesoro",
-            "ActorClassItem": "Scheda Oggetto di Classe del PG"
+            "ActorClassItem": "Scheda Oggetto di Classe del PG",
+            "CharacterSheetBase": "Scheda del PG"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -283,7 +284,8 @@
             "availableSlots": "Lanci disponibili",
             "cast": "L'incantesimo è stato lanciato questo numero di volte",
             "durationFormulaHint": "La durata dell'effetto in round. Un simbolo di infinito indica una durata infinita. Uno zero indica un effetto istantaneo senza durata.",
-            "casts": "Lanci"
+            "casts": "Lanci",
+            "castSlots": "Lanco incantesimi"
         },
         "Item": {
             "plural": "Equipaggiamento",
@@ -827,7 +829,7 @@
         },
         "class": {
             "key": {
-                "name": "Chiave",
+                "name": "Chiave Classe",
                 "hint": "Chiave utilizzata come riferimento a una classe con una singola lettera. L'esempio di un Guerriero sarebbe \"F\" (Fighter)."
             },
             "unskilledToHitMod": {
@@ -835,7 +837,12 @@
                 "hint": "Penalità al tiro per colpire dovuto all'uso di armi senza maestria (S/M)."
             },
             "primary": {
-                "name": "Primaria"
+                "name": "Primaria",
+                "hint": "Quando una classe è designata come primaria verrà considerata per l'assegnazione di PX e per determinare quali tiri salvezza della classe usare. Se più classi sono designate come primarie i PX sono divisi equamente dal livello successivo e i tiri salvezza sono determinati prendendo il migliore tra tutte le classi primarie."
+            },
+            "castAsKey": {
+                "hint": "La chiave della classe da cui questa classe lancia incantesimi. Ad esempio l'Elfo può lanciare come Mago (classe M). Alcune classi permettono di lanciare a 1/3 del livello e queste possono essere designate con /3 dopo la chiave della classe (es. M/3).",
+                "name": "Chiave di lancio"
             }
         },
         "Effect": {
@@ -1186,6 +1193,14 @@
         "mvRoundDivisor": {
             "hint": "Questo campo rappresenta il divisore utilizzato per calcolare la velocità di movimento nel round di combattimento rispetto alla velocità di movimento normale.",
             "name": "Divisore per la Corsa"
+        },
+        "classSystem": {
+            "hint": "Specifica se sono permesse più classi per personaggio. Selezionare \"Singola\" disabiliterà più classi e l'interfaccia per i dati della classe rimarrà invariata. Scegliere \"Multiclasse\" abiliterà più classi permettendo la configurazione manuale di elementi relativi a ogni classe in uso. A causa della natura complessa dei personaggi multiclasse, l'automazione e la visualizzazione di dadi vita e bonus PX saranno mostrati per classe e spetterà ai giocatori e al GM gestire i calcoli.",
+            "choices": {
+                "advanced": "Multiclasse",
+                "single": "Singola"
+            },
+            "name": "Sistema Classe PG"
         }
     },
     "TYPES": {
@@ -1202,11 +1217,12 @@
             "mastery": "Scheda Maestria Arma",
             "specialAbility": "Abilità Speciale",
             "treasure": "Tesoro",
-            "class": "Classe Personaggio",
+            "class": "Derfinizione Classe Personaggio",
             "weaponMastery": "Definizione Maestria Arma",
             "light": "Luce",
             "condition": "Condizione",
-            "species": "Stirpe"
+            "species": "Stirpe",
+            "actorClass": "Classe PG"
         }
     },
     "FADE_TRANSLATIONS": {
@@ -1235,7 +1251,8 @@
             "S": "S",
             "L": "L",
             "G": "G",
-            "I": "I"
+            "I": "I",
+            "T": "T"
         },
         "classSpecies": {
             "Elf": "Elfo",
