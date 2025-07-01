@@ -5411,8 +5411,16 @@
       "name": "Dragon, White (Small)"
     },
     "Drake, Colddrake": {
-      "biography": "<p>The Colddrake is a white-scaled drake that lives in icy caverns deep underground, shunning the light of day. It can polymorph into dwarf or gnome forms to blend into underground communities. In drake form, it attacks with two claws and a bite, dealing moderate damage. Colddrakes are highly intelligent and chaotic, using their shape-changing and thief abilities to infiltrate and cause trouble among the dwarves and gnomes with whom they live.</p>\n        <strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into dwarf or gnome forms.<br>\n        <strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.<br>\n        <strong>Terrain:</strong> Underground, Icy Caverns<br>\n        <strong>Barding:</strong> None",
+      "biography": "<p>The Colddrake is a white-scaled drake that lives in icy caverns deep underground, shunning the light of day. It can polymorph into dwarf or gnome forms to blend into underground communities. In drake form, it attacks with two claws and a bite, dealing moderate damage. Colddrakes are highly intelligent and chaotic, using their shape-changing and thief abilities to infiltrate and cause trouble among the dwarves and gnomes with whom they live.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into dwarf or gnome forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Underground, Icy Caverns</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
       "items": {
+        "0Y3qimRu44G98FNV": {
+          "description": "<p>Those with this ability possess a heightened sense of hearing, enabling them to detect faint noises such as footsteps, whispers, and the movements of hidden creatures.</p>",
+          "name": "Hear Noise"
+        },
+        "92muAqdvXgYuvM5P": {
+          "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
+          "name": "Find Traps"
+        },
         "Aj9QUREIzyTnoMh5": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -5427,6 +5435,14 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "I7GbbmdAykjqoVW5": {
+          "description": "<p>The character can attempt to pick pockets or take small items from people without being noticed.</p>",
+          "name": "Pick Pockets"
+        },
+        "Nvr4ZJWN10epdxLa": {
+          "description": "<p>A user of this ability can move silently, avoiding detection while attempting to sneak past others.</p>",
+          "name": "Move Silently"
+        },
         "OgRWFZ2QutxVJpc6": {
           "description": "The colddrake is immune to spells of 4th level or lower. It can suppress this immunity for 1 round if needed.",
           "name": "Immunity to Low-Level Spells"
@@ -5434,6 +5450,10 @@
         "PMDZHqF1qvVJ7yTw": {
           "description": "The drake slashes with its claws.",
           "name": "Claw"
+        },
+        "RYckIge2dClBAsyy": {
+          "description": "<p>The use of this ability allows for climbing steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by the user's level.</p>",
+          "name": "Climb Sheer Surface"
         },
         "TFjhiO48JKb5zKH4": {
           "description": "The colddrake can polymorph into dwarf or gnome forms at will, mimicking humanoid features.",
@@ -5443,6 +5463,14 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "V9QCRD1LN5DhAs8B": {
+          "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
+          "name": "Remove Traps"
+        },
+        "VtVeTrHjICb573Be": {
+          "description": "<p>A character with is ability can decipher written languages (including treasure maps and codes) with a base chance of success.</p>",
+          "name": "Read Languages"
         },
         "Y2yCgqE0zm75uFS6": {
           "description": "The colddrake has all the abilities of a 5th-level thief, including backstab, pick locks, and stealth.",
@@ -5457,10 +5485,22 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
+        "kMatoJ8EZeSoAVZl": {
+          "description": "<p>The ability allows one to blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
+          "name": "Hide in Shadows"
+        },
+        "ok0ggFC7vy5lP9RF": {
+          "description": "<p>When attacking an unaware opponent from behind, the attacker gains a +4 bonus to hit and deals double damage.</p>",
+          "name": "Backstab"
+        },
         "tIIGgOrUbglAAg9O": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "varRzfN12NfOf5lA": {
+          "description": "<p>The character can attempt to pick a lock. Success is based on a percentage determined by their level.</p>",
+          "name": "Open Locks"
         },
         "wUAxNPSZNNqMb7Mn": {
           "description": "A strong bite with sharp teeth.",
@@ -5471,7 +5511,7 @@
       "name": "Drake, Colddrake"
     },
     "Drake, Elemental": {
-      "biography": "<p>Elemental Drakes are rare and dangerous creatures that hail from the elemental planes. These drakes can polymorph into young giant forms (up to 4 feet shorter than normal giants) on the Prime Plane, or into small elemental forms on their home plane. In drake form, they attack with claws and a bite, dealing significant damage. Elemental Drakes are immune to normal and silver weapons, requiring magical weapons to harm them. They also possess the abilities of a 5th-level thief, making them cunning foes.</p>\n        <strong>Polymorph:</strong> On the Prime Plane, Elemental Drakes can polymorph into young giant forms (cloud, stone, fire, or storm giants), but cannot use giant rock-throwing abilities. On their home plane, they transform into small elemental forms with the abilities of a 6 HD elemental.<br>\n        <strong>Elemental Immunities:</strong> Immune to normal and silver weapons; only magical weapons can harm them.<br>\n        <strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.<br>\n        <strong>Terrain:</strong> Any<br>\n        <strong>Barding:</strong> None",
+      "biography": "<p>Elemental Drakes are rare and dangerous creatures that hail from the elemental planes. These drakes can polymorph into young giant forms (up to 4 feet shorter than normal giants) on the Prime Plane, or into small elemental forms on their home plane. In drake form, they attack with claws and a bite, dealing significant damage. Elemental Drakes are immune to normal and silver weapons, requiring magical weapons to harm them. They also possess the abilities of a 5th-level thief, making them cunning foes.</p><p><strong>Polymorph:</strong> On the Prime Plane, Elemental Drakes can polymorph into young giant forms (cloud, stone, fire, or storm giants), but cannot use giant rock-throwing abilities. On their home plane, they transform into small elemental forms with the abilities of a 6 HD elemental.</p><p><strong>Elemental Immunities:</strong> Immune to normal and silver weapons; only magical weapons can harm them.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
       "items": {
         "14TmehUxjqz7EuhG": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -5483,6 +5523,10 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "7N7nA84SI38tjXPC": {
+          "description": "<p>The character can attempt to pick a lock. Success is based on a percentage determined by their level.</p>",
+          "name": "Open Locks"
+        },
         "8sWBjplCpzsGlR8G": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -5492,6 +5536,10 @@
           "description": "The drake slashes with its claws.",
           "name": "Claw"
         },
+        "DAIlWeXg1zSqcFr6": {
+          "description": "<p>When attacking an unaware opponent from behind, the attacker gains a +4 bonus to hit and deals double damage.</p>",
+          "name": "Backstab"
+        },
         "Dv8I6dpv3yk95sOi": {
           "description": "The elemental drake has all the abilities of a 5th-level thief, including backstab, pick locks, and stealth.",
           "name": "Thief Abilities"
@@ -5500,14 +5548,38 @@
           "description": "The elemental drake is immune to spells of 4th level or lower. It can suppress this immunity for 1 round if needed.",
           "name": "Immunity to Low-Level Spells"
         },
+        "MLoL7aPQ6Bx5AWoD": {
+          "description": "<p>The ability allows one to blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
+          "name": "Hide in Shadows"
+        },
         "OLzfrmL4CKCcGo5l": {
           "description": "The elemental drake can polymorph into young giant forms (cloud, stone, fire, or storm giants) or small elemental forms.",
           "name": "Polymorph"
+        },
+        "QCgmJnKx644BwNl2": {
+          "description": "<p>The character can attempt to pick pockets or take small items from people without being noticed.</p>",
+          "name": "Pick Pockets"
+        },
+        "QNknwQk6T1Zt8dK8": {
+          "description": "<p>The use of this ability allows for climbing steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by the user's level.</p>",
+          "name": "Climb Sheer Surface"
+        },
+        "Rb9LyjkmdhhhXCLJ": {
+          "description": "<p>A user of this ability can move silently, avoiding detection while attempting to sneak past others.</p>",
+          "name": "Move Silently"
         },
         "T6qFJ79rXfqebUNZ": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "TRDy3qhh6026g3nN": {
+          "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
+          "name": "Remove Traps"
+        },
+        "Y59iW1mx23b0jYcB": {
+          "description": "<p>Those with this ability possess a heightened sense of hearing, enabling them to detect faint noises such as footsteps, whispers, and the movements of hidden creatures.</p>",
+          "name": "Hear Noise"
         },
         "eT2pquoKXHMFkkgy": {
           "description": "The elemental drake's natural scales provide an armor class of 0.",
@@ -5516,6 +5588,10 @@
         "iAbCFyy5AXPBmZfE": {
           "description": "The drake is immune to normal and silver weapons. Only magical weapons can harm it.",
           "name": "Elemental Immunities"
+        },
+        "iSwbuhAULuDsRnfN": {
+          "description": "<p>A character with is ability can decipher written languages (including treasure maps and codes) with a base chance of success.</p>",
+          "name": "Read Languages"
         },
         "kVvnVy0rZpWjRlpy": {
           "description": "A powerful bite with sharp teeth.",
@@ -5529,14 +5605,26 @@
         "y6TY5HabbT8mn8ca": {
           "description": "The drake can fly at a speed of 30 feet per turn for up to 1 hour at a time.",
           "name": "Flight"
+        },
+        "zmALRvrQHZYcdFVS": {
+          "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
+          "name": "Find Traps"
         }
       },
       "monsterType": "Dragon-Kin, Planar Monster, Enchanted",
       "name": "Drake, Elemental"
     },
     "Drake, Mandrake": {
-      "biography": "<p>The Mandrake is a medium-sized drake that often disguises itself as a human through its polymorph abilities. While in drake form, it attacks with two claws and a bite, dealing minor damage. Mandrakes are chaotic and fond of trickery, often using their shapeshifting abilities to integrate into human society, sometimes working as stablehands or in taverns. Though they enjoy pranks, they can also serve as agents for evil powers.</p>\n        <strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into humanoid forms.<br>\n        <strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.<br>\n        <strong>Terrain:</strong> Any<br>\n        <strong>Barding:</strong> None",
+      "biography": "<p>The Mandrake is a medium-sized drake that often disguises itself as a human through its polymorph abilities. While in drake form, it attacks with two claws and a bite, dealing minor damage. Mandrakes are chaotic and fond of trickery, often using their shapeshifting abilities to integrate into human society, sometimes working as stablehands or in taverns. Though they enjoy pranks, they can also serve as agents for evil powers.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into humanoid forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
       "items": {
+        "2d5hq8VTDZ2O5HOW": {
+          "description": "<p>A user of this ability can move silently, avoiding detection while attempting to sneak past others.</p>",
+          "name": "Move Silently"
+        },
+        "5qiZMqWZ3WZZbfo5": {
+          "description": "<p>When attacking an unaware opponent from behind, the attacker gains a +4 bonus to hit and deals double damage.</p>",
+          "name": "Backstab"
+        },
         "8juYv9waBihnrKA8": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -5546,9 +5634,25 @@
           "description": "The mandrake is immune to spells of 4th level or lower. It can suppress this immunity for 1 round if needed.",
           "name": "Immunity to Low-Level Spells"
         },
+        "CPA8PcZ2kMNl5f7w": {
+          "description": "<p>A character with is ability can decipher written languages (including treasure maps and codes) with a base chance of success.</p>",
+          "name": "Read Languages"
+        },
+        "EoKp6cTi86u7aQSh": {
+          "description": "<p>The ability allows one to blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
+          "name": "Hide in Shadows"
+        },
+        "L9LQui6iohB5gQXi": {
+          "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
+          "name": "Find Traps"
+        },
         "OM6E1ByjdMO6gGwF": {
           "description": "The mandrake's natural scales provide an armor class of 0.",
           "name": "Dragon Scales (Armor)"
+        },
+        "P5YSkW7GWSrbCZ4e": {
+          "description": "<p>The use of this ability allows for climbing steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by the user's level.</p>",
+          "name": "Climb Sheer Surface"
         },
         "R0u9xuAKsXhtcMf9": {
           "description": "The mandrake has all the abilities of a 5th-level thief, including backstab, pick locks, and stealth.",
@@ -5576,14 +5680,30 @@
           "description": "A quick bite with sharp teeth.",
           "name": "Bite"
         },
+        "dMEfWzL9VGiuf67f": {
+          "description": "<p>The character can attempt to pick a lock. Success is based on a percentage determined by their level.</p>",
+          "name": "Open Locks"
+        },
+        "dV7AfyqgRfmvE58v": {
+          "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
+          "name": "Remove Traps"
+        },
         "hKOGkmM5dulVlJjn": {
           "description": "The drake slashes with its claws.",
           "name": "Claw"
+        },
+        "isxiYSQWGm6vYQoC": {
+          "description": "<p>Those with this ability possess a heightened sense of hearing, enabling them to detect faint noises such as footsteps, whispers, and the movements of hidden creatures.</p>",
+          "name": "Hear Noise"
         },
         "j3u75TrbJFNEeOO5": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "mTNnwBLzCf2aOZf2": {
+          "description": "<p>The character can attempt to pick pockets or take small items from people without being noticed.</p>",
+          "name": "Pick Pockets"
         },
         "wZAJLE2yqV6Yt8Ae": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -5595,8 +5715,12 @@
       "name": "Drake, Mandrake"
     },
     "Drake, Wooddrake": {
-      "biography": "<p>The Wooddrake is a drake with dark green scales that can polymorph into elf or halfling forms at will. In drake form, they attack with two claws and a bite, dealing moderate damage. Wooddrakes are clever and mischievous, often integrating themselves into elven or halfling communities through their shapeshifting abilities. They are chaotic and fond of causing trouble, using their thief abilities to carry out pranks and theft.</p>\n        <strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into elf or halfling forms.<br>\n        <strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.<br>\n        <strong>Terrain:</strong> Any<br>\n        <strong>Barding:</strong> None",
+      "biography": "<p>The Wooddrake is a drake with dark green scales that can polymorph into elf or halfling forms at will. In drake form, they attack with two claws and a bite, dealing moderate damage. Wooddrakes are clever and mischievous, often integrating themselves into elven or halfling communities through their shapeshifting abilities. They are chaotic and fond of causing trouble, using their thief abilities to carry out pranks and theft.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into elf or halfling forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
       "items": {
+        "4m6EdF768uTSdP1p": {
+          "description": "<p>The character can attempt to pick a lock. Success is based on a percentage determined by their level.</p>",
+          "name": "Open Locks"
+        },
         "91h0W8Jx6tJqw4RV": {
           "description": "The drake can fly at a speed of 30 feet per turn for up to 1 hour at a time.",
           "name": "Flight"
@@ -5604,6 +5728,18 @@
         "91n8Y8S0sIo0yI2M": {
           "description": "The wooddrake has all the abilities of a 5th-level thief, including backstab, pick locks, and stealth.",
           "name": "Thief Abilities"
+        },
+        "9JwcIJTY9SPHWmEk": {
+          "description": "<p>The use of this ability allows for climbing steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by the user's level.</p>",
+          "name": "Climb Sheer Surface"
+        },
+        "9ocjHxwrnQNWqYMV": {
+          "description": "<p>Those with this ability possess a heightened sense of hearing, enabling them to detect faint noises such as footsteps, whispers, and the movements of hidden creatures.</p>",
+          "name": "Hear Noise"
+        },
+        "L9ihXMuaOwcvHzLL": {
+          "description": "<p>A user of this ability can move silently, avoiding detection while attempting to sneak past others.</p>",
+          "name": "Move Silently"
         },
         "WqVGxs9wPNL3YWCF": {
           "description": "The wooddrake is immune to spells of 4th level or lower. It can suppress this immunity for 1 round if needed.",
@@ -5613,14 +5749,30 @@
           "description": "The wooddrake's natural scales provide an armor class of 0.",
           "name": "Dragon Scales (Armor)"
         },
+        "YB8CpWQJ4ioIMUz5": {
+          "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
+          "name": "Remove Traps"
+        },
         "YjEk7OrYMOmA7zoV": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "Z1dQLYHqPwLj0dtz": {
+          "description": "<p>The character can attempt to pick pockets or take small items from people without being noticed.</p>",
+          "name": "Pick Pockets"
+        },
         "ZPGgKSsbxag9XPiJ": {
           "description": "The wooddrake can polymorph into elf or halfling forms at will, mimicking humanoid features.",
           "name": "Polymorph"
+        },
+        "cSKihDfA9FO5Hg1h": {
+          "description": "<p>A character with is ability can decipher written languages (including treasure maps and codes) with a base chance of success.</p>",
+          "name": "Read Languages"
+        },
+        "dyq1BU5HsjyThmhz": {
+          "description": "<p>The ability allows one to blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
+          "name": "Hide in Shadows"
         },
         "haDvo6p0uNyJaqns": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -5645,6 +5797,14 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "w9J5Gk2dg91zgkby": {
+          "description": "<p>When attacking an unaware opponent from behind, the attacker gains a +4 bonus to hit and deals double damage.</p>",
+          "name": "Backstab"
+        },
+        "xS9AqW9TbLEbvUWh": {
+          "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
+          "name": "Find Traps"
+        },
         "ydLWDzjt6lruHats": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -5655,8 +5815,12 @@
       "name": "Drake, Wooddrake"
     },
     "Drolem*": {
-      "biography": "<p>A <strong>Drolem</strong> is a type of golem that looks like a dragon. It can be made to resemble any dragon color or may appear as a <strong>dragon skeleton</strong>. Like other golems, it is not alive, but a <strong>construct</strong> created by a high-level <strong>magic-user</strong> or <strong>cleric</strong>. <strong>Drolems</strong> are extremely rare, typically built to guard a special item or location. A special <strong>book</strong> and several rare materials are required to create a <strong>Drolem</strong>.</p><p>A <strong>Drolem</strong> is <strong>nonintelligent</strong> and follows instructions exactly. It can see <strong>invisible creatures</strong> within 60 feet and is immune to:</p><ul><li><strong>Charm</strong>, <strong>hold</strong>, <strong>sleep</strong>, and all mind-affecting spells</li><li>All forms of <strong>fire</strong>, <strong>cold</strong>, and <strong>gases</strong></li><li>Spells of <strong>4th level or lower</strong></li><li>All <strong>normal</strong> and <strong>silver weapons</strong>, as well as <strong>magical weapons</strong> of +2 or lesser enchantment</li></ul><p>The <strong>Drolem</strong>'s claws inflict <strong>2d6</strong> points of damage each, and its massive jaws cause <strong>11-30 (1d20 + 10)</strong> points of damage. It can also breathe a <strong>poisonous cloud</strong> up to three times per day. The cloud is <strong>20 feet x 20 feet x 20 feet</strong>, and creatures within the area must make a saving throw versus <strong>dragon breath</strong> or die.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at half speed</p>",
+      "biography": "<p>A Drolem is a type of golem that looks like a dragon. It can be made to resemble any dragon color or may appear as a dragon skeleton. Like other golems, it is not alive, but a construct created by a high-level magic-user or cleric. Drolems are extremely rare, typically built to guard a special item or location. A special book and several rare materials are required to create a Drolem.</p><p>A Drolem is nonintelligent and follows instructions exactly. It can see invisible creatures within 60 feet and is immune to:</p><ul><li><strong>Charm</strong>, <strong>hold</strong>, <strong>sleep</strong>, and all mind-affecting spells</li><li>All forms of <strong>fire</strong>, <strong>cold</strong>, and <strong>gases</strong></li><li>Spells of <strong>4th level or lower</strong></li><li>All <strong>normal</strong> and <strong>silver weapons</strong>, as well as <strong>magical weapons</strong> of +2 or lesser enchantment</li></ul><p>The Drolem's claws inflict 2d6 points of damage each, and its massive jaws cause 11-30 (1d20 + 10) points of damage. It can also breathe a poisonous cloud up to three times per day. The cloud is 20 feet x 20 feet x 20 feet, and creatures within the area must make a saving throw versus dragon breath or die.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at half speed</p>",
       "items": {
+        "0nSwH9wnZWEcKqwj": {
+          "description": "<p>Immune to normal and silver weapons, and even magical weapons of +2 or lesser enchantment.</p>",
+          "name": "Weapon Immunity"
+        },
         "9GuULKvc5iViTm2w": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -5671,11 +5835,11 @@
           "name": "Mechanical Body (Armor)"
         },
         "PPI7EI4r3OU9zIIN": {
-          "description": "The drolem is immune to all spells except disintegrate, transmute rock to mud, and wish spells.",
+          "description": "<p>Immune to charm, hold, sleep and all other mind-affecting spells, all forms of fire and cold and all gases. Immune to all spells of 4th level or less.</p>",
           "name": "Magic Immunity"
         },
         "aLuQ5SIGOAid6fjg": {
-          "description": "<p>Breathes a cone of poison gas, 60 feet long and 20 feet wide, dealing 20d6 poison damage. Targets can save versus breath for half damage.</p>",
+          "description": "<p>Breathes a small poisonous cloud of 20'x20'x20'. Targets must save versus breath or die.</p>",
           "name": "Poison Gas Breath"
         },
         "eCGEjuMl0AUbokBM": {
@@ -5701,6 +5865,10 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "y22lBAVsdvKty6HU": {
+          "description": "<p>The ability to see invisible things within 60'.</p>",
+          "name": "See Invisible"
         }
       },
       "monsterType": "Construct, Enchanted",
@@ -5769,21 +5937,37 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "H14ldstZOc6SXAow": {
+          "description": "<p>Dwarves have infravision, allowing them to see in the dark up to 60 feet. They can perceive creatures and objects based on their temperature difference from the surroundings.</p>",
+          "name": "Infravision (D)"
+        },
         "NbpN7ee3P6xDlCyW": {
           "description": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
           "name": "Axe, Battle",
           "unidentifiedDesc": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
           "unidentifiedName": "Axe, Battle"
         },
+        "PUQCqvFMDV1cokUo": {
+          "description": "<p>A character on foot armed with a spear, pike, sword, shield, or lance can set the weapon against a charge. A charge occurs when a monster rushes towards the character, covering at least 20 yards before attacking. This maneuver can also be used against another character's lance attack.</p><p>To \"set vs. charge,\" the character braces the weapon against the ground, pointing it at the approaching enemy. Strength and magic bonuses apply to both the attack and damage rolls. If the attack is successful, the character deals double damage, with adjustments applied after doubling.</p><p>The character must declare the set vs. charge maneuver before entering melee combat with the charging opponent. For example, if the character’s party wins initiative and expects a charge, they can declare this maneuver. Similarly, if charging monsters are spotted several rounds in advance, the character can set their weapon against the charge ahead of time.</p><p>Typically, the attack is made during the monster's movement phase, as soon as it comes within weapon range. If the attack succeeds and kills the monster, it prevents the creature from attacking. If the attack does not kill the monster, it can then attack during its own melee phase of the combat sequence.</p>",
+          "name": "Set Spear vs. Charge"
+        },
         "dMdoEQPUmv0i1XCO": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "e3gmzA7Vg7cU1IZE": {
+          "description": "<p>When mounted and using a lance, a character can perform a powerful charge attack. If the attack is successful, the character gains double their Strength modifier to the damage roll. This ability is most effective when charging against opponents.</p>",
+          "name": "Lance Attack"
+        },
         "lXTHTLT1ZPi9AGF6": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "pXzLT5LkEcWUTyi8": {
+          "description": "<p>Dwarves can detect traps, sliding walls, sloping corridors, and new construction with a 1 in 2 chance. To search, the dwarf must actively look for these features, and the DM rolls 1d6; a roll of 1 or 2 indicates success.</p>",
+          "name": "Detection (D)"
         },
         "xEi7CTCK6grSItCs": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
