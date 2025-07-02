@@ -5979,8 +5979,18 @@
       "name": "Dwarf (1 HD)"
     },
     "Efreeti (Greater; Amir)*": {
-      "biography": "<p>On the elemental plane of Fire, the rulers of the efreet are known as amirs. These mighty beings appear as enormous efreet, standing between 15 and 30 feet tall. Unlike lesser efreet, an amir cannot be harmed by normal weapons or even by magical weapons of less than +2 enchantment. They also regenerate 2 hit points per round.</p><p>Amirs possess all the abilities of a lesser efreeti and can use them as often as desired, once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for one full round.</p><p>Once per day, an amir can grant another's wish, cast <em>fireball</em>, or unleash an <em>explosive cloud</em>, all as if cast by a 20th-level magic-user.</p><p>Amirs can assume a pillar of flame form without limit, igniting all flammable objects within 15 feet. While in this form, their melee attacks deal an additional 2d8 fire damage.</p><p>These beings cannot be summoned by spells and are resistant to most magical items. They rarely appear on the Prime Plane, doing so only in response to the cries of mistreated efreeti. When they do, they can appear anywhere but prefer hot environments such as deserts.</p><p><strong>Terrain:</strong> Plane of Fire</p><p><strong>Load:</strong> Flies with up to 10,000 cn at full speed or 20,000 cn at half speed. Walks with up to 20,000 cn at full speed or 40,000 cn at half speed.</p>",
+      "biography": "<p>On the elemental plane of Fire, the rulers of the efreet are known as amirs. These mighty beings appear as enormous efreet, standing between 15 and 30 feet tall. Unlike lesser efreet, an amir <strong>cannot be harmed by normal weapons or even by magical weapons of less than +2</strong> enchantment. They also regenerate 2 hit points per round.</p><p>Amirs possess all the abilities of a lesser efreeti and can use them as often as desired, once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for one full round.</p><p>Once per day, an amir can grant another's wish, cast <em>fireball</em>, or unleash an <em>explosive cloud</em>, all as if cast by a 20th-level magic-user.</p><p>Amirs can assume a pillar of flame form without limit, igniting all flammable objects within 15 feet. While in this form, their melee attacks deal an additional 2d8 fire damage.</p><p>These beings cannot be summoned by spells and are resistant to most magical items. They rarely appear on the Prime Plane, doing so only in response to the cries of mistreated efreeti. When they do, they can appear anywhere but prefer hot environments such as deserts.</p><p><strong>Terrain:</strong> Plane of Fire</p><p><strong>Load:</strong> Flies with up to 10,000 cn at full speed or 20,000 cn at half speed. Walks with up to 20,000 cn at full speed or 40,000 cn at half speed.</p>",
       "items": {
+        "4ziiafnwn68rWOcO": {
+          "description": "<p>This spell creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 1d6 fire damage per caster level to every creature in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. spells for half damage.</p>\n                      <p>For example, a fireball cast by a 6th-level caster deals 6d6 (6-36) points of damage. On a successful saving throw, the damage is halved.</p>",
+          "name": "Fireball",
+          "spellEffect": "Explosion in a sphere 40' diameter"
+        },
+        "5Lx4E9f3NLdUoXi5": {
+          "description": "<p>This spell creates a 30' diameter, 20' tall cloud of greenish gas filled with sparkling explosions, appearing next to the caster. It visually resembles the <em>Cloudkill</em> spell but has different effects.</p><h4>Effects:</h4><ul><li>The cloud moves away from the caster at a speed of 20' per round in a direction chosen by the caster.</li><li>Poisonous Gas: Each creature in the cloud must make a saving throw vs. spells or be **paralyzed** for 1 round. They may attempt a new saving throw each round.</li><li>Explosions: The cloud is filled with **tiny detonations**, dealing damage each round to all creatures inside.</li></ul><h4>Damage:</h4><p>Each creature inside the cloud takes 1 point of damage per 2 caster levels (rounded down). This damage ignores resistances (affecting creatures immune to fire, gas, electricity, etc.).</p><ul><li>Levels 18-19: [[/r 9 #Explosive Cloud Damage]]</li><li>Levels 20-21: [[/r 10 #Explosive Cloud Damage]]</li><li>Levels 22-23: [[/r 11 #Explosive Cloud Damage]]</li><li>Levels 24-25: [[/r 12 #Explosive Cloud Damage]]</li><li>Levels 26-27: [[/r 13 #Explosive Cloud Damage]]</li><li>Levels 28-29: [[/r 14 #Explosive Cloud Damage]]</li><li>Levels 30-31: [[/r 15 #Explosive Cloud Damage]]</li><li>Levels 32-33: [[/r 16 #Explosive Cloud Damage]]</li><li>Levels 34-35: [[/r 17 #Explosive Cloud Damage]]</li><li>Level 36: [[/r 18 #Explosive Cloud Damage]]</li></ul><h4>Duration:</h4><p>The cloud persists for 6 turns (60 rounds).</p>",
+          "name": "Explosive Cloud",
+          "spellEffect": "Creates a moving poisonous cloud"
+        },
         "ALo8sDe6YIIxDGhS": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -5994,6 +6004,14 @@
         "C70FZIEFd8JdE6tr": {
           "description": "Can enter or leave the Ethereal Plane by concentrating for one full round.",
           "name": "Ethereal Travel"
+        },
+        "CZooGZ0vFrVZ6D3s": {
+          "description": "<p>Can produce illusions at will.</p>",
+          "name": "Create Illusion"
+        },
+        "EyOUfosKEsCSNJ7l": {
+          "description": "<p>Can create objects at will.</p>",
+          "name": "Create Object"
         },
         "LS2QScDvTkxIP2HJ": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -6015,7 +6033,7 @@
         },
         "Xg7L1dRpPQeE3Yfy": {
           "description": "Can transform into a pillar of fire at will, igniting all flammable objects within 15 feet. While in this form, melee attacks deal an additional 2d8 fire damage.",
-          "name": "Flame Form"
+          "name": "Pillar of Flame"
         },
         "bDxRsTdCoYDpNrCq": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -6023,8 +6041,19 @@
           "shortName": "Spell"
         },
         "q0wZe1hk3X28QF5I": {
-          "description": "A devastating melee attack dealing 3d10 damage per hit.",
-          "name": "Fiery Fists"
+          "description": "<p>A devastating and fiery melee attack.</p>",
+          "name": "Fists"
+        },
+        "q9EEZNUW5enhMryR": {
+          "description": "<p>Can turn invisible at will.</p>",
+          "name": "Invisibility"
+        },
+        "sBlqcp8vJLw3Sswf": {
+          "description": "<p>The Wish spell is the most powerful spell a magic-user can cast. It is never found on scrolls but may be placed in rare magical items, such as rings. Only magic-users of 36th level with a Wisdom score of 18 or greater may cast this spell.</p><h4>Wording the Wish:</h4><p>The player must clearly state or write the exact wish. The wording is critically important, as the wish will usually follow the literal meaning of the words spoken—regardless of the caster's intentions.</p><p>The DM is responsible for maintaining game balance. Poorly worded wishes may have unintended consequences, while selfish or greedy wishes may be deliberately twisted by the DM. If a wish is unreasonable, the DM may simply rule that it has no effect.</p><h4>Examples of Faulty Wishes:</h4><ul><li>\"I wish that I knew everything about this dungeon.\" - The character gains full knowledge for a moment but then immediately forgets everything.</li><li>\"I wish for a million gold pieces.\" - The gold pieces may appear, but they might land on the caster (crushing them) and then vanish.</li><li>\"I wish to permanently gain the gaze power of a basilisk while retaining all my abilities.\" - This could result in the caster growing an additional basilisk head.</li></ul><h4>Wish Limitations & Effects:</h4><ul><li>A wish cannot be used to gain experience points or levels.</li><li>A properly worded wish can substitute for any magic-user spell of 8th level or lower or any clerical or druidic spell of 6th level or lower at the DM’s discretion.</li><li>If the wish is used to harm a creature, the target may make a saving throw vs. spells. If successful, the effect is halved, and the other half rebounds on the caster (who may save with a -4 penalty).</li><li>If the wish is used to inconvenience rather than harm (such as teleporting a victim into a prison cell), no saving throw is allowed.</li></ul><h4>Special Uses of a Wish:</h4><ul><li>A wish can create treasure, up to 50,000 gold pieces. However, the caster loses 1 XP per gold piece gained, and this loss cannot be restored.</li><li>A wish can temporarily change one ability score to a minimum of 3 or maximum of 18, lasting six turns.</li><li>Permanent ability score increases require casting a number of wishes equal to the desired score (e.g., raising Strength from 15 to 16 requires 16 wishes within one week).</li><li>Wishes cannot permanently lower ability scores.</li></ul><h4>Racial & Class Effects:</h4><ul><li>A wish cannot raise a human character beyond 36th level, but it can grant a demihuman one additional Hit Die (maximum HD: Halflings 9, Elves 11, Dwarves 13).</li><li>A wish can change a demihuman to a human (or vice versa), allowing them to advance as a new class at the same level.</li><li>If a wish is used to change another character’s class, the target may make a saving throw vs. spells with a +5 bonus to resist.</li></ul><h4>Altering Past Events:</h4><p>A wish can alter events from the past 24 hours. However, it cannot fully overturn impossible odds. Examples include:</p><ul><li>A lost battle may be changed into a less severe defeat.</li><li>A character’s death could instead become a near-death experience.</li><li>A permanent loss may be converted into a temporary one.</li></ul><h4>Important Note:</h4><p>If an effect is stated to be unchangeable \"even with a wish\", this limitation overrides the spell’s normal capabilities.</p><h4>Game Balance & DM Discretion:</h4><p>The DM must ensure that wishes remain within reason. A wish cannot alter fundamental game mechanics (such as preventing dragons from using their breath weapons). The more unreasonable a wish is, the less likely it is to succeed as intended.</p>",
+          "name": "Wish",
+          "spellDuration": "Special",
+          "spellEffect": "Alters reality based on the caster’s wording",
+          "spellRange": "Special"
         }
       },
       "monsterType": "Planar Monster, Enchanted",
@@ -6039,8 +6068,12 @@
           "shortName": "Stone"
         },
         "CZooGZ0vFrVZ6D3s": {
-          "description": "<p>Can create objects, produce illusions at will.</p>",
-          "name": "Illusions"
+          "description": "<p>Can produce illusions at will.</p>",
+          "name": "Create Illusion"
+        },
+        "EyOUfosKEsCSNJ7l": {
+          "description": "<p>Can create objects at will.</p>",
+          "name": "Create Object"
         },
         "MihPVThlyoz895F7": {
           "description": "Superheated form grants an AC of 3. Can only be harmed by magical weapons.",
@@ -6056,18 +6089,23 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "Xg7L1dRpPQeE3Yfy": {
+          "description": "Can transform into a pillar of fire at will, igniting all flammable objects within 15 feet. While in this form, melee attacks deal an additional 2d8 fire damage.",
+          "name": "Pillar of Flame"
+        },
         "aaadbc32Q7ULpM8g": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "eQtLd0MLjPKkAn1f": {
-          "description": "Once per turn, transforms into a pillar of fire for up to three rounds, igniting flammable objects within 5 feet. While in this form, melee attacks deal an additional 1d8 fire damage.",
-          "name": "Flame Form"
+        "eIV9zDJxnlwjpcGq": {
+          "description": "<p>This spell creates a thin, vertical wall of fire in any shape or dimension, totaling 1,200 square feet (e.g., 10' x 120', 20' x 60', 30' x 40'). The wall is opaque and blocks sight, and it cannot be created in a space already occupied by another object.</p>\n                      <p><strong>Duration:</strong> The wall remains as long as the caster concentrates on it without moving.</p>\n                      <p><strong>Breaking Through:</strong> Creatures with less than 4 Hit Dice cannot pass through the wall. Creatures with 4 HD or more may pass through, taking 1d6 fire damage in the process. Undead and cold-using creatures (e.g., white dragons, frost giants) each take double damage (2d6) when breaking through.</p>",
+          "name": "Wall of Fire",
+          "spellEffect": "Creates 1200 square feet of fire"
         },
         "i2sLR7V4BKeJ8UV6": {
           "description": "A devastating melee attack dealing 2d8 damage.",
-          "name": "Fiery Fist",
+          "name": "Fist",
           "unidentifiedName": "Fiery Fist"
         },
         "mAQ9jcK3N1kNvIbw": {
@@ -6084,12 +6122,8 @@
       "name": "Efreeti, Lesser*"
     },
     "Elemental Ruler, Air (Plane of Air)*": {
-      "biography": "<p><strong>The supreme rulers of the Elemental Plane of Air</strong>, these beings are vast, towering storms, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee massive cloud cities and command the lesser air elementals.</p>\n      <p><strong>Immense Power:</strong> These rulers are <strong>immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic</strong> (such as disintegrate). They can only be harmed by <strong>+4 weapons or greater</strong>.</p>\n      <p><strong>Crushing Blows:</strong> A victim struck by an elemental ruler must make a <strong>saving throw vs. death ray</strong> or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p>\n      <p><strong>Summoning:</strong> Air Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in <strong>3 rounds to 3 turns</strong>.</p>\n      <p><strong>HD & Scaling:</strong> Air Elemental Rulers grow in power as they age:</p>\n      <ul>\n      <li><strong>41-48 HD:</strong> AC -11, 8d12 damage per fist, XP 28,500</li>\n      <li><strong>49-56 HD:</strong> AC -12, 9d12 damage per fist, XP 36,500</li>\n      <li><strong>57-64 HD:</strong> AC -13, 10d12 damage per fist, XP 44,500</li>\n      <li><strong>65-72 HD:</strong> AC -14, 11d12 damage per fist, XP 52,500</li>\n      <li><strong>73-80 HD:</strong> AC -15, 12d12 damage per fist, XP 60,500</li>\n      </ul>\n      <p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p>\n      <p><strong>Terrain:</strong> Elemental Plane of Air</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Air, these beings are vast, towering storms, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee massive cloud cities and command the lesser air elementals.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Air</p>",
       "items": {
-        "2ySfbQyc8s4GV1Nz": {
-          "description": "<p>Victims hit must save vs. death ray or be instantly crushed. 95% chance of item destruction (-5% per plus if magical).</p>",
-          "name": "Crushing Blows"
-        },
         "3RX1mNEYsYQp4N49": {
           "description": "<p>Immune to spells 1st-5th level, poison, charm, hold, illusions, and instant death effects.</p>",
           "name": "Elemental Immunities"
@@ -6110,8 +6144,8 @@
           "shortName": "Wand"
         },
         "QcJvudS45nxtD6lN": {
-          "description": "<p>A massive storm-force blow dealing 8d12 damage (for 41 HD). Damage varies by Hit Dice (see scaling table).</p>",
-          "name": "Hurricane Strike",
+          "description": "<p>A massive fist strike. Damage varies by Hit Dice (see scaling table). A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly killed, regardless of damage taken.</p><p>Carried items have a 95% change of being destroyed (-5% per \"plus\" if magical).</p><p></p>",
+          "name": "Fist",
           "unidentifiedName": "Hurricane Strike"
         },
         "TnagsdkgEUPm9wo4": {
@@ -6137,7 +6171,7 @@
       "name": "Elemental Ruler, Air (Plane of Air)*"
     },
     "Elemental Ruler, Earth (Plane of Earth)*": {
-      "biography": "<p><strong>The supreme rulers of the Elemental Plane of Earth</strong>, these beings are colossal moving mountains, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee vast underground dominions made of pure stone and metal.</p>\n      <p><strong>Immense Power:</strong> These rulers are <strong>immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic</strong> (such as disintegrate). They can only be harmed by <strong>+4 weapons or greater</strong>.</p>\n      <p><strong>Crushing Blows:</strong> A victim struck by an elemental ruler must make a <strong>saving throw vs. death ray</strong> or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p>\n      <p><strong>Summoning:</strong> Earth Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in <strong>3 rounds to 3 turns</strong>.</p>\n      <p><strong>HD & Scaling:</strong> Earth Elemental Rulers grow in power as they age:</p>\n      <ul>\n      <li><strong>41-48 HD:</strong> AC -11, 8d12 damage per fist, XP 28,500</li>\n      <li><strong>49-56 HD:</strong> AC -12, 9d12 damage per fist, XP 36,500</li>\n      <li><strong>57-64 HD:</strong> AC -13, 10d12 damage per fist, XP 44,500</li>\n      <li><strong>65-72 HD:</strong> AC -14, 11d12 damage per fist, XP 52,500</li>\n      <li><strong>73-80 HD:</strong> AC -15, 12d12 damage per fist, XP 60,500</li>\n      </ul>\n      <p>Earth Elemental Rulers rarely interact with outsiders, focusing on the protection and rule of their vast subterranean empires.</p>\n      <p><strong>Terrain:</strong> Elemental Plane of Earth</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Earth, these beings are colossal moving mountains, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee vast underground dominions made of pure stone and metal.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Earth</p>",
       "items": {
         "82Gv5Uyay6vxzsWE": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -6154,6 +6188,11 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "QcJvudS45nxtD6lN": {
+          "description": "<p>A massive fist strike. Damage varies by Hit Dice (see scaling table). A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly killed, regardless of damage taken.</p><p>Carried items have a 95% change of being destroyed (-5% per \"plus\" if magical).</p><p></p>",
+          "name": "Fist",
+          "unidentifiedName": "Hurricane Strike"
+        },
         "VnYag49r1oHgGOmL": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -6168,15 +6207,6 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "konZ00OPksZ1bi6s": {
-          "description": "<p>Victims hit must save vs. death ray or be instantly crushed. 95% chance of item destruction (-5% per plus if magical).</p>",
-          "name": "Crushing Blows"
-        },
-        "m2y0QoAA25eZRnOt": {
-          "description": "<p>A devastating rock-shattering punch dealing 8d12 damage (for 41 HD). Damage varies by Hit Dice (see scaling table).</p>",
-          "name": "Mountain Strike",
-          "unidentifiedName": "Mountain Strike"
-        },
         "qDoQy2khtmGzfJrz": {
           "description": "<p>Immune to spells 1st-5th level, poison, charm, hold, illusions, and instant death effects.</p>",
           "name": "Elemental Immunities"
@@ -6190,15 +6220,16 @@
       "name": "Elemental Ruler, Earth (Plane of Earth)*"
     },
     "Elemental Ruler, Fire (Plane of Fire)*": {
-      "biography": "<p><strong>The supreme rulers of the Elemental Plane of Fire</strong>, these beings are immense, living infernos standing at least 82 feet tall (2 feet per Hit Die). They oversee empires of flame and molten rivers, ruling with overwhelming power.</p>\n      <p><strong>Immense Power:</strong> These rulers are <strong>immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic</strong> (such as disintegrate). They can only be harmed by <strong>+4 weapons or greater</strong>.</p>\n      <p><strong>Crushing Blows:</strong> A victim struck by an elemental ruler must make a <strong>saving throw vs. death ray</strong> or be instantly burned to ash, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p>\n      <p><strong>Summoning:</strong> Fire Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in <strong>3 rounds to 3 turns</strong>.</p>\n      <p><strong>HD & Scaling:</strong> Fire Elemental Rulers grow in power as they age:</p>\n      <ul>\n      <li><strong>41-48 HD:</strong> AC -11, 8d12 damage per fist, XP 28,500</li>\n      <li><strong>49-56 HD:</strong> AC -12, 9d12 damage per fist, XP 36,500</li>\n      <li><strong>57-64 HD:</strong> AC -13, 10d12 damage per fist, XP 44,500</li>\n      <li><strong>65-72 HD:</strong> AC -14, 11d12 damage per fist, XP 52,500</li>\n      <li><strong>73-80 HD:</strong> AC -15, 12d12 damage per fist, XP 60,500</li>\n      </ul>\n      <p>These rulers rarely leave their realm, viewing Prime Plane creatures as weak and short-lived.</p>\n      <p><strong>Terrain:</strong> Elemental Plane of Fire</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Fire, these beings are immense, living infernos standing at least 82 feet tall (2 feet per Hit Die). They oversee empires of flame and molten rivers, ruling with overwhelming power.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Fire</p>",
       "items": {
-        "9074A8BLbEBW5oL4": {
-          "description": "<p>Victims hit must save vs. death ray or be instantly reduced to ashes. 95% chance of item destruction (-5% per plus if magical).</p>",
-          "name": "Crushing Blows"
-        },
         "CGAHNqVcFhr3duzR": {
           "description": "<p>Immune to spells 1st-5th level, poison, charm, hold, illusions, and instant death effects.</p>",
           "name": "Elemental Immunities"
+        },
+        "QcJvudS45nxtD6lN": {
+          "description": "<p>A massive fist strike. Damage varies by Hit Dice (see scaling table). A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly killed, regardless of damage taken.</p><p>Carried items have a 95% change of being destroyed (-5% per \"plus\" if magical).</p><p></p>",
+          "name": "Fist",
+          "unidentifiedName": "Hurricane Strike"
         },
         "V0bBQHXO8QQ5zjSb": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -6232,17 +6263,13 @@
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
-        },
-        "pFLGwT2Yd5M80MXC": {
-          "description": "<p>A devastating burning attack dealing 8d12 fire damage (for 41 HD). Damage varies by Hit Dice (see scaling table).</p>",
-          "name": "Flame Strike"
         }
       },
       "monsterType": "Planar Monster, Enchanted",
       "name": "Elemental Ruler, Fire (Plane of Fire)*"
     },
     "Elemental Ruler, Water (Plane of Water)*": {
-      "biography": "<p><strong>The supreme rulers of the Elemental Plane of Water</strong>, these beings are massive, living oceans, standing at least 82 feet tall (2 feet per Hit Die). They rule over vast undersea cities and endless tides.</p>\n      <p><strong>Immense Power:</strong> These rulers are <strong>immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic</strong> (such as disintegrate). They can only be harmed by <strong>+4 weapons or greater</strong>.</p>\n      <p><strong>Crushing Blows:</strong> A victim struck by an elemental ruler must make a <strong>saving throw vs. death ray</strong> or be instantly drowned and crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p>\n      <p><strong>Summoning:</strong> Water Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in <strong>3 rounds to 3 turns</strong>.</p>\n      <p><strong>HD & Scaling:</strong> Water Elemental Rulers grow in power as they age:</p>\n      <ul>\n      <li><strong>41-48 HD:</strong> AC -11, 8d12 damage per fist, XP 28,500</li>\n      <li><strong>49-56 HD:</strong> AC -12, 9d12 damage per fist, XP 36,500</li>\n      <li><strong>57-64 HD:</strong> AC -13, 10d12 damage per fist, XP 44,500</li>\n      <li><strong>65-72 HD:</strong> AC -14, 11d12 damage per fist, XP 52,500</li>\n      <li><strong>73-80 HD:</strong> AC -15, 12d12 damage per fist, XP 60,500</li>\n      </ul>\n      <p>These rulers rarely leave their realm, seeing the Prime Plane as a dry and lifeless place.</p>\n      <p><strong>Terrain:</strong> Elemental Plane of Water</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Water, these beings are massive, living oceans, standing at least 82 feet tall (2 feet per Hit Die). They rule over vast undersea cities and endless tides.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Water</p>",
       "items": {
         "2IItZ2gVu5ZCCU6c": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -6262,10 +6289,6 @@
           "description": "<p>Living water body grants AC -11 at 41 HD (see scaling table). Can only be harmed by +4 weapons or greater.</p>",
           "name": "Tidal Form"
         },
-        "GCymeOEYYNnY0i1R": {
-          "description": "<p>Victims hit must save vs. death ray or be instantly drowned and crushed. 95% chance of item destruction (-5% per plus if magical).</p>",
-          "name": "Crushing Blows"
-        },
         "JFdCvgb71x3Il8As": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -6274,6 +6297,11 @@
         "MIwF8ijC9OOHiAmT": {
           "description": "<p>Immune to spells 1st-5th level, poison, charm, hold, illusions, and instant death effects.</p>",
           "name": "Elemental Immunities"
+        },
+        "QcJvudS45nxtD6lN": {
+          "description": "<p>A massive fist strike. Damage varies by Hit Dice (see scaling table). A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly killed, regardless of damage taken.</p><p>Carried items have a 95% change of being destroyed (-5% per \"plus\" if magical).</p><p></p>",
+          "name": "Fist",
+          "unidentifiedName": "Hurricane Strike"
         },
         "gbvHuAmEbSDXrPsg": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -6284,18 +6312,13 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
-        },
-        "sjPnu1gq3bT7F7Ht": {
-          "description": "<p>A devastating surge dealing 8d12 damage (for 41 HD). Damage varies by Hit Dice (see scaling table).</p>",
-          "name": "Crushing Wave",
-          "unidentifiedName": "Crushing Wave"
         }
       },
       "monsterType": "Planar Monster, Enchanted",
       "name": "Elemental Ruler, Water (Plane of Water)*"
     },
     "Elemental, Air (Device)*": {
-      "biography": "<p>A device-summoned air elemental is larger and more powerful than one summoned by a staff, appearing as a massive whirlwind <strong>24 feet tall and 6 feet wide</strong>. It moves at incredible speeds, using its sheer force to devastate foes.</p>\n      <p>Any creature of <strong>2 Hit Dice or less</strong> struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially deadly against flying creatures, dealing an <strong>extra 1d8 damage</strong>.</p>\n      <p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Air elementals take <strong>double damage from earth-based attacks</strong>, normal damage from air and fire, and <strong>minimal damage (1 HP per die) from water-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>6,000 cn at full speed</strong> or <strong>12,000 cn at half speed</strong>.</p>",
+      "biography": "<p>A device-summoned air elemental is larger and more powerful than one summoned by a staff, appearing as a massive whirlwind 24 feet tall and 6 feet wide. It moves at incredible speeds, using its sheer force to devastate foes.</p><p>Any creature of 2 Hit Dice or less struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially deadly against flying creatures, dealing an extra 1d8 damage.</p><p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Air elementals take double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks. When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 6,000 cn at full speed or 12,000 cn at half speed.</p>",
       "items": {
         "BS5ezVot0y0uMQnb": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -6308,8 +6331,12 @@
           "shortName": "Wand"
         },
         "StS7qpLss94qt0Tb": {
-          "description": "<p>A crushing blast of wind dealing 2d8 damage. Deals an additional 1d8 damage against flying creatures.</p>",
-          "name": "Gale Force Strike"
+          "description": "<p>A crushing fist blow. Deals an additional damage against flying creatures.</p>",
+          "name": "Fist"
+        },
+        "cjMpUQOqLpJRRFMk": {
+          "description": "<p>Moves by flying and may hover at any height moving in any direction at will.</p>",
+          "name": "Flying"
         },
         "k9KCGmkOMdrFOXRK": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -6322,7 +6349,7 @@
           "shortName": "Death"
         },
         "oohhmKzePhzRwF8G": {
-          "description": "<p>Takes <strong>double damage</strong> from earth-based attacks, normal damage from air and fire, and <strong>minimal damage</strong> (1 HP per die) from water-based attacks.</p>",
+          "description": "<p>Takes double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks.</p><p> When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p>",
           "name": "Elemental Weaknesses & Resistances"
         },
         "qCVwpIhQjYyS7Jqe": {
@@ -6345,10 +6372,6 @@
     "Elemental, Air (Plane of Air)*": {
       "biography": "<p>Elementals of the Plane of Air exist in a universe made of endless skies, where they live in massive cloud cities and refer to themselves as \"people.\" They are the dominant race of their plane and rule over thousands of floating worlds composed of air, mist, and vapor.</p>\n      <p>On their home plane, Air Elementals appear as ever-shifting blobs of wind, able to form and reshape their bodies at will. They can create a number of \"arms\" equal to their Hit Dice but can only attack once per round. </p>\n      <p>Their size is based on their Hit Dice, ranging from <strong>1 HD (tiny whirling breeze)</strong> to <strong>32 HD (vast storm clouds)</strong>. They can live up to 35 Hit Dice before aging forces them to weaken and disperse.</p>\n      <p>Elementals generally distrust creatures from the Prime Plane, recognizing them by their scent. However, if a visitor appears in elemental form, the reaction penalty is reduced.</p>\n      <p><strong>HD & Scaling:</strong> Air Elementals range in strength depending on their age and power:</p>\n      <ul>\n      <li><strong>1-2 HD:</strong> AC 5, 1d2 damage, XP 20</li>\n      <li><strong>3-4 HD:</strong> AC 4, 1d4 damage, XP 75</li>\n      <li><strong>5-6 HD:</strong> AC 3, 1d6 damage, XP 275</li>\n      <li><strong>7-8 HD:</strong> AC 2, 1d8 damage, XP 650</li>\n      <li><strong>9-10 HD:</strong> AC 1, 2d6 damage, XP 1,000</li>\n      <li><strong>11-12 HD:</strong> AC 0, 2d8 damage, XP 1,250</li>\n      <li><strong>13-14 HD:</strong> AC -1, 2d10 damage, XP 1,500</li>\n      <li><strong>15-16 HD:</strong> AC -2, 3d8 damage, XP 1,850</li>\n      <li><strong>17+ HD:</strong> Gains more power, beyond standard elementals</li>\n      </ul>\n      <p>Some elementals study magic and become powerful spellcasters, but only after reaching 9 HD or higher.</p>\n      <p><strong>Terrain:</strong> Elemental Plane of Air</p>",
       "items": {
-        "Cjrt8bPIDo89dU6Y": {
-          "description": "<p>As creatures of pure air, they are immune to suffocation and can pass through small openings.</p>",
-          "name": "Elemental Weaknesses & Resistances"
-        },
         "Ct5rQPTVeoAtc8TP": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -6392,29 +6415,29 @@
       "name": "Elemental, Air (Plane of Air)*"
     },
     "Elemental, Air (Spell)*": {
-      "biography": "<p>The most powerful type of air elemental, summoned through a <strong>magic-user's spell</strong>, appears as a towering whirlwind <strong>32 feet tall and 8 feet wide</strong>. It moves at terrifying speeds, smashing foes with hurricane-force winds.</p>\n      <p>Any creature of <strong>2 Hit Dice or less</strong> struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially devastating against flying creatures, dealing an <strong>extra 1d8 damage</strong>.</p>\n      <p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Air elementals take <strong>double damage from earth-based attacks</strong>, normal damage from air and fire, and <strong>minimal damage (1 HP per die) from water-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>8,000 cn at full speed</strong> or <strong>16,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The most powerful type of air elemental, summoned through a magic-user's spell, appears as a towering whirlwind 32 feet tall and 8 feet wide. It moves at terrifying speeds, smashing foes with hurricane-force winds.</p><p>Any creature of 2 Hit Dice or less struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially devastating against flying creatures, dealing an extra 1d8 damage.</p><p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Air elementals take double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks. When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 8,000 cn at full speed or 16,000 cn at half speed.</p>",
       "items": {
         "1OdQH1wq4gNGJxH8": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "GGI3tZj5JigQfTa8": {
-          "description": "<p>Takes <strong>double damage</strong> from earth-based attacks, normal damage from air and fire, and <strong>minimal damage</strong> (1 HP per die) from water-based attacks.</p>",
-          "name": "Elemental Weaknesses & Resistances"
+        "StS7qpLss94qt0Tb": {
+          "description": "<p>A crushing fist blow. Deals an additional damage against flying creatures.</p>",
+          "name": "Fist"
         },
         "YH5eWLf2vjjTEUvc": {
           "description": "<p>Any creature of 2 HD or less hit by the air elemental must make a saving throw vs. death ray or be swept away.</p>",
           "name": "Wind Blast"
         },
+        "cjMpUQOqLpJRRFMk": {
+          "description": "<p>Moves by flying and may hover at any height moving in any direction at will.</p>",
+          "name": "Flying"
+        },
         "eR3GzlmNmI0nEGee": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "hC0cTRxFlaPnYz0j": {
-          "description": "<p>A crushing blast of wind dealing 3d8 damage. Deals an additional 1d8 damage against flying creatures.</p>",
-          "name": "Gale Force Strike"
         },
         "j0nPhHUmZf8SQ9XD": {
           "description": "<p>Swirling mass of wind grants AC -2. Can only be harmed by magic or magical weapons.</p>",
@@ -6424,6 +6447,10 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "oohhmKzePhzRwF8G": {
+          "description": "<p>Takes double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks.</p><p> When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p>",
+          "name": "Elemental Weaknesses & Resistances"
         },
         "qPj6DYHcaJBfi7QZ": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -6442,10 +6469,6 @@
     "Elemental, Air (Staff)*": {
       "biography": "<p>The weakest type of air elemental, summoned through a magical staff, appears as a swirling whirlwind <strong>16 feet tall and 4 feet wide</strong>. It moves at incredible speeds, using its great force to batter foes.</p>\n      <p>Any creature of <strong>2 Hit Dice or less</strong> struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially devastating against flying creatures, dealing an <strong>extra 1d8 damage</strong>.</p>\n      <p>Staff-summoned elementals must be controlled by concentration, and if the summoner is interrupted, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Air elementals take <strong>double damage from earth-based attacks</strong>, normal damage from air and fire, and <strong>minimal damage (1 HP per die) from water-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>4,000 cn at full speed</strong> or <strong>8,000 cn at half speed</strong>.</p>",
       "items": {
-        "1JIb0zTKeXN05s0q": {
-          "description": "<p>Takes <strong>double damage</strong> from earth-based attacks, normal damage from air and fire, and <strong>minimal damage</strong> (1 HP per die) from water-based attacks.</p>",
-          "name": "Elemental Weaknesses & Resistances"
-        },
         "42FroZXmMCdVARWf": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -6465,14 +6488,22 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "TpHMkf9v7H0pS5ue": {
-          "description": "<p>A crushing blast of wind dealing 1d8 damage. Deals an additional 1d8 damage against flying creatures.</p>",
-          "name": "Gale Force Strike"
+        "StS7qpLss94qt0Tb": {
+          "description": "<p>A crushing fist blow. Deals an additional damage against flying creatures.</p>",
+          "name": "Fist"
+        },
+        "cjMpUQOqLpJRRFMk": {
+          "description": "<p>Moves by flying and may hover at any height moving in any direction at will.</p>",
+          "name": "Flying"
         },
         "nTB3earc1VdfO9og": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "oohhmKzePhzRwF8G": {
+          "description": "<p>Takes double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks.</p><p> When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p>",
+          "name": "Elemental Weaknesses & Resistances"
         },
         "tSq1QScG2nRcn557": {
           "description": "<p>Any creature of 2 HD or less hit by the air elemental must make a saving throw vs. death ray or be swept away.</p>",
@@ -14825,6 +14856,60 @@
       },
       "monsterType": "Giant Animal",
       "name": "Lizard, Tuatara"
+    },
+    "Locust, Giant": {
+      "biography": "<p>Giant locusts are 2 to 3 feet long and live underground. They may be mistaken for statues or might not be noticed at all until approached, due to their stone-gray color. These creatures are herbivores and also consume fungus, such as yellow mold and shriekers. They cannot be harmed by yellow mold or most poisons.</p><p>Instead of fighting, giant locusts usually flee by jumping away, covering distances of up to 60 feet. Unfortunately, they often become confused and may accidentally jump into a party, with a 50% chance per jump. If this occurs, a victim is determined randomly, and an attack roll is made. If the giant locust hits a character, the victim suffers 1d4 points of damage before the locust flies away.</p><p>When frightened or attacked, giant locusts emit a loud shrieking noise to warn their companions. In dungeons, this shriek has a 20% chance per round of attracting wandering monsters. If cornered, a giant locust will spit a brown, gooey substance up to 10 feet. The target is treated as having an armor class of 9, regardless of their actual armor class. A victim hit by the giant locust's spittle must make a saving throw against poison or be unable to do anything for one turn due to the awful smell. After this time, the victim will become accustomed to the odor, but any character approaching within 5 feet must also make a saving throw or suffer the same effects. This aroma will persist until the spittle is washed off. The terrain where these locusts are found is typically cavernous.</p>",
+      "items": {
+        "2Gkku3VEg9prjxcq": {
+          "description": "<p>Instead of fighting, giant locusts typically flee by jumping away, covering distances of up to 60 feet. Unfortunately, they often become confused and may accidentally jump into a party, with a 50% chance per jump. If this happens, a victim is determined randomly, and an attack roll is made. If the giant locust hits a character, the victim suffers 1d4 points of damage before the locust flies away.</p>",
+          "name": "Confused Jump"
+        },
+        "8R98kYWV3Pb6G4AA": {
+          "description": "<p>When frightened or attacked, giant locusts emit a loud shrieking noise to warn their companions. In dungeons, this shriek has a 20% chance per round of attracting wandering monsters.</p>",
+          "name": "Shriek (Attract Monsters)"
+        },
+        "ALtV6eYBpCXqWIXV": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "GB7WtwAT7O3ZvLQC": {
+          "description": "<p>Instead of fighting, giant locusts typically flee by jumping away, covering distances of up to 60 feet. Unfortunately, they often become confused and may accidentally jump into a party, with a 50% chance per jump. If this happens, a victim is determined randomly, and an attack roll is made. If the giant locust hits a character, the victim suffers 1d4 points of damage before the locust flies away.</p>",
+          "name": "Bump (Jump Attack)"
+        },
+        "KQHrB2ZZhKGgBxr8": {
+          "description": "<p>When cornered, spits a brown, gooey substance up to 10 feet. The target is treated as having an armor class of 9, regardless of their actual armor class. A victim hit by the giant locust's spittle must make a saving throw against poison or be unable to do anything for one turn due to the awful smell. After this time, the victim will become accustomed to the odor, but any character approaching within 5 feet must also make a saving throw or suffer the same effects. This aroma will persist until the spittle is washed off.</p>",
+          "name": "Spit Goo"
+        },
+        "VBeKGcHUfTJcrtvp": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "gub5f6DMusDOyVb5": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "kLE9qLoGNEUenayF": {
+          "name": "Bite"
+        },
+        "xuSVOvdMgcGljbFi": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "y7al2cGqONxMJa8V": {
+          "name": "Natural Armor"
+        },
+        "zVzMEbwovDbO2HFR": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        }
+      },
+      "monsterType": "Lowlife",
+      "name": "Locust, Giant"
     },
     "Lycanthrope, Devil Swine": {
       "biography": "<p>Devil Swine are shape-changing lycanthropes, appearing either as massive swine or as obese humans. They freely change shapes at night but must remain in one form during daylight hours. Devil Swine are carnivorous, favoring human flesh, and often live near human settlements where they can hunt. They ambush their prey, and each Devil Swine can cast <em>Charm Person</em> up to three times per day, in either human or swine form. Victims must make a saving throw vs. spells with a -2 penalty; charmed humans become controlled minions, with 0-3 usually under a Devil Swine's control.</p><p>In <strong>animal form</strong>, Devil Swine can only be harmed by magical or silvered weapons and communicate with other swine. In <strong>human form</strong>, they can use any weapon, speak any known language, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a Devil Swine’s gore or weapon attack becomes a Devil Swine within 2d12 days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Forests, swamps, or areas near human settlements",
