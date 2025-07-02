@@ -9946,6 +9946,25 @@
                 "Xg7L1dRpPQeE3Yfy": {
                     "description": "Può trasformarsi a piacimento in una colonna di fuoco, incendiando tutti gli oggetti infiammabili entro 4,5 m. Mentre è in questa forma, gli attacchi in mischia infliggono 2d8 danni da fuoco aggiuntivi.",
                     "name": "Piroforma"
+                },
+                "5Lx4E9f3NLdUoXi5": {
+                    "name": "Nube Esplosiva",
+                    "spellEffect": "Crea una nube velenosa vagante"
+                },
+                "q9EEZNUW5enhMryR": {
+                    "description": "<p>Può diventare invisibile a piacimento.</p>",
+                    "name": "Invisibilità"
+                },
+                "4ziiafnwn68rWOcO": {
+                    "description": "<p>Questo incantesimo crea un proiettile di fuoco che esplode in una sfera di fuoco con un diametro di 12 metri (raggio di 6 metri) nel punto in cui colpisce. Infligge 1d6 danni da fuoco per livello dell'incantatore a ogni creatura nell'area.</p>\n                      <p><strong>Tiro Salvezza:</strong> Ogni creatura può effettuare un tiro salvezza contro incantesimi per dimezzare i danni.</p>\n                      <p>Ad esempio, una palla di fuoco lanciata da un incantatore di 6º livello infligge 6d6 (6-36) punti di danno. Con un tiro salvezza riuscito, i danni sono dimezzati.</p>",
+                    "name": "Palla di Fuoco",
+                    "spellEffect": "Esplosione in una sfera di 12 metri di diametro"
+                },
+                "sBlqcp8vJLw3Sswf": {
+                    "name": "Desiderio",
+                    "spellDuration": "Speciale",
+                    "spellEffect": "Altera la realtà basata sulle parole del mago",
+                    "spellRange": "Speciale"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -9995,6 +10014,14 @@
                     "description": "Un attacco in mischia devastante che infligge 2d8 danni.",
                     "name": "Pugno Ardente",
                     "unidentifiedName": "Pugno Ardente"
+                },
+                "Xg7L1dRpPQeE3Yfy": {
+                    "description": "Può trasformarsi a piacimento in una colonna di fuoco, incendiando tutti gli oggetti infiammabili entro 4,5 m. Mentre è in questa forma, gli attacchi in mischia infliggono 2d8 danni da fuoco aggiuntivi."
+                },
+                "eIV9zDJxnlwjpcGq": {
+                    "name": "Muro di Fuoco",
+                    "spellEffect": "Crea 108 metri quadrati di fuoco",
+                    "description": "<p>Questo incantesimo crea un muro sottile e verticale di fuoco in qualsiasi forma o dimensione, per un totale di 108 metri quadrati (es: 3 m x 36 m, 6 m x 18 m, 9 m x 12 m). Il muro è opaco e blocca la vista, e non può essere creato in uno spazio già occupato da un altro oggetto</p>\n                      <p><strong>Durata:</strong> Il muro rimane finché l'incantatore si concentra su di esso senza muoversi</p>\n                      <p><strong>Attraversamento:</strong> Le creature con meno di 4 Dadi Vita non possono passare attraverso il muro. Le creature con 4 DV o più possono passare, subendo 1d6 danni da fuoco nel processo. I non-morti e le creature che usano il freddo (es: draghi bianchi, giganti del gelo) subiscono il doppio dei danni (2d6) quando attraversano</p>"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Raro)",
@@ -10043,6 +10070,9 @@
                 "tOaSqDOBov7EAm5O": {
                     "description": "<p>Qualsiasi creatura con 2 DV o meno colpita dall'elementale dell'aria deve effettuare un tiro salvezza contro il raggio della morte o essere spazzata via.</p>",
                     "name": "Ventata"
+                },
+                "cjMpUQOqLpJRRFMk": {
+                    "name": "Volare"
                 }
             },
             "biography": "<p>Un elementale dell’aria evocato da un oggetto è più grande e potente di uno evocato da un bastone magico, apparendo come un enorme vortice <strong>alto 7,2 m e largo 1,8 m</strong>. Si muove a velocità incredibili, usando la sua pura forza per devastare i nemici.</p>\n      <p>Qualsiasi creatura con <strong>2 Dadi Vita o meno</strong> colpita dall’elementale deve superare un tiro salvezza contro il raggio della morte o essere spazzata via. Gli attacchi dell’elementale sono particolarmente letali contro le creature volanti, infliggendo <strong>1d8 danni extra</strong>.</p>\n      <p>Gli elementali evocati da dispositivi richiedono un controllo continuo, e se la concentrazione dell’evocatore viene interrotta, l’elementale si rivolterà contro di lui. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali dell’aria subiscono <strong>danni doppi dagli attacchi basati sulla terra</strong>, danni normali da aria e fuoco, e <strong>danni minimi (1 PF per dado) dagli attacchi basati sull’acqua</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>6.000 mon a piena velocità</strong> o <strong>12.000 mon a mezza velocità</strong>.</p>",
@@ -10083,6 +10113,15 @@
                 "YH5eWLf2vjjTEUvc": {
                     "description": "<p>Qualsiasi creatura con 2 DV o meno colpita dall'elementale dell'aria deve effettuare un tiro salvezza contro il raggio della morte o essere spazzata via.</p>",
                     "name": "Ventata"
+                },
+                "StS7qpLss94qt0Tb": {
+                    "name": "Pugno"
+                },
+                "cjMpUQOqLpJRRFMk": {
+                    "name": "Volare"
+                },
+                "oohhmKzePhzRwF8G": {
+                    "name": "Debolezze e Resistenze Elementali"
                 }
             },
             "biography": "<p>Il tipo più potente di elementale dell’aria, evocato tramite un <strong>incantesimo di un mago</strong>, appare come un vortice torreggiante <strong>alto 9,6 m e largo 2,4 m</strong>. Si muove a velocità spaventose, schiantando i nemici con venti di forza uraganica.</p>\n      <p>Qualsiasi creatura con <strong>2 Dadi Vita o meno</strong> colpita dall’elementale deve superare un tiro salvezza contro il raggio della morte o essere spazzata via. Gli attacchi dell’elementale sono particolarmente devastanti contro le creature volanti, infliggendo <strong>1d8 danni extra</strong>.</p>\n      <p>Gli elementali evocati con incantesimi richiedono un controllo costante. Se l’evocatore è distratto o la sua concentrazione viene interrotta, l’elementale lo attaccherà. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali dell’aria subiscono <strong>danni doppi dagli attacchi basati sulla terra</strong>, danni normali da aria e fuoco, e <strong>danni minimi (1 PF per dado) dagli attacchi basati sull’acqua</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>8.000 mon a piena velocità</strong> o <strong>16.000 mon a mezza velocità</strong>.</p>",
@@ -10123,6 +10162,15 @@
                 "tSq1QScG2nRcn557": {
                     "name": "Ventata",
                     "description": "<p>Qualsiasi creatura con 2 DV o meno colpita dall'elementale dell'aria deve effettuare un tiro salvezza contro il raggio della morte o essere spazzata via.</p>"
+                },
+                "StS7qpLss94qt0Tb": {
+                    "name": "Pugno"
+                },
+                "oohhmKzePhzRwF8G": {
+                    "name": "Debolezze e Resistenze Elementali"
+                },
+                "cjMpUQOqLpJRRFMk": {
+                    "name": "Volare"
                 }
             },
             "biography": "<p>Il tipo più debole di elementale dell’aria, evocato tramite un bastone magico, appare come un vortice turbinante <strong>alto 4,8 m e largo 1,2 m</strong>. Si muove a velocità incredibili, usando la sua grande forza per colpire i nemici.</p>\n      <p>Qualsiasi creatura con <strong>2 Dadi Vita o meno</strong> colpita dall’elementale deve superare un tiro salvezza contro il raggio della morte o essere spazzata via. Gli attacchi dell’elementale sono particolarmente devastanti contro le creature volanti, infliggendo <strong>1d8 danni extra</strong>.</p>\n      <p>Gli elementali evocati con un bastone magico devono essere controllati con concentrazione, e se l’evocatore viene interrotto, l’elementale lo attaccherà. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali dell’aria subiscono <strong>danni doppi dagli attacchi basati sulla terra</strong>, danni normali da aria e fuoco, e <strong>danni minimi (1 PF per dado) dagli attacchi basati sull’acqua</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>4.000 mon a piena velocità</strong> o <strong>8.000 mon a mezza velocità</strong>.</p>",
@@ -11168,6 +11216,10 @@
                 "WJtrGwOjDo0lFiiE": {
                     "description": "<p>Può evocare rinforzi dal Piano della Terra, arrivando in 3 round o 3 turni.</p>",
                     "name": "Evoca Creature di Terra"
+                },
+                "QcJvudS45nxtD6lN": {
+                    "name": "Pugno",
+                    "unidentifiedName": "Colpo Tempestoso"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -11212,6 +11264,10 @@
                 "ZGrbjtpjl3kdNKNN": {
                     "description": "<p>Il fuoco vivente garantisce CA -11 a 41 DV (vedi tabella di progressione). Può essere danneggiato solo da armi +4 o superiori.</p>",
                     "name": "Forma Infernale"
+                },
+                "QcJvudS45nxtD6lN": {
+                    "name": "Pugno",
+                    "unidentifiedName": "Colpo Tempestoso"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -11256,6 +11312,10 @@
                 "9t7h3OlkUfx8kP4U": {
                     "description": "<p>Può evocare rinforzi dal Piano dell'Acqua, arrivando in 3 round o 3 turni.</p>",
                     "name": "Evoca Creature d'Acqua"
+                },
+                "QcJvudS45nxtD6lN": {
+                    "name": "Pugno",
+                    "unidentifiedName": "Colpo Tempestoso"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -23632,6 +23692,42 @@
                 }
             },
             "monsterType": "Umano (Raro)"
+        },
+        "Locust, Giant": {
+            "items": {
+                "ALtV6eYBpCXqWIXV": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                },
+                "VBeKGcHUfTJcrtvp": {
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                },
+                "gub5f6DMusDOyVb5": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "kLE9qLoGNEUenayF": {
+                    "name": "Morso"
+                },
+                "xuSVOvdMgcGljbFi": {
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo",
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
+                },
+                "y7al2cGqONxMJa8V": {
+                    "name": "Armatura Naturale"
+                },
+                "zVzMEbwovDbO2HFR": {
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
+                }
+            },
+            "monsterType": "Cattivo (Comune)"
         }
     },
     "label": "Bestiario",
