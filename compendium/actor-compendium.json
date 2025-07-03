@@ -6330,9 +6330,9 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "StS7qpLss94qt0Tb": {
-          "description": "<p>A crushing fist blow. Deals an additional damage against flying creatures.</p>",
-          "name": "Fist"
+        "XQhw9gwS8NS15a11": {
+          "description": "<p>A forceful blast of air. Deals an additional damage against flying creatures.</p>",
+          "name": "Cyclone Strike"
         },
         "cjMpUQOqLpJRRFMk": {
           "description": "<p>Moves by flying and may hover at any height moving in any direction at will.</p>",
@@ -6378,7 +6378,7 @@
           "shortName": "Wand"
         },
         "J5E0CuhaTE7LdoqO": {
-          "description": "<p>A forceful blast of air dealing 3d8 damage (for 16 HD). Damage varies by Hit Dice (see scaling table).</p>",
+          "description": "<p>A forceful blast of air. Damage varies by Hit Dice (see scaling table).</p>",
           "name": "Cyclone Strike",
           "unidentifiedName": "Cyclone Strike"
         },
@@ -6423,8 +6423,8 @@
           "shortName": "Breath"
         },
         "StS7qpLss94qt0Tb": {
-          "description": "<p>A crushing fist blow. Deals an additional damage against flying creatures.</p>",
-          "name": "Fist"
+          "description": "<p>A forceful blast of air. Deals an additional damage against flying creatures.</p>",
+          "name": "Cyclone Strike"
         },
         "YH5eWLf2vjjTEUvc": {
           "description": "<p>Any creature of 2 HD or less hit by the air elemental must make a saving throw vs. death ray or be swept away.</p>",
@@ -6467,16 +6467,12 @@
       "name": "Elemental, Air (Spell)*"
     },
     "Elemental, Air (Staff)*": {
-      "biography": "<p>The weakest type of air elemental, summoned through a magical staff, appears as a swirling whirlwind <strong>16 feet tall and 4 feet wide</strong>. It moves at incredible speeds, using its great force to batter foes.</p>\n      <p>Any creature of <strong>2 Hit Dice or less</strong> struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially devastating against flying creatures, dealing an <strong>extra 1d8 damage</strong>.</p>\n      <p>Staff-summoned elementals must be controlled by concentration, and if the summoner is interrupted, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Air elementals take <strong>double damage from earth-based attacks</strong>, normal damage from air and fire, and <strong>minimal damage (1 HP per die) from water-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>4,000 cn at full speed</strong> or <strong>8,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The weakest type of air elemental, summoned through a magical staff, appears as a swirling whirlwind 16 feet tall and 4 feet wide. It moves at incredible speeds, using its great force to batter foes.</p><p>Any creature of 2 Hit Dice or less struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially devastating against flying creatures, dealing an extra 1d8 damage.</p><p>Staff-summoned elementals must be controlled by concentration, and if the summoner is interrupted, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Air elementals take double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 4,000 cn at full speed or 8,000 cn at half speed.</p>",
       "items": {
         "42FroZXmMCdVARWf": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "EG8mesWasdOzp3Ft": {
-          "description": "<p>Swirling mass of wind grants AC 2. Can only be harmed by magic or magical weapons.</p>",
-          "name": "Whirlwind Form"
         },
         "FHRNaiXaGxWXpnGx": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -6488,13 +6484,17 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "StS7qpLss94qt0Tb": {
-          "description": "<p>A crushing fist blow. Deals an additional damage against flying creatures.</p>",
-          "name": "Fist"
-        },
         "cjMpUQOqLpJRRFMk": {
           "description": "<p>Moves by flying and may hover at any height moving in any direction at will.</p>",
           "name": "Flying"
+        },
+        "j0nPhHUmZf8SQ9XD": {
+          "description": "<p>Swirling mass of wind grants AC 2. Can only be harmed by magic or magical weapons.</p>",
+          "name": "Whirlwind Form"
+        },
+        "kwEZV1eEPRenNOyG": {
+          "description": "<p>A forceful blast of air. Deals an additional damage against flying creatures.</p>",
+          "name": "Cyclone Strike"
         },
         "nTB3earc1VdfO9og": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -6519,7 +6519,7 @@
       "name": "Elemental, Air (Staff)*"
     },
     "Elemental, Earth (Device)*": {
-      "biography": "<p>A device-summoned earth elemental is larger and more powerful than one summoned by a staff, appearing as a massive, hulking stone giant <strong>12 feet tall</strong>. It moves slowly but delivers incredibly powerful crushing attacks.</p>\n      <p>Earth elementals are most dangerous when fighting on solid ground, dealing an <strong>extra 1d8 damage</strong> to any creature touching the earth.</p>\n      <p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Earth elementals take <strong>double damage from fire-based attacks</strong>, normal damage from earth and water, and <strong>minimal damage (1 HP per die) from air-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>6,000 cn at full speed</strong> or <strong>12,000 cn at half speed</strong>.</p>",
+      "biography": "<p>A device-summoned earth elemental is larger and more powerful than one summoned by a staff, appearing as a massive, hulking stone giant 12 feet tall. It moves slowly but delivers incredibly powerful crushing attacks. It cannot cross a water barrier wider than its height.</p><p>Earth elementals are most dangerous when fighting on solid ground, dealing an extra 1d8 damage to any creature touching the earth.</p><p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Earth elementals take double damage from fire-based attacks, normal damage from earth and water, and minimal damage (1 HP per die) from air-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 6,000 cn at full speed or 12,000 cn at half speed.</p>",
       "items": {
         "0LhKc9UlYcvpG9UG": {
           "description": "<p>Deals an additional 1d8 damage against enemies standing on solid ground.</p>",
@@ -6530,17 +6530,13 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "NTAR4sdUft9vqEyN": {
-          "description": "<p>Takes <strong>double damage</strong> from fire-based attacks, normal damage from earth and water, and <strong>minimal damage</strong> (1 HP per die) from air-based attacks.</p>",
-          "name": "Elemental Weaknesses & Resistances"
-        },
         "OlDOprhiBs8OOYEk": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
         "WokJJ402zMuxiYbO": {
-          "description": "<p>A devastating strike dealing 2d8 damage. Deals an additional 1d8 damage against foes touching the ground.</p>",
+          "description": "<p>A devastating strike. Deals an additional 1d8 damage against foes touching the ground.</p>",
           "name": "Crushing Blow",
           "unidentifiedName": "Crushing Blow"
         },
@@ -6557,6 +6553,10 @@
         "dNh1bQiqDhcbPfwl": {
           "description": "<p>Massive rocky form grants AC 0. Can only be harmed by magic or magical weapons.</p>",
           "name": "Stone Body"
+        },
+        "oohhmKzePhzRwF8G": {
+          "description": "<p>Takes double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks.</p><p> When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p>",
+          "name": "Elemental Weaknesses & Resistances"
         },
         "z3xQxhxLzqhbHwfE": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -6580,13 +6580,9 @@
           "name": "Elemental Body"
         },
         "B7FzrhS9fwwvo7rV": {
-          "description": "<p>A crushing blow dealing 3d8 damage (for 16 HD). Damage varies by Hit Dice (see scaling table).</p>",
+          "description": "<p>A crushing blow dealing. Damage varies by Hit Dice (see scaling table).</p>",
           "name": "Earth Slam",
           "unidentifiedName": "Earth Slam"
-        },
-        "UFy1SjlFFqj15CCU": {
-          "description": "<p>Immune to suffocation, extremely resistant to being moved or knocked back.</p>",
-          "name": "Elemental Weaknesses & Resistances"
         },
         "UlHVjHUFdJAmUEsm": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -6617,7 +6613,7 @@
       "name": "Elemental, Earth (Plane of Earth)*"
     },
     "Elemental, Earth (Spell)*": {
-      "biography": "<p>The most powerful type of earth elemental, summoned through a <strong>magic-user's spell</strong>, appears as a towering colossus of stone <strong>16 feet tall</strong>. It moves deliberately but delivers catastrophic blows that can shatter rock and bone alike.</p>\n      <p>Earth elementals are most formidable when fighting on solid ground, dealing an <strong>extra 1d8 damage</strong> to any creature touching the earth.</p>\n      <p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Earth elementals take <strong>double damage from fire-based attacks</strong>, normal damage from earth and water, and <strong>minimal damage (1 HP per die) from air-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>8,000 cn at full speed</strong> or <strong>16,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The most powerful type of earth elemental, summoned through a magic-user's spell, appears as a towering colossus of stone 16 feet tall. It moves deliberately but delivers catastrophic blows that can shatter rock and bone alike. It cannot cross a water barrier wider than its height.</p><p>Earth elementals are most formidable when fighting on solid ground, dealing an extra 1d8 damage to any creature touching the earth.</p><p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Earth elementals take double damage from fire-based attacks, normal damage from earth and water, and minimal damage (1 HP per die) from air-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 8,000 cn at full speed or 16,000 cn at half speed.</p>",
       "items": {
         "5TxTbjPW9zBTww95": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -6638,9 +6634,10 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
-        "YX96UHDqeOu0qowe": {
-          "description": "<p>Takes <strong>double damage</strong> from fire-based attacks, normal damage from earth and water, and <strong>minimal damage</strong> (1 HP per die) from air-based attacks.</p>",
-          "name": "Elemental Weaknesses & Resistances"
+        "WokJJ402zMuxiYbO": {
+          "description": "<p>A devastating strike. Deals an additional 1d8 damage against foes touching the ground.</p>",
+          "name": "Crushing Blow",
+          "unidentifiedName": "Crushing Blow"
         },
         "abCO8ra9yeDPthwG": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -6652,10 +6649,9 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "rkF56vWfVvOI9yvk": {
-          "description": "<p>An overwhelming strike dealing 3d8 damage. Deals an additional 1d8 damage against foes touching the ground.</p>",
-          "name": "Crushing Blow",
-          "unidentifiedName": "Crushing Blow"
+        "oohhmKzePhzRwF8G": {
+          "description": "<p>Takes double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks.</p><p> When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p>",
+          "name": "Elemental Weaknesses & Resistances"
         },
         "vro7dvu8hKeICByj": {
           "description": "<p>Deals an additional 1d8 damage against enemies standing on solid ground.</p>",
@@ -6666,12 +6662,8 @@
       "name": "Elemental, Earth (Spell)*"
     },
     "Elemental, Earth (Staff)*": {
-      "biography": "<p>The weakest type of earth elemental, summoned through a magical staff, appears as a towering, humanoid-shaped mass of rock and dirt <strong>8 feet tall</strong>. It moves slowly but delivers crushing blows against its enemies.</p><p>Earth elementals are most powerful when fighting on solid ground, dealing an <strong>extra 1d8 damage</strong> to any creature touching the earth.</p><p>Staff-summoned earth elementals require constant control, and if the summoner is distracted, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Earth elementals take <strong>double damage from fire-based attacks</strong>, normal damage from earth and water, and <strong>minimal damage (1 HP per die) from air-based attacks</strong>.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry <strong>4,000 cn at full speed</strong> or <strong>8,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The weakest type of earth elemental, summoned through a magical staff, appears as a towering, humanoid-shaped mass of rock and dirt 8 feet tall. It moves slowly but delivers crushing blows against its enemies. It cannot cross a water barrier wider than its height.</p><p>Earth elementals are most powerful when fighting on solid ground, dealing an extra 1d8 damage to any creature touching the earth.</p><p>Staff-summoned earth elementals require constant control, and if the summoner is distracted, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Earth elementals take double damage from fire-based attacks, normal damage from earth and water, and minimal damage (1 HP per die) from air-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 4,000 cn at full speed or 8,000 cn at half speed.</p>",
       "items": {
-        "MsCH3g02LfN9TVft": {
-          "description": "<p>Takes <strong>double damage</strong> from fire-based attacks, normal damage from earth and water, and <strong>minimal damage</strong> (1 HP per die) from air-based attacks.</p>",
-          "name": "Elemental Weaknesses & Resistances"
-        },
         "QoYEofVHKCdZxRpL": {
           "description": "<p>Massive rocky form grants AC 2. Can only be harmed by magic or magical weapons.</p>",
           "name": "Stone Body"
@@ -6686,15 +6678,15 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "WokJJ402zMuxiYbO": {
+          "description": "<p>A devastating strike. Deals an additional 1d8 damage against foes touching the ground.</p>",
+          "name": "Crushing Blow",
+          "unidentifiedName": "Crushing Blow"
+        },
         "YeG7tR3U34pRr5Nd": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
-        },
-        "dVcBi3hfXnt2H25q": {
-          "description": "<p>A powerful strike dealing 1d8 damage. Deals an additional 1d8 damage against foes touching the ground.</p>",
-          "name": "Crushing Blow",
-          "unidentifiedName": "Crushing Blow"
         },
         "eMByxqi4O8Qp5UPD": {
           "description": "<p>Deals an additional 1d8 damage against enemies standing on solid ground.</p>",
@@ -6709,13 +6701,17 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "oohhmKzePhzRwF8G": {
+          "description": "<p>Takes double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks.</p><p> When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p>",
+          "name": "Elemental Weaknesses & Resistances"
         }
       },
       "monsterType": "Planar Monster, Enchanted",
       "name": "Elemental, Earth (Staff)*"
     },
     "Elemental, Fire (Device)*": {
-      "biography": "<p>A device-summoned fire elemental is larger and more powerful than one summoned by a staff, appearing as a towering inferno <strong>12 feet tall</strong>. It moves with flickering speed and sets everything it touches ablaze.</p>\n      <p>Fire elementals are especially deadly against creatures vulnerable to fire, dealing an <strong>extra 1d8 damage</strong> to creatures weak to heat.</p>\n      <p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Fire elementals take <strong>double damage from water-based attacks</strong>, normal damage from fire and air, and <strong>minimal damage (1 HP per die) from earth-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>6,000 cn at full speed</strong> or <strong>12,000 cn at half speed</strong>.</p>",
+      "biography": "<p>A device-summoned fire elemental is larger and more powerful than one summoned by a staff, appearing as a towering inferno 12 feet tall. It moves with flickering speed and sets everything it touches ablaze.</p><p>Fire elementals are especially deadly against creatures vulnerable to fire, dealing an extra 1d8 damage to creatures weak to heat.</p><p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Fire elementals take double damage from water-based attacks, normal damage from fire and air, and minimal damage (1 HP per die) from earth-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 6,000 cn at full speed or 12,000 cn at half speed.</p>",
       "items": {
         "2yAqIFCbGzmC7mdT": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -6788,10 +6784,6 @@
           "description": "<p>Flaming body grants AC -2 at 16 HD (see scaling table). Can only be harmed by magic or magical weapons.</p>",
           "name": "Blazing Form"
         },
-        "bNsGQW2tz5rPxvt2": {
-          "description": "<p>Completely immune to fire, but takes double damage from water-based attacks.</p>",
-          "name": "Elemental Weaknesses & Resistances"
-        },
         "p5bpTvPmjKdOYrh7": {
           "description": "<p>A burning attack dealing 3d8 fire damage (for 16 HD). Damage varies by Hit Dice (see scaling table).</p>",
           "name": "Flame Strike"
@@ -6811,7 +6803,7 @@
       "name": "Elemental, Fire (Plane of Fire)*"
     },
     "Elemental, Fire (Spell)*": {
-      "biography": "<p>The most powerful type of fire elemental, summoned through a <strong>magic-user's spell</strong>, appears as a massive inferno <strong>16 feet tall</strong>. It moves with incredible speed and consumes everything in its path.</p>\n      <p>Fire elementals are especially dangerous against creatures vulnerable to fire, dealing an <strong>extra 1d8 damage</strong> to creatures weak to heat.</p>\n      <p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Fire elementals take <strong>double damage from water-based attacks</strong>, normal damage from fire and air, and <strong>minimal damage (1 HP per die) from earth-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>8,000 cn at full speed</strong> or <strong>16,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The most powerful type of fire elemental, summoned through a magic-user's spell, appears as a massive inferno 16 feet tall. It moves with incredible speed and consumes everything in its path.</p><p>Fire elementals are especially dangerous against creatures vulnerable to fire, dealing an extra 1d8 damage to creatures weak to heat.</p><p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Fire elementals take double damage from water-based attacks, normal damage from fire and air, and minimal damage (1 HP per die) from earth-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 8,000 cn at full speed or 16,000 cn at half speed.</p>",
       "items": {
         "3hClIyJvrtfowLMa": {
           "description": "<p>Takes <strong>double damage</strong> from water-based attacks, normal damage from fire and air, and <strong>minimal damage</strong> (1 HP per die) from earth-based attacks.</p>",
@@ -6859,7 +6851,7 @@
       "name": "Elemental, Fire (Spell)*"
     },
     "Elemental, Fire (Staff)*": {
-      "biography": "<p>The weakest type of fire elemental, summoned through a magical staff, appears as a roaring pillar of flame <strong>8 feet tall</strong>. It moves with flickering speed and burns anything it touches.</p>\n      <p>Fire elementals are especially deadly against creatures vulnerable to fire, dealing an <strong>extra 1d8 damage</strong> to creatures weak to heat.</p>\n      <p>Staff-summoned fire elementals require constant control. If the summoner is distracted, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Fire elementals take <strong>double damage from water-based attacks</strong>, normal damage from fire and air, and <strong>minimal damage (1 HP per die) from earth-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>4,000 cn at full speed</strong> or <strong>8,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The weakest type of fire elemental, summoned through a magical staff, appears as a roaring pillar of flame 8 feet tall. It moves with flickering speed and burns anything it touches.</p><p>Fire elementals are especially deadly against creatures vulnerable to fire, dealing an extra 1d8 damage to creatures weak to heat.</p><p>Staff-summoned fire elementals require constant control. If the summoner is distracted, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Fire elementals take double damage from water-based attacks, normal damage from fire and air, and minimal damage (1 HP per die) from earth-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 4,000 cn at full speed or 8,000 cn at half speed.</p>",
       "items": {
         "5s3xq9qSbVzovw75": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -6907,7 +6899,7 @@
       "name": "Elemental, Fire (Staff)*"
     },
     "Elemental, Water (Device)*": {
-      "biography": "<p>A device-summoned water elemental is larger and more powerful than one summoned by a staff, appearing as a towering wave <strong>12 feet tall</strong>. It surges forward, smashing through obstacles and drowning foes.</p>\n      <p>Water elementals are especially dangerous to creatures that cannot swim, dealing an <strong>extra 1d8 damage</strong> when attacking enemies in water.</p>\n      <p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Water elementals take <strong>double damage from air-based attacks</strong>, normal damage from water and earth, and <strong>minimal damage (1 HP per die) from fire-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>6,000 cn at full speed</strong> or <strong>12,000 cn at half speed</strong>.</p>",
+      "biography": "<p>A device-summoned water elemental is larger and more powerful than one summoned by a staff, appearing as a towering wave 12 feet tall. It surges forward, smashing through obstacles and drowning foes.</p><p>Water elementals are especially dangerous to creatures that cannot swim, dealing an extra 1d8 damage when attacking enemies in water.</p><p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Water elementals take double damage from air-based attacks, normal damage from water and earth, and minimal damage (1 HP per die) from fire-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 6,000 cn at full speed or 12,000 cn at half speed.</p>",
       "items": {
         "50mnqBzQPYv7TFbN": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -6963,10 +6955,6 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "8wDVJJ6RZ3pA8cM8": {
-          "description": "<p>Immune to drowning and suffocation, but takes double damage from air-based attacks.</p>",
-          "name": "Elemental Weaknesses & Resistances"
-        },
         "CVYq9OomNIMHDlpB": {
           "description": "<p>Flowing water body grants AC -2 at 16 HD (see scaling table). Can only be harmed by magic or magical weapons.</p>",
           "name": "Watery Form"
@@ -6996,7 +6984,7 @@
           "name": "Elemental Body"
         },
         "mQputQJf1vJexI0C": {
-          "description": "<p>A crushing wave attack dealing 3d8 damage (for 16 HD). Damage varies by Hit Dice (see scaling table).</p>",
+          "description": "<p>A crushing wave attack. Damage varies by Hit Dice (see scaling table).</p>",
           "name": "Tidal Slam"
         }
       },
@@ -7004,7 +6992,7 @@
       "name": "Elemental, Water (Plane of Water)*"
     },
     "Elemental, Water (Spell)*": {
-      "biography": "<p>The most powerful type of water elemental, summoned through a <strong>magic-user's spell</strong>, appears as a towering, crashing wave <strong>16 feet tall</strong>. It surges forward, engulfing foes and smashing them with immense force.</p>\n      <p>Water elementals are especially deadly against creatures that cannot swim, dealing an <strong>extra 1d8 damage</strong> when attacking enemies in water.</p>\n      <p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Water elementals take <strong>double damage from air-based attacks</strong>, normal damage from water and earth, and <strong>minimal damage (1 HP per die) from fire-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>8,000 cn at full speed</strong> or <strong>16,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The most powerful type of water elemental, summoned through a magic-user's spell, appears as a towering, crashing wave 16 feet tall. It surges forward, engulfing foes and smashing them with immense force.</p><p>Water elementals are especially deadly against creatures that cannot swim, dealing an extra 1d8 damage when attacking enemies in water.</p><p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Water elementals take double damage from air-based attacks, normal damage from water and earth, and minimal damage (1 HP per die) from fire-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 8,000 cn at full speed or 16,000 cn at half speed.</p>",
       "items": {
         "4yaBopXRFX6irbCm": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -7053,7 +7041,7 @@
       "name": "Elemental, Water (Spell)*"
     },
     "Elemental, Water (Staff)*": {
-      "biography": "<p>The weakest type of water elemental, summoned through a magical staff, appears as a great, living wave <strong>8 feet tall</strong>. It surges across land but moves with ease through water, striking with immense force.</p>\n      <p>Water elementals are especially deadly against creatures that cannot swim, dealing an <strong>extra 1d8 damage</strong> when attacking enemies in water.</p>\n      <p>Staff-summoned water elementals require constant control. If the summoner is distracted, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p>\n      <p>Water elementals take <strong>double damage from air-based attacks</strong>, normal damage from water and earth, and <strong>minimal damage (1 HP per die) from fire-based attacks</strong>.</p>\n      <p><strong>Terrain:</strong> Any</p>\n      <p><strong>Load:</strong> Can carry <strong>4,000 cn at full speed</strong> or <strong>8,000 cn at half speed</strong>.</p>",
+      "biography": "<p>The weakest type of water elemental, summoned through a magical staff, appears as a great, living wave 8 feet tall. It surges across land but moves with ease through water, striking with immense force.</p><p>Water elementals are especially deadly against creatures that cannot swim, dealing an extra 1d8 damage when attacking enemies in water.</p><p>Staff-summoned water elementals require constant control. If the summoner is distracted, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Water elementals take double damage from air-based attacks, normal damage from water and earth, and minimal damage (1 HP per die) from fire-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 4,000 cn at full speed or 8,000 cn at half speed.</p>",
       "items": {
         "1tSbG78HgPKnpQfY": {
           "description": "<p>Deals an additional 1d8 damage against enemies in water.</p>",
