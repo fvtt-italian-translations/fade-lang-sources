@@ -2486,6 +2486,53 @@
       "monsterType": "Normal Animal",
       "name": "Camel"
     },
+    "Carrion Crawler": {
+      "biography": "<p>This scavenger, known as a Carrion Crawler, is a 9-foot-long, 3-foot-high, many-legged creature. It can move effortlessly across floors, walls, and ceilings. Its small mouth is surrounded by eight 2-foot-long tentacles, which can paralyze a victim upon a successful hit unless a saving throw vs. paralysis is made. The tentacles themselves do not inflict any damage.</p><p>Carrion Crawlers are notorious scavengers, typically feeding on the remains of dead animals. However, they will eagerly pursue fresh prey if the opportunity arises. They often attack small groups of travelers, paralyzing their victims and consuming them within three turns unless interrupted. The paralysis will naturally wear off in 2d4 turns unless cured magically.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+      "items": {
+        "7VZn5AdsjpRTvfUs": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "8ms56qgf5j8b2sus": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "ULPe9wii9clbt4na": {
+          "description": "<p>Each of the Carrion Crawler's eight tentacles can paralyze its target on a successful hit unless a saving throw vs. paralysis is made. This attack deals no damage but leaves the victim helpless for 2d4 turns.</p>",
+          "name": "Paralyzing Tentacle"
+        },
+        "UqndlSUAKeX3jkPy": {
+          "description": "<p>Any creature hit by a Carrion Crawler's tentacle must make a saving throw vs. paralysis or be paralyzed for 2d4 turns. The paralysis can be cured magically, or it will wear off on its own.</p>",
+          "name": "Paralysis"
+        },
+        "YcnTBCHp0OrAzeRT": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "diaROMHfTGB4sNFN": {
+          "description": "A small bite attack dealing 1 point of damage.",
+          "name": "Bite"
+        },
+        "ma3aZJ0jHu8IUahC": {
+          "name": "Tough Exoskeleton"
+        },
+        "qPcTJFsOPvSCwBNm": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "vuKbgpmgCRp1dYM7": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        }
+      },
+      "monsterType": "Lowlife",
+      "name": "Carrion Crawler"
+    },
     "Cat, Lion": {
       "biography": "<p>Lions are large predators found in warm climates, particularly savannah and brush lands. They hunt in groups called prides, and are known for their ferocity and strength, especially when protecting their territory.</p>",
       "items": {
@@ -3985,6 +4032,53 @@
       },
       "monsterType": "Normal Animal",
       "name": "Dolphin"
+    },
+    "Doppleganger": {
+      "biography": "<p>Dopplegangers are man-sized shape-changing creatures known for their intelligence and malevolent nature. They can transform into the exact form of any human, demihuman, or humanoid they see (up to 7 feet tall). After assuming the form of their target, they aim to kill the original person and take their place, often using stealth and deception to avoid alerting others.</p><p>Once in disguise, they attack the group from within, often when the party is already engaged in combat. Dopplegangers are <strong>immune to sleep and charm spells</strong> and save as 8th-level fighters due to their magical resilience. Upon death, they revert to their natural form—a hairless, genderless humanoid with pale, rubbery skin.</p><p>Dopplegangers can establish a limited telepathic link with their intended victim, quickly learning everything their target knows. However, they cannot use memorized spells of spellcasting victims. Spellcaster Dopplegangers are rare but can cast spells in any form they take.</p><p><strong>Terrain:</strong> Any.</p>",
+      "items": {
+        "BPlCgwMG3jdterIN": {
+          "description": "Establishes a telepathic link with its intended victim, learning all the target knows, but cannot use memorized spells.",
+          "name": "Telepathic Link"
+        },
+        "Hw0D6EMc7hkY6VpO": {
+          "description": "Pliable skin providing natural defense.",
+          "name": "Natural Armor"
+        },
+        "IdqzjzBpIsKa5Xsy": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "JObhIMlUjD2BYjdI": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "LNqnaXaTEePMLBt6": {
+          "name": "Bite"
+        },
+        "LoGeewRsgSDa45bA": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "fu68XdIYSR3buyKF": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "tH7q0dOC9KeUNsA9": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "uYIBITZUBL33p8Do": {
+          "description": "The Mimic Shifter can transform into the form of any human, demihuman, or humanoid it sees (up to 7 feet tall).",
+          "name": "Shape Change"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Doppleganger"
     },
     "Draft Horse": {
       "biography": "<p>A draft horse is a large, sturdy animal bred for endurance and strength. Used primarily as a pack animal or for plowing and hauling wagons, it is not meant for combat and will flee if attacked.</p>\n<p><strong>Terrain:</strong> Open</p>\n<p><strong>Load:</strong> 9000</p>\n<p><strong>Barding Multiplier:</strong> x1</p>",
@@ -7184,15 +7278,27 @@
     "Elf (1 HD)": {
       "biography": "<p>Elves are woodland humanoids, highly skilled in combat and magic. They use weapons effectively and can cast a 1st-level spell. Elves are often encountered in groups, and when a group of 15 or more appears, one of them will be a leader. This leader may possess magical items.</p>\n        <strong>Weapon Damage:</strong> Varies by weapon.<br>\n        <strong>Special:</strong> Each elf has access to a 1st-level spell.<br>\n        <strong>Terrain:</strong> Forests, Woodlands.<br>\n        <strong>Barding:</strong> None",
       "items": {
+        "182F4DzYozXPSnTY": {
+          "description": "<p>Elves have infravision, allowing them to see in the dark up to 60 feet. They can perceive creatures and objects based on their temperature difference from the surroundings.</p>",
+          "name": "Infravision (E)"
+        },
         "3ExrZ5UmN1sEOZMg": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "3NFATWULRaya8kWv": {
+          "description": "<p>A character on foot armed with a spear, pike, sword, shield, or lance can set the weapon against a charge. A charge occurs when a monster rushes towards the character, covering at least 20 yards before attacking. This maneuver can also be used against another character's lance attack.</p><p>To \"set vs. charge,\" the character braces the weapon against the ground, pointing it at the approaching enemy. Strength and magic bonuses apply to both the attack and damage rolls. If the attack is successful, the character deals double damage, with adjustments applied after doubling.</p><p>The character must declare the set vs. charge maneuver before entering melee combat with the charging opponent. For example, if the character’s party wins initiative and expects a charge, they can declare this maneuver. Similarly, if charging monsters are spotted several rounds in advance, the character can set their weapon against the charge ahead of time.</p><p>Typically, the attack is made during the monster's movement phase, as soon as it comes within weapon range. If the attack succeeds and kills the monster, it prevents the creature from attacking. If the attack does not kill the monster, it can then attack during its own melee phase of the combat sequence.</p>",
+          "name": "Set Spear vs. Charge"
+        },
         "763JQiBHmkNJWJd4": {
           "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
           "name": "Arrows",
           "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>"
+        },
+        "EgQeqRpUgpa2gGAE": {
+          "description": "<p>To detect a secret door, a character must specify the exact area being searched. The process typically takes one turn (10 minutes) for each 10-foot section of wall, floor, or ceiling. Elves, due to their keen sight, are given a bonus of 1 to their roll. <br>Either the Dungeon Master should roll or the roll should be blind, regardless of whether a secret door is present, to maintain player uncertainty. Once found, the location of the secret door can be noted, allowing future discovery without a roll.</p>",
+          "name": "Detect Secret Door"
         },
         "G6NDxhJH5fd32zRX": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -7210,6 +7316,10 @@
           "name": "Elf Armor",
           "unidentifiedDesc": "Elves have a natural Armor Class of 5."
         },
+        "edlH6xA8qrYpnmeO": {
+          "description": "<p>When mounted and using a lance, a character can perform a powerful charge attack. If the attack is successful, the character gains double their Strength modifier to the damage roll. This ability is most effective when charging against opponents.</p>",
+          "name": "Lance Attack"
+        },
         "gyGWKM9mur3eqbTy": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -7225,6 +7335,14 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "yH5ZotWuorzTv0nS": {
+          "description": "<p>Elves harness arcane energy through natural affinity and careful memorization of spells recorded in their spellbooks. Unlike Clerics, who receive divine magic, Elves must prepare spells in advance by studying their books each day. Once a spell is cast, it is erased from memory until re-memorized.</p><p>Elves have a limited selection of spells they can prepare per day, increasing as they gain levels. Their spells range from minor utilities such as <em>Read Magic</em> to devastating attacks like <em>Fireball</em> and reality-warping incantations at higher levels.</p><p>Because of their reliance on spellbooks, Elves must protect and expand their libraries, seeking out lost tomes, scrolls, and ancient knowledge to improve their magical repertoire. Unlike Magic-Users, however, Elves also train in combat, allowing them to wield swords and bows while wearing armor without disrupting their spellcasting.</p>",
+          "name": "Arcane Spellcasting (E)"
+        },
+        "z0TelFBQewTvxxF9": {
+          "description": "<p>Elves are immune to the paralyzing attacks of ghouls. They are, however, still affected by other forms of paralysis.</p>",
+          "name": "Ghoul Paralysis Immunity (E)"
+        },
         "zwSmPxFBroOoqBHq": {
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
           "name": "Sword, Normal",
@@ -7236,7 +7354,7 @@
       "name": "Elf (1 HD)"
     },
     "Faerie": {
-      "biography": "<p><strong>Faeries are small, winged humanoids that inhabit the air and clouds.</strong> They have traits of multiple races: <strong>dwarven noses and beards, elven eyes and ears, and halfling-sized bodies.</strong> Their empire in the sky is hidden from most other beings.</p>\n      <p><strong>Natural Invisibility:</strong> Faeries are <strong>invisible at all times</strong> and cannot be seen with normal sight. However, they <strong>can see invisible creatures</strong> without difficulty.</p>\n      <p><strong>Innate Magical Abilities:</strong> Faeries can use the following powers <strong>at will, once per round:</strong></p>\n      <ul>\n      <li><strong>Assume Gaseous Form:</strong> Functions like the potion.</li>\n      <li><strong>Create Fog:</strong> Forms a 10' cube of mist around the faerie.</li>\n      <li><strong>Condense Fog:</strong> Causes drizzle within the fog.</li>\n      <li><strong>Return to Normal Form:</strong> Exits gaseous state.</li>\n      <li><strong>Summon Breeze:</strong> Causes flames to flicker, blows out candles, and allows the faerie to fly at <strong>360' (120')</strong> for one turn.</li>\n      </ul>\n      <p><strong>Faerie Society:</strong> Faeries live in floating homes made of \"clouds,\" enjoying life above the storms. Their empire of wind is known only to them and a few air creatures.</p>\n      <p><strong>Leaders & Spellcasters:</strong> Common faeries have <strong>1+1 HD</strong>, but their leaders can have up to <strong>9 HD</strong>. Some rare faeries are magic-users or clerics (see \"Monster Spellcasters\").</p>\n      <p><strong>Terrain:</strong> Any.</p>",
+      "biography": "<p>Faeries are small, winged humanoids that inhabit the air and clouds. They have traits of multiple races: dwarven noses and beards, elven eyes and ears, and halfling-sized bodies. Their empire in the sky is hidden from most other beings.</p><p><strong>Natural Invisibility:</strong> Faeries are invisible at all times and cannot be seen with normal sight. However, they can see invisible creatures without difficulty.</p><p><strong>Innate Magical Abilities:</strong> Faeries can use the following powers <strong>at will, once per round:</strong></p><ul><li>Assume Gaseous Form: Functions like the potion.</li><li>Create Fog: Forms a 10' cube of mist around the faerie.</li><li>Condense Fog: Causes drizzle within the fog.</li><li>Return to Normal Form: Exits gaseous state.</li><li>Summon Breeze: Causes flames to flicker, blows out candles, and allows the faerie to fly at 360' (120') for one turn.</li></ul><p><strong>Faerie Society:</strong> Faeries live in floating homes made of \"clouds,\" enjoying life above the storms. Their empire of wind is known only to them and a few air creatures.</p><p><strong>Leaders & Spellcasters:</strong> Common faeries have <strong>1+1 HD</strong>, but their leaders can have up to <strong>9 HD</strong>. Some rare faeries are magic-users or clerics (see \"Monster Spellcasters\").</p><p><strong>Terrain:</strong> Any.</p>",
       "items": {
         "3wFBjpCCg6PyGDN2": {
           "description": "<p>Once per round, a faerie can become a cloud-like mist, moving through small openings and becoming immune to non-magical attacks.</p>",
@@ -7291,54 +7409,6 @@
       "monsterType": "Humanoid",
       "name": "Faerie"
     },
-    "Feathered Behemoth": {
-      "biography": "<p>The Feathered Behemoth is a large and terrifying predator, resembling a mix of owl and bear. It is a fierce hunter, attacking with deadly claws and a powerful bite. If both claws strike a target in the same round, the Behemoth attempts to grab and **hug**, crushing its opponent with its powerful arms for additional damage.</p>\n        <strong>Claw Damage:</strong> 1d8 per claw.<br>\n        <strong>Bite Damage:</strong> 2d8.<br>\n        <strong>Special Attack (Hug):</strong> If both claws hit in the same round, the Behemoth hugs its opponent, dealing an additional 2d8 damage.<br>\n        <strong>Terrain:</strong> Forests, Caves<br>\n        <strong>Barding:</strong> None",
-      "items": {
-        "1mxCcmddn1fqtOvP": {
-          "description": "The behemoth slashes with its sharp claws.",
-          "name": "Claw"
-        },
-        "6PGaU6tewGXsYK9b": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "6bqnSjL65VS6gKeu": {
-          "description": "<p>If both claws hit in the same round, the behemoth hugs its opponent for an additional [[/r 2d8 #Hug damage]] damage.</p>",
-          "name": "Hug"
-        },
-        "FuHXNxygSnxcdblz": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "SVhHJ68RnMOQERyi": {
-          "description": "The thick hide of the Feathered Behemoth provides a natural armor class of 5.",
-          "name": "Feathered Behemoth Hide (Armor)"
-        },
-        "Z2R9fOiHQF3KS9Ts": {
-          "description": "A powerful bite from the behemoth's beak.",
-          "name": "Bite"
-        },
-        "j8agDwkIRuWCg44a": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "ny4fg5gCrciJRDSS": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "p1FHZf8jJWdXjsHx": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        }
-      },
-      "monsterType": "Monster",
-      "name": "Feathered Behemoth"
-    },
     "Ferret, Giant": {
       "biography": "<p>Giant ferrets are long, slender mammals with yellow-white fur and red eyes, growing up to <strong>3 feet long</strong>. They are natural hunters of <strong>giant rats</strong>, capable of chasing them into underground lairs.</p>\n      <p>Despite their usefulness, giant ferrets are highly <strong>unpredictable</strong> and can turn aggressive, sometimes attacking their trainers.</p>\n      <p><strong>Terrain:</strong> Cavern, Woods.</p>",
       "items": {
@@ -7367,13 +7437,11 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "pgxVLWhWFrFGALJY": {
-          "description": "<p>Giant ferrets are extremely fast and agile, making them excellent hunters of underground creatures.</p>",
-          "name": "Quick Reflexes"
-        },
         "wf0T97Gg0WwD6HON": {
-          "description": "<p>A sharp bite that deals 1d8 damage.</p>",
           "name": "Bite"
+        },
+        "xwnIezRYTzUAvq6v": {
+          "name": "Thick Hide"
         }
       },
       "monsterType": "Giant Animal",
@@ -7398,7 +7466,6 @@
           "shortName": "Wand"
         },
         "fPFxlrlBGfDKHkOc": {
-          "description": "<p>A giant bass bites for 1d6 damage.</p>",
           "name": "Bite"
         },
         "fvh8rMZkf91TK61x": {
@@ -7438,7 +7505,7 @@
           "shortName": "Wand"
         },
         "UCEANMdebaaWGOab": {
-          "description": "<p>Thick, rock-like hide provides AC 1. Observers have a 70% chance to mistake the fish for a rock.</p>",
+          "description": "<p>Observers have a 70% chance to mistake the fish for a rock.</p>",
           "name": "Camouflaged Hide"
         },
         "X1vkv5CmauZeWfPx": {
@@ -7447,7 +7514,7 @@
           "shortName": "Death"
         },
         "j8L7UA74V33D8BJW": {
-          "description": "<p>Strikes up to 4 times per round. Each hit deals 1d4 damage and forces a <strong>saving throw vs. poison</strong>. Failure results in <strong>instant death</strong>.</p>",
+          "description": "<p>Strikes up to 4 times per round. Each hit deals 1d4 damage and forces a saving throw vs. poison. Failure results in instant death.</p>",
           "name": "Venomous Spines",
           "unidentifiedName": "Venomous Spines"
         },
@@ -7492,11 +7559,10 @@
           "shortName": "Spell"
         },
         "sg7a0HT2Dnoi1mJW": {
-          "description": "<p>If the sturgeon rolls an <strong>18 or higher</strong> on an attack, it swallows its target. A swallowed victim takes <strong>2d6 damage per round</strong> and must make a <strong>saving throw vs. death ray</strong> or be <strong>paralyzed</strong>. If not paralyzed, they may attack from inside.</p>",
+          "description": "<p>If the sturgeon rolls an 18 or higher on an attack, it swallows its target. A swallowed victim takes 2d6 damage per round and must make a saving throw vs. death ray or be paralyzed. If not paralyzed, they may attack from inside.</p>",
           "name": "Swallow Whole"
         },
         "vJXF8ryNgn3c75t2": {
-          "description": "<p>A powerful bite that deals 2d10 damage.</p>",
           "name": "Bite"
         },
         "vTvsYvn2ZqgudiZK": {
@@ -7508,11 +7574,56 @@
       "monsterType": "Giant Animal",
       "name": "Fish, Giant Sturgeon"
     },
+    "Gargantua, Carrion Crawler": {
+      "biography": "<p>A gargantua carrion crawler is a gigantic, grotesque arthropod created through magical experiments by the mad wizard Gargantua. It is twice the size of a normal carrion crawler, growing up to 40 feet long.</p><p><strong>Hunting & Combat:</strong> This massive scavenger cannot surprise enemies due to its size and the noise it makes while moving. It suffers a -4 penalty to attacks against man-sized or smaller creatures.</p><p><strong>Paralysis Tentacles:</strong> The worm lashes out with 8 paralyzing tentacles, each dealing 1d4+1 damage. Any creature hit must make a saving throw vs. paralysis or be unable to move.</p><p><strong>Massive Appetite:</strong> Gargantua <span style=\"font-family: Barlow, sans-serif\">carrion crawler</span> primarily feed on corpses but will attack living creatures if hungry.</p><p><strong>Terrain:</strong> Same as the original species (Underground, Ruins).</p>",
+      "items": {
+        "0bhbKPHumYhp1DFv": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "3opiCDVB2woFoW4H": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "8MEccpgA3kRZ2Z6U": {
+          "description": "<p>Gargantua are too large to move quietly and cannot surprise enemies. It also takes a -4 penalty to attacks against man-sized or smaller opponents.</p>",
+          "name": "Massive Size Penalty"
+        },
+        "AjhDoZwv70mROyNx": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "MNEpmUc36kjoiP8S": {
+          "description": "<p>Targets must make a saving throw vs. paralysis or be unable to move.</p>",
+          "name": "Paralysis Tentacles"
+        },
+        "diaROMHfTGB4sNFN": {
+          "name": "Bite"
+        },
+        "hsezqHyk15zn29Mw": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "qp9zIGgzsUtC0E0P": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "tlHMsIFVmroLnbI8": {
+          "name": "Chitinous Hide"
+        }
+      },
+      "monsterType": "Lowlife",
+      "name": "Gargantua, Carrion Crawler"
+    },
     "Gargantua, Gargoyle*": {
-      "biography": "<p>The <strong>gargantua gargoyle</strong> is a <strong>colossal, winged stone construct</strong>, standing over <strong>20 feet tall</strong>. Created by the mad wizard Gargantua, it is a devastating predator of the skies.</p>\n      <p><strong>Enchanted Nature:</strong> Unlike most gargantuas, this creature is fully magical. It is immune to normal weapons and can only be harmed by <strong>magical attacks or weapons.</strong></p>\n      <p><strong>Hunting & Combat:</strong> This terrifying beast can <strong>fly at great speeds (300')</strong> and attacks with its <strong>massive stone claws, bite, and horn.</strong></p>\n      <p><strong>Size Modifications:</strong></p>\n      <ul>\n      <li><strong>Twice the height</strong> of a normal gargoyle.</li>\n      <li><strong>8× the normal Hit Dice</strong> (32 HD).</li>\n      <li><strong>2× the normal movement speed</strong> (180' ground, 300' flying).</li>\n      <li><strong>4× normal damage output.</strong></li>\n      <li><strong>8× normal carrying capacity.</strong></li>\n      <li><strong>Treasure Type multiplied x4.</strong></li>\n      </ul>\n      <p><strong>Terrain:</strong> Same as the original species (Ruins, Mountains).</p>",
+      "biography": "<p>The gargantua gargoyle is a colossal, winged stone construct, standing over 20 feet tall. Created by the mad wizard Gargantua, it is a devastating predator of the skies.</p><p><strong>Enchanted Nature:</strong> Unlike most gargantuas, this creature is fully magical. It is immune to normal weapons and can only be harmed by magical attacks or weapons.</p><p><strong>Hunting & Combat:</strong> This terrifying beast can fly at great speeds (300') and attacks with its massive stone claws, bite, and horn.</p><p><strong>Terrain:</strong> Same as the original species (Ruins, Mountains).</p>",
       "items": {
         "TC9nk62ws43Z1pZw": {
-          "description": "<p>Uses its stone horn to gore enemies, dealing <strong>4d4 damage</strong>.</p>",
           "name": "Horn Gore",
           "unidentifiedName": "Horn Gore"
         },
@@ -7521,7 +7632,7 @@
           "name": "Magical Immunity"
         },
         "ZO03bh6pySsBRjoY": {
-          "description": "<p>Hardened stone body provides AC 4. Immune to normal weapons.</p>",
+          "description": "<p>Immune to normal weapons.</p>",
           "name": "Stone Hide"
         },
         "asXwQTfiY47RMN8x": {
@@ -7545,12 +7656,10 @@
           "shortName": "Breath"
         },
         "rJD0FKjdM9k96hid": {
-          "description": "<p>Massive stone claws deal <strong>4d3 damage</strong>.</p>",
           "name": "Claw",
           "unidentifiedName": "Claw"
         },
         "sQ3zxnfBUUiAEYXA": {
-          "description": "<p>A powerful bite that deals <strong>4d6 damage</strong>.</p>",
           "name": "Bite",
           "unidentifiedName": "Bite"
         },
@@ -7563,55 +7672,11 @@
       "monsterType": "Construct, Enchanted",
       "name": "Gargantua, Gargoyle*"
     },
-    "Gargantua, Grave Worm": {
-      "biography": "<p>A <strong>gargantua grave worm</strong> is a <strong>gigantic, grotesque arthropod</strong> created through magical experiments by the mad wizard Gargantua. It is twice the size of a normal grave worm, growing up to <strong>40 feet long</strong>.</p>\n      <p><strong>Hunting & Combat:</strong> This massive scavenger <strong>cannot surprise enemies</strong> due to its size and the noise it makes while moving. It suffers a <strong>-4 penalty to attacks</strong> against man-sized or smaller creatures.</p>\n      <p><strong>Paralysis Tentacles:</strong> The worm lashes out with <strong>8 paralyzing tentacles</strong>, each dealing <strong>1d4+1 damage</strong>. Any creature hit must make a <strong>saving throw vs. paralysis</strong> or be unable to move.</p>\n      <p><strong>Massive Appetite:</strong> Gargantua grave worms primarily feed on corpses but will attack living creatures if hungry.</p>\n      <p><strong>Size Modifications:</strong></p>\n      <ul>\n      <li><strong>Twice the height</strong> of a normal grave worm.</li>\n      <li><strong>8× the normal Hit Dice</strong> (25 HD).</li>\n      <li><strong>2× the normal movement speed</strong> (240').</li>\n      <li><strong>4× normal damage output.</strong></li>\n      <li><strong>8× normal carrying capacity.</strong></li>\n      <li><strong>Treasure Type multiplied x4.</strong></li>\n      </ul>\n      <p><strong>Terrain:</strong> Same as the original species (Underground, Ruins).</p>",
-      "items": {
-        "0bhbKPHumYhp1DFv": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "3opiCDVB2woFoW4H": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "8MEccpgA3kRZ2Z6U": {
-          "description": "<p>The gargantua grave worm is <strong>too large to move quietly</strong> and <strong>cannot surprise enemies</strong>. It also takes a <strong>-4 penalty to attacks</strong> against man-sized or smaller opponents.</p>",
-          "name": "Massive Size Penalty"
-        },
-        "AjhDoZwv70mROyNx": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "MNEpmUc36kjoiP8S": {
-          "description": "<p>Eight tentacle attacks, each dealing <strong>1d4+1 damage</strong>. Targets must make a <strong>saving throw vs. paralysis</strong> or be unable to move.</p>",
-          "name": "Paralysis Tentacles"
-        },
-        "hsezqHyk15zn29Mw": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "qp9zIGgzsUtC0E0P": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "tlHMsIFVmroLnbI8": {
-          "description": "<p>Hardened chitinous armor provides AC 3.</p>",
-          "name": "Chitinous Hide"
-        }
-      },
-      "monsterType": "Lowlife",
-      "name": "Gargantua, Grave Worm"
-    },
     "Gargantua, Troll": {
-      "biography": "<p>The <strong>gargantua troll</strong> is a <strong>towering, regenerating brute</strong>, standing over <strong>30 feet tall</strong>. Created by the mad wizard Gargantua, this enormous troll is a terrifying force of destruction.</p>\n      <p><strong>Hunting & Combat:</strong> A gargantua troll can move at incredible speed (240') and unleashes devastating attacks with <strong>two massive claws and a crushing bite.</strong></p>\n      <p><strong>Regeneration:</strong> The troll <strong>regenerates 4× faster</strong> than a normal troll. Even severed limbs will grow back rapidly unless destroyed by fire or acid.</p>\n      <p><strong>Size Modifications:</strong></p>\n      <ul>\n      <li><strong>Twice the height</strong> of a normal troll.</li>\n      <li><strong>8× the normal Hit Dice</strong> (51 HD).</li>\n      <li><strong>2× the normal movement speed</strong> (240').</li>\n      <li><strong>4× normal damage output.</strong></li>\n      <li><strong>8× normal carrying capacity.</strong></li>\n      <li><strong>Treasure Type multiplied x4.</strong></li>\n      </ul>\n      <p><strong>Terrain:</strong> Same as the original species (Swamp, Hills, Caverns).</p>",
+      "biography": "<p>The gargantua troll is a towering, regenerating brute, standing over 30 feet tall. Created by the mad wizard Gargantua, this enormous troll is a terrifying force of destruction.</p><p><strong>Hunting & Combat:</strong> A gargantua troll can move at incredible speed (240') and unleashes devastating attacks with two massive claws and a crushing bite.</p><p><strong>Regeneration:</strong> The troll regenerates 12 hit points per round. Even severed limbs will grow back rapidly unless destroyed by fire or acid.</p><p><strong>Terrain:</strong> Same as the original species (Swamp, Hills, Caverns).</p>",
       "items": {
         "IglWoz13wu8vKUfH": {
-          "description": "<p>The gargantua troll regenerates <strong>4× faster</strong> than a normal troll. Severed limbs regrow unless destroyed with <strong>fire or acid.</strong></p>",
+          "description": "<p>The gargantua troll regenerates 12 hit points per round. Severed limbs regrow unless destroyed with fire or acid.</p>",
           "name": "Regeneration"
         },
         "Iyumby0Jcsa2ws8g": {
@@ -7620,7 +7685,6 @@
           "shortName": "Stone"
         },
         "OStM7ZIhTRE8uEwh": {
-          "description": "<p>A powerful bite that deals <strong>4d10 damage</strong>.</p>",
           "name": "Bite",
           "unidentifiedName": "Bite"
         },
@@ -7630,7 +7694,6 @@
           "shortName": "Death"
         },
         "YzdWrFfajSH0qtbb": {
-          "description": "<p>Massive claw attack that deals <strong>4d6 damage</strong>.</p>",
           "name": "Claw",
           "unidentifiedName": "Claw"
         },
@@ -7666,7 +7729,6 @@
           "shortName": "Breath"
         },
         "FnfRZp4XlQLyQEoB": {
-          "description": "The gargoyle's stone-like skin provides a natural Armor Class of 5.",
           "name": "Gargoyle Hide (Armor)"
         },
         "HzS30Se2qeMy56lZ": {
@@ -9742,54 +9804,6 @@
       "monsterType": "Lowlife",
       "name": "Grab Grass"
     },
-    "Grave Worm": {
-      "biography": "<p>This scavenger, known as a Grave Worm, is a 9-foot-long, 3-foot-high, many-legged creature. It can move effortlessly across floors, walls, and ceilings. Its small mouth is surrounded by eight 2-foot-long tentacles, which can paralyze a victim upon a successful hit unless a saving throw vs. paralysis is made. The tentacles themselves do not inflict any damage.</p><p>Grave Worms are notorious scavengers, typically feeding on the remains of dead animals. However, they will eagerly pursue fresh prey if the opportunity arises. They often attack small groups of travelers, paralyzing their victims and consuming them within three turns unless interrupted. The paralysis will naturally wear off in 2d4 turns unless cured magically.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
-      "items": {
-        "7VZn5AdsjpRTvfUs": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "8ms56qgf5j8b2sus": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "ULPe9wii9clbt4na": {
-          "description": "Each of the Grave Worm's eight tentacles can paralyze its target on a successful hit unless a saving throw vs. paralysis is made. This attack deals no damage but leaves the victim helpless for 2d4 turns.",
-          "name": "Paralyzing Tentacle"
-        },
-        "UqndlSUAKeX3jkPy": {
-          "description": "Any creature hit by a Grave Worm's tentacle must make a saving throw vs. paralysis or be paralyzed for 2d4 turns. The paralysis can be cured magically, or it will wear off on its own.",
-          "name": "Paralysis"
-        },
-        "YcnTBCHp0OrAzeRT": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "diaROMHfTGB4sNFN": {
-          "description": "A small bite attack dealing 1 point of damage.",
-          "name": "Bite"
-        },
-        "ma3aZJ0jHu8IUahC": {
-          "description": "The tough exoskeleton of the Grave Worm provides an effective Armor Class of 7.",
-          "name": "Tough Exoskeleton"
-        },
-        "qPcTJFsOPvSCwBNm": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "vuKbgpmgCRp1dYM7": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        }
-      },
-      "monsterType": "Lowlife",
-      "name": "Grave Worm"
-    },
     "Gray Ooze": {
       "biography": "<p>The <strong>gray ooze</strong> is a dangerous, seeping horror that appears as <strong>a patch of wet stone</strong> (8' in diameter) or a <strong>boulder-like mass</strong> (4' in diameter), making it difficult to detect.</p>\n      <p><strong>Acidic Touch:</strong> The ooze secretes a powerful acid that deals <strong>2d8 damage</strong> when it touches bare skin.</p>\n      <p><strong>Armor & Weapon Dissolution:</strong> Normal armor and weapons are <strong>destroyed in 1 round</strong> when touched by the ooze. <strong>Magical items dissolve in 1 turn.</strong></p>\n      <p><strong>Clinging Ooze:</strong> Once it hits a victim, the ooze <strong>sticks to them</strong>, continuing to inflict <strong>2d8 damage per round</strong> and <strong>automatically destroying non-magical armor.</strong></p>\n      <p><strong>Resistances & Weaknesses:</strong></p>\n      <ul>\n      <li><strong>Immune to cold and fire.</strong></li>\n      <li><strong>Can be harmed by weapons and lightning.</strong></li>\n      </ul>\n      <p><strong>Terrain:</strong> Cavern, Ruins.</p>",
       "items": {
@@ -11146,6 +11160,10 @@
           "description": "A tough, natural hide provides modest protection.",
           "name": "Armor"
         },
+        "DS0159BWTBOI4oXM": {
+          "description": "<p>Hellhounds can detect invisible foes (using a method akin to the magic-user spell) with a 75% chance per round within a 60-foot range.</p>",
+          "name": "Detect Invisibility"
+        },
         "KHKwPgpUKe5cdHol": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -11157,7 +11175,6 @@
           "shortName": "Wand"
         },
         "VmCP1dg3MOGxGRMa": {
-          "description": "A vicious bite attack that inflicts 1d6 damage.",
           "name": "Bite"
         },
         "cpzAnwDWV0Ar7g31": {
@@ -11185,6 +11202,10 @@
         "6Gyh8KwWHZ9NrGcl": {
           "description": "A fearsome fire breath that deals 1d6 damage per Hit Die. The target may attempt a saving throw versus dragon breath to halve the damage.",
           "name": "Fire Breath"
+        },
+        "DS0159BWTBOI4oXM": {
+          "description": "<p>Hellhounds can detect invisible foes (using a method akin to the magic-user spell) with a 75% chance per round within a 60-foot range.</p>",
+          "name": "Detect Invisibility"
         },
         "EgJAh682Rt2ULqg7": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -11246,8 +11267,11 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "DS0159BWTBOI4oXM": {
+          "description": "<p>Hellhounds can detect invisible foes (using a method akin to the magic-user spell) with a 75% chance per round within a 60-foot range.</p>",
+          "name": "Detect Invisibility"
+        },
         "KBQze7FGtEztXEd6": {
-          "description": "A vicious bite attack that inflicts 1d6 damage.",
           "name": "Bite"
         },
         "O3AjcpCO81Xo6ujt": {
@@ -11271,7 +11295,6 @@
       "biography": "<p>This reddish-brown, doglike creature is about as large as a small pony and is known as a hellhound. Often encountered near volcanoes, deep in dungeons, or among other fire-loving beings such as fire giants, it is both cunning and highly intelligent.</p>\n<p>Hellhounds can detect invisible foes (using a method akin to the magic-user spell) with a 75% chance per round within a 60-foot range. They are immune to normal fire and make all saving throws as fighters of equivalent Hit Dice.</p>\n<p>In combat, a hellhound targets a single opponent each round, choosing either a biting attack that inflicts 1d6 damage or a fire breath attack. The fire breath deals 1d6 points of damage for each Hit Die of the hellhound; the attack is triggered on a roll of 1–2 on a 1d6 (a one-in-three chance), while the bite occurs on a roll of 3–6 (a two-in-three chance). A target struck by the fire breath may attempt a saving throw versus dragon breath to halve the damage.</p>\n<p><strong>Terrain:</strong> Cavern, Mountain</p>\n<p><strong>Load:</strong> 3000 (half speed load)</p>\n<p><strong>Barding Multiplier:</strong> x2</p>",
       "items": {
         "82Xz6IrubfCW1WLm": {
-          "description": "A vicious bite attack that inflicts 1d6 damage.",
           "name": "Bite"
         },
         "8NtuOb3wRDIWicpz": {
@@ -11282,6 +11305,10 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "DS0159BWTBOI4oXM": {
+          "description": "<p>Hellhounds can detect invisible foes (using a method akin to the magic-user spell) with a 75% chance per round within a 60-foot range.</p>",
+          "name": "Detect Invisibility"
         },
         "UeSaVP4CLcLuCCfE": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -11315,8 +11342,11 @@
       "biography": "<p>This reddish-brown, doglike creature is about as large as a small pony and is known as a hellhound. Often encountered near volcanoes, deep in dungeons, or among other fire-loving beings such as fire giants, it is both cunning and highly intelligent.</p>\n<p>Hellhounds can detect invisible foes (using a method akin to the magic-user spell) with a 75% chance per round within a 60-foot range. They are immune to normal fire and make all saving throws as fighters of equivalent Hit Dice.</p>\n<p>In combat, a hellhound targets a single opponent each round, choosing either a biting attack that inflicts 1d6 damage or a fire breath attack. The fire breath deals 1d6 points of damage for each Hit Die of the hellhound; the attack is triggered on a roll of 1–2 on a 1d6 (a one-in-three chance), while the bite occurs on a roll of 3–6 (a two-in-three chance). A target struck by the fire breath may attempt a saving throw versus dragon breath to halve the damage.</p>\n<p><strong>Terrain:</strong> Cavern, Mountain</p>\n<p><strong>Load:</strong> 3500 (half speed load)</p>\n<p><strong>Barding Multiplier:</strong> x2</p>",
       "items": {
         "72O8ghAHR1DQfT9t": {
-          "description": "A vicious bite attack that inflicts 1d6 damage.",
           "name": "Bite"
+        },
+        "DS0159BWTBOI4oXM": {
+          "description": "<p>Hellhounds can detect invisible foes (using a method akin to the magic-user spell) with a 75% chance per round within a 60-foot range.</p>",
+          "name": "Detect Invisibility"
         },
         "XtFLyqEbZSgLF36Z": {
           "description": "A fearsome fire breath that deals 1d6 damage per Hit Die. The target may attempt a saving throw versus dragon breath to halve the damage.",
@@ -16349,54 +16379,6 @@
       "monsterType": "Humanoid",
       "name": "Metamorph, Leader"
     },
-    "Mimic Shifter": {
-      "biography": "<p>Mimic Shifters are man-sized shape-changing creatures known for their intelligence and malevolent nature. They can transform into the exact form of any human, demihuman, or humanoid they see (up to 7 feet tall). After assuming the form of their target, they aim to kill the original person and take their place, often using stealth and deception to avoid alerting others.</p><p>Once in disguise, they attack the group from within, often when the party is already engaged in combat. Mimic Shifters are <strong>immune to sleep and charm spells</strong> and save as 8th-level fighters due to their magical resilience. Upon death, they revert to their natural form—a hairless, genderless humanoid with pale, rubbery skin.</p><p>Mimic Shifters can establish a limited telepathic link with their intended victim, quickly learning everything their target knows. However, they cannot use memorized spells of spellcasting victims. Spellcaster Mimic Shifters are rare but can cast spells in any form they take.</p><p><strong>Terrain:</strong> Any.</p>",
-      "items": {
-        "BPlCgwMG3jdterIN": {
-          "description": "Establishes a telepathic link with its intended victim, learning all the target knows, but cannot use memorized spells.",
-          "name": "Telepathic Link"
-        },
-        "Hw0D6EMc7hkY6VpO": {
-          "description": "Pliable skin providing natural defense.",
-          "name": "Natural Armor"
-        },
-        "IdqzjzBpIsKa5Xsy": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "JObhIMlUjD2BYjdI": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "LNqnaXaTEePMLBt6": {
-          "description": "A vicious bite attack.",
-          "name": "Bite"
-        },
-        "LoGeewRsgSDa45bA": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "fu68XdIYSR3buyKF": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "tH7q0dOC9KeUNsA9": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "uYIBITZUBL33p8Do": {
-          "description": "The Mimic Shifter can transform into the form of any human, demihuman, or humanoid it sees (up to 7 feet tall).",
-          "name": "Shape Change"
-        }
-      },
-      "monsterType": "Monster",
-      "name": "Mimic Shifter"
-    },
     "Minotaur": {
       "biography": "<p>The Minotaur stalks caverns and ruins, a towering beast 7 to 9 feet tall with a man’s form crowned by a bull’s head and hide. Driven by a ferocious temperament, it roams tunnels and mazes, preying on humans and attacking anything its size or smaller with relentless pursuit as long as its quarry remains in view.</p><p>In battle, it either gores and bites for [[/r 1d6 #Gore damage]] and [[/r 1d6 #Bite damage]], or wields a weapon—favoring spears, clubs, or axes—with a +2 damage bonus from its brute strength (e.g., [[/r 1d6+2 #Weapon damage]] for spear). When armed, it forgoes its natural attacks, relying solely on the weapon’s might.</p><p>Semi-intelligent, some Minotaurs wield tools, while rare, clever ones may cast spells. Roaming in bands of [[/r 1d6 #Minotaurs wandering]] or lairs of [[/r 1d8 #Minotaurs in lair]], they hoard modest treasures, their chaotic nature a constant threat in shadowed depths.</p><p><strong>Terrain:</strong> Cavern, Ruins</p>",
       "items": {
@@ -18057,6 +18039,52 @@
       },
       "monsterType": "Humanoid",
       "name": "Orc, Leader"
+    },
+    "Owlbear": {
+      "biography": "<p>The Owlbear is a large and terrifying predator, resembling a mix of owl and bear. It is a fierce hunter, attacking with deadly claws and a powerful bite. If both claws strike a target in the same round, the Owlbear attempts to grab and **hug**, crushing its opponent with its powerful arms for additional damage.</p><p><strong>Claw Damage:</strong> 1d8 per claw.<br><strong>Bite Damage:</strong> 2d8.<br><strong>Special Attack (Hug):</strong> If both claws hit in the same round, the Owlbear hugs its opponent, dealing an additional 2d8 damage.<br><strong>Terrain:</strong> Forests, Caves<br><strong>Barding:</strong> None</p>",
+      "items": {
+        "1mxCcmddn1fqtOvP": {
+          "name": "Claw"
+        },
+        "6PGaU6tewGXsYK9b": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "6bqnSjL65VS6gKeu": {
+          "description": "<p>If both claws hit in the same round, the behemoth hugs its opponent for an additional [[/r 2d8 #Hug damage]] damage.</p>",
+          "name": "Hug"
+        },
+        "FuHXNxygSnxcdblz": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "SVhHJ68RnMOQERyi": {
+          "name": "Hide (Armor)"
+        },
+        "Z2R9fOiHQF3KS9Ts": {
+          "description": "<p>A powerful bite from the owlbear's beak.</p>",
+          "name": "Bite"
+        },
+        "j8agDwkIRuWCg44a": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "ny4fg5gCrciJRDSS": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "p1FHZf8jJWdXjsHx": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Owlbear"
     },
     "Pegasus": {
       "biography": "<p>Pegasi are semi-intelligent flying horses that are wild and shy. They cannot be tamed by normal means, but will serve Lawful characters if captured and trained while young. Pegasi are natural enemies of hippogriffs, and will react aggressively toward them.</p><p><strong>Terrain:</strong> Hill, Mountain, Open.<br><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x 1.</p>",
