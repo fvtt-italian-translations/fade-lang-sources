@@ -5166,54 +5166,6 @@
             "name": "Drago Rosso Piccolo",
             "monsterType": "Drago (Raro)"
         },
-        "Feathered Behemoth": {
-            "biography": "<p>L'Orso Gufo è un grande e terrificante predatore, che ricorda un misto tra gufo e orso. È un cacciatore feroce, attaccando con artigli mortali e un potente morso. Se entrambi gli artigli colpiscono un bersaglio nello stesso turno, l'orso gufo tenta di afferrare e **stritolare**, schiacciando il suo avversario con le sue potenti braccia per danni aggiuntivi.</p>\n        <strong>Danno Artiglio:</strong> 1d8 per artiglio.<br>\n        <strong>Danno Morso:</strong> 2d8.<br>\n        <strong>Attacco Speciale (Stritolare):</strong> Se entrambi gli artigli colpiscono nello stesso turno, il Colosso stritola il suo avversario, infliggendo un ulteriore 2d8 danni.<br>\n        <strong>Terreno:</strong> Foreste, Caverne<br>\n        <strong>Bardatura:</strong> Nessuna",
-            "items": {
-                "1mxCcmddn1fqtOvP": {
-                    "description": "L'orso gufo sferza con i suoi artigli affilati.",
-                    "name": "Artiglio"
-                },
-                "SVhHJ68RnMOQERyi": {
-                    "description": "La spessa pelle dell'orso gufo fornisce classe armatura naturale 5.",
-                    "name": "Pelle di Orso Gufo (Armatura)"
-                },
-                "Z2R9fOiHQF3KS9Ts": {
-                    "description": "Un potente morso dal becco dell'orso gufo.",
-                    "name": "Morso"
-                },
-                "6bqnSjL65VS6gKeu": {
-                    "description": "<p>Se entrambi gli artigli colpiscono nello stesso turno, il colosso stritola il suo avversario per un ulteriore [[/r 2d8 #Danno Stritolare]] danno.</p>",
-                    "name": "Stritolare"
-                },
-                "6PGaU6tewGXsYK9b": {
-                    "name": "Incantesimi, Verga o Bastone Magico",
-                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
-                    "shortName": "Incantesimo"
-                },
-                "FuHXNxygSnxcdblz": {
-                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
-                    "name": "Pietrificazione o Paralisi",
-                    "shortName": "Pietrifica"
-                },
-                "j8agDwkIRuWCg44a": {
-                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
-                    "name": "Veleno o Raggio della Morte",
-                    "shortName": "Morte"
-                },
-                "p1FHZf8jJWdXjsHx": {
-                    "name": "Bacchetta Magica",
-                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
-                    "shortName": "Bacchetta"
-                },
-                "ny4fg5gCrciJRDSS": {
-                    "name": "Soffio del Drago",
-                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
-                    "shortName": "Soffio"
-                }
-            },
-            "name": "Orso Gufo",
-            "monsterType": "Mostro (Comune)"
-        },
         "Gorgon, Elemental Plane of Earth": {
             "items": {
                 "Zm5ovXnMlGIt7AhY": {
@@ -5257,54 +5209,6 @@
             "biography": "<p>Nel Piano Elementale della Terra, la Gorgone serve come animale da mandria locale, allevato da creature delle orde. Anche se il suo latte è amaro e oleoso, le creature si affidano alle gorgoni come fonte di cibo. Il suo soffio può ancora pietrificare creature non fatte di terra (con un tiro salvezza riuscito).</p><strong>Terreno:</strong> Piano della Terra",
             "name": "Gorgone Elementale (Piano della Terra)",
             "monsterType": "Mostro Planare (Comune)"
-        },
-        "Grave Worm": {
-            "items": {
-                "ULPe9wii9clbt4na": {
-                    "description": "Ognuno degli otto tentacoli del Verme Iena può paralizzare il suo bersaglio con un colpo riuscito, a meno che non venga effettuato un tiro salvezza contro paralisi. Questo attacco non infligge danni, ma lascia la vittima indifesa per 2d4 turni.",
-                    "name": "Tentacoli Paralizzanti"
-                },
-                "UqndlSUAKeX3jkPy": {
-                    "description": "Qualsiasi creatura colpita da un tentacolo del Verme Iena deve fare un tiro salvezza contro paralisi o essere paralizzata per 2d4 turni. La paralisi può essere curata magicamente, o si esaurisce naturalmente.",
-                    "name": "Paralisi"
-                },
-                "diaROMHfTGB4sNFN": {
-                    "description": "Un piccolo attacco con morso che infligge 1 punto di danno.",
-                    "name": "Morso"
-                },
-                "ma3aZJ0jHu8IUahC": {
-                    "description": "L'esoscheletro resistente del Verme Iena fornisce classe armatura 7.",
-                    "name": "Esoscheletro Duro"
-                },
-                "8ms56qgf5j8b2sus": {
-                    "name": "Bacchetta Magica",
-                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
-                    "shortName": "Bacchetta"
-                },
-                "YcnTBCHp0OrAzeRT": {
-                    "name": "Veleno o Raggio della Morte",
-                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
-                    "shortName": "Morte"
-                },
-                "7VZn5AdsjpRTvfUs": {
-                    "name": "Incantesimi, Verga o Bastone Magico",
-                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
-                    "shortName": "Incantesimo"
-                },
-                "qPcTJFsOPvSCwBNm": {
-                    "name": "Soffio del Drago",
-                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
-                    "shortName": "Soffio"
-                },
-                "vuKbgpmgCRp1dYM7": {
-                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
-                    "name": "Pietrificazione o Paralisi",
-                    "shortName": "Pietrifica"
-                }
-            },
-            "biography": "<p>Questo spazzino, noto come Verme Iena, è una creatura lunga 2,7 metri e alta 90 cm, con molte zampe. Può muoversi senza sforzo su pavimenti, pareti e soffitti. La sua piccola bocca è circondata da otto tentacoli lunghi 60 cm, che possono paralizzare una vittima con un colpo riuscito, a meno che non venga effettuato un tiro salvezza contro paralisi. I tentacoli stessi non infliggono danni.</p><p>I Vermi delle Tombe sono noti spazzini, che si nutrono tipicamente dei resti di animali morti. Tuttavia, inseguiranno con entusiasmo prede fresche se l'opportunità si presenta. Attaccano spesso piccoli gruppi di viaggiatori, paralizzando le loro vittime e consumandole entro tre turni, a meno che non vengano interrotti. La paralisi si esaurisce naturalmente in 2d4 turni, a meno che non venga curata magicamente.</p><p><strong>Terreno:</strong> Caverna, Rovine.</p>",
-            "name": "Verme Iena",
-            "monsterType": "Cattivo (Comune)"
         },
         "Horse, Riding": {
             "items": {
@@ -6552,54 +6456,6 @@
             },
             "name": "Medusa Elementale (Piano della Terra)",
             "monsterType": "Mostro Planare (Molto Raro)"
-        },
-        "Mimic Shifter": {
-            "biography": "<p>I Metamorfosis sono creature mutaforma delle dimensioni di un uomo, note per la loro intelligenza e natura malevola. Possono trasformarsi nell'esatta forma di qualsiasi umano, mezzoumano o umanoide che vedono (fino a 2 metri di altezza). Dopo aver assunto la forma del loro bersaglio, mirano a uccidere la persona originale e prendere il suo posto, spesso utilizzando furtività e inganno per evitare di allertare gli altri.</p>\n                <p>Una volta travestiti, attaccano il gruppo dall'interno, spesso quando il gruppo è già impegnato in combattimento. I Metamorfosis sono immuni agli incantesimi di sonno e charme e resistono come combattenti di 8º Livello grazie alla loro resilienza magica. Alla morte, tornano alla loro forma naturale: un umanoide senza peli e senza genere, con pelle pallida e gommosa.</p>\n                <p>I Metamorfosis possono stabilire un collegamento telepatico limitato con la loro vittima designata, imparando rapidamente tutto ciò che sa il loro bersaglio. Tuttavia, non possono usare gli incantesimi memorizzati delle vittime incantatrici. I Metamorfosis incantatori sono rari ma possono lanciare incantesimi in qualsiasi forma assumano.</p>\n                <p>**Terreno:** Qualsiasi.</p>",
-            "items": {
-                "BPlCgwMG3jdterIN": {
-                    "description": "Stabilisce un collegamento telepatico con la sua vittima designata, imparando tutto ciò che sa il bersaglio, ma non può usare gli incantesimi memorizzati.",
-                    "name": "Legame Telepatico"
-                },
-                "Hw0D6EMc7hkY6VpO": {
-                    "description": "Pelle flessibile che fornisce una difesa naturale.",
-                    "name": "Armatura Naturale"
-                },
-                "uYIBITZUBL33p8Do": {
-                    "description": "Il Metamorfosis può trasformarsi nella forma di qualsiasi umano, semiumano o umanoide che vede (fino a 2 metri di altezza).",
-                    "name": "Muta Forma"
-                },
-                "LNqnaXaTEePMLBt6": {
-                    "description": "Un attacco feroce con un morso.",
-                    "name": "Morso"
-                },
-                "IdqzjzBpIsKa5Xsy": {
-                    "name": "Incantesimi, Verga o Bastone Magico",
-                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
-                    "shortName": "Incantesimo"
-                },
-                "LoGeewRsgSDa45bA": {
-                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
-                    "name": "Pietrificazione o Paralisi",
-                    "shortName": "Pietrifica"
-                },
-                "fu68XdIYSR3buyKF": {
-                    "name": "Bacchetta Magica",
-                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
-                    "shortName": "Bacchetta"
-                },
-                "tH7q0dOC9KeUNsA9": {
-                    "name": "Soffio del Drago",
-                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
-                    "shortName": "Soffio"
-                },
-                "JObhIMlUjD2BYjdI": {
-                    "name": "Veleno o Raggio della Morte",
-                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
-                    "shortName": "Morte"
-                }
-            },
-            "name": "Metamorfosis",
-            "monsterType": "Mostro (Raro)"
         },
         "Mule": {
             "biography": "<p>Un Mulo è un incrocio tra un cavallo e un asino, noto per la sua testardaggine. Se provocato, un mulo può mordere o calciare per autodifesa, ma non può essere addestrato per attaccare. I muli sono particolarmente forti per la loro taglia e possono trasportare carichi pesanti per i loro proprietari, muovendosi a metà velocità quando sovraccarichi.</p><p>I muli possono accompagnare gli avventurieri nei dungeon se permesso dal DM. Quando trovati soli, potrebbero appartenere a un gruppo di PNG nelle vicinanze.</p><p><strong>Terreno:</strong> Qualsiasi</p><p><strong>Carico:</strong> 3.000 mon a velocità piena; 6.000 mon a metà velocità</p><p></p>",
@@ -11636,8 +11492,7 @@
         "Ferret, Giant": {
             "items": {
                 "wf0T97Gg0WwD6HON": {
-                    "name": "Morso",
-                    "description": "<p>Un morso affilato che infligge 1d8 danni.</p>"
+                    "name": "Morso"
                 },
                 "6VY1OEN25tNlOn7g": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -11663,10 +11518,6 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
-                },
-                "pgxVLWhWFrFGALJY": {
-                    "description": "<p>I furetti giganti sono estremamente veloci e agili, il che li rende ottimi cacciatori di creature sotterranee.</p>",
-                    "name": "Riflessi Rapidi"
                 }
             },
             "monsterType": "Animale Gigante (Comune)",
@@ -11700,8 +11551,7 @@
                     "shortName": "Bacchetta"
                 },
                 "fPFxlrlBGfDKHkOc": {
-                    "name": "Morso",
-                    "description": "<p>Uno sgombro gigante morde e infligge 1d6 danni.</p>"
+                    "name": "Morso"
                 },
                 "fvh8rMZkf91TK61x": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -11722,7 +11572,6 @@
                 },
                 "rJD0FKjdM9k96hid": {
                     "name": "Artiglio",
-                    "description": "<p>I massicci artigli di pietra infliggono <strong>3d4 danni</strong>.</p>",
                     "unidentifiedName": "Artiglio"
                 },
                 "vfUOKTInc6NRMJnd": {
@@ -11747,7 +11596,6 @@
                 },
                 "sQ3zxnfBUUiAEYXA": {
                     "name": "Morso",
-                    "description": "<p>Un morso potente che infligge <strong>4d6 danni</strong>.</p>",
                     "unidentifiedName": "Morso"
                 },
                 "Yykvx6tJo9Zq1v5l": {
@@ -11759,7 +11607,6 @@
                     "name": "Pelle di Pietra"
                 },
                 "TC9nk62ws43Z1pZw": {
-                    "description": "<p>Usa il suo corno di pietra per trafiggere i nemici, infliggendo <strong>4d4 danni</strong>.</p>",
                     "name": "Corno Sanguinario",
                     "unidentifiedName": "Corno Sanguinario"
                 }
@@ -11767,50 +11614,6 @@
             "name": "Gargantua, Gargoyle*",
             "biography": "<p>Il <strong>gargantua gargoyle</strong> è un <strong>colossale costrutto di pietra alato</strong>, alto oltre <strong>6 m</strong>. Creato dal folle mago Gargantua, è un predatore devastante dei cieli.</p>\n      <p><strong>Natura Incantata:</strong> A differenza della maggior parte dei gargantua, questa creatura è completamente magica. È immune alle armi normali e può essere danneggiata solo da <strong>attacchi o armi magiche</strong>.</p>\n      <p><strong>Caccia e Combattimento:</strong> Può <strong>volare a grande velocità (90 m)</strong> e attacca con i suoi <strong>massicci artigli di pietra, morso e corno</strong>.</p>\n      <p><strong>Modifiche alle Dimensioni:</strong></p>\n      <ul>\n      <li><strong>Il doppio dell'altezza</strong> di un gargoyle normale.</li>\n      <li><strong>8× i normali Dadi Vita</strong> (32 DV).</li>\n      <li><strong>2× la normale velocità di movimento</strong> (54 m a terra, 90 m in volo).</li>\n      <li><strong>4× la normale potenza d'attacco.</strong></li>\n      <li><strong>8× la normale capacità di carico.</strong></li>\n      <li><strong>Tipo di Tesoro moltiplicato x4.</strong></li>\n      </ul>\n      <p><strong>Terreno:</strong> Uguale a quello della specie originale (Rovine, Montagne).</p>",
             "monsterType": "Costrutto Magico (Molto Raro)"
-        },
-        "Gargantua, Grave Worm": {
-            "items": {
-                "0bhbKPHumYhp1DFv": {
-                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
-                    "name": "Bacchetta Magica",
-                    "shortName": "Bacchetta"
-                },
-                "AjhDoZwv70mROyNx": {
-                    "name": "Pietrificazione o Paralisi",
-                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
-                    "shortName": "Pietrifica"
-                },
-                "hsezqHyk15zn29Mw": {
-                    "name": "Incantesimi, Verga o Bastone Magico",
-                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
-                    "shortName": "Incantesimo"
-                },
-                "qp9zIGgzsUtC0E0P": {
-                    "name": "Soffio del Drago",
-                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
-                    "shortName": "Soffio"
-                },
-                "3opiCDVB2woFoW4H": {
-                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
-                    "name": "Veleno o Raggio della Morte",
-                    "shortName": "Morte"
-                },
-                "MNEpmUc36kjoiP8S": {
-                    "name": "Tentacoli Paralizzanti",
-                    "description": "<p>8 attacchi coi tentacoli, ognuno dei quali infligge <strong>1d4+1 danni</strong>. I bersagli devono effettuare un <strong>tiro salvezza contro paralisi</strong> o non essere in grado di muoversi.</p>"
-                },
-                "8MEccpgA3kRZ2Z6U": {
-                    "description": "<p>Il gargantua verme-iena è <strong>troppo grande per muoversi silenziosamente</strong> e <strong>non può sorprendere i nemici</strong>. Subisce anche una penalità di <strong>-4 agli attacchi</strong> contro avversari di dimensioni umane o più piccoli.</p>",
-                    "name": "Penalità per dimensioni enormi"
-                },
-                "tlHMsIFVmroLnbI8": {
-                    "description": "<p>L'armatura chitinosa indurita fornisce CA 3.</p>",
-                    "name": "Pelle Chitinosa"
-                }
-            },
-            "biography": "<p>Il <strong>gargantua verme-iena</strong> è un <strong>gigantesco, grottesco artropode</strong> creato attraverso esperimenti magici dal folle mago Gargantua. È il doppio della grandezza di un normale gargantua verme-iena, raggiungendo fino a <strong>12 m di lunghezza</strong></p>\n      <p><strong>Caccia e Combattimento:</strong> Questo massiccio spazzino <strong>non può sorprendere i nemici</strong> a causa delle sue dimensioni e del rumore che produce mentre si muove. Subisce una <strong>penalità di -4 agli attacchi</strong> contro creature di taglia umana o inferiori</p>\n      <p><strong>Tentacoli Paralizzanti:</strong> Il verme si scaglia con <strong>8 tentacoli paralizzanti</strong>, ognuno dei quali infligge <strong>1d4+1 danni</strong>. Ogni creatura colpita deve effettuare un <strong>tiro salvezza contro la paralisi</strong> o essere incapace di muoversi</p>\n      <p><strong>Appetito Massiccio:</strong> I gargantua verme-iena si nutrono principalmente di cadaveri, ma attaccheranno creature viventi se affamati</p>\n      <p><strong>Modifiche alle Dimensioni:</strong></p>\n      <ul>\n      <li><strong>Il doppio dell'altezza</strong> di un normale gargantua verme-iena.</li>\n      <li><strong>8× i normali Dadi Vita</strong> (25 DV).</li>\n      <li><strong>2× la normale velocità di movimento</strong> (72 m).</li>\n      <li><strong>4× la normale potenza d'attacco.</strong></li>\n      <li><strong>8× la normale capacità di carico.</strong></li>\n      <li><strong>Tipo di Tesoro moltiplicato x4.</strong></li>\n      </ul>\n      <p><strong>Terreno:</strong> Uguale a quello della specie originale (Sotterraneo, Rovine).</p>",
-            "monsterType": "Cattivo (Molto Raro)",
-            "name": "Gargantua, Verme-Iena"
         },
         "Gargantua, Troll": {
             "items": {
@@ -11825,7 +11628,6 @@
                 },
                 "YzdWrFfajSH0qtbb": {
                     "name": "Artiglio",
-                    "description": "<p>Attacco massiccio con artigli che infligge <strong>4d6 danni</strong>.</p>",
                     "unidentifiedName": "Artiglio"
                 },
                 "Iyumby0Jcsa2ws8g": {
@@ -11835,7 +11637,6 @@
                 },
                 "OStM7ZIhTRE8uEwh": {
                     "name": "Morso",
-                    "description": "<p>Un morso potente che infligge <strong>4d10 danni</strong>.</p>",
                     "unidentifiedName": "Morso"
                 },
                 "g1zNAHZcQDYpxbfy": {
@@ -11902,7 +11703,6 @@
                     "shortName": "Incantesimo"
                 },
                 "FnfRZp4XlQLyQEoB": {
-                    "description": "Simile alla pietra, la pelle del gargoyle fornisce una Classe Armatura naturale 5.",
                     "name": "Pelle Gargoyle (Armatura)"
                 },
                 "kNagT8OXATej59bb": {
@@ -13884,8 +13684,7 @@
                     "description": "<p>Se lo storione ottiene un <strong>18 o più</strong> in un attacco, ingoia il suo bersaglio. Una vittima ingoiata subisce <strong>2d6 danni a round</strong> e deve effettuare un <strong>tiro salvezza contro il raggio della morte</strong> o essere <strong>paralizzata</strong>. Se non è paralizzata, può attaccare dall'interno.</p>"
                 },
                 "vJXF8ryNgn3c75t2": {
-                    "name": "Morso",
-                    "description": "<p>Un morso potente che infligge 2d10 danni.</p>"
+                    "name": "Morso"
                 },
                 "vTvsYvn2ZqgudiZK": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -15672,8 +15471,7 @@
                     "shortName": "Morte"
                 },
                 "82Xz6IrubfCW1WLm": {
-                    "name": "Morso",
-                    "description": "Un morso feroce che infligge 1d6 danni."
+                    "name": "Morso"
                 },
                 "k56Csw2JOe3rQwqg": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -22495,8 +22293,7 @@
         "Hellhound (3HD)": {
             "items": {
                 "VmCP1dg3MOGxGRMa": {
-                    "name": "Morso",
-                    "description": "Un morso feroce che infligge 1d6 danni."
+                    "name": "Morso"
                 },
                 "m2GWQpnZBrbW2XbB": {
                     "name": "Soffio del Drago",
@@ -22638,8 +22435,7 @@
                     "shortName": "Soffio"
                 },
                 "KBQze7FGtEztXEd6": {
-                    "name": "Morso",
-                    "description": "Un morso feroce che infligge 1d6 danni."
+                    "name": "Morso"
                 },
                 "O3AjcpCO81Xo6ujt": {
                     "name": "Soffio di Fuoco",
@@ -22662,8 +22458,7 @@
         "Hellhound (7HD)": {
             "items": {
                 "72O8ghAHR1DQfT9t": {
-                    "name": "Morso",
-                    "description": "Un morso feroce che infligge 1d6 danni."
+                    "name": "Morso"
                 },
                 "XtFLyqEbZSgLF36Z": {
                     "name": "Soffio di Fuoco",
