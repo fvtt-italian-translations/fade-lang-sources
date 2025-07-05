@@ -7816,10 +7816,10 @@
       "name": "Gelatinous Cube"
     },
     "Ghoul": {
-      "biography": "<p>Ghouls are <strong>hideous, bestial undead</strong> that hunger for the flesh of the living. They retain no real memories of their past lives, act like ravenous predators, and are <strong>incapable of speech.</strong></p>\n      <p><strong>Undead Nature:</strong> Ghouls are <strong>immune to sleep and charm spells.</strong></p>\n      <p><strong>Paralyzing Attacks:</strong> Any creature ogre-sized or smaller (except elves) hit by a ghoul must make a <strong>saving throw vs. paralysis</strong> or be paralyzed for <strong>2d4 turns.</strong> A ghoul will ignore paralyzed victims to attack other opponents.</p>\n      <p><strong>Sunlight Aversion:</strong> While not harmed by the sun, ghouls avoid daylight and prefer to hunt at night.</p>\n      <p><strong>Scavengers:</strong> When living prey is unavailable, ghouls feast on <strong>rotting flesh and carrion.</strong></p>\n      <p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+      "biography": "<p>Ghouls are hideous, bestial undead that hunger for the flesh of the living. They retain no real memories of their past lives, act like ravenous predators, and are incapable of speech.</p><p><strong>Undead Nature:</strong> Ghouls are immune to sleep and charm spells.</p><p><strong>Paralyzing Attacks:</strong> Any creature ogre-sized or smaller (except elves) hit by a ghoul must make a saving throw vs. paralysis or be paralyzed for 2d4 turns. A ghoul will ignore paralyzed victims to attack other opponents.</p><p><strong>Sunlight Aversion:</strong> While not harmed by the sun, ghouls avoid daylight and prefer to hunt at night.</p><p><strong>Scavengers:</strong> When living prey is unavailable, ghouls feast on rotting flesh and carrion.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
       "items": {
         "2t58xQJdgJP2JY0S": {
-          "description": "<p>Sharp claws that deal <strong>1d3 damage</strong>. On a hit, the target must save vs. paralysis or be <strong>paralyzed for 2d4 turns.</strong></p>",
+          "description": "<p>On a hit, the target must save vs. paralysis or be paralyzed for [[/r 2d4 #Paralyzed duration in turns]] turns.</p>",
           "name": "Claw",
           "unidentifiedName": "Claw"
         },
@@ -7833,7 +7833,7 @@
           "name": "Undead Resilience"
         },
         "DznwtrjdxJ1NZna1": {
-          "description": "<p>A ghoul's bite deals <strong>1d3 damage</strong>. On a hit, the target must save vs. paralysis or be <strong>paralyzed for 2d4 turns.</strong></p>",
+          "description": "<p>On a hit, the target must save vs. paralysis or be paralyzed for [[/r 2d4 #Paralyzed duration in turns]] turns.</p>",
           "name": "Bite",
           "unidentifiedName": "Bite"
         },
@@ -7846,6 +7846,9 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "iPQdFs6ljPPGd2PB": {
+          "name": "Thick Skin"
         },
         "keSNOyGPjm7dhvUr": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -7862,7 +7865,7 @@
       "name": "Ghoul"
     },
     "Giant, Cloud": {
-      "biography": "<p>Cloud giants are fierce beings with white or gray skin and hair. Standing 20 feet tall, they wear pale robes and possess keen eyesight and a sharp sense of smell, making them difficult to surprise (only 1 chance in 6). They are capable of throwing boulders at ranges of 60, 130, or 200 feet. These giants reside in castles built into mountainsides or perched atop massive clouds.</p><p>As guards, they keep either [[/r 1d6 #Small roc guards]] small rocs (if in clouds or mountains) or [[/r 6d6 #Dire wolf guards]] dire wolves (only in mountains).</p><p>Cloud giants despise being disturbed and often block mountain passes to discourage trespassers.</p><p><strong>Giant Weapon Damage:</strong> 6d6.<br><strong>Rock Damage:</strong> 3d6, up to 200 range.<br><strong>Terrain:</strong> Clouds or Mountains.<br></p>",
+      "biography": "<p>Cloud giants are fierce beings with white or gray skin and hair. Standing 20 feet tall, they wear pale robes and possess keen eyesight and a sharp sense of smell, making them difficult to surprise (only 1 chance in 6). They are capable of throwing boulders at ranges of 60, 130, or 200 feet. These giants reside in castles built into mountainsides or perched atop massive clouds.</p><p>As guards, they keep either [[/r 1d6 #Small roc guards]] small rocs (if in clouds or mountains) or [[/r 6d6 #Dire wolf guards]] dire wolves (only in mountains).</p><p>Cloud giants despise being disturbed and often block mountain passes to discourage trespassers.</p><p><strong>Terrain:</strong> Clouds or Mountains.<br></p>",
       "items": {
         "0FZcVbr7OO5tfjtF": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -7870,8 +7873,7 @@
           "shortName": "Breath"
         },
         "4gpnqZRudew1VnHd": {
-          "description": "<p>Pale robes that provides a Armor Class of 4.</p>",
-          "name": "Pale Robes (Armor)",
+          "name": "Thick Skin",
           "unidentifiedDesc": "<p>Pale robes that provides a Armor Class of 4.</p>",
           "unidentifiedName": "Pale Robes (Armor)"
         },
@@ -7902,7 +7904,6 @@
           "unidentifiedName": "Giant Weapon"
         },
         "bLrwgfQkoR1Tq7uK": {
-          "description": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "name": "Boulder",
           "unidentifiedDesc": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "unidentifiedName": "Boulder"
@@ -7912,7 +7913,7 @@
       "name": "Giant, Cloud"
     },
     "Giant, Fire": {
-      "biography": "<p>Fire giants have red skin, dark black hair, and thick beards. Standing 16 feet tall, they wear armor made of copper, brass, or bronze. They frequently throw rocks at ranges of 60, 130, or 200 feet. These giants typically dwell near volcanoes or other intensely hot environments, with their castles often constructed from black baked mud reinforced with crude iron.</p><p>As guards, they always have either [[/r 1d100 #Hydra guards if roll equal to or under 20, otherwise Hellhound guards]] [[/r 1d3 #Hydra guards]] hydras (20%) or [[/r 3d6 #Hellhound guards]]  hellhounds (80%).</p><p>They are completely immune to fire-based attacks.</p><p><strong>Giant Weapon Damage:</strong> 5d6.<br><strong>Rock Damage:</strong> 3d6, up to 200 range.<br><strong>Terrain:</strong> Volcanoes, Intensely Hot Environments.<br></p>",
+      "biography": "<p>Fire giants have red skin, dark black hair, and thick beards. Standing 16 feet tall, they wear armor made of copper, brass, or bronze. They frequently throw rocks at ranges of 60, 130, or 200 feet. These giants typically dwell near volcanoes or other intensely hot environments, with their castles often constructed from black baked mud reinforced with crude iron.</p><p>As guards, they always have either [[/r 1d100 #Hydra guards if roll equal to or under 20, otherwise Hellhound guards]] [[/r 1d3 #Hydra guards]] hydras (20%) or [[/r 3d6 #Hellhound guards]] hellhounds (80%).</p><p>They are completely immune to fire-based attacks.</p><p><strong>Terrain:</strong> Volcanoes, Intensely Hot Environments.<br></p>",
       "items": {
         "0FZcVbr7OO5tfjtF": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -7952,7 +7953,6 @@
           "unidentifiedName": "Giant Weapon"
         },
         "bLrwgfQkoR1Tq7uK": {
-          "description": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "name": "Boulder",
           "unidentifiedDesc": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "unidentifiedName": "Boulder"
@@ -8002,7 +8002,6 @@
           "unidentifiedName": "Giant Weapon"
         },
         "bLrwgfQkoR1Tq7uK": {
-          "description": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "name": "Boulder",
           "unidentifiedDesc": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "unidentifiedName": "Boulder"
@@ -8051,7 +8050,6 @@
           "unidentifiedName": "Club"
         },
         "bLrwgfQkoR1Tq7uK": {
-          "description": "<p>The giant hurls a boulder (30/60/100) dealing 3d6 damage.</p>",
           "name": "Boulder",
           "unidentifiedDesc": "<p>The giant hurls a boulder (30/60/100) dealing 3d6 damage.</p>",
           "unidentifiedName": "Boulder"
@@ -8901,7 +8899,6 @@
           "unidentifiedName": "Stalactite Club"
         },
         "bLrwgfQkoR1Tq7uK": {
-          "description": "<p>The giant hurls a boulder (100,200,300) dealing 3d6 damage.</p>",
           "name": "Boulder",
           "unidentifiedDesc": "<p>The giant hurls a boulder (100,200,300) dealing 3d6 damage.</p>",
           "unidentifiedName": "Boulder"
@@ -8951,7 +8948,6 @@
           "unidentifiedName": "Giant Weapon"
         },
         "bLrwgfQkoR1Tq7uK": {
-          "description": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "name": "Boulder",
           "unidentifiedDesc": "<p>The giant hurls a boulder dealing 3d6 damage.</p>",
           "unidentifiedName": "Boulder"
