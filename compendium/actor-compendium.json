@@ -9002,8 +9002,50 @@
       "monsterType": "Humanoid",
       "name": "Gnoll"
     },
-    "Gnome (1HD)": {
-      "biography": "<p>Gnomes are <strong>small humanoids</strong> closely related to dwarves, standing about 3 1/2' to 4' tall with <strong>long noses and full beards</strong>. They typically live in <strong>burrows or underground cities</strong> and are known for their craftsmanship.</p>\n      <p><strong>Infravision:</strong> Gnomes have well-developed <strong>infravision with a 90' range</strong>.</p>\n      <p><strong>Smiths & Miners:</strong> Excellent metalworkers, gnomes have a deep love for <strong>gold and gems</strong> and sometimes take risks to obtain them. They also have a keen interest in machinery.</p>\n      <p><strong>Preferred Weapons:</strong> Gnomes favor <strong>crossbows and war hammers</strong> in combat.</p>\n      <p><strong>Enemy of Kobolds & Goblins:</strong> Gnomes consider these creatures thieves and will <strong>attack kobolds on sight.</strong></p>\n      <p><strong>Leadership Bonuses:</strong> </p>\n      <ul>\n      <li><strong>For every 20 gnomes</strong>, one is a <strong>leader with 11 HP</strong>, fighting as a **2 HD monster**.</li>\n      <li><strong>In gnome villages</strong>, the **clan chieftain (18 HP, attacks as 4 HD, +1 damage)** is protected by **1d6 bodyguards (10-13 HP, attack as 3 HD).**</li>\n      <li>If the **chieftain or leader is alive**, all gnomes within sight have <strong>Morale 10</strong> instead of 8.</li>\n      </ul>\n      <p><strong>Gnome Spellcasters:</strong> Some gnomes can use magic; see \"Monster Spellcasters\" for details.</p>\n      <p><strong>Terrain:</strong> Cavern, Open.</p>",
+    "Gnoll Leader": {
+      "biography": "<p>Gnolls are large, ferocious humanoids with low intelligence. They resemble a cross between a human and a hyena, and are often found in rough, rugged wasteland or wilderness areas. Though they are strong, they are lazy, preferring to bully and steal rather than work. Most gnolls do not craft their own metal weapons, instead stealing them from humans.</p><p>For every group of 20 gnolls, one will be a leader with 16 hit points who fights as a monster with 3 Hit Dice. Gnolls are rumored to have originated from a magical combination of a gnome and a troll created by an evil magic-user.</p><p><strong>Weapon Damage:</strong> By weapon +1.<br><strong>Terrain:</strong> Hills, Mountains.</p>",
+      "items": {
+        "5joqSINce6bRZ02T": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "LlyqSUtAejz7OhVF": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "UnLLXqw8Um3uv4ej": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "Z4A925qemlBQ3Rny": {
+          "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+          "name": "Spear",
+          "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+          "unidentifiedName": "Spear"
+        },
+        "dnAORK2UAvrxvOFj": {
+          "description": "The tough hide of the gnoll provides a natural Armor Class of 5.",
+          "name": "Gnoll Hide (Armor)"
+        },
+        "sJCQDCcuyTimc7IE": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "vPQstmTDO6YhjJsR": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        }
+      },
+      "monsterType": "Humanoid",
+      "name": "Gnoll Leader"
+    },
+    "Gnome": {
+      "biography": "<p>Gnomes are small humanoids closely related to dwarves, standing about 3 1/2' to 4' tall with long noses and full beards. They typically live in burrows or underground cities and are known for their craftsmanship.</p><p><strong>Infravision:</strong> Gnomes have well-developed infravision with a 90' range.</p><p><strong>Smiths & Miners:</strong> Excellent metalworkers, gnomes have a deep love for gold and gems and sometimes take risks to obtain them. They also have a keen interest in machinery.</p><p><strong>Preferred Weapons:</strong> Gnomes favor crossbows and war hammers in combat.</p><p><strong>Enemy of Kobolds & Goblins:</strong> Gnomes consider these creatures thieves and will attack kobolds on sight.</p><p><strong>Leadership Bonuses:</strong></p><ul><li>For every 20 gnomes, one is a leader with 11 HP, fighting as a **2 HD monster**.</li><li>In gnome villages, the **clan chieftain (18 HP, attacks as 4 HD, +1 damage)** is protected by **1d6 bodyguards (10-13 HP, attack as 3 HD).**</li><li>If the **chieftain or leader is alive**, all gnomes within sight have Morale 10 instead of 8.</li></ul><p><strong>Gnome Spellcasters:</strong> Some gnomes can use magic; see \"Monster Spellcasters\" for details.</p><p><strong>Terrain:</strong> Cavern, Open.</p>",
       "items": {
         "7zn1KbWaKlGcQ0OP": {
           "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
@@ -9012,7 +9054,7 @@
           "weaponMastery": "Sling"
         },
         "EHPxKnFB5RvSPpOM": {
-          "description": "<p>If a <strong>gnome leader or chieftain</strong> is present, all nearby gnomes have <strong>Morale 10 instead of 8</strong>.</p>",
+          "description": "<p>If a gnome leader or chieftain is present, all nearby gnomes have Morale 10 instead of 8.</p>",
           "name": "Leadership Morale Boost"
         },
         "GHFUbbPsRQB1Az0S": {
@@ -9053,7 +9095,7 @@
           "shortName": "Death"
         },
         "scq9xCz7kMeZWdMR": {
-          "description": "<p>Gnomes can see in the dark with <strong>infravision up to 90'</strong>.</p>",
+          "description": "<p>Gnomes can see in the dark with infravision up to 90'.</p>",
           "name": "Infravision"
         },
         "sevisB2jq6Pdj8bw": {
@@ -9063,7 +9105,57 @@
         }
       },
       "monsterType": "Humanoid",
-      "name": "Gnome (1HD)"
+      "name": "Gnome"
+    },
+    "Gnome, Chieftain": {
+      "biography": "<p>The gnome Chieftain is a battle-hardened warrior who commands all of the gnomes in their burrows or underground cities.</p><p><strong>Infravision:</strong> Gnomes have infravision with a 90' range.</p><p><strong>Smiths & Miners:</strong> Gnomes excel in metalworking and mining, with a deep love for gold and gems.</p><p><strong>Enemy of Kobolds & Goblins:</strong> Gnomes despise these creatures and will attack kobolds on sight.</p><p>Leadership Boost: As long as the gnome leader is alive, all gnomes within sight have Morale 10 instead of 8.</p><p><strong>Terrain:</strong> Cavern, Open.</p>",
+      "items": {
+        "9fOjqmXuzHwZ4cPR": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "JbGxnUvAzBMKZuBX": {
+          "description": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
+          "name": "Hammer, War",
+          "unidentifiedDesc": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p>",
+          "weaponMastery": "Hammer, War"
+        },
+        "VVRBTaDbBgfEtObF": {
+          "description": "<p>Gnomes can see in the dark with infravision up to 90'.</p>",
+          "name": "Infravision"
+        },
+        "VyaS9hGuWFJ6qpy6": {
+          "description": "<p>All nearby gnomes have Morale 10 instead of 8.</p>",
+          "name": "Leadership Morale Boost"
+        },
+        "WjuqULQbIdqUVUFH": {
+          "name": "Gnome Armor",
+          "unidentifiedName": "Gnome Armor"
+        },
+        "cRjgQezGpsOFUEZT": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "hT1PjmqbZ2u2U6zA": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "jTY6JQOUDHYg4iuA": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "tVq3RYK1hFsDAMsi": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        }
+      },
+      "monsterType": "Humanoid",
+      "name": "Gnome, Chieftain"
     },
     "Gnome, Leader": {
       "biography": "<p>The <strong>gnome leader</strong> is a battle-hardened warrior who commands small groups of gnomes in their burrows or underground cities.</p>\n      <p><strong>Infravision:</strong> Gnomes have <strong>infravision with a 90' range</strong>.</p>\n      <p><strong>Smiths & Miners:</strong> Gnomes excel in metalworking and mining, with a deep love for <strong>gold and gems.</strong></p>\n      <p><strong>Preferred Weapons:</strong> Gnome leaders often wield <strong>war hammers or crossbows</strong>, dealing stronger blows than normal gnomes.</p>\n      <p><strong>Enemy of Kobolds & Goblins:</strong> Gnomes despise these creatures and will <strong>attack kobolds on sight.</strong></p>\n      <p><strong>Leadership Boost:</strong> As long as the gnome leader is alive, <strong>all gnomes within sight have Morale 10 instead of 8.</strong></p>\n      <p><strong>Terrain:</strong> Cavern, Open.</p>",
@@ -9073,17 +9165,18 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "BDyygqJK073isA00": {
-          "description": "<p>The gnome leader wields a <strong>war hammer or crossbow</strong>, dealing stronger damage.</p>",
-          "name": "Gnome Weapon",
-          "unidentifiedName": "Gnome Weapon"
+        "KlE02jJDCz0W1OGA": {
+          "description": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+          "name": "Axe, Hand",
+          "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+          "weaponMastery": "Axe, Hand"
         },
         "VVRBTaDbBgfEtObF": {
-          "description": "<p>Gnomes can see in the dark with <strong>infravision up to 90'</strong>.</p>",
+          "description": "<p>Gnomes can see in the dark with infravision up to 90'.</p>",
           "name": "Infravision"
         },
         "VyaS9hGuWFJ6qpy6": {
-          "description": "<p>If a <strong>gnome leader</strong> is present, all nearby gnomes have <strong>Morale 10 instead of 8</strong>.</p>",
+          "description": "<p>All nearby gnomes have Morale 10 instead of 8.</p>",
           "name": "Leadership Morale Boost"
         },
         "WjuqULQbIdqUVUFH": {
