@@ -11862,6 +11862,12 @@
                 "WjuqULQbIdqUVUFH": {
                     "name": "Armatura Gnomo",
                     "unidentifiedName": "Armatura Gnomo"
+                },
+                "KlE02jJDCz0W1OGA": {
+                    "name": "Accetta",
+                    "unidentifiedDesc": "<p>Un'accetta è un'ascia a una mano lunga 30-60 cm, solitamente con una singola lama. Un'accetta a una mano viene spesso lanciata mentre il suo proprietario si avvicina al corpo a corpo.</p>",
+                    "weaponMastery": "Accetta",
+                    "description": "<p>Un'accetta è un'ascia a una mano lunga 30-60 cm, solitamente con una singola lama. Un'accetta a una mano viene spesso lanciata mentre il suo proprietario si avvicina al corpo a corpo.</p>"
                 }
             },
             "monsterType": "Umanoide (Comune)",
@@ -23612,6 +23618,153 @@
             },
             "monsterType": "Mostro (Raro)",
             "name": "Orsogufo"
+        },
+        "Gnoll Leader": {
+            "items": {
+                "5joqSINce6bRZ02T": {
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo",
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
+                },
+                "UnLLXqw8Um3uv4ej": {
+                    "shortName": "Morte",
+                    "name": "Veleno o Raggio della Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
+                },
+                "Z4A925qemlBQ3Rny": {
+                    "description": "<p>La lancia è una punta di metallo attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "name": "Lancia",
+                    "unidentifiedDesc": "<p>La lancia è una punta di metallo attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "unidentifiedName": "Lancia"
+                },
+                "vPQstmTDO6YhjJsR": {
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta"
+                },
+                "sJCQDCcuyTimc7IE": {
+                    "shortName": "Pietrifica",
+                    "name": "Pietrificazione o Paralisi",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "LlyqSUtAejz7OhVF": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                },
+                "dnAORK2UAvrxvOFj": {
+                    "description": "La dura pelle del gnoll fornisce una classe armatura naturale di 5.",
+                    "name": "Pelle di Gnoll (Armatura)"
+                }
+            },
+            "monsterType": "Umanoide (Comune)",
+            "biography": "<p>I gnoll sono grandi e feroci umanoidi con poca intelligenza. Assomigliano a un incrocio tra un umano e una iena e si trovano spesso in zone desertiche o terre selvagge e accidentate. Sebbene siano forti, sono pigri, preferendo intimidire e rubare piuttosto che lavorare. La maggior parte dei gnoll non fabbrica le proprie armi di metallo, ma le ruba agli umani.</p><p>Per ogni gruppo di 20 gnoll, uno sarà un capo con 16 punti ferita che combatte come un mostro con 3 Dadi Vita. Si dice che i gnoll abbiano avuto origine da una combinazione magica di un gnomo e un troll creata da un utilizzatore di magia malvagia.</p><p><strong>Danno Arma:</strong> Dato dall'arma +1.<br><strong>Terreno:</strong> Colline, Montagne.</p>"
+        },
+        "Gnome": {
+            "items": {
+                "7zn1KbWaKlGcQ0OP": {
+                    "name": "Fionda",
+                    "weaponMastery": "Fionda",
+                    "description": "<p>Una fionda è una lunga corda di cuoio (1.2 m a 1.8 m) con una tasca a metà lunghezza. Il possessore lega un'estremità della corda attorno al polso e tiene l'altra estremità nella stessa mano. Poi posiziona un proiettile di piombo nella tasca e fa roteare la corda sopra la testa. A metà della rotazione, lascia andare l'estremità libera, rilasciando il proiettile. Le fionde normalmente richiedono proiettili come munizioni, anche se possono essere usate con pietre prese dal terreno, con una penalità di -1 ai tiri per colpire e ai tiri per i danni</p>",
+                    "unidentifiedDesc": "<p>Una fionda è una lunga corda di cuoio (1.2 m a 1.8 m) con una tasca a metà lunghezza. Il possessore lega un'estremità della corda attorno al polso e tiene l'altra estremità nella stessa mano. Poi posiziona un proiettile di piombo nella tasca e fa roteare la corda sopra la testa. A metà della rotazione, lascia andare l'estremità libera, rilasciando il proiettile. Le fionde normalmente richiedono proiettili come munizioni, anche se possono essere usate con pietre prese dal terreno, con una penalità di -1 ai tiri per colpire e ai tiri per i danni</p>"
+                },
+                "EHPxKnFB5RvSPpOM": {
+                    "name": "Incremento Morale Comandante"
+                },
+                "GHFUbbPsRQB1Az0S": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "GoNNI38a4ef7C3bz": {
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo",
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
+                },
+                "PU0qDCjR0n3ZQypo": {
+                    "description": "<p>Munizioni per una fionda</p>",
+                    "name": "Pallini (piombo)",
+                    "unidentifiedDesc": "<p>Munizioni per una fionda</p>"
+                },
+                "SK36xuf491Vy21wj": {
+                    "name": "Armatura Gnomo",
+                    "unidentifiedName": "Corazza di Maglia",
+                    "description": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare una maglia protettivo flessibile. La corazza di maglia fornisce a un personaggio una classe armatura 5</p>",
+                    "unidentifiedDesc": "<p>Questa è un'armatura composta principalmente da piccoli anelli di metallo collegati tra loro per formare una maglia protettivo flessibile. La corazza di maglia fornisce a un personaggio una classe armatura 5</p>"
+                },
+                "Ujm6ptcAMfWAaNvr": {
+                    "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
+                    "name": "Pugnale",
+                    "unidentifiedDesc": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
+                    "weaponMastery": "Pugnale"
+                },
+                "cpqBOgQZBVry9kL3": {
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "scq9xCz7kMeZWdMR": {
+                    "name": "Infravisione"
+                },
+                "sevisB2jq6Pdj8bw": {
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                },
+                "qkdOkB1Eb2vMFO42": {
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte"
+                }
+            },
+            "monsterType": "Umanoide (Comune)",
+            "name": "Gnomo"
+        },
+        "Gnome, Chieftain": {
+            "items": {
+                "WjuqULQbIdqUVUFH": {
+                    "unidentifiedName": "Armatura Gnomo",
+                    "name": "Armatura Gnomo"
+                },
+                "cRjgQezGpsOFUEZT": {
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo",
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
+                },
+                "hT1PjmqbZ2u2U6zA": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                },
+                "jTY6JQOUDHYg4iuA": {
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                },
+                "tVq3RYK1hFsDAMsi": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "9fOjqmXuzHwZ4cPR": {
+                    "name": "Veleno o Raggio della Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "shortName": "Morte"
+                },
+                "JbGxnUvAzBMKZuBX": {
+                    "description": "<p>Un martello da guerra è un grande martello a una mano, solitamente lungo da 60 cm a 90 cm. La testa di un martello da guerra è spesso simmetrica per favorirne l'equilibrio.</p>",
+                    "name": "Martello da guerra",
+                    "unidentifiedDesc": "<p>Un martello da guerra è un grande martello a una mano, solitamente lungo da 60 cm a 90 cm. La testa di un martello da guerra è spesso simmetrica per favorirne l'equilibrio.</p>",
+                    "weaponMastery": "Martello da guerra"
+                },
+                "VVRBTaDbBgfEtObF": {
+                    "name": "Infravisione"
+                },
+                "VyaS9hGuWFJ6qpy6": {
+                    "name": "Incremento Morale Comandante"
+                }
+            },
+            "monsterType": "Umanoide (Comune)"
         }
     },
     "label": "Bestiario",
