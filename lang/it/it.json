@@ -29,7 +29,6 @@
             "Title": "Titolo",
             "Alignment": "Allineamento",
             "Class": "Classe",
-            "Species": "Razza",
             "XPAward": "Valore in PX",
             "attackRank": "Grado Attacco",
             "hdConBonus": {
@@ -261,7 +260,6 @@
             "LightItem": "Scheda Luce (oggetto)",
             "ClassDefinitionItem": "Scheda Definizione di Classe",
             "ConditionItem": "Scheda Condizione",
-            "SpeciesItem": "Scheda Stirpe",
             "TreasureItem": "Scheda Tesoro",
             "ActorClassItem": "Scheda Oggetto di Classe del PG",
             "CharacterSheetBase": "Scheda del PG"
@@ -1022,12 +1020,6 @@
             "and": "e",
             "name": "Logica",
             "or": "o"
-        },
-        "species": {
-            "requiredScores": "Punteggi di Abilità Richiesti",
-            "classes": "Classi",
-            "female": "Femmina",
-            "male": "Maschio"
         },
         "penalty": "Penalità",
         "showResult": {
