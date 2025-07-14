@@ -68,6 +68,7 @@
       },
       "Age": "Age",
       "Alignment": "Alignment",
+      "Ancestry": "Race",
       "Attacks": {
         "abbr": "AT#",
         "groupHint": "Which attack group this attack belongs to. Click to cycle through the six available groups.",
@@ -136,7 +137,6 @@
         "singular": "Saving Throw"
       },
       "Sex": "Sex",
-      "Species": "Race",
       "THAC0": "THAC0",
       "THBonus": "To-Hit Bonus",
       "THBonusHint": "Used with ascending armor class (AAC) system, this value is added to attack rolls. Also called attack bonus. To-Hit Bonus is auto-calculated based on THAC0 value.",
@@ -517,6 +517,7 @@
     "SheetLabel": {
       "ActorClassItem": "Actor Class Item Sheet",
       "ActorMasteryItem": "Actor Mastery Item Sheet",
+      "AncestryDefinitionItem": "Ancestry Definition Item Sheet",
       "ArmorItem": "Armor Item Sheet",
       "Character": "Character Sheet (tabbed)",
       "CharacterSheetBase": "Character Sheet",
@@ -528,7 +529,6 @@
       "Monster": "Monster Sheet",
       "SkillItem": "Skill Item Sheet",
       "SpecialAbilityItem": "Special Ability Item Sheet",
-      "SpeciesItem": "Ancestry Item Sheet",
       "SpellItem": "Spell Item Sheet",
       "TreasureItem": "Treasure Item Sheet",
       "WeaponItem": "Weapon Item Sheet"
@@ -641,6 +641,12 @@
         "desc": "Indicates if this weapon can be used to set vs. charge.",
         "label": "Set"
       }
+    },
+    "ancestry": {
+      "classes": "Classes",
+      "female": "Female",
+      "male": "Male",
+      "requiredScores": "Required Ability Scores"
     },
     "apps": {
       "playerCombat": {
@@ -965,12 +971,6 @@
       "hint": "Show the result?",
       "name": "Result"
     },
-    "species": {
-      "classes": "Classes",
-      "female": "Female",
-      "male": "Male",
-      "requiredScores": "Required Ability Scores"
-    },
     "tabs": {
       "abilities": "Abilities",
       "attributes": "Attributes",
@@ -1260,7 +1260,7 @@
       "mastery": "Actor Weapon Mastery",
       "skill": "General Skill",
       "specialAbility": "Special Ability",
-      "species": "Ancestry",
+      "species": "Ancestry Definition",
       "spell": "Spell",
       "treasure": "Treasure",
       "weapon": "Weapon",
