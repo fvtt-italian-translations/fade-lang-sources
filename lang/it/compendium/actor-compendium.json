@@ -2130,7 +2130,8 @@
                     "name": "Morso"
                 },
                 "dUE4qTqPYQvFCQGR": {
-                    "name": "Artigli"
+                    "name": "Artigli",
+                    "description": "Il leone di montagna attacca con gli artigli e il morso. Il danno è 1d3/1d3/1d6."
                 }
             },
             "name": "Tigre",
@@ -2546,13 +2547,23 @@
                     "shortName": "Bacchetta"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "name": "Sospensione",
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "name": "Stritolamento"
                 }
             },
             "biography": "<p>Il Drago Nero Grande è un terrore nelle paludi e nelle terre paludose, temuto per il suo letale soffio acido. Questa mostruosa creatura può scatenare un devastante getto di acido lungo 27 metri e largo 1,5 metri, in grado di sciogliere l'armatura e dissolvere i suoi nemici. Conosciuto per la sua astuzia malvagia e le sue abilità magiche, questo drago è un pericoloso avversario sia a terra che in aria.</p>\n   <strong>Arma a Soffio:</strong> Acido, 27 metri di lunghezza e 1,5 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n   <strong>Terreno:</strong> Paludi, Terre paludose<br>\n   <strong>Bardatura:</strong> Nessuna",
@@ -2611,13 +2622,24 @@
                     "shortName": "Incantesimo"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "name": "Sospensione",
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "name": "Stritolamento",
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago di grandi dimensioni può schiacciare chiunque in un cerchio di raggio di 3 metri.</strong></p>"
                 }
             },
             "biography": "<p>Il Drago Verde Grande è noto per il suo mortale soffio di gas clorino, che può avvolgere interi gruppi in una nube tossica. L'arma a soffio di questo drago copre un'ampia area—15 metri di larghezza, 12 metri di profondità e 9 metri di altezza—e infligge danni pari al valore attuale dei punti ferita del drago. Con la sua intelligenza e capacità di lanciare incantesimi, è un nemico formidabile sia a terra che in volo.</p><p><strong>Arma a Soffio:</strong> Nube di gas clorino, 15 metri di larghezza, 12 metri di profondità e 9 metri di altezza, infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Foreste, Paludi<br><strong>Bardatura:</strong> Nessuna</p>",
@@ -2677,13 +2699,24 @@
                     "shortName": "Bacchetta"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago di grandi dimensioni può schiacciare chiunque in un cerchio di raggio di 3 metri.</strong></p>",
+                    "name": "Stritolamento"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
                 }
             },
             "name": "Drago Rosso Grande",
@@ -2818,16 +2851,28 @@
                     "shortName": "Morte"
                 },
                 "1LFUkXcGpnkCPHfk": {
-                    "name": "Ala"
+                    "name": "Ala",
+                    "description": "<p>Un attacco d'ala può essere usato contro qualsiasi avversario entro il raggio d'azione, il che è fantastico. La gittata è di 90 cm per Dado Vita del drago. Qualsiasi vittima colpita da un attacco d'ala deve effettuare un tiro salvezza contro paralisi o rimanere stordita. Al tiro salvezza si applica una penalità pari al danno inflitto.</p>"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando schiaccia, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago enorme può schiacciare chiunque in un cerchio di raggio di 6 metri.</strong></p>",
+                    "name": "Stritolamento"
                 }
             },
             "biography": "<p>Il Drago Bianco Enorme è un predatore terrificante delle lande ghiacciate. La sua arma a soffio ghiacciata è in grado di avvolgere gruppi di nemici in un cono gelido, che raggiunge i 27 metri di lunghezza e 12 metri di larghezza. Nonostante sia uno dei draghi più deboli nella gerarchia, le sue dimensioni e intelligenza lo rendono un avversario mortale. Oltre agli attacchi fisici, può lanciare incantesimi, rendendolo un nemico ancora più pericoloso.</p>\n        <strong>Arma a Soffio:</strong> Cono di gelo, 27 metri di lunghezza e 12 metri di larghezza, infliggendo danni pari ai punti ferita attuali del drago.<br>\n        <strong>Terreno:</strong> Artico, Caverne<br>\n        <strong>Bardatura:</strong> Nessuna",
@@ -2887,13 +2932,16 @@
                     "shortName": "Bacchetta"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "B8FAIPqQZF3wwLDS": {
-                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, battendo furiosamente le ali. Il drago può attaccare fino a tre avversari in un round mentre è sospeso a mezz'aria, usando un morso e due artigli anteriori. Non è possibile usare un'arma a soffio mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo un round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Si noti che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>"
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, battendo furiosamente le ali. Il drago può attaccare fino a tre avversari in un round mentre è sospeso a mezz'aria, usando un morso e due artigli anteriori. Non è possibile usare un'arma a soffio mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo un round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Si noti che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
                 },
                 "h3ulyuARYx2wmj3Z": {
-                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago piccolo può schiacciare una sola vittima.</strong></p>"
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago piccolo può schiacciare una sola vittima.</strong></p>",
+                    "name": "Stritolamento"
                 }
             },
             "name": "Drago Nero Piccolo",
@@ -2956,13 +3004,24 @@
                     "shortName": "Incantesimo"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "name": "Stritolamento",
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago di grandi dimensioni può schiacciare chiunque in un cerchio di raggio di 3 metri.</strong></p>"
                 }
             },
             "name": "Drago d'Oro Grande",
@@ -3021,16 +3080,28 @@
                     "shortName": "Soffio"
                 },
                 "1LFUkXcGpnkCPHfk": {
-                    "name": "Ala"
+                    "name": "Ala",
+                    "description": "<p>Un attacco d'ala può essere usato contro qualsiasi avversario entro il raggio d'azione, il che è fantastico. La gittata è di 90 cm per Dado Vita del drago. Qualsiasi vittima colpita da un attacco d'ala deve effettuare un tiro salvezza contro paralisi o rimanere stordita. Al tiro salvezza si applica una penalità pari al danno inflitto.</p>"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando schiaccia, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago enorme può schiacciare chiunque in un cerchio di raggio di 6 metri.</strong></p>",
+                    "name": "Stritolamento"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "name": "Sospensione",
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>"
                 }
             },
             "name": "Drago Verde Enorme",
@@ -3088,13 +3159,24 @@
                     "shortName": "Incantesimo"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago di grandi dimensioni può schiacciare chiunque in un cerchio di raggio di 3 metri.</strong></p>",
+                    "name": "Stritolamento"
                 }
             },
             "biography": "<p>Il Drago Bianco Grande è un temibile predatore delle lande ghiacciate, spesso incontrato nelle montagne innevate o nelle caverne ghiacciate. La sua arma a soffio gelida può avvolgere i nemici in un cono gelido che si estende per 24 metri di lunghezza e 12 metri di larghezza. Anche se è meno potente dei suoi cugini più grandi, la sua astuta intelligenza e le sue squame ricoperte di gelo lo rendono un avversario formidabile. Può anche lanciare un incantesimo di 1° livello, aggiungendo una minaccia magica alla sua presenza già pericolosa.</p><p><strong>Arma a Soffio:</strong> Cono di gelo, 24 metri di lunghezza e 12 metri di larghezza.<br><strong>Terreno:</strong> Artico, Caverne<br><strong>Bardatura:</strong> Nessuna</p>",
@@ -3196,7 +3278,16 @@
                     "shortName": "Incantesimo"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, battendo furiosamente le ali. Il drago può attaccare fino a tre avversari in un round mentre è sospeso a mezz'aria, usando un morso e due artigli anteriori. Non è possibile usare un'arma a soffio mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo un round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Si noti che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago piccolo può schiacciare una sola vittima.</strong></p>",
+                    "name": "Stritolamento"
                 }
             },
             "name": "Drago Bianco Piccolo",
@@ -3311,16 +3402,28 @@
                     "shortName": "Morte"
                 },
                 "1LFUkXcGpnkCPHfk": {
-                    "name": "Ala"
+                    "name": "Ala",
+                    "description": "<p>Un attacco d'ala può essere usato contro qualsiasi avversario entro il raggio d'azione, il che è fantastico. La gittata è di 90 cm per Dado Vita del drago. Qualsiasi vittima colpita da un attacco d'ala deve effettuare un tiro salvezza contro paralisi o rimanere stordita. Al tiro salvezza si applica una penalità pari al danno inflitto.</p>"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando schiaccia, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago enorme può schiacciare chiunque in un cerchio di raggio di 6 metri.</strong></p>",
+                    "name": "Stritolamento"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
                 }
             },
             "name": "Drago Rosso Enorme",
@@ -4874,16 +4977,28 @@
                     "shortName": "Soffio"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
                 },
                 "1LFUkXcGpnkCPHfk": {
-                    "name": "Ala"
+                    "name": "Ala",
+                    "description": "<p>Un attacco d'ala può essere usato contro qualsiasi avversario entro il raggio d'azione, il che è fantastico. La gittata è di 90 cm per Dado Vita del drago. Qualsiasi vittima colpita da un attacco d'ala deve effettuare un tiro salvezza contro paralisi o rimanere stordita. Al tiro salvezza si applica una penalità pari al danno inflitto.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "name": "Sospensione",
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "name": "Stritolamento",
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando schiaccia, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago enorme può schiacciare chiunque in un cerchio di raggio di 6 metri.</strong></p>"
                 }
             },
             "name": "Drago Blu Enorme",
@@ -4942,13 +5057,24 @@
                     "shortName": "Bacchetta"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "name": "Stritolamento",
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago di grandi dimensioni può schiacciare chiunque in un cerchio di raggio di 3 metri.</strong></p>"
                 }
             },
             "name": "Drago Blu Grande",
@@ -5007,7 +5133,16 @@
                     "shortName": "Bacchetta"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, battendo furiosamente le ali. Il drago può attaccare fino a tre avversari in un round mentre è sospeso a mezz'aria, usando un morso e due artigli anteriori. Non è possibile usare un'arma a soffio mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo un round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Si noti che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "name": "Stritolamento",
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago piccolo può schiacciare una sola vittima.</strong></p>"
                 }
             },
             "name": "Drago Blu Piccolo",
@@ -5069,16 +5204,28 @@
                     "shortName": "Morte"
                 },
                 "1LFUkXcGpnkCPHfk": {
-                    "name": "Ala"
+                    "name": "Ala",
+                    "description": "<p>Un attacco d'ala può essere usato contro qualsiasi avversario entro il raggio d'azione, il che è fantastico. La gittata è di 90 cm per Dado Vita del drago. Qualsiasi vittima colpita da un attacco d'ala deve effettuare un tiro salvezza contro paralisi o rimanere stordita. Al tiro salvezza si applica una penalità pari al danno inflitto.</p>"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, sbattendo furiosamente le ali. Il drago può attaccare fino a sei avversari in un round mentre è sospeso a mezz'aria, usando 1 morso, 2 artigli anteriori, 2 calci posteriori e 1 coda (ma nessun attacco con le ali). Un'arma a soffio non può essere usata mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo 1 round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Nota che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>",
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando schiaccia, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago enorme può schiacciare chiunque in un cerchio di raggio di 6 metri.</strong></p>",
+                    "name": "Stritolamento"
                 }
             },
             "biography": "<p>Il Drago d'Oro Enorme è l'apice della forza e dell'intelligenza tra i draghi, venerato per il suo grande potere e il profondo senso dell'onore. Questo maestoso drago può sputare un cono di fuoco lungo 54 metri e largo 9 metri, oppure una nube di gas clorino larga 15 metri, profonda 15 metri e alta 9 metri. Entrambi gli attacchi a soffio infliggono danni pari al valore attuale dei punti ferita del drago. Conosciuto per le sue immense capacità magiche, il Drago d'Oro Enorme può lanciare potenti incantesimi per integrare la sua forza fisica, rendendolo uno dei draghi più pericolosi e onorevoli da incontrare.</p><p><strong>Arma a Soffio:</strong> Fuoco (54 metri di lunghezza, 9 metri di larghezza) o Gas Clorino (15 metri di larghezza, 15 metri di profondità, 9 metri di altezza), infliggendo danni pari ai punti ferita attuali del drago.<br><strong>Terreno:</strong> Montagne, Grotte<br><strong>Bardatura:</strong> Nessuna</p>",
@@ -5198,7 +5345,16 @@
                     "shortName": "Bacchetta"
                 },
                 "VvsRAQFsjtZe0F73": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "<p>Questa capacità speciale è menzionata all'inizio di questo capitolo; inoltre, il drago può raccogliere una o più vittime se i suoi tiri per colpire sono sufficientemente alti (vedi tabella).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Taglia</th><th>Tiro per colpire necessario</th><th>Forme di attacco in picchiata</th></tr></thead><tbody><tr><td>Piccola</td><td>20</td><td>1 artiglio</td></tr><tr><td>Grande</td><td>18-20</td><td>2 artigli</td></tr><tr><td>Enorme</td><td>16-20</td><td>2 artigli + 1 morso</td></tr></tbody></table><p></p><p>Quando un drago scende in picchiata. Le sue vittime subiscono una penalità di -1 al tiro di sorpresa, a causa della planata silenziosa della creatura. Se il drago coglie di sorpresa la vittima, ogni colpo infligge danni doppi.</p><p>Una vittima colta in picchiata può attaccare il drago, ma con una penalità di -2 a tutti i tiri per colpire, e ogni colpo infligge solo il danno minimo.</p><p>Una vittima stretta in un artiglio subisce automaticamente i normali danni da artiglio ogni round, ma se la vittima ottiene l'iniziativa, può agire per prima (lanciare un incantesimo, usare un congegno, ecc.).</p><p>Una vittima stretta in un morso subisce automaticamente i normali danni da morso ogni round e non può concentrarsi (indipendentemente dall'iniziativa). Quando la vittima muore, viene inghiottita. Un drago può mordere una vittima stretta in un artiglio, ma con una penalità di -2 al tiro per colpire. In caso di successo, la vittima viene trasferita in bocca.</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago piccolo può schiacciare una sola vittima.</strong></p>",
+                    "name": "Stritolamento"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "name": "Sospensione",
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, battendo furiosamente le ali. Il drago può attaccare fino a tre avversari in un round mentre è sospeso a mezz'aria, usando un morso e due artigli anteriori. Non è possibile usare un'arma a soffio mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo un round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Si noti che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>"
                 }
             },
             "name": "Drago Rosso Piccolo",
@@ -9853,6 +10009,10 @@
                     "spellDuration": "Speciale",
                     "spellEffect": "Altera la realtà basata sulle parole del mago",
                     "spellRange": "Speciale"
+                },
+                "CZooGZ0vFrVZ6D3s": {
+                    "description": "<p>Può creare oggetti e produrre illusioni a piacimento.</p>",
+                    "name": "Illusioni"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -9904,7 +10064,8 @@
                     "unidentifiedName": "Pugno Ardente"
                 },
                 "Xg7L1dRpPQeE3Yfy": {
-                    "description": "Può trasformarsi a piacimento in una colonna di fuoco, incendiando tutti gli oggetti infiammabili entro 4,5 m. Mentre è in questa forma, gli attacchi in mischia infliggono 2d8 danni da fuoco aggiuntivi."
+                    "description": "Può trasformarsi a piacimento in una colonna di fuoco, incendiando tutti gli oggetti infiammabili entro 4,5 m. Mentre è in questa forma, gli attacchi in mischia infliggono 2d8 danni da fuoco aggiuntivi.",
+                    "name": "Piroforma"
                 },
                 "eIV9zDJxnlwjpcGq": {
                     "name": "Muro di Fuoco",
@@ -9960,7 +10121,8 @@
                     "description": "<p>Si muove volando e può librarsi a qualsiasi altezza, muovendosi in qualsiasi direzione a piacimento.</p>"
                 },
                 "XQhw9gwS8NS15a11": {
-                    "name": "Colpo Ciclonico"
+                    "name": "Colpo Ciclonico",
+                    "description": "<p>Una potente raffica d'aria. Infligge danni aggiuntivi alle creature volanti.</p>"
                 }
             },
             "biography": "<p>Un elementale dell’aria evocato da un oggetto è più grande e potente di uno evocato da un bastone magico, apparendo come un enorme vortice <strong>alto 7,2 m e largo 1,8 m</strong>. Si muove a velocità incredibili, usando la sua pura forza per devastare i nemici.</p>\n      <p>Qualsiasi creatura con <strong>2 Dadi Vita o meno</strong> colpita dall’elementale deve superare un tiro salvezza contro il raggio della morte o essere spazzata via. Gli attacchi dell’elementale sono particolarmente letali contro le creature volanti, infliggendo <strong>1d8 danni extra</strong>.</p>\n      <p>Gli elementali evocati da dispositivi richiedono un controllo continuo, e se la concentrazione dell’evocatore viene interrotta, l’elementale si rivolterà contro di lui. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali dell’aria subiscono <strong>danni doppi dagli attacchi basati sulla terra</strong>, danni normali da aria e fuoco, e <strong>danni minimi (1 PF per dado) dagli attacchi basati sull’acqua</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>6.000 mon a piena velocità</strong> o <strong>12.000 mon a mezza velocità</strong>.</p>",
@@ -10007,7 +10169,8 @@
                     "description": "<p>Una potente raffica d'aria. Infligge danni aggiuntivi alle creature volanti.</p>"
                 },
                 "cjMpUQOqLpJRRFMk": {
-                    "name": "Volare"
+                    "name": "Volare",
+                    "description": "<p>Si muove volando e può librarsi a qualsiasi altezza, muovendosi in qualsiasi direzione a piacimento.</p>"
                 },
                 "oohhmKzePhzRwF8G": {
                     "name": "Debolezze e Resistenze Elementali",
@@ -10050,13 +10213,16 @@
                     "description": "<p>Qualsiasi creatura con 2 DV o meno colpita dall'elementale dell'aria deve effettuare un tiro salvezza contro il raggio della morte o essere spazzata via.</p>"
                 },
                 "oohhmKzePhzRwF8G": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce danni doppi dagli attacchi basati sulla terra, danni normali da aria e da fuoco e danni minimi (1 PV per dado) dagli attacchi basati sull'acqua.</p><p> Quando viene indicato un danno doppio, l'elementale può effettuare un tiro salvezza contro gli incantesimi per subire danni normali.</p>"
                 },
                 "cjMpUQOqLpJRRFMk": {
-                    "name": "Volare"
+                    "name": "Volare",
+                    "description": "<p>Si muove volando e può librarsi a qualsiasi altezza, muovendosi in qualsiasi direzione a piacimento.</p>"
                 },
                 "kwEZV1eEPRenNOyG": {
-                    "name": "Colpo Ciclonico"
+                    "name": "Colpo Ciclonico",
+                    "description": "<p>Una potente raffica d'aria. Infligge danni aggiuntivi alle creature volanti.</p>"
                 },
                 "j0nPhHUmZf8SQ9XD": {
                     "name": "Forma di Turbine"
@@ -10107,7 +10273,8 @@
                     "unidentifiedName": "Colpo Schiacciante"
                 },
                 "oohhmKzePhzRwF8G": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce danni doppi dagli attacchi basati sulla terra, danni normali da aria e da fuoco e danni minimi (1 PV per dado) dagli attacchi basati sull'acqua.</p><p> Quando viene indicato un danno doppio, l'elementale può effettuare un tiro salvezza contro gli incantesimi per subire danni normali.</p>"
                 }
             },
             "monsterType": "Mostro Planare Magico (Comune)",
@@ -10151,10 +10318,12 @@
                 },
                 "WokJJ402zMuxiYbO": {
                     "name": "Colpo Schiacciante",
-                    "unidentifiedName": "Colpo Schiacciante"
+                    "unidentifiedName": "Colpo Schiacciante",
+                    "description": "<p>Un colpo devastante che infligge 2d8 danni. Infligge 1d8 danni aggiuntivi contro i nemici che toccano il suolo.</p>"
                 },
                 "oohhmKzePhzRwF8G": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce danni doppi dagli attacchi basati sulla terra, danni normali da aria e da fuoco e danni minimi (1 PV per dado) dagli attacchi basati sull'acqua.</p><p> Quando viene indicato un danno doppio, l'elementale può effettuare un tiro salvezza contro gli incantesimi per subire danni normali.</p>"
                 }
             },
             "monsterType": "Mostro Planare Magico (Comune)",
@@ -10198,10 +10367,12 @@
                 },
                 "WokJJ402zMuxiYbO": {
                     "name": "Colpo Schiacciante",
-                    "unidentifiedName": "Colpo Schiacciante"
+                    "unidentifiedName": "Colpo Schiacciante",
+                    "description": "<p>Un colpo devastante che infligge 2d8 danni. Infligge 1d8 danni aggiuntivi contro i nemici che toccano il suolo.</p>"
                 },
                 "oohhmKzePhzRwF8G": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce danni doppi dagli attacchi basati sulla terra, danni normali da aria e da fuoco e danni minimi (1 PV per dado) dagli attacchi basati sull'acqua.</p><p> Quando viene indicato un danno doppio, l'elementale può effettuare un tiro salvezza contro gli incantesimi per subire danni normali.</p>"
                 }
             },
             "monsterType": "Mostro Planare Magico (Comune)",
@@ -10292,7 +10463,8 @@
                     "description": "<p>Infligge 1d8 danni da fuoco aggiuntivi alle creature deboli al calore.</p>"
                 },
                 "9q3z1S4M8lkw7o3Y": {
-                    "name": "Tocco Bruciante"
+                    "name": "Tocco Bruciante",
+                    "description": "<p>Un attacco rovente che infligge 2d8 danni da fuoco. Infligge 1d8 danni aggiuntivi alle creature vulnerabili al calore.</p>"
                 },
                 "m1x7OuMHAJQJnrXw": {
                     "name": "Piroforma"
@@ -10338,7 +10510,8 @@
                     "description": "<p>Infligge 1d8 danni da fuoco aggiuntivi alle creature deboli al calore.</p>"
                 },
                 "9q3z1S4M8lkw7o3Y": {
-                    "name": "Tocco Bruciante"
+                    "name": "Tocco Bruciante",
+                    "description": "<p>Un attacco rovente che infligge 2d8 danni da fuoco. Infligge 1d8 danni aggiuntivi alle creature vulnerabili al calore.</p>"
                 },
                 "m1x7OuMHAJQJnrXw": {
                     "name": "Piroforma"
@@ -10434,10 +10607,12 @@
                 },
                 "RUSProFHqW7YlLqU": {
                     "name": "Onda Schiacciante",
-                    "unidentifiedName": "Onda Schiacciante"
+                    "unidentifiedName": "Onda Schiacciante",
+                    "description": "<p>Una potente ondata che infligge 2d8 danni. Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>"
                 },
                 "y6Uud7shCPkAICY0": {
-                    "name": "Idroforma"
+                    "name": "Idroforma",
+                    "description": "<p>L'acqua vivente da CA 0. Può essere danneggiata solo dalla magia o dalle armi magiche.</p>"
                 }
             },
             "monsterType": "Mostro Planare Magico (Comune)",
@@ -10480,11 +10655,13 @@
                     "name": "Ondata Annegante"
                 },
                 "y6Uud7shCPkAICY0": {
-                    "name": "Idroforma"
+                    "name": "Idroforma",
+                    "description": "<p>L'acqua vivente da CA 0. Può essere danneggiata solo dalla magia o dalle armi magiche.</p>"
                 },
                 "RUSProFHqW7YlLqU": {
                     "name": "Onda Schiacciante",
-                    "unidentifiedName": "Onda Schiacciante"
+                    "unidentifiedName": "Onda Schiacciante",
+                    "description": "<p>Una potente ondata che infligge 2d8 danni. Infligge 1d8 danni aggiuntivi ai nemici in acqua.</p>"
                 }
             },
             "monsterType": "Mostro Planare Magico (Comune)",
@@ -11144,7 +11321,8 @@
                 },
                 "QcJvudS45nxtD6lN": {
                     "name": "Pugno",
-                    "unidentifiedName": "Colpo Tempestoso"
+                    "unidentifiedName": "Colpo Tempestoso",
+                    "description": "<p>Un potente pugno. Il danno varia in base ai Dadi Vita (vedi tabella). Una vittima colpita da un signore elementale deve effettuare un tiro salvezza contro raggio della morte o essere uccisa all'istante, indipendentemente dai danni subiti.</p><p>Gli oggetti trasportati hanno il 95% di probabilità di essere distrutti (-5% per \"più\" se magici).</p><p></p>"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -11192,7 +11370,8 @@
                 },
                 "QcJvudS45nxtD6lN": {
                     "name": "Pugno",
-                    "unidentifiedName": "Colpo Tempestoso"
+                    "unidentifiedName": "Colpo Tempestoso",
+                    "description": "<p>Un potente pugno. Il danno varia in base ai Dadi Vita (vedi tabella). Una vittima colpita da un signore elementale deve effettuare un tiro salvezza contro raggio della morte o essere uccisa all'istante, indipendentemente dai danni subiti.</p><p>Gli oggetti trasportati hanno il 95% di probabilità di essere distrutti (-5% per \"più\" se magici).</p><p></p>"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -11837,6 +12016,9 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte",
                     "shortName": "Morte"
+                },
+                "iPQdFs6ljPPGd2PB": {
+                    "name": "Vesti Pallide (Armatura)"
                 }
             },
             "name": "Ghoul",
@@ -14027,10 +14209,15 @@
                     "shortName": "Soffio"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -14218,7 +14405,16 @@
                     "shortName": "Morte"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -15214,7 +15410,16 @@
                     "shortName": "Incantesimo"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>",
+                    "name": "Guscio di Lumaca"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -15249,10 +15454,15 @@
                     "shortName": "Bacchetta"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -15287,10 +15497,15 @@
                     "shortName": "Soffio"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -15456,7 +15671,8 @@
                     "shortName": "Incantesimo"
                 },
                 "DS0159BWTBOI4oXM": {
-                    "name": "Individuare l'Invisibile"
+                    "name": "Individuare l'Invisibile",
+                    "description": "<p>I mastini infernali possono individuare nemici invisibili (utilizzando un metodo simile all'incantesimo del mago) con una probabilità del 75% a round entro un raggio di 18 metri.</p>"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -16225,11 +16441,16 @@
                     "shortName": "Morte"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "ZwNKhEKlh71dcNcg": {
                     "name": "Guscio di Lumaca",
                     "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -16264,7 +16485,16 @@
                     "shortName": "Morte"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>",
+                    "name": "Guscio di Lumaca"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -16299,10 +16529,15 @@
                     "shortName": "Bacchetta"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -16337,7 +16572,16 @@
                     "shortName": "Bacchetta"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -16372,10 +16616,15 @@
                     "shortName": "Soffio"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -16410,10 +16659,15 @@
                     "shortName": "Incantesimo"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -16508,10 +16762,15 @@
                     "shortName": "Morte"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -21885,10 +22144,15 @@
                     "shortName": "Bacchetta"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -21983,10 +22247,15 @@
                     "shortName": "Incantesimo"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22021,10 +22290,15 @@
                     "shortName": "Pietrifica"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22059,10 +22333,15 @@
                     "shortName": "Bacchetta"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22097,7 +22376,16 @@
                     "shortName": "Pietrifica"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22132,7 +22420,16 @@
                     "shortName": "Pietrifica"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22167,7 +22464,16 @@
                     "shortName": "Soffio"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>",
+                    "name": "Guscio di Lumaca"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22202,7 +22508,16 @@
                     "shortName": "Bacchetta"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22237,7 +22552,16 @@
                     "shortName": "Incantesimo"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22272,7 +22596,16 @@
                     "shortName": "Bacchetta"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>",
+                    "name": "Guscio di Lumaca"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22366,7 +22699,8 @@
                     "description": "Una pelle naturale e resistente che offre una modesta protezione."
                 },
                 "DS0159BWTBOI4oXM": {
-                    "name": "Individuare l'Invisibile"
+                    "name": "Individuare l'Invisibile",
+                    "description": "<p>I mastini infernali possono individuare nemici invisibili (utilizzando un metodo simile all'incantesimo del mago) con una probabilità del 75% a round entro un raggio di 18 metri.</p>"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -22401,7 +22735,16 @@
                     "shortName": "Pietrifica"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "name": "Lingua Affilata",
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22447,7 +22790,8 @@
                     "description": "Una pelle naturale e resistente che offre una modesta protezione."
                 },
                 "DS0159BWTBOI4oXM": {
-                    "name": "Individuare l'Invisibile"
+                    "name": "Individuare l'Invisibile",
+                    "description": "<p>I mastini infernali possono individuare nemici invisibili (utilizzando un metodo simile all'incantesimo del mago) con una probabilità del 75% a round entro un raggio di 18 metri.</p>"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -22493,7 +22837,8 @@
                     "shortName": "Pietrifica"
                 },
                 "DS0159BWTBOI4oXM": {
-                    "name": "Individuare l'Invisibile"
+                    "name": "Individuare l'Invisibile",
+                    "description": "<p>I mastini infernali possono individuare nemici invisibili (utilizzando un metodo simile all'incantesimo del mago) con una probabilità del 75% a round entro un raggio di 18 metri.</p>"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -23734,7 +24079,8 @@
                     "shortName": "Soffio"
                 },
                 "scq9xCz7kMeZWdMR": {
-                    "name": "Infravisione"
+                    "name": "Infravisione",
+                    "description": "<p>Gli gnomi possono vedere al buio con l' <strong>infravisione fino a 27 m</strong>.</p>"
                 },
                 "sevisB2jq6Pdj8bw": {
                     "name": "Bacchetta Magica",
@@ -23788,10 +24134,12 @@
                     "weaponMastery": "Martello da guerra"
                 },
                 "VVRBTaDbBgfEtObF": {
-                    "name": "Infravisione"
+                    "name": "Infravisione",
+                    "description": "<p>Gli gnomi possono vedere al buio con l' <strong>infravisione fino a 27 m</strong>.</p>"
                 },
                 "VyaS9hGuWFJ6qpy6": {
-                    "name": "Incremento Morale Comandante"
+                    "name": "Incremento Morale Comandante",
+                    "description": "<p>Se è presente un <strong>comandante gnomo</strong>, tutti gli gnomi nelle vicinanze hanno <strong>Morale 10 invece di 8</strong>.</p>"
                 }
             },
             "monsterType": "Umanoide (Comune)"
