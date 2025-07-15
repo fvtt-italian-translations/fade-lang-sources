@@ -2742,16 +2742,25 @@
                     "shortName": "Incantesimo"
                 },
                 "1LFUkXcGpnkCPHfk": {
-                    "name": "Ala"
+                    "name": "Ala",
+                    "description": "<p>Un attacco d'ala può essere usato contro qualsiasi avversario entro il raggio d'azione, il che è fantastico. La gittata è di 90 cm per Dado Vita del drago. Qualsiasi vittima colpita da un attacco d'ala deve effettuare un tiro salvezza contro paralisi o rimanere stordita. Al tiro salvezza si applica una penalità pari al danno inflitto.</p>"
                 },
                 "VvsRAQFsjtZe0F73": {
                     "name": "Planata"
                 },
                 "fBdChxOQmjcQk2vi": {
-                    "name": "Coda"
+                    "name": "Coda",
+                    "description": "<p>Qualsiasi vittima colpita dall'attacco di coda di un drago di taglia grande o enorme deve effettuare un tiro salvezza contro paralisi o essere atterrata (come con un calcio) e disarmata. Al tiro salvezza si applica una penalità pari al danno inflitto. Un avversario disarmato può dedicare un round a raccogliere l'arma, oppure può cambiare arma, perdendo semplicemente l'iniziativa.</p>"
                 },
                 "haTP7y0pEoQrBV5y": {
-                    "name": "Calcio"
+                    "name": "Calcio",
+                    "description": "<p>Qualsiasi vittima colpita da un calcio deve effettuare un tiro salvezza contro paralisi o essere atterrata (KO). Al tiro salvezza si applica una penalità pari all'ammontare dei danni inflitti. Qualsiasi vittima atterrata può rialzarsi nel round successivo, ma perderà automaticamente l'iniziativa.</p>"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "name": "Sospensione"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "name": "Stritolamento"
                 }
             },
             "name": "Drago Nero Enorme",
@@ -2879,6 +2888,12 @@
                 },
                 "VvsRAQFsjtZe0F73": {
                     "name": "Planata"
+                },
+                "B8FAIPqQZF3wwLDS": {
+                    "description": "<p>Quando usa questa forma di attacco, il drago si ferma in volo direttamente sopra i suoi bersagli, battendo furiosamente le ali. Il drago può attaccare fino a tre avversari in un round mentre è sospeso a mezz'aria, usando un morso e due artigli anteriori. Non è possibile usare un'arma a soffio mentre è sospeso a mezz'aria, a causa del vento generato dalle ali.</p><p><strong>Dopo un round di attacchi sospesi, il drago deve atterrare immediatamente, ma non può schiacciarsi dopo essere rimasto sospeso a mezz'aria.</strong> (Si noti che la posizione degli avversari potrebbe impedire l'uso di alcune forme di attacco.)</p>"
+                },
+                "h3ulyuARYx2wmj3Z": {
+                    "description": "<p>Questa manovra viene spesso usata se il drago sorprende vittime non umane, o eventualmente contro avversari se il drago è gravemente ferito. Quando stritola, il drago atterra sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non vengono inflitti danni.</p><p>Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus +4. Se colpisce, infligge danni doppi.</p><p><strong>Un drago piccolo può schiacciare una sola vittima.</strong></p>"
                 }
             },
             "name": "Drago Nero Piccolo",
@@ -9941,7 +9956,8 @@
                     "name": "Ventata"
                 },
                 "cjMpUQOqLpJRRFMk": {
-                    "name": "Volare"
+                    "name": "Volare",
+                    "description": "<p>Si muove volando e può librarsi a qualsiasi altezza, muovendosi in qualsiasi direzione a piacimento.</p>"
                 },
                 "XQhw9gwS8NS15a11": {
                     "name": "Colpo Ciclonico"
@@ -9987,13 +10003,15 @@
                     "name": "Ventata"
                 },
                 "StS7qpLss94qt0Tb": {
-                    "name": "Pugno"
+                    "name": "Pugno",
+                    "description": "<p>Una potente raffica d'aria. Infligge danni aggiuntivi alle creature volanti.</p>"
                 },
                 "cjMpUQOqLpJRRFMk": {
                     "name": "Volare"
                 },
                 "oohhmKzePhzRwF8G": {
-                    "name": "Debolezze e Resistenze Elementali"
+                    "name": "Debolezze e Resistenze Elementali",
+                    "description": "<p>Subisce danni doppi dagli attacchi basati sulla terra, danni normali da aria e da fuoco e danni minimi (1 PV per dado) dagli attacchi basati sull'acqua.</p><p> Quando viene indicato un danno doppio, l'elementale può effettuare un tiro salvezza contro gli incantesimi per subire danni normali.</p>"
                 }
             },
             "biography": "<p>Il tipo più potente di elementale dell’aria, evocato tramite un <strong>incantesimo di un mago</strong>, appare come un vortice torreggiante <strong>alto 9,6 m e largo 2,4 m</strong>. Si muove a velocità spaventose, schiantando i nemici con venti di forza uraganica.</p>\n      <p>Qualsiasi creatura con <strong>2 Dadi Vita o meno</strong> colpita dall’elementale deve superare un tiro salvezza contro il raggio della morte o essere spazzata via. Gli attacchi dell’elementale sono particolarmente devastanti contro le creature volanti, infliggendo <strong>1d8 danni extra</strong>.</p>\n      <p>Gli elementali evocati con incantesimi richiedono un controllo costante. Se l’evocatore è distratto o la sua concentrazione viene interrotta, l’elementale lo attaccherà. Queste creature possono essere ferite solo da magia o armi magiche.</p>\n      <p>Gli elementali dell’aria subiscono <strong>danni doppi dagli attacchi basati sulla terra</strong>, danni normali da aria e fuoco, e <strong>danni minimi (1 PF per dado) dagli attacchi basati sull’acqua</strong>.</p>\n      <p><strong>Terreno:</strong> Qualsiasi</p>\n      <p><strong>Carico:</strong> Può trasportare <strong>8.000 mon a piena velocità</strong> o <strong>16.000 mon a mezza velocità</strong>.</p>",
@@ -11077,7 +11095,8 @@
                 },
                 "QcJvudS45nxtD6lN": {
                     "name": "Pugno",
-                    "unidentifiedName": "Colpo Tempestoso"
+                    "unidentifiedName": "Colpo Tempestoso",
+                    "description": "<p>Un potente pugno. Il danno varia in base ai Dadi Vita (vedi tabella). Una vittima colpita da un signore elementale deve effettuare un tiro salvezza contro raggio della morte o essere uccisa all'istante, indipendentemente dai danni subiti.</p><p>Gli oggetti trasportati hanno il 95% di probabilità di essere distrutti (-5% per \"più\" se magici).</p><p></p>"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -16163,10 +16182,15 @@
                     "shortName": "Morte"
                 },
                 "XcoAZVD2GAzhEcew": {
-                    "name": "Spruzzo Acido"
+                    "name": "Spruzzo Acido",
+                    "description": "<p>Il loro attacco acido a distanza ha una gittata di 1,5 metri per Dado Vita (13,5 metri con 9 Dadi Vita, ecc.). Il primo attacco fallirà sempre, poiché la lumaca lo usa per colpire le sue vittime, ma gli attacchi successivi vengono calcolati normalmente. Qualsiasi vittima colpita dall'acido subisce danni pari ai punti ferita attuali della lumaca. La vittima può effettuare un tiro salvezza contro il soffio del drago per dimezzare i danni. Inoltre, se il tiro salvezza fallisce, l'acido può anche distruggere l'equipaggiamento trasportato.</p>"
                 },
                 "jUmWJv8YgYg0Hckq": {
                     "name": "Armatura Naturale"
+                },
+                "Do8ur7jVwseaTZz3": {
+                    "description": "<p>La lumaca gigante può attaccare con la sua lingua affilata (che infligge 1-12 danni), ma preferisce sputare acido.</p>",
+                    "name": "Lingua Affilata"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -16202,6 +16226,10 @@
                 },
                 "XcoAZVD2GAzhEcew": {
                     "name": "Spruzzo Acido"
+                },
+                "ZwNKhEKlh71dcNcg": {
+                    "name": "Guscio di Lumaca",
+                    "description": "<p>La chiocciola gigante, che vive nelle foreste più fitte, possiede una grande corazza che le conferisce una Classe Armatura di -2. A parte questo, è identica alla lumaca gigante.</p>"
                 }
             },
             "monsterType": "Animale Gigante (Raro)",
@@ -22290,7 +22318,8 @@
                     "shortName": "Pietrifica"
                 },
                 "DS0159BWTBOI4oXM": {
-                    "name": "Individuare l'Invisibile"
+                    "name": "Individuare l'Invisibile",
+                    "description": "<p>I mastini infernali possono individuare nemici invisibili (utilizzando un metodo simile all'incantesimo del mago) con una probabilità del 75% a round entro un raggio di 18 metri.</p>"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -23541,7 +23570,8 @@
                     "shortName": "Incantesimo"
                 }
             },
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro (Raro)",
+            "name": "Metamorfosis"
         },
         "Gargantua, Carrion Crawler": {
             "items": {
