@@ -244,7 +244,8 @@
             "firstSpellLevel": {
                 "hint": "Il primo livello di incantesimi per questa classe",
                 "name": "Livello del Primo Incantesimo"
-            }
+            },
+            "Ancestry": "Razza"
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -262,7 +263,8 @@
             "ConditionItem": "Scheda Condizione",
             "TreasureItem": "Scheda Tesoro",
             "ActorClassItem": "Scheda Oggetto di Classe del PG",
-            "CharacterSheetBase": "Scheda del PG"
+            "CharacterSheetBase": "Scheda del PG",
+            "AncestryDefinitionItem": "Scheda di Definizione Razza"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -731,8 +733,8 @@
                     "description": "Il combattente lancia un'arma adatta a farlo, applicando il modificatore di Destrezza, magici al TPC e Forza inclusi i bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione."
                 },
                 "fire": {
-                    "description": "Il combattente utilizza un'arma da lancio, come un arco o una cerbottana, purché il bersaglio sia entro la gittata dell'arma",
-                    "name": "Tira"
+                    "description": "Il combattente può movere e utilizzare un'arma da lancio, come un arco o una cerbottana, purché il bersaglio sia entro la gittata dell'arma",
+                    "name": "Tirare/Sparare"
                 },
                 "spell": {
                     "name": "Lancia Incantesimo",
@@ -779,7 +781,7 @@
                     "description": "Il combattente disarma un avversario colpendolo ma senza infliggere danni; se il bersaglio fallisce una prova di Destrezza, lascia cadere la sua arma"
                 },
                 "guard": {
-                    "description": "L'azione Guardia consente a un combattente di trattenere il proprio attacco in mischia fino alla fine della fase di movimento di un avversario, colpendo se l'avversario si muove entro la portata.",
+                    "description": "Questa azione consente a un combattente di trattenere il proprio attacco in mischia fino alla fine della fase di movimento di un avversario, colpendo se l'avversario si muove entro la portata.",
                     "name": "Guardia"
                 },
                 "shove": {
@@ -1032,7 +1034,12 @@
         "rollFormula": "Tiro Formula",
         "attackRoll": "Tiro per Colpire",
         "folder": "Cartella",
-        "rollTable": "Tabella"
+        "rollTable": "Tabella",
+        "ancestry": {
+            "female": "Femmina",
+            "male": "Maschio",
+            "requiredScores": "Punteggi Abilità Necessari"
+        }
     },
     "SETTINGS": {
         "Encumbrance": {
