@@ -718,7 +718,7 @@
             "maneuvers": {
                 "nothing": {
                     "name": "Niente",
-                    "description": "Il combattente non fa assolutamente nulla in questo round. Nessuna mossa, nessun attacco, niente di niente"
+                    "description": "Il combattente non fa assolutamente nulla in questo round. Nessun movimento e nessun attacco."
                 },
                 "moveOnly": {
                     "name": "Solo Movimento",
@@ -730,7 +730,7 @@
                 },
                 "throw": {
                     "name": "Lancia Arma",
-                    "description": "Il combattente lancia un'arma adatta a farlo, applicando il modificatore di Destrezza, magici al TPC e Forza inclusi i bonus magici al danno, a condizione che il bersaglio sia nel raggio d'azione."
+                    "description": "Il combattente può muoversi e poi lanciare un'arma adatta, applicando i bonus di Destrezza e magia al tiro per colpire e i bonus di Forza e magia ai danni, a patto che il bersaglio sia entro il raggio d'azione."
                 },
                 "fire": {
                     "description": "Il combattente può movere e utilizzare un'arma da lancio, come un arco o una cerbottana, purché il bersaglio sia entro la gittata dell'arma",
@@ -738,7 +738,7 @@
                 },
                 "spell": {
                     "name": "Lancia Incantesimo",
-                    "description": "Il combattente lancia un incantesimo memorizzato. I mostri usano questa azione per attacchi magici che non sono a distanza o in mischia"
+                    "description": "Il combattente lancia un incantesimo memorizzato. I mostri usano questa azione per attacchi magici che non siano a distanza o in mischia. Non è consentito alcun movimento."
                 },
                 "magicItem": {
                     "name": "Oggetto Magico",
@@ -750,11 +750,11 @@
                 },
                 "attack": {
                     "name": "Attacco",
-                    "description": "Il combattente effettua un attacco in mischia, aggiungendo Forza e bonus magici sia al tiro per colpire che al danno"
+                    "description": "Il combattente può muoversi e poi effettuare un attacco in mischia, aggiungendo bonus di Forza e magia sia al tiro per colpire che ai danni."
                 },
                 "withdrawal": {
                     "name": "Arretrare",
-                    "description": "Il combattente indietreggia 1,5 metri per round da un nemico fino alla metà del suo normale movimento, attaccando solo se il nemico lo segue e si sposta nel raggio d'azione durante la sua fase di movimento"
+                    "description": "Il combattente indietreggia da un nemico a metà della normale velocità di movimento, attaccando solo se il nemico lo segue e si sposta nel suo raggio d'azione durante la sua fase di movimento."
                 },
                 "retreat": {
                     "name": "Ritirata",
@@ -762,7 +762,7 @@
                 },
                 "multiAttack": {
                     "name": "Attacco Multiplo",
-                    "description": "Il combattente effettua più attacchi per round, che possono includere qualsiasi combinazione di attacchi, lanci, disarmi o attacchi con la lancia"
+                    "description": "Il combattente può muoversi e poi effettuare più attacchi per round, che possono includere qualsiasi combinazione di attacchi, lanci, disarmi o attacchi con la lancia."
                 },
                 "setSpear": {
                     "name": "Prepara Lancia",
@@ -1221,7 +1221,7 @@
             "weaponMastery": "Definizione Maestria Arma",
             "light": "Luce",
             "condition": "Condizione",
-            "species": "Stirpe",
+            "species": "Definizione di Stirpe",
             "actorClass": "Classe PG"
         }
     },
