@@ -10012,7 +10012,8 @@
                     "name": "Desiderio",
                     "spellDuration": "Speciale",
                     "spellEffect": "Altera la realtà basata sulle parole del mago",
-                    "spellRange": "Speciale"
+                    "spellRange": "Speciale",
+                    "description": "<p>L'incantesimo Desiderio è il più potente che un mago possa lanciare. Non si trova mai su pergamene, ma può essere incluso in rari oggetti magici, come anelli. Solo i maghi di 36º livello con un punteggio di Saggezza di 18 o superiore possono lanciare questo incantesimo</p><h4>Formulazione del Desiderio:</h4><p>Il giocatore deve dichiarare o scrivere chiaramente il desiderio esatto. La formulazione è di importanza cruciale, poiché il desiderio seguirà solitamente il significato letterale delle parole pronunciate, indipendentemente dalle intenzioni dell'incantatore</p><p>Il DM è responsabile del mantenimento dell'equilibrio del gioco. Desideri mal formulati possono avere conseguenze indesiderate, mentre desideri egoistici o avidi possono essere intenzionalmente distorti dal DM. Se un desiderio è irragionevole, il DM può semplicemente decidere che non ha effetto</p><h4>Esempi di Desideri Mal Formati:</h4><ul><li>\"Desidero sapere tutto su questo dungeon.\" - Il personaggio ottiene piena conoscenza per un momento, ma poi dimentica immediatamente tutto.</li><li>\"Desidero un milione di monete d'oro.\" - Le monete d'oro possono apparire, ma potrebbero cadere sull'incantatore (schiacciandolo) e poi svanire.</li><li>\"Desidero ottenere permanentemente il potere dello sguardo di un basilisco mantenendo tutte le mie abilità.\" - Questo potrebbe risultare nell'incantatore che sviluppa una testa di basilisco aggiuntiva.</li></ul><h4>Limitazioni ed Effetti del Desiderio:</h4><ul><li>Un desiderio non può essere usato per guadagnare punti esperienza o livelli.</li><li>Un desiderio ben formulato può sostituire qualsiasi incantesimo da mago di 8º livello o inferiore o qualsiasi incantesimo clericale o druidico di 6º livello o inferiore, a discrezione del DM.</li><li>Se il desiderio è usato per danneggiare una creatura, il bersaglio può effettuare un tiro salvezza contro incantesimi. In caso di successo, l'effetto è dimezzato e l'altra metà si ritorce sull'incantatore (che può salvare con una penalità di -4).</li><li>Se il desiderio è usato per creare un inconveniente piuttosto che per danneggiare (come teletrasportare una vittima in una cella di prigione), non è concesso alcun tiro salvezza.</li></ul><h4>Usi Speciali di un Desiderio:</h4><ul><li>Un desiderio può creare un tesoro, fino a 50.000 monete d'oro. Tuttavia, l'incantatore perde 1 PX per ogni moneta d'oro guadagnata, e questa perdita non può essere ripristinata.</li><li>Un desiderio può modificare temporaneamente un punteggio di abilità a un minimo di 3 o un massimo di 18, per una durata di sei turni.</li><li>L'aumento permanente di un punteggio di abilità richiede di lanciare un numero di desideri pari al punteggio desiderato (ad esempio, aumentare la Forza da 15 a 16 richiede 16 desideri entro una settimana).</li><li>I desideri non possono ridurre permanentemente i punteggi di abilità.</li></ul><h4>Effetti su Razza e Classe:</h4><ul><li>Un desiderio non può far salire un personaggio umano oltre il 36º livello, ma può concedere a un semiumano un Dado Vita aggiuntivo (massimo DV: Halfling 9, Elfi 11, Nani 13).</li><li>Un desiderio può trasformare un semiumano in umano (o viceversa), permettendogli di avanzare come nuova classe allo stesso livello.</li><li>Se un desiderio è usato per cambiare la classe di un altro personaggio, il bersaglio può effettuare un tiro salvezza contro incantesimi con un bonus di +5 per resistere.</li></ul><h4>Alterazione di Eventi Passati:</h4><p>Un desiderio può alterare eventi delle ultime 24 ore. Tuttavia, non può completamente ribaltare situazioni impossibili. Esempi includono:</p><ul><li>Una battaglia persa può essere trasformata in una sconfitta meno grave.</li><li>La morte di un personaggio potrebbe diventare un'esperienza di quasi-morte.</li><li>Una perdita permanente può essere convertita in una temporanea.</li></ul><h4>Nota Importante:</h4><p>Se un effetto è dichiarato non modificabile \"nemmeno con un desiderio\", questa limitazione prevale sulle normali capacità dell'incantesimo</p><h4>Equilibrio del Gioco e Discrezione del DM:</h4><p>Il DM deve garantire che i desideri rimangano entro limiti ragionevoli. Un desiderio non può alterare le meccaniche fondamentali del gioco (come impedire ai draghi di usare il loro soffio). Più un desiderio è irragionevole, meno è probabile che abbia successo come previsto</p>"
                 },
                 "CZooGZ0vFrVZ6D3s": {
                     "description": "<p>Può creare oggetti e produrre illusioni a piacimento.</p>",
@@ -24106,6 +24107,44 @@
                 }
             },
             "monsterType": "Umanoide (Comune)"
+        },
+        "Rust Monster": {
+            "items": {
+                "6d7hWgV5MqYo2Atd": {
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "CjNmmM8jlo6S4fXW": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "PTBgrKKZwc3EBf8d": {
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta"
+                },
+                "Twv4yNQN8H1wgFV8": {
+                    "name": "Nascondersi"
+                },
+                "vEalYvWII2usnqYI": {
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
+                },
+                "wxN5i0vK21jyBfEE": {
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo"
+                },
+                "ysYuYJAFVkpr6Ayv": {
+                    "name": "Antenna",
+                    "unidentifiedName": "Antenna"
+                }
+            },
+            "monsterType": "Mostro (Raro)",
+            "name": "Rugginofago"
         }
     },
     "label": "Bestiario",
