@@ -455,8 +455,7 @@
         "abbrPlural": "cns",
         "desc": "Encumbrance value of the item.",
         "long": "Encumbrance",
-        "short": "Enc",
-        "short2": "Enc"
+        "short": "Enc"
       },
       "weightEquipped": {
         "desc": "Encumbrance value of the item when worn or equipped.",
@@ -1086,8 +1085,7 @@
   },
   "SETTINGS": {
     "EncMax": {
-      "Hint": "The maximum amount a character may carry, in coins, and still be able to move.",
-      "Hint2": "The maximum amount, in coins, that can be carried while still able to move.",
+      "Hint": "The maximum weight that can be carried while still able to move.",
       "Name": "Encumbrance Max"
     },
     "Encumbrance": {
