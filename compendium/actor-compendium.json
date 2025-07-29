@@ -775,11 +775,16 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
-        "G1b3GdFhCSqKAkPG": {
+        "HcStaQSC3tAeJT1C": {
+          "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+          "name": "Leather Armor",
+          "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>"
+        },
+        "KlE02jJDCz0W1OGA": {
           "description": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
           "name": "Axe, Hand",
           "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
-          "unidentifiedName": "Axe, Hand"
+          "weaponMastery": "Axe, Hand"
         },
         "VrHF08EGwEq2BNmn": {
           "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
@@ -795,11 +800,6 @@
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
-        },
-        "r8EiuFHqHyRfVPmB": {
-          "description": "The bandit wears leather armor, providing protection equivalent to Armor Class 6.",
-          "name": "Leather Armor",
-          "unidentifiedDesc": "The bandit wears leather armor, providing protection equivalent to Armor Class 6."
         },
         "rsZaFKzrf1WEmWOq": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -823,17 +823,28 @@
           "name": "Arrows",
           "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>"
         },
-        "BBvw1LtUXc89lZK8": {
+        "CnlBl1rnFo1yEYZE": {
           "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
           "name": "Bow, Short",
           "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
-          "unidentifiedName": "Bow, Short"
+          "weaponMastery": "Bow, Short"
         },
-        "G1b3GdFhCSqKAkPG": {
+        "GDdHrRnx7lkkKkmJ": {
+          "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "name": "Dagger",
+          "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "weaponMastery": "Dagger"
+        },
+        "HxBTw4p6CwLy703a": {
+          "description": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
+          "name": "Scale Mail",
+          "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>"
+        },
+        "KlE02jJDCz0W1OGA": {
           "description": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
           "name": "Axe, Hand",
           "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
-          "unidentifiedName": "Axe, Hand"
+          "weaponMastery": "Axe, Hand"
         },
         "VD3yjeLgB4v5WYA1": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -844,11 +855,6 @@
           "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
           "gmNotes": "Ambush tactics for surprise attacks.",
           "name": "Ambush"
-        },
-        "YiKuJU9xRkb16Fr6": {
-          "description": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
-          "name": "Scale Mail",
-          "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>"
         },
         "fuyMmrNZV9M9AYKC": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -1631,12 +1637,16 @@
       "name": "Berserker"
     },
     "Black Hag (11 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "5P8BczvwZPJLfAks": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
         },
         "SlK6Xnj2GyLOAbQu": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -1648,21 +1658,21 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
+        },
         "fpUqWVgy9Gt153t3": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "i0SwdqWPRManfR9K": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>22 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
         },
         "pPVlvcAjkY73RdDj": {
           "name": "Hag Skin",
           "unidentifiedName": "Hag Skin"
         },
         "xdi5G8TarHU2PlbE": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
           "name": "Iron Claws (Poisoned)",
           "unidentifiedName": "Iron Claws (Poisoned)"
         },
@@ -1676,7 +1686,7 @@
       "name": "Black Hag (11 HD)"
     },
     "Black Hag (12 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "1zUsSk1FpmvfdEeg": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -1693,6 +1703,10 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
+        },
         "Kb1oqA0ZE9ajkfL5": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -1707,21 +1721,21 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "UvAyPTctALjcHRiE": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
+        },
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
           "name": "Iron Claws (Poisoned)",
           "unidentifiedName": "Iron Claws (Poisoned)"
-        },
-        "cR7g8XhlLHrRt342": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>24 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
         }
       },
       "monsterType": "Humanoid",
       "name": "Black Hag (12 HD)"
     },
     "Black Hag (13 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "AcXoY2JZxM6wPx0q": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -1734,7 +1748,7 @@
           "shortName": "Spell"
         },
         "Jgd91rIHuHWWXnQj": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>26 HD</strong>, making it an extremely dangerous necromantic force.</p>",
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
           "name": "Undead Control"
         },
         "UbchTk5xkbPGYtxw": {
@@ -1751,22 +1765,26 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
-        "b9FNJEJaOBNHDsbt": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
-          "name": "Iron Claws (Poisoned)",
-          "unidentifiedName": "Iron Claws (Poisoned)"
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
         },
         "emSzuqVK8Zs2ccoI": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
+          "name": "Iron Claws (Poisoned)",
+          "unidentifiedName": "Iron Claws (Poisoned)"
         }
       },
       "monsterType": "Humanoid",
       "name": "Black Hag (13 HD)"
     },
     "Black Hag (14 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "0r6BiqFlwwYain9V": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -1778,6 +1796,10 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
+        },
         "QDB8kBHHbbCSRlbH": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -1788,10 +1810,9 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "lM74iyPm19xLOcEE": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
-          "name": "Iron Claws (Poisoned)",
-          "unidentifiedName": "Iron Claws (Poisoned)"
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
         },
         "tvzflXDvUNL1g2fk": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -1802,35 +1823,31 @@
           "description": "<p>The Black Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
         },
-        "yREM8Ihv114BT8LN": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>28 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
+          "name": "Iron Claws (Poisoned)",
+          "unidentifiedName": "Iron Claws (Poisoned)"
         }
       },
       "monsterType": "Humanoid",
       "name": "Black Hag (14 HD)"
     },
     "Black Hag (15 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "BHrKGj3esUWoDfk2": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "HrzrXvRhXwvrdQuE": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
-          "name": "Iron Claws (Poisoned)",
-          "unidentifiedName": "Iron Claws (Poisoned)"
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
         },
         "Kn6vbmelKddfjiTX": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
-        },
-        "L8G6rBRDOAi5YxGd": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>30 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
         },
         "LEX9Szfb3Mh2JgAw": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -1841,6 +1858,10 @@
           "description": "<p>The Black Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
         },
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
+        },
         "kLhT4cyTliuqICig": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -1850,13 +1871,18 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
+          "name": "Iron Claws (Poisoned)",
+          "unidentifiedName": "Iron Claws (Poisoned)"
         }
       },
       "monsterType": "Humanoid",
       "name": "Black Hag (15 HD)"
     },
     "Black Hag (16 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p>Undead Control: The black hag can control undead as if it had [[@hp.hd*2]] HD, making it an extremely dangerous necromantic force.</p><p>Poisonous Claws: The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p>Spellcasting: The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p>Dark Lairs & Evil Minions: Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead).</p><p>Companions: They often keep slimes, oozes, and puddings as allies.</p><p>Terrain: Woods.</p>",
       "items": {
         "1WZYNbGih8P7phvi": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -1872,6 +1898,10 @@
           "description": "<p>The Black Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
         },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
+        },
         "NiA7FuPCt4ImzVqR": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -1882,17 +1912,17 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "m4NcCQEiQrxBP3q1": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>32 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
         },
         "uuwh9K1B1UnaBmWS": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "zVqy0MwSacGkdYtA": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
           "name": "Iron Claws (Poisoned)",
           "unidentifiedName": "Iron Claws (Poisoned)"
         }
@@ -1901,7 +1931,7 @@
       "name": "Black Hag (16 HD)"
     },
     "Black Hag (17 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "9HilGCwJ76brm2Fy": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -1913,6 +1943,10 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
+        },
         "WFW1vFcJsXDRjZ3Q": {
           "description": "<p>The Black Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
@@ -1922,14 +1956,9 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "ab4MVX18druyfu1h": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
-          "name": "Iron Claws (Poisoned)",
-          "unidentifiedName": "Iron Claws (Poisoned)"
-        },
-        "jKUVt8HvDATaWrFT": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>34 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
         },
         "k83AOemJDwy7MlZC": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -1940,13 +1969,18 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
+          "name": "Iron Claws (Poisoned)",
+          "unidentifiedName": "Iron Claws (Poisoned)"
         }
       },
       "monsterType": "Humanoid",
       "name": "Black Hag (17 HD)"
     },
     "Black Hag (18 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "5ISdCdyBwLheKdEt": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -1958,10 +1992,6 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "Cj02kWuZzQBPfPuO": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>36 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
-        },
         "DAEsYUElN64j20Lk": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -1972,6 +2002,10 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
+        },
         "K0F8uKPh1J3IwXdl": {
           "description": "<p>The Black Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
@@ -1981,8 +2015,12 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "jveXzCkefdHoNG5Z": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
+        },
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
           "name": "Iron Claws (Poisoned)",
           "unidentifiedName": "Iron Claws (Poisoned)"
         }
@@ -1991,22 +2029,25 @@
       "name": "Black Hag (18 HD)"
     },
     "Black Hag (19 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "Ac85mJhT2ZKp3XZu": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
+        },
         "RAvFnqjTvXJ9TBFc": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "RGlM0xv41sJayX9o": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
-          "name": "Iron Claws (Poisoned)",
-          "unidentifiedName": "Iron Claws (Poisoned)"
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
         },
         "gDCPLwAjgU4bwct8": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -2027,21 +2068,26 @@
           "description": "<p>The Black Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
         },
-        "pizjJXx3KJK90Tw1": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>38 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
+          "name": "Iron Claws (Poisoned)",
+          "unidentifiedName": "Iron Claws (Poisoned)"
         }
       },
       "monsterType": "Humanoid",
       "name": "Black Hag (19 HD)"
     },
     "Black Hag (20 HD)": {
-      "biography": "<p>The <strong>Black Hag</strong> is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
+      "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p><strong>Undead Control:</strong> The black hag can control undead as if it had [[@hp.hd*2]]<strong> </strong>HD, making it an extremely dangerous necromantic force.</p><p><strong>Poisonous Claws:</strong> The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p><strong>Spellcasting:</strong> The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p><strong>Dark Lairs & Evil Minions:</strong> Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead)<strong>.</strong></p><p><strong>Companions:</strong> They often keep slimes, oozes, and puddings as allies.</p><p><strong>Terrain:</strong> Woods.</p>",
       "items": {
         "GWUDkY1yEpip5ZhG": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
         },
         "OHoMQmRDcb6M7iCq": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -2051,6 +2097,10 @@
         "QN4BwPtlnlaAv9yU": {
           "description": "<p>The Black Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
+        },
+        "aUdV9tcodyEeMPPo": {
+          "description": "<p>Each type of hag is also immune to all special abilities of undead, including energy drain, paralysis, undead-created disease or poison, and similar effects.</p>",
+          "name": "Immune to Undead Abilities"
         },
         "ecsjI6SzL9ooGVXW": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -2062,19 +2112,15 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "tBiUkUO40MndRCoY": {
-          "description": "<p>The Black Hag can control undead as if it had <strong>40 HD</strong>, making it an extremely dangerous necromantic force.</p>",
-          "name": "Undead Control"
-        },
-        "td3dKPCwFchilDWd": {
-          "description": "<p>The Black Hag attacks with <strong>poison-coated iron claws</strong>. Any creature hit must <strong>save vs. poison at -4</strong> or <strong>die instantly.</strong></p>",
-          "name": "Iron Claws (Poisoned)",
-          "unidentifiedName": "Iron Claws (Poisoned)"
-        },
         "xBoFazB52srv0mMW": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "xdi5G8TarHU2PlbE": {
+          "description": "<p>The Black Hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p>",
+          "name": "Iron Claws (Poisoned)",
+          "unidentifiedName": "Iron Claws (Poisoned)"
         }
       },
       "monsterType": "Humanoid",
@@ -9434,7 +9480,7 @@
       "name": "Goblin Chief (4HD)"
     },
     "Golem, Amber*": {
-      "biography": "<p>The <strong>amber golem</strong> is an enchanted construct shaped like a <strong>giant feline</strong>, typically resembling a lion or tiger. It is crafted from polished amber, giving it a gleaming, translucent appearance.</p>\n      <p><strong>Faultless Tracker:</strong> The amber golem is <strong>an expert at tracking</strong> its target, following scents and trails without fail.</p>\n      <p><strong>Detects Invisibility:</strong> The amber golem can <strong>see invisible creatures within 60 feet</strong>, making it difficult to evade.</p>\n      <p><strong>Resistances:</strong></p>\n      <ul>\n      <li><strong>Immune to sleep, charm, and hold spells.</strong></li>\n      <li><strong>Does not breathe</strong>, making it immune to all gas-based attacks.</li>\n      </ul>\n      <p><strong>Terrain:</strong> Variable.</p>",
+      "biography": "<p>The amber golem is an enchanted construct shaped like a giant feline, typically resembling a lion or tiger. It is crafted from polished amber, giving it a gleaming, translucent appearance.</p><p><strong>Faultless Tracker:</strong> The amber golem is an expert at tracking its target, following scents and trails without fail.</p><p><strong>Detects Invisibility:</strong> The amber golem can see invisible creatures within 60 feet, making it difficult to evade.</p><p><strong>Resistances:</strong></p><ul><li>Immune to sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
       "items": {
         "3R456yKrZB55Ut7Z": {
           "description": "<p>The amber golem slashes with its massive claws, dealing <strong>2d10 damage.</strong></p>",
@@ -9449,6 +9495,9 @@
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "GnyemRq1MKiaphPa": {
+          "name": "Bite"
         },
         "doqCNvgI24WNzZ6L": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -9487,7 +9536,7 @@
       "name": "Golem, Amber*"
     },
     "Golem, Bone*": {
-      "biography": "<p>The <strong>bone golem</strong> is a terrifying construct made from <strong>the bones of multiple humanoids</strong>, bound together by powerful magic.</p>\n      <p><strong>Multi-Weapon Fighting:</strong> A bone golem has four arms, allowing it to wield <strong>four one-handed weapons</strong> or <strong>two two-handed weapons</strong>. It can attack <strong>two separate targets per round</strong>.</p>\n      <p><strong>Resistances:</strong></p>\n      <ul>\n      <li><strong>Immune to fire, cold, and electrical attacks.</strong></li>\n      <li><strong>Unaffected by sleep, charm, and hold spells.</strong></li>\n      <li><strong>Does not breathe</strong>, making it immune to all gas-based attacks.</li>\n      </ul>\n      <p><strong>Terrain:</strong> Variable.</p>",
+      "biography": "<p>The bone golem is a terrifying construct made from the bones of multiple humanoids, bound together by powerful magic.</p><p><strong>Multi-Weapon Fighting:</strong> A bone golem has four arms, allowing it to wield four one-handed weapons or two two-handed weapons. It can attack two separate targets per round.</p><p><strong>Resistances:</strong></p><ul><li>Immune to fire, cold, and electrical attacks.</li><li>Unaffected by sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
       "items": {
         "0n5F4mx21Sz7pgKN": {
           "description": "<p>The bone golem is <strong>immune to sleep, charm, hold spells, and gas-based attacks</strong> as it does not breathe.</p>",
@@ -9506,12 +9555,6 @@
           "description": "<p>The bone golem is completely <strong>immune to fire, cold, and electrical attacks.</strong></p>",
           "name": "Immunity to Fire, Cold, & Electricity"
         },
-        "OhakaUp8z2aDTXxX": {
-          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-          "name": "Sword, Normal",
-          "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-          "weaponMastery": "Sword, Normal"
-        },
         "Pzsg4fXiihxTFuHS": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -9528,12 +9571,6 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "q34ffiz803VnQsVH": {
-          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-          "name": "Sword, Normal",
-          "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-          "weaponMastery": "Sword, Normal"
-        },
         "tX60WJpmAkBRtiD0": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -9543,26 +9580,20 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "y4ZiUjcErJAjeGGJ": {
-          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-          "name": "Sword, Normal",
-          "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
-          "weaponMastery": "Sword, Normal"
         }
       },
       "monsterType": "Construct, Enchanted",
       "name": "Golem, Bone*"
     },
     "Golem, Bronze*": {
-      "biography": "<p>The <strong>bronze golem</strong> is a massive, 16-foot-tall humanoid construct made of <strong>solid bronze</strong>. It resembles a towering fire giant with glowing, molten veins beneath its metal exterior.</p>\n      <p><strong>Burning Blood:</strong> Any creature that damages the bronze golem with an <strong>edged weapon</strong> must make a <strong>saving throw vs. death ray</strong> or take <strong>2d6 damage</strong> as fiery blood spurts from the wound.</p>\n      <p><strong>Fiery Strikes:</strong> The bronze golem's melee attacks are <strong>superheated</strong>, dealing an additional <strong>1d10 fire damage</strong> per hit.</p>\n      <p><strong>Fire Immunity:</strong> The bronze golem is completely <strong>immune to all fire-based attacks</strong>, including magical fire.</p>\n      <p><strong>Resistances:</strong></p>\n      <ul>\n      <li><strong>Immune to sleep, charm, and hold spells.</strong></li>\n      <li><strong>Does not breathe</strong>, making it immune to all gas-based attacks.</li>\n      </ul>\n      <p><strong>Terrain:</strong> Variable.</p>",
+      "biography": "<p>The bronze golem is a massive, 16-foot-tall humanoid construct made of solid bronze. It resembles a towering fire giant with glowing, molten veins beneath its metal exterior.</p><p><strong>Burning Blood:</strong> Any creature that damages the bronze golem with an edged weapon must make a saving throw vs. death ray or take 2d6 damage as fiery blood spurts from the wound.</p><p><strong>Fiery Strikes:</strong> The bronze golem's melee attacks are superheated, dealing an additional 1d10 fire damage per hit.</p><p><strong>Fire Immunity:</strong> The bronze golem is completely immune to all fire-based attacks, including magical fire.</p><p><strong>Resistances:</strong></p><ul><li>Immune to sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
       "items": {
         "11y9G5PO2eRqp0Ek": {
           "description": "<p>The bronze golem is <strong>completely immune to all fire-based attacks</strong>, including magical fire.</p>",
           "name": "Fire Immunity"
         },
         "6YDsFVl97SwMku0r": {
-          "description": "<p>The bronze golem delivers a devastating punch, dealing <strong>3d10 bludgeoning</strong> plus <strong>1d10 fire damage</strong> per strike.</p>",
+          "description": "<p>The bronze golem delivers a devastating punch, dealing 3d10 bludgeoning plus 1d10 fire damage per strike.</p>",
           "name": "Fiery Fist",
           "unidentifiedName": "Fiery Fist"
         },
@@ -9608,7 +9639,7 @@
       "name": "Golem, Bronze*"
     },
     "Golem, Mud*": {
-      "biography": "<p>The <strong>mud golem</strong> is a shambling, humanoid construct made entirely of <strong>living mud</strong>. It stands roughly 6 feet tall and has a featureless, shifting body.</p>\n      <p><strong>Movement Through Mud & Quicksand:</strong> The mud golem can <strong>walk or swim on mud and quicksand without sinking</strong>. It can remain fully submerged in these substances indefinitely.</p>\n      <p><strong>Smothering Hug:</strong> The mud golem attacks with its massive, clay-like arms, attempting to <strong>engulf and suffocate</strong> its victim. A successful hit automatically deals <strong>2d6 damage per round</strong> as the victim struggles for air.</p>\n      <p><strong>Resistances:</strong></p>\n      <ul>\n      <li><strong>Immune to sleep, charm, and hold spells.</strong></li>\n      <li><strong>Does not breathe</strong>, making it immune to all gas-based attacks.</li>\n      </ul>\n      <p><strong>Terrain:</strong> Variable.</p>",
+      "biography": "<p>The mud golem is a shambling, humanoid construct made entirely of living mud. It stands roughly 6 feet tall and has a featureless, shifting body.</p><p><strong>Movement Through Mud & Quicksand:</strong> The mud golem can walk or swim on mud and quicksand without sinking. It can remain fully submerged in these substances indefinitely.</p><p><strong>Smothering Hug:</strong> The mud golem attacks with its massive, clay-like arms, attempting to engulf and suffocate its victim. A successful hit automatically deals 2d6 damage per round as the victim struggles for air.</p><p><strong>Resistances:</strong></p><ul><li>Immune to sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
       "items": {
         "8W3mQy8J2AvDesez": {
           "description": "<p>The mud golem's soft, shifting form gives it <strong>AC 9</strong>. It is highly resistant to crushing attacks.</p>",
@@ -9712,8 +9743,8 @@
           "shortName": "Spell"
         },
         "tTp7Fby9FBrhUfQx": {
-          "description": "<p>The obsidian golem can attempt to <strong>hug and crush</strong> its opponent, dealing <strong>2d4 damage.</strong></p>",
-          "name": "Crushing Hug",
+          "description": "<p>A large fist made of obsidian.</p>",
+          "name": "Fist",
           "unidentifiedName": "Crushing Hug"
         }
       },
@@ -9742,7 +9773,7 @@
           "shortName": "Death"
         },
         "JSCuRNb9m8lsKiMk": {
-          "description": "<p>The wood golem strikes with a heavy wooden fist, dealing <strong>1d8 damage.</strong></p>",
+          "description": "<p>The wood golem strikes with a heavy wooden fist.</p>",
           "name": "Fist",
           "unidentifiedName": "Fist"
         },
@@ -9770,7 +9801,7 @@
       "name": "Golem, Wood*"
     },
     "Gorgon": {
-      "biography": "<p>A gorgon is a magical bull-like monster covered with large ironlike scales, usually found in hills or grasslands. Gorgons can attack with their great horns or with their breath weapon, a cloud of petrifying vapor extending 60' long and 10' wide. Any creature in the area must make a saving throw vs. turn to stone or be petrified. Gorgons are immune to their own breath weapon and all other petrifying attacks. Native to both the Prime Plane and their original home, the Elemental Plane of Earth, they are terrifying creatures feared for their unique petrifying ability.</p><strong>Terrain:</strong> Hill, Open</br><strong>Barding:</strong> Plane of Earth",
+      "biography": "<p>A gorgon is a magical bull-like monster covered with large ironlike scales, usually found in hills or grasslands. Gorgons can attack with their great horns or with their breath weapon, a cloud of petrifying vapor extending 60' long and 10' wide. Any creature in the area must make a saving throw vs. turn to stone or be petrified. Gorgons are immune to their own breath weapon and all other petrifying attacks. Native to both the Prime Plane and their original home, the Elemental Plane of Earth, they are terrifying creatures feared for their unique petrifying ability.</p><p><strong>Terrain:</strong> Hill, Open</p>",
       "items": {
         "5MKfl1CBrlNrC56X": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -9800,6 +9831,10 @@
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "htyAHSvazYIoNWmB": {
+          "description": "<p>Immune to all petrifying attacks.</p>",
+          "name": "Petrification Immunity"
         },
         "mmcOZjMOrf7goJy9": {
           "description": "Thick ironlike scales cover the Gorgon, granting it natural Armor Class.",
@@ -9858,7 +9893,7 @@
       "name": "Gorgon, Elemental Plane of Earth"
     },
     "Grab Grass": {
-      "biography": "<p><strong>Grab grass</strong> appears identical to normal tall grass (3'-5' high) but is actually <strong>an animated, predatory plant.</strong></p>\n      <p><strong>Grasping Attack:</strong> Anyone who moves into or through grab grass will be <strong>restrained</strong> as the grass attempts to hold them in place.</p>\n      <p><strong>Breaking Free:</strong> A trapped individual has a <strong>5% chance per round</strong> to escape if they have a strength of 12 or lower. For each point of strength above 12, the chance increases by <strong>+5% per point</strong> (e.g., STR 16 = 25% chance per round).</p>\n      <p><strong>Destroying the Grass:</strong> The grab grass patch has <strong>1 Hit Die per 5' square</strong>. Every <strong>8 damage</strong> destroys a 5' section.</p>\n      <p><strong>Terrain:</strong> Hill, Jungle, Open.</p>",
+      "biography": "<p>Grab grass appears identical to normal tall grass (3'-5' high) but is actually an animated, predatory plant.</p><p><strong>Grasping Attack:</strong> Anyone who moves into or through grab grass will be restrained as the grass attempts to hold them in place.</p><p><strong>Breaking Free:</strong> A trapped individual has a 5% chance per round to escape if they have a strength of 12 or lower. For each point of strength above 12, the chance increases by +5% per point (e.g., STR 16 = 25% chance per round).</p><p><strong>Destroying the Grass:</strong> The grab grass patch has 1 Hit Die per 5' square. Every 8 damage destroys a 5' section.</p><p><strong>Terrain:</strong> Hill, Jungle, Open.</p>",
       "items": {
         "8uTsOGOS8EYzdKs3": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -9871,7 +9906,7 @@
           "shortName": "Breath"
         },
         "dHiANf1jnnNFGjFJ": {
-          "description": "<p>When a creature enters grab grass, it is <strong>restrained</strong>. Escape is possible with a <strong>5% base chance per round</strong>, increasing by <strong>+5% per point of Strength above 12</strong>.</p>",
+          "description": "<p>When a creature enters grab grass, it is restrained. Escape is possible with a 5% base chance per round, increasing by +5% per point of Strength above 12.</p>",
           "name": "Grasping Vines"
         },
         "iMH2DD6dN8o8dfTo": {
@@ -9894,7 +9929,7 @@
       "name": "Grab Grass"
     },
     "Gray Ooze": {
-      "biography": "<p>The <strong>gray ooze</strong> is a dangerous, seeping horror that appears as <strong>a patch of wet stone</strong> (8' in diameter) or a <strong>boulder-like mass</strong> (4' in diameter), making it difficult to detect.</p>\n      <p><strong>Acidic Touch:</strong> The ooze secretes a powerful acid that deals <strong>2d8 damage</strong> when it touches bare skin.</p>\n      <p><strong>Armor & Weapon Dissolution:</strong> Normal armor and weapons are <strong>destroyed in 1 round</strong> when touched by the ooze. <strong>Magical items dissolve in 1 turn.</strong></p>\n      <p><strong>Clinging Ooze:</strong> Once it hits a victim, the ooze <strong>sticks to them</strong>, continuing to inflict <strong>2d8 damage per round</strong> and <strong>automatically destroying non-magical armor.</strong></p>\n      <p><strong>Resistances & Weaknesses:</strong></p>\n      <ul>\n      <li><strong>Immune to cold and fire.</strong></li>\n      <li><strong>Can be harmed by weapons and lightning.</strong></li>\n      </ul>\n      <p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+      "biography": "<p>The gray ooze is a dangerous, seeping horror that appears as a patch of wet stone (8' in diameter) or a boulder-like mass (4' in diameter), making it difficult to detect.</p><p><strong>Armor & Weapon Dissolution:</strong> Normal armor and weapons are destroyed in 1 round when touched by the ooze. Magical items dissolve in 1 turn.</p><p><strong>Clinging Ooze:</strong> Once it hits a victim, the ooze sticks to them, continuing to inflict 2d8 damage per round and automatically destroying non-magical armor.</p><p><strong>Resistances & Weaknesses:</strong></p><ul><li>Immune to cold and fire.</li><li>Can be harmed by weapons and lightning.</li></ul><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
       "items": {
         "3Zi7iU2RDmtZGY48": {
           "description": "<p>The gray ooze is <strong>immune to cold and fire attacks.</strong></p>",
@@ -9924,7 +9959,7 @@
           "shortName": "Wand"
         },
         "iBo2u6iV6Obho7if": {
-          "description": "<p>The gray ooze secretes a potent acid, dealing <strong>2d8 damage</strong> when it makes contact with bare skin.</p>",
+          "description": "<p>The gray ooze secretes a potent acid that can destroy normal armor or weapons in a single round. Magical items are destroyed in one turn.</p>",
           "name": "Acidic Touch"
         },
         "rZZUNw4AH9ejkJaY": {
@@ -9945,63 +9980,8 @@
       "monsterType": "Lowlife",
       "name": "Gray Ooze"
     },
-    "Greater Phoenix*": {
-      "biography": "<p>Born of the elemental plane of Fire, the Greater Phoenix takes the form of an immense red-orange eagle cloaked in searing flames. Rarely seen on the Prime Plane, it adapts to any climate but eschews underground haunts. It remains tranquil unless challenged.</p><p>Impervious to all fire, charm, and hold spells, it also deflects strikes from weapons below +3 enchantment. In combat, it wields its claws and beak, its radiant blaze searing enemies within a 20' radius for [[/r 6d6 #Fire damage per round]], unhindered by fire defenses due to the distinct nature of phoenix flame.</p><p>When overcome, the Greater Phoenix bursts in a 20' radius explosion, unleashing [[/r 1d10*10 #Explosion damage]] (save vs. dragon breath for half, bypassing fire protection), then resurrects from its ashes 1 round later, fully renewed, and takes flight to escape. A wish alone can eradicate it permanently; its rebirth cycle is an unsolved enigma.</p><p>Each vanquishing yields one feather. A single feather (worth 25,000 gp) crafts a potion of phoenix fire resistance, providing total immunity to normal and magical fire, halving fire breath damage (quarter with a save), and conferring standard resistance to phoenix fire.<br><b>Terrain:</b> Any; Plane of Fire</p>",
-      "items": {
-        "8CTLmHRKJMUPmaQv": {
-          "description": "The Greater Phoenix’s blazing aura fortifies its natural armor.",
-          "name": "Hide"
-        },
-        "8Qgfih0yFxZ4FB5D": {
-          "description": "Upon destruction, the Greater Phoenix bursts in a 20' radius for [[/r 1d10*10 #Explosion damage]] (save vs. dragon breath for half), ignoring fire protections; resurrects 1 round later to flee.",
-          "gmNotes": "Triggers on death or destruction.",
-          "name": "Explosion"
-        },
-        "LjGi9juF2dHaaIvk": {
-          "description": "The Greater Phoenix slashes with fiery talons.",
-          "name": "Claw"
-        },
-        "WCP6dQ3o1YKMkrPe": {
-          "description": "The Greater Phoenix emits a fiery aura in a 20' radius, inflicting [[/r 6d6 #Fire damage per round]] to all within, ignoring fire protections.",
-          "gmNotes": "Phoenix flame bypasses all fire resistance.",
-          "name": "Flame Aura"
-        },
-        "gDZyZ64GfY1kmoBB": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "miog1gThkRhRulOu": {
-          "description": "The Greater Phoenix bites with a flaming beak.",
-          "name": "Bite",
-          "unidentifiedName": "Bite"
-        },
-        "qyQsSTmEhfFbSbzO": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "rR0mRXgVvsX3lTj4": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "sVfFlnnEFBv7arn3": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "vInhI2VVljzPTlvS": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        }
-      },
-      "monsterType": "Planar Monster, Enchanted",
-      "name": "Greater Phoenix*"
-    },
     "Green Slime*": {
-      "biography": "<p>The <strong>green slime</strong> is a horrifying, mindless ooze that <strong>clings to ceilings and walls</strong>, waiting to drop onto unsuspecting victims.</p>\n      <p><strong>Always Hit:</strong> The green slime is <strong>AC 20</strong> and can always be hit by attacks.</p>\n      <p><strong>Destructive Touch:</strong> It <strong>dissolves cloth and leather instantly</strong>, <strong>wood and metal in 6 rounds</strong>, but <strong>cannot dissolve stone.</strong></p>\n      <p><strong>Body Transformation:</strong> When green slime touches flesh, it <strong>sticks</strong> and starts <strong>transforming the victim into green slime.</strong> The process is <strong>irreversible after 1d4 rounds</strong> unless it is burned off or removed with <strong>cure disease.</strong></p>\n      <p><strong>Burning & Removal:</strong> Green slime <strong>cannot be scraped off</strong>. Fire and cold damage it, but <strong>fire also harms the victim</strong> (splitting damage between both).</p>\n      <p><strong>Resistances & Weaknesses:</strong></p>\n      <ul>\n      <li><strong>Immune to all attacks except fire or cold.</strong></li>\n      <li><strong>Cannot be harmed by normal weapons.</strong></li>\n      </ul>\n      <p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+      "biography": "<p>The green slime is a horrifying, mindless ooze that clings to ceilings and walls, waiting to drop onto unsuspecting victims.</p><p><strong>Always Hit:</strong> The green slime is AC 20 and can always be hit by attacks.</p><p><strong>Destructive Touch:</strong> It dissolves cloth and leather instantly, wood and metal in 6 rounds, but cannot dissolve stone.</p><p><strong>Body Transformation:</strong> When green slime touches flesh, it sticks and starts transforming the victim into green slime. The process is irreversible after 1d4 rounds unless it is burned off or removed with <em>cure disease</em>.</p><p><strong>Burning & Removal:</strong> Green slime cannot be scraped off. Fire and cold damage it, but fire also harms the victim (splitting damage between both).</p><p><strong>Resistances & Weaknesses:</strong></p><ul><li>Immune to all attacks except fire or cold.</li><li>Cannot be harmed by normal weapons.</li></ul><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
       "items": {
         "3DRjHIRtRi52v7x1": {
           "description": "<p>Once in contact with flesh, the slime <strong>sticks and transforms the victim into green slime in 1d4 rounds</strong> unless burned off or cured with <strong>cure disease.</strong></p>",
@@ -10049,7 +10029,7 @@
       "name": "Green Slime*"
     },
     "Gremlin": {
-      "biography": "<p>The <strong>gremlin</strong> is a mischievous, 3-foot-tall humanoid with <strong>pasty gray-green skin, saucer-like eyes, and pointed ears.</strong> They have an <strong>evil sense of humor</strong> and love causing mayhem.</p>\n      <p><strong>Chaotic Aura (20' Radius):</strong> Gremlins radiate a powerful aura of chaos, where <strong>\"anything that can go wrong will go wrong.\"</strong> Each round, all creatures within the aura must <strong>save vs. spells</strong> or suffer random bad luck (determined by the DM).</p>\n      <p><strong>Missed Attacks:</strong> Any creature that <strong>misses an attack</strong> against a gremlin must <strong>reroll the attack against themselves.</strong></p>\n      <p><strong>Spell Reversal:</strong> Any character casting a spell within the chaotic aura must <strong>roll a save vs. spells</strong>. If successful, the spell affects the gremlins; if failed, it backfires and affects the caster.</p>\n      <p><strong>Mechanical Interference:</strong> Gremlins love breaking mechanical objects—<strong>crossbows might snap, axeheads may fall off</strong>, and magical devices may malfunction in bizarre ways.</p>\n      <p><strong>Gremlin Spellcasters:</strong> Some gremlins practice magic; see <strong>Monster Spellcasters</strong> for details.</p>\n      <p><strong>Terrain:</strong> Any.</p>",
+      "biography": "<p>The gremlin is a mischievous, 3-foot-tall humanoid with pasty gray-green skin, saucer-like eyes, and pointed ears. They have an evil sense of humor and love causing mayhem.</p><p><strong>Chaotic Aura (20' Radius):</strong> Gremlins radiate a powerful aura of chaos, where \"anything that can go wrong will go wrong.\" Each round, all creatures within the aura must save vs. spells or suffer random bad luck (determined by the DM).</p><p><strong>Missed Attacks:</strong> Any creature that misses an attack against a gremlin must reroll the attack against themselves.</p><p><strong>Spell Reversal:</strong> Any character casting a spell within the chaotic aura must roll a save vs. spells. If successful, the spell affects the gremlins; if failed, it backfires and affects the caster.</p><p><strong>Mechanical Interference:</strong> Gremlins love breaking mechanical objects—crossbows might snap, axeheads may fall off, and magical devices may malfunction in bizarre ways.</p><p><strong>Gremlin Spellcasters:</strong> Some gremlins practice magic; see Monster Spellcasters for details.</p><p><strong>Terrain:</strong> Any.</p>",
       "items": {
         "7GHvKM3pDeXLEGQz": {
           "description": "<p>Any creature that <strong>misses an attack</strong> against a gremlin must <strong>reroll the attack against themselves.</strong></p>",
@@ -10150,7 +10130,7 @@
       "name": "Griffon"
     },
     "Halfling": {
-      "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in **woods** or **underbrush**, where there is only a 10% chance of being detected while hiding.</p>\n        <p>In combat, halflings gain a +2 bonus to **Armor Class** when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of **level 2**, and as long as the leader is alive and fighting alongside them, their **morale** is 10 rather than 8.</p>\n        <p>Halflings typically live in villages, or **shires**, of 30 to 300 inhabitants. Each village is led by a **sheriff** (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p>\n        <strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and a +2 bonus to Armor Class when fighting larger creatures.<br>\n        <strong>Terrain:</strong> Hill, Open.<br>",
+      "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in woods or underbrush, where there is only a 10% chance of being detected while hiding.</p><p>In combat, halflings gain a +2 bonus to Armor Class when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of level 2, and as long as the leader is alive and fighting alongside them, their morale is 10 rather than 8.</p><p>Halflings typically live in villages, or shires, of 30 to 300 inhabitants. Each village is led by a sheriff (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p><p><strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and a +2 bonus to Armor Class when fighting larger creatures.<br><strong>Terrain:</strong> Hill, Open.<br></p>",
       "items": {
         "DcoyoppvdNsCNrl5": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -10206,6 +10186,12 @@
     "Halfling (2HD)": {
       "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in **woods** or **underbrush**, where there is only a 10% chance of being detected while hiding.</p>\n        <p>In combat, halflings gain a +2 bonus to **Armor Class** when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of **level 2**, and as long as the leader is alive and fighting alongside them, their **morale** is 10 rather than 8.</p>\n        <p>Halflings typically live in villages, or **shires**, of 30 to 300 inhabitants. Each village is led by a **sheriff** (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p>\n        <strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and a +2 bonus to Armor Class when fighting larger creatures.<br>\n        <strong>Terrain:</strong> Hill, Open.<br>",
       "items": {
+        "5Ymnj5Zixi4qy6r3": {
+          "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+          "name": "Sword, Short",
+          "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+          "weaponMastery": "Sword, Short"
+        },
         "DcoyoppvdNsCNrl5": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -10258,7 +10244,7 @@
       "name": "Halfling (2HD)"
     },
     "Harpy": {
-      "biography": "<p>Harpies are monstrous creatures with the lower body of a giant eagle and the upper body of a hideous woman. Their most dangerous ability is their **mesmerizing song**, which can charm anyone who hears it. Any creature hearing their song must make a saving throw vs. spells or become charmed. If a creature successfully makes the saving throw, they are immune to all harpy songs for the duration of the encounter.</p><p>Harpies prefer to live in secluded areas near places with steady human traffic, such as mountain passes or trade routes, where they can lure travelers to their doom. Once a location is no longer frequented by new victims, harpies will move to a new location and repeat the cycle.</p><p><strong>Terrain:</strong> Hill, Mountain.<br><strong>Load:</strong> 1,000 cn at full speed, 2,000 cn at half speed.</p>",
+      "biography": "<p>Harpies are monstrous creatures with the lower body of a giant eagle and the upper body of a hideous woman. Their most dangerous ability is their mesmerizing song, which can charm anyone who hears it. Any creature hearing their song must make a saving throw vs. spells or become charmed. If a creature successfully makes the saving throw, they are immune to all harpy songs for the duration of the encounter.</p><p>Harpies prefer to live in secluded areas near places with steady human traffic, such as mountain passes or trade routes, where they can lure travelers to their doom. Once a location is no longer frequented by new victims, harpies will move to a new location and repeat the cycle.</p><p><strong>Terrain:</strong> Hill, Mountain.<br><strong>Load:</strong> 1,000 cn at full speed, 2,000 cn at half speed.</p>",
       "items": {
         "ABNEXvoB1uuI6SDk": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -10308,16 +10294,20 @@
       "name": "Harpy"
     },
     "Haunt, Banshee*": {
-      "biography": "<p>The <strong>Banshee</strong> is a tormented undead soul that haunts desolate moors, forests, and dungeons. It is a guardian of its domain and may even protect certain creatures such as sprites or pixies, driving away intruders with its terrifying wails.</p>\n      <p><strong>Undead Nature:</strong> The Banshee is an undead creature, immune to sleep, charm, and mind-affecting spells. It can only be harmed by <strong>+2 or better magical weapons</strong> and is immune to all spells except those that specifically affect evil beings.</p>\n      <p><strong>Ectoplasmic Net:</strong> The Banshee exudes spectral tendrils that slowly form a <strong>10' radius net</strong>. After 3 rounds, this net solidifies. Any living creature caught in the net must make a <strong>saving throw vs. spells</strong> or be pulled into the <strong>Ethereal Plane</strong>, where the Banshee can attack without interference from the physical world.</p>\n      <p><strong>Gaze of Paralysis:</strong> The Banshee can lock eyes with a victim from <strong>60' away</strong>. The target must make a <strong>saving throw vs. spells</strong> or be <strong>paralyzed for 2d4 rounds.</strong></p>\n      <p><strong>Aging Touch:</strong> If the Banshee touches a victim, it inflicts <strong>1d4 × 10 years of unnatural aging.</strong> This aging effect permanently reduces <strong>1 Constitution point per 10 years aged</strong>, and can only be undone by a <strong>potion of longevity</strong> or a <strong>wish spell.</strong></p>\n      <p><strong>Wail of Death:</strong> The Banshee can unleash a piercing <strong>wail three times per day</strong>. All creatures within <strong>60'</strong> must make a <strong>saving throw vs. death ray</strong> or <strong>die instantly.</strong> The Banshee typically uses one wail at a distance to scare off intruders; NPCs and monsters hearing the wail must make a <strong>morale check at a +4 penalty.</strong> If avoided, the Banshee will not pursue.</p>\n      <p><strong>Escape to the Ethereal Plane:</strong> When seriously threatened, the Banshee can <strong>shift to the Ethereal Plane up to 3 times per day</strong> and will remain there for <strong>1d8 days</strong> before returning.</p>\n      <p><strong>Clerical Turning Resistance:</strong> If a cleric attempts to turn a Banshee and gets a \"D\" result, the Banshee may make a <strong>saving throw vs. spells</strong> to resist destruction.</p>\n      <p><strong>Treasure:</strong> The Banshee guards the wealth of past victims, stored somewhere within its haunted domain.</p>\n      <p><strong>Terrain:</strong> Ruins, Moors, Deep Forests.</p>",
+      "biography": "<p>The banshee is a lonely haunt that favors desolate moors and outdoor locations, although it can occasionally be found underground. It acts as a guardian of sorts and may aid a specific race in its territory (often sprites or pixies) by frightening and chasing away enemies. According to rumor, a banshee is the spirit of an evil female elf, seeking to atone for its past misdeeds.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Wail of Death:</strong> The Banshee can unleash a piercing wail three times per day. All creatures within 60' must make a saving throw vs. death ray or die instantly. The Banshee typically uses one wail at a distance to scare off intruders; NPCs and monsters hearing the wail must make a morale check at a +4 penalty. If avoided, the Banshee will not pursue.</p><p>The Banshee guards the wealth of past victims, stored somewhere within its haunted domain.</p><p><strong>Terrain:</strong> Ruins, Moors, Deep Forests.</p>",
       "items": {
         "3g4QVS5f89vhSfQD": {
-          "description": "<p>The Banshee may <strong>wail three times per day</strong>. All within <strong>60'</strong> must make a <strong>save vs. death ray</strong> or <strong>die instantly.</strong></p>",
+          "description": "<p>A banshee can use its special attack, a wail, up to three times per day. All victims within 60 feet must make a saving throw versus death ray or die instantly. </p><p>The creature often uses one wail at a distance to ward off approaching enemies; in this case, an immediate morale check must be made for NPCs and monsters hearing it, with a +4 penalty to the roll. </p><p>The banshee can be tricked into wailing again, but it will not use its third wail until it is in the midst of combat. If its wail is avoided, a banshee will typically not pursue its opponents.</p>",
           "name": "Wail of Death",
           "unidentifiedName": "Wail of Death"
         },
         "AJSg7SJcAMsyeC20": {
           "description": "<p>The Banshee is an incorporeal entity, making it difficult to hit, granting it <strong>AC -3.</strong></p>",
           "name": "Banshee Form"
+        },
+        "NzlneZn97XIHra8P": {
+          "description": "<p>When a cleric's attempt to turn a haunt results in a \"0\", the creature may make a saving throw versus spells to avoid destruction. If the saving throw is successful, the monster is not turned or destroyed, although the cleric can repeat the attempt. Other turning results are handled normally.</p>",
+          "name": "Turning Resistance"
         },
         "RIg6PvQ8G9m9Hvm5": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -10335,20 +10325,20 @@
           "shortName": "Breath"
         },
         "XrwvkzoBFcqCU5US": {
-          "description": "<p>The Banshee’s touch inflicts [[/r 1d4*10 #Years of aging]]<strong> years of aging</strong>. Each 10 years aged reduces Constitution by <strong>1 point permanently.</strong></p><p> A wish will restore only one point lost in this manner, and less powerful magic cannot affect the loss. All aging can be countered only with a potion of longevity or a wish. If a victim's Constitution drops to 0, the victim dies permanently, and cannot be raised.</p><p><em>Elves may ignore the effects of the first 200 years of aging; dwarves may ignore the first 50 years, and halflings, the first 20 years.</em></p>",
+          "description": "<p>The haunt's touch inflicts [[/r 1d4*10 #Years of aging]] years of aging. Each 10 years aged reduces Constitution by 1 point permanently.</p><p>A wish will restore only one point lost in this manner, and less powerful magic cannot affect the loss. All aging can be countered only with a potion of longevity or a wish. If a victim's Constitution drops to 0, the victim dies permanently, and cannot be raised.</p><p><em>Elves may ignore the effects of the first 200 years of aging; dwarves may ignore the first 50 years, and halflings, the first 20 years.</em></p>",
           "name": "Aging Touch",
           "unidentifiedName": "Aging Touch"
         },
         "ahOh34PMlmysHXzG": {
-          "description": "<p>The Banshee may gaze at a target from <strong>60' away</strong>. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed for</strong> [[/r 2d4 #Rounds paralyzed by gaze.]] <strong>rounds.</strong></p>",
+          "description": "<p>The haunt may gaze at a target from 60' away. The victim must make a save vs. spells or be paralyzed for [[/r 2d4 #Rounds paralyzed by gaze.]] rounds. </p><p>A haunt often ignores its paralyzed victims, concentrating its attacks on other enemies nearby, until only helpless ones remain.</p>",
           "name": "Gaze of Paralysis"
         },
         "apKqm1bxpYluRHwm": {
-          "description": "<p>The Banshee may <strong>shift to the Ethereal Plane 3 times per day</strong>, remaining there for <strong>1d8 days</strong>.</p>",
+          "description": "<p>The Haunt may shift to the Ethereal Plane 3 times per day, remaining there for [[/r 1d8 #Haunt shifts to Ethereal Plane for this many days]] days.</p>",
           "name": "Escape to Ethereal Plane"
         },
         "d4MbJ3H8fVMd6H3F": {
-          "description": "<p>The Banshee exudes a <strong>10' radius</strong> net of ectoplasm. After <strong>3 rounds</strong>, creatures within must make a <strong>save vs. spells</strong> or be pulled into the <strong>Ethereal Plane</strong>.</p>",
+          "description": "<p>When a haunt is first encountered, it typically starts oozing ectoplasm, which appears as wispy tendrils that slowly form a net.</p><p>The net has no effect on the movement of the haunt or others, and is only a visual effect for three rounds. However, after that time, the net is complete, forming a 10-foot radius around the haunt and moving with it.</p><p>Any living creature within a complete ectoplasmic net must make a saving throw versus spells or be pulled into the Ethereal Plane, where the net also exists.</p><p>The ethereal victim is helpless unless they possess special items or spells that permit escape from that plane, such as oil of etherealness, teleport, etc. The haunt will attack its ethereal victims when it returns to the Ethereal Plane.</p>",
           "name": "Ectoplasmic Net"
         },
         "y0Y95CJaMzKVVaHJ": {
@@ -10366,7 +10356,7 @@
       "name": "Haunt, Banshee*"
     },
     "Haunt, Ghost* (Chaotic)": {
-      "biography": "<p>The <strong>Chaotic Ghost</strong> is a deceptive and malicious spirit that thrives on confusion and fear. It carries a dark candle, torch, or lantern that flickers eerily in the shadows, appearing in shifting and disturbing forms.</p>\n      <p><strong>Undead Nature:</strong> The Ghost is immune to sleep, charm, and mind-affecting spells. It can only be harmed by <strong>+2 or better magical weapons</strong> and is immune to all spells except those affecting evil beings.</p>\n      <p><strong>Ectoplasmic Net:</strong> A 10' radius spectral net forms around the ghost over 3 rounds. Creatures inside must make a <strong>saving throw vs. spells</strong> or be <strong>pulled into the Ethereal Plane</strong>.</p>\n      <p><strong>Gaze of Paralysis:</strong> The Ghost may gaze at a target within <strong>60'</strong>. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed for 2d4 rounds.</strong></p>\n      <p><strong>Aging Touch:</strong> A successful touch ages the victim <strong>1d4 × 10 years</strong> instantly, reducing <strong>1 Constitution per 10 years</strong> aged. A <strong>saving throw vs. spells</strong> negates this effect.</p>\n      <p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to <strong>possess a creature within 30'</strong>. The victim must make a <strong>saving throw vs. spells</strong> or fall under the ghost’s control until exorcised.</p>\n      <p><strong>Escape to the Ethereal Plane:</strong> The Ghost may shift to the <strong>Ethereal Plane 3× per day</strong> and remain there for <strong>1d8 days</strong>.</p>\n      <p><strong>Turning Resistance:</strong> If a cleric attempts to turn it and rolls a \"D\", the Ghost may make a <strong>save vs. spells</strong> to resist destruction.</p>\n      <p><strong>Terrain:</strong> Ruins, Cursed Lands, Haunted Houses.</p>",
+      "biography": "<p>A Chaotic ghost appears as a nearly transparent bundle of cloth and can assume any desired form, including (but rarely) that of a Lawful or Neutral ghost. Regardless of its form, the creature is always accompanied by a dark candle, torch, or lantern. When first encountered, a Chaotic ghost immediately uses its magic jar spell, unless it is masquerading as one of the other types of ghosts.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to possess a creature within 30'. The victim must make a saving throw vs. spells or fall under the ghost’s control until exorcised.</p><p><strong>Terrain:</strong> Ruins, Cursed Lands, Haunted Houses.</p>",
       "items": {
         "CwaF3kOxYVzutr2S": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -10376,17 +10366,25 @@
         "DaIrwMz6uLLDxXGv": {
           "name": "Ghostly Form"
         },
-        "LYsuSLceu7laSoML": {
-          "description": "<p>The Ghost may gaze at a target within 60'. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed for</strong> [[/r 2d4 #Rounds paralyzed by gaze.]] <strong>rounds.</strong></p>",
-          "name": "Gaze of Paralysis"
+        "NzlneZn97XIHra8P": {
+          "description": "<p>When a cleric's attempt to turn a haunt results in a \"0\", the creature may make a saving throw versus spells to avoid destruction. If the saving throw is successful, the monster is not turned or destroyed, although the cleric can repeat the attempt. Other turning results are handled normally.</p>",
+          "name": "Turning Resistance"
         },
-        "NmV5cQxqwcj7qviO": {
-          "description": "<p>The Ghost’s touch inflicts [[/r 1d4*10 #Years of aging]]<strong> years of aging</strong>. Each 10 years aged reduces Constitution by <strong>1 point permanently.</strong></p><p>A wish will restore only one point lost in this manner, and less powerful magic cannot affect the loss. All aging can be countered only with a potion of longevity or a wish. If a victim's Constitution drops to 0, the victim dies permanently, and cannot be raised.</p><p><em>Elves may ignore the effects of the first 200 years of aging; dwarves may ignore the first 50 years, and halflings, the first 20 years.</em></p>",
+        "XrwvkzoBFcqCU5US": {
+          "description": "<p>The haunt's touch inflicts [[/r 1d4*10 #Years of aging]] years of aging. Each 10 years aged reduces Constitution by 1 point permanently.</p><p>A wish will restore only one point lost in this manner, and less powerful magic cannot affect the loss. All aging can be countered only with a potion of longevity or a wish. If a victim's Constitution drops to 0, the victim dies permanently, and cannot be raised.</p><p><em>Elves may ignore the effects of the first 200 years of aging; dwarves may ignore the first 50 years, and halflings, the first 20 years.</em></p>",
           "name": "Aging Touch",
           "unidentifiedName": "Aging Touch"
         },
-        "ZZ4OxcywKvSTfpIM": {
-          "description": "A 10' radius spectral net forms around the ghost over 3 rounds. Any creature inside must make a saving throw vs. spells or be pulled into the Ethereal Plane.",
+        "ahOh34PMlmysHXzG": {
+          "description": "<p>The haunt may gaze at a target from 60' away. The victim must make a save vs. spells or be paralyzed for [[/r 2d4 #Rounds paralyzed by gaze.]] rounds. </p><p>A haunt often ignores its paralyzed victims, concentrating its attacks on other enemies nearby, until only helpless ones remain.</p>",
+          "name": "Gaze of Paralysis"
+        },
+        "apKqm1bxpYluRHwm": {
+          "description": "<p>The Haunt may shift to the Ethereal Plane 3 times per day, remaining there for [[/r 1d8 #Haunt shifts to Ethereal Plane for this many days]] days.</p>",
+          "name": "Escape to Ethereal Plane"
+        },
+        "d4MbJ3H8fVMd6H3F": {
+          "description": "<p>When a haunt is first encountered, it typically starts oozing ectoplasm, which appears as wispy tendrils that slowly form a net.</p><p>The net has no effect on the movement of the haunt or others, and is only a visual effect for three rounds. However, after that time, the net is complete, forming a 10-foot radius around the haunt and moving with it.</p><p>Any living creature within a complete ectoplasmic net must make a saving throw versus spells or be pulled into the Ethereal Plane, where the net also exists.</p><p>The ethereal victim is helpless unless they possess special items or spells that permit escape from that plane, such as oil of etherealness, teleport, etc. The haunt will attack its ethereal victims when it returns to the Ethereal Plane.</p>",
           "name": "Ectoplasmic Net"
         },
         "fUTkwa7XcOPBMW3K": {
@@ -10395,7 +10393,7 @@
           "shortName": "Breath"
         },
         "ft9azWn3PWj01Dcj": {
-          "description": "Once per turn, the ghost can attempt to possess a creature within 30'. The victim must make a saving throw vs. spells or fall under the ghost’s control until exorcised.",
+          "description": "<p>Every ghost has the ability to use a magic jar effect (similar to the spell; range 30 feet) on one victim per turn. If successful, one item carried by the ghost will glow, powered by the life force of its victim. The ghost's force then possesses the body of the victim, and causes it to attack others. During this time, and for as long as it possesses another, the ghost's figure stops, merely holding the light (but still oozing the ectoplasmic net). </p><p>The ghost and the item both remain ethereal. If its magic jar attempt fails, a ghost usually materializes and attacks with blows or its gaze attack.</p>",
           "name": "Magic Jar (Possession)"
         },
         "jz6OshlTmGEqiro5": {
@@ -10418,7 +10416,7 @@
       "name": "Haunt, Ghost* (Chaotic)"
     },
     "Haunt, Ghost* (Lawful)": {
-      "biography": "<p>The <strong>Lawful Ghost</strong> is a restless spirit that lingers in the mortal world, seeking to guide the living or resolve unfinished business. It often appears carrying a <strong>lantern or candle</strong> and will lead adventurers to treasure or away from danger if treated respectfully.</p>\n      <p><strong>Undead Nature:</strong> The Ghost is immune to sleep, charm, and mind-affecting spells. It can only be harmed by <strong>+2 or better magical weapons</strong> and is immune to all spells except those affecting evil beings.</p>\n      <p><strong>Ectoplasmic Net:</strong> A 10' radius spectral net forms around the ghost over 3 rounds. Creatures inside must make a <strong>saving throw vs. spells</strong> or be <strong>pulled into the Ethereal Plane</strong>.</p>\n      <p><strong>Gaze of Paralysis:</strong> The Ghost may gaze at a target within <strong>60'</strong>. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed for 2d4 rounds.</strong></p>\n      <p><strong>Aging Touch:</strong> A successful touch ages the victim <strong>1d4 × 10 years</strong> instantly, reducing <strong>1 Constitution per 10 years</strong> aged.</p>\n      <p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to <strong>possess a creature within 30'</strong>. If successful, the ghost controls their body until exorcised.</p>\n      <p><strong>Escape to the Ethereal Plane:</strong> The Ghost may shift to the <strong>Ethereal Plane 3× per day</strong> and remain there for <strong>1d8 days</strong>.</p>\n      <p><strong>Turning Resistance:</strong> If a cleric attempts to turn it and rolls a \"D\", the Ghost may make a <strong>save vs. spells</strong> to resist destruction.</p>\n      <p><strong>Terrain:</strong> Ruins, Graveyards, Forgotten Shrines.</p>",
+      "biography": "<p>A Lawful ghost appears as a transparent human figure, typically carrying a lantern or candle. If attacked, it can retaliate with the same attacks as any other ghost. However, if approached with caution, the ghost will gesture, and if followed, it will lead the way to a special clue or treasure before disappearing. Some Lawful ghosts exist solely to guide Lawful living beings away from areas of great danger.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to possess a creature within 30'. If successful, the ghost controls their body until exorcised.</p><p><strong>Terrain:</strong> Ruins, Graveyards, Forgotten Shrines.</p>",
       "items": {
         "4fzOm9NgMFpodLQl": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -10434,26 +10432,34 @@
           "description": "Once per turn, the ghost can attempt to possess a creature within 30'. If successful, the ghost controls their body until exorcised.",
           "name": "Magic Jar (Possession)"
         },
-        "JyFWeeSroU6kdCRm": {
-          "description": "<p>The Ghost may gaze at a target within 60'. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed</strong> for [[/r 2d4 #Rounds paralyzed by gaze.]] rounds.</p>",
-          "name": "Gaze of Paralysis"
+        "NzlneZn97XIHra8P": {
+          "description": "<p>When a cleric's attempt to turn a haunt results in a \"0\", the creature may make a saving throw versus spells to avoid destruction. If the saving throw is successful, the monster is not turned or destroyed, although the cleric can repeat the attempt. Other turning results are handled normally.</p>",
+          "name": "Turning Resistance"
         },
-        "Vp2V6LheroPDo5NT": {
-          "description": "A 10' radius spectral net forms around the ghost over 3 rounds. Any creature inside must make a saving throw vs. spells or be pulled into the Ethereal Plane.",
-          "name": "Ectoplasmic Net"
+        "XrwvkzoBFcqCU5US": {
+          "description": "<p>The haunt's touch inflicts [[/r 1d4*10 #Years of aging]] years of aging. Each 10 years aged reduces Constitution by 1 point permanently.</p><p>A wish will restore only one point lost in this manner, and less powerful magic cannot affect the loss. All aging can be countered only with a potion of longevity or a wish. If a victim's Constitution drops to 0, the victim dies permanently, and cannot be raised.</p><p><em>Elves may ignore the effects of the first 200 years of aging; dwarves may ignore the first 50 years, and halflings, the first 20 years.</em></p>",
+          "name": "Aging Touch",
+          "unidentifiedName": "Aging Touch"
         },
         "XvX7rVpHjcySklM8": {
           "name": "Ghostly Form"
+        },
+        "ahOh34PMlmysHXzG": {
+          "description": "<p>The haunt may gaze at a target from 60' away. The victim must make a save vs. spells or be paralyzed for [[/r 2d4 #Rounds paralyzed by gaze.]] rounds. </p><p>A haunt often ignores its paralyzed victims, concentrating its attacks on other enemies nearby, until only helpless ones remain.</p>",
+          "name": "Gaze of Paralysis"
+        },
+        "apKqm1bxpYluRHwm": {
+          "description": "<p>The Haunt may shift to the Ethereal Plane 3 times per day, remaining there for [[/r 1d8 #Haunt shifts to Ethereal Plane for this many days]] days.</p>",
+          "name": "Escape to Ethereal Plane"
+        },
+        "d4MbJ3H8fVMd6H3F": {
+          "description": "<p>When a haunt is first encountered, it typically starts oozing ectoplasm, which appears as wispy tendrils that slowly form a net.</p><p>The net has no effect on the movement of the haunt or others, and is only a visual effect for three rounds. However, after that time, the net is complete, forming a 10-foot radius around the haunt and moving with it.</p><p>Any living creature within a complete ectoplasmic net must make a saving throw versus spells or be pulled into the Ethereal Plane, where the net also exists.</p><p>The ethereal victim is helpless unless they possess special items or spells that permit escape from that plane, such as oil of etherealness, teleport, etc. The haunt will attack its ethereal victims when it returns to the Ethereal Plane.</p>",
+          "name": "Ectoplasmic Net"
         },
         "lI6SdCudHYMWPuGb": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "mq8FArksNiWh2PXw": {
-          "description": "<p>The Ghost’s touch inflicts [[/r 1d4*10 #Years of aging]]<strong> years of aging</strong>. Each 10 years aged reduces Constitution by <strong>1 point permanently.</strong></p><p> A wish will restore only one point lost in this manner, and less powerful magic cannot affect the loss. All aging can be countered only with a potion of longevity or a wish. If a victim's Constitution drops to 0, the victim dies permanently, and cannot be raised.</p><p><em>Elves may ignore the effects of the first 200 years of aging; dwarves may ignore the first 50 years, and halflings, the first 20 years.</em></p>",
-          "name": "Aging Touch",
-          "unidentifiedName": "Aging Touch"
         },
         "sYCbjnyWfeBz9nrO": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -10470,7 +10476,7 @@
       "name": "Haunt, Ghost* (Lawful)"
     },
     "Haunt, Ghost* (Neutral)": {
-      "biography": "<p>The <strong>Neutral Ghost</strong> is a trapped soul, lingering due to betrayal, loss, or unfinished business. It often appears in sorrowful form, seeking aid from the living before resorting to violence.</p>\n      <p><strong>Undead Nature:</strong> The Ghost is immune to sleep, charm, and mind-affecting spells. It can only be harmed by <strong>+2 or better magical weapons</strong> and is immune to all spells except those affecting evil beings.</p>\n      <p><strong>Ectoplasmic Net:</strong> A 10' radius spectral net forms around the ghost over 3 rounds. Creatures inside must make a <strong>saving throw vs. spells</strong> or be <strong>pulled into the Ethereal Plane</strong>.</p>\n      <p><strong>Gaze of Paralysis:</strong> The Ghost may gaze at a target within <strong>60'</strong>. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed for 2d4 rounds.</strong></p>\n      <p><strong>Aging Touch:</strong> A successful touch ages the victim <strong>1d4 × 10 years</strong> instantly, reducing <strong>1 Constitution per 10 years</strong> aged. A <strong>saving throw vs. spells</strong> negates this effect.</p>\n      <p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to <strong>possess a creature within 30'</strong>. The victim must make a <strong>saving throw vs. spells</strong> or fall under the ghost’s control until exorcised.</p>\n      <p><strong>Escape to the Ethereal Plane:</strong> The Ghost may shift to the <strong>Ethereal Plane 3× per day</strong> and remain there for <strong>1d8 days</strong>.</p>\n      <p><strong>Turning Resistance:</strong> If a cleric attempts to turn it and rolls a \"D\", the Ghost may make a <strong>save vs. spells</strong> to resist destruction.</p>\n      <p><strong>Terrain:</strong> Ruins, Cursed Lands, Haunted Houses.</p>",
+      "biography": "<p>A Neutral ghost is the trapped soul of a human who is unable to rest, often due to their body remaining unburied or because they were subjected to great betrayal, harm, or a curse. If this type of ghost is assisted, and their body is found and returned to a churchyard, the ghost will finally be able to rest in peace. In return for aid, the ghost typically reveals the location of their treasure hoard.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to possess a creature within 30'. The victim must make a saving throw vs. spells or fall under the ghost’s control until exorcised.</p><p><strong>Terrain:</strong> Ruins, Cursed Lands, Haunted Houses.</p>",
       "items": {
         "2Z3YGvcgWstvKKQL": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -10501,9 +10507,26 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
-        "Q14HkdlsymqEvlW9": {
-          "description": "<p>The Ghost may gaze at a target within 60'. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed for</strong> [[/r 2d4 #Rounds paralyzed by gaze.]] <strong>rounds.</strong></p>",
+        "NzlneZn97XIHra8P": {
+          "description": "<p>When a cleric's attempt to turn a haunt results in a \"0\", the creature may make a saving throw versus spells to avoid destruction. If the saving throw is successful, the monster is not turned or destroyed, although the cleric can repeat the attempt. Other turning results are handled normally.</p>",
+          "name": "Turning Resistance"
+        },
+        "XrwvkzoBFcqCU5US": {
+          "description": "<p>The haunt's touch inflicts [[/r 1d4*10 #Years of aging]] years of aging. Each 10 years aged reduces Constitution by 1 point permanently.</p><p>A wish will restore only one point lost in this manner, and less powerful magic cannot affect the loss. All aging can be countered only with a potion of longevity or a wish. If a victim's Constitution drops to 0, the victim dies permanently, and cannot be raised.</p><p><em>Elves may ignore the effects of the first 200 years of aging; dwarves may ignore the first 50 years, and halflings, the first 20 years.</em></p>",
+          "name": "Aging Touch",
+          "unidentifiedName": "Aging Touch"
+        },
+        "ahOh34PMlmysHXzG": {
+          "description": "<p>The haunt may gaze at a target from 60' away. The victim must make a save vs. spells or be paralyzed for [[/r 2d4 #Rounds paralyzed by gaze.]] rounds. </p><p>A haunt often ignores its paralyzed victims, concentrating its attacks on other enemies nearby, until only helpless ones remain.</p>",
           "name": "Gaze of Paralysis"
+        },
+        "apKqm1bxpYluRHwm": {
+          "description": "<p>The Haunt may shift to the Ethereal Plane 3 times per day, remaining there for [[/r 1d8 #Haunt shifts to Ethereal Plane for this many days]] days.</p>",
+          "name": "Escape to Ethereal Plane"
+        },
+        "d4MbJ3H8fVMd6H3F": {
+          "description": "<p>When a haunt is first encountered, it typically starts oozing ectoplasm, which appears as wispy tendrils that slowly form a net.</p><p>The net has no effect on the movement of the haunt or others, and is only a visual effect for three rounds. However, after that time, the net is complete, forming a 10-foot radius around the haunt and moving with it.</p><p>Any living creature within a complete ectoplasmic net must make a saving throw versus spells or be pulled into the Ethereal Plane, where the net also exists.</p><p>The ethereal victim is helpless unless they possess special items or spells that permit escape from that plane, such as oil of etherealness, teleport, etc. The haunt will attack its ethereal victims when it returns to the Ethereal Plane.</p>",
+          "name": "Ectoplasmic Net"
         },
         "imoGDwfY1aDd3QZY": {
           "name": "Ghostly Form"
@@ -10512,17 +10535,13 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
-        },
-        "s7M0XX3cvxrfgk3o": {
-          "description": "A 10' radius spectral net forms around the ghost over 3 rounds. Any creature inside must make a saving throw vs. spells or be pulled into the Ethereal Plane.",
-          "name": "Ectoplasmic Net"
         }
       },
       "monsterType": "Undead, Enchanted",
       "name": "Haunt, Ghost* (Neutral)"
     },
     "Haunt, Poltergeist*": {
-      "biography": "<p>The <strong>Poltergeist</strong> is an invisible haunt that exists to torment intruders. Unlike other haunts, it has no physical form and cannot be seen without magic. Its presence is known only by the eerie movement of objects and the sudden formation of an ectoplasmic net.</p>\n      <p><strong>Undead Nature:</strong> The Poltergeist is immune to sleep, charm, and mind-affecting spells. It can only be harmed by <strong>+2 or better magical weapons</strong> and is immune to all spells except those affecting evil beings.</p>\n      <p><strong>Invisibility:</strong> The Poltergeist is naturally invisible and can only be detected by magical means.</p>\n      <p><strong>Ectoplasmic Net:</strong> A 10' radius spectral net forms around the Poltergeist over 3 rounds. Creatures inside must make a <strong>saving throw vs. spells</strong> or be <strong>pulled into the Ethereal Plane</strong>.</p>\n      <p><strong>Gaze of Paralysis:</strong> The Poltergeist may gaze at a target within <strong>60'</strong>. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed for 2d4 rounds.</strong></p>\n      <p><strong>Telekinetic Assault:</strong> The Poltergeist can hurl two objects per round at opponents, dealing damage based on the object’s size. A saving throw vs. spells is required to avoid the aging effect.</p>\n      <p><strong>Aging Attack:</strong> Each hit from a thrown object ages the victim by <strong>10 years</strong>. A <strong>saving throw vs. spells</strong> negates this effect.</p>\n      <p><strong>Escape to the Ethereal Plane:</strong> The Poltergeist may shift to the <strong>Ethereal Plane 3× per day</strong> and remain there for <strong>1d8 days</strong>.</p>\n      <p><strong>Turning Resistance:</strong> If a cleric attempts to turn it and rolls a \"D\", the Poltergeist may make a <strong>save vs. spells</strong> to resist destruction.</p>\n      <p><strong>Terrain:</strong> Ruins, Haunted Buildings.</p>",
+      "biography": "<p>The Poltergeist is an invisible haunt that exists to torment intruders. Unlike other haunts, it has no physical form and cannot be seen without magic. Its presence is known only by the eerie movement of objects and the sudden formation of an ectoplasmic net.</p><p>The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</p><p><strong>Invisibility:</strong> The Poltergeist is naturally invisible and can only be detected by magical means.</p><p><strong>Telekinetic Assault:</strong> The Poltergeist can hurl two objects per round at opponents, dealing damage based on the object’s size. A saving throw vs. spells is required to avoid the aging effect.</p><p><strong>Terrain:</strong> Ruins, Haunted Buildings.</p>",
       "items": {
         "0ZBF0JUw5WlM4r40": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -10532,23 +10551,30 @@
         "FDIxRzU1C01iOieo": {
           "name": "Ghostly Form"
         },
-        "FOpg8iJn4NDtsYeu": {
-          "description": "<p>In combat, a poltergeist telekinetically throws <strong>two objects per round</strong>. Victims struck must make a <strong>saving throw vs. spells</strong> or suffer <strong>supernatural aging</strong>, instantly <strong>growing 10 years older</strong>. Every <strong>10 years aged</strong> results in the <strong>permanent loss of 1 Constitution point</strong>.</p><p>Thrown Object Damage:</p><ul><li>Tiny (pebble, utensil): [[/r 1 #Damage from thrown object]]</li><li>Small (dagger, book): [[/r 1d6 #Damage from thrown object]]</li><li>Medium (chair, helmet): [[/r 2d6 #Damage from thrown object]]</li><li>Large (crate, boulder): [[/r 3d6 #Damage from thrown object]]</li></ul><p>A prolonged fight with a poltergeist can be devastating, as each failed save drains a victim’s vitality and lifespan.</p>",
-          "name": "Telekinetic Assualt (Aging)",
-          "unidentifiedName": "Aging Attack"
+        "NzlneZn97XIHra8P": {
+          "description": "<p>When a cleric's attempt to turn a haunt results in a \"0\", the creature may make a saving throw versus spells to avoid destruction. If the saving throw is successful, the monster is not turned or destroyed, although the cleric can repeat the attempt. Other turning results are handled normally.</p>",
+          "name": "Turning Resistance"
         },
-        "MtKBzTH3dpvoD3dX": {
-          "description": "A 10' radius spectral net forms around the Poltergeist over 3 rounds. Any creature inside must make a saving throw vs. spells or be pulled into the Ethereal Plane.",
-          "name": "Ectoplasmic Net"
-        },
-        "exftHbnxFfXBlJud": {
-          "description": "<p>The Poltergeist may gaze at a target within 60'. The victim must make a <strong>save vs. spells</strong> or be <strong>paralyzed</strong> for [[/r 2d4 #Rounds paralyzed by gaze.]] rounds.</p>",
+        "ahOh34PMlmysHXzG": {
+          "description": "<p><strong>Only those that can see invisible things will be affected by the gaze.</strong></p><p>The haunt may gaze at a target from 60' away. The victim must make a save vs. spells or be paralyzed for [[/r 2d4 #Rounds paralyzed by gaze.]] rounds.</p><p>A haunt often ignores its paralyzed victims, concentrating its attacks on other enemies nearby, until only helpless ones remain.</p>",
           "name": "Gaze of Paralysis"
+        },
+        "apKqm1bxpYluRHwm": {
+          "description": "<p>The Haunt may shift to the Ethereal Plane 3 times per day, remaining there for [[/r 1d8 #Haunt shifts to Ethereal Plane for this many days]] days.</p>",
+          "name": "Escape to Ethereal Plane"
+        },
+        "d4MbJ3H8fVMd6H3F": {
+          "description": "<p>When a haunt is first encountered, it typically starts oozing ectoplasm, which appears as wispy tendrils that slowly form a net.</p><p>The net has no effect on the movement of the haunt or others, and is only a visual effect for three rounds. However, after that time, the net is complete, forming a 10-foot radius around the haunt and moving with it.</p><p>Any living creature within a complete ectoplasmic net must make a saving throw versus spells or be pulled into the Ethereal Plane, where the net also exists.</p><p>The ethereal victim is helpless unless they possess special items or spells that permit escape from that plane, such as oil of etherealness, teleport, etc. The haunt will attack its ethereal victims when it returns to the Ethereal Plane.</p>",
+          "name": "Ectoplasmic Net"
         },
         "f9iStr2LzQz8fzJH": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "gNm9FdG5YOBHbiLS": {
+          "description": "<p>In combat, a poltergeist telekinetically throws two objects per round. Victims struck must make a saving throw vs. spells or suffer supernatural aging, instantly growing 10 years older. Every 10 years aged results in the permanent loss of 1 Constitution point.</p><p>Thrown Object Damage:</p><ul><li>Tiny (pebble, utensil): [[/r 1 #Damage from thrown object]]</li><li>Small (dagger, book): [[/r 1d6 #Damage from thrown object]]</li><li>Medium (chair, helmet): [[/r 2d6 #Damage from thrown object]]</li><li>Large (crate, boulder): [[/r 3d6 #Damage from thrown object]]</li></ul><p>A prolonged fight with a poltergeist can be devastating, as each failed save drains a victim’s vitality and lifespan.</p>",
+          "name": "Telekinetic Assualt (Aging)"
         },
         "iqu1ycyZAxjEEx4r": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -18400,6 +18426,61 @@
       "monsterType": "Undead, Enchanted",
       "name": "Phantom, Vision*"
     },
+    "Phoenix, Greater*": {
+      "biography": "<p>Born of the elemental plane of Fire, the Greater Phoenix takes the form of an immense red-orange eagle cloaked in searing flames. Rarely seen on the Prime Plane, it adapts to any climate but eschews underground haunts. It remains tranquil unless challenged.</p><p>Impervious to all fire, charm, and hold spells, it also deflects strikes from weapons below +3 enchantment. In combat, it wields its claws and beak, its radiant blaze searing enemies within a 20' radius for [[/r 6d6 #Fire damage per round]], unhindered by fire defenses due to the distinct nature of phoenix flame.</p><p>When overcome, the Greater Phoenix bursts in a 20' radius explosion, unleashing [[/r 1d10*10 #Explosion damage]] (save vs. dragon breath for half, bypassing fire protection), then resurrects from its ashes 1 round later, fully renewed, and takes flight to escape. A wish alone can eradicate it permanently; its rebirth cycle is an unsolved enigma.</p><p>Each vanquishing yields one feather. A single feather (worth 25,000 gp) crafts a potion of phoenix fire resistance, providing total immunity to normal and magical fire, halving fire breath damage (quarter with a save), and conferring standard resistance to phoenix fire.<br><b>Terrain:</b> Any; Plane of Fire</p>",
+      "items": {
+        "8CTLmHRKJMUPmaQv": {
+          "description": "The Greater Phoenix’s blazing aura fortifies its natural armor.",
+          "name": "Hide"
+        },
+        "8Qgfih0yFxZ4FB5D": {
+          "description": "Upon destruction, the Greater Phoenix bursts in a 20' radius for [[/r 1d10*10 #Explosion damage]] (save vs. dragon breath for half), ignoring fire protections; resurrects 1 round later to flee.",
+          "gmNotes": "Triggers on death or destruction.",
+          "name": "Explosion"
+        },
+        "LjGi9juF2dHaaIvk": {
+          "description": "The Greater Phoenix slashes with fiery talons.",
+          "name": "Claw"
+        },
+        "WCP6dQ3o1YKMkrPe": {
+          "description": "The Greater Phoenix emits a fiery aura in a 20' radius, inflicting [[/r 6d6 #Fire damage per round]] to all within, ignoring fire protections.",
+          "gmNotes": "Phoenix flame bypasses all fire resistance.",
+          "name": "Flame Aura"
+        },
+        "gDZyZ64GfY1kmoBB": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "miog1gThkRhRulOu": {
+          "description": "The Greater Phoenix bites with a flaming beak.",
+          "name": "Bite",
+          "unidentifiedName": "Bite"
+        },
+        "qyQsSTmEhfFbSbzO": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "rR0mRXgVvsX3lTj4": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "sVfFlnnEFBv7arn3": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "vInhI2VVljzPTlvS": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        }
+      },
+      "monsterType": "Planar Monster, Enchanted",
+      "name": "Phoenix, Greater*"
+    },
     "Pixie": {
       "biography": "<p>Pixies are small humanoid creatures with insect-like wings. Standing at only 1-2 feet tall, they are distantly related to elves. Pixies are naturally invisible unless they wish to be seen or are detected by magic.</p><p>Unlike creatures affected by invisibility spells, pixies can attack while remaining invisible. They always gain surprise when doing so, and cannot be attacked in the first round of combat. In subsequent rounds, attackers can attempt to strike them, but with a -4 penalty to attack rolls.</p><p>Pixies live in secluded wilderness communities and rarely attack humans unless provoked. They may, however, assist friendly adventurers with guidance through the wilderness or lead them to hidden locations.</p><p><strong>Terrain:</strong> Woods.<br><strong>Flight Limitation:</strong> Pixies can fly for up to three turns before requiring a full turn of rest.</p>",
       "items": {
@@ -19357,39 +19438,40 @@
       "name": "Scorpion, Giant"
     },
     "Sea Hag*": {
-      "biography": "<p>The <strong>Sea Hag</strong> is one of the most repulsive creatures known, feared for its horrifying appearance and deadly powers.</p>\n      <p><strong>Horrific Visage:</strong> Any creature that sees the Sea Hag or comes within <strong>10 feet</strong> must make a <strong>saving throw vs. spells at -6</strong> or flee in terror for <strong>1d20+5 rounds.</strong></p>\n      <p><strong>Energy Draining Touch:</strong> A Sea Hag’s touch acts as an <strong>energy drain, reducing the victim’s level by one</strong> (as a wight). Additionally, it causes <strong>disease</strong> (no saving throw).</p>\n      <p><strong>Undead Control:</strong> Though not undead itself, the Sea Hag can <strong>command undead</strong> as if it were a <strong>16 HD undead creature.</strong></p>\n      <p><strong>Weaknesses & Resistances:</strong> A Sea Hag can only be harmed by <strong>silver or magical weapons.</strong></p>\n      <p><strong>Environment & Lair:</strong> It lives primarily in <strong>shallow coastal waters</strong> but can venture onto land for up to <strong>three hours</strong> at a time.</p>\n      <p><strong>Companions:</strong> Often accompanied by undead or other sinister creatures.</p>\n      <p><strong>Terrain:</strong> Ocean (Coast).</p>",
+      "biography": "<p>The Sea Hag is one of the most repulsive creatures known, feared for its horrifying appearance and deadly powers.</p><p><strong>Horrific Visage:</strong> Any creature that sees the Sea Hag or comes within 10 feet must make a saving throw vs. spells at -6 or flee in terror for 1d20+5 rounds.</p><p><strong>Energy Draining Touch:</strong> A Sea Hag’s touch acts as an energy drain, reducing the victim’s level by one (as a wight). Additionally, it causes disease (no saving throw).</p><p><strong>Undead Control:</strong> Though not undead itself, the Sea Hag can command undead as if it were a 16 HD undead creature.</p><p><strong>Weaknesses & Resistances:</strong> A Sea Hag can only be harmed by silver or magical weapons.</p><p><strong>Environment & Lair:</strong> It lives primarily in shallow coastal waters but can venture onto land for up to three hours at a time.</p><p><strong>Companions:</strong> Often accompanied by undead or other sinister creatures.</p><p><strong>Terrain:</strong> Ocean (Coast).</p>",
       "items": {
         "6P0vRLiP8Twm61Xv": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "DqkpwFuyDYyp1VYt": {
-          "description": "<p>The Sea Hag can <strong>command undead</strong> as if it were a <strong>16 HD undead creature.</strong></p>",
-          "name": "Undead Control"
+        "GDdHrRnx7lkkKkmJ": {
+          "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "name": "Dagger",
+          "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "weaponMastery": "Dagger"
         },
         "H2AdoRrM2MPSvC1h": {
-          "description": "<p>The Sea Hag’s touch <strong>drains one experience level</strong> from the victim and inflicts <strong>disease</strong> (no saving throw).</p>",
+          "description": "<p>The Sea Hag’s touch drains one experience level from the victim and inflicts disease (no saving throw).</p>",
           "name": "Energy Drain Touch",
           "unidentifiedName": "Energy Drain Touch"
-        },
-        "H4CHPTHIiSecU3YB": {
-          "description": "<p>The Sea Hag uses a <strong>dagger</strong> in combat.</p>",
-          "name": "Dagger",
-          "unidentifiedName": "Dagger"
         },
         "IPRgvKkwffaYNhgn": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "Jgd91rIHuHWWXnQj": {
+          "description": "<p>The Black Hag can control undead as if it had double its hit dice, making it an extremely dangerous necromantic force.</p>",
+          "name": "Undead Control"
+        },
         "NZ3w1PMSmmKrKvrH": {
           "description": "<p>The Sea Hag has thick, warty skin that provides natural protection, giving it <strong>AC 4</strong>.</p>",
           "name": "Hag Skin"
         },
         "WKTHOTc3bzjl6oNh": {
-          "description": "<p>Any creature that sees the Sea Hag or comes within <strong>10 feet</strong> must make a <strong>saving throw vs. spells at -6</strong> or flee in terror for <strong>1d20+5 rounds.</strong></p>",
-          "name": "Horrific Visage"
+          "description": "<p>Any creature that sees the Sea Hag or comes within 10 feet must make a saving throw vs. spells at -6 or flee in terror for [[/r 1d20+5 #Flees in terror for this many rounds.]] rounds.</p>",
+          "name": "Horrific Gaze (Fear)"
         },
         "YS7tUxvMyiLMndTj": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
