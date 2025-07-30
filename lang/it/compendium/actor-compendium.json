@@ -24071,6 +24071,147 @@
                 }
             },
             "monsterType": "Mostro Planare Magico (Comune)"
+        },
+        "Helion*": {
+            "items": {
+                "7L0bW0Xdv62KJMU6": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "XFzoYeucN3y07hZ8": {
+                    "shortName": "Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "name": "Veleno o Raggio della Morte"
+                },
+                "Ydh39B349w4p41he": {
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                },
+                "c1IT8bcwWwTwpgws": {
+                    "name": "Dissolvi Magie",
+                    "description": "<p>Questo incantesimo rimuove gli effetti degli incantesimi esistenti in un volume di 6 x 6 x 6 m. Gli effetti degli incantesimi lanciati da un incantatore di livello uguale o inferiore vengono automaticamente dissipati.</p>\n                      <p><strong>Incantatori di livello superiore:</strong> gli effetti creati da un incantatore di livello superiore possono resistere alla dissolvenza. La probabilità di fallimento è del 5% per differenza di livello. Ad esempio, un mago di 7° livello che dissolve un incantesimo lanciato da un chierico di 9° livello ha una probabilità di fallimento del 10%.</p>\n                      <p><strong>Oggetti magici:</strong> questo incantesimo non influenza gli oggetti magici stessi, ma può interrompere gli effetti attivi che producono. Ad esempio, dissipare la magia può liberare una persona dal controllo di un anello di controllo umano.</p>",
+                    "spellEffect": "Distrugge incantesimi in un cubo di 6 metri di lato"
+                },
+                "7Rw96gGRTGQYu8f5": {
+                    "description": "<p>Questo incantesimo consente al mago di vedere un bagliore che circonda tutti gli oggetti magici, le creature e i luoghi entro 18 m. Il mago può vedere il bagliore solo se gli oggetti sono visibili; gli oggetti nascosti non mostreranno il loro bagliore. Non è consentito alcun tiro salvezza.</p>\n                <p><strong>Esempio:</strong> Dopo aver lanciato l'incantesimo, un mago può vedere una porta luminosa (chiusa con la magia) e una pozione luminosa. Una bacchetta magica all'interno di uno scrigno del tesoro non sarebbe visibile poiché lo scrigno nasconde il suo bagliore.</p>",
+                    "name": "Individuazione del Magico",
+                    "spellEffect": "Ogni cosa entro 18 metri"
+                },
+                "I3TLeVes0BddEg6F": {
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo"
+                },
+                "Tu0CiEfwuHRgZoNY": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                },
+                "eIV9zDJxnlwjpcGq": {
+                    "description": "<p>Questo incantesimo crea un muro sottile e verticale di fuoco in qualsiasi forma o dimensione, per un totale di 108 metri quadrati (es: 3 m x 36 m, 6 m x 18 m, 9 m x 12 m). Il muro è opaco e blocca la vista, e non può essere creato in uno spazio già occupato da un altro oggetto</p>\n                      <p><strong>Durata:</strong> Il muro rimane finché l'incantatore si concentra su di esso senza muoversi</p>\n                      <p><strong>Attraversamento:</strong> Le creature con meno di 4 Dadi Vita non possono passare attraverso il muro. Le creature con 4 DV o più possono passare, subendo 1d6 danni da fuoco nel processo. I non-morti e le creature che usano il freddo (es: draghi bianchi, giganti del gelo) subiscono il doppio dei danni (2d6) quando attraversano</p>",
+                    "name": "Muro di Fuoco",
+                    "spellEffect": "Crea 108 metri quadrati di fuoco"
+                }
+            },
+            "monsterType": "Mostro Planare, Magico (Molto Raro)"
+        },
+        "Hobgoblin, Bodyguard": {
+            "items": {
+                "FXqCWuIcG46uXuWA": {
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                },
+                "OZA38dJ95QpcLMxh": {
+                    "weaponMastery": "Spada",
+                    "description": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
+                    "name": "Spada",
+                    "unidentifiedDesc": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>"
+                },
+                "pJFpv3ztaIEvVWmr": {
+                    "name": "Armatura Hobgoblin",
+                    "unidentifiedDesc": "Gli Hobgoblin indossano un'armatura che fornisce una classe armatura naturale 6.",
+                    "description": "Gli Hobgoblin indossano un'armatura che fornisce una classe armatura naturale 6."
+                },
+                "qEii0ARk0HDsMawC": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "QTLRJeBuPnCoDr89": {
+                    "description": "<p>La lancia è una punta di metallo attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "name": "Lancia",
+                    "unidentifiedDesc": "<p>La lancia è una punta di metallo attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "weaponMastery": "Lancia"
+                },
+                "d9hjgQKKhht4qPkp": {
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo"
+                },
+                "oAO6atDu0rDkRYWM": {
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
+                    "name": "Soffio del Drago"
+                },
+                "xuDw3NbLo1JF58jJ": {
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte"
+                }
+            },
+            "biography": "<p>Gli Hobgoblin sono parenti più grandi e più malvagi dei goblin, più alti e robusti. Spesso vivono sottoterra in caverne o dungeon, ma si avventurano regolarmente nelle aspre terre selvagge o nei deserti per cacciare, senza subire penalità alla luce del giorno.</p>\n        <p>Un re hobgoblin, insieme a 1d4 guardie del corpo, guida il gruppo nella loro tana. Il re ha 22 punti ferita e combatte come un mostro da 5 DV con un ulteriore bonus di +2 ai danni. Le sue guardie del corpo sono dure come mostri da 4 DV, e ciascuna ha 3d6 punti ferita. Se il re è presente e vivo, il morale degli hobgoblin aumenta a 10.</p>\n        <strong>Danno Arma:</strong> A seconda dell'arma.<br>\n        <strong>Terreno:</strong> Caverna, Collina, Montagna, Bosco.",
+            "monsterType": "Umanoide (Comune)"
+        },
+        "Hobgoblin, King": {
+            "items": {
+                "FXqCWuIcG46uXuWA": {
+                    "name": "Bacchetta Magica",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
+                    "shortName": "Bacchetta"
+                },
+                "QTLRJeBuPnCoDr89": {
+                    "description": "<p>La lancia è una punta di metallo attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "name": "Lancia",
+                    "unidentifiedDesc": "<p>La lancia è una punta di metallo attaccata a un'estremità di un'asta medio-lunga (180-240 cm). I guerrieri, i nani, gli elfi e i mistici possono utilizzare la manovra lancia contro carica.</p>",
+                    "weaponMastery": "Lancia"
+                },
+                "pJFpv3ztaIEvVWmr": {
+                    "name": "Armatura Hobgoblin",
+                    "description": "Gli Hobgoblin indossano un'armatura che fornisce una classe armatura naturale 6.",
+                    "unidentifiedDesc": "Gli Hobgoblin indossano un'armatura che fornisce una classe armatura naturale 6."
+                },
+                "qEii0ARk0HDsMawC": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "OZA38dJ95QpcLMxh": {
+                    "description": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
+                    "name": "Spada",
+                    "unidentifiedDesc": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
+                    "weaponMastery": "Spada"
+                },
+                "d9hjgQKKhht4qPkp": {
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo"
+                },
+                "oAO6atDu0rDkRYWM": {
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "xuDw3NbLo1JF58jJ": {
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte"
+                }
+            },
+            "biography": "<p>Gli Hobgoblin sono parenti più grandi e più malvagi dei goblin, più alti e robusti. Spesso vivono sottoterra in caverne o dungeon, ma si avventurano regolarmente nelle aspre terre selvagge o nei deserti per cacciare, senza subire penalità alla luce del giorno.</p>\n        <p>Un re hobgoblin, insieme a 1d4 guardie del corpo, guida il gruppo nella loro tana. Il re ha 22 punti ferita e combatte come un mostro da 5 DV con un ulteriore bonus di +2 ai danni. Le sue guardie del corpo sono dure come mostri da 4 DV, e ciascuna ha 3d6 punti ferita. Se il re è presente e vivo, il morale degli hobgoblin aumenta a 10.</p>\n        <strong>Danno Arma:</strong> A seconda dell'arma.<br>\n        <strong>Terreno:</strong> Caverna, Collina, Montagna, Bosco.",
+            "monsterType": "Umanoide (Comune)"
         }
     },
     "label": "Bestiario",
