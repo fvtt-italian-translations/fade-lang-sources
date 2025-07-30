@@ -5754,6 +5754,13 @@
         "Silenced": {
             "description": "<p>Questa condizione rende impossibile conversare o lanciare incantesimi all'interno dell'area interessata per tutta la durata dell'incantesimo. Chi si trova all'interno della sfera può comunque sentire i suoni provenienti dall'esterno.</p>",
             "name": "Mutato"
+        },
+        "Confused": {
+            "description": "<p>Le creature confuse agiscono in modo casuale. Per determinare l'azione di ciascuna creatura, il DM deve tirare [[/r 2d6 # Trova il risultato sulla tabella dei risultati della confusione]] ogni round, usando la seguente tabella:</p><p><strong>Risultati della confusione</strong></p><p>2-5: Attacca il gruppo dell'incantatore</p><p>6-8: Non fare nulla</p><p>9-12: Attacca il gruppo della creatura</p>"
+        },
+        "Possessed": {
+            "description": "<p>Quando una creatura è posseduta, il suo corpo è sotto il controllo di una forza esterna. Il corpo posseduto viene utilizzato per interagire con il mondo fisico, mentre la forza che la controlla rimane separata. Il corpo posseduto verrà tipicamente utilizzato per raggiungere gli obiettivi della forza che la controlla, che possono includere l'attaccare gli altri.</p>",
+            "name": "Posseduto"
         }
     },
     "label": "Oggetti Classi Abilità",
