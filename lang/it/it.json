@@ -671,6 +671,11 @@
                 "normal": "Normale",
                 "advantage": "Vantaggio",
                 "disadvantage": "Svantaggio"
+            },
+            "difficulty": {
+                "levels": {
+                    "medium": "Media"
+                }
             }
         },
         "tabs": {
@@ -1204,6 +1209,11 @@
         },
         "attackRollFormula": {
             "name": "Formula Tiro d'Attacco"
+        },
+        "abilityCheckSystem": {
+            "choices": {
+                "basic": "Base"
+            }
         }
     },
     "TYPES": {
