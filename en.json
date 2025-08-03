@@ -296,6 +296,15 @@
       }
     },
     "Chat": {
+      "abilityCheck": {
+        "tieredResults": {
+          "criticalFail": "<div class='attack-fail text-size16b'>Critical Fail!</div>",
+          "criticalSuccess": "<div class='attack-success text-size16b'>Critical Success!</div>",
+          "fail": "<div class='attack-fail text-size16'>Fail</div>",
+          "partialSuccess": "<div class='attack-success text-size16'>Partial Success</div>",
+          "success": "<div class='attack-success text-size16'>Success</div>"
+        }
+      },
       "apply": "Apply",
       "applyDamageDesc": "Apply damage to selected token or target.",
       "applyHealingDesc": "Apply healing to selected token or target.",
@@ -866,6 +875,16 @@
       "close": "Close",
       "confirm": "Are you sure?",
       "confirmInitiativeRoll": "One or more combatants have <strong>Nothing</strong> as their declared action. Rolling the group's initiative will freeze the declared actions. Are you sure you want to proceed with rolling the group's initiative?",
+      "difficulty": {
+        "levels": {
+          "absurd": "Absurd",
+          "easy": "Easy",
+          "hard": "Hard",
+          "medium": "Medium",
+          "veryHard": "Very Hard"
+        },
+        "name": "Difficulty"
+      },
       "lightManager": {
         "extinguish": "Disable",
         "ignite": "Enable",
@@ -1106,6 +1125,14 @@
     },
     "abilityCheckFormula": {
       "name": "Ability Check Roll Formula"
+    },
+    "abilityCheckSystem": {
+      "choices": {
+        "basic": "Basic",
+        "tiered": "Tiered"
+      },
+      "hint": "The Ability Check System determines how ability checks are handled. Basic requires a d20 roll that must be under the relevant ability score value to be considered successful. A roll of 20 is always a failure.",
+      "name": "Ability Check System"
     },
     "abilityScoreModSystem": {
       "choices": {
