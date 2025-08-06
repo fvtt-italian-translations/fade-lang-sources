@@ -270,6 +270,7 @@
       "longAAC": "Base AAC",
       "mod": "AC Mod",
       "modBase": "Base AC Mod",
+      "modRanged": "Ranged AC Mod",
       "naked": "Without Armor",
       "natural": {
         "desc": "This is considered a natural part of its owner.",
@@ -283,7 +284,9 @@
         "short": "Shield"
       },
       "total": "Total AC",
-      "totalAAC": "Total AAC"
+      "totalAAC": "Total AAC",
+      "totalRanged": "Total Ranged AC",
+      "totalRangedAAC": "Total Ranged AAC"
     },
     "AttackTypes": {
       "hint": "If specified, the spell cast will either trigger a to-hit roll or a saving throw roll prompt.",
