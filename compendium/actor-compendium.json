@@ -13336,8 +13336,8 @@
           "shortName": "Death"
         },
         "AVP8wtZdX9pexalv": {
-          "description": "The hydra can fly at 180' per turn.",
-          "name": "Flying"
+          "description": "<p>Can swoop down while flying and attack with up to three heads, each capable of carrying off a man-sized or smaller victim.</p>",
+          "name": "Swooping Attack"
         },
         "Qf4W72243sPbyfxh": {
           "description": "Each head delivers a bite that deals 1d10 damage. Only 3 heads can attack in flight.",
@@ -13365,6 +13365,182 @@
       },
       "monsterType": "Monster",
       "name": "Hydra, Flying (5HD)"
+    },
+    "Hydra, Flying (6HD)": {
+      "biography": "<p>The flying hydra is a rare and terrifying version of the standard hydra, with enormous bat-like wings capable of carrying the creature over great distances. Unlike its land-based kin, the flying hydra can attack with up to three heads at once while in flight. It often uses its agility to swoop down and attack with surprise.</p><p>Each head delivers powerful bites, and for every 8 points of damage, one head is destroyed, reducing the hydra's ability to attack. Flying hydras are most commonly found in mountainous regions, terrorizing anything that enters their territory.</p><p><strong>Terrain:</strong> Mountain.<br></p>",
+      "items": {
+        "4h4FRmvEB4nZy2gh": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "5ISlBzzjZszS6Y2K": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "AVP8wtZdX9pexalv": {
+          "description": "<p>Can swoop down while flying and attack with up to three heads, each capable of carrying off a man-sized or smaller victim.</p>",
+          "name": "Swooping Attack"
+        },
+        "Qf4W72243sPbyfxh": {
+          "description": "Each head delivers a bite that deals 1d10 damage. Only 3 heads can attack in flight.",
+          "name": "Bite"
+        },
+        "XDhd6ljicpQLfUZm": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "XW7BNzKBuqhrziGJ": {
+          "description": "The flying hydra's tough hide offers natural protection.",
+          "name": "Natural Armor"
+        },
+        "a1nctFqPasX2BtmS": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "f7td0QuQi0olOuf8": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Hydra, Flying (6HD)"
+    },
+    "Hydra, Flying (7HD)": {
+      "biography": "<p>The flying hydra is a rare and terrifying version of the standard hydra, with enormous bat-like wings capable of carrying the creature over great distances. Unlike its land-based kin, the flying hydra can attack with up to three heads at once while in flight. It often uses its agility to swoop down and attack with surprise.</p><p>Each head delivers powerful bites, and for every 8 points of damage, one head is destroyed, reducing the hydra's ability to attack. Flying hydras are most commonly found in mountainous regions, terrorizing anything that enters their territory.</p><p><strong>Terrain:</strong> Mountain.<br></p>",
+      "items": {
+        "4h4FRmvEB4nZy2gh": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "5ISlBzzjZszS6Y2K": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "AVP8wtZdX9pexalv": {
+          "description": "<p>Can swoop down while flying and attack with up to three heads, each capable of carrying off a man-sized or smaller victim.</p>",
+          "name": "Swooping Attack"
+        },
+        "Qf4W72243sPbyfxh": {
+          "description": "Each head delivers a bite that deals 1d10 damage. Only 3 heads can attack in flight.",
+          "name": "Bite"
+        },
+        "XDhd6ljicpQLfUZm": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "XW7BNzKBuqhrziGJ": {
+          "description": "The flying hydra's tough hide offers natural protection.",
+          "name": "Natural Armor"
+        },
+        "a1nctFqPasX2BtmS": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "f7td0QuQi0olOuf8": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Hydra, Flying (7HD)"
+    },
+    "Hydra, Flying (8HD)": {
+      "biography": "<p>The flying hydra is a rare and terrifying version of the standard hydra, with enormous bat-like wings capable of carrying the creature over great distances. Unlike its land-based kin, the flying hydra can attack with up to three heads at once while in flight. It often uses its agility to swoop down and attack with surprise.</p><p>Each head delivers powerful bites, and for every 8 points of damage, one head is destroyed, reducing the hydra's ability to attack. Flying hydras are most commonly found in mountainous regions, terrorizing anything that enters their territory.</p><p><strong>Terrain:</strong> Mountain.<br></p>",
+      "items": {
+        "4h4FRmvEB4nZy2gh": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "5ISlBzzjZszS6Y2K": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "AVP8wtZdX9pexalv": {
+          "description": "<p>Can swoop down while flying and attack with up to three heads, each capable of carrying off a man-sized or smaller victim.</p>",
+          "name": "Swooping Attack"
+        },
+        "Qf4W72243sPbyfxh": {
+          "description": "Each head delivers a bite that deals 1d10 damage. Only 3 heads can attack in flight.",
+          "name": "Bite"
+        },
+        "XDhd6ljicpQLfUZm": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "XW7BNzKBuqhrziGJ": {
+          "description": "The flying hydra's tough hide offers natural protection.",
+          "name": "Natural Armor"
+        },
+        "a1nctFqPasX2BtmS": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "f7td0QuQi0olOuf8": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Hydra, Flying (8HD)"
+    },
+    "Hydra, Flying (9HD)": {
+      "biography": "<p>The flying hydra is a rare and terrifying version of the standard hydra, with enormous bat-like wings capable of carrying the creature over great distances. Unlike its land-based kin, the flying hydra can attack with up to three heads at once while in flight. It often uses its agility to swoop down and attack with surprise.</p><p>Each head delivers powerful bites, and for every 8 points of damage, one head is destroyed, reducing the hydra's ability to attack. Flying hydras are most commonly found in mountainous regions, terrorizing anything that enters their territory.</p><p><strong>Terrain:</strong> Mountain.<br></p>",
+      "items": {
+        "4h4FRmvEB4nZy2gh": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "5ISlBzzjZszS6Y2K": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "AVP8wtZdX9pexalv": {
+          "description": "<p>Can swoop down while flying and attack with up to three heads, each capable of carrying off a man-sized or smaller victim.</p>",
+          "name": "Swooping Attack"
+        },
+        "Qf4W72243sPbyfxh": {
+          "description": "Each head delivers a bite that deals 1d10 damage. Only 3 heads can attack in flight.",
+          "name": "Bite"
+        },
+        "XDhd6ljicpQLfUZm": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "XW7BNzKBuqhrziGJ": {
+          "description": "The flying hydra's tough hide offers natural protection.",
+          "name": "Natural Armor"
+        },
+        "a1nctFqPasX2BtmS": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "f7td0QuQi0olOuf8": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Hydra, Flying (9HD)"
     },
     "Hydra, Regenerating (5HD)": {
       "biography": "<p>The hydra is a massive beast with a dragon-like body and multiple heads resembling snakes. Each hydra has between 5 and 12 heads, with one Hit Die and 8 hit points per head. The hydra attacks ferociously, using each of its heads every round. If a hydra loses a head, the damage it takes determines how many heads remain in the fight.</p>\n        <p>For every 8 points of damage taken, one of the hydra's heads is destroyed, reducing its ability to attack. For example, a hydra with 7 heads that takes 16 points of damage will lose two heads and attack with only five heads the following round.</p>\n        <p>Hydras can be found guarding treasures in remote and dangerous locations. While most hydras are found in swamps or other wilderness areas, variations of this creature exist with specialized abilities.</p>\n        <strong>Terrain:</strong> Swamp.<br>",
@@ -13630,7 +13806,7 @@
       "biography": "<p>A hydrax is an intelligent, crablike being formed entirely of ice. Native to the elemental plane of Water, it is seldom seen on the Prime Plane. This creature resembles a giant crab with an 8-foot-long body, six legs, and three claws evenly arranged around its form. Although hydrax display Lawful behavior, the majority are inherently evil.</p>\n<p>Hydrax are immune to conventional weapons, all 1st and 2nd level spells, and any attacks based on fire. They can detect invisible creatures at will and are capable of casting detect magic, web, dispel magic, ice storm/wall, and water to ice—much like the reverse of a magic-user's dissolve spell (substituting water and ice for mud and rock)—three times per day, as if cast by a 9th level magic-user.</p>\n<p>Using tools fashioned from ice, hydrax construct intricate cities and various devices. Their principal adversaries are the undines and the kryst, and they harbor a deep-seated fear of air-type creatures and assaults.</p>\n<p><strong>Terrain:</strong> Plane of Water</p>",
       "items": {
         "06lb7VLOgipVThXq": {
-          "description": "A razor-sharp, ice-formed claw capable of rending flesh. Each claw attack deals 1d10 damage.",
+          "description": "<p>A razor-sharp, ice-formed claw capable of rending flesh. </p>",
           "name": "Claw"
         },
         "3KdU0xw2zAe6AS33": {
@@ -13799,7 +13975,7 @@
       "name": "Insect Swarm (4 HD)"
     },
     "Invisible Stalker (Sshai)": {
-      "biography": "<p>An Invisible Stalker (Sshai) is a magical, humanlike entity summoned from another plane via the invisible stalker spell. When given a clear and straightforward command, it obeys without hesitation; however, if the assignment is ambiguous or prolonged, it may twist the intent while following the literal wording—for example, guarding a treasure for over a week might result in it transporting the treasure back to its native plane to guard indefinitely.</p>\n<p>Primarily employed to track and eliminate foes, this creature is not only highly intelligent but also an impeccable tracker. Should a target be unable to detect invisible entities, the stalker will launch a surprise attack on a roll of 1-5 (on [/r 1d6 #roll]). Conversely, any creature capable of perceiving invisibility gains a +4 bonus when attacking it. Once its mission is complete, or if it is slain or dispelled, the stalker promptly returns to its home plane.</p>\n<p>The term \"invisible stalkers\" is the human designation for this species, though they call themselves the <em>sshai</em>. Native to the elemental plane of Air, the sshai move with exceptional speed on their home plane—reaching 360' (120'). There, they resemble dopplegangers, possessing the ability to use ESP at will and to shapechange into nearly any form native to that plane, typically appearing as air elementals, djinn, or haoou (aerial servants). While their true form is nearly identical to an air elemental, subtle differences remain discernible. The sshai are sometimes employed by djinn and haoou as spies or guards, and in their own realm, they typically possess between 1 and 12 Hit Dice while remaining roughly man-sized. Although some may even wield spells, they generally prefer negotiation to combat and have few enemies—except for their notable apprehension toward earth-type creatures and attacks.</p>\n<p><strong>Terrain:</strong> Any; Plane of Air</p>",
+      "biography": "<p>An Invisible Stalker (Sshai) is a magical, humanlike entity summoned from another plane via the invisible stalker spell. When given a clear and straightforward command, it obeys without hesitation; however, if the assignment is ambiguous or prolonged, it may twist the intent while following the literal wording—for example, guarding a treasure for over a week might result in it transporting the treasure back to its native plane to guard indefinitely.</p><p>Primarily employed to track and eliminate foes, this creature is not only highly intelligent but also an impeccable tracker. Should a target be unable to detect invisible entities, the stalker will launch a surprise attack on a roll of 1-5 (on [[/r 1d6 #Surprise on 1-5]]). Conversely, any creature capable of perceiving invisibility gains a +4 bonus when attacking it. Once its mission is complete, or if it is slain or dispelled, the stalker promptly returns to its home plane.</p><p>The term \"invisible stalkers\" is the human designation for this species, though they call themselves the <em>sshai</em>. Native to the elemental plane of Air, the sshai move with exceptional speed on their home plane—reaching 360' (120'). There, they resemble dopplegangers, possessing the ability to use ESP at will and to shapechange into nearly any form native to that plane, typically appearing as air elementals, djinn, or haoou (aerial servants). While their true form is nearly identical to an air elemental, subtle differences remain discernible. The sshai are sometimes employed by djinn and haoou as spies or guards, and in their own realm, they typically possess between 1 and 12 Hit Dice while remaining roughly man-sized. Although some may even wield spells, they generally prefer negotiation to combat and have few enemies—except for their notable apprehension toward earth-type creatures and attacks.</p><p><strong>Terrain:</strong> Any; Plane of Air</p>",
       "items": {
         "4Yl09W0lnsIFbId0": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -13901,11 +14077,11 @@
           "shortName": "Breath"
         }
       },
-      "monsterType": "Monster",
+      "monsterType": "Humanoid",
       "name": "Kobold"
     },
     "Kobold Chieftain": {
-      "biography": "<p>The <strong>Kobold Chieftain</strong> is the leader of a kobold clan, ruling alongside 1d6 bodyguards. The chieftain has <strong>9 hit points</strong> and fights as a 2 HD monster. As long as the chieftain remains alive, all kobolds in the lair have an improved morale of <strong>8 instead of 6</strong>.</p>\n      <p>Kobolds are small, doglike humanoids with scaly, rust-brown skin. They dwell in underground lairs and rely on <strong>ambush tactics</strong> to overwhelm enemies. Their <strong>infravision (90 feet)</strong> allows them to navigate in darkness with ease.</p>\n      <p>Kobolds <strong>hate gnomes</strong> and attack them on sight. Some kobold clans have spellcasters among their ranks.</p>\n      <p><strong>Terrain:</strong> Cavern, Hill, Mountain, Wood.</p>",
+      "biography": "<p>The Kobold Chieftain is the leader of a kobold clan, ruling alongside 1d6 bodyguards. The chieftain has 9 hit points and fights as a 2 HD monster. As long as the chieftain remains alive, all kobolds in the lair have an improved morale of 8 instead of 6.</p><p>Kobolds are small, doglike humanoids with scaly, rust-brown skin. They dwell in underground lairs and rely on <strong>ambush tactics</strong> to overwhelm enemies. Their <strong>infravision (90 feet)</strong> allows them to navigate in darkness with ease.</p><p>Kobolds <strong>hate gnomes</strong> and attack them on sight. Some kobold clans have spellcasters among their ranks.</p><p><strong>Terrain:</strong> Cavern, Hill, Mountain, Wood.</p>",
       "items": {
         "1TmHWsFF13XyX6Rm": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -13944,6 +14120,72 @@
       },
       "monsterType": "Humanoid",
       "name": "Kobold Chieftain"
+    },
+    "Kobold, Bodyguard": {
+      "biography": "<p>Kobolds are small, doglike humanoids with scaly, rust-brown skin and no hair. They live in underground tunnels and prefer to fight using ambush tactics. Their infravision extends up to 90 feet, allowing them to navigate in darkness with ease.</p><p data-start=\"357\" data-end=\"679\">Kobolds organize into clans of 10 to 60 members. Each lair is ruled by a chieftain with 9 hit points who fights as a 2 HD monster. The chieftain is protected by 1d6 bodyguards (6 HP each, fighting as 1+1 HD monsters). As long as the chieftain is alive, the kobolds in the lair have increased morale (8 instead of 6).</p><p data-start=\"681\" data-end=\"845\">These creatures have an intense hatred for gnomes and attack them on sight. Some kobolds possess magical talent, with spellcasters existing among their ranks.</p><p data-start=\"847\" data-end=\"891\"><strong data-start=\"847\" data-end=\"859\">Terrain:</strong> Cavern, Hill, Mountain, Wood.</p>",
+      "items": {
+        "EU13fdL3kJ6WUgjx": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "L9j3uC4pPABhuWyH": {
+          "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "name": "Bow, Short",
+          "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+          "unidentifiedName": "Bow, Short",
+          "weaponMastery": "Bow, Short"
+        },
+        "PlgT6HDYGEUV3X7P": {
+          "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "name": "Dagger",
+          "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+          "unidentifiedName": "Dagger",
+          "weaponMastery": "Dagger"
+        },
+        "PqWby05zIrd4uQcq": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "Ut6z89Qy7PKzvxR2": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows",
+          "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "unidentifiedName": "Arrows"
+        },
+        "WCLCwElMKNjgaE2o": {
+          "name": "Kobold Scaly Skin",
+          "unidentifiedName": "Kobold Scaly Skin"
+        },
+        "flaLEWZHyb2dN0ND": {
+          "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+          "name": "Sword, Short",
+          "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+          "unidentifiedName": "Sword, Short",
+          "weaponMastery": "Sword, Short"
+        },
+        "lgOxc5JNsdnq4fLC": {
+          "name": "Infravision"
+        },
+        "nY49Mm5a8dOl9qaL": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "o48r5pZGnKT1Dyrj": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "vr0JZniP9kCuFYsy": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "monsterType": "Humanoid",
+      "name": "Kobold, Bodyguard"
     },
     "Kryst*": {
       "biography": "<p>Kryst are sentient beings composed entirely of crystalline rock, each appearing as a cluster of twelve gleaming golden crystal spikes radiating from a central core. Native to the elemental plane of Earth, they exude a distinctive, angular beauty.</p><p>They are immune to poison, standard weapons, all 1st and 2nd level spells, and any attack derived from air. A kryst can detect invisible creatures at will and is capable of casting detect magic, dispel magic, haste, or an 'air to earth' spell—similar to a magic-user's dissolve spell that transforms air into earth—three times per day, all as if cast by a 9th level magic-user. They communicate telepathically over a range of 120 feet or, if mental contact proves adverse, via written messages.</p><p>In combat, a kryst ram its foes with its crystal spikes, launching up to three attacks per round. Each spike functions as a natural weapon.</p><p>Beyond the battlefield, the kryst maintain a widespread and intricate society within their own realms, coexisting peacefully with earth elementals. They welcome visitors and eagerly seek new knowledge, yet they wage an unending war against the hordes and strive to unite other creatures against them. They are also known to oppose the hydrax—though encounters are rare—and harbor a <strong>deep-seated fear of water-based creatures and attacks</strong>.</p><p><strong>Terrain:</strong> Plane of Earth</p>",
