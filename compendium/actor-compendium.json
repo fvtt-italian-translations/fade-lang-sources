@@ -4027,6 +4027,32 @@
       "monsterType": "Planar Monster, Enchanted",
       "name": "Djinni, Lesser*"
     },
+    "Dog, Normal": {
+      "biography": "<p>Dogs are carnivores and hunt in packs. Though they prefer wilderness, they may occasionally be found in caves. If three or fewer dogs are encountered, or if the pack is reduced to less than 50% of its original numbers, their morale is 6 rather than 8.</p><p><strong>Terrain:</strong> Any.</p><p><strong>Load:</strong> 200 to 1000 cn max, depending on breed.</p>",
+      "items": {
+        "Op3W72h1rmzEc83l": {
+          "name": "Bite"
+        },
+        "eU7nowUn81L1Xr9Q": {
+          "name": "Natural Protection"
+        }
+      },
+      "monsterType": "Normal Animal",
+      "name": "Dog, Normal"
+    },
+    "Dog, War": {
+      "biography": "<p>These are actually normal dogs trained, and by breeding programs enhanced. Generally large mastiffs or wolfhounds, they have keen senses of smell and hearing, making them adept at detecting intruders. Most war dogs are not usually vicious, and will rarely attack without cause. The status of war dogs varies greatly; some are loyal and beloved pets, some are watch dogs, others are hunting dogs, and some are trained for battle. Selected for their size and ferocity and trained for combat, they are loyal to their master/trainer and will attack on command. They are typically protected by light, leather armor (AV1 or 2) or other and a spiked collar. The number appearing depends on the owner.</p><p><strong>Terrain:</strong> Any.</p><p><strong>Load:</strong> 200 to 1000 cn max, depending on breed.</p><p><strong>Barding:</strong> 1x</p>",
+      "items": {
+        "Op3W72h1rmzEc83l": {
+          "name": "Bite"
+        },
+        "eU7nowUn81L1Xr9Q": {
+          "name": "Natural Protection"
+        }
+      },
+      "monsterType": "Normal Animal",
+      "name": "Dog, War"
+    },
     "Dolphin": {
       "biography": "<p>Dolphins are seagoing mammals closely related to whales but much smaller in size, typically around 10 feet long. With smooth hides, they are highly intelligent and known for their high-pitched language. Dolphins cannot breathe underwater and must surface every 15 minutes to breathe air.</p>\n                <p>They can communicate telepathically with other dolphins within a 50-mile radius and can detect magic underwater up to 360 feet. Dolphins despise sharks and may attack them, but they are generally friendly to sailors and have been known to assist people in need. Mermen sometimes ride dolphins as mounts, and they can even be harnessed to chariots by fantastical sea beings.</p>\n                <p>**Terrain:** Ocean.</p>\n                <p>**Load:** Can carry 1,500 cn at full speed or 3,000 cn at half speed.</p>",
       "items": {
@@ -7619,6 +7645,23 @@
       },
       "monsterType": "Giant Animal",
       "name": "Fish, Giant Sturgeon"
+    },
+    "Fox": {
+      "biography": "<p>Foxes are cunning, nocturnal scavengers that prefer stealth over confrontation. They dart in to nip at prey or carrion, retreating quickly to avoid danger. Their keen senses make them difficult to surprise (only surprised on a 1).</p>",
+      "items": {
+        "Hhs3QIHezhstR69M": {
+          "description": "<p>Foxes are very difficult to surprise and are only surprised on a 1.</p>",
+          "name": "Alert"
+        },
+        "IF3JlF2wV7IzN1as": {
+          "name": "Natural Protection"
+        },
+        "INWBnTpd4WfAOILL": {
+          "name": "Bite"
+        }
+      },
+      "monsterType": "Normal Animal",
+      "name": "Fox"
     },
     "Gargantua, Carrion Crawler": {
       "biography": "<p>A gargantua carrion crawler is a gigantic, grotesque arthropod created through magical experiments by the mad wizard Gargantua. It is twice the size of a normal carrion crawler, growing up to 40 feet long.</p><p><strong>Hunting & Combat:</strong> This massive scavenger cannot surprise enemies due to its size and the noise it makes while moving. It suffers a -4 penalty to attacks against man-sized or smaller creatures.</p><p><strong>Paralysis Tentacles:</strong> The worm lashes out with 8 paralyzing tentacles, each dealing 1d4+1 damage. Any creature hit must make a saving throw vs. paralysis or be unable to move.</p><p><strong>Massive Appetite:</strong> Gargantua <span style=\"font-family: Barlow, sans-serif\">carrion crawler</span> primarily feed on corpses but will attack living creatures if hungry.</p><p><strong>Terrain:</strong> Same as the original species (Underground, Ruins).</p>",
@@ -14252,7 +14295,7 @@
       "name": "Kryst*"
     },
     "Lava Ooze": {
-      "biography": "<p>This creature is a formless mass of searing, molten rock that resembles either a stagnant puddle or a streaming ribbon, spanning roughly 10' x 10'. It typically inhabits areas near active volcanoes or other regions marked by extreme heat, and although it originates from the Prime Plane, it can also thrive on the elemental plane of Fire.</p>\n<p>The lava ooze is exceptionally fluid, capable of squeezing through even the narrowest crevices, and it detects vibrations within a 60' radius. In combat, it projects up to three pseudopods per round that can reach targets up to 15' away. Each pseudopod strike deals 4d6 points of damage and leaves a burning layer of lava on the target, which then inflicts an additional 3d6 points of heat damage per round for [/r 1d4 #rounds]. While multiple strikes on the same foe do not increase the per-round heat damage, their durations do stack.</p>\n<p>This mindless ooze relentlessly attacks until it is destroyed. It is immune to both natural and magical fire as well as to all mind-affecting attacks (such as charm or ESP), but it takes double damage from cold-based assaults.</p>\n<p><strong>Terrain:</strong> Mountain (volcanic)</p>",
+      "biography": "<p>This creature is a formless mass of searing, molten rock that resembles either a stagnant puddle or a streaming ribbon, spanning roughly 10' x 10'. It typically inhabits areas near active volcanoes or other regions marked by extreme heat, and although it originates from the Prime Plane, it can also thrive on the elemental plane of Fire.</p><p>The lava ooze is exceptionally fluid, capable of squeezing through even the narrowest crevices, and it detects vibrations within a 60' radius. In combat, it projects up to three pseudopods per round that can reach targets up to 15' away. Each pseudopod strike deals [[/r 4d6 #strike damage]] points of damage and leaves a burning layer of lava on the target, which then inflicts an additional [[/r 3d6 #Heat damage]] points of heat damage per round for [[/r 1d4 #rounds]]. While multiple strikes on the same foe do not increase the per-round heat damage, their durations do stack.</p><p>This mindless ooze relentlessly attacks until it is destroyed. It is immune to both natural and magical fire as well as to all mind-affecting attacks (such as charm or ESP), but it takes double damage from cold-based assaults.</p><p><strong>Terrain:</strong> Mountain (volcanic)</p>",
       "items": {
         "LQdjFxEZRCNe34mO": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -14274,7 +14317,7 @@
           "name": "Armor"
         },
         "qfzSRY6532EPG4Vz": {
-          "description": "A flexible, fluid appendage that lashes out up to 15' to strike foes. On a hit, it deals 4d6 damage and leaves a scorching coating that causes an extra 3d6 heat damage per round for [/r 1d4 #rounds].",
+          "description": "<p>A flexible, fluid appendage that lashes out up to 15' to strike foes. On a hit, it deals 4d6 damage and leaves a scorching coating that causes an extra [[/r 3d6 #Heat damage]] heat damage per round for [[/r 1d4 #rounds]].</p>",
           "name": "Pseudopod"
         },
         "tEXVeCXbfEGTN02X": {
@@ -14301,7 +14344,7 @@
         },
         "O1ZtIWiCB6YTVKoa": {
           "description": "Reddish-brown, tough skin serves as natural armor.",
-          "name": "Armor"
+          "name": "Natural Protection"
         },
         "lpv3oMm22nplEKGo": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -14319,7 +14362,7 @@
           "shortName": "Breath"
         },
         "w0nKvtK9whLp6t41": {
-          "description": "A suckerlike bite that, on a successful hit, holds on and sucks blood, inflicting 1d6 damage per round.",
+          "description": "<p>A suckerlike bite that, on a successful hit, holds on and sucks blood, inflicting [[/r 1d6 #Blood-sucking damage]] damage per round.</p>",
           "name": "Bite",
           "unidentifiedName": "Bite"
         },
@@ -14331,60 +14374,6 @@
       },
       "monsterType": "Lowlife",
       "name": "Leech, Giant"
-    },
-    "Lesser Phoenix*": {
-      "biography": "<p>Hailing from the elemental plane of Fire, the Lesser Phoenix appears as a striking red-orange eagle enveloped in fierce flames. On the Prime Plane, it’s an uncommon visitor, capable of thriving in any climate yet steadfastly avoiding underground lairs.</p><p>This creature remains peaceful unless provoked, resisting all forms of fire, charm, and hold spells, as well as attacks from weapons below a +3 enchantment. In combat, it employs its blazing claws and beak, while its fiery aura scorches foes within a 10' radius, inflicting [[/r 3d6 #Fire damage per round]], undeterred by conventional fire protections due to the unique nature of phoenix flame.</p><p>When vanquished, the Lesser Phoenix vanishes in a dramatic 20' radius explosion, unleashing [[/r 1d10*5 #Explosion damage]] (save vs. dragon breath for half, bypassing fire defenses). It reemerges from its ashes just 1 round later, fully restored, and swiftly flees. Only a wish can permanently extinguish it, and its method of rebirth remains an enigma.</p><p>Each defeat yields a single feather. Crafting a potion of phoenix fire resistance requires three such feathers, each valued at 10,000 gp, granting complete immunity to normal and magical fire, halving fire breath damage (quarter with a successful save), and providing typical resistance against phoenix fire.<br><b>Terrain:</b> Any; Plane of Fire</p>",
-      "items": {
-        "1NSCpEVI6yw92v8J": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "2NpXXwjSHtCjg1Ax": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "5JhTPFgXus55yrbm": {
-          "description": "The fiery shroud of the Lesser Phoenix bolsters its natural armor.",
-          "name": "Hide"
-        },
-        "8P19Rc2uPtERX3y4": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "E7ROrtxhAOvvrG1Q": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "KzL8JMN47P1HAo6x": {
-          "description": "The Lesser Phoenix rakes with blazing claws.",
-          "name": "Claw"
-        },
-        "UKR7zncEGXuAQVL4": {
-          "description": "The Lesser Phoenix emits a blazing aura within a 10' radius, causing [[/r 3d6 #Fire damage per round]] to all nearby, bypassing fire resistances.",
-          "gmNotes": "Phoenix flame ignores all fire protection.",
-          "name": "Flame Aura"
-        },
-        "a6AqmM1srtenn4k2": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "cdp5nJKcNPhflmo2": {
-          "description": "Upon destruction, the Lesser Phoenix erupts in a 20' radius for [[/r 1d10*5 #Explosion damage]] (save vs. dragon breath for half), ignoring fire protections; reforms 1 round later to escape.",
-          "gmNotes": "Activates on death, then flees.",
-          "name": "Explosion"
-        },
-        "e5ldizVmSsSPoKhm": {
-          "description": "The Lesser Phoenix bites with a scorching beak.",
-          "name": "Bite"
-        }
-      },
-      "monsterType": "Planar Monster, Enchanted",
-      "name": "Lesser Phoenix*"
     },
     "Lich, Cleric (21HD)*": {
       "biography": "<p>A lich is a powerful undead monster of magical origin. It looks like a skeleton wearing fine garments and was once an evil and chaotic magic-user or cleric of level 21 or greater (often 27-36). A lich is still able to use spells as it did while alive, making it extremely dangerous. A lich is not normally found wandering but instead remains in or very near a well-defended lair, which might be a dungeon, catacomb, tomb, or necropolis (\"city of the dead\").</p>\n<p>The very sight of a lich causes fear in all characters below 5th level (no saving throw). Its mere touch causes [[/r 1d10 #Touch damage]] <strong>points of damage</strong> and can paralyze any creature for [[/r 1d100 #Paralyzed for this many days]] <strong>days</strong> (though a saving throw applies, and the paralysis is magically dispellable).</p>\n<p><strong>Before any encounter with a lich, the DM should select spells for the creature with care, as a lich is extremely intelligent and uses them to its best advantage</strong>. Note that the lich's morale is given as 10, but a lich flees if in actual danger.</p>\n<p>Liches are undead and can be turned (but not destroyed) by clerics. They are immune to <em>charm</em>, <em>sleep</em>, <em>feeblemind</em>, <em>polymorph</em>, <em>cold</em>, <em>lightning</em>, and <em>death</em> spells, and can be harmed only by magical weapons. They are also immune to the effects of all spells of less than 4th level. Outside of its lair, a lich always carries [[/r 1d4 + 1 #Powerful items]] powerful magical items to be used in case of trouble. These should be chosen, not randomly determined. Within its lair, a lich has <strong>4d8</strong> additional temporary magical items (or more), plus the amounts of coins, gems, and jewelry given for Treasure Type H in Chapter 16 (with a 90% chance for each type). The number and severity of traps and other dangers to intruders should be appropriate to protect such a hoard.</p>\n<p>A magic-user lich normally has [[/r 1d2 #Spells]] <strong>spells</strong> of a permanent nature, most often detect invisible or fly. A clerical lich normally has [[/r 3d4 #Types of undead lairs nearby]] <strong>types</strong> of other undead nearby, acting as servants, with a full lair of each type (maximum number appearing) usually present.</p>\n<p>Either type of lich can summon other powerful undead for aid. The summons can be made simply by concentrating, and the creature(s) responding arrive [[/r 1d100 #rounds]] <strong>rounds</strong> later, depending on their distance. The summons may be made as often as desired, but any one type of creature will respond only once per day at most. To randomly determine the creatures appearing in response to the summons, roll [[/r 1d20 #See lich summon table for result]] and refer to the table. Roll again if a type of creature has already responded that day.</p>\n<table style=\"width:300px\">\n    <tbody><tr><th><p>Roll</p></th><th><p>Creature</p></th></tr>\n<tr><td><p>1-5</p></td><td><p>Spectre ([[/r 2d4 #Spectre]])</p></td></tr>\n<tr><td><p>6-9</p></td><td><p>Vampire ([[/r 1d6 #Vampire]])</p></td></tr>\n<tr><td><p>10-12</p></td><td><p>Phantom, Shade ([[/r 1d3 #Phantom, Shade]])</p></td></tr>\n<tr><td><p>13-15</p></td><td><p>Haunt, Ghost ([[/r 1d2 #Chaotic Haunt,Ghost]] Chaotic)</p></td></tr>\n<tr><td><p>16</p></td><td><p>Haunt, Poltergeist ([[/r 1d2 #Haunt, Poltergeist]])</p></td></tr>\n<tr><td><p>17</p></td><td><p>Spirit, Druj</p></td></tr>\n<tr><td><p>18</p></td><td><p>Spirit, Revenant</p></td></tr>\n<tr><td><p>19</p></td><td><p>Nightshade (any 1)</p></td></tr>\n<tr><td><p>20</p></td><td><p>Undead Beholder</p></td></tr>\n</tbody></table>\n<p>A summoned vampire may have a [[/r 1d100 #Summoned vampire is a magic-user or cleric on 25 or less. Roll for each]] chance (check for each) of being a magic-user or cleric of level 7-9 ([[/r 1d3 + 6 #Level]]).</p>\n<p>Liches are master villains, coordinating armies and spy networks made up of the undead. Each one has its own goal: one may want to achieve true immortality, another may serve an evil immortal of entropy, and yet another may wish to transform the entire world into a horrid playground for the undead. Each lich in a campaign should have its own name, style, and motivation.</p>\n<p><strong>Terrain:</strong> Ruins.</p>",
@@ -16555,12 +16544,13 @@
       "name": "Living Statue, Rock"
     },
     "Lizard Man": {
-      "biography": "<p>Lizard Men thrive in swamps, rivers, lakes, and coastal caverns, their humanoid forms adorned with scaly hides, clawed hands, tails, and reptilian heads. Ranging from drab green or brown to vivid reds, blues, yellows, or greens, these water-dwelling tribes hunt relentlessly, often capturing humans and demihumans for feasts at their lairs.</p><p>Semi-intelligent, they wield spears or large clubs—treated as maces—with a +1 damage bonus from their formidable strength (e.g., [[/r 1d6+1 #Weapon damage]] for spear). One in ten speaks rudimentary Common, allowing tense negotiations—though hunger may override talk if food isn’t offered, driving them to dine on their interlocutors.</p><p>Living arduous lives, they roam in bands of [[/r 2d4 #Lizard Men wandering]] or lairs of [[/r 6d6 #Lizard Men in lair]], sometimes serving other races as warriors or scouts for sustenance. Neutral and pragmatic, they hoard modest treasures, valuing only what aids their survival (HD 2 + 1, XP 25).<br><b>Terrain:</b> Cavern, River/Lake, Swamps</p>",
+      "biography": "<p>Lizard Men thrive in swamps, rivers, lakes, and coastal caverns, their humanoid forms adorned with scaly hides, clawed hands, tails, and reptilian heads. Ranging from drab green or brown to vivid reds, blues, yellows, or greens, these water-dwelling tribes hunt relentlessly, often capturing humans and demihumans for feasts at their lairs.</p><p>Semi-intelligent, they wield spears or large clubs—treated as maces—with a +1 damage bonus from their formidable strength (e.g., [[/r 1d6+1 #Weapon damage]] for spear). One in ten speaks rudimentary Common, allowing tense negotiations—though hunger may override talk if food isn’t offered, driving them to dine on their interlocutors.</p><p>Living arduous lives, they roam in bands of [[/r 2d4 #Lizard Men wandering]] or lairs of [[/r 6d6 #Lizard Men in lair]], sometimes serving other races as warriors or scouts for sustenance. Neutral and pragmatic, they hoard modest treasures, valuing only what aids their survival (HD 2 + 1, XP 25).</p><p><strong>Terrain:</strong> Cavern, River/Lake, Swamps</p>",
       "items": {
-        "B78NDaaSXYdwSWKx": {
-          "description": "The Lizard Man wields a spear or club with a +1 damage bonus, dealing [[/r 1d6+1 #Weapon damage]].",
-          "gmNotes": "Damage: spear 1d6+1, club (mace) 1d6+1.",
-          "name": "Weapon"
+        "5n7QCvFzIN0lACPa": {
+          "description": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
+          "name": "Club",
+          "unidentifiedDesc": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
+          "weaponMastery": "Club or Torch"
         },
         "D8tiOE2aocZjSygq": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -16590,6 +16580,12 @@
         "pCqxbXA1sxRW84gu": {
           "description": "The Lizard Man’s scaly hide offers sturdy protection.",
           "name": "Scales"
+        },
+        "tfbRwWqAkCsIotTj": {
+          "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+          "name": "Spear",
+          "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+          "weaponMastery": "Spear"
         }
       },
       "monsterType": "Humanoid",
@@ -16768,7 +16764,7 @@
       "name": "Lizard, Tuatara"
     },
     "Locust, Giant": {
-      "biography": "<p>Giant locusts are 2 to 3 feet long and live underground. They may be mistaken for statues or might not be noticed at all until approached, due to their stone-gray color. These creatures are herbivores and also consume fungus, such as yellow mold and shriekers. They cannot be harmed by yellow mold or most poisons.</p><p>Instead of fighting, giant locusts usually flee by jumping away, covering distances of up to 60 feet. Unfortunately, they often become confused and may accidentally jump into a party, with a 50% chance per jump. If this occurs, a victim is determined randomly, and an attack roll is made. If the giant locust hits a character, the victim suffers 1d4 points of damage before the locust flies away.</p><p>When frightened or attacked, giant locusts emit a loud shrieking noise to warn their companions. In dungeons, this shriek has a 20% chance per round of attracting wandering monsters. If cornered, a giant locust will spit a brown, gooey substance up to 10 feet. The target is treated as having an armor class of 9, regardless of their actual armor class. A victim hit by the giant locust's spittle must make a saving throw against poison or be unable to do anything for one turn due to the awful smell. After this time, the victim will become accustomed to the odor, but any character approaching within 5 feet must also make a saving throw or suffer the same effects. This aroma will persist until the spittle is washed off. The terrain where these locusts are found is typically cavernous.</p>",
+      "biography": "<p>Giant locusts are 2 to 3 feet long and live underground. They may be mistaken for statues or might not be noticed at all until approached, due to their stone-gray color. These creatures are herbivores and also consume fungus, such as yellow mold and shriekers. They cannot be harmed by yellow mold or most poisons.</p><p>Instead of fighting, giant locusts usually flee by jumping away, covering distances of up to 60 feet. Unfortunately, they often become confused and may accidentally jump into a party, with a 50% chance per jump. If this occurs, a victim is determined randomly, and an attack roll is made. If the giant locust hits a character, the victim suffers 1d4 points of damage before the locust flies away.</p><p>When frightened or attacked, giant locusts emit a loud shrieking noise to warn their companions. In dungeons, this shriek has a 20% chance per round of attracting wandering monsters. If cornered, a giant locust will spit a brown, gooey substance up to 10 feet. The target is treated as having an armor class of 9, regardless of their actual armor class. A victim hit by the giant locust's spittle must make a saving throw against poison or be unable to do anything for one turn due to the awful smell. After this time, the victim will become accustomed to the odor, but any character approaching within 5 feet must also make a saving throw or suffer the same effects. This aroma will persist until the spittle is washed off. </p><p><strong>Terrain:</strong> Cavern.</p>",
       "items": {
         "2Gkku3VEg9prjxcq": {
           "description": "<p>Instead of fighting, giant locusts typically flee by jumping away, covering distances of up to 60 feet. Unfortunately, they often become confused and may accidentally jump into a party, with a 50% chance per jump. If this happens, a victim is determined randomly, and an attack roll is made. If the giant locust hits a character, the victim suffers 1d4 points of damage before the locust flies away.</p>",
@@ -16821,13 +16817,17 @@
       "monsterType": "Lowlife",
       "name": "Locust, Giant"
     },
-    "Lycanthrope, Devil Swine": {
-      "biography": "<p>Devil Swine are shape-changing lycanthropes, appearing either as massive swine or as obese humans. They freely change shapes at night but must remain in one form during daylight hours. Devil Swine are carnivorous, favoring human flesh, and often live near human settlements where they can hunt. They ambush their prey, and each Devil Swine can cast <em>Charm Person</em> up to three times per day, in either human or swine form. Victims must make a saving throw vs. spells with a -2 penalty; charmed humans become controlled minions, with 0-3 usually under a Devil Swine's control.</p><p>In <strong>animal form</strong>, Devil Swine can only be harmed by magical or silvered weapons and communicate with other swine. In <strong>human form</strong>, they can use any weapon, speak any known language, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a Devil Swine’s gore or weapon attack becomes a Devil Swine within 2d12 days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Forests, swamps, or areas near human settlements",
+    "Lycanthrope, Devil Swine*": {
+      "biography": "<p>Devil Swine are shape-changing lycanthropes, appearing either as massive swine or as obese humans. They freely change shapes at night but must remain in one form during daylight hours. Devil Swine are carnivorous, favoring human flesh, and often live near human settlements where they can hunt. They ambush their prey, and each Devil Swine can cast <em>Charm Person</em> up to three times per day, in either human or swine form. Victims must make a saving throw vs. spells with a -2 penalty; charmed humans become controlled minions, with [[/r 1d4-1 #Minions]] usually under a Devil Swine's control.</p><p>In <strong>animal form</strong>, Devil Swine can only be harmed by magical or silvered weapons and communicate with other swine. In <strong>human form</strong>, they can use any weapon, speak any known language, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a Devil Swine’s gore or weapon attack becomes a Devil Swine within [[/r 2d12 #Days until victim becomes a Devil Swine]] days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Forests, swamps, or areas near human settlements</p>",
       "items": {
         "8OthCdMyR126OezI": {
           "description": "Natural hide grants an AC of 3 in were-form.",
           "name": "Were-Form Armor",
           "unidentifiedDesc": "Natural hide grants an AC of 3 in were-form."
+        },
+        "AWbD8sRWISQagOJc": {
+          "description": "<p>Charm can be used up to three times a day and the target has a -2 penalty to their saving throw versus spells.</p><p>Affects humans, demihumans, and certain other creatures. The target must make a saving throw vs. spells; if failed, the target views the caster as a “best friend” and will defend them against any perceived threat. The spell does not affect animals, magical creatures, undead, or creatures larger than ogres.</p><p>The charmed creature obeys friendly commands but resists those that go against its nature or cause self-harm. The duration depends on the target’s Intelligence, allowing periodic saving throws:</p><ul><li>High Intelligence (13-18): Save every day</li><li>Average Intelligence (9-12): Save every week</li><li>Low Intelligence (3-8): Save every month</li></ul>",
+          "name": "Charm Person"
         },
         "Ap2Gbs0jf9wVmVXi": {
           "description": "A powerful gore attack, transmitting lycanthropy.",
@@ -16848,6 +16848,10 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many boar]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.WjjNYqNlATmZeytu]{Boar, Normal}, arriving in [[/r 1d4 #Boar arrive in this many rounds]] rounds.</p>",
+          "name": "Animal Summon"
+        },
         "gPDahD9EmatLm0jt": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -16860,10 +16864,10 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Devil Swine"
+      "name": "Lycanthrope, Devil Swine*"
     },
-    "Lycanthrope, Werebat": {
-      "biography": "<p>Werebats are dangerous, intelligent flying lycanthropes often confused with vampires. They can transform freely between human and bat forms, summoning both normal and giant bats for assistance. Werebats have a 1 in 6 chance per bite of inflicting a non-magical disease.</p><p>In <strong>animal form</strong>, werebats can only be harmed by magical or silvered weapons, and they can communicate with bats. In <strong>human form</strong>, they can use any weapon, speak any known languages, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werebat’s bite becomes a werebat within 2d12 days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
+    "Lycanthrope, Werebat*": {
+      "biography": "<p>Werebats are dangerous, intelligent flying lycanthropes often confused with vampires. They can transform freely between human and bat forms, summoning both normal and giant bats for assistance. Werebats have a [[/r 1d6 #Inflicts disease on a 1]] 1 in 6 chance per bite of inflicting a non-magical disease.</p><p>In <strong>animal form</strong>, werebats can only be harmed by magical or silvered weapons, and they can communicate with bats. In <strong>human form</strong>, they can use any weapon, speak any known languages, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werebat’s bite becomes a werebat within [[/r 2d12 #Days until victim becomes a Werebat]] days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Variable, often as animal type</p>",
       "items": {
         "1A0S6mGmpBs8QaZ9": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -16889,8 +16893,12 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "Xhiz0HKit23EwxFC": {
+          "description": "<p>Can summon [[/r 1d4 #Summons this many additional werebats]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.5cV8HJzPnKBnQmaC]{Lycanthrope, Werebat*}, arriving in [[/r 1d4 #Werebats arrive in this many rounds]] rounds..</p>",
+          "name": "Summon Werebats"
+        },
         "YGy42tzBkjc9F7Rj": {
-          "description": "Can summon 1d2 normal or giant bats, arriving in 1d4 rounds. Also can summon 1d4 additional werebats.",
+          "description": "<p>Can summon [[/r 1d2 #Summons this many normal or giant bats]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.LN2Pk0HK66twdjGu]{Bat, Normal} or @UUID[Compendium.fade-compendiums.actor-compendium.Actor.n50z0ac3B0zwsLQp]{Bat, Giant}, arriving in [[/r 1d4 #Bats arrive in this many rounds]] rounds.</p>",
           "name": "Animal Summon"
         },
         "pEbe06ruiDGCNrlJ": {
@@ -16899,7 +16907,7 @@
           "unidentifiedDesc": "Natural hide grants an AC of 4 in were-form."
         },
         "sBDiUp11yJOGyPVh": {
-          "description": "A bite attack with a 1 in 6 chance of inflicting a non-magical disease.",
+          "description": "<p>A bite attack with a [[/r 1d6 #Inflicts disease on a 1]] 1 in 6 chance of inflicting a non-magical disease.</p>",
           "name": "Bite"
         },
         "vDeNqraGwHDsc8C3": {
@@ -16909,9 +16917,9 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Werebat"
+      "name": "Lycanthrope, Werebat*"
     },
-    "Lycanthrope, Werebear": {
+    "Lycanthrope, Werebear*": {
       "biography": "<p>Werebears are highly intelligent and often prefer solitude or the company of regular bears. They may be friendly if approached peacefully. In combat, a werebear that hits a target with both claws can also deliver a powerful bear hug for an additional 2d8 damage.</p><p>In <strong>animal form</strong>, werebears can only be harmed by magical or silvered weapons, and they communicate with other bears. In <strong>human form</strong>, they may wield weapons, speak any known language, and can be attacked with normal weapons.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werebear’s claws or bite becomes a werebear within 2d12 days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
       "items": {
         "3RgzGZz4y8z82wBs": {
@@ -16935,12 +16943,8 @@
           "shortName": "Breath"
         },
         "SeIIHAo0nJVMgCLo": {
-          "description": "If both claws hit the same target in one round, the werebear can deliver an additional bear hug dealing 2d8 damage.",
+          "description": "<p>If both claws hit the same target in one round, the werebear can deliver an additional bear hug dealing [[/r 2d8 #Bear hug damage]] damage.</p>",
           "name": "Bear Hug"
-        },
-        "UAFNuVciaeqaN5nn": {
-          "description": "Can summon 1d2 normal bears, arriving in 1d4 rounds.",
-          "name": "Animal Summon"
         },
         "V14dqwQLyC0kKDRJ": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -16950,6 +16954,10 @@
         "XOnDFSdZayRr5kkF": {
           "description": "A ferocious bite attack transmitting lycanthropy.",
           "name": "Bite"
+        },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many bears]] any type of bear in the area, arriving in [[/r 1d4 #Bear arrive in this many rounds]] rounds.</p>",
+          "name": "Animal Summon"
         },
         "iQvvowoUXlz9vmej": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -16962,9 +16970,9 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Werebear"
+      "name": "Lycanthrope, Werebear*"
     },
-    "Lycanthrope, Wereboar": {
+    "Lycanthrope, Wereboar*": {
       "biography": "<p>Wereboars are known for their semi-intelligence and short temper. In human form, they often appear as berserkers, gaining +2 on attack rolls and fighting to the death. Wereboars do not associate with devil swine. In combat, wereboars summon normal boars to assist.</p><p>In <strong>animal form</strong>, wereboars can only be harmed by magical or silvered weapons, and they communicate with boars. In <strong>human form</strong>, they may speak any known languages, be harmed by normal weapons, and wield any weapon.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wereboar’s tusk slash becomes a wereboar within 2d12 days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
       "items": {
         "7Blvg1PRkdSXwtIG": {
@@ -16987,6 +16995,10 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many boar]] normal @UUID[Compendium.fade-compendiums.actor-compendium.Actor.WjjNYqNlATmZeytu]{Boar, Normal}, arriving in [[/r 1d4 #Boar arrive in this many rounds]] rounds.</p>",
+          "name": "Animal Summon"
+        },
         "eGXDQfovP28npLVg": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -16996,10 +17008,6 @@
           "description": "A powerful tusk slash attack transmitting lycanthropy.",
           "name": "Tusk Slash"
         },
-        "qlmv0w03JFUAIxp8": {
-          "description": "Can summon 1d2 normal boars, arriving in 1d4 rounds.",
-          "name": "Animal Summon"
-        },
         "uMfpLElQtrSUIW1H": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -17007,19 +17015,22 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Wereboar"
+      "name": "Lycanthrope, Wereboar*"
     },
-    "Lycanthrope, Werefox": {
-      "biography": "<p>Werefoxes are intelligent and nimble lycanthropes who favor dense underbrush, where they maintain full or near-full movement. Highly intelligent, they may also be magic-users, though spells can only be cast in human form. Werefoxes can charm (either persons in human form or animals in fox form) up to three times per day, lasting up to 24 hours.</p><p>In <strong>animal form</strong>, werefoxes can only be harmed by magical or silvered weapons, and they communicate with other foxes. In <strong>human form</strong>, they can use any weapon, cast spells, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werefox’s bite or weapon attack becomes a werefox within 2d12 days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
+    "Lycanthrope, Werefox*": {
+      "biography": "<p>Werefoxes are intelligent and nimble lycanthropes who favor dense underbrush, where they maintain full or near-full movement. Highly intelligent, they may also be magic-users, though spells can only be cast in human form. Werefoxes can charm (either persons in human form or animals in fox form) up to three times per day, lasting up to 24 hours.</p><p>In <strong>animal form</strong>, werefoxes can only be harmed by magical or silvered weapons, and they communicate with other foxes. In <strong>human form</strong>, they can use any weapon, cast spells, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werefox’s bite or weapon attack becomes a werefox within [[/r 2d12 #Target becomes a Werefox in this many days]] days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Variable, often as animal type</p>",
       "items": {
         "7PdrxgBycvIjWfV0": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "7oKucMTjyoNHYBko": {
+          "name": "Swim"
+        },
         "J0QeUOSFXyEGCTBb": {
-          "description": "Can charm either persons (in human form) or animals (in fox form) up to three times per day. Each charm lasts up to 24 hours.",
-          "name": "Charm Ability"
+          "description": "<p>Can charm either persons (in human form) or animals (in fox form) up to three times per day. Each charm lasts up to 24 hours.</p><p>Affects humans, demihumans, and certain other creatures. The target must make a saving throw vs. spells; if failed, the target views the caster as a “best friend” and will defend them against any perceived threat. The spell does not affect animals, magical creatures, undead, or creatures larger than ogres.</p><p>The charmed creature obeys friendly commands but resists those that go against its nature or cause self-harm. The duration depends on the target’s Intelligence, allowing periodic saving throws:</p><ul><li>High Intelligence (13-18): Save every day</li><li>Average Intelligence (9-12): Save every week</li><li>Low Intelligence (3-8): Save every month</li></ul>",
+          "name": "Charm Person"
         },
         "LBG3Li5UehQaMhQj": {
           "description": "Natural hide grants an AC of 6 in were-form.",
@@ -17030,6 +17041,10 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many foxes]] normal fox, arriving in [[/r 1d4 #Fox arrive in this many rounds]] rounds.</p>",
+          "name": "Animal Summon"
         },
         "h9G6962ijwgvHbma": {
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
@@ -17058,10 +17073,10 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Werefox"
+      "name": "Lycanthrope, Werefox*"
     },
-    "Lycanthrope, Wererat": {
-      "biography": "<p>Wererats are unusual lycanthropes because their natural form is that of a large rat, and they transform into human form as needed. Intelligent and sly, they often set ambushes and prefer man-sized rat form in combat, surprising foes on a roll of 1-4 on 1d6. Wererats summon giant rats to aid them in battle, and only their bite transmits lycanthropy.</p><p>In <strong>animal form</strong>, wererats can only be harmed by magical or silvered weapons or spells, and they communicate with rats. In <strong>human form</strong>, wererats may use any weapon, speak any known languages, and be harmed by normal weapons.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wererat's bite becomes a wererat within 2d12 days. The condition kills demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
+    "Lycanthrope, Wererat*": {
+      "biography": "<p>Wererats are unusual lycanthropes because their natural form is that of a large rat, and they transform into human form as needed. Intelligent and sly, they often set ambushes and prefer man-sized rat form in combat, surprising foes on a roll of 1-4 on [[/r 1d6 #Opponent surprised on 1-4]]. Wererats summon giant rats to aid them in battle, and only their bite transmits lycanthropy.</p><p>In <strong>animal form</strong>, wererats can only be harmed by magical or silvered weapons or spells, and they communicate with rats. In <strong>human form</strong>, wererats may use any weapon, speak any known languages, and be harmed by normal weapons.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wererat's bite becomes a wererat within [[/r2d12 #Days until victim turns into a wererat]] days. The condition kills demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Variable, often as animal type</p>",
       "items": {
         "4K35d58yVpHX4vww": {
           "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
@@ -17098,13 +17113,8 @@
           "description": "A wererat bite attack that transmits lycanthropy.",
           "name": "Bite"
         },
-        "h7uPwUDHQySMecIo": {
-          "description": "AC of 9 when in human form.",
-          "name": "Human Form Armor",
-          "unidentifiedDesc": "AC of 9 when in human form."
-        },
-        "t5IJfYQoRJBKdh1n": {
-          "description": "Can summon 1d2 normal rats, arriving in 1d4 rounds.",
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many giant rats]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.GHYGJYLKElPllGO9]{Rat, Giant}, arriving in [[/r 1d4 #Rats arrive in this many rounds]] rounds.</p>",
           "name": "Animal Summon"
         },
         "wpQk30h6zTGrfzn6": {
@@ -17114,10 +17124,10 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Wererat"
+      "name": "Lycanthrope, Wererat*"
     },
-    "Lycanthrope, Wereseal": {
-      "biography": "<p>Wereseals are typically found near cold water seacoasts. The more common female wereseal is non-aggressive, but the rarer male \"bull\" wereseal is highly dangerous, with AC 3, HD 8, and a damaging bite attack. Females avoid combat, while males protect territory fiercely.</p><p>In <strong>animal form</strong>, wereseals can only be harmed by magical or silvered weapons, and they communicate with other seals. In <strong>human form</strong>, they may speak any known languages, use weapons, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wereseal’s bite becomes a wereseal within 2d12 days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Coastal or cold seacoasts",
+    "Lycanthrope, Wereseal*": {
+      "biography": "<p>Wereseals are typically found near cold water seacoasts. The more common female wereseal is non-aggressive, but the rarer male \"bull\" wereseal is highly dangerous, with AC 3, HD 8, and a damaging bite attack. Females avoid combat, while males protect territory fiercely.</p><p>In <strong>animal form</strong>, wereseals can only be harmed by magical or silvered weapons, and they communicate with other seals. In <strong>human form</strong>, they may speak any known languages, use weapons, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wereseal’s bite becomes a wereseal within [[/r 2d12 #Days until victim becomes a Wereseal]] days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Coastal or cold seacoasts</p>",
       "items": {
         "3ggPPfy6hiDiOFga": {
           "description": "A powerful bite attack transmitting lycanthropy.",
@@ -17148,6 +17158,10 @@
           "name": "Were-Form Armor",
           "unidentifiedDesc": "Natural hide grants an AC of 5 in were-form."
         },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many seal]] normal seal, arriving in [[/r 1d4 #Seal arrive in this many rounds]] rounds.</p>",
+          "name": "Animal Summon"
+        },
         "sR6Eiw4Ed6UTF8Ze": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
@@ -17155,9 +17169,9 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Wereseal"
+      "name": "Lycanthrope, Wereseal*"
     },
-    "Lycanthrope, Wereshark": {
+    "Lycanthrope, Wereshark*": {
       "biography": "<p>Weresharks are mermen afflicted with lycanthropy, transforming into a mako shark form in darkness. During a full moon, they must change and become bloodthirsty, losing intelligence and becoming dangerous predators. In animal form, they are harmed only by magical or silvered weapons. Rumors persist of humans with the same affliction in coastal areas.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wereshark’s bite becomes a wereshark within 2d12 days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Coastal or open sea</p>",
       "items": {
         "1iDXoUzI0JfYlyPC": {
@@ -17180,6 +17194,10 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many shark]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.liQI7wsZUDtPxe6S]{Shark, Mako}, arriving in [[/r 1d4 #Sharkarrive in this many rounds]] rounds.</p>",
+          "name": "Animal Summon"
+        },
         "ed69FLLVJJAI7SEv": {
           "description": "A powerful bite attack transmitting lycanthropy.",
           "name": "Bite"
@@ -17196,9 +17214,9 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Wereshark"
+      "name": "Lycanthrope, Wereshark*"
     },
-    "Lycanthrope, Weretiger": {
+    "Lycanthrope, Weretiger*": {
       "biography": "<p>Weretigers are fierce, intelligent lycanthropes, closely related to the great cats. Known for their curiosity, they become highly dangerous when provoked. Weretigers are skilled swimmers and quiet trackers, often surprising prey on a roll of 1-4 on 1d6. They can summon great cats (preferring tigers) to aid them if nearby.</p><p>In <strong>animal form</strong>, weretigers can only be harmed by magical or silvered weapons, and they communicate with other cats. In <strong>human form</strong>, they may wield weapons, speak any known language, and can be attacked with normal weapons.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a weretiger’s claws or bite becomes a weretiger within 2d12 days. The condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
       "items": {
         "0gXkTR0StSOed48x": {
@@ -17245,9 +17263,9 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Weretiger"
+      "name": "Lycanthrope, Weretiger*"
     },
-    "Lycanthrope, Werewolf": {
+    "Lycanthrope, Werewolf Leader*": {
       "biography": "<p>Werewolves are semi-intelligent creatures known for their hunting packs. Groups of five or more have a leader with 30 hit points, attacking as a 5 HD monster and dealing +2 damage per hit. Werewolves can summon normal wolves to create larger packs for attacks.</p><p>In <strong>animal form</strong>, werewolves can only be harmed by magical or silvered weapons, and they communicate with wolves. In <strong>human form</strong>, they may speak any known languages, be harmed by normal weapons, and may wield any weapon.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werewolf bite becomes a werewolf within 2d12 days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
       "items": {
         "EpcI1oPb4J5rcnxs": {
@@ -17259,6 +17277,10 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many wolves]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.WKbSIoK7it7NgLXg]{Wolf, Normal}, arriving in [[/r 1d4 #Wolves arrive in this many rounds]] rounds.</p>",
+          "name": "Animal Summon"
         },
         "aTJBcvoluBSjQEGq": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -17274,9 +17296,50 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "qPYpt1XZOPSQQtdN": {
-          "description": "Can summon 1d2 normal wolves, arriving in 1d4 rounds.",
+        "tz3f4UXijn9B3zsF": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "yLK6fFJHrsM0U7JX": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        }
+      },
+      "monsterType": "Monster, Enchanted",
+      "name": "Lycanthrope, Werewolf Leader*"
+    },
+    "Lycanthrope, Werewolf*": {
+      "biography": "<p>Werewolves are semi-intelligent creatures known for their hunting packs. Groups of five or more have a leader with 30 hit points, attacking as a 5 HD monster and dealing +2 damage per hit. Werewolves can summon normal wolves to create larger packs for attacks.</p><p>In <strong>animal form</strong>, werewolves can only be harmed by magical or silvered weapons, and they communicate with wolves. In <strong>human form</strong>, they may speak any known languages, be harmed by normal weapons, and may wield any weapon.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werewolf bite becomes a werewolf within 2d12 days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
+      "items": {
+        "EpcI1oPb4J5rcnxs": {
+          "description": "Natural hide grants an AC of 5.",
+          "name": "Natural Form Armor",
+          "unidentifiedDesc": "Natural hide grants an AC of 5."
+        },
+        "MCiIqIE9ZNwoZ6g4": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "YGy42tzBkjc9F7Rj": {
+          "description": "<p>Can summon [[/r 1d2 #Summons this many wolves]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.WKbSIoK7it7NgLXg]{Wolf, Normal}, arriving in [[/r 1d4 #Wolves arrive in this many rounds]] rounds.</p>",
           "name": "Animal Summon"
+        },
+        "aTJBcvoluBSjQEGq": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "i9IgjZiF1213f97e": {
+          "description": "A powerful bite attack transmitting lycanthropy.",
+          "name": "Bite"
+        },
+        "q6JsaGNPpL3oSCVG": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
         },
         "tz3f4UXijn9B3zsF": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -17290,7 +17353,7 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Lycanthrope, Werewolf"
+      "name": "Lycanthrope, Werewolf*"
     },
     "Malfera*": {
       "biography": "<p>The Malfera emerges from the Dimension of Nightmares, a realm of venomous shadows where twisted dreams plague sleeping minds. Summoned only by potent magic-users or Immortals, this night-black horror—veined and eyed in red—stalks any terrain, its elephantine face, horned brow, and fanged trunk a visage of dread.</p><p>In battle, it rends with jagged pincers ([[/r 1d10 #Claw damage]] each) and bites ([[/r 1d6 #Bite damage]]), its poisonous breath forcing a save vs. poison (+3 bonus) or death with each bite. If both claws strike one foe, the victim is dragged to its slimy, tentacled chest next round, suffering [[/r 2d6 #Tentacle damage]] from acid slime until the Malfera perishes.</p><p>Immune to acid and struck only by magical weapons, it detects invisible foes and opens doors with a knock-like power. Appearing singly or in pairs ([[/r 1d2 #Malferas in lair]]), its enchanted might (HD 9, XP 2300) and treasure hoard reflect its nightmarish origin.</p><p><strong>Terrain:</strong> Any; Dimension of Nightmares</p>",
@@ -20257,6 +20320,60 @@
       },
       "monsterType": "Planar Monster, Enchanted",
       "name": "Phoenix, Greater*"
+    },
+    "Phoenix, Lesser*": {
+      "biography": "<p>Hailing from the elemental plane of Fire, the Lesser Phoenix appears as a striking red-orange eagle enveloped in fierce flames. On the Prime Plane, it’s an uncommon visitor, capable of thriving in any climate yet steadfastly avoiding underground lairs.</p><p>This creature remains peaceful unless provoked, resisting all forms of fire, charm, and hold spells, as well as attacks from weapons below a +3 enchantment. In combat, it employs its blazing claws and beak, while its fiery aura scorches foes within a 10' radius, inflicting [[/r 3d6 #Fire damage per round]], undeterred by conventional fire protections due to the unique nature of phoenix flame.</p><p>When vanquished, the Lesser Phoenix vanishes in a dramatic 20' radius explosion, unleashing [[/r 1d10*5 #Explosion damage]] (save vs. dragon breath for half, bypassing fire defenses). It reemerges from its ashes just 1 round later, fully restored, and swiftly flees. Only a wish can permanently extinguish it, and its method of rebirth remains an enigma.</p><p>Each defeat yields a single feather. Crafting a potion of phoenix fire resistance requires three such feathers, each valued at 10,000 gp, granting complete immunity to normal and magical fire, halving fire breath damage (quarter with a successful save), and providing typical resistance against phoenix fire.<br><b>Terrain:</b> Any; Plane of Fire</p>",
+      "items": {
+        "1NSCpEVI6yw92v8J": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "2NpXXwjSHtCjg1Ax": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "5JhTPFgXus55yrbm": {
+          "description": "The fiery shroud of the Lesser Phoenix bolsters its natural armor.",
+          "name": "Hide"
+        },
+        "8P19Rc2uPtERX3y4": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "E7ROrtxhAOvvrG1Q": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "KzL8JMN47P1HAo6x": {
+          "description": "The Lesser Phoenix rakes with blazing claws.",
+          "name": "Claw"
+        },
+        "UKR7zncEGXuAQVL4": {
+          "description": "The Lesser Phoenix emits a blazing aura within a 10' radius, causing [[/r 3d6 #Fire damage per round]] to all nearby, bypassing fire resistances.",
+          "gmNotes": "Phoenix flame ignores all fire protection.",
+          "name": "Flame Aura"
+        },
+        "a6AqmM1srtenn4k2": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "cdp5nJKcNPhflmo2": {
+          "description": "Upon destruction, the Lesser Phoenix erupts in a 20' radius for [[/r 1d10*5 #Explosion damage]] (save vs. dragon breath for half), ignoring fire protections; reforms 1 round later to escape.",
+          "gmNotes": "Activates on death, then flees.",
+          "name": "Explosion"
+        },
+        "e5ldizVmSsSPoKhm": {
+          "description": "The Lesser Phoenix bites with a scorching beak.",
+          "name": "Bite"
+        }
+      },
+      "monsterType": "Planar Monster, Enchanted",
+      "name": "Phoenix, Lesser*"
     },
     "Pixie": {
       "biography": "<p>Pixies are small humanoid creatures with insect-like wings. Standing at only 1-2 feet tall, they are distantly related to elves. Pixies are naturally invisible unless they wish to be seen or are detected by magic.</p><p>Unlike creatures affected by invisibility spells, pixies can attack while remaining invisible. They always gain surprise when doing so, and cannot be attacked in the first round of combat. In subsequent rounds, attackers can attempt to strike them, but with a -4 penalty to attack rolls.</p><p>Pixies live in secluded wilderness communities and rarely attack humans unless provoked. They may, however, assist friendly adventurers with guidance through the wilderness or lead them to hidden locations.</p><p><strong>Terrain:</strong> Woods.<br><strong>Flight Limitation:</strong> Pixies can fly for up to three turns before requiring a full turn of rest.</p>",
@@ -26115,6 +26232,7 @@
     }
   },
   "folders": {
+    "Canine": "Canine",
     "Devilfish": "Devilfish",
     "Dinosaur": "Dinosaur",
     "Dragons": "Dragons",
@@ -26128,6 +26246,7 @@
     "Horde": "Horde",
     "Hydra": "Hydra",
     "Lich": "Lich",
+    "Lycanthrope": "Lycanthrope",
     "Manscorpion": "Manscorpion",
     "Mek": "Mek",
     "Monsters & Beasts": "Monsters & Beasts",
