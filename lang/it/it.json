@@ -245,7 +245,13 @@
                 "hint": "Il primo livello di incantesimi per questa classe",
                 "name": "Livello del Primo Incantesimo"
             },
-            "Ancestry": "Razza"
+            "Ancestry": "Razza",
+            "actorGroups": {
+                "undead": "Non-Morto (Comune)",
+                "enchanted": "Incantato",
+                "fey": "Fatato",
+                "group": "Gruppo"
+            }
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
