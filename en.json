@@ -155,6 +155,26 @@
       "XPAward": "XP Award",
       "XPBonus": "XP Bonus %",
       "XPShort": "XP",
+      "actorGroups": {
+        "addVsGroupButton": "Group Mod",
+        "bugs": "Bugs",
+        "constructs": "Constructs",
+        "dragonkind": "Dragonkind",
+        "enchanted": "Enchanted",
+        "fey": "Fey",
+        "giantkind": "Giantkind",
+        "group": "Group",
+        "lycanthropes": "Lycanthropes",
+        "noGroupMod": "No group modifiers configured.",
+        "planar": "Planar",
+        "regenerating": "Regenerating",
+        "reptiles-dinosaurs": "Reptiles and dinosaurs",
+        "spell-immune": "Spell-immune",
+        "spellcasters": "Spellcasters",
+        "undead": "Undead",
+        "water-breathing": "Water-breathing",
+        "weapon-using": "Weapon-using"
+      },
       "attackRank": "Attack Rank",
       "castAs": {
         "hint": "Some monsters can cast spells that are equivelent of a specific class and level. Specify as class key and level, similar to save as. Example: A monster that can cast spells as a 9th level Magic-User would have a castAs value of 'M9'.",
@@ -757,11 +777,11 @@
           "name": "Lance Attack"
         },
         "magicItem": {
-          "description": "Combatant activates a non-weapon magical item, such as a potion, wand, ring, or the passive ability of another magical item.",
+          "description": "Combatant activates a magical item, such as a potion, wand, ring, or the passive ability of another magical item.",
           "name": "Magic Item"
         },
         "moveOnly": {
-          "description": "Combatant is moving and not attacking this round. This is not a 'Retreat'.",
+          "description": "Combatant is moving and not attacking this round. This is not a 'Retreat'. This includes actions that are not specifically name in the list.",
           "name": "Move Only"
         },
         "multiAttack": {
