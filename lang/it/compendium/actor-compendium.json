@@ -49,6 +49,22 @@
                     "name": "Veleno o Raggio della Morte",
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "shortName": "Morte"
+                },
+                "kPiWUpS16cQQ4MTJ": {
+                    "name": "Nascondersi - Luoghi Aperti (H)",
+                    "description": "<p>Quando è all'aperto, un Halfling può mimetizzarsi tra gli alberi, nel sottobosco o in terreni naturali simili, il che lo rende estremamente difficile da individuare. Se rimane immobile in tale copertura, ha il 90% di possibilità di non essere visto (tirato segretamente dal DM). Questa capacità funziona solo in ambienti naturali e non richiede ombre. Se l'Halfling si muove, perde immediatamente l'effetto e diventa visibile.</p>"
+                },
+                "r5wHntjta7Cs1ClG": {
+                    "name": "Bonus in Combattimento (H)",
+                    "description": "<p>Gli Halfling ottengono un bonus di +1 a tutti i tiri per colpire quando usano armi a distanza, un bonus di +1 all'iniziativa individuale e un bonus di -2 alla CA quando vengono attaccati da creature più grandi di dimensioni umane.</p><p>Una creatura è considerata più grande di dimensioni umane se la sua descrizione include termini come \"gigante\", \"mastodontica\" o \"enorme\". Inoltre, le creature del mondo reale che il DM ritiene più grandi di un umano (come un cavallo) rientrano in questa categoria. Come linea guida generale, qualsiasi creatura non umanoide senza una dimensione specificata può essere considerata più grande di dimensioni umane se ha 4 o più Dadi Vita (DV)</p>"
+                },
+                "sNwYq44qO0K1IGPb": {
+                    "name": "Nascondersi - Luoghi Chiusi (H)",
+                    "description": "<p data-start=\"478\" data-end=\"814\">Al chiuso o nei sotterranei, un Halfling può tentare di nascondersi in ombre profonde o in una copertura, ma con meno successo che in ambienti naturali. Se ci sono ombre o nascondigli sufficienti, ha il 33% di possibilità di non essere visto (tirato segretamente dal DM). Se non c'è copertura disponibile, l'Halfling non può nascondersi affatto.</p><p data-start=\"816\" data-end=\"993\" data-is-last-node=\"\">Una luce intensa, come una fonte di luce magica che elimina le ombre, impedisce di nascondersi. Un Halfling non può usare questa capacità mentre trasporta una fonte di luce.</p>"
+                },
+                "vhtRNobg3WzoIJjd": {
+                    "name": "Lancia vs. Carica",
+                    "description": "<p>Un personaggio a piedi armato di lancia, picca, spada, scudo o lancia può impostare l'arma contro una carica. Una carica avviene quando un mostro si precipita verso il personaggio, coprendo almeno 20 m prima di attaccare. Questa manovra può essere usata anche contro l'attacco con la lancia di un altro personaggio.</p><p>Per \"impostare contro la carica\", il personaggio appoggia l'arma contro il terreno, puntandola verso il nemico in avvicinamento. I bonus di Forza e magia si applicano sia ai tiri per colpire che a quelli per i danni. Se l'attacco ha successo, il personaggio infligge il doppio dei danni, con gli aggiustamenti applicati dopo il danno doppio.</p><p>Il personaggio deve dichiarare la manovra imposta contro carica prima di entrare in combattimento corpo a corpo con l'avversario che carica. Ad esempio, se il gruppo del personaggio vince l'iniziativa e si aspetta una carica, può dichiarare questa manovra. Allo stesso modo, se i mostri in carica vengono individuati diversi round prima, il personaggio può impostare la propria arma contro la carica in anticipo.</p><p>In genere, l'attacco viene effettuato durante la fase di movimento del mostro, non appena entra nel raggio d'azione dell'arma. Se l'attacco riesce e uccide il mostro, impedisce alla creatura di attaccare. Se l'attacco non uccide il mostro, può quindi attaccare durante la sua fase di mischia nella sequenza di combattimento.</p>"
                 }
             },
             "biography": "<p>Gli Halfling sono piccole creature semiumane che spesso vivono vicino ai loro villaggi. Sono abili con le armi da lancio, ricevendo un bonus di +1 ai tiri per colpire quando le usano. Gli Halfling sono eccellenti nel nascondersi, particolarmente nei **boschi** o nella **boscaglia**, dove hanno solo il 10% di probabilità di essere individuati mentre si nascondono.</p>\n        <p>In combattimento, gli Halfling ottengono un bonus di +2 alla **Classe Armatura** quando combattono contro nemici più grandi di un uomo. Per ogni 10 Halfling, uno sarà un capo di **2º Livello**, e fintanto che il capo è vivo e combatte al loro fianco, il loro **morale** è 10 invece di 8.</p>\n        <p>Gli Halfling vivono tipicamente in villaggi, o **contee**, di 30 a 300 abitanti. Ogni villaggio è guidato da uno **sceriffo** (un combattente di livello 2-7) e protetto da una guardia di villaggio di 5-20 miliziani (ciascuno con 2 Dadi Vita).</p>\n        <strong>Abilità Speciali:</strong> Gli Halfling ottengono un bonus di +1 ai tiri per colpire quando usano armi da lancio e un bonus di +2 alla Classe Armatura quando combattono contro creature più grandi.<br>\n        <strong>Terreno:</strong> Collina, Aperto.<br>",
@@ -12009,6 +12025,22 @@
                     "name": "Spada Corta",
                     "weaponMastery": "Spada Corta",
                     "unidentifiedDesc": "<p>Una spada corta è una spada con una lama dritta da 50 a 60 cm. Utilizzata principalmente come arma da punta piuttosto che da taglio, questa piccola lama può essere utilizzata con una mano.</p>"
+                },
+                "0fFrf4mD0vK9tQPo": {
+                    "name": "Bonus in Combattimento (H)",
+                    "description": "<p>Gli Halfling ottengono un bonus di +1 a tutti i tiri per colpire quando usano armi a distanza, un bonus di +1 all'iniziativa individuale e un bonus di -2 alla CA quando vengono attaccati da creature più grandi di dimensioni umane.</p><p>Una creatura è considerata più grande di dimensioni umane se la sua descrizione include termini come \"gigante\", \"mastodontica\" o \"enorme\". Inoltre, le creature del mondo reale che il DM ritiene più grandi di un umano (come un cavallo) rientrano in questa categoria. Come linea guida generale, qualsiasi creatura non umanoide senza una dimensione specificata può essere considerata più grande di dimensioni umane se ha 4 o più Dadi Vita (DV)</p>"
+                },
+                "BBktDXO91XAl8fmr": {
+                    "name": "Nascondersi - Luoghi Chiusi (H)",
+                    "description": "<p data-start=\"478\" data-end=\"814\">Al chiuso o nei sotterranei, un Halfling può tentare di nascondersi in ombre profonde o in una copertura, ma con meno successo che in ambienti naturali. Se ci sono ombre o nascondigli sufficienti, ha il 33% di possibilità di non essere visto (tirato segretamente dal DM). Se non c'è copertura disponibile, l'Halfling non può nascondersi affatto.</p><p data-start=\"816\" data-end=\"993\" data-is-last-node=\"\">Una luce intensa, come una fonte di luce magica che elimina le ombre, impedisce di nascondersi. Un Halfling non può usare questa capacità mentre trasporta una fonte di luce.</p>"
+                },
+                "e0lKV7EAyIl7XM5t": {
+                    "description": "<p>Quando è all'aperto, un Halfling può mimetizzarsi tra gli alberi, nel sottobosco o in terreni naturali simili, il che lo rende estremamente difficile da individuare. Se rimane immobile in tale copertura, ha il 90% di possibilità di non essere visto (tirato segretamente dal DM). Questa capacità funziona solo in ambienti naturali e non richiede ombre. Se l'Halfling si muove, perde immediatamente l'effetto e diventa visibile.</p>",
+                    "name": "Nascondersi - Luoghi Aperti (H)"
+                },
+                "hnmaHR1eoJLu0Jxt": {
+                    "description": "<p>Un personaggio a piedi armato di lancia, picca, spada, scudo o lancia può impostare l'arma contro una carica. Una carica avviene quando un mostro si precipita verso il personaggio, coprendo almeno 20 m prima di attaccare. Questa manovra può essere usata anche contro l'attacco con la lancia di un altro personaggio.</p><p>Per \"impostare contro la carica\", il personaggio appoggia l'arma contro il terreno, puntandola verso il nemico in avvicinamento. I bonus di Forza e magia si applicano sia ai tiri per colpire che a quelli per i danni. Se l'attacco ha successo, il personaggio infligge il doppio dei danni, con gli aggiustamenti applicati dopo il danno doppio.</p><p>Il personaggio deve dichiarare la manovra imposta contro carica prima di entrare in combattimento corpo a corpo con l'avversario che carica. Ad esempio, se il gruppo del personaggio vince l'iniziativa e si aspetta una carica, può dichiarare questa manovra. Allo stesso modo, se i mostri in carica vengono individuati diversi round prima, il personaggio può impostare la propria arma contro la carica in anticipo.</p><p>In genere, l'attacco viene effettuato durante la fase di movimento del mostro, non appena entra nel raggio d'azione dell'arma. Se l'attacco riesce e uccide il mostro, impedisce alla creatura di attaccare. Se l'attacco non uccide il mostro, può quindi attaccare durante la sua fase di mischia nella sequenza di combattimento.</p>",
+                    "name": "Lancia vs. Carica"
                 }
             },
             "monsterType": "Semiumano (Comune)",
@@ -22357,6 +22389,9 @@
                 "6UXVybFEzFEZIdRW": {
                     "name": "Forma da Presenza",
                     "description": "<p>Come non-morto incorporeo, uno spettro è altamente resistente agli attacchi. Può essere danneggiato solo da armi d'argento o magiche, e le armi d'argento infliggono solo metà dei danni.</p>"
+                },
+                "5RZkEiBHi4m1Tyuw": {
+                    "name": "Immunità agli Incantesimi"
                 }
             },
             "name": "Wraith",
