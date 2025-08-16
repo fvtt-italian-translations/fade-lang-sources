@@ -6141,7 +6141,7 @@
           "shortName": "Death"
         }
       },
-      "monsterType": "Demi-Human",
+      "monsterType": "Demihuman",
       "name": "Dwarf (1 HD)"
     },
     "Efreeti (Greater; Amir)*": {
@@ -7422,7 +7422,7 @@
           "unidentifiedName": "Sword, Normal"
         }
       },
-      "monsterType": "Demi-Human",
+      "monsterType": "Demihuman",
       "name": "Elf (1 HD)"
     },
     "Faerie": {
@@ -10861,6 +10861,10 @@
           "name": "Leather Armor",
           "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>"
         },
+        "kPiWUpS16cQQ4MTJ": {
+          "description": "<p>When outdoors, a Halfling can blend into woods, underbrush, or similar natural terrain, making them extremely difficult to spot. If they remain motionless in such cover, they have a 90% chance to remain unseen (rolled secretly by the DM). This ability functions only in natural environments and does not require shadows. If the Halfling moves, they immediately lose the effect and become visible.</p>",
+          "name": "Hide, Natural (H)"
+        },
         "kscxFCaqW4S1HEku": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -10871,11 +10875,23 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "r5wHntjta7Cs1ClG": {
+          "description": "<p>Halflings gain a +1 bonus to all attack rolls when using missile weapons, a +1 bonus to individual initiative, and a -2 AC bonus when attacked by creatures larger than man-sized.</p><p>A creature is considered larger than man-sized if its description includes terms like \"giant,\" \"gargantuan,\" or \"enormous.\" Additionally, real-world creatures that the DM deems larger than a human (such as a horse) also fall into this category. As a general guideline, any non-humanoid creature without a specified size can be assumed to be larger than man-sized if it has 4 or more Hit Dice (HD).</p>",
+          "name": "Combat Bonuses (H)"
+        },
         "s3Um7qXmUAG501Ap": {
           "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
           "name": "Dagger",
           "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
           "unidentifiedName": "Dagger"
+        },
+        "sNwYq44qO0K1IGPb": {
+          "description": "<p data-start=\"478\" data-end=\"814\">Indoors or in dungeons, a Halfling can attempt to hide in deep shadows or cover, but with less success than in natural environments. If sufficient shadows or concealment exist, they have a 33% chance to remain unseen (rolled secretly by the DM). If there is no available cover, the Halfling cannot hide at all.</p><p data-start=\"816\" data-end=\"993\" data-is-last-node=\"\">A bright light, such as a magical light source that eliminates shadows, prevents hiding. A Halfling cannot use this ability while carrying a light source themselves.</p>",
+          "name": "Hide, Indoors (H)"
+        },
+        "vhtRNobg3WzoIJjd": {
+          "description": "<p>A character on foot armed with a spear, pike, sword, shield, or lance can set the weapon against a charge. A charge occurs when a monster rushes towards the character, covering at least 20 yards before attacking. This maneuver can also be used against another character's lance attack.</p><p>To \"set vs. charge,\" the character braces the weapon against the ground, pointing it at the approaching enemy. Strength and magic bonuses apply to both the attack and damage rolls. If the attack is successful, the character deals double damage, with adjustments applied after doubling.</p><p>The character must declare the set vs. charge maneuver before entering melee combat with the charging opponent. For example, if the character’s party wins initiative and expects a charge, they can declare this maneuver. Similarly, if charging monsters are spotted several rounds in advance, the character can set their weapon against the charge ahead of time.</p><p>Typically, the attack is made during the monster's movement phase, as soon as it comes within weapon range. If the attack succeeds and kills the monster, it prevents the creature from attacking. If the attack does not kill the monster, it can then attack during its own melee phase of the combat sequence.</p>",
+          "name": "Set Spear vs. Charge"
         },
         "wOKQgodXv2GboeXf": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -10883,17 +10899,25 @@
           "shortName": "Death"
         }
       },
-      "monsterType": "Demi-Human",
+      "monsterType": "Demihuman",
       "name": "Halfling"
     },
     "Halfling (2HD)": {
       "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in **woods** or **underbrush**, where there is only a 10% chance of being detected while hiding.</p>\n        <p>In combat, halflings gain a +2 bonus to **Armor Class** when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of **level 2**, and as long as the leader is alive and fighting alongside them, their **morale** is 10 rather than 8.</p>\n        <p>Halflings typically live in villages, or **shires**, of 30 to 300 inhabitants. Each village is led by a **sheriff** (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p>\n        <strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and a +2 bonus to Armor Class when fighting larger creatures.<br>\n        <strong>Terrain:</strong> Hill, Open.<br>",
       "items": {
+        "0fFrf4mD0vK9tQPo": {
+          "description": "<p>Halflings gain a +1 bonus to all attack rolls when using missile weapons, a +1 bonus to individual initiative, and a -2 AC bonus when attacked by creatures larger than man-sized.</p><p>A creature is considered larger than man-sized if its description includes terms like \"giant,\" \"gargantuan,\" or \"enormous.\" Additionally, real-world creatures that the DM deems larger than a human (such as a horse) also fall into this category. As a general guideline, any non-humanoid creature without a specified size can be assumed to be larger than man-sized if it has 4 or more Hit Dice (HD).</p>",
+          "name": "Combat Bonuses (H)"
+        },
         "5Ymnj5Zixi4qy6r3": {
           "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
           "name": "Sword, Short",
           "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
           "weaponMastery": "Sword, Short"
+        },
+        "BBktDXO91XAl8fmr": {
+          "description": "<p data-start=\"478\" data-end=\"814\">Indoors or in dungeons, a Halfling can attempt to hide in deep shadows or cover, but with less success than in natural environments. If sufficient shadows or concealment exist, they have a 33% chance to remain unseen (rolled secretly by the DM). If there is no available cover, the Halfling cannot hide at all.</p><p data-start=\"816\" data-end=\"993\" data-is-last-node=\"\">A bright light, such as a magical light source that eliminates shadows, prevents hiding. A Halfling cannot use this ability while carrying a light source themselves.</p>",
+          "name": "Hide, Indoors (H)"
         },
         "DcoyoppvdNsCNrl5": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -10921,6 +10945,14 @@
           "name": "Leather Armor",
           "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>"
         },
+        "e0lKV7EAyIl7XM5t": {
+          "description": "<p>When outdoors, a Halfling can blend into woods, underbrush, or similar natural terrain, making them extremely difficult to spot. If they remain motionless in such cover, they have a 90% chance to remain unseen (rolled secretly by the DM). This ability functions only in natural environments and does not require shadows. If the Halfling moves, they immediately lose the effect and become visible.</p>",
+          "name": "Hide, Natural (H)"
+        },
+        "hnmaHR1eoJLu0Jxt": {
+          "description": "<p>A character on foot armed with a spear, pike, sword, shield, or lance can set the weapon against a charge. A charge occurs when a monster rushes towards the character, covering at least 20 yards before attacking. This maneuver can also be used against another character's lance attack.</p><p>To \"set vs. charge,\" the character braces the weapon against the ground, pointing it at the approaching enemy. Strength and magic bonuses apply to both the attack and damage rolls. If the attack is successful, the character deals double damage, with adjustments applied after doubling.</p><p>The character must declare the set vs. charge maneuver before entering melee combat with the charging opponent. For example, if the character’s party wins initiative and expects a charge, they can declare this maneuver. Similarly, if charging monsters are spotted several rounds in advance, the character can set their weapon against the charge ahead of time.</p><p>Typically, the attack is made during the monster's movement phase, as soon as it comes within weapon range. If the attack succeeds and kills the monster, it prevents the creature from attacking. If the attack does not kill the monster, it can then attack during its own melee phase of the combat sequence.</p>",
+          "name": "Set Spear vs. Charge"
+        },
         "kscxFCaqW4S1HEku": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -10943,7 +10975,7 @@
           "shortName": "Death"
         }
       },
-      "monsterType": "Demi-Human",
+      "monsterType": "Demihuman",
       "name": "Halfling (2HD)"
     },
     "Harpy": {
@@ -26056,8 +26088,12 @@
       "name": "Wolf, Normal"
     },
     "Wraith*": {
-      "biography": "<p>A <strong>wraith</strong> is a spectral undead entity, a pale and almost transparent mist-like figure. It is the spirit of the selfish dead, clinging to the Prime Plane by draining life from the living.</p>\n      <p><strong>Defenses:</strong> A wraith is <strong>immune to sleep, charm, and hold</strong> spells. It can only be harmed by <strong>silver or magical weapons</strong>, but silver weapons inflict <strong>half damage</strong>.</p>\n      <p><strong>Energy Drain:</strong> The touch of a wraith drains <strong>1 experience level</strong> from its victim and also deals <strong>1d6 damage</strong>. Any creature slain by a wraith will rise as a new wraith in <strong>one day</strong>, under the control of its slayer.</p>\n      <p><strong>Terrain:</strong> Barren Lands, Ruins.</p>",
+      "biography": "<p>A wraith is a spectral undead entity, a pale and almost transparent mist-like figure. It is the spirit of the selfish dead, clinging to the Prime Plane by draining life from the living.</p><p><strong>Defenses:</strong> A wraith is immune to sleep, charm, and hold spells. It can only be harmed by silver or magical weapons, but silver weapons inflict half damage.</p><p><strong>Energy Drain:</strong> The touch of a wraith drains 1 experience level from its victim and also deals 1d6 damage. Any creature slain by a wraith will rise as a new wraith in one day, under the control of its slayer.</p><p><strong>Terrain:</strong> Barren Lands, Ruins.</p>",
       "items": {
+        "5RZkEiBHi4m1Tyuw": {
+          "description": "<p>Immune to <em>sleep</em>,<em> charm</em>, and <em>hold</em> spells.</p>",
+          "name": "Spell Immunity"
+        },
         "6UXVybFEzFEZIdRW": {
           "description": "<p>As an incorporeal undead, a wraith is highly resistant to attacks. It can only be harmed by silver or magical weapons, and silver weapons only deal half damage.</p>",
           "name": "Wraith Form"
@@ -26068,8 +26104,8 @@
           "shortName": "Spell"
         },
         "IgzOFhriYmyxUR1Z": {
-          "description": "<p>The touch of a wraith deals <strong>1d6 damage</strong> and drains <strong>1 experience level</strong> from its victim. A saving throw vs. death ray negates the level drain.</p>",
-          "name": "Energy Drain",
+          "description": "<p>The touch deals <strong>1d6 damage</strong> and drains <strong>1 experience level</strong> from its victim. A saving throw vs. death ray negates the level drain.</p>",
+          "name": "Touch (Energy Drain)",
           "unidentifiedName": "Energy Drain"
         },
         "aiGAy8rInd4uTP0B": {
@@ -26093,7 +26129,7 @@
           "shortName": "Breath"
         }
       },
-      "monsterType": "Undead (Rare, Enchanted)",
+      "monsterType": "Undead, Enchanted",
       "name": "Wraith*"
     },
     "Wyvern": {
