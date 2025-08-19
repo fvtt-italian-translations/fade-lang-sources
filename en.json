@@ -363,6 +363,7 @@
       "pass": "Success!",
       "resetSpells": "{actorName} reset memorized spells. Cast counts set to zero.",
       "rollMods": {
+        "ammoMod": "Ammunition mod: {mod}",
         "dexterityMod": "Dexterity mod: {mod}",
         "effectMod": "Attacker effect mod: {mod}",
         "manual": "Manual mod: {mod}",
@@ -551,6 +552,7 @@
     "SheetLabel": {
       "ActorClassItem": "Actor Class Item Sheet",
       "ActorMasteryItem": "Actor Mastery Item Sheet",
+      "AmmoItem": "Ammo Item Sheet",
       "AncestryDefinitionItem": "Ancestry Definition Item Sheet",
       "ArmorItem": "Armor Item Sheet",
       "Character": "Character Sheet (tabbed)",
@@ -1307,6 +1309,7 @@
     },
     "Item": {
       "actorClass": "Actor Class",
+      "ammo": "Ammo",
       "armor": "Armor",
       "class": "Character Class Definition",
       "condition": "Condition",
