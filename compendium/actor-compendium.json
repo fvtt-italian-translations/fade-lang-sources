@@ -818,11 +818,6 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "9rcxbGMvTHk1Y82I": {
-          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
-          "name": "Arrows",
-          "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>"
-        },
         "CnlBl1rnFo1yEYZE": {
           "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
           "name": "Bow, Short",
@@ -870,6 +865,10 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "uqmGGpdhi0ydtN5f": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
         }
       },
       "monsterType": "Human",
@@ -887,6 +886,10 @@
           "description": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
           "name": "Chain Mail",
           "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>"
+        },
+        "4gqcAs9PntHmvNIF": {
+          "description": "<p>Ammunition for a sling.</p>",
+          "name": "Pellets (lead)"
         },
         "6j1KiaWlwv4WuGRR": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -930,12 +933,6 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "v3urC2xkuceJtEXt": {
-          "description": "<p>Ammunition for a sling.</p>",
-          "name": "Pellets (lead)",
-          "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
-          "unidentifiedName": "Pellets (lead)"
         }
       },
       "monsterType": "Human",
@@ -6288,7 +6285,7 @@
       "name": "Efreeti, Lesser*"
     },
     "Elemental Ruler, Air (Plane of Air)*": {
-      "biography": "<p>The supreme rulers of the Elemental Plane of Air, these beings are vast, towering storms, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee massive cloud cities and command the lesser air elementals.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Air</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Air, these beings are vast, towering storms, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee massive cloud cities and command the lesser air elementals.</p><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><p><strong>Elemental Rulers grow in power as they age:</strong></p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Air</p>",
       "items": {
         "3RX1mNEYsYQp4N49": {
           "description": "<p>Immune to spells 1st-5th level, poison, charm, hold, illusions, and instant death effects.</p>",
@@ -6337,7 +6334,7 @@
       "name": "Elemental Ruler, Air (Plane of Air)*"
     },
     "Elemental Ruler, Earth (Plane of Earth)*": {
-      "biography": "<p>The supreme rulers of the Elemental Plane of Earth, these beings are colossal moving mountains, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee vast underground dominions made of pure stone and metal.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Earth</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Earth, these beings are colossal moving mountains, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee vast underground dominions made of pure stone and metal.</p><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><p><strong>Elemental Rulers grow in power as they age:</strong></p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Earth</p>",
       "items": {
         "82Gv5Uyay6vxzsWE": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -6386,7 +6383,7 @@
       "name": "Elemental Ruler, Earth (Plane of Earth)*"
     },
     "Elemental Ruler, Fire (Plane of Fire)*": {
-      "biography": "<p>The supreme rulers of the Elemental Plane of Fire, these beings are immense, living infernos standing at least 82 feet tall (2 feet per Hit Die). They oversee empires of flame and molten rivers, ruling with overwhelming power.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Fire</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Fire, these beings are immense, living infernos standing at least 82 feet tall (2 feet per Hit Die). They oversee empires of flame and molten rivers, ruling with overwhelming power.</p><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><p><strong>Elemental Rulers grow in power as they age:</strong></p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Fire</p>",
       "items": {
         "CGAHNqVcFhr3duzR": {
           "description": "<p>Immune to spells 1st-5th level, poison, charm, hold, illusions, and instant death effects.</p>",
@@ -6435,7 +6432,7 @@
       "name": "Elemental Ruler, Fire (Plane of Fire)*"
     },
     "Elemental Ruler, Water (Plane of Water)*": {
-      "biography": "<p>The supreme rulers of the Elemental Plane of Water, these beings are massive, living oceans, standing at least 82 feet tall (2 feet per Hit Die). They rule over vast undersea cities and endless tides.</p><h3>Immense Power</h3><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><h3>Crushing Blows</h3><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><h3>Summoning</h3><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><h3>HD, Damage & XP Scaling</h3><p>Elemental Rulers grow in power as they age:</p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Water</p>",
+      "biography": "<p>The supreme rulers of the Elemental Plane of Water, these beings are massive, living oceans, standing at least 82 feet tall (2 feet per Hit Die). They rule over vast undersea cities and endless tides.</p><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><p><strong>Elemental Rulers grow in power as they age:</strong></p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Water</p>",
       "items": {
         "2IItZ2gVu5ZCCU6c": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -12712,10 +12709,9 @@
           "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
           "unidentifiedName": "Bow, Short"
         },
-        "vbWKgUUsKF6Jh2JS": {
+        "uqmGGpdhi0ydtN5f": {
           "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
-          "name": "Arrows",
-          "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>"
+          "name": "Arrows"
         }
       },
       "monsterType": "Human",
@@ -12733,6 +12729,10 @@
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "FuxQr9nJjcG2TDlz": {
+          "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+          "name": "Quarrels"
         },
         "Nt1cPTzALi2LwBLw": {
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
@@ -12768,11 +12768,6 @@
         "o3xRQEGXIzVG9rV8": {
           "description": "<p>When mounted and using a lance, a character can perform a powerful charge attack. If the attack is successful, the character gains double their Strength modifier to the damage roll. This ability is most effective when charging against opponents.</p>",
           "name": "Lance Attack"
-        },
-        "w1g1E1gAFE675SkF": {
-          "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
-          "name": "Quarrels",
-          "unidentifiedDesc": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>"
         },
         "zt2ADtliwn24TefR": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -12928,11 +12923,6 @@
           "name": "Leather Armor",
           "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>"
         },
-        "XtbnHIeDkuGw9QVC": {
-          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
-          "name": "Arrows",
-          "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>"
-        },
         "coxyLHr8mlLPHPKf": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -12955,6 +12945,10 @@
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "uqmGGpdhi0ydtN5f": {
+          "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+          "name": "Arrows"
         }
       },
       "monsterType": "Human",
@@ -12972,6 +12966,10 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "FuxQr9nJjcG2TDlz": {
+          "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+          "name": "Quarrels"
         },
         "IpJva5n3gv06zcIP": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -13001,11 +12999,6 @@
           "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
           "name": "Leather Armor",
           "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>"
-        },
-        "kpklSYDITgvwvJs0": {
-          "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
-          "name": "Quarrels",
-          "unidentifiedDesc": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>"
         },
         "wYgMTS0830ejuAxf": {
           "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
@@ -26280,6 +26273,7 @@
     "Headsmen": "Headsmen",
     "Hellhound": "Hellhound",
     "Horde": "Horde",
+    "Humans": "Humans",
     "Hydra": "Hydra",
     "Lich": "Lich",
     "Lycanthrope": "Lycanthrope",
