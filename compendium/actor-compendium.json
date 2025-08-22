@@ -5673,7 +5673,7 @@
       "monsterType": "Dragon-Kin",
       "name": "Drake, Colddrake"
     },
-    "Drake, Elemental": {
+    "Drake, Elemental*": {
       "biography": "<p>Elemental Drakes are rare and dangerous creatures that hail from the elemental planes. These drakes can polymorph into young giant forms (up to 4 feet shorter than normal giants) on the Prime Plane, or into small elemental forms on their home plane. In drake form, they attack with claws and a bite, dealing significant damage. Elemental Drakes are immune to normal and silver weapons, requiring magical weapons to harm them. They also possess the abilities of a 5th-level thief, making them cunning foes.</p><p><strong>Polymorph:</strong> On the Prime Plane, Elemental Drakes can polymorph into young giant forms (cloud, stone, fire, or storm giants), but cannot use giant rock-throwing abilities. On their home plane, they transform into small elemental forms with the abilities of a 6 HD elemental.</p><p><strong>Elemental Immunities:</strong> Immune to normal and silver weapons; only magical weapons can harm them.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
       "items": {
         "14TmehUxjqz7EuhG": {
@@ -5775,7 +5775,7 @@
         }
       },
       "monsterType": "Dragon-Kin, Planar Monster, Enchanted",
-      "name": "Drake, Elemental"
+      "name": "Drake, Elemental*"
     },
     "Drake, Mandrake": {
       "biography": "<p>The Mandrake is a medium-sized drake that often disguises itself as a human through its polymorph abilities. While in drake form, it attacks with two claws and a bite, dealing minor damage. Mandrakes are chaotic and fond of trickery, often using their shapeshifting abilities to integrate into human society, sometimes working as stablehands or in taverns. Though they enjoy pranks, they can also serve as agents for evil powers.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into humanoid forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
@@ -16448,126 +16448,6 @@
       "monsterType": "Undead, Enchanted",
       "name": "Lich, Magic-User (36HD)*"
     },
-    "Living Statue, Crystal": {
-      "biography": "<p>A living crystal statue is an animated life form composed entirely of crystal. It appears as a normal statue, often humanoid, and can deliver two attacks per round. Crystal statues are unaffected by sleep spells and can carry up to 1,500 cn at full speed or 3,000 cn at half speed.</p><strong>Terrain:</strong> Any (especially Ruins)</p>",
-      "items": {
-        "19h2yXoirgg47yrH": {
-          "description": "Crystal form provides natural armor with AC 4.",
-          "name": "Crystal Body"
-        },
-        "A3EQyOIcF95eo8Ki": {
-          "description": "A heavy crystal strike dealing 1d6 damage per hit.",
-          "name": "Crystal Strike"
-        },
-        "CPUAVdif7pdZ6jII": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "FBjI5qDOKexXpJ5k": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "LY6Xks2ON2gOGuXf": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "SdYfP1Oi8T29prjj": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "wBeMZBlqM1Bmr2LD": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        }
-      },
-      "monsterType": "Construct, Enchanted",
-      "name": "Living Statue, Crystal"
-    },
-    "Living Statue, Iron": {
-      "biography": "<p>A living iron statue is an enchanted creature that can absorb metal. Non-magical weapons that strike it may become stuck unless the attacker saves vs. spells. If left embedded, the statue will gradually absorb the metal, ejecting nonmetal parts. Iron statues carry up to 2,000 cn at full speed, or 4,000 cn at half speed.</p><strong>Terrain:</strong> Any (especially Ruins)</p>",
-      "items": {
-        "1geJ6eDTiKC9EstQ": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "N5GebJob3j6ZbNTk": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "UM6Nd7Ndo9w9HE1F": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "Vld22rlax8spCa0o": {
-          "description": "Iron form provides natural armor with AC 2.",
-          "name": "Iron Body"
-        },
-        "WcpdlACQBcRunCQH": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "aamsWz9FU5DOrDPr": {
-          "description": "A heavy iron strike dealing 1d8 damage per hit. Non-magical weapons that hit may become stuck unless a save vs. spells is made.",
-          "name": "Iron Strike"
-        },
-        "oEkstuQgp70R0nBS": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        }
-      },
-      "monsterType": "Construct, Enchanted",
-      "name": "Living Statue, Iron"
-    },
-    "Living Statue, Rock": {
-      "biography": "<p>A living rock statue has a stone exterior filled with molten magma. Each strike releases hot magma, dealing 2d6 damage per hit. Rock statues can carry 2,500 cn at full speed or 5,000 cn at half speed.</p><strong>Terrain:</strong> Any (especially Ruins)</p>",
-      "items": {
-        "0W42rXljgC2CJFGS": {
-          "description": "A powerful attack dealing 2d6 damage per hit, with hot magma released from its stone exterior.",
-          "name": "Magma Strike"
-        },
-        "6Dibj2P8XLxH4bZj": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "LkJrLiIrv2HCBe5B": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "XE11dCsfIBtn7K8j": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "aMwmmmNdaeI2wCSn": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "iKOQSo049geLDoBD": {
-          "description": "Stone body grants an AC of 4.",
-          "name": "Rock Body"
-        },
-        "vknxAijSIy7ulbwA": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        }
-      },
-      "monsterType": "Construct, Enchanted",
-      "name": "Living Statue, Rock"
-    },
     "Lizard Man": {
       "biography": "<p>Lizard Men thrive in swamps, rivers, lakes, and coastal caverns, their humanoid forms adorned with scaly hides, clawed hands, tails, and reptilian heads. Ranging from drab green or brown to vivid reds, blues, yellows, or greens, these water-dwelling tribes hunt relentlessly, often capturing humans and demihumans for feasts at their lairs.</p><p>Semi-intelligent, they wield spears or large clubs—treated as maces—with a +1 damage bonus from their formidable strength (e.g., [[/r 1d6+1 #Weapon damage]] for spear). One in ten speaks rudimentary Common, allowing tense negotiations—though hunger may override talk if food isn’t offered, driving them to dine on their interlocutors.</p><p>Living arduous lives, they roam in bands of [[/r 2d4 #Lizard Men wandering]] or lairs of [[/r 6d6 #Lizard Men in lair]], sometimes serving other races as warriors or scouts for sustenance. Neutral and pragmatic, they hoard modest treasures, valuing only what aids their survival (HD 2 + 1, XP 25).</p><p><strong>Terrain:</strong> Cavern, River/Lake, Swamps</p>",
       "items": {
@@ -17883,7 +17763,7 @@
       "name": "Medusa, Elemental Plane of Earth"
     },
     "Mek (11HD)": {
-      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 11, XP 2700).<br><b>Terrain:</b> Any</p>",
+      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 11, XP 2700).</p><p><strong>Terrain:</strong> Any</p>",
       "items": {
         "6HBRMVhLijwBAeX2": {
           "description": "The Mek strikes with a heavy limb, dealing [[/r 1d6*10 #Limb damage]].",
@@ -17973,7 +17853,7 @@
       "name": "Mek (12HD)"
     },
     "Mek (13HD)": {
-      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 13, XP 3250).<br><b>Terrain:</b> Any</p>",
+      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 13, XP 3250).</p><p><strong>Terrain:</strong> Any</p>",
       "items": {
         "JfuzBXsVpaS9QzCs": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -18018,7 +17898,7 @@
       "name": "Mek (13HD)"
     },
     "Mek (14HD)": {
-      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 14, XP 3500).<br><b>Terrain:</b> Any</p>",
+      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 14, XP 3500).</p><p><strong>Terrain:</strong> Any</p>",
       "items": {
         "8o2wtDyUp4s08aEj": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -18063,7 +17943,7 @@
       "name": "Mek (14HD)"
     },
     "Mek (15HD)": {
-      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 15, XP 3750).<br><b>Terrain:</b> Any</p>",
+      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 15, XP 3750).</p><p><strong>Terrain:</strong> Any</p>",
       "items": {
         "5nOaO6YyZY7lmYY3": {
           "description": "The Mek’s metallic shell offers formidable defense.",
@@ -18108,7 +17988,7 @@
       "name": "Mek (15HD)"
     },
     "Mek (16HD)": {
-      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 16, XP 4050).<br><b>Terrain:</b> Any</p>",
+      "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]]. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 16, XP 4050).</p><p><strong>Terrain:</strong> Any</p>",
       "items": {
         "5AunA6Tn0bNCnVLT": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -20907,7 +20787,7 @@
       "name": "Revener"
     },
     "Rhagodessa": {
-      "biography": "<p>The Rhagodessa is a giant spiderlike carnivore, roughly the size of a small horse, with an oversized yellow head and mandibles, and a dark brown thorax. It has five pairs of legs, the front pair ending in suckers that grasp prey. A leg hit deals no damage but sticks the victim, pulling them to the mandibles for an automatic bite in the next round. These nocturnal hunters operate only in darkness, typically residing in caves and capable of climbing walls.<br><b>Terrain:</b> Cavern, Ruins; Hill, Mountain, Woods (after dark)</p>",
+      "biography": "<p>The Rhagodessa is a giant spiderlike carnivore, roughly the size of a small horse, with an oversized yellow head and mandibles, and a dark brown thorax. It has five pairs of legs, the front pair ending in suckers that grasp prey. A leg hit deals no damage but sticks the victim, pulling them to the mandibles for an automatic bite in the next round. These nocturnal hunters operate only in darkness, typically residing in caves and capable of climbing walls.</p><p><strong>Terrain:</strong> Cavern, Ruins; Hill, Mountain, Woods (after dark)</p>",
       "items": {
         "6TJ2NuDRJyuDfyhT": {
           "description": "The rhagodessa bites with its oversized mandibles, automatically hitting a grasped victim.",
@@ -21411,7 +21291,7 @@
       "monsterType": "Humanoid, Enchanted",
       "name": "Sea Hag*"
     },
-    "Shadow": {
+    "Shadow*": {
       "biography": "<p>Shadows are ghostly, intelligent creatures that are noncorporeal in nature, resembling real shadows. Despite their eerie appearance, they are not undead. These beings dwell in dark, foreboding places such as dungeons, dense forests, or ancient ruins. Shadows are immune to damage from non-magical weapons and can only be harmed by enchanted arms.</p><p>They possess the ability to alter their shape slightly, which helps them blend into their surroundings. Due to their elusive nature, shadows are difficult to detect and often surprise their opponents, achieving surprise on a roll of 1-5 on a d6.</p><p>When a shadow attacks and hits, it inflicts both physical damage and drains 1 point of Strength from the victim. This Strength loss lasts for 8 turns. If a creature’s Strength is reduced to zero, they are transformed into a shadow themselves.</p><p>Shadows are immune to sleep and charm spells. While they share some characteristics with undead creatures, they are not classified as undead and cannot be turned by clerics.</p><p><strong>Common Terrain:</strong> Ruins, Woods.</p>",
       "items": {
         "9DilYXJdkclSml7e": {
@@ -21450,7 +21330,7 @@
         }
       },
       "monsterType": "Monster, Enchanted",
-      "name": "Shadow"
+      "name": "Shadow*"
     },
     "Shark, Bull": {
       "biography": "<p>Sharks are predatory fish with little intelligence and unpredictable behavior, primarily feeding on fish. They are drawn to blood within 300 feet, entering a feeding frenzy where they attack without morale checks. Found exclusively in salt water.<br>These 8' long, brown sharks ram their prey to stun it (save vs. paralysis or be stunned for 3 rounds) before biting.<br><b>Terrain:</b> Ocean</p>",
@@ -25624,7 +25504,7 @@
       "name": "Tyrannosaurus Rex"
     },
     "Undine*": {
-      "biography": "<p>The undine is an intelligent creature composed entirely of water, rare even in the Elemental Plane of Water, its home, and seldom encountered on the Prime Plane. Though chaotic, undines possess good intentions and despise evil. On their home plane, they typically take the form of a featureless, transparent snake but can change shape at will, often using multiple tentacles to manipulate objects. They can swim at an accelerated rate, forming a revolving coil for short bursts.<br>Undines are immune to poison, normal weapons, all 1st and 2nd level spells, and fire-based attacks. They can detect invisible creatures at will and use spells like detect magic, web, dispel magic, ice storm/wall, and fire to ice three times per day, as if cast by a 9th level magic-user. Their web, made of ice strands, functions like a normal web but melts harmlessly when exposed to flame.<br>An undine's attack involves shaping water into a 'fist' for melee combat or coiling around an opponent for constriction damage. On the Prime Plane, they resemble water elementals, becoming invisible in water and regenerating damage, but they take damage from drying out when not submerged. Unlike elementals, they are not limited by protection from evil or proximity to water.<br>Undines have natural enemies in the hydrax and hordes, and they are wary of air-type creatures and attacks.<br><b>Terrain:</b> Plane of Water</p>",
+      "biography": "<p>The undine is an intelligent creature composed entirely of water, rare even in the Elemental Plane of Water, its home, and seldom encountered on the Prime Plane. Though chaotic, undines possess good intentions and despise evil. On their home plane, they typically take the form of a featureless, transparent snake but can change shape at will, often using multiple tentacles to manipulate objects. They can swim at an accelerated rate, forming a revolving coil for short bursts.</p><p>Undines are immune to poison, normal weapons, all 1st and 2nd level spells, and fire-based attacks. They can detect invisible creatures at will and use spells like detect magic, web, dispel magic, ice storm/wall, and fire to ice three times per day, as if cast by a 9th level magic-user. Their web, made of ice strands, functions like a normal web but melts harmlessly when exposed to flame.</p><p>An undine's attack involves shaping water into a 'fist' for melee combat or coiling around an opponent for constriction damage. On the Prime Plane, they resemble water elementals, becoming invisible in water and regenerating damage, but they take damage from drying out when not submerged. Unlike elementals, they are not limited by protection from evil or proximity to water.</p><p>Undines have natural enemies in the hydrax and hordes, and they are wary of air-type creatures and attacks.</p><p><strong>Terrain:</strong> Plane of Water</p>",
       "items": {
         "650hhON6uzFdEJ8d": {
           "description": "Can use detect invisible at will, and detect magic, web, dispel magic, ice storm/wall, and fire to ice three times per day (as a 9th level magic-user).",
