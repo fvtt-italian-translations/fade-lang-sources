@@ -17315,6 +17315,11 @@
     "Manscorpion (8HD)": {
       "biography": "<p>The Manscorpion, a vile blend of man and scorpion, prowls caverns, deserts, and mountains, its human-like torso atop the segmented body of a giant arachnid. Driven by malice, it roams any climate, ambushing intruders and raiding desert human enclaves for sustenance.</p><p>It wields a huge pole arm (dealing [[/r 3d6 #Pole arm damage]]) or other weapons, paired with a venomous tail strike ([[/r 1d10 #Tail damage]] + poison, save vs. poison or die, paralysis for [[/r 1d8-1 #Rounds paralyzed]] even if saved). Immune to its kin’s venom, it strikes with deadly intent.</p><p>Intelligent yet hostile, bands of [[/r 1d8 #Manscorpions wandering]] or lairs of [[/r 2d10 #Manscorpions in lair]] hoard rich treasures, their chaotic nature spurning alliances save with giant scorpions. A relentless foe (HD 8, XP 1750), it destroys all unlike itself.<br><b>Terrain:</b> Cavern, Desert, Mountain</p>",
       "items": {
+        "GtqVkgUsKwEuqe3N": {
+          "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
+          "gmNotes": "May use long bow (1d6) or other weapons instead.",
+          "name": "Pole Arm"
+        },
         "NCYNfWsqaEdOFvch": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -17324,15 +17329,15 @@
           "description": "The Manscorpion’s tough chitin grants exceptional defense.",
           "name": "Chitin"
         },
-        "VP1ijukd0hhobzqo": {
-          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
-          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
-          "name": "Tail Sting"
-        },
         "WYVbXscvdkLsyAwH": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "Z6gOTv87quprnvs3": {
+          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
+          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
+          "name": "Tail Sting"
         },
         "hklZr8GepO0gzXjr": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -17343,11 +17348,6 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
-        },
-        "oQusJE1xPpcEbWQa": {
-          "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
-          "gmNotes": "May use long bow (1d6) or other weapons instead.",
-          "name": "Pole Arm"
         },
         "yRhYnZPEwFTkqayG": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -17366,16 +17366,16 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "46XX9eVXLEZj2glo": {
-          "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
-          "gmNotes": "May use long bow (1d6) or other weapons instead.",
-          "name": "Pole Arm"
-        },
         "9nZ0k0O12QReT99d": {
           "description": "The Manscorpion’s tough chitin grants exceptional defense.",
           "name": "Chitin"
         },
-        "WKHVm2hgnal5JMwj": {
+        "GtqVkgUsKwEuqe3N": {
+          "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
+          "gmNotes": "May use long bow (1d6) or other weapons instead.",
+          "name": "Pole Arm"
+        },
+        "Z6gOTv87quprnvs3": {
           "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
           "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
           "name": "Tail Sting"
@@ -17407,16 +17407,11 @@
     "Manscorpion Cleric (11HD)": {
       "biography": "<p>The Manscorpion Cleric, a sinister fusion of human and giant scorpion, stalks caverns, deserts, and mountains, its upper body humanoid yet its lower half a venomous arachnid menace. Wielding dark clerical powers of 11th level, these rare spellcasters rule their kind from lairs, their hatred fueling raids on human desert settlements.</p><p>Armed with a massive pole arm (dealing [[/r 3d6 #Pole arm damage]]) or other weapons, it strikes alongside a lethal tail sting ([[/r 1d10 #Tail damage]] + poison, save vs. poison or die, paralysis for [[/r 1d8-1 #Rounds paralyzed]] even if saved). Immune to scorpion venom, it wields its arsenal with chaotic precision.</p><p>Warlike and intelligent, groups of [[/r 1d8 #Manscorpions wandering]] or lairs of [[/r 2d10 #Manscorpions in lair]] hoard lavish treasures, often doubled in value. Allied only with giant scorpions, they shun other races, their spellcasting prowess (HD 11, XP 4300) a terror to all.<br><strong>Terrain:</strong> Cavern, Desert, Mountain</p>",
       "items": {
-        "BQCOEuGzXYpPrGLk": {
-          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
-          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
-          "name": "Tail Sting"
-        },
         "BmRPsS48IZlE34Za": {
           "description": "The Manscorpion’s tough chitin grants exceptional defense.",
           "name": "Chitin"
         },
-        "CSngQRYKsQm7IcZu": {
+        "GtqVkgUsKwEuqe3N": {
           "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
           "gmNotes": "May use long bow (1d6) or other weapons instead.",
           "name": "Pole Arm"
@@ -17430,6 +17425,11 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "Z6gOTv87quprnvs3": {
+          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
+          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
+          "name": "Tail Sting"
         },
         "epSPVXgPtXXiJ0r7": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -17453,7 +17453,7 @@
     "Manscorpion Cleric (12HD)": {
       "biography": "<p>The Manscorpion Cleric, a sinister fusion of human and giant scorpion, stalks caverns, deserts, and mountains, its upper body humanoid yet its lower half a venomous arachnid menace. Wielding dark clerical powers of 12th level, these rare spellcasters rule their kind from lairs, their hatred fueling raids on human desert settlements.</p><p>Armed with a massive pole arm (dealing [[/r 3d6 #Pole arm damage]]) or other weapons, it strikes alongside a lethal tail sting ([[/r 1d10 #Tail damage]] + poison, save vs. poison or die, paralysis for [[/r 1d8-1 #Rounds paralyzed]] even if saved). Immune to scorpion venom, it wields its arsenal with chaotic precision.</p><p>Warlike and intelligent, groups of [[/r 1d8 #Manscorpions wandering]] or lairs of [[/r 2d10 #Manscorpions in lair]] hoard lavish treasures, often doubled in value. Allied only with giant scorpions, they shun other races, their spellcasting prowess (HD 12, XP 5625) a terror to all.<br><strong>Terrain:</strong> Cavern, Desert, Mountain</p>",
       "items": {
-        "1U0aUBSIToA6049F": {
+        "GtqVkgUsKwEuqe3N": {
           "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
           "gmNotes": "May use long bow (1d6) or other weapons instead.",
           "name": "Pole Arm"
@@ -17462,11 +17462,6 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
-        },
-        "JWEAyUBJCbGkZU66": {
-          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
-          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
-          "name": "Tail Sting"
         },
         "SXdWS0FkWlrCphDJ": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -17481,6 +17476,11 @@
         "VEwD3CbH2ePrEc5R": {
           "description": "The Manscorpion’s tough chitin grants exceptional defense.",
           "name": "Chitin"
+        },
+        "Z6gOTv87quprnvs3": {
+          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
+          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
+          "name": "Tail Sting"
         },
         "du8At8I6DKgMgk2v": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -17499,11 +17499,6 @@
     "Manscorpion Cleric (13HD)": {
       "biography": "<p>The Manscorpion Cleric, a sinister fusion of human and giant scorpion, stalks caverns, deserts, and mountains, its upper body humanoid yet its lower half a venomous arachnid menace. Wielding dark clerical powers of 13th level, these rare spellcasters rule their kind from lairs, their hatred fueling raids on human desert settlements.</p><p>Armed with a massive pole arm (dealing [[/r 3d6 #Pole arm damage]]) or other weapons, it strikes alongside a lethal tail sting ([[/r 1d10 #Tail damage]] + poison, save vs. poison or die, paralysis for [[/r 1d8-1 #Rounds paralyzed]] even if saved). Immune to scorpion venom, it wields its arsenal with chaotic precision.</p><p>Warlike and intelligent, groups of [[/r 1d8 #Manscorpions wandering]] or lairs of [[/r 2d10 #Manscorpions in lair]] hoard lavish treasures, often doubled in value. Allied only with giant scorpions, they shun other races, their spellcasting prowess (HD 13, XP 6500) a terror to all.<br><strong>Terrain:</strong> Cavern, Desert, Mountain</p>",
       "items": {
-        "6ar4hBFyNMOnkTKy": {
-          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
-          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
-          "name": "Tail Sting"
-        },
         "ELIYFAHFLea58UvP": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -17513,10 +17508,15 @@
           "description": "The Manscorpion’s tough chitin grants exceptional defense.",
           "name": "Chitin"
         },
-        "QhPWcGVBPefkFUoA": {
+        "GtqVkgUsKwEuqe3N": {
           "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
           "gmNotes": "May use long bow (1d6) or other weapons instead.",
           "name": "Pole Arm"
+        },
+        "Z6gOTv87quprnvs3": {
+          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
+          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
+          "name": "Tail Sting"
         },
         "bHrP5lrJcuH9629Q": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -17601,6 +17601,16 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "GtqVkgUsKwEuqe3N": {
+          "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
+          "gmNotes": "May use long bow (1d6) or other weapons instead.",
+          "name": "Pole Arm"
+        },
+        "Z6gOTv87quprnvs3": {
+          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
+          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
+          "name": "Tail Sting"
+        },
         "baXo6cne5OiWWZT4": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
@@ -17609,11 +17619,6 @@
         "gUVPrlPk2UB267Un": {
           "description": "The Manscorpion’s tough chitin grants exceptional defense.",
           "name": "Chitin"
-        },
-        "ma11DxnTFbHkfaph": {
-          "description": "The Manscorpion’s tail stings for [[/r 1d10 #Tail damage]] + poison (save vs. poison or die, else paralyzed [[/r 1d8-1 #Rounds paralyzed]]).",
-          "gmNotes": "Paralysis even on successful save; immune to scorpion poison.",
-          "name": "Tail Sting"
         },
         "scQQW0pITjQLccil": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -17624,11 +17629,6 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
-        },
-        "yAr1rzBopsNvUEBM": {
-          "description": "The Manscorpion wields a huge pole arm, dealing [[/r 3d6 #Pole arm damage]].",
-          "gmNotes": "May use long bow (1d6) or other weapons instead.",
-          "name": "Pole Arm"
         }
       },
       "monsterType": "Monster",
@@ -18570,15 +18570,15 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
+        },
         "IuMFh2vKsaXhUNc4": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "Up5mjWkJJU1wkuqu": {
-          "description": "Every 4 hours, the Nightshade, Nightcrawler summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
         },
         "VZdPrvkiwaKhPpQi": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -18621,25 +18621,20 @@
     "Nightshade, Nightcrawler (26HD)*": {
       "biography": "<p>The Nightshade, Nightcrawler slithers forth as a monstrous, jet-black worm, 100 feet long and 10-15 feet wide, its eyeless maw sensing all—seen or unseen—through eldritch power. Forged or summoned by greater evils for dire purposes, it prowls any terrain, its unbroken obsidian hue a mark of death’s intent.</p><p>Daylight hinders it with a -4 attack penalty, while its aura spoils all consumables within 120', chilling the air as a warning to the wise. Immune to illusions, wands, poison, charm, hold, cold, spells below 6th level, and weapons below +3, it halves dragon breath damage (quarter with a save), regenerating [[/r 3 #Hit points per round]]. It silently wields charm person, invisibility, haste, confusion, cloudkill (21st-level magic-user), darkness, hold person, cause disease, dispel magic, and finger of death (21st-level cleric) at will.</p><p>Its bite rends for [[/r 2d10 #Bite damage]] and its tail stings for [[/r 2d4 #Sting damage]], both poisoned (-2 save penalty). A 19-20 bite swallows, draining 1 level per round (no save, negated by protection from evil), while the sting has a 1-in-8 death chance. It shrinks one foe within 60' per round (save vs. spells or 1' size, +4 to hit thereafter), summons undead every 4 hours (1d6: 1-3 shade, 4-5 haunt, 6 hand druj), resists turning with a save vs. spells, and hoards swallowed treasures.<br><b>Terrain:</b> Any</p>",
       "items": {
-        "3H9EG3pFdUeqz0YS": {
-          "description": "The Nightshade, Nightcrawler bites with deadly force, dealing [[/r 2d10 #Bite damage]] plus poison (-2 save penalty).",
-          "gmNotes": "19-20 swallows, draining 1 level/round unless protected.",
-          "name": "Bite"
-        },
         "7ejwSyJnP6onoO4m": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "7iCd9aoWPp4rjM93": {
-          "description": "Every 4 hours, the Nightshade, Nightcrawler summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
-        },
         "9NyqoeRl09E4RNkp": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
+        },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
         },
         "KmbCfbHonR51aSpV": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -18656,10 +18651,15 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "q8fBBnf2Q9vCqDIN": {
+        "gDdGCblN0HxRzr1p": {
           "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
           "gmNotes": "Roll 1d8; 1 = death, no save.",
           "name": "Tail Stinger"
+        },
+        "k7xaH1hTbV0VTVnL": {
+          "description": "The Nightshade, Nightcrawler bites with deadly force, dealing [[/r 2d10 #Bite damage]] plus poison (-2 save penalty).",
+          "gmNotes": "19-20 swallows, draining 1 level/round unless protected.",
+          "name": "Bite"
         },
         "sQcQD62t2tysXXoC": {
           "description": "The Nightshade, Nightcrawler’s jet-black hide resists all but the mightiest blows.",
@@ -18682,15 +18682,15 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "4wSe77GrRUOBBian": {
-          "description": "Every 4 hours, the Nightshade, Nightcrawler summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
-        },
         "AAKHBCJBZlGZt7iX": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
         },
         "I94GGzoSg95Dg9eJ": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -18701,7 +18701,7 @@
           "description": "The Nightshade, Nightcrawler’s jet-black hide resists all but the mightiest blows.",
           "name": "Hide"
         },
-        "guMpfdic9z4HCGBi": {
+        "gDdGCblN0HxRzr1p": {
           "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
           "gmNotes": "Roll 1d8; 1 = death, no save.",
           "name": "Tail Stinger"
@@ -18710,6 +18710,11 @@
           "description": "The Nightshade, Nightcrawler shrinks one foe within 60' to 1' (save vs. spells), gaining +4 to hit thereafter.",
           "gmNotes": "Permanent until dispelled.",
           "name": "Shrink"
+        },
+        "k7xaH1hTbV0VTVnL": {
+          "description": "The Nightshade, Nightcrawler bites with deadly force, dealing [[/r 2d10 #Bite damage]] plus poison (-2 save penalty).",
+          "gmNotes": "19-20 swallows, draining 1 level/round unless protected.",
+          "name": "Bite"
         },
         "sjAybq0vIPNA2iSl": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -18720,11 +18725,6 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "xe9WiLm5ep5fhgjU": {
-          "description": "The Nightshade, Nightcrawler bites with deadly force, dealing [[/r 2d10 #Bite damage]] plus poison (-2 save penalty).",
-          "gmNotes": "19-20 swallows, draining 1 level/round unless protected.",
-          "name": "Bite"
         }
       },
       "monsterType": "Undead, Enchanted",
@@ -18733,20 +18733,15 @@
     "Nightshade, Nightcrawler (28HD)*": {
       "biography": "<p>The Nightshade, Nightcrawler slithers forth as a monstrous, jet-black worm, 100 feet long and 10-15 feet wide, its eyeless maw sensing all—seen or unseen—through eldritch power. Forged or summoned by greater evils for dire purposes, it prowls any terrain, its unbroken obsidian hue a mark of death’s intent.</p><p>Daylight hinders it with a -4 attack penalty, while its aura spoils all consumables within 120', chilling the air as a warning to the wise. Immune to illusions, wands, poison, charm, hold, cold, spells below 6th level, and weapons below +3, it halves dragon breath damage (quarter with a save), regenerating [[/r 3 #Hit points per round]]. It silently wields charm person, invisibility, haste, confusion, cloudkill (21st-level magic-user), darkness, hold person, cause disease, dispel magic, and finger of death (21st-level cleric) at will.</p><p>Its bite rends for [[/r 2d10 #Bite damage]] and its tail stings for [[/r 2d4 #Sting damage]], both poisoned (-2 save penalty). A 19-20 bite swallows, draining 1 level per round (no save, negated by protection from evil), while the sting has a 1-in-8 death chance. It shrinks one foe within 60' per round (save vs. spells or 1' size, +4 to hit thereafter), summons undead every 4 hours (1d6: 1-3 shade, 4-5 haunt, 6 hand druj), resists turning with a save vs. spells, and hoards swallowed treasures.<br><b>Terrain:</b> Any</p>",
       "items": {
-        "Ie3Du7E210umSkXP": {
-          "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
-          "gmNotes": "Roll 1d8; 1 = death, no save.",
-          "name": "Tail Stinger"
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
         },
         "IfqgVSz9EccgXkTK": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
-        },
-        "J68N5M247VbFQVnr": {
-          "description": "Every 4 hours, the Nightshade, Nightcrawler summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
         },
         "Pgh4v5YjoUZfRwS5": {
           "description": "The Nightshade, Nightcrawler shrinks one foe within 60' to 1' (save vs. spells), gaining +4 to hit thereafter.",
@@ -18763,19 +18758,24 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "gDdGCblN0HxRzr1p": {
+          "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
+          "gmNotes": "Roll 1d8; 1 = death, no save.",
+          "name": "Tail Stinger"
+        },
         "iy7urE2mHSlfTlk4": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "mwiei3qSp6NJRIhW": {
-          "description": "The Nightshade, Nightcrawler’s jet-black hide resists all but the mightiest blows.",
-          "name": "Hide"
-        },
-        "oForEgSiOi8jGiW6": {
+        "k7xaH1hTbV0VTVnL": {
           "description": "The Nightshade, Nightcrawler bites with deadly force, dealing [[/r 2d10 #Bite damage]] plus poison (-2 save penalty).",
           "gmNotes": "19-20 swallows, draining 1 level/round unless protected.",
           "name": "Bite"
+        },
+        "mwiei3qSp6NJRIhW": {
+          "description": "The Nightshade, Nightcrawler’s jet-black hide resists all but the mightiest blows.",
+          "name": "Hide"
         },
         "ocdyHlkOG9XHdmpc": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -18794,6 +18794,11 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
+        },
         "EnJV5YQpgX8DHf1i": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -18804,17 +18809,17 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "XB9JFZk1BQTil8QO": {
-          "description": "Every 4 hours, the Nightshade, Nightcrawler summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
-        },
         "eBlAsUYDArtdie6u": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "jtCcifU8oMfLg7A8": {
+        "gDdGCblN0HxRzr1p": {
+          "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
+          "gmNotes": "Roll 1d8; 1 = death, no save.",
+          "name": "Tail Stinger"
+        },
+        "k7xaH1hTbV0VTVnL": {
           "description": "The Nightshade, Nightcrawler bites with deadly force, dealing [[/r 2d10 #Bite damage]] plus poison (-2 save penalty).",
           "gmNotes": "19-20 swallows, draining 1 level/round unless protected.",
           "name": "Bite"
@@ -18828,11 +18833,6 @@
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
-        },
-        "t1VOG32z2pQcUHnE": {
-          "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
-          "gmNotes": "Roll 1d8; 1 = death, no save.",
-          "name": "Tail Stinger"
         },
         "znE1BPthe6qxRQXy": {
           "description": "The Nightshade, Nightcrawler’s jet-black hide resists all but the mightiest blows.",
@@ -18850,11 +18850,6 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "3wVRIqiG1jGjrndZ": {
-          "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
-          "gmNotes": "Roll 1d8; 1 = death, no save.",
-          "name": "Tail Stinger"
-        },
         "5Gxh61Xc2hZ8oFHa": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
@@ -18868,6 +18863,11 @@
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
         },
         "SctFaaWwnM7lFx6n": {
           "description": "The Nightshade, Nightcrawler shrinks one foe within 60' to 1' (save vs. spells), gaining +4 to hit thereafter.",
@@ -18884,12 +18884,12 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "ivwRh184ZnNQt6bw": {
-          "description": "Every 4 hours, the Nightshade, Nightcrawler summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
+        "gDdGCblN0HxRzr1p": {
+          "description": "The Nightshade, Nightcrawler’s tail stings for [[/r 2d4 #Sting damage]] plus poison (-2 save penalty), with a 1-in-8 chance of instant death.",
+          "gmNotes": "Roll 1d8; 1 = death, no save.",
+          "name": "Tail Stinger"
         },
-        "vAbvZzCG51Fep3KH": {
+        "k7xaH1hTbV0VTVnL": {
           "description": "The Nightshade, Nightcrawler bites with deadly force, dealing [[/r 2d10 #Bite damage]] plus poison (-2 save penalty).",
           "gmNotes": "19-20 swallows, draining 1 level/round unless protected.",
           "name": "Bite"
@@ -18907,7 +18907,7 @@
           "shortName": "Wand"
         },
         "EXqWakUSsqsooPEp": {
-          "description": "Every 4 hours, the Nightshade, Nightwalker summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
           "gmNotes": "Roll 1d6 for type.",
           "name": "Summon Undead"
         },
@@ -18922,7 +18922,7 @@
           "shortName": "Death"
         },
         "UApspC5Iqd6J0AeY": {
-          "description": "The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a 50% chance to crush armor.",
+          "description": "<p>The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a [[/r 1d100 #Armor crushed on a roll of 50 or less]] 50% chance to crush armor.</p>",
           "gmNotes": "50% crush chance, -10% per + enchantment.",
           "name": "Fist"
         },
@@ -18952,15 +18952,15 @@
     "Nightshade, Nightwalker (22HD)*": {
       "biography": "<p>The Nightshade, Nightwalker strides as a towering, jet-black giant, 20 feet tall, its eyeless gaze piercing all veils with arcane sight. Born of dark will by greater powers, it haunts any terrain, its solid black form a herald of ruin.</p><p>Daylight curbs it with a -4 attack penalty, its presence spoiling all edibles within 120', chilling the air as a telltale sign. Immune to illusions, wands, poison, charm, hold, cold, spells below 6th level, and weapons below +3, it halves dragon breath damage (quarter with a save), regenerating [[/r 3 #Hit points per round]]. It casts charm person, invisibility, haste, confusion, cloudkill (21st-level magic-user), darkness, hold person, cause disease, dispel magic, and finger of death (21st-level cleric) at will, silently.</p><p>Its fists smash for [[/r 3d10 #Fist damage]] each, with a 50% chance to crush shields/armor (-10% per +), and a poison touch (-2 save penalty). Its gaze within 60' curses one foe per round (save vs. spells or -4 to attacks/saves). It summons undead every 4 hours (1d6: 1-3 shade, 4-5 haunt, 6 hand druj), resists turning with a save vs. spells, and bears swallowed riches.<br><b>Terrain:</b> Any</p>",
       "items": {
-        "9HhQgB8wp7p2U6Sq": {
-          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
-          "gmNotes": "Permanent until dispelled by high-level magic.",
-          "name": "Gaze"
-        },
         "Bg2XNbawDqvOHiO1": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
         },
         "GlcqNgShs0NLU2Bh": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -18971,8 +18971,8 @@
           "description": "The Nightshade, Nightwalker’s pitch-black skin deflects lesser assaults.",
           "name": "Hide"
         },
-        "Oal2X9lJ1O4ovgJk": {
-          "description": "The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a 50% chance to crush armor.",
+        "UApspC5Iqd6J0AeY": {
+          "description": "<p>The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a [[/r 1d100 #Armor crushed on a roll of 50 or less]] 50% chance to crush armor.</p>",
           "gmNotes": "50% crush chance, -10% per + enchantment.",
           "name": "Fist"
         },
@@ -18986,15 +18986,15 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "cHZlzIWYcVuB9PZX": {
+          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
+          "gmNotes": "Permanent until dispelled by high-level magic.",
+          "name": "Gaze"
+        },
         "jjKYRKusQMBG8vL3": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
-        },
-        "vyaPBXpLbIPkpyrZ": {
-          "description": "Every 4 hours, the Nightshade, Nightwalker summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
         }
       },
       "monsterType": "Undead, Enchanted",
@@ -19008,8 +19008,8 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "74SajMEj6vbCCm57": {
-          "description": "Every 4 hours, the Nightshade, Nightwalker summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
           "gmNotes": "Roll 1d6 for type.",
           "name": "Summon Undead"
         },
@@ -19018,16 +19018,16 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "UApspC5Iqd6J0AeY": {
+          "description": "<p>The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a [[/r 1d100 #Armor crushed on a roll of 50 or less]] 50% chance to crush armor.</p>",
+          "gmNotes": "50% crush chance, -10% per + enchantment.",
+          "name": "Fist"
+        },
         "WhFsZgIT56T5V1aT": {
           "description": "The Nightshade, Nightwalker’s pitch-black skin deflects lesser assaults.",
           "name": "Hide"
         },
-        "a3i3knXa7hf2teq5": {
-          "description": "The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a 50% chance to crush armor.",
-          "gmNotes": "50% crush chance, -10% per + enchantment.",
-          "name": "Fist"
-        },
-        "e3waXrbpGUWTeXSJ": {
+        "cHZlzIWYcVuB9PZX": {
           "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
           "gmNotes": "Permanent until dispelled by high-level magic.",
           "name": "Gaze"
@@ -19054,13 +19054,8 @@
     "Nightshade, Nightwalker (24HD)*": {
       "biography": "<p>The Nightshade, Nightwalker strides as a towering, jet-black giant, 20 feet tall, its eyeless gaze piercing all veils with arcane sight. Born of dark will by greater powers, it haunts any terrain, its solid black form a herald of ruin.</p><p>Daylight curbs it with a -4 attack penalty, its presence spoiling all edibles within 120', chilling the air as a telltale sign. Immune to illusions, wands, poison, charm, hold, cold, spells below 6th level, and weapons below +3, it halves dragon breath damage (quarter with a save), regenerating [[/r 3 #Hit points per round]]. It casts charm person, invisibility, haste, confusion, cloudkill (21st-level magic-user), darkness, hold person, cause disease, dispel magic, and finger of death (21st-level cleric) at will, silently.</p><p>Its fists smash for [[/r 3d10 #Fist damage]] each, with a 50% chance to crush shields/armor (-10% per +), and a poison touch (-2 save penalty). Its gaze within 60' curses one foe per round (save vs. spells or -4 to attacks/saves). It summons undead every 4 hours (1d6: 1-3 shade, 4-5 haunt, 6 hand druj), resists turning with a save vs. spells, and bears swallowed riches.<br><b>Terrain:</b> Any</p>",
       "items": {
-        "9Iw5ynR7S878rEVw": {
-          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
-          "gmNotes": "Permanent until dispelled by high-level magic.",
-          "name": "Gaze"
-        },
-        "A08vSbMUrFQXgoxR": {
-          "description": "Every 4 hours, the Nightshade, Nightwalker summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
           "gmNotes": "Roll 1d6 for type.",
           "name": "Summon Undead"
         },
@@ -19073,20 +19068,25 @@
           "description": "The Nightshade, Nightwalker’s pitch-black skin deflects lesser assaults.",
           "name": "Hide"
         },
+        "UApspC5Iqd6J0AeY": {
+          "description": "<p>The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a [[/r 1d100 #Armor crushed on a roll of 50 or less]] 50% chance to crush armor.</p>",
+          "gmNotes": "50% crush chance, -10% per + enchantment.",
+          "name": "Fist"
+        },
         "YvrnbNyrjhSUXVTb": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "cHZlzIWYcVuB9PZX": {
+          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
+          "gmNotes": "Permanent until dispelled by high-level magic.",
+          "name": "Gaze"
+        },
         "fDtQZ2JETDxwS5pu": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
-        },
-        "lS6Xlbq5hzb1F48u": {
-          "description": "The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a 50% chance to crush armor.",
-          "gmNotes": "50% crush chance, -10% per + enchantment.",
-          "name": "Fist"
         },
         "sA442tXbI9qMtDcA": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -19105,15 +19105,15 @@
     "Nightshade, Nightwalker (25HD)*": {
       "biography": "<p>The Nightshade, Nightwalker strides as a towering, jet-black giant, 20 feet tall, its eyeless gaze piercing all veils with arcane sight. Born of dark will by greater powers, it haunts any terrain, its solid black form a herald of ruin.</p><p>Daylight curbs it with a -4 attack penalty, its presence spoiling all edibles within 120', chilling the air as a telltale sign. Immune to illusions, wands, poison, charm, hold, cold, spells below 6th level, and weapons below +3, it halves dragon breath damage (quarter with a save), regenerating [[/r 3 #Hit points per round]]. It casts charm person, invisibility, haste, confusion, cloudkill (21st-level magic-user), darkness, hold person, cause disease, dispel magic, and finger of death (21st-level cleric) at will, silently.</p><p>Its fists smash for [[/r 3d10 #Fist damage]] each, with a 50% chance to crush shields/armor (-10% per +), and a poison touch (-2 save penalty). Its gaze within 60' curses one foe per round (save vs. spells or -4 to attacks/saves). It summons undead every 4 hours (1d6: 1-3 shade, 4-5 haunt, 6 hand druj), resists turning with a save vs. spells, and bears swallowed riches.<br><b>Terrain:</b> Any</p>",
       "items": {
-        "48g1hy95CRzvfe7q": {
-          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
-          "gmNotes": "Permanent until dispelled by high-level magic.",
-          "name": "Gaze"
-        },
         "DNSr9PQR7Hyr0rzI": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
         },
         "IRp6CUowwXjAHEZ9": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -19125,24 +19125,24 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
+        "UApspC5Iqd6J0AeY": {
+          "description": "<p>The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a [[/r 1d100 #Armor crushed on a roll of 50 or less]] 50% chance to crush armor.</p>",
+          "gmNotes": "50% crush chance, -10% per + enchantment.",
+          "name": "Fist"
+        },
         "VPDUcbUfShmMAIGw": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "aBPlsshmeUN5AeFl": {
-          "description": "Every 4 hours, the Nightshade, Nightwalker summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
+        "cHZlzIWYcVuB9PZX": {
+          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
+          "gmNotes": "Permanent until dispelled by high-level magic.",
+          "name": "Gaze"
         },
         "sFCPsKdBybX2QNw1": {
           "description": "The Nightshade, Nightwalker’s pitch-black skin deflects lesser assaults.",
           "name": "Hide"
-        },
-        "tCu2TaNEpd4GWlZp": {
-          "description": "The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a 50% chance to crush armor.",
-          "gmNotes": "50% crush chance, -10% per + enchantment.",
-          "name": "Fist"
         },
         "y5B7VnfSe00XG3nu": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -19161,20 +19161,25 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
+        },
         "R0jRMU9Z33avFJGG": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "VrPiC5YHMMI7sA5g": {
-          "description": "The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a 50% chance to crush armor.",
+        "UApspC5Iqd6J0AeY": {
+          "description": "<p>The Nightshade, Nightwalker slams with fists, dealing [[/r 3d10 #Fist damage]] plus poison (-2 save penalty), with a [[/r 1d100 #Armor crushed on a roll of 50 or less]] 50% chance to crush armor.</p>",
           "gmNotes": "50% crush chance, -10% per + enchantment.",
           "name": "Fist"
         },
-        "gpbA1pYe9wuaWtNO": {
-          "description": "Every 4 hours, the Nightshade, Nightwalker summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
+        "cHZlzIWYcVuB9PZX": {
+          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
+          "gmNotes": "Permanent until dispelled by high-level magic.",
+          "name": "Gaze"
         },
         "gzkpJQ4cp0ObYu9N": {
           "description": "The Nightshade, Nightwalker’s pitch-black skin deflects lesser assaults.",
@@ -19184,11 +19189,6 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
-        },
-        "haklXNUUEQM6Ytqg": {
-          "description": "The Nightshade, Nightwalker’s gaze within 60' curses one foe (save vs. spells or -4 to attacks/saves).",
-          "gmNotes": "Permanent until dispelled by high-level magic.",
-          "name": "Gaze"
         },
         "nEmOAOxS8bV6LPQL": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -19207,6 +19207,11 @@
     "Nightshade, Nightwing (17HD)*": {
       "biography": "<p>The Nightshade, Nightwing glides as a vast, jet-black bat with a 50-foot wingspread, its eyeless form unveiling all with magical perception. Crafted by greater evils, it stalks any terrain, its unmarred black expanse a portent of doom.</p><p>Daylight dims it with a -4 attack penalty, its aura spoiling consumables within 120', chilling the air for the wary. Immune to illusions, wands, poison, charm, hold, cold, spells below 6th level, and weapons below +3, it halves dragon breath damage (quarter with a save), regenerating [[/r 3 #Hit points per round]]. It silently casts charm person, invisibility, haste, confusion, cloudkill (21st-level magic-user), darkness, hold person, cause disease, dispel magic, and finger of death (21st-level cleric) at will.</p><p>Its swoop, with 90% surprise, strikes for [[/r 1d6+6 #Swoop damage]] plus poison (-2 save penalty), polymorphing victims into giant bats (save vs. spells or charmed). It drains one 'plus' from items with a +4 bonus attack, summons undead every 4 hours (1d6: 1-3 shade, 4-5 haunt, 6 hand druj), resists turning with a save vs. spells, and carries swallowed treasures.<br><b>Terrain:</b> Any</p>",
       "items": {
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
+        },
         "GX2LTVbtD57JnixM": {
           "description": "The Nightshade, Nightwing swoops with a 90% surprise chance, dealing [[/r 1d6+6 #Swoop damage]] plus poison (-2 save penalty), polymorphing on a failed save.",
           "gmNotes": "Polymorphs to giant bat, charmed until dispelled.",
@@ -19231,11 +19236,6 @@
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
-        },
-        "ourA0vfPu3k9xsam": {
-          "description": "Every 4 hours, the Nightshade, Nightwing summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
         },
         "sB5JxvGDd6jFaT4J": {
           "description": "The Nightshade, Nightwing’s obsidian flesh wards off lesser strikes.",
@@ -19263,15 +19263,20 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
+        },
         "FqN6ssTx9QrcS6bV": {
           "description": "The Nightshade, Nightwing strikes an item with +4 to hit, draining one 'plus' of magic.",
           "gmNotes": "Targets shields/weapons, restorable by high-level magic.",
           "name": "Drain Magic"
         },
-        "Gt0VsJmzloZvPDNv": {
-          "description": "Every 4 hours, the Nightshade, Nightwing summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
+        "GX2LTVbtD57JnixM": {
+          "description": "The Nightshade, Nightwing swoops with a 90% surprise chance, dealing [[/r 1d6+6 #Swoop damage]] plus poison (-2 save penalty), polymorphing on a failed save.",
+          "gmNotes": "Polymorphs to giant bat, charmed until dispelled.",
+          "name": "Swoop"
         },
         "JDFgZGZZag2W8m1f": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -19282,11 +19287,6 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
-        },
-        "NQv7h0ULUX358sb9": {
-          "description": "The Nightshade, Nightwing swoops with a 90% surprise chance, dealing [[/r 1d6+6 #Swoop damage]] plus poison (-2 save penalty), polymorphing on a failed save.",
-          "gmNotes": "Polymorphs to giant bat, charmed until dispelled.",
-          "name": "Swoop"
         },
         "NqRPyhEdvQ7NQkQt": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -19314,7 +19314,12 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
-        "A6LZ5Lc8sTzrH0dr": {
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
+        },
+        "GX2LTVbtD57JnixM": {
           "description": "The Nightshade, Nightwing swoops with a 90% surprise chance, dealing [[/r 1d6+6 #Swoop damage]] plus poison (-2 save penalty), polymorphing on a failed save.",
           "gmNotes": "Polymorphs to giant bat, charmed until dispelled.",
           "name": "Swoop"
@@ -19343,11 +19348,6 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "qR7iRIRTQKXjRQ9l": {
-          "description": "Every 4 hours, the Nightshade, Nightwing summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
-        },
         "viHkzZQHoynpa3jC": {
           "description": "The Nightshade, Nightwing strikes an item with +4 to hit, draining one 'plus' of magic.",
           "gmNotes": "Targets shields/weapons, restorable by high-level magic.",
@@ -19370,12 +19370,17 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "EXqWakUSsqsooPEp": {
+          "description": "<p>Every 4 hours, the Nightshade, Nightwalker summons lesser undead.</p><p>[[/r 1d6 #Summon undead]]</p><ul><li><p>1-3 phantom (shade)</p></li><li><p>4-5 haunt (chaotic ghost)</p></li><li><p>6 spirit (hand druj)</p></li></ul>",
+          "gmNotes": "Roll 1d6 for type.",
+          "name": "Summon Undead"
+        },
         "GEUK0Juu0syLyf1d": {
           "description": "The Nightshade, Nightwing strikes an item with +4 to hit, draining one 'plus' of magic.",
           "gmNotes": "Targets shields/weapons, restorable by high-level magic.",
           "name": "Drain Magic"
         },
-        "KQhUmErE9gnjxAuO": {
+        "GX2LTVbtD57JnixM": {
           "description": "The Nightshade, Nightwing swoops with a 90% surprise chance, dealing [[/r 1d6+6 #Swoop damage]] plus poison (-2 save penalty), polymorphing on a failed save.",
           "gmNotes": "Polymorphs to giant bat, charmed until dispelled.",
           "name": "Swoop"
@@ -19398,11 +19403,6 @@
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
-        },
-        "yJ4ERD1Q36F7fu1c": {
-          "description": "Every 4 hours, the Nightshade, Nightwing summons lesser undead (1d6: 1-3 shade, 4-5 haunt, 6 hand druj).",
-          "gmNotes": "Roll 1d6 for type.",
-          "name": "Summon Undead"
         }
       },
       "monsterType": "Undead, Enchanted",
