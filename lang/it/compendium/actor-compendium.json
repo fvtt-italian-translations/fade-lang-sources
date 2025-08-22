@@ -13291,6 +13291,19 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
+                },
+                "UApspC5Iqd6J0AeY": {
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico.",
+                    "name": "Pugno"
+                },
+                "cHZlzIWYcVuB9PZX": {
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
+                    "name": "Sguardo"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -13327,6 +13340,19 @@
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
                     "name": "Bacchetta Magica",
                     "shortName": "Bacchetta"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
+                },
+                "cHZlzIWYcVuB9PZX": {
+                    "name": "Sguardo",
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello."
+                },
+                "UApspC5Iqd6J0AeY": {
+                    "name": "Pugno",
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -13363,6 +13389,19 @@
                 "sFCPsKdBybX2QNw1": {
                     "name": "Nascondersi",
                     "description": "La pelle dell'Ombra Errante della Notte nera come la pece, devia gli assalti minori."
+                },
+                "UApspC5Iqd6J0AeY": {
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico.",
+                    "name": "Pugno"
+                },
+                "cHZlzIWYcVuB9PZX": {
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "name": "Sguardo",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello."
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -13442,6 +13481,19 @@
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
                     "name": "Veleno o Raggio della Morte",
                     "shortName": "Morte"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
+                },
+                "UApspC5Iqd6J0AeY": {
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico.",
+                    "name": "Pugno"
+                },
+                "cHZlzIWYcVuB9PZX": {
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza).",
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
+                    "name": "Sguardo"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -13488,6 +13540,10 @@
                     "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
                     "gmNotes": "Colpisce scudi/armi, riparabili tramite magia di alto livello.",
                     "name": "Risucchia Magico"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -13529,6 +13585,15 @@
                     "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
                     "gmNotes": "Colpisce scudi/armi, riparabili tramite magia di alto livello.",
                     "name": "Risucchia Magico"
+                },
+                "GX2LTVbtD57JnixM": {
+                    "gmNotes": "Viene trasformato in pipistrello gigante e rimane sotto l'effetto dello charme fino a che viene dissolto.",
+                    "name": "Planata",
+                    "description": "L'Ombra Chirottero d'Ombra, sorprende in picchiata con una probabilità del 90%, infliggendo [[/r 1d6+6 #Danni da Picchiata]] più veleno (penalità al tiro salvezza -2), trasformandosi in pipistrello gigante in caso di tiro salvezza fallito."
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -13614,6 +13679,15 @@
                     "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
                     "name": "Risucchia Magico",
                     "gmNotes": "Colpisce scudi/armi, riparabili tramite magia di alto livello."
+                },
+                "GX2LTVbtD57JnixM": {
+                    "description": "L'Ombra Chirottero d'Ombra, sorprende in picchiata con una probabilità del 90%, infliggendo [[/r 1d6+6 #Danni da Picchiata]] più veleno (penalità al tiro salvezza -2), trasformandosi in pipistrello gigante in caso di tiro salvezza fallito.",
+                    "gmNotes": "Viene trasformato in pipistrello gigante e rimane sotto l'effetto dello charme fino a che viene dissolto.",
+                    "name": "Planata"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -13655,6 +13729,15 @@
                     "description": "Il'Ombra Chirottero d'Ombra, colpisce un oggetto con +4 per colpire, prosciugando un '+' magico.",
                     "gmNotes": "Colpisce scudi/armi, riparabili tramite magia di alto livello.",
                     "name": "Risucchia Magico"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
+                },
+                "GX2LTVbtD57JnixM": {
+                    "description": "L'Ombra Chirottero d'Ombra, sorprende in picchiata con una probabilità del 90%, infliggendo [[/r 1d6+6 #Danni da Picchiata]] più veleno (penalità al tiro salvezza -2), trasformandosi in pipistrello gigante in caso di tiro salvezza fallito.",
+                    "name": "Planata",
+                    "gmNotes": "Viene trasformato in pipistrello gigante e rimane sotto l'effetto dello charme fino a che viene dissolto."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -16611,6 +16694,19 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
+                },
+                "UApspC5Iqd6J0AeY": {
+                    "gmNotes": "Probabilità di distruzione del 50%, -10% per ogni \"+\" magico.",
+                    "name": "Pugno"
+                },
+                "cHZlzIWYcVuB9PZX": {
+                    "gmNotes": "Permanente finché non viene dissolto con magia di alto livello.",
+                    "name": "Sguardo",
+                    "description": "Lo sguardo dell'Ombra Errante della Notte entro 18 m maledice un nemico (tiro salvezza contro incantesimi o -4 ad attacchi/tiri salvezza)."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -16687,6 +16783,16 @@
                 "VEwD3CbH2ePrEc5R": {
                     "name": "Chitina",
                     "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale."
+                },
+                "GtqVkgUsKwEuqe3N": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "Z6gOTv87quprnvs3": {
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione",
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]])."
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -17700,6 +17806,20 @@
                     "name": "Restringere",
                     "gmNotes": "Permanente finché non viene dissolto.",
                     "description": "L'Ombra Verme Notturno, rimpicciolisce un nemico entro 18 m a 30 cm (TS contro incantesimi), ottenendo poi +4 al TxC contro di esso."
+                },
+                "gDdGCblN0HxRzr1p": {
+                    "name": "Coda Pungente",
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS."
+                },
+                "k7xaH1hTbV0VTVnL": {
+                    "description": "L'Ombra Verme Notturno morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2).",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto.",
+                    "name": "Morso"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "name": "Evocare Non-Morti",
+                    "gmNotes": "Tirare 1d6 per il tipo."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -19048,6 +19168,10 @@
                     "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
                     "name": "Coda Pungente",
                     "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8."
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -19089,6 +19213,20 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "name": "Soffio del Drago",
                     "shortName": "Soffio"
+                },
+                "gDdGCblN0HxRzr1p": {
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
+                    "name": "Coda Pungente"
+                },
+                "k7xaH1hTbV0VTVnL": {
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto.",
+                    "name": "Morso",
+                    "description": "L'Ombra Verme Notturno morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2)."
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -19242,6 +19380,20 @@
                 "T9JwWRhck2X1agR1": {
                     "name": "Nascondersi",
                     "description": "La pelle nera come la pece dell'Ombra Verme Notturno, resiste a tutti tranne ai colpi più potenti."
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
+                },
+                "gDdGCblN0HxRzr1p": {
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
+                    "name": "Coda Pungente"
+                },
+                "k7xaH1hTbV0VTVnL": {
+                    "description": "L'Ombra Verme Notturno morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2).",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto.",
+                    "name": "Morso"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -20176,6 +20328,16 @@
                 "VMW4TmKdDTRGBgU1": {
                     "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
                     "name": "Chitina"
+                },
+                "GtqVkgUsKwEuqe3N": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "Z6gOTv87quprnvs3": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -20212,6 +20374,16 @@
                 "9nZ0k0O12QReT99d": {
                     "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
                     "name": "Chitina"
+                },
+                "GtqVkgUsKwEuqe3N": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "Z6gOTv87quprnvs3": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -20376,6 +20548,16 @@
                 "BmRPsS48IZlE34Za": {
                     "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
                     "name": "Chitina"
+                },
+                "GtqVkgUsKwEuqe3N": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "Z6gOTv87quprnvs3": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -20412,6 +20594,16 @@
                 "FzkerxGd0kX6MZPN": {
                     "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
                     "name": "Chitina"
+                },
+                "GtqVkgUsKwEuqe3N": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "Z6gOTv87quprnvs3": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -20448,6 +20640,16 @@
                 "gUVPrlPk2UB267Un": {
                     "description": "La chitina resistente dell'Uomo-Scorpione garantisce una difesa eccezionale.",
                     "name": "Chitina"
+                },
+                "GtqVkgUsKwEuqe3N": {
+                    "description": "L'Uomo-Scorpione impugna un'enorme arma ad asta, che infligge [[/r 3d6 #danni da arma ad asta]].",
+                    "gmNotes": "In alternativa, è possibile usare un arco lungo (1d6) o altre armi.",
+                    "name": "Arma Lunga"
+                },
+                "Z6gOTv87quprnvs3": {
+                    "description": "La coda dell'Uomo-Scorpione punge per [[/r 1d10 #Danni alla coda]] + veleno (salvataggio contro veleno o morte, altrimenti paralizzato [[/r 1d8-1 #Round paralizzato]]).",
+                    "gmNotes": "Paralisi anche in caso di tiro salvezza riuscito; immune al veleno dello scorpione.",
+                    "name": "Pungiglione"
                 }
             },
             "monsterType": "Mostro (Raro)",
@@ -20540,6 +20742,20 @@
                 "mwiei3qSp6NJRIhW": {
                     "name": "Nascondersi",
                     "description": "La pelle nera come la pece dell'Ombra Verme Notturno, resiste a tutti tranne ai colpi più potenti."
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
+                },
+                "gDdGCblN0HxRzr1p": {
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS.",
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "name": "Coda Pungente"
+                },
+                "k7xaH1hTbV0VTVnL": {
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto.",
+                    "name": "Morso",
+                    "description": "L'Ombra Verme Notturno morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2)."
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -20581,6 +20797,20 @@
                     "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
                     "name": "Pietrificazione o Paralisi",
                     "shortName": "Pietrifica"
+                },
+                "gDdGCblN0HxRzr1p": {
+                    "description": "La coda dell'Ombra Verme Notturno, punge per [[/r 2d4 #Danni da pungiglione]] più veleno (penalità al tiro salvezza -2), con una probabilità di morte istantanea di 1 su 8.",
+                    "name": "Coda Pungente",
+                    "gmNotes": "Tira 1d8; 1 = morte, nessun TS."
+                },
+                "k7xaH1hTbV0VTVnL": {
+                    "description": "L'Ombra Verme Notturno morde con forza mortale, infliggendo [[/r 2d10 #Danni da morso]] più veleno (penalità al TS -2).",
+                    "gmNotes": "19-20 ingoia, risucchiando 1 livello/round se non protetto.",
+                    "name": "Morso"
+                },
+                "EXqWakUSsqsooPEp": {
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "name": "Evocare Non-Morti"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
