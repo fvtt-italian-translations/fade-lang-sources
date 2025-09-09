@@ -2914,7 +2914,7 @@
       "spellEffect": "Seals a portal against all but the caster"
     },
     "Magic Missile": {
-      "description": "<p>This spell creates a glowing arrow that inflicts [[/r 1d6+1 #Magic missile damage]] (2-7) points of damage to any visible target specified by the caster. The arrow always hits and no saving throw is allowed. After the spell is cast, the arrow appears next to the caster and hovers there until shot.</p><p>For every 5 levels of experience, two additional missiles are created by the same spell. The caster can direct these missiles at one or multiple targets.</p>",
+      "description": "<p>This spell creates a glowing arrow that inflicts [[/r 1d6+1 #Magic missile damage]] (2-7) points of damage to any visible target specified by the caster. The arrow always hits and no saving throw is allowed. After the spell is cast, the arrow appears next to the caster and hovers there (moving with the caster) until shot.</p><p>For every 5 levels of experience, two additional missiles are created by the same spell. The caster can direct these missiles at one or multiple targets.</p>",
       "name": "Magic Missile",
       "spellEffect": "Creates 1 or more arrows"
     },
@@ -5814,6 +5814,10 @@
       "name": "Trident",
       "unidentifiedDesc": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
       "weaponMastery": "Trident"
+    },
+    "Troglodyte Stench": {
+      "description": "<p>The stench of a troglodyte can cause a -2 penalty to all attack rolls in melee combat.</p>",
+      "name": "Troglodyte Stench"
     },
     "Truesight": {
       "description": "<p>With *Truesight*, the cleric gains the ability to see all things as they truly are within a 120' radius. The spell reveals all hidden, invisible, and ethereal objects or creatures, functioning as the *detect invisible* spell.</p>\n                      <p>Additionally, the cleric perceives any secret doors, and can see through any form of disguise, polymorph, or other alterations. Deception is impossible. The spell also reveals creatures' alignments, experience, and power levels.</p>",

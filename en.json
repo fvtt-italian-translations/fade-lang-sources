@@ -328,6 +328,10 @@
           "success": "<div class='attack-success text-size16'>Success</div>"
         }
       },
+      "actions": {
+        "name": "Actions"
+      },
+      "appliedCondition": "<div><span style='color:#c58344' class='text-size16'>{condition}</span> applied to:</div>",
       "apply": "Apply",
       "applyDamageDesc": "Apply damage to selected token or target.",
       "applyHealingDesc": "Apply healing to selected token or target.",
@@ -586,7 +590,8 @@
       "categories": {
         "class": "Class Ability",
         "explore": "Exploration",
-        "save": "Saving Throw"
+        "save": "Saving Throw",
+        "spellcasting": "Spellcasting"
       },
       "long": "Special Ability",
       "plural": "Special Abilities",
@@ -996,6 +1001,7 @@
       "needRest": "<div class='warning'>The party is tired and needs to rest.</div>",
       "needRestSoon": "<div class='warning'>The party will need to rest next turn, or their attack and damage rolls may be penalized until they do.</div>",
       "noAmmo": "{actorName} does not have {weaponName} ammunition equipped.",
+      "noCharges": "{itemName} has no charges remaining and can't be used.",
       "noTokenWarning": "You must select a token or assign a default character to perform this action.",
       "noTokenWarning2": "You must select a token to perform this action.",
       "notMemorized": "{actorName} tries to cast {spellName}, but the spell is not memorized.",
