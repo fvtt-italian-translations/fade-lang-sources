@@ -532,7 +532,8 @@
             "categories": {
                 "explore": "Esplorazione",
                 "class": "Abilità di Classe",
-                "save": "Tiro Salvezza"
+                "save": "Tiro Salvezza",
+                "spellcasting": "Lanciare Incantesimi"
             },
             "saveType": "Tipo TS",
             "saveTypeHint": "Da impostare se questa abilità speciale è un tiro salvezza."
@@ -590,7 +591,10 @@
             },
             "targetAC": "<span data-tooltip='Classe armatura in mischia e a distanza (se uguali); altrimenti classe armatura solo in mischia.' {cssClass}>{acTotal}</span>{targetRangedAc}",
             "targetRangedAC": "/<span data-tooltip='CA per attacchi a distanza.' {cssClass}>{acTotal}</span>",
-            "useWithTarget": "{owner} usa {used} ({operator}{target})"
+            "useWithTarget": "{owner} usa {used} ({operator}{target})",
+            "actions": {
+                "name": "Azioni"
+            }
         },
         "dialog": {
             "lightSource": "Fonte di Luce",
