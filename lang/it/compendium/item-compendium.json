@@ -5789,10 +5789,48 @@
             "description": "<p>La vittima subisce una penalità di -4 a tutti i tiri per colpire e ai tiri salvezza finché la maledizione non viene rimossa. (Un incantesimo Distruzione del Male cancellerà la maledizione, ma un incantesimo Scaccia Maledizioni funzionerà solo se lanciato da un incantatore di livello pari o superiore al 25°).</p>"
         },
         "Despair": {
-            "description": "<p>L'attore afflitto è sopraffatto da dolore e compassione; crederà che ogni azione sia senza speranza e non potrà compiere alcuna azione</p>"
+            "description": "<p>L'attore afflitto è sopraffatto da dolore e compassione; crederà che ogni azione sia senza speranza e non potrà compiere alcuna azione</p>",
+            "name": "Disperazione"
         },
         "Entranced": {
             "description": "<p>L'attore affetto è completamente in trance e non può compiere alcuna azione.</p>"
+        },
+        "Ethereal": {
+            "name": "Eterea"
+        },
+        "Fear@QMnq62lBb1rxYaMF": {
+            "name": "Paura"
+        },
+        "Fear@oYjWYjpLycaMM1ME": {
+            "name": "Paura"
+        },
+        "Flight": {
+            "gmNotes": "Capacità di volo dei pipistrelli giganti.",
+            "name": "Volo"
+        },
+        "Glide": {
+            "name": "Planare"
+        },
+        "Invisibility@AoXEPSwDTZ3Ol3zZ": {
+            "name": "Invisibilità"
+        },
+        "Invisibility@CRokTWBgRgtlXqP1": {
+            "name": "Invisibilità",
+            "spellDuration": "Permanente, fin quando non sia spezzato l’incantesimo",
+            "spellEffect": "1 creatura o oggetto"
+        },
+        "Paralysis": {
+            "name": "Paralisi"
+        },
+        "Swim": {
+            "name": "Nuotare"
+        },
+        "Teleport@9odcKQwwvJit7xwl": {
+            "name": "Teletrasporto"
+        },
+        "Teleport@DopHWlFppHP2WGmD": {
+            "gmNotes": "Abilità di teletrasporto a volontà.",
+            "name": "Teletrasporto"
         }
     },
     "label": "Oggetti Classi Abilità",
@@ -5849,6 +5887,7 @@
         "Conditions": "Condizioni",
         "Wands": "Bacchette",
         "Rods": "Verghe",
-        "Staves": "Bastoni"
+        "Staves": "Bastoni",
+        "Other": "Altro"
     }
 }
