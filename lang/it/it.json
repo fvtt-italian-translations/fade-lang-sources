@@ -250,7 +250,21 @@
                 "undead": "Non-Morto (Comune)",
                 "enchanted": "Incantato",
                 "fey": "Fatato",
-                "group": "Gruppo"
+                "group": "Gruppo",
+                "addVsGroupButton": "Mod Gruppo",
+                "bugs": "Insetti",
+                "constructs": "Costrutti",
+                "dragonkind": "Dragonidi",
+                "giantkind": "Gigantidi",
+                "lycanthropes": "Licantropi",
+                "noGroupMod": "Nessun modificatore di gruppo configurato.",
+                "planar": "Planare",
+                "regenerating": "Rigenerante",
+                "reptiles-dinosaurs": "Rettili e dinosauri",
+                "spell-immune": "Immune agli incantesimi",
+                "spellcasters": "Utenti di magia",
+                "water-breathing": "Respira sott'acqua",
+                "weapon-using": "Uso delle armi"
             }
         },
         "SheetLabel": {
@@ -270,7 +284,8 @@
             "TreasureItem": "Scheda Tesoro",
             "ActorClassItem": "Scheda Oggetto di Classe del PG",
             "CharacterSheetBase": "Scheda del PG",
-            "AncestryDefinitionItem": "Scheda di Definizione Razza"
+            "AncestryDefinitionItem": "Scheda di Definizione Razza",
+            "AmmoItem": "Scheda Munizioni"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -392,6 +407,10 @@
                 "toHitRanged": {
                     "long": "Modificatore TPC a Distanza",
                     "short": "TPC+ Dist"
+                },
+                "rangeMultiplier": {
+                    "long": "Moltiplicatore Gittata",
+                    "short": "Molt. Gitt."
                 }
             },
             "range": {
@@ -467,7 +486,10 @@
                 "hint": "Il valore dell'armatura indica quanti punti danno l'armatura blocca.",
                 "long": "Valore Armatura",
                 "short": "VA"
-            }
+            },
+            "modRanged": "Mod CA Distanza",
+            "totalRanged": "CA Distanza Totale",
+            "totalRangedAAC": "CAA Distanza Totale"
         },
         "Mastery": {
             "levels": {
@@ -549,7 +571,9 @@
                 "unskilledUse": "Uso arma improvvisata: {mod}",
                 "masteryPrimDmg": "Maestria Arma - Danno Primario",
                 "masterySecDmg": "Maestria Arma - Danno Secondario",
-                "manual": "Mod manuale: {mod}"
+                "manual": "Mod manuale: {mod}",
+                "ammoMod": "Mod Munizione: {mod}",
+                "vsGroupMod": "Mod contro {group} : {mod}"
             },
             "attackACNone": "<div class='attack-info'>L'attacco non colpisce nessuna CA</div>",
             "attackSuccess": "<div class='attack-success'>Colpito!</div>",
@@ -594,7 +618,17 @@
             "useWithTarget": "{owner} usa {used} ({operator}{target})",
             "actions": {
                 "name": "Azioni"
-            }
+            },
+            "abilityCheck": {
+                "tieredResults": {
+                    "criticalSuccess": "<div class='attack-success text-size16b'>Successo critico!</div>",
+                    "fail": "<div class='attack-fail text-size16'>Fallimento</div>",
+                    "partialSuccess": "<div class='attack-success text-size16'>Successo Parziale</div>",
+                    "criticalFail": "<div class='attack-fail text-size16b'>Fallimento critico!</div>",
+                    "success": "<div class='attack-success text-size16'>Successo</div>"
+                }
+            },
+            "appliedCondition": "<div><span style='color:#c58344' class='text-size16'>{condition}</span> applicata a:</div>"
         },
         "dialog": {
             "lightSource": "Fonte di Luce",
@@ -684,8 +718,13 @@
             },
             "difficulty": {
                 "levels": {
-                    "medium": "Media"
-                }
+                    "medium": "Media",
+                    "absurd": "Assurdo",
+                    "veryHard": "Molto Difficile",
+                    "easy": "Facile",
+                    "hard": "Difficile"
+                },
+                "name": "Difficoltà"
             }
         },
         "tabs": {
@@ -736,7 +775,7 @@
                 },
                 "moveOnly": {
                     "name": "Solo Movimento",
-                    "description": "Il combattente si sta muovendo e non sta attaccando in questo round. Non è una 'Ritirata'"
+                    "description": "Il combattente si sta muovendo e non sta attaccando in questo round. Non è una 'Ritirata'. Sono incluse le azioni che non sono specificatamente menzionate nell'elenco."
                 },
                 "readyWeapon": {
                     "name": "Prepara Arma",
@@ -756,7 +795,7 @@
                 },
                 "magicItem": {
                     "name": "Oggetto Magico",
-                    "description": "Il combattente attiva un oggetto magico che non sia un'arma, come una pozione, una bacchetta, un anello o l'abilità passiva di un altro oggetto magico"
+                    "description": "Il combattente attiva un oggetto magico, come una pozione, una bacchetta, un anello o l'abilità passiva di un altro oggetto magico"
                 },
                 "lance": {
                     "name": "Attacco con Lancia",
@@ -839,7 +878,8 @@
             "partyRests": "Il gruppo riposa.",
             "selectTarget": "Deve essere selezionato un bersaglio.",
             "needRestSoon": "<div class='warning'>Il gruppo dovrà riposare nel turno successivo, altrimenti i suoi TxC e di danno potrebbero essere penalizzati finché non lo farà.</div>",
-            "missingSave": "Il personaggio non possiede il tipo di tiro salvezza richiesto ({type})."
+            "missingSave": "Il personaggio non possiede il tipo di tiro salvezza richiesto ({type}).",
+            "noCharges": "{itemName} non ha più cariche e non può essere utilizzato."
         },
         "class": {
             "key": {
@@ -1222,8 +1262,11 @@
         },
         "abilityCheckSystem": {
             "choices": {
-                "basic": "Base"
-            }
+                "basic": "Base",
+                "tiered": "A più livelli"
+            },
+            "name": "Sistema Prove Abilità",
+            "hint": "Il Sistema di Prova delle Abilità determina come vengono gestite le prove di caratteristica. Il tiro di base richiede un d20 che deve essere inferiore al punteggio di caratteristica pertinente per essere considerato un successo. Un tiro di 20 è sempre un fallimento."
         }
     },
     "TYPES": {
@@ -1259,7 +1302,8 @@
             "Chaotic or Neutral": "Caotico o Neutrale",
             "Lawful or Neutral": "Legale o Neutrale",
             "Any (often Chaotic)": "Qualsiasi (spesso Caotico)",
-            "Lawful (with master) or Chaotic (without)": "Legale (con maestro) o Caotico (senza)"
+            "Lawful (with master) or Chaotic (without)": "Legale (con maestro) o Caotico (senza)",
+            "Nuetral": "Neutrale"
         },
         "spellRange": {
             "Touch": "Tocco",
