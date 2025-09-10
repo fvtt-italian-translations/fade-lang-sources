@@ -1690,6 +1690,10 @@
       "spellDuration": "0 to 60 rounds",
       "spellEffect": "Fireball with delayed detonation"
     },
+    "Despair": {
+      "description": "<p>The afflicted actor is filled with sorrow and sympathy; they will believe all action is hopeless, and cannot perform any action.</p>",
+      "name": "Despair"
+    },
     "Detect Danger": {
       "description": "<p>This spell allows the caster to sense hazards by concentrating on places, objects, or creatures within range. The caster needs a full round of concentration to examine one square foot of area, one creature, or one small object. Larger objects require more time.</p>\n                <p>After examination, the caster knows if the target is immediately dangerous, potentially dangerous, or benign, from the caster's point of view. The spell can detect poisons, which other spells might not. The duration is one hour in natural outdoor settings on the Prime Plane; elsewhere, it lasts for only three turns.</p>",
       "name": "Detect Danger",
@@ -2046,6 +2050,10 @@
       "spellDuration": "1 round per level",
       "spellEffect": "Controls ropes"
     },
+    "Entranced": {
+      "description": "<p>The afflicted actor is completely entranced and cannot perform any action.</p>",
+      "name": "Entranced"
+    },
     "Escape": {
       "description": "<p>The Escape skill allows a character to slip free from bonds, such as ropes or manacles, and to break out of physical restraints or confined spaces. Success may depend on the quality of the bindings and the character’s current condition. This skill is also used to evade grapples and similar situations in combat.</p>",
       "name": "Escape"
@@ -2070,6 +2078,14 @@
       "description": "<div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"94e4c5d5-5098-4cde-a312-9426bf7d6f38\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p data-start=\"59\" data-end=\"403\">Upon reaching <strong data-start=\"73\" data-end=\"86\">9th level</strong>, a Magic-User may choose to <strong data-start=\"115\" data-end=\"132\">build a tower</strong>, establishing themselves as a land-owning wizard. Unlike Fighters or Clerics, a Magic-User does not need <strong data-start=\"238\" data-end=\"273\">permission from the local ruler</strong> to construct a stronghold, as rulers generally avoid antagonizing powerful wizards​.</p><h4 data-start=\"405\" data-end=\"438\">Attracting Apprentices</h4><p data-start=\"439\" data-end=\"770\">Once a tower is built, the Magic-User will attract <strong data-start=\"490\" data-end=\"509\">1d6 apprentices</strong>, all <strong data-start=\"515\" data-end=\"544\">Magic-Users of levels 1–3</strong>. These apprentices seek training, and while they are loyal, they will not sacrifice themselves for their master. The <strong data-start=\"662\" data-end=\"723\">DM determines their names, backgrounds, and personalities</strong>​.</p><h4 data-start=\"772\" data-end=\"818\">Stronghold and Dungeon Construction</h4><p data-start=\"819\" data-end=\"1303\">A wizard's tower may include a <strong data-start=\"850\" data-end=\"880\">dungeon beneath or near it</strong>. Some wizards construct dungeons as secure laboratories, while others <strong data-start=\"951\" data-end=\"971\">leave an opening</strong>, attracting <strong data-start=\"984\" data-end=\"1006\">wandering monsters</strong> that take up residence. Some wizards encourage this, using monsters for research, spell experimentation, or personal defense​. However, monster-infested dungeons often cause conflict with <strong data-start=\"1238\" data-end=\"1259\">local communities</strong> and attract adventurers seeking treasure.</p><h4 data-start=\"1305\" data-end=\"1357\">Alternative to a Tower: Becoming a Magist</h4><p data-start=\"1358\" data-end=\"1754\">Instead of building a tower, a Name-level Magic-User may <strong data-start=\"1415\" data-end=\"1446\">seek employment as a Magist</strong> in an existing stronghold. A Magist serves a ruler as an <strong data-start=\"1504\" data-end=\"1534\">advisor on magical matters</strong>, handles magical needs, and is well-compensated—typically <strong data-start=\"1593\" data-end=\"1624\">at least 3,000 gp per month</strong>. However, this requires the Magic-User to swear an <strong data-start=\"1676\" data-end=\"1694\">oath of fealty</strong> to the ruler​.</p><p data-start=\"1756\" data-end=\"1843\" data-is-last-node=\"\">Would you like additional details, such as construction costs or typical tower layouts?</p></div></div></div></div><div class=\"mb-2 flex gap-3 empty:hidden -ml-2\"><div class=\"items-center justify-start rounded-xl p-1 flex\"><div class=\"flex items-center\"><p></p></div></div></div>",
       "name": "Establish Tower (M)"
     },
+    "Ethereal": {
+      "description": "<p>When a monster or character is in ethereal form, they become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
+      "name": "Ethereal"
+    },
+    "Ethereal Form": {
+      "description": "<p>The ability to become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
+      "name": "Ethereal Form"
+    },
     "Exhausted": {
       "name": "Exhausted"
     },
@@ -2090,7 +2106,11 @@
       "spellEffect": "Creates dancing lights that illuminate a 30' radius",
       "spellRange": "10' + 10'/level"
     },
-    "Fear": {
+    "Fear@QMnq62lBb1rxYaMF": {
+      "description": "<p>The target(s) of this ability must make a saving throw against spells or flee in fear. Some variants of the ability may automatically affect creatures of a certain hit dice or lower (no saving throw), causing them to refuse to return to the area where the ability was used until the situation changes.</p>",
+      "name": "Fear"
+    },
+    "Fear@oYjWYjpLycaMM1ME": {
       "name": "Fear"
     },
     "Feeblemind": {
@@ -2232,6 +2252,11 @@
       "name": "Flesh to Stone*",
       "spellEffect": "One creature or object"
     },
+    "Flight": {
+      "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+      "gmNotes": "Flying ability of giant bats.",
+      "name": "Flight"
+    },
     "Flight Be True": {
       "description": "<p>This spell-song allows the bard to temporarily enchant one missile attack per round while singing and playing an instrument. The bard must succeed in all required checks to maintain the song.</p><p><strong>Effects:</strong></p><ul><li>One arrow, quarrel, or sling stone per round is enchanted.</li><li>The enchanted missile gains +4 to hit.</li><li>The missile can damage creatures normally immune to non-silvered or non-magical weapons.</li></ul><p><strong>Duration:</strong></p><ul><li>The bard may continue this song for a maximum number of rounds equal to their Constitution score.</li><li>After reaching this limit, the bard passes out for [[/r 1d4 #Hours Unconscious]] hours.</li><li>If the bard stops singing before reaching their limit, there are no negative effects.</li></ul>",
       "name": "Flight Be True",
@@ -2311,6 +2336,10 @@
     "Ghoul Paralysis Immunity (E)": {
       "description": "<p>Elves are immune to the paralyzing attacks of ghouls. They are, however, still affected by other forms of paralysis.</p>",
       "name": "Ghoul Paralysis Immunity (E)"
+    },
+    "Glide": {
+      "description": "<p>The Glide ability allows a character or creature to move smoothly through the air, typically descending gently from a height without falling rapidly. This ability enables controlled movement over distances, often allowing for safe landings and navigation in the air.</p>",
+      "name": "Glide"
     },
     "Gold Piece": {
       "name": "Gold Piece"
@@ -2647,17 +2676,21 @@
       "description": "<p>This skill allows the character to coerce or intimidate non-player characters (NPCs) into complying with their demands. Intimidation typically involves an implicit or explicit threat of violence or other consequences if the target does not comply. A successful skill check means the NPC is cowed into submission or action favorable to the character.</p>\n            <p>The skill is most effective against NPCs with lower levels or morale and is not usable on player characters. It has no effect on characters of 5th level or higher. NPCs subject to successful Intimidation are unlikely to view the character favorably in the future, and the relationship may be permanently damaged.</p>\n            <p>In situations where physical presence, strength, or combat prowess can be effectively displayed to bolster the threat, the DM may grant a bonus to the roll. However, this skill does not work against targets who are clearly in a superior position (such as a king surrounded by his elite guards).</p>",
       "name": "Intimidation"
     },
-    "Invisibility": {
-      "description": "<p>This spell makes any one creature or object invisible. When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible.</p>\n                  <p>If the spellcaster makes an object invisible that is not being carried or worn, it will become visible again when touched by any living creature. An invisible creature remains invisible until they attack or cast any spell.</p>",
-      "name": "Invisibility",
-      "spellDuration": "Permanent until broken",
-      "spellEffect": "One creature or object"
-    },
     "Invisibility 10' Radius": {
       "description": "<p>This spell makes the recipient and all other creatures within a 10' radius invisible at the time of casting. Creatures that move more than 10' away from the recipient lose their invisibility and cannot regain it by returning to the area.</p>\n                      <p>The invisibility effect is similar to the standard *Invisibility* spell, where invisible creatures and items carried remain unseen until the creature attacks or casts a spell.</p>\n                      <p>All items carried by affected creatures are also rendered invisible.</p>",
       "name": "Invisibility 10' Radius",
       "spellDuration": "Permanent until broken",
       "spellEffect": "All creatures within 10' become invisible"
+    },
+    "Invisibility@AoXEPSwDTZ3Ol3zZ": {
+      "description": "<p><strong>Invisibility</strong> allows a character or creature to become unseen by others, rendering them effectively invisible. While invisible, the user may be able to move and perform actions without being detected. Some attacks may require the user to become visible to target an opponent, while others can be executed while remaining invisible, allowing for stealthy strikes or surprise attacks. The duration of invisibility and any conditions that may end it can vary based on the specific context or rules governing the ability.</p>",
+      "name": "Invisibility"
+    },
+    "Invisibility@CRokTWBgRgtlXqP1": {
+      "description": "<p>This spell makes any one creature or object invisible. When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible.</p>\n                  <p>If the spellcaster makes an object invisible that is not being carried or worn, it will become visible again when touched by any living creature. An invisible creature remains invisible until they attack or cast any spell.</p>",
+      "name": "Invisibility",
+      "spellDuration": "Permanent until broken",
+      "spellEffect": "One creature or object"
     },
     "Invisible": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible. <br>An invisible creature remains invisible until they attack or cast any spell.</span></p>",
@@ -3667,6 +3700,10 @@
     "Paper, sheet": {
       "name": "Paper, sheet"
     },
+    "Paralysis": {
+      "description": "<p>Any creature hit by an attack must make a saving throw against paralysis or become paralyzed for a duration determined by rolling [[/r 2d4 #Paralyzed for this many turns.]] turns. This paralysis can be cured through magical means or will eventually wear off on its own.</p>",
+      "name": "Paralysis"
+    },
     "Paralyzed": {
       "description": "<p>The afflicted actor is completely paralyzed and cannot perform any physical action.</p>",
       "name": "Paralyzed"
@@ -4663,6 +4700,10 @@
       "spellDuration": "One hour per level",
       "spellEffect": "Protects one creature against non-magical environmental damage"
     },
+    "Swim": {
+      "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+      "name": "Swim"
+    },
     "Sword": {
       "description": "<p>When this spell is cast, a glowing sword made of magical energy appears next to the caster. The caster may direct the sword to attack any creature within 30 feet simply by concentrating.</p><h4>Combat Details:</h4><ul><li>The sword attacks twice per round.</li><li>It attacks using the caster's attack rolls and level.</li><li>Deals damage as a two-handed sword (1d10).</li><li>Can hit any target, including those requiring magical weapons to be harmed.</li></ul><h4>Rules & Mechanics:</h4><ul><li>The caster must concentrate to control the sword.</li><li>If concentration is broken, the sword stops attacking but remains in existence.</li><li>The sword remains for 1 round per caster level.</li><li>It cannot be destroyed except by <em>Dispel Magic</em> (normal success chance) or a <em>Wish</em>.</li></ul>",
       "name": "Sword",
@@ -4766,15 +4807,20 @@
       "name": "Telekinesis",
       "spellEffect": "200 cn of weight per level of caster"
     },
-    "Teleport": {
-      "description": "<p>This spell instantly transports the caster or another creature within 10' to any unoccupied destination on the same plane. Distance does not matter, and the recipient arrives at the destination with all carried equipment. An unwilling target can make a saving throw vs. spells to avoid teleportation.</p><p><strong>Restrictions on Destination:</strong> The caster cannot deliberately teleport to an occupied space, and must choose a solid surface for arrival (such as ground level or a building top), not mid-air.</p><p><strong>Teleportation Accuracy:</strong> Teleporting carries a risk of inaccuracy based on the caster’s familiarity with the location. Familiarity levels—Casual, General, and Exact—impact the chance of success. The DM rolls d% and consults the table below.</p><table style=\"width:97%\"><thead><tr><th>Knowledge of Destination</th><th>Success</th><th>Too High</th><th>Too Low</th></tr></thead><tbody><tr><td>Casual (visited once or twice, or by description)</td><td>01-50</td><td>51-75</td><td>76-00</td></tr><tr><td>General (visited often or studied magically)</td><td>01-80</td><td>81-90</td><td>91-00</td></tr><tr><td>Exact (detailed personal study)</td><td>01-95</td><td>96-99</td><td>00</td></tr></tbody></table><p><strong>Teleport Results:</strong></p><ul><li><strong>Success:</strong> The recipient arrives at the chosen location.</li><li><strong>Too High:</strong> The recipient arrives 1d10 x 10' above the destination, taking 1d6 points of damage per 10' fallen, unless flying or levitating.</li><li><strong>Too Low:</strong> The recipient arrives 1d10 x 10' below the destination. Teleporting into solid objects results in instant death unless an open area (e.g., a cave) exists there, at the DM's discretion.</li></ul>",
-      "name": "Teleport",
-      "spellEffect": "Transports one creature with equipment"
-    },
     "Teleport Any Object": {
       "description": "<p>This spell functions similarly to the <em>Teleport</em> spell, but it affects nonliving objects in addition to creatures. The spellcaster must touch the target object or creature, causing it to instantly teleport to the chosen location.</p><h4>Teleportation Mechanics:</h4><ul><li>Chance of Error: If teleporting an object, the standard teleport error rules apply.</li><li>Too High: The object falls and may break.</li><li>Too Low: The object is instantly destroyed.</li><li>If the caster teleports himself, there is no chance for error.</li><li>The destination must be a solid surface. The caster cannot deliberately teleport an object into another solid object or into open air.</li></ul><h4>Weight Limitations:</h4><ul><li>The caster may teleport objects up to 500 cn (50 lbs) per caster level.</li><li>If teleporting a solid part of a larger object (such as a section of a wall), the spell affects a maximum of 10' x 10' x 10' of material.</li><li>If the object or creature exceeds the weight limit, the spell fails.</li></ul><h4>Resisting the Teleport:</h4><ul><li>If the object is held or carried by another creature, that creature may make a saving throw vs. spells (at -2) to prevent the teleport.</li><li>If the caster targets a creature, the creature may choose to make a saving throw vs. spells (at -2) to resist the effect.</li></ul>",
       "name": "Teleport Any Object",
       "spellEffect": "Causes 1 object to teleport"
+    },
+    "Teleport@9odcKQwwvJit7xwl": {
+      "description": "<p>This spell instantly transports the caster or another creature within 10' to any unoccupied destination on the same plane. Distance does not matter, and the recipient arrives at the destination with all carried equipment. An unwilling target can make a saving throw vs. spells to avoid teleportation.</p><p><strong>Restrictions on Destination:</strong> The caster cannot deliberately teleport to an occupied space, and must choose a solid surface for arrival (such as ground level or a building top), not mid-air.</p><p><strong>Teleportation Accuracy:</strong> Teleporting carries a risk of inaccuracy based on the caster’s familiarity with the location. Familiarity levels—Casual, General, and Exact—impact the chance of success. The DM rolls d% and consults the table below.</p><table style=\"width:97%\"><thead><tr><th>Knowledge of Destination</th><th>Success</th><th>Too High</th><th>Too Low</th></tr></thead><tbody><tr><td>Casual (visited once or twice, or by description)</td><td>01-50</td><td>51-75</td><td>76-00</td></tr><tr><td>General (visited often or studied magically)</td><td>01-80</td><td>81-90</td><td>91-00</td></tr><tr><td>Exact (detailed personal study)</td><td>01-95</td><td>96-99</td><td>00</td></tr></tbody></table><p><strong>Teleport Results:</strong></p><ul><li><strong>Success:</strong> The recipient arrives at the chosen location.</li><li><strong>Too High:</strong> The recipient arrives 1d10 x 10' above the destination, taking 1d6 points of damage per 10' fallen, unless flying or levitating.</li><li><strong>Too Low:</strong> The recipient arrives 1d10 x 10' below the destination. Teleporting into solid objects results in instant death unless an open area (e.g., a cave) exists there, at the DM's discretion.</li></ul>",
+      "name": "Teleport",
+      "spellEffect": "Transports one creature with equipment"
+    },
+    "Teleport@DopHWlFppHP2WGmD": {
+      "description": "<p>The <strong>Teleport</strong> ability allows a character or creature to instantly move from one location to another without traversing the space in between, as long as the new location is within their sight or a known place.</p>",
+      "gmNotes": "Teleport ability at will.",
+      "name": "Teleport"
     },
     "Tent": {
       "description": "<p>Large enough for 2 adult humans.</p>",
@@ -6098,6 +6144,7 @@
     "Magic-User/Elf": "Magic-User/Elf",
     "Misc": "Misc",
     "Mystic": "Mystic",
+    "Other": "Other",
     "Paladin": "Paladin",
     "Potions": "Potions",
     "Rings": "Rings",
