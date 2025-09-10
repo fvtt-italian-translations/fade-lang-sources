@@ -10060,10 +10060,12 @@
                     "unidentifiedName": "Artigli di Ferro (Velenosi)"
                 },
                 "Jgd91rIHuHWWXnQj": {
-                    "name": "Controlla Non-Morti"
+                    "name": "Controlla Non-Morti",
+                    "description": "<p>L'Hag Nero può controllare i non-morti come se avesse il doppio dei suoi dadi vita, il che lo rende una forza necromantica estremamente pericolosa.</p>"
                 },
                 "aUdV9tcodyEeMPPo": {
-                    "description": "<p>Ogni tipo di hag è inoltre immune a tutte le abilità speciali dei non-morti, tra cui il risucchio di energia, la paralisi, le malattie o i veleni creati dai non-morti e altri effetti simili.</p>"
+                    "description": "<p>Ogni tipo di hag è inoltre immune a tutte le abilità speciali dei non-morti, tra cui il risucchio di energia, la paralisi, le malattie o i veleni creati dai non-morti e altri effetti simili.</p>",
+                    "name": "Immune alle abilità dei Non-Morti"
                 }
             },
             "monsterType": "Umanoide (Molto Raro)",
@@ -10107,10 +10109,12 @@
                 },
                 "xdi5G8TarHU2PlbE": {
                     "name": "Artigli di Ferro (Velenosi)",
-                    "unidentifiedName": "Artigli di Ferro (Velenosi)"
+                    "unidentifiedName": "Artigli di Ferro (Velenosi)",
+                    "description": "<p>L'Hag Nero attacca con artigli di ferro ricoperti di veleno. Ogni creatura colpita deve superare un tiro salvezza contro veleno con -4 o morire all'istante.</p>"
                 },
                 "aUdV9tcodyEeMPPo": {
-                    "name": "Immune alle abilità dei Non-Morti"
+                    "name": "Immune alle abilità dei Non-Morti",
+                    "description": "<p>Ogni tipo di hag è inoltre immune a tutte le abilità speciali dei non-morti, tra cui il risucchio di energia, la paralisi, le malattie o i veleni creati dai non-morti e altri effetti simili.</p>"
                 }
             },
             "monsterType": "Umanoide (Molto Raro)",
@@ -17905,7 +17909,8 @@
                 },
                 "EXqWakUSsqsooPEp": {
                     "name": "Evocare Non-Morti",
-                    "gmNotes": "Tirare 1d6 per il tipo."
+                    "gmNotes": "Tirare 1d6 per il tipo.",
+                    "description": "<p>Ogni 4 ore, il l'Ombra Errante Notturno, evoca non-morti minori.</p><p>[[/r 1d6 #Evoca non-morti]]</p><ul><li><p>1-3 fantasma (mezzombra)</p></li><li><p>4-5 anime perse (sudari caotici)</p></li><li><p>6 spiriti (druji)</p></li></ul>"
                 }
             },
             "monsterType": "Non-Morto, Magico (Comune)",
@@ -23557,6 +23562,9 @@
                     "name": "Soffio del Drago",
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
                     "shortName": "Soffio"
+                },
+                "CVI7NXOAXpAEJpje": {
+                    "name": "Protezione Naturale"
                 }
             },
             "monsterType": "Mostro (Raro)"
@@ -24137,10 +24145,14 @@
                     "name": "Morso"
                 },
                 "rgE9H2hP8QteDAm7": {
-                    "name": "Telecinesi"
+                    "name": "Telecinesi",
+                    "description": "<p>Come l'incantesimo. Fino a 2.000 mon e può essere usato una volta per round.</p>"
                 },
                 "59AzLY3J7kwDsvOR": {
                     "name": "Protezione Naturale"
+                },
+                "82hrDesqzpRPsh0K": {
+                    "description": "<p>Come l'incantesimo e può essere usato una volta per round.</p>"
                 }
             },
             "monsterType": "Mostro Planare (Molto Raro)"
@@ -25388,6 +25400,9 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "YGy42tzBkjc9F7Rj": {
+                    "name": "Evoca Animale"
                 }
             },
             "monsterType": "Mostro, Magico (Raro)"
