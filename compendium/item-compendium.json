@@ -161,7 +161,7 @@
       "name": "Artillery"
     },
     "Asleep": {
-      "description": "<p>The affected actor is sleeping and will not awaken until the condition wears off or they are awakened by someone. To awaken someone who is magically asleep, one must slap their face, shake them, or pour cold or hot water on them—essentially, anything that will snap them out of their slumber.</p>",
+      "description": "<p>A sleeping character is helpless. If an attacker can come up to a sleeping character without waking that character, he can kill the sleeper with a single blow of any edged weapon, regardless of the victim's hit points.</p><p>Attacks on a sleeping character made with other (i.e., blunt) hand-to-hand weapons automatically hit; ranged attacks are made against the victim as if he were AC 9.</p><p>Any sleeping creature, including one hit by a sleep spell, can be awakened by force, such as a shake, slap, or kick.</p><p>Some types of sleep are so heavy that the character will not awaken when disturbed; they are defined with individual spell or combat-result descriptions and are normally referred to as unconsciousness. A victim of unconsciousness is much like a sleeper but will not awaken and cannot resist when being tied up.</p>",
       "name": "Asleep"
     },
     "Avenger": {
@@ -1059,7 +1059,7 @@
       "name": "Blind Shooting"
     },
     "Blinded": {
-      "description": "<p>Blindness can normally be removed only by <em>cure blindness</em> spell, but the DM may allow other methods.</p>",
+      "description": "<p>Characters can be blinded by a variety of effects. For example, a <em>light</em> or <em>continual light</em> spell may be cast directly on a character's eyes, or a character without <em>infravision</em> may find himself in an area of complete darkness.</p><p>A character who is completely blind, for whatever reason, suffers a -4 penalty to all saving throws, a -6 penalty to all attack rolls (he has to guess where his target is by hearing), and a +4 penalty to his armor class for the duration of his blindness.</p><p>A character who is forced to travel great distances while blind must move very slowly. If he is to walk slowly enough that he will not fall down steps and walk unknowingly into pits, he must move at one-third his normal speed, and whether he is indoors or outdoors, that speed is measured in <em>feet</em>, not yards.</p><p>A blind character who is guided by a sighted character can move safely at two-thirds his normal rate, and his movement is measured in yards when outdoors. A character mounted on a horse suffers no movement penalty if someone else is guiding that horse.</p>",
       "name": "Blinded"
     },
     "Blissful Slumber": {
@@ -1673,6 +1673,10 @@
       "name": "Darkness* (C)",
       "spellDuration": "12 turns (2 hours)",
       "spellEffect": "Volume of 30' diameter"
+    },
+    "Deafened": {
+      "description": "<p>A character made deaf by magic (a curse or a <em>horn of blasting</em>, for example) is certainly inconvenienced. Since he cannot hear, he will miss many warnings shouted at him by his allies. The deaf character should make a saving throw vs. death ray; if he fails it, he is facing the wrong way when the warning is called. A <em>curse of deafness</em> would be cured by a remove curse spell, while deafness caused by a <em>horn of blasting</em> could be cured by a <em>cureall</em> spell.</p>",
+      "name": "Deafened"
     },
     "Death Ray or Poison": {
       "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -2709,7 +2713,7 @@
       "spellEffect": "One creature or object"
     },
     "Invisible": {
-      "description": "<p><span style=\"font-family: Barlow, sans-serif\">When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible. <br>An invisible creature remains invisible until they attack or cast any spell.</span></p>",
+      "description": "<p>A character who cannot see his opponent due to an invisibility spell suffers a -6 penalty to all attack rolls made against his invisible foe; he has to guess where his target is by hearing. He suffers no penalty to his AC when attacked by an invisible character. Remember, <strong>someone who attacks loses the bonuses of invisibility</strong>!</p><p><span style=\"font-family: Barlow, sans-serif\">When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible. </span></p>",
       "name": "Invisible"
     },
     "Invisible Stalker": {
@@ -3721,7 +3725,7 @@
       "name": "Paralysis"
     },
     "Paralyzed": {
-      "description": "<p>The afflicted actor is completely paralyzed and cannot perform any physical action.</p>",
+      "description": "<p>Various types of spells and monster attacks can paralyze, or \"freeze,\" a character. If a character is hit by a paralyzing attack and fails a saving throw vs. paralysis, the character is immobilized and unable to do anything. The character is not dead, and a character cannot die from mere paralysis.</p><p>A paralyzed character remains awake and aware of what is happening around him but cannot do anything that requires movement (including speaking, spellcasting, and so forth) until the paralysis ends.</p><p>Hand-to-hand attacks on a paralyzed character automatically hit, but an edged-weapon attack will not automatically kill a paralyzed character as it would a sleeping character. Ranged attacks are made against the victim as if he were AC 9.</p><p>Paralysis itself has no permanent effects of any kind. It lasts for [[/r 2d4 #Turns]] (unless a different number is given in the monster or spell description). The cleric spell cure light wounds can be used to remove the paralysis but will not cure any damage when used for this purpose.</p>",
       "name": "Paralyzed"
     },
     "Parry": {
@@ -4003,6 +4007,10 @@
       "description": "<p>This spell creates a perfect illusionary duplicate of the caster at any location within 240'. The projected image mimics the caster’s movements and actions precisely and remains active without requiring concentration.</p><h4>Effects:</h4><ul><li>The image is visually indistinguishable from the caster, except by touch.</li><li>The caster can cast spells from the image’s location; however, the caster must still be able to see the target of the spell.</li><li>The image is immune to missile attacks and spells—they pass through harmlessly.</li><li>If the image is touched or struck in melee combat, it immediately vanishes.</li></ul>",
       "name": "Projected Image",
       "spellEffect": "Creates one image"
+    },
+    "Prone": {
+      "description": "<p>A character who has fallen (e.g., been knocked over in combat) is easy to hit: Attackers receive a +4 bonus to their attack rolls when attacking a fallen foe.</p><p>A fallen foe also has a -4 penalty to all saving throws and a -2 penalty to attack rolls while on the ground.</p><p>A character on the ground takes one round of movement to stand up; also, for the rest of the round after he has stood up, the character still suffers the penalties of a fallen character.</p>",
+      "name": "Prone"
     },
     "Protected": {
       "description": "<p>This effect creates an invisible magical barrier surrounding the spell target's body, less than an inch away.</p><p>In addition, enchanted creatures cannot touch the spell target. (An enchanted creature is one that cannot be harmed by normal weapons and can only be affected by magical weapons. A creature that can only be harmed by silver weapons, such as a werewolf, is not considered enchanted.</p><p>Creatures that are magically summoned or controlled, like a charmed character, are also classified as enchanted.) The barrier completely protects the spell target from all melee or hand- to - hand attacks from these creatures, although it does not block attacks from missile weapons.Enchanted creatures using missile weapons still suffer the - 1 attack penalty but can hit the spell target.</p><p>This effect does not block magic missile spells used by magic - users.</p><p>If the spell target attacks an enchanted creature while this effect is active, the barrier's properties change slightly. Enchanted creatures can then touch the spell target, but they still suffer the attack roll penalty.The attack penalty and the spell target's saving throw bonus remain until the effect ends.</p>",
@@ -4663,6 +4671,10 @@
       "description": "<p>This spell allows any one weapon to inflict 1d6 additional points of damage per attack (similar to a magical staff of striking). The weapon will inflict this extra damage with every successful blow for as long as the spell lasts. This bonus does not apply to attack rolls, but only to damage rolls.</p>\n                <p>If the caster casts this spell on a normal weapon, the weapon may then damage creatures which are normally affected only by magic weapons; the weapon will do 1d6 points of damage per strike (regardless of the normal damage of the weapon).</p>",
       "name": "Striking",
       "spellEffect": "1d6 bonus to damage on 1 weapon"
+    },
+    "Stunned": {
+      "description": "<p>Certain types of spells, attacks, or magical effects can stun a character. The duration of the stun is determined by the type of attack; the description of each type of attack that can stun will describe its duration.</p><p>A stunned character suffers the following penalties:</p><ol><li><p>The stunned character cannot attack anyone for the first turn he is stunned (or until the stun wears off, if that is faster); after the first turn, he is at a -4 to hit until the stun wears off.</p></li><li><p>He moves at one-third the normal movement rate for whatever speed he is attempting.</p></li><li><p>He suffers a -4 penalty to all his saving throws.</p></li><li><p>He suffers a +4 penalty to his armor class (thus an AC 5 becomes a 9).</p></li><li><p>He cannot concentrate, cast spells, or use magical items.</p></li><li><p>He cannot use general skills.</p></li><li><p>Any weapon mastery the character possesses above Basic level is reduced to Basic level.</p></li></ol><p>The cleric spell <em>cure light wounds</em> can be used to remove the stun effect but will not cure any damage when used for this purpose.</p>",
+      "name": "Stunned"
     },
     "Stunned (1 round)": {
       "description": "<p>With the one-round stuns caused in unarmed combat, the victim cannot make any attacks until the stun wears off. (In some other types of stun, the stun might go on awhile, allowing the stunned character to attack, ineffectually, after a certain amount of time has passed.)</p><p>Also, while stunned, the victim moves at one-third the normal movement rate for whatever speed he is attempting. He suffers a -4 penalty to all his saving throws. He suffers a +4 penalty to his armor class (thus an AC 5 becomes a 9). He cannot concentrate, cast spells, or use magical items. He cannot use general skills. Any weapon mastery skill he possesses above Basic level is reduced to Basic level.</p>",
