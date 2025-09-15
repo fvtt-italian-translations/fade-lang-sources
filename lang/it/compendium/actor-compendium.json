@@ -6734,11 +6734,9 @@
             "biography": "<p>Una viverna è una creatura temibile che ricorda un drago a due zampe, completo di una lunga coda appuntita. A differenza dei veri draghi, le viverne mancano degli arti anteriori e sono di solito viste in tonalità di marrone, rosso o rosso ruggine. Si trovano comunemente in regioni montuose o in foreste dense, anche se possono essere incontrate in molti ambienti.</p>\n        <p>In battaglia, le viverne usano sia il morso che il pungiglione velenoso. La creatura inarca la coda sopra la testa per pungere i nemici di fronte a essa, e coloro che vengono colpiti dal pungiglione devono superare un tiro salvezza contro veleno o morire. Le viverne sono carnivore, spesso predano grandi animali da mandria come alci e cervi, ma non esiteranno ad attaccare gli umani se incontrate.</p>\n        <strong>Terreno:</strong> Montagna, Boschi.<br>\n        <strong>Carico:</strong> 3.500 mon a piena velocità; 7.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di Bardatura:</strong> x 3.<br>",
             "items": {
                 "EWN7774DnrEviqMx": {
-                    "description": "Un potente morso che infligge 2d8 danni.",
                     "name": "Morso"
                 },
                 "PyKoEti7jEYKpnvI": {
-                    "description": "La robusta pelle della viverna, simile a quella di un drago, offre una protezione naturale.",
                     "name": "Armatura Naturale"
                 },
                 "tNSDjx0uVOZtd3L3": {
@@ -6830,11 +6828,9 @@
                     "name": "Mimetizzazione Boschiva"
                 },
                 "o5fApXnU9gIoXhKE": {
-                    "description": "La spessa corteccia di Uomo-albero offre un'armatura naturale con CA 2.",
                     "name": "Corteccia di Albero"
                 },
                 "vEps56yAUrjWRiw1": {
-                    "description": "Un potente attacco con i rami infligge 2d6 danni per colpo.",
                     "name": "Colpo di Ramo"
                 },
                 "4yYsYpLEoz8Nvuj2": {
@@ -15187,8 +15183,7 @@
                     "shortName": "Incantesimo"
                 },
                 "p7ZQ3mRt9pnw7HWC": {
-                    "name": "Nascondersi",
-                    "description": "La forma di lupo nero del vampiro è dotata di un'armatura naturale data dalla sua folta pelliccia e dalla sua natura non-morta."
+                    "name": "Nascondersi"
                 }
             },
             "monsterType": "Non-Morto, Magico (Raro)",
@@ -15218,8 +15213,7 @@
                     "shortName": "Soffio"
                 },
                 "QDouJzj3YjR6Qtoo": {
-                    "name": "Armatura di Pelle",
-                    "description": "La pelliccia folta e la pelle resistente offrono una certa protezione."
+                    "name": "Armatura di Pelle"
                 },
                 "Y4KeiEcdly6mrBEJ": {
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
@@ -17335,11 +17329,9 @@
                     "shortName": "Soffio"
                 },
                 "IcsW9rDIgVwbq3js": {
-                    "name": "Nascondersi",
-                    "description": "Le spesse placche ossee e la pelle del Triceratopo costituiscono una vera e propria armatura naturale."
+                    "name": "Nascondersi"
                 },
                 "F9BeQjy9emrVtLmJ": {
-                    "description": "Due lunghe corna sopra gli occhi per incornare.",
                     "name": "Lunghe Corna"
                 },
                 "R6K9LIXABVZN1D5m": {
@@ -17348,7 +17340,6 @@
                     "name": "Carica"
                 },
                 "d4fRHP38wq6kZKjJ": {
-                    "description": "Un corto corno sul muso, usato per trafiggere.",
                     "name": "Piccolo Corno"
                 }
             },
@@ -17610,8 +17601,7 @@
                 },
                 "VDFIAbsWFuDeNYHI": {
                     "name": "Artiglio",
-                    "unidentifiedName": "Artiglio o Arma",
-                    "description": "<p>L'attacco di uno zombi consiste in un colpo di artiglio casuale o in un colpo di arma rudimentale.</p>"
+                    "unidentifiedName": "Artiglio o Arma"
                 },
                 "s6sPp5a2MyEQe7TV": {
                     "unidentifiedName": "Nuova Arma",
@@ -18295,8 +18285,7 @@
                     "gmNotes": "Non si rigenera quando è fuori dall'acqua e subisce 1 danno per round da essiccazione."
                 },
                 "ndlRTupKHF3EdRrb": {
-                    "name": "Pelle Acquosa",
-                    "description": "La forma dell'ondina fornisce un'armatura naturale grazie alla sua composizione acquosa."
+                    "name": "Pelle Acquosa"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Molto Raro)",
@@ -18313,9 +18302,6 @@
                     "name": "Rigenerazione",
                     "description": "Rigenera 3 PF per round, anche nella forma di pipistrello gigante.",
                     "gmNotes": "Inizia subito dopo il danneggiamento."
-                },
-                "rsSJdi0YW2pbexoz": {
-                    "name": "Volo"
                 },
                 "u67ksgPu5sTZdFp8": {
                     "name": "Bacchetta Magica",
@@ -18853,8 +18839,7 @@
                     "shortName": "Incantesimo"
                 },
                 "eMYPovZN0XzG79Da": {
-                    "name": "Morso",
-                    "description": "Il rospo morde con una bocca corneggiante e a forma di becco."
+                    "name": "Morso"
                 },
                 "iGmxmLTLA0uHejND": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -20298,8 +20283,7 @@
         "Toad, Giant": {
             "items": {
                 "WqF2zjB46Aw4QFn0": {
-                    "name": "Nascondersi",
-                    "description": "La pelle del rospo gigante garantisce una mimetizzazione naturale."
+                    "name": "Nascondersi"
                 },
                 "cXfuOzO7cKfdV1Fr": {
                     "name": "Veleno o Raggio della Morte",
@@ -20312,8 +20296,7 @@
                     "shortName": "Incantesimo"
                 },
                 "7HvbW2Q3ZxJiPPMf": {
-                    "name": "Morso",
-                    "description": "Il rospo morde con la sua grande bocca."
+                    "name": "Morso"
                 },
                 "SYoPsa8WKfD8GFk7": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -22054,8 +22037,7 @@
                     "shortName": "Morte"
                 },
                 "luRa0JHqc00mUMd2": {
-                    "name": "Nascondersi",
-                    "description": "La pelle spessa e squamosa del T-Rex costituisce una corazza naturale."
+                    "name": "Nascondersi"
                 },
                 "pSjlfqSLxL9t0wOP": {
                     "name": "Soffio del Drago",
@@ -22110,8 +22092,7 @@
                     "shortName": "Pietrifica"
                 },
                 "h7sYllXbQ9zXKZ4N": {
-                    "name": "Nascondersi",
-                    "description": "La resilienza del vampiro garantisce un'armatura naturale."
+                    "name": "Nascondersi"
                 },
                 "m2jKw1MSfQULmZSa": {
                     "name": "Evoca Creature",
