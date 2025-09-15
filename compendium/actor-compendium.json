@@ -24635,6 +24635,132 @@
       "monsterType": "Monster",
       "name": "Stirge"
     },
+    "Termite, Water (Fresh Water)": {
+      "biography": "<p>Water termites range from 1'-5' long, the largest found only in ocean waters. All are shaped like normal termites, except for an elastic sac in their abdomen that can intake and expel water for movement and feeding. When the sac is completely expanded, the creature looks like a large balloon with a small insect-like head on the front.</p><p>The creature does not bite unless cornered; instead, it uses an inky spray for defense. When frightened above water, a normal attack roll must be made. A victim hit by the spray must make a saving throw vs. poison or be paralyzed for 1 turn. If the creature is frightened underwater, its ink does not paralyze, but merely provides an inky cover for the creature's retreat.</p><p>The real terror of these creatures is the destruction they bring to ships. They cling to hulls, each causing points of hull damage equal to their bite before letting go. Once any damage has been inflicted, there is a 50% chance per round that someone will notice the leakage.</p><p><strong>Terrain:</strong> Swamp, Lake, Ocean.</p>",
+      "items": {
+        "0xShEkTSnV6izJr3": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "AUcLg91b5jNpaP5N": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "GThyejywGQ2Jb66H": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "GiAXKVTqk4NngD9D": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "PHVMJuff6WT628vL": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "Tg0Q2xqtXDuZyEtY": {
+          "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+          "name": "Swim"
+        },
+        "UPlKhJxXUzdhoRxB": {
+          "name": "Bite"
+        },
+        "dXuVmjeXpkf3phd1": {
+          "name": "Natural Protection"
+        }
+      },
+      "monsterType": "Lowlife",
+      "name": "Termite, Water (Fresh Water)"
+    },
+    "Termite, Water (Salt Water)": {
+      "biography": "<p>Water termites range from 1'-5' long, the largest found only in ocean waters. All are shaped like normal termites, except for an elastic sac in their abdomen that can intake and expel water for movement and feeding. When the sac is completely expanded, the creature looks like a large balloon with a small insect-like head on the front.</p><p>The creature does not bite unless cornered; instead, it uses an inky spray for defense. When frightened above water, a normal attack roll must be made. A victim hit by the spray must make a saving throw vs. poison or be paralyzed for 1 turn. If the creature is frightened underwater, its ink does not paralyze, but merely provides an inky cover for the creature's retreat.</p><p>The real terror of these creatures is the destruction they bring to ships. They cling to hulls, each causing points of hull damage equal to their bite before letting go. Once any damage has been inflicted, there is a 50% chance per round that someone will notice the leakage.</p><p><strong>Terrain:</strong> Swamp, Lake, Ocean.</p>",
+      "items": {
+        "0xShEkTSnV6izJr3": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "AUcLg91b5jNpaP5N": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "GThyejywGQ2Jb66H": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "GiAXKVTqk4NngD9D": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "PHVMJuff6WT628vL": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "Tg0Q2xqtXDuZyEtY": {
+          "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+          "name": "Swim"
+        },
+        "UPlKhJxXUzdhoRxB": {
+          "name": "Bite"
+        },
+        "dXuVmjeXpkf3phd1": {
+          "name": "Natural Protection"
+        }
+      },
+      "monsterType": "Lowlife",
+      "name": "Termite, Water (Salt Water)"
+    },
+    "Termite, Water (Swamp)": {
+      "biography": "<p>Water termites range from 1'-5' long, the largest found only in ocean waters. All are shaped like normal termites, except for an elastic sac in their abdomen that can intake and expel water for movement and feeding. When the sac is completely expanded, the creature looks like a large balloon with a small insect-like head on the front.</p><p>The creature does not bite unless cornered; instead, it uses an inky spray for defense. When frightened above water, a normal attack roll must be made. A victim hit by the spray must make a saving throw vs. poison or be paralyzed for 1 turn. If the creature is frightened underwater, its ink does not paralyze, but merely provides an inky cover for the creature's retreat.</p><p>The real terror of these creatures is the destruction they bring to ships. They cling to hulls, each causing points of hull damage equal to their bite before letting go. Once any damage has been inflicted, there is a 50% chance per round that someone will notice the leakage.</p><p><strong>Terrain:</strong> Swamp, Lake, Ocean.</p>",
+      "items": {
+        "0xShEkTSnV6izJr3": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "AUcLg91b5jNpaP5N": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "GThyejywGQ2Jb66H": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "GiAXKVTqk4NngD9D": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "PHVMJuff6WT628vL": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "Tg0Q2xqtXDuZyEtY": {
+          "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+          "name": "Swim"
+        },
+        "UPlKhJxXUzdhoRxB": {
+          "name": "Bite"
+        },
+        "dXuVmjeXpkf3phd1": {
+          "name": "Natural Protection"
+        }
+      },
+      "monsterType": "Lowlife",
+      "name": "Termite, Water (Swamp)"
+    },
     "Thoul": {
       "biography": "<p>A thoul is a magical combination of a ghoul, hobgoblin, and troll. These creatures look like hobgoblins, but closer inspection reveals their monstrous nature. Thouls are often found as part of the bodyguard of a hobgoblin king or Chaotic ruler.</p><p>Thouls have two dangerous abilities: their touch can <strong>paralyze</strong>, much like a ghoul, and they can <strong>regenerate</strong>, recovering 1 hit point per round as long as they are alive.</p><p><strong>Terrain:</strong> Barren Lands, Cavern.</p>",
       "items": {
@@ -25927,10 +26053,9 @@
       "name": "Thug (9HD)"
     },
     "Toad, Giant": {
-      "biography": "<p>The Giant Toad is roughly the size of a very large dog, weighing between 150-250 pounds. It has the ability to change its skin color to camouflage itself in woods or poorly lit dungeons, surprising its prey on a roll of 1-3 on 1d6. Its tongue can extend out to 15 feet, dragging victims of dwarf size or smaller towards its mouth for biting. On a natural 20 attack roll, it can swallow small prey whole, dealing [[/r 1d6 #Damage per round after being swallowed]] damage each subsequent round.<br><b>Terrain:</b> Cavern; Woods (near water)</p>",
+      "biography": "<p>The Giant Toad is roughly the size of a very large dog, weighing between 150-250 pounds. It has the ability to change its skin color to camouflage itself in woods or poorly lit dungeons, surprising its prey on a roll of 1-3 on 1d6. Its tongue can extend out to 15 feet, dragging victims of dwarf size or smaller towards its mouth for biting. On a natural 20 attack roll, it can swallow small prey whole, dealing [[/r 1d6 #Damage per round after being swallowed]] damage each subsequent round.</p><p><strong>Terrain:</strong> Cavern; Woods (near water)</p>",
       "items": {
         "7HvbW2Q3ZxJiPPMf": {
-          "description": "The toad bites with its large mouth.",
           "name": "Bite"
         },
         "SYoPsa8WKfD8GFk7": {
@@ -25944,7 +26069,6 @@
           "shortName": "Stone"
         },
         "WqF2zjB46Aw4QFn0": {
-          "description": "The Giant Toad's skin provides natural camouflage.",
           "name": "Hide"
         },
         "cXfuOzO7cKfdV1Fr": {
@@ -25967,7 +26091,7 @@
       "name": "Toad, Giant"
     },
     "Toad, Rock/Cave": {
-      "biography": "<p>The Rock Toad, or Cave Toad, resides in rocky, cold areas like high mountains or frozen deserts. It's roughly the size of a large dog, weighs about 150 pounds, and has a hard, bumpy shell like a turtle. Its most notable feature is its multi-faceted, hypnotic eyes that compel creatures to save vs. paralysis or be paralyzed for [[/r 2d4 #Rounds paralyzed]] rounds. After death, its eyes emit a feeble light for [[/r 1d3 #Hours of light]] hours, but lose their hypnotic effect. It attacks with a horny, beaked mouth.<br><b>Terrain:</b> Cavern; Desert (cold), Mountain</p>",
+      "biography": "<p>The Rock Toad, or Cave Toad, resides in rocky, cold areas like high mountains or frozen deserts. It's roughly the size of a large dog, weighs about 150 pounds, and has a hard, bumpy shell like a turtle. Its most notable feature is its multi-faceted, hypnotic eyes that compel creatures to save vs. paralysis or be paralyzed for [[/r 2d4 #Rounds paralyzed]] rounds. After death, its eyes emit a feeble light for [[/r 1d3 #Hours of light]] hours, but lose their hypnotic effect. It attacks with a horny, beaked mouth.</p><p><strong>Terrain:</strong> Cavern; Desert (cold), Mountain</p>",
       "items": {
         "EsdWR5t3C54pyBKj": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -25975,7 +26099,6 @@
           "shortName": "Spell"
         },
         "eMYPovZN0XzG79Da": {
-          "description": "The toad bites with a horny, beaked mouth.",
           "name": "Bite"
         },
         "iGmxmLTLA0uHejND": {
@@ -26029,7 +26152,7 @@
         },
         "dKWTOekp0weLXwVq": {
           "description": "Indistinguishable from normal trees; surprises opponents on a roll of 1-3 (on 1d6) at a range of 30 yards or less.",
-          "name": "Woodland Camouflage"
+          "name": "Camouflage (Surprise)"
         },
         "dqxhsHDz58Sp7yl5": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -26052,11 +26175,9 @@
           "shortName": "Spell"
         },
         "o5fApXnU9gIoXhKE": {
-          "description": "Thick tree bark provides natural armor with AC 2.",
           "name": "Tree Bark"
         },
         "vEps56yAUrjWRiw1": {
-          "description": "A powerful branch attack dealing 2d6 damage per hit.",
           "name": "Branch Strike"
         }
       },
@@ -26077,11 +26198,9 @@
           "shortName": "Breath"
         },
         "F9BeQjy9emrVtLmJ": {
-          "description": "Two long horns above its eyes for goring.",
           "name": "Long Horn"
         },
         "IcsW9rDIgVwbq3js": {
-          "description": "The Triceratops's thick, bony plates and hide provide natural armor.",
           "name": "Hide"
         },
         "R6K9LIXABVZN1D5m": {
@@ -26095,7 +26214,6 @@
           "shortName": "Death"
         },
         "d4fRHP38wq6kZKjJ": {
-          "description": "A short horn on its snout used for stabbing.",
           "name": "Small Horn"
         },
         "gCozbd7cxyBjvl3F": {
@@ -26113,7 +26231,7 @@
       "name": "Triceratops"
     },
     "Troglodyte": {
-      "biography": "<p>Troglodytes are intelligent, reptilian humanoids with short tails, long legs, and spiny combs on their heads and arms. They walk upright, similar to humans, and are adept at using their hands. Troglodytes are known for their hostility towards most other species. They possess a chameleon-like ability to change color, blending into their surroundings like rock walls, which allows them to surprise opponents (on a roll of 1-4 on 1d6). Additionally, they secrete an oil that gives off a foul stench, which can nauseate humans and demihumans unless a saving throw vs. poison is successful. Nauseated characters suffer a -2 penalty to attack rolls when fighting troglodytes in melee.<br>Some troglodytes can be spellcasters; see the section on 'Monster Spellcasters' for more details.<br><b>Terrain:</b> Cavern, Ruins</p>",
+      "biography": "<p>Troglodytes are intelligent, reptilian humanoids with short tails, long legs, and spiny combs on their heads and arms. They walk upright, similar to humans, and are adept at using their hands. Troglodytes are known for their hostility towards most other species. They possess a chameleon-like ability to change color, blending into their surroundings like rock walls, which allows them to surprise opponents (on a roll of 1-4 on 1d6). Additionally, they secrete an oil that gives off a foul stench, which can nauseate humans and demihumans unless a saving throw vs. poison is successful. Nauseated characters suffer a -2 penalty to attack rolls when fighting troglodytes in melee.</p><p>Some troglodytes can be spellcasters; see the section on 'Monster Spellcasters' for more details.</p><p><strong>Terrain:</strong> Cavern, Ruins</p>",
       "items": {
         "17vBiRSlvUujpXQJ": {
           "description": "The troglodyte's scaly skin provides natural armor.",
@@ -26167,7 +26285,7 @@
       "name": "Troglodyte"
     },
     "Troll": {
-      "biography": "<p>Trolls are tall, thin humanoids standing 8 feet tall. They possess sharp teeth, ferocious features, and mottled rubber-like skin. Trolls are carnivorous, preferring human and humanlike prey. They are found in a variety of terrains, often living in the ruins of their victims' dwellings.</p>\n        <p>Trolls are extremely dangerous due to their **regenerative powers**. Three rounds after being damaged, a troll will start to heal itself at a rate of **3 hit points per round**. Even severed limbs can crawl back to the troll’s body to rejoin. However, trolls cannot regenerate damage from fire or acid, and when attacked by these means, their morale drops to **8**.</p>\n        <strong>Claw Damage:</strong> 1d6 per claw.<br>\n        <strong>Bite Damage:</strong> 1d10.<br>\n        <strong>Regeneration:</strong> Trolls heal 3 HP per round starting 3 rounds after damage. Severed limbs rejoin the body unless destroyed by fire or acid.<br>\n        <strong>Terrain:</strong> Cavern, Wilderness (any).",
+      "biography": "<p>Trolls are tall, thin humanoids standing 8 feet tall. They possess sharp teeth, ferocious features, and mottled rubber-like skin. Trolls are carnivorous, preferring human and humanlike prey. They are found in a variety of terrains, often living in the ruins of their victims' dwellings.</p><p>Trolls are extremely dangerous due to their <strong>regenerative powers</strong>. Three rounds after being damaged, a troll will start to heal itself at a rate of <strong>3 hit points per round</strong>. Even severed limbs can crawl back to the troll’s body to rejoin. However, trolls cannot regenerate damage from fire or acid, and when attacked by these means, their morale drops to <strong>8</strong>.</p><p><strong>Regeneration:</strong> Trolls heal 3 HP per round starting 3 rounds after damage. Severed limbs rejoin the body unless destroyed by fire or acid.</p><p><strong>Terrain:</strong> Cavern, Wilderness (any).</p>",
       "items": {
         "0ia2RT843ZiVIfaP": {
           "description": "The troll regenerates 3 hit points per round starting 3 rounds after being damaged. Severed limbs will rejoin the body unless destroyed by fire or acid.",
@@ -26215,7 +26333,7 @@
       "name": "Troll"
     },
     "Tyrannosaurus Rex": {
-      "biography": "<p>The 'tyrant lizard,' or Tyrannosaurus Rex, is the largest predatory dinosaur known, measuring at least 40 feet in length, weighing up to 8 tons, and standing about 20 feet tall. It roams 'lost world' regions, where it hunts with ferocious intent. This creature moves on its hind legs, with its massive tail acting as a counterbalance, while its small, clawed forelimbs offer little aid in combat. However, its primary weapon, its colossal jaws lined with 6-inch teeth, are devastating. The Tyrannosaurus Rex will attack any creature of man-sized or larger, focusing on the largest first. A roll of 19-20 on an attack allows it to swallow a man-sized opponent whole, dealing 2d4 damage each round until the victim is freed.<br><b>Terrain:</b> Jungle, Open, Woods (prehistoric)</p>",
+      "biography": "<p>The 'tyrant lizard,' or Tyrannosaurus Rex, is the largest predatory dinosaur known, measuring at least 40 feet in length, weighing up to 8 tons, and standing about 20 feet tall. It roams 'lost world' regions, where it hunts with ferocious intent. This creature moves on its hind legs, with its massive tail acting as a counterbalance, while its small, clawed forelimbs offer little aid in combat. However, its primary weapon, its colossal jaws lined with 6-inch teeth, are devastating. The Tyrannosaurus Rex will attack any creature of man-sized or larger, focusing on the largest first. A roll of 19-20 on an attack allows it to swallow a man-sized opponent whole, dealing 2d4 damage each round until the victim is freed.</p><p><strong>Terrain:</strong> Jungle, Open, Woods (prehistoric)</p>",
       "items": {
         "84JaE9vhLP5bqAz3": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -26238,7 +26356,6 @@
           "shortName": "Death"
         },
         "luRa0JHqc00mUMd2": {
-          "description": "The T-Rex's thick, scaly hide provides natural armor.",
           "name": "Hide"
         },
         "pSjlfqSLxL9t0wOP": {
@@ -26282,6 +26399,10 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
+        "Tg0Q2xqtXDuZyEtY": {
+          "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+          "name": "Swim"
+        },
         "a5noyngv9Sv5DCVS": {
           "description": "An undine can form its water into a fist for melee attacks.",
           "name": "Fist"
@@ -26296,7 +26417,6 @@
           "name": "Immunity"
         },
         "ndlRTupKHF3EdRrb": {
-          "description": "The undine's form provides natural armor from its aqueous composition.",
           "name": "Water Hide"
         },
         "s98YwueuMtyCGnoK": {
@@ -26362,7 +26482,7 @@
       "name": "Unicorn"
     },
     "Vampire* (Bat)": {
-      "biography": "<p>In the guise of a giant bat, the vampire becomes an eerie predator of the night sky. This form allows it to fly silently, enhancing its ability to hunt unsuspecting prey. Its bite delivers not just physical harm but also a paralytic effect, rendering victims unconscious and vulnerable to the vampire's feeding.<br><b>Terrain:</b> Ideal for dark, secluded areas or high above in the night sky.</p>",
+      "biography": "<p>In the guise of a giant bat, the vampire becomes an eerie predator of the night sky. This form allows it to fly silently, enhancing its ability to hunt unsuspecting prey. Its bite delivers not just physical harm but also a paralytic effect, rendering victims unconscious and vulnerable to the vampire's feeding.</p><p><strong>Terrain:</strong> Ideal for dark, secluded areas or high above in the night sky.</p>",
       "items": {
         "Nncm7dibsAtVcl6V": {
           "description": "The vampire's giant bat form has natural armor from its tough, leathery wings and undead resilience.",
@@ -26385,16 +26505,18 @@
         },
         "nyJdAEes8qAqOacj": {
           "description": "The bite of the giant vampire bat deals damage and can paralyze its victim. Upon being bitten, the victim must make a saving throw vs. paralysis or fall unconscious for 1d10 rounds, allowing the vampire to feed undisturbed, draining 1d4 points of blood per round.",
-          "name": "Bite (Blood Drain)",
+          "name": "Bite (Blood Drain/Paralyze)",
           "unidentifiedName": "Bite"
+        },
+        "pcdBLWKxB0T2tZST": {
+          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+          "gmNotes": "Flying ability of giant bats.",
+          "name": "Flight"
         },
         "rOYbOA8hpy1C7YYD": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
-        },
-        "rsSJdi0YW2pbexoz": {
-          "name": "Flight"
         },
         "u67ksgPu5sTZdFp8": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -26411,7 +26533,7 @@
       "name": "Vampire* (Bat)"
     },
     "Vampire* (Dire Wolf)": {
-      "biography": "<p>In its dire wolf form, the vampire becomes a terrifying beast with heightened physical prowess. The dire wolf is larger, more aggressive, and retains all the supernatural abilities of the vampire, including regeneration and the ability to summon creatures. Though the vampire's intelligence does not increase, its combat effectiveness does, allowing it to make multiple attacks with its powerful jaws and claws.<br><b>Terrain:</b> Similar to human form, especially in wilderness or areas with cover like forests or ruins.</p>",
+      "biography": "<p>In its dire wolf form, the vampire becomes a terrifying beast with heightened physical prowess. The dire wolf is larger, more aggressive, and retains all the supernatural abilities of the vampire, including regeneration and the ability to summon creatures. Though the vampire's intelligence does not increase, its combat effectiveness does, allowing it to make multiple attacks with its powerful jaws and claws.</p><p><strong>Terrain:</strong> Similar to human form, especially in wilderness or areas with cover like forests or ruins.</p>",
       "items": {
         "B10ecFZyR7YXXzmT": {
           "description": "The dire wolf form of the vampire can deliver a devastating bite.",
@@ -26447,7 +26569,6 @@
           "shortName": "Spell"
         },
         "p7ZQ3mRt9pnw7HWC": {
-          "description": "The vampire's dire wolf form has natural armor from its thick fur and resilient undead nature.",
           "name": "Hide"
         },
         "t6eT9YDQzewLs2y4": {
@@ -26498,13 +26619,17 @@
           "shortName": "Stone"
         },
         "h7sYllXbQ9zXKZ4N": {
-          "description": "The vampire's natural resilience provides armor protection.",
-          "name": "Hide"
+          "name": "Natural Protection"
         },
         "m2jKw1MSfQULmZSa": {
           "description": "<p>The vampire can summon various creatures to aid it if they are within 300 feet (300 yards outdoors). The creatures summoned are:</p><p><strong>Rats:</strong> 10-100 Giant rats<br><strong>Bats:</strong> 10-100 Giant bats<br><strong>Wolves:</strong> 3-18 Dire wolves</p>",
           "gmNotes": "Summoning is an action and creatures come to the vampire's aid.",
           "name": "Summon Creatures"
+        },
+        "pcdBLWKxB0T2tZST": {
+          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+          "gmNotes": "Flying ability of giant bats.",
+          "name": "Flight"
         },
         "zR24ZRYjTAizhOCc": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -26578,7 +26703,6 @@
           "shortName": "Stone"
         },
         "QDouJzj3YjR6Qtoo": {
-          "description": "Thick fur and tough hide offer some protection.",
           "name": "Hide Armor"
         },
         "XDiEmaS6diStMW3P": {
@@ -26594,6 +26718,146 @@
       },
       "monsterType": "Giant Animal",
       "name": "Weasel, Giant"
+    },
+    "Whale, Great": {
+      "biography": "<p>This huge whale is about 60' long on average. It preys on the most feared denizens of the deep (such as the giant octopus and giant squid). Man-sized or smaller creatures will be swallowed whole on a die roll that is 4 or more than the score needed to hit. A swallowed creature will take [[/r 3d6 #Points of acid damage]] points of damage per round. Great whales will sometimes (10%) attack ships, attempting to ram. The monster whale does [[/r 6d6 #Hull points of damage]] points of hull damage in a successful ram.</p><p>Extremely rare great whales might grow to double or triple this size, with a corresponding increase in Hit Dice and damage. There are rumors of monster whales large enough to swallow an entire harbor of ships!</p><p><strong>Terrain</strong>: Ocean</p>",
+      "items": {
+        "9leqX7JpMmDBGpAi": {
+          "name": "Natural Protection"
+        },
+        "G1VysCaTw1LeSCua": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "MyZu2D3iYrFMUbaL": {
+          "description": "<p>Damage is in hull points.</p>",
+          "name": "Ram"
+        },
+        "OHsrjbEshkqW3a1S": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "Tg0Q2xqtXDuZyEtY": {
+          "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+          "name": "Swim"
+        },
+        "VEsFCd7BVctLYzBc": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "gDHpF1jrylg0IwBL": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "hhKL8aXegGJH8onD": {
+          "description": "<p>Those swallowed take 3d6 points of acid damage per round and will drown in 10 rounds unless freed.</p>",
+          "name": "Swallowed"
+        },
+        "k5Nd0FBU6GIOk5An": {
+          "description": "<p>When the bite attack roll is a 4 or greater and the target is a creature of man size or smaller, the victim is swallowed whole.</p>",
+          "name": "Bite (Swallow)"
+        },
+        "urdVw8lB73ELsq5H": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        }
+      },
+      "monsterType": "Giant Animal",
+      "name": "Whale, Great"
+    },
+    "Whale, Killer": {
+      "biography": "<p>Killer whales are 25' long and are found mainly in cold waters. They live by hunting other sea creatures. Creatures of halfling size or smaller will be swallowed whole if the killer whale scores a 20 on its hit roll. Those swallowed take [[/r 1d6 #Points of damage]] points of damage per round and will drown in 10 rounds unless freed.</p><p><strong>Terrain</strong>: Ocean</p>",
+      "items": {
+        "9leqX7JpMmDBGpAi": {
+          "name": "Natural Protection"
+        },
+        "G1VysCaTw1LeSCua": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "OHsrjbEshkqW3a1S": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "Tg0Q2xqtXDuZyEtY": {
+          "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+          "name": "Swim"
+        },
+        "VEsFCd7BVctLYzBc": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "gDHpF1jrylg0IwBL": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "hhKL8aXegGJH8onD": {
+          "description": "<p>Those swallowed take 1d6 points of damage per round and will drown in 10 rounds unless freed.</p>",
+          "name": "Swallowed"
+        },
+        "k5Nd0FBU6GIOk5An": {
+          "description": "<p>When the bite attack roll is a 20 and the target is a creature of halfling size or smaller, the victim is swallowed whole.</p>",
+          "name": "Bite"
+        },
+        "urdVw8lB73ELsq5H": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        }
+      },
+      "monsterType": "Normal Animal",
+      "name": "Whale, Killer"
+    },
+    "Whale, Narwhal": {
+      "biography": "<p>The narwhal is 15' long, gray to white in color, and has an 8' long spiral horn on its head (like that of a unicorn). It is an intelligent magical creature, very independent and secretive. It is rumored that their horns vibrate in the presence of evil. Their horns are worth from 1,000 to 6,000 gold pieces each for their ivory.</p><p><strong>Terrain</strong>: Ocean</p>",
+      "items": {
+        "9leqX7JpMmDBGpAi": {
+          "name": "Natural Protection"
+        },
+        "G1VysCaTw1LeSCua": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "OHsrjbEshkqW3a1S": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "Tg0Q2xqtXDuZyEtY": {
+          "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+          "name": "Swim"
+        },
+        "VEsFCd7BVctLYzBc": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "gDHpF1jrylg0IwBL": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "k5Nd0FBU6GIOk5An": {
+          "name": "Horn"
+        },
+        "urdVw8lB73ELsq5H": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Whale, Narwhal"
     },
     "Wight*": {
       "biography": "<p>A wight is an undead spirit that inhabits the body of a deceased human or demihuman. It resembles its living form but appears bone-white and emaciated, with hollow, lifeless eyes. Its burial garments are typically tattered and filthy.</p><p>Wights can only be harmed by silvered or magical weapons. They are greatly feared due to their ability to drain life energy with each strike. Each successful hit drains one level of experience or Hit Die from the victim. Any individual completely drained of life energy by a wight will transform into a wight themselves within 1d4 days and will be under the control of the slayer.</p><p><strong>Terrain:</strong> Barren Lands, Ruins.</p>",
@@ -26617,6 +26881,9 @@
           "description": "<p><span style=\"font-family: Barlow, sans-serif\">Each successful hit drains one level of experience or Hit Die from the victim. Any individual completely drained of life energy by a wight will transform into a wight themselves within 1d4 days and will be under the control of the slayer.</span></p>",
           "name": "Energy Drain (Touch)",
           "unidentifiedName": "Unarmed Strike"
+        },
+        "OgSYICQEGbo94LdN": {
+          "name": "Natural Protection"
         },
         "YAaYlLRO4FK1j3mF": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -26748,6 +27015,11 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "pcdBLWKxB0T2tZST": {
+          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+          "gmNotes": "Flying ability of giant bats.",
+          "name": "Flight"
+        },
         "y9P7UWZTxrpwf1dH": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -26771,7 +27043,6 @@
           "shortName": "Breath"
         },
         "EWN7774DnrEviqMx": {
-          "description": "A powerful bite that deals 2d8 damage.",
           "name": "Bite"
         },
         "NUR0KapbRJlbCcWQ": {
@@ -26780,7 +27051,6 @@
           "shortName": "Spell"
         },
         "PyKoEti7jEYKpnvI": {
-          "description": "The wyvern's tough, dragon-like hide offers natural protection.",
           "name": "Natural Armor"
         },
         "gXNHka2U4Ihp2alI": {
@@ -26793,6 +27063,11 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "pcdBLWKxB0T2tZST": {
+          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+          "gmNotes": "Flying ability of giant bats.",
+          "name": "Flight"
+        },
         "tNSDjx0uVOZtd3L3": {
           "description": "A deadly tail sting dealing 1d6 damage. Victims must make a saving throw vs. poison or die.",
           "name": "Sting (poison)"
@@ -26802,8 +27077,12 @@
       "name": "Wyvern"
     },
     "Yellow Mold": {
-      "biography": "<p><strong>Yellow Mold</strong> is a dangerous fungus that covers an area of up to 100 square feet. It does not move, but reacts aggressively when disturbed.</p>\n      <p>It is <strong>immune to all damage except fire</strong>, which deals normal damage. Torches inflict <strong>1d4 damage per round</strong> when used to burn it. Yellow mold can <strong>dissolve wood and leather</strong> in an instant, but it cannot harm stone or metal.</p>\n      <p>When touched, there is a <strong>50% chance</strong> that it releases a cloud of spores in a <strong>10' x 10' x 10'</strong> area. Anyone caught in the spores takes <strong>1d6 damage</strong> and must make a <strong>saving throw vs. death ray</strong> or suffocate within <strong>six rounds</strong>.</p>\n      <p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+      "biography": "<p>Yellow Mold is a dangerous fungus that covers an area of up to 100 square feet. It does not move, but reacts aggressively when disturbed.</p><p>It is immune to all damage except fire, which deals normal damage. Torches inflict 1d4 damage per round when used to burn it. Yellow mold can dissolve wood and leather in an instant, but it cannot harm stone or metal.</p><p>When touched, there is a 50% chance that it releases a cloud of spores in a 10' x 10' x 10' area. Anyone caught in the spores takes 1d6 damage and must make a saving throw vs. death ray or suffocate within six rounds.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
       "items": {
+        "2oCQTiFSJk88AnoL": {
+          "description": "<p>When touched, there is a 50% chance that it releases a cloud of spores in a 10' x 10' x 10' area. Anyone caught in the spores takes 1d6 damage and must make a saving throw vs. death ray or suffocate within six rounds.</p>",
+          "name": "Spores (Suffocate)"
+        },
         "7vjp40gdO2goYM0i": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -26855,9 +27134,12 @@
           "shortName": "Wand"
         },
         "VDFIAbsWFuDeNYHI": {
-          "description": "<p>A zombie's attack consists of a mindless claw swipe or a crude weapon strike.</p>",
           "name": "Claw",
           "unidentifiedName": "Claw or Weapon"
+        },
+        "Z2lXZOyWp3TlQsUo": {
+          "description": "<p>Not affected by <em>sleep</em> or <em>charm</em> spells/abilities.</p>",
+          "name": "Sleep & Charm Immunity"
         },
         "aqEekeBKRlr3GocH": {
           "name": "Natural Defense",
