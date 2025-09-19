@@ -329,7 +329,15 @@
         }
       },
       "actions": {
-        "name": "Actions"
+        "cast": "Cast",
+        "consume": "Consume",
+        "melee": "Melee",
+        "name": "Actions",
+        "none": "No action",
+        "shoot": "Shoot",
+        "singular": "Action",
+        "throw": "Throw",
+        "use": "Use"
       },
       "appliedCondition": "<div><span style='color:#c58344' class='text-size16'>{condition}</span> applied to:</div>",
       "apply": "Apply",
@@ -1004,13 +1012,14 @@
       "needRestSoon": "<div class='warning'>The party will need to rest next turn, or their attack and damage rolls may be penalized until they do.</div>",
       "noAmmo": "{actorName} does not have {weaponName} ammunition equipped.",
       "noCharges": "{itemName} has no charges remaining and can't be used.",
+      "noTokenAssoc": "Action requires a token in the scene.",
       "noTokenWarning": "You must select a token or assign a default character to perform this action.",
       "noTokenWarning2": "You must select a token to perform this action.",
       "notMemorized": "{actorName} tries to cast {spellName}, but the spell is not memorized.",
       "partyRests": "The party rests.",
       "reversedTime": "<div>Time reverses {turns} turn(s), {rounds} round(s).</div>",
-      "selectTarget": "A targetted must first be selected.",
-      "selectToken1": "A token must first be selected.",
+      "selectTarget": "A target must be selected.",
+      "selectToken1": "A token must be selected.",
       "spellSelectToken": "You must have your token selected to cast a spell.",
       "timeReset1": "Resetting session turn count to zero.",
       "timeReset2": "Resetting global turn count to zero.",
