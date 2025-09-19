@@ -617,7 +617,12 @@
             "targetRangedAC": "/<span data-tooltip='CA per attacchi a distanza.' {cssClass}>{acTotal}</span>",
             "useWithTarget": "{owner} usa {used} ({operator}{target})",
             "actions": {
-                "name": "Azioni"
+                "name": "Azioni",
+                "cast": "Lancia",
+                "melee": "Mischia",
+                "singular": "Azione",
+                "throw": "Lanciare Arma",
+                "use": "Usa"
             },
             "abilityCheck": {
                 "tieredResults": {
