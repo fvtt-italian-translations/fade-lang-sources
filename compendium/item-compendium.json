@@ -24,6 +24,10 @@
       "name": "Agate",
       "unidentifiedDesc": "<p>An agate gem is a type of chalcedony known for its distinctive banding patterns and vibrant colors. It often features layers in hues like white, blue, red, or brown, and can have a polished surface with a smooth, glassy appearance. Agates are prized for their unique, natural beauty and are used in jewelry and decorative items.</p>"
     },
+    "Agility Boost": {
+      "description": "<p>Raise the drinker's Dexterity score to 18 for [[/r 1d6+6 #Turns of agility boost]] turns.</p>",
+      "name": "Agility Boost"
+    },
     "Alchemy": {
       "description": "<p>This skill provides the ability to recognize and identify common  alchemical substances, potions, and poisons. Success with this skill will allow a character to create an antidote potion for one specific type of poison—if the DM says that this is possible in his campaign.</p>",
       "name": "Alchemy"
@@ -1094,6 +1098,11 @@
     },
     "Bola@ZO4T66UN5EoZgGGA": {
       "name": "Bola"
+    },
+    "Boost Agility": {
+      "description": "<p>Increases Dexterity score to 18 for 7-12 turns [[/br 1d6+6 #Potion of Agility duration]]. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time.</p>",
+      "name": "Boost Agility",
+      "spellDuration": "Instant"
     },
     "Bow, Long +1": {
       "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
@@ -3852,6 +3861,9 @@
     },
     "Platinum Piece": {
       "name": "Platinum Piece"
+    },
+    "Poisoned": {
+      "name": "Poisoned"
     },
     "Polearm": {
       "description": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>",
