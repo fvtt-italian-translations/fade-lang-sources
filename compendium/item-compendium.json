@@ -1186,6 +1186,11 @@
       "name": "Cause Fear*",
       "spellEffect": "Flee for two turns."
     },
+    "Cause Fear* (Wand)": {
+      "description": "<p>Creates a cone of fear, 60' long and 30' wide at the far end. All within the cone must make a saving throw vs. wands or run away from the user at three times their normal rate for 30 rounds.</p>",
+      "name": "Cause Fear* (Wand)",
+      "spellEffect": "Flee for 30 rounds"
+    },
     "Cause Light Wounds*": {
       "description": "<p>This spell cures one living (not undead or non-living) creature of [[/r 1d6+1 #Cure Light Wounds]] points of damage. The caster can cure themselves with this spell.</p><p>Alternately, the spell can be used to cure paralysis (except that caused by a <em>Hold Person</em> or <em>Hold Monster</em> spell), although if it does so then no damage will be cured at the same time.</p><p>The spell will not increase the target's maximum hit points.</p><p>When reversed, this spell, <em>cause light wounds</em>, causes  [[/r 1d6+1 #Cause Light Wounds]] points of damage to the target. No saving throw is allowed, but the caster must make a normal attack roll to inflict this damage.</p>",
       "name": "Cause Light Wounds*",
@@ -1414,6 +1419,12 @@
       "description": "<p>This spell allows the cleric to ask three yes-or-no questions of the greater powers (such as forces of nature, greater spirits, or Immortals).</p>\n                      <p><strong>Usage:</strong> May only be used once per week. The DM may restrict this to once a month if overused. Once a year, the cleric may ask six questions, usually on a day significant to the powers questioned.</p>",
       "name": "Commune",
       "spellEffect": "Allows 3 questions"
+    },
+    "Cone of Cold (Wand)": {
+      "description": "<p>Creates a cone of cold, 60' long and 30' wide at the far end. All within the cone take 6d6 points of cold damage, but they may make a saving throw vs. wands for half damage.</p>",
+      "name": "Cone of Cold (Wand)",
+      "spellDuration": "Instant",
+      "spellEffect": "Creates code of coldness 60' long by 30' wide"
     },
     "Confuse Alignment*": {
       "description": "<p><em>Confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p><p>This spell allows the spellcaster to determine the alignment (Lawful, Neutral, or Chaotic) of any one creature within 10'. It can also reveal the alignment of an enchanted item or area, if applicable.</p>",
@@ -4358,7 +4369,7 @@
       "unidentifiedName": "Scroll Case (water-tight)"
     },
     "Scroll of Stone to Flesh": {
-      "description": "<p>This scroll contains the magic-user spell *Stone to Flesh*, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, *Flesh to Stone*, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p>",
+      "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, <strong>Flesh to Stone</strong>, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p>",
       "name": "Scroll of Stone to Flesh",
       "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
       "unidentifiedName": "Mysterious Scroll"
@@ -6002,13 +6013,13 @@
       "spellEffect": "Creates 1000 cubic feet of stone"
     },
     "Wand of Cold": {
-      "description": "<p>This wand creates a cone of cold, 60' long and 30' wide at the far end. All within the cone take 6d6 points of cold damage, but they may make a saving throw vs. wands for half damage.</p><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This dark, polished wand feels heavy in your hand, its surface etched with frost-like patterns. The tip is capped with a translucent blue crystal that resembles ice, and a faint mist occasionally emanates from it, hinting at the chilling power within.</span></p>",
+      "description": "<p>This wand creates a cone of cold, 60' long and 30' wide at the far end. All within the cone take 6d6 points of cold damage, but they may make a saving throw vs. wands for half damage.</p><p>This dark, polished wand feels heavy in your hand, its surface etched with frost-like patterns. The tip is capped with a translucent blue crystal that resembles ice, and a faint mist occasionally emanates from it, hinting at the chilling power within.</p>",
       "name": "Wand of Cold",
       "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This dark, polished wand feels heavy in your hand, its surface etched with frost-like patterns. The tip is capped with a translucent blue crystal that resembles ice, and a faint mist occasionally emanates from it, hinting at the chilling power within.</span></p>",
       "unidentifiedName": "Mysterious Wand"
     },
     "Wand of Enemy Detection": {
-      "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">When a charge is expended, this item causes all enemies within 60 feet (including those who are hidden or invisible) to emit a glowing light, as if they were aflame.</span></p><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This wand is crafted from dark, smooth wood, featuring a slightly twisted design. At the tip, a striking gem shaped like an eyeball glows with a fiery red hue, while faint, glowing runes spiral along its length.</span></p>",
+      "description": "<p>When a charge is expended, this item causes all enemies within 60 feet (including those who are hidden or invisible) to emit a glowing light, as if they were aflame.</p><p>This wand is crafted from dark, smooth wood, featuring a slightly twisted design. At the tip, a striking gem shaped like an eyeball glows with a fiery red hue, while faint, glowing runes spiral along its length.</p>",
       "name": "Wand of Enemy Detection",
       "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This wand is crafted from dark, smooth wood, featuring a slightly twisted design. At the tip, a striking gem shaped like an eyeball glows with a fiery red hue, while faint, glowing runes spiral along its length</span></p>",
       "unidentifiedName": "Strange Wand"
@@ -6019,15 +6030,15 @@
       "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This wand is crafted from dark, polished wood, featuring a sleek and slightly curved design. At the end, it is adorned with a menacing skull motif, intricately carved and detailed, giving it a foreboding presence. The skull's eye sockets glow faintly with an eerie light, while the shaft of the wand is etched with subtle, arcane symbols.</span></p>",
       "unidentifiedName": "Scary-Looking Wand"
     },
-    "Wand of Illusion (M)": {
+    "Wand of Illusion": {
       "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">A Wand of Illusion is a magical item that allows the user to create a <em>phantasmal force</em> effect, similar to the magic-user spell. To maintain the illusion, the user must concentrate, which limits their movement to half of their normal speed. This wand is useful for creating distractions, deceiving enemies, or crafting elaborate visual effects to enhance storytelling and gameplay.</span></p><p>This slender, iridescent rod is about two feet long, adorned with intricate runes that shimmer softly in the light. The tip features a multifaceted crystal that sparkles like a prism, casting tiny rainbows around it. Cool to the touch, the wand hums with a faint, magical energy, inviting curiosity and wonder. Its elegant design hints at hidden potential.</p>",
-      "name": "Wand of Illusion (M)",
+      "name": "Wand of Illusion",
       "unidentifiedDesc": "<p>This slender, iridescent rod is about two feet long, adorned with intricate runes that shimmer softly in the light. The tip features a multifaceted crystal that sparkles like a prism, casting tiny rainbows around it. Cool to the touch, the wand hums with a faint, magical energy, inviting curiosity and wonder. Its elegant design hints at hidden potential.</p>",
       "unidentifiedName": "Mysterious Wand"
     },
-    "Wand of Secret Door Detection (M)": {
-      "description": "<p>The user may find any secrer door within 20', using one charge per secret door found.</p><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This elegantly crafted wand is made from a shimmering silver wood, adorned with intricate carvings of ancient symbols. Its tip glows faintly with a soft, ethereal light, pulsating gently as if alive. When held, the wand seems to hum with a subtle energy, guiding its wielder with an intuitive warmth. A delicate crystal embedded in the handle refracts light in mesmerizing patterns, hinting at its hidden abilities.</span></p>",
-      "name": "Wand of Secret Door Detection (M)",
+    "Wand of Secret Door Detection": {
+      "description": "<p>The user may find any secrer door within 20', using one charge per secret door found.</p><p>This elegantly crafted wand is made from a shimmering silver wood, adorned with intricate carvings of ancient symbols. Its tip glows faintly with a soft, ethereal light, pulsating gently as if alive. When held, the wand seems to hum with a subtle energy, guiding its wielder with an intuitive warmth. A delicate crystal embedded in the handle refracts light in mesmerizing patterns, hinting at its hidden abilities.</p>",
+      "name": "Wand of Secret Door Detection",
       "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This elegantly crafted wand is made from a shimmering silver wood, adorned with intricate carvings of ancient symbols. Its tip glows faintly with a soft, ethereal light, pulsating gently as if alive. When held, the wand seems to hum with a subtle energy, guiding its wielder with an intuitive warmth. A delicate crystal embedded in the handle refracts light in mesmerizing patterns, hinting at its hidden abilities.</span></p>",
       "unidentifiedName": "An Unusual Wand"
     },
