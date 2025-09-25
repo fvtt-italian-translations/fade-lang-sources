@@ -95,6 +95,13 @@
       "spellEffect": "Personal barrier which blocks plants",
       "spellRange": "0 (druid only)"
     },
+    "Antidote": {
+      "description": "<p>Grants immunity to certain poisons and provides a <strong>+2 bonus to saving throws against poison</strong>. The weakest version protects against poisons from creatures with 3 Hit Dice or less, while stronger versions counter poisons from more powerful creatures. Poisons avoided during the potion's duration have no effect after it ends.</p><p>Roll [[/br 1d10 #Counter poison type: 1-4=3HD, 5-7=7HD, 8-9=15HD, and 10=All types of poison.]] to determine which poisons it counters.</p><p>1-4: Protects against poisons from creatures of 3 Hit Dice or less. <br>5-7: Protects against poisons from creatures of 7 Hit Dice or less. <br>8-9: Protects against poisons from creatures of 15 Hit Dice or less. <br>10: Protects against all types of poison.</p><p>It lasts for 7-12 turns [[/br 1d6+6 #Antidote duration]], with the exact duration known only to the DM.</p><p><em>A potion of poison is normally treated as poison from a 7-HD monster. The DM can adjust this option as necessary.</em></p>",
+      "name": "Antidote",
+      "spellDuration": "7-12 (1d6+6) turns",
+      "spellEffect": "Grants immunity to certain types of poison",
+      "spellRange": "Self"
+    },
     "Appear*": {
       "description": "<p>This spell negates invisibility within a 20' x 20' x 20' area. It affects all invisible creatures and objects inside the area, making them fully visible.</p><h4>Effect:</h4><ul><li>Affects all forms of invisibility (both magical and natural).</li><li>Creatures on the Astral and Ethereal planes are not affected.</li><li>All affected creatures cannot become invisible again for 1 full turn.</li></ul>",
       "name": "Appear*",
@@ -1040,6 +1047,17 @@
       "description": "<p>By concentrating for 1 round, the mystic makes his presence \"disappear.\" No living or undead creature can see him, and there is no saving throw involved. This effect lasts for 1 round for each level of the mystic and is automatically dispelled if he makes an attack. He can use this ability only once per day.</p>",
       "name": "Blankout"
     },
+    "Blending@7q6N6QYkx56khItq": {
+      "description": "<p>The magical effect allows the user to dynamically transform their entire color scheme to any color, pattern, or combination. When activated, it provides advanced camouflage that makes the user extremely difficult to detect. Only specialized perception abilities like <em>detect invisible</em> or possessing <em>true sight</em> can penetrate the disguise. There is a 10% chance the user might be detected by standard observation, making it an exceptionally powerful transformative ability.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "name": "Blending",
+      "spellDuration": "7-12 (1d6+6) turns",
+      "spellEffect": "Blends with surroundings.",
+      "spellRange": "Self"
+    },
+    "Blending@KijTXXdRGgHbfcNB": {
+      "description": "<p>The magical effect allows the user to dynamically transform their entire color scheme to any color, pattern, or combination. When activated, it provides advanced camouflage that makes the user extremely difficult to detect. Only specialized perception abilities like <em>detect invisible</em> or possessing <em>true sight</em> can penetrate the disguise. There is a 10% chance the user might be detected by standard observation, making it an exceptionally powerful transformative ability.</p>",
+      "name": "Blending"
+    },
     "Bless*": {
       "description": "<p>This spell enhances the morale of friendly creatures by +1 and grants them a +1 bonus to all attack and damage rolls. It affects only those within a 20' x 20' area and only those who are not yet engaged in melee combat.</p><p>The reversed form, <em>blight</em>, imposes a -1 penalty to morale, attack rolls, and damage rolls of enemies. Each affected creature may make a saving throw vs. spells to avoid these penalties.</p>",
       "name": "Bless*",
@@ -1100,9 +1118,11 @@
       "name": "Bola"
     },
     "Boost Agility": {
-      "description": "<p>Increases Dexterity score to 18 for 7-12 turns [[/br 1d6+6 #Potion of Agility duration]]. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time.</p>",
+      "description": "<p>Increases Dexterity score to 18. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time.</p><p>It lasts for 7-12 turns [[/br 1d6+6 #Boost Agility duration]], with the exact duration known only to the DM.</p>",
       "name": "Boost Agility",
-      "spellDuration": "Instant"
+      "spellDuration": "7-12 (1d6+6) turns",
+      "spellEffect": "Raises Dexterity to 18",
+      "spellRange": "Self"
     },
     "Bow, Long +1": {
       "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
@@ -1153,6 +1173,17 @@
       "spellDuration": "Special",
       "spellEffect": "Causes victims to suffocate, losing Constitution each round",
       "spellRange": "20' + 10'/level of bard"
+    },
+    "Bug Repellent@BJG5TvbOgLCm5reh": {
+      "description": "<p>The magical effect protects the user from all bugs, including arachnids (spiders, ticks, scorpions), insects (ants, beetles, flies), and chilopods (centipedes, millipedes). Normal-sized bugs cannot touch the user, and giant-sized bugs will ignore the user unless they successfully make a saving throw against spells. If the giant bug fails its saving throw, it completely disregards the user's presence. Additionally, the effect provides a +4 bonus to any saving throws against magically summoned or controlled bugs.</p>",
+      "name": "Bug Repellent"
+    },
+    "Bug Repellent@G8fjBG7DeRYIHUuv": {
+      "description": "<p>The magical effect protects the user from all bugs, including arachnids (spiders, ticks, scorpions), insects (ants, beetles, flies), and chilopods (centipedes, millipedes). Normal-sized bugs cannot touch the user, and giant-sized bugs will ignore the user unless they successfully make a saving throw against spells. If the giant bug fails its saving throw, it completely disregards the user's presence. Additionally, the effect provides a +4 bonus to any saving throws against magically summoned or controlled bugs.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "name": "Bug Repellent",
+      "spellDuration": "7-12 (1d6+6) turns",
+      "spellEffect": "Protects user from all bugs",
+      "spellRange": "Self"
     },
     "Call Lightning": {
       "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
@@ -1479,6 +1510,13 @@
       "name": "Continual Light* (C)",
       "spellEffect": "Sphere of light 60' across"
     },
+    "Control Animals": {
+      "description": "<p>Can control up to [[/r 3d6 #Potion of Animal Control Hit Dice worth of animals]] Hit Dice worth of animals (normal or giant, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
+      "name": "Control Animals",
+      "spellDuration": "7-12 (1d6+6) turns",
+      "spellEffect": "Control up to 3d6 Hit Dice worth of animals",
+      "spellRange": "Self"
+    },
     "Control Temperature 10' Radius": {
       "description": "<p>This spell allows the druid to alter the temperature within a 10' radius (20' across) by up to 50 degrees Fahrenheit, either warming or cooling the air. The temperature changes instantly and remains as long as the druid maintains concentration and the spell's duration has not expired.</p>\n                      <p>The effect moves with the druid, and the temperature can be adjusted by concentrating for one round. This spell is especially useful for surviving in extreme cold or heat.</p>",
       "name": "Control Temperature 10' Radius",
@@ -1492,6 +1530,10 @@
       "spellDuration": "1 turn per level of the caster",
       "spellEffect": "Calms or increases winds",
       "spellRange": "10' radius per level of the caster"
+    },
+    "Controlled": {
+      "description": "<p>The creature’s will or actions are no longer its own. It is under the influence of another force — magical, mental, or otherwise unnatural — and acts in accordance with that power’s wishes until freed.</p>",
+      "name": "Controlled"
     },
     "Copper Piece": {
       "name": "Copper Piece"
@@ -2287,6 +2329,11 @@
       "name": "Fireball",
       "spellEffect": "Explosion in a sphere 40' diameter"
     },
+    "Fireball (Wand)": {
+      "description": "<p>Creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 6d6 fire damage to every creature in the area.</p><p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. wands for half damage.</p>",
+      "name": "Fireball (Wand)",
+      "spellEffect": "Explosion in a sphere 40' diameter"
+    },
     "Flesh to Stone*": {
       "description": "<p>The reverse of <em>Stone to Flesh</em>, this spell turns a living creature to stone, including all equipment carried.</p><p>The victim may make a saving throw vs. turn to stone to avoid the effect. If the saving throw fails, the transformation is permanent unless dispelled or reversed.</p>",
       "name": "Flesh to Stone*",
@@ -2895,6 +2942,11 @@
     "Lightning Bolt": {
       "description": "<p>This spell creates a bolt of lightning that begins up to 180' away from the caster and extends 60' further in a straight line. All creatures within the area of effect take 1d6 points of lightning damage per caster level.</p>\n                      <p><strong>Damage:</strong> For example, a 6th-level elf would cast a lightning bolt dealing 6d6 points of damage. Each creature in the path of the bolt may make a saving throw vs. spells for half damage.</p>\n                      <p><strong>Special Effect:</strong> If the bolt strikes a solid surface, it bounces back toward the caster until it reaches its full length of 60'.</p>",
       "name": "Lightning Bolt",
+      "spellEffect": "Bolt 60' long, 5' wide"
+    },
+    "Lightning Bolt (Wand)": {
+      "description": "<p>Creates a bolt of lightning that begins up to 180' away from the caster and extends 60' further in a straight line. All creatures within the area of effect take 6d6 points of lightning damage.  Each creature in the path of the bolt may make a saving throw vs. spells for half damage.</p><p><strong>Special Effect:</strong> If the bolt strikes a solid surface, it bounces back toward the caster until it reaches its full length of 60'.</p>",
+      "name": "Lightning Bolt (Wand)",
       "spellEffect": "Bolt 60' long, 5' wide"
     },
     "Lip Reading": {
@@ -3873,6 +3925,18 @@
     "Platinum Piece": {
       "name": "Platinum Piece"
     },
+    "Poison Immune (15HD)": {
+      "description": "<p>Immune to poisons from creatures of 3 Hit Dice or less and provides a +2 bonus to saving throws against poison. Poisons avoided during have no effect after it ends.</p><p>The effect lasts for one hour.</p>",
+      "name": "Poison Immune (15HD)"
+    },
+    "Poison Immune (3HD)": {
+      "description": "<p>Immune to poisons from creatures of 3 Hit Dice or less and provides a +2 bonus to saving throws against poison. Poisons avoided during have no effect after it ends.</p><p>The effect lasts for one hour.</p>",
+      "name": "Poison Immune (3HD)"
+    },
+    "Poison Immune (7HD)": {
+      "description": "<p>Immune to poisons from creatures of 7 Hit Dice or less and provides a +2 bonus to saving throws against poison. Poisons avoided during have no effect after it ends.</p><p>The effect lasts for one hour.</p>",
+      "name": "Poison Immune (7HD)"
+    },
     "Poisoned": {
       "name": "Poisoned"
     },
@@ -3915,46 +3979,46 @@
       "name": "Possessed"
     },
     "Potion of Agility": {
-      "description": "<p>This potion increases the drinker's Dexterity score to 18 for 7-12 turns [[/br 1d6+6 #Potion of Agility duration]]. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time. The potion takes effect immediately upon consumption.</p>",
+      "description": "<p>Increases Dexterity score to 18. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Agility",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Animal Control": {
-      "description": "<p>Upon consuming this potion, the user can control up to [[/r 3d6 #Potion of Animal Control Hit Dice worth of animals]] Hit Dice worth of animals (normal or giant, but not fantastic or magical) for the potion’s duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves. The controlled creatures can make a saving throw vs. spells to resist. The potion's effect lasts for [[/br 1d6+6 #Potion of Animal Control duration]] 7-12 turns.</p>",
+      "description": "<p>Can control up to [[/r 3d6 #Potion of Animal Control Hit Dice worth of animals]] Hit Dice worth of animals (normal or giant, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
       "name": "Potion of Animal Control",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Antidote": {
-      "description": "<p>This potion grants immunity to certain poisons and provides a +2 bonus to saving throws against poison. The weakest version protects against poisons from creatures with 3 Hit Dice or less, while stronger antidotes counter poisons from more powerful creatures. Poisons avoided during the potion's duration have no effect after it ends.</p><p>Roll [[/br 1d10]] to determine which poisons it counters.</p><p>1-4: Protects against poisons from creatures of 3 Hit Dice or less. <br>5-7: Protects against poisons from creatures of 7 Hit Dice or less. <br>8-9: Protects against poisons from creatures of 15 Hit Dice or less. <br>10: Protects against all types of poison. <br>The effect lasts for one hour after consumption.</p>",
+      "description": "<p>Grants immunity to certain poisons and provides a <strong>+2 bonus to saving throws against poison</strong>. The weakest version protects against poisons from creatures with 3 Hit Dice or less, while stronger versions counter poisons from more powerful creatures. Poisons avoided during the potion's duration have no effect after it ends.</p><p>Roll [[/br 1d10 #Counter poison type: 1-4=3HD, 5-7=7HD, 8-9=15HD, and 10=All types of poison.]] to determine which poisons it counters.</p><p>1-4: Protects against poisons from creatures of 3 Hit Dice or less. <br>5-7: Protects against poisons from creatures of 7 Hit Dice or less. <br>8-9: Protects against poisons from creatures of 15 Hit Dice or less. <br>10: Protects against all types of poison.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>A potion of poison is normally treated as poison from a 7-HD monster. The DM can adjust this option as necessary.</em></p>",
       "name": "Potion of Antidote",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Blending": {
-      "description": "<p>This potion allows the drinker to blend into their surroundings, making them nearly impossible to detect visually. Unlike a potion of invisibility, normal actions do not dispel the effect. The potion lasts for 7-12 turns [[/br 1d6+6 #Potion of Blending duration]], with the exact duration known only to the DM.</p>",
+      "description": "<p>The magical effect allows the user to dynamically transform their entire color scheme to any color, pattern, or combination. When activated, it provides advanced camouflage that makes the user extremely difficult to detect. Only specialized perception abilities like <em>detect invisible</em> or possessing <em>true sight</em> can penetrate the disguise. There is a 10% chance the user might be detected by standard observation, making it an exceptionally powerful transformative ability.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Blending",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Bug Repellent": {
-      "description": "<p>This potion repels all types of bugs, including arachnids (spiders, ticks, scorpions), insects (ants, beetles, flies), and chilopods (centipedes, millipedes). Normal bugs cannot touch the user after drinking the potion. Giant-sized bugs will ignore the user unless they succeed on a saving throw vs. spells. If the save succeeds, the potion has no effect on the giant bug. The potion also grants a +4 bonus to any saving throws against magically summoned or controlled bugs. The potion lasts for [[/br 1d6+6 #Potion of Bug Repellent duration]] turns.</p>",
+      "description": "<p>The magical effect protects the user from all bugs, including arachnids (spiders, ticks, scorpions), insects (ants, beetles, flies), and chilopods (centipedes, millipedes). Normal-sized bugs cannot touch the user, and giant-sized bugs will ignore the user unless they successfully make a saving throw against spells. If the giant bug fails its saving throw, it completely disregards the user's presence. Additionally, the effect provides a +4 bonus to any saving throws against magically summoned or controlled bugs.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p></p>",
       "name": "Potion of Bug Repellent",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Flying": {
-      "description": "<p>The user may fly at up to 120' per round without tiring (as the effects of the magic-user spell).</p><p>This potion is contained in a delicate vial, its contents swirling with an enigmatic shimmer that defies description. A subtle, elusive fragrance wafts from it, hinting at possibilities beyond the ordinary.</p>",
+      "description": "<p>The user may fly at up to 120' per round without tiring (as the effects of the magic-user spell).</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Flying",
-      "unidentifiedDesc": "<p>This potion is contained in a delicate vial, its contents swirling with an enigmatic shimmer that defies description. A subtle, elusive fragrance wafts from it, hinting at possibilities beyond the ordinary.</p>",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Giant Strength": {
-      "description": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p><strong>Damage Increase:</strong> All weapon attacks inflict double normal damage.</p><p><strong>Boulder Throwing:</strong> The user can throw small boulders with a range of 60/130/200 feet, dealing 3d6 points of damage per hit.</p><p><strong>Compatibility Restriction:</strong> The potion does not work if the user is already benefiting from a strength-adjusting magical item (e.g., gauntlets of ogre power).</p><p>The potion swirls with a frosty blue hue, tiny crystalline flecks catching the light as it moves. Its scent is sharp and bracing, like icy mountain air, with an underlying metallic tang. On the tongue, it delivers a bitter chill and leaves a faint, numbing sensation, as if touched by frost.</p></div></div></div></div></div></div>",
+      "description": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p><strong>Damage Increase:</strong> All weapon attacks inflict double normal damage.</p><p><strong>Boulder Throwing:</strong> The user can throw small boulders with a range of 60/130/200 feet, dealing 3d6 points of damage per hit.</p><p><strong>Compatibility Restriction:</strong> The potion does not work if the user is already benefiting from a strength-adjusting magical item (e.g., gauntlets of ogre power).</p></div></div></div></div></div></div>",
       "gmNotes": "A potion of Giant Strength. Lasts 1d6+1 turns.\nDamage Increase: All weapon attacks inflict double normal damage.\nBoulder Throwing: The user can throw small boulders with a range of 60/130/200 feet, dealing 3d6 points of damage per hit.\nCompatibility Restriction: The potion does not work if the user is already benefiting from a strength-adjusting magical item (e.g., gauntlets of ogre power).",
       "name": "Potion of Giant Strength",
-      "unidentifiedDesc": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p>The potion swirls with a frosty blue hue, tiny crystalline flecks catching the light as it moves. Its scent is sharp and bracing, like icy mountain air, with an underlying metallic tang. On the tongue, it delivers a bitter chill and leaves a faint, numbing sensation, as if touched by frost.</p></div></div></div></div></div></div>",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Healing": {
@@ -4264,6 +4328,10 @@
       "description": "<p>This spell restores one full level of experience lost due to energy drain (such as from a vampire's attack). It does not provide additional levels if no level has been lost.</p><p>Limitations:</p><ul><li>Only one level is restored per casting.</li><li>It cannot restore more than one level, nor increase a level beyond what was originally lost.</li></ul><p>Cost to the Cleric:</p><ul><li>Upon casting, the cleric temporarily loses one experience level, as if struck by a wight.</li><li>The cleric’s loss is not permanent—it is recovered after resting for [[/r 2d10 #days]].</li></ul>",
       "name": "Restore*",
       "spellEffect": "Restores 1 level lost to energy drain"
+    },
+    "Restrained": {
+      "description": "<p>Victim is completely immobilized. Cannot attack or defend. Melee attackers may hit automatically. Missile attacks still require a roll, but the victim loses Dexterity bonus to AC.</p>",
+      "name": "Restrained"
     },
     "Reverse Gravity": {
       "description": "<p>This spell causes all creatures and objects within a 30' x 30' x 30' cube to fall upward for 2 seconds (1/5 of a round).</p><h4>Effect:</h4><ul><li>Affects all creatures and objects in the area.</li><li>They \"fall\" up to 65' instantly.</li><li>Hitting a ceiling or obstruction causes 1d6 damage per 10' fallen.</li><li>After 2 seconds, gravity returns to normal, causing victims to fall back down and take additional falling damage.</li><li>NPCs affected must make a morale check.</li></ul><h4>Example:</h4><p>In a 40' tall room, giants hit the ceiling (4d6 damage) and then fall back to the floor (another 4d6 damage), taking a total of 8d6 damage.</p>",
@@ -6030,10 +6098,22 @@
       "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This wand is crafted from dark, polished wood, featuring a sleek and slightly curved design. At the end, it is adorned with a menacing skull motif, intricately carved and detailed, giving it a foreboding presence. The skull's eye sockets glow faintly with an eerie light, while the shaft of the wand is etched with subtle, arcane symbols.</span></p>",
       "unidentifiedName": "Scary-Looking Wand"
     },
+    "Wand of Fireballs": {
+      "description": "<p>This creates a fireball effect (as if using the magic-user spell) up to 240' away. All victims take 6d6 points of fire damage, but they may make a saving throw vs. wands for half damage.</p><p>A slender ebony cylinder etched with crimson runes, pulsing with a subtle warmth and barely contained energy, its surface alive with intricate patterns that hint at something volatile and powerful.</p>",
+      "name": "Wand of Fireballs",
+      "unidentifiedDesc": "<p>A slender ebony cylinder etched with crimson runes, pulsing with a subtle warmth and barely contained energy, its surface alive with intricate patterns that hint at something volatile and powerful.</p>",
+      "unidentifiedName": "Mysterious Wand"
+    },
     "Wand of Illusion": {
-      "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">A Wand of Illusion is a magical item that allows the user to create a <em>phantasmal force</em> effect, similar to the magic-user spell. To maintain the illusion, the user must concentrate, which limits their movement to half of their normal speed. This wand is useful for creating distractions, deceiving enemies, or crafting elaborate visual effects to enhance storytelling and gameplay.</span></p><p>This slender, iridescent rod is about two feet long, adorned with intricate runes that shimmer softly in the light. The tip features a multifaceted crystal that sparkles like a prism, casting tiny rainbows around it. Cool to the touch, the wand hums with a faint, magical energy, inviting curiosity and wonder. Its elegant design hints at hidden potential.</p>",
+      "description": "<p>A Wand of Illusion is a magical item that allows the user to create a <em>phantasmal force</em> effect, similar to the magic-user spell. To maintain the illusion, the user must concentrate, which limits their movement to half of their normal speed. This wand is useful for creating distractions, deceiving enemies, or crafting elaborate visual effects to enhance storytelling and gameplay.</p><p>This slender, iridescent rod is about two feet long, adorned with intricate runes that shimmer softly in the light. The tip features a multifaceted crystal that sparkles like a prism, casting tiny rainbows around it. Cool to the touch, the wand hums with a faint, magical energy, inviting curiosity and wonder. Its elegant design hints at hidden potential.</p>",
       "name": "Wand of Illusion",
       "unidentifiedDesc": "<p>This slender, iridescent rod is about two feet long, adorned with intricate runes that shimmer softly in the light. The tip features a multifaceted crystal that sparkles like a prism, casting tiny rainbows around it. Cool to the touch, the wand hums with a faint, magical energy, inviting curiosity and wonder. Its elegant design hints at hidden potential.</p>",
+      "unidentifiedName": "Mysterious Wand"
+    },
+    "Wand of Lightning Bolts": {
+      "description": "<p>This creates a lightning bolt (as if using the magic-user spell), starting up to 240' away and 60' long from that point. The victims take 6d6 points of electrical damage, but they may make a saving throw vs. wands for half damage.</p><p>A slender, polished rod of dark wood, its surface etched with intricate silvery-blue lines that seem to crackle with barely contained energy, ending in a slightly tapered tip that gleams with an almost metallic sheen.</p>",
+      "name": "Wand of Lightning Bolts",
+      "unidentifiedDesc": "<p>A slender, polished rod of dark wood, its surface etched with intricate silvery-blue lines that seem to crackle with barely contained energy, ending in a slightly tapered tip that gleams with an almost metallic sheen.</p>",
       "unidentifiedName": "Mysterious Wand"
     },
     "Wand of Secret Door Detection": {
