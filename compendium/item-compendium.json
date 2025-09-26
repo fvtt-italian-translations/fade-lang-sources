@@ -25,7 +25,7 @@
       "unidentifiedDesc": "<p>An agate gem is a type of chalcedony known for its distinctive banding patterns and vibrant colors. It often features layers in hues like white, blue, red, or brown, and can have a polished surface with a smooth, glassy appearance. Agates are prized for their unique, natural beauty and are used in jewelry and decorative items.</p>"
     },
     "Agility Boost": {
-      "description": "<p>Raise the drinker's Dexterity score to 18 for [[/r 1d6+6 #Turns of agility boost]] turns.</p>",
+      "description": "<p>Raise the Dexterity score to 18.</p>",
       "name": "Agility Boost"
     },
     "Alchemy": {
@@ -2362,6 +2362,13 @@
       "spellDuration": "1d6 turns + 1 turn per caster level",
       "spellEffect": "One creature may fly"
     },
+    "Fly (Potion)": {
+      "description": "<p>Grants the target the ability to fly at will. The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</p>",
+      "name": "Fly (Potion)",
+      "spellDuration": "1d6 turns + 6",
+      "spellEffect": "One creature may fly",
+      "spellRange": "Self"
+    },
     "Flying": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target (including the caster, if desired) has the ability to fly at will.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); margin: 0.5rem 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: Barlow, sans-serif\">The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</span></p>",
       "name": "Flying"
@@ -2423,6 +2430,17 @@
     "Ghoul Paralysis Immunity (E)": {
       "description": "<p>Elves are immune to the paralyzing attacks of ghouls. They are, however, still affected by other forms of paralysis.</p>",
       "name": "Ghoul Paralysis Immunity (E)"
+    },
+    "Giant Strength@THbVeo8JdxmYX10g": {
+      "description": "<p>The magical effect grants the user the combat strength of a frost giant. If no strength-adjusting magical item is worn, the user inflicts double normal damage with any weapon. Additionally, the user can throw small boulders with a range of 60/130/200, dealing [[/r 3d6 #points of damage]] points of damage. The enhancement is nullified by wearing any strength-adjusting magical item.</p>",
+      "name": "Giant Strength"
+    },
+    "Giant Strength@iljOR1dQMVNY9Uzx": {
+      "description": "<p>The magical effect grants the user the combat strength of a frost giant. If no strength-adjusting magical item is worn, the user inflicts double normal damage with any weapon. Additionally, the user can throw small boulders with a range of 60/130/200, dealing [[/r 3d6 #points of damage]] points of damage. The enhancement is nullified by wearing any strength-adjusting magical item.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "name": "Giant Strength",
+      "spellDuration": "Instant",
+      "spellEffect": "Combat strength of a frost giant.",
+      "spellRange": "Self"
     },
     "Glide": {
       "description": "<p>The Glide ability allows a character or creature to move smoothly through the air, typically descending gently from a height without falling rapidly. This ability enables controlled movement over distances, often allowing for safe landings and navigation in the air.</p>",
@@ -4015,8 +4033,7 @@
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Giant Strength": {
-      "description": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p><strong>Damage Increase:</strong> All weapon attacks inflict double normal damage.</p><p><strong>Boulder Throwing:</strong> The user can throw small boulders with a range of 60/130/200 feet, dealing 3d6 points of damage per hit.</p><p><strong>Compatibility Restriction:</strong> The potion does not work if the user is already benefiting from a strength-adjusting magical item (e.g., gauntlets of ogre power).</p></div></div></div></div></div></div>",
-      "gmNotes": "A potion of Giant Strength. Lasts 1d6+1 turns.\nDamage Increase: All weapon attacks inflict double normal damage.\nBoulder Throwing: The user can throw small boulders with a range of 60/130/200 feet, dealing 3d6 points of damage per hit.\nCompatibility Restriction: The potion does not work if the user is already benefiting from a strength-adjusting magical item (e.g., gauntlets of ogre power).",
+      "description": "<p>The magical effect grants the user the combat strength of a frost giant. If no strength-adjusting magical item is worn, the user inflicts double normal damage with any weapon. Additionally, the user can throw small boulders with a range of 60/130/200, dealing [[/r 3d6 #points of damage]] points of damage. The enhancement is nullified by wearing any strength-adjusting magical item.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Giant Strength",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
@@ -4028,13 +4045,13 @@
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Invisibility": {
-      "description": "<p>This potion grants the effects of the invisibility spell. It makes the drinker and their carried items invisible. Any item will become visible again once it leaves the drinker’s possession. The potion may be consumed in up to six sips, each providing invisibility for one turn.</p>",
+      "description": "<p>This potion grants the effects of the invisibility spell. It makes the drinker and their carried items invisible. Any item will become visible again once it leaves the drinker’s possession. The potion may be consumed in up to six sips, each providing invisibility for one turn.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Invisibility",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Invulnerability": {
-      "description": "<p>This potion grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect. However, if consumed more than once in a week, it only causes sickness and has no additional effect. The duration is [[/br 1d6+6 #Potion of Invulnerability duration]] turns.</p>",
+      "description": "<p>This potion grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect. However, if consumed more than once in a week, it only causes sickness and has no additional effect. </p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Invulnerability",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"

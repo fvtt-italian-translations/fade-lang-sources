@@ -373,11 +373,13 @@
       "healFlavor": "<div>{attacker}: {weapon} restores <span class='damage'>{damage}</span> hit points.</div>",
       "healRoll": "Heal",
       "pass": "Success!",
+      "removedCondition": "<div><span style='color:#c58344' class='text-size16'>{condition}</span> removed from:</div>",
       "resetSpells": "{actorName} reset memorized spells. Cast counts set to zero.",
       "rollMods": {
         "ammoMod": "Ammunition mod: {mod}",
         "dexterityMod": "Dexterity mod: {mod}",
         "effectMod": "Attacker effect mod: {mod}",
+        "effectScale": "Attacker effect scale: x{scale}",
         "manual": "Manual mod: {mod}",
         "masteryMod": "Mastery {primsec} mod: {mod}",
         "masteryPrimDmg": "Weapon mastery primary damage.",
@@ -901,7 +903,11 @@
         "hint": "The key used for refering to this item. Can be one or more characters in length and should not include any special characters.",
         "name": "Key"
       },
-      "plural": "Conditions"
+      "plural": "Conditions",
+      "remove": {
+        "hint": "If checked, this removes the condition rather than adding it.",
+        "name": "Remove"
+      }
     },
     "cursed": "Cursed",
     "dialog": {
@@ -943,6 +949,7 @@
       "masteryTargetType": "Target Weapon Type",
       "no": "No, cancel",
       "noEquippedWeapons": "The selected actor does not have any weapons equipped.",
+      "removeFromPrompt": "Remove from targeted or selected?",
       "rollFormulaType": {
         "advantage": "Advantage",
         "disadvantage": "Disadvantage",
