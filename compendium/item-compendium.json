@@ -1861,6 +1861,13 @@
       "name": "Dimension Door",
       "spellEffect": "Safely transport one creature"
     },
+    "Diminution": {
+      "description": "<p>The magical effect instantly reduces the user to 6 inches in height. The user can only attack creatures smaller than 1 foot for normal damage. They can slip through small cracks and have a 90% chance of not being seen when standing still. This transformation will cancel any previous growth effects without ill consequences.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "name": "Diminution",
+      "spellDuration": "7-2 turns",
+      "spellEffect": "Reduces the user to 6 inches in height",
+      "spellRange": "Self"
+    },
     "Disarm": {
       "description": "<p>This combat option allows a character to attempt to disarm an opponent armed with a weapon. When making the attack, the character applies their usual Strength and magic bonuses to the attack roll. If the attack hits, no damage is dealt. Instead, the opponent rolls 1d20, subtracts their Dexterity bonuses, and adds the character’s Dexterity bonuses. If the final result exceeds the opponent's Dexterity score, they drop their weapon.</p><p>For example, a character faces a warrior they wish to capture alive. The warrior has AC 0 and a Dexterity of 13. The character has a Strength of 16 and wields a +2 sword, giving them a +4 to attack rolls. Their Dexterity is 12, with no bonus. The character needs a 7 to hit AC 0. They roll a 6, adding their +4 bonus to make a total of 10, successfully hitting the warrior.</p><p>The warrior then rolls 1d20 and gets a 15. Subtracting their Dexterity bonus of +1 (from their Dexterity of 13) results in 14. Since the character has no Dexterity bonus, the final roll remains 14, which is greater than the warrior’s Dexterity score of 13. The disarm attempt succeeds.</p><p>Once disarmed, the opponent can either switch weapons, losing initiative for the next round, or attempt to retrieve the dropped weapon. To retrieve it, the opponent must retreat and pick up the weapon.</p>",
       "name": "Disarm"
@@ -1933,6 +1940,12 @@
     "Dragon Breath Resistance (E)": {
       "description": "<p>Elves gain resistance to dragon breath weapons upon reaching 1,600,000 XP, aka level 14. At this point, they automatically take only half damage from any breath weapon, including dragon breath and similar attacks. If the breath weapon allows a saving throw, a successful save reduces the damage to one-quarter​.</p>",
       "name": "Dragon Breath Resistance (E)"
+    },
+    "Dreamspeech": {
+      "description": "<p>If the user speaks to one sleeping or paralyzed creature within 30 feet, the creature hears and silently answers as if awake. The user receives the responses telepathically and understands the language used. The creature is not compelled to be truthful. Dead and undead creatures cannot be affected, but cursed sleeping victims can be. </p><p>The effect lasts for 1 round and applies to only one sleeping or paralyzed creature.</p>",
+      "name": "Dreamspeech",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
     },
     "Druid": {
       "classLevels": {
@@ -2053,11 +2066,22 @@
       "name": "ESP*",
       "spellEffect": "All thoughts in one direction"
     },
+    "ESP* (Potion)": {
+      "description": "<p>This magical effect allows the spellcaster to \"hear\" thoughts. The caster must concentrate in one direction for six rounds (one minute) to hear the thoughts (if any) of a creature within range. The effect allows the user to understand the thoughts of any single living creature, regardless of language. It does not allow the user to hear the thoughts of undead creatures.</p><p>If more than one creature is within range and in the direction the user is concentrating, they will \"hear\" a confused jumble of thoughts. The user can sort out the jumble only by concentrating for an extra six rounds to find a single creature.</p><p><em>ESP</em> is not hindered by any amount of wood or liquid and will penetrate up to two feet of rock, but a thin coating of lead will block the spell. Targets can make a saving throw vs. spells to avoid the effects.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "ESP* (Potion)",
+      "spellEffect": "All thoughts in one direction"
+    },
     "Earthquake": {
       "description": "<p>This powerful spell causes the ground to shake violently, creating cracks and destruction in an area up to 60' square. The affected area increases by 5' per caster level above 17th.</p>\n                      <p><strong>Area of Effect:</strong></p>\n                      <ul>\n                        <li>17th level cleric: 60' square</li>\n                        <li>18th level cleric: 65' square</li>\n                        <li>19th level cleric: 70' square</li>\n                        <li>+5' to each dimension per additional level</li>\n                      </ul>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>Small dwellings collapse into rubble.</li>\n                        <li>Larger structures suffer severe cracks.</li>\n                        <li>Hills, cliffs, and earthen formations trigger rockslides.</li>\n                        <li>Cracks may open in the ground, randomly engulfing 1 in 6 creatures.</li>\n                      </ul>\n                      <p>A creature in danger of falling into a crack may attempt a <strong>saving throw vs. death</strong> to avoid being crushed.</p>",
       "name": "Earthquake",
       "spellEffect": "Causes earth tremors",
       "spellRange": "120 yards"
+    },
+    "Elasticity": {
+      "description": "<p>The user may stretch their body and all carried equipment into nearly any shape — flat, long, etc. — to a maximum length of 30 feet or a minimum thickness of 1 inch. Items carried cannot be used or dropped while stretched unless the user returns to normal form first. While stretched, the user cannot attack or cast spells, and takes half damage from blunt attacks. </p><p>he effect lasts for 1 round.</p>",
+      "name": "Elasticity",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">The flask or vial holds a swirling and mysterious concoction inside.</span></p>",
+      "unidentifiedName": "Mysterious Potion"
     },
     "Electrum Piece": {
       "name": "Electrum Piece"
@@ -2195,6 +2219,13 @@
     "Ethereal Form": {
       "description": "<p>The ability to become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
       "name": "Ethereal Form"
+    },
+    "Ethereality (Potion)": {
+      "description": "<p>The user can become ethereal once at any time during the effect and may then remain ethereal for up to 24 hours, returning to the Prime Plane at will. Once the user returns to the Prime Plane, the effect cannot be used again.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Ethereality (Potion)",
+      "spellDuration": "7-12 turns",
+      "spellEffect": "Become ethereal",
+      "spellRange": "Self"
     },
     "Exhausted": {
       "name": "Exhausted"
@@ -2347,6 +2378,13 @@
       "description": "<p>The reversed form of *Raise Dead*, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p>\n                      <p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p>\n                      <p>A Lawful cleric will typically only use *Finger of Death* in life-or-death situations.</p>",
       "name": "Finger of Death*",
       "spellEffect": "Kills one living creature or heals high-HD undead"
+    },
+    "Fire Resistance": {
+      "description": "<p>The user is immune to normal fire and gains a +2 bonus on all saving throws versus fire attacks. Magical and dragon fire deal reduced damage: subtract 1 point per damage die (minimum 1 point per die).</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Fire Resistance",
+      "spellDuration": "7-12 turns",
+      "spellEffect": "Immune or mitigates fire damage",
+      "spellRange": "Self"
     },
     "Fire Resistant": {
       "description": "<p>Those with this condition are immune to damage from normal fire and heat. They also receive a +2 bonus to all saving throws against magical fire (such as dragon breath or fireball). Additionally, any damage taken from such magical fire is reduced by 1 point per die of damage, with each die dealing at least 1 point of damage. For red dragon breath, the damage is reduced by 1 point per Hit Die of the dragon, but never below 1 point per Hit Die.</p>",
@@ -4095,7 +4133,7 @@
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Defense": {
-      "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: +1<br>4-5: +2<br>6-7: +3<br>8-9: +4<br>10: +5</p>",
+      "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: +1<br>4-5: +2<br>6-7: +3<br>8-9: +4<br>10: +5</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Defense",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
@@ -4103,6 +4141,36 @@
     "Potion of Diminution": {
       "description": "<p>The magical effect instantly reduces the user to 6 inches in height. The user can only attack creatures smaller than 1 foot for normal damage. They can slip through small cracks and have a 90% chance of not being seen when standing still. This transformation will cancel any previous growth effects without ill consequences.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Diminution",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Dragon Control": {
+      "description": "<p>There are several different types corresponding to each dragon type. The user may control up to three small dragons at once, but the dragons get saving throws. Large and huge dragons are not affected. The controlled dragons will obey commands except for casting spells. They will become hostile when the control ends.</p><p>Roll [[/r 1d20 #See dragon control results table]] to determine the dragon type affected:</p><p>1–5: White (or Crystal)<br>6–10: Black (or Onyx)<br>11–14: Green (or Jade)<br>15–17: Blue (or Sapphire)<br>18–19: Red (or Ruby)<br>20: Gold (or Amber)</p><p>The GM can roll 1d100; on 01–30 the effect targets the gemstone variant (e.g., crystal instead of white, onyx instead of black, etc.).</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "name": "Potion of Dragon Control",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of ESP": {
+      "description": "<p>The effect duplicates the ESP spell. The user can \"hear\" the thoughts of one creature within 60 feet by concentrating <strong>for one full round</strong> in a chosen direction. The ability penetrates up to 2 feet of rock; a thin coating of lead blocks it.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of ESP",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Elemental Form": {
+      "description": "<p>There are four types: Air, Earth, Fire, and Water (equal chances). The user may change into the form of an elemental of the corresponding type and back to normal as often as desired while the effect lasts. Each change of form takes 1 round. In elemental form, the user gains no special immunities, but may use the elemental’s special attacks (see Chapter 14). Note that protection from evil does not prevent the transformation. The user’s armor class and hit points do not change. </p><p>The duration is 1 turn only.</p>",
+      "name": "Potion of Elemental Form",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Ethereality": {
+      "description": "<p>The user can become ethereal once at any time during the effect and may then remain ethereal for up to 24 hours, returning to the Prime Plane at will. Once the user returns to the Prime Plane, the effect cannot be used again.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Ethereality",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Fire Resistance": {
+      "description": "<p>The user is immune to normal fire and gains a +2 bonus on all saving throws versus fire attacks. Magical and dragon fire deal reduced damage: subtract 1 point per damage die (minimum 1 point per die).</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Fire Resistance",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
@@ -4125,7 +4193,7 @@
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Heroism": {
-      "description": "<p>The magical effect selectively enhances specific types of characters. It has no effect on elves, clerics, magic-users, mystics, or thieves. However, fighters, dwarves, halflings, or normal individuals (or monsters) gain enhanced abilities based on their current level:</p><p>Normal man: Becomes a 4th-level fighter<br>Levels 1-3: Gains 3 levels or Hit Dice<br>Levels 4-7: Gains 2 levels or Hit Dice<br>Levels 8-10: Gains 1 level or Hit Die<br>Levels 11+: No effect</p><p>All wounds taken during the effect's duration—including energy drains—are subtracted from the temporary enhanced hit points or levels.</p>",
+      "description": "<p>The magical effect selectively enhances specific types of characters. It has no effect on elves, clerics, magic-users, mystics, or thieves. However, fighters, dwarves, halflings, or normal individuals (or monsters) gain enhanced abilities based on their current level:</p><p>Normal man: Becomes a 4th-level fighter<br>Levels 1-3: Gains 3 levels or Hit Dice<br>Levels 4-7: Gains 2 levels or Hit Dice<br>Levels 8-10: Gains 1 level or Hit Die<br>Levels 11+: No effect</p><p>All wounds taken during the effect's duration—including energy drains—are subtracted from the temporary enhanced hit points or levels.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
       "name": "Potion of Heroism",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
@@ -4698,6 +4766,10 @@
     "Slowed": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">Slowed creatures move and attack at half speed but are otherwise unaffected, including spellcasting and magical device usage. Each affected creature may make a saving throw vs. spells to avoid the effect.</span></p>",
       "name": "Slowed"
+    },
+    "Small": {
+      "description": "<p>The magical effect instantly reduces the user to 6 inches in height. The user can only attack creatures smaller than 1 foot for normal damage. They can slip through small cracks and have a 90% chance of not being seen when standing still. This transformation will cancel any previous growth effects without ill consequences.</p>",
+      "name": "Small"
     },
     "Smash": {
       "description": "<p>This maneuver allows a character to perform a powerful hand-to-hand attack. When using this option, the character automatically loses initiative and takes a -5 penalty to their attack roll (but still applies their Strength and magic bonuses).</p><p>If the attack hits, the character adds their Strength bonus, magic bonuses, and their full Strength score to the weapon's normal damage.</p><p>For example, a character with a Strength of 17 (+2 to attack and damage) using a sword +2 (+2 to attack, 1d8 + 2 damage) would execute the attack as follows: the attack roll is made with a net penalty of -1 (+2 +2 -5). If successful, they roll 1d8 + 21 (17 + 2 + 2) for damage!</p>",
