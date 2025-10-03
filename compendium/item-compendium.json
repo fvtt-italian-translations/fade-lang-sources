@@ -1535,6 +1535,12 @@
       "name": "Continual Light* (C)",
       "spellEffect": "Sphere of light 60' across"
     },
+    "Control  Plant": {
+      "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Control  Plant",
+      "spellDuration": "7-12 turns",
+      "spellEffect": "Control plants and plantlike creatures"
+    },
     "Control Animals": {
       "description": "<p>Can control up to [[/r 3d6 #Potion of Animal Control Hit Dice worth of animals]] Hit Dice worth of animals (normal or giant, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
       "name": "Control Animals",
@@ -1559,6 +1565,10 @@
     "Controlled": {
       "description": "<p>The creature’s will or actions are no longer its own. It is under the influence of another force — magical, mental, or otherwise unnatural — and acts in accordance with that power’s wishes until freed.</p>",
       "name": "Controlled"
+    },
+    "Controlling": {
+      "description": "<p>Able to exert active will to dominate nearby creatures or animate matter; specifics (range, targets, effects, duration) are set by the effect that applies the condition.</p><p></p>",
+      "name": "Controlling"
     },
     "Copper Piece": {
       "name": "Copper Piece"
@@ -1941,12 +1951,6 @@
       "description": "<p>Elves gain resistance to dragon breath weapons upon reaching 1,600,000 XP, aka level 14. At this point, they automatically take only half damage from any breath weapon, including dragon breath and similar attacks. If the breath weapon allows a saving throw, a successful save reduces the damage to one-quarter​.</p>",
       "name": "Dragon Breath Resistance (E)"
     },
-    "Dreamspeech": {
-      "description": "<p>If the user speaks to one sleeping or paralyzed creature within 30 feet, the creature hears and silently answers as if awake. The user receives the responses telepathically and understands the language used. The creature is not compelled to be truthful. Dead and undead creatures cannot be affected, but cursed sleeping victims can be. </p><p>The effect lasts for 1 round and applies to only one sleeping or paralyzed creature.</p>",
-      "name": "Dreamspeech",
-      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
-      "unidentifiedName": "Mysterious Potion"
-    },
     "Druid": {
       "classLevels": {
         "0": {
@@ -2076,12 +2080,6 @@
       "name": "Earthquake",
       "spellEffect": "Causes earth tremors",
       "spellRange": "120 yards"
-    },
-    "Elasticity": {
-      "description": "<p>The user may stretch their body and all carried equipment into nearly any shape — flat, long, etc. — to a maximum length of 30 feet or a minimum thickness of 1 inch. Items carried cannot be used or dropped while stretched unless the user returns to normal form first. While stretched, the user cannot attack or cast spells, and takes half damage from blunt attacks. </p><p>he effect lasts for 1 round.</p>",
-      "name": "Elasticity",
-      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">The flask or vial holds a swirling and mysterious concoction inside.</span></p>",
-      "unidentifiedName": "Mysterious Potion"
     },
     "Electrum Piece": {
       "name": "Electrum Piece"
@@ -3087,6 +3085,13 @@
       "unidentifiedDesc": "<p>A long coat made of wool.</p>",
       "unidentifiedName": "Long Coat, Wool"
     },
+    "Longevity": {
+      "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target immediately becomes 10 years younger. The effect is permanent, does not wear off, and cannot be dispelled. This potion will have no effect on any creature forced to drink it. In addition, age cannot be reduced below 15 (or below midadolescence for creatures other than humans), and the change cannot adversely affect any ability scores or other abilities.</span></p>",
+      "name": "Longevity",
+      "spellDuration": "Instant",
+      "spellEffect": "Become 10 years younger (min 15)",
+      "spellRange": "Self"
+    },
     "Lore": {
       "description": "<p>This spell grants the caster knowledge of one item, place, or person. The amount of time required depends on the subject being studied.</p><h4>Identifying an Item:</h4><ul><li>If the caster holds the item being studied, the spell takes [[/r 1d4 #Turns to complete Lore spell]] turns to complete.</li><li><p>The caster learns the following details:</p><ul><li>Name of the item.</li><li>Method of operation and command words (if any).</li><li>Approximate number of charges (within 5 of the correct number).</li></ul></li><li>If the item has multiple functions or command words, only one function will be revealed per casting.</li><li>The spell will not hint at additional functions beyond the one revealed.</li></ul><h4>Investigating a Place, Person, or Distant Item:</h4><ul><li>If the subject is not held by the caster, the spell takes [[/r 1d100 #Days to complete Lore spell]] days to complete.</li><li>Legendary topics may take the maximum amount of time.</li><li>Information may be revealed as riddles, poems, or vague descriptions.</li><li>For large places or powerful beings, the DM may reveal only general details.</li></ul>",
       "name": "Lore",
@@ -3097,6 +3102,13 @@
       "description": "<p>This spell causes a body of water to lower to half its normal depth in an area up to 10,000 square feet (width and length).</p><h4>Effects:</h4><ul><li>The spell affects the area for the entire duration (or until dispelled).</li><li>If cast on a flowing body of water (such as a river or ocean), the water remains lowered in that area, and surrounding water does not flow in until the spell ends.</li><li>Ships and boats in the affected area may become stuck.</li></ul><h4>At Spell Expiration:</h4><ul><li>The water rushes back in suddenly, causing a violent surge.</li><li>Affected ships suffer 1d12 + 20 (21-32) points of hull damage.</li><li>Creatures on deck must make a saving throw vs. spells or be swept overboard.</li></ul><h4>Uses:</h4><ul><li>Ford a river by temporarily reducing its depth.</li><li>Reveal hidden areas by lowering pools of water.</li><li>Strand ships by dropping the water level around them.</li></ul>",
       "name": "Lower Water",
       "spellEffect": "Cuts depths to half normal"
+    },
+    "Luck": {
+      "description": "<p>This makes the target lucky. The player of the character using this may choose the result of any one roll of his rather than rolling a random result (an attack or damage roll, saving throw, etc.). Other players' rolls cannot be affected, nor can the Dungeon Master's rolls be affected.</p><p>The effect lasts for 1 hour or until the luck is used.</p>",
+      "name": "Luck",
+      "spellDuration": "Instant",
+      "spellEffect": "Choose the result of one roll",
+      "spellRange": "Self"
     },
     "Lute": {
       "description": "<p>A plucked string instrument with a rounded body and a fretted neck, popular in both secular and sacred music.</p>",
@@ -3278,6 +3290,12 @@
       "name": "Maze",
       "spellDuration": "See description",
       "spellEffect": "Traps one creature in an astral maze"
+    },
+    "Merge": {
+      "description": "<p>The effect is quite unusual. The user can permit others to merge their forms with the user's, including all equipment carried, as if all were gaseous. A maximum of seven other creatures can <em>merge</em> with the user. The merging cannot be forced; the user can, at will, prevent anyone from merging. A creature merged with the user can leave the merger by merely stepping out. No creature merged with another (including the user) can attack or cast a spell, but may speak. Damage to the user does not affect those <em>merged</em>.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Merge",
+      "spellDuration": "Instant",
+      "spellEffect": "Merge into gaseous form"
     },
     "Metal to Wood": {
       "description": "<p>This spell permanently transforms metal into dead wood.</p><h4>Effects:</h4><ul><li>The caster may transmute up to 5 pounds (50 cn) of metal per caster level.</li><li>The transformation is permanent and cannot be reversed by dispel magic.</li><li>Magical metal items have a 90% chance to resist this effect.</li><li>Armor transformed into wood falls off the wearer.</li><li>Weapons turned into wood become nonmagical wooden clubs.</li></ul>",
@@ -4150,10 +4168,22 @@
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
+    "Potion of Dreamspeech": {
+      "description": "<p>If the user speaks to one sleeping or paralyzed creature within 30 feet, the creature hears and silently answers as if awake. The user receives the responses telepathically and understands the language used. The creature is not compelled to be truthful. Dead and undead creatures cannot be affected, but cursed sleeping victims can be. </p><p>The effect lasts for 1 round and applies to only one sleeping or paralyzed creature.</p>",
+      "name": "Potion of Dreamspeech",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
     "Potion of ESP": {
       "description": "<p>The effect duplicates the ESP spell. The user can \"hear\" the thoughts of one creature within 60 feet by concentrating <strong>for one full round</strong> in a chosen direction. The ability penetrates up to 2 feet of rock; a thin coating of lead blocks it.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
       "name": "Potion of ESP",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Elasticity": {
+      "description": "<p>The user may stretch their body and all carried equipment into nearly any shape — flat, long, etc. — to a maximum length of 30 feet or a minimum thickness of 1 inch. Items carried cannot be used or dropped while stretched unless the user returns to normal form first. While stretched, the user cannot attack or cast spells, and takes half damage from blunt attacks. </p><p>he effect lasts for 1 round.</p>",
+      "name": "Potion of Elasticity",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">The flask or vial holds a swirling and mysterious concoction inside.</span></p>",
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Elemental Form": {
@@ -4210,9 +4240,35 @@
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
+    "Potion of Longevity": {
+      "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target immediately becomes 10 years younger. The effect is permanent, does not wear off, and cannot be dispelled. This potion will have no effect on any creature forced to drink it. In addition, age cannot be reduced below 15 (or below midadolescence for creatures other than humans), and the change cannot adversely affect any ability scores or other abilities.</span></p>",
+      "name": "Potion of Longevity",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Luck": {
+      "description": "<p>This makes the target lucky. The player of the character using this may choose the result of any one roll of his rather than rolling a random result (an attack or damage roll, saving throw, etc.). Other players' rolls cannot be affected, nor can the Dungeon Master's rolls be affected.</p><p>The effect lasts for 1 hour or until the luck is used.</p>",
+      "gmNotes": "The potion only last for 6 turns and it is up to you, the DM, to keep track of this.",
+      "name": "Potion of Luck",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Merging": {
+      "description": "<p>The effect is quite unusual. The user can permit others to merge their forms with the user's, including all equipment carried, as if all were gaseous. A maximum of seven other creatures can <em>merge</em> with the user. The merging cannot be forced; the user can, at will, prevent anyone from merging. A creature merged with the user can leave the merger by merely stepping out. No creature merged with another (including the user) can attack or cast a spell, but may speak. Damage to the user does not affect those <em>merged</em>.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "gmNotes": "Due to the unusual nature of this potion's effect, it is up to the DM to keep track of the duration.",
+      "name": "Potion of Merging",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
     "Potion of Neutralize Poison": {
       "description": "<p>This potion contains a shimmering green liquid that neutralizes any poison affecting the drinker. It is effective against poisons that have been ingested, inhaled, or injected, but must be consumed within one hour of exposure to work. The drinker is immediately cured of all poison effects upon consumption.</p>",
       "name": "Potion of Neutralize Poison",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Plant Control": {
+      "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Plant Control",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
