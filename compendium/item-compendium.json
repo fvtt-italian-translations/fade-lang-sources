@@ -1124,6 +1124,13 @@
       "spellEffect": "Raises Dexterity to 18",
       "spellRange": "Self"
     },
+    "Boost Strength": {
+      "description": "<p>The user's Strength score becomes 18, and they immediately gain all applicable bonuses.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "name": "Boost Strength",
+      "spellDuration": "7-12 turns",
+      "spellEffect": "Raises Strength to 18",
+      "spellRange": "Self"
+    },
     "Bow, Long +1": {
       "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
       "name": "Bow, Long +1",
@@ -1216,15 +1223,15 @@
       "name": "Cause Disease*",
       "spellEffect": "One living creature within range"
     },
+    "Cause Fear (Wand)": {
+      "description": "<p>Creates a cone of fear, 60' long and 30' wide at the far end. All within the cone must make a saving throw vs. wands or run away from the user at three times their normal rate for 30 rounds.</p>",
+      "name": "Cause Fear (Wand)",
+      "spellEffect": "Flee for 30 rounds"
+    },
     "Cause Fear*": {
       "description": "<p>The reversed form of the spell, <em>cause fear</em>, will make any one creature flee for two turns. The victim may make a saving throw vs. spells to avoid the effect. This reversed spell has a range of 120'.</p>",
       "name": "Cause Fear*",
       "spellEffect": "Flee for two turns."
-    },
-    "Cause Fear* (Wand)": {
-      "description": "<p>Creates a cone of fear, 60' long and 30' wide at the far end. All within the cone must make a saving throw vs. wands or run away from the user at three times their normal rate for 30 rounds.</p>",
-      "name": "Cause Fear* (Wand)",
-      "spellEffect": "Flee for 30 rounds"
     },
     "Cause Light Wounds*": {
       "description": "<p>This spell cures one living (not undead or non-living) creature of [[/r 1d6+1 #Cure Light Wounds]] points of damage. The caster can cure themselves with this spell.</p><p>Alternately, the spell can be used to cure paralysis (except that caused by a <em>Hold Person</em> or <em>Hold Monster</em> spell), although if it does so then no damage will be cured at the same time.</p><p>The spell will not increase the target's maximum hit points.</p><p>When reversed, this spell, <em>cause light wounds</em>, causes  [[/r 1d6+1 #Cause Light Wounds]] points of damage to the target. No saving throw is allowed, but the caster must make a normal attack roll to inflict this damage.</p>",
@@ -1677,6 +1684,12 @@
       "name": "Cure Blindness",
       "spellEffect": "One living creature"
     },
+    "Cure Critical Wounds (Potion)": {
+      "description": "<p>This effect heals one living creature of 3d6 + 3 points of damage.</p>",
+      "name": "Cure Critical Wounds (Potion)",
+      "spellEffect": "Heals one living creature",
+      "spellRange": "Self"
+    },
     "Cure Critical Wounds*": {
       "description": "<p>This spell heals one living creature of 3d6 + 3 points of damage.</p>",
       "name": "Cure Critical Wounds*",
@@ -1836,11 +1849,20 @@
       "description": "<p>A Paladin can detect evil (as per the <em data-start=\"66\" data-end=\"80\">cleric spell</em>) once per round by concentrating. This ability has a 120' range but cannot be used in the same round as an attack.</p>",
       "name": "Detect Evil (PA)"
     },
-    "Detect Invisible": {
+    "Detect Invisible (Potion)": {
+      "description": "<p>This effect enables the user to see all invisible creatures and objects within range. The range is 60'.</p>",
+      "name": "Detect Invisible (Potion)",
+      "spellEffect": "The user only"
+    },
+    "Detect Invisible@AFAO8TtMFr00BlwX": {
       "description": "<p>This spell enables the spellcaster to see all invisible creatures and objects within range. The range is 10' for each level of the spellcaster. For example, a 3rd level spellcaster can use this spell to see invisible things within 30'.</p>",
       "name": "Detect Invisible",
       "spellEffect": "The spellcaster only",
       "spellRange": "10' per level of the spellcaster"
+    },
+    "Detect Invisible@SweWOsKvrGVPiDno": {
+      "description": "<p>This effect enables the user to see all invisible creatures and objects within range. The range is 60'.</p>",
+      "name": "Detect Invisible"
     },
     "Detect Magic": {
       "description": "<p>This spell allows the caster to see a glow surrounding all magical objects, creatures, and places within 60'. The caster can see the glow only if the objects are visible; hidden items will not show their glow. No saving throw is allowed.</p>\n                <p><strong>Example:</strong> After casting the spell, a magic-user can see a glowing door (locked by magic) and a glowing potion. A magical wand inside a treasure chest would not be visible as the chest hides its glow.</p>",
@@ -2685,13 +2707,20 @@
       "name": "Harp",
       "unidentifiedName": "Harp"
     },
+    "Haste (Potion)": {
+      "description": "<p>The effect gives the user the ability to move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "name": "Haste (Potion)",
+      "spellDuration": "7-12 turns",
+      "spellEffect": "Move and attack at double speed",
+      "spellRange": "Self"
+    },
     "Haste*": {
       "description": "<p>This spell increases the movement and attack speed of up to 24 creatures within a 60' diameter area, allowing them to act at double speed for 3 turns.</p>\n                      <p><strong>Effects:</strong> Hasted creatures move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p>\n                      <p><strong>Reverse Spell:</strong> The reverse, *Slow*, either cancels *Haste* or reduces the target’s movement and attack speed by half. Each affected creature may make a saving throw vs. spells to avoid *Slow*.</p>",
       "name": "Haste*",
       "spellEffect": "Up to 24 creatures move double speed"
     },
     "Hasted": {
-      "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">A hasted creature moves at twice its normal speed and makes double the normal number of attacks in melee or with missile weapons, while magic use remains unaffected, meaning spellcasters can still only cast one spell per round and magical devices are not impacted.</span></p>",
+      "description": "<p>A hasted creature moves at twice its normal speed and makes double the normal number of attacks in melee or with missile weapons, while magic use remains unaffected, meaning spellcasters can still only cast one spell per round and magical devices are not impacted.</p>",
       "name": "Hasted"
     },
     "Heal": {
@@ -4297,6 +4326,36 @@
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
+    "Potion of Sight": {
+      "description": "<p>The user can detect invisible things (as the magic‑user spell) for 1 turn. This also negates blindness for that duration.</p>",
+      "name": "Potion of Sight",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Speech": {
+      "description": "<p>The user can understand any language heard within 60' and can respond in the same tongues. A language must be heard to be used unless already known.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Speech",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Speed": {
+      "description": "<p>The effect gives the user the ability to move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Speed",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Strength": {
+      "description": "<p>The user's Strength score becomes 18, and they immediately gain all applicable bonuses.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Strength",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Super-Healing": {
+      "description": "<p>This effect heals one living creature of 3d6 + 3 points of damage.</p>",
+      "name": "Potion of Super-Healing",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
     "Pouch, Belt": {
       "description": "<p>A small pouch made of leather or cloth, typically worn on a belt. It can hold up to 50 coins and is used to carry small valuables or other small items.</p>",
       "name": "Pouch, Belt",
@@ -5020,6 +5079,10 @@
     "Storytelling": {
       "description": "<p>The Storytelling skill allows a character to weave captivating tales that can entertain, inspire, or impart wisdom. This skill is used to recount legends, share news, or persuade others through narrative. A successful Storytelling check can captivate an audience, spread information effectively, or even sway public opinion through the power of a well-told story.</p>",
       "name": "Storytelling"
+    },
+    "Strength Boost": {
+      "description": "<p>Raise the Strength score to 18.</p>",
+      "name": "Strength Boost"
     },
     "Strength Drain": {
       "name": "Strength Drain"
