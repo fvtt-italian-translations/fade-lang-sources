@@ -26285,6 +26285,156 @@
                 }
             },
             "monsterType": "Mostro (Raro)"
+        },
+        "Elf (2 HD)": {
+            "items": {
+                "3ExrZ5UmN1sEOZMg": {
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "EgQeqRpUgpa2gGAE": {
+                    "name": "Cercare Porte Segrete",
+                    "description": "<p>Per individuare una porta segreta, un personaggio deve specificare l'area esatta da ispezionare. Il processo richiede in genere un turno (10 minuti) per ogni sezione di 3 m di muro, pavimento o soffitto. Gli elfi, grazie alla loro vista acuta, ricevono un bonus di +1 al loro tiro. <br>Sia il Dungeon Master che il tiro deve essere alla cieca, indipendentemente dalla presenza o meno di una porta segreta, per mantenere l'incertezza del giocatore. Una volta trovata, la posizione della porta segreta può essere annotata, consentendo la scoperta futura senza un tiro.</p>"
+                },
+                "G6NDxhJH5fd32zRX": {
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo",
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
+                },
+                "TppmQ4hnRPjQiCO5": {
+                    "name": "Arco Corto",
+                    "unidentifiedDesc": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>",
+                    "unidentifiedName": "Arco Corto",
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>"
+                },
+                "ar1mWVzSp6GdE0ad": {
+                    "name": "Armatura Elfica",
+                    "description": "Gli elfi hanno una classe armatura naturale 5.",
+                    "unidentifiedDesc": "Gli elfi hanno una classe armatura naturale 5."
+                },
+                "gyGWKM9mur3eqbTy": {
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                },
+                "uqmGGpdhi0ydtN5f": {
+                    "name": "Frecce",
+                    "description": "<p>Frecce con penne in una faretra. Possono essere usate con un arco lungo o un arco corto.</p>"
+                },
+                "xrwRlVG12aIGzJY9": {
+                    "name": "Veleno o Raggio della Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; un successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "shortName": "Morte"
+                },
+                "zwSmPxFBroOoqBHq": {
+                    "name": "Spada",
+                    "unidentifiedName": "Spada",
+                    "description": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
+                    "unidentifiedDesc": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>"
+                },
+                "182F4DzYozXPSnTY": {
+                    "description": "<p>Gli elfi hanno l'infravisione, che consente loro di vedere nell'oscurità fino a 18 m. Possono percepire creature e oggetti in base alla differenza di temperatura tra loro e l'ambiente circostante.</p>",
+                    "name": "Infravisione (E)"
+                },
+                "3NFATWULRaya8kWv": {
+                    "description": "<p>Un personaggio a piedi armato di lancia, picca, spada, scudo o lancia può impostare l'arma contro una carica. Una carica avviene quando un mostro si precipita verso il personaggio, coprendo almeno 20 m prima di attaccare. Questa manovra può essere usata anche contro l'attacco con la lancia di un altro personaggio.</p><p>Per \"impostare contro la carica\", il personaggio appoggia l'arma contro il terreno, puntandola verso il nemico in avvicinamento. I bonus di Forza e magia si applicano sia ai tiri per colpire che a quelli per i danni. Se l'attacco ha successo, il personaggio infligge il doppio dei danni, con gli aggiustamenti applicati dopo il danno doppio.</p><p>Il personaggio deve dichiarare la manovra imposta contro carica prima di entrare in combattimento corpo a corpo con l'avversario che carica. Ad esempio, se il gruppo del personaggio vince l'iniziativa e si aspetta una carica, può dichiarare questa manovra. Allo stesso modo, se i mostri in carica vengono individuati diversi round prima, il personaggio può impostare la propria arma contro la carica in anticipo.</p><p>In genere, l'attacco viene effettuato durante la fase di movimento del mostro, non appena entra nel raggio d'azione dell'arma. Se l'attacco riesce e uccide il mostro, impedisce alla creatura di attaccare. Se l'attacco non uccide il mostro, può quindi attaccare durante la sua fase di mischia nella sequenza di combattimento.</p>",
+                    "name": "Lancia vs. Carica"
+                },
+                "edlH6xA8qrYpnmeO": {
+                    "description": "<p>Quando è a cavallo e usa una lancia, un personaggio può eseguire un potente attacco di carica. Se l'attacco ha successo, il personaggio ottiene il doppio del suo modificatore di Forza al tiro per i danni. Questa abilità è più efficace quando si carica contro gli avversari.</p>",
+                    "name": "Attacco con Lancia"
+                },
+                "vbtp5IZhkIRmsKdh": {
+                    "name": "Pietrificazione o Paralisi",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
+                    "shortName": "Pietrifica"
+                },
+                "yH5ZotWuorzTv0nS": {
+                    "name": "Incantesimi Arcani (E)",
+                    "description": "<p>Gli Elfi sfruttano l'energia arcana attraverso un'affinità naturale e una meticolosa memorizzazione degli incantesimi scritti nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, gli Elfi devono preparare gli incantesimi in anticipo studiando i loro libri ogni giorno. Una volta lanciato un incantesimo, questo viene cancellato dalla memoria finché non viene rimemorizzato.</p><p>Gli Elfi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che avanzano di livello. I loro incantesimi variano da utilità minori come <em>Lettura del Magico</em> ad attacchi devastanti come <em>Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti.</p><p>A causa della loro dipendenza dai libri degli incantesimi, gli Elfi devono proteggere ed espandere le loro biblioteche, cercando tomi perduti, pergamene e conoscenze antiche per migliorare il loro repertorio magico. A differenza dei Maghi, tuttavia, gli Elfi si addestrano anche nel combattimento, permettendo loro di maneggiare armi e indossare armature senza interrompere il loro lancio di incantesimi.</p>"
+                },
+                "z0TelFBQewTvxxF9": {
+                    "description": "<p>Gli elfi sono immuni agli attacchi paralizzanti dei ghoul. Sono, tuttavia, ancora colpiti da altre forme di paralisi.</p>",
+                    "name": "Immunità alla paralisi dei Ghoul (E)"
+                }
+            },
+            "biography": "<p>Gli Elfi sono umanoidi dei boschi, altamente abili nel combattimento e nella magia. Usano le armi in modo efficace e possono lanciare un incantesimo di 1º Livello. Gli elfi sono spesso incontrati in gruppi e, quando appare un gruppo di 15 o più, uno di loro sarà un leader. Questo leader può possedere oggetti magici.</p>\n        <strong>Danno dell'Arma:</strong> Varia in base all'arma.<br>\n        <strong>Speciale:</strong> Ogni elfo ha accesso a un incantesimo di 1º Livello.<br>\n        <strong>Terreno:</strong> Foreste, Boschi.<br>\n        <strong>Bardatura:</strong> Nessuna"
+        },
+        "Elf (3 HD)": {
+            "items": {
+                "182F4DzYozXPSnTY": {
+                    "description": "<p>Gli elfi hanno l'infravisione, che consente loro di vedere nell'oscurità fino a 18 m. Possono percepire creature e oggetti in base alla differenza di temperatura tra loro e l'ambiente circostante.</p>",
+                    "name": "Infravisione (E)"
+                },
+                "3ExrZ5UmN1sEOZMg": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                },
+                "3NFATWULRaya8kWv": {
+                    "description": "<p>Un personaggio a piedi armato di lancia, picca, spada, scudo o lancia può impostare l'arma contro una carica. Una carica avviene quando un mostro si precipita verso il personaggio, coprendo almeno 20 m prima di attaccare. Questa manovra può essere usata anche contro l'attacco con la lancia di un altro personaggio.</p><p>Per \"impostare contro la carica\", il personaggio appoggia l'arma contro il terreno, puntandola verso il nemico in avvicinamento. I bonus di Forza e magia si applicano sia ai tiri per colpire che a quelli per i danni. Se l'attacco ha successo, il personaggio infligge il doppio dei danni, con gli aggiustamenti applicati dopo il danno doppio.</p><p>Il personaggio deve dichiarare la manovra imposta contro carica prima di entrare in combattimento corpo a corpo con l'avversario che carica. Ad esempio, se il gruppo del personaggio vince l'iniziativa e si aspetta una carica, può dichiarare questa manovra. Allo stesso modo, se i mostri in carica vengono individuati diversi round prima, il personaggio può impostare la propria arma contro la carica in anticipo.</p><p>In genere, l'attacco viene effettuato durante la fase di movimento del mostro, non appena entra nel raggio d'azione dell'arma. Se l'attacco riesce e uccide il mostro, impedisce alla creatura di attaccare. Se l'attacco non uccide il mostro, può quindi attaccare durante la sua fase di mischia nella sequenza di combattimento.</p>",
+                    "name": "Lancia vs. Carica"
+                },
+                "yH5ZotWuorzTv0nS": {
+                    "name": "Incantesimi Arcani (E)",
+                    "description": "<p>Gli Elfi sfruttano l'energia arcana attraverso un'affinità naturale e una meticolosa memorizzazione degli incantesimi scritti nei loro libri degli incantesimi. A differenza dei Chierici, che ricevono magia divina, gli Elfi devono preparare gli incantesimi in anticipo studiando i loro libri ogni giorno. Una volta lanciato un incantesimo, questo viene cancellato dalla memoria finché non viene rimemorizzato.</p><p>Gli Elfi hanno una selezione limitata di incantesimi che possono preparare al giorno, che aumenta man mano che avanzano di livello. I loro incantesimi variano da utilità minori come <em>Lettura del Magico</em> ad attacchi devastanti come <em>Palla di Fuoco</em> e incantesimi che alterano la realtà a livelli più alti.</p><p>A causa della loro dipendenza dai libri degli incantesimi, gli Elfi devono proteggere ed espandere le loro biblioteche, cercando tomi perduti, pergamene e conoscenze antiche per migliorare il loro repertorio magico. A differenza dei Maghi, tuttavia, gli Elfi si addestrano anche nel combattimento, permettendo loro di maneggiare armi e indossare armature senza interrompere il loro lancio di incantesimi.</p>"
+                },
+                "z0TelFBQewTvxxF9": {
+                    "name": "Immunità alla paralisi dei Ghoul (E)",
+                    "description": "<p>Gli elfi sono immuni agli attacchi paralizzanti dei ghoul. Sono, tuttavia, ancora colpiti da altre forme di paralisi.</p>"
+                },
+                "EgQeqRpUgpa2gGAE": {
+                    "name": "Cercare Porte Segrete",
+                    "description": "<p>Per individuare una porta segreta, un personaggio deve specificare l'area esatta da ispezionare. Il processo richiede in genere un turno (10 minuti) per ogni sezione di 3 m di muro, pavimento o soffitto. Gli elfi, grazie alla loro vista acuta, ricevono un bonus di +1 al loro tiro. <br>Sia il Dungeon Master che il tiro deve essere alla cieca, indipendentemente dalla presenza o meno di una porta segreta, per mantenere l'incertezza del giocatore. Una volta trovata, la posizione della porta segreta può essere annotata, consentendo la scoperta futura senza un tiro.</p>"
+                },
+                "G6NDxhJH5fd32zRX": {
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo"
+                },
+                "TppmQ4hnRPjQiCO5": {
+                    "description": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>",
+                    "name": "Arco Corto",
+                    "unidentifiedDesc": "<p>Un arco corto è un arco lungo 90-120 cm, realizzato da un unico pezzo di legno o da un composito di legni diversi. Un arco corto richiede entrambe le mani per essere usato. Gli archi richiedono l'uso di frecce come munizioni</p>",
+                    "unidentifiedName": "Arco Corto"
+                },
+                "ar1mWVzSp6GdE0ad": {
+                    "name": "Armatura Elfica",
+                    "unidentifiedDesc": "Gli elfi hanno una classe armatura naturale 5.",
+                    "description": "Gli elfi hanno una classe armatura naturale 5."
+                },
+                "uqmGGpdhi0ydtN5f": {
+                    "name": "Frecce",
+                    "description": "<p>Frecce con penne in una faretra. Possono essere usate con un arco lungo o un arco corto.</p>"
+                },
+                "edlH6xA8qrYpnmeO": {
+                    "description": "<p>Quando è a cavallo e usa una lancia, un personaggio può eseguire un potente attacco di carica. Se l'attacco ha successo, il personaggio ottiene il doppio del suo modificatore di Forza al tiro per i danni. Questa abilità è più efficace quando si carica contro gli avversari.</p>",
+                    "name": "Attacco con Lancia"
+                },
+                "gyGWKM9mur3eqbTy": {
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta"
+                },
+                "vbtp5IZhkIRmsKdh": {
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica"
+                },
+                "xrwRlVG12aIGzJY9": {
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; un successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
+                },
+                "zwSmPxFBroOoqBHq": {
+                    "description": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
+                    "name": "Spada",
+                    "unidentifiedDesc": "<p>Una spada è una spada a una mano con una lama dritta o curva dd 60 a 90 cm di lunghezza. Questa categoria di spada comprende una varietà di stili di spade diversi, che vanno dalle scimitarre ai spadoni e persino alle spade corte.</p>",
+                    "unidentifiedName": "Spada"
+                }
+            },
+            "biography": "<p>Gli Elfi sono umanoidi dei boschi, altamente abili nel combattimento e nella magia. Usano le armi in modo efficace e possono lanciare un incantesimo di 1º Livello. Gli elfi sono spesso incontrati in gruppi e, quando appare un gruppo di 15 o più, uno di loro sarà un leader. Questo leader può possedere oggetti magici.</p>\n        <strong>Danno dell'Arma:</strong> Varia in base all'arma.<br>\n        <strong>Speciale:</strong> Ogni elfo ha accesso a un incantesimo di 1º Livello.<br>\n        <strong>Terreno:</strong> Foreste, Boschi.<br>\n        <strong>Bardatura:</strong> Nessuna"
         }
     },
     "label": "Bestiario",
