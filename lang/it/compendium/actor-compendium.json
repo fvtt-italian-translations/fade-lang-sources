@@ -26279,6 +26279,121 @@
                 }
             },
             "biography": "<p>Gli Elfi sono umanoidi dei boschi, altamente abili nel combattimento e nella magia. Usano le armi in modo efficace e possono lanciare un incantesimo di 1º Livello. Gli elfi sono spesso incontrati in gruppi e, quando appare un gruppo di 15 o più, uno di loro sarà un leader. Questo leader può possedere oggetti magici.</p>\n        <strong>Danno dell'Arma:</strong> Varia in base all'arma.<br>\n        <strong>Speciale:</strong> Ogni elfo ha accesso a un incantesimo di 1º Livello.<br>\n        <strong>Terreno:</strong> Foreste, Boschi.<br>\n        <strong>Bardatura:</strong> Nessuna"
+        },
+        "Beholder": {
+            "items": {
+                "ShkqG00NRHacNUFW": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                },
+                "i6Mr4WGlfqRZXvGb": {
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte",
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>"
+                },
+                "pcdBLWKxB0T2tZST": {
+                    "gmNotes": "Capacità di volo dei pipistrelli giganti.",
+                    "name": "Volo"
+                },
+                "9RffGkGpxWKeublU": {
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica"
+                },
+                "AnRVPVf6BAaZ5gQi": {
+                    "name": "Morso"
+                },
+                "N89be1UFUb4ZnXUZ": {
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta"
+                },
+                "thM5OAzfcK0eMeme": {
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo"
+                }
+            },
+            "monsterType": "Mostro (Raro)"
+        },
+        "Beholder, Undead*": {
+            "items": {
+                "hf7vRVHm4WolGhgw": {
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica",
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>"
+                },
+                "pcdBLWKxB0T2tZST": {
+                    "gmNotes": "Capacità di volo dei pipistrelli giganti.",
+                    "name": "Volo"
+                },
+                "qQMGzMJiRDQtx6vf": {
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte"
+                },
+                "0xpd1B5WNYT6PDfT": {
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo"
+                },
+                "9JnugWQzcltmXeQi": {
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta"
+                },
+                "DaXDapgwcQIkCWcK": {
+                    "name": "Forma Gassosa"
+                },
+                "YCluLBsHJuhdiZWA": {
+                    "name": "Morso"
+                },
+                "bxcFq5FE0FlDBg6y": {
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>",
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "cH8RaSKIOLfzOfGm": {
+                    "name": "Rigenerazione"
+                }
+            }
+        },
+        "Displacer Beast": {
+            "items": {
+                "JL9BPmV8UROlJ4CK": {
+                    "name": "Tentacoli"
+                },
+                "cLIAMzSveLWDPw4E": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio",
+                    "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
+                },
+                "dmMYZPcIJrhqSbgB": {
+                    "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
+                    "name": "Veleno o Raggio della Morte",
+                    "shortName": "Morte"
+                },
+                "kFZq77NpEFnfXbV4": {
+                    "name": "Incantesimi, Verga o Bastone Magico",
+                    "shortName": "Incantesimo",
+                    "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>"
+                },
+                "LcBO6tPGLyuFSvev": {
+                    "description": "<p>Il tiro salvezza contro \"Pietrificazione o Paralisi\" protegge un personaggio da attacchi o effetti che potrebbero paralizzarlo o trasformarlo in pietra. Se il tiro salvezza fallisce, il personaggio diventa immobilizzato o pietrificato, a seconda dell'effetto. La paralisi lascia il personaggio consapevole ma incapace di agire, mentre la pietrificazione trasforma il personaggio con il suo equipaggiamento in una statua di pietra. La durata o la permanenza di questi effetti è specificata dalla fonte, e i tiri salvezza riusciti li evitano completamente.</p>",
+                    "name": "Pietrificazione o Paralisi",
+                    "shortName": "Pietrifica"
+                },
+                "OqCdep31Q9oqgCIJ": {
+                    "name": "Armatura Naturale"
+                },
+                "ti6vINtaeHpVjGBT": {
+                    "name": "Bacchetta Magica",
+                    "shortName": "Bacchetta",
+                    "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>"
+                }
+            },
+            "monsterType": "Mostro (Raro)"
         }
     },
     "label": "Bestiario",
