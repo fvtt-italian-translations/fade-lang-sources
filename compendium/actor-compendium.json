@@ -1587,6 +1587,120 @@
       "monsterType": "Lowlife",
       "name": "Beetle, Giant Tiger"
     },
+    "Beholder": {
+      "biography": "<p>A beholder, also known as a “sphere of many eyes,” resembles a large floating ball about 4 feet in diameter, covered with tough, armor-plated skin. It has ten small eyes on stalks atop its body, each with its own unique magical power, and a large central eye positioned on the front, with a toothy mouth below.</p><p>The beholder moves by means of a slow, natural flight that cannot be dispelled. It is highly intelligent, cruel, and greedy, and speaks many languages. This creature is typically found alone but may be accompanied by 1d6 young (each with 1/10 normal Hit Dice and eye effects, dealing 1d4 points of bite damage) with a 5% chance.</p><p>The central eye of an beholder emits an anti-magic ray, which negates all magical effects within 60 feet in front of it. Magical weapons in this area are treated as non-magical, and spells cast within the area of effect are instantly disrupted. Spells cast from outside the area are ruined when they enter its range. The beholder will turn to face any character who begins spellcasting, disrupting the spell. Once the anti-magic ray is no longer directed at an object or area, magical items and effects return to their normal function.</p><p>The anti-magic ray cannot be directed above or below the creature, only straight ahead. As the ray can negate any magic, even that of the smaller eyes, the beholder cannot use its smaller eye powers on targets within this area.</p><p>When attacking an beholder, players must declare whether they are aiming at the body, the large central eye, or an eye stalk, each with distinct armor class and hit points:</p><ul><li>The body has AC 0 and 50 hit points.</li><li>The central eye has AC 2 and 20 hit points.</li><li>An eye stalk has AC 7 and can withstand 12 hit points of damage. Damage to eye stalks does not contribute to killing the creature.</li></ul><p><strong>Small Eyes and Eyestalks:</strong> If an attack hits an eye stalk, the GM should randomly determine which stalk is damaged. A severed eye stalk is rendered nonfunctional, but partial damage does not impede its operation. Lost eyes regenerate in 2d4 days, and partially damaged stalks heal at a rate of 1 hit point per day.</p><p>The beholder can only direct four small eyes in one direction at a time and cannot target directly beneath its body. Each eye can fire a ray with a different spell-like effect once per round. The spell effects are detailed below, with reversed versions indicated by an asterisk.</p><p><strong>Eye Powers:</strong></p><ol><li><strong>Charm Person</strong> (range 120')</li><li><strong>Charm Monster</strong> (range 120')</li><li><strong>Sleep</strong> (range 240')</li><li><strong>Telekinesis</strong> (range 120', up to 5,000 cn weight)</li><li><strong>Flesh to Stone</strong>* (range 120')</li><li><strong>Disintegrate</strong> (range 60')</li><li><strong>Cause Fear</strong>* (range 120')</li><li><strong>Slow</strong>* (range 240')</li><li><strong>Cause Serious Wounds</strong>* (range 60')</li><li><strong>Death Spell</strong> (range 240')</li></ol><p><strong>Terrain:</strong> Caverns, Ruins.</p>",
+      "items": {
+        "9RffGkGpxWKeublU": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "A1QA0e17KkEGOXKs": {
+          "description": "The large central eye projects an anti-magic ray that nullifies all magic within 60' in front of it.",
+          "name": "Anti-Magic Ray"
+        },
+        "AnRVPVf6BAaZ5gQi": {
+          "description": "A powerful bite attack from the Orb Guardian.",
+          "name": "Bite"
+        },
+        "N89be1UFUb4ZnXUZ": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "ShkqG00NRHacNUFW": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "i6Mr4WGlfqRZXvGb": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "pcdBLWKxB0T2tZST": {
+          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+          "gmNotes": "Flying ability of giant bats.",
+          "name": "Flight"
+        },
+        "thM5OAzfcK0eMeme": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "z0aXIBteCOH4Pbdq": {
+          "description": "The Orb Guardian's tough, armor-plated skin gives it an Armor Class of 0.",
+          "name": "Tough Armor"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Beholder"
+    },
+    "Beholder, Undead*": {
+      "biography": "<p>An undead beholder is similar in appearance to its living counterpart but is actually a construct created for a specific malevolent purpose. These creatures are never naturally undead; instead, they are crafted for dark deeds. The undead beholder resembles a large floating sphere, about four feet in diameter, covered with tough, armor-plated skin. It has ten small eyes on stalks, each capable of a different magical effect, and a large central eye on the front of its body with a toothy mouth below. The creature moves using natural (non-magical) flight, and it is highly intelligent, capable of speaking many languages. A cleric of 25th level or higher can recognize it as an undead being upon sight.</p><p>Undead beholders are immune to normal, silver, and even +1 magical weapons; only a magical weapon of +2 or greater can harm them. They are unaffected by charm, hold, and sleep spells, as well as illusions, death rays, and poison. Their bodies regenerate 3 hit points per round once damaged. If reduced to 0 hit points, they shift into gaseous form and cannot regenerate until resting for 1 hour in complete darkness, after which their regeneration resumes. They often maintain areas of continual darkness around their lairs.</p><p>These creatures can assume gaseous form at will. In this state, they lose access to their special abilities but cannot be harmed except by magic that affects air. Their bite inflicts 2d10 points of damage and causes a two-level energy drain, similar to that of a vampire.</p><p>The central eye of an undead beholder projects a ray of reflection, bouncing any spell cast at it back to the caster. Similarly, any attempt to turn undead from this direction reflects back onto the cleric, who must succeed in a saving throw vs. spells or flee in terror for 2d6 rounds. The creature will typically turn to face any spellcasting character to utilize this defense. This reflective ray only works in the front arc and cannot be directed above or behind the creature.</p><p>When attacking, the player must specify whether they are targeting the body, the large eye, or an eye stalk. Each part has different armor classes and hit points:</p><ul><li>The body has AC -4 and 90 hit points.</li><li>The central eye has AC -2 and 30 hit points.</li><li>Each eye stalk has AC 3 and can withstand 20 hit points of damage. Damage to the eye stalks does not count toward destroying the creature.</li></ul><p>Small eyes and eyestalks: Each small eye can be used once per round, and only three eyes can focus in one direction (forward, backward, etc.). If the target is above the creature, all ten eyes can be used. The Undead beholder often uses only two eyes per round unless it perceives a serious threat. If an eye is destroyed, it can regrow in 1d4 + 1 hours, although this regeneration is slower than that of the body.</p><p><strong>Eye Powers:</strong></p><ol><li><strong>Animate Dead</strong> (range 60')</li><li><strong>Charm</strong> (as vampire, 120' range, with a -2 penalty to the saving throw)</li><li><strong>Continual Darkness</strong> (range 120')</li><li><strong>Death Spell</strong> (range 120')</li><li><strong>Energy Drain</strong> (1 level, as wight)</li><li><strong>Energy Drain</strong> (2 levels, as spectre)</li><li><strong>Paralysis</strong> (as ghoul, range 60'; elves are immune to this ray)</li><li><strong>Animate Object</strong> (range 60')</li><li><strong>Dispel Magic</strong> (26th level)</li><li><strong>Telekinesis</strong> (4,000 cn)</li></ol><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+      "items": {
+        "0xpd1B5WNYT6PDfT": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "8nJv1USwzF9iwCmK": {
+          "description": "This eye ray drains two levels of energy from a creature within 60'.",
+          "name": "Energy Drain (2 Levels)"
+        },
+        "9JnugWQzcltmXeQi": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "DaXDapgwcQIkCWcK": {
+          "description": "The creature can assume gaseous form at will, becoming immune to physical attacks but unable to use its special abilities.",
+          "name": "Gaseous Form"
+        },
+        "YCluLBsHJuhdiZWA": {
+          "description": "A powerful bite attack from the Undead Orb Guardian that inflicts 2d10 points of damage and drains two levels, as a vampire.",
+          "name": "Bite"
+        },
+        "bxcFq5FE0FlDBg6y": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "cH8RaSKIOLfzOfGm": {
+          "description": "The creature regenerates 3 hit points per round. If reduced to 0 hit points, it enters gaseous form and must rest for 1 hour in total darkness to begin regenerating again.",
+          "name": "Regeneration"
+        },
+        "dSgttu5IwEVPIEn0": {
+          "description": "The Undead Orb Guardian's armor-plated skin gives it an Armor Class of -4.",
+          "name": "Unholy Armor"
+        },
+        "hf7vRVHm4WolGhgw": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "pcdBLWKxB0T2tZST": {
+          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+          "gmNotes": "Flying ability of giant bats.",
+          "name": "Flight"
+        },
+        "qQMGzMJiRDQtx6vf": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "tsK2vOvAT9WNuZnR": {
+          "description": "This eye ray drains one level of energy from a creature within 60'.",
+          "name": "Energy Drain (1 Level)"
+        },
+        "xzSxEBsgLUcrZfGw": {
+          "description": "The large central eye projects a ray of reflection that reflects spells and turn attempts back at the caster.",
+          "name": "Reflection Ray"
+        }
+      },
+      "monsterType": "Undead Construct, Enchanted",
+      "name": "Beholder, Undead*"
+    },
     "Berserker": {
       "biography": "<p>Berserkers are fierce fighters who enter a state of mad rage during battle. Hailing from barbarian cultures, typically northern seafaring communities, they are known for their ferocity in combat. When in battle, berserkers add +2 to their attack rolls against humans or humanoid creatures like kobolds, goblins, and orcs.</p>\n      <p>Berserkers fight to the death and may even turn on their comrades in their rage. They never retreat, surrender, or take prisoners. In a village of their culture, 10% of all fighters will be berserkers, and some societies may have entire warrior classes consisting of berserkers.</p>\n      <p><strong>Terrain:</strong> Any.</p>",
       "items": {
@@ -3991,6 +4105,54 @@
       },
       "monsterType": "Monster",
       "name": "Dinosaur, Small Herbivore (1HD)"
+    },
+    "Displacer Beast": {
+      "biography": "<p>The displacer beast resembles a large black feline with six legs and a pair of 6-foot long tentacles protruding from its shoulders. It uses these tentacles, which are edged with horn-like tips, to attack. The displacer beast's skin has a peculiar ability to bend light, causing it to appear several feet away from its actual position. This grants all attackers a -2 penalty to their attack rolls, while the Panther receives a +2 bonus to all saving throws.</p><p>If severely wounded (6 hit points or less), the displacer beast will resort to a ferocious bite attack, gaining a +2 bonus to hit and dealing 1d6 points of damage.</p><p>Displacer beasts are carnivorous, preying primarily on smaller herd animals in forested and jungle regions. They may occasionally wander into dungeons due to curiosity or the lure of food. They generally avoid conflict with adventurers unless driven by extreme hunger.</p><p>These creatures harbor an intense animosity towards Blink Hounds, attacking them and anyone in their vicinity on sight. It is believed that the two species originate from a distant plane and are embroiled in an endless interdimensional war.</p><p><strong>Terrain:</strong> Hill, Jungle, Woods.</p>",
+      "items": {
+        "JL9BPmV8UROlJ4CK": {
+          "description": "Sharp, horn-edged tentacle attack.",
+          "name": "Tentacle"
+        },
+        "LcBO6tPGLyuFSvev": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "OqCdep31Q9oqgCIJ": {
+          "description": "Tough skin providing natural defense.",
+          "name": "Natural Armor"
+        },
+        "QeHMdZTgguzTn87p": {
+          "description": "<p>Appears 3 feet from its actual position. Attackers suffer a -2 penalty on attack rolls. The creature gains a +2 bonus to all saving throws.</p>",
+          "name": "Displacement"
+        },
+        "cLIAMzSveLWDPw4E": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "dmMYZPcIJrhqSbgB": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "k9ARv6rtYwFNUEle": {
+          "description": "<p>If the creature is severely damaged (6 bit points or less remaining), it can use a ferocious bite attack (+ 2 bonus to attack roll).</p>",
+          "name": "Ferocious Bite*"
+        },
+        "kFZq77NpEFnfXbV4": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "ti6vINtaeHpVjGBT": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Displacer Beast"
     },
     "Djinni, Greater; Pasha*": {
       "biography": "<p>Pashas are the rulers of the djinn on the elemental plane of Air. They appear as very large djinn and are <strong>immune to non-magical weapons or weapons with less than +2 enchantment</strong>. Pashas regenerate 3 hit points per round and can perform all the abilities of a normal djinni as often as desired, up to once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for 1 full round.</p><p>Pashas have special powers usable once per day, including granting another's wish, casting <em>cloudkill</em>, <em>water to gas</em>, and <em>weather control</em>. When in their whirlwind form, which they can assume or leave in a single round, they stand 120 feet tall and 40 feet in diameter at the top. This form deals 3d12 damage to all in its path and slays any creature with fewer than 5 Hit Dice unless the victim makes a saving throw vs. death ray.</p><p>Pashas cannot be summoned by spells and are influenced by very few magical items. They appear on the Prime Plane only when a mistreated djinni cries out for aid.</p><p><strong>Terrain:</strong> Plane of Air, Desert.</p><p><strong>Load:</strong> 10,000 cn at full speed; 20,000 cn at half speed. When walking, they can carry double these amounts.</p>",
@@ -20373,120 +20535,6 @@
       "monsterType": "Humanoid",
       "name": "Ogre"
     },
-    "Orb Guardian": {
-      "biography": "<p>An Orb Guardian, also known as a “sphere of many eyes,” resembles a large floating ball about 4 feet in diameter, covered with tough, armor-plated skin. It has ten small eyes on stalks atop its body, each with its own unique magical power, and a large central eye positioned on the front, with a toothy mouth below.</p><p>The Orb Guardian moves by means of a slow, natural flight that cannot be dispelled. It is highly intelligent, cruel, and greedy, and speaks many languages. This creature is typically found alone but may be accompanied by 1d6 young (each with 1/10 normal Hit Dice and eye effects, dealing 1d4 points of bite damage) with a 5% chance.</p><p>The central eye of an Orb Guardian emits an anti-magic ray, which negates all magical effects within 60 feet in front of it. Magical weapons in this area are treated as non-magical, and spells cast within the area of effect are instantly disrupted. Spells cast from outside the area are ruined when they enter its range. The Orb Guardian will turn to face any character who begins spellcasting, disrupting the spell. Once the anti-magic ray is no longer directed at an object or area, magical items and effects return to their normal function.</p><p>The anti-magic ray cannot be directed above or below the creature, only straight ahead. As the ray can negate any magic, even that of the smaller eyes, the Orb Guardian cannot use its smaller eye powers on targets within this area.</p><p>When attacking an Orb Guardian, players must declare whether they are aiming at the body, the large central eye, or an eye stalk, each with distinct armor class and hit points:</p><ul><li>The body has AC 0 and 50 hit points.</li><li>The central eye has AC 2 and 20 hit points.</li><li>An eye stalk has AC 7 and can withstand 12 hit points of damage. Damage to eye stalks does not contribute to killing the creature.</li></ul><p><strong>Small Eyes and Eyestalks:</strong> If an attack hits an eye stalk, the GM should randomly determine which stalk is damaged. A severed eye stalk is rendered nonfunctional, but partial damage does not impede its operation. Lost eyes regenerate in 2d4 days, and partially damaged stalks heal at a rate of 1 hit point per day.</p><p>The Orb Guardian can only direct four small eyes in one direction at a time and cannot target directly beneath its body. Each eye can fire a ray with a different spell-like effect once per round. The spell effects are detailed below, with reversed versions indicated by an asterisk.</p><p><strong>Eye Powers:</strong></p><ol><li><strong>Charm Person</strong> (range 120')</li><li><strong>Charm Monster</strong> (range 120')</li><li><strong>Sleep</strong> (range 240')</li><li><strong>Telekinesis</strong> (range 120', up to 5,000 cn weight)</li><li><strong>Flesh to Stone</strong>* (range 120')</li><li><strong>Disintegrate</strong> (range 60')</li><li><strong>Cause Fear</strong>* (range 120')</li><li><strong>Slow</strong>* (range 240')</li><li><strong>Cause Serious Wounds</strong>* (range 60')</li><li><strong>Death Spell</strong> (range 240')</li></ol><p><strong>Terrain:</strong> Caverns, Ruins.</p>",
-      "items": {
-        "9RffGkGpxWKeublU": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "A1QA0e17KkEGOXKs": {
-          "description": "The large central eye projects an anti-magic ray that nullifies all magic within 60' in front of it.",
-          "name": "Anti-Magic Ray"
-        },
-        "AnRVPVf6BAaZ5gQi": {
-          "description": "A powerful bite attack from the Orb Guardian.",
-          "name": "Bite"
-        },
-        "N89be1UFUb4ZnXUZ": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "ShkqG00NRHacNUFW": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "i6Mr4WGlfqRZXvGb": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "pcdBLWKxB0T2tZST": {
-          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
-          "gmNotes": "Flying ability of giant bats.",
-          "name": "Flight"
-        },
-        "thM5OAzfcK0eMeme": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "z0aXIBteCOH4Pbdq": {
-          "description": "The Orb Guardian's tough, armor-plated skin gives it an Armor Class of 0.",
-          "name": "Tough Armor"
-        }
-      },
-      "monsterType": "Monster",
-      "name": "Orb Guardian"
-    },
-    "Orb Guardian, Undead*": {
-      "biography": "<p>An Undead Orb Guardian is similar in appearance to its living counterpart but is actually a construct created for a specific malevolent purpose. These creatures are never naturally undead; instead, they are crafted for dark deeds. The Undead Orb Guardian resembles a large floating sphere, about four feet in diameter, covered with tough, armor-plated skin. It has ten small eyes on stalks, each capable of a different magical effect, and a large central eye on the front of its body with a toothy mouth below. The creature moves using natural (non-magical) flight, and it is highly intelligent, capable of speaking many languages. A cleric of 25th level or higher can recognize it as an undead being upon sight.</p><p>Undead Orb Guardians are immune to normal, silver, and even +1 magical weapons; only a magical weapon of +2 or greater can harm them. They are unaffected by charm, hold, and sleep spells, as well as illusions, death rays, and poison. Their bodies regenerate 3 hit points per round once damaged. If reduced to 0 hit points, they shift into gaseous form and cannot regenerate until resting for 1 hour in complete darkness, after which their regeneration resumes. They often maintain areas of continual darkness around their lairs.</p><p>These creatures can assume gaseous form at will. In this state, they lose access to their special abilities but cannot be harmed except by magic that affects air. Their bite inflicts 2d10 points of damage and causes a two-level energy drain, similar to that of a vampire.</p><p>The central eye of an Undead Orb Guardian projects a ray of reflection, bouncing any spell cast at it back to the caster. Similarly, any attempt to turn undead from this direction reflects back onto the cleric, who must succeed in a saving throw vs. spells or flee in terror for 2d6 rounds. The creature will typically turn to face any spellcasting character to utilize this defense. This reflective ray only works in the front arc and cannot be directed above or behind the creature.</p><p>When attacking, the player must specify whether they are targeting the body, the large eye, or an eye stalk. Each part has different armor classes and hit points:</p><ul><li>The body has AC -4 and 90 hit points.</li><li>The central eye has AC -2 and 30 hit points.</li><li>Each eye stalk has AC 3 and can withstand 20 hit points of damage. Damage to the eye stalks does not count toward destroying the creature.</li></ul><p>Small eyes and eyestalks: Each small eye can be used once per round, and only three eyes can focus in one direction (forward, backward, etc.). If the target is above the creature, all ten eyes can be used. The Undead Orb Guardian often uses only two eyes per round unless it perceives a serious threat. If an eye is destroyed, it can regrow in 1d4 + 1 hours, although this regeneration is slower than that of the body.</p><p><strong>Eye Powers:</strong></p><ol><li><strong>Animate Dead</strong> (range 60')</li><li><strong>Charm</strong> (as vampire, 120' range, with a -2 penalty to the saving throw)</li><li><strong>Continual Darkness</strong> (range 120')</li><li><strong>Death Spell</strong> (range 120')</li><li><strong>Energy Drain</strong> (1 level, as wight)</li><li><strong>Energy Drain</strong> (2 levels, as spectre)</li><li><strong>Paralysis</strong> (as ghoul, range 60'; elves are immune to this ray)</li><li><strong>Animate Object</strong> (range 60')</li><li><strong>Dispel Magic</strong> (26th level)</li><li><strong>Telekinesis</strong> (4,000 cn)</li></ol><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
-      "items": {
-        "0xpd1B5WNYT6PDfT": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "8nJv1USwzF9iwCmK": {
-          "description": "This eye ray drains two levels of energy from a creature within 60'.",
-          "name": "Energy Drain (2 Levels)"
-        },
-        "9JnugWQzcltmXeQi": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        },
-        "DaXDapgwcQIkCWcK": {
-          "description": "The creature can assume gaseous form at will, becoming immune to physical attacks but unable to use its special abilities.",
-          "name": "Gaseous Form"
-        },
-        "YCluLBsHJuhdiZWA": {
-          "description": "A powerful bite attack from the Undead Orb Guardian that inflicts 2d10 points of damage and drains two levels, as a vampire.",
-          "name": "Bite"
-        },
-        "bxcFq5FE0FlDBg6y": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "cH8RaSKIOLfzOfGm": {
-          "description": "The creature regenerates 3 hit points per round. If reduced to 0 hit points, it enters gaseous form and must rest for 1 hour in total darkness to begin regenerating again.",
-          "name": "Regeneration"
-        },
-        "dSgttu5IwEVPIEn0": {
-          "description": "The Undead Orb Guardian's armor-plated skin gives it an Armor Class of -4.",
-          "name": "Unholy Armor"
-        },
-        "hf7vRVHm4WolGhgw": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "pcdBLWKxB0T2tZST": {
-          "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
-          "gmNotes": "Flying ability of giant bats.",
-          "name": "Flight"
-        },
-        "qQMGzMJiRDQtx6vf": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "tsK2vOvAT9WNuZnR": {
-          "description": "This eye ray drains one level of energy from a creature within 60'.",
-          "name": "Energy Drain (1 Level)"
-        },
-        "xzSxEBsgLUcrZfGw": {
-          "description": "The large central eye projects a ray of reflection that reflects spells and turn attempts back at the caster.",
-          "name": "Reflection Ray"
-        }
-      },
-      "monsterType": "Undead Construct, Enchanted",
-      "name": "Orb Guardian, Undead*"
-    },
     "Orc": {
       "biography": "<p>Orcs are ugly, humanlike creatures with a blend of animal and human features. Most orcs have human-shaped bodies, but many display bestial facial traits and sharp teeth.</p><p>Orcs are nocturnal omnivores and prefer to live underground. When forced to fight in daylight, they suffer a <strong>-1 penalty on attack rolls</strong>. They are short-tempered and tend to dislike other living creatures.</p><p>Each group of orcs has a leader with <strong>8 hit points</strong> who gains a <strong>+1 bonus on damage rolls</strong>. If this leader is killed, the morale of the group drops to <strong>6</strong> instead of <strong>8</strong>. Orcs are fearful of creatures larger or stronger than themselves but can be driven to fight by their leaders.</p><p>Orcs are frequently used as soldiers by Chaotic leaders, whether human or monster. They prefer using swords, spears, axes, and clubs in battle but cannot operate mechanical weapons like catapults, except for their leaders who understand such devices.</p><p>Orc tribes come in many varieties, with each tribe containing as many females as males and at least two children (\"whelps\") for every two adults. The leader of a tribe is a <strong>chieftain</strong> with <strong>15 hit points</strong>, who fights as a <strong>4 Hit Dice</strong> monster and gains a <strong>+2 bonus on damage rolls</strong>. For every <strong>20 orcs</strong> in a tribe, there is a <strong>1 in 6 chance</strong> that an ogre is present. Additionally, there is a <strong>1 in 10 chance</strong> of a troll ally living in the tribe's lair.</p><p><strong>Terrain:</strong> Wilderness (any)</p>",
       "items": {
@@ -20719,54 +20767,6 @@
       },
       "monsterType": "Monster",
       "name": "Pegasus"
-    },
-    "Phantasmal Panther": {
-      "biography": "<p>The Phantasmal Panther resembles a large black feline with six legs and a pair of 6-foot long tentacles protruding from its shoulders. It uses these tentacles, which are edged with horn-like tips, to attack. The Panther's skin has a peculiar ability to bend light, causing it to appear several feet away from its actual position. This grants all attackers a -2 penalty to their attack rolls, while the Panther receives a +2 bonus to all saving throws.</p><p>If severely wounded (6 hit points or less), the Panther will resort to a ferocious bite attack, gaining a +2 bonus to hit and dealing 1d6 points of damage.</p><p>Phantasmal Panthers are carnivorous, preying primarily on smaller herd animals in forested and jungle regions. They may occasionally wander into dungeons due to curiosity or the lure of food. They generally avoid conflict with adventurers unless driven by extreme hunger.</p><p>These creatures harbor an intense animosity towards Blink Hounds, attacking them and anyone in their vicinity on sight. It is believed that the two species originate from a distant plane and are embroiled in an endless interdimensional war.</p><p><strong>Terrain:</strong> Hill, Jungle, Woods.</p>",
-      "items": {
-        "JL9BPmV8UROlJ4CK": {
-          "description": "Sharp, horn-edged tentacle attack.",
-          "name": "Tentacle"
-        },
-        "LcBO6tPGLyuFSvev": {
-          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-          "name": "Turn to Stone or Paralysis",
-          "shortName": "Stone"
-        },
-        "OqCdep31Q9oqgCIJ": {
-          "description": "Tough skin providing natural defense.",
-          "name": "Natural Armor"
-        },
-        "QeHMdZTgguzTn87p": {
-          "description": "The Phantasmal Panther appears 3 feet from its actual position. Attackers suffer a -2 penalty on attack rolls. The creature gains a +2 bonus to all saving throws.",
-          "name": "Displacement"
-        },
-        "cLIAMzSveLWDPw4E": {
-          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-          "name": "Dragon Breath",
-          "shortName": "Breath"
-        },
-        "dmMYZPcIJrhqSbgB": {
-          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-          "name": "Death Ray or Poison",
-          "shortName": "Death"
-        },
-        "k9ARv6rtYwFNUEle": {
-          "description": "<p>If the creature is severely damaged (6 bit points or less remaining), it can use a ferocious bite attack (+ 2 bonus to attack roll).</p>",
-          "name": "Ferocious Bite*"
-        },
-        "kFZq77NpEFnfXbV4": {
-          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-          "name": "Spells or Magic Staff",
-          "shortName": "Spell"
-        },
-        "ti6vINtaeHpVjGBT": {
-          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-          "name": "Magic Wand",
-          "shortName": "Wand"
-        }
-      },
-      "monsterType": "Monster",
-      "name": "Phantasmal Panther"
     },
     "Phantom, Apparition*": {
       "biography": "<p>The Apparition emerges as a semi-transparent humanoid figure, reminiscent of a wight, haunting ruins across various locales while shunning sunlight, though untroubled by magical illumination. It lurks in an ethereal state initially, immune to damage from the Prime Plane until it materializes for combat.</p><p>Upon sighting, all within 120' must resist its fearsome presence with a saving throw vs. spells or flee in terror; creatures of 3 Hit Dice or less succumb automatically, refusing to return. </p><p><strong>It begins</strong> combat by conjuring a swirling, semi-transparent mist—10' high, 20' radius—entrancing those within who fail a saving throw vs. spells, rendering them inactive for up to 12 rounds or until the mist dissipates.</p><p>Once it ensnares a victim, the Apparition solidifies (AC 0) and attacks with bony claws, gaining a +4 bonus to hit and dealing [[/r 1d6+2 #Claw damage]] per strike, favoring entranced targets. Resistant to clerical turning (saving throw vs. spells reflects 'T' results), it hoards its victims’ treasures nearby. Victims slain by it rise as Apparitions within a week unless a dispel evil precedes a raise dead spell; otherwise, they fade into undeath.</p><p><strong>Terrain:</strong> Ruins</p>",

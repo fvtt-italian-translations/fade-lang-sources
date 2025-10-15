@@ -18,8 +18,20 @@
     "Additional Weapon Mods. (Swords)": {
       "name": "Additional Weapon Mods. (Swords)"
     },
-    "All Other (Flyers)": {
-      "name": "All Other (Flyers)"
+    "Animal (Barren, Mountain, Hil)": {
+      "name": "Animal (Barren, Mountain, Hil)"
+    },
+    "Animal (Clear, Grassland)": {
+      "name": "Animal (Clear, Grassland)"
+    },
+    "Animal (Desert)": {
+      "name": "Animal (Desert)"
+    },
+    "Animal (River)": {
+      "name": "Animal (River)"
+    },
+    "Animal (Woods)": {
+      "name": "Animal (Woods)"
     },
     "Animal Herd": {
       "name": "Animal Herd"
@@ -33,17 +45,14 @@
     "Armor Special Powers": {
       "name": "Armor Special Powers"
     },
-    "Bandits": {
-      "name": "Bandits"
+    "Bandit": {
+      "name": "Bandit"
     },
-    "Clear, Grassland (Animal)": {
-      "name": "Clear, Grassland (Animal)"
+    "Barren, Mountain, Hill Encounter": {
+      "name": "Barren, Mountain, Hill Encounter"
     },
-    "Clear, Grassland (Humanoid)": {
-      "name": "Clear, Grassland (Humanoid)"
-    },
-    "Clear, Grassland (Humans)": {
-      "name": "Clear, Grassland (Humans)"
+    "Caveman (Neanderthal)": {
+      "name": "Caveman (Neanderthal)"
     },
     "Clear, Grasslands Encounter": {
       "name": "Clear, Grasslands Encounter"
@@ -69,6 +78,9 @@
     "Defense Potion": {
       "name": "Defense Potion"
     },
+    "Desert Encounter": {
+      "name": "Desert Encounter"
+    },
     "Door - Locked or Stuck": {
       "name": "Door - Locked or Stuck"
     },
@@ -86,6 +98,9 @@
     },
     "Dragons": {
       "name": "Dragons"
+    },
+    "Dwarf": {
+      "name": "Dwarf"
     },
     "Egg of Wonder Creature Type": {
       "name": "Egg of Wonder Creature Type"
@@ -117,6 +132,15 @@
     "Extraordinary Power (NoReroll)": {
       "name": "Extraordinary Power (NoReroll)"
     },
+    "Flyers (All Other)": {
+      "name": "Flyers (All Other)"
+    },
+    "Flyers (Desert)": {
+      "name": "Flyers (Desert)"
+    },
+    "Flyers (Mountain)": {
+      "name": "Flyers (Mountain)"
+    },
     "Fog Trap": {
       "name": "Fog Trap"
     },
@@ -128,6 +152,9 @@
     },
     "Gnoll": {
       "name": "Gnoll"
+    },
+    "Gnome": {
+      "name": "Gnome"
     },
     "Goblin": {
       "name": "Goblin"
@@ -156,6 +183,42 @@
     "Hobgoblin": {
       "name": "Hobgoblin"
     },
+    "Human (Clear, Grassland)": {
+      "name": "Human (Clear, Grassland)"
+    },
+    "Human (Desert)": {
+      "name": "Human (Desert)"
+    },
+    "Human (Hill)": {
+      "name": "Human (Hill)"
+    },
+    "Human (River)": {
+      "name": "Human (River)"
+    },
+    "Human (Swamp)": {
+      "name": "Human (Swamp)"
+    },
+    "Human (Woods)": {
+      "name": "Human (Woods)"
+    },
+    "Humanoid (Barren, Mountain, Hill)": {
+      "name": "Humanoid (Barren, Mountain, Hill)"
+    },
+    "Humanoid (Clear, Grassland)": {
+      "name": "Humanoid (Clear, Grassland)"
+    },
+    "Humanoid (Desert)": {
+      "name": "Humanoid (Desert)"
+    },
+    "Humanoid (River)": {
+      "name": "Humanoid (River)"
+    },
+    "Humanoid (Swamp)": {
+      "name": "Humanoid (Swamp)"
+    },
+    "Humanoid (Woods)": {
+      "name": "Humanoid (Woods)"
+    },
     "Insect Swarm": {
       "name": "Insect Swarm"
     },
@@ -167,6 +230,9 @@
     },
     "Jewelry Value Table": {
       "name": "Jewelry Value Table"
+    },
+    "Kobold": {
+      "name": "Kobold"
     },
     "Level 1 Gem": {
       "name": "Level 1 Gem"
@@ -327,15 +393,6 @@
     "Rare Jewelry (50k)": {
       "name": "Rare Jewelry (50k)"
     },
-    "River (Animals)": {
-      "name": "River (Animals)"
-    },
-    "River (Humanoid)": {
-      "name": "River (Humanoid)"
-    },
-    "River (Humans)": {
-      "name": "River (Humans)"
-    },
     "River Encounter": {
       "name": "River Encounter"
     },
@@ -387,8 +444,14 @@
     "Staff of Element": {
       "name": "Staff of Element"
     },
+    "Swamp Encounter": {
+      "name": "Swamp Encounter"
+    },
     "Swimmer (River/Lake)": {
       "name": "Swimmer (River/Lake)"
+    },
+    "Swimmer (Swamp)": {
+      "name": "Swimmer (Swamp)"
     },
     "Sword Primary Power": {
       "name": "Sword Primary Power"
@@ -459,21 +522,12 @@
     "Wishes Ring": {
       "name": "Wishes Ring"
     },
-    "Woods (Animals)": {
-      "name": "Woods (Animals)"
-    },
-    "Woods (Humanoid)": {
-      "name": "Woods (Humanoid)"
-    },
-    "Woods (Humans)": {
-      "name": "Woods (Humans)"
-    },
     "Woods Encounter": {
       "name": "Woods Encounter"
     }
   },
   "folders": {
-    "Animals": "Animals",
+    "Animal": "Animal",
     "Armor Sub Tables": "Armor Sub Tables",
     "Combat": "Combat",
     "Dragons": "Dragons",
@@ -481,8 +535,8 @@
     "Encounter": "Encounter",
     "Flyers": "Flyers",
     "Gems, Jewelry & Special": "Gems, Jewelry & Special",
-    "Humanoids": "Humanoids",
-    "Humans": "Humans",
+    "Human": "Human",
+    "Humanoid": "Humanoid",
     "Insects": "Insects",
     "Magical Items": "Magical Items",
     "Misc Sub Tables": "Misc Sub Tables",
