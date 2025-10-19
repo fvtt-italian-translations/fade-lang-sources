@@ -1562,6 +1562,13 @@
       "spellEffect": "Cools or warms air within 10'",
       "spellRange": "0 (druid only)"
     },
+    "Control Undead": {
+      "description": "<p>The user may control up to 18 Hit Dice of undead monsters. The undead will be hostile when the control ends.</p><p>It lasts for 7-12 turns ([[/br 1d6+6]]), with the exact duration known only to the DM.</p>",
+      "name": "Control Undead",
+      "spellDuration": "7-12 turns",
+      "spellEffect": "Control 18HD undead",
+      "spellRange": "Self"
+    },
     "Control Winds": {
       "description": "<p>This spell allows the druid to control all air within range, causing it to increase to gale force or slow to dead calm as desired. The caster must concentrate for one full turn (without moving or attacking) to achieve a complete change in wind force.</p>\n                      <p><strong>Effect on Air Creatures:</strong> If the spell is directed at an air creature (like an air elemental), it may make a saving throw vs. spells. If it fails, the druid may slay or control the creature by manipulating the wind. The creature remains controlled as long as the druid concentrates and the spell remains active; if concentration is broken or the spell ends, the creature will turn hostile and attack the druid.</p>\n                      <p><strong>Countering:</strong> A higher-level spellcaster using *Control Winds* can easily counter this spell.</p>",
       "name": "Control Winds",
@@ -1805,7 +1812,6 @@
     "Defense (Potion)": {
       "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: +1<br>4-5: +2<br>6-7: +3<br>8-9: +4<br>10: +5</p>",
       "name": "Defense (Potion)",
-      "spellDuration": "1",
       "spellEffect": "Bonus to AC (roll for bonus)",
       "spellRange": "Self"
     },
@@ -2095,6 +2101,7 @@
     "ESP* (Potion)": {
       "description": "<p>This magical effect allows the spellcaster to \"hear\" thoughts. The caster must concentrate in one direction for six rounds (one minute) to hear the thoughts (if any) of a creature within range. The effect allows the user to understand the thoughts of any single living creature, regardless of language. It does not allow the user to hear the thoughts of undead creatures.</p><p>If more than one creature is within range and in the direction the user is concentrating, they will \"hear\" a confused jumble of thoughts. The user can sort out the jumble only by concentrating for an extra six rounds to find a single creature.</p><p><em>ESP</em> is not hindered by any amount of wood or liquid and will penetrate up to two feet of rock, but a thin coating of lead will block the spell. Targets can make a saving throw vs. spells to avoid the effects.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
       "name": "ESP* (Potion)",
+      "spellDuration": "7-12 turns",
       "spellEffect": "All thoughts in one direction"
     },
     "Earthquake": {
@@ -2453,7 +2460,7 @@
       "spellEffect": "One creature may fly"
     },
     "Fly (Potion)": {
-      "description": "<p>Grants the target the ability to fly at will. The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</p>",
+      "description": "<p>Grants the target the ability to fly at will. The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Fly (Potion)",
       "spellDuration": "1d6 turns + 6",
       "spellEffect": "One creature may fly",
@@ -3118,7 +3125,7 @@
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target immediately becomes 10 years younger. The effect is permanent, does not wear off, and cannot be dispelled. This potion will have no effect on any creature forced to drink it. In addition, age cannot be reduced below 15 (or below midadolescence for creatures other than humans), and the change cannot adversely affect any ability scores or other abilities.</span></p>",
       "name": "Longevity",
       "spellDuration": "Instant",
-      "spellEffect": "Become 10 years younger (min 15)",
+      "spellEffect": "Become 10 years younger (min 15 years old)",
       "spellRange": "Self"
     },
     "Lore": {
@@ -3135,7 +3142,7 @@
     "Luck": {
       "description": "<p>This makes the target lucky. The player of the character using this may choose the result of any one roll of his rather than rolling a random result (an attack or damage roll, saving throw, etc.). Other players' rolls cannot be affected, nor can the Dungeon Master's rolls be affected.</p><p>The effect lasts for 1 hour or until the luck is used.</p>",
       "name": "Luck",
-      "spellDuration": "Instant",
+      "spellDuration": "1 hour or until used",
       "spellEffect": "Choose the result of one roll",
       "spellRange": "Self"
     },
@@ -4356,6 +4363,30 @@
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
+    "Potion of Swimming": {
+      "description": "<p>The user may swim in any liquid at a rate of 180' per turn, even if encumbered. The user cannot sink or be pushed below the surface unless encumbrance exceeds 3,000 cn. This effect does not grant the ability to breathe underwater.</p><p>The effect lasts for 8 hours.</p>",
+      "name": "Potion of Swimming",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Treasure Finding": {
+      "description": "<p>By concentrating, the user can detect the direction and distance (but not the amount) of the largest treasure within 360'.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns ([[/br 1d6+6]]), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Treasure Finding",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Undead Control": {
+      "description": "<p>The user may control up to 18 Hit Dice of undead monsters. The undead will be hostile when the control ends.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns ([[/br 1d6+6]]), with the exact duration known only to the DM.</span></p>",
+      "name": "Potion of Undead Control",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
+    "Potion of Water Breathing": {
+      "description": "<p>The user can freely breathe either water or air (as the magic-user spell) for 4 hours.</p>",
+      "name": "Potion of Water Breathing",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
     "Pouch, Belt": {
       "description": "<p>A small pouch made of leather or cloth, typically worn on a belt. It can hold up to 50 coins and is used to carry small valuables or other small items.</p>",
       "name": "Pouch, Belt",
@@ -5154,6 +5185,12 @@
     "Swim": {
       "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
       "name": "Swim"
+    },
+    "Swimming": {
+      "description": "<p>The user may swim in any liquid at a rate of 180' per turn, even if encumbered. The user cannot sink or be pushed below the surface unless encumbrance exceeds 3,000 cn. This effect does not grant the ability to breathe underwater.</p><p>The effect lasts for 8 hours.</p>",
+      "name": "Swimming",
+      "spellEffect": "Swim rate 180' at 3000cn encumbrance",
+      "spellRange": "Self"
     },
     "Sword": {
       "description": "<p>When this spell is cast, a glowing sword made of magical energy appears next to the caster. The caster may direct the sword to attack any creature within 30 feet simply by concentrating.</p><h4>Combat Details:</h4><ul><li>The sword attacks twice per round.</li><li>It attacks using the caster's attack rolls and level.</li><li>Deals damage as a two-handed sword (1d10).</li><li>Can hit any target, including those requiring magical weapons to be harmed.</li></ul><h4>Rules & Mechanics:</h4><ul><li>The caster must concentrate to control the sword.</li><li>If concentration is broken, the sword stops attacking but remains in existence.</li><li>The sword remains for 1 round per caster level.</li><li>It cannot be destroyed except by <em>Dispel Magic</em> (normal success chance) or a <em>Wish</em>.</li></ul>",
@@ -6296,6 +6333,13 @@
       "spellEffect": "Allows aerial or gaseous travel",
       "spellRange": "0 (caster only)"
     },
+    "Treasure Finding": {
+      "description": "<p>By concentrating, the user can detect the direction and distance (but not the amount) of the largest treasure within 360'.</p><p>It lasts for 7-12 turns ([[/br 1d6+6]]), with the exact duration known only to the DM.</p>",
+      "name": "Treasure Finding",
+      "spellDuration": "7-12 turns",
+      "spellEffect": "Detect direction and distance of treasure",
+      "spellRange": "Self"
+    },
     "Trident +1": {
       "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
       "name": "Trident +1",
@@ -6460,6 +6504,12 @@
       "description": "<p>Two quarts of drinkable water.</p>",
       "name": "Water",
       "unidentifiedDesc": "<p>Two quarts of drinkable water.</p>"
+    },
+    "Water Breathing@9RK1dlM5apL9gUm8": {
+      "description": "<p>The user can freely breathe either water or air (as the magic-user spell) for 4 hours.</p>",
+      "name": "Water Breathing",
+      "spellEffect": "Breath water or air",
+      "spellRange": "Self"
     },
     "Water Breathing@BpqXZwoqpKj1q4nx": {
       "description": "<p>This spell enables the recipient to breathe underwater at any depth for the duration of the spell. It does not affect the recipient's movement underwater nor interfere with breathing air if the recipient emerges from the water.</p>",
