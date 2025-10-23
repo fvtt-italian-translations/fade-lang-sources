@@ -739,6 +739,7 @@
           "saveTable": "Save Changes"
         },
         "bonus": "Bonus",
+        "json": "Json",
         "key": "Key",
         "minimum": "Minimum",
         "removePrompt": "Remove Table?",
@@ -748,6 +749,8 @@
         "tableType": "Table Type",
         "tableTypes": {
           "bonus": "Bonus Table",
+          "jsonarray": "Json Array Table",
+          "keyjson": "Key/Json Table",
           "keyvalue": "Key/Value Table"
         },
         "title": "User Tables",
@@ -1195,11 +1198,12 @@
       "hint": "The Ability Check System determines how ability checks are handled. Basic requires a d20 roll that must be under the relevant ability score value to be considered successful. A roll of 20 is always a failure.",
       "name": "Ability Check System"
     },
-    "abilityScoreModSystem": {
+    "abilityScoreMods": {
       "choices": {
-        "darkdungeons": "Dark Dungeons"
+        "heroic": "Heroic",
+        "simple": "Simple"
       },
-      "hint": "The Ability Score Modifier System determines how ability score modifiers are calculated. Dark Dungeons is going to be compatible with many 'Basic/Expert' game system and is the default. Simple provides a simple +1 bonus on scores 15 and above while applying a -1 penalty on scores at or below 6.",
+      "hint": "The Ability Score Modifier System determines how ability score modifiers are calculated. Heroic is going to be compatible with many 'Basic/Expert' game system and is the default. Simple provides a simple +1 bonus on scores 15 and above while applying a -1 penalty on scores at or below 6.",
       "name": "Ability Score Modifier System"
     },
     "attackRollFormula": {
