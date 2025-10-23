@@ -1285,6 +1285,12 @@
             },
             "name": "Sistema Prove Abilità",
             "hint": "Il Sistema di Prova delle Abilità determina come vengono gestite le prove di caratteristica. Il tiro di base richiede un d20 che deve essere inferiore al punteggio di caratteristica pertinente per essere considerato un successo. Un tiro di 20 è sempre un fallimento."
+        },
+        "abilityScoreMods": {
+            "choices": {
+                "heroic": "Eroico",
+                "simple": "Semplice"
+            }
         }
     },
     "TYPES": {
