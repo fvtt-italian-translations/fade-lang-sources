@@ -5606,7 +5606,7 @@
             "name": "Combattimento a Mani Nude"
         },
         "Asleep": {
-            "description": "<p>Il personaggio colpito sta dormendo e non si sveglierà finché la condizione non svanisce o finché qualcuno non lo sveglia. Per risvegliare qualcuno che è magicamente addormentato, bisogna schiaffeggiarlo in viso, scuoterlo o versargli acqua fredda o calda addosso, essenzialmente, qualsiasi cosa che lo faccia uscire dal suo sonno.</p>",
+            "description": "<p>Un personaggio addormentato è indifeso. Se un attaccante riesce ad avvicinarsi a un personaggio addormentato senza svegliarlo, può ucciderlo con un singolo colpo di qualsiasi arma da taglio, indipendentemente dai punti ferita della vittima.</p><p>Gli attacchi contro un personaggio addormentato effettuati con altre armi da corpo a corpo (ad esempio, contundenti) colpiscono automaticamente; gli attacchi a distanza vengono effettuati contro la vittima come se avesse CA 9.</p><p>Qualsiasi creatura addormentata, inclusa una colpita da un incantesimo di sonno, può essere svegliata con la forza, come una scossa, uno schiaffo o un calcio.</p><p>Alcuni tipi di sonno sono così intensi che il personaggio non si sveglia se disturbato; sono definiti con descrizioni individuali di incantesimi o risultati di combattimento e sono normalmente definiti incoscienti. Una vittima incosciente è molto simile a un dormiente, ma non si sveglia e non può resistere quando viene legata.</p>",
             "name": "Addormentato"
         },
         "Healing Staff (C)": {
@@ -6021,6 +6021,28 @@
         "Potion of Treasure Finding": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
             "unidentifiedName": "Pozione Misteriosa"
+        },
+        "Agility Boost": {
+            "description": "<p>Aumenta il punteggio di Destrezza a 18.</p>",
+            "name": "Incremento dell'agilità"
+        },
+        "Antidote": {
+            "description": "<p>Conferisce immunità a certi veleni e fornisce un <strong>bonus di +2 ai tiri salvezza contro il veleno</strong>. La versione più debole protegge dai veleni di creature con 3 Dadi Vita o meno, mentre le versioni più forti contrastano i veleni di creature più potenti. I veleni evitati durante la durata della pozione non hanno effetto dopo la sua conclusione.</p><p>Tira [[/br 1d10 #Contrasta tipo di veleno: 1-4=3 DV, 5-7=7 DV, 8-9=15 DV e 10=Tutti i tipi di veleno.]] per determinare quali veleni contrasta.</p><p>1-4: Protegge dai veleni di creature con 3 Dadi Vita o meno. <br>5-7: Protegge dai veleni di creature con 7 Dadi Vita o meno. <br>8-9: Protegge dai veleni di creature con 15 Dadi Vita o meno. <br>10: Protegge da tutti i tipi di veleno.</p><p>Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p><p><em>Una pozione di veleno è normalmente considerata veleno di un mostro con 7 DV. Il DM può modificare questa opzione secondo necessità.</em></p>",
+            "spellDuration": "7-12 turni",
+            "spellEffect": "Conferisce immunità a certi tipi di veleno",
+            "spellRange": "Se stesso",
+            "name": "Antidoto"
+        },
+        "Blending@KijTXXdRGgHbfcNB": {
+            "description": "<p>L'effetto magico permette all'utilizzatore di trasformare dinamicamente la loro intera gamma di colori in qualsiasi colore, motivo o combinazione. Una volta attivato, fornisce un mimetismo avanzato che rende l'utilizzatore estremamente difficile da individuare. Solo abilità di percezione specializzate come <em>Individuazione dell'invisibile</em> o possedere <em>Vista Rivelante</em> possono penetrare l'inganno. C'è una probabilità del 10% che l'utilizzatore possa essere individuato normalmente, il che lo rende un'abilità di trasformazione eccezionalmente potente.</p>",
+            "name": "Mimetizzato"
+        },
+        "Blending@7q6N6QYkx56khItq": {
+            "description": "<p>L'effetto magico permette all'utilizzatore di trasformare dinamicamente l'intera gamma di colori in qualsiasi colore, motivo o combinazione. Una volta attivato, fornisce un camuffamento avanzato che rende l'utilizzatore estremamente difficile da individuare. Solo abilità di percezione specializzate come <em>Individuazione dell'invisibile</em> o il possesso della <em>Vista Rivelante</em> possono penetrare il travestimento. C'è una probabilità del 10% che l'utilizzatore venga individuato tramite osservazione standard, il che lo rende un'abilità di trasformazione eccezionalmente potente.</p><p>Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p>",
+            "name": "Mimetizzato",
+            "spellDuration": "7-12 turni",
+            "spellEffect": "Si mimetizza con l'ambiente circostante.",
+            "spellRange": "Se stesso"
         }
     },
     "label": "Oggetti Classi Abilità",
