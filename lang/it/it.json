@@ -573,7 +573,8 @@
                 "masterySecDmg": "Maestria Arma - Danno Secondario",
                 "manual": "Mod manuale: {mod}",
                 "ammoMod": "Mod Munizione: {mod}",
-                "vsGroupMod": "Mod contro {group} : {mod}"
+                "vsGroupMod": "Mod contro {group} : {mod}",
+                "effectScale": "Scala dell'effetto dell'attaccante: x{scale}"
             },
             "attackACNone": "<div class='attack-info'>L'attacco non colpisce nessuna CA</div>",
             "attackSuccess": "<div class='attack-success'>Colpito!</div>",
@@ -622,7 +623,10 @@
                 "melee": "Mischia",
                 "singular": "Azione",
                 "throw": "Lanciare Arma",
-                "use": "Usa"
+                "use": "Usa",
+                "shoot": "Tira",
+                "consume": "Consumare",
+                "none": "Nessuna azione"
             },
             "abilityCheck": {
                 "tieredResults": {
@@ -633,7 +637,8 @@
                     "success": "<div class='attack-success text-size16'>Successo</div>"
                 }
             },
-            "appliedCondition": "<div><span style='color:#c58344' class='text-size16'>{condition}</span> applicata a:</div>"
+            "appliedCondition": "<div><span style='color:#c58344' class='text-size16'>{condition}</span> applicata a:</div>",
+            "removedCondition": "<div><span style='color:#c58344' class='text-size16'>{condizione}</span> rimossa da:</div>"
         },
         "dialog": {
             "lightSource": "Fonte di Luce",
@@ -730,7 +735,8 @@
                     "hard": "Difficile"
                 },
                 "name": "Difficoltà"
-            }
+            },
+            "removeFromPrompt": "Rimuovere da mirato o selezionato?"
         },
         "tabs": {
             "abilities": "Caratteristiche",
@@ -839,7 +845,7 @@
                     "description": "Il combattente disarma un avversario colpendolo ma senza infliggere danni; se il bersaglio fallisce una prova di Destrezza, lascia cadere la sua arma"
                 },
                 "guard": {
-                    "description": "Questa azione consente a un combattente di trattenere il proprio attacco in mischia fino alla fine della fase di movimento di un avversario, colpendo se l'avversario si muove entro la portata.",
+                    "description": "Questa azione consente a un combattente di trattenere il proprio attacco in mischia fino alla fine della fase di movimento di un avversario, colpendo se l'avversario si muove entro la portata. Come nell'opzione di ritirata, il combattente può muoversi a metà della velocità normale.",
                     "name": "Guardia"
                 },
                 "shove": {
@@ -856,7 +862,8 @@
                     "description": "Quando un Guerriero sceglie questa opzione di combattimento, non attacca affatto e si concentra interamente sull'evitare gli attacchi in arrivo. La sua CA aumenta di 5 contro un attacco specifico che sceglie di evitare. Contro qualsiasi altro attacco di cui è a conoscenza, la sua CA aumenta di 3. Contro qualsiasi altro attacco di cui non è a conoscenza, la sua CA aumenta di 1. Questo bonus alla CA dura fino alla fine del turno, e all'inizio del turno successivo non è più in vigore."
                 },
                 "specialAbility": {
-                    "name": "Abilità Speciale"
+                    "name": "Abilità Speciale",
+                    "description": "Questa è un'opzione generica che copre l'uso di un'abilità speciale che richiede un round di combattimento per essere eseguita. Non selezionare questa opzione se si utilizza un'arma, un incantesimo o un oggetto magico."
                 }
             }
         },
@@ -870,7 +877,7 @@
         },
         "notification": {
             "spellSelectToken": "Devi selezionare il tuo token per poter lanciare un incantesimo",
-            "selectToken1": "Il token deve essere prima selezionato",
+            "selectToken1": "Il token deve essere selezionato",
             "notMemorized": "{actorName} prova a lanciare {spellName}, ma l'incantesimo non era stato memorizzato",
             "noTokenWarning": "È necessario selezionare un token o assegnare un personaggio predefinito per eseguire questa azione",
             "noTokenWarning2": "Devi selezionare un token per eseguire questa azione",
@@ -887,7 +894,8 @@
             "selectTarget": "Deve essere selezionato un bersaglio.",
             "needRestSoon": "<div class='warning'>Il gruppo dovrà riposare nel turno successivo, altrimenti i suoi TxC e di danno potrebbero essere penalizzati finché non lo farà.</div>",
             "missingSave": "Il personaggio non possiede il tipo di tiro salvezza richiesto ({type}).",
-            "noCharges": "{itemName} non ha più cariche e non può essere utilizzato."
+            "noCharges": "{itemName} non ha più cariche e non può essere utilizzato.",
+            "noTokenAssoc": "Per poter agire è necessario un token nella scena."
         },
         "class": {
             "key": {
@@ -921,7 +929,8 @@
                 "mirrorImaged": "Immagini Illusorie",
                 "confused": "Confuso",
                 "possessed": "Posseduto",
-                "ethereal": "Eterea"
+                "ethereal": "Eterea",
+                "fading": "Sbiadire"
             }
         },
         "Tags": {
@@ -1006,7 +1015,8 @@
                 "tableName": "Nome Tabella",
                 "tableType": "Tipo Tabella",
                 "tableTypes": {
-                    "bonus": "Bonus Tabella"
+                    "bonus": "Bonus Tabella",
+                    "keyvalue": "Chiave/Valore Tabella"
                 },
                 "title": "Tabelle Utente"
             }
@@ -1081,7 +1091,8 @@
                 "name": "Chiave"
             },
             "remove": {
-                "name": "Rimuovi"
+                "name": "Rimuovi",
+                "hint": "Se selezionata, la condizione viene rimossa anziché aggiunta."
             }
         },
         "rollWithCtrl": "<p>Tira prova su {name}.</p><p><i>Clicca per effettuare il tiro. Ctrl-click per effettuare il tiro senza mod.</i></p>",
