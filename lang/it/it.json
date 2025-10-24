@@ -1016,11 +1016,14 @@
                 "tableType": "Tipo Tabella",
                 "tableTypes": {
                     "bonus": "Bonus Tabella",
-                    "keyvalue": "Chiave/Valore Tabella"
+                    "keyvalue": "Chiave/Valore Tabella",
+                    "jsonarray": "Tabella Json",
+                    "keyjson": "Tabella Chiave/Json"
                 },
                 "title": "Tabelle Utente",
                 "key": "Chiave",
-                "value": "Valore"
+                "value": "Valore",
+                "json": "Json"
             }
         },
         "bonus": "Bonus",
@@ -1290,7 +1293,9 @@
             "choices": {
                 "heroic": "Eroico",
                 "simple": "Semplice"
-            }
+            },
+            "hint": "Il sistema di modificatori dei punteggi di caratteristica determina come vengono calcolati i modificatori dei punteggi di caratteristica. Eroico sarà compatibile con molti sistemi di gioco \"Base/Esperto\" ed è l'impostazione predefinita. Semplice fornisce un bonus di +1 ai punteggi pari o superiori a 15, applicando una penalità di -1 ai punteggi pari o inferiori a 6.",
+            "name": "Sistema di modifica dei punteggi di caratteristica"
         }
     },
     "TYPES": {
