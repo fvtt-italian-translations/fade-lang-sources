@@ -862,6 +862,15 @@
                 "specialAbility": {
                     "name": "Abilità Speciale",
                     "description": "Questa è un'opzione generica che copre l'uso di un'abilità speciale che richiede un round di combattimento per essere eseguita. Non selezionare questa opzione se si utilizza un'arma, un incantesimo o un oggetto magico."
+                },
+                "charge": {
+                    "name": "Carica"
+                },
+                "crush": {
+                    "name": "Stritolamento"
+                },
+                "swoop": {
+                    "name": "Planata"
                 }
             }
         },
@@ -1352,7 +1361,8 @@
             "Elf": "Elfo",
             "Halfling": "Halfling",
             "Human": "Umano",
-            "Dwarf": "Nano"
+            "Dwarf": "Nano",
+            "Dragon": "Drago (Raro)"
         },
         "classAlignment": {
             "Chaotic": "Caotico",
