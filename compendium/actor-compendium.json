@@ -4562,13 +4562,9 @@
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
-        "Qse5ITOMRyP1BNxy": {
-          "description": "This dragon can cast spells, including five 1st-level spells, four 2nd-level spells, and three 3rd-level spells.",
-          "name": "Spellcasting"
-        },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
+        "Y0C1jIEhSYXeeDL5": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
         },
         "YnGBXDaRCzSeovfg": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -4579,6 +4575,10 @@
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "ct8FqDsKFPllySdc": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "cyg38QwDkAsEhNrL": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -4614,6 +4614,10 @@
     "Dragon, Black (Large)": {
       "biography": "<p>The Large Black Dragon is a terror in the swamps and marshlands, feared for its deadly acid breath. This monstrous creature can unleash a devastating stream of acid in a line 90 feet long and 5 feet wide, capable of melting armor and dissolving its foes. Known for its evil cunning and magical abilities, this dragon is a dangerous adversary on both land and in the air.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Large dragons use all attacks except wings. Kick attacks can be used against any opponents</p><p>within 10' of the body. A tail attack can be aimed at any opponent to the rear or sides. If its swoop attack hits, a large dragon can pick up one or two man-sized opponents, or one horse-sized creature.</p><p>Large and huge dragons use breath weapons intelligently, not randomly. They rarely aim at single opponents and normally save the attack for use against groups. The volume of the breath weapon increases with the size of the dragon.</p><p></p><p><strong>Breath Weapon:</strong> Acid, 90 feet long and 5 feet wide, dealing damage equal to the dragon's current hit points.</p><p><strong>Terrain:</strong> Swamps, Marshes</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
       "items": {
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "B8FAIPqQZF3wwLDS": {
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
@@ -4632,22 +4636,18 @@
           "description": "<p>Spews a line of corrosive acid up to 90feet long and 5 feet wide, capable of melting armor and flesh alike. Targets can save versus dragon breath for half damage.</p>",
           "name": "Acid Breath"
         },
-        "TcRkZcH4AekhUgxP": {
-          "description": "This dragon can cast spells, including five 1st-level spells and three 2nd-level spells.",
-          "name": "Spellcasting"
-        },
         "UH2LWpEgyp0qlXpJ": {
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
-        },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
         },
         "Za0F8huSt5AWsK5o": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "cQWzIIpdZjc4hMxF": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -4691,14 +4691,14 @@
     "Dragon, Black (Small)": {
       "biography": "<p>The Small Black Dragon is a sinister predator of swamps and marshes. Known for its vicious acid breath, it can unleash a deadly line of acid 60 feet long and 5 feet wide. Despite being one of the smaller black dragons, its cunning and evil intelligence make it a dangerous adversary. It can also cast spells, adding a magical element to its physical and breath attacks.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Small dragons normally attack with claws and bite when on the ground, without using kicks or tail attacks. Their legs are too short for effective kicking unless an opponent is close behind them. They are not proficient in attacking with the tail (though it may be used to inflict damage only, at the DM's choice). If its swoop attack hits, a small dragon can pick up one man-sized opponent.</p><p></p><p><strong>Breath Weapon:</strong> Acid, 60 feet long and 5 feet wide, dealing damage equal to the dragon's current hit points.</p><p><strong>Terrain:</strong> Swamps, Marshes</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
       "items": {
-        "1weyznmaNe6adzSw": {
-          "description": "This dragon can cast spells, including four 1st-level spells.",
-          "name": "Spellcasting"
-        },
         "35pEZZ6q8Ipuyzqr": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
         },
         "67Dv1Yq5GRp7rdCD": {
           "description": "The dragon slashes with its sharp claws.",
@@ -4720,13 +4720,21 @@
           "description": "A powerful bite that can crush armor.",
           "name": "Bite"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
+        },
+        "fBdChxOQmjcQk2vi": {
+          "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Tail"
         },
         "h3ulyuARYx2wmj3Z": {
           "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A small dragon can crush one victim only.</strong></p>",
           "name": "Crush"
+        },
+        "haTP7y0pEoQrBV5y": {
+          "description": "<p>Any victim hit by a kick attack must make a saving throw vs. paralysis or be knocked over. A penalty applies to the saving throw, equal to the amount of damage inflicted. Any victim knocked over can get up during the next round, but will automatically lose initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Kick"
         },
         "iPB5JSFGq9UWvTEe": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -4764,6 +4772,10 @@
           "description": "<p>A wing attack can be used against any opponent within range-which is great. The range is 3' per Hit Die of the dragon. Any victim hit by a wing attack must make a saving throw vs. paralysis or be stunned. A penalty applies to the saving throw, equal to the damage inflicted.</p>",
           "name": "Wing"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "5Ckj0tQTK9DzGBaI": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
@@ -4787,18 +4799,14 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "WuG54FeOUiNCK8zy": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "Y0C1jIEhSYXeeDL5": {
-          "description": "This dragon can cast spells, including five 1st-level spells, five 2nd-level spells, five 3rd-level spells, and four 4th-level spells.",
-          "name": "Spellcasting"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "bpoJAMmtqqEQ98rq": {
           "description": "The dragon slashes with its sharp claws.",
@@ -4846,6 +4854,10 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "6KejDZFptPy2bnQo": {
           "description": "The tough blue dragon scales provide a natural armor class of -2.",
           "name": "Dragon Scales (Armor)"
@@ -4867,22 +4879,18 @@
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "WSDX4C7sqlqQPBsr": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
+        },
         "dGky0UBY75e7nEiS": {
           "description": "A powerful bite that can crush armor.",
           "name": "Bite"
-        },
-        "deV1eWNCKf5Yaz0l": {
-          "description": "This dragon can cast spells, including five 1st-level spells, five 2nd-level spells, and three 3rd-level spells.",
-          "name": "Spellcasting"
         },
         "fBdChxOQmjcQk2vi": {
           "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
@@ -4923,13 +4931,17 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "9C0bFTk4PB4tAHAS": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
         "B8FAIPqQZF3wwLDS": {
-          "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to three opponents in one round while hovering, using 1 bite and 2 front claws. A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
+          "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
         },
         "JIO1YhBzy1hD4ASe": {
@@ -4946,21 +4958,25 @@
           "description": "The tough blue dragon scales provide a natural armor class of 0.",
           "name": "Dragon Scales (Armor)"
         },
-        "VmEsrHVexZtivhpX": {
-          "description": "This dragon can cast spells, including four 1st-level spells and four 2nd-level spells.",
-          "name": "Spellcasting"
-        },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "aCrpRWZiFLKSvW61": {
           "description": "A powerful bite that can crush armor.",
           "name": "Bite"
         },
+        "fBdChxOQmjcQk2vi": {
+          "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Tail"
+        },
         "h3ulyuARYx2wmj3Z": {
           "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A small dragon can crush one victim only.</strong></p>",
           "name": "Crush"
+        },
+        "haTP7y0pEoQrBV5y": {
+          "description": "<p>Any victim hit by a kick attack must make a saving throw vs. paralysis or be knocked over. A penalty applies to the saving throw, equal to the amount of damage inflicted. Any victim knocked over can get up during the next round, but will automatically lose initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Kick"
         },
         "icOdRiiIk5sNRAVu": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -4995,6 +5011,10 @@
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "5NEKJvx21RJb1fMX": {
           "description": "<p>Breathes a cone of fire, 180 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
           "name": "Fire Breath"
@@ -5013,13 +5033,9 @@
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
-        "bMc3k4RrQWL94qFj": {
-          "description": "This dragon can cast spells, including five 1st-level spells, five 2nd-level spells, five 3rd-level spells, four 4th-level spells, and three 5th-level spells.",
-          "name": "Spellcasting"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "bxXlkdaDI8AqRxsY": {
           "description": "<p>Breathes a cloud of chlorine gas, 50 feet wide, 50 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
@@ -5081,6 +5097,10 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "B8FAIPqQZF3wwLDS": {
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
@@ -5094,18 +5114,14 @@
           "description": "A powerful bite that can crush armor.",
           "name": "Bite"
         },
-        "QkzWVaBusp2oGIl5": {
-          "description": "This dragon can cast spells, including five 1st-level spells, five 2nd-level spells, four 3rd-level spells, and three 4th-level spells.",
-          "name": "Spellcasting"
-        },
         "Skz5jgKf05kKwfn2": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "fBdChxOQmjcQk2vi": {
           "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
@@ -5162,13 +5178,17 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "EfUrARz1cc3UK26q": {
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
-        "IpQN0sLbHsjDx307": {
-          "description": "This dragon can cast spells, including four 1st-level spells and four 2nd-level spells.",
-          "name": "Spellcasting"
+        "I56JyRF1qZgEINjT": {
+          "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
+          "name": "Hover"
         },
         "SU6xvxvmRNVi0IZQ": {
           "description": "A powerful bite that can crush armor.",
@@ -5179,9 +5199,25 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
+        },
         "eJLM8CLw4p21Om9n": {
           "description": "<p>Breathes a cone of fire, 90 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
           "name": "Fire Breath"
+        },
+        "fBdChxOQmjcQk2vi": {
+          "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Tail"
+        },
+        "h3ulyuARYx2wmj3Z": {
+          "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A small dragon can crush one victim only.</strong></p>",
+          "name": "Crush"
+        },
+        "haTP7y0pEoQrBV5y": {
+          "description": "<p>Any victim hit by a kick attack must make a saving throw vs. paralysis or be knocked over. A penalty applies to the saving throw, equal to the amount of damage inflicted. Any victim knocked over can get up during the next round, but will automatically lose initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Kick"
         },
         "iUcfP33fLw06y9KG": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -5228,6 +5264,10 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "B8FAIPqQZF3wwLDS": {
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
@@ -5240,10 +5280,6 @@
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
-        "O6znAFoFMApQfb7o": {
-          "description": "This dragon can cast spells, including five 1st-level spells, five 2nd-level spells, four 3rd-level spells, and three 4th-level spells.",
-          "name": "Spellcasting"
-        },
         "RDr7zQO7rWADSAvz": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -5254,13 +5290,13 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "X821fDE2euuoPWQl": {
           "description": "A powerful bite that can crush armor.",
           "name": "Bite"
+        },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "fBdChxOQmjcQk2vi": {
           "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
@@ -5300,6 +5336,10 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "B8FAIPqQZF3wwLDS": {
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
@@ -5326,14 +5366,14 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "ZqF3alfjsmVASHLB": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "cCKq1UU93Zyf8My3": {
           "description": "<p>Breathes a cloud of chlorine gas, 50 feet wide, 40 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
@@ -5342,10 +5382,6 @@
         "fBdChxOQmjcQk2vi": {
           "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
           "name": "Tail"
-        },
-        "fnKyCqPXVua8B0Ny": {
-          "description": "This dragon can cast spells, including four 1st-level spells, four 2nd-level spells, and three 3rd-level spells.",
-          "name": "Spellcasting"
         },
         "h3ulyuARYx2wmj3Z": {
           "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A large dragon can crush all in a 10' radius circle.</strong></p>",
@@ -5377,6 +5413,14 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
+        "B8FAIPqQZF3wwLDS": {
+          "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
+          "name": "Hover"
+        },
         "HDuwfTbiYdbyi35r": {
           "description": "<p>Breathes a cloud of chlorine gas, 50 feet wide, 40 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
           "name": "Chlorine Gas Breath"
@@ -5389,14 +5433,26 @@
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
+        },
         "d69Or8Rv7D6lHi6J": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
-        "l7LgvQ6EDODybcdR": {
-          "description": "This dragon can cast spells, including three 1st-level spells and three 2nd-level spells.",
-          "name": "Spellcasting"
+        "fBdChxOQmjcQk2vi": {
+          "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Tail"
+        },
+        "h3ulyuARYx2wmj3Z": {
+          "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A small dragon can crush one victim only.</strong></p>",
+          "name": "Crush"
+        },
+        "haTP7y0pEoQrBV5y": {
+          "description": "<p>Any victim hit by a kick attack must make a saving throw vs. paralysis or be knocked over. A penalty applies to the saving throw, equal to the amount of damage inflicted. Any victim knocked over can get up during the next round, but will automatically lose initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Kick"
         },
         "pcdBLWKxB0T2tZST": {
           "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
@@ -5433,6 +5489,10 @@
           "description": "<p>A wing attack can be used against any opponent within range-which is great. The range is 3' per Hit Die of the dragon. Any victim hit by a wing attack must make a saving throw vs. paralysis or be stunned. A penalty applies to the saving throw, equal to the damage inflicted.</p>",
           "name": "Wing"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "7gqWuUbmVY30Ggnk": {
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
@@ -5454,14 +5514,14 @@
           "description": "A powerful bite that can crush armor.",
           "name": "Bite"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "W49vhVAiFKpJHRgN": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
           "shortName": "Breath"
+        },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "as33LEB2U7AiTlRp": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -5476,10 +5536,6 @@
         "fBdChxOQmjcQk2vi": {
           "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
           "name": "Tail"
-        },
-        "gwKfKr074p3L79rs": {
-          "description": "This dragon can cast spells, including five 1st-level spells, five 2nd-level spells, four 3rd-level spells, and three 4th-level spells.",
-          "name": "Spellcasting"
         },
         "h3ulyuARYx2wmj3Z": {
           "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A huge dragon can crush all in a 20' radius circle.</strong></p>",
@@ -5519,6 +5575,10 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "7bDHi6ubzXmFZxI7": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -5527,10 +5587,6 @@
         "9fey2qP5cPFqcxL5": {
           "description": "The tough red dragon scales provide a natural armor class of -3.",
           "name": "Dragon Scales (Armor)"
-        },
-        "AuiVPMpAcP5uBoBU": {
-          "description": "This dragon can cast spells, including five 1st-level spells, four 2nd-level spells, and three 3rd-level spells.",
-          "name": "Spellcasting"
         },
         "B8FAIPqQZF3wwLDS": {
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
@@ -5545,14 +5601,14 @@
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "Zq74Klyh0t0BPghI": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
           "name": "Magic Wand",
           "shortName": "Wand"
+        },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "fBdChxOQmjcQk2vi": {
           "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
@@ -5587,13 +5643,17 @@
     "Dragon, Red (Small)": {
       "biography": "<p>The Small Red Dragon is a fierce and fiery predator. Known for its intense fire breath, it can incinerate its enemies in a cone of fire 90 feet long and 30 feet wide. Though it is the smallest of its kind, it is still incredibly dangerous and commands respect and fear. Its spellcasting abilities only enhance its already formidable presence on the battlefield.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Small dragons normally attack with claws and bite when on the ground, without using kicks or tail attacks. Their legs are too short for effective kicking unless an opponent is close behind them. They are not proficient in attacking with the tail (though it may be used to inflict damage only, at the DM's choice). If its swoop attack hits, a small dragon can pick up one man-sized opponent.</p><p></p><p><strong>Breath Weapon:</strong> Fire, 90 feet long and 30 feet wide, dealing damage equal to the dragon's current hit points.</p><p><strong>Terrain:</strong> Mountains, Caves</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
       "items": {
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "81wOxlVxCSJMciq3": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
           "name": "Spells or Magic Staff",
           "shortName": "Spell"
         },
         "B8FAIPqQZF3wwLDS": {
-          "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to three opponents in one round while hovering, using 1 bite and 2 front claws. A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
+          "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
         },
         "GQ31mReERdqySL8R": {
@@ -5610,17 +5670,17 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "X5EZN1Iew0dhqsZL": {
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
-        "gAVBQ33p9yjUKQWa": {
-          "description": "This dragon can cast spells, including three 1st-level spells, three 2nd-level spells, and three 3rd-level spells.",
-          "name": "Spellcasting"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
+        },
+        "fBdChxOQmjcQk2vi": {
+          "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Tail"
         },
         "gN4mUAO0o8C5PZm0": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -5630,6 +5690,10 @@
         "h3ulyuARYx2wmj3Z": {
           "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A small dragon can crush one victim only.</strong></p>",
           "name": "Crush"
+        },
+        "haTP7y0pEoQrBV5y": {
+          "description": "<p>Any victim hit by a kick attack must make a saving throw vs. paralysis or be knocked over. A penalty applies to the saving throw, equal to the amount of damage inflicted. Any victim knocked over can get up during the next round, but will automatically lose initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Kick"
         },
         "k5q68fukuHibwr0T": {
           "description": "<p>Breathes a cone of fire, 90 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
@@ -5664,6 +5728,10 @@
           "description": "A powerful bite that can crush armor.",
           "name": "Bite"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "6EP8ZgaTmTRb63Y0": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -5682,13 +5750,9 @@
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
         },
-        "HqfEPOEJiF2ZAN8u": {
-          "description": "This dragon can cast spells, including five 1st-level spells, three 2nd-level spells, and one 3rd-level spell.",
-          "name": "Spellcasting"
-        },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "ctC8xwsWE53JV1XK": {
           "description": "<p>Breathes a cone of cold, 90 feet long and 40 feet wide, dealing damage equal to its current hit points. Targets can save versus dragon breath for half damage.</p>",
@@ -5742,6 +5806,10 @@
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
         },
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "B8FAIPqQZF3wwLDS": {
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
@@ -5769,13 +5837,9 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
-        "eW0sJoLF735n764p": {
-          "description": "This dragon can cast one 1st-level spell, chosen from the standard spell list.",
-          "name": "Spellcasting"
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "fBdChxOQmjcQk2vi": {
           "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
@@ -5814,6 +5878,10 @@
     "Dragon, White (Small)": {
       "biography": "<p>The Small White Dragon, though the least powerful of its kind, still poses a significant threat. It prefers cold climates and is often found in arctic regions or snow-covered caves. Its breath weapon is a devastating cone of cold that spans 80 feet long and 30 feet wide, capable of freezing its enemies in place. Despite being one of the weaker dragon types, its intelligence is notable, allowing it to use cunning tactics against its foes. It is also capable of casting 1 first-level spell, making it even more dangerous.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Small dragons normally attack with claws and bite when on the ground, without using kicks or tail attacks. Their legs are too short for effective kicking unless an opponent is close behind them. They are not proficient in attacking with the tail (though it may be used to inflict damage only, at the DM's choice). If its swoop attack hits, a small dragon can pick up one man-sized opponent.</p><p></p><p><strong>Breath Weapon:</strong> Cone of cold, 80 feet long and 30 feet wide.</p><p><strong>Terrain:</strong> Arctic, Caverns</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
       "items": {
+        "4v9SaLnMEndAK7lB": {
+          "description": "<p>This dragon can cast spells.</p>",
+          "name": "Spellcasting (Dragon)"
+        },
         "B8FAIPqQZF3wwLDS": {
           "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to three opponents in one round while hovering, using 1 bite and 2 front claws. A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
           "name": "Hover"
@@ -5827,10 +5895,6 @@
           "name": "Death Ray or Poison",
           "shortName": "Death"
         },
-        "VvsRAQFsjtZe0F73": {
-          "description": "<p>This special ability is mentioned at the start of this chapter; in addition the dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><p></p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p></p><p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
-          "name": "Swoop"
-        },
         "WFbhsFiknWm1A9Ml": {
           "description": "The dragon slashes with its sharp claws.",
           "name": "Claw"
@@ -5838,6 +5902,10 @@
         "XkVgeDtQ9nRLT63c": {
           "description": "The tough white dragon scales provide a natural armor class of 3.",
           "name": "Dragon Scales (Armor)"
+        },
+        "a0GeLu07YpjEhSRX": {
+          "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+          "name": "Swoop (Dragon)"
         },
         "a8nl5y8EhXm3VYfb": {
           "description": "A powerful bite that can crush armor.",
@@ -5848,13 +5916,17 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "fBdChxOQmjcQk2vi": {
+          "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Tail"
+        },
         "h3ulyuARYx2wmj3Z": {
           "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A small dragon can crush one victim only.</strong></p>",
           "name": "Crush"
         },
-        "jCPMPe3BZw5y2IeX": {
-          "description": "This dragon can cast one 1st-level spell, chosen from the standard spell list.",
-          "name": "Spellcasting"
+        "haTP7y0pEoQrBV5y": {
+          "description": "<p>Any victim hit by a kick attack must make a saving throw vs. paralysis or be knocked over. A penalty applies to the saving throw, equal to the amount of damage inflicted. Any victim knocked over can get up during the next round, but will automatically lose initiative.</p><p><strong>Small dragons normally only use this attack when hovering.</strong></p>",
+          "name": "Kick"
         },
         "pcdBLWKxB0T2tZST": {
           "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",

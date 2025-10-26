@@ -787,6 +787,14 @@
           "description": "Combatant may move and then make a melee attack, adding Strength and magic bonuses to both the attack roll and damage.",
           "name": "Attack"
         },
+        "charge": {
+          "description": "The monster runs towards the opponent from 20 yards (20 feet indoors) away in one round and inflicts double damage, if it hits.",
+          "name": "Charge"
+        },
+        "crush": {
+          "description": "When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted. A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage. The crush may be used against nonhuman victims, or possibly against any opponents if the dragon is seriously wounded.",
+          "name": "Crush"
+        },
         "disarm": {
           "description": "Combatant disarms an opponent by hitting without damage; if the target fails a Dexterity check, they drop their weapon.",
           "name": "Disarm"
@@ -800,7 +808,7 @@
           "name": "Fire/Shoot"
         },
         "guard": {
-          "description": "The Guard maneuver allows a combatant to hold their melee attack until the end of an opponent's movement phase, striking if the opponent moves within range. Like the withdrawal option, the combatant may move at half the normal movement rate.",
+          "description": "Combatant who wins inititiative holds their melee attack until the end of an opponent's movement phase, striking if the opponent moves within range. Like the withdrawal option, the combatant may move at half the normal movement rate. Combatant may opt to attack anyone melee range during their hand-to-hand combat phase.",
           "name": "Guard"
         },
         "label": "Combat Manuever",
@@ -855,6 +863,10 @@
         "spell": {
           "description": "Combatant casts a memorized spell. Monsters use this action for magical attacks that aren't ranged or melee. No movement is allowed.",
           "name": "Cast Spell"
+        },
+        "swoop": {
+          "description": "The flying combatant swoops on an opponent at a lower altitude. Similar to a charge but applies to flying creatures rushing toward their prey from 10 yards (10 feet indoors) away. This attack, if successful, inflicts double damage upon its target, but only if the attacking creature surprises its target.",
+          "name": "Swoop"
         },
         "throw": {
           "description": "Combatant may move and then throw a suitable weapon, applying Dexterity and magic bonuses to the attack roll and Strength and magic bonuses to damage, provided the target is within range.",
@@ -1136,6 +1148,7 @@
       "Neutral": "Neutral"
     },
     "classSpecies": {
+      "Dragon": "Dragon",
       "Dwarf": "Dwarf",
       "Elf": "Elf",
       "Halfling": "Halfling",

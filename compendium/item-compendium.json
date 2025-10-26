@@ -1034,6 +1034,21 @@
       "unidentifiedDesc": "<p>It's a belt made of leather.</p>",
       "unidentifiedName": "Belt"
     },
+    "Black Dragon": {
+      "classLevels": {
+        "0": {
+          "title": "Small"
+        },
+        "1": {
+          "title": "Large"
+        },
+        "2": {
+          "title": "Huge"
+        }
+      },
+      "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
+      "name": "Black Dragon"
+    },
     "Blackjack@RksAN1Xa2JeKa7Im": {
       "description": "<p>A blackjack, also known as a cosh, is a small leather club usually filled with sand. Blackjacks are too soft to do significant damage, but are very useful for temporarily knocking people unconscious without doing permanent damage.</p><p>The weapon has no effect on those wearing metal armor of any sort, or any unarmored monster of AC 0 or less. See rules for other details about this weapon, including the ability to knockout, stun and delay the victim.</p><p> </p>",
       "name": "Blackjack",
@@ -1108,6 +1123,21 @@
     },
     "Blowgun, to 2'": {
       "name": "Blowgun, to 2'"
+    },
+    "Blue Dragon": {
+      "classLevels": {
+        "0": {
+          "title": "Small"
+        },
+        "1": {
+          "title": "Large"
+        },
+        "2": {
+          "title": "Huge"
+        }
+      },
+      "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
+      "name": "Blue Dragon"
     },
     "Bola@4u775b0uMAQXFZp4": {
       "description": "<p>This weapon consists of a cord with weighted balls at the ends, designed to be whirled and thrown at a target. While it deals minimal damage (1d2 points), it has the potential to entangle, slow, or delay the victim.</p><ul><li><p><strong>Critical Effect</strong>: If the attack roll is a natural 20 (excluding modifiers), the victim must make a saving throw vs. death ray. On a failed save, the victim is immediately paralyzed and will die from strangulation in [[/r 1d6+2#Rounds before dying of strangulation]]<strong> (3-8 rounds total)</strong> unless rescued. If freed, the victim remains paralyzed for [[/r 2d6#Rounds paralyzed]]<strong> (2-12 rounds)</strong>. Creatures that do not breathe (e.g., constructs) are immune to this effect.</p></li><li><p><strong>Normal Effect</strong>: If the attack roll succeeds but is not a natural 20, the victim must still make a saving throw vs. death ray. A successful save negates all effects except for damage. On a failed save, the effect depends on the victim’s size or experience level, as determined by the <strong>Weapon Special Effects Table</strong>.</p></li><li><p><strong>Escaping the Bola</strong>:</p><ul><li>The victim may attempt a new saving throw during the hand-to-hand combat phase of each round. A successful save means the bola has been removed.</li><li>If another character helps to remove the bola, the victim rolls their own saving throw vs. death ray with a <strong>+2 bonus</strong>.</li><li>The bola can also be destroyed. If the victim has an edged weapon and chooses to destroy it, they may spend <strong>1 round</strong> doing so. Otherwise, the bola remains intact, and the victim may choose to drop it or hold onto it.</li></ul></li><li><p><strong>Possible Effects (from the Weapon Special Effects Table)</strong>:</p><ul><li><strong>Entangle</strong>: The victim cannot attack, move, or cast spells until they successfully make a saving throw.</li><li><strong>Slow</strong>: The victim is slowed, moving and attacking at half their normal rate and unable to cast spells.</li><li><strong>Delay</strong>: The victim automatically loses individual initiative for the next round.</li></ul></li></ul><p>This weapon only affects solid creatures. Creatures such as wraiths, spectres, ethereal beings, or water-based monsters (e.g., water elementals) are immune.</p><ul><li><p><strong>Encumbrance</strong>: Bolas are cumbersome to carry and can become tangled. For each additional bola carried, the encumbrance triples:</p><ul><li>1 bola = 5 cn</li><li>2 bolas = 15 cn</li><li>3 bolas = 45 cn, and so on.</li></ul></li></ul>",
@@ -1270,6 +1300,10 @@
       "name": "Chain Mail +1",
       "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
       "unidentifiedName": "Chain Mail"
+    },
+    "Charge": {
+      "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+      "name": "Charge"
     },
     "Charm Monster": {
       "description": "<p>This spell is identical in effect to the *Charm Person* spell but can affect any creature except an undead monster.</p>\n                      <p><strong>Multiple Targets:</strong> When cast on creatures with 3 Hit Dice or less, it charms 3d6 (3-18) creatures. For creatures with more than 3 Hit Dice, it affects only one target.</p>\n                      <p>Each creature may make a saving throw vs. spells to avoid the effect.</p>",
@@ -2543,6 +2577,21 @@
       "description": "<p>The Glide ability allows a character or creature to move smoothly through the air, typically descending gently from a height without falling rapidly. This ability enables controlled movement over distances, often allowing for safe landings and navigation in the air.</p>",
       "name": "Glide"
     },
+    "Gold Dragon": {
+      "classLevels": {
+        "0": {
+          "title": "Small"
+        },
+        "1": {
+          "title": "Large"
+        },
+        "2": {
+          "title": "Huge"
+        }
+      },
+      "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
+      "name": "Gold Dragon"
+    },
     "Gold Piece": {
       "name": "Gold Piece"
     },
@@ -2550,6 +2599,21 @@
       "description": "<p>A large 3- or 4-pronged hook made of specially hardened iron, used to anchor a rope. It can be thrown to hook onto surfaces, allowing the user to climb otherwise inaccessible areas. A successful attack roll is needed to secure it properly.</p>",
       "name": "Grappling Hook",
       "unidentifiedDesc": "<p>A large 3- or 4-pronged hook made of specially hardened iron, used to anchor a rope. It can be thrown to hook onto surfaces, allowing the user to climb otherwise inaccessible areas. A successful attack roll is needed to secure it properly.</p>"
+    },
+    "Green Dragon": {
+      "classLevels": {
+        "0": {
+          "title": "Small"
+        },
+        "1": {
+          "title": "Large"
+        },
+        "2": {
+          "title": "Huge"
+        }
+      },
+      "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
+      "name": "Green Dragon"
     },
     "Growth of Animal": {
       "description": "<p>This spell doubles the size of one normal or giant animal, increasing its strength, damage, and carrying capacity accordingly. The animal’s behavior, armor class, and hit points remain unchanged, and the spell has no effect on intelligent or fantastic creatures.</p>",
@@ -4602,6 +4666,21 @@
       "name": "Recorder",
       "unidentifiedName": "Recorder"
     },
+    "Red Dragon": {
+      "classLevels": {
+        "0": {
+          "title": "Small"
+        },
+        "1": {
+          "title": "Large"
+        },
+        "2": {
+          "title": "Huge"
+        }
+      },
+      "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
+      "name": "Red Dragon"
+    },
     "Reincarnation": {
       "description": "<p>This spell allows the caster to return a deceased character to life by magically creating a new body for their life force to inhabit. The spell requires at least a small part of the dead character's body to work.</p><h4>Effects:</h4><ul><li>The new body may not be the same race as the original. The DM may choose or roll on the provided tables.</li><li>If reincarnated as a different race, the character loses all racial abilities of the former body and gains those of the new form.</li><li>If reincarnated as a monster, the monster must be semi-intelligent (at least) and must be able to have the character's original alignment.</li><li>Class Restrictions: If a non-human character is reincarnated as a human, the DM may allow them to choose a new class. If an elf, dwarf, or halfling is reincarnated into another race, they follow the racial limitations.</li></ul><h4>Reincarnation Results:</h4><table style=\"width:97%\"><thead><tr><th>1d8 Roll</th><th>New Body Type</th></tr></thead><tbody><tr><td>1</td><td>Human</td></tr><tr><td>2</td><td>Human</td></tr><tr><td>3</td><td>Human</td></tr><tr><td>4</td><td>Dwarf</td></tr><tr><td>5</td><td>Elf</td></tr><tr><td>6</td><td>Halfling</td></tr><tr><td>7</td><td>Original Race</td></tr><tr><td>8</td><td>Monster (see below)</td></tr></tbody></table><h4>Monster Reincarnation:</h4><table style=\"width:97%\"><thead><tr><th>1d6 Roll</th><th>Lawful</th><th>Neutral</th><th>Chaotic</th></tr></thead><tbody><tr><td>1</td><td>Blink Dog</td><td>White Ape</td><td>Bugbear</td></tr><tr><td>2</td><td>Gnome</td><td>Bear*</td><td>Gnoll</td></tr><tr><td>3</td><td>Neanderthal</td><td>Centaur</td><td>Kobold</td></tr><tr><td>4</td><td>Giant Owl</td><td>Griffon</td><td>Manticore</td></tr><tr><td>5</td><td>Pegasus</td><td>Lizard Man</td><td>Orc</td></tr><tr><td>6</td><td>Treant</td><td>Pixie</td><td>Troglodyte</td></tr></tbody></table><p><em>* Any normal bear</em></p>",
       "name": "Reincarnation",
@@ -5040,6 +5119,10 @@
       "unidentifiedDesc": "<p>A Spellbook is an essential feature of any Magic-User's kit. This is where their spells and formulae are stored, and is used to prepare for spellcasting.</p><p>A smaller, more portable option is the leather-bound Traveling spellbook. This book is typically about 10” x 6.5” in size with 64 pages. It can store up to 64 levels of spells. Either will fit into a backpack or satchel. In general, a Magic-Users' starting book is assumed to be a Traveling book, but a player may start with a Reference book if the GM allows it.</p><p>The initial spellbook of a Magic-User is given as a gift from their instructors.</p>",
       "unidentifiedName": "Spellbook, travelling"
     },
+    "Spellcasting (Dragon)": {
+      "description": "<p>This dragon can cast spells.</p>",
+      "name": "Spellcasting (Dragon)"
+    },
     "Spells or Magic Staff": {
       "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
       "name": "Spells or Magic Staff",
@@ -5191,6 +5274,10 @@
       "name": "Swimming",
       "spellEffect": "Swim rate 180' at 3000cn encumbrance",
       "spellRange": "Self"
+    },
+    "Swoop (Dragon)": {
+      "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+      "name": "Swoop (Dragon)"
     },
     "Sword": {
       "description": "<p>When this spell is cast, a glowing sword made of magical energy appears next to the caster. The caster may direct the sword to attack any creature within 30 feet simply by concentrating.</p><h4>Combat Details:</h4><ul><li>The sword attacks twice per round.</li><li>It attacks using the caster's attack rolls and level.</li><li>Deals damage as a two-handed sword (1d10).</li><li>Can hit any target, including those requiring magical weapons to be harmed.</li></ul><h4>Rules & Mechanics:</h4><ul><li>The caster must concentrate to control the sword.</li><li>If concentration is broken, the sword stops attacking but remains in existence.</li><li>The sword remains for 1 round per caster level.</li><li>It cannot be destroyed except by <em>Dispel Magic</em> (normal success chance) or a <em>Wish</em>.</li></ul>",
@@ -6560,6 +6647,21 @@
       "unidentifiedDesc": "<p>A small wooden or metal whistle that can be used to make a loud signal. The distance that the sound can be heard from depends on the environment.</p>",
       "unidentifiedName": "Whistle"
     },
+    "White Dragon": {
+      "classLevels": {
+        "0": {
+          "title": "Small"
+        },
+        "1": {
+          "title": "Large"
+        },
+        "2": {
+          "title": "Huge"
+        }
+      },
+      "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
+      "name": "White Dragon"
+    },
     "Wine": {
       "description": "<p>A quart of common wine. It does not include a container and is often carried in a wineskin. Useful for social occasions or in some cases, as a barter item.</p>",
       "name": "Wine",
@@ -6633,6 +6735,7 @@
     "Constitution": "Constitution",
     "Currency": "Currency",
     "Dexterity": "Dexterity",
+    "Dragons": "Dragons",
     "Druid": "Druid",
     "Dwarf": "Dwarf",
     "Elf": "Elf",
