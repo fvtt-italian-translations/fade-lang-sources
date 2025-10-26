@@ -5822,7 +5822,8 @@
             "name": "Prono"
         },
         "Boost Agility": {
-            "spellDuration": "Istantaneo"
+            "spellDuration": "Istantaneo",
+            "spellRange": "Se stesso"
         },
         "Cone of Cold (Wand)": {
             "spellDuration": "Istantaneo"
@@ -5849,19 +5850,25 @@
             "unidentifiedName": "Bacchetta misteriosa"
         },
         "Fly (Potion)": {
-            "spellEffect": "Una creatura può volare"
+            "spellEffect": "Una creatura può volare",
+            "spellRange": "Se stesso"
         },
         "Giant Strength@iljOR1dQMVNY9Uzx": {
-            "spellDuration": "Istantaneo"
+            "spellDuration": "Istantaneo",
+            "spellRange": "Se stesso"
         },
         "Clairvoyance@IfMYxPRqHff6UUGt": {
             "name": "Chiaroveggenza"
         },
         "Clairvoyance@VusfGQ4Iu6RYwxqn": {
-            "name": "Chiaroveggenza"
+            "name": "Chiaroveggenza",
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
         },
         "Climbing": {
-            "name": "Scalare"
+            "name": "Scalare",
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
         },
         "Potion of Clairaudience": {
             "unidentifiedName": "Pozione Misteriosa",
@@ -5880,10 +5887,13 @@
             "unidentifiedName": "Pozione Misteriosa"
         },
         "Clairaudience": {
-            "name": "Chiaroudienza"
+            "name": "Chiaroudienza",
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
         },
         "Invisibility (Potion)": {
-            "spellEffect": "1 creatura o oggetto"
+            "spellEffect": "1 creatura o oggetto",
+            "spellDuration": "7-12 turni"
         },
         "Potion of Diminution": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -5894,10 +5904,13 @@
             "unidentifiedName": "Pozione Misteriosa"
         },
         "ESP* (Potion)": {
-            "spellEffect": "Tutti i pensieri in una direzione"
+            "spellEffect": "Tutti i pensieri in una direzione",
+            "spellDuration": "7-12 turni"
         },
         "Fire Resistance": {
-            "name": "Resistenza al fuoco"
+            "name": "Resistenza al fuoco",
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
         },
         "Potion of Elemental Form": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -5923,11 +5936,13 @@
             "unidentifiedName": "Pozione Misteriosa"
         },
         "Longevity": {
-            "spellDuration": "Istantaneo"
+            "spellDuration": "Istantaneo",
+            "spellRange": "Se stesso"
         },
         "Luck": {
             "name": "Fortuna",
-            "spellDuration": "Istantaneo"
+            "spellDuration": "Istantaneo",
+            "spellRange": "Se stesso"
         },
         "Merge": {
             "spellDuration": "Istantaneo"
@@ -5957,10 +5972,12 @@
         },
         "Poison": {
             "name": "Veleno",
-            "spellDuration": "Istantaneo"
+            "spellDuration": "Istantaneo",
+            "spellRange": "Se stesso"
         },
         "Polymorph Self (Potion)": {
-            "spellEffect": "L'incantatore può cambiare forma"
+            "spellEffect": "L'incantatore può cambiare forma",
+            "spellRange": "Se stesso"
         },
         "Potion of Poison": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -5971,7 +5988,8 @@
             "unidentifiedName": "Pozione Misteriosa"
         },
         "Cure Critical Wounds (Potion)": {
-            "spellEffect": "Cura una creatura vivente"
+            "spellEffect": "Cura una creatura vivente",
+            "spellRange": "Se stesso"
         },
         "Detect Invisible@SweWOsKvrGVPiDno": {
             "name": "Individuazione dell'Invisibile"
@@ -6014,10 +6032,12 @@
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>"
         },
         "Swimming": {
-            "name": "Nuotare"
+            "name": "Nuotare",
+            "spellRange": "Se stesso"
         },
         "Water Breathing@9RK1dlM5apL9gUm8": {
-            "name": "Respirare sott'Acqua"
+            "name": "Respirare sott'Acqua",
+            "spellRange": "Se stesso"
         },
         "Potion of Treasure Finding": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -6044,6 +6064,137 @@
             "spellDuration": "7-12 turni",
             "spellEffect": "Si mimetizza con l'ambiente circostante.",
             "spellRange": "Se stesso"
+        },
+        "Fading": {
+            "name": "Sbiadire"
+        },
+        "Diminution": {
+            "spellRange": "Se stesso"
+        },
+        "Control Undead": {
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
+        },
+        "Treasure Finding": {
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
+        },
+        "Control  Plant": {
+            "spellDuration": "7-12 turni"
+        },
+        "Boost Strength": {
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
+        },
+        "Bug Repellent@G8fjBG7DeRYIHUuv": {
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
+        },
+        "Ethereality (Potion)": {
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
+        },
+        "Haste (Potion)": {
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
+        },
+        "Black Dragon": {
+            "classLevels": {
+                "0": {
+                    "title": "Piccola"
+                },
+                "1": {
+                    "title": "Grande"
+                },
+                "2": {
+                    "title": "Enorme"
+                }
+            },
+            "name": "Drago Nero"
+        },
+        "Blue Dragon": {
+            "classLevels": {
+                "0": {
+                    "title": "Piccola"
+                },
+                "1": {
+                    "title": "Grande"
+                },
+                "2": {
+                    "title": "Enorme"
+                }
+            },
+            "name": "Drago Blu"
+        },
+        "Charge": {
+            "name": "Carica"
+        },
+        "Gold Dragon": {
+            "classLevels": {
+                "0": {
+                    "title": "Piccola"
+                },
+                "1": {
+                    "title": "Grande"
+                },
+                "2": {
+                    "title": "Enorme"
+                }
+            },
+            "name": "Drago d'Oro"
+        },
+        "Red Dragon": {
+            "classLevels": {
+                "0": {
+                    "title": "Piccola"
+                },
+                "1": {
+                    "title": "Grande"
+                },
+                "2": {
+                    "title": "Enorme"
+                }
+            },
+            "name": "Drago Rosso"
+        },
+        "White Dragon": {
+            "classLevels": {
+                "0": {
+                    "title": "Piccola"
+                },
+                "1": {
+                    "title": "Grande"
+                },
+                "2": {
+                    "title": "Enorme"
+                }
+            },
+            "name": "Drago Bianco"
+        },
+        "Green Dragon": {
+            "classLevels": {
+                "0": {
+                    "title": "Piccola"
+                },
+                "1": {
+                    "title": "Grande"
+                },
+                "2": {
+                    "title": "Enorme"
+                }
+            },
+            "name": "Drago Verde"
+        },
+        "Control Animals": {
+            "spellDuration": "7-12 turni",
+            "spellRange": "Se stesso"
+        },
+        "Defense (Potion)": {
+            "spellRange": "Se stesso"
+        },
+        "Invulnerability (Potion)": {
+            "spellRange": "Se stesso",
+            "spellDuration": "7-12 turni"
         }
     },
     "label": "Oggetti Classi Abilità",
@@ -6102,6 +6253,7 @@
         "Rods": "Verghe",
         "Staves": "Bastoni",
         "Other": "Altro",
-        "Special": "Speciale"
+        "Special": "Speciale",
+        "Dragons": "Draghi"
     }
 }
