@@ -1770,6 +1770,12 @@
       "description": "<p><span style=\"font-family: Barlow, sans-serif\"><em style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Curse</em> imposes a penalty or misfortune on the target, with effects limited only by the caster's imagination. Typical curses include a -4 penalty to attack rolls, a -2 penalty to saving throws, halving of a prime requisite, or a -4 penalty on others' reaction rolls.</span></p>",
       "name": "Cursed"
     },
+    "Cursed Scroll": {
+      "description": "<p>Unfortunately, when any writing on a cursed scroll is even seen, the victim is immediately cursed. No reading is necessary. The GM must make up each scroll's curse. Examples of a few common curses include the following:</p><ul><li><p>The reader turns into a frog (or some other harmless animal).</p></li><li><p>A wandering monster of the same level as the reader appears and attacks the reader by surprise (a free attack with bonuses).</p></li><li><p>One magical item owned by the reader disappears (the item is chosen or randomly determined by the GM).</p></li><li><p>The reader loses one level of experience, as if struck by a wight. (The GM should roll again for a first-level character to avoid unfair \"instant death.\")</p></li><li><p>The reader's Prime Requisite must be re-rolled.</p></li><li><p>Future wounds will take twice as long to heal, and healing spells will only restore half normal amounts until the curse is lifted.</p></li></ul><p>Only a <em>remove curse</em> spell can remove a curse of this nature. However, the GM may allow the cursed character to be cured by a high-level NPC cleric or magic-user, who will demand that the character complete a special adventure or perform a worthy but difficult task.</p>",
+      "name": "Cursed Scroll",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
     "Dagger +1": {
       "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. This dagger has a damage bonus of [[@mod.dmg]] and a to-hit bonus of [[@mod.toHit]].</p><p></p>",
       "name": "Dagger +1",
@@ -4863,9 +4869,117 @@
       "unidentifiedDesc": "<p>An oiled leather tube with a cap. Not completely watertight.</p>",
       "unidentifiedName": "Scroll Case (water-tight)"
     },
-    "Scroll of Stone to Flesh": {
-      "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, <strong>Flesh to Stone</strong>, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p>",
-      "name": "Scroll of Stone to Flesh",
+    "Scroll of Communication": {
+      "description": "<p>This is actually two scrolls, one stored inside the other. They are easily separated. If a message is written on one scroll, it immediately appears on the other. There is no limit to the range, as long as both scrolls are on the same plane of existence. The message may be up to 100 words in length. If one message is erased, the other disappears as well. Each message must be erased before another can be written, and there is a 5% chance (not cumulative) that any erasing will destroy the magic of both scrolls.</p>",
+      "name": "Scroll of Communication",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Creation": {
+      "description": "<p>The user of this valuable scroll may draw a picture of any nonliving item up to 5' × 10' × 1' in size (though drawn much smaller) and up to 5,000 cn in weight. The item may then be taken off the scroll and used. Magical items and living creatures cannot be created, but mundane armor, weapons, and other gear can be formed. The item vanishes on the creator’s command or after 24 hours. The scroll can create one item per day.</p>",
+      "name": "Scroll of Creation",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Delay": {
+      "description": "<p>This is a scroll of a single spell. When casting the spell from the scroll, the user states a delay from 0 to 12 rounds. If the user keeps the scroll on their person, they have complete control of the spell when it occurs. If the scroll is not carried by the user, the spell effect appears around the scroll itself, affecting the nearest creature if the spell requires a recipient. <em>The scroll is not harmed by its own effect, even for fire-type spells.</em> For example, an elf reads a delay lightning bolt scroll, delays it 8 rounds, and then puts the scroll away. Eight rounds later, when the <em>lightning bolt</em> appears, the elf may choose range and direction by concentration, as if casting the spell then.</p>",
+      "name": "Scroll of Delay",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Equipment": {
+      "description": "<p>This parchment is inscribed with the names of six normal items (which the GM selects or randomly determines from the standard adventuring gear). When any item's name is read aloud, the item appears within 10' of the scroll; the name disappears. The item will remain for 24 hours or until the user commands it to vanish. The name reappears on the scroll when the item vanishes. Any three of the six items listed on the scroll can be created each day.</p>",
+      "name": "Scroll of Equipment",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Illumination": {
+      "description": "<p>This scroll bears the drawing of a flame. If the scroll is set afire, it will burn with a clear light in a 60' radius, lasting for up to 6 hours per day. The burning does not harm the scroll, but it is nevertheless normal fire (and can be used to light torches, for example). The flame cannot be extinguished except by water or on command of the user; no wind, normal or magical, can cause it to flicker. This item may already be lit when found.</p>",
+      "name": "Scroll of Illumination",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Mages": {
+      "description": "<p>This scroll is blank; it is used to identify magical effects. The user may hold the scroll and command it to identify any one chosen magical effect within 30'. The name of the magical spell or effect then appears on the scroll, along with the level of the caster of the spell effect. The scroll will identify one magical effect per day.</p>",
+      "name": "Scroll of Mages",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Mapping": {
+      "description": "<p>This scroll is blank. When held and commanded to write, this scroll will draw a map of an area chosen (that is, the GM accurately draws the map for the players). The area must be completely within 100' of the scroll, and it may be up to 10,000 square feet in size. The scroll has a 1-in-6 chance to detect secret doors, but it will not draw what lies beyond them. The scroll functions once per day.</p>",
+      "name": "Scroll of Mapping",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Portals": {
+      "description": "<p>This effect creates a pass‑wall effect identical to the magic‑user spell. When placed on a surface and commanded to function, the scroll disappears and a 5'‑diameter hole appears up to 10' deep. The effect does not affect living or magical things. The hole disappears after 3 turns or when commanded by the reader; when it vanishes, the scroll reappears. The scroll may be used twice per day.</p>",
+      "name": "Scroll of Portals",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Protection (Elementals)": {
+      "description": "<p>This scroll creates a circle of protection (10' radius) around the reader. No elemental can attack those within the circle unless attacked first in hand-to-hand combat. Once attacked, an elemental may attack in return. The effect lasts for <strong>2 turns</strong> and moves with the reader.</p><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+      "name": "Scroll of Protection (Elementals)",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Protection (Lycanthropes)": {
+      "description": "<p>Protection from Lycanthropes: When read, this scroll will protect all those within the circle for <strong>6 turns</strong> against a variable number of lycanthropes. The number of lycanthropes affected varies according to their type, as follows.</p><ul><li><p>Werebats, wererats, werefoxes: [[/r 1d10 #Werebats, wererats, werefoxes affected]] affected</p></li><li><p>Wereboars, werewolves: [[/r 1d8 #Wereboars, werewolves affected]] affected</p></li><li><p>Wereseals, weresharks: [[/r 1d6 #Wereseals, weresharks affected]] affected</p></li><li><p>Werebears, weretigers: [[/r 1d4 #Werebears, weretigers affected]] affected</p></li><li><p>Devil swine: [[/r 1d2 #Devil swine affected]] affected</p></li></ul><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+      "name": "Scroll of Protection (Lycanthropes)",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Protection (Magic)": {
+      "description": "<p>Protection from Magic: This scroll creates a circle of protection (10' radius) around the reader. No spells or spell effects (including those from items) may enter or leave the circle. The effect lasts for [[/r 1d4 #Protection from Magic circle duration in turns]] turns, moves with the reader, and may not be broken except by a wish.</p><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+      "name": "Scroll of Protection (Magic)",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Protection (Undead)": {
+      "description": "<p>Protection from Undead: When read, this scroll will protect all those within the circle from a variable number of undead for <strong>6 turns</strong>. The number of undead affected varies according to their type, as follows.</p><ul><li><p>Skeletons, zombies, ghouls: [[/r 2d12 #Skeletons, zombies, ghouls affected]] affected</p></li><li><p>Wights, wraiths, mummies: [[/r 2d6 #Wights, wraiths, mummies affected]] affected</p></li><li><p>Specters (or larger monsters): [[/r 1d6 #Specters (or larger monsters) affected]] affected</p></li></ul><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+      "name": "Scroll of Protection (Undead)",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Questioning": {
+      "description": "<p>The user of this scroll may ask questions of any nonliving nonmagical objects; their answers will appear on the scroll. The scroll will display up to three answers per day. The answers are given as if the objects were living beings, but are limited to simple observations as if the objects could see, hear, and smell. The scroll <em>cannot</em> be used to question living or magical things.</p>",
+      "name": "Scroll of Questioning",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Repetition": {
+      "description": "<p>This scroll appears to be a normal scroll of one spell, and the standard restrictions apply to its use. However, 1 turn after the spell is cast, the scroll creates the same spell effect a second time, centered on the scroll or affecting the nearest creature if a recipient is part of the spell process. As with a normal spell scroll, any spell cast from it is then gone; however, another spell may be written on the scroll <em>if it is of the same level</em>, and the <em>repetition</em> effect will again apply.</p>",
+      "name": "Scroll of Repetition",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Seeing": {
+      "description": "<p>This scroll is blank. When held and commanded to write, it will draw pictures of creatures within 100' in any area chosen by the user. Up to four different types of creatures can be pictured. The scroll will function once per day, regardless of the number of creatures pictured.</p>",
+      "name": "Scroll of Seeing",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Shelter": {
+      "description": "<p>This scroll is inscribed with an elaborate drawing of a 10'-square room, lit, with two beds, a table and two chairs, food and drink for two on the table, and a pair of normal swords on the far wall, each hung over a shield. If the scroll is hung on any vertical surface, the room pictured may be entered and the items used. The food and drink are pure and will nourish any living thing. The swords and shields may be taken down and used. However, none of the items can be removed from the room.</p><p>If the scroll is taken down, the room cannot be entered or left, but remains in existence on another dimension. If any creatures are in the room when the scroll is taken down, the air inside permits survival for up to 24 hours. No creatures so caught can escape by any means other than a wish. The food and drink are replenished each time the scroll is taken down. The room can be created once per day and will remain for up to 12 hours per use; if not removed in that time, the scroll will fall down by itself.</p>",
+      "name": "Scroll of Shelter",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Spell Catching": {
+      "description": "<p>This scroll is blank when found. It may be used to \"catch\" a spell cast at the user. It cannot catch spell‑like effects, nor can it catch device‑produced effects (such as from a wand), but a spell cast from a scroll can be caught. There are four types of this scroll; roll [[/r 1d10 #See spell capacity table for results.]] to determine the capacity.</p><p>1–4: 1st or 2nd level spells</p><p>5–7: 1st to 4th level spells</p><p>8–9: 1st to 6th level spells</p><p>10: 1st to 8th level spells</p><p>The user of the scroll must hold it up like a shield; no other action is possible while using the scroll. The user must then make a saving throw vs. spells, with a +4 bonus to the roll; if successful, the incoming spell has no effect and is instead transferred to the scroll, appearing as a normal scroll spell. The exact spell caught will not be known until a <em>read magic</em> spell is used to identify it.</p><p>The scroll can only hold one spell at a time; the spell caught must either be used or copied into a spellbook (magic‑user spells only) before the scroll can catch another spell. Any type of spell (magical, clerical, or druidic) can be caught as long as the level does not exceed the scroll's capacity. The <em>scroll of spell catching</em> cannot affect spells of levels greater than the given capacity, and it can catch a maximum of one spell per day.</p>",
+      "name": "Scroll of Spell Catching",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Trapping": {
+      "description": "<p>This scroll can create one trap. The type of trap differs by the placement of the scroll. The scroll is destroyed when the trap is created. If placed on a floor, a hidden pit trap is created; if on a ceiling, a falling block trap appears. On walls, a poison dart or gas trap will be created. The exact trap is left to the GM's design. The trap created is real and is not illusory or magical.</p>",
+      "name": "Scroll of Trapping",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Scroll of Truth": {
+      "description": "<p>This scroll is blank when found. The user may ask a question of any living being within 30'; the complete and true answer appears on the scroll, read from the victim's mind by a powerful version of <em>ESP</em>. Note that the answer is true only within the limits of the victim's knowledge. The scroll will display one answer per day.</p>",
+      "name": "Scroll of Truth",
       "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
       "unidentifiedName": "Mysterious Scroll"
     },
@@ -5106,6 +5220,18 @@
     "Spell Research": {
       "description": "<p>A character can attempt to create a new spell, provided it is of a level they can cast. The process requires:</p><ul><li><p>1,000 gp per spell level</p></li><li><p>Two weeks of research per spell level</p></li><li><p>Rare components, often necessitating an adventure to obtain</p></li><li><p>A fully stocked laboratory or library</p></li></ul><p>The chance of success depends on the character's Intelligence score and level, with modifications for spell difficulty. If a research attempt fails, the process must be restarted, but each failure grants a +5% cumulative bonus to future attempts.</p><p>Typically, a character does not have a sufficient library for advanced research until reaching 18th level, or at least 9th level if they have collected extensive magical tomes. While research is technically possible at any level, lower-level characters may struggle to meet the requirements.</p>",
       "name": "Spell Research"
+    },
+    "Spell Scroll (Choose spell)": {
+      "description": "<p>Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
+      "name": "Spell Scroll (Choose spell)",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
+    "Spell Scroll (Stone to Flesh)": {
+      "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, <strong>Flesh to Stone</strong>, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p><p>Use Spell Scrolls in the magical item subtable for scrolls to find exact spell levels or choose spells as appropriate. Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
+      "name": "Spell Scroll (Stone to Flesh)",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
     },
     "Spellbook": {
       "description": "<p>The spell book is a sizable, bulky item, approximately 2 feet square and 2–6 inches thick, weighing at least 20 pounds. It cannot fit inside any normal sack, regardless of size, but can be carried in a backpack or saddlebag. Written in magical script, the spell book can only be read by its owner unless another individual uses a read magic spell.</p>",
@@ -6426,6 +6552,12 @@
       "spellDuration": "7-12 turns",
       "spellEffect": "Detect direction and distance of treasure",
       "spellRange": "Self"
+    },
+    "Treasure Map": {
+      "description": "<p>Each map should be made in advance by the GM. Such maps show a route to the location of a treasure in a dungeon or a wilderness area. The treasure is usually hidden or protected by monsters, traps, and/or magic. Based on the type of treasure given, the GM should select a challenging monster (who has a similar treasure type) and design the map and monster lair accordingly. Note that the map may be partially incorrect, omitting an important detail (such as the type of monsters, dangerous traps, etc.) or giving some false information; however, the treasure mentioned should actually be there. Sometimes maps are only partially complete or are written in the form of a riddle. And some can only be read by a <em>read languages</em> spell.</p><p><em>Normal treasure</em> contains coins and gems but no magical items, while a <em>magical treasure</em> may include some coins and a few gems of low value in addition to magical items. A <em>combined treasure</em> has coins, magical items, and valuable gems or jewelry in roughly equal proportions. <em>Special treasure</em> should contain at least one permanent magical item, such as a staff or sword; these items should be mentioned on the map.</p>",
+      "name": "Treasure Map",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
     },
     "Trident +1": {
       "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
