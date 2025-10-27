@@ -2483,10 +2483,6 @@
           "description": "The thick, tough hide of the Great Boar provides an effective Armor Class of 3.",
           "name": "Thick Hide"
         },
-        "EDOSQgktCB9etamy": {
-          "description": "The Great Boar can charge for 20 yards before attacking, dealing double damage with its tusk attack.",
-          "name": "Charge Attack"
-        },
         "G3223FvWrIDoBsJT": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
@@ -2510,6 +2506,10 @@
         "hOPewdCGYxBcJfUA": {
           "description": "A powerful tusk attack dealing 2d8 points of damage. If the Great Boar charges for 20 yards, it deals double damage.",
           "name": "Massive Tusk"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
         }
       },
       "monsterType": "Giant Animal",
@@ -2522,10 +2522,6 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
-        },
-        "CuHrVyr3Q9hDk85M": {
-          "description": "The boar can charge for 20 yards before attacking, dealing double damage with its tusk attack.",
-          "name": "Charge Attack"
         },
         "I3ieIgQEX3l5msci": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -2545,6 +2541,10 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
         },
         "qIzvfSZfo94vL04v": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -3023,6 +3023,10 @@
           "name": "Arrows",
           "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
           "unidentifiedName": "Arrows"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
         },
         "pdgwH0RNp3yfsb2n": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -3920,6 +3924,10 @@
           "name": "Magic Wand",
           "shortName": "Wand"
         },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
+        },
         "slDcAwRqHnXU7I6n": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
           "name": "Dragon Breath",
@@ -3963,6 +3971,10 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
         },
         "xZMsP2cuQCt97ulC": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -4091,6 +4103,10 @@
         "o7nGGeDlwNs0Z2v8": {
           "description": "Thick hide providing natural defense.",
           "name": "Natural Armor"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
         },
         "qMMvcVbIPDaIC1xe": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -7703,6 +7719,10 @@
           "name": "Dragon Breath",
           "shortName": "Breath"
         },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
+        },
         "szIAigQ76eYe3evs": {
           "description": "<p>Thick natural hide provides AC 5.</p>",
           "name": "Thick Hide"
@@ -7728,6 +7748,10 @@
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
           "shortName": "Death"
+        },
+        "W7b4buDeoPUSCjbH": {
+          "description": "<p>The ability to become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
+          "name": "Ethereal Form"
         },
         "YeEauScH0dtCAgBn": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -26429,11 +26453,6 @@
         "IcsW9rDIgVwbq3js": {
           "name": "Hide"
         },
-        "R6K9LIXABVZN1D5m": {
-          "description": "Can charge for double damage on the first attack or any attack after moving 20 yards away from an enemy.",
-          "gmNotes": "Increases damage potential significantly.",
-          "name": "Charge"
-        },
         "RUe6QzHQrRr1vRjc": {
           "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
           "name": "Death Ray or Poison",
@@ -26446,6 +26465,10 @@
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
           "name": "Turn to Stone or Paralysis",
           "shortName": "Stone"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
         },
         "skHaMOWXVbBJeDOV": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -26895,6 +26918,10 @@
         "ia5ZpAJE2P7foDys": {
           "description": "Muscular hooves capable of delivering swift, forceful strikes.",
           "name": "Hooves"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
         },
         "tOCMJBttGup0Vsas": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
