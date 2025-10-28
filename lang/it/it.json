@@ -1329,17 +1329,6 @@
         }
     },
     "FADE_TRANSLATIONS": {
-        "monsterAlignment": {
-            "Neutral": "Neutrale",
-            "Lawful": "Legale",
-            "Chaotic": "Caotico",
-            "Any": "Qualsiasi",
-            "None": "Nessuno",
-            "Chaotic or Neutral": "Caotico o Neutrale",
-            "Lawful or Neutral": "Legale o Neutrale",
-            "Any (often Chaotic)": "Qualsiasi (spesso Caotico)",
-            "Lawful (with master) or Chaotic (without)": "Legale (con maestro) o Caotico (senza)"
-        },
         "spellRange": {
             "Touch": "Tocco",
             "Personal": "Se stesso/a"
@@ -1348,27 +1337,6 @@
             "Instantaneous": "Istantaneo",
             "Permanent": "Permanente",
             "Concentration": "Concentrazione"
-        },
-        "monsterSize": {
-            "M": "M",
-            "S": "S",
-            "L": "L",
-            "G": "G",
-            "I": "I",
-            "T": "T"
-        },
-        "classSpecies": {
-            "Elf": "Elfo",
-            "Halfling": "Halfling",
-            "Human": "Umano",
-            "Dwarf": "Nano",
-            "Dragon": "Drago (Raro)"
-        },
-        "classAlignment": {
-            "Chaotic": "Caotico",
-            "Lawful": "Legale",
-            "Any": "Qualsiasi",
-            "Neutral": "Neutrale"
         }
     }
 }
