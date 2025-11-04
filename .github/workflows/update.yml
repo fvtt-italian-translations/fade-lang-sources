@@ -75,6 +75,11 @@ jobs:
         working-directory: ./compendium
         run: npm install
 
+      - name: Compendiums - Npm run comppacks
+        if: ${{ steps.cache-packs.outputs.cache-hit != 'true' }}
+        working-directory: ./compendium
+        run: npm run comppacks
+
       - name: Compendiums - Extract
         if: ${{ steps.cache-packs.outputs.cache-hit != 'true' }}
         working-directory: ./main
