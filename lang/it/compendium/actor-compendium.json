@@ -5753,7 +5753,7 @@
                     "shortName": "Morte"
                 }
             },
-            "name": "Orchetto",
+            "name": "Orco",
             "monsterType": "Umanoide"
         },
         "Pixie": {
@@ -5761,9 +5761,9 @@
             "items": {
                 "YdQ1lNqYYchoy68o": {
                     "description": "Il folletto accoltella con un piccolo pugnale.",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "Il folletto accoltella con un piccolo pugnale.",
-                    "unidentifiedName": "Pugnale"
+                    "unidentifiedName": "pugnale"
                 },
                 "ebMKjVg75Bb9FjZ3": {
                     "description": "La pelle resistente e l'agilità del folletto forniscono una Classe Armatura naturale 3.",
@@ -5771,7 +5771,7 @@
                 },
                 "mmD0etPn8NoFMAbx": {
                     "description": "I Folletti ottengono sempre la sorpresa quando attaccano invisibili. Non possono essere attaccati nel primo round di combattimento. Nei round successivi, gli attaccanti subiscono una penalità di -4 per colpire.",
-                    "name": "Attacco di Sorpresa"
+                    "name": "Attacco Improvviso"
                 },
                 "IiuSrnVRpKfkkc9O": {
                     "name": "Pietrificazione o Paralisi",
@@ -5799,15 +5799,15 @@
                     "shortName": "Incantesimo"
                 },
                 "AoXEPSwDTZ3Ol3zZ": {
-                    "name": "Invisibilità"
+                    "name": "Invisibilita'"
                 },
                 "pcdBLWKxB0T2tZST": {
                     "gmNotes": "Capacità di volo dei pipistrelli giganti.",
                     "name": "Volo"
                 }
             },
-            "name": "Folletto",
-            "monsterType": "Umanoide (Raro)"
+            "name": "Pixie",
+            "monsterType": "Umanoide (Comune)"
         },
         "Robber Fly": {
             "biography": "<p>Il Tafano Predatore è un insetto gigante lungo 90 cm che assomiglia a un'ape con le sue strisce nere e gialle. Tuttavia, a differenza delle api, il Tafano Predatore è un carnivoro che caccia le sue prede con pazienza e furtività. Da lontano, può essere facilmente scambiato per un'ape gigante.</p><p>I Tafani Predatori preferiscono predare le api giganti, ma possono anche attaccare gli avventurieri quando hanno fame. Sono immuni al veleno delle api. Questi tafani spesso si nascondono nelle ombre, aspettando di tendere un'imboscata alla loro preda, ottenendo la sorpresa con un risultato di 1-4 su 1d6. Possono saltare fino a 9 metri per mordere i loro bersagli.</p><p><strong>Abilità Speciali:</strong> Attacco a sorpresa.<br><strong>Terreno:</strong> Spazi aperti, Rovine, Boschi.</p>",
@@ -5817,7 +5817,7 @@
                 },
                 "L9PSV1hEsLuuUCHW": {
                     "description": "I Tafani Predatori sono cacciatori pazienti, ottenendo la sorpresa con un risultato di 1-4 su 1d6. Possono saltare fino a 9 metri per attaccare.",
-                    "name": "Attacco di Sorpresa"
+                    "name": "Attacco Improvviso"
                 },
                 "bSZqfpWL7yfZArgJ": {
                     "description": "Il robusto esoscheletro del tafano predatore fornisce una Classe Armatura naturale 6.",
@@ -5899,7 +5899,7 @@
                 }
             },
             "name": "Roc Gigantesco",
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Medusa, Elemental Plane of Earth": {
             "biography": "<p>Sul Piano Elementale della Terra, la medusa è una massa contorta di tentacoli lunghi 3 metri che circondano un corpo sferico coperto di occhi su peduncoli lunghi 30 centimetri e una bocca dotata di zanne. Attacca con 10 tentacoli per turno, ogni colpo richiedendo un tiro salvezza vs. paralisi (2d4 turni se fallito). Le vittime paralizzate vengono tirate verso la bocca, subendo 2d8 danni per turno (nessun tiro necessario mentre sono paralizzate).</p><strong>Terreno:</strong> Piano Elementale della Terra</p>",
@@ -5998,7 +5998,7 @@
                 },
                 "xLZRb0TXaQQfMq8N": {
                     "description": "Il pegaso calcia con i suoi potenti zoccoli.",
-                    "name": "Zoccoli"
+                    "name": "zoccolo"
                 },
                 "Eyg3jCg5UoZTVozl": {
                     "name": "Veleno o Raggio della Morte",
@@ -6031,7 +6031,7 @@
                 }
             },
             "name": "Pegaso",
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Roc, Large": {
             "biography": "<p>I Roc Grandi sono enormi uccelli rapaci che assomigliano a aquile. Sono altamente legali e generalmente poco amichevoli verso esseri neutrali o caotici. Queste creature preferiscono vivere in isolamento e attaccano qualsiasi intruso vicino ai loro nidi a meno che non siano avvicinati con cautela.</p><p>I Roc Grandi costruiscono i loro nidi nelle alte montagne e possono avere 1d6 uova o giovani nella loro tana. Possono essere addestrati come bestie da cavalcare se catturati da giovani.</p><p><strong>Terreno:</strong> Montagne (tana), Qualsiasi (caccia).<br><strong>Carico:</strong> 1.000 mon x DV a piena velocità; 2.000 mon x DV a metà velocità.<br><strong>Moltiplicatore per bardatura:</strong> x 5.</p>",
@@ -6076,7 +6076,7 @@
                 }
             },
             "name": "Roc Grande",
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Snake, Sea Snake": {
             "items": {
@@ -6163,7 +6163,7 @@
                 }
             },
             "name": "Roc Piccolo",
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Snake, Pit Viper": {
             "biography": "<p>La Vipera Butterata è un serpente velenoso lungo 1,5 metri di colore grigio-verdastro. La sua testa ha piccole cavità che funzionano come sensori di calore, dandogli un vantaggio automatico di iniziativa e un'infravisione a 18 metri.</p>\n<p>Un morso riuscito richiede un tiro salvezza contro il veleno o la vittima muore istantaneamente.</p>\n<strong>Terreno:</strong> Qualsiasi eccetto Artico.<br>",
@@ -6221,7 +6221,7 @@
                 },
                 "GHvrtLvoCrG8rZtx": {
                     "description": "Crea ragnatele simili all'incantesimo *ragnatela*, intrappolando la preda.",
-                    "name": "Ragnatele"
+                    "name": "Ragnatela"
                 },
                 "olWYAuYGnUkwSoz0": {
                     "name": "Armatura Naturale"
@@ -6259,7 +6259,7 @@
             "items": {
                 "b9cvkt0nUQ5wxsJo": {
                     "description": "Quando cinque spiritelli agiscono insieme, possono lanciare una maledizione sotto forma di scherzo. Gli effetti sono lasciati all'immaginazione del DM (come far inciampare qualcuno o far crescere il naso di una persona). La maledizione può essere contrastata con un incantesimo di scaccia maledizioni.",
-                    "name": "Malediazione"
+                    "name": "Maledizione"
                 },
                 "niir3TWuWrJydYo7": {
                     "description": "La natura agile degli spiritelli conferisce loro una Classe Armatura naturale 5.",
@@ -6474,7 +6474,7 @@
             "items": {
                 "962hZ3AYJQWj3BF0": {
                     "description": "Una volta attaccato, l'Uccello Stigeo succhia il sangue della vittima, infliggendo 1d3 danni per round.",
-                    "name": "Succhia Sangue"
+                    "name": "Risucchio di Sangue"
                 },
                 "Ct9sx25RZDpfsQw5": {
                     "name": "Carapace dell'Uccello Stigeo (Armatura)"
@@ -6514,7 +6514,7 @@
                 }
             },
             "name": "Uccello Stigeo",
-            "monsterType": "Mostro (Comune)"
+            "monsterType": "Mostro"
         },
         "Unicorn": {
             "biography": "<p>Un Unicorno assomiglia a un cavallo snello e aggraziato con un lungo corno a spirale che sporge dalla sua fronte. Conosciuti per la loro bellezza, nessuno ha mai visto un unicorno non attraente. Sebbene siano timidi ed elusivi, diventano feroci difensori quando minacciati. Solo una fanciulla pura può parlare o cavalcare un unicorno, formando un legame con queste creature mistiche.</p>\n        <p>Gli unicorni possiedono la capacità magica di teletrasportarsi (e il loro cavaliere) fino a 110 metri una volta al giorno. Se hanno un cavaliere, il loro morale migliora a 9. Questi esseri rari preferiscono vivere nelle profondità delle foreste, lontano dalle creature senzienti. I corni degli unicorni sono molto ambiti dai maghi malvagi per l'uso in pozioni alchemiche e ricerche magiche, rendendoli obiettivi per i cacciatori.</p>\n        <strong>Terreno:</strong> Boschi.<br>\n        <strong>Carico:</strong> 2.000 mon a piena velocità; 4.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di Bardatura:</strong> x 1.<br>",
@@ -6525,7 +6525,7 @@
                 },
                 "rXRh4AZqtTGeUEwD": {
                     "description": "Un attacco con lo zoccolo che infligge 1d8 danni.",
-                    "name": "Zoccolo"
+                    "name": "zoccolo"
                 },
                 "s28AJJ9ZNBMJWG5G": {
                     "description": "Un potente attacco con il corno che infligge 1d8 danni.",
@@ -6562,7 +6562,7 @@
                 }
             },
             "name": "Unicorno",
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Wyvern": {
             "biography": "<p>Una viverna è una creatura temibile che ricorda un drago a due zampe, completo di una lunga coda appuntita. A differenza dei veri draghi, le viverne mancano degli arti anteriori e sono di solito viste in tonalità di marrone, rosso o rosso ruggine. Si trovano comunemente in regioni montuose o in foreste dense, anche se possono essere incontrate in molti ambienti.</p>\n        <p>In battaglia, le viverne usano sia il morso che il pungiglione velenoso. La creatura inarca la coda sopra la testa per pungere i nemici di fronte a essa, e coloro che vengono colpiti dal pungiglione devono superare un tiro salvezza contro veleno o morire. Le viverne sono carnivore, spesso predano grandi animali da mandria come alci e cervi, ma non esiteranno ad attaccare gli umani se incontrate.</p>\n        <strong>Terreno:</strong> Montagna, Boschi.<br>\n        <strong>Carico:</strong> 3.500 mon a piena velocità; 7.000 mon a metà velocità.<br>\n        <strong>Moltiplicatore di Bardatura:</strong> x 3.<br>",
@@ -6698,7 +6698,7 @@
                 }
             },
             "name": "Uomo-albero",
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Skeleton": {
             "items": {
@@ -6794,7 +6794,7 @@
             "items": {
                 "YEgt8idhsvpwNcli": {
                     "description": "<p>Se il morso ha successo, il pitone si avvolge intorno alla vittima, stringendo per [[/r 2d4 #danni da stretta]] ogni round.</p>",
-                    "name": "Strizzare"
+                    "name": "Stringersi"
                 },
                 "fh7N5kp6gYL9UpOr": {
                     "description": "L'attacco con morso del Pitone delle Rocce.",
@@ -6927,7 +6927,7 @@
             },
             "biography": "<p>Un Thoul è una combinazione magica di un ghoul, hobgoblin e troll. Queste creature sembrano hobgoblin, ma un'ispezione più approfondita rivela la loro natura mostruosa. I Thoul sono spesso trovati come parte della guardia del corpo di un re hobgoblin o di un sovrano Caotico.</p><p>I Thoul hanno due abilità pericolose: il loro tocco può **paralizzare**, molto simile a un ghoul, e possono **rigenerarsi**, recuperando 1 punto ferita per round finché sono vivi.</p><p><strong>Terreno:</strong> Terre Desolate, Caverna.</p>",
             "name": "Thoul",
-            "monsterType": "Mostro (Molto Raro)"
+            "monsterType": "Mostro"
         },
         "Troll": {
             "biography": "<p>I Troll sono umanoidi alti e magri, alti 2,4 metri. Possiedono denti affilati, tratti feroci e pelle chiazzata simile alla gomma. I Troll sono carnivori e preferiscono prede umane o simili agli umani. Si trovano in una varietà di terreni, spesso vivendo tra le rovine delle abitazioni delle loro vittime.</p>\n        <p>I Troll sono estremamente pericolosi a causa delle loro **capacità rigenerative**. Tre round dopo essere stati danneggiati, un Troll inizierà a guarire a un ritmo di **3 punti ferita per round**. Anche gli arti amputati possono strisciare di nuovo verso il corpo del Troll per riunirsi. Tuttavia, i Troll non possono rigenerare i danni causati dal fuoco o dall'acido, e quando vengono attaccati con questi mezzi, il loro morale scende a **8**.</p>\n        <strong>Danno degli Artigli:</strong> 1d6 per artiglio.<br>\n        <strong>Danno del Morso:</strong> 1d10.<br>\n        <strong>Rigenerazione:</strong> I Troll guariscono 3 PF per round a partire da 3 round dopo il danno. Gli arti amputati si riuniscono al corpo a meno che non siano distrutti dal fuoco o dall'acido.<br>\n        <strong>Terreno:</strong> Caverna, Natura Selvaggia (qualunque).",
@@ -12525,10 +12525,10 @@
                     "unidentifiedName": "Tocco Risucchia Energia"
                 },
                 "GDdHrRnx7lkkKkmJ": {
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
                     "unidentifiedDesc": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "Jgd91rIHuHWWXnQj": {
                     "name": "Controlla Non-Morti",
@@ -12551,9 +12551,9 @@
                 },
                 "7vc1hb67ttqtjJKt": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "AMAcOsLcZiTYERMt": {
                     "description": "<p>Il tiro salvezza contro il Veleno o Raggio della Morte è un tiro effettuato da un personaggio per resistere a effetti letali come morte istantanea o paralisi causati da veleni, incantesimi o trappole. Il giocatore tira un d20 e lo confronta con il numero specifico per la classe e il livello sulla tabella dei tiri salvezza; il successo significa evitare o mitigare il danno. Un tiro fallito spesso comporta la morte (nel caso di veleno) o altre conseguenze gravi, anche se regole opzionali potrebbero invece infliggere danni sostanziali.</p>",
@@ -12637,7 +12637,7 @@
                     "description": "<p>La percentuale di successo di base è <strong>50% ± (5% per differenza HD)</strong>. In caso di insuccesso, la canaglia infligge danni normali con l'arma.</p>"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "name": "Canaglia (1DV)",
             "biography": "<p>La <strong>Canaglia</strong>, nota anche come Assassino, è un esecutore che opera al di fuori della legge, accettando contratti di assassinio a pagamento. Questi criminali formano una fazione segreta nota come i <strong>Pragmati</strong>, che significa \"le persone pratiche\". A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati non sono supportati da governanti o avventurieri, rendendoli spietati e imprevedibili.</p><p><strong>Furtività e Inganno:</strong> Le Canaglie raramente si impegnano in combattimenti leali, preferendo <strong>imboscate, travestimenti e assassinii silenziosi</strong>. Usano veleno, garrote e armi nascoste, spesso non lasciando dietro di sé alcuna prova dei loro crimini. Prediligono <strong>strumenti economici e usa e getta</strong> rispetto alle armi magiche.</p><p><strong>Segretezza della Gilda:</strong> Le Canaglie mantengono nascoste le loro identità e raramente trattano direttamente con estranei. Anche coloro che le assumono vengono poi ricattati sotto la minaccia di esposizione, rapimento o assassinio.</p><p><strong>Combattimento e Assassinio:</strong> Una canaglia possiede le stesse abilità speciali di un ladro di pari livello, come <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sui muri</strong>. Quando tendono un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se sorprendono un bersaglio, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p><p><strong>Debolezza e Strategia:</strong> Se scoperte, le Canaglie di solito fuggono a meno che non superino numericamente i loro nemici. A volte lavorano con <strong>banditi e fazioni rinnegate</strong>, anche se spesso senza che i loro alleati lo sappiano.</p><p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>"
         },
@@ -12653,10 +12653,10 @@
                     "description": "<p>Il ladro può muoversi senza fare alcun rumore, evitando di essere rilevato quando cerca di passare inosservato accanto ad altri.</p>"
                 },
                 "i6WNWUckdM3KCHyI": {
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "pAdixGsUGKLFvlqa": {
                     "name": "Soffio del Drago",
@@ -12736,7 +12736,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (2DV)"
         },
@@ -12770,9 +12770,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -12840,7 +12840,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (3DV)"
         },
@@ -13860,7 +13860,7 @@
                     "shortName": "Bacchetta"
                 }
             },
-            "monsterType": "Umanoide (Comune)",
+            "monsterType": "Umanoide",
             "name": "Orchetto Capo",
             "biography": "<p>L'Orchetto Capo regna sulla sua tribù, un umanoide minaccioso con tratti deformi, denti bestiali e un volto rude, incisi in una corporatura simile a quella umana. Preferendo le ombre dei covi sotterranei, guida i suoi simili notturni, evitando la luce del giorno dove i suoi attacchi subiscono una penalità di -1.</p><p>Brandendo un'arma prediletta (spada, giavellotto, ascia o clava) con un bonus di +2 al danno, l'Orchetto Capo colpisce come un nemico con 4 Dadi Vita nonostante la sua resilienza di base. Governa una tribù di [[/r 1d6*10 #Orchetti nel covo]], rafforzata da un leader per gruppo, mantenendo un morale di 8 che scende a 6 se il leader del gruppo cade, riflettendo il loro timore di avversari più potenti a meno che non siano costretti.</p><p>Signori caotici sfruttano gli Orchetti Capo per potenziare gli eserciti, facendo leva sulla loro comprensione di dispositivi meccanici come catapulte, un'abilità che supera quella degli orchetti minori. Le tribù ospitano un numero uguale di femmine e almeno due cuccioli per coppia adulta, con possibilità di alleati orchi o troll che arricchiscono i loro covi</p><p><strong>Terreno:</strong> Natura selvaggia (qualsiasi)</p>"
         },
@@ -13913,7 +13913,7 @@
                     "shortName": "Pietrifica"
                 }
             },
-            "monsterType": "Umanoide (Comune)",
+            "monsterType": "Umanoide",
             "name": "Orchetto Comandante",
             "biography": "<p>L'Orchetto Comandante si erge come una figura formidabile tra i suoi simili, un umanoide brutale che mescola tratti animalistici con una forma simile a quella umana, spesso sfoggiando lineamenti facciali bestiali e denti frastagliati. Notturno per natura, prospera sottoterra, guidando il suo gruppo con un temperamento duro e un'avversione per gli estranei</p><p>Alla luce del giorno, il Leader Orco subisce una penalità di -1 ai tiri per colpire, brandendo un'arma preferita (spada, giavellotto, ascia o clava) con un bonus di +1 ai tiri per il danno grazie alla sua abilità. Comanda un gruppo di 2d4 orchi in natura o fino a [[/r 1d6*10 #Orchi nel covo]] in un covo, mantenendo un morale di 8; se ucciso, il morale del gruppo scende a 6, riflettendo la loro paura di nemici più forti a meno che non siano spinti dalla sua autorità</p><p>Comandanti caotici, sia umani che mostri, spesso arruolano gli Orchetti Capo per rafforzare le loro truppe, sfruttando la loro incapacità di usare macchinari complessi come catapulte, un'abilità riservata esclusivamente a questi comandanti. Ogni tribù include femmine e cuccioli, raddoppiando il numero di adulti con almeno due figli per coppia<br><b>Terreno:</b> Natura selvaggia (qualsiasi)</p>"
         },
@@ -14247,7 +14247,7 @@
                     "shortName": "Soffio"
                 }
             },
-            "monsterType": "Mostro (Raro)",
+            "monsterType": "Mostro",
             "name": "Ritornato",
             "biography": "<p>Il Ritornato appare come una figura umana con mani scheletriche e una testa a forma di teschio adornata da capelli bianchi fluenti. Si aggira per caverne sotterranee oscure, tombe polverose e cripte. Quando tocca una vittima, drena permanentemente un senso a meno che la vittima non superi un tiro salvezza contro incantesimi, riducendo la perdita a un temporaneo [[/r 2d6 #Round di perdita del senso]] round. I sensi persi sono scelti o casuali, con colpi successivi che colpiscono sensi diversi. Un incantesimo di ripristino può recuperare un senso perduto. Gli effetti includono: Gusto (impossibile identificare sapori come pozioni), Olfatto (immune agli odori, -1 alla sorpresa), Udito (sordità, linguaggio poco chiaro che influisce sul lancio di incantesimi), Tatto (Destrezza -4, gli elfi perdono il rilevamento di porte segrete), Vista (cecità), Sesto Senso (blocca ESP, sfere di cristallo, telepatia). Il morale è tipicamente 10<br><b>Terreno:</b> Rovine</p>"
         },
@@ -17002,7 +17002,7 @@
                     "gmNotes": "Colpisce solo chi si trova nelle immediate vicinanze."
                 }
             },
-            "monsterType": "Umanoide (Raro)",
+            "monsterType": "Umanoide (Comune)",
             "name": "Troglodita",
             "biography": "<p>I Trogloditi sono umanoidi rettiliani intelligenti con code corte, gambe lunghe e creste spinose sulla testa e sulle braccia. Camminano eretti, simili agli umani, e sono abili nell'usare le mani. I Trogloditi sono noti per la loro ostilità verso la maggior parte delle altre specie. Possiedono un'abilità simile a quella dei camaleonti di cambiare colore, mimetizzandosi con l'ambiente circostante come pareti rocciose, il che permette loro di sorprendere gli avversari (con un tiro di 1-4 su 1d6). Inoltre, secernono un olio che emana un fetore nauseabondo, che può nauseare umani e semiumani a meno che non superino un tiro salvezza contro veleno. I personaggi nauseati subiscono una penalità di -2 ai tiri per colpire quando combattono i trogloditi in mischia.<br>Alcuni trogloditi possono essere incantatori.<br><b>Terreno:</b> Caverna, Rovine</p>"
         },
@@ -17628,7 +17628,7 @@
                     "gmNotes": "Metodo primario di riproduzione."
                 }
             },
-            "monsterType": "Mostro (Molto Raro)",
+            "monsterType": "Mostro",
             "name": "Sporacle",
             "biography": "<p>Lo Sporacle è una creatura mostruosa che a prima vista imita l'aspetto di un beholder: una sfera fluttuante di 1.5 m di diametro con un grande occhio centrale e una bocca spalancata, circondata da tentacoli. Ha sei occhi distribuiti uniformemente intorno al suo corpo. Lo sporacle si rigenera rapidamente in acqua dolce a un ritmo di 3 PF per turno, permettendo alle parti del corpo perse di ricrescere. Se un tentacolo reciso viene posto in acqua dolce, crescerà in un nuovo sporacle in un'ora, che è il loro principale metodo di riproduzione, rendendoli comunemente trovati vicino a fonti d'acqua.<br>Attacca con 12 tentacoli estensibili e un morso, preferendo gli umanoidi come prede. Usa prima i suoi tentacoli, ciascuno infliggendo 1 danno e richiedendo un tiro salvezza contro paralisi; un fallimento porta a una paralisi ritardata dopo un turno, che dura un turno a meno che non venga curata. Il morso viene usato solo una volta che tutti i tentacoli sono distrutti, infliggendo 2d10 danni. Lo sporacle ruota rapidamente in combattimento, usando tutti i tentacoli ogni turno contro uno o due avversari. Non può usare incantesimi o oggetti magici ed è di intelligenza media (10).<br>La creatura è immune alle armi contundenti, agli effetti basati sul suono, al veleno, alla paralisi e agli incantesimi di charme. Può essere danneggiata da armi affilate o da attacchi a distanza (eccetto le fionde); gli incantesimi che causano danni colpiscono solo i suoi tentacoli, distruggendo un tentacolo per dado di danno. Quando ridotto a 0 punti ferita, il suo corpo si disintegra, mandando i tentacoli a volare in tutte le direzioni.<br><b>Terreno:</b> Caverna</p>"
         },
@@ -17653,9 +17653,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -17732,7 +17732,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (10DV)"
         },
@@ -17757,9 +17757,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -17836,7 +17836,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (11DV)"
         },
@@ -18195,9 +18195,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -18221,7 +18221,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (12DV)"
         },
@@ -18295,9 +18295,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -18325,7 +18325,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (5DV)"
         },
@@ -18391,9 +18391,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -18429,7 +18429,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (8DV)"
         },
@@ -19497,9 +19497,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -19576,7 +19576,7 @@
                     "description": "<p>La percentuale di successo di base è <strong>50% ± (5% per differenza HD)</strong>. In caso di insuccesso, la canaglia infligge danni normali con l'arma.</p>"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (4DV)"
         },
@@ -19654,9 +19654,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -19680,7 +19680,7 @@
                     "description": "<p>La percentuale di successo di base è <strong>50% ± (5% per differenza HD)</strong>. In caso di insuccesso, la canaglia infligge danni normali con l'arma.</p>"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (6DV)"
         },
@@ -19714,9 +19714,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -19784,7 +19784,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (7DV)"
         },
@@ -19862,9 +19862,9 @@
                 },
                 "C6NcYKL5ruJcn0M8": {
                     "description": "<p>Una piccola lama con una presa a una mano. Può essere usata in mischia o lanciata come arma a distanza.</p>",
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "unidentifiedDesc": "<p>Una piccola lama con un'impugnatura a una mano. Può essere utilizzata nel combattimento corpo a corpo o lanciata come arma a distanza.</p>",
-                    "weaponMastery": "Pugnale"
+                    "weaponMastery": "pugnale"
                 },
                 "ERo21Ui7hjWpkOZw": {
                     "description": "<p>Il personaggio può tentare di scassinare una serratura. Il successo è basato su una percentuale determinata dal loro livello.</p>",
@@ -19888,7 +19888,7 @@
                     "name": "Assassinio"
                 }
             },
-            "monsterType": "Umano (Raro)",
+            "monsterType": "Umano",
             "biography": "<p>La <strong>Canaglia</strong>, chiamato anche Assassino, appartiene ai <strong>Pragmati</strong>, un'organizzazione spietata di esecutori che accettano contratti per omicidio. A differenza della <strong>Gilda dei Ladri</strong>, i Pragmati operano indipendentemente, usando segretezza, estorsione e violenza per mantenere il potere.</p>\n\n      <p><strong>Furtività e Inganno:</strong> Le Canaglie si affidano a <strong>travestimenti, tattiche di imboscata e tradimenti</strong>. Usano garrote, veleno e armi economiche ma efficaci, evitando oggetti magici tracciabili. Raramente attaccano apertamente, preferendo colpire non visti e scomparire senza lasciare traccia.</p>\n\n      <p><strong>Segretezza della Gilda:</strong> Le Canaglie lavorano nell'ombra, spesso ricattando ex clienti. Tradiranno chiunque, anche i loro datori di lavoro, per il giusto prezzo.</p>\n\n      <p><strong>Combattimento e Assassinio:</strong> Le Canaglie hanno le abilità di un ladro dello stesso livello, inclusi <strong>muoversi silenziosamente, nascondersi nell'ombra e arrampicarsi sulle pareti</strong>. Quando preparano un'imboscata, tirano <strong>1-3 su 1d6</strong> per la sorpresa invece del solito 1-2. Se ottengono la sorpresa, possono tentare un <strong>uccisione istantanea</strong> con una base del <strong>50% ± (5% per differenza di DV)</strong>. Se il tentativo fallisce, infliggono il normale danno dell'arma.</p>\n\n      <p><strong>Debolezza e Strategia:</strong> Se feriti o scoperti, le Canaglie preferiscono la ritirata al combattimento. A volte lavorano come guardie per criminali di alto rango, occasionalmente collaborando con <strong>banditi o rinnegati</strong>, anche se spesso senza che i loro alleati lo sappiano.</p>\n\n      <p><strong>Terreno:</strong> Qualsiasi; Insediato.</p>",
             "name": "Canaglia (9DV)"
         },
@@ -20686,7 +20686,7 @@
                     "shortName": "Bacchetta"
                 },
                 "hbIYzIMP7QzAbwyU": {
-                    "name": "Pugnale",
+                    "name": "pugnale",
                     "description": "Il Mezzombra colpisce violentemente con un pugnale spettrale."
                 },
                 "iCKnJe9UNzXjttUo": {
@@ -20800,7 +20800,7 @@
                 }
             },
             "name": "Sasquatch",
-            "monsterType": "Umanoide (Raro)",
+            "monsterType": "Umanoide (Comune)",
             "biography": "<p>I Sasquatch sono umanoidi timidi e di bassa intelligenza che abitano nelle profondità di boschi oscuri e alte montagne. Queste alte creature scimmiesche hanno teste crestate, piedi grandi e pelo folto (marrone scuro nei boschi, bianco in montagna). Onnivori, occasionalmente uccidono animali ma preferiscono piante e bacche. Sebbene non aggressivi con un morale basso di 6, difendono ferocemente i loro covi nelle caverne, aumentando il morale a 11 quando proteggono la loro casa, usando pugni simili a clave. Possono anche lanciare massi fino a 15 metri. Se entrambi gli artigli colpiscono una vittima, la abbracciano per un ulteriore danno di 4d6. Conosciuti come 'Bigfoot' nei boschi e 'Yeti' o 'Abominevole Uomo delle Nevi' in montagna, raramente possono essere incantatori<br><b>Terreno:</b> Montagna, Boschi</p>"
         },
         "Scorpion, Giant": {
@@ -22742,7 +22742,7 @@
                     "shortName": "Morte"
                 }
             },
-            "monsterType": "Mostro (Raro)",
+            "monsterType": "Mostro",
             "name": "Orsogufo"
         },
         "Gnoll Leader": {
@@ -22929,7 +22929,7 @@
                     "unidentifiedName": "Antenna"
                 }
             },
-            "monsterType": "Mostro (Raro)",
+            "monsterType": "Mostro",
             "name": "Rugginofago"
         },
         "Phoenix, Greater*": {
@@ -22938,7 +22938,7 @@
                     "name": "Nascondersi"
                 },
                 "8Qgfih0yFxZ4FB5D": {
-                    "name": "Esplosione"
+                    "name": "Deflagrazione"
                 },
                 "LjGi9juF2dHaaIvk": {
                     "name": "Artiglio"
@@ -25105,7 +25105,7 @@
                     "description": "<p>Il tiro salvezza contro le Armi da Soffio viene utilizzato per resistere o mitigare gli effetti di una vasta gamma di potenti attacchi a soffio, non limitati solo ai draghi. Questo include attacchi come il soffio infuocato o gelido di un drago, il soffio pietrificante di una gorgone o il soffio elementale di una chimera. Ogni arma da soffio ha effetti specifici, come danni, paralisi o pietrificazione. Un tiro salvezza riuscito dimezza generalmente i danni o evita l'effetto secondario (come paralisi o pietrificazione), mentre il fallimento applica tutte le conseguenze. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio.</p>"
                 },
                 "cdp5nJKcNPhflmo2": {
-                    "name": "Esplosione"
+                    "name": "Deflagrazione"
                 },
                 "e5ldizVmSsSPoKhm": {
                     "name": "Morso"
@@ -25566,7 +25566,7 @@
                     "name": "Nascondersi"
                 }
             },
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Sphinx (Male)*": {
             "items": {
@@ -25615,7 +25615,7 @@
                     "name": "Ruggito"
                 }
             },
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Termite, Water (Fresh Water)": {
             "items": {
@@ -25849,7 +25849,7 @@
                     "shortName": "Incantesimo"
                 }
             },
-            "monsterType": "Mostro (Raro)"
+            "monsterType": "Mostro"
         },
         "Elf (2 HD)": {
             "items": {
@@ -26223,6 +26223,190 @@
                 }
             },
             "monsterType": "Mostro"
+        },
+        "Pterosaur, Medium (Pteranodon)@tgQEWSWbRBRDiEKj": {
+            "items": {
+                "4ELO3gDWjD5keXwk": {
+                    "name": "Becco"
+                },
+                "71zYf65edaReyllN": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "VTrMxddKpuTBJNHn": {
+                    "shortName": "Bacchetta"
+                },
+                "g3FQ0X0Iic29iRiD": {
+                    "name": "Nascondersi"
+                },
+                "mcUFQDPJ2UkTwcAL": {
+                    "shortName": "Morte"
+                },
+                "zABEcCjCNEycQMWw": {
+                    "shortName": "Incantesimo"
+                }
+            }
+        },
+        "Pterosaur, Small (Pterodactyl)@8Of6kVwUxSSJS6ZL": {
+            "items": {
+                "2ti7mnrN9SXppYx9": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "65HcExUSKKB3XVQd": {
+                    "shortName": "Incantesimo"
+                },
+                "MtlVU0mTiGezykYy": {
+                    "shortName": "Bacchetta"
+                },
+                "bKNE7ohnLZHw6eMf": {
+                    "name": "Becco"
+                },
+                "nlOumQnL8sL0DdEv": {
+                    "shortName": "Morte"
+                },
+                "rdtmTiTFKFekrinz": {
+                    "name": "Nascondersi"
+                }
+            }
+        },
+        "Triceratops@DWL3quzcjtKXVA3U": {
+            "items": {
+                "ArcSNjPAAkZOKJ7x": {
+                    "shortName": "Bacchetta"
+                },
+                "BdsaHXcnWpHQidWk": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "IcsW9rDIgVwbq3js": {
+                    "name": "Nascondersi"
+                },
+                "RUe6QzHQrRr1vRjc": {
+                    "shortName": "Morte"
+                },
+                "pLhnhsU7V8HDcgFW": {
+                    "name": "Carica"
+                },
+                "skHaMOWXVbBJeDOV": {
+                    "shortName": "Incantesimo"
+                }
+            }
+        },
+        "Triceratops@vf6fJ0Wbby5BTiKC": {
+            "items": {
+                "IcsW9rDIgVwbq3js": {
+                    "name": "Nascondersi"
+                },
+                "ArcSNjPAAkZOKJ7x": {
+                    "shortName": "Bacchetta"
+                },
+                "BdsaHXcnWpHQidWk": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "RUe6QzHQrRr1vRjc": {
+                    "shortName": "Morte"
+                },
+                "pLhnhsU7V8HDcgFW": {
+                    "name": "Carica"
+                },
+                "skHaMOWXVbBJeDOV": {
+                    "shortName": "Incantesimo"
+                }
+            }
+        },
+        "Pterosaur, Large@9QvqypcszGRWppDB": {
+            "items": {
+                "DyTLc9NvwFqzX8R2": {
+                    "name": "Nascondersi"
+                },
+                "URISwypdjD7w3J2f": {
+                    "name": "Becco"
+                },
+                "VL0jIoDBrVdmH59o": {
+                    "shortName": "Incantesimo"
+                },
+                "emtW71EMX0tX5TNP": {
+                    "shortName": "Morte"
+                },
+                "jHvhsFwkpTwoN25H": {
+                    "shortName": "Bacchetta"
+                },
+                "yfm64vXp8N1XryxW": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                }
+            }
+        },
+        "Pterosaur, Large@GarPwttDMDJoFhiR": {
+            "items": {
+                "DyTLc9NvwFqzX8R2": {
+                    "name": "Nascondersi"
+                },
+                "URISwypdjD7w3J2f": {
+                    "name": "Becco"
+                },
+                "VL0jIoDBrVdmH59o": {
+                    "shortName": "Incantesimo"
+                },
+                "emtW71EMX0tX5TNP": {
+                    "shortName": "Morte"
+                },
+                "jHvhsFwkpTwoN25H": {
+                    "shortName": "Bacchetta"
+                },
+                "yfm64vXp8N1XryxW": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                }
+            }
+        },
+        "Pterosaur, Medium (Pteranodon)@rI1MzmSW7EGwY5oR": {
+            "items": {
+                "4ELO3gDWjD5keXwk": {
+                    "name": "Becco"
+                },
+                "71zYf65edaReyllN": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "VTrMxddKpuTBJNHn": {
+                    "shortName": "Bacchetta"
+                },
+                "g3FQ0X0Iic29iRiD": {
+                    "name": "Nascondersi"
+                },
+                "mcUFQDPJ2UkTwcAL": {
+                    "shortName": "Morte"
+                },
+                "zABEcCjCNEycQMWw": {
+                    "shortName": "Incantesimo"
+                }
+            }
+        },
+        "Pterosaur, Small (Pterodactyl)@LGXu6iM5u2WXJ99m": {
+            "items": {
+                "2ti7mnrN9SXppYx9": {
+                    "name": "Soffio del Drago",
+                    "shortName": "Soffio"
+                },
+                "65HcExUSKKB3XVQd": {
+                    "shortName": "Incantesimo"
+                },
+                "MtlVU0mTiGezykYy": {
+                    "shortName": "Bacchetta"
+                },
+                "bKNE7ohnLZHw6eMf": {
+                    "name": "Becco"
+                },
+                "nlOumQnL8sL0DdEv": {
+                    "shortName": "Morte"
+                },
+                "rdtmTiTFKFekrinz": {
+                    "name": "Nascondersi"
+                }
+            }
         }
     },
     "label": "Bestiario",
