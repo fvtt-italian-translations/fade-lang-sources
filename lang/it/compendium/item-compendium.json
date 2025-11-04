@@ -5800,7 +5800,8 @@
         },
         "Teleport@DopHWlFppHP2WGmD": {
             "gmNotes": "Abilità di teletrasporto a volontà.",
-            "name": "Teletrasporto"
+            "name": "Teletrasporto",
+            "description": "<p>Gli Arconti possono teletrasportarsi a piacimento in qualsiasi luogo entro la loro vista o in luoghi conosciuti.</p>"
         },
         "Blinded": {
             "name": "Accecato",
@@ -5817,13 +5818,15 @@
         },
         "Boost Agility": {
             "spellDuration": "Istantaneo",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>Questa pozione aumenta il punteggio di Destrezza di chi la beve ad un punteggio di 18 per 7-12 turni [[/br 1d6+6 #durata della Pozione di Agilità]]. Tutti i bonus applicabili alla Destrezza, come il miglioramento della Classe Armatura e i bonus agli attacchi a distanza, vengono applicati durante questo periodo. La pozione ha effetto immediato al momento del consumo</p>"
         },
         "Cone of Cold (Wand)": {
             "spellDuration": "Istantaneo"
         },
         "Wand of Illusion": {
-            "unidentifiedName": "Bacchetta misteriosa"
+            "unidentifiedName": "Bacchetta misteriosa",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
         },
         "Controlled": {
             "name": "Controllato"
@@ -5838,10 +5841,12 @@
             "name": "Trattenuto"
         },
         "Wand of Fireballs": {
-            "unidentifiedName": "Bacchetta misteriosa"
+            "unidentifiedName": "Bacchetta misteriosa",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
         },
         "Wand of Lightning Bolts": {
-            "unidentifiedName": "Bacchetta misteriosa"
+            "unidentifiedName": "Bacchetta misteriosa",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
         },
         "Fly (Potion)": {
             "spellEffect": "Una creatura può volare",
@@ -5849,7 +5854,8 @@
         },
         "Giant Strength@iljOR1dQMVNY9Uzx": {
             "spellDuration": "Istantaneo",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistente\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p><strong>Aumento del danno:</strong> tutti gli attacchi con le armi infliggono il doppio del danno normale.</p><p><strong>Lancio di massi:</strong> l'utilizzatore può lanciare piccoli massi con una gittata di 18/40/60 m, infliggendo 3d6 punti di danno per colpo.</p><p><strong>Restrizione di compatibilità:</strong> la pozione non funziona se l'utilizzatore sta già beneficiando di un oggetto magico che regola la forza (ad esempio, guanti del potere orchesco).</p><p>La pozione turbina con una tonalità blu gelida, minuscole macchie cristalline catturano la luce mentre si muove. Il suo profumo è acuto e tonificante, come l'aria gelida di montagna, con un retrogusto metallico. Sulla lingua, provoca un freddo pungente e lascia una sensazione debole e intorpidita, come se fosse toccato dal gelo.</p></div></div></div></div></div></div>"
         },
         "Clairvoyance@IfMYxPRqHff6UUGt": {
             "name": "Chiaroveggenza"
@@ -6181,7 +6187,8 @@
         },
         "Control Animals": {
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>Dopo aver consumato questa pozione, l'utente può controllare fino a [[/r 3d6 #dadi vita di animali controllabili dalla Pozione di Controllo Animale]] dadi vita di animali (normali o giganti, ma non fantastici o magici) per la durata della pozione. Gli animali influenzati avranno paura e lasceranno l'area quando il controllo terminerà. L'utente deve vedere gli animali per controllarli e non può costringerli a farsi del male. Le creature controllate possono effettuare un tiro salvezza contro incantesimi per resistere. L'effetto della pozione dura [[/br 1d6+6 #durata della Pozione di Controllo Animale]] 7-12 turni</p>"
         },
         "Defense (Potion)": {
             "spellRange": "Se stesso"
@@ -6189,6 +6196,53 @@
         "Invulnerability (Potion)": {
             "spellRange": "Se stesso",
             "spellDuration": "7-12 turni"
+        },
+        "Wand of Magic Detection": {
+            "unidentifiedName": "Bacchetta misteriosa",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
+        },
+        "Wand of Paralyzation": {
+            "unidentifiedName": "Bacchetta misteriosa",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
+        },
+        "Wand of Secret Door Detection": {
+            "unidentifiedName": "Bacchetta misteriosa",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
+        },
+        "Wand of Trap Detection": {
+            "unidentifiedName": "Bacchetta misteriosa",
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
+        },
+        "Detect Enemy (Wand)": {
+            "spellRange": "Se stesso",
+            "spellDuration": "Concentrazione"
+        },
+        "Detect Magic (Wand)": {
+            "spellRange": "Se stesso",
+            "spellDuration": "Concentrazione"
+        },
+        "Detect Metal (Wand)": {
+            "spellRange": "Se stesso",
+            "spellDuration": "Concentrazione"
+        },
+        "Detect Secret Doors (Wand)": {
+            "spellRange": "Se stesso",
+            "spellDuration": "Concentrazione"
+        },
+        "Negation (Wand)": {
+            "spellRange": "Se stesso"
+        },
+        "Wand of Metal Detection": {
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>",
+            "unidentifiedName": "Bacchetta misteriosa"
+        },
+        "Wand of Negation": {
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>",
+            "unidentifiedName": "Bacchetta misteriosa"
+        },
+        "Wand of Polymorphing": {
+            "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>",
+            "unidentifiedName": "Bacchetta misteriosa"
         }
     },
     "label": "Oggetti Classi Abilità",
