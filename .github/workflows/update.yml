@@ -8,6 +8,7 @@ env:
   COMPENDIUM_REPO: Forelius/fade-compendiums
   COMPENDIUM_REPO_BRANCH: main
   PACKS_DIR: compendium/packs
+  PACKS_SRC_DIR: compendium/packsrc
   PACKS_EXTRACT_DIR: main/tmppacks
 
 jobs:
@@ -61,13 +62,18 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ env.PACKS_EXTRACT_DIR }}
-          key: packs-${{ hashFiles(format('{0}/**/*', env.PACKS_DIR)) }}
+          key: packs-${{ hashFiles(format('{0}/**/*', env.PACKS_SRC_DIR)) }}
 
       - name: Compendiums - Get Version
         working-directory: ./compendium
         run: |
           COMPENDIUM_VERSION=$(grep -oP '(?<="version": ")[^"]+' module.json | tr -d '\n')
           echo "compendiumVersion=$COMPENDIUM_VERSION" >> $GITHUB_ENV
+
+      - name: Compendiums - Npm install
+        if: ${{ steps.cache-packs.outputs.cache-hit != 'true' }}
+        working-directory: ./upstream
+        run: npm install
 
       - name: Compendiums - Extract
         if: ${{ steps.cache-packs.outputs.cache-hit != 'true' }}

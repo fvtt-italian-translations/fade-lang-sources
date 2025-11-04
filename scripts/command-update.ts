@@ -117,15 +117,17 @@ async function handleActor(
     }
     if (entry.type === "monster") {
       if (entry.system.details.alignment) {
-        (common.monsterAlignment ??= {})[entry.system.details.alignment] =
+        const monsterAlignment = (common.monsterAlignment ??=
+          {}) as TranslationStrings;
+        monsterAlignment[entry.system.details.alignment] =
           entry.system.details.alignment;
       }
       if (entry.system.details.monsterType) {
         outEntry.monsterType = entry.system.details.monsterType;
       }
       if (entry.system.details.size) {
-        (common.monsterSize ??= {})[entry.system.details.size] =
-          entry.system.details.size;
+        const monsterSize = (common.monsterSize ??= {}) as TranslationStrings;
+        monsterSize[entry.system.details.size] = entry.system.details.size;
       }
     }
 
@@ -138,8 +140,8 @@ async function handleActor(
         continue;
       }
 
-      const outItem = ((outEntry.items ??= {})[item._id] =
-        {} as TranslationStrings);
+      const outItems = (outEntry.items ??= {}) as TranslationStrings;
+      const outItem = (outItems[item._id] = {} as TranslationStrings);
       handleItemEmbed(outItem, item, common);
     }
   }
@@ -197,30 +199,33 @@ function handleItemEmbed(
   }
   if (entry.type === "class") {
     if (entry.system.alignment) {
-      const classAlignment = (common.classAlignment ??= {});
+      const classAlignment = (common.classAlignment ??=
+        {}) as TranslationStrings;
       classAlignment[entry.system.alignment] = entry.system.alignment;
     }
     if (entry.system.species) {
-      const classSpecies = (common.classSpecies ??= {});
+      const classSpecies = (common.classSpecies ??= {}) as TranslationStrings;
       classSpecies[entry.system.species] = entry.system.species;
     }
     for (const [index, level] of entry.system.levels.entries()) {
-      const classLevels = (outEntry.classLevels ??= {});
-      const classLevel = (classLevels[`${index}`] ??= {});
+      const classLevels = (outEntry.classLevels ??= {}) as TranslationStrings;
+      const classLevel = (classLevels[`${index}`] ??= {}) as TranslationStrings;
       if (level.title) {
         classLevel.title = level.title;
       }
     }
     for (const [index, ability] of entry.system.specialAbilities.entries()) {
-      const specialAbilities = (outEntry.specialAbilities ??= {});
-      const specialAbility = (specialAbilities[`${index}`] ??= {});
+      const specialAbilities = (outEntry.specialAbilities ??=
+        {}) as TranslationStrings;
+      const specialAbility = (specialAbilities[`${index}`] ??=
+        {}) as TranslationStrings;
       if (ability.name) {
         specialAbility.name = ability.name;
       }
     }
     for (const [index, item] of entry.system.classItems.entries()) {
-      const classItems = (outEntry.classItems ??= {});
-      const classItem = (classItems[`${index}`] ??= {});
+      const classItems = (outEntry.classItems ??= {}) as TranslationStrings;
+      const classItem = (classItems[`${index}`] ??= {}) as TranslationStrings;
       if (item.name) {
         classItem.name = item.name;
       }
