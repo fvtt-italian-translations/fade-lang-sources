@@ -162,11 +162,13 @@
         "dragonkind": "Dragonkind",
         "enchanted": "Enchanted",
         "fey": "Fey",
+        "flaming-weak": "Flaming-weak",
         "giantkind": "Giantkind",
         "group": "Group",
         "lycanthropes": "Lycanthropes",
         "noGroupMod": "No group modifiers configured.",
         "planar": "Planar",
+        "plants": "Plants",
         "regenerating": "Regenerating",
         "reptiles-dinosaurs": "Reptiles and dinosaurs",
         "spell-immune": "Spell-immune",
@@ -793,6 +795,10 @@
           "description": "The monster runs towards the opponent from 20 yards (20 feet indoors) away in one round and inflicts double damage, if it hits.",
           "name": "Charge"
         },
+        "concentrate": {
+          "decription": "Combatant remains still and concentrates. Taking damage or failing a saving throw breaks the concentration.",
+          "name": "Concentrate"
+        },
         "crush": {
           "description": "When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted. A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage. The crush may be used against nonhuman victims, or possibly against any opponents if the dragon is seriously wounded.",
           "name": "Crush"
@@ -885,28 +891,37 @@
       },
       "phases": {
         "magic": {
-          "description": "Characters casting spells or using magic items do so now.",
-          "name": "Magic"
+          "description": "Characters casting spells or using spell-like effects do so now.",
+          "name": "Spell"
+        },
+        "magicItem": {
+          "description": "Characters using magic items do so now.",
+          "name": "Magic Item"
         },
         "melee": {
           "description": "Characters fighting hand-to-hand make their attacks.",
-          "name": "Hand-to-Hand Combat"
+          "name": "Melee"
         },
         "missile": {
           "description": " Characters using missile and thrown weapons make their attacks.",
-          "name": "Missile Combat"
+          "name": "Missile"
         },
         "morale": {
           "description": "Monsters, Retainers, Hirelings and NPCs roll Morale Checks. Anyone needing to make a saving throw vs. an ongoing effect does so now.",
-          "name": "Morale Check"
+          "name": "Morale"
         },
         "movement": {
           "description": "Characters who choose to move do so now.",
           "name": "Movement"
         },
-        "special": {
-          "description": "Special actions are resolved.",
-          "name": "Special"
+        "name": "phase",
+        "specialBegin": {
+          "description": "Special actions that are resolved at the beginning of a combat round.",
+          "name": "Special-B"
+        },
+        "specialEnd": {
+          "description": "Special actions that are resolved at the end of a combat round.",
+          "name": "Special-E"
         }
       }
     },
@@ -1263,6 +1278,7 @@
       },
       "mode": {
         "choices": {
+          "advancedGroup": "Group (2-part sequence)",
           "group": "Group (combat checklist)",
           "individual": "Individual",
           "individualChecklist": "Individual (combat checklist)",
