@@ -275,6 +275,7 @@
     "Armor": {
       "abbr": "AC",
       "abbrAAC": "AAC",
+      "abilityScoreBonus": "Ability score bonus: {bonus}",
       "armorWeight": {
         "choices": {
           "heavy": "Heavy",
@@ -287,7 +288,6 @@
         "long": "Armor Value",
         "short": "AV"
       },
-      "dexterityBonus": "Dexterity bonus: {bonus}",
       "hintBase": "<b>Base Armor Class</b><p>This is the base armor class and it doesn't' include modifiers from effects.</p>",
       "hintRangedAC": "<b>Ranged Armor Class</b><p>The effective armor class versus missile attacks.</p>",
       "hintTotal": "<b>Total Armor Class</b><p>This is the total armor class and it includes modifiers from effects.</p>",
@@ -381,7 +381,7 @@
       "removedCondition": "<div><span style='color:#c58344' class='text-size16'>{condition}</span> removed from:</div>",
       "resetSpells": "{actorName} reset memorized spells. Cast counts set to zero.",
       "rollMods": {
-        "abilityScoreMod": "{ability} mod: {mod}",
+        "abilityScoreMod": "Ability score mod: {mod}",
         "ammoMod": "Ammunition mod: {mod}",
         "difficulty": "Difficulty mod: {mod}",
         "effectMod": "Attacker effect mod: {mod}",
