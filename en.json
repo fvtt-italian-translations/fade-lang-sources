@@ -189,6 +189,7 @@
         "hint": "Some monsters have the class abilities of a specific class and level. Specify as class key and level, similar to save as. Example: A monster with 2nd level thief class abilities would have a class ability as of 'T2'.",
         "name": "Class Abl. As"
       },
+      "combat": "Combat",
       "effectiveLevel": "Effective Level",
       "enchanted": {
         "hint": "This enchanted creature can only be hit by magical weapons or spells.",
@@ -442,6 +443,7 @@
     },
     "GMNotes": "GM Notes",
     "Item": {
+      "capacity": "Capacity",
       "charges": {
         "long": "Charges",
         "maxLong": "Max. Charges"
@@ -592,6 +594,7 @@
       "SpecialAbilityItem": "Special Ability Item Sheet",
       "SpellItem": "Spell Item Sheet",
       "TreasureItem": "Treasure Item Sheet",
+      "Vehicle": "Vehicle/Mount",
       "WeaponItem": "Weapon Item Sheet"
     },
     "Size": "Size",
@@ -1382,7 +1385,8 @@
   "TYPES": {
     "Actor": {
       "character": "Character",
-      "monster": "Monster"
+      "monster": "Monster",
+      "vehicle": "Vehicle/Mount"
     },
     "Item": {
       "actorClass": "Actor Class",

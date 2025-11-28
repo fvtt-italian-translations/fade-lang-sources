@@ -2786,8 +2786,7 @@
           "name": "Bite"
         },
         "BIcYqkmQSgWc7y2y": {
-          "description": "A kick attack dealing 1d4 points of damage. Camels often kick with one leg at a time.",
-          "name": "Hoof Kick"
+          "name": "Hoof"
         },
         "GCungcBOgqNwWxwg": {
           "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
@@ -2800,8 +2799,7 @@
           "shortName": "Death"
         },
         "iXZz7UfLzZCDqYit": {
-          "description": "The thick hide of the camel provides an effective Armor Class of 7.",
-          "name": "Thick Hide"
+          "name": "Hide"
         },
         "niWonNoNedirl0i9": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -2858,6 +2856,11 @@
       },
       "monsterType": "Lowlife",
       "name": "Carrion Crawler"
+    },
+    "Cart (2 wheels)": {
+      "biography": "<p>A cart is pulled either by one or two draft horses or by two or four mules. It cannot travel through desert, forest, mountain, or swamp except by road. </p><p>The cart's maximum safe movement rate is 60' (20'); above that rate, the DM should check once per turn to see if the cart breaks down or tips over. On a 1 on a [[/r 1d6 #Cart breaks down on 1 and tips over on 2 or 3]], it breaks down, and on a 2 or 3 it tips over.</p><p>The cart's carrying capacity is 4,000 cn when pulled by a single horse, 8,000 cn when pulled by two.</p><h3>Vehicle Movement Speed</h3><p>Creatures can pull the carrying capacities for carts and wagons with no problem or hindrance to their movement speeds. The vehicles can be loaded heavier, but movement speeds will suffer.</p><p>Simply put, if the animal's normal encumbrance value is equal to or higher than the weight in the vehicle, it can pull it at its normal speed. If the encumbrance of the vehicle exceeds the animal's normal encumbrance value, it can be pulled at half the animal's normal speed.</p><p>For example, one draft horse pulls a cart loaded down with 3,000 cn of cargo; this cart could travel at the horse's maximum rate of 90' (30'), though speeds greater than 60' (20') risk upsetting the vehicle and the cargo. The same draft horse can pull a cart loaded with 5,000 cn of cargo, but this cart moves at half speed or 45' (15').</p>",
+      "gmNotes": "If going over safe speed (60), change max move speed to pulling animals'.\nChange max encumbrance to 8000 if pulled by two horses.",
+      "name": "Cart (2 wheels)"
     },
     "Cat, Lion": {
       "biography": "<p>Lions are large predators found in warm climates, particularly savannah and brush lands. They hunt in groups called prides, and are known for their ferocity and strength, especially when protecting their territory.</p>",
@@ -4577,11 +4580,9 @@
       "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This is a large horse bred for sturdiness and endurance. It is used mostly as a pack animal or for plowing or pulling wagons. A draft horse will not fight; if attacked, it will flee.</p><p><strong>Terrain:</strong> Open.</p><p><strong>Load:</strong> Pulls 4,500 cn at normal rates, or 9,000 cn at half normal.</p><p><strong>Barding Multiplier:</strong> x1</p>",
       "items": {
         "26hw86qMxeOJap1G": {
-          "description": "A thick, robust hide forms a natural shield.",
-          "name": "Armor"
+          "name": "Hide"
         },
         "5BzXhEGQPKo9JbRS": {
-          "description": "A desperate bite delivered by a horse unaccustomed to combat.",
           "name": "Bite"
         },
         "DROfvODx23xpx806": {
@@ -13454,8 +13455,82 @@
       "monsterType": "Planar Monster",
       "name": "Horde (9HD)"
     },
-    "Horse, Riding": {
-      "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This beast can carry a rider for a greater distance than any other type of horse. It is smaller and can exist wherever there is grass to feed on. Most wild horses on the plains fall into the \"riding horse\" category once tamed.</p><p><strong>Terrain:</strong> Open.</p><p><strong>Load:</strong> 3,000 cn of weight at normal rates, or 6,000 cn at half normal.</p><p><strong>Barding Multiplier:</strong> x1.</p>",
+    "Horse, Draft": {
+      "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This is a large horse bred for sturdiness and endurance. It is used mostly as a pack animal or for plowing or pulling wagons. A draft horse will not fight; if attacked, it will flee.</p><p>Load: Pulls 4,500 cn at normal rates, or 9,000 cn at half normal.</p><p>Barding Multiplier: x1</p>",
+      "items": {
+        "5BzXhEGQPKo9JbRS": {
+          "name": "Bite"
+        },
+        "E8bL6ZY0ohzSJYPO": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "Xc9Z7VvvLm4BzI0s": {
+          "name": "Hide"
+        },
+        "c5OF7zwNaSsIUkPp": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "gpYUL86rW6f0o3Xf": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "moeJtpRQWflBz1zn": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "sKxKToJn3BBJv70d": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        }
+      },
+      "name": "Horse, Draft"
+    },
+    "Horse, Riding@fQ8mm1XSTy1U1Vtp": {
+      "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This beast can carry a rider for a greater distance than any other type of horse. It is smaller and can exist wherever there is grass to feed on. Most wild horses on the plains fall into the \"riding horse\" category once tamed.</p><p>A riding horse's maximum speed will kill the horse if used for over 1/3  of a day's travel. Normally the riding horse can go the speed of a war horse, and if pushed to max. speed can only do so safely for 1/3 of the day, requiring three separate horses being swapped out for a full day's travel.</p><p>Load: 3,000 cn of weight at normal rates, or 6,000 cn at half normal.</p><p>Barding Multiplier: x1.</p>",
+      "items": {
+        "5F1QGqGIRwLBSZj7": {
+          "name": "Hoof"
+        },
+        "BC5noZ77kfmpzSw4": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "FJAQqqOzkl9nUmoW": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "N0utABCFITw0vy3w": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "Xc9Z7VvvLm4BzI0s": {
+          "name": "Hide"
+        },
+        "ZcBzHMlW4SgGBjo6": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "bEML3SEjuYkk65aI": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        }
+      },
+      "name": "Horse, Riding"
+    },
+    "Horse, Riding@hQDO0pDaKZ0ofP62": {
+      "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This beast can carry a rider for a greater distance than any other type of horse. It is smaller and can exist wherever there is grass to feed on. Most wild horses on the plains fall into the \"riding horse\" category once tamed.</p><p><strong>Terrain:</strong> Open.<br><strong>Load:</strong> 3,000 cn of weight at normal rates, or 6,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1.</p>",
       "items": {
         "0YcX9niwA5B3MryY": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -13476,7 +13551,7 @@
           "shortName": "Wand"
         },
         "Xc9Z7VvvLm4BzI0s": {
-          "name": "Natural Protection"
+          "name": "Hide"
         },
         "bzMhsK7od6fEDCCa": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -13491,6 +13566,47 @@
       },
       "monsterType": "Normal Animal",
       "name": "Horse, Riding"
+    },
+    "Horse, War": {
+      "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This type of horse is bred for its warlike temperament and strength. Unlike other horses, it is trained to charge. When charging, its rider can do double damage when using a lance. The horse cannot fight while charging and cannot move at charging speed for more than three rounds at a time.</p><p>Load: 4,000 cn at full speed; 8,000 cn at half speed</p><p>Barding Multiplier: x1</p>",
+      "items": {
+        "66LHu92pcmqrBEko": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "D4TbsbkCAfJvgbIU": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "GJo9hRu08IQdg85S": {
+          "name": "Hide"
+        },
+        "LUzFKsSQQcsnG1I2": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "SvjisPBVP5qfapVj": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "ia5ZpAJE2P7foDys": {
+          "name": "Hoof"
+        },
+        "pLhnhsU7V8HDcgFW": {
+          "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
+          "name": "Charge"
+        },
+        "r4pnZCYaCNzX97xZ": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        }
+      },
+      "name": "Horse, War"
     },
     "Human, Brigand": {
       "biography": "<p>Brigands are loosely organized outlaws and renegade mercenaries who live by raiding towns and robbing caravans and travelers. Most are fighters with low levels of training and equipment.</p><p>Brigands often organize into camps of 50-300 men, with leaders who are higher-level fighters. For every 20 brigands, there is a 2nd-level fighter leader, and for every 40 brigands, there is a 4th-level commander.</p><p>Half of the brigands are mounted, wear chain mail, and carry shields and swords. The rest wear leather armor, carry shields, short bows, and swords. Leaders wear plate mail, carry swords and lances, and ride warhorses with barding.</p><p><strong>Brigand Leaders:</strong> Brigand camps may be led by a 9th-level fighter and might include higher-level clerics or magic-users. There is a 50% chance of a 9th-11th level magic-user in the camp and a 30% chance of an 8th-level cleric.</p><p><strong>Weapons and Armor:</strong> Half the brigands are equipped with leather armor and short bows; the rest ride horses with chain mail and shields.<br><strong>Terrain:</strong> Wilderness (Any).<br></p>",
@@ -19426,16 +19542,14 @@
       "monsterType": "Monster",
       "name": "Mujina"
     },
-    "Mule": {
+    "Mule@FqG0R2jI1idSQnB5": {
       "biography": "<p>A mule is a crossbreed between a horse and a donkey, known for its stubbornness. If provoked, a mule may either bite or kick in self-defense but cannot be trained to attack. Mules are particularly strong for their size and can carry heavy loads for their owners, moving at half speed when overloaded.</p><p>Mules can accompany adventurers into dungeons if permitted by the DM. When found alone, they might belong to an NPC party nearby.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed</p><p></p>",
       "items": {
         "3JIdluFTun44OZ3U": {
-          "description": "A powerful kick dealing 1d4 damage.",
           "name": "Kick",
           "unidentifiedName": "Kick"
         },
         "Apt3xTyi6eKhmCSR": {
-          "description": "A quick bite dealing 1d3 damage.",
           "name": "Bite"
         },
         "OUp0rSkPvi7OsdJh": {
@@ -19459,8 +19573,7 @@
           "shortName": "Death"
         },
         "vkxpMxcNLPXtkIhh": {
-          "description": "<p>The animals natural hide offers protection.</p>",
-          "name": "Hide Armor"
+          "name": "Hide"
         },
         "xoA9m2z1KQTalYut": {
           "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
@@ -19469,6 +19582,47 @@
         }
       },
       "monsterType": "Normal Animal",
+      "name": "Mule"
+    },
+    "Mule@MEbf4fQ7tBqHZwam": {
+      "biography": "<p>A mule is a crossbreed between a horse and a donkey, known for its stubbornness. If provoked, a mule may either bite or kick in self-defense but cannot be trained to attack. Mules are particularly strong for their size and can carry heavy loads for their owners, moving at half speed when overloaded.</p><p>Mules can accompany adventurers into dungeons if permitted by the DM. When found alone, they might belong to an NPC party nearby.</p><p><strong>Terrain:</strong> Any<br><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed</p><p></p>",
+      "items": {
+        "3HbhuAzlrAhTznIE": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "3JIdluFTun44OZ3U": {
+          "name": "Kick",
+          "unidentifiedName": "Kick"
+        },
+        "Apt3xTyi6eKhmCSR": {
+          "name": "Bite"
+        },
+        "ZEUxrLBvRoVKpKme": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "e6vwvqt8TVGWUiub": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "gi1qfoDQueh57p7b": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "ocmXjWVAFeSmraI7": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "vkxpMxcNLPXtkIhh": {
+          "name": "Hide"
+        }
+      },
       "name": "Mule"
     },
     "Mummy*": {
@@ -21496,16 +21650,51 @@
       "monsterType": "Prehistoric Animal",
       "name": "Plesiosaurus"
     },
-    "Pony": {
-      "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open</p><p><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.</p><p><strong>Barding Multiplier:</strong> x1</p>",
+    "Pony@IaPs6XzklieTALDm": {
+      "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open<br><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1</p>",
       "items": {
+        "1rDCr9Wx6CZrlWkF": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "4OAokms4o7pujZNX": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
         "5fvuCpPEknIUWPuI": {
-          "description": "A compact, sturdy frame with a smooth coat offers modest natural defense.",
-          "name": "Armor"
+          "name": "Hide"
+        },
+        "7hFBj6ClXhdb0ikH": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "BazruVEZOxARLtaB": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
         },
         "DgyBle5vmCiX7GKM": {
-          "description": "A quick kick delivered by the pony's nimble hooves.",
-          "name": "Hooves"
+          "name": "Hoof"
+        },
+        "J3JjcQEDF6akJRE6": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "name": "Pony"
+    },
+    "Pony@eYuQLjP78z7C0xJ2": {
+      "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open<br><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1</p>",
+      "items": {
+        "5fvuCpPEknIUWPuI": {
+          "name": "Hide"
+        },
+        "DgyBle5vmCiX7GKM": {
+          "name": "Hoof"
         },
         "JMDryuOg4byJ1MLo": {
           "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -27050,11 +27239,16 @@
       "monsterType": "Undead, Enchanted",
       "name": "Vampire* (Human)"
     },
+    "Wagon (4 wheels)": {
+      "biography": "<p>This is a large wooden wagon pulled by two or four draft horses (or four, six, or eight mules). The wagon cannot travel through desert, forest, mountain, or swamp except by road.</p><p>The wagon's maximum safe movement rate is 60' (20'); above that rate, the DM should check once per turn to see if the wagon breaks down or tips over. On a 1 on a [[/r 1d6 #breaks down on 1 and tips over on 2 or 3]], it breaks down, and on a 2 it tips over. </p><p>The cart's carrying capacity is 15,000 cn when pulled by two horses, 25,000 cn when pulled by four.</p><h3>Vehicle Movement Speed</h3><p>Creatures can pull the carrying capacities for carts and wagons with no problem or hindrance to their movement speeds. The vehicles can be loaded heavier, but movement speeds will suffer.</p><p>Simply put, if the animal's normal encumbrance value is equal to or higher than the weight in the vehicle, it can pull it at its normal speed. If the encumbrance of the vehicle exceeds the animal's normal encumbrance value, it can be pulled at half the animal's normal speed.</p><p>For example, one draft horse pulls a cart loaded down with 3,000 cn of cargo; this cart could travel at the horse's maximum rate of 90' (30'), though speeds greater than 60' (20') risk upsetting the vehicle and the cargo. The same draft horse can pull a cart loaded with 5,000 cn of cargo, but this cart moves at half speed or 45' (15').</p>",
+      "gmNotes": "If going over safe speed (60), change max move speed to pulling animals'.\nChange max encumbrance to 25000 if pulled by four horses.",
+      "name": "Wagon (4 wheels)"
+    },
     "War Horse": {
       "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This type of horse is bred for its warlike temperament and strength. Unlike other horses, it is trained to charge. When charging, its rider can do double damage when using a lance. The horse cannot fight while charging and cannot move at charging speed for more than three rounds at a time.</p><p><strong>Terrain:</strong> Open.</p><p><span style=\"font-family: inherit\"><strong>Load:</strong></span><span style=\"font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\"> 4,000 cn at full speed; 8,000 cn at half speed</span></p><p><strong>Barding Multiplier:</strong> x1</p>",
       "items": {
         "GJo9hRu08IQdg85S": {
-          "name": "Natural Protection"
+          "name": "Hide"
         },
         "JIFVr8aUai9GQtuR": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -27077,8 +27271,7 @@
           "shortName": "Death"
         },
         "ia5ZpAJE2P7foDys": {
-          "description": "Muscular hooves capable of delivering swift, forceful strikes.",
-          "name": "Hooves"
+          "name": "Hoof"
         },
         "pLhnhsU7V8HDcgFW": {
           "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
@@ -27607,7 +27800,8 @@
     "Mounts": "Mounts",
     "Nightshades": "Nightshades",
     "Spider, Planar": "Spider, Planar",
-    "Thugs": "Thugs"
+    "Thugs": "Thugs",
+    "Vehicle/Mount": "Vehicle/Mount"
   },
   "label": "Actor Compendium"
 }
