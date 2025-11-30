@@ -127,7 +127,8 @@
                     "key": "CR"
                 },
                 "base": "Punteggio base di abilità: è il punteggio di abilità così come è stato tirato.",
-                "tempMod": "Si tratta di un modificatore temporaneo inserito manualmente al punteggio dell'abilità."
+                "tempMod": "Si tratta di un modificatore temporaneo inserito manualmente al punteggio dell'abilità.",
+                "minimum": "Punteggio minimo richiesto in base alla classe e/o alla razza."
             },
             "AbilityCount": {
                 "long": "Abilità Speciali",
@@ -266,8 +267,11 @@
                 "water-breathing": "Respira sott'acqua",
                 "weapon-using": "Uso delle armi",
                 "alignment": "Allineamento",
-                "name": "Nome"
-            }
+                "name": "Nome",
+                "plants": "Piante",
+                "flaming-weak": "Debolezza al fuoco"
+            },
+            "combat": "Combattimento"
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -287,7 +291,8 @@
             "ActorClassItem": "Scheda Oggetto di Classe del PG",
             "CharacterSheetBase": "Scheda del PG",
             "AncestryDefinitionItem": "Scheda di Definizione Razza",
-            "AmmoItem": "Scheda Munizioni"
+            "AmmoItem": "Scheda Munizioni",
+            "Vehicle": "Veicolo/Cavalcatura"
         },
         "Spell": {
             "memorized": "L'incantesimo è stato memorizzato questo numero di volte",
@@ -491,7 +496,8 @@
             },
             "modRanged": "Mod CA Distanza",
             "totalRanged": "CA Distanza Totale",
-            "totalRangedAAC": "CAA Distanza Totale"
+            "totalRangedAAC": "CAA Distanza Totale",
+            "abilityScoreBonus": "Bonus punteggio caratteristica: {bonus}"
         },
         "Mastery": {
             "levels": {
@@ -568,13 +574,18 @@
                 "effectMod": "Mod affetto attaccante: {mod}",
                 "targetMod": "Mod effetto bersaglio: {mod}",
                 "masteryMod": "Mod maestria: {mod}",
-                "unskilledUse": "Uso arma improvvisata: {mod}",
+                "unskilledUse": "Uso improvvisato: {mod}",
                 "masteryPrimDmg": "Maestria Arma - Danno Primario",
                 "masterySecDmg": "Maestria Arma - Danno Secondario",
                 "manual": "Mod manuale: {mod}",
                 "ammoMod": "Mod Munizione: {mod}",
                 "vsGroupMod": "Mod contro {group} : {mod}",
-                "effectScale": "Scala dell'effetto dell'attaccante: x{scale}"
+                "effectScale": "Scala dell'effetto dell'attaccante: x{scale}",
+                "abilityScoreMod": "Mod punteggio abilità: {mod}",
+                "difficulty": "Livello di difficoltà: {mod}",
+                "effectMod2": "Mod effetto: {mod}",
+                "itemMod": "Mod abilità oggetto: {mod}",
+                "skilledUse": "Specializzato: {mod}"
             },
             "attackACNone": "<div class='attack-info'>L'attacco non colpisce nessuna CA</div>",
             "attackSuccess": "<div class='attack-success'>Colpito!</div>",
@@ -759,23 +770,33 @@
                     "name": "Movimento"
                 },
                 "missile": {
-                    "name": "Combattimento a Distanza",
+                    "name": "Distanza",
                     "description": " I personaggi che utilizzano armi da lancio e a gittata effettuano i loro attacchi"
                 },
                 "magic": {
-                    "name": "Magia",
-                    "description": "I personaggi che lanciano incantesimi o usano oggetti magici lo facciano ora"
+                    "name": "Incantesimo",
+                    "description": "I personaggi che possono lanciare incantesimi o usare effetti magici lo facciano ora."
                 },
                 "melee": {
-                    "name": "Combattimento Corpo-a-Corpo",
+                    "name": "Mischia",
                     "description": "I personaggi che combattono corpo a corpo faccino i loro attacchi"
                 },
                 "morale": {
-                    "name": "Test Morale",
+                    "name": "Morale",
                     "description": "I mostri e i PNG effettuano i test sul morale. Chiunque abbia bisogno di effettuare un tiro salvezza contro un effetto in corso lo faccia adesso"
                 },
                 "magicItem": {
-                    "name": "Oggetto Magico"
+                    "name": "Oggetto Magico",
+                    "description": "I personaggi che usano oggetti magici lo facciano adesso."
+                },
+                "name": "fase",
+                "specialBegin": {
+                    "description": "Azioni speciali che vengono risolte all'inizio di un round di combattimento.",
+                    "name": "Speciale-I"
+                },
+                "specialEnd": {
+                    "description": "Azioni speciali che vengono risolte alla fine di un round di combattimento.",
+                    "name": "Speciale-F"
                 }
             },
             "maneuvers": {
@@ -844,7 +865,7 @@
                     "description": "Il combattente disarma un avversario colpendolo ma senza infliggere danni; se il bersaglio fallisce una prova di Destrezza, lascia cadere la sua arma"
                 },
                 "guard": {
-                    "description": "Questa azione consente a un combattente di trattenere il proprio attacco in mischia fino alla fine della fase di movimento di un avversario, colpendo se l'avversario si muove entro la portata. Come nell'opzione di ritirata, il combattente può muoversi a metà della velocità normale.",
+                    "description": "Il combattente che vince l'iniziativa mantiene il suo attacco in mischia fino alla fine della fase di movimento dell'avversario, colpendo l'avversario se si muove entro il raggio d'azione. Come per l'opzione di ritirata, il combattente può muoversi a metà della normale velocità di movimento. Il combattente può scegliere di attaccare chiunque entro il raggio d'azione durante la sua fase di combattimento corpo a corpo.",
                     "name": "Guardia"
                 },
                 "shove": {
@@ -865,16 +886,20 @@
                     "description": "Questa è un'opzione generica che copre l'uso di un'abilità speciale che richiede un round di combattimento per essere eseguita. Non selezionare questa opzione se si utilizza un'arma, un incantesimo o un oggetto magico."
                 },
                 "charge": {
-                    "name": "Carica"
+                    "name": "Carica",
+                    "description": "Il mostro corre verso l'avversario da una distanza di 20 metri (6 metri in un ambiente chiuso) in un round e infligge danni doppi se colpisce."
                 },
                 "crush": {
-                    "name": "Stritolamento"
+                    "name": "Stritolamento",
+                    "description": "Quando schiaccia, il drago atterra effettivamente sulle sue vittime. Ognuna può effettuare un tiro salvezza contro raggio della morte; il successo indica la completa elusione dello schiacciamento e non viene inflitto alcun danno. Una vittima può scegliere di rimanere nell'area, subendo l'intero danno dello schiacciamento; se impugna un'arma, può effettuare un tiro per colpire con bonus di +4. Se colpisce, infligge danni doppi. Lo schiacciamento può essere usato contro vittime non umane, o eventualmente contro qualsiasi avversario se il drago è gravemente ferito."
                 },
                 "swoop": {
-                    "name": "Planata"
+                    "name": "Planata",
+                    "description": "Il combattente volante piomba su un avversario a un'altitudine inferiore. Simile a una carica, ma si applica alle creature volanti che si lanciano verso la loro preda da 10 metri (3 metri in interni) di distanza. Questo attacco, se ha successo, infligge danni doppi al bersaglio, ma solo se la creatura attaccante lo sorprende."
                 },
                 "concentrate": {
-                    "name": "Concentrazione"
+                    "name": "Concentrazione",
+                    "decription": "Il combattente rimane immobile e concentrato. Subire danni o fallire un tiro salvezza interrompe la concentrazione."
                 }
             }
         },
@@ -1016,7 +1041,9 @@
                     "load": "Attuali",
                     "new": "Aggiungi",
                     "createTable": "Crea Tabella",
-                    "saveTable": "Salva Modifiche"
+                    "saveTable": "Salva Modifiche",
+                    "export": "Esporta",
+                    "import": "Importa"
                 },
                 "bonus": "Bonus",
                 "minimum": "Minimo",
@@ -1135,7 +1162,8 @@
             "male": "Maschio",
             "requiredScores": "Punteggi Abilità Necessari",
             "classes": "Classi"
-        }
+        },
+        "Search": "Cerca oggetti..."
     },
     "SETTINGS": {
         "Encumbrance": {
@@ -1213,7 +1241,8 @@
                     "simpleIndividual": "Individuale (semplificata)",
                     "individual": "Individuale",
                     "individualChecklist": "Individuale (combattimento controllato)",
-                    "group": "Gruppo (combat controllato)"
+                    "group": "Gruppo (combat controllato)",
+                    "advancedGroup": "Gruppo (sequenza in 2 fasi)"
                 },
                 "hint": "Scegli tra iniziativa di gruppo o iniziativa individuale. La modalità INDIVIDUALE (SEMPLIFICATA) ordina esclusivamente per tiro di iniziativa più eventuali modificatori. La modalità INDIVIDUALE aggiunge la regola delle armi a 2-mani, facendo perdere l'iniziativa agli utilizzatori di armi a 2-mani. La modalità INDIVIDUALE (COMBAT CONTROLLATO) combina l'iniziativa individuale con l'ordine della lista di combattimento controllato quando sono abilitate le azioni dichiarate. La modalità GRUPPO (COMBAT CONTROLLATO) raggruppa i combattenti in base alla disposizione dei token e ordina anche all'interno di un gruppo in base alle azioni dichiarate (se abilitate)."
             },
@@ -1303,16 +1332,18 @@
         "abilityScoreMods": {
             "choices": {
                 "heroic": "Eroico",
-                "simple": "Semplice"
+                "simple": "Semplice",
+                "original": "Originale"
             },
-            "hint": "Il sistema di modificatori dei punteggi di caratteristica determina come vengono calcolati i modificatori dei punteggi di caratteristica. Eroico sarà compatibile con molti sistemi di gioco \"Base/Esperto\" ed è l'impostazione predefinita. Semplice fornisce un bonus di +1 ai punteggi pari o superiori a 15, applicando una penalità di -1 ai punteggi pari o inferiori a 6.",
+            "hint": "Il sistema di modificatori dei punteggi di caratteristica determina come vengono calcolati i modificatori dei punteggi di caratteristica. Eroico sarà compatibile con molti sistemi di gioco \"Base/Esperto\" ed è l'impostazione predefinita. Semplice fornisce un bonus di +1 ai punteggi pari o superiori a 15, applicando una penalità di -1 ai punteggi pari o inferiori a 6. L'originale fornisce i modificatori dei punteggi delle caratteristiche del regolamento originale della scatola bianca.",
             "name": "Sistema di modifica dei punteggi di caratteristica"
         }
     },
     "TYPES": {
         "Actor": {
             "character": "Personaggio",
-            "monster": "Mostro"
+            "monster": "Mostro",
+            "vehicle": "Veicolo/Cavalcatura"
         },
         "Item": {
             "item": "Oggetto",
@@ -1345,12 +1376,21 @@
         "monsterSize": {
             "L": "L",
             "M": "M",
-            "T": "A"
+            "T": "A",
+            "G": "E",
+            "I": "M",
+            "S": "P"
         },
         "monsterAlignment": {
             "None": "Nessuno",
             "Chaotic": "Caotico",
-            "Neutral": "Neutrale"
+            "Neutral": "Neutrale",
+            "Any": "Qualsiasi",
+            "Any (often Chaotic)": "Qualsiasi (spesso Caotico)",
+            "Chaotic or Neutral": "Caotico o Neutrale",
+            "Lawful": "Legale",
+            "Lawful (with master) or Chaotic (without)": "Legale (con master) o Caotico (senza)",
+            "Lawful or Neutral": "Legale o Neutrale"
         },
         "classSpecies": {
             "Human": "Umano",
@@ -1361,7 +1401,9 @@
         },
         "classAlignment": {
             "Chaotic": "Caotico",
-            "Neutral": "Neutrale"
+            "Neutral": "Neutrale",
+            "Any": "Qualunque",
+            "Lawful": "Legale"
         }
     }
 }
