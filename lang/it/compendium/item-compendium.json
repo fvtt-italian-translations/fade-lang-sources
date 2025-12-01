@@ -5755,20 +5755,24 @@
             "name": "Disperazione"
         },
         "Entranced": {
-            "description": "<p>L'attore affetto è completamente in trance e non può compiere alcuna azione.</p>"
+            "description": "<p>L'attore affetto è completamente in trance e non può compiere alcuna azione.</p>",
+            "name": "Estasiato"
         },
         "Ethereal": {
-            "name": "Eterea"
+            "name": "Eterea",
+            "description": "<p>Quando un mostro o un personaggio assume una forma eterea, diventa immateriale e non può essere danneggiato in alcun modo dal Piano Materiale.</p>"
         },
         "Fear@QMnq62lBb1rxYaMF": {
-            "name": "Paura"
+            "name": "Paura",
+            "description": "<p>Il/I bersaglio/i di questa capacità devono effettuare un tiro salvezza contro gli incantesimi o fuggire spaventati. Alcune varianti della capacità possono influenzare automaticamente le creature con un certo numero di dadi vita o inferiori (nessun tiro salvezza), inducendole a rifiutarsi di tornare nell'area in cui la capacità è stata utilizzata finché la situazione non cambia.</p>"
         },
         "Fear@oYjWYjpLycaMM1ME": {
             "name": "Paura"
         },
         "Flight": {
             "gmNotes": "Capacità di volo dei pipistrelli giganti.",
-            "name": "Volo"
+            "name": "Volo",
+            "description": "<p>L'abilità di volo consente a un personaggio o a una creatura di muoversi nell'aria, sia tramite mezzi magici che tramite capacità naturali, come le ali. Questa abilità consente di salire, scendere e navigare nello spazio tridimensionale aereo, spesso a una velocità specifica. Il volo può essere soggetto a limitazioni, come un'altitudine massima, una durata o condizioni specifiche per il suo utilizzo. </p>"
         },
         "Glide": {
             "name": "Planare"
@@ -5803,7 +5807,8 @@
             "name": "Stordito"
         },
         "Deafened": {
-            "name": "Assordato"
+            "name": "Assordato",
+            "description": "<p>Un personaggio reso sordo dalla magia (una maledizione o un <em>corno esplosivo</em>, per esempio) è sicuramente in difficoltà. Non potendo sentire, perderà molti avvertimenti urlati dai suoi alleati. Il personaggio sordo dovrebbe effettuare un tiro salvezza contro raggio della morte; se lo fallisce, è rivolto nella direzione sbagliata quando viene lanciato l'avvertimento. Una <em>maledizione della sordità</em> verrebbe curata da un incantesimo Scaccia Maledizioni, mentre la sordità causata da un <em>corno esplosivo</em> potrebbe essere curata da un incantesimo <em>Guarigione</em>.</p>"
         },
         "Prone": {
             "name": "Prono"
@@ -5811,20 +5816,28 @@
         "Boost Agility": {
             "spellDuration": "Istantaneo",
             "spellRange": "Se stesso",
-            "description": "<p>Questa pozione aumenta il punteggio di Destrezza di chi la beve ad un punteggio di 18 per 7-12 turni [[/br 1d6+6 #durata della Pozione di Agilità]]. Tutti i bonus applicabili alla Destrezza, come il miglioramento della Classe Armatura e i bonus agli attacchi a distanza, vengono applicati durante questo periodo. La pozione ha effetto immediato al momento del consumo</p>"
+            "description": "<p>Questa pozione aumenta il punteggio di Destrezza di chi la beve ad un punteggio di 18 per 7-12 turni [[/br 1d6+6 #durata della Pozione di Agilità]]. Tutti i bonus applicabili alla Destrezza, come il miglioramento della Classe Armatura e i bonus agli attacchi a distanza, vengono applicati durante questo periodo. La pozione ha effetto immediato al momento del consumo</p>",
+            "name": "Aumento Agilità",
+            "spellEffect": "Aumenta la Destrezza a 18"
         },
         "Cone of Cold (Wand)": {
-            "spellDuration": "Istantaneo"
+            "spellDuration": "Istantaneo",
+            "description": "<p>Crea un cono di freddo lungo 18 metri e largo 9 metri all'estremità più lontana. Tutti coloro che si trovano all'interno del cono subiscono 6d6 danni da freddo, ma possono effettuare un tiro salvezza contro le bacchette per dimezzare i danni.</p>",
+            "name": "Cono di Freddo (Bacchetta)",
+            "spellEffect": "Crea un cono di freddo lungo 18 metri e largo 9 metri"
         },
         "Wand of Illusion": {
             "unidentifiedName": "Bacchetta misteriosa",
             "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Questa bacchetta scura e lucida sembra pesante nella tua mano, e ha la sua superficie incisa con motivi simili a brina. La punta è coronata da un cristallo blu traslucido che ricorda il ghiaccio, e una leggera nebbia viene emanata occasionalmente da essa, ovvero il potere gelido contenuto al suo interno.</span></p>"
         },
         "Controlled": {
-            "name": "Controllato"
+            "name": "Controllato",
+            "description": "<p>La volontà o le azioni della creatura non sono più sue. È sotto l'influenza di un'altra forza (magica, mentale o comunque innaturale) e agisce in accordo con i desideri di quel potere finché non viene liberata.</p>"
         },
         "Fireball (Wand)": {
-            "spellEffect": "Esplosione in una sfera di 12 metri di diametro"
+            "spellEffect": "Esplosione in una sfera di 12 metri di diametro",
+            "description": "<p>Crea un proiettile di fiamme che esplode in una palla di fuoco di 12 metri di diametro (raggio di 6 metri) nel punto in cui colpisce. Infligge 6d6 danni da fuoco a ogni creatura nell'area.</p><p><strong>Tiro Salvezza:</strong> Ogni creatura può effettuare un tiro salvezza contro le bacchette per dimezzare i danni.</p>",
+            "name": "Palla di Fuoco (Bacchetta)"
         },
         "Lightning Bolt (Wand)": {
             "spellEffect": "Saetta lunga 18 m, larga 1,5 m"
@@ -5850,17 +5863,23 @@
             "description": "<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex-col gap-1 md:gap-3\"><div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistente\" data-message-id=\"48076c71-946d-429a-8234-65530708332f\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p><strong>Aumento del danno:</strong> tutti gli attacchi con le armi infliggono il doppio del danno normale.</p><p><strong>Lancio di massi:</strong> l'utilizzatore può lanciare piccoli massi con una gittata di 18/40/60 m, infliggendo 3d6 punti di danno per colpo.</p><p><strong>Restrizione di compatibilità:</strong> la pozione non funziona se l'utilizzatore sta già beneficiando di un oggetto magico che regola la forza (ad esempio, guanti del potere orchesco).</p><p>La pozione turbina con una tonalità blu gelida, minuscole macchie cristalline catturano la luce mentre si muove. Il suo profumo è acuto e tonificante, come l'aria gelida di montagna, con un retrogusto metallico. Sulla lingua, provoca un freddo pungente e lascia una sensazione debole e intorpidita, come se fosse toccato dal gelo.</p></div></div></div></div></div></div>"
         },
         "Clairvoyance@IfMYxPRqHff6UUGt": {
-            "name": "Chiaroveggenza"
+            "name": "Chiaroveggenza",
+            "description": "<p>Questo incantesimo permette all'incantatore di vedere attraverso gli occhi di qualsiasi creatura entro 18 metri. A ogni turno, l'incantatore può passare agli occhi di un'altra creatura entro gittata senza dover rilanciare l'incantesimo.</p>\n<p><strong>Restrizioni:</strong> L'effetto dell'incantesimo è bloccato da 60 centimetri di roccia o da un sottile strato di piombo. Non si applica alcun tiro salvezza.</p>",
+            "spellEffect": "Guarda attraverso gli occhi altrui"
         },
         "Clairvoyance@VusfGQ4Iu6RYwxqn": {
             "name": "Chiaroveggenza",
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'utilizzatore può vedere un'area fino a 18 metri di distanza attraverso gli occhi di una creatura presente in quell'area.</p><p>Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p>",
+            "spellEffect": "Guarda attraverso gli occhi altrui"
         },
         "Climbing": {
             "name": "Scalare",
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'utilizzatore può arrampicarsi su superfici scoscese come un ragno, con solo il 5% di probabilità di cadere, verificata ogni 30 metri di arrampicata (almeno una volta per arrampicata).</p><p>Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p>",
+            "spellEffect": "Scala come un ragno"
         },
         "Potion of Clairaudience": {
             "unidentifiedName": "Pozione Misteriosa",
@@ -5881,7 +5900,9 @@
         "Clairaudience": {
             "name": "Chiaroudienza",
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'utilizzatore può ascoltare suoni, compresi i discorsi, entro un raggio di 18 metri usando le orecchie di una creatura presente in quell'area.</p><p>L'incantesimo dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p>",
+            "spellEffect": "Ascolta attraverso orecchie altrui"
         },
         "Invisibility (Potion)": {
             "spellEffect": "1 creatura o oggetto",
@@ -5897,12 +5918,16 @@
         },
         "ESP* (Potion)": {
             "spellEffect": "Tutti i pensieri in una direzione",
-            "spellDuration": "7-12 turni"
+            "spellDuration": "7-12 turni",
+            "description": "<p>Questo effetto magico permette all'incantatore di \"sentire\" i pensieri. L'incantatore deve concentrarsi in una direzione per 6 round (1 minuto) per udire i pensieri (se presenti) di una creatura entro il raggio d'azione. L'effetto permette all'utilizzatore di comprendere i pensieri di qualsiasi singola creatura vivente, indipendentemente dalla lingua. Non permette all'utilizzatore di udire i pensieri delle creature non-morte.</p><p>Se più di una creatura si trova entro il raggio d'azione e nella direzione in cui l'utilizzatore si sta concentrando, questa \"sentirà\" un confuso groviglio di pensieri. L'utilizzatore può districare il groviglio solo concentrandosi per altri 6 round per trovare una singola creatura.</p><p>L' <em>ESP</em> non è ostacolato da alcuna quantità di legno o liquido e penetra fino a 60 cm di roccia, ma un sottile strato di piombo bloccherà l'incantesimo. I bersagli possono effettuare un tiro salvezza contro gli incantesimi per evitarne gli effetti.</p><p><span style=\"font-family: Barlow, sans-serif\">Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</span></p>",
+            "name": "ESP* (Pozione)"
         },
         "Fire Resistance": {
             "name": "Resistenza al fuoco",
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'utilizzatore è immune al fuoco normale e ottiene un bonus di +2 a tutti i tiri salvezza contro gli attacchi da fuoco. Il fuoco magico e quello dei draghi infliggono danni ridotti: sottrarre 1 PF per dado di danno (minimo 1 PF per dado).</p><p><span style=\"font-family: Barlow, sans-serif\">Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</span></p>",
+            "spellEffect": "Immune o attenua i danni da fuoco"
         },
         "Potion of Elemental Form": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -5981,10 +6006,13 @@
         },
         "Cure Critical Wounds (Potion)": {
             "spellEffect": "Cura una creatura vivente",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>Questo effetto cura una creatura vivente da 3d6 + 3 punti di danno.</p>",
+            "name": "Cura Ferite Critiche (Pozione)"
         },
         "Detect Invisible@SweWOsKvrGVPiDno": {
-            "name": "Individuazione dell'Invisibile"
+            "name": "Individuazione dell'Invisibile",
+            "description": "<p>Questo effetto consente all'utilizzatore di vedere tutte le creature e gli oggetti invisibili nel raggio d'azione di 18 metri.</p>"
         },
         "Potion of Sight": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -6008,7 +6036,9 @@
         },
         "Detect Invisible@AFAO8TtMFr00BlwX": {
             "name": "Individuazione dell'Invisibile",
-            "spellEffect": "Solo l'incantatore"
+            "spellEffect": "Solo l'incantatore",
+            "description": "<p>Questo incantesimo permette all'incantatore di vedere tutte le creature e gli oggetti invisibili entro un raggio d'azione di 3 metri per ogni livello dell'incantatore. Ad esempio, un incantatore di 3° livello può usare questo incantesimo per vedere oggetti invisibili entro 9 metri.</p>",
+            "spellRange": "3 metri per livello dell'incantatore"
         },
         "Potion of Swimming": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -6058,33 +6088,53 @@
             "spellRange": "Se stesso"
         },
         "Fading": {
-            "name": "Sbiadire"
+            "name": "Sbiadire",
+            "description": "<p>Un personaggio sotto l'effetto di questa condizione diventa gradualmente traslucido nel corso di 24 ore, fino ad assomigliare a un segugio spettrale. Il suo equipaggiamento rimane inalterato. Una volta completamente sbiadito, il personaggio non è in grado di tenere oggetti normali o di comunicare con i personaggi non sbiaditi tramite udito o parola.</p><p>Dalla prospettiva del personaggio sbiadito, gli oggetti normali appaiono traslucidi, mentre le entità sbiadite, inclusi gli altri personaggi affetti e i segugi spettrali, sembrano solide e normali.</p><p>La condizione può essere invertita in qualsiasi momento con un incantesimo <em>Porta Dimensionale</em>, che consente al personaggio o ai personaggi affetti di attraversarla e tornare al mondo normale.</p>"
         },
         "Diminution": {
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'effetto magico riduce istantaneamente l'utilizzatore a 15 cm di altezza. L'utilizzatore può attaccare solo creature più piccole di 30 cm infliggendo danni normali. Possono passare attraverso piccole fessure e hanno il 90% di probabilità di non essere visti quando sono fermi. Questa trasformazione annullerà qualsiasi effetto di crescita precedente senza conseguenze negative.</p><p>Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p>",
+            "name": "Rimpicciolimento",
+            "spellDuration": "7-12 turni",
+            "spellEffect": "Riduce l'altezza dell'utente a 15 cm"
         },
         "Control Undead": {
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'utilizzatore può controllare fino a 18 Dadi Vita di mostri non morti. I non morti saranno ostili al termine del controllo.</p><p>Dura 7-12 turni ([[/br 1d6+6]]), la cui durata esatta è nota solo al DM.</p>",
+            "name": "Controllare Non-Morti",
+            "spellEffect": "Controlla 18DV di non morti"
         },
         "Treasure Finding": {
             "spellDuration": "7-12 turni",
             "spellRange": "Se stesso"
         },
         "Control  Plant": {
-            "spellDuration": "7-12 turni"
+            "spellDuration": "7-12 turni",
+            "description": "<p>L'utilizzatore può controllare tutte le piante e le creature simili a piante (inclusi i mostri) in un'area di 9 metri x 9 metri fino a 18 metri di distanza. Le piante normali controllate possono intrappolare le vittime nella loro area, ma non possono causare danni.</p><p><span style=\"font-family: Barlow, sans-serif\">Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</span></p>",
+            "name": "Controllare Piante",
+            "spellEffect": "Controllare le piante e le creature simili alle piante"
         },
         "Boost Strength": {
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>Il punteggio di Forza dell'utilizzatore diventa 18 e ottiene immediatamente tutti i bonus applicabili.</p><p>Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p>",
+            "name": "Aumento Forza",
+            "spellEffect": "Aumenta la forza a 18"
         },
         "Bug Repellent@G8fjBG7DeRYIHUuv": {
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'effetto magico protegge l'utilizzatore da tutti gli insetti, inclusi aracnidi (ragni, zecche, scorpioni), insetti (formiche, coleotteri, mosche) e chilopodi (centopiedi, millepiedi). Gli insetti di dimensioni normali non possono toccare l'utilizzatore, mentre quelli di dimensioni giganti lo ignoreranno a meno che non superi un tiro salvezza contro gli incantesimi. Se l'insetto gigante fallisce il tiro salvezza, ignora completamente la presenza dell'utilizzatore. Inoltre, l'effetto fornisce un bonus di +4 a qualsiasi tiro salvezza contro insetti evocati o controllati magicamente.</p><p>Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</p>",
+            "name": "Repellente per insetti",
+            "spellEffect": "Protegge l'utilizzatore da tutti gli insetti"
         },
         "Ethereality (Potion)": {
             "spellDuration": "7-12 turni",
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'utilizzatore può diventare etereo una volta in qualsiasi momento durante l'effetto e può poi rimanere tale in quello stato fino a 24 ore, tornando nel Piano Materiale a piacimento. Una volta che l'utilizzatore torna al Piano Materiale, l'effetto non può essere utilizzato di nuovo.</p><p><span style=\"font-family: Barlow, sans-serif\">Dura 7-12 turni (1d6+6), la cui durata esatta è nota solo al DM.</span></p>",
+            "name": "Etereosi (Pozione)",
+            "spellEffect": "Diventa etereo"
         },
         "Haste (Potion)": {
             "spellDuration": "7-12 turni",
@@ -6102,7 +6152,8 @@
                     "title": "Enorme"
                 }
             },
-            "name": "Drago Nero"
+            "name": "Drago Nero",
+            "description": "<p>Ogni tipo di drago ha la capacità di lanciare incantesimi, sebbene non tutte le taglie conoscano gli incantesimi. I draghi si dividono in tre diverse categorie di taglia, ciascuna delle quali rappresenta un livello da uno a tre.</p><p>La classe di un drago non definisce tiri salvezza o capacità speciali, sebbene potrebbe farlo. La classe di un drago viene utilizzata principalmente per definire le sue capacità di lancio di incantesimi.</p>"
         },
         "Blue Dragon": {
             "classLevels": {
@@ -6116,10 +6167,12 @@
                     "title": "Enorme"
                 }
             },
-            "name": "Drago Blu"
+            "name": "Drago Blu",
+            "description": "<p>Ogni tipo di drago ha la capacità di lanciare incantesimi, sebbene non tutte le taglie conoscano gli incantesimi. I draghi si dividono in tre diverse categorie di taglia, ciascuna delle quali rappresenta un livello da uno a tre.</p><p>La classe di un drago non definisce tiri salvezza o capacità speciali, sebbene potrebbe farlo. La classe di un drago viene utilizzata principalmente per definire le sue capacità di lancio di incantesimi.</p>"
         },
         "Charge": {
-            "name": "Carica"
+            "name": "Carica",
+            "description": "<p>Un mostro con questo attacco speciale può correre verso il suo avversario per 20 metri (6 metri al chiuso) in un round e infliggere il doppio dei danni se colpisce. Un mostro non può caricare in determinati tipi di terreno: accidentato, pesante, foresta, giungla, montagna, palude, ecc.</p>"
         },
         "Gold Dragon": {
             "classLevels": {
@@ -6180,10 +6233,15 @@
         "Control Animals": {
             "spellDuration": "7-12 turni",
             "spellRange": "Se stesso",
-            "description": "<p>Dopo aver consumato questa pozione, l'utente può controllare fino a [[/r 3d6 #dadi vita di animali controllabili dalla Pozione di Controllo Animale]] dadi vita di animali (normali o giganti, ma non fantastici o magici) per la durata della pozione. Gli animali influenzati avranno paura e lasceranno l'area quando il controllo terminerà. L'utente deve vedere gli animali per controllarli e non può costringerli a farsi del male. Le creature controllate possono effettuare un tiro salvezza contro incantesimi per resistere. L'effetto della pozione dura [[/br 1d6+6 #durata della Pozione di Controllo Animale]] 7-12 turni</p>"
+            "description": "<p>Dopo aver consumato questa pozione, l'utente può controllare fino a [[/r 3d6 #dadi vita di animali controllabili dalla Pozione di Controllo Animale]] dadi vita di animali (normali o giganti, ma non fantastici o magici) per la durata della pozione. Gli animali influenzati avranno paura e lasceranno l'area quando il controllo terminerà. L'utente deve vedere gli animali per controllarli e non può costringerli a farsi del male. Le creature controllate possono effettuare un tiro salvezza contro incantesimi per resistere. L'effetto della pozione dura [[/br 1d6+6 #durata della Pozione di Controllo Animale]] 7-12 turni</p>",
+            "name": "Controllare Animali",
+            "spellEffect": "Controlla fino a 3d6 Dadi Vita di animali"
         },
         "Defense (Potion)": {
-            "spellRange": "Se stesso"
+            "spellRange": "Se stesso",
+            "description": "<p>L'utilizzatore ottiene un bonus temporaneo alla Classe Armatura per un turno. Il bonus è determinato tirando [[/r 1d10 #Vedi tabella dei bonus di difesa]]:</p><p>1-3: +1<br>4-5: +2<br>6-7: +3<br>8-9: +4<br>10: +5</p>",
+            "name": "Difesa (Pozione)",
+            "spellEffect": "Bonus alla CA (tira per il bonus)"
         },
         "Invulnerability (Potion)": {
             "spellRange": "Se stesso",
@@ -6207,19 +6265,31 @@
         },
         "Detect Enemy (Wand)": {
             "spellRange": "Se stesso",
-            "spellDuration": "Concentrazione"
+            "spellDuration": "Concentrazione",
+            "description": "<p>Fa sì che tutti i nemici entro 18 metri (inclusi quelli nascosti o invisibili) emettano una luce brillante, come se fossero in fiamme.</p><p><em>L'effetto persiste finché l'incantatore si concentra. Muoversi, subire danni o fallire un Tiro Salvezza comporta l'interruzione della concentrazione e la fine dell'effetto.</em></p>",
+            "name": "Individua Nemici (Bacchetta)",
+            "spellEffect": "Individua Nemici"
         },
         "Detect Magic (Wand)": {
             "spellRange": "Se stesso",
-            "spellDuration": "Concentrazione"
+            "spellDuration": "Concentrazione",
+            "description": "<p>Fa brillare qualsiasi oggetto magico entro 6 metri. Se l'oggetto non può essere normalmente visto (per esempio come all'interno di una cassa chiusa), il bagliore non sarà visibile.</p><p><em>L'effetto persisterà finché l'incantatore si concentrerà. Muoversi, subire danni o fallire un Tiro Salvezza causerà l'interruzione della concentrazione e la fine dell'effetto.</em></p>",
+            "name": "Individuazione del Magico (Bacchetta)",
+            "spellEffect": "Individuazione del Magico"
         },
         "Detect Metal (Wand)": {
             "spellRange": "Se stesso",
-            "spellDuration": "Concentrazione"
+            "spellDuration": "Concentrazione",
+            "description": "<p>L'oggetto da lancio punterà verso qualsiasi tipo di metallo nominato se entro 6 metri e se pesa 1.000 mo o più. L'utilizzatore non può rilevare la quantità di metallo.</p><p><em>L'effetto persisterà finché l'incantatore si concentra. Muoversi, subire danni o fallire un Tiro Salvezza comporta l'interruzione della concentrazione e la fine dell'effetto.</em></p>",
+            "name": "Individuazione del Metallo (Bacchetta)",
+            "spellEffect": "Individua metallo"
         },
         "Detect Secret Doors (Wand)": {
             "spellRange": "Se stesso",
-            "spellDuration": "Concentrazione"
+            "spellDuration": "Concentrazione",
+            "spellEffect": "Individua porte segrete",
+            "description": "<p>L'utilizzatore può trovare qualsiasi porta segreta entro 6 metri, usando una carica per ogni porta segreta trovata.</p><p><em>L'effetto persiste finché l'incantatore si concentra. Muoversi, subire danni o fallire un Tiro Salvezza comporta l'interruzione della concentrazione e la fine dell'effetto.</em></p>",
+            "name": "Individuare Porte Segrete (Bacchetta)"
         },
         "Negation (Wand)": {
             "spellRange": "Se stesso"
@@ -6255,8 +6325,12 @@
                 },
                 "4": {
                     "name": "Scacciare Non-Morti (AV)"
+                },
+                "2": {
+                    "name": "Magia Divina (VeC)"
                 }
-            }
+            },
+            "name": "Vendicatore (C)"
         },
         "Paladin (C)": {
             "classLevels": {
@@ -6279,6 +6353,59 @@
                     "name": "Scacciare Non-Morti (PA)"
                 }
             }
+        },
+        "Bug Repellent@BJG5TvbOgLCm5reh": {
+            "description": "<p>L'effetto magico protegge l'utilizzatore da tutti gli insetti, inclusi aracnidi (ragni, zecche, scorpioni), insetti (formiche, coleotteri, mosche) e chilopodi (centopiedi, millepiedi). Gli insetti di dimensioni normali non possono toccare l'utilizzatore, mentre quelli di dimensioni giganti lo ignoreranno a meno che non superi un tiro salvezza contro gli incantesimi. Se l'insetto gigante fallisce il tiro salvezza, ignora completamente la presenza dell'utilizzatore. Inoltre, l'effetto fornisce un bonus di +4 a qualsiasi tiro salvezza contro insetti evocati o controllati magicamente.</p>",
+            "name": "Repellente per insetti"
+        },
+        "Cape, Fur (Common)": {
+            "description": "<p>Un lussuoso mantello di pelliccia.</p>",
+            "name": "Mantello, Pelliccia (Comune)"
+        },
+        "Cause Fear (Wand)": {
+            "description": "<p>Crea un cono di paura lungo 18 metri e largo 9 metri all'estremità più lontana. Tutti coloro che si trovano all'interno del cono devono effettuare un tiro salvezza contro le bacchette o scappare dall'utilizzatore a una velocità tre volte superiore a quella normale per 30 round.</p>",
+            "name": "Incuti Paura (Bacchetta)",
+            "spellEffect": "Fuggi per 30 round"
+        },
+        "Controlling": {
+            "description": "<p>In grado di esercitare una volontà attiva per dominare le creature vicine o animare la materia; i dettagli (raggio, bersagli, effetti, durata) sono stabiliti dall'effetto che applica la condizione.</p><p></p>",
+            "name": "Controllo in corso"
+        },
+        "Cursed Scroll": {
+            "description": "<p>Purtroppo, quando si vede anche solo una scritta su una pergamena maledetta, la vittima viene immediatamente maledetta. Non è necessaria alcuna lettura. Il DM deve inventare la maledizione di ogni pergamena. Ecco alcuni esempi di maledizioni comuni:</p><ul><li><p>Il lettore si trasforma in una rana (o in un altro animale innocuo).</p></li><li><p>Appare un mostro errante dello stesso livello del lettore che lo attacca di sorpresa (un attacco gratuito con bonus).</p></li><li><p>Un oggetto magico posseduto dal lettore scompare (l'oggetto è scelto o determinato casualmente dal DM).</p></li><li><p>Il lettore perde un livello di esperienza, come se fosse stato colpito da un wight. (Il DM dovrebbe tirare di nuovo per un personaggio di primo livello per evitare un'ingiusta \"morte istantanea\").</p></li><li><p>Il Requisito Principale del lettore deve essere ritirato.</p></li><li><p>Le ferite future impiegheranno il doppio del tempo per guarire e gli incantesimi di guarigione ripristineranno solo la metà delle quantità normali finché la maledizione non sarà revocata.</p></li></ul><p>Solo un incantesimo <em>Scaccia Maledizioni</em> può rimuovere una maledizione di questa natura. Tuttavia, il DM può consentire che il personaggio maledetto venga curato da un PNG chierico o mago di alto livello, che richiederà al personaggio di completare un'avventura speciale o di portare a termine un compito degno ma difficile.</p>",
+            "name": "Pergamena Maledetta",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
+        },
+        "Detect Invisible (Potion)": {
+            "description": "<p>Questo effetto consente all'utilizzatore di vedere tutte le creature e gli oggetti invisibili in un raggio d'azione di 18 metri.</p>",
+            "name": "Individuazione dell'Invisibile (Pozione)",
+            "spellEffect": "Solo l'utilizzatore"
+        },
+        "Detect Traps": {
+            "description": "<p>L'oggetto lanciato punterà a tutte le trappole entro 6 metri, una alla volta, al costo di una carica per ogni trappola trovata.</p><p>L'effetto persisterà finché l'incantatore si concentrerà. Muoversi, subire danni o fallire un Tiro Salvezza causerà l'interruzione della concentrazione e la fine dell'effetto.</p>",
+            "name": "Individua trappole",
+            "spellEffect": "Individua trappole entro 6 metri"
+        },
+        "Diseased (Dying)": {
+            "description": "<p>Questa condizione rappresenta una malattia mortale che, se non curata, porta alla morte in pochi giorni.</p>",
+            "name": "Malato (Morente)"
+        },
+        "Diseased (Incapacitated)": {
+            "description": "<p>Questa condizione rappresenta una grave malattia che costringe la vittima a letto per malattia, incapace di muoversi.</p>",
+            "name": "Malato (Incapacitato)"
+        },
+        "Divine Magic (AVC)": {
+            "description": "<p>Se un Vendicatore ha un punteggio di Saggezza pari o superiore a 13, può lanciare incantesimi da chierico come se fosse un chierico di un terzo del suo livello (arrotondando per difetto). Ad esempio, un Vendicatore di livello 12-14 lancia incantesimi come un chierico di 4° livello. Se la Saggezza del Vendicatore è pari o inferiore a 12, non può lanciare incantesimi, ma può comunque essere un Vendicatore.</p><p>Per ottenere questa capacità, il Vendicatore deve imparare la meditazione e il lancio di incantesimi dai chierici del suo ordine. Questo addestramento ha un costo determinato dal DM, con un minimo suggerito di 10.000 mo per livello di incantesimo da chierico acquisito.</p>",
+            "name": "Magia Divina (VeC)"
+        },
+        "Divine Magic (PAC)": {
+            "description": "<p>Se un Paladino ha un punteggio di Saggezza pari o superiore a 13, può lanciare incantesimi da chierico come se fosse un chierico di un terzo del suo livello, arrotondando per difetto. Ad esempio, un Paladino di 9° livello lancia incantesimi come un chierico di 3° livello, mentre un Paladino di 17° livello lancia incantesimi come un chierico di 5° livello.</p><p>Se la Saggezza del Paladino è pari o inferiore a 12, non può lanciare incantesimi, ma può comunque essere un Paladino.</p><p>Il Paladino impara la meditazione e il lancio di incantesimi dai chierici del suo ordine. I chierici rifiutano qualsiasi pagamento o compenso per questo addestramento.</p>",
+            "name": "Magia Divina (PaC)"
+        },
+        "Ethereal Form": {
+            "description": "<p>La capacità di diventare immateriali e di non poter essere in alcun modo danneggiati dal Piano Materiale.</p>",
+            "name": "Forma Eterea"
         }
     },
     "label": "Oggetti Classi Abilità",
