@@ -121,7 +121,12 @@
                     "shortName": "Soffio"
                 },
                 "kXwBmK8Jwhwt14QY": {
-                    "name": "Mimetismo"
+                    "name": "Mimetismo",
+                    "description": "<p>Può mimetizzarsi perfettamente (come se fosse invisibile) nei boschi radi o fitti. Quando è infuriato per l'uccisione indiscriminata di creature del bosco (o simili atti vili), l'Actaeon balza fuori dal nascondiglio, di solito con sorpresa (1-5 su 1d6). Spesso usa grandi lance di legno e osso per punire o uccidere i profanatori del bosco.</p>"
+                },
+                "Xo7CcTfYSOwUnCcq": {
+                    "description": "<p>Una potente arma a soffio che può essere usata una volta al giorno, riempiendo un cubo di 3 x 3 x 3 m; ogni vittima al suo interno deve effettuare un tiro salvezza contro il soffio del drago o essere trasformata in una normale creatura della foresta (gufo, scoiattolo, cervo, ecc.). Se il tiro salvezza riesce, la trasformazione avviene comunque, ma dura solo 24 ore.</p>",
+                    "name": "Soffio Metamorfico"
                 }
             },
             "name": "Actaeon (Alce Centauro)",
@@ -1299,7 +1304,8 @@
                 },
                 "pcdBLWKxB0T2tZST": {
                     "gmNotes": "Capacità di volo dei pipistrelli giganti.",
-                    "name": "Volo"
+                    "name": "Volo",
+                    "description": "<p>L'abilità di volo consente a un personaggio o a una creatura di muoversi nell'aria, sia tramite mezzi magici che tramite capacità naturali, come le ali. Questa abilità consente all'utilizzatore di salire, scendere e navigare nello spazio tridimensionale aereo, spesso a una velocità specifica. Il volo può essere soggetto a limitazioni, come un'altitudine massima, una durata o condizioni specifiche per il suo utilizzo. </p>"
                 }
             },
             "name": "Arconte (Femmina)",
@@ -8535,7 +8541,8 @@
                 },
                 "pcdBLWKxB0T2tZST": {
                     "gmNotes": "Capacità di volo dei pipistrelli giganti.",
-                    "name": "Volo"
+                    "name": "Volo",
+                    "description": "<p>L'abilità di volo consente a un personaggio o a una creatura di muoversi nell'aria, sia tramite mezzi magici che tramite capacità naturali, come le ali. Questa abilità consente all'utilizzatore di salire, scendere e navigare nello spazio tridimensionale aereo, spesso a una velocità specifica. Il volo può essere soggetto a limitazioni, come un'altitudine massima, una durata o condizioni specifiche per il suo utilizzo. </p>"
                 }
             },
             "monsterType": "Mostro Planare, Magico (Raro)",
@@ -26042,7 +26049,8 @@
                     "shortName": "Pietrifica"
                 },
                 "AnRVPVf6BAaZ5gQi": {
-                    "name": "Morso"
+                    "name": "Morso",
+                    "description": "Un potente attacco con morso del Beholder."
                 },
                 "N89be1UFUb4ZnXUZ": {
                     "description": "<p>Il tiro salvezza contro la Bacchetta Magica viene utilizzato per evitare gli effetti degli attacchi o delle abilità attivate tramite bacchette magiche, come raggi paralizzanti o raggi che infliggono danni. Un tiro salvezza riuscito, effettuato con un d20, indica che il personaggio evita o mitiga gli effetti dannosi. Il numero da superare per il tiro salvezza è determinato dalla classe e dal livello del personaggio, come indicato nella tabella dei tiri salvezza.</p>",
@@ -26053,9 +26061,14 @@
                     "description": "<p>Il tiro salvezza contro Incantesimi, Verga o Bastone Magico include la resistenza contro gli effetti magici lanciati da bacchette, bastoni, bacchette magiche o tramite incantesimi. Un tiro salvezza riuscito, effettuato con un d20, riduce o annulla spesso completamente gli effetti dell'incantesimo. Questo tiro salvezza si applica a numerosi attacchi magici, come incantesimi di charme, palle di fuoco o effetti di paralisi, e copre danni, controllo o condizioni debilitanti causate da incantatori o dispositivi magici. Il numero da superare per il successo si basa sulla classe e sul livello del personaggio.</p>",
                     "name": "Incantesimi, Verga o Bastone Magico",
                     "shortName": "Incantesimo"
+                },
+                "A1QA0e17KkEGOXKs": {
+                    "description": "Il grande occhio centrale proietta un raggio anti-magia che annulla tutta la magia entro 18 metri di fronte a esso.",
+                    "name": "Raggio Anti-Magia"
                 }
             },
-            "monsterType": "Mostro"
+            "monsterType": "Mostro",
+            "biography": "<p>Un beholder, noto anche come \"sfera dai molti occhi\", assomiglia a una grande palla fluttuante di circa 1,2 metri di diametro, ricoperta da una robusta pelle corazzata. Ha dieci piccoli occhi su steli sulla parte superiore del corpo, ognuno con il proprio potere magico unico, e un grande occhio centrale posizionato sulla parte anteriore, con una bocca dentata sottostante.</p><p>Il beholder si muove per mezzo di un volo lento e naturale che non può essere dissolto. È molto intelligente, crudele e avido e parla molte lingue. Questa creatura si trova solitamente da sola, ma può essere accompagnata da 1d6 cuccioli (ognuno con 1/10 dei normali Dadi Vita ed effetti visivi, che infliggono 1d4 danni da morso) con una probabilità del 5%.</p><p>L'occhio centrale di un beholder emette un raggio anti-magia, che annulla tutti gli effetti magici entro 18 metri di fronte a sé. Le armi magiche in quest'area sono considerate non magiche e gli incantesimi lanciati nell'area d'effetto vengono immediatamente interrotti. Gli incantesimi lanciati dall'esterno dell'area vengono vanificati quando entrano nel suo raggio d'azione. L'osservatore si girerà verso qualsiasi personaggio che inizi a lanciare incantesimi, interrompendo l'incantesimo. Una volta che il raggio anti-magia non è più diretto verso un oggetto o un'area, gli oggetti e gli effetti magici tornano alla loro normale funzione.</p><p>Il raggio anti-magia non può essere diretto sopra o sotto la creatura, solo dritto davanti a sé. Poiché il raggio può negare qualsiasi magia, anche quella degli occhi più piccoli, il beholder non può usare i suoi poteri oculari più piccoli su bersagli all'interno di quest'area.</p><p>Quando attaccano un beholder, i giocatori devono dichiarare se stanno mirando al corpo, al grande occhio centrale o a un peduncolo oculare, ognuno con Classe Armatura e Punti Ferita distinti:</p><ul><li>Il corpo ha CA 0 e 50 punti ferita.</li><li>L'occhio centrale ha CA 2 e 20 punti ferita.</li><li>Un peduncolo oculare ha CA 7 e può sopportare 12 punti ferita di danno. I danni ai peduncoli oculari non contribuiscono all'uccisione della creatura.</li></ul><p><strong>Occhi Piccoli e Peduncoli oculari:</strong> Se un attacco colpisce un peduncolo oculare, il GM dovrebbe determinare casualmente quale peduncolo è danneggiato. Un peduncolo oculare reciso diventa inutilizzabile, ma danni parziali non ne impediscono il funzionamento. Gli occhi persi si rigenerano in 2d4 giorni e gli steli parzialmente danneggiati guariscono al ritmo di 1 punto ferita al giorno.</p><p>L'osservatore può dirigere solo quattro piccoli occhi in una direzione alla volta e non può mirare direttamente sotto il suo corpo. Ogni occhio può scagliare un raggio con un diverso effetto magico una volta per round. Gli effetti dell'incantesimo sono descritti di seguito, con le versioni invertite indicate da un asterisco.</p><p><strong>Poteri degli occhi:</strong></p><ol><li><strong>Fascino su persona</strong> (raggio 120')</li><li><strong>Fascino su mostro</strong> (raggio 120')</li><li><strong>Sonno</strong> (raggio 240')</li><li><strong>Telecinesi</strong> (raggio 120', fino a 5.000 cn di peso)</li><li><strong>Carne in pietra</strong>* (raggio 120')</li><li><strong>Disintegrazione</strong> (raggio 60')</li><li><strong>Causa paura</strong>* (raggio 120')</li><li><strong>Rallentamento</strong>* (raggio 240')</li><li><strong>Causa ferite gravi</strong>* (raggio 60')</li><li><strong>Incantesimo di morte</strong> (raggio 240')</li></ol><p><strong>Terreno:</strong> Caverne, Rovine.</p>"
         },
         "Beholder, Undead*": {
             "items": {
@@ -26169,7 +26182,9 @@
                     "shortName": "Pietrifica"
                 }
             },
-            "monsterType": "Mostro"
+            "monsterType": "Mostro",
+            "biography": "<p>L'allosauro è un enorme dinosauro carnivoro che corre in posizione eretta su grandi zampe posteriori. È alto quasi 4,5 metri e pesa diverse tonnellate. L'allosauro attacca mordendo con grandi fauci dotate di denti a forma di pugnale. Caccia principalmente in zone collinari e pianure.</p>",
+            "name": "Allosauro"
         },
         "Ankylosaurus": {
             "items": {
@@ -26207,7 +26222,8 @@
                 }
             },
             "name": "Anchilosauro",
-            "monsterType": "Animale Preistorico (Molto Raro)"
+            "monsterType": "Animale Preistorico (Molto Raro)",
+            "biography": "<p>Il corpo di un anchilosauro è ricoperto da una spessa corazza ossea e termina con una massiccia coda a forma di clava. Questo dinosauro cammina su quattro zampe e si nutre di piante. È lungo 4,5 metri, alto 1,2 metri e pesa 4-5 tonnellate. Un anchilosauro si trova solitamente nelle giungle e sulle colline.</p>"
         },
         "Lupin": {
             "items": {
