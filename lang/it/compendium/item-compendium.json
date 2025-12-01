@@ -6151,12 +6151,14 @@
         "Swimming": {
             "name": "Nuotare",
             "spellRange": "Se stesso",
-            "spellEffect": "Velocità di nuoto 54 m con ingombro di 3000 mo"
+            "spellEffect": "Velocità di nuoto 54 m con ingombro di 3000 mo",
+            "description": "<p>L'utilizzatore può nuotare in qualsiasi liquido a una velocità di 54 m per turno, anche se intralciato. L'utilizzatore non può affondare o essere spinto sotto la superficie a meno che l'ingombro non superi i 3.000 mo. Questo effetto non conferisce la capacità di respirare sott'acqua.</p><p>L'effetto dura 8 ore.</p>"
         },
         "Water Breathing@9RK1dlM5apL9gUm8": {
             "name": "Respirare sott'Acqua",
             "spellRange": "Se stesso",
-            "spellEffect": "Respira acqua o aria"
+            "spellEffect": "Respira acqua o aria",
+            "description": "<p>L'utilizzatore può respirare liberamente acqua o aria per 4 ore (come nell'incantesimo del mago).</p>"
         },
         "Potion of Treasure Finding": {
             "unidentifiedDesc": "<p>La fiaschetta o la fiala contiene un miscuglio vorticoso e misterioso.</p>",
@@ -6321,7 +6323,8 @@
                     "title": "Enorme"
                 }
             },
-            "name": "Drago Bianco"
+            "name": "Drago Bianco",
+            "description": "<p>Ogni tipo di drago ha la capacità di lanciare incantesimi, anche se non tutte le taglie li conoscono. I draghi si dividono in 3 diverse categorie di taglia, ognuna delle quali rappresenta un livello da 1 a 3.</p><p>La classe di un drago non definisce tiri salvezza o capacità speciali, anche se potrebbe. La classe di un drago viene utilizzata principalmente per definire le sue capacità di lancio di incantesimi.</p>"
         },
         "Green Dragon": {
             "classLevels": {
@@ -6619,90 +6622,122 @@
         "Scroll of Creation": {
             "description": "<p>L'utilizzatore di questa preziosa pergamena può disegnare un'immagine di qualsiasi oggetto non vivente di dimensioni massime di 1,5 m × 3 m × 30 cm (anche se disegnato molto più piccolo) e di peso massimo di 5.000 mo. L'oggetto può quindi essere estratto dalla pergamena e utilizzato. Non è possibile creare oggetti magici e creature viventi, ma è possibile creare armature, armi e altri equipaggiamenti comuni. L'oggetto svanisce al comando del creatore o dopo 24 ore. La pergamena può creare un oggetto al giorno.</p>",
             "name": "Pergamena di Creazione",
-            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>"
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Delay": {
             "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
             "description": "<p>Questa è una pergamena contenente un singolo incantesimo. Quando si lancia l'incantesimo dalla pergamena, l'utilizzatore indica un ritardo da 0 a 12 round. Se l'utilizzatore tiene la pergamena con sé, ha il controllo completo dell'incantesimo quando si verifica. Se l'utilizzatore non porta con sé la pergamena, l'effetto dell'incantesimo appare attorno alla pergamena stessa, influenzando la creatura più vicina se l'incantesimo richiede un destinatario. <em>La pergamena non viene danneggiata dal suo stesso effetto, nemmeno per gli incantesimi di fuoco.</em> Ad esempio, un elfo legge una pergamena con un fulmine magico ritardato, la ritarda di 8 round e poi ripone la pergamena. Otto round dopo, quando appare il <em>Fulmine Magico</em> ritardato, l'elfo può scegliere gittata e direzione in base alla concentrazione, come se stesse lanciando l'incantesimo in quel momento.</p>",
-            "name": "Pergamena Ritardante"
+            "name": "Pergamena Ritardante",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Equipment": {
             "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
             "description": "<p>Questa pergamena è incisa con i nomi di sei oggetti normali (che il DM seleziona o determina casualmente dall'equipaggiamento standard dell'avventuriero). Quando il nome di un oggetto viene letto ad alta voce, l'oggetto appare entro 3 metri dalla pergamena poi il nome scompare. L'oggetto rimarrà per 24 ore o finché l'utilizzatore non gli ordinerà di svanire. Il nome riappare sulla pergamena quando l'oggetto scompare. Ogni giorno è possibile creare 3 oggetti a scelta tra i 6 elencati sulla pergamena.</p>",
-            "name": "Pergamena di Equipaggiamento"
+            "name": "Pergamena di Equipaggiamento",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Illumination": {
             "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
             "description": "<p>Questa pergamena reca il disegno di una fiamma. Se la pergamena viene incendiata, brucerà con una luce chiara in un raggio di 18 metri, per un massimo di 6 ore al giorno. La combustione non danneggia la pergamena, ma è comunque fuoco normale (e può essere usato per accendere torce, ad esempio). La fiamma non può essere spenta se non con l'acqua o su comando dell'utilizzatore; nessun vento, normale o magico, può causarne lo sfarfallio. Questo oggetto potrebbe essere già acceso al momento del ritrovamento.</p>",
-            "name": "Pergamena Illuminante"
+            "name": "Pergamena Illuminante",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Mages": {
             "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
             "description": "<p>Questa pergamena è vuota; serve per identificare effetti magici. L'utilizzatore può impugnare la pergamena e ordinarle di identificare un qualsiasi effetto magico entro 9 metri. Il nome dell'incantesimo o dell'effetto magico appare sulla pergamena, insieme al livello dell'incantatore. La pergamena identificherà un effetto magico al giorno.</p>",
-            "name": "Pergamena di Dei Magi"
+            "name": "Pergamena di Dei Magi",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Mapping": {
             "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
             "description": "<p>Questa pergamena è vuota. Quando impugnata e comandata a scrivere, questa pergamena disegnerà una mappa di un'area scelta (ovvero, il DM disegnerà accuratamente la mappa per i giocatori). L'area deve essere completamente entro 30 metri dalla pergamena e può avere una superficie massima di 900 metri quadrati. La pergamena ha 1 probabilità su 6 di individuare porte segrete, ma non disegnerà ciò che si trova oltre la soglia. La pergamena funziona 1 volta al giorno.</p>",
-            "name": "Pergamena di Cartografia"
+            "name": "Pergamena di Cartografia",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Portals": {
             "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
             "description": "<p>Questa pergamena crea un effetto di passa-pareti identico all'incantesimo del mago. Quando viene posizionata su una superficie e comandata di funzionare, la pergamena scompare e appare un buco di 1,5 metri di diametro e profondo fino a 3 metri. L'effetto non ha effetto su esseri viventi o magici. Il buco scompare dopo 3 turni o su comando del lettore; quando svanisce, la pergamena riappare. La pergamena può essere usata 2 volte al giorno.</p>",
-            "name": "Pergamena Passa Pareti"
+            "name": "Pergamena Passa Pareti",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Protection (Elementals)": {
             "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
             "description": "<p>Questa pergamena crea un cerchio di protezione (raggio di 3 metri) attorno al lettore. Nessun elementale può attaccare coloro che si trovano all'interno del cerchio a meno che non venga attaccato per primo in un combattimento corpo a corpo. Una volta attaccato, un elementale può attaccare a sua volta. L'effetto dura per <strong>2 turni</strong> e si muove con il lettore.</p><p>Una pergamena di protezione può essere letta e utilizzata da qualsiasi personaggio in grado di leggere il Linguaggio Comune. Quando letta, crea un cerchio di protezione di 3 metri di diametro che si muove con il lettore al centro. Impedirà a qualsiasi creatura indicata di entrare in questo cerchio, ma non impedirà attacchi con incantesimi o proiettili da parte di tali creature. Il cerchio si spezzerà se qualcuno protetto attacca una delle creature indicate in un combattimento corpo a corpo.</p>",
-            "name": "Pergamena di Protezione dagli Elementali"
+            "name": "Pergamena di Protezione dagli Elementali",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Protection (Lycanthropes)": {
             "description": "<p>Se letta, questa pergamena proteggerà tutti coloro che si trovano nel cerchio per <strong>6 turni</strong> da un numero variabile di licantropi. Il numero di licantropi interessati varia a seconda del tipo, come segue.</p><ul><li><p>Pipistrelli mannari, topi mannari, volpi mannare: [[/r 1d10 #Pipistrelli mannari, topi mannari, volpi mannare interessati]] interessati</p></li><li><p>Cinghiali mannari, lupi mannari: [[/r 1d8 #Cinghiali mannari, lupi mannari interessati]] interessati</p></li><li><p>Foche mannare, squali mannari: [[/r 1d6 #Foche mannare, squali mannari interessati]] interessati</p></li><li><p>Orsi mannari, tigri mannare: [[/r 1d4 #Orsi mannari, tigri mannare interessati]] interessati</p></li><li><p>Verri Diabolici: [[/r 1d2 #Verri Diabolici interessati]] interessati</p></li></ul><p>Una protezione La pergamena può essere letta e utilizzata da qualsiasi personaggio in grado di leggere il Linguaggio Comune. Quando letta, crea un cerchio di protezione di 3 metri di diametro che si muove con il lettore al centro. Impedirà a qualsiasi creatura indicata di entrare in questo cerchio, ma non impedirà attacchi con incantesimi o proiettili da parte di quelle creature. Il cerchio si spezzerà se qualcuno protetto attacca una delle creature indicate in un combattimento corpo a corpo.</p>",
-            "name": "Pergamena di Protezione dai Licantropi"
+            "name": "Pergamena di Protezione dai Licantropi",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Protection (Magic)": {
             "description": "<p>Questa pergamena crea un cerchio di protezione (raggio di 3 metri) attorno al lettore. Nessun incantesimo o effetto magico (inclusi quelli degli oggetti) può entrare o uscire dal cerchio. L'effetto dura per [[/r 1d4 #Durata del cerchio di Protezione dalla Magia in turni]] turni, si muove con il lettore e non può essere interrotto se non tramite un desiderio.</p><p>Una pergamena di protezione può essere letta e utilizzata da qualsiasi personaggio in grado di leggere il Linguaggio Comune. Quando letta, crea un cerchio di protezione di 3 metri di diametro che si muove con il lettore al centro. Impedirà a qualsiasi creatura indicata di entrare in questo cerchio, ma non impedirà attacchi con incantesimi o proiettili da parte di tali creature. Il cerchio verrà interrotto se qualcuno protetto attacca una delle creature indicate in un combattimento corpo a corpo.</p>",
-            "name": "Pergamena di Protezione dalla Magia"
+            "name": "Pergamena di Protezione dalla Magia",
+            "unidentifiedName": "Pergamena Misteriosa",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>"
         },
         "Scroll of Protection (Undead)": {
             "description": "<p>Se letta, questa pergamena proteggerà tutti coloro che si trovano all'interno del cerchio da un numero variabile di non-morti per <strong>6 turni</strong>. Il numero di non-morti colpiti varia a seconda del tipo, come segue.</p><ul><li><p>Scheletri, zombie, ghoul: [[/r 2d12 #Scheletri, zombie, ghoul colpiti]] colpiti</p></li><li><p>Spettri, presenze, mummie: [[/r 2d6 #Spettri, presenze, mummie colpiti]] colpiti</p></li><li><p>Necrospettri (o mostri più grandi): [[/r 1d6 #Necrospettri (o mostri più grandi) colpiti]] colpiti</p></li></ul><p>Una pergamena di protezione può essere letta e utilizzata da qualsiasi personaggio in grado di leggere il linguaggio Comune. Quando viene letto, crea un cerchio di protezione di 3 metri di diametro che si muove con il lettore al centro. Impedisce a qualsiasi creatura indicata di entrare nel cerchio, ma non impedisce attacchi con incantesimi o proiettili da parte di quelle creature. Il cerchio si interrompe se una delle creature protette attacca una delle creature indicate in un combattimento corpo a corpo.</p>",
-            "name": "Pergamena di Protezione dai Non-Morti"
+            "name": "Pergamena di Protezione dai Non-Morti",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Questioning": {
             "description": "<p>L'utilizzatore di questa pergamena può porre domande a qualsiasi oggetto non vivente e non magico; le risposte appariranno sulla pergamena. La pergamena mostrerà fino a 3 risposte al giorno. Le risposte vengono fornite come se gli oggetti fossero esseri viventi, ma si limitano a semplici osservazioni, come se gli oggetti potessero vedere, sentire e annusare. La pergamena <em>non</em> può essere utilizzata per interrogare esseri viventi o magici.</p>",
-            "name": "Pergamena dell'Interrogatorio"
+            "name": "Pergamena dell'Interrogatorio",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Repetition": {
             "description": "<p>Questa pergamena sembra essere una normale pergamena contenente un incantesimo, e al suo utilizzo si applicano le restrizioni standard. Tuttavia, 1 turno dopo il lancio dell'incantesimo, la pergamena crea lo stesso effetto magico una seconda volta, centrato sulla pergamena stessa o che colpisce la creatura più vicina se un destinatario fa parte del processo di lancio dell'incantesimo. Come con una normale pergamena magica, qualsiasi incantesimo lanciato da essa scompare; tuttavia, un altro incantesimo può essere scritto sulla pergamena <em>se è dello stesso livello</em>, e l'effetto di <em>ripetizione</em> verrà nuovamente applicato.</p>",
-            "name": "Pergamena della Ripetizione"
+            "name": "Pergamena della Ripetizione",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Seeing": {
             "description": "<p>Questa pergamena è vuota. Quando impugnata e comandata a scrivere, disegnerà immagini di creature entro 30 metri in qualsiasi area scelta dall'utilizzatore. È possibile raffigurare fino a quattro tipi diversi di creature. La pergamena funzionerà una volta al giorno, indipendentemente dal numero di creature raffigurate.</p>",
-            "name": "Pergamena della Veggenza"
+            "name": "Pergamena della Veggenza",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Shelter": {
             "description": "<p>Questa pergamena è incisa con un elaborato disegno di una stanza di 3 metri quadrati, illuminata, con due letti, un tavolo e due sedie, cibo e bevande per due sul tavolo e un paio di spade normali sulla parete di fondo, ciascuna appesa sopra uno scudo. Se la pergamena è appesa a una superficie verticale, è possibile entrare nella stanza raffigurata e utilizzare gli oggetti. Il cibo e le bevande sono puri e nutriranno qualsiasi essere vivente. Le spade e gli scudi possono essere rimossi e utilizzati. Tuttavia, nessuno degli oggetti può essere rimosso dalla stanza.</p><p>Se la pergamena viene rimossa, la stanza non può essere né entrata né uscita, ma rimane esistente in un'altra dimensione. Se delle creature si trovano nella stanza quando la pergamena viene rimossa, l'aria al suo interno consente la sopravvivenza fino a 24 ore. Nessuna creatura intrappolata in questo modo può fuggire con mezzi diversi da un desiderio. Il cibo e le bevande vengono riforniti ogni volta che la pergamena viene rimossa. La stanza può essere creata una volta al giorno e rimarrà lì fino a 12 ore per utilizzo; se non viene rimosso entro quel lasso di tempo, la pergamena cadrà da sola.</p>",
-            "name": "Pergamena del Rifugio"
+            "name": "Pergamena del Rifugio",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Spell Catching": {
             "description": "<p>Questa pergamena è vuota quando viene trovata. Può essere usata per \"intercettare\" un incantesimo lanciato contro il personaggio. Non può catturare effetti magici, né effetti prodotti da dispositivi (come quelli di una bacchetta), ma un incantesimo lanciato da una pergamena può essere intercettato. Esistono quattro tipi di questa pergamena; tira [[/r 1d10 #Vedi la tabella della capacità degli incantesimi per i risultati.]] per determinare la capacità.</p><p>1–4: incantesimi di 1° o 2° livello</p><p>5–7: incantesimi dal 1° al 4° livello</p><p>8–9: incantesimi dal 1° al 6° livello</p><p>10: incantesimi dal 1° all'8° livello</p><p>Il personaggio della pergamena deve tenerla sollevata come uno scudo; non è possibile compiere altre azioni mentre la usa. Il personaggio deve quindi effettuare un tiro salvezza contro incantesimi, con un bonus di +4 al tiro; se ha successo, l'incantesimo in arrivo non ha effetto e viene invece trasferito sulla pergamena, apparendo come un normale incantesimo di pergamena. L'incantesimo intercettato non sarà noto finché non verrà usato un incantesimo di Lettura del Magico per identificarlo.</p><p>La pergamena può contenere un solo incantesimo alla volta; l'incantesimo intercettato deve essere usato o copiato in un libro degli incantesimi (solo incantesimi dei maghi) prima che la pergamena possa intercettare un altro incantesimo. Qualsiasi tipo di incantesimo (magico, clericale o druidico) può essere intercettato purché il livello non superi la capacità della pergamena. La <em>Pergamena Intercetta Incantesimi</em> non può influenzare incantesimi di livello superiore alla capacità indicata e può catturare un massimo di un incantesimo al giorno.</p>",
-            "name": "Pergamena Intercetta Incantesimi"
+            "name": "Pergamena Intercetta Incantesimi",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Trapping": {
             "description": "<p>Questa pergamena può creare una trappola. Il tipo di trappola varia a seconda del posizionamento della pergamena. La pergamena viene distrutta quando la trappola viene creata. Se posizionata sul pavimento, viene creata una buca nascosta; se posizionata sul soffitto, appare una pietra cadente. Sulle pareti, verrà creata una trappola a dardo avvelenato o a gas. La progettazione della trappola è lasciata al DM. La trappola creata è reale e non è illusoria o magica.</p>",
-            "name": "Pergamena Intrappolante"
+            "name": "Pergamena Intrappolante",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Scroll of Truth": {
             "description": "<p>Questa pergamena è vuota al momento del ritrovamento. L'utilizzatore può porre una domanda a qualsiasi essere vivente entro 9 metri; la risposta completa e veritiera appare sulla pergamena, letta dalla mente della vittima da una versione potenziata di <em>ESP</em>. Nota che la risposta è vera solo entro i limiti della conoscenza della vittima. La pergamena mostrerà 1 risposta al giorno.</p>",
-            "name": "Pergamena della Verità"
+            "name": "Pergamena della Verità",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Spell Scroll (Choose spell)": {
             "description": "<p>Le pergamene magiche sono un buon modo per introdurre nuovi incantesimi in una campagna e possono essere progettate tenendo conto dei libri di incantesimi già in possesso dei personaggi. Nota che solo i druidi possono lanciare incantesimi dalle pergamene druidiche, anche se il nome dell'incantesimo può essere rivelato da un incantesimo di lettura del magico (vedi tabella a pag. 155 e 170 del MdM).</p>",
-            "name": "Pergamene degli Incantesimi (Scegli incantesimo)"
+            "name": "Pergamene degli Incantesimi (Scegli incantesimo)",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Spell Scroll (Stone to Flesh)": {
             "description": "<p>Questa pergamena contiene l'incantesimo per maghi <strong>Pietra in Carne</strong>, un incantesimo di 6° livello. Se letto ad alta voce, può trasformare una statua o una quantità di pietra fino a 3 x 3 x 3 m in carne. Comunemente usato per riportare in vita coloro che sono stati pietrificati da effetti come il respiro di una gorgone. L'incantesimo inverso, <strong>Carne in Pietra</strong>, trasformerà una creatura vivente in pietra a meno che il bersaglio non superi un tiro salvezza contro la pietrificazione.</p><p>Usa le Pergamene degli Incantesimi nella sottotabella degli oggetti magici per trovare i livelli esatti degli incantesimi o scegliere gli incantesimi in base alle esigenze. Le pergamene degli incantesimi sono un buon modo per introdurre nuovi incantesimi in una campagna e possono essere progettate tenendo conto dei libri degli incantesimi attuali dei personaggi. Nota che solo i druidi possono lanciare incantesimi dalle pergamene dei druidi, sebbene il nome dell'incantesimo possa essere rivelato da un incantesimo di lettura del magico.</p>",
-            "name": "Pergamena degli Incantesimi (Pietra in Carne)"
+            "name": "Pergamena degli Incantesimi (Pietra in Carne)",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         },
         "Spellcasting (Dragon)": {
             "description": "<p>Questo drago può lanciare incantesimi.</p>",
@@ -6725,7 +6760,9 @@
         },
         "Treasure Map": {
             "description": "<p>Ogni mappa dovrebbe essere creata in anticipo dal DM. Tali mappe mostrano un percorso per raggiungere un tesoro in un dungeon o in un'area selvaggia. Il tesoro è solitamente nascosto o protetto da mostri, trappole e/o magia. In base al tipo di tesoro fornito, il GM dovrebbe selezionare un mostro impegnativo (che abbia un tipo di tesoro simile) e progettare la mappa e la tana del mostro di conseguenza. Si noti che la mappa potrebbe essere parzialmente errata, omettendo un dettaglio importante (come il tipo di mostri, trappole pericolose, ecc.) o fornendo informazioni false; tuttavia, il tesoro menzionato dovrebbe effettivamente essere presente. A volte le mappe sono solo parzialmente complete o sono scritte sotto forma di enigma. E alcune possono essere lette solo con un incantesimo <em>Lettura dei Linguaggi</em>.</p><p><em>Un tesoro normale</em> contiene monete e gemme ma nessun oggetto magico, mentre un <em>tesoro magico</em> può includere alcune monete e alcune gemme di basso valore oltre agli oggetti magici. Un <em>tesoro combinato</em> contiene monete, oggetti magici e gemme o gioielli di valore in proporzioni pressoché uguali. Un <em>tesoro speciale</em> dovrebbe contenere almeno un oggetto magico permanente, come un bastone o una spada; questi oggetti dovrebbero essere menzionati sulla mappa.</p>",
-            "name": "Mappa del Tesoro"
+            "name": "Mappa del Tesoro",
+            "unidentifiedDesc": "<p>Una strana pergamena con una scrittura irriconoscibile.</p>",
+            "unidentifiedName": "Pergamena Misteriosa"
         }
     },
     "label": "Oggetti Classi Abilità",
