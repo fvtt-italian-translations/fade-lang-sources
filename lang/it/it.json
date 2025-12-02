@@ -41,7 +41,7 @@
             },
             "maxSpellLevel": {
                 "hint": "Il livello di incantesimi più alto per questa classe",
-                "name": "Max Lvl Incantesimi"
+                "name": "Max Lvl Inc."
             },
             "firstLevel": {
                 "hint": "Il livello più basso per questa classe",
@@ -227,10 +227,10 @@
             },
             "castAs": {
                 "hint": "Alcuni mostri possono lanciare incantesimi equivalenti a una specifica classe e livello. Specificare classe e livello, simile al tiro salvezza. Esempio: Un mostro che può lanciare incantesimi come un mago di 9º livello avrebbe un valore di 'Lancia Incantesimi come' pari a 'M9'.",
-                "name": "Lancia Incantesimi come"
+                "name": "Lancia Incant #"
             },
             "classAbilityAs": {
-                "name": "Abilità Classe Come",
+                "name": "Abilità Classe #",
                 "hint": "Alcuni mostri possiedono le abilità di classe di una specifica classe e livello. Specificare come chiave di classe e livello, simile a \"salva come\". Esempio: Un mostro con abilità di classe da ladro di 2º livello avrebbe una capacità di classe indicata come 'L2'."
             },
             "ClassHint": "<p>La classe può essere selezionata digitando manualmente il nome della classe o trascinando/rilasciando l'oggetto della classe sulla scheda del personaggio. È possibile digitare qualsiasi valore, ma i dati della classe saranno sincronizzati solo se il nome della classe corrisponde esattamente.</p><p><i>Clicca sull'etichetta per visualizzare la scheda della classe.</i></p>",
@@ -244,7 +244,7 @@
             },
             "firstSpellLevel": {
                 "hint": "Il primo livello di incantesimi per questa classe",
-                "name": "Livello del Primo Incantesimo"
+                "name": "Lvl del 1° Inc"
             },
             "Ancestry": "Razza",
             "actorGroups": {
@@ -547,7 +547,7 @@
             },
             "required": {
                 "hint": "Questo personaggio o classe ha una competenza di base con tutti i tipi di armi.",
-                "name": "Competenza Base"
+                "name": "Comp. Base"
             }
         },
         "SpecialAbility": {
@@ -1182,11 +1182,11 @@
         },
         "move": {
             "max": {
-                "name": "Max. Velocità di Mov.",
+                "name": "Max Vel di Mov",
                 "hint": "<b>Velocità massima al suolo per turno.</b><p>Le distanze di movimento sono misurate in metri</p>"
             },
             "maxMove2": {
-                "name": "Max. Velocità di Mov. Sec.",
+                "name": "Max Vel di Mov Sec",
                 "hint": "<b>Velocità massima di movimento secondario per turno.</b><p> Il movimento secondario può essere qualsiasi altro tipo di movimento che la creatura sia in grado di compiere, oltre al movimento via terra. Le distanze di movimento sono misurate in metri al chiuso e all'aperto.</p>"
             }
         },
@@ -1224,7 +1224,7 @@
         },
         "EncMax": {
             "Hint": "Il massimo peso che un personaggio può trasportare ed essere comunque in grado di muoversi.",
-            "Name": "Massimo Ingombro"
+            "Name": "Max Ing."
         },
         "toasts": {
             "hint": "Mostra frasi speciali ai tiri di dado",
