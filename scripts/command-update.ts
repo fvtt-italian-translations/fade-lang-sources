@@ -275,7 +275,7 @@ async function handleMacro(pack: PackWithData<any>) {
   await exportPack(out, pack.name);
 }
 
-async function handleRollTable(pack: PackWithData<any>) {
+async function handleRollTable(pack: PackWithData<EntryRollTable>) {
   const out: Compendium = {
     label: pack.label,
     folders: {},
@@ -287,6 +287,18 @@ async function handleRollTable(pack: PackWithData<any>) {
   for (const entry of pack.entries) {
     const outEntry = getEntry(out, entry);
     outEntry.name = entry.name;
+
+    if (entry.description) {
+      outEntry.description = entry.description;
+    }
+
+    for (const result of entry.results) {
+      if (result.text) {
+        const outResults = (outEntry.results ??= {}) as TranslationStrings;
+        const range = `${result.range[0]}-${result.range[1]}`;
+        outResults[range] = result.text;
+      }
+    }
   }
 
   await exportPack(out, pack.name);
@@ -316,6 +328,19 @@ interface BaseEntry {
   flags: Record<string, any>;
   name: string;
   img: string;
+}
+
+interface EntryRollTableResult
+  extends Pick<BaseEntry, "_id" | "flags" | "img"> {
+  range: [number, number];
+  text: string;
+  type: "document" | "pack" | "text";
+  weight: number;
+}
+
+interface EntryRollTable extends BaseEntry {
+  description: string;
+  results: EntryRollTableResult[];
 }
 
 interface EntryActorBase extends BaseEntry {
