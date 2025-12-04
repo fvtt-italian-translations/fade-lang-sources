@@ -1,34 +1,158 @@
 {
     "entries": {
         "Dragons": {
-            "name": "Draghi"
+            "name": "Draghi",
+            "results": {
+                "1-1": "Chimera",
+                "10-10": "Drago d'Oro Enorme",
+                "11-11": "Drago Verde Piccolo",
+                "12-12": "Drago Verde Grande",
+                "13-13": "Drago Verde Enorme",
+                "14-14": "Drago Rosso Piccolo",
+                "15-15": "Drago Rosso Grande",
+                "16-16": "Drago Rosso Enorme",
+                "17-17": "Drago Bianco Piccolo",
+                "18-18": "Drago Bianco Grande",
+                "19-19": "Drago Bianco Enorme",
+                "2-2": "Drago Nero Piccolo",
+                "22-22": "Viverna",
+                "3-3": "Drago Nero Grande",
+                "4-4": "Drago Nero Enorme",
+                "5-5": "Drago Blu Piccolo",
+                "6-6": "Drago Blu Grande",
+                "7-7": "Drago Blu Enorme",
+                "8-8": "Drago d'Oro Piccolo",
+                "9-9": "Drago d'Oro Grande"
+            }
         },
         "Potions": {
-            "name": "Pozioni"
+            "name": "Pozioni",
+            "results": {
+                "1-2": "Pozione di Agilità",
+                "11-12": "Pozione di Chiaroudienza",
+                "13-14": "Pozione di Chiaroveggenza",
+                "15-16": "Pozione di Arrampicata",
+                "17-18": "Pozione Difensiva",
+                "23-24": "Pozione di Rimpicciolimento",
+                "25-25": "Controllo del Drago (principale)",
+                "26-27": "Pozione di Sogni",
+                "28-28": "Pozione di Elasticità",
+                "29-30": "Pozione di Forma Elementale",
+                "3-3": "Pozione del Controllo Animale",
+                "31-32": "Pozione di ESP",
+                "33-33": "Pozione di Forma Eterea",
+                "34-36": "Pozione di Resistenza al Fuoco",
+                "37-39": "Pozione di Volare",
+                "4-6": "Pozione antidoto",
+                "46-46": "Controllo Gigante",
+                "47-49": "Pozione della Forza dei Giganti",
+                "52-57": "Pozione di Guarigione",
+                "58-60": "Pozione di Eroismo",
+                "62-64": "Pozione di Invisibilità",
+                "65-66": "Pozione di Invulnerabilità",
+                "69-70": "Pozione di Longevità",
+                "7-8": "Pozione di Mimetizzazione",
+                "71-71": "Pozione di Fortuna",
+                "72-72": "Pozione Amalgamante",
+                "73-74": "Pozione di Controllo delle Piante",
+                "75-77": "Pozione di Veleno",
+                "78-80": "Pozione di Autometamorfosi",
+                "81-82": "Pozione di Lunga Vista",
+                "83-84": "Pozione di Buona Parola",
+                "85-88": "Pozione di Velocità",
+                "89-90": "Pozione di Forza",
+                "9-10": "Pozione Repellente",
+                "91-93": "Pozione di Super Guarigione",
+                "94-96": "Pozione di Nuotare",
+                "97-97": "Pozione di Scropritesori",
+                "98-98": "Pozione di Controllo dei Non-Morti",
+                "99-100": "Pozione del Respirare Sott'Acqua"
+            }
         },
         "Scrolls": {
-            "name": "Pergamene"
+            "name": "Pergamene",
+            "results": {
+                "1-3": "Pergamena di Comunicazione",
+                "15-17": "Pergamena di Equipaggiamento",
+                "18-19": "Pergamena Illuminante",
+                "32-34": "Pergamena di Cartografia",
+                "35-36": "Pergamena Passa Pareti",
+                "4-5": "Pergamena di Creazione",
+                "62-63": "Pergamena dell'Interrogatorio",
+                "65-66": "Pergamena della Veggenza",
+                "67-68": "Pergamena del Rifugio",
+                "69-71": "Intercetta Incantesimo",
+                "72-96": "Pergamene Incantesimi",
+                "97-98": "Pergamena Intrappolante",
+                "99-100": "Pergamena della Verità"
+            }
         },
         "AC Mod (Banded, Scale or Leather)": {
-            "name": "Mod CA (Bande, Scaglie o Pelle)"
+            "name": "Mod CA (Bande, Scaglie o Pelle)",
+            "results": {
+                "1-100": "Controllo Armatura Maledetta",
+                "1-70": "Potere Speciale 10%",
+                "100-100": "Potere Speciale 30%",
+                "71-88": "Potere Speciale 15%",
+                "89-96": "Potere Speciale 20%",
+                "97-99": "Potere Speciale 25%"
+            }
         },
         "AC Mod (Chain)": {
-            "name": "Mod CA (Maglia)"
+            "name": "Mod CA (Maglia)",
+            "results": {
+                "1-100": "Tabella Dimensioni Armatura",
+                "1-60": "Potere Speciale 10%",
+                "61-81": "Potere Speciale 15%",
+                "82-92": "Potere Speciale 20%",
+                "93-98": "Potere Speciale 25%",
+                "99-100": "Potere Speciale 30%"
+            }
         },
         "AC Mod (Plate or Suit)": {
-            "name": "Mod CA (Piastre o Completa)"
+            "name": "Mod CA (Piastre o Completa)",
+            "results": {
+                "1-100": "Tabella Dimensioni Armatura",
+                "1-50": "Potere Speciale 10%",
+                "51-74": "Potere Speciale 15%",
+                "75-88": "Potere Speciale 20%",
+                "89-96": "Potere Speciale 25%",
+                "97-100": "Potere Speciale 30%"
+            }
         },
         "AC Mod (Shield)": {
-            "name": "Mod CA (Scudo)"
+            "name": "Mod CA (Scudo)",
+            "results": {
+                "1-100": "Tabella Dimensioni Armatura",
+                "1-40": "Potere Speciale 10%",
+                "41-67": "Potere Speciale 15%",
+                "68-84": "Potere Speciale 20%",
+                "85-94": "Potere Speciale 25%",
+                "95-100": "Potere Speciale 30%"
+            }
         },
         "Additional Weapon Mods (Misc)": {
-            "name": "Modificatori Arma Addizionale (Varia)"
+            "name": "Modificatori Arma Addizionale (Varia)",
+            "results": {
+                "1-75": "Arma Avversari",
+                "76-100": "Talenti Arma"
+            }
         },
         "Additional Weapon Mods. (Swords)": {
-            "name": "Modificatori Arma Addizionale (Spade)"
+            "name": "Modificatori Arma Addizionale (Spade)",
+            "results": {
+                "1-75": "Arma Avversari",
+                "76-100": "Talenti Arma"
+            }
         },
         "Animal Herd": {
-            "name": "Mandria di animali"
+            "name": "Mandria di animali",
+            "results": {
+                "1-1": "Mandria (1 DV)",
+                "2-2": "Mandria (2 DV)",
+                "3-3": "Mandria (3 DV)",
+                "4-4": "Mandria (4 DV)"
+            }
         },
         "Antidote Potion": {
             "name": "Pozione antidoto"
@@ -37,7 +161,12 @@
             "name": "Tabella Dimensioni Armatura"
         },
         "Cleric/Druid Scroll Spell Count": {
-            "name": "Conteggio Incantesimi su Pergamena (Chierico/Druido)"
+            "name": "Conteggio Incantesimi su Pergamena (Chierico/Druido)",
+            "results": {
+                "1-50": "Livello Incantesimo su pergamena (Chierico/Druido)",
+                "51-83": "Livello Incantesimo su pergamena (Chierico/Druido)",
+                "84-100": "Livello Incantesimo su pergamena (Chierico/Druido)"
+            }
         },
         "Cleric/Druid Scroll Spell Level": {
             "name": "Livello Incantesimo su pergamena (Chierico/Druido)"
@@ -52,13 +181,28 @@
             "name": "Pozione Difensiva"
         },
         "Dragon Control (gemstone)": {
-            "name": "Controllo del Drago (gemma)"
+            "name": "Controllo del Drago (gemma)",
+            "results": {
+                "1-5": "Drago di Cristallo"
+            }
         },
         "Dragon Control (main)": {
-            "name": "Controllo del Drago (principale)"
+            "name": "Controllo del Drago (principale)",
+            "results": {
+                "1-30": "Controllo del Drago (gemma)",
+                "31-100": "Controllo del Drago (normale)"
+            }
         },
         "Dragon Control (normal)": {
-            "name": "Controllo del Drago (normale)"
+            "name": "Controllo del Drago (normale)",
+            "results": {
+                "1-5": "Drago Bianco",
+                "11-14": "Drago Verde",
+                "15-17": "Drago Blu",
+                "18-19": "Drago Rosso",
+                "20-20": "Drago d'Oro",
+                "6-10": "Drago Nero"
+            }
         },
         "Egg of Wonder Creature Type": {
             "name": "Uovo delle Meraviglie (Tipo Creatura)"
@@ -70,10 +214,17 @@
             "name": "Stanza Vuota"
         },
         "Encounter - Dungeon Level 1": {
-            "name": "Incontro - 1° Livello Dungeon"
+            "name": "Incontro - 1° Livello Dungeon",
+            "results": {
+                "13-13": "Allineamento PNG Avventuriero"
+            }
         },
         "Extraordinary Power": {
-            "name": "Potere Straordinario"
+            "name": "Potere Straordinario",
+            "results": {
+                "100-100": "Potere Straordinario (Non Ri-Tira)",
+                "98-99": "Potere Straordinario (Non Ri-Tira)"
+            }
         },
         "Extraordinary Power (NoReroll)": {
             "name": "Potere Straordinario (Non Ri-Tira)"
@@ -85,13 +236,20 @@
             "name": "Tabella Valore Gemme"
         },
         "Giant Control": {
-            "name": "Controllo Gigante"
+            "name": "Controllo Gigante",
+            "results": {
+                "1-5": "Gigante delle Colline",
+                "20-20": "Gigante delle Tempeste"
+            }
         },
         "Hit Location - Arachnid": {
             "name": "Punto Colpito - Aracnide"
         },
         "Hit Location - Humanoid": {
-            "name": "Punto Colpito - Umanoide"
+            "name": "Punto Colpito - Umanoide",
+            "results": {
+                "10-12": "Scrigno"
+            }
         },
         "Hit Location - Insectoid": {
             "name": "Punto Colpito - Insettoide"
@@ -100,16 +258,46 @@
             "name": "Punto Colpito - Quadrupede"
         },
         "Hit Location - Serpentoid": {
-            "name": "Punto Colpito - Serpentoide"
+            "name": "Punto Colpito - Serpentoide",
+            "results": {
+                "1-17": "Corpo"
+            }
         },
         "Insects": {
-            "name": "Insetti"
+            "name": "Insetti",
+            "results": {
+                "1-1": "Formica Gigante",
+                "10-10": "Ragno Gigante, Vedova Nera",
+                "11-11": "Ragno Gigante, Chelato",
+                "12-12": "Ragno Gigante, Tarantola",
+                "2-2": "Ape Gigante",
+                "3-3": "Scarabeo di Fuoco Gigante",
+                "4-4": "Scarabeo Urticante Gigante",
+                "5-5": "Scarabeo Tigrato Gigante",
+                "6-6": "Sciame di insetti",
+                "7-7": "Rhagodessa",
+                "8-8": "Tafano Predatore",
+                "9-9": "Sorpione Gigante"
+            }
         },
         "Intelligence of Sword": {
-            "name": "Intelligenza della Spada"
+            "name": "Intelligenza della Spada",
+            "results": {
+                "100-100": "Potere Straordinario",
+                "80-85": "Spada Potere Primario",
+                "86-90": "Spada Potere Primario",
+                "91-94": "Spada Potere Primario",
+                "95-97": "Spada Potere Primario",
+                "98-99": "Spada Potere Primario"
+            }
         },
         "Jewelry Value Table": {
-            "name": "Tabella Valore Gioielli"
+            "name": "Tabella Valore Gioielli",
+            "results": {
+                "1-45": "Gioielli Comuni (4k)",
+                "46-78": "Gioiello Non-Comune (15k)",
+                "79-100": "Gioello Raro (50k)"
+            }
         },
         "Level 1 Gem": {
             "name": "Gemma 1° Livello"
@@ -118,22 +306,46 @@
             "name": "Gioiello 1° Livello"
         },
         "Level 1 Magic Item": {
-            "name": "Oggetto Magico 1° Livello"
+            "name": "Oggetto Magico 1° Livello",
+            "results": {
+                "1-2": "Oggetti Magici (Base)"
+            }
         },
         "Level 1 Treasure": {
-            "name": "Tesoro 1° Livello"
+            "name": "Tesoro 1° Livello",
+            "results": {
+                "1-100": "Gemma 1° Livello"
+            }
         },
         "Level 2-3 Gem": {
             "name": "Gemma 2-3° Livello"
         },
         "Level 2-3 Magic Item": {
-            "name": "Oggetto Magico 2-3° Livello"
+            "name": "Oggetto Magico 2-3° Livello",
+            "results": {
+                "1-8": "Oggetti Magici (Base)"
+            }
         },
         "Level 2-3 Treasure": {
-            "name": "Tesoro 2-3° Livello"
+            "name": "Tesoro 2-3° Livello",
+            "results": {
+                "1-100": "Oggetto Magico 2-3° Livello"
+            }
         },
         "Magic Armor": {
-            "name": "Armatura Magica"
+            "name": "Armatura Magica",
+            "results": {
+                "1-17": "Mod CA (Bande, Scaglie o Pelle)",
+                "18-30": "Mod CA (Maglia)",
+                "31-39": "Mod CA (Bande, Scaglie o Pelle)",
+                "40-55": "Mod CA (Piastre o Completa)",
+                "56-100": "Mod CA (Scudo)",
+                "56-75": "Scudo",
+                "76-77": "Mod CA (Bande, Scaglie o Pelle)",
+                "78-85": "Mod CA (Maglia)",
+                "86-90": "Mod CA (Bande, Scaglie o Pelle)",
+                "91-100": "Mod CA (Piastre o Completa)"
+            }
         },
         "Armor Special Powers": {
             "name": "Poteri Speciali Armatura"
@@ -145,79 +357,275 @@
             "name": "Controllo Armatura Maledetta"
         },
         "Hit Location - Winged Biped": {
-            "name": "Punto Colpito - Bipede Alato"
+            "name": "Punto Colpito - Bipede Alato",
+            "results": {
+                "4-4": "Scrigno"
+            }
         },
         "Elf": {
-            "name": "Elfo"
+            "name": "Elfo",
+            "results": {
+                "1-8": "Elfo (1 DV)",
+                "5-9": "Elfo (2DV)",
+                "8-10": "Elfo (3DV)"
+            }
         },
         "Gnoll": {
-            "name": "Gnoll"
+            "name": "Gnoll",
+            "results": {
+                "1-8": "Gnoll"
+            }
         },
         "Goblin": {
-            "name": "Goblin"
+            "name": "Goblin",
+            "results": {
+                "1-20": "Goblin",
+                "10-20": "Goblin, Arciere (1DV)",
+                "14-20": "Goblin (2DV)",
+                "19-20": "Goblin, Capo (4DV)"
+            }
         },
         "Halfling": {
-            "name": "Halfling"
+            "name": "Halfling",
+            "results": {
+                "1-8": "Halfling",
+                "6-10": "Halfling (2DV)"
+            }
         },
         "Hobgoblin": {
-            "name": "Hobgoblin"
+            "name": "Hobgoblin",
+            "results": {
+                "1-99": "Hobgoblin",
+                "90-100": "Hobgoblin, Guardia del Corpo",
+                "99-100": "Hobgoblin, Re"
+            }
         },
         "Merman": {
-            "name": "Tritone"
+            "name": "Tritone",
+            "results": {
+                "1-100": "Tritone",
+                "71-90": "Tritone Capo (2DV)",
+                "91-100": "Tritone Capo (4DV)"
+            }
         },
         "Orc": {
-            "name": "Orchetto"
+            "name": "Orchetto",
+            "results": {
+                "1-100": "Orchetto",
+                "80-100": "Orchetto Comandante",
+                "96-100": "Orchetto Capo"
+            }
         },
         "Undead": {
-            "name": "Non-Morto (Comune)"
+            "name": "Non-Morto (Comune)",
+            "results": {
+                "1-3": "Ghoul",
+                "10-10": "Vampiro",
+                "11-12": "Zombie",
+                "4-4": "Mummia*",
+                "5-6": "Scheletro",
+                "7-7": "Necrospettro",
+                "8-8": "Spettro*",
+                "9-9": "Wraith"
+            }
         },
         "Vampire": {
-            "name": "Vampiro"
+            "name": "Vampiro",
+            "results": {
+                "1-1": "Pipistrello Vampiro*",
+                "2-2": "Vampiro* (Lupo Nero)",
+                "3-3": "Vampiro* (Umano)"
+            }
         },
         "Bandit": {
-            "name": "Bandito"
+            "name": "Bandito",
+            "results": {
+                "1-1": "Bandito",
+                "2-2": "Bandito (2DV)",
+                "3-3": "Bandito (3DV)"
+            }
         },
         "Gnome": {
-            "name": "Gnomo"
+            "name": "Gnomo",
+            "results": {
+                "1-100": "Gnomo",
+                "86-100": "Gnomo Comandante",
+                "96-100": "Gnomo, Capo Clan"
+            }
         },
         "Dwarf": {
-            "name": "Nano"
+            "name": "Nano",
+            "results": {
+                "1-1": "Nano (1 DV)"
+            }
         },
         "Kobold": {
-            "name": "Coboldo"
+            "name": "Coboldo",
+            "results": {
+                "1-100": "Coboldo",
+                "90-100": "Coboldo, Guardia del corpo",
+                "91-100": "Capotribù Coboldo"
+            }
         },
         "Animal (Barren, Mountain, Hil)": {
-            "name": "Animale (Arido, Montagna, Collina)"
+            "name": "Animale (Arido, Montagna, Collina)",
+            "results": {
+                "1-1": "Mandria di animali",
+                "10-10": "Serpente, Sonagli Gigante",
+                "11-11": "Lupo Normale",
+                "12-12": "Lupo Nero",
+                "2-2": "Scimmia delle Nevi",
+                "3-3": "Scimmione Bianco",
+                "4-4": "Babbuino delle Rocce",
+                "5-5": "Orso delle Caverne",
+                "6-6": "Orso Grizzly",
+                "7-7": "Leone di Montagna",
+                "8-8": "Mulo",
+                "9-9": "Serpente, Vipera Butterata"
+            }
         },
         "Animal (Clear, Grassland)": {
-            "name": "Animale (Terreno Aperto, Prateria)"
+            "name": "Animale (Terreno Aperto, Prateria)",
+            "results": {
+                "1-1": "Mandria di animali",
+                "10-10": "Serpente, Vipera Butterata",
+                "11-11": "Serpente, Sonagli Gigante",
+                "12-12": "Donnola Gigante",
+                "2-2": "Babbuino delle Rocce",
+                "3-3": "Cinghiale",
+                "4-4": "Leone",
+                "5-5": "Elefante Normale",
+                "6-6": "Furetto Gigante",
+                "7-7": "Cavallo da Sella",
+                "8-8": "Sauro Gigante Draco",
+                "9-9": "Mulo"
+            }
         },
         "Animal (Desert)": {
-            "name": "Animale (Deserto)"
+            "name": "Animale (Deserto)",
+            "results": {
+                "1-2": "Mandria di animali",
+                "10-10": "Serpente, Sonagli Gigante",
+                "11-11": "Ragno Gigante, Vedova Nera",
+                "12-12": "Ragno Gigante, Tarantola",
+                "3-4": "Cammello",
+                "5-6": "Leone",
+                "7-7": "Sauro Gigante Geco",
+                "8-8": "Sauro Gigante Tuatara",
+                "9-9": "Serpente, Vipera Butterata"
+            }
         },
         "Animal (Jungle)": {
-            "name": "Animale (Giungla)"
+            "name": "Animale (Giungla)",
+            "results": {
+                "1-1": "Mandria di animali",
+                "10-10": "Serpente, Pitone delle Rocce",
+                "11-11": "Serpente, Cobra Sputante",
+                "12-12": "Ragno Gigante, Chelato",
+                "2-2": "Cinghiale",
+                "3-3": "Pantera",
+                "4-4": "Sauro Gigante Draco",
+                "5-5": "Sauro Gigante Geco",
+                "6-6": "Sauro Gigante Camaleonte Cornuto",
+                "7-7": "Ratto Gigante",
+                "8-8": "Toporagno Gigante",
+                "9-9": "Serpente, Vipera Butterata"
+            }
         },
         "Animal (Prehistoric)": {
-            "name": "Animale (Preistorico)"
+            "name": "Animale (Preistorico)",
+            "results": {
+                "1-1": "Orso delle Caverne",
+                "11-11": "Tirannosaurus Rex",
+                "12-12": "Lupo Nero",
+                "2-2": "Tigre dai Denti a Sciabola",
+                "3-3": "Coccodrillo Gigante",
+                "4-4": "Elefante Preistorico",
+                "5-5": "Pterosauro, Piccolo (Pterodattilo)",
+                "6-6": "Pterosauro, Medio (Pteranodon)",
+                "7-7": "Serpente, Biscione Strisciante",
+                "8-8": "Serpente, Vipera Butterata",
+                "9-10": "Triceratopo"
+            }
         },
         "Animal (River)": {
-            "name": "Animale (Fiume)"
+            "name": "Animale (Fiume)",
+            "results": {
+                "1-1": "Mandria di animali",
+                "10-10": "Ratto Gigante",
+                "11-11": "Toporagno Gigante",
+                "12-12": "Rospo Gigante",
+                "2-2": "Cinghiale",
+                "3-3": "Pantera",
+                "4-4": "Tigre",
+                "5-5": "Granchio Gigante",
+                "6-6": "Coccodrillo,Normale",
+                "7-7": "Coccodrillo,Grande",
+                "8-8": "Pesce, Tracina Gigante",
+                "9-9": "Sanguisuga Gigante"
+            }
         },
         "Animal (Settled)": {
-            "name": "Aniamle (Città)"
+            "name": "Aniamle (Città)",
+            "results": {
+                "1-2": "Mandria di animali",
+                "10-10": "Serpente, Vipera Butterata",
+                "11-11": "Ragno Gigante, Tarantola",
+                "12-12": "Lupo Normale",
+                "3-3": "Cinghiale",
+                "4-4": "Tigre",
+                "5-5": "Furetto Gigante",
+                "6-6": "Cavallo da Sella",
+                "7-7": "Ratto Gigante",
+                "8-8": "Toporagno Gigante",
+                "9-9": "Serpente, Biscione Strisciante"
+            }
         },
         "Animal (Woods)": {
-            "name": "Animale (Boschi)"
+            "name": "Animale (Boschi)",
+            "results": {
+                "1-1": "Mandria di animali",
+                "10-10": "Unicorno",
+                "11-11": "Lupo Normale",
+                "12-12": "Lupo Nero",
+                "2-2": "Cinghiale",
+                "3-3": "Pantera",
+                "4-4": "Tigre",
+                "5-5": "Sauro Gigante Geco",
+                "6-6": "Sauro Gigante Draco",
+                "7-7": "Sauro Gigante Tuatara",
+                "8-8": "Serpente, Vipera Butterata",
+                "9-9": "Ragno Gigante, Chelato"
+            }
         },
         "Barren, Mountain, Hill Encounter": {
-            "name": "Incontro Arido, Montagna, Collina"
+            "name": "Incontro Arido, Montagna, Collina",
+            "results": {
+                "1-1": "Classe e Livello PNG Avventuriero",
+                "2-2": "Volanti (Montagna)",
+                "3-3": "Umanoidi (Arido, Montagna, Collina)",
+                "4-4": "Insolito",
+                "5-5": "Animale (Arido, Montagna, Collina)",
+                "6-6": "Umanoidi (Arido, Montagna, Collina)",
+                "7-8": "Draghi"
+            }
         },
         "Castle Encounter": {
-            "name": "Incontro Castello"
+            "name": "Incontro Castello",
+            "results": {
+                "1-1": "Reazione Castello (Chierico)",
+                "2-2": "Reazione Castello (Mago)",
+                "3-3": "Reazione Castello (Semiumano)",
+                "4-6": "Reazione Castello (Guerriero)"
+            }
         },
         "Castle Owner Alignment": {
-            "name": "Allineamento Proprietario Castello"
+            "name": "Allineamento Proprietario Castello",
+            "results": {
+                "1-1": "Caotico",
+                "2-4": "Neutrale",
+                "5-6": "Legale"
+            }
         },
         "Castle Reaction (Cleric)": {
             "name": "Reazione Castello (Chierico)"
@@ -232,97 +640,361 @@
             "name": "Reazione Castello (Mago)"
         },
         "Caveman (Neanderthal)": {
-            "name": "Cavernicolo (Neanderthal)"
+            "name": "Cavernicolo (Neanderthal)",
+            "results": {
+                "1-20": "Neanderthal",
+                "15-20": "Neanderthal, Capo"
+            }
         },
         "City Encounter": {
-            "name": "Incontro Città"
+            "name": "Incontro Città",
+            "results": {
+                "1-1": "Umano (Città)",
+                "2-2": "Non-Morto (Comune)",
+                "3-3": "Umanoide (Città e Disabitato)",
+                "4-7": "Umano (Città)",
+                "8-8": "Incontro Speciale Città"
+            }
         },
         "Clear, Grasslands Encounter": {
-            "name": "Incontro Praterie, Terreno Aperto"
+            "name": "Incontro Praterie, Terreno Aperto",
+            "results": {
+                "1-1": "Umano (Terreno Aperto, Prateria)",
+                "2-2": "Volanti (Tutte le altre)",
+                "3-3": "Umanoide (Terreno Aperto, Prateria)",
+                "4-5": "Animale (Terreno Aperto, Prateria)",
+                "6-6": "Insolito",
+                "7-7": "Draghi",
+                "8-8": "Insetti"
+            }
         },
         "Common Jewelry (4k)": {
-            "name": "Gioielli Comuni (4k)"
+            "name": "Gioielli Comuni (4k)",
+            "results": {
+                "3-3": "Braccialetto",
+                "7-7": "Catena"
+            }
         },
         "Demihuman Castle Owner": {
             "name": "Castello Proprierario Semiumano"
         },
         "Desert Encounter": {
-            "name": "Incontro Deserto"
+            "name": "Incontro Deserto",
+            "results": {
+                "1-1": "Umano (Deserto)",
+                "2-2": "Volanti (Deserto)",
+                "3-3": "Umanoide (Deserto)",
+                "4-4": "Umano (Deserto)",
+                "5-5": "Animale (Deserto)",
+                "6-6": "Draghi",
+                "7-7": "Non-Morto (Comune)",
+                "8-8": "Animale (Deserto)"
+            }
         },
         "Door - Locked or Stuck": {
             "name": "Porta - Chiusa a chiave o Bloccata"
         },
         "Door - Trapped": {
-            "name": "Porta - con Trappola"
+            "name": "Porta - con Trappola",
+            "results": {
+                "8-10": "Tipo di Trappola"
+            }
         },
         "Encounter - Dungeon Level 2": {
-            "name": "Incontro - Dungeon 2° Livello"
+            "name": "Incontro - Dungeon 2° Livello",
+            "results": {
+                "14-14": "Allineamento PNG Avventuriero"
+            }
         },
         "Encounter - Dungeon Level 3": {
-            "name": "Incontro - Dungeon 3° Livello"
+            "name": "Incontro - Dungeon 3° Livello",
+            "results": {
+                "14-14": "Allineamento PNG Avventuriero"
+            }
         },
         "Encounter - Dungeon Level 4-5": {
-            "name": "Incontro - Dungeon 4-5° Livello"
+            "name": "Incontro - Dungeon 4-5° Livello",
+            "results": {
+                "14-14": "Allineamento PNG Avventuriero"
+            }
         },
         "Encounter - Dungeon Level 6-7": {
-            "name": "Incontro - Dungeon 6-7° Livello"
+            "name": "Incontro - Dungeon 6-7° Livello",
+            "results": {
+                "12-12": "Allineamento PNG Avventuriero"
+            }
         },
         "Encounter - Dungeon Level 8-10": {
-            "name": "Incontro - Dungeon 8-10° Livello"
+            "name": "Incontro - Dungeon 8-10° Livello",
+            "results": {
+                "13-13": "Allineamento PNG Avventuriero"
+            }
         },
         "Flyers (All Other)": {
-            "name": "Volanti (Tutte le altre)"
+            "name": "Volanti (Tutte le altre)",
+            "results": {
+                "1-1": "Ape Gigante",
+                "10-10": "Roc Piccolo",
+                "11-11": "Spiritello",
+                "12-12": "Uccello Stigeo",
+                "2-2": "Cockatrice",
+                "3-3": "Gargoyle*",
+                "4-4": "Grifone",
+                "5-5": "Ippogrifo",
+                "6-6": "Sauro Gigante Draco",
+                "7-7": "Pegaso",
+                "8-8": "Pixie",
+                "9-9": "Tafano Predatore"
+            }
         },
         "Flyers (Desert)": {
-            "name": "Volanti (Deserto)"
+            "name": "Volanti (Deserto)",
+            "results": {
+                "1-2": "Gargoyle*",
+                "10-10": "Roc Piccolo",
+                "11-11": "Roc Grande",
+                "12-12": "Roc Gigantesco",
+                "3-3": "Grifone",
+                "4-4": "Arpia",
+                "5-5": "Sciame di insetti",
+                "6-6": "Sauro Gigante Draco",
+                "7-9": "Manticora"
+            }
         },
         "Flyers (Mountain)": {
-            "name": "Volanti (Montagna)"
+            "name": "Volanti (Montagna)",
+            "results": {
+                "1-1": "Ape Gigante",
+                "10-10": "Roc Piccolo",
+                "11-11": "Roc Grande",
+                "12-12": "Roc Gigantesco",
+                "2-2": "Gargoyle*",
+                "3-3": "Grifone",
+                "4-4": "Arpia",
+                "5-5": "Ippogrifo",
+                "6-6": "Sciame di insetti",
+                "7-7": "Manticora",
+                "8-8": "Pegaso",
+                "9-9": "Tafano Predatore"
+            }
         },
         "Human (Clear, Grassland)": {
-            "name": "Umano (Terreno Aperto, Prateria)"
+            "name": "Umano (Terreno Aperto, Prateria)",
+            "results": {
+                "1-1": "Classe e Livello PNG Avventuriero",
+                "11-11": "Umano, Nobile",
+                "12-12": "Umano, Nomade",
+                "2-3": "Bandito",
+                "4-4": "Berserker",
+                "5-5": "Umano, Brigante",
+                "6-6": "Allineamento PNG Avventuriero",
+                "7-7": "Allineamento PNG Avventuriero",
+                "8-8": "Allineamento PNG Avventuriero",
+                "9-10": "Umano Normale"
+            }
         },
         "Human (Desert)": {
-            "name": "Umano (Deserto)"
+            "name": "Umano (Deserto)",
+            "results": {
+                "1-1": "Classe e Livello PNG Avventuriero",
+                "2-2": "Allineamento PNG Avventuriero",
+                "3-4": "Umano, Devriscio",
+                "5-5": "Allineamento PNG Avventuriero",
+                "6-6": "Allineamento PNG Avventuriero",
+                "7-7": "Umano Normale",
+                "8-8": "Umano, Nobile",
+                "9-12": "Umano, Nomade"
+            }
         },
         "Human (Hill)": {
-            "name": "Umano (Collina)"
+            "name": "Umano (Collina)",
+            "results": {
+                "10-10": "Allineamento PNG Avventuriero",
+                "11-11": "Allineamento PNG Avventuriero",
+                "12-12": "Umano Normale",
+                "2-2": "Bandito",
+                "3-4": "Berserker",
+                "5-5": "Umano, Brigante",
+                "6-8": "Cavernicolo (Neanderthal)",
+                "9-9": "Allineamento PNG Avventuriero"
+            }
         },
         "Human (River)": {
-            "name": "Umano (Fiume)"
+            "name": "Umano (Fiume)",
+            "results": {
+                "1-1": "Classe e Livello PNG Avventuriero",
+                "10-11": "Umano Normale",
+                "12-12": "Classe PNG Avventuriero",
+                "2-2": "Bandito",
+                "3-5": "Umano, Bucaniere",
+                "6-7": "Allineamento PNG Avventuriero",
+                "8-8": "Allineamento PNG Avventuriero",
+                "9-9": "Allineamento PNG Avventuriero"
+            }
         },
         "Human (Settled)": {
-            "name": "Umano (Città)"
+            "name": "Umano (Città)",
+            "results": {
+                "1-1": "Allineamento PNG Avventuriero",
+                "10-10": "Classe PNG Avventuriero",
+                "11-11": "Umano, Carovaniere",
+                "12-12": "Allineamento PNG Avventuriero",
+                "2-2": "Allineamento PNG Avventuriero",
+                "3-4": "Bandito",
+                "5-5": "Allineamento PNG Avventuriero",
+                "6-6": "Allineamento PNG Avventuriero",
+                "7-7": "Allineamento PNG Avventuriero",
+                "8-8": "Umano Normale",
+                "9-9": "Umano, Nobile"
+            }
         },
         "Human (Swamp)": {
-            "name": "Umano (Palude)"
+            "name": "Umano (Palude)",
+            "results": {
+                "1-2": "Classe e Livello PNG Avventuriero",
+                "10-10": "Umano, Carovaniere",
+                "11-11": "Classe PNG Avventuriero",
+                "12-12": "Umano, Carovaniere",
+                "3-4": "Bandito",
+                "5-5": "Berserker",
+                "6-6": "Umano, Brigante",
+                "7-7": "Allineamento PNG Avventuriero",
+                "8-8": "Allineamento PNG Avventuriero",
+                "9-9": "Allineamento PNG Avventuriero"
+            }
         },
         "Human (Woods)": {
-            "name": "Umano (Boschi)"
+            "name": "Umano (Boschi)",
+            "results": {
+                "1-1": "Classe e Livello PNG Avventuriero",
+                "10-10": "Allineamento PNG Avventuriero",
+                "11-11": "Umano Normale",
+                "12-12": "Classe PNG Avventuriero",
+                "2-3": "Bandito",
+                "4-4": "Berserker",
+                "5-7": "Umano, Brigante",
+                "8-8": "Allineamento PNG Avventuriero",
+                "9-9": "Allineamento PNG Avventuriero"
+            }
         },
         "Humanoid (Barren, Mountain, Hill)": {
-            "name": "Umanoidi (Arido, Montagna, Collina)"
+            "name": "Umanoidi (Arido, Montagna, Collina)",
+            "results": {
+                "1-1": "Nano",
+                "10-10": "Orchetto",
+                "11-11": "Troglodita",
+                "12-12": "Troll",
+                "2-2": "Gigante delle Nuvole",
+                "3-3": "Gigante dei Ghiacci",
+                "4-4": "Gigante delle Colline",
+                "5-5": "Gigante delle Rocce",
+                "6-6": "Gigante delle Tempeste",
+                "7-7": "Gnomo",
+                "8-8": "Goblin",
+                "9-9": "Coboldo"
+            }
         },
         "Humanoid (City and Inhabited)": {
-            "name": "Umanoide (Città e Disabitato)"
+            "name": "Umanoide (Città e Disabitato)",
+            "results": {
+                "1-1": "Nano",
+                "10-10": "Orchetto",
+                "11-11": "Pixie",
+                "12-12": "Spiritello",
+                "2-2": "Elfo",
+                "3-3": "Gigante delle Colline",
+                "4-4": "Gnomo",
+                "5-5": "Gnoll",
+                "6-6": "Goblin",
+                "7-7": "Halfling",
+                "8-8": "Hobgoblin",
+                "9-9": "Orco"
+            }
         },
         "Humanoid (Clear, Grassland)": {
-            "name": "Umanoide (Terreno Aperto, Prateria)"
+            "name": "Umanoide (Terreno Aperto, Prateria)",
+            "results": {
+                "1-1": "Bugbear",
+                "10-10": "Pixie",
+                "11-11": "Thoul",
+                "12-12": "Troll",
+                "2-2": "Elfo",
+                "3-3": "Gigante delle Colline",
+                "4-4": "Gnoll",
+                "5-5": "Goblin",
+                "6-6": "Halfling",
+                "7-7": "Hobgoblin",
+                "8-8": "Orco",
+                "9-9": "Orchetto"
+            }
         },
         "Humanoid (Desert)": {
-            "name": "Umanoide (Deserto)"
+            "name": "Umanoide (Deserto)",
+            "results": {
+                "1-1": "Gigante del Fuoco",
+                "10-10": "Pixie",
+                "11-11": "Spiritello",
+                "12-12": "Thoul",
+                "2-2": "Goblin",
+                "3-4": "Hobgoblin",
+                "5-7": "Orco",
+                "8-9": "Orchetto"
+            }
         },
         "Humanoid (River)": {
-            "name": "Umanoide (Fiume)"
+            "name": "Umanoide (Fiume)",
+            "results": {
+                "1-1": "Bugbear",
+                "10-10": "Spiritello",
+                "11-11": "Thoul",
+                "12-12": "Troll",
+                "2-2": "Elfo",
+                "3-3": "Gnoll",
+                "4-4": "Hobgoblin",
+                "5-6": "Uomo Lucertola",
+                "7-7": "Spiritello Acquatico",
+                "8-8": "Orco",
+                "9-9": "Orchetto"
+            }
         },
         "Humanoid (Swamp)": {
-            "name": "Umanoide (Palude)"
+            "name": "Umanoide (Palude)",
+            "results": {
+                "1-1": "Gnoll",
+                "10-10": "Troglodita",
+                "11-12": "Troll",
+                "2-2": "Goblin",
+                "3-3": "Hobgoblin",
+                "4-6": "Uomo Lucertola",
+                "7-7": "Spiritello Acquatico",
+                "8-8": "Orco",
+                "9-9": "Orchetto"
+            }
         },
         "Humanoid (Woods)": {
-            "name": "Umanoide (Boschi)"
+            "name": "Umanoide (Boschi)",
+            "results": {
+                "1-1": "Bugbear",
+                "10-10": "Orchetto",
+                "11-11": "Thoul",
+                "12-12": "Troll",
+                "2-2": "Ciclope",
+                "3-3": "Driade",
+                "4-4": "Elfo (1 DV)",
+                "5-5": "Gigante delle Colline",
+                "6-6": "Gnoll",
+                "7-7": "Goblin",
+                "8-8": "Hobgoblin",
+                "9-9": "Orco"
+            }
         },
         "Insect Swarm": {
-            "name": "Sciame di insetti"
+            "name": "Sciame di insetti",
+            "results": {
+                "1-1": "Sciame di Insetti (2 DV)",
+                "2-2": "Sciame d'Insetti (3 DV)",
+                "3-3": "Sciame d'Insetti (4 DV)"
+            }
         },
         "Level 4-5 Gem": {
             "name": "Gemma di 4-5° Livello"
@@ -331,79 +1003,220 @@
             "name": "Gioiello di 4-5° Livello"
         },
         "Level 4-5 Magic Item": {
-            "name": "Oggetto Magico di 4-5° Livello"
+            "name": "Oggetto Magico di 4-5° Livello",
+            "results": {
+                "1-10": "Oggetti Magici (Base)"
+            }
         },
         "Level 4-5 Treasure": {
-            "name": "Tesoro di 4-5° Livello"
+            "name": "Tesoro di 4-5° Livello",
+            "results": {
+                "1-100": "Oggetto Magico di 4-5° Livello"
+            }
         },
         "Magic Pool": {
             "name": "Pozza Magica"
         },
         "Magic Rings": {
-            "name": "Anelli Magici"
+            "name": "Anelli Magici",
+            "results": {
+                "14-17": "Anello dell'Adattamento Elementale",
+                "41-45": "Anello di Protezione +1",
+                "46-48": "Anello di Protezione +2",
+                "70-71": "Anello Rifletti Incantesimi",
+                "97-98": "Anello dei Desideri"
+            }
         },
         "Magic-User Scroll Spell Count": {
-            "name": "Incantesimi per pergamena - Mago"
+            "name": "Incantesimi per pergamena - Mago",
+            "results": {
+                "1-50": "Livello Incantesimo Pergamena - Mago",
+                "51-83": "Livello Incantesimo Pergamena - Mago",
+                "84-100": "Livello Incantesimo Pergamena - Mago"
+            }
         },
         "Magic-User Scroll Spell Level": {
             "name": "Livello Incantesimo Pergamena - Mago"
         },
         "Magical Items (Adv.)": {
-            "name": "Oggetti Magici (Avanzato)"
+            "name": "Oggetti Magici (Avanzato)",
+            "results": {
+                "1-25": "Pozioni",
+                "26-37": "Pergamene",
+                "38-46": "Bacchette, Bastoni e Verghe",
+                "47-52": "Anelli Magici",
+                "53-62": "Oggetti Vari",
+                "63-72": "Armatura Magica",
+                "84-92": "Spade (Avanzato)",
+                "93-100": "Armi Varie (Avanzato)"
+            }
         },
         "Magical Items (Basic)": {
-            "name": "Oggetti Magici (Base)"
+            "name": "Oggetti Magici (Base)",
+            "results": {
+                "1-25": "Pozioni",
+                "26-37": "Pergamene",
+                "38-46": "Bacchette, Bastoni e Verghe",
+                "47-52": "Anelli Magici",
+                "53-62": "Oggetti Vari",
+                "63-72": "Armatura Magica",
+                "73-83": "Armi a Distanza & Proiettili (Base)",
+                "84-92": "Spade (Base)",
+                "93-100": "Armi Varie (Base)"
+            }
         },
         "Magical Items (No Weapons)": {
-            "name": "Oggetti Magici (No Armi)"
+            "name": "Oggetti Magici (No Armi)",
+            "results": {
+                "1-25": "Pozioni",
+                "26-37": "Pergamene",
+                "38-46": "Bacchette, Bastoni e Verghe",
+                "47-52": "Anelli Magici",
+                "53-62": "Oggetti Vari",
+                "63-72": "Armatura Magica"
+            }
         },
         "Magical Weapon (Basic)": {
-            "name": "Armi Magiche (Base)"
+            "name": "Armi Magiche (Base)",
+            "results": {
+                "1-2": "Armi a Distanza & Proiettili (Base)",
+                "3-4": "Spade (Base)",
+                "5-6": "Armi Varie (Base)"
+            }
         },
         "Misc. Weapons (Basic)": {
-            "name": "Armi Varie (Base)"
+            "name": "Armi Varie (Base)",
+            "results": {
+                "1-100": "Controllo Arma Maledetta",
+                "21-25": "Pugnale +1",
+                "51-55": "Mazza +1",
+                "56-58": "Mazza +2",
+                "81-85": "Lancia +1",
+                "86-88": "Lancia +2",
+                "91-95": "Bastone +1"
+            }
         },
         "Misc. Weapons (Class B)": {
-            "name": "Armi Varie (Classe B)"
+            "name": "Armi Varie (Classe B)",
+            "results": {
+                "1-50": "Armi con Mod. 40%",
+                "51-74": "Armi con Mod. 30%",
+                "75-88": "Armi con Mod. 20%",
+                "89-96": "Armi con Mod. 15%",
+                "97-100": "Armi con Mod. 10%"
+            }
         },
         "Misc. Weapons (Class C)": {
-            "name": "Armi Varie (Classe C)"
+            "name": "Armi Varie (Classe C)",
+            "results": {
+                "1-60": "Armi con Mod. 40%",
+                "61-81": "Armi con Mod. 30%",
+                "82-92": "Armi con Mod. 20%",
+                "93-98": "Armi con Mod. 15%",
+                "99-100": "Armi con Mod. 10%"
+            }
         },
         "Misc. Weapons (Class D)": {
-            "name": "Armi Varie (Classe D)"
+            "name": "Armi Varie (Classe D)",
+            "results": {
+                "1-70": "Armi con Mod. 40%",
+                "100-100": "Armi con Mod. 10%",
+                "71-88": "Armi con Mod. 30%",
+                "89-96": "Armi con Mod. 20%",
+                "97-99": "Armi con Mod. 15%"
+            }
         },
         "Misc.Weapons (Adv.)": {
-            "name": "Armi Varie (Avanzato)"
+            "name": "Armi Varie (Avanzato)",
+            "results": {
+                "1-100": "Controllo Arma Maledetta",
+                "1-9": "Armi Varie (Classe C)",
+                "10-15": "Armi Varie (Classe B)",
+                "16-17": "Armi Varie (Classe B)",
+                "18-20": "Armi Varie (Classe C)",
+                "21-22": "Armi Varie (Classe B)",
+                "23-23": "Armi Varie (Classe B)",
+                "24-28": "Armi Varie (Classe C)",
+                "29-40": "Armi Varie (Classe B)",
+                "41-43": "Armi Varie (Classe B)",
+                "44-53": "Armi Varie (Classe C)",
+                "54-56": "Armi Varie (Classe C)",
+                "57-59": "Armi Varie (Classe B)",
+                "60-60": "Armi Varie (Classe B)",
+                "61-64": "Armi Varie (Classe D)",
+                "65-76": "Armi Varie (Classe C)",
+                "77-78": "Armi Varie (Classe B)",
+                "79-79": "Armi Varie (Classe B)",
+                "80-84": "Armi Varie (Classe D)",
+                "85-94": "Armi Varie (Classe B)",
+                "95-97": "Armi Varie (Classe B)",
+                "98-100": "Armi Varie (Classe C)"
+            }
         },
         "Miscellaneous Items": {
-            "name": "Oggetti Vari"
+            "name": "Oggetti Vari",
+            "results": {
+                "36-38": "Uovo delle Meraviglie (Tipo Creatura)",
+                "54-54": "Corno della Devastazione",
+                "72-76": "Unguenti",
+                "93-94": "Talismano del Viaggio Elementale"
+            }
         },
         "Missile Talent 10%": {
-            "name": "Talento Proiettile 10%"
+            "name": "Talento Proiettile 10%",
+            "results": {
+                "1-10": "Talenti Proiettile"
+            }
         },
         "Missile Talent 15%": {
-            "name": "Talento Proiettile 15%"
+            "name": "Talento Proiettile 15%",
+            "results": {
+                "1-15": "Talenti Proiettile"
+            }
         },
         "Missile Talent 20%": {
-            "name": "Talento Proiettile 20%"
+            "name": "Talento Proiettile 20%",
+            "results": {
+                "1-20": "Talenti Proiettile"
+            }
         },
         "Missile Talent 25%": {
-            "name": "Talento Proiettile 25%"
+            "name": "Talento Proiettile 25%",
+            "results": {
+                "1-25": "Talenti Proiettile"
+            }
         },
         "Missile Talent 30%": {
-            "name": "Talento Proiettile 30%"
+            "name": "Talento Proiettile 30%",
+            "results": {
+                "1-30": "Talenti Proiettile"
+            }
         },
         "Missile Talents": {
             "name": "Talenti Proiettile"
         },
         "Missile Weapon or Missile (Basic)": {
-            "name": "Armi a Distanza & Proiettili (Base)"
+            "name": "Armi a Distanza & Proiettili (Base)",
+            "results": {
+                "98-100": "Fionda +1"
+            }
         },
         "Missile Weapons & Missiles (Adv.)": {
-            "name": "Armi a Distanza & Proiettili (Avanzato)"
+            "name": "Armi a Distanza & Proiettili (Avanzato)",
+            "results": {
+                "1-70": "Proiettili (Classe A)",
+                "71-100": "Armi a Distanza (Classe D)"
+            }
         },
         "Missile Weapons (Class D)": {
-            "name": "Armi a Distanza (Classe D)"
+            "name": "Armi a Distanza (Classe D)",
+            "results": {
+                "1-70": "Armi con Mod. 30%",
+                "100-100": "Armi con Mod. 10%",
+                "71-88": "Armi con Mod. 25%",
+                "89-96": "Armi con Mod. 20%",
+                "97-99": "Armi con Mod. 15%"
+            }
         },
         "Missile Weapons Range (+1)": {
             "name": "Gittata Armi a Distanza (+1)"
@@ -421,16 +1234,38 @@
             "name": "Gittata Armi a Distanza (+5)"
         },
         "Missiles (Class A)": {
-            "name": "Proiettili (Classe A)"
+            "name": "Proiettili (Classe A)",
+            "results": {
+                "1-40": "Talento Proiettile 30%",
+                "41-67": "Talento Proiettile 25%",
+                "68-84": "Talento Proiettile 20%",
+                "85-94": "Talento Proiettile 15%",
+                "95-100": "Talento Proiettile 10%"
+            }
         },
         "Monster Reaction Roll": {
             "name": "Tiro Reazione Mostri"
         },
         "NPC Adventurer Alignment": {
-            "name": "Allineamento PNG Avventuriero"
+            "name": "Allineamento PNG Avventuriero",
+            "results": {
+                "1-1": "Legale",
+                "2-2": "Neutrale",
+                "3-3": "Caotico"
+            }
         },
         "NPC Adventurer Class": {
-            "name": "Classe PNG Avventuriero"
+            "name": "Classe PNG Avventuriero",
+            "results": {
+                "1-1": "Chierico",
+                "2-2": "Druido",
+                "3-3": "Nano",
+                "4-4": "Elfo",
+                "5-6": "Guerriero",
+                "7-7": "Halfling",
+                "8-8": "Mago",
+                "9-10": "Ladro"
+            }
         },
         "NPC Adventurer Class and Level": {
             "name": "Classe e Livello PNG Avventuriero"
@@ -445,16 +1280,37 @@
             "name": "Trappola (Buco)"
         },
         "Rare Jewelry (50k)": {
-            "name": "Gioello Raro (50k)"
+            "name": "Gioello Raro (50k)",
+            "results": {
+                "1-1": "Amuleto",
+                "2-2": "Corona",
+                "6-6": "Anello",
+                "9-9": "Talismano"
+            }
         },
         "River Encounter": {
-            "name": "Incontro Fiume"
+            "name": "Incontro Fiume",
+            "results": {
+                "1-1": "Umano (Fiume)",
+                "2-2": "Volanti (Tutte le altre)",
+                "3-3": "Umanoide (Fiume)",
+                "4-4": "Insetti",
+                "5-6": "Acquatico (Fiume/Lago)",
+                "7-7": "Animale (Fiume)",
+                "8-8": "Draghi"
+            }
         },
         "Rod of the Wyrm": {
             "name": "Verga del Wyrm"
         },
         "Room Type": {
-            "name": "Stanze"
+            "name": "Stanze",
+            "results": {
+                "1-4": "Stanza Vuota",
+                "5-5": "Stanza con Trappola",
+                "6-7": "Stanza con Mostro",
+                "8-8": "Stanza Speciale"
+            }
         },
         "Room with Alarm": {
             "name": "Stanza con Allarme"
@@ -463,31 +1319,74 @@
             "name": "Stanza con Mostro"
         },
         "Room with Trap": {
-            "name": "Stanza con Trappola"
+            "name": "Stanza con Trappola",
+            "results": {
+                "1-6": "Tipo di Trappola"
+            }
         },
         "Settled Encounter": {
-            "name": "Incontro Urbano"
+            "name": "Incontro Urbano",
+            "results": {
+                "1-1": "Incontro Castello",
+                "2-2": "Volanti (Tutte le altre)",
+                "3-3": "Umanoide (Città e Disabitato)",
+                "4-5": "Umano (Città)",
+                "6-7": "Aniamle (Città)",
+                "8-8": "Draghi"
+            }
         },
         "Special City Encounter": {
-            "name": "Incontro Speciale Città"
+            "name": "Incontro Speciale Città",
+            "results": {
+                "1-1": "Alchimista",
+                "101-101": "Mercante",
+                "116-116": "Reale",
+                "117-117": "Saggio",
+                "13-13": "Barbiere",
+                "146-146": "Traduttore",
+                "150-150": "Vigilante",
+                "53-53": "Intrattenitore",
+                "64-64": "Giocatore d’Azzardo",
+                "78-78": "Erborista",
+                "79-79": "Cacciatore",
+                "86-86": "Manovale"
+            }
         },
         "Special Power 10%": {
-            "name": "Potere Speciale 10%"
+            "name": "Potere Speciale 10%",
+            "results": {
+                "1-10": "Poteri Speciali Armatura"
+            }
         },
         "Special Power 15%": {
-            "name": "Potere Speciale 15%"
+            "name": "Potere Speciale 15%",
+            "results": {
+                "1-15": "Poteri Speciali Armatura"
+            }
         },
         "Special Power 20%": {
-            "name": "Potere Speciale 20%"
+            "name": "Potere Speciale 20%",
+            "results": {
+                "1-20": "Poteri Speciali Armatura"
+            }
         },
         "Special Power 25%": {
-            "name": "Potere Speciale 25%"
+            "name": "Potere Speciale 25%",
+            "results": {
+                "1-25": "Poteri Speciali Armatura"
+            }
         },
         "Special Power 30%": {
-            "name": "Potere Speciale 30%"
+            "name": "Potere Speciale 30%",
+            "results": {
+                "1-30": "Poteri Speciali Armatura"
+            }
         },
         "Special Room": {
-            "name": "Stanza Speciale"
+            "name": "Stanza Speciale",
+            "results": {
+                "1-1": "Stanza con Allarme"
+            }
         },
         "Special Treasure Table": {
             "name": "Tabella Tesoro Speciale"
@@ -496,55 +1395,157 @@
             "name": "Intercetta Incantesimo"
         },
         "Spell Scrolls": {
-            "name": "Pergamene Incantesimi"
+            "name": "Pergamene Incantesimi",
+            "results": {
+                "1-70": "Incantesimi per pergamena - Mago",
+                "71-100": "Conteggio Incantesimi su Pergamena (Chierico/Druido)"
+            }
         },
         "Staff of Element": {
-            "name": "Bastone Elementale"
+            "name": "Bastone Elementale",
+            "results": {
+                "1-21": "Bastone dell'Aria",
+                "43-63": "Bastone del Fuoco"
+            }
         },
         "Swamp Encounter": {
-            "name": "Incontro Palude"
+            "name": "Incontro Palude",
+            "results": {
+                "1-1": "Umano (Palude)",
+                "2-2": "Volanti (Tutte le altre)",
+                "3-3": "Umanoide (Palude)",
+                "4-4": "Acquatico (Palude)",
+                "5-6": "Non-Morto (Comune)",
+                "7-7": "Insetti",
+                "8-8": "Draghi"
+            }
         },
         "Swimmer (River/Lake)": {
-            "name": "Acquatico (Fiume/Lago)"
+            "name": "Acquatico (Fiume/Lago)",
+            "results": {
+                "1-1": "Granchio Gigante",
+                "10-10": "Tritone",
+                "11-11": "Spiritello Acquatico",
+                "12-12": "Termite, Acqua (Dolce)",
+                "2-2": "Coccodrillo,Normale",
+                "3-3": "Coccodrillo,Grande",
+                "4-4": "Pesce, Sgombro Gigante",
+                "5-5": "Pesce, Storione Gigante",
+                "6-7": "Sanguisuga Gigante",
+                "8-9": "Uomo Lucertola"
+            }
         },
         "Swimmer (Swamp)": {
-            "name": "Acquatico (Palude)"
+            "name": "Acquatico (Palude)",
+            "results": {
+                "1-1": "Granchio Gigante",
+                "11-12": "Termite, Acqua (Palude)",
+                "2-3": "Coccodrillo,Normale",
+                "4-5": "Coccodrillo,Grande",
+                "6-8": "Sanguisuga Gigante",
+                "9-10": "Uomo Lucertola"
+            }
         },
         "Sword Primary Power": {
-            "name": "Spada Potere Primario"
+            "name": "Spada Potere Primario",
+            "results": {
+                "100-100": "Spada Potere Primario (TiroUnico)",
+                "96-99": "Potere Straordinario"
+            }
         },
         "Sword Primary Power (NoReroll)": {
-            "name": "Spada Potere Primario (TiroUnico)"
+            "name": "Spada Potere Primario (TiroUnico)",
+            "results": {
+                "96-99": "Potere Straordinario"
+            }
         },
         "Sword, Weapon or Armor (Basic)": {
-            "name": "Spada, Arma o Armatura (Base)"
+            "name": "Spada, Arma o Armatura (Base)",
+            "results": {
+                "1-1": "Armatura Magica",
+                "2-2": "Armi Magiche (Base)"
+            }
         },
         "Swords (Advanced)": {
-            "name": "Spade (Avanzato)"
+            "name": "Spade (Avanzato)",
+            "results": {
+                "1-100": "Controllo Spada Maledetta",
+                "66-84": "Spade (Classe C)",
+                "85-92": "Spade (Classe D)",
+                "93-100": "Spade (Classe D)"
+            }
         },
         "Swords (Basic)": {
-            "name": "Spade (Base)"
+            "name": "Spade (Base)",
+            "results": {
+                "1-100": "Controllo Spada Maledetta"
+            }
         },
         "Swords (Class C)": {
-            "name": "Spade (Classe C)"
+            "name": "Spade (Classe C)",
+            "results": {
+                "1-60": "Armi con Mod. 40%",
+                "61-81": "Armi con Mod. 30%",
+                "82-92": "Armi con Mod. 25%",
+                "93-98": "Armi con Mod. 20%",
+                "99-100": "Armi con Mod. 15%"
+            }
         },
         "Swords (Class D)": {
-            "name": "Spade (Classe D)"
+            "name": "Spade (Classe D)",
+            "results": {
+                "1-70": "Armi con Mod. 40%",
+                "100-100": "Armi con Mod. 15%",
+                "71-88": "Armi con Mod. 30%",
+                "89-96": "Armi con Mod. 25%",
+                "97-99": "Armi con Mod. 20%"
+            }
         },
         "Talisman of Elemental Travel": {
             "name": "Talismano del Viaggio Elementale"
         },
         "Trap Type": {
-            "name": "Tipo di Trappola"
+            "name": "Tipo di Trappola",
+            "results": {
+                "5-5": "Trappola Nebbiosa",
+                "8-8": "Trappola (Buco)"
+            }
         },
         "Uncommon Jewelry (15k)": {
-            "name": "Gioiello Non-Comune (15k)"
+            "name": "Gioiello Non-Comune (15k)",
+            "results": {
+                "2-2": "Cintura",
+                "3-3": "Collare",
+                "7-7": "Foglia",
+                "8-8": "Collana"
+            }
         },
         "Unusual": {
-            "name": "Insolito"
+            "name": "Insolito",
+            "results": {
+                "1-1": "Basilisco",
+                "10-10": "Licantropo, Lupo Mannaro*",
+                "11-11": "Medusa",
+                "12-12": "Uomo-albero",
+                "2-2": "Molosso Instabile",
+                "3-3": "Centauro",
+                "4-4": "Pantera Distorcente",
+                "5-5": "Gorgone",
+                "6-6": "Licantropo, Orso Mannaro*",
+                "7-7": "Licantropo, Cinghiale Mannaro*",
+                "8-8": "Licantropo, Ratto Mannaro*",
+                "9-9": "Licantropo, Tigre Mannara*"
+            }
         },
         "Wands, Staves, and Rods": {
-            "name": "Bacchette, Bastoni e Verghe"
+            "name": "Bacchette, Bastoni e Verghe",
+            "results": {
+                "100-100": "Verga del Wyrm",
+                "67-69": "Bastone Elementale",
+                "89-90": "Verga della Dissoluzione della Magia",
+                "91-91": "Verga del Governo",
+                "95-95": "Verga della Parata"
+            }
         },
         "Weapon Opponents": {
             "name": "Arma Avversari"
@@ -553,28 +1554,55 @@
             "name": "Talenti Arma"
         },
         "Weapons Add. Mod. 10%": {
-            "name": "Armi con Mod. 10%"
+            "name": "Armi con Mod. 10%",
+            "results": {
+                "1-10": "Modificatori Arma Addizionale (Varia)"
+            }
         },
         "Weapons Add. Mod. 15%": {
-            "name": "Armi con Mod. 15%"
+            "name": "Armi con Mod. 15%",
+            "results": {
+                "1-15": "Modificatori Arma Addizionale (Varia)"
+            }
         },
         "Weapons Add. Mod. 20%": {
-            "name": "Armi con Mod. 20%"
+            "name": "Armi con Mod. 20%",
+            "results": {
+                "1-20": "Modificatori Arma Addizionale (Varia)"
+            }
         },
         "Weapons Add. Mod. 25%": {
-            "name": "Armi con Mod. 25%"
+            "name": "Armi con Mod. 25%",
+            "results": {
+                "1-25": "Modificatori Arma Addizionale (Varia)"
+            }
         },
         "Weapons Add. Mod. 30%": {
-            "name": "Armi con Mod. 30%"
+            "name": "Armi con Mod. 30%",
+            "results": {
+                "1-30": "Modificatori Arma Addizionale (Varia)"
+            }
         },
         "Weapons Add. Mod. 40%": {
-            "name": "Armi con Mod. 40%"
+            "name": "Armi con Mod. 40%",
+            "results": {
+                "1-40": "Modificatori Arma Addizionale (Varia)"
+            }
         },
         "Wishes Ring": {
             "name": "Anello dei Desideri"
         },
         "Woods Encounter": {
-            "name": "Incontri Boschi"
+            "name": "Incontri Boschi",
+            "results": {
+                "1-1": "Umano (Boschi)",
+                "2-2": "Volanti (Tutte le altre)",
+                "3-3": "Umanoide (Boschi)",
+                "4-4": "Insetti",
+                "5-5": "Insolito",
+                "6-7": "Animale (Boschi)",
+                "8-8": "Draghi"
+            }
         }
     },
     "folders": {
