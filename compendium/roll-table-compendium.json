@@ -1,580 +1,2785 @@
 {
   "entries": {
     "AC Mod (Banded, Scale or Leather)": {
-      "name": "AC Mod (Banded, Scale or Leather)"
+      "description": "<p>The armor class modifier for Banded, Scale or Leather armor. This table also rolls to determine if the armor has a special power.</p>",
+      "name": "AC Mod (Banded, Scale or Leather)",
+      "results": {
+        "1-100": "Cursed Armor Check",
+        "1-70": "Special Power 10%",
+        "100-100": "Special Power 30%",
+        "71-88": "Special Power 15%",
+        "89-96": "Special Power 20%",
+        "97-99": "Special Power 25%"
+      }
     },
     "AC Mod (Chain)": {
-      "name": "AC Mod (Chain)"
+      "description": "<p>The armor class modifier for Chain Mail armor. This table also rolls to determine of the armor has a special power.</p>",
+      "name": "AC Mod (Chain)",
+      "results": {
+        "1-100": "Armor Size Table",
+        "1-60": "Special Power 10%",
+        "61-81": "Special Power 15%",
+        "82-92": "Special Power 20%",
+        "93-98": "Special Power 25%",
+        "99-100": "Special Power 30%"
+      }
     },
     "AC Mod (Plate or Suit)": {
-      "name": "AC Mod (Plate or Suit)"
+      "description": "<p>The armor class modifier for Plate Mail or Suit armor. This table also rolls to determine of the armor has a special power.</p>",
+      "name": "AC Mod (Plate or Suit)",
+      "results": {
+        "1-100": "Armor Size Table",
+        "1-50": "Special Power 10%",
+        "51-74": "Special Power 15%",
+        "75-88": "Special Power 20%",
+        "89-96": "Special Power 25%",
+        "97-100": "Special Power 30%"
+      }
     },
     "AC Mod (Shield)": {
-      "name": "AC Mod (Shield)"
+      "description": "<p>The armor class modifier for Shields. This table also rolls to determine of the shield has a special power.</p>",
+      "name": "AC Mod (Shield)",
+      "results": {
+        "1-100": "Armor Size Table",
+        "1-40": "Special Power 10%",
+        "41-67": "Special Power 15%",
+        "68-84": "Special Power 20%",
+        "85-94": "Special Power 25%",
+        "95-100": "Special Power 30%"
+      }
     },
     "Additional Weapon Mods (Misc)": {
-      "name": "Additional Weapon Mods (Misc)"
+      "description": "<p>Determines additional modifiers for miscellaneous weapons. Use the result to adjust bonuses or roll on the Talents table for a specific talent.</p>",
+      "name": "Additional Weapon Mods (Misc)",
+      "results": {
+        "1-29": "+1 extra vs opponent",
+        "1-75": "Weapon Opponents",
+        "30-50": "+2 extra vs opponent",
+        "51-64": "+3 extra vs opponent",
+        "65-72": "+4 extra vs opponent",
+        "73-75": "+5 extra vs opponent",
+        "76-100": "Weapon Talents"
+      }
     },
     "Additional Weapon Mods. (Swords)": {
-      "name": "Additional Weapon Mods. (Swords)"
+      "description": "<p>Determines additional modifiers for weapons. Use the result to adjust bonuses or roll on the Talents table for a specific talent. This bonus is added to the weapons bonus when fighting special opponents.</p>",
+      "name": "Additional Weapon Mods. (Swords)",
+      "results": {
+        "1-29": "+1 extra vs opponent",
+        "1-75": "Weapon Opponents",
+        "30-50": "+2 extra vs opponent",
+        "51-64": "+3 extra vs opponent",
+        "65-72": "+4 extra vs opponent",
+        "73-75": "+5 extra vs opponent",
+        "76-100": "Weapon Talents"
+      }
     },
     "Animal (Barren, Mountain, Hil)": {
-      "name": "Animal (Barren, Mountain, Hil)"
+      "name": "Animal (Barren, Mountain, Hil)",
+      "results": {
+        "1-1": "Animal Herd",
+        "10-10": "Snake, Giant Rattler",
+        "11-11": "Wolf, Normal",
+        "12-12": "Wolf, Dire",
+        "2-2": "Ape, Snow",
+        "3-3": "Ape, White",
+        "4-4": "Baboon, Rock",
+        "5-5": "Bear, Cave",
+        "6-6": "Bear, Grizzly",
+        "7-7": "Cat, Mountain Lion",
+        "8-8": "Mule",
+        "9-9": "Snake, Pit Viper"
+      }
     },
     "Animal (Clear, Grassland)": {
-      "name": "Animal (Clear, Grassland)"
+      "name": "Animal (Clear, Grassland)",
+      "results": {
+        "1-1": "Animal Herd",
+        "10-10": "Snake, Pit Viper",
+        "11-11": "Snake, Giant Rattler",
+        "12-12": "Weasel, Giant",
+        "2-2": "Baboon, Rock",
+        "3-3": "Boar, Normal",
+        "4-4": "Cat, Lion",
+        "5-5": "Elephant, Normal",
+        "6-6": "Ferret, Giant",
+        "7-7": "Horse, Riding",
+        "8-8": "Lizard, Draco",
+        "9-9": "Mule"
+      }
     },
     "Animal (Desert)": {
-      "name": "Animal (Desert)"
+      "name": "Animal (Desert)",
+      "results": {
+        "1-2": "Animal Herd",
+        "10-10": "Snake, Giant Rattler",
+        "11-11": "Spider, Giant (Black Widow)",
+        "12-12": "Spider, Giant (Tarantella)",
+        "3-4": "Camel",
+        "5-6": "Cat, Lion",
+        "7-7": "Lizard, Gecko",
+        "8-8": "Lizard, Tuatara",
+        "9-9": "Snake, Pit Viper"
+      }
     },
     "Animal (Jungle)": {
-      "name": "Animal (Jungle)"
+      "name": "Animal (Jungle)",
+      "results": {
+        "1-1": "Animal Herd",
+        "10-10": "Snake, Rock Python",
+        "11-11": "Snake, Spitting Cobra",
+        "12-12": "Spider, Giant (Crab Spider)",
+        "2-2": "Boar, Normal",
+        "3-3": "Cat, Panther",
+        "4-4": "Lizard, Draco",
+        "5-5": "Lizard, Gecko",
+        "6-6": "Lizard, Horned Chameleon",
+        "7-7": "Rat, Giant",
+        "8-8": "Shrew, Giant",
+        "9-9": "Snake, Pit Viper"
+      }
     },
     "Animal (Prehistoric)": {
-      "name": "Animal (Prehistoric)"
+      "name": "Animal (Prehistoric)",
+      "results": {
+        "1-1": "Bear, Cave",
+        "11-11": "Tyrannosaurus Rex",
+        "12-12": "Wolf, Dire",
+        "2-2": "Cat, Sabre-Tooth Tiger",
+        "3-3": "Crocodile, Giant",
+        "4-4": "Elephant, Prehistoric (Mastodon)",
+        "5-5": "Pterosaur, Small (Pterodactyl)",
+        "6-6": "Pterosaur, Medium (Pteranodon)",
+        "7-7": "Snake, Giant Racer",
+        "8-8": "Snake, Pit Viper",
+        "9-10": "Triceratops"
+      }
     },
     "Animal (River)": {
-      "name": "Animal (River)"
+      "name": "Animal (River)",
+      "results": {
+        "1-1": "Animal Herd",
+        "10-10": "Rat, Giant",
+        "11-11": "Shrew, Giant",
+        "12-12": "Toad, Giant",
+        "2-2": "Boar, Normal",
+        "3-3": "Cat, Panther",
+        "4-4": "Cat, Tiger",
+        "5-5": "Crab, Giant",
+        "6-6": "Crocodile, Normal",
+        "7-7": "Crocodile, Large",
+        "8-8": "Fish, Giant Rockfish",
+        "9-9": "Leech, Giant"
+      }
     },
     "Animal (Settled)": {
-      "name": "Animal (Settled)"
+      "name": "Animal (Settled)",
+      "results": {
+        "1-2": "Animal Herd",
+        "10-10": "Snake, Pit Viper",
+        "11-11": "Spider, Giant (Tarantella)",
+        "12-12": "Wolf, Normal",
+        "3-3": "Boar, Normal",
+        "4-4": "Cat, Tiger",
+        "5-5": "Ferret, Giant",
+        "6-6": "Horse, Riding",
+        "7-7": "Rat, Giant",
+        "8-8": "Shrew, Giant",
+        "9-9": "Snake, Giant Racer"
+      }
     },
     "Animal (Woods)": {
-      "name": "Animal (Woods)"
+      "description": "<p>Woodland animal encounter.</p>",
+      "name": "Animal (Woods)",
+      "results": {
+        "1-1": "Animal Herd",
+        "10-10": "Unicorn",
+        "11-11": "Wolf, Normal",
+        "12-12": "Wolf, Dire",
+        "2-2": "Boar, Normal",
+        "3-3": "Cat, Panther",
+        "4-4": "Cat, Tiger",
+        "5-5": "Lizard, Gecko",
+        "6-6": "Lizard, Draco",
+        "7-7": "Lizard, Tuatara",
+        "8-8": "Snake, Pit Viper",
+        "9-9": "Spider, Giant (Crab Spider)"
+      }
     },
     "Animal Herd": {
-      "name": "Animal Herd"
+      "description": "<p>Animal herd encounter.</p>",
+      "name": "Animal Herd",
+      "results": {
+        "1-1": "Animal Herd (1 HD)",
+        "2-2": "Animal Herd (2 HD)",
+        "3-3": "Animal Herd (3 HD)",
+        "4-4": "Animal Herd (4 HD)"
+      }
     },
     "Antidote Potion": {
-      "name": "Antidote Potion"
+      "description": "<p>Determines the effectiveness of an Antidote Potion, ranging from poisons caused by creatures with 3-HD to all poisons.</p>",
+      "name": "Antidote Potion",
+      "results": {
+        "1-4": "Poisons from 3-HD (or lesser) creatures",
+        "10-10": "All poisons",
+        "5-7": "Poisons from 7-HD (or lesser) creatures. Also works on Poison Potion.",
+        "8-9": "Poisons from 15-HD (or lesser) creatures. Also works on Poison Potion."
+      }
     },
     "Armor Size Table": {
-      "name": "Armor Size Table"
+      "description": "<p>Determines the size category of the armor found, such as Human, Dwarf, Elf, Halfling, or Giant.</p>",
+      "name": "Armor Size Table",
+      "results": {
+        "1-68": "Human-sized",
+        "69-81": "Dwarf-sized",
+        "82-91": "Elf-sized",
+        "92-98": "Halfling-sized",
+        "99-100": "Giant-sized"
+      }
     },
     "Armor Special Powers": {
-      "name": "Armor Special Powers"
+      "description": "<p>Determines the special power of an item or effect, such as Absorption, Fly, or Invisibility.</p>",
+      "name": "Armor Special Powers",
+      "results": {
+        "1-7": "Special Power: Absorption",
+        "18-32": "Special Power: Cure wounds",
+        "33-42": "Special Power: Electricity",
+        "43-47": "Special Power: Energy drain",
+        "48-50": "Special Power: Ethereality",
+        "51-60": "Special Power: Fly",
+        "61-66": "Special Power: Gaseous form",
+        "67-75": "Special Power: Haste",
+        "76-85": "Special Power: Invisibility",
+        "8-17": "Special Power: Charm",
+        "86-93": "Special Power: Reflection",
+        "94-100": "Special Power: Remove curse"
+      }
     },
     "Bandit": {
-      "name": "Bandit"
+      "name": "Bandit",
+      "results": {
+        "1-1": "Bandit",
+        "2-2": "Bandit (2HD)",
+        "3-3": "Bandit (3HD)"
+      }
     },
     "Barren, Mountain, Hill Encounter": {
-      "name": "Barren, Mountain, Hill Encounter"
+      "description": "<h3>Barren, Mountain, Hill Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Barren, Mountain, Hill Encounter",
+      "results": {
+        "1-1": "NPC Adventurer Class and Level",
+        "2-2": "Flyers (Mountain)",
+        "3-3": "Humanoid (Barren, Mountain, Hill)",
+        "4-4": "Unusual",
+        "5-5": "Animal (Barren, Mountain, Hil)",
+        "6-6": "Humanoid (Barren, Mountain, Hill)",
+        "7-8": "Dragons"
+      }
     },
     "Castle Encounter": {
-      "name": "Castle Encounter"
+      "description": "<p>The DM can determine the character class of castle inhabitants either by using the Subtable: Castle Encounters (page 98) or by selecting classes as appropriate. If the table is to be used, roll a 1d6; if the result is a 3, roll 1d6 again and see which of the demihuman races is the result. For human owners of a castle, regardless of class, roll 1d20 + 8 for the owner's level. Demihuman levels are listed in the table.</p><p>If the DM has not already determined what the castle inhabitants' reactions will be to player characters, he or she can either check the Monster Reactions Table given earlier in this chapter or check the Castle Reactions Table on page 99. The \"Reaction\" columns of the table assume that the party does nothing to either arouse suspicion or to inspire trust; the DM can certainly adjust the die roll if the PCs' actions toward the castle inhabitants warrant the modification.</p><p>Remember, too, that some high-level PC fighters may have the right of sanctuary at castles in the campaign; a PC with that right who declares his name and title will normally receive a \"Friendly\" result.</p><p>Note that the men listed are only part of the castle owner's forces and are simply the unit sent out after annoying travelers; the rest of the castle's forces should include other men and might even include special monsters.</p><p><strong>Pursue:</strong> The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.</p><p><strong>Ignore:</strong> No attempt is made to aid or hinder the party.</p><p><strong>Friendly:</strong> The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)</p>",
+      "name": "Castle Encounter",
+      "results": {
+        "1-1": "Castle Reaction (Cleric)",
+        "2-2": "Castle Reaction (Magic-User)",
+        "3-3": "Castle Reaction (Demihuman)",
+        "4-6": "Castle Reaction (Fighter)"
+      }
     },
     "Castle Owner Alignment": {
-      "name": "Castle Owner Alignment"
+      "name": "Castle Owner Alignment",
+      "results": {
+        "1-1": "Chaotic",
+        "2-4": "Neutral",
+        "5-6": "Lawful"
+      }
     },
     "Castle Reaction (Cleric)": {
-      "name": "Castle Reaction (Cleric)"
+      "name": "Castle Reaction (Cleric)",
+      "results": {
+        "1-2": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
+        "3-4": "Ignore: No attempt is made to aid or hinder the party.",
+        "5-6": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)"
+      }
     },
     "Castle Reaction (Demihuman)": {
-      "name": "Castle Reaction (Demihuman)"
+      "name": "Castle Reaction (Demihuman)",
+      "results": {
+        "1-1": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
+        "2-5": "Ignore: No attempt is made to aid or hinder the party.",
+        "6-6": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)"
+      }
     },
     "Castle Reaction (Fighter)": {
-      "name": "Castle Reaction (Fighter)"
+      "name": "Castle Reaction (Fighter)",
+      "results": {
+        "1-3": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
+        "4-5": "Ignore: No attempt is made to aid or hinder the party.",
+        "6-6": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)"
+      }
     },
     "Castle Reaction (Magic-User)": {
-      "name": "Castle Reaction (Magic-User)"
+      "name": "Castle Reaction (Magic-User)",
+      "results": {
+        "1-1": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
+        "2-5": "Ignore: No attempt is made to aid or hinder the party.",
+        "6-6": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)"
+      }
     },
     "Caveman (Neanderthal)": {
-      "name": "Caveman (Neanderthal)"
+      "name": "Caveman (Neanderthal)",
+      "results": {
+        "1-20": "Neanderthal",
+        "15-20": "Neanderthal, Leader"
+      }
     },
     "City Encounter": {
-      "name": "City Encounter"
+      "description": "<h3>City Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "City Encounter",
+      "results": {
+        "1-1": "Human (Settled)",
+        "2-2": "Undead",
+        "3-3": "Humanoid (City and Inhabited)",
+        "4-7": "Human (Settled)",
+        "8-8": "Special City Encounter"
+      }
     },
     "Clear, Grasslands Encounter": {
-      "name": "Clear, Grasslands Encounter"
+      "description": "<h3>Clear, Grasslands Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Clear, Grasslands Encounter",
+      "results": {
+        "1-1": "Human (Clear, Grassland)",
+        "2-2": "Flyers (All Other)",
+        "3-3": "Humanoid (Clear, Grassland)",
+        "4-5": "Animal (Clear, Grassland)",
+        "6-6": "Unusual",
+        "7-7": "Dragons",
+        "8-8": "Insects"
+      }
     },
     "Cleric/Druid Scroll Spell Count": {
-      "name": "Cleric/Druid Scroll Spell Count"
+      "description": "<p>Determines the number of spells on the spell scroll. Roll for the level of each spell separately.</p>",
+      "name": "Cleric/Druid Scroll Spell Count",
+      "results": {
+        "1-50": "Cleric/Druid Scroll Spell Level",
+        "51-83": "Cleric/Druid Scroll Spell Level",
+        "84-100": "Cleric/Druid Scroll Spell Level"
+      }
     },
     "Cleric/Druid Scroll Spell Level": {
-      "name": "Cleric/Druid Scroll Spell Level"
+      "description": "<p>Determines the level of a Cleric or Druid spell found on a spell scroll.</p>",
+      "name": "Cleric/Druid Scroll Spell Level",
+      "results": {
+        "1-34": "Level 1 Spell",
+        "100-100": "Level 7  Spell",
+        "35-58": "Level 2  Spell",
+        "59-76": "Level 3  Spell",
+        "77-88": "Level 4  Spell",
+        "89-95": "Level 5  Spell",
+        "96-99": "Level 6  Spell"
+      }
     },
     "Common Jewelry (4k)": {
-      "name": "Common Jewelry (4k)"
+      "name": "Common Jewelry (4k)",
+      "results": {
+        "1-1": "Anklet",
+        "10-10": "Pin",
+        "2-2": "Beads",
+        "3-3": "Bracelet",
+        "4-4": "Brooch",
+        "5-5": "Buckle",
+        "6-6": "Cameo",
+        "7-7": "Chain",
+        "8-8": "Clasp",
+        "9-9": "Locket"
+      }
     },
     "Cursed Armor Check": {
-      "name": "Cursed Armor Check"
+      "description": "<p>Check top see if the armor is cursed.</p>",
+      "name": "Cursed Armor Check",
+      "results": {
+        "1-1": "<strong>Cursed!</strong>"
+      }
     },
     "Cursed Sword Check": {
-      "name": "Cursed Sword Check"
+      "description": "<p>Check top see if the sword is cursed.</p>",
+      "name": "Cursed Sword Check",
+      "results": {
+        "1-2": "<strong>Cursed!</strong>"
+      }
     },
     "Cursed Weapon Check": {
-      "name": "Cursed Weapon Check"
+      "description": "<p>Check top see if the weapon is cursed. This is used for miscellaneous weapons.</p>",
+      "name": "Cursed Weapon Check",
+      "results": {
+        "1-2": "<strong>Cursed!</strong>"
+      }
     },
     "Defense Potion": {
-      "name": "Defense Potion"
+      "description": "<p>Determines the bonus to Armor Class provided by a Defense Potion, ranging from +1 to +5.</p>",
+      "name": "Defense Potion",
+      "results": {
+        "1-3": "+1 to Armor Class",
+        "10-10": "+5 to Armor Class",
+        "4-5": "+2 to Armor Class",
+        "6-7": "+3 to Armor Class",
+        "8-9": "+4 to Armor Class"
+      }
     },
     "Demihuman Castle Owner": {
-      "name": "Demihuman Castle Owner"
+      "name": "Demihuman Castle Owner",
+      "results": {
+        "1-2": "Owned by a level 12 Dwarf",
+        "3-4": "Owned by a level 10 Elf",
+        "5-6": "Owned by a level 8 Halfling"
+      }
     },
     "Desert Encounter": {
-      "name": "Desert Encounter"
+      "description": "<h3>Desert Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Desert Encounter",
+      "results": {
+        "1-1": "Human (Desert)",
+        "2-2": "Flyers (Desert)",
+        "3-3": "Humanoid (Desert)",
+        "4-4": "Human (Desert)",
+        "5-5": "Animal (Desert)",
+        "6-6": "Dragons",
+        "7-7": "Undead",
+        "8-8": "Animal (Desert)"
+      }
     },
     "Door - Locked or Stuck": {
-      "name": "Door - Locked or Stuck"
+      "name": "Door - Locked or Stuck",
+      "results": {
+        "1-1": "The door is both locked and stuck shut",
+        "13-20": "Door is unlocked and will open freely",
+        "2-7": "Door is locked",
+        "8-12": "Door is unlocked, but stuck shut"
+      }
     },
     "Door - Trapped": {
-      "name": "Door - Trapped"
+      "name": "Door - Trapped",
+      "results": {
+        "1-7": "The door is not trapped",
+        "8-10": "Trap Type"
+      }
     },
     "Dragon Control (gemstone)": {
-      "name": "Dragon Control (gemstone)"
+      "description": "<p>Determines the type of gemstone dragon controlled.</p>",
+      "name": "Dragon Control (gemstone)",
+      "results": {
+        "1-5": "Crystal Dragon",
+        "11-14": "Jade Dragon",
+        "15-17": "Sapphire Dragon",
+        "18-19": "Ruby Dragon",
+        "20-20": "Amber Dragon",
+        "6-10": "Onyx Dragon"
+      }
     },
     "Dragon Control (main)": {
-      "name": "Dragon Control (main)"
+      "description": "<p>Determines the type of dragon controlled.</p>",
+      "name": "Dragon Control (main)",
+      "results": {
+        "1-30": "Dragon Control (gemstone)",
+        "31-100": "Dragon Control (normal)"
+      }
     },
     "Dragon Control (normal)": {
-      "name": "Dragon Control (normal)"
+      "description": "<p>Determines the type of gemstone dragon controlled.</p>",
+      "name": "Dragon Control (normal)",
+      "results": {
+        "1-5": "White Dragon",
+        "11-14": "Green Dragon",
+        "15-17": "Blue Dragon",
+        "18-19": "Red Dragon",
+        "20-20": "Gold Dragon",
+        "6-10": "Black Dragon"
+      }
     },
     "Dragons": {
-      "name": "Dragons"
+      "description": "<p>Dragon encounter.</p>",
+      "name": "Dragons",
+      "results": {
+        "1-1": "Chimera",
+        "10-10": "Dragon, Gold (Huge)",
+        "11-11": "Dragon, Green (Small)",
+        "12-12": "Dragon, Green (Large)",
+        "13-13": "Dragon, Green (Huge)",
+        "14-14": "Dragon, Red (Small)",
+        "15-15": "Dragon, Red (Large)",
+        "16-16": "Dragon, Red (Huge)",
+        "17-17": "Dragon, White (Small)",
+        "18-18": "Dragon, White (Large)",
+        "19-19": "Dragon, White (Huge)",
+        "2-2": "Dragon, Black (Small)",
+        "22-22": "Wyvern",
+        "3-3": "Dragon, Black (Large)",
+        "4-4": "Dragon, Black (Huge)",
+        "5-5": "Dragon, Blue (Small)",
+        "6-6": "Dragon, Blue (Large)",
+        "7-7": "Dragon, Blue (Huge)",
+        "8-8": "Dragon, Gold (Small)",
+        "9-9": "Dragon, Gold (Large)"
+      }
     },
     "Dwarf": {
-      "name": "Dwarf"
+      "name": "Dwarf",
+      "results": {
+        "1-1": "Dwarf (1 HD)"
+      }
     },
     "Egg of Wonder Creature Type": {
-      "name": "Egg of Wonder Creature Type"
+      "description": "<p>Determines the type of creature that hatches from the Egg of Wonder, such as a Baboon, Panther, or Wolf.</p>",
+      "name": "Egg of Wonder Creature Type",
+      "results": {
+        "1-1": "Baboon, rock",
+        "10-10": "Lizard, draco",
+        "11-11": "Snake, racer",
+        "12-12": "Wolf, normal",
+        "2-2": "Bat, giant",
+        "3-3": "Bear, black",
+        "4-4": "Bear, grizzly",
+        "5-5": "Boar",
+        "6-6": "Cat, mountain lion",
+        "7-7": "Cat, panther",
+        "8-8": "Ferret, giant",
+        "9-9": "Lizard, gecko"
+      }
     },
     "Elemental Adaptation Ring": {
-      "name": "Elemental Adaptation Ring"
+      "description": "<p>Determines the elemental association of the Ring of Elemental Adaptation, such as Air, Fire, or All Elements.</p>",
+      "name": "Elemental Adaptation Ring",
+      "results": {
+        "1-21": "Adaptation Element: Air",
+        "22-42": "Adaptation Element: Earth",
+        "43-63": "Adaptation Element: Fire",
+        "64-84": "Adaptation Element: Water",
+        "85-91": "Adaptation Element: Air and Water",
+        "92-98": "Adaptation Element: Earth and Fire",
+        "99-100": "Adaptation Element: All Elements"
+      }
     },
     "Elf": {
-      "name": "Elf"
+      "name": "Elf",
+      "results": {
+        "1-8": "Elf (1 HD)",
+        "5-9": "Elf (2 HD)",
+        "8-10": "Elf (3 HD)"
+      }
     },
     "Empty Room": {
-      "name": "Empty Room"
+      "description": "<p>The room is empty except for cobwebs and random debris.</p>",
+      "name": "Empty Room",
+      "results": {
+        "1-1": "The room is empty except for a small sack lying near a skeleton in the corner. Roll on the appropriate treasure table for the dungeon level.",
+        "2-6": "The room is empty except for cobwebs and random debris."
+      }
     },
     "Encounter - Dungeon Level 1": {
-      "name": "Encounter - Dungeon Level 1"
+      "description": "<h3>Encounter - Dungeon Level 1</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Encounter - Dungeon Level 1",
+      "results": {
+        "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fc3OOJdQrP3lojfv]",
+        "11-11": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.LrFyA3hSCWV8vBQr]",
+        "12-12": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.p2HAYW2LlRYOPOiv]",
+        "13-13": "NPC Adventurer Alignment",
+        "14-14": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
+        "15-15": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
+        "16-16": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FIFnFyLFQBJpo4Q0]",
+        "17-17": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wREIzpLSLM49HnU1]{Giant Crab Spider}",
+        "18-18": "[[1d8]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.TO5d1EBIWdJ5f7d5]",
+        "19-19": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
+        "2-2": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6FcQ2B2dG5LRvwTC]",
+        "20-20": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP]",
+        "3-3": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.46QLGSlGDLxcIg4D]{Cave Locust}",
+        "4-4": "[[1d6]]@UUID[Compendium.fade-compendiums.actor-compendium.Actor.g6XIqtw7I815FigN]",
+        "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
+        "6-6": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
+        "7-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]"
+      }
     },
     "Encounter - Dungeon Level 2": {
-      "name": "Encounter - Dungeon Level 2"
+      "description": "<h3>Encounter - Dungeon Level 2</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Encounter - Dungeon Level 2",
+      "results": {
+        "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.L8SJUT3fIzJw6xlK]",
+        "11-11": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.BdUPcdGAJLxUvwgO]",
+        "12-12": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6rv1LKd6FIieRApr]",
+        "13-13": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.we26j5H2VH0BdIXi]",
+        "14-14": "NPC Adventurer Alignment",
+        "15-15": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
+        "16-16": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
+        "17-17": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.3aTlHWeNiA4JEzhP]",
+        "18-18": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UnlyQAcCBUS63xKd]{Giant Black Widow}",
+        "19-19": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
+        "2-2": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.93HCqREXiA2BbHR1]",
+        "20-20": "[[1d6]] Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP",
+        "3-3": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
+        "4-4": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.HqFmSqcFv1R5WXY2]",
+        "5-5": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
+        "6-6": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.MCtu9vXbaNhy24hH]",
+        "7-7": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.pqMSUZDTxBkzJRXt]",
+        "8-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]{Humans}"
+      }
     },
     "Encounter - Dungeon Level 3": {
-      "name": "Encounter - Dungeon Level 3"
+      "description": "<h3>Encounter - Dungeon Level 3</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Encounter - Dungeon Level 3",
+      "results": {
+        "1-1": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.mqQUEpLtIFtwsKuW]",
+        "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Thj5dPOuKmXxiGff]",
+        "12-12": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.9YkdFwvOyR1jMv0d]",
+        "13-13": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.CbLFxjJOLryKlL0R]",
+        "14-14": "NPC Adventurer Alignment",
+        "15-15": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
+        "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd]",
+        "17-17": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.vrLI7AenWNUxigst]",
+        "18-18": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.iJ7j1FXCvNGwiKYh]",
+        "19-19": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UtG2e4IznhIDIw09]",
+        "2-2": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.AL9hNMkeO2mhlUGU]",
+        "20-20": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ZfcAxCNjJXUQ7I5M]",
+        "3-3": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy]",
+        "4-4": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.93HCqREXiA2BbHR1]",
+        "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.StmKdEWX0dDnGDbj]",
+        "6-6": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rkGvs3K7rorFT3Gb]",
+        "7-7": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.SWp5CtREyIQOwrPt]",
+        "8-8": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.d4XNKn2BtRF9i2b4]",
+        "9-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]{Human}"
+      }
     },
     "Encounter - Dungeon Level 4-5": {
-      "name": "Encounter - Dungeon Level 4-5"
+      "description": "<h3>Encounter - Dungeon Level 4-5</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Encounter - Dungeon Level 4-5",
+      "results": {
+        "1-1": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.QyDZ7pag954K5Xam]",
+        "10-10": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.n38wgSBUceafJ6a6]",
+        "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.tMx78dywgwuL5NJW]",
+        "12-12": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.CbLFxjJOLryKlL0R]",
+        "13-13": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.nBLaG6JjFPvk8RWt]",
+        "14-14": "NPC Adventurer Alignment",
+        "15-15": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
+        "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.1HFdNum5FcVKAtXp]",
+        "17-17": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
+        "18-18": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ADrQi5xk73eXMTXz]",
+        "19-19": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp]",
+        "2-2": "[[1d6+4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy]",
+        "20-20": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.t8oTnKOxvMY04A2t]",
+        "3-3": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.lYgXYeUclfcLHsrg]",
+        "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.v4aafWntVG3WedsQ]",
+        "5-5": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.eA4eRFSfiBxY19ll]",
+        "6-6": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rkGvs3K7rorFT3Gb]",
+        "7-7": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM]",
+        "8-8": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.d4XNKn2BtRF9i2b4]",
+        "9-9": "[[1d4]] Hellhound ([[1d3+2]] HD)"
+      }
     },
     "Encounter - Dungeon Level 6-7": {
-      "name": "Encounter - Dungeon Level 6-7"
+      "description": "<h3>Encounter - Dungeon Level 6-7</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Encounter - Dungeon Level 6-7",
+      "results": {
+        "1-1": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
+        "10-10": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Zsz1W8iaFkygssMk]",
+        "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.nBLaG6JjFPvk8RWt]",
+        "12-12": "NPC Adventurer Alignment",
+        "13-13": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
+        "14-14": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd]",
+        "15-15": "[[1d3+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
+        "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wzWOIB8UDE7BQmYs]",
+        "17-17": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.iJ7j1FXCvNGwiKYh]",
+        "18-18": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.DQ4X4w5ArRsS9Pc1]",
+        "19-19": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp]",
+        "2-2": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.lYgXYeUclfcLHsrg]",
+        "20-20": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd]",
+        "3-3": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.v4aafWntVG3WedsQ]",
+        "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM]",
+        "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.GunD699F75jG9UMN]",
+        "6-6": "[[1d4]] Hellhound ([[1d3+4]] HD)",
+        "7-7": "1 Hydra ([[1d3+5]] heads)",
+        "8-8": "[[1d3]] Lycanthrope* <br /> <br /> (@UUID[Compendium.fade-compendiums.actor-compendium.Actor.VdCp0J7KP6O47sh0]{Weretiger} or @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6hjGF6YQqdBvvMS7]{Werebear} )",
+        "9-9": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ChXygNMqR7jeDNk7]"
+      }
     },
     "Encounter - Dungeon Level 8-10": {
-      "name": "Encounter - Dungeon Level 8-10"
+      "description": "<h3>Encounter - Dungeon Level 8-10</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p><hr /><p>For monsters marked with <strong>*</strong> select any one type and modify the number appearing for the level of monster</p>",
+      "name": "Encounter - Dungeon Level 8-10",
+      "results": {
+        "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
+        "10-10": "[[1d4+1]] Living Statue*",
+        "11-12": "[[1d6+1]] Lycanthrope*",
+        "13-13": "NPC Adventurer Alignment",
+        "14-14": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ZIDlZCyqnIU4woLo]",
+        "15-15": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
+        "16-16": "[[1d4]] Salamander*",
+        "17-17": "[[1d4+1]] Snake*",
+        "18-18": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wzWOIB8UDE7BQmYs]",
+        "19-19": "[[1d4+1]] Spider*",
+        "2-2": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.B5efkZ8PvLYT0tD5]",
+        "20-20": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd]{Vampire}",
+        "3-3": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VWs3X9tU2MUzc2pK]",
+        "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VJlWY3tKSm9JM7jS]{Devil Swine}",
+        "5-5": "[[1d2]] Dragon",
+        "6-7": "[[1d6]] Giant*",
+        "8-8": "1 Golem*",
+        "9-9": "1 Hydra ( [[1d6+6]] heads)"
+      }
     },
     "Extraordinary Power": {
-      "name": "Extraordinary Power"
+      "description": "<p>Determines the extraordinary power of a sword, including abilities like Clairvoyance, Telekinesis, or multiple rolls for additional powers.</p>",
+      "name": "Extraordinary Power",
+      "results": {
+        "1-10": "Extraordinary Power: Clairaudience",
+        "100-100": "Extraordinary Power (NoReroll)",
+        "11-20": "Extraordinary Power: Clairvoyance",
+        "21-30": "Extraordinary Power: ESP",
+        "31-35": "Extraordinary Power: Extra damage*",
+        "36-40": "Extraordinary Power: Flying",
+        "41-45": "Extraordinary Power: Healing*",
+        "46-54": "Extraordinary Power: Illusion",
+        "55-59": "Extraordinary Power: Levitation",
+        "60-69": "Extraordinary Power: Telekinesis",
+        "70-79": "Extraordinary Power: Telepathy",
+        "80-88": "Extraordinary Power: Teleportation",
+        "89-97": "Extraordinary Power: X-ray vision",
+        "98-99": "Extraordinary Power (NoReroll)"
+      }
     },
     "Extraordinary Power (NoReroll)": {
-      "name": "Extraordinary Power (NoReroll)"
+      "description": "<p>Determines the extraordinary power of a sword, including abilities like Clairvoyance, Telekinesis, or multiple rolls for additional powers.</p>",
+      "name": "Extraordinary Power (NoReroll)",
+      "results": {
+        "1-10": "Extraordinary Power: Clairaudience",
+        "11-20": "Extraordinary Power: Clairvoyance",
+        "21-30": "Extraordinary Power: ESP",
+        "31-35": "Extraordinary Power: Extra damage*",
+        "36-40": "Extraordinary Power: Flying",
+        "41-45": "Extraordinary Power: Healing*",
+        "46-54": "Extraordinary Power: Illusion",
+        "55-59": "Extraordinary Power: Levitation",
+        "60-69": "Extraordinary Power: Telekinesis",
+        "70-79": "Extraordinary Power: Telepathy",
+        "80-88": "Extraordinary Power: Teleportation",
+        "89-97": "Extraordinary Power: X-ray vision"
+      }
     },
     "Flyers (All Other)": {
-      "name": "Flyers (All Other)"
+      "description": "<p>Flyer encounter.</p>",
+      "name": "Flyers (All Other)",
+      "results": {
+        "1-1": "Bee, Giant",
+        "10-10": "Roc, Small",
+        "11-11": "Sprite",
+        "12-12": "Stirge",
+        "2-2": "Cockatrice",
+        "3-3": "Gargoyle*",
+        "4-4": "Griffon",
+        "5-5": "Hippogriff",
+        "6-6": "Lizard, Draco",
+        "7-7": "Pegasus",
+        "8-8": "Pixie",
+        "9-9": "Robber Fly"
+      }
     },
     "Flyers (Desert)": {
-      "name": "Flyers (Desert)"
+      "name": "Flyers (Desert)",
+      "results": {
+        "1-2": "Gargoyle*",
+        "10-10": "Roc, Small",
+        "11-11": "Roc, Large",
+        "12-12": "Roc, Giant",
+        "3-3": "Griffon",
+        "4-4": "Harpy",
+        "5-5": "Insect Swarm",
+        "6-6": "Lizard, Draco",
+        "7-9": "Manticore"
+      }
     },
     "Flyers (Mountain)": {
-      "name": "Flyers (Mountain)"
+      "name": "Flyers (Mountain)",
+      "results": {
+        "1-1": "Bee, Giant",
+        "10-10": "Roc, Small",
+        "11-11": "Roc, Large",
+        "12-12": "Roc, Giant",
+        "2-2": "Gargoyle*",
+        "3-3": "Griffon",
+        "4-4": "Harpy",
+        "5-5": "Hippogriff",
+        "6-6": "Insect Swarm",
+        "7-7": "Manticore",
+        "8-8": "Pegasus",
+        "9-9": "Robber Fly"
+      }
     },
     "Fog Trap": {
-      "name": "Fog Trap"
+      "description": "<p>Triggering it releases a strange fog. All in the area must Save vs. Spells or suffer one of the following effects:</p>",
+      "name": "Fog Trap",
+      "results": {
+        "1-2": "Characters fall into a fit of giggles making them unable to do anything else for [[/r 1d4]] rounds.",
+        "3-3": "Characters become frightened and flee for [[/r 1d6]] rounds.",
+        "4-4": "Characters stink badly for [[/r 1d6]] turns, increasing Wandering Monster chance by 1.",
+        "5-5": "Characters become enraged and attack allies for [[/r 1d4]] rounds.",
+        "6-6": "Characters become paralyzed (as the spell) for [[/r 1d4]] rounds."
+      }
     },
     "Gem Value Table": {
-      "name": "Gem Value Table"
+      "description": "<p>Determines the exact type and value of a gem, based on the standard gem value ranges and probabilities.</p>",
+      "name": "Gem Value Table",
+      "results": {
+        "1-1": "Agate (10 gp)",
+        "100-100": "Tristal (Special)",
+        "11-13": "Amber (100 gp)",
+        "14-16": "Amethyst (100 gp)",
+        "17-19": "Coral (100 gp)",
+        "2-2": "Quartz (10 gp)",
+        "20-22": "Garnet (100 gp)",
+        "23-25": "Jade (100 gp)",
+        "26-30": "Aquamarine (500 gp)",
+        "3-3": "Turquoise (10 gp)",
+        "31-37": "Pearl (500 gp)",
+        "38-46": "Topaz (500 gp)",
+        "4-6": "Crystal (50 gp)",
+        "47-58": "Carbuncle (1,000 gp)",
+        "59-71": "Opal (1,000 gp)",
+        "7-8": "Jasper (50 gp)",
+        "72-78": "Emerald (5,000 gp)",
+        "79-85": "Ruby (5,000 gp)",
+        "86-90": "Sapphire (5,000 gp)",
+        "9-10": "Onyx (50 gp)",
+        "91-94": "Diamond (10,000 gp)",
+        "95-97": "Jacinth (10,000 gp)",
+        "98-99": "Starstone (Special)"
+      }
     },
     "Giant Control": {
-      "name": "Giant Control"
+      "description": "<p>Determines the type of giant controlled, such as Hill, Frost, or Storm Giant.</p>",
+      "name": "Giant Control",
+      "results": {
+        "1-5": "Hill Giant",
+        "11-14": "Frost Giant",
+        "15-16": "Fire Giant",
+        "17-17": "Mountain Giant",
+        "18-18": "Sea Giant",
+        "19-19": "Cloud Giant",
+        "20-20": "Storm Giant",
+        "6-10": "Stone Giant"
+      }
     },
     "Gnoll": {
-      "name": "Gnoll"
+      "name": "Gnoll",
+      "results": {
+        "1-8": "Gnoll",
+        "9-10": "Gnolls with leader"
+      }
     },
     "Gnome": {
-      "name": "Gnome"
+      "name": "Gnome",
+      "results": {
+        "1-100": "Gnome",
+        "86-100": "Gnome, Leader",
+        "96-100": "Gnome, Chieftain"
+      }
     },
     "Goblin": {
-      "name": "Goblin"
+      "name": "Goblin",
+      "results": {
+        "1-20": "Goblin",
+        "10-20": "Goblin Bow (1HD)",
+        "14-20": "Goblin (2HD)",
+        "19-20": "Goblin Chief (4HD)"
+      }
     },
     "Halfling": {
-      "name": "Halfling"
+      "name": "Halfling",
+      "results": {
+        "1-8": "Halfling",
+        "6-10": "Halfling (2HD)"
+      }
     },
     "Hit Location - Arachnid": {
-      "name": "Hit Location - Arachnid"
+      "name": "Hit Location - Arachnid",
+      "results": {
+        "1-2": "Right Rear Leg",
+        "11-12": "Fore Left Leg",
+        "13-14": "Abdomen",
+        "15-16": "Front Right Leg",
+        "17-18": "Front Left Leg",
+        "19-20": "Cephalothorax",
+        "3-4": "Left Rear Leg",
+        "5-6": "Mid Right Leg",
+        "7-8": "Mid Left Leg",
+        "9-10": "Fore Right Leg"
+      }
     },
     "Hit Location - Humanoid": {
-      "name": "Hit Location - Humanoid"
+      "name": "Hit Location - Humanoid",
+      "results": {
+        "1-3": "Right Leg",
+        "10-12": "Chest",
+        "13-15": "Left Arm",
+        "16-18": "Right Arm",
+        "19-21": "Head",
+        "4-6": "Left Leg",
+        "7-9": "Abdomen"
+      }
     },
     "Hit Location - Insectoid": {
-      "name": "Hit Location - Insectoid"
+      "name": "Hit Location - Insectoid",
+      "results": {
+        "1-1": "Right Rear Leg",
+        "10-13": "Thorax",
+        "14-14": "Right Front Leg",
+        "15-15": "Left Front Leg",
+        "16-20": "Head",
+        "2-2": "Left Rear Leg",
+        "3-3": "Right Middle Leg",
+        "4-4": "Left Middle Leg",
+        "5-9": "Abdomen"
+      }
     },
     "Hit Location - Quadraped": {
-      "name": "Hit Location - Quadraped"
+      "name": "Hit Location - Quadraped",
+      "results": {
+        "1-3": "Right Hind Leg",
+        "10-12": "Forequarters",
+        "13-15": "Right Front Leg",
+        "16-18": "Left Front Leg",
+        "19-20": "Head",
+        "4-6": "Left Hind Leg",
+        "7-9": "Hindquarters"
+      }
     },
     "Hit Location - Serpentoid": {
-      "name": "Hit Location - Serpentoid"
+      "name": "Hit Location - Serpentoid",
+      "results": {
+        "1-17": "Body",
+        "18-20": "Head"
+      }
     },
     "Hit Location - Winged Biped": {
-      "name": "Hit Location - Winged Biped"
+      "name": "Hit Location - Winged Biped",
+      "results": {
+        "1-1": "Right Leg",
+        "10-13": "Left Wing",
+        "14-14": "Right Arm",
+        "15-15": "Left Arm",
+        "16-20": "Head",
+        "2-2": "Left Leg",
+        "3-3": "Abdomen",
+        "4-4": "Chest",
+        "5-9": "Right Wing"
+      }
     },
     "Hobgoblin": {
-      "name": "Hobgoblin"
+      "name": "Hobgoblin",
+      "results": {
+        "1-99": "Hobgoblin",
+        "90-100": "Hobgoblin, Bodyguard",
+        "99-100": "Hobgoblin, King"
+      }
     },
     "Human (Clear, Grassland)": {
-      "name": "Human (Clear, Grassland)"
+      "name": "Human (Clear, Grassland)",
+      "results": {
+        "1-1": "NPC Adventurer Class and Level",
+        "11-11": "Human, Noble",
+        "12-12": "Human, Nomad",
+        "2-3": "Bandit",
+        "4-4": "Berserker",
+        "5-5": "Human, Brigand",
+        "6-6": "NPC Adventurer Alignment",
+        "7-7": "NPC Adventurer Alignment",
+        "8-8": "NPC Adventurer Alignment",
+        "9-10": "Normal Human"
+      }
     },
     "Human (Desert)": {
-      "name": "Human (Desert)"
+      "name": "Human (Desert)",
+      "results": {
+        "1-1": "NPC Adventurer Class and Level",
+        "2-2": "NPC Adventurer Alignment",
+        "3-4": "Human, Dervish",
+        "5-5": "NPC Adventurer Alignment",
+        "6-6": "NPC Adventurer Alignment",
+        "7-7": "Normal Human",
+        "8-8": "Human, Noble",
+        "9-12": "Human, Nomad"
+      }
     },
     "Human (Hill)": {
-      "name": "Human (Hill)"
+      "name": "Human (Hill)",
+      "results": {
+        "1-1": "Adventurer",
+        "10-10": "NPC Adventurer Alignment",
+        "11-11": "NPC Adventurer Alignment",
+        "12-12": "Normal Human",
+        "2-2": "Bandit",
+        "3-4": "Berserker",
+        "5-5": "Human, Brigand",
+        "6-8": "Caveman (Neanderthal)",
+        "9-9": "NPC Adventurer Alignment"
+      }
     },
     "Human (River)": {
-      "name": "Human (River)"
+      "name": "Human (River)",
+      "results": {
+        "1-1": "NPC Adventurer Class and Level",
+        "10-11": "Normal Human",
+        "12-12": "NPC Adventurer Class",
+        "2-2": "Bandit",
+        "3-5": "Human, Buccaneer",
+        "6-7": "NPC Adventurer Alignment",
+        "8-8": "NPC Adventurer Alignment",
+        "9-9": "NPC Adventurer Alignment"
+      }
     },
     "Human (Settled)": {
-      "name": "Human (Settled)"
+      "name": "Human (Settled)",
+      "results": {
+        "1-1": "NPC Adventurer Alignment",
+        "10-10": "NPC Adventurer Class",
+        "11-11": "Human, Trader",
+        "12-12": "NPC Adventurer Alignment",
+        "2-2": "NPC Adventurer Alignment",
+        "3-4": "Bandit",
+        "5-5": "NPC Adventurer Alignment",
+        "6-6": "NPC Adventurer Alignment",
+        "7-7": "NPC Adventurer Alignment",
+        "8-8": "Normal Human",
+        "9-9": "Human, Noble"
+      }
     },
     "Human (Swamp)": {
-      "name": "Human (Swamp)"
+      "name": "Human (Swamp)",
+      "results": {
+        "1-2": "NPC Adventurer Class and Level",
+        "10-10": "Human, Trader",
+        "11-11": "NPC Adventurer Class",
+        "12-12": "Human, Trader",
+        "3-4": "Bandit",
+        "5-5": "Berserker",
+        "6-6": "Human, Brigand",
+        "7-7": "NPC Adventurer Alignment",
+        "8-8": "NPC Adventurer Alignment",
+        "9-9": "NPC Adventurer Alignment"
+      }
     },
     "Human (Woods)": {
-      "name": "Human (Woods)"
+      "description": "<p>Human woodland encounter.</p>",
+      "name": "Human (Woods)",
+      "results": {
+        "1-1": "NPC Adventurer Class and Level",
+        "10-10": "NPC Adventurer Alignment",
+        "11-11": "Normal Human",
+        "12-12": "NPC Adventurer Class",
+        "2-3": "Bandit",
+        "4-4": "Berserker",
+        "5-7": "Human, Brigand",
+        "8-8": "NPC Adventurer Alignment",
+        "9-9": "NPC Adventurer Alignment"
+      }
     },
     "Humanoid (Barren, Mountain, Hill)": {
-      "name": "Humanoid (Barren, Mountain, Hill)"
+      "name": "Humanoid (Barren, Mountain, Hill)",
+      "results": {
+        "1-1": "Dwarf",
+        "10-10": "Orc",
+        "11-11": "Troglodyte",
+        "12-12": "Troll",
+        "2-2": "Giant, Cloud",
+        "3-3": "Giant, Frost",
+        "4-4": "Giant, Hill",
+        "5-5": "Giant, Stone",
+        "6-6": "Giant, Storm",
+        "7-7": "Gnome",
+        "8-8": "Goblin",
+        "9-9": "Kobold"
+      }
     },
     "Humanoid (City and Inhabited)": {
-      "name": "Humanoid (City and Inhabited)"
+      "name": "Humanoid (City and Inhabited)",
+      "results": {
+        "1-1": "Dwarf",
+        "10-10": "Orc",
+        "11-11": "Pixie",
+        "12-12": "Sprite",
+        "2-2": "Elf",
+        "3-3": "Giant, Hill",
+        "4-4": "Gnome",
+        "5-5": "Gnoll",
+        "6-6": "Goblin",
+        "7-7": "Halfling",
+        "8-8": "Hobgoblin",
+        "9-9": "Ogre"
+      }
     },
     "Humanoid (Clear, Grassland)": {
-      "name": "Humanoid (Clear, Grassland)"
+      "name": "Humanoid (Clear, Grassland)",
+      "results": {
+        "1-1": "Bugbear",
+        "10-10": "Pixie",
+        "11-11": "Thoul",
+        "12-12": "Troll",
+        "2-2": "Elf",
+        "3-3": "Giant, Hill",
+        "4-4": "Gnoll",
+        "5-5": "Goblin",
+        "6-6": "Halfling",
+        "7-7": "Hobgoblin",
+        "8-8": "Ogre",
+        "9-9": "Orc"
+      }
     },
     "Humanoid (Desert)": {
-      "name": "Humanoid (Desert)"
+      "name": "Humanoid (Desert)",
+      "results": {
+        "1-1": "Giant, Fire",
+        "10-10": "Pixie",
+        "11-11": "Sprite",
+        "12-12": "Thoul",
+        "2-2": "Goblin",
+        "3-4": "Hobgoblin",
+        "5-7": "Ogre",
+        "8-9": "Orc"
+      }
     },
     "Humanoid (River)": {
-      "name": "Humanoid (River)"
+      "name": "Humanoid (River)",
+      "results": {
+        "1-1": "Bugbear",
+        "10-10": "Sprite",
+        "11-11": "Thoul",
+        "12-12": "Troll",
+        "2-2": "Elf",
+        "3-3": "Gnoll",
+        "4-4": "Hobgoblin",
+        "5-6": "Lizard Man",
+        "7-7": "Nixie",
+        "8-8": "Ogre",
+        "9-9": "Orc"
+      }
     },
     "Humanoid (Swamp)": {
-      "name": "Humanoid (Swamp)"
+      "name": "Humanoid (Swamp)",
+      "results": {
+        "1-1": "Gnoll",
+        "10-10": "Troglodyte",
+        "11-12": "Troll",
+        "2-2": "Goblin",
+        "3-3": "Hobgoblin",
+        "4-6": "Lizard Man",
+        "7-7": "Nixie",
+        "8-8": "Ogre",
+        "9-9": "Orc"
+      }
     },
     "Humanoid (Woods)": {
-      "name": "Humanoid (Woods)"
+      "description": "<p>Humanoid encounter.</p>",
+      "name": "Humanoid (Woods)",
+      "results": {
+        "1-1": "Bugbear",
+        "10-10": "Orc",
+        "11-11": "Thoul",
+        "12-12": "Troll",
+        "2-2": "Cyclops",
+        "3-3": "Dryad",
+        "4-4": "Elf (1 HD)",
+        "5-5": "Giant, Hill",
+        "6-6": "Gnoll",
+        "7-7": "Goblin",
+        "8-8": "Hobgoblin",
+        "9-9": "Ogre"
+      }
     },
     "Insect Swarm": {
-      "name": "Insect Swarm"
+      "name": "Insect Swarm",
+      "results": {
+        "1-1": "Insect Swarm (2 HD)",
+        "2-2": "Insect Swarm (3 HD)",
+        "3-3": "Insect Swarm (4 HD)"
+      }
     },
     "Insects": {
-      "name": "Insects"
+      "description": "<p>Insect encounter.</p>",
+      "name": "Insects",
+      "results": {
+        "1-1": "Ant, Giant",
+        "10-10": "Spider, Giant (Black Widow)",
+        "11-11": "Spider, Giant (Crab Spider)",
+        "12-12": "Spider, Giant (Tarantella)",
+        "2-2": "Bee, Giant",
+        "3-3": "Beetle, Giant Fire",
+        "4-4": "Beetle, Giant Oil",
+        "5-5": "Beetle, Giant Tiger",
+        "6-6": "Insect Swarm",
+        "7-7": "Rhagodessa",
+        "8-8": "Robber Fly",
+        "9-9": "Scorpion, Giant"
+      }
     },
     "Intelligence of Sword": {
-      "name": "Intelligence of Sword"
+      "description": "<p>Determines the intelligence, communication abilities, languages, and powers of a magical sword. If primary or extraordinary powers are indicated, roll on the Primary and Extraordinary Powers tables.</p>",
+      "name": "Intelligence of Sword",
+      "results": {
+        "1-79": "Sword is not intelligent",
+        "100-100": "Extraordinary Power",
+        "80-85": "Sword Primary Power",
+        "86-90": "Sword Primary Power",
+        "91-94": "Sword Primary Power",
+        "95-97": "Sword Primary Power",
+        "98-99": "Sword Primary Power"
+      }
     },
     "Jewelry Value Table": {
-      "name": "Jewelry Value Table"
+      "name": "Jewelry Value Table",
+      "results": {
+        "1-1": "Jewelry: 100 gp",
+        "1-45": "Common Jewelry (4k)",
+        "100-100": "Jewelry: 50,000 gp",
+        "11-16": "Jewelry: 2,000 gp",
+        "17-24": "Jewelry: 2,500 gp",
+        "2-3": "Jewelry: 500 gp",
+        "25-34": "Jewelry: 3,000 gp",
+        "35-45": "Jewelry: 4,000 gp",
+        "4-6": "Jewelry: 1,000 gp",
+        "46-58": "Jewelry: 5,000 gp",
+        "46-78": "Uncommon Jewelry (15k)",
+        "59-69": "Jewelry: 7,500 gp",
+        "7-10": "Jewelry: 1,500 gp",
+        "70-78": "Jewelry: 10,000 gp",
+        "79-100": "Rare Jewelry (50k)",
+        "79-85": "Jewelry: 15,000 gp",
+        "86-90": "Jewelry: 20,000 gp",
+        "91-94": "Jewelry: 25,000 gp",
+        "95-97": "Jewelry: 30,000 gp",
+        "98-99": "Jewelry: 40,000 gp"
+      }
     },
     "Kobold": {
-      "name": "Kobold"
+      "name": "Kobold",
+      "results": {
+        "1-100": "Kobold",
+        "90-100": "Kobold, Bodyguard",
+        "91-100": "Kobold Chieftain"
+      }
     },
     "Level 1 Gem": {
-      "name": "Level 1 Gem"
+      "name": "Level 1 Gem",
+      "results": {
+        "1-5": "[[1d6]] Gems. Worth [[/r 1d6*50 #Gold piece value of gem]] gold pieces each. Roll for each gem separately.",
+        "6-100": "No Gems"
+      }
     },
     "Level 1 Jewelry": {
-      "name": "Level 1 Jewelry"
+      "name": "Level 1 Jewelry",
+      "results": {
+        "1-2": "[[1d6]] Jewelry. Worth [[/r 1d6*50 #Gold piece value of jewelry]] gold pieces each. Roll for each item of jewelry separately.  @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+        "3-100": "No Jewelry"
+      }
     },
     "Level 1 Magic Item": {
-      "name": "Level 1 Magic Item"
+      "name": "Level 1 Magic Item",
+      "results": {
+        "1-2": "Magical Items (Basic)",
+        "3-100": "No magic items"
+      }
     },
     "Level 1 Treasure": {
-      "name": "Level 1 Treasure"
+      "name": "Level 1 Treasure",
+      "results": {
+        "1-100": "Level 1 Gem",
+        "1-50": "[[1d6*10]] Gold Pieces"
+      }
     },
     "Level 2-3 Gem": {
-      "name": "Level 2-3 Gem"
+      "name": "Level 2-3 Gem",
+      "results": {
+        "1-10": "[[1d6]] Gems. Worth [[/r (1d6+1)*50 #Gold piece value of gem]] gold pieces each.  Roll for each gem separately.",
+        "11-100": "No Gems"
+      }
     },
     "Level 2-3 Jewelry": {
-      "name": "Level 2-3 Jewelry"
+      "name": "Level 2-3 Jewelry",
+      "results": {
+        "1-5": "[[1d6]] Jewelry. Worth [[/r 1d8*50 #Gold piece value of jewelry]] gold pieces each. Roll for each item of jewelry separately.  @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+        "6-100": "No Jewelry"
+      }
     },
     "Level 2-3 Magic Item": {
-      "name": "Level 2-3 Magic Item"
+      "name": "Level 2-3 Magic Item",
+      "results": {
+        "1-8": "Magical Items (Basic)",
+        "9-100": "No magic items"
+      }
     },
     "Level 2-3 Treasure": {
-      "name": "Level 2-3 Treasure"
+      "name": "Level 2-3 Treasure",
+      "results": {
+        "1-100": "Level 2-3 Magic Item",
+        "1-50": "[[1d6*10]] Gold Pieces"
+      }
     },
     "Level 4-5 Gem": {
-      "name": "Level 4-5 Gem"
+      "name": "Level 4-5 Gem",
+      "results": {
+        "1-20": "[[1d8]] Gems. Worth [[/r 1d6*50 #Gold piece value of gem]] gold pieces each.  Roll for each gem separately.",
+        "21-100": "No Gems"
+      }
     },
     "Level 4-5 Jewelry": {
-      "name": "Level 4-5 Jewelry"
+      "name": "Level 4-5 Jewelry",
+      "results": {
+        "1-10": "[[1d8]] Jewelry. Worth [[/r 1d8*50 #Gold piece value of jewelry]] gold pieces each. Roll for each item of jewelry separately.  @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+        "11-100": "No Jewelry"
+      }
     },
     "Level 4-5 Magic Item": {
-      "name": "Level 4-5 Magic Item"
+      "name": "Level 4-5 Magic Item",
+      "results": {
+        "1-10": "Magical Items (Basic)",
+        "11-100": "No magic items"
+      }
     },
     "Level 4-5 Treasure": {
-      "name": "Level 4-5 Treasure"
+      "name": "Level 4-5 Treasure",
+      "results": {
+        "1-100": "Level 4-5 Magic Item"
+      }
     },
     "Magic Armor": {
-      "name": "Magic Armor"
+      "description": "<p>Determines the type of armor or shield found. Includes individual armors (e.g., leather, chain mail) and combinations (e.g., plate &amp; shield).</p>",
+      "name": "Magic Armor",
+      "results": {
+        "1-10": "Leather armor",
+        "1-17": "AC Mod (Banded, Scale or Leather)",
+        "11-17": "Scale mail",
+        "18-30": "AC Mod (Chain)",
+        "31-39": "AC Mod (Banded, Scale or Leather)",
+        "40-50": "Plate mail",
+        "40-55": "AC Mod (Plate or Suit)",
+        "51-55": "Suit armor",
+        "56-100": "AC Mod (Shield)",
+        "56-75": "Shield",
+        "76-77": "AC Mod (Banded, Scale or Leather)",
+        "78-85": "AC Mod (Chain)",
+        "86-90": "AC Mod (Banded, Scale or Leather)",
+        "91-100": "AC Mod (Plate or Suit)"
+      }
     },
     "Magic Pool": {
-      "name": "Magic Pool"
+      "description": "<p>The liquid from the pools is only magical while within 5' of the pool itself.</p>",
+      "name": "Magic Pool",
+      "results": {
+        "1-1": "Pool of Rejuvenation: This shimmering blue water restores 1d4 hit points when ingested. Additionally, it removes one level of exhaustion. The pool can only be used once per day by each character.",
+        "10-10": "Pool of Echoes: This pool amplifies sound. Any noise made within 30 feet of the pool is doubled in volume, which can be used strategically to distract or alert nearby creatures.",
+        "11-11": "Pool of Clarity: Drinking from this pool clears the mind, granting advantage on Intelligence checks and saving throws for 1 hour. However, the drinker must succeed on a DC 12 Constitution saving throw or become overwhelmed by clarity, suffering disadvantage on Wisdom saving throws.",
+        "12-12": "Pool of Binding: This pool contains a viscous liquid that, when touched, binds the character's hands together for 1d4 minutes. During this time, they cannot use their hands for any actions.",
+        "13-13": "Pool of Whispers: This pool allows the drinker to hear the thoughts of nearby creatures for 1d6 minutes. The drinker must succeed on a Wisdom saving throw to avoid becoming overwhelmed by the flood of thoughts.",
+        "14-14": "Pool of Fortitude: Drinking from this pool grants temporary hit points equal to 1d6 + the character's level. These hit points last for 1 hour or until depleted.",
+        "15-15": "Pool of the Ancients: This ancient-looking pool grants the drinker knowledge of one spell of their choice from any class for 1 hour. The spell can be cast once during this time without expending a spell slot.",
+        "16-16": "Pool of the Beast: Drinking from this pool allows the character to communicate with animals for 1d4 hours. They can understand and speak to any animal within 30 feet.",
+        "17-17": "Pool of the Lost: This pool shows visions of lost or hidden treasures when gazed into. The drinker must succeed on a DC 15 Intelligence saving throw to remember the location after leaving the pool.",
+        "18-18": "Pool of the Elements: This pool changes its properties based on the season. In winter, it grants cold resistance; in spring, it heals; in summer, it grants fire resistance; and in autumn, it provides advantage on stealth checks.",
+        "19-19": "Pool of the Forgotten: Drinking from this pool causes the drinker to forget one random spell or ability for 24 hours. They cannot use the forgotten ability until the time has passed.",
+        "2-2": "Pool of Illusions: This clear water creates a vivid illusion of a treasure or creature when looked into. The illusion lasts for 1 hour and can be interacted with, but it is not real.",
+        "20-20": "Pool of the Phoenix: This pool contains fiery red liquid that, when ingested, allows the drinker to be revived once after death within the next 24 hours. The drinker must still make a saving throw to avoid death in the first place.",
+        "21-26": "Pool of Venom: This pool contains a thick, dark green liquid that bubbles gently, giving off a faint, acrid aroma. The surface shimmers with an oily sheen, reflecting light in unsettling patterns. Any creature that touches or drinks from this pool must make a Constitution saving throw. On a failed save, the creature suffers 2d6 poison damage and is poisoned for 1 hour, experiencing nausea and disadvantage on attack rolls and ability checks. Even a single drop on the tongue will cause a burning sensation and inflict 1d6 poison damage, with no saving throw allowed. The pool appears to be bottomless, and any attempt to remove the liquid results in it evaporating into a harmless mist.",
+        "27-40": "The pool is crystal clear water that can be consumed with no side-effects.",
+        "3-3": "Pool of Transformation: Drinking from this pool causes the drinker to transform into a random creature (determined by the DM) for 1d6 hours. The transformation is complete, including abilities and appearance.",
+        "4-4": "Pool of Time Dilation: Characters who enter this pool experience time differently. For every minute spent in the pool, only 10 seconds pass outside. This effect lasts for 1 hour.",
+        "5-5": "Pool of Shadows: This dark, murky water grants the ability to become invisible for 1d4 minutes after drinking. However, any noise made while invisible will reveal the drinker’s location.",
+        "6-6": "Pool of Elemental Fury: This pool contains swirling elemental energies. Drinking from it allows the character to cast a random elemental spell (fire, ice, lightning, etc.) once within the next hour.",
+        "7-7": "Pool of Memory: This pool allows a character to recall any one memory from their past as if it were happening again. This effect can be used to gain insight or inspiration, granting advantage on the next skill check.",
+        "8-8": "Pool of Growth: Drinking from this pool causes the drinker to grow 1d4 inches taller for 1 hour. During this time, they gain a +1 bonus to Strength checks but suffer a -1 penalty to Dexterity checks.",
+        "9-9": "Pool of Nightmares: This pool is filled with dark, swirling liquid. Drinking from it causes the character to experience vivid nightmares, resulting in disadvantage on Wisdom saving throws for the next 24 hours."
+      }
     },
     "Magic Rings": {
-      "name": "Magic Rings"
+      "description": "<p>Determines the type of magical ring found based on a 1d100 roll.</p>",
+      "name": "Magic Rings",
+      "results": {
+        "1-2": "Ring of Animal Control",
+        "10-13": "Ring of Ear",
+        "14-17": "Elemental Adaptation Ring",
+        "18-23": "Ring of Fire Resistance",
+        "24-26": "Ring of Holiness (Cleric, Druid)",
+        "27-27": "Ring of Human Control",
+        "28-32": "Ring of Invisibility",
+        "3-8": "Ring of Delusion",
+        "33-35": "Ring of Life Protection",
+        "36-38": "Ring of Memory (Special)",
+        "39-40": "Ring of Plant Control",
+        "41-45": "Ring of Protection +1",
+        "46-48": "Ring of Protection +2",
+        "49-50": "Ring of Protection +3",
+        "51-51": "Ring of Protection +4",
+        "52-55": "Ring of Quickness",
+        "56-56": "Ring of Regeneration",
+        "57-59": "Ring of Remedies",
+        "60-61": "Ring of Safety",
+        "62-64": "Ring of Seeing",
+        "65-67": "Ring of Spell Eating",
+        "68-69": "Ring of Spell Storing",
+        "70-71": "Ring of Spell Turning",
+        "72-75": "Ring of Survival",
+        "76-77": "Ring of Telekinesis",
+        "78-81": "Ring of Truth",
+        "82-84": "Ring of Truthfulness",
+        "85-86": "Ring of Truthlessness",
+        "87-91": "Ring of Water Walking",
+        "9-9": "Ring of Djinni Summoning",
+        "92-96": "Ring of Weakness",
+        "97-98": "Wishes Ring",
+        "99-100": "Ring of X-ray Vision"
+      }
     },
     "Magic-User Scroll Spell Count": {
-      "name": "Magic-User Scroll Spell Count"
+      "description": "<p>Determines the number of spells on the spell scroll. Roll for the level of each spell separately.</p>",
+      "name": "Magic-User Scroll Spell Count",
+      "results": {
+        "1-50": "Magic-User Scroll Spell Level",
+        "51-83": "Magic-User Scroll Spell Level",
+        "84-100": "Magic-User Scroll Spell Level"
+      }
     },
     "Magic-User Scroll Spell Level": {
-      "name": "Magic-User Scroll Spell Level"
+      "description": "<p>Determines the level of a Magic-User spell found on a spell scroll.</p>",
+      "name": "Magic-User Scroll Spell Level",
+      "results": {
+        "1-28": "Level 1  Spell",
+        "100-100": "Level 9  Spell",
+        "29-49": "Level 2  Spell",
+        "50-64": "Level 3  Spell",
+        "65-75": "Level 4  Spell",
+        "76-84": "Level 5  Spell",
+        "85-91": "Level 6  Spell",
+        "92-96": "Level 7  Spell",
+        "97-99": "Level 8  Spell"
+      }
     },
     "Magical Items (Adv.)": {
-      "name": "Magical Items (Adv.)"
+      "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
+      "name": "Magical Items (Adv.)",
+      "results": {
+        "1-25": "Potions",
+        "26-37": "Scrolls",
+        "38-46": "Wands, Staves, and Rods",
+        "47-52": "Magic Rings",
+        "53-62": "Miscellaneous Items",
+        "63-72": "Magic Armor",
+        "73-83": "Missile Weapons &amp; Missiles (Adv.)",
+        "84-92": "Swords (Advanced)",
+        "93-100": "Misc.Weapons (Adv.)"
+      }
     },
     "Magical Items (Basic)": {
-      "name": "Magical Items (Basic)"
+      "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
+      "name": "Magical Items (Basic)",
+      "results": {
+        "1-25": "Potions",
+        "26-37": "Scrolls",
+        "38-46": "Wands, Staves, and Rods",
+        "47-52": "Magic Rings",
+        "53-62": "Miscellaneous Items",
+        "63-72": "Magic Armor",
+        "73-83": "Missile Weapon or Missile (Basic)",
+        "84-92": "Swords (Basic)",
+        "93-100": "Misc. Weapons (Basic)"
+      }
     },
     "Magical Items (No Weapons)": {
-      "name": "Magical Items (No Weapons)"
+      "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
+      "name": "Magical Items (No Weapons)",
+      "results": {
+        "1-25": "Potions",
+        "26-37": "Scrolls",
+        "38-46": "Wands, Staves, and Rods",
+        "47-52": "Magic Rings",
+        "53-62": "Miscellaneous Items",
+        "63-72": "Magic Armor"
+      }
     },
     "Magical Weapon (Basic)": {
-      "name": "Magical Weapon (Basic)"
+      "description": "<p>The <strong>Magical Weapon (Basic)</strong> table is used to generate magical weapons for characters of levels 1–10. It includes three categories of weapons—missile weapons, swords, and miscellaneous weapons—along with their basic magical bonuses.</p>",
+      "name": "Magical Weapon (Basic)",
+      "results": {
+        "1-2": "Missile Weapon or Missile (Basic)",
+        "3-4": "Swords (Basic)",
+        "5-6": "Misc. Weapons (Basic)"
+      }
     },
     "Merman": {
-      "name": "Merman"
+      "name": "Merman",
+      "results": {
+        "1-100": "Merman",
+        "71-90": "Merman Leader (2HD)",
+        "91-100": "Merman Leader (4HD)"
+      }
     },
     "Misc. Weapons (Basic)": {
-      "name": "Misc. Weapons (Basic)"
+      "description": "<p>Generates a specific magical miscellaneous weapon, including axes, hammers, daggers, polearms, shields, spears, and staves, with their respective bonuses.</p>",
+      "name": "Misc. Weapons (Basic)",
+      "results": {
+        "1-100": "Cursed Weapon Check",
+        "1-5": "Axe, battle +1",
+        "11-15": "Axe, hand +1",
+        "16-18": "Axe, hand +2",
+        "19-20": "Axe, hand +3",
+        "21-25": "Dagger +1",
+        "26-28": "Dagger +2",
+        "29-30": "Dagger +3",
+        "31-35": "Hammer, throwing +1",
+        "36-38": "Hammer, throwing +2",
+        "39-40": "Hammer, throwing +3",
+        "41-45": "Hammer, war +1",
+        "46-48": "Hammer, war +2",
+        "49-50": "Hammer, war +3",
+        "51-55": "Mace +1",
+        "56-58": "Mace +2",
+        "59-60": "Mace +3",
+        "6-8": "Axe, battle +2",
+        "61-65": "Polearm +1",
+        "66-68": "Polearm +2",
+        "69-70": "Polearm +3",
+        "71-72": "Shield, horned +1",
+        "73-75": "Shield, knife +1",
+        "76-78": "Shield, sword +1",
+        "79-80": "Shield, tusked +1",
+        "81-85": "Spear +1",
+        "86-88": "Spear +2",
+        "89-90": "Spear +3",
+        "9-10": "Axe, battle +3",
+        "91-95": "Staff +1",
+        "96-98": "Staff +2",
+        "99-100": "Staff +3"
+      }
     },
     "Misc. Weapons (Class B)": {
-      "name": "Misc. Weapons (Class B)"
+      "description": "<p>Determines the magic bonus and chance of additional modifiers for Class B weapons.</p>",
+      "name": "Misc. Weapons (Class B)",
+      "results": {
+        "1-50": "Weapons Add. Mod. 40%",
+        "51-74": "Weapons Add. Mod. 30%",
+        "75-88": "Weapons Add. Mod. 20%",
+        "89-96": "Weapons Add. Mod. 15%",
+        "97-100": "Weapons Add. Mod. 10%"
+      }
     },
     "Misc. Weapons (Class C)": {
-      "name": "Misc. Weapons (Class C)"
+      "description": "<p>Determines the magic bonus and chance of additional modifiers for Class C weapons.</p>",
+      "name": "Misc. Weapons (Class C)",
+      "results": {
+        "1-60": "Weapons Add. Mod. 40%",
+        "61-81": "Weapons Add. Mod. 30%",
+        "82-92": "Weapons Add. Mod. 20%",
+        "93-98": "Weapons Add. Mod. 15%",
+        "99-100": "Weapons Add. Mod. 10%"
+      }
     },
     "Misc. Weapons (Class D)": {
-      "name": "Misc. Weapons (Class D)"
+      "description": "<p>Determines the magic bonus and chance of additional modifiers for Class D weapons.</p>",
+      "name": "Misc. Weapons (Class D)",
+      "results": {
+        "1-70": "Weapons Add. Mod. 40%",
+        "100-100": "Weapons Add. Mod. 10%",
+        "71-88": "Weapons Add. Mod. 30%",
+        "89-96": "Weapons Add. Mod. 20%",
+        "97-99": "Weapons Add. Mod. 15%"
+      }
     },
     "Misc.Weapons (Adv.)": {
-      "name": "Misc.Weapons (Adv.)"
+      "description": "<p>Generates miscellaneous weapons and their classes. Use the Magical Bonuses and Modifiers table for further customization.</p>",
+      "name": "Misc.Weapons (Adv.)",
+      "results": {
+        "1-100": "Cursed Weapon Check",
+        "1-9": "Misc. Weapons (Class C)",
+        "10-15": "Misc. Weapons (Class B)",
+        "16-17": "Misc. Weapons (Class B)",
+        "18-20": "Misc. Weapons (Class C)",
+        "21-22": "Misc. Weapons (Class B)",
+        "23-23": "Misc. Weapons (Class B)",
+        "24-28": "Misc. Weapons (Class C)",
+        "29-40": "Misc. Weapons (Class B)",
+        "41-43": "Misc. Weapons (Class B)",
+        "44-53": "Misc. Weapons (Class C)",
+        "54-56": "Misc. Weapons (Class C)",
+        "57-59": "Misc. Weapons (Class B)",
+        "60-60": "Misc. Weapons (Class B)",
+        "61-64": "Misc. Weapons (Class D)",
+        "65-76": "Misc. Weapons (Class C)",
+        "77-78": "Misc. Weapons (Class B)",
+        "79-79": "Misc. Weapons (Class B)",
+        "80-84": "Misc. Weapons (Class D)",
+        "85-94": "Misc. Weapons (Class B)",
+        "95-97": "Misc. Weapons (Class B)",
+        "98-100": "Misc. Weapons (Class C)"
+      }
     },
     "Miscellaneous Items": {
-      "name": "Miscellaneous Items"
+      "description": "<p>Determines the miscellaneous magical item found based on a 1d100 roll.</p>",
+      "name": "Miscellaneous Items",
+      "results": {
+        "1-2": "Amulet of Protection from Crystal Balls and ESP",
+        "10-12": "Boat, Undersea",
+        "13-14": "Boots of Levitation",
+        "15-17": "Boots of Speed",
+        "18-19": "Boots of Traveling/Leaping",
+        "20-20": "Bowl of Commanding Water Elementals",
+        "21-21": "Brazier of Commanding Fire Elementals",
+        "22-23": "Broom of Flying",
+        "24-24": "Censer of Controlling Air Elementals",
+        "25-27": "Chime of Time",
+        "28-29": "Crystal Ball (E, M)",
+        "3-4": "Bag of Devouring",
+        "30-30": "Crystal Ball with Clairaudience (M)",
+        "31-31": "Crystal Ball with ESP (M)",
+        "32-33": "Displacer Cloak",
+        "34-34": "Drums of Panic",
+        "35-35": "Efreeti Bottle",
+        "36-38": "Egg of Wonder Creature Type",
+        "39-40": "Elven Boots",
+        "41-42": "Elven Cloak",
+        "43-43": "Flying Carpet",
+        "44-45": "Gauntlets of Ogre Power",
+        "46-47": "Girdle of Giant Strength",
+        "48-49": "Helm of Alignment Changing",
+        "5-9": "Bag of Holding",
+        "50-51": "Helm of Reading",
+        "52-52": "Helm of Telepathy",
+        "53-53": "Helm of Teleportation (M)",
+        "54-54": "Horn of Blasting",
+        "55-56": "Lamp, Hurricane",
+        "57-59": "Lamp of Long Burning",
+        "60-61": "Medallion of ESP, 30' range",
+        "62-62": "Medallion of ESP, 90' range",
+        "63-63": "Mirror of Life Trapping",
+        "64-66": "Muzzle of Training",
+        "67-68": "Nail, Finger",
+        "69-71": "Nail of Pointing",
+        "72-76": "Ointment Type",
+        "77-79": "Pouch of Security",
+        "80-82": "Quill of Copying (S)",
+        "83-86": "Rope of Climbing",
+        "87-88": "Scarab of Protection",
+        "89-91": "Slate of Identification (S)",
+        "92-92": "Stone of Controlling Earth Elementals",
+        "93-94": "Talisman of Elemental Travel",
+        "95-97": "Wheel of Floating",
+        "98-98": "Wheel of Fortune",
+        "99-100": "Wheel, Square"
+      }
     },
     "Missile Talent 10%": {
-      "name": "Missile Talent 10%"
+      "description": "<p>Determines if a missile has a talent (10% chance). Roll on the Missile Talents table if successful.</p>",
+      "name": "Missile Talent 10%",
+      "results": {
+        "1-10": "Missile Talents",
+        "11-100": "No Talent"
+      }
     },
     "Missile Talent 15%": {
-      "name": "Missile Talent 15%"
+      "description": "<p>Determines if a missile has a talent (15% chance). Roll on the Missile Talents table if successful.</p>",
+      "name": "Missile Talent 15%",
+      "results": {
+        "1-15": "Missile Talents",
+        "16-100": "No Talent"
+      }
     },
     "Missile Talent 20%": {
-      "name": "Missile Talent 20%"
+      "description": "<p>Determines if a missile has a talent (20% chance). Roll on the Missile Talents table if successful.</p>",
+      "name": "Missile Talent 20%",
+      "results": {
+        "1-20": "Missile Talents",
+        "21-100": "No Talent"
+      }
     },
     "Missile Talent 25%": {
-      "name": "Missile Talent 25%"
+      "description": "<p>Determines if a missile has a talent (25% chance). Roll on the Missile Talents table if successful.</p>",
+      "name": "Missile Talent 25%",
+      "results": {
+        "1-25": "Missile Talents",
+        "26-100": "No Talent"
+      }
     },
     "Missile Talent 30%": {
-      "name": "Missile Talent 30%"
+      "description": "<p>Determines if a missile has a talent (30% chance). Roll on the Missile Talents table if successful.</p>",
+      "name": "Missile Talent 30%",
+      "results": {
+        "1-30": "Missile Talents",
+        "31-100": "No Talent"
+      }
     },
     "Missile Talents": {
-      "name": "Missile Talents"
+      "description": "<p>Determines the specific talent of a magical missile, such as Biting, Stunning, or Wounding.</p>",
+      "name": "Missile Talents",
+      "results": {
+        "1-4": "Talent: Biting",
+        "10-14": "Talent: Charming",
+        "15-21": "Talent: Climbing",
+        "22-31": "Talent: Curing",
+        "32-34": "Talent: Disarming",
+        "35-38": "Talent: Dispelling",
+        "39-45": "Talent: Flying",
+        "46-52": "Talent: Lighting",
+        "5-9": "Talent: Blinking",
+        "53-57": "Talent: Penetrating",
+        "58-61": "Talent: Refilling",
+        "62-67": "Talent: Screaming",
+        "68-72": "Talent: Seeking",
+        "73-76": "Talent: Sinking",
+        "77-78": "Talent: Slaying",
+        "79-85": "Talent: Speaking",
+        "86-89": "Talent: Stunning",
+        "90-91": "Talent: Teleporting",
+        "92-96": "Talent: Transporting",
+        "97-100": "Talent: Wounding"
+      }
     },
     "Missile Weapon or Missile (Basic)": {
-      "name": "Missile Weapon or Missile (Basic)"
+      "description": "<p>Generates a specific magical weapon or missile, along with its bonus and quantity if applicable.</p>",
+      "name": "Missile Weapon or Missile (Basic)",
+      "results": {
+        "1-6": "Arrows +1 [[2d10]]",
+        "12-15": "Arrows +3 [[2d4]]",
+        "16-18": "Arrow, +1 silver",
+        "19-20": "Arrow, +2 silver",
+        "21-21": "Arrow, +3 silver",
+        "22-25": "Blowgun +1",
+        "26-28": "Bola +1",
+        "29-33": "Bow, short +1",
+        "34-37": "Bow, short +2",
+        "38-40": "Bow, short +3",
+        "41-45": "Bow, long +1",
+        "46-49": "Bow, long +2",
+        "50-52": "Bow, long +3",
+        "53-57": "Crossbow, light +1",
+        "58-61": "Crossbow, light +2",
+        "62-64": "Crossbow, light +3",
+        "65-69": "Crossbow, heavy +1",
+        "7-11": "Arrows +2 [[2d6]]",
+        "70-73": "Crossbow, heavy +2",
+        "74-76": "Crossbow, heavy +3",
+        "77-82": "Quarrels +1 [[2d10]]",
+        "83-87": "Quarrels +2 [[2d6]]",
+        "88-91": "Quarrels +3 [[2d4]]",
+        "92-94": "Quarrel, +1 silver",
+        "95-96": "Quarrel, +2 silver",
+        "97-97": "Quarrel, +3 silver",
+        "98-100": "Sling +1"
+      }
     },
     "Missile Weapons & Missiles (Adv.)": {
-      "name": "Missile Weapons & Missiles (Adv.)"
+      "description": "<p>Determines the type of missile weapon or missile found and its weapon class. Use the appropriate bonus table for additional properties.</p>",
+      "name": "Missile Weapons & Missiles (Adv.)",
+      "results": {
+        "1-37": "Arrows (Weapon Class A)",
+        "1-70": "Missiles (Class A)",
+        "38-59": "Quarrels (Weapon Class A)",
+        "60-70": "Sling stones (Weapon Class A)",
+        "71-100": "Missile Weapons (Class D)",
+        "71-72": "Blowgun (Weapon Class D)",
+        "73-80": "Bow, long (Weapon Class D)",
+        "81-85": "Bow, short (Weapon Class D)",
+        "86-87": "Crossbow, heavy (Weapon Class D)",
+        "88-92": "Crossbow, light (Weapon Class D)",
+        "93-100": "Sling (Weapon Class D)"
+      }
     },
     "Missile Weapons (Class D)": {
-      "name": "Missile Weapons (Class D)"
+      "description": "<p>Determines the magical bonus for Missile Weapons (Class D). Additional weapon modifiers may apply based on the roll.</p>",
+      "name": "Missile Weapons (Class D)",
+      "results": {
+        "1-70": "Weapons Add. Mod. 30%",
+        "100-100": "Weapons Add. Mod. 10%",
+        "71-88": "Weapons Add. Mod. 25%",
+        "89-96": "Weapons Add. Mod. 20%",
+        "97-99": "Weapons Add. Mod. 15%"
+      }
     },
     "Missile Weapons Range (+1)": {
-      "name": "Missile Weapons Range (+1)"
+      "description": "<p>Determines the range bonus for a magical missile weapon.</p>",
+      "name": "Missile Weapons Range (+1)",
+      "results": {
+        "2-4": "No range multiplier",
+        "5-7": "1.5 range multiplier (+50%)"
+      }
     },
     "Missile Weapons Range (+2)": {
-      "name": "Missile Weapons Range (+2)"
+      "description": "<p>Determines the range bonus for a magical missile weapon.</p>",
+      "name": "Missile Weapons Range (+2)",
+      "results": {
+        "2-4": "No range multiplier",
+        "5-7": "x1.5 Range (+50%)",
+        "8-9": "x2 Range (+100%)"
+      }
     },
     "Missile Weapons Range (+3)": {
-      "name": "Missile Weapons Range (+3)"
+      "description": "<p>Determines the range bonus for a magical missile weapon.</p>",
+      "name": "Missile Weapons Range (+3)",
+      "results": {
+        "2-4": "No range multiplier",
+        "5-7": "x1.5 Range (+50%)",
+        "8-9": "x2 Range (+100%)"
+      }
     },
     "Missile Weapons Range (+4)": {
-      "name": "Missile Weapons Range (+4)"
+      "description": "<p>Determines the range bonus for a magical missile weapon.</p>",
+      "name": "Missile Weapons Range (+4)",
+      "results": {
+        "2-4": "No range multiplier",
+        "5-7": "x1.5 Range (+50%)",
+        "8-9": "x2 Range (+100%)"
+      }
     },
     "Missile Weapons Range (+5)": {
-      "name": "Missile Weapons Range (+5)"
+      "description": "<p>Determines the range bonus for a magical missile weapon.</p>",
+      "name": "Missile Weapons Range (+5)",
+      "results": {
+        "2-4": "No range multiplier",
+        "5-7": "x1.5 Range (+50%)",
+        "8-9": "x2 Range (+100%)"
+      }
     },
     "Missiles (Class A)": {
-      "name": "Missiles (Class A)"
+      "description": "<p>Determines the magical bonus and quantity of Missiles (Class A). Additional talents may apply based on the roll.</p>",
+      "name": "Missiles (Class A)",
+      "results": {
+        "1-40": "Missile Talent 30%",
+        "41-67": "Missile Talent 25%",
+        "68-84": "Missile Talent 20%",
+        "85-94": "Missile Talent 15%",
+        "95-100": "Missile Talent 10%"
+      }
     },
     "Monster Reaction Roll": {
-      "name": "Monster Reaction Roll"
+      "description": "<p>The referee determines monsters’ reaction to the party. Sometimes, circumstances make it obvious how a monster will react. Otherwise, the referee may roll on the table below to determine how a monster reacts to the party.</p>",
+      "name": "Monster Reaction Roll",
+      "results": {
+        "1-2": "Hostile, attacks",
+        "12-12": "Friendly, helpful",
+        "3-5": "Unfriendly, may attack",
+        "6-8": "Neutral, uncertain",
+        "9-11": "Indifferent, uninterested"
+      }
     },
     "NPC Adventurer Alignment": {
-      "name": "NPC Adventurer Alignment"
+      "description": "<p>Adventurer alignment</p>",
+      "name": "NPC Adventurer Alignment",
+      "results": {
+        "1-1": "Lawful",
+        "2-2": "Neutral",
+        "3-3": "Chaotic"
+      }
     },
     "NPC Adventurer Class": {
-      "name": "NPC Adventurer Class"
+      "description": "<p>*In campaigns where Underworld races are common, a duergar, drow, or svirfneblin may be encountered in place of a dwarf, elf, or gnome.</p>",
+      "name": "NPC Adventurer Class",
+      "results": {
+        "1-1": "Cleric",
+        "2-2": "Druid",
+        "3-3": "Dwarf",
+        "4-4": "Elf",
+        "5-6": "Fighter",
+        "7-7": "Halfling",
+        "8-8": "Magic-User",
+        "9-10": "Thief"
+      }
     },
     "NPC Adventurer Class and Level": {
-      "name": "NPC Adventurer Class and Level"
+      "description": "<p>*In campaigns where Underworld races are common, a duergar, drow, or svirfneblin may be encountered in place of a dwarf, elf, or gnome.</p>",
+      "name": "NPC Adventurer Class and Level",
+      "results": {
+        "1-1": "Cleric Basic: [[1d3]] Expert: [[1d6+3]]",
+        "2-2": "Druid Basic: [[1d3]] Expert: [[1d6+3]]",
+        "3-3": "Dwarf Basic: [[1d3]] Expert: [[1d6+6]]",
+        "4-4": "Elf  Basic: [[1d3]] Expert: [[1d6+2]]",
+        "5-5": "Fighter Basic: [[1d3]] Expert: [[1d6+3]]",
+        "6-6": "Fighter Basic: [[1d3]] Expert: [[1d6+5]]",
+        "7-7": "Halfling Basic: [[1d3]] Expert: [[1d6+2]]",
+        "8-8": "Magic-User Basic: [[1d3]] Expert: [[1d6+3]]",
+        "9-9": "Thief Basic: [[1d3]] Expert: [[1d6+4]]"
+      }
     },
     "NPC Reaction": {
-      "name": "NPC Reaction"
+      "description": "<p>Most parties (whether NPCs or PCs) will not want to fight other parties, preferring monsters to challenge. The DM may wish to avoid the large, complicated battle that could occur between two parties. When PCs meet an NPC party, decide how the: NPCs will react, or roll a reaction. Modify the roll if you choose (perhaps the NPCs have heard of the PC party, or are even familiar with them as allies, rivals, or enemies).</p>",
+      "name": "NPC Reaction",
+      "results": {
+        "2-5": "Depart in Anger",
+        "6-8": "Negotiate",
+        "9-12": "Offer to buy or sell information [[1d100*5]] gp"
+      }
     },
     "Ointment Type": {
-      "name": "Ointment Type"
+      "description": "<p>Determines the type of magical ointment found, such as Blessing, Healing, Poison, or other effects.</p>",
+      "name": "Ointment Type",
+      "results": {
+        "1-1": "<strong>Blessing:</strong> This salve gives the recipient a -2 bonus to armor class and a +2 bonus to all saving throws for 1 turn.",
+        "2-2": "<strong>Healing:</strong> This salve cures [[/r 2d6+2 #points of damage cured]] points of damage.",
+        "3-3": "<strong>Poison:</strong> This salve seems to be an ointment of blessing, but it is a poison. The recipient must make a saving throw vs. poison, with a -2 penalty to the roll, or die.",
+        "4-4": "<strong>Scarring:</strong> This salve seems to be an ointment of healing, but instead it inflicts [[/r 2d6 #points of severe burn damage]] points of severe burn damage. The damage can only be repaired by ointment of soothing, a cureall spell, or a wish.",
+        "5-5": "<strong>Soothing:</strong> This salve cures the recipient of all burn damage, whether magical or normal.",
+        "6-6": "<strong>Tanning:</strong> This salve causes the recipient's skin to turn a bright color [[1d6]] (1-red, 2-yellow, 3-orange, 4-blue, 5-green, or 6-brown). The effect cannot be removed but will wear off in [[1d4]] months."
+      }
     },
     "Orc": {
-      "name": "Orc"
+      "name": "Orc",
+      "results": {
+        "1-100": "Orc",
+        "80-100": "Orc, Leader",
+        "96-100": "Orc, Chieftain"
+      }
     },
     "Pit Trap": {
-      "name": "Pit Trap"
+      "description": "<p><span style=\"font-family:DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">A section of the floor gives way, and one, some, or all characters must make a Dexterity check to see if they can avoid falling in. If they fail, they fall in, taking 1d4, 1d6, 1d8, or 1d10 damage. The pit may have something at the bottom, such as spikes for more damage, deep water, or a monster. It may be a chute, leading down for a one-way ride to the next dungeon level.</span></p>",
+      "name": "Pit Trap",
+      "results": {
+        "1-2": "A six-foot deep pit trap. The fall does [[/r 1d4]] damage.",
+        "3-4": "A ten-foot deep pit trap. The fall does [[/r 1d6]] damage.",
+        "5-5": "A ten-foot deep pit trap with a few spikes at the bottom. The fall does [[/r 1d8]] damage.",
+        "6-6": "A ten-foot deep pit trap lined with spikes at the bottom. The fall does [[/r 1d8+2]] damage.",
+        "7-7": "A pit trap filled with water. The fall is twenty feet, but the only potential damage is to the character's items.",
+        "8-8": "A pit trap with a chute leading to a room in the next level of the dungeon."
+      }
     },
     "Potions": {
-      "name": "Potions"
+      "description": "<p>Table of magical potions with corresponding roll ranges.</p>",
+      "name": "Potions",
+      "results": {
+        "1-2": "Potion of Agility",
+        "11-12": "Potion of Clairaudience",
+        "13-14": "Potion of Clairvoyance",
+        "15-16": "Potion of Climbing",
+        "17-18": "Defense Potion",
+        "19-22": "Potion of Delusion",
+        "23-24": "Potion of Diminution",
+        "25-25": "Dragon Control (main)",
+        "26-27": "Potion of Dreamspeech",
+        "28-28": "Potion of Elasticity",
+        "29-30": "Potion of Elemental Form",
+        "3-3": "Potion of Animal Control",
+        "31-32": "Potion of ESP",
+        "33-33": "Potion of Ethereality",
+        "34-36": "Potion of Fire Resistance",
+        "37-39": "Potion of Flying",
+        "4-6": "Antidote Potion",
+        "40-41": "Potion of Fortitude",
+        "42-42": "Potion of Freedom",
+        "43-45": "Potion of Gaseous Form",
+        "46-46": "Giant Control",
+        "47-49": "Potion of Giant Strength",
+        "50-51": "Potion of Growth",
+        "52-57": "Potion of Healing",
+        "58-60": "Potion of Heroism",
+        "61-61": "Potion of Human Control",
+        "62-64": "Potion of Invisibility",
+        "65-66": "Potion of Invulnerability",
+        "67-68": "Potion of Levitation",
+        "69-70": "Potion of Longevity",
+        "7-8": "Potion of Blending",
+        "71-71": "Potion of Luck",
+        "72-72": "Potion of Merging",
+        "73-74": "Potion of Plant Control",
+        "75-77": "Potion of Poison",
+        "78-80": "Potion of Polymorph Self",
+        "81-82": "Potion of Sight",
+        "83-84": "Potion of Speech",
+        "85-88": "Potion of Speed",
+        "89-90": "Potion of Strength",
+        "9-10": "Potion of Bug Repellent",
+        "91-93": "Potion of Super-Healing",
+        "94-96": "Potion of Swimming",
+        "97-97": "Potion of Treasure Finding",
+        "98-98": "Potion of Undead Control",
+        "99-100": "Potion of Water Breathing"
+      }
     },
     "Rare Jewelry (50k)": {
-      "name": "Rare Jewelry (50k)"
+      "name": "Rare Jewelry (50k)",
+      "results": {
+        "1-1": "Amulet",
+        "10-10": "Tiara",
+        "2-2": "Crown",
+        "3-3": "Diadem",
+        "4-4": "Medallion",
+        "5-5": "Orb",
+        "6-6": "Ring",
+        "7-7": "Scarab",
+        "8-8": "Scepter",
+        "9-9": "Talisman"
+      }
     },
     "River Encounter": {
-      "name": "River Encounter"
+      "description": "<h3>River Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "River Encounter",
+      "results": {
+        "1-1": "Human (River)",
+        "2-2": "Flyers (All Other)",
+        "3-3": "Humanoid (River)",
+        "4-4": "Insects",
+        "5-6": "Swimmer (River/Lake)",
+        "7-7": "Animal (River)",
+        "8-8": "Dragons"
+      }
     },
     "Rod of the Wyrm": {
-      "name": "Rod of the Wyrm"
+      "description": "<p>Determines the attributes of the Rod of the Wyrm, including alignment, associated dragon type, AC modifier, and breath weapon.</p>",
+      "name": "Rod of the Wyrm",
+      "results": {
+        "1-5": "<strong>Alignment:</strong> Lawful<br />          <strong>Dragon:</strong> Gold<br />          <strong>AC Modifier:</strong> -2<br />          <strong>Breath:</strong> Fire/Gas",
+        "6-8": "<strong>Alignment:</strong> Neutral<br />          <strong>Dragon:</strong> Blue<br />          <strong>AC Modifier:</strong> 0<br />          <strong>Breath:</strong> Lightning",
+        "9-10": "<strong>Alignment:</strong> Chaotic<br />          <strong>Dragon:</strong> Black<br />          <strong>AC Modifier:</strong> +2<br />          <strong>Breath:</strong> Acid"
+      }
     },
     "Room Type": {
-      "name": "Room Type"
+      "description": "<p>A randomly stocked dungeon room.</p>",
+      "name": "Room Type",
+      "results": {
+        "1-4": "Empty Room",
+        "5-5": "Room with Trap",
+        "6-7": "Room with Monster",
+        "8-8": "Special Room"
+      }
     },
     "Room with Alarm": {
-      "name": "Room with Alarm"
+      "description": "<p>The room is rigged with some type of alarm (sound, magical or mechanical) that can summon a special monster, open a dungeon door or have no functional effect at all.</p>",
+      "name": "Room with Alarm",
+      "results": {
+        "1-3": "The whistling sound has alerted something nearby. Roll on the appropriate encounter table  to determine the type of encounter.",
+        "1-4": "The room has a stone protrusion with holes in it, fed by an underground steam vent. As soon as the characters enter the room, it starts whistling loudly. The sound continues for ten seconds and then stops.",
+        "5-6": "A large stone suspended by a heavy chain slowly lowers to the floor, and a click is heard. A locked door or container somewhere in the dungeon has been unlocked. It is either the most recent lock they encountered or the next one they will come across.",
+        "7-8": "A strange contraption in the center of the room spins for ten seconds when the characters enter the room. A wailing sound is heard when it stops."
+      }
     },
     "Room with Monster": {
-      "name": "Room with Monster"
+      "description": "<p>The room has a one or more monsters in it.</p>",
+      "name": "Room with Monster",
+      "results": {
+        "1-3": "Room has treasure! Roll on appropriate treasure table for dungeon level.",
+        "1-5": "Encounter! One or more monsters are in this room. Roll on the appropriate wandering monster table.",
+        "6-6": "Lair! This room is part of a monster's lair. Roll on the appropriate encounter table to determine the type of monster and how many there are."
+      }
     },
     "Room with Trap": {
-      "name": "Room with Trap"
+      "description": "<p>The room contains a hidden trap. If there's treasure, it's likely trapped; otherwise, the danger may be near an exit or somewhere on the floor.</p>",
+      "name": "Room with Trap",
+      "results": {
+        "1-2": "Room has treasure. Roll on appropriate treasure table for dungeon level.",
+        "1-6": "Trap Type"
+      }
     },
     "Scrolls": {
-      "name": "Scrolls"
+      "description": "<p>Table to determine the type of scroll found, with references to subtables as needed. If a spell scroll is rolled then roll on the appropriate Spell Level table to determine the level of each spell.</p>",
+      "name": "Scrolls",
+      "results": {
+        "1-3": "Scroll of Communication",
+        "14-14": "Scroll of Delay (S)",
+        "15-17": "Scroll of Equipment",
+        "18-19": "Scroll of Illumination",
+        "20-21": "Scroll of Mages (S)",
+        "22-25": "Map to normal treasure",
+        "26-28": "Map to magical treasure",
+        "29-30": "Map to combined treasure",
+        "31-31": "Map to special treasure",
+        "32-34": "Scroll of Mapping",
+        "35-36": "Scroll of Portals",
+        "37-42": "Scroll of Protection from Elementals",
+        "4-5": "Scroll of Creation",
+        "43-50": "Scroll of Protection from Lycanthropes",
+        "51-54": "Scroll of Protection from Magic",
+        "55-61": "Scroll of Protection from Undead",
+        "6-13": "Scroll of Curse (occurs when read)",
+        "62-63": "Scroll of Questioning",
+        "64-64": "Scroll of Repetition (S)",
+        "65-66": "Scroll of Seeing",
+        "67-68": "Scroll of Shelter",
+        "69-71": "Spell Catching",
+        "72-96": "Spell Scrolls",
+        "97-98": "Scroll of Trapping",
+        "99-100": "Scroll of Truth"
+      }
     },
     "Settled Encounter": {
-      "name": "Settled Encounter"
+      "description": "<h3>Settled Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Settled Encounter",
+      "results": {
+        "1-1": "Castle Encounter",
+        "2-2": "Flyers (All Other)",
+        "3-3": "Humanoid (City and Inhabited)",
+        "4-5": "Human (Settled)",
+        "6-7": "Animal (Settled)",
+        "8-8": "Dragons"
+      }
     },
     "Special City Encounter": {
-      "name": "Special City Encounter"
+      "name": "Special City Encounter",
+      "results": {
+        "1-1": "Alchemist",
+        "10-10": "Athlete",
+        "100-100": "Mayor",
+        "101-101": "Merchant",
+        "102-102": "Merchants' Guild Officer",
+        "103-103": "Metalsmith",
+        "104-104": "Military Officer",
+        "105-105": "Miller",
+        "106-106": "Monastery Worker",
+        "107-107": "Moneylender",
+        "108-108": "Mystic Adventurer",
+        "109-109": "Nobleman/Noblewoman",
+        "11-11": "Baker",
+        "110-110": "Peasant",
+        "111-111": "Peddler",
+        "112-112": "Politician",
+        "113-113": "Potter",
+        "114-114": "Public Bathkeeper",
+        "115-115": "Ropemaker",
+        "116-116": "Royalty",
+        "117-117": "Sage",
+        "118-118": "Sailor, Captain",
+        "119-119": "Sailor, Common",
+        "12-12": "Banker",
+        "120-120": "Saloonkeeper",
+        "121-121": "Schoolteacher",
+        "122-122": "Scribe",
+        "123-123": "Serf",
+        "124-124": "Servant, Hired",
+        "125-125": "Servant, Indentured",
+        "126-126": "Shipwright",
+        "127-127": "Shoemaker",
+        "128-128": "Singer",
+        "129-129": "Slave",
+        "13-13": "Barber",
+        "130-130": "Smuggler",
+        "131-131": "Soapmaker",
+        "132-132": "Spy",
+        "133-133": "Stablekeeper",
+        "134-134": "Stoneworker",
+        "135-135": "Tailor",
+        "136-136": "Tanner",
+        "137-137": "Tavernkeeper",
+        "138-138": "Tax Assessor",
+        "139-139": "Taxidermist",
+        "14-14": "Bartender",
+        "140-140": "Thatcher",
+        "141-141": "Thief Adventurer",
+        "142-142": "Thieves' Guild Officer",
+        "143-143": "Town Drunk",
+        "144-144": "Town Hall Employee",
+        "145-145": "Trading Post Employee",
+        "146-146": "Translator",
+        "147-147": "Treasurer",
+        "148-148": "Undertaker",
+        "149-149": "Vagrant",
+        "15-15": "Basketweaver",
+        "150-150": "Vigilante",
+        "151-151": "Warehouse Worker",
+        "152-152": "Watchman",
+        "153-153": "Watering-Hole Worker",
+        "154-154": "Weaver",
+        "155-155": "Welldigger",
+        "156-156": "Wellkeeper",
+        "157-157": "Wheelwright",
+        "158-158": "Winemaker",
+        "159-159": "Woodcarver",
+        "16-16": "Bazaar Merchant",
+        "160-160": "Woodcutter",
+        "17-17": "Beekeeper",
+        "18-18": "Beggar",
+        "19-19": "Blacksmith",
+        "2-2": "Animal Trainer",
+        "20-20": "Boardinghouse Keeper",
+        "21-21": "Boatman/Gondolier",
+        "22-22": "Bodyguard",
+        "23-23": "Bonecarver",
+        "24-24": "Bootmaker",
+        "25-25": "Bowyer",
+        "26-26": "Brewer",
+        "27-27": "Broommaker",
+        "28-28": "Butcher",
+        "29-29": "Candlemaker",
+        "3-3": "Apothecary",
+        "30-30": "Caravan Master",
+        "31-31": "Carpenter",
+        "32-32": "Carter",
+        "33-33": "Chandler",
+        "34-34": "Charcoalmaker",
+        "35-35": "Chef",
+        "36-36": "Chemist",
+        "37-37": "Church/Temple Employee",
+        "38-38": "Cleric Adventurer",
+        "39-39": "Coachman",
+        "4-4": "Archaeologist",
+        "40-40": "Constable",
+        "41-41": "Construction Worker",
+        "42-42": "Cooper",
+        "43-43": "Craft Guildsman",
+        "44-44": "Dairy Worker",
+        "45-45": "Dancer",
+        "46-46": "Diplomat",
+        "47-47": "Diver",
+        "48-48": "Docksman/Wharfsman",
+        "49-49": "Doctor/Dentist",
+        "5-5": "Armorer",
+        "50-50": "Druid Adventurer",
+        "51-51": "Dwarf Adventurer",
+        "52-52": "Elf Adventurer",
+        "53-53": "Entertainer",
+        "54-54": "Farmer",
+        "55-55": "Ferryman",
+        "56-56": "Fighter Adventurer",
+        "57-57": "Fighter, Mercenary",
+        "58-58": "Fisherman",
+        "59-59": "Fletcher",
+        "6-6": "Artist/Sculptor",
+        "60-60": "Foundry Worker",
+        "61-61": "Freighter",
+        "62-62": "Furnituremaker",
+        "63-63": "Furrier",
+        "64-64": "Gambler",
+        "65-65": "Gemcutter",
+        "66-66": "Gentleman/Lady",
+        "67-67": "Geologist",
+        "68-68": "Glassblower",
+        "69-69": "Goldsmith",
+        "7-7": "Assassin",
+        "70-70": "Government Official",
+        "71-71": "Graveyard Keeper",
+        "72-72": "Guardsman",
+        "73-73": "Guide",
+        "74-74": "Guild Officer",
+        "75-75": "Halfling Adventurer",
+        "76-76": "Harlot",
+        "77-77": "Healer",
+        "78-78": "Herbalist",
+        "79-79": "Hunter",
+        "8-8": "Astrologer",
+        "80-80": "Innkeeper",
+        "81-81": "Jailor",
+        "82-82": "Jeweler",
+        "83-83": "Judge",
+        "84-84": "Juggler/Mime",
+        "85-85": "Kennel Keeper",
+        "86-86": "Laborer",
+        "87-87": "Land Officer",
+        "88-88": "Lawyer",
+        "89-89": "Leatherworker",
+        "9-9": "Astronomer",
+        "90-90": "Lighthouse Keeper",
+        "91-91": "Locksmith",
+        "92-92": "Logger",
+        "93-93": "Lumberyard Worker",
+        "94-94": "Madame",
+        "95-95": "Madman",
+        "96-96": "Magic-User Adventurer",
+        "97-97": "Magic-User Guild Officer",
+        "98-98": "Majordomo",
+        "99-99": "Mason"
+      }
     },
     "Special Power 10%": {
-      "name": "Special Power 10%"
+      "description": "<p>Armor has 10% chance of having a special power.</p>",
+      "name": "Special Power 10%",
+      "results": {
+        "1-10": "Armor Special Powers",
+        "11-100": "No special power"
+      }
     },
     "Special Power 15%": {
-      "name": "Special Power 15%"
+      "description": "<p>Armor has 15% chance of having a special power.</p>",
+      "name": "Special Power 15%",
+      "results": {
+        "1-15": "Armor Special Powers",
+        "16-100": "No special power"
+      }
     },
     "Special Power 20%": {
-      "name": "Special Power 20%"
+      "description": "<p>Armor has 20% chance of having a special power.</p>",
+      "name": "Special Power 20%",
+      "results": {
+        "1-20": "Armor Special Powers",
+        "21-100": "No special power"
+      }
     },
     "Special Power 25%": {
-      "name": "Special Power 25%"
+      "description": "<p>Armor has 25% chance of having a special power.</p>",
+      "name": "Special Power 25%",
+      "results": {
+        "1-25": "Armor Special Powers",
+        "26-100": "No special power."
+      }
     },
     "Special Power 30%": {
-      "name": "Special Power 30%"
+      "description": "<p>Armor has 30% chance of having a special power.</p>",
+      "name": "Special Power 30%",
+      "results": {
+        "1-30": "Armor Special Powers",
+        "31-100": "No special power"
+      }
     },
     "Special Room": {
-      "name": "Special Room"
+      "name": "Special Room",
+      "results": {
+        "1-1": "Room with Alarm",
+        "10-10": "Let your imagination run wild by including unusual elements such as weapons that fly and attack on their own, talking skulls that offer cryptic advice, or a magic item or treasure firmly stuck to the floor, wall, or ceiling. You might introduce a magical area with effects like zero gravity, reversed gravity, growth to double size, or shrinking to 1 inch tall, with the effect lasting until leaving the area. Additionally, consider placing a huge creature recently slain, too large to fit through the corridors—prompting the question, \"But how did it get here?\" These bizarre features can enhance the atmosphere and intrigue of the dungeon, encouraging exploration and creativity.",
+        "11-11": "The room is filled with a faint, glowing mist that obscures vision beyond 10 feet. Characters moving through it feel a tingling sensation. The mist might conceal a hidden object, a trap, or a creature, and its effects (if any) are revealed only after prolonged exposure or a specific action.",
+        "12-12": "A large, cracked mirror dominates one wall. Anyone gazing into it sees their reflection subtly altered—older, younger, or as a different creature. Interacting with the mirror might trigger a magical effect, reveal a clue, or require a Wisdom check to avoid a minor curse.",
+        "13-13": "The floor is covered in a mosaic depicting a forgotten battle or ritual. Stepping on specific tiles causes them to glow or emit a sound, possibly activating a mechanism, revealing a secret, or summoning a spectral image tied to the mosaic’s story.",
+        "14-14": "A faint breeze carries the scent of flowers or decay through the room, though no source is visible. The air seems to whisper faintly, and characters with high Intelligence might discern a pattern or message in the sounds, leading to a hidden passage or warning.",
+        "15-15": "The room’s walls are lined with shelves holding dozens of dusty tomes or scrolls. Most are mundane, but one or two might contain a minor spell, a map, or a riddle. Reading them takes time, and there’s a chance of triggering a trap or attracting unwanted attention.",
+        "16-16": "A single, ornate chair sits in the center of the room, carved with strange runes. Sitting in it causes a sensation of warmth or cold, and the character might hear a telepathic voice offering cryptic advice, a warning, or a demand before fading away.",
+        "17-17": "The ceiling is covered in faintly glowing crystals that pulse in a slow rhythm. Touching or striking them might cause them to dim, brighten, or release a harmless burst of light or sound, possibly alerting nearby creatures or revealing a hidden feature.",
+        "18-18": "A small fountain bubbles in the corner, its water unnaturally clear. Drinking from it requires a Constitution check; success might grant a temporary boon (like +1 to a stat for an hour), while failure could cause nausea or a minor magical effect.",
+        "19-19": "The room’s temperature is unnaturally hot or cold, causing discomfort. Prolonged exposure (more than a turn) requires a Constitution check to avoid fatigue or minor damage. The source might be magical or environmental, and neutralizing it could yield a reward.",
+        "2-2": "A dungeon feature (such as stairs, a room, a door, a monster, treasure, etc.) is not actually present but is merely a phantasm.",
+        "20-20": "A large, rusted cage sits in the room, its door slightly ajar. It’s empty, but claw marks and faint bloodstains suggest something escaped. The cage might be trapped, contain a hidden compartment, or serve as a clue to a nearby creature stalking the dungeon.",
+        "3-3": "A shifting wall moves after the party passes, cutting off their exit. They must find another way out of the dungeon. The wall will shift back after a duration determined by a roll of [[/r 1d6]]: on a roll of 1-2, it will shift back in one turn; on a roll of 3-5, it will shift back in one hour; and on a roll of 6, it will shift back in one day.",
+        "4-4": "The room (or stairs, or door, or item) moves (turns, drops, closes, rises, etc.) unexpectedly. It might be stopped if a Dexterity check is made, with a penalty of +1, +2, or +3 to the die roll, indicating that the party reacts quickly enough to prevent it.",
+        "5-5": "The room contains a seemingly bottomless pool in the center of the room. Roll the Magic Pool table only after one or more characters commit to drinking from it. @Compendium[fade-compendiums.roll-table-compendium.RollTable.SxLgCljhvJfybE5j]",
+        "6-6": "The room (or item, or treasure) emits strange noises, such as moaning, screaming, or whispering voices. These unsettling sounds can create an eerie atmosphere, potentially causing unease or fear among the characters. The source of the noises may be a mystery, leading to further investigation or caution as they explore the area.",
+        "7-7": "A large statue of a person, monster, or gadget is found in the room. It may be valuable, magical, or too heavy to move. The statue could be alive, lonesome, and willing to talk—though it may not always tell the truth. It might also be concealing a trapdoor, hiding treasure, or serving as a guardian for something more significant. The presence of the statue invites curiosity and caution, as its true nature and purpose remain uncertain.",
+        "8-8": "This feature could be a trapdoor leading up or down, secret stairs hidden behind a false wall, or an elevator that operates mysteriously. It may also be a magical portal that transports characters to another room, a different level, or even an entirely separate dungeon. The method of transportation may require a specific action, a key, or a magical incantation to activate, adding an element of intrigue and exploration to the environment.",
+        "9-9": "This applies to any variation of a listed monster, such as a skeleton that shoots its fingertips like a Magic Missile, a two-headed giant ogre, or a \"goop\" dragon that spits green slime or gray ooze. It could also include a wild bore (a shaggy man who tells long, dreary stories), a quarterling (a half-sized halfling), or a Mouth Harpy (who can't sing but plays the harmonica). Other examples might be an Ogre Jelly (which looks like an ogre but has unusual properties) or a Rock and Roll Baboon. These unique variations add creativity and unpredictability to encounters, challenging players to adapt their strategies."
+      }
     },
     "Special Treasure Table": {
-      "name": "Special Treasure Table"
+      "description": "<p>A table to determine special treasure values, encumbrances (in cn), and notes for various items.</p>",
+      "name": "Special Treasure Table",
+      "results": {
+        "1-10": "<strong>Book, rare</strong>: Encumbrance [[2d100]] cn, Value [[1d100 * 10]] gp.",
+        "11-12": "<strong>Pelt (Fur, common*)</strong>: Encumbrance [[1d6 * 10]] cn, Value [[1d4]] gp.",
+        "13-17": "<strong>Cape (Fur, common*)</strong>: Encumbrance [[1d8 + 4]] * 10 cn, Value [[1d6 * 100]] gp.",
+        "18-20": "<strong>Coat (Fur, common*)</strong>: Encumbrance [[2d6 + 8]] * 10 cn, Value [[3d4 * 100]] gp.",
+        "21-22": "<strong>Pelt (Fur, rare**)</strong>: Encumbrance [[1d6 * 10]] cn, Value [[2d6]] gp.",
+        "23-27": "<strong>Cape (Fur, rare**)</strong>: Encumbrance [[1d8 + 4]] * 10 cn, Value [[4d6 * 100]] gp.",
+        "28-30": "<strong>Coat (Fur, rare**)</strong>: Encumbrance [[2d6 + 8]] * 10 cn, Value [[1d6 * 1000]] gp.",
+        "31-35": "<strong>Incense, rare</strong>: Encumbrance 1 cn/stick, Value [[5d6]] gp/stick.",
+        "36-40": "<strong>Perfume, rare</strong>: Encumbrance 1 cn/vial, Value [[1d10 + 5]] * 10 gp/vial.",
+        "41-55": "<strong>Rug or tapestry†</strong>: Encumbrance [[1d6 * 100]] cn, Value [[2d10]] gp (per square yard).",
+        "56-65": "<strong>Silk†</strong>: Encumbrance [[1d6 * 10]] cn, Value [[1d8]] gp (per square yard).",
+        "66-75": "<strong>Skin, animal</strong>: Encumbrance [[5d4 * 10]] cn, Value [[1d10]] gp.",
+        "76-85": "<strong>Skin, monster</strong>: Encumbrance [[1d100 * 50]] cn, Value [[1d10 * 100]] gp.",
+        "86-90": "<strong>Spice, rare</strong>: Encumbrance [[4d4]] cn, Value special (DM discretion).",
+        "91-95": "<strong>Statuette</strong>: Encumbrance [[1d10 * 100]] cn, Value varies (DM discretion).",
+        "96-100": "<strong>Wine, rare</strong>: Encumbrance [[1d6 + 3]] * 10 cn per bottle, Value [[1d6]] gp/bottle."
+      }
     },
     "Spell Catching": {
-      "name": "Spell Catching"
+      "description": "<p>Determines the range of spell levels that can be caught using Spell Catching.</p>",
+      "name": "Spell Catching",
+      "results": {
+        "1-4": "Spell Catching: 1st or 2nd level spells",
+        "10-10": "Spell Catching: 1st to 8th level spells",
+        "5-7": "Spell Catching: 1st to 4th level spells",
+        "8-9": "Spell Catching: 1st to 6th level spells"
+      }
     },
     "Spell Scrolls": {
-      "name": "Spell Scrolls"
+      "description": "<p>Determines the type of spell scroll found. Each result includes a reference table for rolling 1d100 to determine the number of spells on the scroll.</p>",
+      "name": "Spell Scrolls",
+      "results": {
+        "1-70": "Magic-User Scroll Spell Count",
+        "71-100": "Cleric/Druid Scroll Spell Count",
+        "71-95": "Cleric Spell Scroll",
+        "96-100": "Druid Spell Scroll"
+      }
     },
     "Staff of Element": {
-      "name": "Staff of Element"
+      "description": "<p>Determines the specific type of Staff of Element found, such as Staff of Air, Staff of Fire, or the rare Staff of Elemental Power.</p>",
+      "name": "Staff of Element",
+      "results": {
+        "1-21": "Staff of Air",
+        "22-42": "Staff of Earth",
+        "43-63": "Staff of Fire",
+        "64-84": "Staff of Water",
+        "85-91": "Staff of Air and Water",
+        "92-98": "Staff of Earth and Fire",
+        "99-100": "Staff of Elemental Power"
+      }
     },
     "Swamp Encounter": {
-      "name": "Swamp Encounter"
+      "description": "<h3>Swamp Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Swamp Encounter",
+      "results": {
+        "1-1": "Human (Swamp)",
+        "2-2": "Flyers (All Other)",
+        "3-3": "Humanoid (Swamp)",
+        "4-4": "Swimmer (Swamp)",
+        "5-6": "Undead",
+        "7-7": "Insects",
+        "8-8": "Dragons"
+      }
     },
     "Swimmer (River/Lake)": {
-      "name": "Swimmer (River/Lake)"
+      "name": "Swimmer (River/Lake)",
+      "results": {
+        "1-1": "Crab, Giant",
+        "10-10": "Merman",
+        "11-11": "Nixie",
+        "12-12": "Termite, Water (Fresh Water)",
+        "2-2": "Crocodile, Normal",
+        "3-3": "Crocodile, Large",
+        "4-4": "Fish, Giant Bass",
+        "5-5": "Fish, Giant Sturgeon",
+        "6-7": "Leech, Giant",
+        "8-9": "Lizard Man"
+      }
     },
     "Swimmer (Swamp)": {
-      "name": "Swimmer (Swamp)"
+      "name": "Swimmer (Swamp)",
+      "results": {
+        "1-1": "Crab, Giant",
+        "11-12": "Termite, Water (Swamp)",
+        "2-3": "Crocodile, Normal",
+        "4-5": "Crocodile, Large",
+        "6-8": "Leech, Giant",
+        "9-10": "Lizard Man"
+      }
     },
     "Sword Primary Power": {
-      "name": "Sword Primary Power"
+      "description": "<p>Determines the primary power of a sword, including detection abilities or additional rolls for extraordinary powers.</p>",
+      "name": "Sword Primary Power",
+      "results": {
+        "1-10": "Primary Power: Detect evil (good)",
+        "100-100": "Sword Primary Power (NoReroll)",
+        "11-15": "Primary Power: Detect gems",
+        "16-25": "Primary Power: Detect magic",
+        "26-35": "Primary Power: Detect metal",
+        "36-50": "Primary Power: Detect shifting walls and rooms",
+        "51-65": "Primary Power: Detect sloping passages",
+        "66-75": "Primary Power: Find secret doors",
+        "76-85": "Primary Power: Find traps",
+        "86-95": "Primary Power: See invisible",
+        "96-99": "Extraordinary Power"
+      }
     },
     "Sword Primary Power (NoReroll)": {
-      "name": "Sword Primary Power (NoReroll)"
+      "description": "<p>Determines the primary power of a sword, including detection abilities or additional rolls for extraordinary powers.</p>",
+      "name": "Sword Primary Power (NoReroll)",
+      "results": {
+        "1-10": "Primary Power: Detect evil (good)",
+        "11-15": "Primary Power: Detect gems",
+        "16-25": "Primary Power: Detect magic",
+        "26-35": "Primary Power: Detect metal",
+        "36-50": "Primary Power: Detect shifting walls and rooms",
+        "51-65": "Primary Power: Detect sloping passages",
+        "66-75": "Primary Power: Find secret doors",
+        "76-85": "Primary Power: Find traps",
+        "86-95": "Primary Power: See invisible",
+        "96-99": "Extraordinary Power"
+      }
     },
     "Sword, Weapon or Armor (Basic)": {
-      "name": "Sword, Weapon or Armor (Basic)"
+      "description": "<p>Use this table to randomly select an item from either the weapons or armor table.</p>",
+      "name": "Sword, Weapon or Armor (Basic)",
+      "results": {
+        "1-1": "Magic Armor",
+        "2-2": "Magical Weapon (Basic)"
+      }
     },
     "Swords (Advanced)": {
-      "name": "Swords (Advanced)"
+      "description": "<p>The advanced swords table can generate exceptional weapons that are meant for characters of level 10 or higher.</p>",
+      "name": "Swords (Advanced)",
+      "results": {
+        "1-100": "Cursed Sword Check",
+        "1-65": "<strong>Sword, Normal</strong> (Class C)",
+        "66-84": "Swords (Class C)",
+        "85-92": "Swords (Class D)",
+        "93-100": "Swords (Class D)"
+      }
     },
     "Swords (Basic)": {
-      "name": "Swords (Basic)"
+      "description": "<p>Generates a specific magical sword, including short, normal, bastard, and two-handed types, with bonuses or special effects.</p>",
+      "name": "Swords (Basic)",
+      "results": {
+        "1-10": "Sword, short +1",
+        "1-100": "Cursed Sword Check",
+        "11-20": "Sword, short +2",
+        "21-30": "Sword, short +3",
+        "31-34": "Sword, normal +1",
+        "35-35": "Sword, normal +1, +3 vs dragonkind",
+        "36-36": "Sword, normal +1, +3 vs giantkind",
+        "37-37": "Sword, normal +1, +3 vs lycanthropes",
+        "38-38": "Sword, normal +1, +3 vs regenerating monsters",
+        "39-39": "Sword, normal +1, +3 vs spellcasters",
+        "40-40": "Sword, normal +1, +3 vs undead",
+        "41-50": "Sword, normal +2",
+        "51-60": "Sword, normal +3",
+        "61-64": "Sword, bastard +1",
+        "65-65": "Sword, bastard +1, +3 vs dragonkind",
+        "66-66": "Sword, bastard +1, +3 vs giantkind",
+        "67-67": "Sword, bastard +1, +3 vs lycanthropes",
+        "68-68": "Sword, bastard +1, +3 vs regenerating monsters",
+        "69-69": "Sword, bastard +1, +3 vs spellcasters",
+        "70-70": "Sword, bastard +1, +3 vs undead",
+        "71-75": "Sword, bastard +2",
+        "76-80": "Sword, bastard +3",
+        "81-84": "Sword, two-handed +1",
+        "85-85": "Sword, two-handed +1, +3 vs dragonkind",
+        "86-86": "Sword, two-handed +1, +3 vs giantkind",
+        "87-87": "Sword, two-handed +1, +3 vs lycanthropes",
+        "88-88": "Sword, two-handed +1, +3 vs regenerating monsters",
+        "89-89": "Sword, two-handed +1, +3 vs spellcasters",
+        "90-90": "Sword, two-handed +1, +3 vs undead",
+        "91-95": "Sword, two-handed +2",
+        "96-100": "Sword, two-handed +3"
+      }
     },
     "Swords (Class C)": {
-      "name": "Swords (Class C)"
+      "description": "<p>Determines the type of sword (Class C) and its magical bonus.</p>",
+      "name": "Swords (Class C)",
+      "results": {
+        "1-60": "Weapons Add. Mod. 40%",
+        "61-81": "Weapons Add. Mod. 30%",
+        "82-92": "Weapons Add. Mod. 25%",
+        "93-98": "Weapons Add. Mod. 20%",
+        "99-100": "Weapons Add. Mod. 15%"
+      }
     },
     "Swords (Class D)": {
-      "name": "Swords (Class D)"
+      "description": "<p>Determines the type of sword (Class D) and its magical bonus.</p>",
+      "name": "Swords (Class D)",
+      "results": {
+        "1-70": "Weapons Add. Mod. 40%",
+        "100-100": "Weapons Add. Mod. 15%",
+        "71-88": "Weapons Add. Mod. 30%",
+        "89-96": "Weapons Add. Mod. 25%",
+        "97-99": "Weapons Add. Mod. 20%"
+      }
     },
     "Talisman of Elemental Travel": {
-      "name": "Talisman of Elemental Travel"
+      "description": "<p>Determines the type of Talisman of Elemental Travel found, such as a Lesser Talisman for a single element or a Greater Talisman for all elements.</p>",
+      "name": "Talisman of Elemental Travel",
+      "results": {
+        "1-2": "Lesser Talisman of Air",
+        "3-4": "Lesser Talisman of Earth",
+        "5-6": "Lesser Talisman of Fire",
+        "7-8": "Lesser Talisman of Water",
+        "9-10": "Greater Talisman (all elements)"
+      }
     },
     "Trap Type": {
-      "name": "Trap Type"
+      "description": "<p>A hidden trap is set in the room. If treasure is present, the trap likely guards it; otherwise, it's placed near an exit or underfoot.</p>",
+      "name": "Trap Type",
+      "results": {
+        "1-1": "A blade sweeps out from a wall, floor, or ceiling, striking a character for [[/r 1d6]] physical damage. A successful Saving Throw vs. Wands check avoids the hit.",
+        "10-10": "A small needle is hidden somewhere and is nearly undetectable until accidentally touched. When triggered, it will spring out and poke a character who tries to open something. The character can make a Saving Throw against poison; on failure, they suffer [[/r 1d6]] poison damage.",
+        "2-2": "A spring-loaded mechanism fires a volley of tiny darts. Each affected character must make a Saving Throw vs. Wands or take [[/r 1d4]] physical damage. Some darts may be poisoned; fail a Save vs. Poison and take an additional [[/r 1d6]] poison damage unless the character makes a saving vs poison.",
+        "3-3": "Triggering this trap sets off an explosion, dealing [[/r 2d4]] fire damage to all creatures in a 10' radius. A successful Saving Throw vs. Wands check halves the damage.",
+        "4-4": "When triggered, a heavy block or rubble falls from above. Affected characters must Save vs. Wands or take [[/r 1d8]] physical damage from the impact.",
+        "5-5": "Fog Trap",
+        "6-6": "If there's treasure, the illusion guards it; otherwise, it's placed near an exit or misleading floor section. When triggered, an illusory scene appears—perhaps a phantom monster, false treasure, or a vanishing floor. Characters may Save vs. Spells to disbelieve. Failure may cause panic, missteps into real danger, or lure the party toward another trap.",
+        "7-7": "Triggering this trap causes a sudden flash of blinding light. All creatures who see it must Save vs. Spells or be blinded for [[/r 1d4]] turns. While blinded, characters suffer -4 to attack rolls and cannot cast spells requiring sight.",
+        "8-8": "Pit Trap",
+        "9-9": "A poison gas is either already in the room or blown into the room. Victims make Saving Throws against Poison or take damage (1d4, 1d6, or whatever is dangerous but not deadly to most characters). Optionally, a Saving Throw against Poison with bonuses (+1, +2, +4) to the roll may be made, with failure resulting in death. The gas is usually contained and released when a container is opened."
+      }
     },
     "Uncommon Jewelry (15k)": {
-      "name": "Uncommon Jewelry (15k)"
+      "name": "Uncommon Jewelry (15k)",
+      "results": {
+        "1-1": "Armband",
+        "10-10": "Rabbit's Foot",
+        "2-2": "Belt",
+        "3-3": "Collar",
+        "4-4": "Earring",
+        "5-5": "Four-Leaf Clover",
+        "6-6": "Heart",
+        "7-7": "Leaf",
+        "8-8": "Necklace",
+        "9-9": "Pendant"
+      }
     },
     "Undead": {
-      "name": "Undead"
+      "name": "Undead",
+      "results": {
+        "1-3": "Ghoul",
+        "10-10": "Vampire",
+        "11-12": "Zombie",
+        "4-4": "Mummy*",
+        "5-6": "Skeleton",
+        "7-7": "Spectre",
+        "8-8": "Wight*",
+        "9-9": "Wraith*"
+      }
     },
     "Unusual": {
-      "name": "Unusual"
+      "description": "<p>Unusual encounter.</p>",
+      "name": "Unusual",
+      "results": {
+        "1-1": "Basilisk",
+        "10-10": "Lycanthrope, Werewolf*",
+        "11-11": "Medusa",
+        "12-12": "Treant",
+        "2-2": "Blink Dog",
+        "3-3": "Centaur",
+        "4-4": "Displacer Beast",
+        "5-5": "Gorgon",
+        "6-6": "Lycanthrope, Werebear*",
+        "7-7": "Lycanthrope, Wereboar*",
+        "8-8": "Lycanthrope, Wererat*",
+        "9-9": "Lycanthrope, Weretiger*"
+      }
     },
     "Vampire": {
-      "name": "Vampire"
+      "name": "Vampire",
+      "results": {
+        "1-1": "Vampire* (Bat)",
+        "2-2": "Vampire* (Dire Wolf)",
+        "3-3": "Vampire* (Human)"
+      }
     },
     "Wands, Staves, and Rods": {
-      "name": "Wands, Staves, and Rods"
+      "description": "<p>Wands and staves are powerful magical tools, each with unique effects. Rods are versatile items without charges, often imbued with potent abilities.</p>",
+      "name": "Wands, Staves, and Rods",
+      "results": {
+        "1-5": "Wand of Cold (M): Contains [[3d10]] charges.",
+        "100-100": "Rod of the Wyrm",
+        "11-14": "Wand of Fear (M): Contains [[3d10]] charges.",
+        "15-19": "Wand of Fireballs (M): Contains [[3d10]] charges.",
+        "20-23": "Wand of Illusion (M): Contains [[3d10]] charges.",
+        "24-28": "Wand of Lightning Bolts (M): Contains [[3d10]] charges.",
+        "29-33": "Wand of Magic Detection (M): Contains [[3d10]] charges.",
+        "34-38": "Wand of Metal Detection (M): Contains [[3d10]] charges.",
+        "39-42": "Wand of Negation (M): Contains [[3d10]] charges.",
+        "43-47": "Wand of Paralyzation (M): Contains [[3d10]] charges.",
+        "48-52": "Wand of Polymorphing (M): Contains [[3d10]] charges.",
+        "53-56": "Wand of Secret Door Detection (M): Contains [[3d10]] charges.",
+        "57-60": "Wand of Trap Detection (M): Contains [[3d10]] charges.",
+        "6-10": "Wand of Enemy Detection (M): Contains [[3d10]] charges.",
+        "61-61": "Staff of Commanding (S): Contains [[2d20]] charges.",
+        "62-63": "Staff of Dispelling: Contains [[2d20]] charges.",
+        "64-66": "Staff of the Druids (DR): Contains [[2d20]] charges.",
+        "67-69": "Staff of Element",
+        "70-71": "Staff of Harming (C): Contains [[2d20]] charges.",
+        "72-78": "Staff of Healing (C): Contains [[2d20]] charges.",
+        "79-79": "Staff of Power (M): Contains [[2d20]] charges.",
+        "80-82": "Snake Staff (C): Contains [[2d20]] charges.",
+        "83-85": "Staff of Striking (S): Contains [[2d20]] charges.",
+        "86-87": "Staff of Withering (C): Contains [[2d20]] charges.",
+        "88-88": "Staff of Wizardry (M): Contains [[2d20]] charges.",
+        "89-90": "Rod of Cancellation",
+        "91-91": "Rod of Dominion",
+        "92-92": "Rod of Health (C)",
+        "93-94": "Rod of Inertia (N)",
+        "95-95": "Rod of Parrying",
+        "96-96": "Rod of Victory",
+        "97-99": "Rod of Weaponry"
+      }
     },
     "Weapon Opponents": {
-      "name": "Weapon Opponents"
+      "description": "<p>Determines the type of opponent a weapon is specially effective against.</p>",
+      "name": "Weapon Opponents",
+      "results": {
+        "1-6": "Opponent: Bugs",
+        "10-15": "Opponent: Dragonkind",
+        "16-24": "Opponent: Enchanted monsters",
+        "25-36": "Opponent: Giantkind",
+        "37-48": "Opponent: Lycanthropes",
+        "49-52": "Opponent: Planar monsters",
+        "53-58": "Opponent: Regenerating monsters",
+        "59-67": "Opponent: Reptiles and dinosaurs",
+        "68-70": "Opponent: Spell-immune monsters",
+        "7-9": "Opponent: Constructs",
+        "71-76": "Opponent: Spellcasters",
+        "77-88": "Opponent: Undead",
+        "89-94": "Opponent: Water-breathing monsters",
+        "95-100": "Opponent: Weapon-using monsters"
+      }
     },
     "Weapon Talents": {
-      "name": "Weapon Talents"
+      "description": "<p>Determines the special talent of a weapon or missile.</p>",
+      "name": "Weapon Talents",
+      "results": {
+        "1-5": "Talent: Breathing",
+        "100-100": "Talent: Wishing",
+        "13-16": "Talent: Deceiving",
+        "17-23": "Talent: Defending",
+        "24-25": "Talent: Deflecting",
+        "26-27": "Talent: Draining",
+        "28-32": "Talent: Extinguishing",
+        "33-38": "Talent: Finding",
+        "39-43": "Talent: Flaming",
+        "44-46": "Talent: Flying",
+        "47-54": "Talent: Healing",
+        "55-59": "Talent: Hiding",
+        "6-12": "Talent: Charming",
+        "60-65": "Talent: Holding",
+        "66-73": "Talent: Lighting",
+        "74-79": "Talent: Silencing",
+        "80-81": "Talent: Slicing",
+        "82-85": "Talent: Slowing",
+        "86-89": "Talent: Speeding",
+        "90-94": "Talent: Translating",
+        "95-99": "Talent: Watching"
+      }
     },
     "Weapons Add. Mod. 10%": {
-      "name": "Weapons Add. Mod. 10%"
+      "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
+      "name": "Weapons Add. Mod. 10%",
+      "results": {
+        "1-10": "Additional Weapon Mods (Misc)",
+        "11-100": "No additional weapon modifiers"
+      }
     },
     "Weapons Add. Mod. 15%": {
-      "name": "Weapons Add. Mod. 15%"
+      "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
+      "name": "Weapons Add. Mod. 15%",
+      "results": {
+        "1-15": "Additional Weapon Mods (Misc)",
+        "16-100": "No additional weapon modifiers"
+      }
     },
     "Weapons Add. Mod. 20%": {
-      "name": "Weapons Add. Mod. 20%"
+      "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
+      "name": "Weapons Add. Mod. 20%",
+      "results": {
+        "1-20": "Additional Weapon Mods (Misc)",
+        "21-100": "No additional weapon modifiers"
+      }
     },
     "Weapons Add. Mod. 25%": {
-      "name": "Weapons Add. Mod. 25%"
+      "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
+      "name": "Weapons Add. Mod. 25%",
+      "results": {
+        "1-25": "Additional Weapon Mods (Misc)",
+        "26-100": "No additional weapon modifiers"
+      }
     },
     "Weapons Add. Mod. 30%": {
-      "name": "Weapons Add. Mod. 30%"
+      "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
+      "name": "Weapons Add. Mod. 30%",
+      "results": {
+        "1-30": "Additional Weapon Mods (Misc)",
+        "31-100": "No additional weapon modifiers"
+      }
     },
     "Weapons Add. Mod. 40%": {
-      "name": "Weapons Add. Mod. 40%"
+      "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
+      "name": "Weapons Add. Mod. 40%",
+      "results": {
+        "1-40": "Additional Weapon Mods (Misc)",
+        "41-100": "No additional weapon modifiers"
+      }
     },
     "Wishes Ring": {
-      "name": "Wishes Ring"
+      "description": "<p>Determines how many wishes the Wish Ring will grant, ranging from 1 to 4.</p>",
+      "name": "Wishes Ring",
+      "results": {
+        "1-4": "1 Wish",
+        "10-10": "4 Wishes",
+        "5-7": "2 Wishes",
+        "8-9": "3 Wishes"
+      }
     },
     "Woods Encounter": {
-      "name": "Woods Encounter"
+      "description": "<h3>Woods Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+      "name": "Woods Encounter",
+      "results": {
+        "1-1": "Human (Woods)",
+        "2-2": "Flyers (All Other)",
+        "3-3": "Humanoid (Woods)",
+        "4-4": "Insects",
+        "5-5": "Unusual",
+        "6-7": "Animal (Woods)",
+        "8-8": "Dragons"
+      }
     }
   },
   "folders": {
