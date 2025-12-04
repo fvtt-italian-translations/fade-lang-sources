@@ -56,6 +56,8 @@ jobs:
           repository: ${{ env.COMPENDIUM_REPO }}
           ref: ${{ env.COMPENDIUM_REPO_BRANCH }}
           path: compendium
+          fetch-depth: 0
+          fetch-tags: true
 
       - name: Compendiums - Cache Packs
         id: cache-packs
@@ -67,7 +69,7 @@ jobs:
       - name: Compendiums - Get Version
         working-directory: ./compendium
         run: |
-          COMPENDIUM_VERSION=$(grep -oP '(?<="version": ")[^"]+' module.json | tr -d '\n')
+          COMPENDIUM_VERSION=$(git describe --tags --abbrev=0)
           echo "compendiumVersion=$COMPENDIUM_VERSION" >> $GITHUB_ENV
 
       - name: Compendiums - Npm install
@@ -92,11 +94,13 @@ jobs:
           repository: ${{ env.SYSTEM_REPO }}
           ref: ${{ env.SYSTEM_REPO_BRANCH }}
           path: system
+          fetch-depth: 0
+          fetch-tags: true
 
       - name: System - Get Version
         working-directory: ./system
         run: |
-          SYSTEM_VERSION=$(grep -oP '(?<="version": ")[^"]+' system.json | tr -d '\n')
+          SYSTEM_VERSION=$(git describe --tags --abbrev=0)
           echo "systemVersion=$SYSTEM_VERSION" >> $GITHUB_ENV
 
       - name: Update Sources
