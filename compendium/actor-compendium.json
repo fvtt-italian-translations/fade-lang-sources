@@ -849,6 +849,19 @@
       "monsterType": "Normal Animal",
       "name": "Baboon, Rock"
     },
+    "Ballista": {
+      "biography": "<p><strong>Full crew:</strong> 4<br><strong>Fire rate:</strong> 1 per 2</p><p>See contained weapon description for further details.</p>",
+      "items": {
+        "PdHV8wjQID9fmFln": {
+          "name": "Protection"
+        },
+        "rY51QId1sQ5siqQ1": {
+          "description": "<p><strong>Fire rate:</strong> 1 per 2</p><p>A ballista is very similar to a normal crossbow and was actually the crossbow’s fore‑runner. It is much larger (often 5′‑10′ long) and mounted on a platform or wheeled carriage. The ballista described in the Siege Weapons Table is the largest one available. It is mounted on wheels (or on a wagon), or it can be placed on a pivot. The latter is the case when it is installed on a ship or a defensive fortification.</p><p>Ballista ammunition resembles spears, but they have larger heads. The ammunition is nearly useless against constructions, but it can inflict some damage to equipment. They are designed for use against men, animals, and monsters.</p><p>The crew of a ballista must be trained to use it, but the weapon does not require that an artillerist be present.</p><p>If a ballista is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by a trained crew with no artillerist present, take the size of the operating crew (maximum 4) and use that number as if it were the fighter’s experience level; in other words, the smaller the crew, the worse the attack roll becomes. If operated by an untrained crew, the ballista fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+          "name": "Ballista"
+        }
+      },
+      "name": "Ballista"
+    },
     "Bandit": {
       "biography": "<p>Bandits are NPC thieves who have come together to rob others. They typically operate in small groups or larger communities of 3-30 members. Often they send out raiding parties of 2-4 bandits to target travelers.</p>\n      <p>Bandits use deception, pretending to be ordinary people to surprise their victims. They are also known to set up ambushes, blocking roads with obstacles like fallen trees to force travelers to stop. Once stopped, the bandits attack from hiding, using ranged weapons to rob their victims.</p>\n      <p>In a bandit's lair, Treasure Type A can be found, but this is not carried by individual bandits. Bandits may be led by an NPC of any human character class, who is one or more levels higher than the bandits. This leader might have greater ambitions beyond robbery, such as organizing a network of bandit gangs for a more nefarious purpose or seeking revenge for an injustice.</p>\n      <p><strong>Terrain:</strong> Any, usually wilderness along main roads.</p>",
       "items": {
@@ -2636,24 +2649,6 @@
       "monsterType": "Normal Animal",
       "name": "Boar, Normal"
     },
-    "Boat, River": {
-      "biography": "<p>This boat is designed specifically for river travel. The length is 20'–30', beam (width) is 10', and draft (depth under water) is 2'–3'. </p><p><strong>Capacity:</strong> 30,000 cn. <br><strong>Crew:</strong> 8 rowers, 2 sailors (one of whom acts as captain). </p><p>It may be rowed or poled; it may have a wooden roof for protection from weather (1,000 gp extra).</p>",
-      "items": {
-        "8SBABRNcQRgmCbhV": {
-          "name": "Protection"
-        }
-      },
-      "name": "Boat, River"
-    },
-    "Boat, Sailing": {
-      "biography": "<p>This is a single-masted boat, designed for lake or coastal use. The length is 15'–45', beam is 5'–15', and draft is 3'–8'. </p><p><strong>Capacity:</strong> 20,000 cn. <br><strong>Minimum crew:</strong> 1 sailor; additional crew and a captain may be hired.</p>",
-      "items": {
-        "8SBABRNcQRgmCbhV": {
-          "name": "Protection"
-        }
-      },
-      "name": "Boat, Sailing"
-    },
     "Brontosaurus": {
       "biography": "<p>The brontosaurus is one of the largest of all dinosaurs. It has a strong, tapering tail and a massive body that supports a long neck and small head. The creature is 65–75 feet long and weighs more than 30 tons. </p><p>A brontosaurus is so heavy that it spends most of its time in water, which helps support its weight; if only its neck shows above water, it may be mistaken for a plesiosaurus or sea serpent. This dinosaur eats plants and is found only in deep marshes or on the edges of swamps.</p>",
       "items": {
@@ -2827,15 +2822,6 @@
       },
       "monsterType": "Normal Animal",
       "name": "Camel"
-    },
-    "Canoe": {
-      "biography": "<p>This is a light wood frame covered with hides, canvas, or waterproof bark; it is designed for rivers and swamps. The length is 15', beam is 3', and draft is 1'.</p><p><strong>Capacity:</strong> 6,000 cn.</p><p>It may be carried by one or two people; encumbrance is 1,000 cn for one, 300 cn each for two people.</p><p>A special type of canoe, the outrigger, can sail on the ocean; it costs twice as much as the normal canoe and has three times the encumbrance.</p>",
-      "items": {
-        "8SBABRNcQRgmCbhV": {
-          "name": "Protection"
-        }
-      },
-      "name": "Canoe"
     },
     "Carrion Crawler": {
       "biography": "<p>This scavenger, known as a Carrion Crawler, is a 9-foot-long, 3-foot-high, many-legged creature. It can move effortlessly across floors, walls, and ceilings. Its small mouth is surrounded by eight 2-foot-long tentacles, which can paralyze a victim upon a successful hit unless a saving throw vs. paralysis is made. The tentacles themselves do not inflict any damage.</p><p>Carrion Crawlers are notorious scavengers, typically feeding on the remains of dead animals. However, they will eagerly pursue fresh prey if the opportunity arises. They often attack small groups of travelers, paralyzing their victims and consuming them within three turns unless interrupted. The paralysis will naturally wear off in 2d4 turns unless cured magically.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
@@ -3123,6 +3109,32 @@
       },
       "monsterType": "Normal Animal",
       "name": "Cat, Tiger"
+    },
+    "Catapult, Heavy": {
+      "biography": "<p><strong>Full crew:</strong> 8<br><strong>Fire rate:</strong> 1 per 6</p><p>See contained weapon description for further details.</p>",
+      "items": {
+        "PdHV8wjQID9fmFln": {
+          "name": "Protection"
+        },
+        "QkcvQ1Pt9XrQagEK": {
+          "description": "<p><strong>Fire rate:</strong> 1 per 5</p><p>A catapult is a huge wooden “spoon” mounted in a wooden frame. Its lower end is fixed by twisted ropes, so that the tension on the ropes keeps the spoon portion nearly upright. When the spoon is pulled down, the ropes become taut. The spoon is secured in this position, loaded with shot, and released. The spoon snaps quickly upward until it hits a horizontal cross‑bar and stops; the shot continues on its way, following an arched trajectory. The range varies by the amount of tension on the ropes.</p><p>A trained artillerist knows the proper amounts of tension for various ranges of fire. Use of the catapult requires the presence of an artillerist. If you are using the General Skills rules from Chapter 5, anyone with the artillery skill can captain a catapult. Otherwise, the artillerist must be a hired NPC specialist.</p><p>There are two common types of catapults—light and heavy. Either may be mounted on a wheeled carriage for towing, but it must be firmly blocked in place when used. Light catapults may also be mounted on ships.</p><p>Catapults cannot be fired at moving targets. An exception is the ship‑mounted catapult, which is aimed by virtue of the ship steering in the correct direction; it can only be aimed at very large monsters and other ships.</p><p>If a catapult is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+          "name": "Catapult, Heavy"
+        }
+      },
+      "name": "Catapult, Heavy"
+    },
+    "Catapult, Light": {
+      "biography": "<p><strong>Full crew:</strong> 6<br><strong>Fire rate:</strong> 1 per 5</p><p>See contained weapon description for further details.</p>",
+      "items": {
+        "PdHV8wjQID9fmFln": {
+          "name": "Protection"
+        },
+        "wZ7dx6RK9wsq1ys9": {
+          "description": "<p><strong>Fire rate:</strong> 1 per 5</p><p>A catapult is a huge wooden “spoon” mounted in a wooden frame. Its lower end is fixed by twisted ropes, so that the tension on the ropes keeps the spoon portion nearly upright. When the spoon is pulled down, the ropes become taut. The spoon is secured in this position, loaded with shot, and released. The spoon snaps quickly upward until it hits a horizontal cross‑bar and stops; the shot continues on its way, following an arched trajectory. The range varies by the amount of tension on the ropes.</p><p>A trained artillerist knows the proper amounts of tension for various ranges of fire. Use of the catapult requires the presence of an artillerist. If you are using the General Skills rules from Chapter 5, anyone with the artillery skill can captain a catapult. Otherwise, the artillerist must be a hired NPC specialist.</p><p>There are two common types of catapults—light and heavy. Either may be mounted on a wheeled carriage for towing, but it must be firmly blocked in place when used. Light catapults may also be mounted on ships.</p><p>Catapults cannot be fired at moving targets. An exception is the ship‑mounted catapult, which is aimed by virtue of the ship steering in the correct direction; it can only be aimed at very large monsters and other ships.</p><p>If a catapult is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+          "name": "Catapult, Light"
+        }
+      },
+      "name": "Catapult, Light"
     },
     "Centaur": {
       "biography": "<p>A centaur is a creature with the head, arms, and upper body of a man joined to the body and legs of a horse. They are of average human intelligence and often carry weapons (clubs, lances, and bows; one weapon per creature). A centaur may use a charge attack with a lance.</p>\n    <p>Centaurs will form into small tribes or families. Their homes are in dense thickets or woods. The females and young will usually stay in the lair. If attacked, females and young will attempt to flee; if escape is impossible, they will fight to the death. The young fight as 2-HD monsters and do less damage (1d2/1d2/1d4).</p>\n    <p>There can be centaur spellcasters; see \"Monster Spellcasters.\"</p>\n    <p><strong>Terrain:</strong> Woods, Open, Wooded Hills.<br><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed.</p>",
@@ -8417,15 +8429,6 @@
       },
       "monsterType": "Normal Animal",
       "name": "Fox"
-    },
-    "Galley, Large": {
-      "biography": "<p>This ship is designed for oceans and large lakes. The length is 120'–150', beam is 15'–20', and draft is 3'.</p><p><strong>Capacity:</strong> 40,000 cn plus crew.</p><p><strong>Standard crew:</strong> 180 rowers, 20 sailors, 50 marines, 1 captain. </p><p>It has a single mast with a square sail. It can have a ram (1/3 additional cost) and two light catapults (bow and stern).</p>",
-      "items": {
-        "8SBABRNcQRgmCbhV": {
-          "name": "Protection"
-        }
-      },
-      "name": "Galley, Large"
     },
     "Gargantua, Carrion Crawler": {
       "biography": "<p>A gargantua carrion crawler is a gigantic, grotesque arthropod created through magical experiments by the mad wizard Gargantua. It is twice the size of a normal carrion crawler, growing up to 40 feet long.</p><p><strong>Hunting & Combat:</strong> This massive scavenger cannot surprise enemies due to its size and the noise it makes while moving. It suffers a -4 penalty to attacks against man-sized or smaller creatures.</p><p><strong>Paralysis Tentacles:</strong> The worm lashes out with 8 paralyzing tentacles, each dealing 1d4+1 damage. Any creature hit must make a saving throw vs. paralysis or be unable to move.</p><p><strong>Massive Appetite:</strong> Gargantua <span style=\"font-family: Barlow, sans-serif\">carrion crawler</span> primarily feed on corpses but will attack living creatures if hungry.</p><p><strong>Terrain:</strong> Same as the original species (Underground, Ruins).</p>",
@@ -21937,6 +21940,19 @@
       "monsterType": "Lowlife",
       "name": "Purple Worm"
     },
+    "Ram, Battering": {
+      "biography": "<p><strong>Full crew:</strong> 10<br><strong>Fire rate:</strong> 1 per 2</p><p>See contained weapon description for further details.</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        },
+        "VgiuEFNKSHqPj3KQ": {
+          "description": "<p>A battering ram is a large, heavy log or similar device mounted on wheels. The log is usually capped with metal. This end is repeatedly slammed against a target (such as a door or gate), using brute force to cause damage.</p><p>The standard battering ram is 10' long and needs a 10‑man crew to operate. For a longer ram, add one crewman per extra foot of length. A ram can be transported by fewer men than it takes to operate it.</p><p>The ram is commonly used by fastening it securely to stout chains attached to a wheeled gallery shed ceiling or belfry (see \"Miscellaneous Siege Equipment,\" below). The ram is then easily rolled up to and swung against the target. When a ram is used in this manner, only one man is needed for each 2' of the ram's length; a five‑man crew is sufficient for a 10' battering ram. The crew of a battering ram does not have to be trained in its use.</p>",
+          "name": "Ram, Battering"
+        }
+      },
+      "name": "Ram, Battering"
+    },
     "Rat, Giant": {
       "biography": "<p>Rats are clever rodents that can eat meat, grain, sawdust, almost anything. They usually avoid humans and won’t attack unless summoned (e.g., by a wererat) or defending their lair. Rats are adept swimmers and may attack in water. They fear fire and flee from it unless compelled to fight by a summoning creature. </p><p><strong>Some rats carry diseases</strong>; each bite has a 1 in 20 chance of infection (roll per hit), requiring a save vs. poison to avoid. Failure may lead to death in [[/r 1d6 #Days until death]] days (1 in 4 chance) or a month of sickness, preventing adventuring.</p><p>Giant rats, 3' long or more with gray or black fur (morale 8), are found in dark dungeon corners and near undead.</p><p><strong>Terrain:</strong> Cavern, Ruins</p>",
       "items": {
@@ -26820,6 +26836,19 @@
       "monsterType": "Monster",
       "name": "Treant"
     },
+    "Trebuchet": {
+      "biography": "<p><strong>Full crew:</strong> 12<br><strong>Fire rate:</strong> 1 per 6</p><p>See contained weapon description for further details.</p>",
+      "items": {
+        "PdHV8wjQID9fmFln": {
+          "name": "Protection"
+        },
+        "gMIKfqFcsARJ9wDy": {
+          "description": "<p><strong>Fire rate:</strong> 1 per 6</p><p>Somewhat similar to the catapult, a trebuchet is a huge wooden bar with a sling at one end, mounted on a wooden frame in seesaw fashion. Instead of using ropes and tension to propel it, the bar is mounted on a pivot so that part of the bar projects toward the target. A large basket or net is hung from this end and is filled with weights. Ropes are used to pull the long sling arm down and to hold it for loading.</p><p>When released, the weights pull the short arm downward and the long arm pivots quickly upward. The sling slows naturally as the weights reach the bottom of the arc and flies open, causing the shot to fly off in a high, arched trajectory. The range of fire is determined by the amount of weight in the basket or net and by the exact position of the basket on the short arm of the bar.</p><p>If a trebuchet is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+          "name": "Trebuchet"
+        }
+      },
+      "name": "Trebuchet"
+    },
     "Triceratops": {
       "biography": "<p>The Triceratops is an armored, herbivorous dinosaur, akin to an elephant in temperament. This creature, measuring about 30 feet in length and weighing between 10 to 12 tons, features a distinctive collar-like armor plate around its neck for protection. Its offensive capabilities include a short horn on its snout and two long horns above its eyes, making it a formidable opponent even against large carnivorous dinosaurs.</p><p>Despite being a herbivore, the Triceratops is known for its aggressive behavior, often charging into combat. It can deliver a double-damage charge attack if it's the first attack or if it has moved 20 yards or more away from its enemy before attacking again.</p><p><strong>Terrain:</strong> Open (prehistoric)<br><strong>Load:</strong> Can carry 10,000 cn at full speed, 20,000 cn at half speed.</p>",
       "items": {
@@ -27835,10 +27864,10 @@
     "Monsters & Beasts": "Monsters & Beasts",
     "Mounts": "Mounts",
     "Nightshades": "Nightshades",
+    "Siege Engine": "Siege Engine",
     "Spider, Planar": "Spider, Planar",
     "Thugs": "Thugs",
-    "Vehicle/Mount": "Vehicle/Mount",
-    "Water Transportation": "Water Transportation"
+    "Vehicle/Mount": "Vehicle/Mount"
   },
   "label": "Actor Compendium"
 }

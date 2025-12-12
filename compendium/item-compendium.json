@@ -330,6 +330,14 @@
       "description": "<p>When attacking an unaware opponent from behind, the attacker gains a +4 bonus to hit and deals double damage.</p>",
       "name": "Backstab"
     },
+    "Ballista": {
+      "description": "<p><strong>Fire rate:</strong> 1 per 2</p><p>A ballista is very similar to a normal crossbow and was actually the crossbow’s fore‑runner. It is much larger (often 5′‑10′ long) and mounted on a platform or wheeled carriage. The ballista described in the Siege Weapons Table is the largest one available. It is mounted on wheels (or on a wagon), or it can be placed on a pivot. The latter is the case when it is installed on a ship or a defensive fortification.</p><p>Ballista ammunition resembles spears, but they have larger heads. The ammunition is nearly useless against constructions, but it can inflict some damage to equipment. They are designed for use against men, animals, and monsters.</p><p>The crew of a ballista must be trained to use it, but the weapon does not require that an artillerist be present.</p><p>If a ballista is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by a trained crew with no artillerist present, take the size of the operating crew (maximum 4) and use that number as if it were the fighter’s experience level; in other words, the smaller the crew, the worse the attack roll becomes. If operated by an untrained crew, the ballista fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+      "name": "Ballista"
+    },
+    "Ballista Bolt": {
+      "description": "<p>A hand-crafted bolt to be used with a ballista.</p>",
+      "name": "Ballista Bolt"
+    },
     "Banded Mail": {
       "description": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
       "name": "Banded Mail",
@@ -1295,6 +1303,22 @@
       "description": "<p>A carbuncle is not a specific gemstone but rather a term historically used to refer to any red gemstone, particularly a deep red garnet or ruby. It is characterized by its rich, dark red color and smooth, polished surface. Carbuncles were highly valued in ancient times for their striking appearance and were often set in jewelry and ceremonial objects.</p>",
       "name": "Carbuncle",
       "unidentifiedDesc": "<p>A carbuncle is not a specific gemstone but rather a term historically used to refer to any red gemstone, particularly a deep red garnet or ruby. It is characterized by its rich, dark red color and smooth, polished surface. Carbuncles were highly valued in ancient times for their striking appearance and were often set in jewelry and ceremonial objects.</p>"
+    },
+    "Catapult Shot, Heavy": {
+      "description": "<p>A hand-crafted catapult shot made of stone. To be used with a heavy catapult.</p>",
+      "name": "Catapult Shot, Heavy"
+    },
+    "Catapult Shot, Light": {
+      "description": "<p>A hand-crafted catapult shot made of stone. To be used with a light catapult.</p>",
+      "name": "Catapult Shot, Light"
+    },
+    "Catapult, Heavy": {
+      "description": "<p><strong>Fire rate:</strong> 1 per 5</p><p>A catapult is a huge wooden “spoon” mounted in a wooden frame. Its lower end is fixed by twisted ropes, so that the tension on the ropes keeps the spoon portion nearly upright. When the spoon is pulled down, the ropes become taut. The spoon is secured in this position, loaded with shot, and released. The spoon snaps quickly upward until it hits a horizontal cross‑bar and stops; the shot continues on its way, following an arched trajectory. The range varies by the amount of tension on the ropes.</p><p>A trained artillerist knows the proper amounts of tension for various ranges of fire. Use of the catapult requires the presence of an artillerist. If you are using the General Skills rules from Chapter 5, anyone with the artillery skill can captain a catapult. Otherwise, the artillerist must be a hired NPC specialist.</p><p>There are two common types of catapults—light and heavy. Either may be mounted on a wheeled carriage for towing, but it must be firmly blocked in place when used. Light catapults may also be mounted on ships.</p><p>Catapults cannot be fired at moving targets. An exception is the ship‑mounted catapult, which is aimed by virtue of the ship steering in the correct direction; it can only be aimed at very large monsters and other ships.</p><p>If a catapult is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+      "name": "Catapult, Heavy"
+    },
+    "Catapult, Light": {
+      "description": "<p><strong>Fire rate:</strong> 1 per 5</p><p>A catapult is a huge wooden “spoon” mounted in a wooden frame. Its lower end is fixed by twisted ropes, so that the tension on the ropes keeps the spoon portion nearly upright. When the spoon is pulled down, the ropes become taut. The spoon is secured in this position, loaded with shot, and released. The spoon snaps quickly upward until it hits a horizontal cross‑bar and stops; the shot continues on its way, following an arched trajectory. The range varies by the amount of tension on the ropes.</p><p>A trained artillerist knows the proper amounts of tension for various ranges of fire. Use of the catapult requires the presence of an artillerist. If you are using the General Skills rules from Chapter 5, anyone with the artillery skill can captain a catapult. Otherwise, the artillerist must be a hired NPC specialist.</p><p>There are two common types of catapults—light and heavy. Either may be mounted on a wheeled carriage for towing, but it must be firmly blocked in place when used. Light catapults may also be mounted on ships.</p><p>Catapults cannot be fired at moving targets. An exception is the ship‑mounted catapult, which is aimed by virtue of the ship steering in the correct direction; it can only be aimed at very large monsters and other ships.</p><p>If a catapult is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+      "name": "Catapult, Light"
     },
     "Cause Critical Wounds*": {
       "description": "<p>This spell inflicts [[/r 3d6+3 # points of damage]] points of damage on a creature touched by the caster. A successful melee attack roll is required.</p>",
@@ -4794,6 +4818,10 @@
       "name": "Raise Dead*",
       "spellEffect": "Raises one dead human or demihuman, or damages undead"
     },
+    "Ram, Battering": {
+      "description": "<p>A battering ram is a large, heavy log or similar device mounted on wheels. The log is usually capped with metal. This end is repeatedly slammed against a target (such as a door or gate), using brute force to cause damage.</p><p>The standard battering ram is 10' long and needs a 10‑man crew to operate. For a longer ram, add one crewman per extra foot of length. A ram can be transported by fewer men than it takes to operate it.</p><p>The ram is commonly used by fastening it securely to stout chains attached to a wheeled gallery shed ceiling or belfry (see \"Miscellaneous Siege Equipment,\" below). The ram is then easily rolled up to and swung against the target. When a ram is used in this manner, only one man is needed for each 2' of the ram's length; a five‑man crew is sufficient for a 10' battering ram. The crew of a battering ram does not have to be trained in its use.</p>",
+      "name": "Ram, Battering"
+    },
     "Rapid Fire": {
       "description": "<p>A successful Check enables a character to fire a bow twice instead of once. Each shot is made with a penalty of ‐3 to hit. The first arrow is fired according to which side wins initiative, the second arrow is always fired at the end of the round.</p><p>From GAZ13.</p>",
       "name": "Rapid Fire"
@@ -6746,6 +6774,14 @@
       "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
       "unidentifiedName": "Mysterious Scroll"
     },
+    "Trebuchet": {
+      "description": "<p><strong>Fire rate:</strong> 1 per 6</p><p>Somewhat similar to the catapult, a trebuchet is a huge wooden bar with a sling at one end, mounted on a wooden frame in seesaw fashion. Instead of using ropes and tension to propel it, the bar is mounted on a pivot so that part of the bar projects toward the target. A large basket or net is hung from this end and is filled with weights. Ropes are used to pull the long sling arm down and to hold it for loading.</p><p>When released, the weights pull the short arm downward and the long arm pivots quickly upward. The sling slows naturally as the weights reach the bottom of the arc and flies open, causing the shot to fly off in a high, arched trajectory. The range of fire is determined by the amount of weight in the basket or net and by the exact position of the basket on the short arm of the bar.</p><p>If a trebuchet is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+      "name": "Trebuchet"
+    },
+    "Trebuchet Shot": {
+      "description": "<p>A hand-crafted trebuchet shot made of stone.</p>",
+      "name": "Trebuchet Shot"
+    },
     "Trident +1": {
       "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
       "name": "Trident +1",
@@ -7122,6 +7158,7 @@
     "Rods": "Rods",
     "Saving Throws": "Saving Throws",
     "Scroll": "Scroll",
+    "Siege Equipment": "Siege Equipment",
     "Special": "Special",
     "Special Abilities": "Special Abilities",
     "Spells": "Spells",
