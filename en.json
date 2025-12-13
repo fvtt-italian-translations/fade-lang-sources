@@ -271,6 +271,13 @@
         "SHint": "Creatures between 2 and under 4 feet tall, such as kobolds and goblins. In standard combat mechanics, this size includes all smaller sizes.",
         "T": "Tiny",
         "THint": "Creatures less than 2 feet tall, such as pixies, sprites, and giant rats."
+      },
+      "vehicleTypeTitle": "Vehicle Type",
+      "vehicleTypes": {
+        "mount": "Mount",
+        "siege": "Siege",
+        "simple": "Simple",
+        "vessel": "Vessel"
       }
     },
     "Armor": {
@@ -335,6 +342,7 @@
         }
       },
       "actions": {
+        "attack": "Attack",
         "cast": "Cast",
         "consume": "Consume",
         "melee": "Melee",
@@ -558,7 +566,7 @@
       "weaponTypes": {
         "all": {
           "abbr": "A",
-          "long": "All"
+          "long": "All (M/H)"
         },
         "handheld": {
           "abbr": "H",
@@ -567,6 +575,10 @@
         "monster": {
           "abbr": "M",
           "long": "Monster/Missile"
+        },
+        "siege": {
+          "abbr": "SG",
+          "long": "Siege"
         },
         "wr": {
           "abbr": "WR",
@@ -703,6 +715,7 @@
       "range": {
         "long": "Long",
         "medium": "Medium",
+        "min": "Minimum",
         "section": "Ranges",
         "short": "Short"
       },
@@ -1093,6 +1106,39 @@
     "showResult": {
       "hint": "Show the result?",
       "name": "Result"
+    },
+    "siege": {
+      "acplus": {
+        "hint": "Armor class bonus the equipment provides for thos protected by it.",
+        "label": "AC+"
+      },
+      "ammoCostWk": {
+        "hint": "Cost of ammo per week",
+        "label": "Ammo Cost/Wk."
+      },
+      "artillerist": {
+        "hint": "Does the equipment require an artillerist?",
+        "label": "Artillerist"
+      },
+      "crew": {
+        "hint": "The current crew size.",
+        "label": "Crew"
+      },
+      "fireRate": {
+        "hint": "How many turns it takes to fire if unready.",
+        "label": "Fire Rate"
+      },
+      "fullCrew": {
+        "hint": "The optimum size of crew to operate this piece of equipment.",
+        "label": "Full Crew"
+      },
+      "plural": "Siege Weapons",
+      "thac0": {
+        "hint": "The THAC0 for this piece of equipment based on specialists and crew."
+      },
+      "thbonus": {
+        "hint": "The to-hit bonus for this piece of equipment based on specialists and crew."
+      }
     },
     "tabs": {
       "abilities": "Abilities",

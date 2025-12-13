@@ -2649,6 +2649,24 @@
       "monsterType": "Normal Animal",
       "name": "Boar, Normal"
     },
+    "Boat, River": {
+      "biography": "<p>This boat is designed specifically for river travel. The length is 20'–30', beam (width) is 10', and draft (depth under water) is 2'–3'.</p><p><strong>Capacity:</strong> 40,000 cn. <br><strong>Crew:</strong> 8 rowers, 2 sailors (one of whom acts as captain).</p><p>It may be rowed or poled; it may have a wooden roof for protection from weather (1,000 gp extra).</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Boat, River"
+    },
+    "Boat, Sailing": {
+      "biography": "<p>This is a single-masted boat, designed for lake or coastal use. The length is 15'–45', beam is 5'–15', and draft is 3'–8'. </p><p><strong>Capacity:</strong> 20,000 cn. <br><strong>Minimum crew:</strong> 1 sailor; additional crew and a captain may be hired.</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Boat, Sailing"
+    },
     "Brontosaurus": {
       "biography": "<p>The brontosaurus is one of the largest of all dinosaurs. It has a strong, tapering tail and a massive body that supports a long neck and small head. The creature is 65–75 feet long and weighs more than 30 tons. </p><p>A brontosaurus is so heavy that it spends most of its time in water, which helps support its weight; if only its neck shows above water, it may be mistaken for a plesiosaurus or sea serpent. This dinosaur eats plants and is found only in deep marshes or on the edges of swamps.</p>",
       "items": {
@@ -2822,6 +2840,15 @@
       },
       "monsterType": "Normal Animal",
       "name": "Camel"
+    },
+    "Canoe": {
+      "biography": "<p>This is a light wood frame covered with hides, canvas, or waterproof bark; it is designed for rivers and swamps. The length is 15', beam is 3', and draft is 1'. </p><p><strong>Capacity:</strong> 6,000 cn. </p><p>It may be carried by one or two people; encumbrance is 1,000 cn for one, 300 cn each for two people. A special type of canoe, the outrigger, can sail on the ocean; it costs twice as much as the normal canoe and has three times the encumbrance.</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Canoe"
     },
     "Carrion Crawler": {
       "biography": "<p>This scavenger, known as a Carrion Crawler, is a 9-foot-long, 3-foot-high, many-legged creature. It can move effortlessly across floors, walls, and ceilings. Its small mouth is surrounded by eight 2-foot-long tentacles, which can paralyze a victim upon a successful hit unless a saving throw vs. paralysis is made. The tentacles themselves do not inflict any damage.</p><p>Carrion Crawlers are notorious scavengers, typically feeding on the remains of dead animals. However, they will eagerly pursue fresh prey if the opportunity arises. They often attack small groups of travelers, paralyzing their victims and consuming them within three turns unless interrupted. The paralysis will naturally wear off in 2d4 turns unless cured magically.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
@@ -8429,6 +8456,37 @@
       },
       "monsterType": "Normal Animal",
       "name": "Fox"
+    },
+    "Galley, Large": {
+      "biography": "<p>This ship is designed for oceans and large lakes. The length is 120'–150', beam is 15'–20', and draft is 3'.</p><p><strong>Capacity:</strong> 40,000 cn plus crew.</p><p><strong>Standard crew:</strong> 180 rowers, 20 sailors, 50 marines, 1 captain. </p><p>It has a single mast with a square sail. It can have a ram (1/3 additional cost) and two light catapults (bow and stern).</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Galley, Large"
+    },
+    "Galley, Small": {
+      "biography": "<p>Similar to the large galley, this ship is built for coastal and lake use. The length is 60'–100', beam is 10'–15', and draft is 2'–3'. </p><p><strong>Capacity:</strong> 20,000 cn plus crew. </p><p><strong>Standard crew:</strong> 60 rowers, 10 sailors, 20 marines, 1 captain. This ship can have a ram (1/3 extra cost) and two light catapults (bow and stern).</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Galley, Small"
+    },
+    "Galley, War": {
+      "biography": "<p>This large, two-masted galley is designed for combat; it is often used as a flagship. The length is 120'–150', beam is 20'–30', and draft is 4'–6'. </p><p><strong>Capacity:</strong> 60,000 cn plus crew. </p><p><strong>Standard crew:</strong> 300 rowers, 30 sailors, 75 marines, 1 captain. </p><p>This ship always has a ram and one deck above the rowers has two light wooden towers (bow and stern), each 10'–20' square, height 15'–20'. It can have three light catapults.</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        },
+        "VgiuEFNKSHqPj3KQ": {
+          "description": "<p>A battering ram is a large, heavy log or similar device mounted on wheels. The log is usually capped with metal. This end is repeatedly slammed against a target (such as a door or gate), using brute force to cause damage.</p><p>The standard battering ram is 10' long and needs a 10‑man crew to operate. For a longer ram, add one crewman per extra foot of length. A ram can be transported by fewer men than it takes to operate it.</p><p>The ram is commonly used by fastening it securely to stout chains attached to a wheeled gallery shed ceiling or belfry (see \"Miscellaneous Siege Equipment,\" below). The ram is then easily rolled up to and swung against the target. When a ram is used in this manner, only one man is needed for each 2' of the ram's length; a five‑man crew is sufficient for a 10' battering ram. The crew of a battering ram does not have to be trained in its use.</p>",
+          "name": "Ram, Battering"
+        }
+      },
+      "name": "Galley, War"
     },
     "Gargantua, Carrion Crawler": {
       "biography": "<p>A gargantua carrion crawler is a gigantic, grotesque arthropod created through magical experiments by the mad wizard Gargantua. It is twice the size of a normal carrion crawler, growing up to 40 feet long.</p><p><strong>Hunting & Combat:</strong> This massive scavenger cannot surprise enemies due to its size and the noise it makes while moving. It suffers a -4 penalty to attacks against man-sized or smaller creatures.</p><p><strong>Paralysis Tentacles:</strong> The worm lashes out with 8 paralyzing tentacles, each dealing 1d4+1 damage. Any creature hit must make a saving throw vs. paralysis or be unable to move.</p><p><strong>Massive Appetite:</strong> Gargantua <span style=\"font-family: Barlow, sans-serif\">carrion crawler</span> primarily feed on corpses but will attack living creatures if hungry.</p><p><strong>Terrain:</strong> Same as the original species (Underground, Ruins).</p>",
@@ -17495,6 +17553,21 @@
       "monsterType": "Undead, Enchanted",
       "name": "Lich, Magic-User (36HD)*"
     },
+    "Lifeboat, Ship's": {
+      "biography": "<p>This vessel can carry up to ten people. It is designed for survival and each has a collapsible mast. The length is 20', beam is 4'‑5', and draft is 1'‑2'. </p><p><strong>Capacity:</strong> 15,000 cn. </p><p>Stored onboard the ship is one week’s iron rations for ten people. Small ships usually carry one or two lifeboats; large ships carry three or four. Lifeboats are not included in the listed cost of ships. A lifeboat carried onboard another vessel has an encumbrance of 5,000 cn (deducted from the ship’s capacity).</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        },
+        "F9MPYJFMoaKIuqeW": {
+          "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+          "name": "Crossbow, Lt",
+          "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+          "weaponMastery": "Crossbow, Light"
+        }
+      },
+      "name": "Lifeboat, Ship's"
+    },
     "Lizard Man": {
       "biography": "<p>Lizard Men thrive in swamps, rivers, lakes, and coastal caverns, their humanoid forms adorned with scaly hides, clawed hands, tails, and reptilian heads. Ranging from drab green or brown to vivid reds, blues, yellows, or greens, these water-dwelling tribes hunt relentlessly, often capturing humans and demihumans for feasts at their lairs.</p><p>Semi-intelligent, they wield spears or large clubs—treated as maces—with a +1 damage bonus from their formidable strength (e.g., [[/r 1d6+1 #Weapon damage]] for spear). One in ten speaks rudimentary Common, allowing tense negotiations—though hunger may override talk if food isn’t offered, driving them to dine on their interlocutors.</p><p>Living arduous lives, they roam in bands of [[/r 2d4 #Lizard Men wandering]] or lairs of [[/r 6d6 #Lizard Men in lair]], sometimes serving other races as warriors or scouts for sustenance. Neutral and pragmatic, they hoard modest treasures, valuing only what aids their survival (HD 2 + 1, XP 25).</p><p><strong>Terrain:</strong> Cavern, River/Lake, Swamps</p>",
       "items": {
@@ -17781,6 +17854,15 @@
       },
       "monsterType": "Lowlife",
       "name": "Locust, Giant"
+    },
+    "Longship": {
+      "biography": "<p>This ship is designed for river, ocean, or coastal use. The length is 60'‑80', beam is 10'‑15, and draft is 2'‑3'.</p><p><strong>Capacity:</strong> 40,000 cn.</p><p><strong>Standard crew:</strong> 75 sailors (acting as rowers and marines), 1 captain. Sixty rowers are needed for full speed.</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Longship"
     },
     "Lupin": {
       "biography": "<p>Lupins are dog-like humanoids with fur-covered, humanlike bodies and canine heads. They hate werewolves and will attack them on sight (they can recognize a werewolf even in human form). Lupins live in tribal societies with hereditary rulers and are often allied with humans. In battle, lupins sometimes ride trained dire wolves and charge with lances.</p>",
@@ -21940,6 +22022,24 @@
       "monsterType": "Lowlife",
       "name": "Purple Worm"
     },
+    "Raft, PC Built": {
+      "biography": "<p>This is an awkward floating platform or barge, moved by poles or natural current, and often equipped with a crude steering oar. Maximum size 30' × 40'. Characters can build their own rafts if wood is available—this takes 1d3 days per 100 sq ft (maximum size 600 sq ft).</p><p>Capacity: 5,000 cn per 100 sq ft.</p><p><em>The hull points and movement rate figures are for each 100 square foot section (10' x 10')</em></p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Raft, PC Built"
+    },
+    "Raft, Professional": {
+      "biography": "<p>This is an awkward floating platform or barge, moved by poles or natural current, and often equipped with a crude steering oar. Maximum size 30' × 40'. It costs 1gp per sq ft.</p><p>Capacity: 10,000 cn per 100 sq ft.</p><p>The raft may have raised edges and a tent or wood hut for shelter. It is often dismantled and sold for the value of the wood (¼ price) once the cargo reaches a downstream port. It may be found as a ferry at a river crossing</p><p><em>The hull points and movement rate figures are for each 100 square foot section (10' x 10')</em></p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Raft, Professional"
+    },
     "Ram, Battering": {
       "biography": "<p><strong>Full crew:</strong> 10<br><strong>Fire rate:</strong> 1 per 2</p><p>See contained weapon description for further details.</p>",
       "items": {
@@ -22364,6 +22464,24 @@
       },
       "monsterType": "Monster",
       "name": "Rust Monster"
+    },
+    "Sailing Ship, Large": {
+      "biography": "<p>This is a three‑masted ship with one or more decks. The length is 100'-150', beam is 25'-30', and draft is 10'-12'.</p><p><strong>Capacity:</strong> 300,000 cn plus crew.</p><p><strong>Standard crew:</strong> 20 sailors, 1 captain.</p><p>The bow and stern are raised “castles” for better field of fire, and it may have two light catapults.</p><p>Sailing ships have no marines. If this vessel is converted into a troop transport, it can accommodate 50 marines and keep its cargo capacity, but it costs 1/3 more gp (26,600 gp).</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Sailing Ship, Large"
+    },
+    "Sailing Ship, Small": {
+      "biography": "<p>Very similar to the large sailing ship, the small sailing ship has a single mast. The length is 60'-80', beam is 20'-30', and draft is 5'-8'.</p><p><strong>Capacity:</strong> 100,000 cn plus crew.</p><p><strong>Standard crew:</strong> 10 sailors, 1 captain.</p><p>Sailing ships have no marines. If this vessel is converted into a troop transport, it can accommodate 25 marines and keep its cargo capacity, but it costs 1/3 more gp (6650 gp). </p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Sailing Ship, Small"
     },
     "Salamander, Flame*": {
       "biography": "<p>The flame salamander is a fearsome creature from the elemental plane of Fire. It resembles a massive snakelike lizard, measuring between 12 and 16 feet in length, with bright orange-yellow and orange-red scales. While native to the plane of Fire, it is sometimes found in very hot environments on the Prime Plane, such as volcanoes or desert lands.</p>\n        <p>In combat, it attacks with its claws and powerful bite. Additionally, the heat it radiates is intense and affects all creatures within 20 feet, inflicting 1d8 points of heat damage per round. The salamander itself is completely immune to all forms of fire.</p>\n        <p>Flame salamanders are mortal enemies of frost salamanders and will attack them on sight.</p>\n        <strong>Terrain:</strong> Plane of Fire.<br>",
@@ -26996,6 +27114,15 @@
       "monsterType": "Giant Humanoid",
       "name": "Troll"
     },
+    "Troop Transport": {
+      "biography": "<p>This is a three‑masted ship with one or more decks. The length is 100'-150', beam is 25'-30', and draft is 10'-12'. This vessel is designed to carry people.</p><p><strong>Capacity:</strong> 600,000 cn, double that of a large sailing ship, <strong>calculated for men and horses</strong>.</p><p><strong>Standard crew:</strong> 20 sailors, 100 marines, 1 captain.</p><p>This ship often has special modifications. For example, troop transports designed to carry cavalry will have a hatch cut into the side for loading horses or other animals.</p>",
+      "items": {
+        "8SBABRNcQRgmCbhV": {
+          "name": "Protection"
+        }
+      },
+      "name": "Troop Transport"
+    },
     "Tyrannosaurus Rex": {
       "biography": "<p>The 'tyrant lizard,' or Tyrannosaurus Rex, is the largest predatory dinosaur known, measuring at least 40 feet in length, weighing up to 8 tons, and standing about 20 feet tall. It roams 'lost world' regions, where it hunts with ferocious intent. This creature moves on its hind legs, with its massive tail acting as a counterbalance, while its small, clawed forelimbs offer little aid in combat. However, its primary weapon, its colossal jaws lined with 6-inch teeth, are devastating. The Tyrannosaurus Rex will attack any creature of man-sized or larger, focusing on the largest first. A roll of 19-20 on an attack allows it to swallow a man-sized opponent whole, dealing 2d4 damage each round until the victim is freed.</p><p><strong>Terrain:</strong> Jungle, Open, Woods (prehistoric)</p>",
       "items": {
@@ -27867,7 +27994,8 @@
     "Siege Engine": "Siege Engine",
     "Spider, Planar": "Spider, Planar",
     "Thugs": "Thugs",
-    "Vehicle/Mount": "Vehicle/Mount"
+    "Vehicle/Mount": "Vehicle/Mount",
+    "Water Transportation": "Water Transportation"
   },
   "label": "Actor Compendium"
 }
