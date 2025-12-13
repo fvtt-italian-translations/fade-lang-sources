@@ -271,7 +271,11 @@
                 "plants": "Piante",
                 "flaming-weak": "Debolezza al fuoco"
             },
-            "combat": "Combattimento"
+            "combat": "Combattimento",
+            "vehicleTypes": {
+                "mount": "Montare",
+                "simple": "Semplice"
+            }
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -425,7 +429,8 @@
                 "section": "Gittata",
                 "long": "Lunga",
                 "medium": "Media",
-                "short": "Corta"
+                "short": "Corta",
+                "min": "Minimo"
             },
             "damage": {
                 "abbr": "Dnn",
@@ -637,7 +642,8 @@
                 "use": "Usa",
                 "shoot": "Tira",
                 "consume": "Consumare",
-                "none": "Nessuna azione"
+                "none": "Nessuna azione",
+                "attack": "Attacco"
             },
             "abilityCheck": {
                 "tieredResults": {
@@ -1163,7 +1169,12 @@
             "requiredScores": "Punteggi Abilità Necessari",
             "classes": "Classi"
         },
-        "Search": "Cerca oggetti..."
+        "Search": "Cerca oggetti...",
+        "siege": {
+            "crew": {
+                "label": "Equipaggio"
+            }
+        }
     },
     "SETTINGS": {
         "Encumbrance": {
