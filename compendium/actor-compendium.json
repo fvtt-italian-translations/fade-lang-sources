@@ -4516,11 +4516,36 @@
     "Dog, Normal": {
       "biography": "<p>Dogs are carnivores and hunt in packs. Though they prefer wilderness, they may occasionally be found in caves. If three or fewer dogs are encountered, or if the pack is reduced to less than 50% of its original numbers, their morale is 6 rather than 8.</p><p><strong>Terrain:</strong> Any.</p><p><strong>Load:</strong> 200 to 1000 cn max, depending on breed.</p>",
       "items": {
+        "1W7T9T2DPwbgaxLS": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "80w6LzmszLBlzDSS": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
         "Op3W72h1rmzEc83l": {
           "name": "Bite"
         },
+        "cYZty6zOaTEdjgSP": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "eEu0EKnP51BDqZFV": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
         "eU7nowUn81L1Xr9Q": {
           "name": "Natural Protection"
+        },
+        "wn45RYuYDXxFAUyU": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
         }
       },
       "monsterType": "Normal Animal",
@@ -4529,11 +4554,36 @@
     "Dog, War": {
       "biography": "<p>These are actually normal dogs trained, and by breeding programs enhanced. Generally large mastiffs or wolfhounds, they have keen senses of smell and hearing, making them adept at detecting intruders. Most war dogs are not usually vicious, and will rarely attack without cause. The status of war dogs varies greatly; some are loyal and beloved pets, some are watch dogs, others are hunting dogs, and some are trained for battle. Selected for their size and ferocity and trained for combat, they are loyal to their master/trainer and will attack on command. They are typically protected by light, leather armor or other and a spiked collar. The number appearing depends on the owner.</p><p><strong>Terrain:</strong> Any.</p><p><strong>Load:</strong> 200 to 1000 cn max, depending on breed.</p><p><strong>Barding:</strong> 1x</p>",
       "items": {
+        "9tOkDdFjrA2ZNzpD": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "Gi9RmHg5JrJw5DgQ": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "JeTRRhQ0ssav2q5k": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "MUhzQH6k855lepSp": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
         "Op3W72h1rmzEc83l": {
           "name": "Bite"
         },
         "eU7nowUn81L1Xr9Q": {
           "name": "Natural Protection"
+        },
+        "mFZwIg6bPDYgejhB": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
         }
       },
       "monsterType": "Normal Animal",
@@ -8452,6 +8502,31 @@
         },
         "INWBnTpd4WfAOILL": {
           "name": "Bite"
+        },
+        "lituhCl4x5DreO4E": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "o2DFvPRuxRR1ySiq": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "pEF097ufPPjIj5Zm": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "sYje33xAAZcFnKGx": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "vhMfrCKRqCExarvI": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
         }
       },
       "monsterType": "Normal Animal",
