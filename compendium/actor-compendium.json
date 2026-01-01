@@ -2924,8 +2924,7 @@
           "name": "Claws"
         },
         "g9SJzqoof5SJPIYk": {
-          "description": "The thick mane of the Lion provides an effective Armor Class of 6.",
-          "name": "Thick Mane"
+          "name": "Natural"
         },
         "l0MDkByAKLyhhJZb": {
           "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
@@ -18528,6 +18527,166 @@
       "monsterType": "Monster, Enchanted",
       "name": "Lycanthrope, Werewolf*"
     },
+    "Magen, Caldron": {
+      "biography": "<p>Caldron magen have the ability to stretch their arms and legs up to 20'. They attempt to wrap their limbs around a victim and, if successful, secrete an acid which does 1-10 points of damage. The victim will continue to take damage each round unless freed.</p><p>Magen (“Gens Magica” or “magical people”) are beings created with complex conjurations and strict alchemical formulae by high‑level magic‑users. They will follow the commands of their creator to the death. Though magen resemble perfectly formed humans, they are not actually living beings. They exist purely through magic, needing no air, water, food, or sleep, and they do not age. When killed, their physical bodies dissolve in a burst of flame and smoke.</p><p>There are four basic types of magen presented here, though the DM may design additional varieties. No outward differences are visible among the four types until they reveal their special powers.</p>",
+      "items": {
+        "09pcRpz03a4f9itO": {
+          "name": "Natural"
+        },
+        "0Ghb9L7qWA9p2kNH": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "7q8rNFMJ2DNRZfL2": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "MQO2hx5qxsux413k": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "PYL0bFn5Hsp7CmY9": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "ub0S7VMZBWFzRcjx": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "z1sW5TPzq9n7I52d": {
+          "description": "<p>Caldron magen have the ability to stretch their arms and legs up to 20'. They attempt to wrap their limbs around a victim and, if successful, secrete an acid which does 1-10 points of damage. The victim will continue to take damage each round unless freed.</p>",
+          "name": "Limb Wrap (Acid)"
+        }
+      },
+      "monsterType": "Construct",
+      "name": "Magen, Caldron"
+    },
+    "Magen, Demos": {
+      "biography": "<p>Demos magen have no special powers and fight with weapons. If they wear armor, they will have the armor class of that armor; otherwise, their armor class is 7.</p><p>Magen (“Gens Magica” or “magical people”) are beings created with complex conjurations and strict alchemical formulae by high‑level magic‑users. They will follow the commands of their creator to the death. Though magen resemble perfectly formed humans, they are not actually living beings. They exist purely through magic, needing no air, water, food, or sleep, and they do not age. When killed, their physical bodies dissolve in a burst of flame and smoke.</p><p>There are four basic types of magen presented here, though the DM may design additional varieties. No outward differences are visible among the four types until they reveal their special powers.</p>",
+      "items": {
+        "09pcRpz03a4f9itO": {
+          "name": "Natural"
+        },
+        "0Ghb9L7qWA9p2kNH": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "7q8rNFMJ2DNRZfL2": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "MQO2hx5qxsux413k": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "PYL0bFn5Hsp7CmY9": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "ub0S7VMZBWFzRcjx": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        }
+      },
+      "monsterType": "Construct",
+      "name": "Magen, Demos"
+    },
+    "Magen, Galvan": {
+      "biography": "<p>Galvan magen have the ability to store static electricity, which they discharge as lightning bolts doing 3‑18 points of damage. The lightning bolt forms a line 60 feet long by 5 feet wide. A successful save vs. Dragon Breath reduces damage by half. Galvan magen can discharge up to three lightning bolts per day. They will also use weapons.</p><p>Magen (“Gens Magica” or “magical people”) are beings created with complex conjurations and strict alchemical formulae by high‑level magic‑users. They will follow the commands of their creator to the death. Though magen resemble perfectly formed humans, they are not actually living beings. They exist purely through magic, needing no air, water, food, or sleep, and they do not age. When killed, their physical bodies dissolve in a burst of flame and smoke.</p><p>There are four basic types of magen presented here, though the DM may design additional varieties. No outward differences are visible among the four types until they reveal their special powers.</p>",
+      "items": {
+        "09pcRpz03a4f9itO": {
+          "name": "Natural"
+        },
+        "0Ghb9L7qWA9p2kNH": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "7q8rNFMJ2DNRZfL2": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        },
+        "MQO2hx5qxsux413k": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "OZA38dJ95QpcLMxh": {
+          "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+          "name": "Sword, Normal",
+          "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+          "weaponMastery": "Sword, Normal"
+        },
+        "PYL0bFn5Hsp7CmY9": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "UiNXP8WiyP24o73H": {
+          "description": "<p>Galvan magen have the ability to store static electricity, which they discharge as lightning bolts doing 3‑18 points of damage. The lightning bolt forms a line 60 feet long by 5 feet wide. A successful save vs. Dragon Breath reduces damage by half. Galvan magen can discharge up to three lightning bolts per day.</p>",
+          "name": "Lightning Bolt"
+        },
+        "ub0S7VMZBWFzRcjx": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        }
+      },
+      "monsterType": "Construct",
+      "name": "Magen, Galvan"
+    },
+    "Magen, Hypnos": {
+      "biography": "<p>Hypnos magen are telepathic and have been given a permanent <strong>charm person</strong> spell by their creator. They can attempt to charm one victim per round. If the victim does not save vs. Spells he or she will obey the hypnos magen's telepa­thic commands. The victim will not obey suicidal commands. Once an individual has successfully saved he or she is immune to the <strong>charm</strong> power of that particular magen.</p><p>Magen (“Gens Magica” or “magical people”) are beings created with complex conjurations and strict alchemical formulae by high‑level magic‑users. They will follow the commands of their creator to the death. Though magen resemble perfectly formed humans, they are not actually living beings. They exist purely through magic, needing no air, water, food, or sleep, and they do not age. When killed, their physical bodies dissolve in a burst of flame and smoke.</p><p>There are four basic types of magen presented here, though the DM may design additional varieties. No outward differences are visible among the four types until they reveal their special powers.</p>",
+      "items": {
+        "2Bj7bfT2E9G2kJIo": {
+          "name": "Natural"
+        },
+        "BaD9XQXKBHLE6A5Y": {
+          "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+          "name": "Magic Wand",
+          "shortName": "Wand"
+        },
+        "CInggQRvycPnDE2D": {
+          "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+          "name": "Turn to Stone or Paralysis",
+          "shortName": "Stone"
+        },
+        "DlEQdFoCzf6Cm60E": {
+          "description": "<p>This spell affects humans, demihumans, and certain other creatures. The target must make a saving throw vs. spells; if failed, the target views the caster as a “best friend” and will defend them against any perceived threat. The spell does not affect animals, magical creatures, undead, or creatures larger than ogres.</p><p>The charmed creature obeys friendly commands but resists those that go against its nature or cause self-harm. The duration depends on the target’s Intelligence, allowing periodic saving throws:</p><ul><li>High Intelligence (13-18): Save every day</li><li>Average Intelligence (9-12): Save every week</li><li>Low Intelligence (3-8): Save every month</li></ul>",
+          "name": "Charm Person",
+          "spellDuration": "Varies based on Intelligence",
+          "spellEffect": "One living person (see description)"
+        },
+        "LHKhedl00tBE81E6": {
+          "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+          "name": "Spells or Magic Staff",
+          "shortName": "Spell"
+        },
+        "jl6demiUgU4KcAd5": {
+          "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+          "name": "Death Ray or Poison",
+          "shortName": "Death"
+        },
+        "vY2OHqr3saIqPBxA": {
+          "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+          "name": "Dragon Breath",
+          "shortName": "Breath"
+        }
+      },
+      "monsterType": "Construct",
+      "name": "Magen, Hypnos"
+    },
     "Malfera*": {
       "biography": "<p>A malfera is a creature from the Dimension of Nightmares, where many evil dreams are bred and released into the minds of sleeping people. A malfera appears only through the acts of a powerful magic-user or an Immortal; its dimension is believed to be poisonous and deadly to humans.</p><p>The malfera has a large, elephant-like face and a short trunk. The head is topped by large horns, and large fangs protrude from either side of the trunk. The chest is a mass of slimy, short tentacles. Long, muscular arms end in large, jagged pincers, and its feet are webbed and clawed. It is colored night-black but has red veins and eyes.</p><p>In combat, a malfera attacks with its pincers and bites. If both pincers hit the same target, the victim is dragged to the chest of the malfera on the next round. The tentacles then automatically trap the victim. These tentacles are coated with an acid slime and deal <strong>2d6 points of damage</strong> each round. The victim can be freed only when the malfera is killed.</p><p>In addition, the breath of a malfera is poisonous. Each time it hits with a bite, its victim must save vs. poison (at a +3 bonus) or die. A malfera is immune to acid and can be struck only by magical weapons.</p><p>Aside from its combat abilities, a malfera can detect invisible creatures and open all doors as if it had a knock spell. Because of its tough constitution and highly magical nature, it saves as a <strong>13th level fighter</strong>.</p><p><strong>Terrain:</strong> Any; Dimension of Nightmares.</p>",
       "items": {
@@ -22114,6 +22273,22 @@
         }
       },
       "name": "Raft, Professional"
+    },
+    "Rakasta": {
+      "biography": "<p>The rakasta are a race of nomadic, cat‑like humanoids. They walk upright like humans, are covered with soft tawny fur, and have feline heads. The rakasta fight with special metal “war claws” fitted over their natural claws; without these, their claw attacks do only 1–2 points of damage. Although they can use normal weapons such as swords, they generally disdain them, preferring their “natural” weapons—the war claws.</p>",
+      "items": {
+        "6zbNIvtmzFeuGqWa": {
+          "name": "Armor"
+        },
+        "eZ2UPH9QIPcyq1tx": {
+          "name": "Claws"
+        },
+        "mzflUpBBcB2MzKI6": {
+          "name": "Bite"
+        }
+      },
+      "monsterType": "Monster",
+      "name": "Rakasta"
     },
     "Ram, Battering": {
       "biography": "<p><strong>Full crew:</strong> 10<br><strong>Fire rate:</strong> 1 per 2</p><p>See contained weapon description for further details.</p>",
@@ -28061,6 +28236,7 @@
     "Hydra": "Hydra",
     "Lich": "Lich",
     "Lycanthrope": "Lycanthrope",
+    "Magen": "Magen",
     "Manscorpion": "Manscorpion",
     "Mek": "Mek",
     "Monsters & Beasts": "Monsters & Beasts",
