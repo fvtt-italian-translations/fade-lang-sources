@@ -1222,6 +1222,12 @@
       "spellEffect": "Raises Strength to 18",
       "spellRange": "Self"
     },
+    "Boots of Levitation": {
+      "description": "<p>The wearer may levitate (as if using the magic-user spell). There is no limit to the duration.</p>",
+      "name": "Boots of Levitation",
+      "unidentifiedDesc": "<p>These boots are different somehow.</p>",
+      "unidentifiedName": "Odd Boots"
+    },
     "Bow, Long +1": {
       "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
       "name": "Bow, Long +1",
@@ -4964,6 +4970,12 @@
     "Right of Sanctuary (AV)": {
       "description": "<p>An Avenger may visit any castle, ruin, or dungeon ruled by an intelligent Chaotic monster or character and, using their alignment tongue, formally demand Sanctuary. If granted, the Avenger is given temporary protection and hospitality, as per the custom of Sanctuary.</p><p>An Avenger may also attempt to deceive non-Chaotic rulers by posing as a knight and requesting Sanctuary. If the ruler is successfully fooled (and no alignment-detecting magic exposes the deception), they will provide the same hospitality they would grant a true knight.</p>",
       "name": "Right of Sanctuary (AV)"
+    },
+    "Ring of Delusion": {
+      "description": "<p>The wearer will believe this to be any one other ring (roll again for the imaginary type). However, it has no real effect. The wearer will not be convinced otherwise until a remove curse is used to dispel the enchantment.</p>",
+      "name": "Ring of Delusion",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
     },
     "Ring of Protection +1": {
       "description": "<p>This ring improves the wearer's armor class by 1. It also has the effect of improving all saving throws by 1.</p>",
