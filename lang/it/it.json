@@ -274,8 +274,11 @@
             "combat": "Combattimento",
             "vehicleTypes": {
                 "mount": "Montare",
-                "simple": "Semplice"
-            }
+                "simple": "Semplice",
+                "siege": "Assedio",
+                "vessel": "Vascello"
+            },
+            "vehicleTypeTitle": "Tipo Veicolo"
         },
         "SheetLabel": {
             "ActorMasteryItem": "Scheda Maestria",
@@ -524,7 +527,7 @@
                     "long": "In Mano"
                 },
                 "all": {
-                    "long": "Tutte",
+                    "long": "Tutte (M/inM)",
                     "abbr": "T"
                 },
                 "monster": {
@@ -534,6 +537,10 @@
                 "wr": {
                     "abbr": "VL",
                     "long": "Lotta"
+                },
+                "siege": {
+                    "abbr": "AS",
+                    "long": "Assedio"
                 }
             },
             "long": "Maestria Arma",
@@ -1172,7 +1179,35 @@
         "Search": "Cerca oggetti...",
         "siege": {
             "crew": {
-                "label": "Equipaggio"
+                "label": "Equipaggio",
+                "hint": "L'attuale numero dell'equipaggio."
+            },
+            "acplus": {
+                "hint": "Bonus di classe armatura che l'equipaggiamento fornisce a coloro che sono protetti da esso.",
+                "label": "CA+"
+            },
+            "ammoCostWk": {
+                "hint": "Costo delle munizioni alla settimana",
+                "label": "Muniz. Costo/7gg"
+            },
+            "artillerist": {
+                "hint": "L'equipaggiamento richiede un artigliere?",
+                "label": "Artigliere"
+            },
+            "fireRate": {
+                "hint": "Quanti turni richiede per sparare se non pronto.",
+                "label": "Regime di Fuoco"
+            },
+            "fullCrew": {
+                "hint": "Il numero ottimale di equipaggio per azionare questa apparecchiatura.",
+                "label": "Equipaggio Completo"
+            },
+            "plural": "Armi d'Assedio",
+            "thac0": {
+                "hint": "La THAC0 per questa apparecchiatura si basa su specialisti ed equipaggio."
+            },
+            "thbonus": {
+                "hint": "Il bonus sul tiro per colpire questo pezzo di equipaggiamento è basato sugli specialisti e sull'equipaggio."
             }
         }
     },
