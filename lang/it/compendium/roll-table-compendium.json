@@ -23,7 +23,8 @@
                 "7-7": "Drago Blu Enorme",
                 "8-8": "Drago d'Oro Piccolo",
                 "9-9": "Drago d'Oro Grande"
-            }
+            },
+            "description": "<p>Incontro con un drago.</p>"
         },
         "Potions": {
             "name": "Pozioni",
@@ -96,7 +97,8 @@
                 "71-88": "Potere Speciale 15%",
                 "89-96": "Potere Speciale 20%",
                 "97-99": "Potere Speciale 25%"
-            }
+            },
+            "description": "<p>Modificatore di classe armatura per armature a bande, a scaglie o di cuoio. Questa tabella serve anche a determinare se l'armatura possiede un potere speciale.</p>"
         },
         "AC Mod (Chain)": {
             "name": "Mod CA (Maglia)",
@@ -107,7 +109,8 @@
                 "82-92": "Potere Speciale 20%",
                 "93-98": "Potere Speciale 25%",
                 "99-100": "Potere Speciale 30%"
-            }
+            },
+            "description": "<p>Modificatore di classe armatura per la corazza di maglia. Questa tabella determina anche se l'armatura possiede un potere speciale.</p>"
         },
         "AC Mod (Plate or Suit)": {
             "name": "Mod CA (Piastre o Completa)",
@@ -118,7 +121,8 @@
                 "75-88": "Potere Speciale 20%",
                 "89-96": "Potere Speciale 25%",
                 "97-100": "Potere Speciale 30%"
-            }
+            },
+            "description": "<p>Modificatore di classe armatura per corazza di maglia o armatura completa. Questa tabella determina anche se l'armatura possiede un potere speciale.</p>"
         },
         "AC Mod (Shield)": {
             "name": "Mod CA (Scudo)",
@@ -129,21 +133,34 @@
                 "68-84": "Potere Speciale 20%",
                 "85-94": "Potere Speciale 25%",
                 "95-100": "Potere Speciale 30%"
-            }
+            },
+            "description": "<p>Modificatore di classe armatura per gli scudi. Questa tabella determina anche se lo scudo possiede un potere speciale.</p>"
         },
         "Additional Weapon Mods (Misc)": {
             "name": "Modificatori Arma Addizionale (Varia)",
             "results": {
                 "1-75": "Arma Avversari",
-                "76-100": "Talenti Arma"
-            }
+                "76-100": "Talenti Arma",
+                "1-29": "+1 extra vs avversario",
+                "30-50": "+2 extra vs avversario",
+                "51-64": "+3 extra vs avversario",
+                "65-72": "+4 extra vs avversario",
+                "73-75": "+5 extra vs avversario"
+            },
+            "description": "<p>Determina modificatori aggiuntivi per armi varie. Usa il risultato per regolare i bonus o tira sulla tabella dei Talenti per un talento specifico.</p>"
         },
         "Additional Weapon Mods. (Swords)": {
             "name": "Modificatori Arma Addizionale (Spade)",
             "results": {
                 "1-75": "Arma Avversari",
-                "76-100": "Talenti Arma"
-            }
+                "76-100": "Talenti Arma",
+                "1-29": "+1 extra vs avversario",
+                "30-50": "+2 extra vs avversario",
+                "51-64": "+3 extra vs avversario",
+                "65-72": "+4 extra vs avversario",
+                "73-75": "+5 extra vs avversario"
+            },
+            "description": "<p>Determina modificatori aggiuntivi per le armi. Usa il risultato per regolare i bonus o tira sulla tabella dei Talenti per un talento specifico. Questo bonus viene aggiunto al bonus delle armi quando combatti contro avversari speciali.</p>"
         },
         "Animal Herd": {
             "name": "Mandria di animali",
@@ -152,13 +169,29 @@
                 "2-2": "Mandria (2 DV)",
                 "3-3": "Mandria (3 DV)",
                 "4-4": "Mandria (4 DV)"
-            }
+            },
+            "description": "<p>Incontro con un branco di animali.</p>"
         },
         "Antidote Potion": {
-            "name": "Pozione antidoto"
+            "name": "Pozione antidoto",
+            "description": "<p>Determina l'efficacia di una Pozione Antidoto, che va dai veleni causati da creature con 3 DV fino a tutti i veleni.</p>",
+            "results": {
+                "1-4": "Veleni da creature con 3 DV (o inferiori)",
+                "10-10": "Tutti i veleni",
+                "5-7": "Veleni da creature con 7 DV (o inferiori). Funziona anche con le pozioni velenose.",
+                "8-9": "Veleni da creature con 15 DV (o inferiori). Funziona anche con le pozioni velenose."
+            }
         },
         "Armor Size Table": {
-            "name": "Tabella Dimensioni Armatura"
+            "name": "Tabella Dimensioni Armatura",
+            "description": "<p>Determina la categoria della taglia dell'armatura trovata, ad esempio Umano, Nano, Elfo, Halfling o Gigante.</p>",
+            "results": {
+                "1-68": "Taglia umana",
+                "69-81": "Taglia nanica",
+                "82-91": "Taglia elfica",
+                "92-98": "Taglia halfling",
+                "99-100": "Taglia gigante"
+            }
         },
         "Cleric/Druid Scroll Spell Count": {
             "name": "Conteggio Incantesimi su Pergamena (Chierico/Druido)",
@@ -166,32 +199,66 @@
                 "1-50": "Livello Incantesimo su pergamena (Chierico/Druido)",
                 "51-83": "Livello Incantesimo su pergamena (Chierico/Druido)",
                 "84-100": "Livello Incantesimo su pergamena (Chierico/Druido)"
-            }
+            },
+            "description": "<p>Determina il numero di incantesimi sulla pergamena. Tira i dadi per determinare il livello di ogni incantesimo separatamente.</p>"
         },
         "Cleric/Druid Scroll Spell Level": {
-            "name": "Livello Incantesimo su pergamena (Chierico/Druido)"
+            "name": "Livello Incantesimo su pergamena (Chierico/Druido)",
+            "description": "<p>Determina il livello di un incantesimo da Chierico o Druido presente su una pergamena magica.</p>",
+            "results": {
+                "1-34": "Incantesimo di 1° Livello",
+                "100-100": "Incantesimo di 7° Livello",
+                "35-58": "Incantesimo di 2° Livello",
+                "59-76": "Incantesimo di 3° Livello",
+                "77-88": "Incantesimo di 4° Livello",
+                "89-95": "Incantesimo di 5° Livello",
+                "96-99": "Incantesimo di 6° Livello"
+            }
         },
         "Cursed Sword Check": {
-            "name": "Controllo Spada Maledetta"
+            "name": "Controllo Spada Maledetta",
+            "description": "<p>Controlla se la spada è maledetta.</p>",
+            "results": {
+                "1-2": "<strong>Maledetta!</strong>"
+            }
         },
         "Cursed Weapon Check": {
-            "name": "Controllo Arma Maledetta"
+            "name": "Controllo Arma Maledetta",
+            "description": "<p>Controlla se l'arma è maledetta. Questa opzione è utilizzata per armi di vario tipo.</p>",
+            "results": {
+                "1-2": "<strong>Maledetta!</strong>"
+            }
         },
         "Defense Potion": {
-            "name": "Pozione Difensiva"
+            "name": "Pozione Difensiva",
+            "description": "<p>Determina il bonus alla Classe Armatura fornito da una Pozione di Difesa, da +1 a +5.</p>",
+            "results": {
+                "1-3": "+1 alla Classe Armatura",
+                "10-10": "+5 alla Classe Armatura",
+                "4-5": "+2 alla Classe Armatura",
+                "6-7": "+3 alla Classe Armatura",
+                "8-9": "+4 alla Classe Armatura"
+            }
         },
         "Dragon Control (gemstone)": {
             "name": "Controllo del Drago (gemma)",
             "results": {
-                "1-5": "Drago di Cristallo"
-            }
+                "1-5": "Drago di Cristallo",
+                "11-14": "Drago di Giada",
+                "15-17": "Drago di Zaffiro",
+                "18-19": "Drago di Rubino",
+                "20-20": "Drago d'Ambra",
+                "6-10": "Drago d'Onice"
+            },
+            "description": "<p>Determina il tipo di drago gemmato controllato.</p>"
         },
         "Dragon Control (main)": {
             "name": "Controllo del Drago (principale)",
             "results": {
                 "1-30": "Controllo del Drago (gemma)",
                 "31-100": "Controllo del Drago (normale)"
-            }
+            },
+            "description": "<p>Determina il tipo di drago controllato.</p>"
         },
         "Dragon Control (normal)": {
             "name": "Controllo del Drago (normale)",
@@ -202,38 +269,148 @@
                 "18-19": "Drago Rosso",
                 "20-20": "Drago d'Oro",
                 "6-10": "Drago Nero"
-            }
+            },
+            "description": "<p>Determina il tipo di drago gemmato controllato.</p>"
         },
         "Egg of Wonder Creature Type": {
-            "name": "Uovo delle Meraviglie (Tipo Creatura)"
+            "name": "Uovo delle Meraviglie (Tipo Creatura)",
+            "description": "<p>Determina il tipo di creatura che si schiude dall'Uovo delle Meraviglie, come un babbuino, una pantera o un lupo.</p>",
+            "results": {
+                "1-1": "Babbuino delle Rocce",
+                "10-10": "Sauro Gigante Draco",
+                "11-11": "Biscione Strisciante",
+                "12-12": "Lupo Normale",
+                "2-2": "Pipistrello Gigante",
+                "3-3": "Orso Nero",
+                "4-4": "Orso Grizzly",
+                "5-5": "Cinghiale",
+                "6-6": "Leone di Montagna",
+                "7-7": "Pantera",
+                "8-8": "Furetto Gigante",
+                "9-9": "Sauro Gigante Geko"
+            }
         },
         "Elemental Adaptation Ring": {
-            "name": "Anello dell'Adattamento Elementale"
+            "name": "Anello dell'Adattamento Elementale",
+            "description": "<p>Determina l'associazione elementale dell'Anello dell'Adattamento agli Elementali, come Aria, Fuoco o Tutti gli Elementi.</p>",
+            "results": {
+                "1-21": "Elemento di adattamento: Aria",
+                "22-42": "Elemento di adattamento: Terra",
+                "43-63": "Elemento di adattamento: Fuoco",
+                "64-84": "Elemento di adattamento: Acqua",
+                "85-91": "Elemento di adattamento: Aria e Acqua",
+                "92-98": "Elemento di adattamento: Terra e Fuoco",
+                "99-100": "Elemento di adattamento: Tutti gli elementi"
+            }
         },
         "Empty Room": {
-            "name": "Stanza Vuota"
+            "name": "Stanza Vuota",
+            "description": "<p>La stanza è vuota, a parte ragnatele e detriti sparsi.</p>",
+            "results": {
+                "1-1": "La stanza è vuota, a eccezione di un piccolo sacco vicino a uno scheletro in un angolo. Tira i dadi sulla tabella del tesoro appropriata per il livello del dungeon.",
+                "2-6": "La stanza è vuota, a eccezione di ragnatele e detriti sparsi."
+            }
         },
         "Encounter - Dungeon Level 1": {
             "name": "Incontro - 1° Livello Dungeon",
             "results": {
-                "13-13": "Allineamento PNG Avventuriero"
-            }
+                "13-13": "Allineamento PNG Avventuriero",
+                "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fc3OOJdQrP3lojfv]",
+                "11-11": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.LrFyA3hSCWV8vBQr]",
+                "12-12": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.p2HAYW2LlRYOPOiv]",
+                "14-14": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
+                "15-15": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
+                "16-16": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FIFnFyLFQBJpo4Q0]",
+                "17-17": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wREIzpLSLM49HnU1]{Giant Crab Spider}",
+                "18-18": "[[1d8]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.TO5d1EBIWdJ5f7d5]",
+                "19-19": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
+                "2-2": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6FcQ2B2dG5LRvwTC]",
+                "20-20": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP]",
+                "3-3": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.46QLGSlGDLxcIg4D]{Cave Locust}",
+                "4-4": "[[1d6]]@UUID[Compendium.fade-compendiums.actor-compendium.Actor.g6XIqtw7I815FigN]",
+                "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
+                "6-6": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
+                "7-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]"
+            },
+            "description": "<h3>Incontro - Dungeon Livello 1</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Extraordinary Power": {
             "name": "Potere Straordinario",
             "results": {
                 "100-100": "Potere Straordinario (Non Ri-Tira)",
-                "98-99": "Potere Straordinario (Non Ri-Tira)"
-            }
+                "98-99": "Potere Straordinario (Non Ri-Tira)",
+                "1-10": "Potere straordinario: Chiaroudienza",
+                "11-20": "Potere straordinario: Chiaroveggenza",
+                "21-30": "Potere straordinario: ESP",
+                "31-35": "Potere straordinario: PF extra (duplicazione possibile)",
+                "36-40": "Potere straordinario: Volo",
+                "41-45": "Potere straordinario: Guarigione (duplicazione possibile)",
+                "46-54": "Potere straordinario: Illusione",
+                "55-59": "Potere straordinario: Levitazione",
+                "60-69": "Potere straordinario: Telecinesi",
+                "70-79": "Potere straordinario: Telepatia",
+                "80-88": "Potere straordinario: Teletrasporto",
+                "89-97": "Potere straordinario: Visione a raggi X"
+            },
+            "description": "<p>Determina il potere straordinario di una spada, incluse abilità come la chiaroveggenza, la telecinesi o la possibilità di effettuare più tiri per ottenere poteri aggiuntivi.</p>"
         },
         "Extraordinary Power (NoReroll)": {
-            "name": "Potere Straordinario (Non Ri-Tira)"
+            "name": "Potere Straordinario (Non Ri-Tira)",
+            "description": "<p>Determina il potere straordinario di una spada, incluse abilità come la chiaroveggenza, la telecinesi o la possibilità di effettuare più tiri per ottenere poteri aggiuntivi.</p>",
+            "results": {
+                "1-10": "Potere straordinario: Chiaroudienza",
+                "11-20": "Potere straordinario: Chiaroveggenza",
+                "21-30": "Potere straordinario: ESP",
+                "31-35": "Potere straordinario: PF extra (duplicazione possibile)",
+                "36-40": "Potere straordinario: Volo",
+                "41-45": "Potere straordinario: Guarigione (duplicazione possibile)",
+                "46-54": "Potere straordinario: Illusione",
+                "55-59": "Potere straordinario: Levitazione",
+                "60-69": "Potere straordinario: Telecinesi",
+                "70-79": "Potere straordinario: Telepatia",
+                "80-88": "Potere straordinario: Teletrasporto",
+                "89-97": "Potere straordinario: Visione a raggi X"
+            }
         },
         "Fog Trap": {
-            "name": "Trappola Nebbiosa"
+            "name": "Trappola Nebbiosa",
+            "description": "<p>Attivandolo si sprigiona una strana nebbia. Tutti coloro che si trovano nell'area devono effettuare un Tiro Salvezza contro gli Incantesimi o subire uno dei seguenti effetti:</p>",
+            "results": {
+                "1-2": "I personaggi vengono presi da una crisi di risate sfrenate che li rende incapaci di fare qualsiasi altra cosa per [[/r 1d6]] turni.",
+                "3-3": "I personaggi si spaventano e fuggono per [[/r 1d6]] turni.",
+                "4-4": "I personaggi puzzano terribilmente per [[/r 1d6]] turni, aumentando di 1 la probabilità di incontrare un Mostro Errante.",
+                "5-5": "I personaggi si infuriano e attaccano gli alleati per [[/r 1d4]] round.",
+                "6-6": "I personaggi diventano paralizzati (come l'incantesimo) per [[/r 1d4]] round."
+            }
         },
         "Gem Value Table": {
-            "name": "Tabella Valore Gemme"
+            "name": "Tabella Valore Gemme",
+            "description": "<p>Determina il tipo e il valore esatti di una gemma, in base alla varietà e probabilità standard delle gemme.</p>",
+            "results": {
+                "1-1": "Agata (10 mo)",
+                "100-100": "Tristallo (Speciale)",
+                "11-13": "Ambra (100 mo)",
+                "14-16": "Ametista (100 mo)",
+                "17-19": "Corallo (100 mo)",
+                "2-2": "Quarzo (10 mo)",
+                "20-22": "Granato (100 mo)",
+                "23-25": "Giada (100 mo)",
+                "26-30": "Acquamarina (500 mo)",
+                "3-3": "Turchese (10 mo)",
+                "31-37": "Perla (500 mo)",
+                "38-46": "Topazio (500 mo)",
+                "4-6": "Cristallo (50 mo)",
+                "47-58": "Carbonchio (1.000 mo)",
+                "59-71": "Opale (1.000 mo)",
+                "7-8": "Diasporo (50 mo)",
+                "72-78": "Smeraldo (5.000 mo)",
+                "79-85": "Rubino (5.000 mo)",
+                "86-90": "Zaffiro (5.000 mo)",
+                "9-10": "Onice (50 mo)",
+                "91-94": "Diamante (10.000 mo)",
+                "95-97": "Giacinto (10.000 mo)",
+                "98-99": "Pietrastella (Speciale)"
+            }
         },
         "Giant Control": {
             "name": "Controllo Gigante",
@@ -348,13 +525,32 @@
             }
         },
         "Armor Special Powers": {
-            "name": "Poteri Speciali Armatura"
+            "name": "Poteri Speciali Armatura",
+            "description": "<p>Determina il potere speciale di un oggetto o di un effetto, come Assorbimento, Volo o Invisibilità.</p>",
+            "results": {
+                "1-7": "Potere speciale: Assorbimento",
+                "18-32": "Potere speciale: Cura ferite",
+                "33-42": "Potere speciale: Elettricità",
+                "43-47": "Potere speciale: Risucchio di energia",
+                "48-50": "Potere speciale: Etereità",
+                "51-60": "Potere speciale: Volare",
+                "61-66": "Potere speciale: Forma gassosa",
+                "67-75": "Potere speciale: Velocità",
+                "76-85": "Potere speciale: Invisibilità",
+                "8-17": "Potere speciale: Charme",
+                "86-93": "Potere speciale: Riflessione",
+                "94-100": "Potere speciale: Scaccia maledizioni"
+            }
         },
         "Level 2-3 Jewelry": {
             "name": "Gioiello 2-3° Livello"
         },
         "Cursed Armor Check": {
-            "name": "Controllo Armatura Maledetta"
+            "name": "Controllo Armatura Maledetta",
+            "description": "<p>Controlla in alto per vedere se l'armatura è maledetta.</p>",
+            "results": {
+                "1-1": "<strong>Maledetta!</strong>"
+            }
         },
         "Hit Location - Winged Biped": {
             "name": "Punto Colpito - Bipede Alato",
@@ -579,7 +775,8 @@
                 "7-7": "Sauro Gigante Tuatara",
                 "8-8": "Serpente, Vipera Butterata",
                 "9-9": "Ragno Gigante, Chelato"
-            }
+            },
+            "description": "<p>Incontro con un animale del bosco.</p>"
         },
         "Barren, Mountain, Hill Encounter": {
             "name": "Incontro Arido, Montagna, Collina",
@@ -591,7 +788,8 @@
                 "5-5": "Animale (Arido, Montagna, Collina)",
                 "6-6": "Umanoidi (Arido, Montagna, Collina)",
                 "7-8": "Draghi"
-            }
+            },
+            "description": "<h3>Incontro nel Deserto, Montagna o Collina</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Castle Encounter": {
             "name": "Incontro Castello",
@@ -600,7 +798,8 @@
                 "2-2": "Reazione Castello (Mago)",
                 "3-3": "Reazione Castello (Semiumano)",
                 "4-6": "Reazione Castello (Guerriero)"
-            }
+            },
+            "description": "<p>Il DM può determinare la classe del personaggio degli abitanti del castello utilizzando la Sottotabella: Incontri nei Castelli o selezionando classi appropriate. Se si usa la tabella, tira 1d6; se il risultato è 3, tira nuovamente 1d6 e vedi quale razza semiumana corrisponde al risultato. Per i proprietari umani di un castello, indipendentemente dalla classe, tira 1d20 + 8 per il livello del proprietario. I livelli dei semiumani sono indicati nella tabella.</p><p>Se il DM non ha ancora determinato le reazioni degli abitanti del castello verso i personaggi giocanti, può consultare la Tabella delle Reazioni dei Mostri data precedentemente in questo capitolo oppure la Tabella delle Reazioni ai Castelli. Le colonne \"Reazione\" della tabella assumono che il gruppo non faccia nulla per suscitare sospetti o ispirare fiducia; il DM può certamente modificare il tiro se le azioni dei PG verso gli abitanti del castello lo giustificano.</p><p>Ricorda inoltre che alcuni Guerrieri PG di alto livello possono avere il diritto di santuario nei castelli della campagna; un PG con questo diritto che dichiara il suo nome e titolo riceverà normalmente un risultato \"Amichevole\".</p><p>Nota che gli uomini elencati rappresentano solo una parte delle forze del proprietario del castello e sono semplicemente l'unità inviata contro viaggiatori fastidiosi; il resto delle forze del castello dovrebbe includere altri uomini e potrebbe comprendere persino mostri speciali.</p><p><strong>Inseguire:</strong> Gli uomini inseguiranno il gruppo fuori dalle terre del signore o chiederanno ai personaggi un pedaggio. Questa somma può variare a seconda della personalità del signore, dell'aspetto ricco dei personaggi e di altri fattori. Rifiutarsi di pagare può portare all'arresto dei PG, all'allontanamento dalle terre o a un attacco. Il DM può ignorare questo risultato se il proprietario del castello è Legale e i PG si sono comportati bene.</p><p><strong>Ignorare:</strong> Non si fa alcun tentativo di aiutare o ostacolare il gruppo.</p><p><strong>Amichevole:</strong> Il proprietario del castello invita il gruppo a restare. (Non si tratta necessariamente di vera amicizia; alcuni PNG possono avere intenzioni malvagie verso il gruppo ignaro.)</p>"
         },
         "Castle Owner Alignment": {
             "name": "Allineamento Proprietario Castello",
@@ -611,16 +810,36 @@
             }
         },
         "Castle Reaction (Cleric)": {
-            "name": "Reazione Castello (Chierico)"
+            "name": "Reazione Castello (Chierico)",
+            "results": {
+                "1-2": "Inseguimento: Gli uomini cacceranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi ed altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
+                "3-4": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il gruppo dei PG.",
+                "5-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
+            }
         },
         "Castle Reaction (Demihuman)": {
-            "name": "Reazione Castello (Semiumano)"
+            "name": "Reazione Castello (Semiumano)",
+            "results": {
+                "1-1": "Inseguimento: Gli uomini cacceranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi e di altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
+                "2-5": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il gruppo.",
+                "6-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
+            }
         },
         "Castle Reaction (Fighter)": {
-            "name": "Reazione Castello (Guerriero)"
+            "name": "Reazione Castello (Guerriero)",
+            "results": {
+                "1-3": "Inseguimento: Gli uomini caccieranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi e di altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
+                "4-5": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il gruppo.",
+                "6-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
+            }
         },
         "Castle Reaction (Magic-User)": {
-            "name": "Reazione Castello (Mago)"
+            "name": "Reazione Castello (Mago)",
+            "results": {
+                "1-1": "Inseguimento: Gli uomini cacceranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi e di altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
+                "2-5": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il partito.",
+                "6-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
+            }
         },
         "Caveman (Neanderthal)": {
             "name": "Cavernicolo (Neanderthal)",
@@ -637,7 +856,8 @@
                 "3-3": "Umanoide (Città e Disabitato)",
                 "4-7": "Umano (Città)",
                 "8-8": "Incontro Speciale Città"
-            }
+            },
+            "description": "<h3>Incontro in città</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Clear, Grasslands Encounter": {
             "name": "Incontro Praterie, Terreno Aperto",
@@ -649,17 +869,31 @@
                 "6-6": "Insolito",
                 "7-7": "Draghi",
                 "8-8": "Insetti"
-            }
+            },
+            "description": "<h3>Incontro in Prateria, Terreno aperto</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Common Jewelry (4k)": {
             "name": "Gioielli Comuni (4k)",
             "results": {
                 "3-3": "Braccialetto",
-                "7-7": "Catena"
+                "7-7": "Catena",
+                "1-1": "Cavigliera",
+                "10-10": "Spillo",
+                "2-2": "Perline",
+                "4-4": "Spilla",
+                "5-5": "Fibbia",
+                "6-6": "Cammeo",
+                "8-8": "Moschettino",
+                "9-9": "Medaglione"
             }
         },
         "Demihuman Castle Owner": {
-            "name": "Castello Proprierario Semiumano"
+            "name": "Castello Proprierario Semiumano",
+            "results": {
+                "1-2": "Di proprietà di un Nano di 12° Livello",
+                "3-4": "Di proprietà di un Elfo di 10° Livello",
+                "5-6": "Di proprietà di un Halfling di 8° Livello"
+            }
         },
         "Desert Encounter": {
             "name": "Incontro Deserto",
@@ -672,46 +906,149 @@
                 "6-6": "Draghi",
                 "7-7": "Non-Morto (Comune)",
                 "8-8": "Animale (Deserto)"
-            }
+            },
+            "description": "<h3>Incontro nel Deserto</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Door - Locked or Stuck": {
-            "name": "Porta - Chiusa a chiave o Bloccata"
+            "name": "Porta - Chiusa a chiave o Bloccata",
+            "results": {
+                "1-1": "La porta è chiusa a chiave e bloccata",
+                "13-20": "La porta è sbloccata e si aprirà liberamente",
+                "2-7": "La porta è chiusa a chiave",
+                "8-12": "La porta non è chiusa a chiave, ma bloccata in posizione chiusa"
+            }
         },
         "Door - Trapped": {
             "name": "Porta - con Trappola",
             "results": {
-                "8-10": "Tipo di Trappola"
+                "8-10": "Tipo di Trappola",
+                "1-7": "La porta non ha trappole"
             }
         },
         "Encounter - Dungeon Level 2": {
             "name": "Incontro - Dungeon 2° Livello",
             "results": {
-                "14-14": "Allineamento PNG Avventuriero"
-            }
+                "14-14": "Allineamento PNG Avventuriero",
+                "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.L8SJUT3fIzJw6xlK]",
+                "11-11": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.BdUPcdGAJLxUvwgO]",
+                "12-12": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6rv1LKd6FIieRApr]",
+                "13-13": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.we26j5H2VH0BdIXi]",
+                "15-15": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
+                "16-16": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
+                "17-17": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.3aTlHWeNiA4JEzhP]",
+                "18-18": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UnlyQAcCBUS63xKd]{Ragno Gigante, Vedova Nera}",
+                "19-19": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
+                "2-2": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.93HCqREXiA2BbHR1]",
+                "20-20": "[[1d6]] Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP",
+                "3-3": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
+                "4-4": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.HqFmSqcFv1R5WXY2]",
+                "5-5": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
+                "6-6": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.MCtu9vXbaNhy24hH]",
+                "7-7": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.pqMSUZDTxBkzJRXt]",
+                "8-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]{Umani}"
+            },
+            "description": "<h3>Incontro - Dungeon Livello 2</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 3": {
             "name": "Incontro - Dungeon 3° Livello",
             "results": {
-                "14-14": "Allineamento PNG Avventuriero"
-            }
+                "14-14": "Allineamento PNG Avventuriero",
+                "1-1": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.mqQUEpLtIFtwsKuW]",
+                "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Thj5dPOuKmXxiGff]",
+                "12-12": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.9YkdFwvOyR1jMv0d]",
+                "13-13": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.CbLFxjJOLryKlL0R]",
+                "15-15": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
+                "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd]",
+                "17-17": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.vrLI7AenWNUxigst]",
+                "18-18": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.iJ7j1FXCvNGwiKYh]",
+                "19-19": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UtG2e4IznhIDIw09]",
+                "2-2": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.AL9hNMkeO2mhlUGU]",
+                "20-20": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ZfcAxCNjJXUQ7I5M]",
+                "3-3": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy]",
+                "4-4": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.93HCqREXiA2BbHR1]",
+                "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.StmKdEWX0dDnGDbj]",
+                "6-6": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rkGvs3K7rorFT3Gb]",
+                "7-7": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.SWp5CtREyIQOwrPt]",
+                "8-8": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.d4XNKn2BtRF9i2b4]",
+                "9-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]{Human}"
+            },
+            "description": "<h3>Incontro - Dungeon Livello 3</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 4-5": {
             "name": "Incontro - Dungeon 4-5° Livello",
             "results": {
-                "14-14": "Allineamento PNG Avventuriero"
-            }
+                "14-14": "Allineamento PNG Avventuriero",
+                "1-1": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.QyDZ7pag954K5Xam]",
+                "10-10": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.n38wgSBUceafJ6a6]",
+                "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.tMx78dywgwuL5NJW]",
+                "12-12": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.CbLFxjJOLryKlL0R]",
+                "13-13": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.nBLaG6JjFPvk8RWt]",
+                "15-15": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
+                "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.1HFdNum5FcVKAtXp]",
+                "17-17": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
+                "18-18": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ADrQi5xk73eXMTXz]",
+                "19-19": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp]",
+                "2-2": "[[1d6+4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy]",
+                "20-20": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.t8oTnKOxvMY04A2t]",
+                "3-3": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.lYgXYeUclfcLHsrg]",
+                "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.v4aafWntVG3WedsQ]",
+                "5-5": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.eA4eRFSfiBxY19ll]",
+                "6-6": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rkGvs3K7rorFT3Gb]",
+                "7-7": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM]",
+                "8-8": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.d4XNKn2BtRF9i2b4]",
+                "9-9": "[[1d4]] Mastino Infernale ([[1d3+2]] DV)"
+            },
+            "description": "<h3>Incontro - Dungeon Livello 4-5</h3><ul><li><p>Ottime luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 6-7": {
             "name": "Incontro - Dungeon 6-7° Livello",
             "results": {
-                "12-12": "Allineamento PNG Avventuriero"
-            }
+                "12-12": "Allineamento PNG Avventuriero",
+                "1-1": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
+                "10-10": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Zsz1W8iaFkygssMk]",
+                "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.nBLaG6JjFPvk8RWt]",
+                "13-13": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
+                "14-14": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd]",
+                "15-15": "[[1d3+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
+                "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wzWOIB8UDE7BQmYs]",
+                "17-17": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.iJ7j1FXCvNGwiKYh]",
+                "18-18": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.DQ4X4w5ArRsS9Pc1]",
+                "19-19": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp]",
+                "2-2": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.lYgXYeUclfcLHsrg]",
+                "20-20": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd]",
+                "3-3": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.v4aafWntVG3WedsQ]",
+                "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM]",
+                "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.GunD699F75jG9UMN]",
+                "6-6": "[[1d4]] Mastino Infernale ([[1d3+4]] DV)",
+                "7-7": "1 Hydra ([[1d3+5]] teste)",
+                "8-8": "[[1d3]] Licantropo* <br /> <br /> (@UUID[Compendium.fade-compendiums.actor-compendium.Actor.VdCp0J7KP6O47sh0]{Tigre Mannara} o @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6hjGF6YQqdBvvMS7]{Orso Mannaro} )",
+                "9-9": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ChXygNMqR7jeDNk7]"
+            },
+            "description": "<h3>Incontro - Dungeon Livello 6-7</h3><ul><li><p>Ottime luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 8-10": {
             "name": "Incontro - Dungeon 8-10° Livello",
             "results": {
-                "13-13": "Allineamento PNG Avventuriero"
-            }
+                "13-13": "Allineamento PNG Avventuriero",
+                "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
+                "10-10": "[[1d4+1]] Statua Animata*",
+                "11-12": "[[1d6+1]] Licantropo*",
+                "14-14": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ZIDlZCyqnIU4woLo]",
+                "15-15": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
+                "16-16": "[[1d4]] Salamandra*",
+                "17-17": "[[1d4+1]] Serpente*",
+                "18-18": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wzWOIB8UDE7BQmYs]",
+                "19-19": "[[1d4+1]] Ragno*",
+                "2-2": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.B5efkZ8PvLYT0tD5]",
+                "20-20": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd]{Vampiro}",
+                "3-3": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VWs3X9tU2MUzc2pK]",
+                "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VJlWY3tKSm9JM7jS]{Verro Diabolico}",
+                "5-5": "[[1d2]] Drago",
+                "6-7": "[[1d6]] Gigante*",
+                "8-8": "1 Golem*",
+                "9-9": "1 Hydra ( [[1d6+6]] teste)"
+            },
+            "description": "<h3>Incontro - Dungeon Livello 8-10</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p><hr /><p>Per i mostri contrassegnati con <strong>*</strong> seleziona qualsiasi tipo e modifica il numero che appare in base al livello del mostro</p>"
         },
         "Flyers (All Other)": {
             "name": "Volanti (Tutte le altre)",
@@ -728,7 +1065,8 @@
                 "7-7": "Pegaso",
                 "8-8": "Pixie",
                 "9-9": "Tafano Predatore"
-            }
+            },
+            "description": "<p>Incontro in volo.</p>"
         },
         "Flyers (Desert)": {
             "name": "Volanti (Deserto)",
@@ -1601,7 +1939,8 @@
                 "7-7": "Leone di Montagna",
                 "8-8": "Mulo",
                 "9-9": "Serpente, Vipera Butterata"
-            }
+            },
+            "name": "Animale (deserto, montagna, collina)"
         }
     },
     "folders": {
