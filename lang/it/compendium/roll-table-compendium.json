@@ -416,20 +416,51 @@
             "name": "Controllo Gigante",
             "results": {
                 "1-5": "Gigante delle Colline",
-                "20-20": "Gigante delle Tempeste"
-            }
+                "20-20": "Gigante delle Tempeste",
+                "11-14": "Gigante dei Ghiacci",
+                "15-16": "Gigante del Fuoco",
+                "17-17": "Gigante delle Montagne",
+                "18-18": "Gigante del Mare",
+                "19-19": "Gigante delle Nuvole",
+                "6-10": "Gigante delle Rocce"
+            },
+            "description": "<p>Determina il tipo di gigante controllato, come Gigante delle Colline, Gigante dei Ghiacci o Gigante delle Tempeste.</p>"
         },
         "Hit Location - Arachnid": {
-            "name": "Punto Colpito - Aracnide"
+            "name": "Punto Colpito - Aracnide",
+            "results": {
+                "1-2": "Arto Posteriore Destro",
+                "11-12": "Arto Anteriore Sinistro",
+                "13-14": "Addome",
+                "15-16": "Arto Frontale Destro",
+                "17-18": "Arto Frontale Sinistro",
+                "19-20": "Cefalotorace",
+                "3-4": "Arto Posteriore Sinistro",
+                "5-6": "Arto Medio Destro",
+                "7-8": "Arto Medio Sinistro",
+                "9-10": "Arto Anteriore Destro"
+            }
         },
         "Hit Location - Humanoid": {
             "name": "Punto Colpito - Umanoide",
             "results": {
-                "10-12": "Scrigno"
+                "10-12": "Scrigno",
+                "1-3": "Gamba Destra",
+                "13-15": "Braccio Sinistro",
+                "16-18": "Braccio Destro",
+                "19-21": "Testa",
+                "4-6": "Gamba Sinistra",
+                "7-9": "Addome"
             }
         },
         "Hit Location - Insectoid": {
-            "name": "Punto Colpito - Insettoide"
+            "name": "Punto Colpito - Insettoide",
+            "results": {
+                "1-1": "Arto Posteriore Destro",
+                "10-13": "Torace",
+                "14-14": "Arto Frontale Destro",
+                "15-15": "Arto Frontale Sinistro"
+            }
         },
         "Hit Location - Quadraped": {
             "name": "Punto Colpito - Quadrupede"
@@ -569,7 +600,8 @@
         "Gnoll": {
             "name": "Gnoll",
             "results": {
-                "1-8": "Gnoll"
+                "1-8": "Gnoll",
+                "9-10": "Gnoll con comandante"
             }
         },
         "Goblin": {
