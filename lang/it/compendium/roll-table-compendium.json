@@ -459,16 +459,31 @@
                 "1-1": "Arto Posteriore Destro",
                 "10-13": "Torace",
                 "14-14": "Arto Frontale Destro",
-                "15-15": "Arto Frontale Sinistro"
+                "15-15": "Arto Frontale Sinistro",
+                "16-20": "Testa",
+                "2-2": "Arto Posteriore Destro",
+                "3-3": "Arto Medio Destro",
+                "4-4": "Arto Medio Sinistro",
+                "5-9": "Addome"
             }
         },
         "Hit Location - Quadraped": {
-            "name": "Punto Colpito - Quadrupede"
+            "name": "Punto Colpito - Quadrupede",
+            "results": {
+                "1-3": "Zampa Posteriore Destra",
+                "10-12": "Quarti anteriori",
+                "13-15": "Zampa Frontale Destra",
+                "16-18": "Zampa Frontale Sinistra",
+                "19-20": "Testa",
+                "4-6": "Zampa Frontale Sinistra",
+                "7-9": "Quarti posteriori"
+            }
         },
         "Hit Location - Serpentoid": {
             "name": "Punto Colpito - Serpentoide",
             "results": {
-                "1-17": "Corpo"
+                "1-17": "Corpo",
+                "18-20": "Testa"
             }
         },
         "Insects": {
@@ -486,7 +501,8 @@
                 "7-7": "Rhagodessa",
                 "8-8": "Tafano Predatore",
                 "9-9": "Sorpione Gigante"
-            }
+            },
+            "description": "<p>Incontro con insetto.</p>"
         },
         "Intelligence of Sword": {
             "name": "Intelligenza della Spada",
@@ -496,48 +512,83 @@
                 "86-90": "Spada Potere Primario",
                 "91-94": "Spada Potere Primario",
                 "95-97": "Spada Potere Primario",
-                "98-99": "Spada Potere Primario"
-            }
+                "98-99": "Spada Potere Primario",
+                "1-79": "La spada non è intelligente"
+            },
+            "description": "<p>Determina l'intelligenza, le capacità comunicative, le lingue e i poteri di una spada magica. Se vengono indicati poteri primari o straordinari, tira sulle tabelle dei Poteri Primari e Straordinari.</p>"
         },
         "Jewelry Value Table": {
             "name": "Tabella Valore Gioielli",
             "results": {
                 "1-45": "Gioielli Comuni (4k)",
                 "46-78": "Gioiello Non-Comune (15k)",
-                "79-100": "Gioello Raro (50k)"
+                "79-100": "Gioello Raro (50k)",
+                "1-1": "Gioielli: 100 mo",
+                "100-100": "Gioielli: 50.000 mo",
+                "11-16": "Gioielli: 2.000 mo",
+                "17-24": "Gioielli: 2.500 mo",
+                "2-3": "Gioielli: 500 mo",
+                "25-34": "Gioielli: 3.000 mo",
+                "35-45": "Gioielli: 4.000 mo",
+                "4-6": "Gioielli: 1.000 mo",
+                "46-58": "Gioielli: 5.000 mo",
+                "59-69": "Gioielli: 7.500 mo",
+                "7-10": "Gioielli: 1.500 mo",
+                "70-78": "Gioielli: 10.000 mo",
+                "79-85": "Gioielli: 15.000 mo",
+                "86-90": "Gioielli: 20.000 mo",
+                "91-94": "Gioielli: 25.000 mo",
+                "95-97": "Gioielli: 30.000 mo",
+                "98-99": "Gioielli: 40.000 mo"
             }
         },
         "Level 1 Gem": {
-            "name": "Gemma 1° Livello"
+            "name": "Gemma 1° Livello",
+            "results": {
+                "1-5": "[[1d6]] Gemme. Valgono [[/r 1d6*50 #Valore in monete d'oro della gemma]] pezzi d'oro ciascuna. Tira i dadi per ogni gemma separatamente.",
+                "6-100": "Nessuna gemma"
+            }
         },
         "Level 1 Jewelry": {
-            "name": "Gioiello 1° Livello"
+            "name": "Gioiello 1° Livello",
+            "results": {
+                "1-2": "[[1d6]] Gioielli. Del valore di [[/r 1d6*50 #valore in monete d'oro dei gioielli]] monete d'oro ciascuno. Tira per ogni gioiello separatamente. @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+                "3-100": "Nessun gioiello"
+            }
         },
         "Level 1 Magic Item": {
             "name": "Oggetto Magico 1° Livello",
             "results": {
-                "1-2": "Oggetti Magici (Base)"
+                "1-2": "Oggetti Magici (Base)",
+                "3-100": "Nessun oggetto magico"
             }
         },
         "Level 1 Treasure": {
             "name": "Tesoro 1° Livello",
             "results": {
-                "1-100": "Gemma 1° Livello"
+                "1-100": "Gemma 1° Livello",
+                "1-50": "[[1d6*10]] Monete d'oro"
             }
         },
         "Level 2-3 Gem": {
-            "name": "Gemma 2-3° Livello"
+            "name": "Gemma 2-3° Livello",
+            "results": {
+                "1-10": "[[1d6]] Gemme. Valgono [[/r (1d6+1)*50 # Valore in monete d'oro della gemma]] monete d'oro ciascuna. Tira i dadi per ogni gemma separatamente.",
+                "11-100": "Nessuna gemma"
+            }
         },
         "Level 2-3 Magic Item": {
             "name": "Oggetto Magico 2-3° Livello",
             "results": {
-                "1-8": "Oggetti Magici (Base)"
+                "1-8": "Oggetti Magici (Base)",
+                "9-100": "Nessun oggetto magico"
             }
         },
         "Level 2-3 Treasure": {
             "name": "Tesoro 2-3° Livello",
             "results": {
-                "1-100": "Oggetto Magico 2-3° Livello"
+                "1-100": "Oggetto Magico 2-3° Livello",
+                "1-50": "[[1d6*10]] Monete d'oro"
             }
         },
         "Magic Armor": {
@@ -552,8 +603,13 @@
                 "76-77": "Mod CA (Bande, Scaglie o Pelle)",
                 "78-85": "Mod CA (Maglia)",
                 "86-90": "Mod CA (Bande, Scaglie o Pelle)",
-                "91-100": "Mod CA (Piastre o Completa)"
-            }
+                "91-100": "Mod CA (Piastre o Completa)",
+                "1-10": "Armatura in cuoio",
+                "11-17": "Armatura a scaglie",
+                "40-50": "Corazza di piastre",
+                "51-55": "Armatura completa"
+            },
+            "description": "<p>Determina il tipo di armatura o scudo trovato. Include armature singole (ad esempio, cuoio, cotta di maglia) e combinazioni (ad esempio, piastra e scudo).</p>"
         },
         "Armor Special Powers": {
             "name": "Poteri Speciali Armatura",
@@ -574,7 +630,11 @@
             }
         },
         "Level 2-3 Jewelry": {
-            "name": "Gioiello 2-3° Livello"
+            "name": "Gioiello 2-3° Livello",
+            "results": {
+                "1-5": "[[1d6]] Gioielli. Del valore di [[/r 1d8*50 #valore in monete d'oro dei gioielli]] monete d'oro ciascuno. Tira per ogni gioiello separatamente. @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+                "6-100": "Niente gioielli"
+            }
         },
         "Cursed Armor Check": {
             "name": "Controllo Armatura Maledetta",
@@ -586,7 +646,15 @@
         "Hit Location - Winged Biped": {
             "name": "Punto Colpito - Bipede Alato",
             "results": {
-                "4-4": "Scrigno"
+                "4-4": "Scrigno",
+                "1-1": "Gamba Destra",
+                "10-13": "Ala Sinistra",
+                "14-14": "Braccio Destro",
+                "15-15": "Braccio Sinistro",
+                "16-20": "Testa",
+                "2-2": "Gamba Sinistra",
+                "3-3": "Addome",
+                "5-9": "Ala Destra"
             }
         },
         "Elf": {
@@ -1169,7 +1237,8 @@
                 "3-4": "Berserker",
                 "5-5": "Umano, Brigante",
                 "6-8": "Cavernicolo (Neanderthal)",
-                "9-9": "Allineamento PNG Avventuriero"
+                "9-9": "Allineamento PNG Avventuriero",
+                "1-1": "Avventuriero"
             }
         },
         "Human (River)": {
@@ -1228,7 +1297,8 @@
                 "5-7": "Umano, Brigante",
                 "8-8": "Allineamento PNG Avventuriero",
                 "9-9": "Allineamento PNG Avventuriero"
-            }
+            },
+            "description": "<p>Incontro umano nel bosco.</p>"
         },
         "Humanoid (Barren, Mountain, Hill)": {
             "name": "Umanoidi (Arido, Montagna, Collina)",
@@ -1339,7 +1409,8 @@
                 "7-7": "Goblin",
                 "8-8": "Hobgoblin",
                 "9-9": "Orco"
-            }
+            },
+            "description": "<p>Incontro umanoide.</p>"
         },
         "Insect Swarm": {
             "name": "Sciame di insetti",
@@ -1350,15 +1421,24 @@
             }
         },
         "Level 4-5 Gem": {
-            "name": "Gemma di 4-5° Livello"
+            "name": "Gemma di 4-5° Livello",
+            "results": {
+                "1-20": "[[1d8]] Gemme. Valgono [[/r 1d6*50 #Valore in monete d'oro della gemma]] monete d'oro ciascuna. Tira i dadi per ogni gemma separatamente.",
+                "21-100": "Nessuna gemma"
+            }
         },
         "Level 4-5 Jewelry": {
-            "name": "Gioiello di 4-5° Livello"
+            "name": "Gioiello di 4-5° Livello",
+            "results": {
+                "1-10": "[[1d8]] Gioielli. Del valore di [[/r 1d8*50 #valore in monete d'oro dei gioielli]] monete d'oro ciascuno. Tira i dadi per ogni gioiello separatamente. @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+                "11-100": "Nessun gioiello"
+            }
         },
         "Level 4-5 Magic Item": {
             "name": "Oggetto Magico di 4-5° Livello",
             "results": {
-                "1-10": "Oggetti Magici (Base)"
+                "1-10": "Oggetti Magici (Base)",
+                "11-100": "Nessun oggetto magico"
             }
         },
         "Level 4-5 Treasure": {
@@ -1368,7 +1448,32 @@
             }
         },
         "Magic Pool": {
-            "name": "Pozza Magica"
+            "name": "Pozza Magica",
+            "description": "<p>Il liquido delle pozze è magico solo entro 1,5 metri dalla pozza stessa.</p>",
+            "results": {
+                "1-1": "Pozza di Rigenerazione: Quest'acqua blu scintillante ripristina 1d4 punti ferita quando viene ingerita. Inoltre, rimuove un livello di affaticamento. La pozza può essere utilizzata solo una volta al giorno da ciascun personaggio.",
+                "10-10": "Pozza degli Echi: Questa pozza amplifica il suono. Qualsiasi rumore prodotto entro 9 metri dalla pozza viene raddoppiato di volume, il che può essere utilizzato strategicamente per distrarre o allertare le creature vicine.",
+                "11-11": "Pozza della Chiarezza: Bere da questa pozza schiarisce la mente, garantendo vantaggio alle prove di Intelligenza e ai tiri salvezza per 1 ora. Tuttavia, chi beve deve superare un tiro salvezza su Costituzione con CD 12 o essere sopraffatto dalla chiarezza, subendo svantaggio ai tiri salvezza su Saggezza.",
+                "12-12": "Pozza del Vincolo: Questa pozza contiene un liquido viscoso che, al contatto, lega insieme le mani del personaggio per 1d4 minuti. Durante questo periodo, il personaggio non può usare le mani per compiere alcuna azione.",
+                "13-13": "Pozza dei Sussurri: Questa pozza permette a chi la beve di udire i pensieri delle creature vicine per 1d6 minuti. Chi la beve deve superare un tiro salvezza su Saggezza per evitare di essere sopraffatto dal flusso di pensieri.",
+                "14-14": "Pozza della Resistenza: Bere da questa pozza conferisce punti ferita temporanei pari a 1d6 + il livello del personaggio. Questi punti ferita durano 1 ora o finché non si esauriscono.",
+                "15-15": "Pozza degli Antichi: Questa pozza dall'aspetto antico conferisce a chi la beve la conoscenza di un incantesimo a sua scelta, di qualsiasi classe, per 1 ora. L'incantesimo può essere lanciato una sola volta durante questo periodo senza consumare uno slot incantesimo.",
+                "16-16": "Pozza della Bestia: Bere da questa pozza permette al personaggio di comunicare con gli animali per 1d4 ore. Può comprendere e parlare con qualsiasi animale entro 9 metri.",
+                "17-17": "Pozza dei Perduti: Questa pozza rivela visioni di tesori perduti o nascosti a chi la osserva. Chi beve deve superare un tiro salvezza su Intelligenza con CD 15 per ricordare il luogo dopo essere uscito dalla pozza.",
+                "18-18": "Pozza degli Elementi: Questa pozza cambia le sue proprietà in base alla stagione. In inverno, conferisce resistenza al freddo; in primavera, guarisce; in estate, conferisce resistenza al fuoco; e in autunno, fornisce vantaggio alle prove di furtività.",
+                "19-19": "Pozza dei Dimenticati: Bere da questa pozza fa sì che chi la beve dimentichi un incantesimo o un'abilità a caso per 24 ore. Non potrà usare l'abilità dimenticata finché non sarà trascorso questo tempo.",
+                "2-2": "Pozza delle Illusioni: quest'acqua cristallina crea una vivida illusione di un tesoro o di una creatura quando la si guarda. L'illusione dura 1 ora ed è possibile interagire con essa, ma non è reale.",
+                "20-20": "Pozza della Fenice: Questa pozza contiene un liquido rosso fuoco che, se ingerito, permette a chi lo beve di essere resuscitato una volta dopo la morte entro le successive 24 ore. Chi lo beve deve comunque superare un tiro salvezza per evitare la morte.",
+                "21-26": "Pozza del Veleno: Questa pozza contiene un liquido denso e verde scuro che ribolle leggermente, emanando un debole aroma acre. La superficie luccica con una lucentezza oleosa, riflettendo la luce in inquietanti motivi. Qualsiasi creatura che tocchi o beva da questa pozza deve effettuare un tiro salvezza su Costituzione. In caso di fallimento, la creatura subisce 2d6 danni da veleno ed è avvelenata per 1 ora, sperimentando nausea e svantaggio ai tiri per colpire e alle prove di caratteristica. Anche una sola goccia sulla lingua provoca una sensazione di bruciore e infligge 1d6 danni da veleno, senza possibilità di tiro salvezza. La pozza sembra essere senza fondo e qualsiasi tentativo di rimuovere il liquido si traduce nella sua evaporazione in una nebbia innocua.",
+                "27-40": "La pozza è composta da acqua cristallina che può essere consumata senza effetti collaterali.",
+                "3-3": "Pozza della Trasformazione: Bere da questa pozza fa sì che chi la beve si trasformi in una creatura casuale (determinata dal DM) per 1d6 ore. La trasformazione è completa, comprese le abilità e l'aspetto.",
+                "4-4": "Pozza della Dilatazione Temporale: I personaggi che entrano in questa pozza percepiscono il tempo in modo diverso. Per ogni minuto trascorso nella pozza, all'esterno passano solo 10 secondi. Questo effetto dura 1 ora.",
+                "5-5": "Pozza delle Ombre: Quest'acqua scura e torbida conferisce la capacità di diventare invisibile per 1d4 minuti dopo averla bevuta. Tuttavia, qualsiasi rumore prodotto mentre si è invisibili rivelerà la posizione di chi la beve.",
+                "6-6": "Pozza della Furia Elementale: Questa pozza contiene energie elementali vorticose. Bere da essa permette al personaggio di lanciare un incantesimo elementale casuale (fuoco, ghiaccio, fulmine, ecc.) una volta entro l'ora successiva.",
+                "7-7": "Pozza della Memoria: Questa riserva permette a un personaggio di rievocare un qualsiasi ricordo del suo passato come se stesse accadendo di nuovo. Questo effetto può essere usato per ottenere intuizione o ispirazione, garantendo vantaggio alla successiva prova di abilità.",
+                "8-8": "Pozza della Crescita: Bere da questa pozza fa sì che chi la beve cresca di 1d4 pollici in altezza per 1 ora. Durante questo periodo, ottiene un bonus di +1 alle prove di Forza ma subisce una penalità di -1 alle prove di Destrezza.",
+                "9-9": "Pozza degli Incubi: Questa pozza è piena di un liquido scuro e vorticoso. Bere da essa provoca al personaggio incubi vividi, con conseguente svantaggio ai tiri salvezza su Saggezza per le successive 24 ore."
+            }
         },
         "Magic Rings": {
             "name": "Anelli Magici",
@@ -1378,7 +1483,8 @@
                 "46-48": "Anello di Protezione +2",
                 "70-71": "Anello Rifletti Incantesimi",
                 "97-98": "Anello dei Desideri"
-            }
+            },
+            "description": "<p>Determina il tipo di anello magico trovato in base a un tiro di 1d100.</p>"
         },
         "Magic-User Scroll Spell Count": {
             "name": "Incantesimi per pergamena - Mago",
