@@ -67,8 +67,16 @@
                 "94-96": "Pozione di Nuotare",
                 "97-97": "Pozione di Scropritesori",
                 "98-98": "Pozione di Controllo dei Non-Morti",
-                "99-100": "Pozione del Respirare Sott'Acqua"
-            }
+                "99-100": "Pozione del Respirare Sott'Acqua",
+                "19-22": "Pozione dell'Inganno",
+                "40-41": "Pozione della Tempra",
+                "42-42": "Pozione di Libertà",
+                "43-45": "Pozione di Forma Gassosa",
+                "50-51": "Pozione di Crescita",
+                "61-61": "Pozione di Controllo degli Umani",
+                "67-68": "Pozione di Levitazione"
+            },
+            "description": "<p>Tabella delle pozioni magiche con i relativi intervalli di tiro.</p>"
         },
         "Scrolls": {
             "name": "Pergamene",
@@ -85,8 +93,21 @@
                 "69-71": "Intercetta Incantesimo",
                 "72-96": "Pergamene Incantesimi",
                 "97-98": "Pergamena Intrappolante",
-                "99-100": "Pergamena della Verità"
-            }
+                "99-100": "Pergamena della Verità",
+                "14-14": "Pergamena Ritardante (I)",
+                "20-21": "Pergamena Dei Magi (I)",
+                "22-25": "Mappa del Tesoro (normale)",
+                "26-28": "Mappa del Tesoro (magico)",
+                "29-30": "Mappa del Tesoro (misto)",
+                "31-31": "Mappa del Tesoro (speciale)",
+                "37-42": "Pergamena di Protezione dagli Elementali",
+                "43-50": "Pergamena di Protezione dai Licantropi",
+                "51-54": "Pergamena di Protezione dalla Magia",
+                "55-61": "Pergamena di Protezione dai Non-morti",
+                "6-13": "Pergamena della Maledizione (si verifica quando viene letta)",
+                "64-64": "Pergamena della Ripetizione (I)"
+            },
+            "description": "<p>Tabella per determinare il tipo di pergamena trovata, con riferimenti alle sottotabelle se necessario. Se viene tirata una pergamena magica, tirare sulla tabella del Livello di Incantesimo appropriata per determinarne il livello.</p>"
         },
         "AC Mod (Banded, Scale or Leather)": {
             "name": "Mod CA (Bande, Scaglie o Pelle)",
@@ -444,7 +465,7 @@
         "Hit Location - Humanoid": {
             "name": "Punto Colpito - Umanoide",
             "results": {
-                "10-12": "Scrigno",
+                "10-12": "Torace",
                 "1-3": "Gamba Destra",
                 "13-15": "Braccio Sinistro",
                 "16-18": "Braccio Destro",
@@ -646,7 +667,7 @@
         "Hit Location - Winged Biped": {
             "name": "Punto Colpito - Bipede Alato",
             "results": {
-                "4-4": "Scrigno",
+                "4-4": "Torace",
                 "1-1": "Gamba Destra",
                 "10-13": "Ala Sinistra",
                 "14-14": "Braccio Destro",
@@ -881,7 +902,7 @@
         "Barren, Mountain, Hill Encounter": {
             "name": "Incontro Arido, Montagna, Collina",
             "results": {
-                "1-1": "Classe e Livello PNG Avventuriero",
+                "1-1": "Avventuriero PNG Classe e Livello",
                 "2-2": "Volanti (Montagna)",
                 "3-3": "Umanoidi (Arido, Montagna, Collina)",
                 "4-4": "Insolito",
@@ -1482,7 +1503,35 @@
                 "41-45": "Anello di Protezione +1",
                 "46-48": "Anello di Protezione +2",
                 "70-71": "Anello Rifletti Incantesimi",
-                "97-98": "Anello dei Desideri"
+                "97-98": "Anello dei Desideri",
+                "1-2": "Anello del Controllo Animale",
+                "10-13": "Anello dell'Udito",
+                "18-23": "Anello della Resistenza al Fuoco",
+                "24-26": "Anello della Santità (Chierico, Druido)",
+                "27-27": "Anello del Controllo Umano",
+                "28-32": "Anello dell'Invisibilità",
+                "3-8": "Anello dell'Inganno",
+                "33-35": "Anello di Protezione della Vita",
+                "36-38": "Anello della Memoria (Speciale)",
+                "39-40": "Anello del Controllo delle Piante",
+                "49-50": "Anello di Protezione +3",
+                "51-51": "Anello di Protezione +4",
+                "52-55": "Anello della Rapidità",
+                "56-56": "Anello della Rigenerazione",
+                "57-59": "Anello dei Rimedi",
+                "60-61": "Anello della Sicurezza",
+                "62-64": "Anello della Vista Rivelante",
+                "65-67": "Anello Divoratore di Incantesimi",
+                "68-69": "Anello Accumulatore di Incantesimi",
+                "72-75": "Anello della Sopravvivenza",
+                "76-77": "Anello della Telecinesi",
+                "78-81": "Anello della Verità",
+                "82-84": "Anello della Sincerità",
+                "85-86": "Anello della Veridicità",
+                "87-91": "Anello del Camminare sull'Acqua",
+                "9-9": "Anello Evocatore di Geni",
+                "92-96": "Anello della Debolezza",
+                "99-100": "Visione a Raggi X"
             },
             "description": "<p>Determina il tipo di anello magico trovato in base a un tiro di 1d100.</p>"
         },
@@ -1492,10 +1541,23 @@
                 "1-50": "Livello Incantesimo Pergamena - Mago",
                 "51-83": "Livello Incantesimo Pergamena - Mago",
                 "84-100": "Livello Incantesimo Pergamena - Mago"
-            }
+            },
+            "description": "<p>Determina il numero di incantesimi sulla pergamena. Tira i dadi per determinare il livello di ogni incantesimo separatamente.</p>"
         },
         "Magic-User Scroll Spell Level": {
-            "name": "Livello Incantesimo Pergamena - Mago"
+            "name": "Livello Incantesimo Pergamena - Mago",
+            "description": "<p>Determina il livello di un incantesimo da mago presente su una pergamena magica.</p>",
+            "results": {
+                "1-28": "Incantesimo di 1° Livello",
+                "100-100": "Incantesimo di 9° Livello",
+                "29-49": "Incantesimo di 2° Livello",
+                "50-64": "Incantesimo di 3° Livello",
+                "65-75": "Incantesimo di 4° Livello",
+                "76-84": "Incantesimo di 5° Livello",
+                "85-91": "Incantesimo di 6° Livello",
+                "92-96": "Incantesimo di 7° Livello",
+                "97-99": "Incantesimo di 8° Livello"
+            }
         },
         "Magical Items (Adv.)": {
             "name": "Oggetti Magici (Avanzato)",
@@ -1507,8 +1569,10 @@
                 "53-62": "Oggetti Vari",
                 "63-72": "Armatura Magica",
                 "84-92": "Spade (Avanzato)",
-                "93-100": "Armi Varie (Avanzato)"
-            }
+                "93-100": "Armi Varie (Avanzato)",
+                "73-83": "Armi missilistiche e missili (Avanzato)"
+            },
+            "description": "<p>Determina il tipo di oggetto magico trovato, come una pozione, una pergamena, una bacchetta o una spada.</p>"
         },
         "Magical Items (Basic)": {
             "name": "Oggetti Magici (Base)",
@@ -1522,7 +1586,8 @@
                 "73-83": "Armi a Distanza & Proiettili (Base)",
                 "84-92": "Spade (Base)",
                 "93-100": "Armi Varie (Base)"
-            }
+            },
+            "description": "<p>Determina il tipo di oggetto magico trovato, come una pozione, una pergamena, una bacchetta o una spada.</p>"
         },
         "Magical Items (No Weapons)": {
             "name": "Oggetti Magici (No Armi)",
@@ -1533,7 +1598,8 @@
                 "47-52": "Anelli Magici",
                 "53-62": "Oggetti Vari",
                 "63-72": "Armatura Magica"
-            }
+            },
+            "description": "<p>Determina il tipo di oggetto magico trovato, come una pozione, una pergamena, una bacchetta o una spada.</p>"
         },
         "Magical Weapon (Basic)": {
             "name": "Armi Magiche (Base)",
@@ -1541,7 +1607,8 @@
                 "1-2": "Armi a Distanza & Proiettili (Base)",
                 "3-4": "Spade (Base)",
                 "5-6": "Armi Varie (Base)"
-            }
+            },
+            "description": "<p>La tabella <strong>Arma Magica (Base)</strong> viene utilizzata per generare armi magiche per personaggi di livello 1-10. Include tre categorie di armi: armi da lancio, spade e armi varie, insieme ai loro bonus magici di base.</p>"
         },
         "Misc. Weapons (Basic)": {
             "name": "Armi Varie (Base)",
@@ -1552,8 +1619,34 @@
                 "56-58": "Mazza +2",
                 "81-85": "Lancia +1",
                 "86-88": "Lancia +2",
-                "91-95": "Bastone +1"
-            }
+                "91-95": "Bastone +1",
+                "1-5": "Ascia da Battaglia +1",
+                "11-15": "Accetta +1",
+                "16-18": "Accetta +2",
+                "19-20": "Accetta +3",
+                "26-28": "Pugnale +2",
+                "29-30": "Pugnale +3",
+                "31-35": "Martello da lancio +1",
+                "36-38": "Martello da lancio +2",
+                "39-40": "Martello da lancio +3",
+                "41-45": "Martello da Guerra +1",
+                "46-48": "Martello da Guerra +2",
+                "49-50": "Martello da Guerra +3",
+                "59-60": "Mazza +3",
+                "6-8": "Ascia da Battaglia +2",
+                "61-65": "Arma Lunga +1",
+                "66-68": "Arma Lunga +2",
+                "69-70": "Arma Lunga +3",
+                "71-72": "Scudo Appuntito +1",
+                "73-75": "Scuda Laminato +1",
+                "76-78": "Scudo Lanceolato +1",
+                "79-80": "Scudo Dentato +1",
+                "89-90": "Lancia +3",
+                "9-10": "Ascia da Battaglia +3",
+                "96-98": "Bastone Ferrato +2",
+                "99-100": "Bastone Ferrato +3"
+            },
+            "description": "<p>Genera un'arma magica specifica tra quelle disponibili, come asce, martelli, pugnali, armi inastate, scudi, lance e bastoni, con i rispettivi bonus.</p>"
         },
         "Misc. Weapons (Class B)": {
             "name": "Armi Varie (Classe B)",
@@ -1563,7 +1656,8 @@
                 "75-88": "Armi con Mod. 20%",
                 "89-96": "Armi con Mod. 15%",
                 "97-100": "Armi con Mod. 10%"
-            }
+            },
+            "description": "<p>Determina il bonus magico e la probabilità di ottenere modificatori aggiuntivi per le armi di Classe B.</p>"
         },
         "Misc. Weapons (Class C)": {
             "name": "Armi Varie (Classe C)",
@@ -1573,7 +1667,8 @@
                 "82-92": "Armi con Mod. 20%",
                 "93-98": "Armi con Mod. 15%",
                 "99-100": "Armi con Mod. 10%"
-            }
+            },
+            "description": "<p>Determina il bonus magico e la probabilità di ottenere modificatori aggiuntivi per le armi di Classe C.</p>"
         },
         "Misc. Weapons (Class D)": {
             "name": "Armi Varie (Classe D)",
@@ -1583,7 +1678,8 @@
                 "71-88": "Armi con Mod. 30%",
                 "89-96": "Armi con Mod. 20%",
                 "97-99": "Armi con Mod. 15%"
-            }
+            },
+            "description": "<p>Determina il bonus magico e la probabilità di ottenere modificatori aggiuntivi per le armi di Classe D.</p>"
         },
         "Misc.Weapons (Adv.)": {
             "name": "Armi Varie (Avanzato)",
@@ -1610,7 +1706,8 @@
                 "85-94": "Armi Varie (Classe B)",
                 "95-97": "Armi Varie (Classe B)",
                 "98-100": "Armi Varie (Classe C)"
-            }
+            },
+            "description": "<p>Genera armi varie e le loro classi. Utilizza la tabella Bonus e Modificatori Magici per ulteriori personalizzazioni.</p>"
         },
         "Miscellaneous Items": {
             "name": "Oggetti Vari",
@@ -1618,54 +1715,169 @@
                 "36-38": "Uovo delle Meraviglie (Tipo Creatura)",
                 "54-54": "Corno della Devastazione",
                 "72-76": "Unguenti",
-                "93-94": "Talismano del Viaggio Elementale"
-            }
+                "93-94": "Talismano del Viaggio Elementale",
+                "1-2": "Amuleto anti Sfera di Cristallo ed ESP",
+                "10-12": "Barca subacquea",
+                "13-14": "Stivali della Levitazione",
+                "15-17": "Stivali Piè Veloce",
+                "18-19": "Stivali del Viaggiare e del Saltare",
+                "20-20": "Anfora per il Controllo degli Elementali dell’Acqua",
+                "21-21": "Braciere per il Controllo degli Elementali del Fuoco",
+                "22-23": "Scopa Volante",
+                "24-24": "Turibolo per il Controllo degli Elementali dell’Aria",
+                "25-27": "Diapason Temporale",
+                "28-29": "Sfera di Cristallo (E, M)",
+                "3-4": "Borsa Dissolvente",
+                "30-30": "Sfera di Cristallo con Chiaraudienza (M)",
+                "31-31": "Sfera di Cristallo con ESP (M)",
+                "32-33": "Mantello Deflettente",
+                "34-34": "Tamburi del Panico",
+                "35-35": "Giara dell'Efreeti",
+                "39-40": "Stivali Elfici",
+                "41-42": "Mantello Elfico",
+                "43-43": "Tappeto Volante",
+                "44-45": "Guanti del Potere Orchesco",
+                "46-47": "Cintura della Forza del Gigante",
+                "48-49": "Elmo della Mutazione dell’Allineamento",
+                "5-9": "Borsa Conservante",
+                "50-51": "Elmo della Lettura delle Lingue e del Magico",
+                "52-52": "Elmo della Telepatia",
+                "53-53": "Elmo del Teletrasporto (M)",
+                "55-56": "Lampada degli Uragani",
+                "57-59": "Lampada della Lunga Durata",
+                "60-61": "Medaglione dell’ESP 9 m",
+                "62-62": "Medaglione dell’ESP 27 m",
+                "63-63": "Specchio Imprigionante",
+                "64-66": "Museruola dell’Addestramento",
+                "67-68": "Chiodo Indicatore",
+                "69-71": "Chiodo Rivelatore",
+                "77-79": "Tasca Ultrasicura",
+                "80-82": "Penna ricopiante (I)",
+                "83-86": "Corda Magica",
+                "87-88": "Scarabeo Protettore",
+                "89-91": "Lavagna dell’Identificazione (I)",
+                "92-92": "Pietra del Controllo degli Elementali della Terra",
+                "95-97": "Ruota Fluttuante",
+                "98-98": "Ruota della Fortuna",
+                "99-100": "Ruota Quadrata"
+            },
+            "description": "<p>Determina gli oggetti magici vari trovati con un tiro di 1d100.</p>"
         },
         "Missile Talent 10%": {
             "name": "Talento Proiettile 10%",
             "results": {
-                "1-10": "Talenti Proiettile"
-            }
+                "1-10": "Talenti Proiettile",
+                "11-100": "Nessun talento"
+            },
+            "description": "<p>Determina se un proiettile possiede un talento (10% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 15%": {
             "name": "Talento Proiettile 15%",
             "results": {
-                "1-15": "Talenti Proiettile"
-            }
+                "1-15": "Talenti Proiettile",
+                "16-100": "Nessun talento"
+            },
+            "description": "<p>Determina se un proiettile possiede un talento (15% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 20%": {
             "name": "Talento Proiettile 20%",
             "results": {
-                "1-20": "Talenti Proiettile"
-            }
+                "1-20": "Talenti Proiettile",
+                "21-100": "Nessun talento"
+            },
+            "description": "<p>Determina se un proiettile possiede un talento (20% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 25%": {
             "name": "Talento Proiettile 25%",
             "results": {
-                "1-25": "Talenti Proiettile"
-            }
+                "1-25": "Talenti Proiettile",
+                "26-100": "Nessun talento"
+            },
+            "description": "<p>Determina se un proiettile possiede un talento (25% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 30%": {
             "name": "Talento Proiettile 30%",
             "results": {
-                "1-30": "Talenti Proiettile"
-            }
+                "1-30": "Talenti Proiettile",
+                "31-100": "Nessun talento"
+            },
+            "description": "<p>Determina se un proiettile possiede un talento (30% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talents": {
-            "name": "Talenti Proiettile"
+            "name": "Talenti Proiettile",
+            "description": "<p>Determina il talento specifico di un proiettile magico, come Mordere, Stordire o Ferire.</p>",
+            "results": {
+                "1-4": "Talento: Mordente",
+                "10-14": "Talento: Affascinante",
+                "15-21": "Talento: Scalante",
+                "22-31": "Talento: Curante",
+                "32-34": "Talento: Disarmante",
+                "35-38": "Talento: Disincantante",
+                "39-45": "Talento: Volante",
+                "46-52": "Talento: illuminante",
+                "5-9": "Talento: Lampeggiante",
+                "53-57": "Talento: Penetrante",
+                "58-61": "Talento: Riempiente",
+                "62-67": "Talento: Urlante",
+                "68-72": "Talento: Cercante",
+                "73-76": "Talento: Affondante",
+                "77-78": "Talento: Assassinante",
+                "79-85": "Talento: Parlante",
+                "86-89": "Talento: Straordinario",
+                "90-91": "Talento: Teleportante",
+                "92-96": "Talento: Trasportante",
+                "97-100": "Talento: Ferimento"
+            }
         },
         "Missile Weapon or Missile (Basic)": {
             "name": "Armi a Distanza & Proiettili (Base)",
             "results": {
-                "98-100": "Fionda +1"
-            }
+                "98-100": "Fionda +1",
+                "1-6": "Frecce +1 [[2d10]]",
+                "12-15": "Frecce +3 [[2d4]]",
+                "16-18": "Frecce +1 (argento)",
+                "19-20": "Frecce +2 (argento)",
+                "21-21": "Frecce +3 (argento)",
+                "22-25": "Cerbottana +1",
+                "26-28": "Bolas +1",
+                "29-33": "Arco Corto +1",
+                "34-37": "Arco Corto +2",
+                "38-40": "Arco Corto +3",
+                "41-45": "Arco Lungo +1",
+                "46-49": "Arco Lungo +2",
+                "50-52": "Arco Lungo +3",
+                "53-57": "Balestra Leggera +1",
+                "58-61": "Balestra Leggera +2",
+                "62-64": "Balestra Leggera +3",
+                "65-69": "Balestra Pesante +1",
+                "7-11": "Frecce +2 [[2d6]]",
+                "70-73": "Balestra Pesante +2",
+                "74-76": "Balestra Pesante +3",
+                "77-82": "Quadrelli +1 [[2d10]]",
+                "83-87": "Quadrelli +2 [[2d6]]",
+                "88-91": "Quadrelli +3 [[2d4]]",
+                "92-94": "Quadrelli +1 (argento)",
+                "95-96": "Quadrelli +2 (argento)",
+                "97-97": "Quadrelli +3 (argento)"
+            },
+            "description": "<p>Genera un'arma o un proiettile magico specifico, insieme al suo bonus e alla quantità, se applicabile.</p>"
         },
         "Missile Weapons & Missiles (Adv.)": {
             "name": "Armi a Distanza & Proiettili (Avanzato)",
             "results": {
                 "1-70": "Proiettili (Classe A)",
-                "71-100": "Armi a Distanza (Classe D)"
-            }
+                "71-100": "Armi a Distanza (Classe D)",
+                "1-37": "Frecce (Arma Classe A)",
+                "38-59": "Quadrelli (Arma Classe A)",
+                "60-70": "Pietre per fionda (Arma Classe A)",
+                "71-72": "Cerbottana (Arma Classe D)",
+                "73-80": "Arco Lungo (Arma Classe D)",
+                "81-85": "Arco Corto (Arma Classe D)",
+                "86-87": "Balestra Pesante (Arma Classe D)",
+                "88-92": "Balestra Leggera (Arma Classe D)",
+                "93-100": "Fionda (Arma Classe D)"
+            },
+            "description": "<p>Determina il tipo di arma a distanza o proiettile trovato e la sua classe. Utilizzare la tabella bonus appropriata per proprietà aggiuntive.</p>"
         },
         "Missile Weapons (Class D)": {
             "name": "Armi a Distanza (Classe D)",
@@ -1675,22 +1887,52 @@
                 "71-88": "Armi con Mod. 25%",
                 "89-96": "Armi con Mod. 20%",
                 "97-99": "Armi con Mod. 15%"
-            }
+            },
+            "description": "<p>Determina il bonus magico per le armi da lancio (Classe D). Ulteriori modificatori dell'arma possono essere applicati in base al risultato del tiro.</p>"
         },
         "Missile Weapons Range (+1)": {
-            "name": "Gittata Armi a Distanza (+1)"
+            "name": "Gittata Armi a Distanza (+1)",
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
+            "results": {
+                "2-4": "Nessun moltiplicatore di gittata",
+                "5-7": "Gittata x1,5 (+50%)"
+            }
         },
         "Missile Weapons Range (+2)": {
-            "name": "Gittata Armi a Distanza (+2)"
+            "name": "Gittata Armi a Distanza (+2)",
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
+            "results": {
+                "2-4": "Nessun moltiplicatore di gittata",
+                "5-7": "Gittata x1,5 (+50%)",
+                "8-9": "Gittata x2 (+100%)"
+            }
         },
         "Missile Weapons Range (+3)": {
-            "name": "Gittata Armi a Distanza (+3)"
+            "name": "Gittata Armi a Distanza (+3)",
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
+            "results": {
+                "2-4": "Nessun moltiplicatore di gittata",
+                "5-7": "Gittata x1,5 (+50%)",
+                "8-9": "Gittata x2 (+100%)"
+            }
         },
         "Missile Weapons Range (+4)": {
-            "name": "Gittata Armi a Distanza (+4)"
+            "name": "Gittata Armi a Distanza (+4)",
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
+            "results": {
+                "2-4": "Nessun moltiplicatore di gittata",
+                "5-7": "Gittata x1,5 (+50%)",
+                "8-9": "Gittata x2 (+100%)"
+            }
         },
         "Missile Weapons Range (+5)": {
-            "name": "Gittata Armi a Distanza (+5)"
+            "name": "Gittata Armi a Distanza (+5)",
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
+            "results": {
+                "2-4": "Nessun moltiplicatore di gittata",
+                "5-7": "Gittata x1,5 (+50%)",
+                "8-9": "Gittata x2 (+100%)"
+            }
         },
         "Missiles (Class A)": {
             "name": "Proiettili (Classe A)",
@@ -1700,10 +1942,19 @@
                 "68-84": "Talento Proiettile 20%",
                 "85-94": "Talento Proiettile 15%",
                 "95-100": "Talento Proiettile 10%"
-            }
+            },
+            "description": "<p>Determina il bonus magico e la quantità di proiettili (Classe A). Talenti aggiuntivi possono essere applicati in base al risultato del tiro.</p>"
         },
         "Monster Reaction Roll": {
-            "name": "Tiro Reazione Mostri"
+            "name": "Tiro Reazione Mostri",
+            "description": "<p>Il master determina la reazione dei mostri al gruppo. A volte, le circostanze rendono ovvio come reagirà un mostro. Altrimenti, il master può tirare i dadi sulla tabella sottostante per determinare come un mostro reagisce al gruppo.</p>",
+            "results": {
+                "1-2": "Ostile, attacca",
+                "12-12": "Amichevole, aiuta",
+                "3-5": "Non amichevole, potrebbe attaccare",
+                "6-8": "Neutrale, insicuro",
+                "9-11": "Indifferente, non interessato"
+            }
         },
         "NPC Adventurer Alignment": {
             "name": "Allineamento PNG Avventuriero",
@@ -1711,7 +1962,8 @@
                 "1-1": "Legale",
                 "2-2": "Neutrale",
                 "3-3": "Caotico"
-            }
+            },
+            "description": "<p>Allineamento dell'avventuriero</p>"
         },
         "NPC Adventurer Class": {
             "name": "Classe PNG Avventuriero",
@@ -1724,19 +1976,56 @@
                 "7-7": "Halfling",
                 "8-8": "Mago",
                 "9-10": "Ladro"
-            }
+            },
+            "description": "<p>*Nelle campagne in cui le razze del Sottosuolo sono comuni, è possibile incontrare un duergar, un drow o uno svirfneblin al posto di un nano, un elfo o uno gnomo.</p>"
         },
         "NPC Adventurer Class and Level": {
-            "name": "Classe e Livello PNG Avventuriero"
+            "name": "Classe e Livello PNG Avventuriero",
+            "description": "<p>*Nelle campagne in cui le razze del Sottosuolo sono comuni, è possibile incontrare un duergar, un drow o uno svirfneblin al posto di un nano, un elfo o uno gnomo.</p>",
+            "results": {
+                "1-1": "Chierico Base: [[1d3]] Expert: [[1d6+3]]",
+                "2-2": "Druido Base: [[1d3]] Expert: [[1d6+3]]",
+                "3-3": "Nano Base: [[1d3]] Expert: [[1d6+6]]",
+                "4-4": "Elfo Base: [[1d3]] Expert: [[1d6+2]]",
+                "5-5": "Guerriero Base: [[1d3]] Expert: [[1d6+3]]",
+                "6-6": "Guerriero Base: [[1d3]] Expert: [[1d6+5]]",
+                "7-7": "Halfling Base: [[1d3]] Expert: [[1d6+2]]",
+                "8-8": "Mago Base: [[1d3]] Expert: [[1d6+3]]",
+                "9-9": "Ladro Base: [[1d3]] Expert: [[1d6+4]]"
+            }
         },
         "NPC Reaction": {
-            "name": "Reazione PNG"
+            "name": "Reazione PNG",
+            "description": "<p>La maggior parte dei gruppi (sia PNG che PG) non vorrà combattere contro altri gruppi, preferendo affrontare i mostri. Il DM potrebbe voler evitare la grande e complessa battaglia che potrebbe verificarsi tra due gruppi. Quando i PG incontrano un gruppo di PNG, decidi come reagiranno i PNG, oppure tira un dado per la reazione. Modifica il risultato del tiro se lo desideri (magari i PNG hanno sentito parlare del gruppo di PG, o li conoscono come alleati, rivali o nemici).</p>",
+            "results": {
+                "2-5": "Se ne va",
+                "6-8": "Negozia",
+                "9-12": "Offerta di acquisto o vendita di informazioni [[1d100*5]] mo"
+            }
         },
         "Ointment Type": {
-            "name": "Unguenti"
+            "name": "Unguenti",
+            "description": "<p>Determina il tipo di unguento magico trovato, come Benedizione, Guarigione, Veleno o altri effetti.</p>",
+            "results": {
+                "1-1": "<strong>Benedizione:</strong> Questo unguento conferisce al destinatario un bonus di -2 alla classe armatura e un bonus di +2 a tutti i tiri salvezza per 1 turno.",
+                "2-2": "<strong>Guarigione:</strong> Questo unguento cura [[/r 2d6+2 #punti di danno curati]] punti di danno.",
+                "3-3": "<strong>Veleno:</strong> Questo unguento sembra essere una pomata benedetta, ma è veleno. Chi lo riceve deve effettuare un tiro salvezza contro il veleno, con una penalità di -2 al tiro, o morire.",
+                "4-4": "<strong>Cicatrici:</strong> Questo unguento sembra essere una pomata curativa, ma in realtà infligge [[/r 2d6 #punti di grave danno da ustione]] punti di grave danno da ustione. Il danno può essere riparato solo con una pomata lenitiva, un incantesimo di guarigione o un desiderio.",
+                "5-5": "<strong>Lenitivo:</strong> Questo unguento cura chi lo riceve da tutte le ustioni, siano esse magiche o normali.",
+                "6-6": "<strong>Abbronzatura:</strong> Questo unguento fa sì che la pelle del ricevente assuma un colore acceso [[1d6]] (1-rosso, 2-giallo, 3-arancione, 4-blu, 5-verde o 6-marrone). L'effetto non può essere rimosso ma svanirà in [[1d4]] mesi."
+            }
         },
         "Pit Trap": {
-            "name": "Trappola (Buco)"
+            "name": "Trappola (Buco)",
+            "description": "<p><span style=\"font-family:DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Una sezione del pavimento cede e uno, alcuni o tutti i personaggi devono effettuare una prova di Destrezza per vedere se possono evitare di cadere. Se falliscono, cadono, subendo 1d4, 1d6, 1d8 o 1d10 danni. La fossa potrebbe avere qualcosa sul fondo, come spuntoni per infliggere più danni, acqua profonda o un mostro. Potrebbe trattarsi di uno scivolo che conduce a un percorso senza ritorno verso il livello successivo del dungeon.</span></p>",
+            "results": {
+                "1-2": "Una trappola a fossa profonda 2 m. La caduta infligge [[/r 1d4]] danni.",
+                "3-4": "Una trappola a fossa profonda 3 m. La caduta infligge [[/r 1d6]] danni.",
+                "5-5": "Una trappola a fossa profonda 3 m con alcune punte sul fondo. La caduta infligge [[/r 1d8]] danni.",
+                "6-6": "Una trappola a fossa profonda 3 m, con il fondo rivestito di spuntoni. La caduta infligge [[/r 1d8+2]] danni.",
+                "7-7": "Una trappola a fossa piena d'acqua. La caduta è di 6 m, ma l'unico danno potenziale riguarda gli oggetti del personaggio.",
+                "8-8": "Una trappola a fossa con uno scivolo che conduce a una stanza nel livello successivo del dungeon."
+            }
         },
         "Rare Jewelry (50k)": {
             "name": "Gioello Raro (50k)",
@@ -1744,7 +2033,13 @@
                 "1-1": "Amuleto",
                 "2-2": "Corona",
                 "6-6": "Anello",
-                "9-9": "Talismano"
+                "9-9": "Talismano",
+                "10-10": "Tiara",
+                "3-3": "Diadema",
+                "4-4": "Medaglione",
+                "5-5": "Globo",
+                "7-7": "Scarabeo",
+                "8-8": "Scettro"
             }
         },
         "River Encounter": {
@@ -1757,10 +2052,17 @@
                 "5-6": "Acquatico (Fiume/Lago)",
                 "7-7": "Animale (Fiume)",
                 "8-8": "Draghi"
-            }
+            },
+            "description": "<h3>Incontro sul Fiume</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisionw.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Rod of the Wyrm": {
-            "name": "Verga del Wyrm"
+            "name": "Verga del Wyrm",
+            "description": "<p>Determina gli attributi della Bacchetta del Drago, inclusi l'allineamento, il tipo di drago associato, il modificatore di CA e l'arma a soffio.</p>",
+            "results": {
+                "1-5": "<strong>Allineamento:</strong> Legale<br /> <strong>Drago:</strong> Oro<br /> <strong>Modificatore CA:</strong> -2<br /> <strong>Soffio:</strong> Fuoco/Gas",
+                "6-8": "<strong>Allineamento:</strong> Neutrale<br /> <strong>Drago:</strong> Blu<br /> <strong>Modificatore CA:</strong> 0<br /> <strong>Soffio:</strong> Fulmine",
+                "9-10": "<strong>Allineamento:</strong> Caotico<br /> <strong>Drago:</strong> Nero<br /> <strong>Modificatore CA:</strong> +2<br /> <strong>Soffio:</strong> Acido"
+            }
         },
         "Room Type": {
             "name": "Stanze",
@@ -1769,19 +2071,35 @@
                 "5-5": "Stanza con Trappola",
                 "6-7": "Stanza con Mostro",
                 "8-8": "Stanza Speciale"
-            }
+            },
+            "description": "<p>Una stanza del dungeon con rifornimenti casuali.</p>"
         },
         "Room with Alarm": {
-            "name": "Stanza con Allarme"
+            "name": "Stanza con Allarme",
+            "description": "<p>La stanza è dotata di un qualche tipo di allarme (sonoro, magico o meccanico) in grado di evocare un mostro speciale, aprire la porta di un dungeon o non avere alcun effetto funzionale.</p>",
+            "results": {
+                "1-3": "Il fischio ha allertato qualcosa nelle vicinanze. Tira i dadi sulla tabella degli incontri appropriata per determinare il tipo di incontro.",
+                "1-4": "Nella stanza è presente una sporgenza di pietra con dei fori, alimentata da una sorgente di vapore sotterranea. Non appena i personaggi entrano nella stanza, questa inizia a fischiare forte. Il suono continua per dieci secondi e poi cessa.",
+                "5-6": "Una grossa pietra sospesa a una pesante catena scende lentamente verso il pavimento, seguita da un clic. Una porta o un contenitore chiuso a chiave da qualche parte nel sotterraneo è stato aperto. Potrebbe trattarsi dell'ultima serratura incontrata o della prossima che troveranno.",
+                "7-8": "Uno strano marchingegno al centro della stanza ruota per dieci secondi quando i personaggi entrano. Si sente un suono simile a un lamento quando si ferma."
+            }
         },
         "Room with Monster": {
-            "name": "Stanza con Mostro"
+            "name": "Stanza con Mostro",
+            "description": "<p>Nella stanza c'è uno o più mostri.</p>",
+            "results": {
+                "1-3": "La stanza contiene un tesoro! Tira i dadi sulla tabella del tesoro appropriata per il livello del dungeon.",
+                "1-5": "Incontro! Uno o più mostri si trovano in questa stanza. Tira i dadi sulla tabella dei mostri erranti appropriata.",
+                "6-6": "Tana! Questa stanza fa parte della tana di un mostro. Tira i dadi sulla tabella degli incontri appropriata per determinare il tipo di mostro e quanti ce ne sono."
+            }
         },
         "Room with Trap": {
             "name": "Stanza con Trappola",
             "results": {
-                "1-6": "Tipo di Trappola"
-            }
+                "1-6": "Tipo di Trappola",
+                "1-2": "La stanza contiene un tesoro. Tira i dadi sulla tabella del tesoro appropriata per il livello del dungeon."
+            },
+            "description": "<p>La stanza contiene una trappola nascosta. Se c'è un tesoro, è probabile che sia intrappolato; altrimenti, il pericolo potrebbe trovarsi vicino a un'uscita o da qualche parte sul pavimento.</p>"
         },
         "Settled Encounter": {
             "name": "Incontro Urbano",
@@ -1792,7 +2110,8 @@
                 "4-5": "Umano (Città)",
                 "6-7": "Aniamle (Città)",
                 "8-8": "Draghi"
-            }
+            },
+            "description": "<h3>Incontro Stabilito</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Special City Encounter": {
             "name": "Incontro Speciale Città",
@@ -1808,7 +2127,139 @@
                 "64-64": "Giocatore d’Azzardo",
                 "78-78": "Erborista",
                 "79-79": "Cacciatore",
-                "86-86": "Manovale"
+                "86-86": "Manovale",
+                "10-10": "Atleta",
+                "100-100": "Sindaco",
+                "102-102": "Ufficiale della Gilda dei Mercanti",
+                "103-103": "Fabbro",
+                "104-104": "Ufficiale militare",
+                "105-105": "Falegname",
+                "106-106": "Inserviente del Monastero",
+                "107-107": "Finanziatore",
+                "108-108": "Mistico Avventuriero",
+                "109-109": "Nobile",
+                "11-11": "Fornaio",
+                "110-110": "Paesano",
+                "111-111": "Venditore ambulante",
+                "112-112": "Politico",
+                "113-113": "Vasaio",
+                "114-114": "Guardiano dei bagni pubblici",
+                "115-115": "Cordaio",
+                "118-118": "Marinaio, Capitano",
+                "119-119": "Marinaio, Comune",
+                "12-12": "Banchiere",
+                "120-120": "Proprietario del Saloon",
+                "121-121": "Insegnante",
+                "122-122": "Scriba",
+                "123-123": "Servo",
+                "124-124": "Servo, assunto",
+                "125-125": "Servo, a contratto",
+                "126-126": "Carpentiere Navale",
+                "127-127": "Calzolaio",
+                "128-128": "Cantante",
+                "129-129": "Schiavo",
+                "130-130": "Contrabbandiere",
+                "131-131": "Saponaio",
+                "132-132": "Spia",
+                "133-133": "Stalliere",
+                "134-134": "Scalpellino",
+                "135-135": "Sarto",
+                "136-136": "Conciatore",
+                "137-137": "Taverniere",
+                "138-138": "Perito Fiscale",
+                "139-139": "Tassidermista",
+                "14-14": "Barista",
+                "140-140": "Tetto Mastro",
+                "141-141": "Ladro Avventuriero",
+                "142-142": "Ufficiale della Gilda dei Ladri",
+                "143-143": "Ubriaco di città",
+                "144-144": "Impiegato Comunale",
+                "145-145": "Dipendente della Stazione Commerciale",
+                "147-147": "Tesoriere",
+                "148-148": "Becchino",
+                "149-149": "Vagabondo",
+                "15-15": "Canestraio",
+                "151-151": "Magazziniere",
+                "152-152": "Guardia",
+                "153-153": "Acquarolo",
+                "154-154": "Tessitore",
+                "155-155": "Scavapozzi",
+                "156-156": "Guardiano del pozzo",
+                "157-157": "Carraio",
+                "158-158": "Enologo",
+                "159-159": "Intagliatore di legno",
+                "16-16": "Mercante del bazar",
+                "160-160": "Taglialegna",
+                "17-17": "Apicoltore",
+                "18-18": "Mendicante",
+                "19-19": "Fabbro",
+                "2-2": "Addestratore di animali",
+                "20-20": "Governante",
+                "21-21": "Barcaiolo/Gondoliere",
+                "22-22": "Guardia del corpo",
+                "23-23": "Intagliatore di ossa",
+                "24-24": "Stivalaio",
+                "25-25": "Arcaro",
+                "26-26": "Birraio",
+                "27-27": "Fabbricante di scope",
+                "28-28": "Macellaio",
+                "29-29": "Fabbricante di candele",
+                "3-3": "Apotecario",
+                "30-30": "Mastro carovaniere",
+                "31-31": "Carpentiere",
+                "32-32": "Carrettiere",
+                "33-33": "Ceraio",
+                "34-34": "Carbonaio",
+                "35-35": "Cuoco",
+                "36-36": "Farmacista",
+                "37-37": "Dipendente della Chiesa/Tempio",
+                "38-38": "Chierico Avventuriero",
+                "39-39": "Cocchiere",
+                "4-4": "Archeologo",
+                "40-40": "Agente",
+                "41-41": "Operaio edile",
+                "42-42": "Bottaio",
+                "43-43": "Artigiano della Gilda",
+                "44-44": "Lattiero/Caseario",
+                "45-45": "Ballerino",
+                "46-46": "Diplomatico",
+                "47-47": "Subacqueo",
+                "48-48": "Addetto al porto/Operaio portuale",
+                "49-49": "Dottore/Dentista",
+                "5-5": "Armaiolo",
+                "50-50": "Druido Avventuriero",
+                "51-51": "Nano Avventuriero",
+                "52-52": "Elfo Avventuriero",
+                "54-54": "Contadino",
+                "55-55": "Traghettatore",
+                "56-56": "Guerriero Avventuriero",
+                "57-57": "Guerriero, Mercenario",
+                "58-58": "Pescatore",
+                "59-59": "Fabbricante di frecce",
+                "6-6": "Artista/Scultore",
+                "60-60": "Operaio di fonderia",
+                "61-61": "Spedizioniere",
+                "62-62": "Fabbricatore di mobili",
+                "63-63": "Pellicciaio",
+                "65-65": "Tagliatore di gemme",
+                "66-66": "Signore/Signora",
+                "67-67": "Geologista",
+                "68-68": "Vetraio",
+                "69-69": "Orafo",
+                "7-7": "Assassino",
+                "70-70": "Ufficiale Governativo",
+                "71-71": "Custode del cimitero",
+                "72-72": "Guardia di palazzo",
+                "73-73": "Guida",
+                "74-74": "Ufficiale di gilda",
+                "75-75": "Avventuriero Halfling",
+                "76-76": "Prostituta",
+                "77-77": "Guaritore",
+                "8-8": "Astrologo",
+                "80-80": "Oste",
+                "81-81": "Carceriere",
+                "82-82": "Gioielliere",
+                "83-83": "Giudice"
             }
         },
         "Special Power 10%": {
