@@ -29,83 +29,18 @@
         "Potions": {
             "name": "Pozioni",
             "results": {
-                "1-2": "Pozione di Agilità",
-                "11-12": "Pozione di Chiaroudienza",
-                "13-14": "Pozione di Chiaroveggenza",
-                "15-16": "Pozione di Arrampicata",
                 "17-18": "Pozione Difensiva",
-                "23-24": "Pozione di Rimpicciolimento",
                 "25-25": "Controllo del Drago (principale)",
-                "26-27": "Pozione di Sogni",
-                "28-28": "Pozione di Elasticità",
-                "29-30": "Pozione di Forma Elementale",
-                "3-3": "Pozione del Controllo Animale",
-                "31-32": "Pozione di ESP",
-                "33-33": "Pozione di Forma Eterea",
-                "34-36": "Pozione di Resistenza al Fuoco",
-                "37-39": "Pozione di Volare",
                 "4-6": "Pozione antidoto",
-                "46-46": "Controllo Gigante",
-                "47-49": "Pozione della Forza dei Giganti",
-                "52-57": "Pozione di Guarigione",
-                "58-60": "Pozione di Eroismo",
-                "62-64": "Pozione di Invisibilità",
-                "65-66": "Pozione di Invulnerabilità",
-                "69-70": "Pozione di Longevità",
-                "7-8": "Pozione di Mimetizzazione",
-                "71-71": "Pozione di Fortuna",
-                "72-72": "Pozione Amalgamante",
-                "73-74": "Pozione di Controllo delle Piante",
-                "75-77": "Pozione di Veleno",
-                "78-80": "Pozione di Autometamorfosi",
-                "81-82": "Pozione di Lunga Vista",
-                "83-84": "Pozione di Buona Parola",
-                "85-88": "Pozione di Velocità",
-                "89-90": "Pozione di Forza",
-                "9-10": "Pozione Repellente",
-                "91-93": "Pozione di Super Guarigione",
-                "94-96": "Pozione di Nuotare",
-                "97-97": "Pozione di Scropritesori",
-                "98-98": "Pozione di Controllo dei Non-Morti",
-                "99-100": "Pozione del Respirare Sott'Acqua",
-                "19-22": "Pozione dell'Inganno",
-                "40-41": "Pozione della Tempra",
-                "42-42": "Pozione di Libertà",
-                "43-45": "Pozione di Forma Gassosa",
-                "50-51": "Pozione di Crescita",
-                "61-61": "Pozione di Controllo degli Umani",
-                "67-68": "Pozione di Levitazione"
+                "46-46": "Controllo Gigante"
             },
             "description": "<p>Tabella delle pozioni magiche con i relativi intervalli di tiro.</p>"
         },
         "Scrolls": {
             "name": "Pergamene",
             "results": {
-                "1-3": "Pergamena di Comunicazione",
-                "15-17": "Pergamena di Equipaggiamento",
-                "18-19": "Pergamena Illuminante",
-                "32-34": "Pergamena di Cartografia",
-                "35-36": "Pergamena Passa Pareti",
-                "4-5": "Pergamena di Creazione",
-                "62-63": "Pergamena dell'Interrogatorio",
-                "65-66": "Pergamena della Veggenza",
-                "67-68": "Pergamena del Rifugio",
                 "69-71": "Intercetta Incantesimo",
-                "72-96": "Pergamene Incantesimi",
-                "97-98": "Pergamena Intrappolante",
-                "99-100": "Pergamena della Verità",
-                "14-14": "Pergamena Ritardante (I)",
-                "20-21": "Pergamena Dei Magi (I)",
-                "22-25": "Mappa del Tesoro (normale)",
-                "26-28": "Mappa del Tesoro (magico)",
-                "29-30": "Mappa del Tesoro (misto)",
-                "31-31": "Mappa del Tesoro (speciale)",
-                "37-42": "Pergamena di Protezione dagli Elementali",
-                "43-50": "Pergamena di Protezione dai Licantropi",
-                "51-54": "Pergamena di Protezione dalla Magia",
-                "55-61": "Pergamena di Protezione dai Non-morti",
-                "6-13": "Pergamena della Maledizione (si verifica quando viene letta)",
-                "64-64": "Pergamena della Ripetizione (I)"
+                "72-96": "Pergamene Incantesimi"
             },
             "description": "<p>Tabella per determinare il tipo di pergamena trovata, con riferimenti alle sottotabelle se necessario. Se viene tirata una pergamena magica, tirare sulla tabella del Livello di Incantesimo appropriata per determinarne il livello.</p>"
         },
@@ -161,12 +96,7 @@
             "name": "Modificatori Arma Addizionale (Varia)",
             "results": {
                 "1-75": "Arma Avversari",
-                "76-100": "Talenti Arma",
-                "1-29": "+1 extra vs avversario",
-                "30-50": "+2 extra vs avversario",
-                "51-64": "+3 extra vs avversario",
-                "65-72": "+4 extra vs avversario",
-                "73-75": "+5 extra vs avversario"
+                "76-100": "Talenti Arma"
             },
             "description": "<p>Determina modificatori aggiuntivi per armi varie. Usa il risultato per regolare i bonus o tira sulla tabella dei Talenti per un talento specifico.</p>"
         },
@@ -174,12 +104,7 @@
             "name": "Modificatori Arma Addizionale (Spade)",
             "results": {
                 "1-75": "Arma Avversari",
-                "76-100": "Talenti Arma",
-                "1-29": "+1 extra vs avversario",
-                "30-50": "+2 extra vs avversario",
-                "51-64": "+3 extra vs avversario",
-                "65-72": "+4 extra vs avversario",
-                "73-75": "+5 extra vs avversario"
+                "76-100": "Talenti Arma"
             },
             "description": "<p>Determina modificatori aggiuntivi per le armi. Usa il risultato per regolare i bonus o tira sulla tabella dei Talenti per un talento specifico. Questo bonus viene aggiunto al bonus delle armi quando combatti contro avversari speciali.</p>"
         },
@@ -195,24 +120,11 @@
         },
         "Antidote Potion": {
             "name": "Pozione antidoto",
-            "description": "<p>Determina l'efficacia di una Pozione Antidoto, che va dai veleni causati da creature con 3 DV fino a tutti i veleni.</p>",
-            "results": {
-                "1-4": "Veleni da creature con 3 DV (o inferiori)",
-                "10-10": "Tutti i veleni",
-                "5-7": "Veleni da creature con 7 DV (o inferiori). Funziona anche con le pozioni velenose.",
-                "8-9": "Veleni da creature con 15 DV (o inferiori). Funziona anche con le pozioni velenose."
-            }
+            "description": "<p>Determina l'efficacia di una Pozione Antidoto, che va dai veleni causati da creature con 3 DV fino a tutti i veleni.</p>"
         },
         "Armor Size Table": {
             "name": "Tabella Dimensioni Armatura",
-            "description": "<p>Determina la categoria della taglia dell'armatura trovata, ad esempio Umano, Nano, Elfo, Halfling o Gigante.</p>",
-            "results": {
-                "1-68": "Taglia umana",
-                "69-81": "Taglia nanica",
-                "82-91": "Taglia elfica",
-                "92-98": "Taglia halfling",
-                "99-100": "Taglia gigante"
-            }
+            "description": "<p>Determina la categoria della taglia dell'armatura trovata, ad esempio Umano, Nano, Elfo, Halfling o Gigante.</p>"
         },
         "Cleric/Druid Scroll Spell Count": {
             "name": "Conteggio Incantesimi su Pergamena (Chierico/Druido)",
@@ -225,52 +137,22 @@
         },
         "Cleric/Druid Scroll Spell Level": {
             "name": "Livello Incantesimo su pergamena (Chierico/Druido)",
-            "description": "<p>Determina il livello di un incantesimo da Chierico o Druido presente su una pergamena magica.</p>",
-            "results": {
-                "1-34": "Incantesimo di 1° Livello",
-                "100-100": "Incantesimo di 7° Livello",
-                "35-58": "Incantesimo di 2° Livello",
-                "59-76": "Incantesimo di 3° Livello",
-                "77-88": "Incantesimo di 4° Livello",
-                "89-95": "Incantesimo di 5° Livello",
-                "96-99": "Incantesimo di 6° Livello"
-            }
+            "description": "<p>Determina il livello di un incantesimo da Chierico o Druido presente su una pergamena magica.</p>"
         },
         "Cursed Sword Check": {
             "name": "Controllo Spada Maledetta",
-            "description": "<p>Controlla se la spada è maledetta.</p>",
-            "results": {
-                "1-2": "<strong>Maledetta!</strong>"
-            }
+            "description": "<p>Controlla se la spada è maledetta.</p>"
         },
         "Cursed Weapon Check": {
             "name": "Controllo Arma Maledetta",
-            "description": "<p>Controlla se l'arma è maledetta. Questa opzione è utilizzata per armi di vario tipo.</p>",
-            "results": {
-                "1-2": "<strong>Maledetta!</strong>"
-            }
+            "description": "<p>Controlla se l'arma è maledetta. Questa opzione è utilizzata per armi di vario tipo.</p>"
         },
         "Defense Potion": {
             "name": "Pozione Difensiva",
-            "description": "<p>Determina il bonus alla Classe Armatura fornito da una Pozione di Difesa, da +1 a +5.</p>",
-            "results": {
-                "1-3": "+1 alla Classe Armatura",
-                "10-10": "+5 alla Classe Armatura",
-                "4-5": "+2 alla Classe Armatura",
-                "6-7": "+3 alla Classe Armatura",
-                "8-9": "+4 alla Classe Armatura"
-            }
+            "description": "<p>Determina il bonus alla Classe Armatura fornito da una Pozione di Difesa, da +1 a +5.</p>"
         },
         "Dragon Control (gemstone)": {
             "name": "Controllo del Drago (gemma)",
-            "results": {
-                "1-5": "Drago di Cristallo",
-                "11-14": "Drago di Giada",
-                "15-17": "Drago di Zaffiro",
-                "18-19": "Drago di Rubino",
-                "20-20": "Drago d'Ambra",
-                "6-10": "Drago d'Onice"
-            },
             "description": "<p>Determina il tipo di drago gemmato controllato.</p>"
         },
         "Dragon Control (main)": {
@@ -283,75 +165,24 @@
         },
         "Dragon Control (normal)": {
             "name": "Controllo del Drago (normale)",
-            "results": {
-                "1-5": "Drago Bianco",
-                "11-14": "Drago Verde",
-                "15-17": "Drago Blu",
-                "18-19": "Drago Rosso",
-                "20-20": "Drago d'Oro",
-                "6-10": "Drago Nero"
-            },
             "description": "<p>Determina il tipo di drago gemmato controllato.</p>"
         },
         "Egg of Wonder Creature Type": {
             "name": "Uovo delle Meraviglie (Tipo Creatura)",
-            "description": "<p>Determina il tipo di creatura che si schiude dall'Uovo delle Meraviglie, come un babbuino, una pantera o un lupo.</p>",
-            "results": {
-                "1-1": "Babbuino delle Rocce",
-                "10-10": "Sauro Gigante Draco",
-                "11-11": "Biscione Strisciante",
-                "12-12": "Lupo Normale",
-                "2-2": "Pipistrello Gigante",
-                "3-3": "Orso Nero",
-                "4-4": "Orso Grizzly",
-                "5-5": "Cinghiale",
-                "6-6": "Leone di Montagna",
-                "7-7": "Pantera",
-                "8-8": "Furetto Gigante",
-                "9-9": "Sauro Gigante Geko"
-            }
+            "description": "<p>Determina il tipo di creatura che si schiude dall'Uovo delle Meraviglie, come un babbuino, una pantera o un lupo.</p>"
         },
         "Elemental Adaptation Ring": {
             "name": "Anello dell'Adattamento Elementale",
-            "description": "<p>Determina l'associazione elementale dell'Anello dell'Adattamento agli Elementali, come Aria, Fuoco o Tutti gli Elementi.</p>",
-            "results": {
-                "1-21": "Elemento di adattamento: Aria",
-                "22-42": "Elemento di adattamento: Terra",
-                "43-63": "Elemento di adattamento: Fuoco",
-                "64-84": "Elemento di adattamento: Acqua",
-                "85-91": "Elemento di adattamento: Aria e Acqua",
-                "92-98": "Elemento di adattamento: Terra e Fuoco",
-                "99-100": "Elemento di adattamento: Tutti gli elementi"
-            }
+            "description": "<p>Determina l'associazione elementale dell'Anello dell'Adattamento agli Elementali, come Aria, Fuoco o Tutti gli Elementi.</p>"
         },
         "Empty Room": {
             "name": "Stanza Vuota",
-            "description": "<p>La stanza è vuota, a parte ragnatele e detriti sparsi.</p>",
-            "results": {
-                "1-1": "La stanza è vuota, a eccezione di un piccolo sacco vicino a uno scheletro in un angolo. Tira i dadi sulla tabella del tesoro appropriata per il livello del dungeon.",
-                "2-6": "La stanza è vuota, a eccezione di ragnatele e detriti sparsi."
-            }
+            "description": "<p>La stanza è vuota, a parte ragnatele e detriti sparsi.</p>"
         },
         "Encounter - Dungeon Level 1": {
             "name": "Incontro - 1° Livello Dungeon",
             "results": {
-                "13-13": "Allineamento PNG Avventuriero",
-                "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fc3OOJdQrP3lojfv]",
-                "11-11": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.LrFyA3hSCWV8vBQr]",
-                "12-12": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.p2HAYW2LlRYOPOiv]",
-                "14-14": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
-                "15-15": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
-                "16-16": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FIFnFyLFQBJpo4Q0]",
-                "17-17": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wREIzpLSLM49HnU1]{Giant Crab Spider}",
-                "18-18": "[[1d8]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.TO5d1EBIWdJ5f7d5]",
-                "19-19": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
-                "2-2": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6FcQ2B2dG5LRvwTC]",
-                "20-20": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP]",
-                "3-3": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.46QLGSlGDLxcIg4D]{Cave Locust}",
-                "4-4": "[[1d6]]@UUID[Compendium.fade-compendiums.actor-compendium.Actor.g6XIqtw7I815FigN]",
-                "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
-                "6-6": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
-                "7-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]"
+                "13-13": "Allineamento PNG Avventuriero"
             },
             "description": "<h3>Incontro - Dungeon Livello 1</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
@@ -359,153 +190,40 @@
             "name": "Potere Straordinario",
             "results": {
                 "100-100": "Potere Straordinario (Non Ri-Tira)",
-                "98-99": "Potere Straordinario (Non Ri-Tira)",
-                "1-10": "Potere straordinario: Chiaroudienza",
-                "11-20": "Potere straordinario: Chiaroveggenza",
-                "21-30": "Potere straordinario: ESP",
-                "31-35": "Potere straordinario: PF extra (duplicazione possibile)",
-                "36-40": "Potere straordinario: Volo",
-                "41-45": "Potere straordinario: Guarigione (duplicazione possibile)",
-                "46-54": "Potere straordinario: Illusione",
-                "55-59": "Potere straordinario: Levitazione",
-                "60-69": "Potere straordinario: Telecinesi",
-                "70-79": "Potere straordinario: Telepatia",
-                "80-88": "Potere straordinario: Teletrasporto",
-                "89-97": "Potere straordinario: Visione a raggi X"
+                "98-99": "Potere Straordinario (Non Ri-Tira)"
             },
             "description": "<p>Determina il potere straordinario di una spada, incluse abilità come la chiaroveggenza, la telecinesi o la possibilità di effettuare più tiri per ottenere poteri aggiuntivi.</p>"
         },
         "Extraordinary Power (NoReroll)": {
             "name": "Potere Straordinario (Non Ri-Tira)",
-            "description": "<p>Determina il potere straordinario di una spada, incluse abilità come la chiaroveggenza, la telecinesi o la possibilità di effettuare più tiri per ottenere poteri aggiuntivi.</p>",
-            "results": {
-                "1-10": "Potere straordinario: Chiaroudienza",
-                "11-20": "Potere straordinario: Chiaroveggenza",
-                "21-30": "Potere straordinario: ESP",
-                "31-35": "Potere straordinario: PF extra (duplicazione possibile)",
-                "36-40": "Potere straordinario: Volo",
-                "41-45": "Potere straordinario: Guarigione (duplicazione possibile)",
-                "46-54": "Potere straordinario: Illusione",
-                "55-59": "Potere straordinario: Levitazione",
-                "60-69": "Potere straordinario: Telecinesi",
-                "70-79": "Potere straordinario: Telepatia",
-                "80-88": "Potere straordinario: Teletrasporto",
-                "89-97": "Potere straordinario: Visione a raggi X"
-            }
+            "description": "<p>Determina il potere straordinario di una spada, incluse abilità come la chiaroveggenza, la telecinesi o la possibilità di effettuare più tiri per ottenere poteri aggiuntivi.</p>"
         },
         "Fog Trap": {
             "name": "Trappola Nebbiosa",
-            "description": "<p>Attivandolo si sprigiona una strana nebbia. Tutti coloro che si trovano nell'area devono effettuare un Tiro Salvezza contro gli Incantesimi o subire uno dei seguenti effetti:</p>",
-            "results": {
-                "1-2": "I personaggi vengono presi da una crisi di risate sfrenate che li rende incapaci di fare qualsiasi altra cosa per [[/r 1d6]] turni.",
-                "3-3": "I personaggi si spaventano e fuggono per [[/r 1d6]] turni.",
-                "4-4": "I personaggi puzzano terribilmente per [[/r 1d6]] turni, aumentando di 1 la probabilità di incontrare un Mostro Errante.",
-                "5-5": "I personaggi si infuriano e attaccano gli alleati per [[/r 1d4]] round.",
-                "6-6": "I personaggi diventano paralizzati (come l'incantesimo) per [[/r 1d4]] round."
-            }
+            "description": "<p>Attivandolo si sprigiona una strana nebbia. Tutti coloro che si trovano nell'area devono effettuare un Tiro Salvezza contro gli Incantesimi o subire uno dei seguenti effetti:</p>"
         },
         "Gem Value Table": {
             "name": "Tabella Valore Gemme",
-            "description": "<p>Determina il tipo e il valore esatti di una gemma, in base alla varietà e probabilità standard delle gemme.</p>",
-            "results": {
-                "1-1": "Agata (10 mo)",
-                "100-100": "Tristallo (Speciale)",
-                "11-13": "Ambra (100 mo)",
-                "14-16": "Ametista (100 mo)",
-                "17-19": "Corallo (100 mo)",
-                "2-2": "Quarzo (10 mo)",
-                "20-22": "Granato (100 mo)",
-                "23-25": "Giada (100 mo)",
-                "26-30": "Acquamarina (500 mo)",
-                "3-3": "Turchese (10 mo)",
-                "31-37": "Perla (500 mo)",
-                "38-46": "Topazio (500 mo)",
-                "4-6": "Cristallo (50 mo)",
-                "47-58": "Carbonchio (1.000 mo)",
-                "59-71": "Opale (1.000 mo)",
-                "7-8": "Diasporo (50 mo)",
-                "72-78": "Smeraldo (5.000 mo)",
-                "79-85": "Rubino (5.000 mo)",
-                "86-90": "Zaffiro (5.000 mo)",
-                "9-10": "Onice (50 mo)",
-                "91-94": "Diamante (10.000 mo)",
-                "95-97": "Giacinto (10.000 mo)",
-                "98-99": "Pietrastella (Speciale)"
-            }
+            "description": "<p>Determina il tipo e il valore esatti di una gemma, in base alla varietà e probabilità standard delle gemme.</p>"
         },
         "Giant Control": {
             "name": "Controllo Gigante",
-            "results": {
-                "1-5": "Gigante delle Colline",
-                "20-20": "Gigante delle Tempeste",
-                "11-14": "Gigante dei Ghiacci",
-                "15-16": "Gigante del Fuoco",
-                "17-17": "Gigante delle Montagne",
-                "18-18": "Gigante del Mare",
-                "19-19": "Gigante delle Nuvole",
-                "6-10": "Gigante delle Rocce"
-            },
             "description": "<p>Determina il tipo di gigante controllato, come Gigante delle Colline, Gigante dei Ghiacci o Gigante delle Tempeste.</p>"
         },
         "Hit Location - Arachnid": {
-            "name": "Punto Colpito - Aracnide",
-            "results": {
-                "1-2": "Arto Posteriore Destro",
-                "11-12": "Arto Anteriore Sinistro",
-                "13-14": "Addome",
-                "15-16": "Arto Frontale Destro",
-                "17-18": "Arto Frontale Sinistro",
-                "19-20": "Cefalotorace",
-                "3-4": "Arto Posteriore Sinistro",
-                "5-6": "Arto Medio Destro",
-                "7-8": "Arto Medio Sinistro",
-                "9-10": "Arto Anteriore Destro"
-            }
+            "name": "Punto Colpito - Aracnide"
         },
         "Hit Location - Humanoid": {
-            "name": "Punto Colpito - Umanoide",
-            "results": {
-                "10-12": "Torace",
-                "1-3": "Gamba Destra",
-                "13-15": "Braccio Sinistro",
-                "16-18": "Braccio Destro",
-                "19-21": "Testa",
-                "4-6": "Gamba Sinistra",
-                "7-9": "Addome"
-            }
+            "name": "Punto Colpito - Umanoide"
         },
         "Hit Location - Insectoid": {
-            "name": "Punto Colpito - Insettoide",
-            "results": {
-                "1-1": "Arto Posteriore Destro",
-                "10-13": "Torace",
-                "14-14": "Arto Frontale Destro",
-                "15-15": "Arto Frontale Sinistro",
-                "16-20": "Testa",
-                "2-2": "Arto Posteriore Destro",
-                "3-3": "Arto Medio Destro",
-                "4-4": "Arto Medio Sinistro",
-                "5-9": "Addome"
-            }
+            "name": "Punto Colpito - Insettoide"
         },
         "Hit Location - Quadraped": {
-            "name": "Punto Colpito - Quadrupede",
-            "results": {
-                "1-3": "Zampa Posteriore Destra",
-                "10-12": "Quarti anteriori",
-                "13-15": "Zampa Frontale Destra",
-                "16-18": "Zampa Frontale Sinistra",
-                "19-20": "Testa",
-                "4-6": "Zampa Frontale Sinistra",
-                "7-9": "Quarti posteriori"
-            }
+            "name": "Punto Colpito - Quadrupede"
         },
         "Hit Location - Serpentoid": {
-            "name": "Punto Colpito - Serpentoide",
-            "results": {
-                "1-17": "Corpo",
-                "18-20": "Testa"
-            }
+            "name": "Punto Colpito - Serpentoide"
         },
         "Insects": {
             "name": "Insetti",
@@ -533,8 +251,7 @@
                 "86-90": "Spada Potere Primario",
                 "91-94": "Spada Potere Primario",
                 "95-97": "Spada Potere Primario",
-                "98-99": "Spada Potere Primario",
-                "1-79": "La spada non è intelligente"
+                "98-99": "Spada Potere Primario"
             },
             "description": "<p>Determina l'intelligenza, le capacità comunicative, le lingue e i poteri di una spada magica. Se vengono indicati poteri primari o straordinari, tira sulle tabelle dei Poteri Primari e Straordinari.</p>"
         },
@@ -543,73 +260,40 @@
             "results": {
                 "1-45": "Gioielli Comuni (4k)",
                 "46-78": "Gioiello Non-Comune (15k)",
-                "79-100": "Gioello Raro (50k)",
-                "1-1": "Gioielli: 100 mo",
-                "100-100": "Gioielli: 50.000 mo",
-                "11-16": "Gioielli: 2.000 mo",
-                "17-24": "Gioielli: 2.500 mo",
-                "2-3": "Gioielli: 500 mo",
-                "25-34": "Gioielli: 3.000 mo",
-                "35-45": "Gioielli: 4.000 mo",
-                "4-6": "Gioielli: 1.000 mo",
-                "46-58": "Gioielli: 5.000 mo",
-                "59-69": "Gioielli: 7.500 mo",
-                "7-10": "Gioielli: 1.500 mo",
-                "70-78": "Gioielli: 10.000 mo",
-                "79-85": "Gioielli: 15.000 mo",
-                "86-90": "Gioielli: 20.000 mo",
-                "91-94": "Gioielli: 25.000 mo",
-                "95-97": "Gioielli: 30.000 mo",
-                "98-99": "Gioielli: 40.000 mo"
+                "79-100": "Gioello Raro (50k)"
             }
         },
         "Level 1 Gem": {
-            "name": "Gemma 1° Livello",
-            "results": {
-                "1-5": "[[1d6]] Gemme. Valgono [[/r 1d6*50 #Valore in monete d'oro della gemma]] pezzi d'oro ciascuna. Tira i dadi per ogni gemma separatamente.",
-                "6-100": "Nessuna gemma"
-            }
+            "name": "Gemma 1° Livello"
         },
         "Level 1 Jewelry": {
-            "name": "Gioiello 1° Livello",
-            "results": {
-                "1-2": "[[1d6]] Gioielli. Del valore di [[/r 1d6*50 #valore in monete d'oro dei gioielli]] monete d'oro ciascuno. Tira per ogni gioiello separatamente. @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
-                "3-100": "Nessun gioiello"
-            }
+            "name": "Gioiello 1° Livello"
         },
         "Level 1 Magic Item": {
             "name": "Oggetto Magico 1° Livello",
             "results": {
-                "1-2": "Oggetti Magici (Base)",
-                "3-100": "Nessun oggetto magico"
+                "1-2": "Oggetti Magici (Base)"
             }
         },
         "Level 1 Treasure": {
             "name": "Tesoro 1° Livello",
             "results": {
-                "1-100": "Gemma 1° Livello",
-                "1-50": "[[1d6*10]] Monete d'oro"
+                "1-100": "Gemma 1° Livello"
             }
         },
         "Level 2-3 Gem": {
-            "name": "Gemma 2-3° Livello",
-            "results": {
-                "1-10": "[[1d6]] Gemme. Valgono [[/r (1d6+1)*50 # Valore in monete d'oro della gemma]] monete d'oro ciascuna. Tira i dadi per ogni gemma separatamente.",
-                "11-100": "Nessuna gemma"
-            }
+            "name": "Gemma 2-3° Livello"
         },
         "Level 2-3 Magic Item": {
             "name": "Oggetto Magico 2-3° Livello",
             "results": {
-                "1-8": "Oggetti Magici (Base)",
-                "9-100": "Nessun oggetto magico"
+                "1-8": "Oggetti Magici (Base)"
             }
         },
         "Level 2-3 Treasure": {
             "name": "Tesoro 2-3° Livello",
             "results": {
-                "1-100": "Oggetto Magico 2-3° Livello",
-                "1-50": "[[1d6*10]] Monete d'oro"
+                "1-100": "Oggetto Magico 2-3° Livello"
             }
         },
         "Magic Armor": {
@@ -620,63 +304,26 @@
                 "31-39": "Mod CA (Bande, Scaglie o Pelle)",
                 "40-55": "Mod CA (Piastre o Completa)",
                 "56-100": "Mod CA (Scudo)",
-                "56-75": "Scudo",
                 "76-77": "Mod CA (Bande, Scaglie o Pelle)",
                 "78-85": "Mod CA (Maglia)",
                 "86-90": "Mod CA (Bande, Scaglie o Pelle)",
-                "91-100": "Mod CA (Piastre o Completa)",
-                "1-10": "Armatura in cuoio",
-                "11-17": "Armatura a scaglie",
-                "40-50": "Corazza di piastre",
-                "51-55": "Armatura completa"
+                "91-100": "Mod CA (Piastre o Completa)"
             },
             "description": "<p>Determina il tipo di armatura o scudo trovato. Include armature singole (ad esempio, cuoio, cotta di maglia) e combinazioni (ad esempio, piastra e scudo).</p>"
         },
         "Armor Special Powers": {
             "name": "Poteri Speciali Armatura",
-            "description": "<p>Determina il potere speciale di un oggetto o di un effetto, come Assorbimento, Volo o Invisibilità.</p>",
-            "results": {
-                "1-7": "Potere speciale: Assorbimento",
-                "18-32": "Potere speciale: Cura ferite",
-                "33-42": "Potere speciale: Elettricità",
-                "43-47": "Potere speciale: Risucchio di energia",
-                "48-50": "Potere speciale: Etereità",
-                "51-60": "Potere speciale: Volare",
-                "61-66": "Potere speciale: Forma gassosa",
-                "67-75": "Potere speciale: Velocità",
-                "76-85": "Potere speciale: Invisibilità",
-                "8-17": "Potere speciale: Charme",
-                "86-93": "Potere speciale: Riflessione",
-                "94-100": "Potere speciale: Scaccia maledizioni"
-            }
+            "description": "<p>Determina il potere speciale di un oggetto o di un effetto, come Assorbimento, Volo o Invisibilità.</p>"
         },
         "Level 2-3 Jewelry": {
-            "name": "Gioiello 2-3° Livello",
-            "results": {
-                "1-5": "[[1d6]] Gioielli. Del valore di [[/r 1d8*50 #valore in monete d'oro dei gioielli]] monete d'oro ciascuno. Tira per ogni gioiello separatamente. @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
-                "6-100": "Niente gioielli"
-            }
+            "name": "Gioiello 2-3° Livello"
         },
         "Cursed Armor Check": {
             "name": "Controllo Armatura Maledetta",
-            "description": "<p>Controlla in alto per vedere se l'armatura è maledetta.</p>",
-            "results": {
-                "1-1": "<strong>Maledetta!</strong>"
-            }
+            "description": "<p>Controlla in alto per vedere se l'armatura è maledetta.</p>"
         },
         "Hit Location - Winged Biped": {
-            "name": "Punto Colpito - Bipede Alato",
-            "results": {
-                "4-4": "Torace",
-                "1-1": "Gamba Destra",
-                "10-13": "Ala Sinistra",
-                "14-14": "Braccio Destro",
-                "15-15": "Braccio Sinistro",
-                "16-20": "Testa",
-                "2-2": "Gamba Sinistra",
-                "3-3": "Addome",
-                "5-9": "Ala Destra"
-            }
+            "name": "Punto Colpito - Bipede Alato"
         },
         "Elf": {
             "name": "Elfo",
@@ -923,44 +570,19 @@
             "description": "<p>Il DM può determinare la classe del personaggio degli abitanti del castello utilizzando la Sottotabella: Incontri nei Castelli o selezionando classi appropriate. Se si usa la tabella, tira 1d6; se il risultato è 3, tira nuovamente 1d6 e vedi quale razza semiumana corrisponde al risultato. Per i proprietari umani di un castello, indipendentemente dalla classe, tira 1d20 + 8 per il livello del proprietario. I livelli dei semiumani sono indicati nella tabella.</p><p>Se il DM non ha ancora determinato le reazioni degli abitanti del castello verso i personaggi giocanti, può consultare la Tabella delle Reazioni dei Mostri data precedentemente in questo capitolo oppure la Tabella delle Reazioni ai Castelli. Le colonne \"Reazione\" della tabella assumono che il gruppo non faccia nulla per suscitare sospetti o ispirare fiducia; il DM può certamente modificare il tiro se le azioni dei PG verso gli abitanti del castello lo giustificano.</p><p>Ricorda inoltre che alcuni Guerrieri PG di alto livello possono avere il diritto di santuario nei castelli della campagna; un PG con questo diritto che dichiara il suo nome e titolo riceverà normalmente un risultato \"Amichevole\".</p><p>Nota che gli uomini elencati rappresentano solo una parte delle forze del proprietario del castello e sono semplicemente l'unità inviata contro viaggiatori fastidiosi; il resto delle forze del castello dovrebbe includere altri uomini e potrebbe comprendere persino mostri speciali.</p><p><strong>Inseguire:</strong> Gli uomini inseguiranno il gruppo fuori dalle terre del signore o chiederanno ai personaggi un pedaggio. Questa somma può variare a seconda della personalità del signore, dell'aspetto ricco dei personaggi e di altri fattori. Rifiutarsi di pagare può portare all'arresto dei PG, all'allontanamento dalle terre o a un attacco. Il DM può ignorare questo risultato se il proprietario del castello è Legale e i PG si sono comportati bene.</p><p><strong>Ignorare:</strong> Non si fa alcun tentativo di aiutare o ostacolare il gruppo.</p><p><strong>Amichevole:</strong> Il proprietario del castello invita il gruppo a restare. (Non si tratta necessariamente di vera amicizia; alcuni PNG possono avere intenzioni malvagie verso il gruppo ignaro.)</p>"
         },
         "Castle Owner Alignment": {
-            "name": "Allineamento Proprietario Castello",
-            "results": {
-                "1-1": "Caotico",
-                "2-4": "Neutrale",
-                "5-6": "Legale"
-            }
+            "name": "Allineamento Proprietario Castello"
         },
         "Castle Reaction (Cleric)": {
-            "name": "Reazione Castello (Chierico)",
-            "results": {
-                "1-2": "Inseguimento: Gli uomini cacceranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi ed altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
-                "3-4": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il gruppo dei PG.",
-                "5-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
-            }
+            "name": "Reazione Castello (Chierico)"
         },
         "Castle Reaction (Demihuman)": {
-            "name": "Reazione Castello (Semiumano)",
-            "results": {
-                "1-1": "Inseguimento: Gli uomini cacceranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi e di altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
-                "2-5": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il gruppo.",
-                "6-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
-            }
+            "name": "Reazione Castello (Semiumano)"
         },
         "Castle Reaction (Fighter)": {
-            "name": "Reazione Castello (Guerriero)",
-            "results": {
-                "1-3": "Inseguimento: Gli uomini caccieranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi e di altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
-                "4-5": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il gruppo.",
-                "6-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
-            }
+            "name": "Reazione Castello (Guerriero)"
         },
         "Castle Reaction (Magic-User)": {
-            "name": "Reazione Castello (Mago)",
-            "results": {
-                "1-1": "Inseguimento: Gli uomini cacceranno il gruppo dalle terre del signore o chiederanno un pedaggio ai personaggi. Questa somma può variare a seconda della personalità del signore, di quanto ricchi sembrano i personaggi e di altri fattori. Il rifiuto di pagare può comportare l'arresto dei personaggi, il loro esilio dalle terre, o un attacco. Il DM può ignorare questo esito se il proprietario del castello è Legale e i personaggi si sono comportati bene.",
-                "2-5": "Ignora: Non viene fatto alcun tentativo di aiutare o ostacolare il partito.",
-                "6-6": "Amichevole: Il proprietario del castello invita il gruppo a soggiornare. (Non si tratta necessariamente di vera amicizia; alcuni PNG potrebbero avere cattive intenzioni nei confronti del gruppo ignaro.)"
-            }
+            "name": "Reazione Castello (Mago)"
         },
         "Caveman (Neanderthal)": {
             "name": "Cavernicolo (Neanderthal)",
@@ -994,27 +616,10 @@
             "description": "<h3>Incontro in Prateria, Terreno aperto</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Common Jewelry (4k)": {
-            "name": "Gioielli Comuni (4k)",
-            "results": {
-                "3-3": "Braccialetto",
-                "7-7": "Catena",
-                "1-1": "Cavigliera",
-                "10-10": "Spillo",
-                "2-2": "Perline",
-                "4-4": "Spilla",
-                "5-5": "Fibbia",
-                "6-6": "Cammeo",
-                "8-8": "Moschettino",
-                "9-9": "Medaglione"
-            }
+            "name": "Gioielli Comuni (4k)"
         },
         "Demihuman Castle Owner": {
-            "name": "Castello Proprierario Semiumano",
-            "results": {
-                "1-2": "Di proprietà di un Nano di 12° Livello",
-                "3-4": "Di proprietà di un Elfo di 10° Livello",
-                "5-6": "Di proprietà di un Halfling di 8° Livello"
-            }
+            "name": "Castello Proprierario Semiumano"
         },
         "Desert Encounter": {
             "name": "Incontro Deserto",
@@ -1031,143 +636,46 @@
             "description": "<h3>Incontro nel Deserto</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Door - Locked or Stuck": {
-            "name": "Porta - Chiusa a chiave o Bloccata",
-            "results": {
-                "1-1": "La porta è chiusa a chiave e bloccata",
-                "13-20": "La porta è sbloccata e si aprirà liberamente",
-                "2-7": "La porta è chiusa a chiave",
-                "8-12": "La porta non è chiusa a chiave, ma bloccata in posizione chiusa"
-            }
+            "name": "Porta - Chiusa a chiave o Bloccata"
         },
         "Door - Trapped": {
             "name": "Porta - con Trappola",
             "results": {
-                "8-10": "Tipo di Trappola",
-                "1-7": "La porta non ha trappole"
+                "8-10": "Tipo di Trappola"
             }
         },
         "Encounter - Dungeon Level 2": {
             "name": "Incontro - Dungeon 2° Livello",
             "results": {
-                "14-14": "Allineamento PNG Avventuriero",
-                "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.L8SJUT3fIzJw6xlK]",
-                "11-11": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.BdUPcdGAJLxUvwgO]",
-                "12-12": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6rv1LKd6FIieRApr]",
-                "13-13": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.we26j5H2VH0BdIXi]",
-                "15-15": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
-                "16-16": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
-                "17-17": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.3aTlHWeNiA4JEzhP]",
-                "18-18": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UnlyQAcCBUS63xKd]{Ragno Gigante, Vedova Nera}",
-                "19-19": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
-                "2-2": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.93HCqREXiA2BbHR1]",
-                "20-20": "[[1d6]] Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP",
-                "3-3": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
-                "4-4": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.HqFmSqcFv1R5WXY2]",
-                "5-5": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
-                "6-6": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.MCtu9vXbaNhy24hH]",
-                "7-7": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.pqMSUZDTxBkzJRXt]",
-                "8-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]{Umani}"
+                "14-14": "Allineamento PNG Avventuriero"
             },
             "description": "<h3>Incontro - Dungeon Livello 2</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 3": {
             "name": "Incontro - Dungeon 3° Livello",
             "results": {
-                "14-14": "Allineamento PNG Avventuriero",
-                "1-1": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.mqQUEpLtIFtwsKuW]",
-                "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Thj5dPOuKmXxiGff]",
-                "12-12": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.9YkdFwvOyR1jMv0d]",
-                "13-13": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.CbLFxjJOLryKlL0R]",
-                "15-15": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
-                "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd]",
-                "17-17": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.vrLI7AenWNUxigst]",
-                "18-18": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.iJ7j1FXCvNGwiKYh]",
-                "19-19": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UtG2e4IznhIDIw09]",
-                "2-2": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.AL9hNMkeO2mhlUGU]",
-                "20-20": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ZfcAxCNjJXUQ7I5M]",
-                "3-3": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy]",
-                "4-4": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.93HCqREXiA2BbHR1]",
-                "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.StmKdEWX0dDnGDbj]",
-                "6-6": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rkGvs3K7rorFT3Gb]",
-                "7-7": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.SWp5CtREyIQOwrPt]",
-                "8-8": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.d4XNKn2BtRF9i2b4]",
-                "9-10": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]{Human}"
+                "14-14": "Allineamento PNG Avventuriero"
             },
             "description": "<h3>Incontro - Dungeon Livello 3</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 4-5": {
             "name": "Incontro - Dungeon 4-5° Livello",
             "results": {
-                "14-14": "Allineamento PNG Avventuriero",
-                "1-1": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.QyDZ7pag954K5Xam]",
-                "10-10": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.n38wgSBUceafJ6a6]",
-                "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.tMx78dywgwuL5NJW]",
-                "12-12": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.CbLFxjJOLryKlL0R]",
-                "13-13": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.nBLaG6JjFPvk8RWt]",
-                "15-15": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
-                "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.1HFdNum5FcVKAtXp]",
-                "17-17": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
-                "18-18": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ADrQi5xk73eXMTXz]",
-                "19-19": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp]",
-                "2-2": "[[1d6+4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy]",
-                "20-20": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.t8oTnKOxvMY04A2t]",
-                "3-3": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.lYgXYeUclfcLHsrg]",
-                "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.v4aafWntVG3WedsQ]",
-                "5-5": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.eA4eRFSfiBxY19ll]",
-                "6-6": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rkGvs3K7rorFT3Gb]",
-                "7-7": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM]",
-                "8-8": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.d4XNKn2BtRF9i2b4]",
-                "9-9": "[[1d4]] Mastino Infernale ([[1d3+2]] DV)"
+                "14-14": "Allineamento PNG Avventuriero"
             },
             "description": "<h3>Incontro - Dungeon Livello 4-5</h3><ul><li><p>Ottime luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 6-7": {
             "name": "Incontro - Dungeon 6-7° Livello",
             "results": {
-                "12-12": "Allineamento PNG Avventuriero",
-                "1-1": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
-                "10-10": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Zsz1W8iaFkygssMk]",
-                "11-11": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.nBLaG6JjFPvk8RWt]",
-                "13-13": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.Q8aL94FCQODJRQ9B]",
-                "14-14": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd]",
-                "15-15": "[[1d3+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
-                "16-16": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wzWOIB8UDE7BQmYs]",
-                "17-17": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.iJ7j1FXCvNGwiKYh]",
-                "18-18": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.DQ4X4w5ArRsS9Pc1]",
-                "19-19": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp]",
-                "2-2": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.lYgXYeUclfcLHsrg]",
-                "20-20": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd]",
-                "3-3": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.v4aafWntVG3WedsQ]",
-                "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM]",
-                "5-5": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.GunD699F75jG9UMN]",
-                "6-6": "[[1d4]] Mastino Infernale ([[1d3+4]] DV)",
-                "7-7": "1 Hydra ([[1d3+5]] teste)",
-                "8-8": "[[1d3]] Licantropo* <br /> <br /> (@UUID[Compendium.fade-compendiums.actor-compendium.Actor.VdCp0J7KP6O47sh0]{Tigre Mannara} o @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6hjGF6YQqdBvvMS7]{Orso Mannaro} )",
-                "9-9": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ChXygNMqR7jeDNk7]"
+                "12-12": "Allineamento PNG Avventuriero"
             },
             "description": "<h3>Incontro - Dungeon Livello 6-7</h3><ul><li><p>Ottime luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Encounter - Dungeon Level 8-10": {
             "name": "Incontro - Dungeon 8-10° Livello",
             "results": {
-                "13-13": "Allineamento PNG Avventuriero",
-                "1-1": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
-                "10-10": "[[1d4+1]] Statua Animata*",
-                "11-12": "[[1d6+1]] Licantropo*",
-                "14-14": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ZIDlZCyqnIU4woLo]",
-                "15-15": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
-                "16-16": "[[1d4]] Salamandra*",
-                "17-17": "[[1d4+1]] Serpente*",
-                "18-18": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wzWOIB8UDE7BQmYs]",
-                "19-19": "[[1d4+1]] Ragno*",
-                "2-2": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.B5efkZ8PvLYT0tD5]",
-                "20-20": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd]{Vampiro}",
-                "3-3": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VWs3X9tU2MUzc2pK]",
-                "4-4": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VJlWY3tKSm9JM7jS]{Verro Diabolico}",
-                "5-5": "[[1d2]] Drago",
-                "6-7": "[[1d6]] Gigante*",
-                "8-8": "1 Golem*",
-                "9-9": "1 Hydra ( [[1d6+6]] teste)"
+                "13-13": "Allineamento PNG Avventuriero"
             },
             "description": "<h3>Incontro - Dungeon Livello 8-10</h3><ul><li><p>Ottima luce [[4d6*3]] m</p></li><li><p>Luce fioca* [[2d6*3]] m</p></li><li><p>Nessuna luce † [[1d4*3]] m</p></li></ul><p><em>* O completa oscurità con infravisione.</em></p><p><em>† O visibilità molto scarsa (forte neve o nebbia, tempesta di sabbia, ecc.).</em></p><hr /><p>Per i mostri contrassegnati con <strong>*</strong> seleziona qualsiasi tipo e modifica il numero che appare in base al livello del mostro</p>"
         },
@@ -1258,8 +766,7 @@
                 "3-4": "Berserker",
                 "5-5": "Umano, Brigante",
                 "6-8": "Cavernicolo (Neanderthal)",
-                "9-9": "Allineamento PNG Avventuriero",
-                "1-1": "Avventuriero"
+                "9-9": "Allineamento PNG Avventuriero"
             }
         },
         "Human (River)": {
@@ -1442,24 +949,15 @@
             }
         },
         "Level 4-5 Gem": {
-            "name": "Gemma di 4-5° Livello",
-            "results": {
-                "1-20": "[[1d8]] Gemme. Valgono [[/r 1d6*50 #Valore in monete d'oro della gemma]] monete d'oro ciascuna. Tira i dadi per ogni gemma separatamente.",
-                "21-100": "Nessuna gemma"
-            }
+            "name": "Gemma di 4-5° Livello"
         },
         "Level 4-5 Jewelry": {
-            "name": "Gioiello di 4-5° Livello",
-            "results": {
-                "1-10": "[[1d8]] Gioielli. Del valore di [[/r 1d8*50 #valore in monete d'oro dei gioielli]] monete d'oro ciascuno. Tira i dadi per ogni gioiello separatamente. @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
-                "11-100": "Nessun gioiello"
-            }
+            "name": "Gioiello di 4-5° Livello"
         },
         "Level 4-5 Magic Item": {
             "name": "Oggetto Magico di 4-5° Livello",
             "results": {
-                "1-10": "Oggetti Magici (Base)",
-                "11-100": "Nessun oggetto magico"
+                "1-10": "Oggetti Magici (Base)"
             }
         },
         "Level 4-5 Treasure": {
@@ -1470,68 +968,13 @@
         },
         "Magic Pool": {
             "name": "Pozza Magica",
-            "description": "<p>Il liquido delle pozze è magico solo entro 1,5 metri dalla pozza stessa.</p>",
-            "results": {
-                "1-1": "Pozza di Rigenerazione: Quest'acqua blu scintillante ripristina 1d4 punti ferita quando viene ingerita. Inoltre, rimuove un livello di affaticamento. La pozza può essere utilizzata solo una volta al giorno da ciascun personaggio.",
-                "10-10": "Pozza degli Echi: Questa pozza amplifica il suono. Qualsiasi rumore prodotto entro 9 metri dalla pozza viene raddoppiato di volume, il che può essere utilizzato strategicamente per distrarre o allertare le creature vicine.",
-                "11-11": "Pozza della Chiarezza: Bere da questa pozza schiarisce la mente, garantendo vantaggio alle prove di Intelligenza e ai tiri salvezza per 1 ora. Tuttavia, chi beve deve superare un tiro salvezza su Costituzione con CD 12 o essere sopraffatto dalla chiarezza, subendo svantaggio ai tiri salvezza su Saggezza.",
-                "12-12": "Pozza del Vincolo: Questa pozza contiene un liquido viscoso che, al contatto, lega insieme le mani del personaggio per 1d4 minuti. Durante questo periodo, il personaggio non può usare le mani per compiere alcuna azione.",
-                "13-13": "Pozza dei Sussurri: Questa pozza permette a chi la beve di udire i pensieri delle creature vicine per 1d6 minuti. Chi la beve deve superare un tiro salvezza su Saggezza per evitare di essere sopraffatto dal flusso di pensieri.",
-                "14-14": "Pozza della Resistenza: Bere da questa pozza conferisce punti ferita temporanei pari a 1d6 + il livello del personaggio. Questi punti ferita durano 1 ora o finché non si esauriscono.",
-                "15-15": "Pozza degli Antichi: Questa pozza dall'aspetto antico conferisce a chi la beve la conoscenza di un incantesimo a sua scelta, di qualsiasi classe, per 1 ora. L'incantesimo può essere lanciato una sola volta durante questo periodo senza consumare uno slot incantesimo.",
-                "16-16": "Pozza della Bestia: Bere da questa pozza permette al personaggio di comunicare con gli animali per 1d4 ore. Può comprendere e parlare con qualsiasi animale entro 9 metri.",
-                "17-17": "Pozza dei Perduti: Questa pozza rivela visioni di tesori perduti o nascosti a chi la osserva. Chi beve deve superare un tiro salvezza su Intelligenza con CD 15 per ricordare il luogo dopo essere uscito dalla pozza.",
-                "18-18": "Pozza degli Elementi: Questa pozza cambia le sue proprietà in base alla stagione. In inverno, conferisce resistenza al freddo; in primavera, guarisce; in estate, conferisce resistenza al fuoco; e in autunno, fornisce vantaggio alle prove di furtività.",
-                "19-19": "Pozza dei Dimenticati: Bere da questa pozza fa sì che chi la beve dimentichi un incantesimo o un'abilità a caso per 24 ore. Non potrà usare l'abilità dimenticata finché non sarà trascorso questo tempo.",
-                "2-2": "Pozza delle Illusioni: quest'acqua cristallina crea una vivida illusione di un tesoro o di una creatura quando la si guarda. L'illusione dura 1 ora ed è possibile interagire con essa, ma non è reale.",
-                "20-20": "Pozza della Fenice: Questa pozza contiene un liquido rosso fuoco che, se ingerito, permette a chi lo beve di essere resuscitato una volta dopo la morte entro le successive 24 ore. Chi lo beve deve comunque superare un tiro salvezza per evitare la morte.",
-                "21-26": "Pozza del Veleno: Questa pozza contiene un liquido denso e verde scuro che ribolle leggermente, emanando un debole aroma acre. La superficie luccica con una lucentezza oleosa, riflettendo la luce in inquietanti motivi. Qualsiasi creatura che tocchi o beva da questa pozza deve effettuare un tiro salvezza su Costituzione. In caso di fallimento, la creatura subisce 2d6 danni da veleno ed è avvelenata per 1 ora, sperimentando nausea e svantaggio ai tiri per colpire e alle prove di caratteristica. Anche una sola goccia sulla lingua provoca una sensazione di bruciore e infligge 1d6 danni da veleno, senza possibilità di tiro salvezza. La pozza sembra essere senza fondo e qualsiasi tentativo di rimuovere il liquido si traduce nella sua evaporazione in una nebbia innocua.",
-                "27-40": "La pozza è composta da acqua cristallina che può essere consumata senza effetti collaterali.",
-                "3-3": "Pozza della Trasformazione: Bere da questa pozza fa sì che chi la beve si trasformi in una creatura casuale (determinata dal DM) per 1d6 ore. La trasformazione è completa, comprese le abilità e l'aspetto.",
-                "4-4": "Pozza della Dilatazione Temporale: I personaggi che entrano in questa pozza percepiscono il tempo in modo diverso. Per ogni minuto trascorso nella pozza, all'esterno passano solo 10 secondi. Questo effetto dura 1 ora.",
-                "5-5": "Pozza delle Ombre: Quest'acqua scura e torbida conferisce la capacità di diventare invisibile per 1d4 minuti dopo averla bevuta. Tuttavia, qualsiasi rumore prodotto mentre si è invisibili rivelerà la posizione di chi la beve.",
-                "6-6": "Pozza della Furia Elementale: Questa pozza contiene energie elementali vorticose. Bere da essa permette al personaggio di lanciare un incantesimo elementale casuale (fuoco, ghiaccio, fulmine, ecc.) una volta entro l'ora successiva.",
-                "7-7": "Pozza della Memoria: Questa riserva permette a un personaggio di rievocare un qualsiasi ricordo del suo passato come se stesse accadendo di nuovo. Questo effetto può essere usato per ottenere intuizione o ispirazione, garantendo vantaggio alla successiva prova di abilità.",
-                "8-8": "Pozza della Crescita: Bere da questa pozza fa sì che chi la beve cresca di 1d4 pollici in altezza per 1 ora. Durante questo periodo, ottiene un bonus di +1 alle prove di Forza ma subisce una penalità di -1 alle prove di Destrezza.",
-                "9-9": "Pozza degli Incubi: Questa pozza è piena di un liquido scuro e vorticoso. Bere da essa provoca al personaggio incubi vividi, con conseguente svantaggio ai tiri salvezza su Saggezza per le successive 24 ore."
-            }
+            "description": "<p>Il liquido delle pozze è magico solo entro 1,5 metri dalla pozza stessa.</p>"
         },
         "Magic Rings": {
             "name": "Anelli Magici",
             "results": {
                 "14-17": "Anello dell'Adattamento Elementale",
-                "41-45": "Anello di Protezione +1",
-                "46-48": "Anello di Protezione +2",
-                "70-71": "Anello Rifletti Incantesimi",
-                "97-98": "Anello dei Desideri",
-                "1-2": "Anello del Controllo Animale",
-                "10-13": "Anello dell'Udito",
-                "18-23": "Anello della Resistenza al Fuoco",
-                "24-26": "Anello della Santità (Chierico, Druido)",
-                "27-27": "Anello del Controllo Umano",
-                "28-32": "Anello dell'Invisibilità",
-                "3-8": "Anello dell'Inganno",
-                "33-35": "Anello di Protezione della Vita",
-                "36-38": "Anello della Memoria (Speciale)",
-                "39-40": "Anello del Controllo delle Piante",
-                "49-50": "Anello di Protezione +3",
-                "51-51": "Anello di Protezione +4",
-                "52-55": "Anello della Rapidità",
-                "56-56": "Anello della Rigenerazione",
-                "57-59": "Anello dei Rimedi",
-                "60-61": "Anello della Sicurezza",
-                "62-64": "Anello della Vista Rivelante",
-                "65-67": "Anello Divoratore di Incantesimi",
-                "68-69": "Anello Accumulatore di Incantesimi",
-                "72-75": "Anello della Sopravvivenza",
-                "76-77": "Anello della Telecinesi",
-                "78-81": "Anello della Verità",
-                "82-84": "Anello della Sincerità",
-                "85-86": "Anello della Veridicità",
-                "87-91": "Anello del Camminare sull'Acqua",
-                "9-9": "Anello Evocatore di Geni",
-                "92-96": "Anello della Debolezza",
-                "99-100": "Visione a Raggi X"
+                "97-98": "Anello dei Desideri"
             },
             "description": "<p>Determina il tipo di anello magico trovato in base a un tiro di 1d100.</p>"
         },
@@ -1546,18 +989,7 @@
         },
         "Magic-User Scroll Spell Level": {
             "name": "Livello Incantesimo Pergamena - Mago",
-            "description": "<p>Determina il livello di un incantesimo da mago presente su una pergamena magica.</p>",
-            "results": {
-                "1-28": "Incantesimo di 1° Livello",
-                "100-100": "Incantesimo di 9° Livello",
-                "29-49": "Incantesimo di 2° Livello",
-                "50-64": "Incantesimo di 3° Livello",
-                "65-75": "Incantesimo di 4° Livello",
-                "76-84": "Incantesimo di 5° Livello",
-                "85-91": "Incantesimo di 6° Livello",
-                "92-96": "Incantesimo di 7° Livello",
-                "97-99": "Incantesimo di 8° Livello"
-            }
+            "description": "<p>Determina il livello di un incantesimo da mago presente su una pergamena magica.</p>"
         },
         "Magical Items (Adv.)": {
             "name": "Oggetti Magici (Avanzato)",
@@ -1613,38 +1045,7 @@
         "Misc. Weapons (Basic)": {
             "name": "Armi Varie (Base)",
             "results": {
-                "1-100": "Controllo Arma Maledetta",
-                "21-25": "Pugnale +1",
-                "51-55": "Mazza +1",
-                "56-58": "Mazza +2",
-                "81-85": "Lancia +1",
-                "86-88": "Lancia +2",
-                "91-95": "Bastone +1",
-                "1-5": "Ascia da Battaglia +1",
-                "11-15": "Accetta +1",
-                "16-18": "Accetta +2",
-                "19-20": "Accetta +3",
-                "26-28": "Pugnale +2",
-                "29-30": "Pugnale +3",
-                "31-35": "Martello da lancio +1",
-                "36-38": "Martello da lancio +2",
-                "39-40": "Martello da lancio +3",
-                "41-45": "Martello da Guerra +1",
-                "46-48": "Martello da Guerra +2",
-                "49-50": "Martello da Guerra +3",
-                "59-60": "Mazza +3",
-                "6-8": "Ascia da Battaglia +2",
-                "61-65": "Arma Lunga +1",
-                "66-68": "Arma Lunga +2",
-                "69-70": "Arma Lunga +3",
-                "71-72": "Scudo Appuntito +1",
-                "73-75": "Scuda Laminato +1",
-                "76-78": "Scudo Lanceolato +1",
-                "79-80": "Scudo Dentato +1",
-                "89-90": "Lancia +3",
-                "9-10": "Ascia da Battaglia +3",
-                "96-98": "Bastone Ferrato +2",
-                "99-100": "Bastone Ferrato +3"
+                "1-100": "Controllo Arma Maledetta"
             },
             "description": "<p>Genera un'arma magica specifica tra quelle disponibili, come asce, martelli, pugnali, armi inastate, scudi, lance e bastoni, con i rispettivi bonus.</p>"
         },
@@ -1713,169 +1114,59 @@
             "name": "Oggetti Vari",
             "results": {
                 "36-38": "Uovo delle Meraviglie (Tipo Creatura)",
-                "54-54": "Corno della Devastazione",
                 "72-76": "Unguenti",
-                "93-94": "Talismano del Viaggio Elementale",
-                "1-2": "Amuleto anti Sfera di Cristallo ed ESP",
-                "10-12": "Barca subacquea",
-                "13-14": "Stivali della Levitazione",
-                "15-17": "Stivali Piè Veloce",
-                "18-19": "Stivali del Viaggiare e del Saltare",
-                "20-20": "Anfora per il Controllo degli Elementali dell’Acqua",
-                "21-21": "Braciere per il Controllo degli Elementali del Fuoco",
-                "22-23": "Scopa Volante",
-                "24-24": "Turibolo per il Controllo degli Elementali dell’Aria",
-                "25-27": "Diapason Temporale",
-                "28-29": "Sfera di Cristallo (E, M)",
-                "3-4": "Borsa Dissolvente",
-                "30-30": "Sfera di Cristallo con Chiaraudienza (M)",
-                "31-31": "Sfera di Cristallo con ESP (M)",
-                "32-33": "Mantello Deflettente",
-                "34-34": "Tamburi del Panico",
-                "35-35": "Giara dell'Efreeti",
-                "39-40": "Stivali Elfici",
-                "41-42": "Mantello Elfico",
-                "43-43": "Tappeto Volante",
-                "44-45": "Guanti del Potere Orchesco",
-                "46-47": "Cintura della Forza del Gigante",
-                "48-49": "Elmo della Mutazione dell’Allineamento",
-                "5-9": "Borsa Conservante",
-                "50-51": "Elmo della Lettura delle Lingue e del Magico",
-                "52-52": "Elmo della Telepatia",
-                "53-53": "Elmo del Teletrasporto (M)",
-                "55-56": "Lampada degli Uragani",
-                "57-59": "Lampada della Lunga Durata",
-                "60-61": "Medaglione dell’ESP 9 m",
-                "62-62": "Medaglione dell’ESP 27 m",
-                "63-63": "Specchio Imprigionante",
-                "64-66": "Museruola dell’Addestramento",
-                "67-68": "Chiodo Indicatore",
-                "69-71": "Chiodo Rivelatore",
-                "77-79": "Tasca Ultrasicura",
-                "80-82": "Penna ricopiante (I)",
-                "83-86": "Corda Magica",
-                "87-88": "Scarabeo Protettore",
-                "89-91": "Lavagna dell’Identificazione (I)",
-                "92-92": "Pietra del Controllo degli Elementali della Terra",
-                "95-97": "Ruota Fluttuante",
-                "98-98": "Ruota della Fortuna",
-                "99-100": "Ruota Quadrata"
+                "93-94": "Talismano del Viaggio Elementale"
             },
             "description": "<p>Determina gli oggetti magici vari trovati con un tiro di 1d100.</p>"
         },
         "Missile Talent 10%": {
             "name": "Talento Proiettile 10%",
             "results": {
-                "1-10": "Talenti Proiettile",
-                "11-100": "Nessun talento"
+                "1-10": "Talenti Proiettile"
             },
             "description": "<p>Determina se un proiettile possiede un talento (10% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 15%": {
             "name": "Talento Proiettile 15%",
             "results": {
-                "1-15": "Talenti Proiettile",
-                "16-100": "Nessun talento"
+                "1-15": "Talenti Proiettile"
             },
             "description": "<p>Determina se un proiettile possiede un talento (15% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 20%": {
             "name": "Talento Proiettile 20%",
             "results": {
-                "1-20": "Talenti Proiettile",
-                "21-100": "Nessun talento"
+                "1-20": "Talenti Proiettile"
             },
             "description": "<p>Determina se un proiettile possiede un talento (20% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 25%": {
             "name": "Talento Proiettile 25%",
             "results": {
-                "1-25": "Talenti Proiettile",
-                "26-100": "Nessun talento"
+                "1-25": "Talenti Proiettile"
             },
             "description": "<p>Determina se un proiettile possiede un talento (25% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talent 30%": {
             "name": "Talento Proiettile 30%",
             "results": {
-                "1-30": "Talenti Proiettile",
-                "31-100": "Nessun talento"
+                "1-30": "Talenti Proiettile"
             },
             "description": "<p>Determina se un proiettile possiede un talento (30% di probabilità). Tira sulla tabella dei Talenti dei Proiettili in caso di successo.</p>"
         },
         "Missile Talents": {
             "name": "Talenti Proiettile",
-            "description": "<p>Determina il talento specifico di un proiettile magico, come Mordere, Stordire o Ferire.</p>",
-            "results": {
-                "1-4": "Talento: Mordente",
-                "10-14": "Talento: Affascinante",
-                "15-21": "Talento: Scalante",
-                "22-31": "Talento: Curante",
-                "32-34": "Talento: Disarmante",
-                "35-38": "Talento: Disincantante",
-                "39-45": "Talento: Volante",
-                "46-52": "Talento: illuminante",
-                "5-9": "Talento: Lampeggiante",
-                "53-57": "Talento: Penetrante",
-                "58-61": "Talento: Riempiente",
-                "62-67": "Talento: Urlante",
-                "68-72": "Talento: Cercante",
-                "73-76": "Talento: Affondante",
-                "77-78": "Talento: Assassinante",
-                "79-85": "Talento: Parlante",
-                "86-89": "Talento: Straordinario",
-                "90-91": "Talento: Teleportante",
-                "92-96": "Talento: Trasportante",
-                "97-100": "Talento: Ferimento"
-            }
+            "description": "<p>Determina il talento specifico di un proiettile magico, come Mordere, Stordire o Ferire.</p>"
         },
         "Missile Weapon or Missile (Basic)": {
             "name": "Armi a Distanza & Proiettili (Base)",
-            "results": {
-                "98-100": "Fionda +1",
-                "1-6": "Frecce +1 [[2d10]]",
-                "12-15": "Frecce +3 [[2d4]]",
-                "16-18": "Frecce +1 (argento)",
-                "19-20": "Frecce +2 (argento)",
-                "21-21": "Frecce +3 (argento)",
-                "22-25": "Cerbottana +1",
-                "26-28": "Bolas +1",
-                "29-33": "Arco Corto +1",
-                "34-37": "Arco Corto +2",
-                "38-40": "Arco Corto +3",
-                "41-45": "Arco Lungo +1",
-                "46-49": "Arco Lungo +2",
-                "50-52": "Arco Lungo +3",
-                "53-57": "Balestra Leggera +1",
-                "58-61": "Balestra Leggera +2",
-                "62-64": "Balestra Leggera +3",
-                "65-69": "Balestra Pesante +1",
-                "7-11": "Frecce +2 [[2d6]]",
-                "70-73": "Balestra Pesante +2",
-                "74-76": "Balestra Pesante +3",
-                "77-82": "Quadrelli +1 [[2d10]]",
-                "83-87": "Quadrelli +2 [[2d6]]",
-                "88-91": "Quadrelli +3 [[2d4]]",
-                "92-94": "Quadrelli +1 (argento)",
-                "95-96": "Quadrelli +2 (argento)",
-                "97-97": "Quadrelli +3 (argento)"
-            },
             "description": "<p>Genera un'arma o un proiettile magico specifico, insieme al suo bonus e alla quantità, se applicabile.</p>"
         },
         "Missile Weapons & Missiles (Adv.)": {
             "name": "Armi a Distanza & Proiettili (Avanzato)",
             "results": {
                 "1-70": "Proiettili (Classe A)",
-                "71-100": "Armi a Distanza (Classe D)",
-                "1-37": "Frecce (Arma Classe A)",
-                "38-59": "Quadrelli (Arma Classe A)",
-                "60-70": "Pietre per fionda (Arma Classe A)",
-                "71-72": "Cerbottana (Arma Classe D)",
-                "73-80": "Arco Lungo (Arma Classe D)",
-                "81-85": "Arco Corto (Arma Classe D)",
-                "86-87": "Balestra Pesante (Arma Classe D)",
-                "88-92": "Balestra Leggera (Arma Classe D)",
-                "93-100": "Fionda (Arma Classe D)"
+                "71-100": "Armi a Distanza (Classe D)"
             },
             "description": "<p>Determina il tipo di arma a distanza o proiettile trovato e la sua classe. Utilizzare la tabella bonus appropriata per proprietà aggiuntive.</p>"
         },
@@ -1892,47 +1183,23 @@
         },
         "Missile Weapons Range (+1)": {
             "name": "Gittata Armi a Distanza (+1)",
-            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
-            "results": {
-                "2-4": "Nessun moltiplicatore di gittata",
-                "5-7": "Gittata x1,5 (+50%)"
-            }
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>"
         },
         "Missile Weapons Range (+2)": {
             "name": "Gittata Armi a Distanza (+2)",
-            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
-            "results": {
-                "2-4": "Nessun moltiplicatore di gittata",
-                "5-7": "Gittata x1,5 (+50%)",
-                "8-9": "Gittata x2 (+100%)"
-            }
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>"
         },
         "Missile Weapons Range (+3)": {
             "name": "Gittata Armi a Distanza (+3)",
-            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
-            "results": {
-                "2-4": "Nessun moltiplicatore di gittata",
-                "5-7": "Gittata x1,5 (+50%)",
-                "8-9": "Gittata x2 (+100%)"
-            }
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>"
         },
         "Missile Weapons Range (+4)": {
             "name": "Gittata Armi a Distanza (+4)",
-            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
-            "results": {
-                "2-4": "Nessun moltiplicatore di gittata",
-                "5-7": "Gittata x1,5 (+50%)",
-                "8-9": "Gittata x2 (+100%)"
-            }
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>"
         },
         "Missile Weapons Range (+5)": {
             "name": "Gittata Armi a Distanza (+5)",
-            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>",
-            "results": {
-                "2-4": "Nessun moltiplicatore di gittata",
-                "5-7": "Gittata x1,5 (+50%)",
-                "8-9": "Gittata x2 (+100%)"
-            }
+            "description": "<p>Determina il bonus di gittata per un'arma a distanza magica.</p>"
         },
         "Missiles (Class A)": {
             "name": "Proiettili (Classe A)",
@@ -1947,100 +1214,34 @@
         },
         "Monster Reaction Roll": {
             "name": "Tiro Reazione Mostri",
-            "description": "<p>Il master determina la reazione dei mostri al gruppo. A volte, le circostanze rendono ovvio come reagirà un mostro. Altrimenti, il master può tirare i dadi sulla tabella sottostante per determinare come un mostro reagisce al gruppo.</p>",
-            "results": {
-                "1-2": "Ostile, attacca",
-                "12-12": "Amichevole, aiuta",
-                "3-5": "Non amichevole, potrebbe attaccare",
-                "6-8": "Neutrale, insicuro",
-                "9-11": "Indifferente, non interessato"
-            }
+            "description": "<p>Il master determina la reazione dei mostri al gruppo. A volte, le circostanze rendono ovvio come reagirà un mostro. Altrimenti, il master può tirare i dadi sulla tabella sottostante per determinare come un mostro reagisce al gruppo.</p>"
         },
         "NPC Adventurer Alignment": {
             "name": "Allineamento PNG Avventuriero",
-            "results": {
-                "1-1": "Legale",
-                "2-2": "Neutrale",
-                "3-3": "Caotico"
-            },
             "description": "<p>Allineamento dell'avventuriero</p>"
         },
         "NPC Adventurer Class": {
             "name": "Classe PNG Avventuriero",
-            "results": {
-                "1-1": "Chierico",
-                "2-2": "Druido",
-                "3-3": "Nano",
-                "4-4": "Elfo",
-                "5-6": "Guerriero",
-                "7-7": "Halfling",
-                "8-8": "Mago",
-                "9-10": "Ladro"
-            },
             "description": "<p>*Nelle campagne in cui le razze del Sottosuolo sono comuni, è possibile incontrare un duergar, un drow o uno svirfneblin al posto di un nano, un elfo o uno gnomo.</p>"
         },
         "NPC Adventurer Class and Level": {
             "name": "Classe e Livello PNG Avventuriero",
-            "description": "<p>*Nelle campagne in cui le razze del Sottosuolo sono comuni, è possibile incontrare un duergar, un drow o uno svirfneblin al posto di un nano, un elfo o uno gnomo.</p>",
-            "results": {
-                "1-1": "Chierico Base: [[1d3]] Expert: [[1d6+3]]",
-                "2-2": "Druido Base: [[1d3]] Expert: [[1d6+3]]",
-                "3-3": "Nano Base: [[1d3]] Expert: [[1d6+6]]",
-                "4-4": "Elfo Base: [[1d3]] Expert: [[1d6+2]]",
-                "5-5": "Guerriero Base: [[1d3]] Expert: [[1d6+3]]",
-                "6-6": "Guerriero Base: [[1d3]] Expert: [[1d6+5]]",
-                "7-7": "Halfling Base: [[1d3]] Expert: [[1d6+2]]",
-                "8-8": "Mago Base: [[1d3]] Expert: [[1d6+3]]",
-                "9-9": "Ladro Base: [[1d3]] Expert: [[1d6+4]]"
-            }
+            "description": "<p>*Nelle campagne in cui le razze del Sottosuolo sono comuni, è possibile incontrare un duergar, un drow o uno svirfneblin al posto di un nano, un elfo o uno gnomo.</p>"
         },
         "NPC Reaction": {
             "name": "Reazione PNG",
-            "description": "<p>La maggior parte dei gruppi (sia PNG che PG) non vorrà combattere contro altri gruppi, preferendo affrontare i mostri. Il DM potrebbe voler evitare la grande e complessa battaglia che potrebbe verificarsi tra due gruppi. Quando i PG incontrano un gruppo di PNG, decidi come reagiranno i PNG, oppure tira un dado per la reazione. Modifica il risultato del tiro se lo desideri (magari i PNG hanno sentito parlare del gruppo di PG, o li conoscono come alleati, rivali o nemici).</p>",
-            "results": {
-                "2-5": "Se ne va",
-                "6-8": "Negozia",
-                "9-12": "Offerta di acquisto o vendita di informazioni [[1d100*5]] mo"
-            }
+            "description": "<p>La maggior parte dei gruppi (sia PNG che PG) non vorrà combattere contro altri gruppi, preferendo affrontare i mostri. Il DM potrebbe voler evitare la grande e complessa battaglia che potrebbe verificarsi tra due gruppi. Quando i PG incontrano un gruppo di PNG, decidi come reagiranno i PNG, oppure tira un dado per la reazione. Modifica il risultato del tiro se lo desideri (magari i PNG hanno sentito parlare del gruppo di PG, o li conoscono come alleati, rivali o nemici).</p>"
         },
         "Ointment Type": {
             "name": "Unguenti",
-            "description": "<p>Determina il tipo di unguento magico trovato, come Benedizione, Guarigione, Veleno o altri effetti.</p>",
-            "results": {
-                "1-1": "<strong>Benedizione:</strong> Questo unguento conferisce al destinatario un bonus di -2 alla classe armatura e un bonus di +2 a tutti i tiri salvezza per 1 turno.",
-                "2-2": "<strong>Guarigione:</strong> Questo unguento cura [[/r 2d6+2 #punti di danno curati]] punti di danno.",
-                "3-3": "<strong>Veleno:</strong> Questo unguento sembra essere una pomata benedetta, ma è veleno. Chi lo riceve deve effettuare un tiro salvezza contro il veleno, con una penalità di -2 al tiro, o morire.",
-                "4-4": "<strong>Cicatrici:</strong> Questo unguento sembra essere una pomata curativa, ma in realtà infligge [[/r 2d6 #punti di grave danno da ustione]] punti di grave danno da ustione. Il danno può essere riparato solo con una pomata lenitiva, un incantesimo di guarigione o un desiderio.",
-                "5-5": "<strong>Lenitivo:</strong> Questo unguento cura chi lo riceve da tutte le ustioni, siano esse magiche o normali.",
-                "6-6": "<strong>Abbronzatura:</strong> Questo unguento fa sì che la pelle del ricevente assuma un colore acceso [[1d6]] (1-rosso, 2-giallo, 3-arancione, 4-blu, 5-verde o 6-marrone). L'effetto non può essere rimosso ma svanirà in [[1d4]] mesi."
-            }
+            "description": "<p>Determina il tipo di unguento magico trovato, come Benedizione, Guarigione, Veleno o altri effetti.</p>"
         },
         "Pit Trap": {
             "name": "Trappola (Buco)",
-            "description": "<p><span style=\"font-family:DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Una sezione del pavimento cede e uno, alcuni o tutti i personaggi devono effettuare una prova di Destrezza per vedere se possono evitare di cadere. Se falliscono, cadono, subendo 1d4, 1d6, 1d8 o 1d10 danni. La fossa potrebbe avere qualcosa sul fondo, come spuntoni per infliggere più danni, acqua profonda o un mostro. Potrebbe trattarsi di uno scivolo che conduce a un percorso senza ritorno verso il livello successivo del dungeon.</span></p>",
-            "results": {
-                "1-2": "Una trappola a fossa profonda 2 m. La caduta infligge [[/r 1d4]] danni.",
-                "3-4": "Una trappola a fossa profonda 3 m. La caduta infligge [[/r 1d6]] danni.",
-                "5-5": "Una trappola a fossa profonda 3 m con alcune punte sul fondo. La caduta infligge [[/r 1d8]] danni.",
-                "6-6": "Una trappola a fossa profonda 3 m, con il fondo rivestito di spuntoni. La caduta infligge [[/r 1d8+2]] danni.",
-                "7-7": "Una trappola a fossa piena d'acqua. La caduta è di 6 m, ma l'unico danno potenziale riguarda gli oggetti del personaggio.",
-                "8-8": "Una trappola a fossa con uno scivolo che conduce a una stanza nel livello successivo del dungeon."
-            }
+            "description": "<p><span style=\"font-family:DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Una sezione del pavimento cede e uno, alcuni o tutti i personaggi devono effettuare una prova di Destrezza per vedere se possono evitare di cadere. Se falliscono, cadono, subendo 1d4, 1d6, 1d8 o 1d10 danni. La fossa potrebbe avere qualcosa sul fondo, come spuntoni per infliggere più danni, acqua profonda o un mostro. Potrebbe trattarsi di uno scivolo che conduce a un percorso senza ritorno verso il livello successivo del dungeon.</span></p>"
         },
         "Rare Jewelry (50k)": {
-            "name": "Gioello Raro (50k)",
-            "results": {
-                "1-1": "Amuleto",
-                "2-2": "Corona",
-                "6-6": "Anello",
-                "9-9": "Talismano",
-                "10-10": "Tiara",
-                "3-3": "Diadema",
-                "4-4": "Medaglione",
-                "5-5": "Globo",
-                "7-7": "Scarabeo",
-                "8-8": "Scettro"
-            }
+            "name": "Gioello Raro (50k)"
         },
         "River Encounter": {
             "name": "Incontro Fiume",
@@ -2057,12 +1258,7 @@
         },
         "Rod of the Wyrm": {
             "name": "Verga del Wyrm",
-            "description": "<p>Determina gli attributi della Bacchetta del Drago, inclusi l'allineamento, il tipo di drago associato, il modificatore di CA e l'arma a soffio.</p>",
-            "results": {
-                "1-5": "<strong>Allineamento:</strong> Legale<br /> <strong>Drago:</strong> Oro<br /> <strong>Modificatore CA:</strong> -2<br /> <strong>Soffio:</strong> Fuoco/Gas",
-                "6-8": "<strong>Allineamento:</strong> Neutrale<br /> <strong>Drago:</strong> Blu<br /> <strong>Modificatore CA:</strong> 0<br /> <strong>Soffio:</strong> Fulmine",
-                "9-10": "<strong>Allineamento:</strong> Caotico<br /> <strong>Drago:</strong> Nero<br /> <strong>Modificatore CA:</strong> +2<br /> <strong>Soffio:</strong> Acido"
-            }
+            "description": "<p>Determina gli attributi della Bacchetta del Drago, inclusi l'allineamento, il tipo di drago associato, il modificatore di CA e l'arma a soffio.</p>"
         },
         "Room Type": {
             "name": "Stanze",
@@ -2076,28 +1272,16 @@
         },
         "Room with Alarm": {
             "name": "Stanza con Allarme",
-            "description": "<p>La stanza è dotata di un qualche tipo di allarme (sonoro, magico o meccanico) in grado di evocare un mostro speciale, aprire la porta di un dungeon o non avere alcun effetto funzionale.</p>",
-            "results": {
-                "1-3": "Il fischio ha allertato qualcosa nelle vicinanze. Tira i dadi sulla tabella degli incontri appropriata per determinare il tipo di incontro.",
-                "1-4": "Nella stanza è presente una sporgenza di pietra con dei fori, alimentata da una sorgente di vapore sotterranea. Non appena i personaggi entrano nella stanza, questa inizia a fischiare forte. Il suono continua per dieci secondi e poi cessa.",
-                "5-6": "Una grossa pietra sospesa a una pesante catena scende lentamente verso il pavimento, seguita da un clic. Una porta o un contenitore chiuso a chiave da qualche parte nel sotterraneo è stato aperto. Potrebbe trattarsi dell'ultima serratura incontrata o della prossima che troveranno.",
-                "7-8": "Uno strano marchingegno al centro della stanza ruota per dieci secondi quando i personaggi entrano. Si sente un suono simile a un lamento quando si ferma."
-            }
+            "description": "<p>La stanza è dotata di un qualche tipo di allarme (sonoro, magico o meccanico) in grado di evocare un mostro speciale, aprire la porta di un dungeon o non avere alcun effetto funzionale.</p>"
         },
         "Room with Monster": {
             "name": "Stanza con Mostro",
-            "description": "<p>Nella stanza c'è uno o più mostri.</p>",
-            "results": {
-                "1-3": "La stanza contiene un tesoro! Tira i dadi sulla tabella del tesoro appropriata per il livello del dungeon.",
-                "1-5": "Incontro! Uno o più mostri si trovano in questa stanza. Tira i dadi sulla tabella dei mostri erranti appropriata.",
-                "6-6": "Tana! Questa stanza fa parte della tana di un mostro. Tira i dadi sulla tabella degli incontri appropriata per determinare il tipo di mostro e quanti ce ne sono."
-            }
+            "description": "<p>Nella stanza c'è uno o più mostri.</p>"
         },
         "Room with Trap": {
             "name": "Stanza con Trappola",
             "results": {
-                "1-6": "Tipo di Trappola",
-                "1-2": "La stanza contiene un tesoro. Tira i dadi sulla tabella del tesoro appropriata per il livello del dungeon."
+                "1-6": "Tipo di Trappola"
             },
             "description": "<p>La stanza contiene una trappola nascosta. Se c'è un tesoro, è probabile che sia intrappolato; altrimenti, il pericolo potrebbe trovarsi vicino a un'uscita o da qualche parte sul pavimento.</p>"
         },
@@ -2114,288 +1298,67 @@
             "description": "<h3>Incontro Stabilito</h3><ul><li><p>Luce diurna [[4d6*10]] metri</p></li><li><p>Luce fioca* [[2d6*10]] metri</p></li><li><p>Nessuna luce † [[1d4*10]] metri</p></li></ul><p><em>* Oppure oscurità totale con infravisione.</em></p><p><em>† Oppure visibilità molto scarsa (neve fitta o nebbia, tempesta di sabbia, ecc.).</em></p>"
         },
         "Special City Encounter": {
-            "name": "Incontro Speciale Città",
-            "results": {
-                "1-1": "Alchimista",
-                "101-101": "Mercante",
-                "116-116": "Reale",
-                "117-117": "Saggio",
-                "13-13": "Barbiere",
-                "146-146": "Traduttore",
-                "150-150": "Vigilante",
-                "53-53": "Intrattenitore",
-                "64-64": "Giocatore d’Azzardo",
-                "78-78": "Erborista",
-                "79-79": "Cacciatore",
-                "86-86": "Manovale",
-                "10-10": "Atleta",
-                "100-100": "Sindaco",
-                "102-102": "Ufficiale della Gilda dei Mercanti",
-                "103-103": "Fabbro",
-                "104-104": "Ufficiale militare",
-                "105-105": "Falegname",
-                "106-106": "Inserviente del Monastero",
-                "107-107": "Finanziatore",
-                "108-108": "Mistico Avventuriero",
-                "109-109": "Nobile",
-                "11-11": "Fornaio",
-                "110-110": "Paesano",
-                "111-111": "Venditore ambulante",
-                "112-112": "Politico",
-                "113-113": "Vasaio",
-                "114-114": "Guardiano dei bagni pubblici",
-                "115-115": "Cordaio",
-                "118-118": "Marinaio, Capitano",
-                "119-119": "Marinaio, Comune",
-                "12-12": "Banchiere",
-                "120-120": "Proprietario del Saloon",
-                "121-121": "Insegnante",
-                "122-122": "Scriba",
-                "123-123": "Servo",
-                "124-124": "Servo, assunto",
-                "125-125": "Servo, a contratto",
-                "126-126": "Carpentiere Navale",
-                "127-127": "Calzolaio",
-                "128-128": "Cantante",
-                "129-129": "Schiavo",
-                "130-130": "Contrabbandiere",
-                "131-131": "Saponaio",
-                "132-132": "Spia",
-                "133-133": "Stalliere",
-                "134-134": "Scalpellino",
-                "135-135": "Sarto",
-                "136-136": "Conciatore",
-                "137-137": "Taverniere",
-                "138-138": "Perito Fiscale",
-                "139-139": "Tassidermista",
-                "14-14": "Barista",
-                "140-140": "Tetto Mastro",
-                "141-141": "Ladro Avventuriero",
-                "142-142": "Ufficiale della Gilda dei Ladri",
-                "143-143": "Ubriaco di città",
-                "144-144": "Impiegato Comunale",
-                "145-145": "Dipendente della Stazione Commerciale",
-                "147-147": "Tesoriere",
-                "148-148": "Becchino",
-                "149-149": "Vagabondo",
-                "15-15": "Canestraio",
-                "151-151": "Magazziniere",
-                "152-152": "Guardia",
-                "153-153": "Acquarolo",
-                "154-154": "Tessitore",
-                "155-155": "Scavapozzi",
-                "156-156": "Guardiano del pozzo",
-                "157-157": "Carraio",
-                "158-158": "Enologo",
-                "159-159": "Intagliatore di legno",
-                "16-16": "Mercante del bazar",
-                "160-160": "Taglialegna",
-                "17-17": "Apicoltore",
-                "18-18": "Mendicante",
-                "19-19": "Fabbro",
-                "2-2": "Addestratore di animali",
-                "20-20": "Governante",
-                "21-21": "Barcaiolo/Gondoliere",
-                "22-22": "Guardia del corpo",
-                "23-23": "Intagliatore di ossa",
-                "24-24": "Stivalaio",
-                "25-25": "Arcaro",
-                "26-26": "Birraio",
-                "27-27": "Fabbricante di scope",
-                "28-28": "Macellaio",
-                "29-29": "Fabbricante di candele",
-                "3-3": "Apotecario",
-                "30-30": "Mastro carovaniere",
-                "31-31": "Carpentiere",
-                "32-32": "Carrettiere",
-                "33-33": "Ceraio",
-                "34-34": "Carbonaio",
-                "35-35": "Cuoco",
-                "36-36": "Farmacista",
-                "37-37": "Dipendente della Chiesa/Tempio",
-                "38-38": "Chierico Avventuriero",
-                "39-39": "Cocchiere",
-                "4-4": "Archeologo",
-                "40-40": "Agente",
-                "41-41": "Operaio edile",
-                "42-42": "Bottaio",
-                "43-43": "Artigiano della Gilda",
-                "44-44": "Lattiero/Caseario",
-                "45-45": "Ballerino",
-                "46-46": "Diplomatico",
-                "47-47": "Subacqueo",
-                "48-48": "Addetto al porto/Operaio portuale",
-                "49-49": "Dottore/Dentista",
-                "5-5": "Armaiolo",
-                "50-50": "Druido Avventuriero",
-                "51-51": "Nano Avventuriero",
-                "52-52": "Elfo Avventuriero",
-                "54-54": "Contadino",
-                "55-55": "Traghettatore",
-                "56-56": "Guerriero Avventuriero",
-                "57-57": "Guerriero, Mercenario",
-                "58-58": "Pescatore",
-                "59-59": "Fabbricante di frecce",
-                "6-6": "Artista/Scultore",
-                "60-60": "Operaio di fonderia",
-                "61-61": "Spedizioniere",
-                "62-62": "Fabbricatore di mobili",
-                "63-63": "Pellicciaio",
-                "65-65": "Tagliatore di gemme",
-                "66-66": "Signore/Signora",
-                "67-67": "Geologista",
-                "68-68": "Vetraio",
-                "69-69": "Orafo",
-                "7-7": "Assassino",
-                "70-70": "Ufficiale Governativo",
-                "71-71": "Custode del cimitero",
-                "72-72": "Guardia di palazzo",
-                "73-73": "Guida",
-                "74-74": "Ufficiale di gilda",
-                "75-75": "Avventuriero Halfling",
-                "76-76": "Prostituta",
-                "77-77": "Guaritore",
-                "8-8": "Astrologo",
-                "80-80": "Oste",
-                "81-81": "Carceriere",
-                "82-82": "Gioielliere",
-                "83-83": "Giudice",
-                "84-84": "Giocoliere/Mimo",
-                "85-85": "Custode del canile",
-                "87-87": "Geometra",
-                "88-88": "Avvocato",
-                "89-89": "Conciatore di pelli",
-                "9-9": "Astronomo",
-                "90-90": "Guardiano del faro",
-                "91-91": "Mastro di chiavi",
-                "92-92": "Taglialegna",
-                "93-93": "Operaio del deposito di legname",
-                "94-94": "Signora",
-                "95-95": "Pazzo",
-                "96-96": "Avventuriero Mago",
-                "97-97": "Mago Ufficiale della Gilda",
-                "98-98": "Maggiordomo",
-                "99-99": "Muratore"
-            }
+            "name": "Incontro Speciale Città"
         },
         "Special Power 10%": {
             "name": "Potere Speciale 10%",
             "results": {
-                "1-10": "Poteri Speciali Armatura",
-                "11-100": "Nessun potere speciale"
+                "1-10": "Poteri Speciali Armatura"
             },
             "description": "<p>L'armatura ha il 10% di probabilità di possedere un potere speciale.</p>"
         },
         "Special Power 15%": {
             "name": "Potere Speciale 15%",
             "results": {
-                "1-15": "Poteri Speciali Armatura",
-                "16-100": "Nessun potere speciale"
+                "1-15": "Poteri Speciali Armatura"
             },
             "description": "<p>L'armatura ha il 15% di probabilità di possedere un potere speciale.</p>"
         },
         "Special Power 20%": {
             "name": "Potere Speciale 20%",
             "results": {
-                "1-20": "Poteri Speciali Armatura",
-                "21-100": "Nessun potere speciale"
+                "1-20": "Poteri Speciali Armatura"
             },
             "description": "<p>L'armatura ha il 20% di probabilità di possedere un potere speciale.</p>"
         },
         "Special Power 25%": {
             "name": "Potere Speciale 25%",
             "results": {
-                "1-25": "Poteri Speciali Armatura",
-                "26-100": "Nessun potere speciale"
+                "1-25": "Poteri Speciali Armatura"
             },
             "description": "<p>L'armatura ha il 25% di probabilità di possedere un potere speciale.</p>"
         },
         "Special Power 30%": {
             "name": "Potere Speciale 30%",
             "results": {
-                "1-30": "Poteri Speciali Armatura",
-                "31-100": "Nessun potere speciale"
+                "1-30": "Poteri Speciali Armatura"
             },
             "description": "<p>L'armatura ha il 30% di probabilità di possedere un potere speciale.</p>"
         },
         "Special Room": {
             "name": "Stanza Speciale",
             "results": {
-                "1-1": "Stanza con Allarme",
-                "10-10": "Lascia correre la tua immaginazione includendo elementi insoliti come armi che volano e attaccano da sole, teschi parlanti che offrono consigli criptici o un oggetto magico o tesoro saldamente attaccato al pavimento, al muro o al soffitto. Potresti introdurre un'area magica con effetti come gravità zero, gravità invertita, crescita al doppio delle dimensioni o riduzione a 2,5 cm di altezza, con l'effetto che dura finché non si lascia l'area. Inoltre, considera di posizionare una creatura enorme appena uccisa, troppo grande per passare nei corridoi, ponendo la domanda: \"Ma come diavolo è arrivata qui?\". Queste caratteristiche bizzarre possono migliorare l'atmosfera e l'intrigo del dungeon, incoraggiando esplorazione e creatività.",
-                "11-11": "La stanza è avvolta da una debole nebbia luminosa che oscura la vista oltre i 3 metri. I personaggi che la attraversano avvertono una sensazione di formicolio. La nebbia potrebbe nascondere un oggetto, una trappola o una creatura, e i suoi effetti (se presenti) si rivelano solo dopo un'esposizione prolungata o un'azione specifica.",
-                "12-12": "Un grande specchio incrinato domina una parete. Chiunque vi si specchia vede il proprio riflesso leggermente alterato: più vecchio, più giovane o trasformato in una creatura diversa. Interagire con lo specchio potrebbe innescare un effetto magico, rivelare un indizio o richiedere una prova di Saggezza per evitare una maledizione minore.",
-                "13-13": "Il pavimento è ricoperto da un mosaico che raffigura una battaglia o un rituale dimenticato. Calpestare determinate tessere le fa brillare o emettere un suono, attivando forse un meccanismo, rivelando un segreto o evocando un'immagine spettrale legata alla storia del mosaico.",
-                "14-14": "Una leggera brezza trasporta nella stanza il profumo di fiori o di decomposizione, sebbene non se ne veda la fonte. L'aria sembra sussurrare debolmente, e i personaggi con un'elevata Intelligenza potrebbero discernere uno schema o un messaggio nei suoni, che conduca a un passaggio nascosto o a un avvertimento.",
-                "15-15": "Le pareti della stanza sono ricoperte di scaffali che ospitano decine di tomi o pergamene impolverate. La maggior parte sono di scarso valore, ma uno o due potrebbero contenere un incantesimo minore, una mappa o un enigma. Leggerli richiede tempo, e c'è il rischio di attivare una trappola o attirare attenzioni indesiderate.",
-                "16-16": "Al centro della stanza si trova un'unica sedia riccamente decorata, intagliata con strane rune. Sedersi su di essa provoca una sensazione di calore o di freddo, e il personaggio potrebbe udire una voce telepatica che offre consigli criptici, un avvertimento o una richiesta prima di svanire.",
-                "17-17": "Il soffitto è ricoperto di cristalli che emanano una debole luminescenza e pulsano a un ritmo lento. Toccandoli o colpendoli, la loro luminosità potrebbe diminuire o aumentare, oppure potrebbero emettere un innocuo lampo di luce o un suono, allertando magari le creature vicine o rivelando un elemento nascosto.",
-                "18-18": "In un angolo sgorga una piccola fontana, la cui acqua è innaturalmente limpida. Bere da essa richiede una prova di Costituzione; il successo potrebbe conferire un beneficio temporaneo (come +1 a una caratteristica per un'ora), mentre il fallimento potrebbe causare nausea o un lieve effetto magico.",
-                "19-19": "La temperatura della stanza è innaturalmente alta o bassa, causando disagio. Un'esposizione prolungata (per più di un turno) richiede una prova di Costituzione per evitare affaticamento o danni minori. La fonte potrebbe essere magica o ambientale, e neutralizzarla potrebbe fruttare una ricompensa.",
-                "2-2": "Un elemento tipico di un dungeon (come scale, una stanza, una porta, un mostro, un tesoro, ecc.) non è effettivamente presente, ma è solo un'illusione.",
-                "20-20": "Nella stanza si trova una grande gabbia arrugginita, con la porta leggermente socchiusa. È vuota, ma graffi e deboli macchie di sangue suggeriscono che qualcosa sia fuggito. La gabbia potrebbe contenere una trappola, un compartimento segreto o essere un indizio della presenza di una creatura che si aggira nei dintorni.",
-                "3-3": "Un muro mobile si sposta dopo il passaggio del gruppo, bloccando loro l'uscita. Devono trovare un'altra via d'uscita dal dungeon. Il muro tornerà nella posizione iniziale dopo un periodo di tempo determinato da un tiro di [[/r 1d6]]: con un risultato di 1-2, tornerà nella posizione iniziale in un turno; con un risultato di 3-5, tornerà nella posizione iniziale in un'ora; e con un risultato di 6, tornerà nella posizione iniziale in un giorno.",
-                "4-4": "La stanza (o le scale, o la porta, o l'oggetto) si muove (gira, si abbassa, si chiude, si alza, ecc.) inaspettatamente. Potrebbe essere fermato se viene effettuato un tiro di Destrezza, con una penalità di +1, +2 o +3 al tiro di dado, a indicare che il gruppo reagisce abbastanza velocemente da impedirlo.",
-                "5-5": "La stanza contiene una piscina apparentemente senza fondo al centro della stanza. Tira i dadi sul tavolo della Pozza Magica solo dopo che uno o più personaggi hanno deciso di bere da essa. @Compendium[fade-compendiums.roll-table-compendium.RollTable.SxLgCljhvJfybE5j]",
-                "6-6": "La stanza (o l'oggetto, o il tesoro) emette strani rumori, come gemiti, urla o sussurri. Questi suoni inquietanti possono creare un'atmosfera sinistra, causando potenzialmente disagio o paura tra i personaggi. La fonte dei rumori potrebbe rimanere un mistero, spingendoli a ulteriori indagini o a procedere con cautela nell'esplorazione dell'area.",
-                "7-7": "Nella stanza si trova una grande statua raffigurante una persona, un mostro o un congegno. Potrebbe essere preziosa, magica o troppo pesante da spostare. La statua potrebbe essere viva, solitaria e disposta a parlare, anche se non sempre dirà la verità. Potrebbe anche nascondere una botola, celare un tesoro o fungere da guardiano di qualcosa di più importante. La presenza della statua suscita curiosità e cautela, poiché la sua vera natura e il suo scopo rimangono incerti.",
-                "8-8": "Questa caratteristica potrebbe essere una botola che conduce verso l'alto o verso il basso, una scala segreta nascosta dietro una parete finta o un ascensore che funziona in modo misterioso. Potrebbe anche trattarsi di un portale magico che trasporta i personaggi in un'altra stanza, a un livello diverso o persino in un dungeon completamente separato. Il metodo di trasporto potrebbe richiedere un'azione specifica, una chiave o un incantesimo magico per essere attivato, aggiungendo un elemento di intrigo ed esplorazione all'ambiente.",
-                "9-9": "Questo vale per qualsiasi variante di un mostro già presente nell'elenco, come ad esempio uno scheletro che lancia le dita come un Dardo Incantato, un orco gigante a due teste o un drago \"melma\" che sputa melma verde o melma grigia. Potrebbe anche includere un noioso selvaggio (un uomo barbuto che racconta storie lunghe e tetre), un semiumano (un halfling di dimensioni dimezzate) o una Bocca Armonica (che non sa cantare ma suona l'armonica). Altri esempi potrebbero essere un Orco Gelatinoso (che assomiglia a un orco ma ha proprietà insolite) o un Babbuino Rock and Roll. Queste varianti uniche aggiungono creatività e imprevedibilità agli incontri, sfidando i giocatori ad adattare le proprie strategie."
+                "1-1": "Stanza con Allarme"
             }
         },
         "Special Treasure Table": {
             "name": "Tabella Tesoro Speciale",
-            "description": "<p>Una tabella per determinare il valore dei tesori speciali, i vincoli (in cn) e le note relative a vari oggetti.</p>",
-            "results": {
-                "1-10": "<strong>Libro, raro</strong>: Ingombro [[2d100]] mon, Valore [[1d100 * 10]] mo.",
-                "11-12": "<strong>Pelliccia (Pelliccia, comune*)</strong>: Ingombro [[1d6 * 10]] mon, Valore [[1d4]] mo.",
-                "13-17": "<strong>Mantello (Pelliccia, comune*)</strong>: Ingombro [[1d8 + 4]] * 10 mon, Valore [[1d6 * 100]] mo.",
-                "18-20": "<strong>Cappotto (Pelliccia, comune*)</strong>: Ingombro [[2d6 + 8]] * 10 mon, Valore [[3d4 * 100]] mo.",
-                "21-22": "<strong>Pelliccia (rara**)</strong>: Ingombro [[1d6 * 10]] mon, Valore [[2d6]] mo.",
-                "23-27": "<strong>Mantello (Pelliccia, rara**)</strong>: Ingombro [[1d8 + 4]] * 10 mon, Valore [[4d6 * 100]] mo.",
-                "28-30": "<strong>Cappotto (Pelliccia, rara**)</strong>: Ingombro [[2d6 + 8]] * 10 mon, Valore [[1d6 * 1000]] mo.",
-                "31-35": "<strong>Incenso, raro</strong>: Ingombro 1 mon/bastoncino, Valore [[5d6]] mo/bastoncino.",
-                "36-40": "<strong>Profumo, raro</strong>: Ingombro 1 mon/fiala, Valore [[1d10 + 5]] * 10 mo/fiala.",
-                "41-55": "<strong>Tappeto o arazzo†</strong>: Ingombro [[1d6 * 100]] mon, Valore [[2d10]] mo (per metro quadrato).",
-                "56-65": "<strong>Seta†</strong>: Ingombro [[1d6 * 10]] mon, Valore [[1d8]] mo (per metro quadrato).",
-                "66-75": "<strong>Pelle, animale</strong>: Ingombro [[5d4 * 10]] mon, Valore [[1d10]] mo.",
-                "76-85": "<strong>Pelle, mostro</strong>: Ingombro [[1d100 * 50]] mon, Valore [[1d10 * 100]] mo.",
-                "86-90": "<strong>Spezia, rara</strong>: Ingombro [[4d4]] mon, Valore speciale (a discrezione del DM).",
-                "91-95": "<strong>Statuetta</strong>: Ingombro [[1d10 * 100]] mon, il valore varia (a discrezione del DM).",
-                "96-100": "<strong>Vino raro</strong>: Ingombro [[1d6 + 3]] * 10 mo/bottiglia, Valore [[1d6]] mo/bottiglia."
-            }
+            "description": "<p>Una tabella per determinare il valore dei tesori speciali, i vincoli (in cn) e le note relative a vari oggetti.</p>"
         },
         "Spell Catching": {
             "name": "Intercetta Incantesimo",
-            "description": "<p>Determina l'intervallo di livelli di magia che possono essere catturati usando la Cattura Incantesimi.</p>",
-            "results": {
-                "1-4": "Catturare incantesimi di 1° o 2° livello",
-                "10-10": "Catturare incantesimi dal 1° all' 8° livello",
-                "5-7": "Catturare incantesimi dal 1° all' 4° livello",
-                "8-9": "Catturare incantesimi dal 1° all' 6° livello"
-            }
+            "description": "<p>Determina l'intervallo di livelli di magia che possono essere catturati usando la Cattura Incantesimi.</p>"
         },
         "Spell Scrolls": {
             "name": "Pergamene Incantesimi",
             "results": {
                 "1-70": "Incantesimi per pergamena - Mago",
-                "71-100": "Conteggio Incantesimi su Pergamena (Chierico/Druido)",
-                "71-95": "Pergamena con Incantesimo del Chierico",
-                "96-100": "Pergamena con Incantesimo del Druido"
+                "71-100": "Conteggio Incantesimi su Pergamena (Chierico/Druido)"
             },
             "description": "<p>Determina il tipo di pergamena magica trovata. Ogni risultato include una tabella di riferimento per tirare 1d100 e determinare il numero di incantesimi presenti sulla pergamena.</p>"
         },
         "Staff of Element": {
             "name": "Bastone Elementale",
-            "results": {
-                "1-21": "Bastone dell'Aria",
-                "43-63": "Bastone del Fuoco",
-                "22-42": "Bastone della Terra",
-                "64-84": "Bastone dell'Acqua",
-                "85-91": "Bastone dell'Aria e dell'Acqua",
-                "92-98": "Bastone della Terra e del Fuoco",
-                "99-100": "Bastone del Potere Elementale"
-            },
             "description": "<p>Determina il tipo specifico di Bastone dell'Elemento trovato, come il Bastone dell'Aria, il Bastone del Fuoco o il raro Bastone del Potere Elementale.</p>"
         },
         "Swamp Encounter": {
@@ -2441,32 +1404,14 @@
             "name": "Spada Potere Primario",
             "results": {
                 "100-100": "Spada Potere Primario (TiroUnico)",
-                "96-99": "Potere Straordinario",
-                "1-10": "Potere primario: Individuazione del male (o bene)",
-                "11-15": "Potere primario: Individuazione delle gemme",
-                "16-25": "Potere primario: Individuazione del magico",
-                "26-35": "Potere primario: Individuazione dei metalli",
-                "36-50": "Potere principale: Individuazione di pareti mobili e di stanze",
-                "51-65": "Potere primario: Individuazione dei passaggi inclinati",
-                "66-75": "Potere primario: Individuazione delle porte segrete",
-                "76-85": "Potere primario: Individuazione delle trappole",
-                "86-95": "Potere primario: Individuazione dell’invisibile"
+                "96-99": "Potere Straordinario"
             },
             "description": "<p>Determina il potere primario di una spada, incluse le capacità di individuazione o i tiri aggiuntivi per poteri straordinari.</p>"
         },
         "Sword Primary Power (NoReroll)": {
             "name": "Spada Potere Primario (TiroUnico)",
             "results": {
-                "96-99": "Potere Straordinario",
-                "1-10": "Potere primario: Individuazione del male (o bene)",
-                "11-15": "Potere primario: Individuazione delle gemme",
-                "16-25": "Potere primario: Individuazione del magico",
-                "26-35": "Funzione principale: Individuazione dei metalli",
-                "36-50": "Potere primario: Individuazione di pareti mobili e di stanze",
-                "51-65": "Potere primario: Individuazione dei passaggi inclinati",
-                "66-75": "Potere primario: Individuazione delle porte segrete",
-                "76-85": "Potere primario: Individuazione delle trappole",
-                "86-95": "Potere primario: Individuazione dell’invisibile"
+                "96-99": "Potere Straordinario"
             },
             "description": "<p>Determina il potere primario di una spada, incluse le capacità di individuazione o i tiri aggiuntivi per poteri straordinari.</p>"
         },
@@ -2484,45 +1429,14 @@
                 "1-100": "Controllo Spada Maledetta",
                 "66-84": "Spade (Classe C)",
                 "85-92": "Spade (Classe D)",
-                "93-100": "Spade (Classe D)",
-                "1-65": "<strong>Spada, Normale</strong> (Classe C)"
+                "93-100": "Spade (Classe D)"
             },
             "description": "<p>La tabella delle spade avanzate può generare armi eccezionali, adatte a personaggi di livello 10 o superiore.</p>"
         },
         "Swords (Basic)": {
             "name": "Spade (Base)",
             "results": {
-                "1-100": "Controllo Spada Maledetta",
-                "1-10": "Spada Corta +1",
-                "11-20": "Spada Corta +2",
-                "21-30": "Spada Corta +3",
-                "31-34": "Spada +1",
-                "35-35": "Spada +1, +3 contro i dragonidi",
-                "36-36": "Spada +1, +3 contro i gigantoidi",
-                "37-37": "Spada +1, +3 contro i licantropi",
-                "38-38": "Spada +1, +3 contro i mostri rigeneranti",
-                "39-39": "Spada +1, +3 contro chi lancia incantesimi",
-                "40-40": "Spada +1, +3 contro i non-morti",
-                "41-50": "Spada +2",
-                "51-60": "Spada +3",
-                "61-64": "Spada Bastarda +1",
-                "65-65": "Spada Bastarda +1, +3 contro i dragonidi",
-                "66-66": "Spada Bastarda +1, +3 contro i gigantoidi",
-                "67-67": "Spada Bastarda +1, +3 contro i licantropi",
-                "68-68": "Spada Bastarda +1, +3 contro i mostri rigeneranti",
-                "69-69": "Spada Bastarda +1, +3 contro chi lancia incantesimi",
-                "70-70": "Spada Bastarda +1, +3 contro i non-morti",
-                "71-75": "Spada Bastarda +2",
-                "76-80": "Spada Bastarda +3",
-                "81-84": "Spadone a 2 mani +1",
-                "85-85": "Spadone a 2 mani +1, +3 contro i dragonidi",
-                "86-86": "Spadone a 2 mani +1, +3 contro i gigantoidi",
-                "87-87": "Spadone a 2 mani +1, +3 contro i licantropi",
-                "88-88": "Spadone a 2 mani +1, +3 contro i mostri rigeneranti",
-                "89-89": "Spadone a 2 mani +1, +3 contro chi lancia incantesimi",
-                "90-90": "Spadone a 2 mani +1, +3 contro i non-morti",
-                "91-95": "Spadone a 2 mani +2",
-                "96-100": "Spadone a 2 mani +3"
+                "1-100": "Controllo Spada Maledetta"
             },
             "description": "<p>Genera una spada magica specifica, incluse le tipologie di corta, normale, bastarda e a due mani, con bonus o effetti speciali.</p>"
         },
@@ -2550,45 +1464,18 @@
         },
         "Talisman of Elemental Travel": {
             "name": "Talismano del Viaggio Elementale",
-            "description": "<p>Determina il tipo di Talismano del Viaggio Elementale trovato, ad esempio un Talismano Minore per un singolo elemento o un Talismano Maggiore per tutti gli elementi.</p>",
-            "results": {
-                "1-2": "Talismano minore dell’Aria",
-                "3-4": "Talismano minore della Terra",
-                "5-6": "Talismano minore del Fuoco",
-                "7-8": "Talismano minore dell’Acqua",
-                "9-10": "Talismano maggiore (tutti i Piani Elementali)"
-            }
+            "description": "<p>Determina il tipo di Talismano del Viaggio Elementale trovato, ad esempio un Talismano Minore per un singolo elemento o un Talismano Maggiore per tutti gli elementi.</p>"
         },
         "Trap Type": {
             "name": "Tipo di Trappola",
             "results": {
                 "5-5": "Trappola Nebbiosa",
-                "8-8": "Trappola (Buco)",
-                "1-1": "Una lama spunta da una parete, dal pavimento o dal soffitto, colpendo un personaggio per [[/r 1d6]] danni fisici. Un tiro salvezza contro le bacchette riuscito evita il colpo.",
-                "10-10": "Un piccolo ago è nascosto da qualche parte ed è quasi impercettibile finché non viene toccato accidentalmente. Quando viene attivato, scatta fuori e punge un personaggio che tenta di aprire qualcosa. Il personaggio può effettuare un tiro salvezza contro il veleno; in caso di fallimento, subisce [[/r 1d6]] danni da veleno.",
-                "2-2": "Un meccanismo a molla spara una raffica di minuscoli dardi. Ogni personaggio colpito deve effettuare un Tiro Salvezza contro Bacchette o subire [[/r 1d4]] danni fisici. Alcuni dardi potrebbero essere avvelenati; fallisci un Tiro Salvezza contro Veleno e subisci ulteriori [[/r 1d6]] danni da veleno a meno che il personaggio non superi un Tiro Salvezza contro Veleno.",
-                "3-3": "Attivando questa trappola si innesca un'esplosione che infligge [[/r 2d4]] danni da fuoco a tutte le creature in un raggio di 3 metri. Un tiro salvezza contro le bacchette riuscito dimezza i danni.",
-                "4-4": "Quando viene attivato, un blocco pesante o delle macerie cadono dall'alto. I personaggi colpiti devono effettuare un Tiro Salvezza contro le Bacchette o subire [[/r 1d8]] danni fisici dall'impatto.",
-                "6-6": "Se c'è un tesoro, l'illusione lo protegge; altrimenti, viene posizionata vicino a un'uscita o a una sezione del pavimento ingannevole. Quando viene attivata, appare una scena illusoria: magari un mostro fantasma, un falso tesoro o un pavimento che scompare. I personaggi possono effettuare un Tiro Salvezza contro Incantesimi per non crederci. Un fallimento può causare panico, passi falsi che conducono a un pericolo reale o attirare il gruppo verso un'altra trappola.",
-                "7-7": "Attivando questa trappola si verifica un improvviso lampo di luce accecante. Tutte le creature che la vedono devono effettuare un Tiro Salvezza contro gli Incantesimi o rimanere accecate per [[/r 1d4]] turni. Finché sono accecati, i personaggi subiscono una penalità di -4 ai tiri per colpire e non possono lanciare incantesimi che richiedono la vista.",
-                "9-9": "Nella stanza è già presente un gas velenoso oppure questo viene immesso nell'ambiente. Le vittime devono effettuare un Tiro Salvezza contro il Veleno o subire danni (1d4, 1d6 o qualsiasi altro valore pericoloso ma non letale per la maggior parte dei personaggi). Facoltativamente, è possibile effettuare un Tiro Salvezza contro il Veleno con bonus (+1, +2, +4) al risultato; in caso di fallimento, il gas è letale. Di solito il gas è contenuto e viene rilasciato all'apertura del contenitore."
+                "8-8": "Trappola (Buco)"
             },
             "description": "<p>Nella stanza è presente una trappola nascosta. Se c'è un tesoro, è probabile che la trappola lo protegga; altrimenti, è posizionata vicino a un'uscita o sotto i piedi.</p>"
         },
         "Uncommon Jewelry (15k)": {
-            "name": "Gioiello Non-Comune (15k)",
-            "results": {
-                "2-2": "Cintura",
-                "3-3": "Collare",
-                "7-7": "Foglia",
-                "8-8": "Collana",
-                "1-1": "Bracciale",
-                "10-10": "Zampa di coniglio",
-                "4-4": "Orecchino",
-                "5-5": "Quadrifoglio",
-                "6-6": "Cuore",
-                "9-9": "Pendente"
-            }
+            "name": "Gioiello Non-Comune (15k)"
         },
         "Unusual": {
             "name": "Insolito",
@@ -2612,144 +1499,63 @@
             "name": "Bacchette, Bastoni e Verghe",
             "results": {
                 "100-100": "Verga del Wyrm",
-                "67-69": "Bastone Elementale",
-                "89-90": "Verga della Dissoluzione della Magia",
-                "91-91": "Verga del Governo",
-                "95-95": "Verga della Parata",
-                "1-5": "Bacchetta del Freddo (M): Contiene [[3d10]] cariche.",
-                "11-14": "Bacchetta della Paura (M): Contiene [[3d10]] cariche.",
-                "15-19": "Bacchetta delle palle di fuoco (M): Contiene [[3d10]] cariche.",
-                "20-23": "Bacchetta delle illusioni (M): Contiene [[3d10]] cariche.",
-                "24-28": "Bacchetta dei fulmini magici (M): Contiene [[3d10]] cariche.",
-                "29-33": "Bacchetta dell’individuazione del magico (M): Contiene [[3d10]] cariche.",
-                "34-38": "Bacchetta cercametalli (M): Contiene [[3d10]] cariche.",
-                "39-42": "Bacchetta della negazione (M): Contiene [[3d10]] cariche.",
-                "43-47": "Bacchetta della paralisi (M): Contiene [[3d10]] cariche.",
-                "48-52": "Bacchetta delle trasformazioni (M): Contiene [[3d10]] cariche.",
-                "53-56": "Bacchetta dell'individuazione delle porte segrete (M): Contiene [[3d10]] cariche.",
-                "57-60": "Bacchetta dell’individuazione delle trappole (M): Contiene [[3d10]] cariche.",
-                "6-10": "Bacchetta dell’individuazione dei nemici (M): Contiene [[3d10]] cariche.",
-                "61-61": "Bastone del comando (I): Contiene [[2d20]] cariche.",
-                "62-63": "Bastone dissolvi magie (I): Contiene [[2d20]] cariche.",
-                "64-66": "Bastone dei druidi (D): Contiene [[2d20]] cariche.",
-                "70-71": "Bastone delle ferite e delle malattie (C): Contiene [[2d20]] cariche.",
-                "72-78": "Bastone guaritore (C): Contiene [[2d20]] cariche.",
-                "79-79": "Bastone del potere (M): Contiene [[2d20]] cariche.",
-                "80-82": "Bastone serpente (C): Contiene [[2d20]] cariche.",
-                "83-85": "Bastone del colpire (I): Contiene [[2d20]] cariche.",
-                "86-87": "Bastone dell'invecchiamento (C): Contiene [[2d20]] cariche.",
-                "88-88": "Bastone della stregoneria (M): Contiene [[2d20]] cariche.",
-                "92-92": "Verga della salute (C)",
-                "93-94": "Verga dell’inerzia (ni)",
-                "96-96": "Verga della vittoria",
-                "97-99": "Verga del combattimento (ni)"
+                "67-69": "Bastone Elementale"
             },
             "description": "<p>Bacchette e bastoni sono potenti strumenti magici, ognuno con effetti unici. Le verghe sono oggetti versatili che non richiedono cariche, spesso intrisi di potenti abilità.</p>"
         },
         "Weapon Opponents": {
             "name": "Arma Avversari",
-            "description": "<p>Determina il tipo di avversario contro cui un'arma è particolarmente efficace.</p>",
-            "results": {
-                "1-6": "Avversario: Insetti",
-                "10-15": "Avversario: dragonidi",
-                "16-24": "Avversario: Mostri incantati",
-                "25-36": "Avversario: gigantoidi",
-                "37-48": "Avversario: licantropi",
-                "49-52": "Avversario: mostri planari",
-                "53-58": "Avversario: mostri rigeneranti",
-                "59-67": "Avversario: rettili e dinosauri",
-                "68-70": "Avversario: mostri immuni agli incantesimi",
-                "7-9": "Avversario: costrutti",
-                "71-76": "Avversario: incantatori",
-                "77-88": "Avversario: non-morti",
-                "89-94": "Avversario: mostri che respirano sott'acqua",
-                "95-100": "Avversario: mostri che usano armi"
-            }
+            "description": "<p>Determina il tipo di avversario contro cui un'arma è particolarmente efficace.</p>"
         },
         "Weapon Talents": {
             "name": "Talenti Arma",
-            "description": "<p>Determina la caratteristica speciale di un'arma o di un proiettile.</p>",
-            "results": {
-                "1-5": "Talento: Respirare",
-                "100-100": "Talento: Desiderare",
-                "13-16": "Talento: Ingannare",
-                "17-23": "Talento: Difensivo",
-                "24-25": "Talento: Deviare",
-                "26-27": "Talento: Risucchio",
-                "28-32": "Talento: Estinguente",
-                "33-38": "Talento: Localizzante",
-                "39-43": "Talento: Fiammeggiante",
-                "44-46": "Talento: Volante",
-                "47-54": "Talento: Guarigione",
-                "55-59": "Talento: Nascondersi",
-                "6-12": "Talento: Charme",
-                "60-65": "Talento: Bloccante",
-                "66-73": "Talento: Illuminare",
-                "74-79": "Talento: Silenzio",
-                "80-81": "Talento: Affettare",
-                "82-85": "Talento: Rallentare",
-                "86-89": "Talento: Velocità",
-                "90-94": "Talento: Traduzione",
-                "95-99": "Talento: Sensitiva"
-            }
+            "description": "<p>Determina la caratteristica speciale di un'arma o di un proiettile.</p>"
         },
         "Weapons Add. Mod. 10%": {
             "name": "Armi con Mod. 10%",
             "results": {
-                "1-10": "Modificatori Arma Addizionale (Varia)",
-                "11-100": "Nessun modificatore aggiuntivo per le armi"
+                "1-10": "Modificatori Arma Addizionale (Varia)"
             },
             "description": "<p>Determina se un'arma ha un modificatore aggiuntivo. Tira sulla tabella Modifiche aggiuntive per armi (Varie) in caso di successo.</p>"
         },
         "Weapons Add. Mod. 15%": {
             "name": "Armi con Mod. 15%",
             "results": {
-                "1-15": "Modificatori Arma Addizionale (Varia)",
-                "16-100": "Nessun modificatore aggiuntivo per le armi"
+                "1-15": "Modificatori Arma Addizionale (Varia)"
             },
             "description": "<p>Determina se un'arma ha un modificatore aggiuntivo. Tira sulla tabella Modifiche aggiuntive per armi (Varie) in caso di successo.</p>"
         },
         "Weapons Add. Mod. 20%": {
             "name": "Armi con Mod. 20%",
             "results": {
-                "1-20": "Modificatori Arma Addizionale (Varia)",
-                "21-100": "Nessun modificatore aggiuntivo per le armi"
+                "1-20": "Modificatori Arma Addizionale (Varia)"
             },
             "description": "<p>Determina se un'arma ha un modificatore aggiuntivo. Tira sulla tabella Modifiche aggiuntive per armi (Varie) in caso di successo.</p>"
         },
         "Weapons Add. Mod. 25%": {
             "name": "Armi con Mod. 25%",
             "results": {
-                "1-25": "Modificatori Arma Addizionale (Varia)",
-                "26-100": "Nessun modificatore aggiuntivo per le armi"
+                "1-25": "Modificatori Arma Addizionale (Varia)"
             },
             "description": "<p>Determina se un'arma ha un modificatore aggiuntivo. Tira sulla tabella Modifiche aggiuntive per armi (Varie) in caso di successo.</p>"
         },
         "Weapons Add. Mod. 30%": {
             "name": "Armi con Mod. 30%",
             "results": {
-                "1-30": "Modificatori Arma Addizionale (Varia)",
-                "31-100": "Nessun modificatore aggiuntivo per le armi"
+                "1-30": "Modificatori Arma Addizionale (Varia)"
             },
             "description": "<p>Determina se un'arma ha un modificatore aggiuntivo. Tira sulla tabella Modifiche aggiuntive per armi (Varie) in caso di successo.</p>"
         },
         "Weapons Add. Mod. 40%": {
             "name": "Armi con Mod. 40%",
             "results": {
-                "1-40": "Modificatori Arma Addizionale (Varia)",
-                "41-100": "Nessun modificatore aggiuntivo per le armi"
+                "1-40": "Modificatori Arma Addizionale (Varia)"
             },
             "description": "<p>Determina se un'arma ha un modificatore aggiuntivo. Tira sulla tabella Modifiche aggiuntive per armi (Varie) in caso di successo.</p>"
         },
         "Wishes Ring": {
             "name": "Anello dei Desideri",
-            "description": "<p>Determina quanti desideri l'Anello dei Desideri esaudirà, con un numero da 1 a 4.</p>",
-            "results": {
-                "1-4": "1 Desiderio",
-                "10-10": "4 Desideri",
-                "5-7": "2 Desideri",
-                "8-9": "3 Desideri"
-            }
+            "description": "<p>Determina quanti desideri l'Anello dei Desideri esaudirà, con un numero da 1 a 4.</p>"
         },
         "Woods Encounter": {
             "name": "Incontri Boschi",
