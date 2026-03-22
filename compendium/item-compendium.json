@@ -1570,6 +1570,12 @@
       "spellEffect": "Climb like a spider",
       "spellRange": "Self"
     },
+    "Cloak of Billowing": {
+      "description": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness. While wearing this cloak, you can use a bonus action to make it billow dramatically.</p>",
+      "name": "Cloak of Billowing",
+      "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+      "unidentifiedName": "Strange Cloak"
+    },
     "Cloak, long": {
       "description": "<p>A long cloak to cover one's shoulders and back. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
       "name": "Cloak, long",
@@ -4670,7 +4676,7 @@
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Plant Control": {
-      "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+      "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns [[/r 1d6+6 #turns]], with the exact duration known only to the DM.</span></p>",
       "name": "Potion of Plant Control",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
@@ -5062,9 +5068,21 @@
       "description": "<p>An Avenger may visit any castle, ruin, or dungeon ruled by an intelligent Chaotic monster or character and, using their alignment tongue, formally demand Sanctuary. If granted, the Avenger is given temporary protection and hospitality, as per the custom of Sanctuary.</p><p>An Avenger may also attempt to deceive non-Chaotic rulers by posing as a knight and requesting Sanctuary. If the ruler is successfully fooled (and no alignment-detecting magic exposes the deception), they will provide the same hospitality they would grant a true knight.</p>",
       "name": "Right of Sanctuary (AV)"
     },
+    "Ring of Animal Control": {
+      "description": "<p>The wearer of this ring may command [[/r 1d6]] normal animals (or one giant-sized). The animals are not allowed a saving throw to resist control. The ring will not control intelligent animal species or fantastical or magical monsters. The wearer must be able to see the animals to control them. The control will last as long as the wearer concentrates on the animals and does not move or fight. When the wearer stops concentrating, the animals will be free to attack their controller or run away (roll reactions with a penalty of −1 to the roll). This ring can only be used once per turn.</p>",
+      "name": "Ring of Animal Control",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
     "Ring of Delusion": {
       "description": "<p>The wearer will believe this to be any one other ring (roll again for the imaginary type). However, it has no real effect. The wearer will not be convinced otherwise until a remove curse is used to dispel the enchantment.</p>",
       "name": "Ring of Delusion",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Plant Control": {
+      "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts </span>as long as the wearer concentrates.</p>",
+      "name": "Ring of Plant Control",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
@@ -5601,6 +5619,13 @@
       "name": "Staff +2",
       "unidentifiedDesc": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
       "unidentifiedName": "Staff",
+      "weaponMastery": "Staff"
+    },
+    "Staff of Power (M)": {
+      "description": "<p>This staff, <span style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">designed exclusively for magic-users</span>, is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal<br><br>This item can be used as a <em>staff of striking</em> and can also be used to create any of the following magic-user spell effects (each doing 8d6 points of damage): fireball, lightning bolt, and ice storm. It can also create a continual light effect or move 2,400 cn of weight by telekinesis. as the ring. This staff is usable only by magic-users.<br><br>Striking: this weapon inflicts [[/r 2d6 #points of damage]] points of damage per charge if the hit is successful. Only one charge may be used per strike.</p>",
+      "name": "Staff of Power (M)",
+      "unidentifiedDesc": "<p><span style=\"font-family: 'Google Sans', Arial, sans-serif\">This is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal</span></p>",
+      "unidentifiedName": "Unusual Staff",
       "weaponMastery": "Staff"
     },
     "Staff@A4nQHbJt1qy5ByzL": {
