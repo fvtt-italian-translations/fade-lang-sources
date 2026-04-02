@@ -962,6 +962,9 @@
             "castAsKey": {
                 "hint": "La chiave della classe da cui questa classe lancia incantesimi. Ad esempio l'Elfo può lanciare come Mago (classe M). Alcune classi permettono di lanciare a 1/3 del livello e queste possono essere designate con /3 dopo la chiave della classe (es. M/3).",
                 "name": "Chiave di lancio"
+            },
+            "xpMods": {
+                "name": "Modificatore PX"
             }
         },
         "Effect": {
