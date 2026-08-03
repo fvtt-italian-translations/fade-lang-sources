@@ -1386,6 +1386,10 @@
       "itemPack": "Item Compendium",
       "rollTablePack": "Rollable Tables Compendium"
     },
+    "promptAddClassAbilities": {
+      "hint": "When enabled, the GM is asked before class-granted special abilities and items are added to a character upon leveling. When disabled, they are added automatically.",
+      "name": "Prompt for Class Abilities"
+    },
     "roundDurationSec": {
       "hint": "The number of seconds a round represent in game time.",
       "name": "Round Duration"
