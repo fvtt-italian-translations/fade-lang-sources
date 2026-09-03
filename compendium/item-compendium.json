@@ -135,6 +135,126 @@
       "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
       "unidentifiedName": "Arrows"
     },
+    "Arrows +1 of (Type) Slaying": {
+      "description": "<p>When this missile hits a creature of the specified type, the target must make a saving throw vs. death ray or die.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of (Type) Slaying",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Biting": {
+      "description": "<p>When the missile hits, the talent turns it into a poisonous\" snake. In addition to normal damage, the victim must make a saving throw vs. poison or die (or, at the DM's choice, take extra damage; [[/r 2d6 #Poison damage]], [[/r 2d10 #Poison damage]], or [[/r 2d20 #Poison damage]] are recommended amounts).</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p>",
+      "name": "Arrows +1 of Biting",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Blinking": {
+      "description": "<p>The missile with this talent will not hit any friend of the user, \"blinking\" in and out of existence until it reaches an enemy. (If the sight of the enemy is blocked by friends, a penalty may apply to the attack roll).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Blinking",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Charming": {
+      "description": "<p>The victim hit must make a saving throw vs. spells or be charmed by the user (as the charm person or charm monster magic-user spell).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Charming",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Climbing": {
+      "description": "<p>This talent only functions if the missile is shot at an object. The missile securely fastens itself to any object hit and then creates a magical 50' rope, issuing from the spot hit. The rope will support any weight of climbers and will disappear 1 turn later or upon command of the user. The missile cannot be moved after it hits, and it disappears when the rope does.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Climbing",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Curing": {
+      "description": "<p>A missile with this talent is obviously blunt, inscribed with a holy symbol. When it hits a living creature, it does not inflict damage. Instead, it cures [[/r 2d6+2 #Damage healed]] points of damage. The roll includes plus 2 extra points for each magical bonus of the missile. For example, if a 5 is rolled for a curing arrow +2, the total points of damage cured are 9.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Curing",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Disarming": {
+      "description": "<p>This talent will only function if the victim hit is holding a weapon or other item. The victim must make a saving throw vs. spells or drop the item. A dropped item may normally be recovered in 1 round (unless it falls into a pit or chasm, if someone else grabs it, etc.).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Disarming",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Dispelling": {
+      "description": "<p>When a missile with this talent hits, it creates a dispel magic effect centered on the point of impact (a 20' cube) as if cast by a 15th level caster.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Dispelling",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Flying": {
+      "description": "<p>A missile with this talent can be shot at ranges five times greater than normal. If the missile weapon firing this missile is also magical and has an additional range multiplier, the effect is cumulative; multiply each maximum range by five. If the missile weapon is not magical, use the following maximum ranges.</p><table style=\"max-width: 300px;\"><thead><tr><th>Type</th><th>Ranges</th></tr></thead><tbody><tr><td>Arrow, short bow</td><td>250/500/750</td></tr><tr><td>Arrow, long bow</td><td>350/700/1,050</td></tr><tr><td>Quarrel, light crossbow</td><td>300/600/900</td></tr><tr><td>Quarrel, heavy crossbow</td><td>400/800/1,200</td></tr><tr><td>Sling stone</td><td>200/400/800</td></tr></tbody></table><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Flying",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Lighting": {
+      "description": "<p>The missile talent can create a light spell effect (30' diameter), either upon command or when it hits a target. If a creature is hit, the victim must make a saving throw vs. spells or be blinded by the light (as if the spell had been cast at its eyes). The missile disintegrates when the light is created. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Lighting",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Penetrating": {
+      "description": "<p>A missile with this talent cannot be slowed by underbrush, webs (normal or magical), or other forms of cover. The victim's armor class is not modified by cover of any sort.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Penetrating",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Refilling": {
+      "description": "<p>This talent gives no special effects to a missile when shot. If left in a container with other missiles of the same type (that is, a refilling arrow with normal arrows or a refilling sling stone with normal sling stones), however, it will magically create [[/r 1d20 #Normal missiles created]] more missiles of the normal type each day. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Refilling",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Screaming": {
+      "description": "<p>This talent's effect occurs when the missile is shot, even if it misses the target. As it travels through the air, the missile produces a loud cry, causing all within 30' of its path to check morale. If the morale check is failed, the victims will retreat in fear for [[/r 1d8 #Feared rounds]] rounds. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Screaming",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Seeking": {
+      "description": "<p>This talent will only function when the missile is shot at an object; it is not usable against creatures. It will automatically hit any one target object within range as long as a path of travel is clear. It may be used as a missile of disarming, if desired, or it can be used to sever a normal rope, pierce a sack, push a button, trigger a trap, etc. It will automatically miss any creature at which it is aimed.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Seeking",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Sinking": {
+      "description": "<p>When shot at a water craft of any sort, a missile with this talent inflicts [[/r 1d10 +10 #Hull damage]] (11-20) hull points of damage when it hits. (The armor class of the vessel is used, as if the shot were a ramming or catapult attack.) </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Sinking",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Speaking": {
+      "description": "<p>A missile with this talent will miss any creature at which it is shot. It is used for communication purposes only. The user may give the missile any message of 20 words or less and then shoot it, either naming a place within ten miles or aiming at a target. The missile will automatically land on the floor or ground in the target area and will repeat the message aloud twice.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Speaking",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Stunning": {
+      "description": "<p>The victim hit by a missile with this talent must make a saving throw vs. spells or be stunned for [[/r 1d6 #Stunned rounds]] rounds.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Stunning",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Teleporting": {
+      "description": "<p>A victim hit by a missile with this talent must make a saving throw vs. spells (at a +2 bonus to the roll) or be teleported to a point [[/r 1d100 #Miles]] miles away, with the direction and distance determined randomly. Unlike the effect of the magic-user spell, the victim cannot arrive in the air or within a solid object.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Teleporting",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Transporting": {
+      "description": "<p>A victim hit by a missile with this talent must make a saving throw vs. spells or be sent to a point up to 360' away, as determined by the user of the missile. The effect is identical to the magic-user spell dimension door, and it cannot cause the victim to appear within a solid object.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Transporting",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
+    "Arrows +1 of Wounding": {
+      "description": "<p>When a missile with the wounding talent strikes a target creature, it inflicts normal damage. In addition, however, it causes the loss of 1 hit point per round thereafter until magical curing is applied (a potion, cure spell of any type, etc.). However, no undead creature or construct (golem, living statue, etc.) can be wounded with this talent, and such creatures suffer only the initial damage.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Arrows +1 of Wounding",
+      "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+      "unidentifiedName": "Arrows"
+    },
     "Arrows +2": {
       "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
       "name": "Arrows +2",
@@ -4361,6 +4481,126 @@
       "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
       "unidentifiedName": "Pellets"
     },
+    "Pellets +1 of (Type) Slaying": {
+      "description": "<p>When this missile hits a creature of the specified type, the target must make a saving throw vs. death ray or die.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of (Type) Slaying",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Biting": {
+      "description": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">When the missile hits, the talent turns it into a poisonous\" snake. In addition to normal damage, the victim must make a saving throw vs. poison or die (or, at the DM's choice, take extra damage; </span><span class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Poison damage\" data-formula=\"2d6\" data-tooltip-text=\"2d6 #Poison damage\" style=\"box-sizing: border-box; cursor: pointer; background: rgba(0, 0, 0, 0.1); border: 1px solid rgb(129, 107, 102); border-radius: 2px; color: rgb(235, 234, 228); margin: -1px 0px; padding: 1px 4px 0px; white-space: nowrap; word-break: break-all; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">2d6</span><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">, </span><span class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Poison damage\" data-formula=\"2d10\" data-tooltip-text=\"2d10 #Poison damage\" style=\"box-sizing: border-box; cursor: pointer; background: rgba(0, 0, 0, 0.1); border: 1px solid rgb(129, 107, 102); border-radius: 2px; color: rgb(235, 234, 228); margin: -1px 0px; padding: 1px 4px 0px; white-space: nowrap; word-break: break-all; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">2d10</span><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">, or </span><span class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"Poison damage\" data-formula=\"2d20\" data-tooltip-text=\"2d20 #Poison damage\" style=\"box-sizing: border-box; cursor: pointer; background: rgba(0, 0, 0, 0.1); border: 1px solid rgb(129, 107, 102); border-radius: 2px; color: rgb(235, 234, 228); margin: -1px 0px; padding: 1px 4px 0px; white-space: nowrap; word-break: break-all; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">2d20</span><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\"> are recommended amounts).</span></p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p>",
+      "name": "Pellets +1 of Biting",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Blinking": {
+      "description": "<p>The missile with this talent will not hit any friend of the user, \"blinking\" in and out of existence until it reaches an enemy. (If the sight of the enemy is blocked by friends, a penalty may apply to the attack roll).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Blinking",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Charming": {
+      "description": "<p>The victim hit must make a saving throw vs. spells or be charmed by the user (as the charm person or charm monster magic-user spell).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Charming",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Climbing": {
+      "description": "<p>This talent only functions if the missile is shot at an object. The missile securely fastens itself to any object hit and then creates a magical 50' rope, issuing from the spot hit. The rope will support any weight of climbers and will disappear 1 turn later or upon command of the user. The missile cannot be moved after it hits, and it disappears when the rope does.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Climbing",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Curing": {
+      "description": "<p>A missile with this talent is obviously blunt, inscribed with a holy symbol. When it hits a living creature, it does not inflict damage. Instead, it cures [[/r 2d6+2 #Damage healed]] points of damage. The roll includes plus 2 extra points for each magical bonus of the missile. For example, if a 5 is rolled for a curing arrow +2, the total points of damage cured are 9.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Curing",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Disarming": {
+      "description": "<p>This talent will only function if the victim hit is holding a weapon or other item. The victim must make a saving throw vs. spells or drop the item. A dropped item may normally be recovered in 1 round (unless it falls into a pit or chasm, if someone else grabs it, etc.).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Disarming",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Dispelling": {
+      "description": "<p>When a missile with this talent hits, it creates a dispel magic effect centered on the point of impact (a 20' cube) as if cast by a 15th level caster.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Dispelling",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Flying": {
+      "description": "<p>A missile with this talent can be shot at ranges five times greater than normal. If the missile weapon firing this missile is also magical and has an additional range multiplier, the effect is cumulative; multiply each maximum range by five. If the missile weapon is not magical, use the following maximum ranges.</p><table style=\"max-width: 300px;\"><thead><tr><th>Type</th><th>Ranges</th></tr></thead><tbody><tr><td>Arrow, short bow</td><td>250/500/750</td></tr><tr><td>Arrow, long bow</td><td>350/700/1,050</td></tr><tr><td>Quarrel, light crossbow</td><td>300/600/900</td></tr><tr><td>Quarrel, heavy crossbow</td><td>400/800/1,200</td></tr><tr><td>Sling stone</td><td>200/400/800</td></tr></tbody></table><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Flying",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Lighting": {
+      "description": "<p>The missile talent can create a light spell effect (30' diameter), either upon command or when it hits a target. If a creature is hit, the victim must make a saving throw vs. spells or be blinded by the light (as if the spell had been cast at its eyes). The missile disintegrates when the light is created. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Lighting",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Penetrating": {
+      "description": "<p>A missile with this talent cannot be slowed by underbrush, webs (normal or magical), or other forms of cover. The victim's armor class is not modified by cover of any sort.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Penetrating",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Refilling": {
+      "description": "<p>This talent gives no special effects to a missile when shot. If left in a container with other missiles of the same type (that is, a refilling arrow with normal arrows or a refilling sling stone with normal sling stones), however, it will magically create [[/r 1d20 #Normal missiles created]] more missiles of the normal type each day. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Refilling",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Screaming": {
+      "description": "<p>This talent's effect occurs when the missile is shot, even if it misses the target. As it travels through the air, the missile produces a loud cry, causing all within 30' of its path to check morale. If the morale check is failed, the victims will retreat in fear for [[/r 1d8 #Feared rounds]] rounds. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Screaming",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Seeking": {
+      "description": "<p>This talent will only function when the missile is shot at an object; it is not usable against creatures. It will automatically hit any one target object within range as long as a path of travel is clear. It may be used as a missile of disarming, if desired, or it can be used to sever a normal rope, pierce a sack, push a button, trigger a trap, etc. It will automatically miss any creature at which it is aimed.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Seeking",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Sinking": {
+      "description": "<p>When shot at a water craft of any sort, a missile with this talent inflicts [[/r 1d10 +10 #Hull damage]] (11-20) hull points of damage when it hits. (The armor class of the vessel is used, as if the shot were a ramming or catapult attack.) </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Sinking",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Speaking": {
+      "description": "<p>A missile with this talent will miss any creature at which it is shot. It is used for communication purposes only. The user may give the missile any message of 20 words or less and then shoot it, either naming a place within ten miles or aiming at a target. The missile will automatically land on the floor or ground in the target area and will repeat the message aloud twice.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Speaking",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Stunning": {
+      "description": "<p>The victim hit by a missile with this talent must make a saving throw vs. spells or be stunned for [[/r 1d6 #Stunned rounds]] rounds.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Stunning",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Teleporting": {
+      "description": "<p>A victim hit by a missile with this talent must make a saving throw vs. spells (at a +2 bonus to the roll) or be teleported to a point [[/r 1d100 #Miles]] miles away, with the direction and distance determined randomly. Unlike the effect of the magic-user spell, the victim cannot arrive in the air or within a solid object.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Teleporting",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Transporting": {
+      "description": "<p>A victim hit by a missile with this talent must make a saving throw vs. spells or be sent to a point up to 360' away, as determined by the user of the missile. The effect is identical to the magic-user spell dimension door, and it cannot cause the victim to appear within a solid object.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Transporting",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
+    "Pellets +1 of Wounding": {
+      "description": "<p>When a missile with the wounding talent strikes a target creature, it inflicts normal damage. In addition, however, it causes the loss of 1 hit point per round thereafter until magical curing is applied (a potion, cure spell of any type, etc.). However, no undead creature or construct (golem, living statue, etc.) can be wounded with this talent, and such creatures suffer only the initial damage.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Pellets +1 of Wounding",
+      "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+      "unidentifiedName": "Pellets"
+    },
     "Pellets +2": {
       "description": "<p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
       "name": "Pellets +2",
@@ -4871,6 +5111,126 @@
     "Quarrels +1": {
       "description": "<p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
       "name": "Quarrels +1",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of (Type) Slaying": {
+      "description": "<p>When this missile hits a creature of the specified type, the target must make a saving throw vs. death ray or die.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of (Type) Slaying",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Biting": {
+      "description": "<p>When the missile hits, the talent turns it into a poisonous\" snake. In addition to normal damage, the victim must make a saving throw vs. poison or die (or, at the DM's choice, take extra damage; [[/r 2d6 #Poison damage]], [[/r 2d10 #Poison damage]], or [[/r 2d20 #Poison damage]] are recommended amounts).</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p>",
+      "name": "Quarrels +1 of Biting",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Blinking": {
+      "description": "<p>The missile with this talent will not hit any friend of the user, \"blinking\" in and out of existence until it reaches an enemy. (If the sight of the enemy is blocked by friends, a penalty may apply to the attack roll).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Blinking",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Charming": {
+      "description": "<p>The victim hit must make a saving throw vs. spells or be charmed by the user (as the charm person or charm monster magic-user spell).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Charming",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Climbing": {
+      "description": "<p>This talent only functions if the missile is shot at an object. The missile securely fastens itself to any object hit and then creates a magical 50' rope, issuing from the spot hit. The rope will support any weight of climbers and will disappear 1 turn later or upon command of the user. The missile cannot be moved after it hits, and it disappears when the rope does.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Climbing",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Curing": {
+      "description": "<p>A missile with this talent is obviously blunt, inscribed with a holy symbol. When it hits a living creature, it does not inflict damage. Instead, it cures [[/r 2d6+2 #Damage healed]] points of damage. The roll includes plus 2 extra points for each magical bonus of the missile. For example, if a 5 is rolled for a curing arrow +2, the total points of damage cured are 9.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Curing",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Disarming": {
+      "description": "<p>This talent will only function if the victim hit is holding a weapon or other item. The victim must make a saving throw vs. spells or drop the item. A dropped item may normally be recovered in 1 round (unless it falls into a pit or chasm, if someone else grabs it, etc.).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Disarming",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Dispelling": {
+      "description": "<p>When a missile with this talent hits, it creates a dispel magic effect centered on the point of impact (a 20' cube) as if cast by a 15th level caster.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Dispelling",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Flying": {
+      "description": "<p>A missile with this talent can be shot at ranges five times greater than normal. If the missile weapon firing this missile is also magical and has an additional range multiplier, the effect is cumulative; multiply each maximum range by five. If the missile weapon is not magical, use the following maximum ranges.</p><table style=\"max-width: 300px;\"><thead><tr><th>Type</th><th>Ranges</th></tr></thead><tbody><tr><td>Arrow, short bow</td><td>250/500/750</td></tr><tr><td>Arrow, long bow</td><td>350/700/1,050</td></tr><tr><td>Quarrel, light crossbow</td><td>300/600/900</td></tr><tr><td>Quarrel, heavy crossbow</td><td>400/800/1,200</td></tr><tr><td>Sling stone</td><td>200/400/800</td></tr></tbody></table><p></p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Flying",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Lighting": {
+      "description": "<p>The missile talent can create a light spell effect (30' diameter), either upon command or when it hits a target. If a creature is hit, the victim must make a saving throw vs. spells or be blinded by the light (as if the spell had been cast at its eyes). The missile disintegrates when the light is created. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Lighting",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Penetrating": {
+      "description": "<p>A missile with this talent cannot be slowed by underbrush, webs (normal or magical), or other forms of cover. The victim's armor class is not modified by cover of any sort.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Penetrating",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Refilling": {
+      "description": "<p>This talent gives no special effects to a missile when shot. If left in a container with other missiles of the same type (that is, a refilling arrow with normal arrows or a refilling sling stone with normal sling stones), however, it will magically create [[/r 1d20 #Normal missiles created]] more missiles of the normal type each day. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Refilling",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Screaming": {
+      "description": "<p>This talent's effect occurs when the missile is shot, even if it misses the target. As it travels through the air, the missile produces a loud cry, causing all within 30' of its path to check morale. If the morale check is failed, the victims will retreat in fear for [[/r 1d8 #Feared rounds]] rounds. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Screaming",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Seeking": {
+      "description": "<p>This talent will only function when the missile is shot at an object; it is not usable against creatures. It will automatically hit any one target object within range as long as a path of travel is clear. It may be used as a missile of disarming, if desired, or it can be used to sever a normal rope, pierce a sack, push a button, trigger a trap, etc. It will automatically miss any creature at which it is aimed.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Seeking",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Sinking": {
+      "description": "<p>When shot at a water craft of any sort, a missile with this talent inflicts [[/r 1d10 +10 #Hull damage]] (11-20) hull points of damage when it hits. (The armor class of the vessel is used, as if the shot were a ramming or catapult attack.) </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Sinking",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Speaking": {
+      "description": "<p>A missile with this talent will miss any creature at which it is shot. It is used for communication purposes only. The user may give the missile any message of 20 words or less and then shoot it, either naming a place within ten miles or aiming at a target. The missile will automatically land on the floor or ground in the target area and will repeat the message aloud twice.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Speaking",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Stunning": {
+      "description": "<p>The victim hit by a missile with this talent must make a saving throw vs. spells or be stunned for [[/r 1d6 #Stunned rounds]] rounds.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Stunning",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Teleporting": {
+      "description": "<p>A victim hit by a missile with this talent must make a saving throw vs. spells (at a +2 bonus to the roll) or be teleported to a point [[/r 1d100 #Miles]] miles away, with the direction and distance determined randomly. Unlike the effect of the magic-user spell, the victim cannot arrive in the air or within a solid object.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Teleporting",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Transporting": {
+      "description": "<p>A victim hit by a missile with this talent must make a saving throw vs. spells or be sent to a point up to 360' away, as determined by the user of the missile. The effect is identical to the magic-user spell dimension door, and it cannot cause the victim to appear within a solid object.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Transporting",
+      "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+      "unidentifiedName": "Quarrels"
+    },
+    "Quarrels +1 of Wounding": {
+      "description": "<p>When a missile with the wounding talent strikes a target creature, it inflicts normal damage. In addition, however, it causes the loss of 1 hit point per round thereafter until magical curing is applied (a potion, cure spell of any type, etc.). However, no undead creature or construct (golem, living statue, etc.) can be wounded with this talent, and such creatures suffer only the initial damage.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+      "name": "Quarrels +1 of Wounding",
       "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
       "unidentifiedName": "Quarrels"
     },
