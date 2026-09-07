@@ -1838,6 +1838,12 @@
       "spellEffect": "Control up to 3d6 Hit Dice worth of animals",
       "spellRange": "Self"
     },
+    "Control Human": {
+      "description": "<p>Affects humans, demi-humans, and humanoid creatures up to ogre size (excluding animals, magical constructs, and undead). The target receives a saving throw vs. spells; if failed, they become <em>charmed</em>, regarding the user as a trusted friend and defending them from threats.</p><p>If a shared language exists, the user may issue suggestions. The victim usually obeys reasonable requests, but automatically refuses suicidal commands or orders directly contrary to their nature/alignment. Conflicting input from former allies causes confusion rather than immediate realization.</p><p>The effect ends immediately if the user attacks the victim with a weapon or spell. Otherwise, the victim makes periodic saving throws to break the effect based on Intelligence:</p><table style=\"max-width:250px;\"><tbody><tr><td><p><strong>Target Intelligence:</strong></p></td><td><p><strong>Save Frequency:</strong></p></td></tr><tr><td><p>High (13-18)</p></td><td><p>1 day</p></td></tr><tr><td><p>Average (9-12)</p></td><td><p>1 week</p></td></tr><tr><td><p>Low (3-8)</p></td><td><p>1 month</p></td></tr></tbody></table>",
+      "name": "Control Human",
+      "spellDuration": "Varies",
+      "spellEffect": "Varies"
+    },
     "Control Temperature 10' Radius": {
       "description": "<p>This spell allows the druid to alter the temperature within a 10' radius (20' across) by up to 50 degrees Fahrenheit, either warming or cooling the air. The temperature changes instantly and remains as long as the druid maintains concentration and the spell's duration has not expired.</p>\n                      <p>The effect moves with the druid, and the temperature can be adjusted by concentrating for one round. This spell is especially useful for surviving in extreme cold or heat.</p>",
       "name": "Control Temperature 10' Radius",
@@ -4890,6 +4896,12 @@
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
+    "Potion of Human Control": {
+      "description": "<p>The user may control up to 6 Hit Dice of humans at once (normal men counting as 1/2 Hit Die each), similar to the effects of a charm person spell. The effect has a 60' range, and the charm lasts only as long as the potion's duration.</p>",
+      "name": "Potion of Human Control",
+      "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+      "unidentifiedName": "Mysterious Potion"
+    },
     "Potion of Invisibility": {
       "description": "<p>This potion grants the effects of the invisibility spell. It makes the drinker and their carried items invisible. Any item will become visible again once it leaves the drinker’s possession. The potion may be consumed in up to six sips, each providing invisibility for one turn.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Invisibility",
@@ -5453,6 +5465,105 @@
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
+    "Ring of Djinni Summoning": {
+      "description": "<p>The wearer may summon one djinni to serve for up to one day. The djinni will only serve and obey the person wearing the ring at the time of its summoning. The ring may be used only once per week.</p>",
+      "name": "Ring of Djinni Summoning",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Ear": {
+      "description": "<p>This ring, worn on the ear as an earring, has no effect when worn. However, when removed and placed against any surface (a door, chest, etc.), the user may hear all noises occurring within 60' of the surface. Light breathing, heartbeats, and even faint breezes can be heard. The ring will function three times per day.</p>",
+      "name": "Ring of Ear",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Elem. Adapt. (Air)": {
+      "description": "<p>The wearer can freely breathe and see through the gaseous element of the Plane of Air.</p>",
+      "gmNotes": "1d100   Name\n01–21   Ring of Air Plane Adaptation\n22–42   Ring of Earth Plane Adaptation\n43–63   Ring of Fire Plane Adaptation\n64–84   Ring of Water Plane Adaptation\n85–91   Ring of Air and Water Plane Adaptation\n92–98   Ring of Earth and Fire Plane Adaptation\n99–00   Ring of All Elements Plane Adaptation",
+      "name": "Ring of Elem. Adapt. (Air)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Elem. Adapt. (Air/Water)": {
+      "description": "<p>The wearer can freely breathe and see through the gaseous element of the Planes of Air and Water.</p>",
+      "gmNotes": "1d100   Name\n01–21   Ring of Air Plane Adaptation\n22–42   Ring of Earth Plane Adaptation\n43–63   Ring of Fire Plane Adaptation\n64–84   Ring of Water Plane Adaptation\n85–91   Ring of Air and Water Plane Adaptation\n92–98   Ring of Earth and Fire Plane Adaptation\n99–00   Ring of All Elements Plane Adaptation",
+      "name": "Ring of Elem. Adapt. (Air/Water)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Elem. Adapt. (All)": {
+      "description": "<p>The wearer can freely breathe and see through the gaseous elements of any of the Elemental Planes.</p>",
+      "gmNotes": "1d100   Name\n01–21   Ring of Air Plane Adaptation\n22–42   Ring of Earth Plane Adaptation\n43–63   Ring of Fire Plane Adaptation\n64–84   Ring of Water Plane Adaptation\n85–91   Ring of Air and Water Plane Adaptation\n92–98   Ring of Earth and Fire Plane Adaptation\n99–00   Ring of All Elements Plane Adaptation",
+      "name": "Ring of Elem. Adapt. (All)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Elem. Adapt. (Earth)": {
+      "description": "<p>The wearer can freely breathe and see through the gaseous element of the Plane of Earth.</p>",
+      "gmNotes": "1d100   Name\n01–21   Ring of Air Plane Adaptation\n22–42   Ring of Earth Plane Adaptation\n43–63   Ring of Fire Plane Adaptation\n64–84   Ring of Water Plane Adaptation\n85–91   Ring of Air and Water Plane Adaptation\n92–98   Ring of Earth and Fire Plane Adaptation\n99–00   Ring of All Elements Plane Adaptation",
+      "name": "Ring of Elem. Adapt. (Earth)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Elem. Adapt. (Earth/Fire)": {
+      "description": "<p>The wearer can freely breathe and see through the gaseous element of the Planes of Earth and Fire.</p>",
+      "gmNotes": "1d100   Name\n01–21   Ring of Air Plane Adaptation\n22–42   Ring of Earth Plane Adaptation\n43–63   Ring of Fire Plane Adaptation\n64–84   Ring of Water Plane Adaptation\n85–91   Ring of Air and Water Plane Adaptation\n92–98   Ring of Earth and Fire Plane Adaptation\n99–00   Ring of All Elements Plane Adaptation",
+      "name": "Ring of Elem. Adapt. (Earth/Fire)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Elem. Adapt. (Fire)": {
+      "description": "<p>The wearer can freely breathe and see through the gaseous element of the Plane of Fire.</p>",
+      "gmNotes": "1d100   Name\n01–21   Ring of Air Plane Adaptation\n22–42   Ring of Earth Plane Adaptation\n43–63   Ring of Fire Plane Adaptation\n64–84   Ring of Water Plane Adaptation\n85–91   Ring of Air and Water Plane Adaptation\n92–98   Ring of Earth and Fire Plane Adaptation\n99–00   Ring of All Elements Plane Adaptation",
+      "name": "Ring of Elem. Adapt. (Fire)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Elem. Adapt. (Water)": {
+      "description": "<p>The wearer can freely breathe and see through the gaseous element of the Plane of Water.</p>",
+      "gmNotes": "1d100   Name\n01–21   Ring of Air Plane Adaptation\n22–42   Ring of Earth Plane Adaptation\n43–63   Ring of Fire Plane Adaptation\n64–84   Ring of Water Plane Adaptation\n85–91   Ring of Air and Water Plane Adaptation\n92–98   Ring of Earth and Fire Plane Adaptation\n99–00   Ring of All Elements Plane Adaptation",
+      "name": "Ring of Elem. Adapt. (Water)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Fire Resistance": {
+      "description": "<p>The wearer of this ring will not be harmed by normal fires, and he gains a bonus of +2 on all saving throws vs. fire spells and vs. red dragon breath. In addition, the DM subtracts 1 point from each die of fire damage to the wearer (with a minimum damage of 1 point per die rolled to determine the damage).</p>",
+      "gmNotes": "No automation.",
+      "name": "Ring of Fire Resistance",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Holiness (C)": {
+      "description": "<p>This ring is usable only by a cleric or druid. If the ring is worn while spells are gained (usually during morning meditation), the cleric gains one extra spell each of levels 1,2, and 3 as appropriate. (Extra spells apply only to spell levels obtainable. For example, a 5th level cleric would not gain any 3rd level spells.) If the ring is removed, the spells are forgotten (though this has no effect if the spells are already cast). In addition, a cleric (but not a druid) gains a +1 bonus to any rolls to turn undead, including the roll determining the Hit Dice of undead turned. The ring does not affect turn attempts not requiring a roll.</p>",
+      "gmNotes": "No automation.",
+      "name": "Ring of Holiness (C)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Human Control": {
+      "description": "<p>The user may control up to 6 Hit Dice of humans at once (normal men counting as 1/2 Hit Die each), similar to the effects of a charm person spell. The effect has a 60' range the effect lasts until canceled by the wearer of the ring, the ring is removed, or until a dispel magic spell removes the charm.</p>",
+      "name": "Ring of Human Control",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Invisibility": {
+      "description": "<p>The wearer is invisible as long as the ring is worn. If the wearer attacks or casts spells, he or she will become visible. The wearer can only become invisible once per turn, but there is no duration to the invisibility; the wearer will stay invisible as long as he does not take off the ring, attack someone, or cast spells.</p>",
+      "name": "Ring of Invisibility",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Life Protection": {
+      "description": "<p>This valuable ring will negate the effects of [[/r 1d6 #Charges]] energy drain attacks. If the wearer is struck by an energy-draining undead (or effect), charges are drained from the ring and no levels are lost. If a single blow drains more experience levels than there are charges remaining in the ring, the ring disintegrates; otherwise, it becomes a ring of protection +1 when all the charges are used.</p>",
+      "name": "Ring of Life Protection",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Memory (S)": {
+      "description": "<p>This ring can <strong>only be used by a spellcaster</strong>. It allows the wearer to recall any one spell cast. The wearer must decide, within 1 turn of casting a spell, to recall it; the memory then reappears and the spell is instantly \"relearned.\" The ring can restore the memory of one spell per day.</p>",
+      "name": "Ring of Memory (S)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
     "Ring of Plant Control": {
       "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts </span>as long as the wearer concentrates.</p>",
       "name": "Ring of Plant Control",
@@ -5465,15 +5576,136 @@
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
+    "Ring of Protection +1 (5' Radius)": {
+      "description": "<p>This ring improves the wearer's armor class by 1. It also has the effect of improving all saving throws by 1.</p><p>This ring improves the wearer's armor class and saving throws by 1 (as a normal ring of protection +1), but the ring also gives the same bonus to all creatures within 5', both friend and foe! No rings affecting an area are more powerful than +1.</p>",
+      "gmNotes": "No automation of area effect.",
+      "name": "Ring of Protection +1 (5' Radius)",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
     "Ring of Protection +2": {
       "description": "<p>This ring improves the wearer's armor class by 2. It also has the effect of improving all saving throws by 2.</p>",
       "name": "Ring of Protection +2",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
+    "Ring of Protection +3": {
+      "description": "<p>This ring improves the wearer's armor class by 3. It also has the effect of improving all saving throws by 3.</p>",
+      "name": "Ring of Protection +3",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Protection +4": {
+      "description": "<p>This ring improves the wearer's armor class by 3. It also has the effect of improving all saving throws by 3.</p>",
+      "name": "Ring of Protection +4",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Quickness": {
+      "description": "<p>Once each day, the wearer of this ring can move and attack at double normal rates for 1 turn. The effect is identical to the magic-user spell haste, but this effect can be produced by command, not by spellcasting.</p>",
+      "name": "Ring of Quickness",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Regeneration": {
+      "description": "<p>The wearer regenerates lost hit points at the slow rate of 1 per turn. The ring also replaces lost limbs; a finger will regrow in 24 hours, and a whole limb can be replaced in one week. The ring will not function if the wearer's hit points drop to 0 or less. Fire and acid damage cannot be regenerated.</p>",
+      "name": "Ring of Regeneration",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Remedies": {
+      "description": "<p>Once each day, this ring will produce one remedy-a cure blindness, cure disease, remove curse, or neutralize poison spell effect. Each effect is identical to the cleric spell of the same name and is treated as if cast by a 25th level cleric. The ring produces the effect desired when the wearer concentrates and touches the recipient.</p>",
+      "name": "Ring of Remedies",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Safety": {
+      "description": "<p>The effect of this ring is similar to that of a potion of luck. If the ring's wearer fails a saving throw, his player may \"change fate\" by announcing that his saving throw was, in fact, successful. The ring will negate [[/r 1d4 #Charges]] failed saving throws and then disintegrate.</p>",
+      "name": "Ring of Safety",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Seeing": {
+      "description": "<p>Once each day, the wearer of this ring can see all things plainly, as if the cleric spell <em>truesight</em> were cast. The wearer need not be a spellcaster. The effect lasts for 3 turns.</p>",
+      "name": "Ring of Seeing",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Spell Eating": {
+      "description": "<p>This ring reflects [[/r 2d6 #Daily charges]] spells back to their casters (per day) so that the wearer is not affected by spell attacks. Only spells are reflected, not spell-like powers of monsters or spell-like effects from items. Once the ring's number of spells is reached, it becomes useless for the rest of the day.</p><p>Although this ring appears and functions as a ring of spell turning, it has an extra, detrimental effect if the user is a spellcaster. After the spellcaster has cast a spell while the ring is worn, the ring \"eats\" all the remaining spells memorized by the spellcaster. The ring cannot be removed after it has eaten the wearer's spells (though spells can be restudied and safely cast) until a remove curse is applied by a 25th or higher level spellcaster. This remedy only permits the removal of the ring and does not affect its powers. A dispel evil cast by a 36th level caster will turn the ring into a normal ring of spell turning.</p>",
+      "name": "Ring of Spell Eating",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Spell Storing": {
+      "description": "<p>When found, this ring has [[/r 1d6 #Spells stored]] spells stored within it. Those exact spells are the limit of the ring's powers and they cannot be changed. When the ring is put on, the wearer magically knows what spells are stored and how to use them. After a spell is used, it may be replaced by a spellcaster who must cast the replacement spell directly at the ring. The ring will not absorb spells thrown at the wearer. The spells in the ring have the duration, range, and effect equal to the lowest level needed to cast them. The DM should select the type of spells in the ring; about [[/r 1d100 #1-20=Cleric spells, 21-00=Magic-User spells]] 20% of these rings typically contain clerical spells.</p>",
+      "name": "Ring of Spell Storing",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Spell Turning": {
+      "description": "<p>This ring reflects [[/r 2d6 #Charges per day]] spells back to their casters (per day) so that the wearer is not affected by spell attacks. Only spells are reflected, not spell-like powers of monsters or spell-like effects from items. Once the ring's number of spells is reached, it becomes useless for the rest of the day.</p>",
+      "name": "Ring of Spell Turning",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
     "Ring of Strength +1": {
       "description": "<p>While worn, this ring increases the wearers strength ability score by 1.</p>",
       "name": "Ring of Strength +1",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Survival": {
+      "description": "<p>The wearer can survive without air, food, or drink while the ring is worn by using the charges contained within it. The ring contains [[/r 1d100+100]]  (101-200) charges when found. By spending one charge, the user needs no food or drink for 24 hours. Survival without air requires one charge per hour. The ring turns black when five or fewer charges remain.</p>",
+      "name": "Ring of Survival",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Telekinesis": {
+      "description": "<p>The wearer may slowly move inanimate objects weighing up to 2,000 cn by concentration alone, up to a distance of 50'.</p>",
+      "name": "Ring of Telekinesis",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Truth": {
+      "description": "<p>Three times per day, this ring allows the wearer to know whether a spoken statement is true or false. Note that if the person or creature uttering the statement believes it to be true, a \"true\" result will be obtained. By telepathy, the ring tells the wearer of its powers as soon as it is worn.</p>",
+      "name": "Ring of Truth",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Truthfulness": {
+      "description": "<p>This item claims to be a ring of truth when worn, but actually it functions differently. When the wearer first tries to determine the truth of a statement, the statement will appear to be true-but thereafter, the wearer will be unable to lie. The wearer must provide full and completely true answers to any question asked of him so long as he wears the ring. He cannot remove the ring until a remove curse is applied by a 26th or higher level caster. </p>",
+      "name": "Ring of Truthfulness",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Truthlessness": {
+      "description": "<p>This item also claims to be a ring of truth when worn, but it functions in a manner opposite that of a ring of truthfulness - that is, the wearer is unable to tell the truth and must lie at all times. The ring cannot be removed until a remove curse spell, cast by a 26th or higher level caster, is applied.</p>",
+      "name": "Ring of Truthlessness",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Water Walking": {
+      "description": "<p>The wearer of this ring may walk on the surface of any body of water and will not sink.</p>",
+      "name": "Ring of Water Walking",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Weakness": {
+      "description": "<p>When this ring is put on, the wearer becomes weaker and his Strength score becomes 3 within [[/r 1d6 #rounds]] rounds. The wearer cannot take off this ring unless a remove curse spell is used. If more than one ring is worn per hand, this ring will still function despite the other rings' effects being canceled.</p>",
+      "name": "Ring of Weakness",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of Wishes": {
+      "description": "<p>A ring of wishes is an extremely powerful item. Wishes must be handled very carefully by the DM and the players alike. To find the number of wishes contained, roll [[/r 1d10 #Wishes]].</p><table style=\"max-width:200px;\"><thead><tr><th>1d10</th><th>Wishes</th></tr></thead><tbody><tr><td>1-4</td><td>1</td></tr><tr><td>5-7</td><td>2</td></tr><tr><td>8-9</td><td>3</td></tr><tr><td>10</td><td>4</td></tr></tbody></table>",
+      "name": "Ring of Wishes",
+      "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+      "unidentifiedName": "Odd Ring"
+    },
+    "Ring of X-Ray Vision": {
+      "description": "<p>The wearer may see a distance of up to 30', even through a wall and into the space beyond, by standing still and concentrating. The effect may be blocked by gold or lead. The wearer can inspect one 10' x 10' area per use (which requires a full turn), and he will be able to see any traps or secret doors in the area examined. The ring allows the wearer to see through items less dense than stone (such as cloth, wood, or water) more easily, to a range of 60'. The ring may be used up to 1 turn per hour.</p>",
+      "name": "Ring of X-Ray Vision",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
@@ -7567,6 +7799,10 @@
       "name": "Waterskin/Wineskin",
       "unidentifiedDesc": "<p>A flexible container made of leather or a preserved animal bladder, with a capacity of two quarts. When filled, it has an encumbrance of 30 coins; when empty, 5 coins. A normal-sized person drinks about 2qts of water per day.</p>",
       "unidentifiedName": "Waterskin/Wineskin"
+    },
+    "Weakness": {
+      "description": "<p>Lowers the Strength score to 3.</p>",
+      "name": "Weakness"
     },
     "Weather Control@ASkheAFBTyF3q6vU": {
       "description": "<p>This spell allows the magic-user to alter the weather within a 240-yard radius. The spell works only outdoors and affects all creatures in the area, including the caster. The effects last as long as the caster concentrates without moving. If the caster is aboard a moving vessel, the effect moves with it.</p><h4>Weather Conditions & Effects:</h4><ul><li>Rain: Missile attacks suffer a -2 penalty. After 30 minutes (3 turns), the ground becomes muddy, halving movement speed.</li><li>Snow: Visibility reduced to 20 feet, and movement is halved. Rivers and streams may freeze. Mud remains after the snow thaws, continuing to halve movement.</li><li>Fog: Visibility limited to 20 feet. Movement speed is halved. Creatures may become lost and move in the wrong direction.</li><li>Clear Skies: Cancels bad weather effects (rain, snow, fog), but does not remove secondary effects such as mud.</li><li>Intense Heat: Movement speed is halved. Any excess water (rain, snow, or magically created water) evaporates.</li><li>High Winds: Missile attacks and flying are impossible. Movement is halved. At sea, ships sailing with the wind move 50% faster. In desert environments, a sandstorm is created, causing 20' visibility and halving movement.</li><li>Tornado: A whirlwind is created under the caster's control, acting as a 12 HD air elemental. At sea, treat this effect as a storm or gale.</li></ul><p>Concentration Required: The spell ends immediately if the caster stops concentrating.</p>",
