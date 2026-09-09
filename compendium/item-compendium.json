@@ -50,6 +50,12 @@
       "name": "Amethyst",
       "unidentifiedDesc": "<p>Amethyst is a purple variety of quartz known for its rich color and clarity. It often forms in clusters with pointed crystals and ranges in shade from light lavender to deep violet. Amethyst is popular in jewelry and is believed to have calming and healing properties.</p>"
     },
+    "Amulet of Protection from Crystal Balls and ESP": {
+      "description": "<p>The wearer of this item is automatically protected from being spied on by anyone using a crystal ball or any type of ESP.</p>",
+      "name": "Amulet of Protection from Crystal Balls and ESP",
+      "unidentifiedDesc": "<p>An odd looking amulet is strange symbols carved in it.</p>",
+      "unidentifiedName": "Strange Amulet"
+    },
     "Analyze": {
       "description": "<p>This spell allows the caster to handle one item and learn about its enchantment. The caster must use the item correctly: helms must be worn, swords held, bracelets worn on the wrist, etc. Any consequences, such as from cursed or trapped items, will affect the caster as usual, with saving throws if applicable.</p>\n                <p>The caster has a 15% chance plus 5% per level to determine one magical property, or to confirm that the item is non-magical. The spell provides general information, such as whether a weapon’s bonus is “many” or “few,” and estimates the number of charges within 25% accuracy.</p>",
       "name": "Analyze",
@@ -463,6 +469,18 @@
     "Backstab": {
       "description": "<p>When attacking an unaware opponent from behind, the attacker gains a +4 bonus to hit and deals double damage.</p>",
       "name": "Backstab"
+    },
+    "Bag of Devouring": {
+      "description": "<p>This item looks like a normal small sack, but anything placed within it disappears. Anyone may reach in and find the contents by touch - if the contents are still there! If the contents are not removed within [[/r 1d6+1 #Turns]] (7-12) turns, they will be forever lost. The bag will not affect living creatures unless the entire creature is stuffed inside the bag. This is impossible to do except with very small creatures.</p><p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</span></p>",
+      "name": "Bag of Devouring",
+      "unidentifiedDesc": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>",
+      "unidentifiedName": "Sack, Large"
+    },
+    "Bag of Holding": {
+      "description": "<p>This bag looks like a normal small sack, but any items placed within it disappear. Anyone may reach in and find the contents by touch. The bag will actually hold treasures up to 10,000 cn in weight, but will only weigh 600 cn when full. An item to be placed inside the bag may be no larger than 10'x5'x3'. A larger item will not fit inside.</p>",
+      "name": "Bag of Holding",
+      "unidentifiedDesc": "<p>A 1' x 2' cloth or leather bag that can hold up to 200 coins. It can be carried over the shoulder or tied onto a cart or saddle. Often used to store small items or treasure.</p>",
+      "unidentifiedName": "Sack, Small"
     },
     "Ballista": {
       "description": "<p><strong>Fire rate:</strong> 1 per 2</p><p>A ballista is very similar to a normal crossbow and was actually the crossbow’s fore‑runner. It is much larger (often 5′‑10′ long) and mounted on a platform or wheeled carriage. The ballista described in the Siege Weapons Table is the largest one available. It is mounted on wheels (or on a wagon), or it can be placed on a pivot. The latter is the case when it is installed on a ship or a defensive fortification.</p><p>Ballista ammunition resembles spears, but they have larger heads. The ammunition is nearly useless against constructions, but it can inflict some damage to equipment. They are designed for use against men, animals, and monsters.</p><p>The crew of a ballista must be trained to use it, but the weapon does not require that an artillerist be present.</p><p>If a ballista is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by a trained crew with no artillerist present, take the size of the operating crew (maximum 4) and use that number as if it were the fighter’s experience level; in other words, the smaller the crew, the worse the attack roll becomes. If operated by an untrained crew, the ballista fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
@@ -1340,6 +1358,12 @@
       "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
       "name": "Blue Dragon"
     },
+    "Boat, Undersea (Placeholder)": {
+      "description": "<p>This is a placeholder item. Boat, Undersea is kept in the Actor Compendium.</p>",
+      "name": "Boat, Undersea (Placeholder)",
+      "unidentifiedDesc": "<p>Placeholder item.</p>",
+      "unidentifiedName": "Boat, River"
+    },
     "Bola@4u775b0uMAQXFZp4": {
       "description": "<p>This weapon consists of a cord with weighted balls at the ends, designed to be whirled and thrown at a target. While it deals minimal damage (1d2 points), it has the potential to entangle, slow, or delay the victim.</p><ul><li><p><strong>Critical Effect</strong>: If the attack roll is a natural 20 (excluding modifiers), the victim must make a saving throw vs. death ray. On a failed save, the victim is immediately paralyzed and will die from strangulation in [[/r 1d6+2#Rounds before dying of strangulation]]<strong> (3-8 rounds total)</strong> unless rescued. If freed, the victim remains paralyzed for [[/r 2d6#Rounds paralyzed]]<strong> (2-12 rounds)</strong>. Creatures that do not breathe (e.g., constructs) are immune to this effect.</p></li><li><p><strong>Normal Effect</strong>: If the attack roll succeeds but is not a natural 20, the victim must still make a saving throw vs. death ray. A successful save negates all effects except for damage. On a failed save, the effect depends on the victim’s size or experience level, as determined by the <strong>Weapon Special Effects Table</strong>.</p></li><li><p><strong>Escaping the Bola</strong>:</p><ul><li>The victim may attempt a new saving throw during the hand-to-hand combat phase of each round. A successful save means the bola has been removed.</li><li>If another character helps to remove the bola, the victim rolls their own saving throw vs. death ray with a <strong>+2 bonus</strong>.</li><li>The bola can also be destroyed. If the victim has an edged weapon and chooses to destroy it, they may spend <strong>1 round</strong> doing so. Otherwise, the bola remains intact, and the victim may choose to drop it or hold onto it.</li></ul></li><li><p><strong>Possible Effects (from the Weapon Special Effects Table)</strong>:</p><ul><li><strong>Entangle</strong>: The victim cannot attack, move, or cast spells until they successfully make a saving throw.</li><li><strong>Slow</strong>: The victim is slowed, moving and attacking at half their normal rate and unable to cast spells.</li><li><strong>Delay</strong>: The victim automatically loses individual initiative for the next round.</li></ul></li></ul><p>This weapon only affects solid creatures. Creatures such as wraiths, spectres, ethereal beings, or water-based monsters (e.g., water elementals) are immune.</p><ul><li><p><strong>Encumbrance</strong>: Bolas are cumbersome to carry and can become tangled. For each additional bola carried, the encumbrance triples:</p><ul><li>1 bola = 5 cn</li><li>2 bolas = 15 cn</li><li>3 bolas = 45 cn, and so on.</li></ul></li></ul>",
       "name": "Bola",
@@ -1365,6 +1389,18 @@
     "Boots of Levitation": {
       "description": "<p>The wearer may levitate (as if using the magic-user spell). There is no limit to the duration.</p>",
       "name": "Boots of Levitation",
+      "unidentifiedDesc": "<p>These boots are different somehow.</p>",
+      "unidentifiedName": "Odd Boots"
+    },
+    "Boots of Speed": {
+      "description": "<p>The wearer may move as fast as a riding horse (240' [80']) for 12 hours, after which the wearer must rest for one full day.</p>",
+      "name": "Boots of Speed",
+      "unidentifiedDesc": "<p>These boots are different somehow.</p>",
+      "unidentifiedName": "Odd Boots"
+    },
+    "Boots of Traveling and Leaping": {
+      "description": "<p>The wearer needs no rest during normal movement. The wearer may also make mighty jumps, to a maximum height of 10' and a maximum length of 30'.</p>",
+      "name": "Boots of Traveling and Leaping",
       "unidentifiedDesc": "<p>These boots are different somehow.</p>",
       "unidentifiedName": "Odd Boots"
     },
@@ -1414,12 +1450,24 @@
     "Bow, Short@h8Giak8qWvAz3bgI": {
       "name": "Bow, Short"
     },
+    "Bowl of Commanding Water Elementals": {
+      "description": "<p>This item may be used only once per day. The bowl is 3' in diameter; it requires 1 turn to use. The bowl will summon a water elemental and will allow the user to control it, subject to normal rules for elemental control.</p>",
+      "name": "Bowl of Commanding Water Elementals",
+      "unidentifiedDesc": "<p>A bowl, 3\" in diameter, that can be used to hold food, liquid or small items.</p>",
+      "unidentifiedName": "Bowl"
+    },
     "Boxing": {
       "name": "Boxing"
     },
     "Bravery": {
       "description": "<p>This skill allows the character to resist the effects of magical fear, as well as the results of morale checks or skills like Intimidation. NPCs using this skill can ignore fear effects with a successful skill check.</p>",
       "name": "Bravery"
+    },
+    "Brazier of Commanding Fire Elementals": {
+      "description": "<p>This item may be used only once per day. It requires 1 turn to use and will summon a fire elemental that will allow the user to control it, subject to normal rules for elemental control.</p>",
+      "name": "Brazier of Commanding Fire Elementals",
+      "unidentifiedDesc": "<p>A metal bowl, 6\" in diameter, that can be used to burn coal or hold small items.</p>",
+      "unidentifiedName": "Brazier"
     },
     "Breath Resistance (H)": {
       "description": "<p>Upon reaching 2,100,000 XP, a Halfling gains resistance to breath weapons, including dragon breath and other breath-based attacks. They automatically take half damage from such effects, and if a saving throw is allowed, a successful save further reduces the damage to one-quarter.</p><p data-start=\"878\" data-end=\"1021\" data-is-last-node=\"\">As with magic resistance, fractions are rounded down, and any final damage of ½ a point or less results in 1 point of damage taken.</p>",
@@ -1431,6 +1479,12 @@
       "spellDuration": "Special",
       "spellEffect": "Causes victims to suffocate, losing Constitution each round",
       "spellRange": "20' + 10'/level of bard"
+    },
+    "Broom of Flying": {
+      "description": "<p>When verbally commanded, the broom will carry its owner through the air at 240' per turn. One other person (or up to 2,000 cn of baggage) may also be carried, but the broom slows to 180' per turn.</p>",
+      "name": "Broom of Flying",
+      "unidentifiedDesc": "<p>A wooden broom.</p>",
+      "unidentifiedName": "Broom"
     },
     "Bug Repellent@BJG5TvbOgLCm5reh": {
       "description": "<p>The magical effect protects the user from all bugs, including arachnids (spiders, ticks, scorpions), insects (ants, beetles, flies), and chilopods (centipedes, millipedes). Normal-sized bugs cannot touch the user, and giant-sized bugs will ignore the user unless they successfully make a saving throw against spells. If the giant bug fails its saving throw, it completely disregards the user's presence. Additionally, the effect provides a +4 bonus to any saving throws against magically summoned or controlled bugs.</p>",
@@ -1514,6 +1568,12 @@
       "description": "<p>The character with this skill always knows their location while exploring underground caves, caverns, and river systems. They automatically recall the route taken as long as they were conscious. This skill is especially useful for dwarves and can also help characters navigate mazes. If disoriented or forced to flee for a long distance, a skill check is required to avoid becoming lost.</p>",
       "name": "Caving"
     },
+    "Censer of Controlling Air Elementals": {
+      "description": "<p>This item may be used only once per day and requires 1 turn to use. The censer will summon an air elemental and will allow the user to control it, subject to normal rules for elemental control.</p>",
+      "name": "Censer of Controlling Air Elementals",
+      "unidentifiedDesc": "<p>A metal censer for burning incense or perfume.</p>",
+      "unidentifiedName": "Censer"
+    },
     "Ceremony (choose specific Immortal)": {
       "description": "<p>The character knows how to honor an Immortal through ritual and ceremony. This skill allows a cleric to perform normal rituals of their order and could permit a character to gain an Immortal's attention through devout prayer, fasting, or sacrifice. This skill includes knowledge of rituals pleasing to the Immortal.</p>",
       "name": "Ceremony (choose specific Immortal)"
@@ -1584,6 +1644,12 @@
       "description": "<p>Chests are reinforced wooden boxes with lids and sides that are made tight to prevent anything from getting out or into the box. The price is for a box with integrated lock and strong metal reinforcements.</p><p><strong>Coin Capacity: </strong>10k</p><p><strong>Dimensions:</strong> 18\" x 12\" x 12\"</p><p><strong>Volume:</strong> 2,592 cubic inches</p><p><strong>Empty Weight:</strong> ~10 lbs (wood and metal reinforcements)</p>",
       "name": "Chest, Small",
       "unidentifiedDesc": "<p>Chests are reinforced wooden boxes with lids and sides that are made tight to prevent anything from getting out or into the box. The price is for a box with integrated lock and strong metal reinforcements.</p><p><strong>Coin Capacity: </strong>10k</p><p><strong>Dimensions:</strong> 18\" x 12\" x 12\"</p><p><strong>Volume:</strong> 2,592 cubic inches</p><p><strong>Empty Weight:</strong> ~10 lbs (wood and metal reinforcements)</p>"
+    },
+    "Chime of Time": {
+      "description": "<p>This simple metal stick is 3\" long and made of a silvery metal. On command, it will keep track of time, chiming every hour on the hour - the chime can be heard by all within 60' (regardless of intervening walls, rock, etc.). If dampened by a silence, 15' radius spell, the chime will dispel the silence but be dampened to a 30-foot range for that turn.</p><p>A second command will cause the chime to turn color. It will turn gold at one end, the color slowly spreading to the other end in an hour's time. A third command word causes the chime to stop ringing or to stop changing color - but not until 1 turn elapses after the command.</p>",
+      "name": "Chime of Time",
+      "unidentifiedDesc": "<p>This simple metal stick is 3\" long and made of a silvery metal</p>",
+      "unidentifiedName": "Chime"
     },
     "Clairaudience": {
       "description": "<p>The user can listen to sounds, including speech, within a 60-foot radius by using the ears of a creature present in that area.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
@@ -1974,6 +2040,24 @@
       "description": "<p>A crystal gemstone is typically transparent, showcasing a clear and faceted structure that reflects light, creating a sparkling effect. Its clarity and sharp edges make it highly valued for its brilliance and aesthetic appeal, commonly used in jewelry and decorative items.</p>",
       "name": "Crystal",
       "unidentifiedDesc": "<p>A crystal gemstone is typically transparent, showcasing a clear and faceted structure that reflects light, creating a sparkling effect. Its clarity and sharp edges make it highly valued for its brilliance and aesthetic appeal, commonly used in jewelry and decorative items.</p>"
+    },
+    "Crystal Ball": {
+      "description": "<p>This item can only be used by an elf or a magic-user. Its owner may look into it and see any place or object thought about as it exists at that time. It will work three times per day, and the image will last for 1 turn. Spells cannot be cast \"through\" the crystal ball. The more familiar the object or area to be seen, the clearer the picture will be.</p>",
+      "name": "Crystal Ball",
+      "unidentifiedDesc": "<p>A crystal ball.</p>",
+      "unidentifiedName": "Crystal Ball"
+    },
+    "Crystal Ball with Clairaudience": {
+      "description": "<p>This works like a standard crystal ball, but with the added power to listen to noises through the ears of a creature in the area viewed. It is only usable by a magic-user.</p><p>This item can only be used by an elf or a magic-user. Its owner may look into it and see any place or object thought about as it exists at that time. It will work three times per day, and the image will last for 1 turn. Spells cannot be cast \"through\" the crystal ball. The more familiar the object or area to be seen, the clearer the picture will be.</p>",
+      "name": "Crystal Ball with Clairaudience",
+      "unidentifiedDesc": "<p>A crystal ball.</p>",
+      "unidentifiedName": "Crystal Ball"
+    },
+    "Crystal Ball with ESP": {
+      "description": "<p>This also works like a standard crystal ball, but with the added power to listen to the thoughts of a creature viewed. It is only usable by a magic-user.</p><p>This item can only be used by an elf or a magic-user. Its owner may look into it and see any place or object thought about as it exists at that time. It will work three times per day, and the image will last for 1 turn. Spells cannot be cast \"through\" the crystal ball. The more familiar the object or area to be seen, the clearer the picture will be.</p>",
+      "name": "Crystal Ball with ESP",
+      "unidentifiedDesc": "<p>A crystal ball.</p>",
+      "unidentifiedName": "Crystal Ball"
     },
     "Cure Blindness": {
       "description": "<p>This spell cures almost any form of blindness, including those caused by <em>light</em> or <em>darkness</em> spells. It will not affect blindness caused by a curse.</p>",
