@@ -2377,6 +2377,12 @@
       "name": "Dispel Magic (C)",
       "spellEffect": "Destroys spells in a 20' cube"
     },
+    "Displacer Cloak": {
+      "description": "<p>This item warps light rays; the wearer is actually 5' away from the perceived location. The cloak gives a bonus of +2 to the wearer's saving throws vs. spell, wand/staff/rod, and turn to stone attacks. Hand-to-hand attacks on the wearer are penalized by -2 on the attack rolls, and most missile fire will automatically miss.</p>",
+      "name": "Displacer Cloak",
+      "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+      "unidentifiedName": "Strange Cloak"
+    },
     "Dissolve": {
       "description": "<p>This spell turns soil or rock (but not constructed materials) within 240' into mud, affecting an area up to 3,000 square feet and up to 10' deep. The caster can determine the shape of the area within these limits (e.g., 20' x 150', 30' x 100').</p><p><strong>Movement Effects:</strong> Creatures moving through the mud are slowed to 10% of their normal speed and may become stuck. At the DM's discretion, creatures in the area may need to make a saving throw vs. spells to avoid being stuck.</p><p><strong>Duration:</strong> The effect lasts for [[/r 3d6 #days]] 3-18 days.</p>",
       "name": "Dissolve",
@@ -2445,6 +2451,12 @@
       },
       "description": "<p>A druid is a Neutral-aligned cleric who dedicates themselves to preserving and balancing nature, transitioning from traditional clerical duties upon reaching 9th level. To become a druid, a cleric must spend 1–4 months meditating in a woodland home under the guidance of a higher-level druid. Druids emphasize harmony with nature and avoid spells or actions tied to Good or Evil.</p><p>Druids have several distinct characteristics:</p><ul><li><strong>Armor and Weapons</strong>: They cannot use metal items, relying on leather armor, wooden shields, and non-metal, non-piercing weapons like staves.</li><li><strong>Living and Philosophy</strong>: Druids must live in a natural setting, caring for and protecting a specific woodland area. They view themselves as stewards of nature, punishing deliberate harm while tolerating minor, necessary disruptions.</li><li><strong>Spells</strong>: Druids can cast clerical spells along with a unique set of nature-oriented spells, including abilities to control plants, predict weather, and summon animals.</li><li><strong>Advancement</strong>: Higher-level druids must challenge and defeat others of equal rank to advance, with only one \"Great Druid\" existing at the 36th level.</li></ul><p>Druids blend magical abilities with a deep commitment to the balance and protection of nature.</p>",
       "name": "Druid"
+    },
+    "Drums of Panic": {
+      "description": "<p>These large kettle drums have no effect on any creatures within 10' of them. When used, however, all creatures 10'-240' away must make a saving throw vs. spell or run away from the user for 3 full turns. If the morale system is used, no saving throw is needed, but each creature must make a morale check instead, with a penalty of +2 to the roll.</p>",
+      "name": "Drums of Panic",
+      "unidentifiedDesc": "<p>Large kettle drum(s).</p>",
+      "unidentifiedName": "Drums"
     },
     "Dwarf": {
       "classLevels": {
@@ -2541,6 +2553,18 @@
       "spellEffect": "Causes earth tremors",
       "spellRange": "120 yards"
     },
+    "Efreeti Bottle": {
+      "description": "<p>This item is a large, heavy sealed jug about 3' high. If the seal is broken and the stopper pulled, an efreeti will come forth to serve the opener once per day for 101 days (or until slain). The creature will return to its home (the fabled City of Brass) after its term of service is ended. It will serve no one but the person opening the bottle.</p>",
+      "name": "Efreeti Bottle",
+      "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">This item is a large, heavy sealed jug about 3' high.</span></p>",
+      "unidentifiedName": "Jug, Large"
+    },
+    "Egg of Wonder": {
+      "description": "<p>This strange item is the size of a chicken's egg, but it may be of any color. An egg breaks when dropped or thrown (to 60' maximum range); in the following round, a creature emerges from it and grows to normal size, thereafter obeying the thrower of the egg to the best of its ability. (Note that the creature must be able to hear the user's commands.) The creature will disappear after one hour of existence or when slain. The creature appearing is never determined until the egg actually breaks; characters can never know what creature will appear beforehand. The DM may add other creatures, if desired. To determine the type of creature appearing, roll [[/r 1d12 #Consult creature type table]].</p><table style=\"max-width:250px\"><thead><tr><th>1d12</th><th>Creature Type</th></tr></thead><tbody><tr><td>1</td><td>Baboon, rock</td></tr><tr><td>2</td><td>Bat, giant</td></tr><tr><td>3</td><td>Bear, black</td></tr><tr><td>4</td><td>Bear, grizzly</td></tr><tr><td>5</td><td>Boar</td></tr><tr><td>6</td><td>Cat, mountain lion</td></tr><tr><td>7</td><td>Cat, panther</td></tr><tr><td>8</td><td>Ferret, giant</td></tr><tr><td>9</td><td>Lizard, gecko</td></tr><tr><td>10</td><td>Lizard, draco</td></tr><tr><td>11</td><td>Snake, racer</td></tr><tr><td>12</td><td>Wolf, normal</td></tr></tbody></table><p></p>",
+      "name": "Egg of Wonder",
+      "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">It looks like a chicken egg.</span></p>",
+      "unidentifiedName": "Egg"
+    },
     "Electrum Piece": {
       "name": "Electrum Piece"
     },
@@ -2622,6 +2646,18 @@
           "name": "Smash"
         }
       }
+    },
+    "Elven Boots": {
+      "description": "<p>The wearer of these boots may move with nearly complete silence (roll [[/r 1d10 #Heard only on a 1]]; heard only on a 1).</p>",
+      "name": "Elven Boots",
+      "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A sturdy pair of boots.</span></p>",
+      "unidentifiedName": "Boots"
+    },
+    "Elven Cloak": {
+      "description": "<p>The wearer of this cloak is nearly invisible (roll [[/r 1d6 #Only seen on a 1]]; seen only on a 1). The wearer becomes visible when attacking or casting a spell, and he may not become invisible again for a full turn.</p>",
+      "name": "Elven Cloak",
+      "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+      "unidentifiedName": "Strange Cloak"
     },
     "Emerald": {
       "description": "<p>Emerald is a gemstone known for its rich green color and vibrant hue. It typically has a smooth, polished surface with a faceted appearance, enhancing its brilliance and clarity. Highly valued in jewelry, emeralds are prized for their striking beauty and elegance.</p>",
@@ -2907,6 +2943,12 @@
     "Flying": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target (including the caster, if desired) has the ability to fly at will.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); margin: 0.5rem 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: Barlow, sans-serif\">The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</span></p>",
       "name": "Flying"
+    },
+    "Flying Carpet": {
+      "description": "<p>This item can carry one passenger at up to 300' per turn, two at 240' per turn, or three at 180' per turn. It will not carry more than three passengers and their equipment. As an option, the DM can say that the carpet will carry an encumbrance of 6,000 cn, but the weight of the passengers will have to be calculated.</p>",
+      "name": "Flying Carpet",
+      "unidentifiedDesc": "<p>A nice looking carpet.</p>",
+      "unidentifiedName": "Carpet"
     },
     "Food Tasting": {
       "description": "<p>The Food Tasting skill provides a character with the ability to detect subtle flavors and potential poisons in food and drink. It can be used to identify the quality and freshness of ingredients or to recognize dangerous substances that might otherwise go unnoticed. A successful check may reveal whether a dish has been tampered with or if it contains any harmful elements. This skill is particularly useful for adventurers wary of sabotage or treachery.</p>",
@@ -6133,6 +6175,10 @@
     "Silenced": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">This condition makes it impossible to converse or cast spells inside the affected area for the duration of the spell. Those within the sphere can still hear sounds from outside.</span></p>",
       "name": "Silenced"
+    },
+    "Silent": {
+      "description": "<p>The effected is very quiet and only has a 1 in 10 chance of being heard. This effect only works when the creature is trying to be quiet, like moving in a stealthy way. It does not mean the effect creature can't make noise if they wish.</p>",
+      "name": "Silent"
     },
     "Silver Piece": {
       "name": "Silver Piece"
