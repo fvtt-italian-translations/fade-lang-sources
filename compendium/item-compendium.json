@@ -2650,7 +2650,7 @@
     "Elven Boots": {
       "description": "<p>The wearer of these boots may move with nearly complete silence (roll [[/r 1d10 #Heard only on a 1]]; heard only on a 1).</p>",
       "name": "Elven Boots",
-      "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A sturdy pair of boots.</span></p>",
+      "unidentifiedDesc": "<p>A sturdy pair of boots.</p>",
       "unidentifiedName": "Boots"
     },
     "Elven Cloak": {
@@ -2994,6 +2994,12 @@
       "spellDuration": "1 turn or 1d10 x 10 turns",
       "spellEffect": "Opens a portal to another plane"
     },
+    "Gauntlets of Ogre Power": {
+      "description": "<p>These gauntlets will give the wearer a Strength score of 18, gaining all normal bonuses. If the wearer is not using a weapon, he can strike with one fist each round, gaining a +3 on hit rolls, for 1d4 points of damage.</p>",
+      "name": "Gauntlets of Ogre Power",
+      "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A pair of gauntlets.</span></p>",
+      "unidentifiedName": "Gauntlets"
+    },
     "Geas*": {
       "description": "<p>This spell compels a creature to perform or avoid a stated action, remaining in effect until the task is completed or the geas is removed.</p><h4>Effects:</h4><ul><li>The geas must be possible to complete and not directly fatal. If impossible or fatal, the spell reflects onto the caster instead.</li><li>Affected creatures may make a saving throw vs. spells to avoid the effect.</li><li><p>If the victim ignores the geas, severe penalties (determined by the DM) take effect, such as:</p><ul><li>Combat penalties (attack roll or AC penalties).</li><li>Lowered ability scores.</li><li>Loss of spellcasting abilities.</li><li>Pain, weakness, or other afflictions.</li><li>Death if the geas remains ignored for too long.</li></ul></li><li>Dispel magic and remove curse cannot break a geas.</li><li>The spell does not alter the victim's thoughts; once the task is complete, the victim may seek revenge.</li></ul>",
       "name": "Geas*",
@@ -3018,6 +3024,12 @@
       "spellDuration": "7-12 turns",
       "spellEffect": "Combat strength of a frost giant.",
       "spellRange": "Self"
+    },
+    "Girdle of Giant Strength": {
+      "description": "<p>This item gives the wearer the same chances to hit as a hill giant. The wearer does double damage with whatever weapon he is using.</p>",
+      "name": "Girdle of Giant Strength",
+      "unidentifiedDesc": "<p>It's a belt made of leather.</p>",
+      "unidentifiedName": "Belt"
     },
     "Glide": {
       "description": "<p>The Glide ability allows a character or creature to move smoothly through the air, typically descending gently from a height without falling rapidly. This ability enables controlled movement over distances, often allowing for safe landings and navigation in the air.</p>",
@@ -3303,6 +3315,30 @@
       "name": "Heat Metal",
       "spellEffect": "Warms one metal object"
     },
+    "Helm of Alignment Changing": {
+      "description": "<p>This item looks like a fancy helmet. When the helm is put on, it will immediately change the wearer's alignment (the DM should determine the new alignment randomly). This device can only be taken off by using a remove curse spell, but the wearer will resist seeking the removal. Once it is removed, however, the wearer's original alignment will return. As an option, the DM may allow the character to remove the helm by performing a special task or adventure.</p>",
+      "name": "Helm of Alignment Changing",
+      "unidentifiedDesc": "<p>A helm made of some type of metal.</p>",
+      "unidentifiedName": "Helm"
+    },
+    "Helm of Reading": {
+      "description": "<p>The wearer is able to read any writing, regardless of the language or magical properties of the script. This does not allow characters to use spell scrolls unless they can do so normally. This helm is fragile, however, and will be destroyed if the wearer is killed. Any hit on the wearer might [[/r 1d100 #1-10 helmet is destroyed]]  (10% chance) destroy the helm.</p>",
+      "name": "Helm of Reading",
+      "unidentifiedDesc": "<p>A helm made of some type of metal.</p>",
+      "unidentifiedName": "Helm"
+    },
+    "Helm of Telepathy": {
+      "description": "<p>This item looks like a fancy helmet. The wearer of this helm may send messages, by mere thought, to any creature within 90'. The creature receiving the thought messages will understand them. (The creature may refuse to respond.) The wearer may also read the thoughts of a living creature within range. To make the helm work, the wearer must concentrate on the creature, and he may not move or cast spells. If the creature fails a saving throw vs. spells (or permits the thought reading), the wearer will understand the creature's thoughts.</p>",
+      "name": "Helm of Telepathy",
+      "unidentifiedDesc": "<p>A fancy helm made of some type of metal.</p>",
+      "unidentifiedName": "Helm, Fancy"
+    },
+    "Helm of Teleportation (M)": {
+      "description": "<p>Usable by magic-users only, this helm allows the wearer to teleport (as the magic-user spell, including chances of error) himself or to attempt to teleport another creature or item. An unwilling victim can make a saving throw vs. spells to avoid the effect. After one use, the helm will no longer function. If a teleport spell is then cast upon it, the user can then teleport as often as desired, up to once per round, without using charges. However, whenever the helm is used to teleport another item or creature, it again becomes useless, requiring another teleport spell to reactivate it.</p>",
+      "name": "Helm of Teleportation (M)",
+      "unidentifiedDesc": "<p>A helm made of some type of cloth.</p>",
+      "unidentifiedName": "Helm, Cloth"
+    },
     "Hide in Shadows": {
       "description": "<p>The ability allows one to blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
       "name": "Hide in Shadows"
@@ -3362,6 +3398,22 @@
       "description": "<p>This powerful spell affects all creatures, friend or foe, within a 40' radius of the caster. Creatures of alignments other than the cleric's suffer the following effects, with no saving throw allowed:</p>\n                      <table>\n                        <thead>\n                          <tr><th>Creature Level / HD</th><th>Effect</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Up to 5th Level / HD</td><td>Killed instantly</td></tr>\n                          <tr><td>6th - 8th Level / HD</td><td>Stunned for [[/r 2d10 #turns]] turns</td></tr>\n                          <tr><td>9th - 12th Level / HD</td><td>Deafened for [[/r 1d6 #turns]] turns</td></tr>\n                          <tr><td>13+ Level / HD</td><td>Stunned for [[/r 1d10 #rounds]] rounds</td></tr>\n                        </tbody>\n                      </table>\n                      <p><strong>Saving Throw:</strong> Any creature of 13th level / HD or higher, or one that shares the cleric’s alignment, may attempt a saving throw vs. spells to negate all effects.</p>\n                      <p><strong>Obstructions:</strong> *Holy Word* is not blocked by stone or solid materials, except for lead. It is also stopped by an *Anti-Magic Shell*.</p>",
       "name": "Holy Word",
       "spellEffect": "All creatures within 40'"
+    },
+    "Horn Blast (Creature)": {
+      "description": "<p>Creates a cone of sound, 100' long and 20' wide at the far end, when blown. Victims within this area take [[/r 2d6 #Damage]] points of damage and must make a saving throw vs. spells or be deafened for one turn; constructions and ships take [[/r 1d8 #Damage]] points of damage. The horn may be blown but once per turn.</p>",
+      "name": "Horn Blast (Creature)",
+      "spellDuration": "Instant"
+    },
+    "Horn Blast (Hull)": {
+      "description": "<p>Creates a cone of sound, 100' long and 20' wide at the far end, when blown. Victims within this area take [[/r 2d6 #Damage]] points of damage and must make a saving throw vs. spells or be deafened for one turn; constructions and ships take [[/r 1d8 #Damage]] points of damage. The horn may be blown but once per turn.</p>",
+      "name": "Horn Blast (Hull)",
+      "spellDuration": "Instant"
+    },
+    "Horn of Blasting": {
+      "description": "<p>This horn creates a cone of sound, 100' long and 20' wide at the far end, when blown. Victims within this area take [[/r 2d6 #Damage]] points of damage and must make a saving throw vs. spells or be deafened for one turn; constructions and ships take [[/r 1d8 #Damage]] points of damage. The horn may be blown but once per turn.</p>",
+      "name": "Horn of Blasting",
+      "unidentifiedDesc": "<p>A horn made out of an animals horn.</p>",
+      "unidentifiedName": "Horn"
     },
     "Hunting": {
       "description": "<p>This skill covers the ability to locate, stalk, and hunt game with weapons like bows, slings, or spears. A successful skill roll grants a +1 to hit against unaware targets in peaceful outdoor settings. This bonus does not apply in combat. The character can automatically supply themselves with food in fertile areas and make skill rolls in less abundant regions. The roll has penalties when trying to supply more than one person, with a -1 penalty per additional person.</p>",
