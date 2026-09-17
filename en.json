@@ -1038,6 +1038,12 @@
         "content": "Would you like to automatically add the related special abilities from {type} {name}?",
         "title": "Add special abilities?"
       },
+      "spellScroll": {
+        "content": "Add as a spell or a spell scroll?",
+        "scrollLabel": "Spell Scroll",
+        "spellLabel": "Spell",
+        "title": "Add Spell or Spell Scroll"
+      },
       "spellcast": {
         "content": "Do you want to cast the spell or only view its description?",
         "noLabel": "View Description",
@@ -1085,6 +1091,7 @@
       "needRestSoon": "<div class='warning'>The party will need to rest next turn, or their attack and damage rolls may be penalized until they do.</div>",
       "noAmmo": "{actorName} does not have {weaponName} ammunition equipped.",
       "noCharges": "{itemName} has no charges remaining and can't be used.",
+      "noSpellScrollTemplate": "No spell scroll template was found. The template is an item in the compendiums with the GM note marker &lt;spell-scroll-template&gt;.",
       "noTokenAssoc": "Action requires a token in the scene.",
       "noTokenWarning": "You must select a token or assign a default character to perform this action.",
       "noTokenWarning2": "You must select a token to perform this action.",

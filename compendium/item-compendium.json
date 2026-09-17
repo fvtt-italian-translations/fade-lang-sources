@@ -3586,6 +3586,18 @@
       "description": "<p>This skill represents expertise in one type of manual labor such as bricklaying, farming, mining, or stonecutting. Characters can make their living with this skill and interpret information related to their occupation. Specify which type of labor the skill pertains to, such as <strong>bricklaying</strong>, <strong>mining</strong>, or <strong>stonecutting</strong>. A character can select multiple Labor skills, each representing a different proficiency.</p>",
       "name": "Labor"
     },
+    "Lamp of Long Burning": {
+      "description": "<p>This item is identical to a normal adventurer's lantern. It is made of metal, with a lower compartment for oil, a handle, and shutters around the body to protect the flame from wind. When filled with oil and lit as a normal lantern, it will burn and shed light without using oil. If the flame is ever doused by water, the lamp of long burning becomes nonmagical.</p>",
+      "name": "Lamp of Long Burning",
+      "unidentifiedDesc": "<p>An oil lantern.</p>",
+      "unidentifiedName": "Lantern"
+    },
+    "Lamp, Hurricane": {
+      "description": "<p>This item is identical to a normal adventurer's lantern. It is made of metal, with a lower compartment for oil, a handle, and shutters around the body to protect the flame from wind. When filled with oil and lit as a normal lantern, it will burn and shed light without using oil. If the flame is ever doused by water, the lamp of long burning becomes nonmagical.<br><br>This item appears and functions as a lamp of long burning in all respects, but only after its storm has passed, as described hereafter.</p><p>This lamp is always closed when found. When the shutters are opened, violent gusts of wind and rain come from the lamp, dousing the holder (who gets no saving throw) and all others within 30'. This \"hurricane\" lasts for 3 rounds; each victim must make a saving throw vs. spells, and all those failing are knocked over from the winds. If this occurs, every item carried (excluding body clothing and/or armor but including caps, gloves, treasure, etc.) is blown about, landing scattered within 60'. A successful saving throw indicates that the victim has fallen to the ground in time, tightly grasping all items carried. The hurricane lamp may thereafter be used as a lamp of long burning for the remainder of the day. It resets its \"hurricane\" effect every 24 hours, which must again be triggered before the lamp can be of more beneficial use.</p>",
+      "name": "Lamp, Hurricane",
+      "unidentifiedDesc": "<p>An oil lantern.</p>",
+      "unidentifiedName": "Lantern"
+    },
     "Lance +1": {
       "description": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
       "name": "Lance +1",
@@ -6367,16 +6379,15 @@
       "description": "<p>A character can attempt to create a new spell, provided it is of a level they can cast. The process requires:</p><ul><li><p>1,000 gp per spell level</p></li><li><p>Two weeks of research per spell level</p></li><li><p>Rare components, often necessitating an adventure to obtain</p></li><li><p>A fully stocked laboratory or library</p></li></ul><p>The chance of success depends on the character's Intelligence score and level, with modifications for spell difficulty. If a research attempt fails, the process must be restarted, but each failure grants a +5% cumulative bonus to future attempts.</p><p>Typically, a character does not have a sufficient library for advanced research until reaching 18th level, or at least 9th level if they have collected extensive magical tomes. While research is technically possible at any level, lower-level characters may struggle to meet the requirements.</p>",
       "name": "Spell Research"
     },
-    "Spell Scroll (Choose spell)": {
-      "description": "<p>Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
-      "gmNotes": "Add this item to a character's sheet, then Drag/drop the spell of your choosing to this item's Special Abilities tab. Change \"(Choose spell)\" to spell name.",
-      "name": "Spell Scroll (Choose spell)",
+    "Spell Scroll (<spell-name>)": {
+      "description": "<p>This scroll contains the &lt;classes&gt; spell, &lt;spell-name&gt;.</p>",
+      "gmNotes": "<spell-scroll-template>",
+      "name": "Spell Scroll (<spell-name>)",
       "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
       "unidentifiedName": "Mysterious Scroll"
     },
     "Spell Scroll (Stone to Flesh)": {
-      "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, <strong>Flesh to Stone</strong>, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p><p>Use Spell Scrolls in the magical item subtable for scrolls to find exact spell levels or choose spells as appropriate. Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
-      "gmNotes": "Example of a configure spell scroll.",
+      "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>.</p>",
       "name": "Spell Scroll (Stone to Flesh)",
       "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
       "unidentifiedName": "Mysterious Scroll"
