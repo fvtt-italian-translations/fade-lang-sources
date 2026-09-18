@@ -3289,6 +3289,11 @@
       "description": "<p>Healing allows the treatment of wounds and diagnosis of illnesses among humans and demihumans. A successful skill roll can restore 1d3 hit points to a wounded character. This skill can only be used once per set of wounds, defined as all hit points lost in a single combat. A natural roll of 20 accidentally inflicts [[/r 1d3 #Healing hit points restored]] damage, and the healer may not attempt to treat those wounds again. Success with a roll of 5 or more indicates the healer can determine if an illness is natural or magically induced.</p>",
       "name": "Healing"
     },
+    "Healing (Ointment)": {
+      "description": "<p>Heals 2d6 + 2 points of damage on one living creature.</p>",
+      "name": "Healing (Ointment)",
+      "spellEffect": "Heals one living creature"
+    },
     "Healing Herbs": {
       "description": "<p>This potion restores 1-4 hit points [[/r 1d4 # Healing herbs hit points restored.]] or cures paralysis for a single creature. Its effects take place immediately upon consumption.</p>",
       "name": "Healing Herbs",
@@ -3502,6 +3507,12 @@
       "spellDuration": "Until mission is accomplished",
       "spellEffect": "Summons one creature",
       "spellRange": "0 (Caster only)"
+    },
+    "Invulnerability (Ointment)": {
+      "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p><p>It lasts for 1 turn.</p>",
+      "name": "Invulnerability (Ointment)",
+      "spellEffect": "+2 bonus to AC and saving throws",
+      "spellRange": "Self"
     },
     "Invulnerability (Potion)": {
       "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
@@ -3933,6 +3944,18 @@
       "spellDuration": "See description",
       "spellEffect": "Traps one creature in an astral maze"
     },
+    "Medallion of ESP, 30' Range": {
+      "description": "<p>This magical medallion is strung on a chain and worn around the neck. If the wearer concentrates for 1 round, he may read the thoughts of any one creature within 30'. The wearer may move normally but cannot fight or cast spells while concentrating. </p><p>The DM must roll [[/r 1d6 #Broadcast thoughts on 1.]] each time this item is used; it will not work properly on a roll of 1. If a 1 occurs, the medallion will broadcast the thoughts of the user to everyone within 30'! The DM may allow a saving throw vs. spells to prevent the medallion from reading a creature's thoughts.</p>",
+      "name": "Medallion of ESP, 30' Range",
+      "unidentifiedDesc": "<p>This medallion is strung on a chain and worn around the neck.</p>",
+      "unidentifiedName": "Medallion"
+    },
+    "Medallion of ESP, 90' Range": {
+      "description": "<p>This magical medallion is strung on a chain and worn around the neck. If the wearer concentrates for 1 round, he may read the thoughts of any one creature within 90'. The wearer may move normally but cannot fight or cast spells while concentrating.</p><p>The DM must roll [[/r 1d6 #Broadcast thoughts on 1.]] each time this item is used; it will not work properly on a roll of 1. If a 1 occurs, the medallion will broadcast the thoughts of the user to everyone within 90'! The DM may allow a saving throw vs. spells to prevent the medallion from reading a creature's thoughts.</p>",
+      "name": "Medallion of ESP, 90' Range",
+      "unidentifiedDesc": "<p>This medallion is strung on a chain and worn around the neck.</p>",
+      "unidentifiedName": "Medallion"
+    },
     "Merge": {
       "description": "<p>The effect is quite unusual. The user can permit others to merge their forms with the user's, including all equipment carried, as if all were gaseous. A maximum of seven other creatures can <em>merge</em> with the user. The merging cannot be forced; the user can, at will, prevent anyone from merging. A creature merged with the user can leave the merger by merely stepping out. No creature merged with another (including the user) can attack or cast a spell, but may speak. Damage to the user does not affect those <em>merged</em>.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
       "name": "Merge",
@@ -3987,6 +4010,12 @@
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">The images stay within 3' of the caster and imitate their movements and speech without requiring concentration.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); margin: 0.5rem 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: Barlow, sans-serif\">The images are not real and cannot take any actions. Any successful attack that would hit the spellcaster instead destroys one of the images, regardless of damage. This continues until all images are gone. Area attacks, such as a fireball, destroy all images at once and also affect the spellcaster.</span></p>",
       "name": "Mirror Imaged"
     },
+    "Mirror of Life Trapping": {
+      "description": "<p>This unique item stores man-size or smaller creatures for an indefinite period. Any such creature who looks into the mirror must make a saving throw vs. spells or be sucked into it (complete with all equipment and treasure!). </p><p>The mirror can store up to 20 creatures; when it is full, no more can be trapped. Creatures trapped in the mirror do not age or need food or air, but they are completely powerless. Anyone can talk with the creatures trapped in the mirror (if they speak the same language). </p><p>If the mirror is broken, all the creatures trapped within are immediately released. However, trapped individuals can be recovered without harming the mirror by using a wish.</p>",
+      "name": "Mirror of Life Trapping",
+      "unidentifiedDesc": "<p>A mirror.</p>",
+      "unidentifiedName": "Mirror"
+    },
     "Mountaineering": {
       "description": "<p>This skill covers the techniques and physical ability required for climbing steep and hazardous terrains, such as mountains and cliffs. Characters with Mountaineering can navigate difficult slopes, secure safe paths, and assist others in ascent or descent. The skill can also be used to avoid dangers like rockslides or falling.</p>",
       "name": "Mountaineering"
@@ -4016,6 +4045,12 @@
     "Music (choose type)": {
       "description": "<p>The Music skill represents a character's proficiency with a specific type of musical instrument, such as a lute, harp, or drum. The chosen instrument type must be specified when the skill is selected. Characters with this skill can perform melodies that entertain, inspire, or soothe. A successful Music check can influence the mood of an audience, enhance the effects of magical performances, or distract opponents.</p>",
       "name": "Music (choose type)"
+    },
+    "Muzzle of Training": {
+      "description": "<p>This item is a device of leather straps with metal buckles and may be fastened over the mouth of any animal or monster that has a bite attack. It will magically expand or contract to fit the creature, and the victim can breathe but cannot bite (or talk) while wearing the muzzle. The muzzle will lock in place with a command word (treat as a wizard lock by a 15th level caster) and will unlock and fall off with a second command. The muzzle can be commanded as often as desired.</p>",
+      "name": "Muzzle of Training",
+      "unidentifiedDesc": "<p>An muzzle for covering a creatures mouth.</p>",
+      "unidentifiedName": "Muzzle"
     },
     "Mystic": {
       "classItems": {
@@ -4427,6 +4462,18 @@
       "description": "<p>This skill allows a character to instinctively know the proper actions to take in order to please the Immortals in general. A successful skill check can indicate the appropriate behavior or ritual to use when encountering sacred objects, places, or situations related to the Immortals.</p>\n      <p>For example, a successful check might reveal that the party should leave an offering at a shrine or avoid disturbing a holy site. This skill also allows a character to recognize symbols and artifacts of the Immortals, as well as to interpret omens or signs given by them.</p>",
       "name": "Mysticism"
     },
+    "Nail of Pointing": {
+      "description": "<p>This item appears identical to a common carpentry nail. If its command word is known, the user may cause it to point at any nonmagical item named (door, stairway, gold piece, etc.); the nail then turns into a finger of bone and points toward the closest item of that type. It will continue to point at that item for 1 turn and then return to nail form. </p><p>There is no limit to the range of the nail's detection, but it cannot detect living or undead creatures of any type, nor can it detect any magical item or spell effect. The nail of pointing will function once per day.</p>",
+      "name": "Nail of Pointing",
+      "unidentifiedDesc": "<p>A common iron nail of medieval carpentry, 1\"-4\" long and very crudely made.</p>",
+      "unidentifiedName": "Nail"
+    },
+    "Nail, Finger": {
+      "description": "<p>This item appears identical to the common iron nail of medieval carpentry, 1\"-4\" long and very crudely made. It may easily be overlooked if found with other construction materials unless a detect magic spell is used.</p><p>If mistaken for a nail of pointing and commanded to function, the nail disappears. When the user next tries to avoid the attention of an enemy (by hiding, invisibility, etc.), the nail reappears as a large glowing finger, pointing at the character for [[/r 1d6 #Rounds]] rounds. The finger nail may reappear during each similar attempt thereafter ([[/r 1d100 #Finger nail appears on roll of 1-25]] 25% chance for each), but a remove curse will cause it to vanish forever.</p>",
+      "name": "Nail, Finger",
+      "unidentifiedDesc": "<p>A common iron nail of medieval carpentry, 1\"-4\" long and very crudely made.</p>",
+      "unidentifiedName": "Nail"
+    },
     "Nature Lore": {
       "description": "<p>This skill provides knowledge of plant and animal life in a specific terrain (e.g., desert, forest, jungle). The character can identify edible and poisonous plants, spot signs of unnatural danger, and know when something is out of place in the natural environment. When used in the character's home terrain, they receive a -2 bonus to their skill check; in unfamiliar but similar terrain, no bonus or penalty applies; in very different terrain, a penalty of up to +4 may be imposed.</p>",
       "name": "Nature Lore"
@@ -4482,6 +4529,48 @@
       "description": "<p>Oil is burned in a lantern for light. A flask of oil may also be thrown as a missile weapon or poured out and ignited to delay pursuit.</p>",
       "name": "Oil, flask",
       "unidentifiedDesc": "<p>Oil is burned in a lantern for light. A flask of oil may also be thrown as a missile weapon or poured out and ignited to delay pursuit.</p>"
+    },
+    "Ointment, Blessing": {
+      "description": "<p>This salve gives the recipient a -2 bonus to armor class and a +2 bonus to all saving throws for 1 turn.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+      "gmNotes": "The ointment must be applied to the skin.",
+      "name": "Ointment, Blessing",
+      "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+      "unidentifiedName": "Ointment"
+    },
+    "Ointment, Healing": {
+      "description": "<p>This salve heals [[/r 2d6+2 #Healed points of damage]] points of damage.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+      "gmNotes": "The ointment must be applied to the skin.",
+      "name": "Ointment, Healing",
+      "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+      "unidentifiedName": "Ointment"
+    },
+    "Ointment, Poison": {
+      "description": "<p>This salve seems to be an ointment of blessing, but it is a poison and the recipient must make a saving throw vs. poison, with a -2 penalty to the roll, or die.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+      "gmNotes": "The ointment must be applied to the skin.",
+      "name": "Ointment, Poison",
+      "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+      "unidentifiedName": "Ointment"
+    },
+    "Ointment, Scarring": {
+      "description": "<p>This salve seems to be an <em>ointment of healing</em>, but instead it inflicts [[/r 2d6 #Inflicted severe burn damage points.]] points of severe burn damage, which can only be repaired by <em>ointment of soothing</em>, a <em>cureall</em> spell, or a <em>wish</em>.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+      "gmNotes": "The ointment must be applied to the skin. The damage is permanent unless reversed by methods mentioned.",
+      "name": "Ointment, Scarring",
+      "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+      "unidentifiedName": "Ointment"
+    },
+    "Ointment, Soothing": {
+      "description": "<p>This salve cures the recipient of all burn damage, whatever the amount and whether magical or normal.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+      "gmNotes": "The ointment must be applied to the skin.",
+      "name": "Ointment, Soothing",
+      "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+      "unidentifiedName": "Ointment"
+    },
+    "Ointment, Tanning": {
+      "description": "<p>This salve causes all the recipient's skin to turn a bright color (determined randomly from red, yellow, orange, blue, green, or brown). The effect cannot be removed but will gradually wear off in [[/r 1d4 #Months]] months.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+      "gmNotes": "The ointment must be applied to the skin.",
+      "name": "Ointment, Tanning",
+      "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+      "unidentifiedName": "Ointment"
     },
     "Onyx": {
       "description": "<p>Onyx is a gemstone characterized by its deep black color, often with subtle white banding or lines. It has a smooth, polished surface with a glossy appearance, making it popular in jewelry and decorative pieces for its sleek and elegant look.</p>",
@@ -4895,7 +4984,7 @@
       "name": "Platinum Piece"
     },
     "Poison": {
-      "description": "<p> Anyone ingesting or injected with any amount, even a sip, must make a saving throw vs. poison or die. The DM may instead have the poison deal a specific amount of damage as an alternative. The DM may require that the poison be in the system 1 round before taking effect or that its effect happens over a number of rounds.</p>",
+      "description": "<p>Anyone ingesting or injected with any amount, even a sip, must make a saving throw vs. poison or die. </p><p>The DM may apply a bonus or penalty to the saving throw roll.</p><p>The DM may instead have the poison deal a specific amount of damage as an alternative. </p><p>The DM may require that the poison be in the system 1 round before taking effect or that its effect happens over a number of rounds.</p>",
       "name": "Poison",
       "spellDuration": "Instant",
       "spellEffect": "Death or damage",
@@ -5990,6 +6079,11 @@
       "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
       "unidentifiedName": "Scale Mail"
     },
+    "Scarring (Ointment)": {
+      "description": "<p>Inflicts 2d6 points of severe burn damage, which can only be repaired by <em>ointment of soothing</em>, a <em>cureall</em> spell, or a <em>wish</em>.</p>",
+      "name": "Scarring (Ointment)",
+      "spellEffect": "Causes damage to one creature"
+    },
     "Science (choose type)": {
       "description": "<p>The character is an expert in one branch of scientific study, such as astronomy, geology, metallurgy, etc. This expertise allows the character to provide specialized knowledge and make expert judgments within that field. The player must indicate the specific branch of science their character has mastered. Characters may take this skill multiple times to represent expertise in different scientific disciplines.</p>",
       "name": "Science (choose type)"
@@ -6320,6 +6414,12 @@
       "spellDuration": "1 round/level",
       "spellEffect": "Allows paralysed creatures to make additional saving throws each round",
       "spellRange": "30' (+10'/level)"
+    },
+    "Soothing (Ointment)": {
+      "description": "<p>Cures the recipient of all burn damage, whatever the amount and whether magical or normal.</p>",
+      "name": "Soothing (Ointment)",
+      "spellEffect": "Cures burn on one living creature",
+      "spellRange": "Self"
     },
     "Speak With Animals": {
       "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">The mystic can communicate with any normal or giant animal as frequently as he wishes; the animals comprehend his words, and he understands theirs, although no animal is obligated to converse with him.</span></p>",
@@ -6703,6 +6803,13 @@
       "description": "<p>This spell creates a written magical drawing (a rune) of great power. The caster must choose one of six possible symbols when memorizing the spell. The rune may be placed on an object (such as a door or wall) or even in mid-air, but it remains fixed in place and cannot move.</p><p>When any living creature:</p><ul><li>Passes over or through the rune</li><li>Touches the object bearing the rune</li><li>Reads the rune (foolishly)</li></ul><p>The rune's effect takes place immediately, with no saving throw.</p><h4>Saving Throw Exception:</h4><p>A magic-user or any creature capable of casting magic-user spells may make a saving throw vs. spells if they merely read or touch the symbol (rather than pass through it). If the save succeeds, the symbol has no effect.</p><h4>Symbol Effects:</h4><p>There are six standard symbol types:</p><ul><li>Death: Instantly slays any creature with 75 HP or less. Creatures with 76+ HP are unaffected.</li><li>Discord: Causes the victim to attack allies or suffer confusion (as the <em>confusion</em> spell). Permanent until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li>Fear: The victim flees at full Running Speed for 30 rounds (as a wand of fear).</li><li>Insanity: The victim becomes insane, unable to attack, cast spells, or use special abilities or items. The effect is permanent until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li>Sleep: The victim falls into an unbreakable sleep and cannot be awakened except by <em>dispel magic</em> or waiting [[/r 1d10+10 #Hours asleep]] hours.</li><li>Stunning: Affects creatures with 150 HP or less, stunning them for [[/r 2d6 #Turns stunned]] (as <em>power word stun</em>).</li></ul><h4>Additional Notes:</h4><ul><li>All symbols appear to be normal writings.</li><li>The rune remains active permanently until triggered or dispelled.</li><li>The DM may introduce additional symbols with effects such as polymorph, teleport, charm, or geas.</li></ul>",
       "name": "Symbol",
       "spellEffect": "Creates one magical rune"
+    },
+    "Tanning (Ointment)": {
+      "description": "<p>Causes all the recipient's skin to turn a bright color (determined randomly from red, yellow, orange, blue, green, or brown). The effect cannot be removed but will gradually wear off in [[/r 1d4 #Months]] months.</p>",
+      "name": "Tanning (Ointment)",
+      "spellDuration": "1-4 months",
+      "spellEffect": "Turns skin a bright color",
+      "spellRange": "Self"
     },
     "Telekinesis": {
       "description": "<p>This spell allows the caster to move a creature or object by sheer concentration. The weight of the object can be up to 200 cn (20 lbs) per caster level. For example, a 10th-level caster could move an object up to 2,000 cn (200 lbs).</p>\n                      <p>The object can be moved in any direction at a rate of up to 20' per round. The caster must concentrate, and the movement stops if concentration is broken.</p>\n                      <p><strong>Saving Throws:</strong> An unwilling creature may make a saving throw vs. spells to avoid being moved. If an item is being held, the holder may make a saving throw with a -2 penalty. For items carried but not held, the owner may attempt to grab it with a saving throw at a -5 penalty.</p>",
