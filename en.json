@@ -418,6 +418,7 @@
     "DamageTypes": {
       "name": "Damage Type",
       "types": {
+        "ammo": "Ammo (variable)",
         "breath": "Breath",
         "corrosive": "Corrosive",
         "fall": "Fall",
@@ -670,7 +671,8 @@
         "maxLoad": "Max Load",
         "short": "Ammo",
         "type": "Ammo Type",
-        "typeHint": "The type of ammunition this item is. Leave blank is if this is not ammunition."
+        "typeHint": "The type of ammunition this item is. Leave blank is if this is not ammunition.",
+        "typeHint2": "Comma-delimited ammo types this weapon can use (e.g. arrow,bolt). Leave blank if unused. Damage type Ammo (variable) uses the ammo's damage type."
       },
       "damage": {
         "abbr": "Dmg",
