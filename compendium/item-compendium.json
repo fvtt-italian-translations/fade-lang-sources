@@ -6100,6 +6100,13 @@
       "unidentifiedDesc": "<p>An oiled leather tube with a cap. Not completely watertight.</p>",
       "unidentifiedName": "Scroll Case (water-tight)"
     },
+    "Scroll of <spell-name>": {
+      "description": "<p>This scroll contains the &lt;classes&gt; spell, &lt;spell-name&gt;.</p><p>&lt;spell-desc&gt;</p>",
+      "gmNotes": "<spell-scroll-template>",
+      "name": "Scroll of <spell-name>",
+      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+      "unidentifiedName": "Mysterious Scroll"
+    },
     "Scroll of Communication": {
       "description": "<p>This is actually two scrolls, one stored inside the other. They are easily separated. If a message is written on one scroll, it immediately appears on the other. There is no limit to the range, as long as both scrolls are on the same plane of existence. The message may be up to 100 words in length. If one message is erased, the other disappears as well. Each message must be erased before another can be written, and there is a 5% [[/r 1d100 #1-5 Scroll no longer functions.]] chance (not cumulative) that any erasing will destroy the magic of both scrolls.</p>",
       "gmNotes": "No automation for this. Two items can be used to track who has the paired scrolls.",
@@ -6478,13 +6485,6 @@
     "Spell Research": {
       "description": "<p>A character can attempt to create a new spell, provided it is of a level they can cast. The process requires:</p><ul><li><p>1,000 gp per spell level</p></li><li><p>Two weeks of research per spell level</p></li><li><p>Rare components, often necessitating an adventure to obtain</p></li><li><p>A fully stocked laboratory or library</p></li></ul><p>The chance of success depends on the character's Intelligence score and level, with modifications for spell difficulty. If a research attempt fails, the process must be restarted, but each failure grants a +5% cumulative bonus to future attempts.</p><p>Typically, a character does not have a sufficient library for advanced research until reaching 18th level, or at least 9th level if they have collected extensive magical tomes. While research is technically possible at any level, lower-level characters may struggle to meet the requirements.</p>",
       "name": "Spell Research"
-    },
-    "Spell Scroll (<spell-name>)": {
-      "description": "<p>This scroll contains the &lt;classes&gt; spell, &lt;spell-name&gt;.</p>",
-      "gmNotes": "<spell-scroll-template>",
-      "name": "Spell Scroll (<spell-name>)",
-      "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
-      "unidentifiedName": "Mysterious Scroll"
     },
     "Spell Scroll (Stone to Flesh)": {
       "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>.</p>",
