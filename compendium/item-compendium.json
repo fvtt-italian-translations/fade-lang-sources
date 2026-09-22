@@ -14,7 +14,7 @@
       "name": "Acting"
     },
     "Aerial Servant": {
-      "description": "<p>This spell summons an intelligent elemental being called an <strong>Aerial Servant</strong> to retrieve a specified item or creature and return it to the caster. The servant appears immediately, and the cleric must describe the target and its location, or the servant will depart.</p><p>The aerial servant is ethereal at will, allowing it to bypass most barriers, but it cannot pass through a <strong>Protection from Evil</strong> effect.</p><p><strong>Task and Duration:</strong> The servant will attempt to find and bring back the target within the spell's duration (1 day per caster level). If the spell ends before the task is completed—whether the servant is still searching or already returning—it is considered a failure.</p><p><strong>Strength and Carrying Capacity:</strong> The aerial servant has 18 Strength and can carry up to 500 lbs (5,000 cn).</p><p><strong>Failure Consequences:</strong> If the aerial servant cannot complete its task within the spell duration, it goes insane and immediately returns to attack the caster.</p>",
+      "description": "<p>This spell summons an intelligent elemental being called an <em>Aerial Servant</em> to retrieve a specified item or creature and return it to the caster. The servant appears immediately, and the cleric must describe the target and its location, or the servant will depart.</p><p>The aerial servant is ethereal at will, allowing it to bypass most barriers, but it cannot pass through a <em>Protection from Evil</em> effect.</p><p><strong>Task and Duration:</strong> The servant will attempt to find and bring back the target within the spell's duration (1 day per caster level). If the spell ends before the task is completed—whether the servant is still searching or already returning—it is considered a failure.</p><p><strong>Strength and Carrying Capacity:</strong> The aerial servant has 18 Strength and can carry up to 500 lbs (5,000 cn).</p><p><strong>Failure Consequences:</strong> If the aerial servant cannot complete its task within the spell duration, it goes insane and immediately returns to attack the caster.</p>",
       "name": "Aerial Servant",
       "spellDuration": "1 day per level of caster",
       "spellEffect": "Servant fetches one item or creature"
@@ -457,7 +457,7 @@
     "Babble*": {
       "description": "<p>The reverse of *Speak with Monsters*, this spell prevents one creature from communicating in any way.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The target may attempt a saving throw vs. spells, but with a -2 penalty.</li>\n                        <li>If the save fails, the victim is unable to communicate for the spell’s duration.</li>\n                        <li>This includes all forms of communication: speech, hand gestures, writing, telepathy, etc.</li>\n                        <li>The victim can still cast spells but cannot use magic items requiring command words, as the words turn into gibberish.</li>\n                      </ul>\n                      <p><strong>Duration:</strong> 1 turn per level of the caster.</p>",
       "name": "Babble*",
-      "spellDuration": "1 turn per level of the caster",
+      "spellDuration": "1/level",
       "spellEffect": "Prevents communication"
     },
     "Backpack": {
@@ -1229,9 +1229,9 @@
         }
       }
     },
-    "Bardic Charm": {
+    "Bardic Charm (B)": {
       "description": "<p>A Bard of <strong data-start=\"10\" data-end=\"33\">3rd level or higher</strong> can charm others through song, poetry, or music, similar to the <em data-start=\"98\" data-end=\"112\">charm person</em> spell. The Bard must perform for <strong data-start=\"146\" data-end=\"174\">three consecutive rounds</strong>, after which the target must make a <strong data-start=\"211\" data-end=\"244\">saving throw vs. Spells at +3</strong> or be charmed. The effect lasts until dispelled, the Bard dismisses it, or the Bard harms the target.</p><p data-start=\"350\" data-end=\"466\">At <strong data-start=\"353\" data-end=\"366\">9th level</strong>, this ability improves, allowing the Bard to charm <strong data-start=\"418\" data-end=\"442\">intelligent monsters</strong> (as <em data-start=\"447\" data-end=\"462\">charm monster</em>).</p><p data-start=\"468\" data-end=\"605\" data-is-last-node=\"\">At <strong data-start=\"471\" data-end=\"485\">15th level</strong>, the Bard can charm <strong data-start=\"506\" data-end=\"516\">plants</strong> (as <em data-start=\"521\" data-end=\"534\">charm plant</em>), influencing intelligent vegetation such as treants or magical flora.</p>",
-      "name": "Bardic Charm"
+      "name": "Bardic Charm (B)"
     },
     "Bargaining": {
       "description": "<p>The Bargaining skill allows a character to negotiate favorable terms in transactions or agreements. It covers haggling over prices, making persuasive arguments in trade deals, and finding compromises that satisfy all parties. A successful Bargaining check can result in better prices, advantageous terms, or profitable contracts.</p>",
@@ -1322,8 +1322,7 @@
       "description": "<p>When this song is sung, all within 10' of the bard instantly feel as though they have had a full night's sleep. Fatigue penalties are eliminated, and those affected do not need to rest for the night.</p><p><strong>Effects:</strong></p><ul><li>Instantly removes all fatigue penalties.</li><li>Replaces the need for a full night's sleep.</li></ul><p><strong>Limitations:</strong></p><ul><li>This spell cannot be used for more than three consecutive days.</li><li>The bard cannot sing this song more than four times per week.</li><li>If overused, fatigue penalties apply as normal, as the body cannot go without sleep indefinitely.</li></ul>",
       "name": "Blissful Slumber",
       "spellDuration": "Instant",
-      "spellEffect": "Removes fatigue and eliminates the need for sleep",
-      "spellRange": "0 (bard + recipients only)"
+      "spellEffect": "Removes fatigue and eliminates need for sleep"
     },
     "Blowgun, Long": {
       "description": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
@@ -1478,7 +1477,7 @@
       "name": "Breathstealer",
       "spellDuration": "Special",
       "spellEffect": "Causes victims to suffocate, losing Constitution each round",
-      "spellRange": "20' + 10'/level of bard"
+      "spellRange": "20'+10'/level"
     },
     "Broom of Flying": {
       "description": "<p>When verbally commanded, the broom will carry its owner through the air at 240' per turn. One other person (or up to 2,000 cn of baggage) may also be carried, but the broom slows to 180' per turn.</p>",
@@ -1540,7 +1539,7 @@
       "spellEffect": "Inflicts critical damage on one creature"
     },
     "Cause Disease*": {
-      "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This spell infects the victim with a hideous wasting disease unless they successfully make a saving throw against spells. A diseased victim suffers a -2 penalty on all attack rolls. Additionally, the victim's wounds cannot be magically cured, and natural healing takes twice as long as usual. </span>The disease is fatal within [[/r 2d12 #Cure Disease duration in days]] days unless removed by a <em>cure disease</em> spell.</p>",
+      "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif\">This spell infects the victim with a hideous wasting disease unless they successfully make a saving throw against spells. A diseased victim suffers a -2 penalty on all attack rolls. Additionally, the victim's wounds cannot be magically cured, and natural healing takes twice as long as usual. </span>The disease is fatal within [[/r 2d12 #Cure Disease duration in days]] days unless removed by a <em>cure disease</em> spell.</p>",
       "name": "Cause Disease*",
       "spellEffect": "One living creature within range"
     },
@@ -1560,7 +1559,7 @@
       "spellEffect": "One living creature"
     },
     "Cause Serious Wounds*": {
-      "description": "<p>This spell inflicts 2d6 + 2 points of damage on a creature touched by the caster. A successful melee attack roll is required to deliver the spell.</p>",
+      "description": "<p>This spell inflicts 2d6+2 points of damage on a creature touched by the caster. A successful melee attack roll is required to deliver the spell.</p>",
       "name": "Cause Serious Wounds*",
       "spellEffect": "Causes damage to one creature"
     },
@@ -1839,7 +1838,7 @@
       "spellEffect": "Creates code of coldness 60' long by 30' wide"
     },
     "Confuse Alignment*": {
-      "description": "<p><em>Confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p><p>This spell allows the spellcaster to determine the alignment (Lawful, Neutral, or Chaotic) of any one creature within 10'. It can also reveal the alignment of an enchanted item or area, if applicable.</p>",
+      "description": "<p><em>Confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p>",
       "name": "Confuse Alignment*",
       "spellDuration": "1 turn per caster level",
       "spellEffect": "One creature within 10'"
@@ -2549,6 +2548,7 @@
     },
     "Earthquake": {
       "description": "<p>This powerful spell causes the ground to shake violently, creating cracks and destruction in an area up to 60' square. The affected area increases by 5' per caster level above 17th.</p>\n                      <p><strong>Area of Effect:</strong></p>\n                      <ul>\n                        <li>17th level cleric: 60' square</li>\n                        <li>18th level cleric: 65' square</li>\n                        <li>19th level cleric: 70' square</li>\n                        <li>+5' to each dimension per additional level</li>\n                      </ul>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>Small dwellings collapse into rubble.</li>\n                        <li>Larger structures suffer severe cracks.</li>\n                        <li>Hills, cliffs, and earthen formations trigger rockslides.</li>\n                        <li>Cracks may open in the ground, randomly engulfing 1 in 6 creatures.</li>\n                      </ul>\n                      <p>A creature in danger of falling into a crack may attempt a <strong>saving throw vs. death</strong> to avoid being crushed.</p>",
+      "gmNotes": "Can't automate area template due to weird formula.",
       "name": "Earthquake",
       "spellEffect": "Causes earth tremors",
       "spellRange": "120 yards"
@@ -2742,7 +2742,7 @@
     "Faerie Lights": {
       "description": "<p>This enchanting song conjures shimmering, flickering lights that dance around a chosen target, illuminating a 30' radius as brightly as a conventional <em>light</em> spell. The lights appear to move with a life of their own, weaving and shifting unpredictably.</p><p><strong>Effects:</strong></p><ul><li>Illuminates a 30' radius with bright, magical light.</li><li>Creatures with animal intelligence (2 or less) must save vs. paralysis or be stunned for [[/r 1d6]] rounds.</li><li>The lights have no physical form and cannot be extinguished by wind, water, or other natural forces.</li><li>The lights do not follow a moving target but remain fixed at the chosen location.</li></ul>",
       "name": "Faerie Lights",
-      "spellEffect": "Creates dancing lights that illuminate a 30' radius",
+      "spellEffect": "Creates dancing lights illuminating 30' radius",
       "spellRange": "10' + 10'/level"
     },
     "Fear@QMnq62lBb1rxYaMF": {
@@ -2869,7 +2869,7 @@
       "spellEffect": "Shows the path to an area"
     },
     "Finger of Death*": {
-      "description": "<p>The reversed form of *Raise Dead*, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p>\n                      <p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p>\n                      <p>A Lawful cleric will typically only use *Finger of Death* in life-or-death situations.</p>",
+      "description": "<p>The reversed form of <em>Raise Dead</em>, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p><p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p><p>A Lawful cleric will typically only use <em>Finger of Death</em> in life-or-death situations.</p>",
       "name": "Finger of Death*",
       "spellEffect": "Kills one living creature or heals high-HD undead"
     },
@@ -2920,7 +2920,7 @@
       "name": "Flight Be True",
       "spellDuration": "Special",
       "spellEffect": "Enhances one missile attack per round",
-      "spellRange": "20' + 10'/level of bard"
+      "spellRange": "20' + 10'/level"
     },
     "Floating Disc": {
       "description": "<p>This spell creates an invisible, horizontal disc capable of carrying up to 5000 cn (500 lbs). The disc remains at the caster's waist height and follows them, staying within 6' at all times. It cannot be used as a weapon or pass through obstacles. When the spell ends, the disc disappears, dropping anything it carried.</p>",
@@ -3088,7 +3088,7 @@
       "description": "<p>Once sung, this spell-song grants the bard and all recipients within range a protective blessing for its duration.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures gain a -2 bonus to AC, applied against all attacks.</li><li>Recipients become immune to all effects from other bardic spell-songs while this effect lasts.</li></ul><p><strong>Area of Effect:</strong></p><ul><li>Affects the bard and all allies within 15' + 5' per bard level.</li></ul>",
       "name": "Guardian Angels",
       "spellEffect": "Provides AC bonus and bardic spell-song immunity",
-      "spellRange": "0 (bard + recipients only)"
+      "spellRange": "15'+5'/level"
     },
     "Halberd +1": {
       "description": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
@@ -3729,8 +3729,7 @@
     "Locate Object (C)": {
       "description": "<p>This spell allows the caster to sense the direction of a known object within range, but not its distance. It can detect a common object with a partial description, such as \"stairs leading up,\" but will only indicate the direction of the nearest such object.  To find a specific object, the caster must <em>know</em> exactly what the object looks like (size, shape, color, etc.). The spell will not locate a creature.</p>",
       "name": "Locate Object (C)",
-      "spellEffect": "Detects one object within 120'",
-      "spellRange": "0 (Caster only)"
+      "spellEffect": "Detects one object within 120'"
     },
     "Long Coat, Wool": {
       "description": "<p>A long coat made of wool.</p>",
@@ -5651,7 +5650,7 @@
       "spellEffect": "Creates a new body"
     },
     "Remove Barrier*": {
-      "description": "<p>This spell instantly destroys one magical barrier created by a cleric. It can also dispel certain barriers created by a magic-user.</p>\n                      <p><strong>Effects:</strong> *Remove Barrier* will destroy a cleric's *Barrier* spell and can also dispel the following magic-user spells:</p>\n                      <ul>\n                        <li><strong>Wall of Ice</strong></li>\n                        <li><strong>Wall of Fire</strong></li>\n                        <li><strong>Clothform</strong></li>\n                        <li><strong>Woodform</strong></li>\n                        <li><strong>Wall of Stone</strong></li>\n                      </ul>\n                      <p><strong>Limitations:</strong> This spell does <em>not</em> affect the following spells: *Wall of Iron*, *Stoneform*, *Ironform*, or *Steelform*.</p>",
+      "description": "<p>This spell instantly destroys one magical barrier created by a cleric. It can also dispel certain barriers created by a magic-user.</p><p><strong>Effects:</strong> <em>Remove Barrier</em> will destroy a cleric's <em>Barrier</em> spell and can also dispel the following magic-user spells:</p><ul><li><em>Wall of Ice</em></li><li><em>Wall of Fire</em></li><li><em>Clothform</em></li><li><em>Woodform</em></li><li><em>Wall of Stone</em></li></ul><p><strong>Limitations:</strong> This spell does <em>not</em> affect the following spells: <em>Wall of Iron</em>, <em>Stoneform</em>, <em>Ironform</em>, or <em>Steelform</em>.</p>",
       "name": "Remove Barrier*",
       "spellEffect": "Removes a magical barrier"
     },
@@ -5693,7 +5692,8 @@
       "description": "<p>This haunting spell-song fills the target with unbearable grief and sorrow, rendering them incapable of rational action.</p><p><strong>Effects:</strong></p><ul><li>The target suffers a -1 penalty to all attack and damage rolls (no saving throw).</li><li>The target must make a saving throw vs. spells to resist further effects.</li></ul><p><strong>On a Failed Saving Throw:</strong></p><ul><li>The target begins crying uncontrollably and falls into despair.</li><li>They must attack themselves with any available weapon or bare hands.</li><li>Self-inflicted damage is real, and weapon mastery bonuses do not apply.</li><li>This effect lasts for a number of rounds equal to the bard’s Constitution score.</li></ul><p><strong>On a Successful Saving Throw:</strong></p><ul><li>The penalty to attack and damage rolls remains as long as the bard continues singing.</li><li>The bard can sing for a maximum number of rounds equal to their Constitution score.</li></ul><p><strong>After the Song Ends:</strong></p><ul><li>The bard must make a Wisdom check to resist the psychic backlash.</li><li>If successful, the bard is stunned for [[/r 1d4 #Stunned rounds]].</li><li>If failed, the bard passes out for 1 round per round spent singing.</li></ul><p><strong>Additional Details:</strong></p><ul><li>This spell only affects creatures with an Intelligence score of 3 or higher.</li><li>The bard can end the song early to avoid the backlash.</li></ul>",
       "name": "Requiem Melody",
       "spellDuration": "Special",
-      "spellEffect": "Overwhelms a target with despair, causing self-inflicted harm"
+      "spellEffect": "Overwhelms a target with despair, causing self-inflicted harm",
+      "spellRange": "15'+5'/level"
     },
     "Resist Cold": {
       "description": "<p>When this spell is cast, all creatures within 30' of the spellcaster are protected from freezing temperatures without harm. Those affected also receive a +2 bonus to all saving throws against cold-based attacks. Additionally, any cold damage dealt to them is reduced by 1 point per die, with a minimum of 1 point of damage per die. The effect moves with the spellcaster.</p>",
@@ -6409,17 +6409,17 @@
       "name": "Snares"
     },
     "Song of Binding": {
-      "description": "<p>This powerful spell-song paralyzes creatures that hear its melody, rendering them unable to act.</p><p><strong>Effects:</strong></p><ul><li><p>The bard may affect up to:</p><ul><li>4 Medium-sized creatures (up to 7' tall).</li><li>2 Large-sized creatures (7+' to 12' tall).</li><li>1 Huge-sized creature (12+' to 25' tall).</li></ul></li><li>The song has no effect on creatures larger than 25' (Gargantuan size).</li><li>All affected targets must hear the song for at least 1 round before they can be paralyzed.</li><li>Each victim may make a saving throw vs. Paralysis to resist the effect.</li><li>On a failed save, the creature is paralyzed for [[/r @actor.details.level #Paralyzed rounds]].</li></ul><p><strong>Ending the Effect:</strong></p><ul><li>The paralysis lasts for 1 round per level of the bard.</li><li>It may be removed by normal means, such as the spell <em>free person</em>.</li><li>The paralysis may also be dispelled by the reverse of this song (if available).</li></ul>",
+      "description": "<p>This powerful spell-song paralyzes creatures that hear its melody, rendering them unable to act.</p><p><strong>Effects:</strong></p><ul><li><p>The bard may affect up to:</p><ul><li>4 Medium-sized creatures (up to 7' tall).</li><li>2 Large-sized creatures (7+' to 12' tall).</li><li>1 Huge-sized creature (12+' to 25' tall).</li></ul></li><li>The song has no effect on creatures larger than 25' (Gargantuan size).</li><li>All affected targets must hear the song for at least 1 round before they can be paralyzed.</li><li>Each victim may make a saving throw vs. Paralysis to resist the effect.</li><li>On a failed save, the creature is paralyzed for 1 round per bard level.</li></ul><p><strong>Ending the Effect:</strong></p><ul><li>The paralysis lasts for 1 round per level of the bard.</li><li>It may be removed by normal means, such as the spell <em>free person</em>.</li><li>The paralysis may also be dispelled by the reverse of this song (if available).</li></ul>",
       "name": "Song of Binding",
       "spellDuration": "1 round/level",
       "spellEffect": "Paralyzes creatures who hear the song",
-      "spellRange": "30' (+10'/level of bard)"
+      "spellRange": "30' +10'/level"
     },
     "Song of Freedom": {
       "description": "<p>This spell-song is the opposite of <em>Song of Binding</em>. When sung, it grants those affected an opportunity to break free from paralysis.</p><p><strong>Effects:</strong></p><ul><li>Up to four creatures within range are affected.</li><li>Each affected creature that is currently paralyzed may make a new saving throw vs. Paralysis every round.</li><li>A successful saving throw immediately removes the paralysis effect.</li><li>The spell-song lasts for 1 round per level of the bard.</li></ul><p><strong>Additional Notes:</strong></p><ul><li>The song permanently negates any existing paralysis for creatures that successfully save.</li><li>This spell-song has the same range and limitations as <em>Song of Binding</em>.</li></ul>",
       "name": "Song of Freedom",
       "spellDuration": "1 round/level",
-      "spellEffect": "Allows paralysed creatures to make additional saving throws each round",
+      "spellEffect": "Allows paralyzed creatures to make additional saving throws each round",
       "spellRange": "30' (+10'/level)"
     },
     "Soothing (Ointment)": {
@@ -6576,7 +6576,7 @@
     "Still Night": {
       "description": "<p>This haunting melody creates a sphere of absolute silence, 20' in diameter, centered on the bard. Within this sphere, no sound may escape, but those inside can still hear sounds from the outside. The effect moves with the bard for the duration of the spell.</p><p><strong>Effects:</strong></p><ul><li>Prevents all sound from being heard outside the sphere.</li><li>Nullifies all spellcasting within the sphere (verbal components cannot be spoken).</li><li>The sphere moves with the bard while the effect lasts.</li><li>Creatures inside can still hear sounds coming from outside the sphere.</li></ul>",
       "name": "Still Night",
-      "spellEffect": "Creates a sphere of absolute silence (20' diameter)",
+      "spellEffect": "Creates a sphere of silence (20' diameter)",
       "spellRange": "0 (bard only)"
     },
     "Stone to Flesh*": {
@@ -6840,27 +6840,27 @@
       "description": "<p>This spell-song allows the bard to create a realistic and awe-inspiring battle scene through illusionary magic. Those who witness it must resist its effects or be stunned in amazement.</p><p><strong>Effects:</strong></p><ul><li>The bard creates an illusion of a battle scene anywhere within range, covering an area of 20' x 20' x 20'.</li><li>All creatures that see it must make a saving throw vs. spells or be stunned for [[/r 1d4 #Stunned rounds]].</li><li>The illusion can depict warriors, wizards, or entire armies, shaped by the bard’s imagination.</li></ul><p><strong>Illusion Mechanics:</strong></p><ul><li>Anyone interacting with the illusion may attempt a new saving throw vs. spells to see through it.</li><li>The illusion has an armor class of 9 and disappears when touched.</li><li>If a creature \"dies\" within the illusion, they instead fall unconscious for [[/r 1d6 #Unconscious rounds]].</li></ul><p><strong>Additional Details:</strong></p><ul><li>The bard controls all visual elements of the illusion but cannot create sound or physical interaction.</li><li>Like <em>phantasmal force</em>, this illusion can trick enemies into reacting as if it were real.</li><li>The illusion remains for the spell’s duration unless dispelled or disbelieved.</li></ul>",
       "name": "The Epic",
       "spellEffect": "Creates an illusory battle scene that stuns onlookers",
-      "spellRange": "10' (+5'/level of bard)"
+      "spellRange": "10' +5'/level"
     },
     "The Eternal Wanderer": {
       "description": "<p>By singing this enchanted melody, the bard grants themselves and nearby allies the ability to travel with supernatural endurance and speed.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures have their movement rates tripled for the duration.</li><li>While moving under this effect, recipients do not tire and suffer no fatigue.</li><li>Travelers may cover great distances in a short time, with no physical strain.</li></ul><p><strong>Rest Requirement:</strong></p><p>After the spell ends, all affected creatures must rest for a duration equal to the time spent traveling under its effects.</p><p><strong>Range & Area of Effect:</strong></p><p>The spell affects the bard and all allies within 10 feet, plus an additional 2 feet per level of the bard.</p>",
       "name": "The Eternal Wanderer",
       "spellDuration": "4 hours +1 hour per level",
       "spellEffect": "Triples movement speed and prevents fatigue",
-      "spellRange": "0 (bard + recipients only)"
+      "spellRange": "10' + 2'/level"
     },
     "The Hero's Chant": {
       "description": "<p>This spell-song functions similarly to a <em>bless</em> spell, providing combat and morale benefits to the bard and nearby allies. However, the bard must continue singing for the effect to remain active.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures gain a +1 bonus to attack rolls and +1 to damage rolls.</li><li>They also gain a +1 bonus to all saving throws.</li><li>Morale is improved, granting a +1 bonus to morale checks.</li></ul><p><strong>Duration:</strong></p><ul><li>The bard may sing for a number of rounds equal to his or her Constitution score.</li><li>If the bard exceeds this limit, he or she will fall unconscious for 1d4 turns [[/r 1d4 #Unconscious Turns]].</li><li>If the bard stops singing before reaching the limit, there are no ill effects.</li></ul><p><strong>Area of Effect:</strong></p><ul><li>Affects the bard and all allies within 10' + 2' per bard level.</li></ul>",
       "name": "The Hero's Chant",
       "spellDuration": "Special (up to Constitution rounds)",
       "spellEffect": "Grants combat and morale bonuses",
-      "spellRange": "0 (bard + recipients only)"
+      "spellRange": "10'+2'/level"
     },
     "The Seeker of Magic": {
       "description": "<p>This mystical song reveals the magical nature of all enchanted items within a 20' x 20' x 20' area. All magical items, including those being worn or carried, will emit a soft blue halo for the duration of the spell.</p><p><strong>Effects:</strong></p><ul><li>All magical items within the area glow with a blue halo.</li><li>Chance to Identify: The bard has a 3% chance per level to correctly identify the exact nature of a magical item.</li><li>Limitations: The bard cannot determine the number of charges an item has (if any).</li></ul>",
       "name": "The Seeker of Magic",
-      "spellEffect": "Reveals the magical nature of items in a 20' x 20' x 20' area",
-      "spellRange": "0 (bard only)"
+      "spellEffect": "Reveals magical items in 20' x 20' x 20' area",
+      "spellRange": "self"
     },
     "Thief": {
       "classLevels": {
@@ -8164,7 +8164,7 @@
       "spellRange": "Special"
     },
     "Wish (C)": {
-      "description": "<p>Wish is the most powerful spell available to a cleric, capable of altering reality itself. However, its effects are subject to strict interpretation by the DM.</p><h3>Requirements</h3><ul><li>Only clerics of 36th level with 18+ Wisdom may cast this spell.</li><li>Wishes are never found on scrolls but may exist in rare items such as rings.</li></ul><h3>Wording the Wish</h3><p>The caster must clearly state their wish. The exact wording is crucial, as the spell follows the literal meaning rather than the intent. The DM may interpret the wish strictly, generously, or even maliciously.</p><ul><li>If a wish is made with greed or malice, the DM should distort its results.</li><li>The DM may disallow unreasonable wishes, causing the spell to fail.</li><li>After a misinterpreted wish, the DM should explain the flaw in the phrasing.</li></ul><p>Examples of badly phrased wishes:</p><ul><li><em>\"I wish to know everything about this dungeon.\"</em> → The character knows all but forgets it in a second.</li><li><em>\"I wish for a million gold pieces.\"</em> → The gold lands on the character, crushing them, then disappears.</li><li><em>\"I wish for permanent basilisk gaze powers.\"</em> → The caster grows an extra basilisk head.</li></ul><h3>Allowed Effects</h3><p>Spell Substitution: A wish can replicate:</p><ul><li>Any 8th-level or lower magic-user spell</li><li>Any 6th-level or lower cleric/druid spell</li><li>This use of a wish is least likely to be distorted.</li></ul><h3>Harming Others</h3><p>If a wish directly harms a creature:</p><ul><li>The victim gets a saving throw vs. spells.</li><li>If they succeed, half of the effect rebounds onto the caster, who also saves (at -4 penalty).</li><li>If the wish only inconveniences (e.g., teleporting them into a prison), no saving throw is allowed.</li></ul><h3>Gaining Treasure</h3><p>A wish can conjure up to 50,000 gp, but:</p><ul><li>The caster loses 1 XP per gold piece gained.</li><li>This XP loss cannot be restored by any means.</li></ul><h3>Ability Score Changes</h3><ul><li>A wish can temporarily raise an ability score to a maximum of 18 for 6 turns.</li><li><p>A wish can permanently raise an ability score by 1 point per number of wishes used:</p><ul><li>Raising Strength from 15 to 16 requires 16 wishes.</li><li>Raising it from 16 to 17 requires 17 more wishes.</li><li>All wishes must be cast within 1 week.</li><li>Wishes cannot permanently lower ability scores.</li></ul></li></ul><h3>Maximum Experience Levels</h3><ul><li>A wish cannot exceed the 36th-level cap for human characters.</li><li>However, a wish can grant demihumans +1 Hit Die (new max: 9 for halflings, 11 for elves, 13 for dwarves).</li></ul><h3>Race Changes</h3><p>A wish can permanently change a character's race:</p><ul><li>Demihumans become human fighters of the same level.</li><li>Elves become magic-users or fighters (chosen by the wish caster).</li><li>Humans become demihumans, but never above their racial level cap.</li><li>If unwilling, the target gains a +5 bonus to their saving throw vs. spells to resist the change.</li></ul><h3>Rewriting Past Events</h3><p>A wish may alter one event from the previous day:</p><ul><li>Turning a lost battle into a victory (if feasible).</li><li>Changing a death to a near-death survival.</li><li>Changing a permanent loss to a temporary one.</li></ul><p>The DM may warn players if their wish exceeds the spell's limits.</p><h3>Important Restrictions</h3><ul><li>Effects labeled as \"unchangeable even by a wish\" cannot be altered.</li><li>Wishes cannot alter game mechanics (e.g., \"dragons cannot breathe fire anymore\").</li><li>Unreasonable or greedy wishes are less likely to succeed.</li></ul>",
+      "description": "<p>Wish is the most powerful spell available to a cleric, capable of altering reality itself. However, its effects are subject to strict interpretation by the DM.</p><h4>Requirements</h4><ul><li>Only clerics of 36th level with 18+ Wisdom may cast this spell.</li><li>Wishes are never found on scrolls but may exist in rare items such as rings.</li></ul><h4>Wording the Wish</h4><p>The caster must clearly state their wish. The exact wording is crucial, as the spell follows the literal meaning rather than the intent. The DM may interpret the wish strictly, generously, or even maliciously.</p><ul><li>If a wish is made with greed or malice, the DM should distort its results.</li><li>The DM may disallow unreasonable wishes, causing the spell to fail.</li><li>After a misinterpreted wish, the DM should explain the flaw in the phrasing.</li></ul><p>Examples of badly phrased wishes:</p><ul><li><em>\"I wish to know everything about this dungeon.\"</em> → The character knows all but forgets it in a second.</li><li><em>\"I wish for a million gold pieces.\"</em> → The gold lands on the character, crushing them, then disappears.</li><li><em>\"I wish for permanent basilisk gaze powers.\"</em> → The caster grows an extra basilisk head.</li></ul><h4>Allowed Effects</h4><p>Spell Substitution: A wish can replicate:</p><ul><li>Any 8th-level or lower magic-user spell</li><li>Any 6th-level or lower cleric/druid spell</li><li>This use of a wish is least likely to be distorted.</li></ul><h4>Harming Others</h4><p>If a wish directly harms a creature:</p><ul><li>The victim gets a saving throw vs. spells.</li><li>If they succeed, half of the effect rebounds onto the caster, who also saves (at -4 penalty).</li><li>If the wish only inconveniences (e.g., teleporting them into a prison), no saving throw is allowed.</li></ul><h4>Gaining Treasure</h4><p>A wish can conjure up to 50,000 gp, but:</p><ul><li>The caster loses 1 XP per gold piece gained.</li><li>This XP loss cannot be restored by any means.</li></ul><h4>Ability Score Changes</h4><ul><li>A wish can temporarily raise an ability score to a maximum of 18 for 6 turns.</li><li><p>A wish can permanently raise an ability score by 1 point per number of wishes used:</p><ul><li>Raising Strength from 15 to 16 requires 16 wishes.</li><li>Raising it from 16 to 17 requires 17 more wishes.</li><li>All wishes must be cast within 1 week.</li><li>Wishes cannot permanently lower ability scores.</li></ul></li></ul><h4>Maximum Experience Levels</h4><ul><li>A wish cannot exceed the 36th-level cap for human characters.</li><li>However, a wish can grant demihumans +1 Hit Die (new max: 9 for halflings, 11 for elves, 13 for dwarves).</li></ul><h4>Race Changes</h4><p>A wish can permanently change a character's race:</p><ul><li>Demihumans become human fighters of the same level.</li><li>Elves become magic-users or fighters (chosen by the wish caster).</li><li>Humans become demihumans, but never above their racial level cap.</li><li>If unwilling, the target gains a +5 bonus to their saving throw vs. spells to resist the change.</li></ul><h4>Rewriting Past Events</h4><p>A wish may alter one event from the previous day:</p><ul><li>Turning a lost battle into a victory (if feasible).</li><li>Changing a death to a near-death survival.</li><li>Changing a permanent loss to a temporary one.</li></ul><p>The DM may warn players if their wish exceeds the spell's limits.</p><h4>Important Restrictions</h4><ul><li>Effects labeled as \"unchangeable even by a wish\" cannot be altered.</li><li>Wishes cannot alter game mechanics (e.g., \"dragons cannot breathe fire anymore\").</li><li>Unreasonable or greedy wishes are less likely to succeed.</li></ul>",
       "name": "Wish (C)",
       "spellDuration": "Special",
       "spellEffect": "Alters reality",
@@ -8181,7 +8181,7 @@
       "spellEffect": "One portal or lock"
     },
     "Wizardry": {
-      "description": "<p>This spell allows the cleric to temporarily wield the magical powers of a magic-user, enabling the use of certain restricted items.</p>\n                      <h3>Effects:</h3>\n                      <ul>\n                        <li>The cleric may use <strong>one magic-user-only item</strong>, choosing between:</li>\n                        <ul>\n                          <li>A magic-user device (such as a wand, staff, or rod).</li>\n                          <li>A magic-user scroll containing a <strong>1st or 2nd level spell</strong>.</li>\n                        </ul>\n                        <li><strong>Spell Level Restriction:</strong> The cleric <strong>cannot</strong> use spells of 3rd level or higher, even if present on the scroll.</li>\n                      </ul>\n                      \n                      <h3>Duration:</h3>\n                      <ul>\n                        <li>The spell lasts for <strong>one turn</strong> (10 minutes) or until the cleric uses the item.</li>\n                      </ul>\n                      \n                      <h3>Temporary Knowledge:</h3>\n                      <ul>\n                        <li>During the spell’s duration, the cleric <strong>magically understands</strong> how to operate the selected item.</li>\n                        <li>For a scroll spell, the cleric is treated as the <strong>minimum level</strong> required to cast the spell.</li>\n                      </ul>",
+      "description": "<p>This spell allows the cleric to temporarily wield the magical powers of a magic-user, enabling the use of certain restricted items.</p><h4>Effects:</h4><ul><li><p>The cleric may use <strong>one magic-user-only item</strong>, choosing between:</p><ul><li>A magic-user device (such as a wand, staff, or rod).</li><li>A magic-user scroll containing a <strong>1st or 2nd level spell</strong>.</li></ul></li><li><strong>Spell Level Restriction:</strong> The cleric <strong>cannot</strong> use spells of 3rd level or higher, even if present on the scroll.</li></ul><h4>Duration:</h4><ul><li>The spell lasts for <strong>one turn</strong> (10 minutes) or until the cleric uses the item.</li></ul><h4>Temporary Knowledge:</h4><ul><li>During the spell’s duration, the cleric <strong>magically understands</strong> how to operate the selected item.</li><li>For a scroll spell, the cleric is treated as the <strong>minimum level</strong> required to cast the spell.</li></ul>",
       "name": "Wizardry",
       "spellDuration": "One turn",
       "spellEffect": "Allows the use of one magic-user device or scroll spell",
