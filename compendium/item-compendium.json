@@ -14,7 +14,7 @@
       "name": "Acting"
     },
     "Aerial Servant": {
-      "description": "<p>This spell summons an intelligent elemental being called an <em>Aerial Servant</em> to retrieve a specified item or creature and return it to the caster. The servant appears immediately, and the cleric must describe the target and its location, or the servant will depart.</p><p>The aerial servant is ethereal at will, allowing it to bypass most barriers, but it cannot pass through a <em>Protection from Evil</em> effect.</p><p><strong>Task and Duration:</strong> The servant will attempt to find and bring back the target within the spell's duration (1 day per caster level). If the spell ends before the task is completed—whether the servant is still searching or already returning—it is considered a failure.</p><p><strong>Strength and Carrying Capacity:</strong> The aerial servant has 18 Strength and can carry up to 500 lbs (5,000 cn).</p><p><strong>Failure Consequences:</strong> If the aerial servant cannot complete its task within the spell duration, it goes insane and immediately returns to attack the caster.</p>",
+      "description": "<p>An aerial servant is a very intelligent being from the elemental plane. With this spell, the cleric summons one of these beings, which appears immediately. The cleric must then describe one creature or item and its location to the servant, or else it will depart. When it hears this description and location, the aerial servant leaves, trying to find the item or creature and bring it to the cleric. The servant will take as much time as needed, up to the limit of the duration. If the spell's duration lapses before the task is completed, even if the aerial servant is already bringing the target back to the caster, the aerial servant has failed to accomplish its task. See below for further details.</p><p>The aerial servant has 18 Strength, and can carry up to 500 lbs (5,000 cn). It can become ethereal at will, and thus can travel to most places easily. However, it cannot pass through a <em>protection from evil</em> spell effect.</p><p>If it cannot perform its duty within the duration of the spell, the servant becomes insane and returns to attack the caster.</p>",
       "name": "Aerial Servant",
       "spellDuration": "1 day per level of caster",
       "spellEffect": "Servant fetches one item or creature"
@@ -57,7 +57,7 @@
       "unidentifiedName": "Strange Amulet"
     },
     "Analyze": {
-      "description": "<p>This spell allows the caster to handle one item and learn about its enchantment. The caster must use the item correctly: helms must be worn, swords held, bracelets worn on the wrist, etc. Any consequences, such as from cursed or trapped items, will affect the caster as usual, with saving throws if applicable.</p>\n                <p>The caster has a 15% chance plus 5% per level to determine one magical property, or to confirm that the item is non-magical. The spell provides general information, such as whether a weapon’s bonus is “many” or “few,” and estimates the number of charges within 25% accuracy.</p>",
+      "description": "<p>A spellcaster using this spell can handle one item and learn the enchantment on it. Helms must be put on the spellcaster's head, swords held in his hand, bracelets put on his wrist, etc. for this spell to work. Any consequences of this action (for example, from cursed or booby-trapped objects) fall upon the spellcaster, though he gets his usual saving throws.   </p><p>The spellcaster has a chance of 15% plus 5% per experience level to determine one magical characteristic of the item; if the item is nonmagical, his chance is to determine that fact.   </p><p>The spell does not reveal much precise information. It will characterize a weapon's pluses (attack bonus) as \"many\" or \"few,\" will estimate the number of charges on an item within 25% of the actual number, etc.</p>",
       "name": "Analyze",
       "spellEffect": "Analyzes magic on one item",
       "spellRange": "0 (Touch only)"
@@ -72,19 +72,19 @@
       "spellEffect": "Creates zombies or skeletons"
     },
     "Animate Dead (C)": {
-      "description": "<p>This spell animates normal skeletons or dead bodies within range, transforming them into enchanted skeletons or zombies. These undead obey the caster until destroyed by a dispel magic spell or another cleric.</p>\n                      <p><strong>Effect:</strong> For each experience level, the caster can animate 1 HD of undead. Skeletons retain the HD of the original creature, while zombies have +1 HD.</p>\n                      <p>Humans and demihumans are treated as 1 HD for this spell. A human’s corpse would be animated as a 1 HD skeleton or a 2 HD zombie.</p>\n                      <p><strong>Notes:</strong> Animated undead are immune to sleep, charm, and poison effects. Using this spell for good is advised for lawful casters, as animating the dead is often seen as a Chaotic act.</p>",
+      "description": "<p>This spell allows the caster to make animated, enchanted skeletons or zombies from normal skeletons or dead bodies within range. These animated undead creatures will obey the cleric until they are destroyed by another cleric or a <em>dispel magic</em> spell.</p><p>For each experience level of the cleric, he may animate one Hit Die of undead. A skeleton has the same Hit Dice as the original creature, but a zombie has one Hit Die more than the original. Note that this doesn't count character experience levels as Hit Dice: For purposes of this spell, all humans and demihumans are 1 HD creatures, so the remains of a 9th level thief would be animated as a zombie with 2 HD.</p><p>Animated creatures do not have any spells, but are immune to <em>sleep</em> and <em>charm</em> effects and poison. Lawful clerics must take care to use this spell only for good purpose. Animating the dead is usually a Chaotic act.</p>",
       "name": "Animate Dead (C)",
       "spellEffect": "Creates zombies or skeletons"
     },
     "Animate Objects": {
-      "description": "<p>This spell allows the cleric to animate non-living, non-magical objects, causing them to move and attack. Magical objects are unaffected.</p><p>The spell can animate either:</p><ul><li>One object up to 400 lbs (4,000 cn), roughly the size of two men.</li><li>Multiple smaller objects, as long as their total weight does not exceed 400 lbs.</li></ul><p><strong>Combat Abilities:</strong> The DM determines the movement rate, number of attacks, damage, and armor class of animated objects. As a guideline:</p><ul><li>A man-sized statue might move at 30' per round, attack once per round for [[/r 2d8 #points of damage]] damage, and have AC 1.</li><li>A chair might move at 180' per round, attack twice per round for [[/r 1d4 #points of damage]] damage per attack, and have AC 6.</li></ul><p>All animated objects use the cleric’s chance to hit in combat.</p>",
+      "description": "<p>The cleric may use this spell to cause any non-living, nonmagical objects to move and attack. Magical objects are not affected. The spell can animate any one object up to 400 lbs (4,000 cn) (roughly the size of two men), or a number of smaller objects whose total weight does not exceed 400 lbs.</p><p>The DM must decide on the movement rate, number of attacks, damage, and other combat details of the objects animated. As a guideline, a man-sized statue might move at 30' per round, attack once per round for 2d8 (2–16) points of damage, and have an armor class of 1. A chair might only be AC 6, but move at 180' per round on its four legs, attacking twice per round for 1d4 points per attack. All objects have the same chances to hit as the cleric animating them.</p>",
       "name": "Animate Objects",
       "spellEffect": "Causes objects to move"
     },
     "Anti-Animal Shell": {
-      "description": "<p>This spell creates an invisible protective barrier surrounding the druid, less than an inch from their body.</p><h4>Effects:</h4><ul><li>Prevents all physical attacks from normal and giant-sized animals, including insects and other non-fantastic creatures of animal intelligence (0-2).</li><li>The barrier prevents the druid from physically attacking animals, but they may still use spells against them.</li></ul>",
+      "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away). The barrier stops all attacks by animals, both normal and giant-sized, as well as insects and all other nonfantastic creatures of animal intelligence or less (0-2). The druid cannot attack animals while protected except by use of other spells; the animals are protected from the druid's physical attacks, just as the druid is protected from theirs.</p>",
       "name": "Anti-Animal Shell",
-      "spellDuration": "One turn per caster level",
+      "spellDuration": "One turn/level",
       "spellEffect": "Personal barrier that blocks animals",
       "spellRange": "0 (Druid only)"
     },
@@ -95,9 +95,9 @@
       "spellRange": "0 (Caster only)"
     },
     "Anti-Plant Shell": {
-      "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away) that blocks all plant attacks and prevents damage from plant-like monsters.</p>\n                      <p><strong>Effect on Movement:</strong> While protected, the druid can push through dense growth, creating a path that others may follow. The barrier prevents the druid from physically attacking plants, though spells may still be cast against them.</p>",
+      "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away). The barrier stops all attacks by plants and plant-like monsters, so that they can inflict no damage. If the caster pushes through normal but dense growth while protected, he will open a path that others can pass through.   </p><p>While protected, the druid cannot attack plants except by spells; the plants are protected from the druid's physical attacks, just as the druid is protected from theirs.</p>",
       "name": "Anti-Plant Shell",
-      "spellDuration": "1 round per level of the druid",
+      "spellDuration": "1 round/level",
       "spellEffect": "Personal barrier which blocks plants",
       "spellRange": "0 (druid only)"
     },
@@ -455,7 +455,7 @@
       "name": "Axe, Hand"
     },
     "Babble*": {
-      "description": "<p>The reverse of *Speak with Monsters*, this spell prevents one creature from communicating in any way.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The target may attempt a saving throw vs. spells, but with a -2 penalty.</li>\n                        <li>If the save fails, the victim is unable to communicate for the spell’s duration.</li>\n                        <li>This includes all forms of communication: speech, hand gestures, writing, telepathy, etc.</li>\n                        <li>The victim can still cast spells but cannot use magic items requiring command words, as the words turn into gibberish.</li>\n                      </ul>\n                      <p><strong>Duration:</strong> 1 turn per level of the caster.</p>",
+      "description": "<p><em>Babble</em>, has a 60' range, a duration of 1 turn per level of the caster, and affects one target within spell range. The victim may make a saving throw vs. spells to avoid the effect, but with a -2 penalty to the roll. If he fails the saving throw, the victim cannot communicate with any other creature for the duration of the spell. Even hand motions, written notes, telepathy, and all other forms of communication will seem garbled. This does not interfere with the victim's spellcasting (if any), but does prevent him from using any magical items which are activated by command words—the command words turn into gibberish.</p>",
       "name": "Babble*",
       "spellDuration": "1/level",
       "spellEffect": "Prevents communication"
@@ -1238,7 +1238,7 @@
       "name": "Bargaining"
     },
     "Barrier*": {
-      "description": "<p>This spell creates a magical barrier up to 30' in diameter and 30' high, consisting of whirling and dancing hammers. The barrier is obviously dangerous to any who pass through it.</p><p><strong>Damage:</strong> Any creature passing through the barrier takes [[/r 7d10 #points of damage]]<strong> (7-70)</strong> points of damage. No saving throw is allowed.</p><p>This spell is commonly used to block entrances, corridors, or other key passages.</p>",
+      "description": "<p>This spell creates a magical barrier in an area up to 30' in diameter and 30' high. The barrier is a wall of whirling and dancing hammers, obviously dangerous to any who come in contact with it. Any creature passing through the barrier takes[[/r 7d10  #Damage]] (7–70) points of damage from the whirling hammers (no saving throw allowed). This spell is often used to block an entrance or passage.</p><p>The reverse of this spell (<em>remove barrier</em>) will destroy any one barrier created by a cleric. It can also be used to destroy a magic-user's <em>wall of ice</em>, <em>wall of fire</em>, <em>clothform</em>, <em>woodform</em>, or <em>wall of stone</em> spell effects. It will not affect the magic-user spells <em>wall of iron</em>, <em>stoneform</em>, <em>ironform</em> or <em>steelform</em>.</p>",
       "name": "Barrier*",
       "spellEffect": "Creates whirling hammers"
     },
@@ -1497,9 +1497,9 @@
       "spellRange": "Self"
     },
     "Call Lightning": {
-      "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
+      "description": "<p>This spell cannot be used unless a storm of some (any) type is within range of the druid. (This does not mean that he must be within the spell's range of the storm cloud, but only that the stormy weather be taking place within 360' of him.)   </p><p>If a storm is present, the druid may call 1 lightning bolt per turn (10 minutes) to strike at any point within range. The lightning bolt descends from the sky, hitting an area 20' across. Each victim within that area takes 8d6 (8-48) points of electrical damage, but may make a saving throw vs. spells to take half damage. The druid need not call the lightning every turn unless desired; it remains available until the spell duration (or the storm) ends.</p>",
       "name": "Call Lightning",
-      "spellDuration": "1 turn per level of the caster",
+      "spellDuration": "1 turn/level",
       "spellEffect": "Calls lightning bolts from a storm"
     },
     "Caltrops (bag of 20)": {
@@ -1534,7 +1534,7 @@
       "name": "Catapult, Light"
     },
     "Cause Critical Wounds*": {
-      "description": "<p>This spell inflicts [[/r 3d6+3 # points of damage]] points of damage on a creature touched by the caster. A successful melee attack roll is required.</p>",
+      "description": "<p><em>Cause critical wounds</em> causes 3d6 + 3 (6–21) points of damage to any living creature or character touched (no saving throw). The caster must make a normal attack roll to cause the critical wound.</p>",
       "name": "Cause Critical Wounds*",
       "spellEffect": "Inflicts critical damage on one creature"
     },
@@ -1614,7 +1614,7 @@
       "spellEffect": "One or more living creatures"
     },
     "Charm Person": {
-      "description": "<p>This spell affects humans, demihumans, and certain other creatures. The target must make a saving throw vs. spells; if failed, the target views the caster as a “best friend” and will defend them against any perceived threat. The spell does not affect animals, magical creatures, undead, or creatures larger than ogres.</p><p>The charmed creature obeys friendly commands but resists those that go against its nature or cause self-harm. The duration depends on the target’s Intelligence, allowing periodic saving throws:</p><ul><li>High Intelligence (13-18): Save every day</li><li>Average Intelligence (9-12): Save every week</li><li>Low Intelligence (3-8): Save every month</li></ul>",
+      "description": "<p>This spell will only affect humans, demihumans, and certain other creatures. The victim is allowed a saving throw vs. spells. If the saving throw is successful, the spell has no effect. If it fails, the victim will believe that the spellcaster is its \"best friend,\" and will try to defend the spellcaster against any threat, whether real or imagined. The victim is charmed.</p><p>As a general rule, the spell only affects creatures which look similar to humans in various ways—humans, demihumans, certain giant-class creatures, etc. It will not affect animals, magical creatures (such as living statues), undead monsters, or human-like creatures larger than ogres.</p><p>If the spellcaster can speak a language that the <em>charmed</em> victim understands, the spellcaster may give orders to the victim. These orders should sound like suggestions, as if \"just between friends.\" The <em>charmed</em> victim will usually obey, but the victim may resist orders that are contrary to the victim's nature (alignment and habits)—he doesn't need to roll anything to resist. A victim will refuse to obey if ordered to kill itself.</p><p>A <em>charm</em> may last for months. The victim may make another saving throw every so often, depending on its Intelligence score:</p><table><thead><tr><th>If the Victim Has</th><th>He Saves Every</th></tr></thead><tbody><tr><td>High Intelligence (13–18)</td><td>1 day</td></tr><tr><td>Average Intelligence (9–12)</td><td>1 week</td></tr><tr><td>Low Intelligence (3–8)</td><td>1 month</td></tr></tbody></table><p></p><p>A more complex system for determining the duration of a charm spell appears in Chapter 13, on page 144.</p><p>A victim who is given conflicting orders and impressions by his old adventuring friends and his new \"best friend\" should react as any person would in real life: with confusion. He will not automatically assume that one party or the other is lying . . . even if the player wants him to.</p><p>The <em>charm</em> is automatically broken if the spellcaster attacks the victim, whether by spell or by weapon. The victim will fight normally if attacked by the spellcaster's allies.</p>",
       "name": "Charm Person",
       "spellDuration": "Varies based on Intelligence",
       "spellEffect": "One living person (see description)"
@@ -1827,7 +1827,7 @@
       "name": "Combat Bonuses (H)"
     },
     "Commune": {
-      "description": "<p>This spell allows the cleric to ask three yes-or-no questions of the greater powers (such as forces of nature, greater spirits, or Immortals).</p>\n                      <p><strong>Usage:</strong> May only be used once per week. The DM may restrict this to once a month if overused. Once a year, the cleric may ask six questions, usually on a day significant to the powers questioned.</p>",
+      "description": "<p>This spell allows the cleric to ask questions of the greater powers (whatever forces of nature, greater spirits, or legendary Immortals the DM has created for this campaign world). The cleric may ask three questions that can be answered \"yes\" or \"no.\"</p><p>A cleric may commune only once a week. If the clerics in the campaign are using the spell too often, the DM may wish to limit its use to once a month. Once a year the cleric may ask twice the normal number of questions. The DM might wish to establish that this must occur on a day which is significant to the greater powers being questioned.</p>",
       "name": "Commune",
       "spellEffect": "Allows 3 questions"
     },
@@ -1871,7 +1871,7 @@
       "spellEffect": "Prepares one other spell"
     },
     "Continual Darkness*": {
-      "description": "<p><em>Continual</em> <em>darkness</em>, creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
+      "description": "<p><em>Continual darkness</em> creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
       "name": "Continual Darkness*",
       "spellEffect": "Volume of 60' diameter"
     },
@@ -1881,7 +1881,7 @@
       "spellEffect": "Sphere of darkness 60' across"
     },
     "Continual Light*": {
-      "description": "<p>This spell creates a globe of light 60' across. It is much brighter than a torch but not as bright as full daylight. It will continue to glow forever, or until it is magically removed. It may be cast on an object, just as the first level <em>light</em> spell. If cast at a creature's eyes, the victim must make a saving throw vs. spells. If the saving throw is failed, the victim is blinded permanently, or until the spell is dispelled. If the saving throw is successful, the globe will remain in the place it was cast, and the intended victim will suffer no ill effects.</p><p>The reverse of this spell, <em>continual darkness</em>, creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
+      "description": "<p>This spell creates a globe of light 60' (30' radius) across. It is much brighter than a torch, but not as bright as full daylight. It will continue to glow forever, or until it is magically removed. It may be cast on an object, just as the first level light spell. If cast at a creature's eyes, the victim must make a saving throw vs. spells. If he fails the saving throw, the victim is blinded—permanently, or until the spell is dispelled. If he makes the saving throw, the globe will still appear, but will remain in the place it was cast, and the intended victim will suffer no ill effects.</p>",
       "name": "Continual Light*",
       "spellEffect": "Volume of 60' diameter"
     },
@@ -1910,9 +1910,9 @@
       "spellEffect": "Varies"
     },
     "Control Temperature 10' Radius": {
-      "description": "<p>This spell allows the druid to alter the temperature within a 10' radius (20' across) by up to 50 degrees Fahrenheit, either warming or cooling the air. The temperature changes instantly and remains as long as the druid maintains concentration and the spell's duration has not expired.</p>\n                      <p>The effect moves with the druid, and the temperature can be adjusted by concentrating for one round. This spell is especially useful for surviving in extreme cold or heat.</p>",
+      "description": "<p>This spell allows the druid to alter the temperature within an area 20' across. The maximum change is 50 degrees (Fahrenheit), either warmer or cooler. The change occurs immediately, and the effect moves with the druid. The druid may change the temperature simply by concentrating for 1 round, and the temperature will remain changed as long as the spell lasts. The spell is useful for resisting cold or heat so the caster may survive temperature extremes.</p>",
       "name": "Control Temperature 10' Radius",
-      "spellDuration": "1 turn per level of the caster",
+      "spellDuration": "1 turn/level",
       "spellEffect": "Cools or warms air within 10'",
       "spellRange": "0 (druid only)"
     },
@@ -1924,11 +1924,11 @@
       "spellRange": "Self"
     },
     "Control Winds": {
-      "description": "<p>This spell allows the druid to control all air within range, causing it to increase to gale force or slow to dead calm as desired. The caster must concentrate for one full turn (without moving or attacking) to achieve a complete change in wind force.</p>\n                      <p><strong>Effect on Air Creatures:</strong> If the spell is directed at an air creature (like an air elemental), it may make a saving throw vs. spells. If it fails, the druid may slay or control the creature by manipulating the wind. The creature remains controlled as long as the druid concentrates and the spell remains active; if concentration is broken or the spell ends, the creature will turn hostile and attack the druid.</p>\n                      <p><strong>Countering:</strong> A higher-level spellcaster using *Control Winds* can easily counter this spell.</p>",
+      "description": "<p>With this spell, the druid can cause all the air within range to behave as desired, either increasing to gale force or slowing to a dead calm. The druid must concentrate for one full turn of concentration (can't move or attack) to change the wind completely (calm to gale, for example). Any higher-level spellcaster using the same spell can easily counter the spell. The effect moves with the caster.   </p><p>If the spell is cast against an air creature (such as an elemental), the victim can make a saving throw vs. spells. If the victim fails its roll, the druid can slay or control the air creature by proper use of the wind force. The creature will only obey as long as the druid maintains concentration and while the spell is active; if the druid's concentration is broken or the spell's duration lapses, the creature will attack the druid.</p>",
       "name": "Control Winds",
-      "spellDuration": "1 turn per level of the caster",
+      "spellDuration": "1 turn/level",
       "spellEffect": "Calms or increases winds",
-      "spellRange": "10' radius per level of the caster"
+      "spellRange": "10'/level"
     },
     "Controlled": {
       "description": "<p>The creature’s will or actions are no longer its own. It is under the influence of another force — magical, mental, or otherwise unnatural — and acts in accordance with that power’s wishes until freed.</p>",
@@ -1963,7 +1963,7 @@
       "spellEffect": "Creates one or more monsters"
     },
     "Create Food": {
-      "description": "<p>This spell creates enough food to feed up to 12 men and their mounts for one day. For every level above 8th, it creates enough for 12 more people and mounts.</p>\n                      <p><strong>Note:</strong> Created food spoils after 24 hours and cannot be stored for future use.</p>",
+      "description": "<p>This spell creates enough normal food to feed up to 12 men and their mounts for one day. For every level of the cleric above 8th, the spell creates enough food for 12 additional men and mounts. The cleric doesn't have to create the maximum amount of food if he doesn't wish to; he can create a lesser amount. Created food spoils after 24 hours; therefore it is impossible to lay in a big store of food created by this spell.</p>",
       "name": "Create Food",
       "spellEffect": "Creates food for 12 or more"
     },
@@ -1978,9 +1978,10 @@
       "spellEffect": "Creates one or more magical monsters"
     },
     "Create Normal Animals": {
-      "description": "<p>This spell allows the cleric to create normal animals out of thin air. The animals appear at a chosen point within 30' and will obey the cleric at all times. They can be commanded to fight, carry items, guard areas, or perform other tasks within their natural abilities.</p>\n                      <p>Once created, the animals can be sent up to 240' away but will continue to follow the cleric's commands. However, if instructions are not carefully worded, they may act according to their natural instincts.</p>\n                      <p><strong>Number and Size of Animals:</strong> The cleric chooses the number of animals, but not their exact type. The DM determines the specific creatures, which may include:</p>\n                      <ul>\n                        <li>1 large animal (e.g., elephant, hippopotamus)</li>\n                        <li>3 medium-sized animals (e.g., bear, great cat)</li>\n                        <li>6 small animals (e.g., wolf, rock baboon)</li>\n                      </ul>\n                      <p>The spell <strong>cannot</strong> create giant animals. The animals disappear when slain or when the spell duration ends.</p>",
+      "description": "<p>The cleric is able to create normal animals from thin air with this spell. The animals will appear at a point chosen (within 30'), but may thereafter be sent (by command) up to 240' away, if desired. The animals created will understand and obey the cleric at all times. They will fight if so commanded, and will perform other actions (carrying, watching, etc.) to the best of their abilities. They are normal animals, and may attack others unless their instructions are carefully worded.</p><p>The cleric may choose the number of animals created, but not the exact type; the DM should decide, or even randomly determine, what sort of animals appear. The spell will create one large animal (elephant, hippopotamus, etc.), three medium-sized animals (bear, great cat, etc.), or six small animals (wolf, rock baboon, etc.). The spell cannot create giant animals. The animals disappear when slain or when the spell duration ends.</p>",
       "name": "Create Normal Animals",
-      "spellEffect": "Creates 1-6 loyal animals"
+      "spellEffect": "Creates 1-6 loyal animals",
+      "spellRange": "30'/240'"
     },
     "Create Normal Monsters": {
       "description": "<p>This spell causes monsters to appear out of thin air, obeying the caster's commands for the spell duration.</p><h4>Effects:</h4><ul><li>The caster may summon one or more monsters within 30'.</li><li>The summoned creatures obey the caster's commands—fighting, carrying objects, fetching items, etc.</li><li>Each monster appears fully equipped with its normal weapons and armor (if any) but no other possessions.</li><li>At the end of 1 turn (10 minutes), all summoned monsters vanish, along with any equipment they dropped.</li></ul><h4>Summoning Rules:</h4><ul><li>The total number of summoned Hit Dice (HD) equals the caster’s level.</li><li>Only monsters with no special abilities (i.e., no asterisk * next to their Hit Dice in the monster manual) may be summoned.</li><li>The caster chooses the specific monsters within these limitations.</li><li>This spell cannot create humans, demihumans, or undead.</li><li>Monsters of 1-1 HD count as 1 HD each.</li><li>Monsters of 1/2 HD or less count as 1/2 HD each.</li></ul><h4>Examples:</h4><p>A 15th-level caster could summon:</p><ul><li>30 giant bats, rats, or kobolds (1/2 HD creatures).</li><li>15 goblins, orcs, or hobgoblins (1 HD creatures).</li><li>7 rock baboons, gnolls, or lizard men (2 HD creatures).</li><li>5 boars, draco lizards, or bugbears (3 HD creatures).</li><li>3 black bears, panthers, or giant weasels (5 HD creatures).</li></ul>",
@@ -1998,9 +1999,9 @@
       "spellEffect": "Creates one magical spring"
     },
     "Creeping Doom": {
-      "description": "<p>This spell summons a massive swarm of 1,000 creeping insects that appear anywhere within 120 feet of the druid.</p><h4>Effects:</h4><ul><li>The swarm initially covers a 20' x 20' area but can be spread to cover up to 60' x 60'.</li><li>The swarm moves at a rate of 60' per round if the druid remains within 120 feet of any part of it.</li><li>Any creature caught in the swarm takes 100 points of damage per round (no saving throw).</li><li>The insects remain for the spell’s duration or until the druid moves more than 120 feet away.</li><li><p>Normal attacks only partially damage the swarm:</p><ul><li>A fireball only destroys 100 insects (reducing the total damage by 10 points).</li><li>Other attacks can destroy similar small portions of the swarm.</li></ul></li><li>The swarm can move over most obstacles at normal speed and ignores protection from evil effects.</li><li>A dispel magic can destroy the swarm at normal chances of success.</li></ul>",
+      "description": "<p>This spell magically creates a huge swarm of 1,000 creeping insects, appearing anywhere within 120' of the druid (as chosen by the caster). They fill an area at least 20' x 20', and can be ordered to fill any area up to a maximum of 60' x 60'.   </p><p>The <em>creeping doom</em> can move at up to 60' (20') if the caster remains within 120' of any part of the swarm. They vanish after the duration ends, or whenever the druid is more than 120' away.   </p><p>The insects always attack everyone and everything in their path, inflicting 1 point of damage per 10 insects, a total of 100 points per round to each creature caught in the effect (no saving throw). Normal attacks (such as fire) can damage the horde slightly, but even a <em>fireball</em> spell will only slay 100 of them (reducing the damage accordingly). The <em>creeping doom</em> can be destroyed by a <em>dispel magic</em> spell (at normal chances for success), but it can penetrate a <em>protection from evil</em> effect, and can move over most obstacles at the normal movement rate.</p>",
       "name": "Creeping Doom",
-      "spellDuration": "1 round per caster level",
+      "spellDuration": "1 round/level",
       "spellEffect": "Creates a 20' x 20' insect horde"
     },
     "Crossbow, Heavy": {
@@ -2070,7 +2071,7 @@
       "spellRange": "Self"
     },
     "Cure Critical Wounds*": {
-      "description": "<p>This spell heals one living creature of 3d6 + 3 points of damage.</p>",
+      "description": "<p>This spell is similar to a <em>cure light wounds</em> spell, but will cure one living creature of 3d6 + 3 (6–21) points of damage.</p><p>The reverse of this spell (<em>cause critical wounds</em>) causes 3d6 + 3 (6–21) points of damage to any living creature or character touched (no saving throw). The caster must make a normal attack roll to cause the critical wound.</p>",
       "name": "Cure Critical Wounds*",
       "spellEffect": "Heals one living creature"
     },
@@ -2090,7 +2091,7 @@
       "spellEffect": "Heals one living creature"
     },
     "Cureall": {
-      "description": "<p>This is the most powerful healing spell available. When used to cure wounds, it restores nearly all damage, leaving the recipient with only [[/r 1d6 #damage remains]] points of damage remaining.</p><p><strong>Healing Process:</strong> Restore the target to full starting hit points, then roll 1d6 and subtract that amount from their total.</p><p><strong>Alternative Uses:</strong> Instead of healing damage, <em>Cureall</em> may be used to cure <em>one</em> of the following conditions:</p><ul><li>Remove a curse</li><li>Neutralize poison</li><li>Cure paralysis</li><li>Cure disease</li><li>Cure blindness</li><li>Remove a <em>Feeblemind</em> effect</li></ul><p>If the recipient is suffering from multiple afflictions (such as wounds and a curse), the cleric must specify which one the spell is curing.</p><p><strong>Effect on Recently Raised Creatures:</strong> If cast on someone who has just been affected by <em>Raise Dead</em>, <em>Cureall</em> eliminates the need for two weeks of bed rest, allowing the target to function normally immediately. This is the only magical healing that works on a newly raised creature.</p>",
+      "description": "<p>This spell is the most powerful of the healing spells. When used to cure wounds, it cures nearly all damage, leaving the recipient with only 1d6 points of damage. (Restore the victim to full starting hit points, then roll 1d6 and subtract that amount from the victim's hit point total.)</p><p>The spell can remove a curse, neutralize a poison, cure paralysis, cure a disease, cure blindness, or even remove a <em>feeblemind</em> effect instead of healing. However, it will cure one thing only; if the recipient is suffering from two or more afflictions (such as wounds and a curse), the cleric must name the ailment the spell is intended to cure.</p><p>If cast on the recipient of a <em>raise dead</em> spell, the <em>cureall</em> eliminates the need for two weeks of bed rest; the recipient can immediately function normally. This is the only form of magical curing that will work on a newly-raised creature.</p>",
       "name": "Cureall",
       "spellEffect": "Cures anything"
     },
@@ -2174,6 +2175,7 @@
     },
     "Darkness*": {
       "description": "<p><em>Darkness</em>, creates a 30' diameter circle of darkness that blocks all sight except infravision. <em>Darkness</em> can counter <em>light</em> and vice-versa. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the effect ends.</p>",
+      "gmNotes": "Like a few other spells that use \"diameter\", the radius is half that.",
       "name": "Darkness*",
       "spellDuration": "6 turns + 1 turn/level",
       "spellEffect": "Volume of 30' diameter"
@@ -2223,11 +2225,11 @@
       "name": "Despair"
     },
     "Detect Danger": {
-      "description": "<p>This spell allows the caster to sense hazards by concentrating on places, objects, or creatures within range. The caster needs a full round of concentration to examine one square foot of area, one creature, or one small object. Larger objects require more time.</p>\n                <p>After examination, the caster knows if the target is immediately dangerous, potentially dangerous, or benign, from the caster's point of view. The spell can detect poisons, which other spells might not. The duration is one hour in natural outdoor settings on the Prime Plane; elsewhere, it lasts for only three turns.</p>",
+      "description": "<p>This spell combines some effects of <em>detect evil</em> and <em>find traps</em>. While it is functioning, the druid can concentrate on places, objects, or creatures within range. He needs a full round of concentration to examine one square foot of area, one creature, or one small object (a chest, weapon, or smaller item). Larger objects require more time.</p><p>After he examines the thing, the druid will know whether it is immediately dangerous, potentially dangerous, or benign (all strictly from the druid's point of view). Note that most creatures are potentially dangerous. This spell will detect poisons, while other spells may not.</p><p>The duration is a full hour when used in natural outdoor settings on the Prime Plane; elsewhere, the duration is half normal (three turns).</p>",
       "name": "Detect Danger",
       "spellDuration": "One hour",
       "spellEffect": "Reveals hazards",
-      "spellRange": "5' per level of the caster"
+      "spellRange": "5'/level"
     },
     "Detect Deception": {
       "description": "<p>The character can recognize deceptive behavior in an NPC. This skill does not reveal the truth of specific statements, motivations, or the exact nature of the deception. It only warns the character to distrust the deceptive NPC. The DM rolls secretly, informing the character only if successful. This skill does not work on player characters.</p>",
@@ -2268,7 +2270,7 @@
       "description": "<p>This spell enables the spellcaster to see all invisible creatures and objects within range. The range is 10' for each level of the spellcaster. For example, a 3rd level spellcaster can use this spell to see invisible things within 30'.</p>",
       "name": "Detect Invisible",
       "spellEffect": "The spellcaster only",
-      "spellRange": "10' per level of the spellcaster"
+      "spellRange": "10'/level"
     },
     "Detect Invisible@SweWOsKvrGVPiDno": {
       "description": "<p>This effect enables the user to see all invisible creatures and objects within range. The range is 60'.</p>",
@@ -2362,7 +2364,7 @@
       "spellEffect": "Destroys one creature or object"
     },
     "Dispel Evil": {
-      "description": "<p>This spell affects all undead and enchanted monsters within 30'. Each affected creature must make a saving throw vs. spells or be destroyed. If cast on a single creature, it takes a -2 penalty to its saving throw.</p>\n                      <p><strong>Effect:</strong> Banishes creatures from other planes if they fail their saving throw. Those that save must flee and stay away as long as the caster concentrates, remaining stationary.</p>\n                      <p>The spell can also remove a curse from one item or dispel a magical charm effect on a creature.</p>",
+      "description": "<p>This spell may affect all undead and enchanted (summoned, controlled, and animated) monsters within range. It will destroy the monster unless each victim makes a saving throw vs. spells. If cast at only one creature, that creature takes a -2 penalty to the saving throw. Any creature from another plane is banished (forced to return to its home plane) if it fails the saving throw. Even if the victims successfully roll their saving throws, they must flee the area, and will stay away as long as the caster concentrates; the caster cannot move while concentrating.</p><p>This spell will also remove the curse from any one cursed item, or may be used to remove the influence of any magical charm.</p>",
       "name": "Dispel Evil",
       "spellEffect": "Affects undead, enchanted creatures, or one curse or charm"
     },
@@ -2372,7 +2374,7 @@
       "spellEffect": "Destroys spells in a 20' cube"
     },
     "Dispel Magic (C)": {
-      "description": "<p>This spell destroys other spell effects within a 20' x 20' x 20' area. It does not affect magical items but can cancel temporary effects they produce.</p>\n                      <p><strong>Effect:</strong> Automatically dispels spells from casters of equal or lower level. For higher-level casters, there is a 5% chance of failure per level difference.</p>\n                      <p>Examples: A 7th-level caster trying to dispel a spell from a 9th-level caster has a 10% chance of failure.</p>",
+      "description": "<p>This spell destroys other spell effects in a cubic volume of 20' x 20' x 20'. It does not affect magical items. Spell effects created by a caster (whether cleric, druid, magic-user, or elf) of a level equal to or lower than the caster of the <em>dispel magic</em> are automatically and immediately destroyed. Spell effects created by a higher-level caster might not be affected. The chance of failure is 5% per level of difference between the casters. For example, a 7th level cleric trying to dispel a <em>web</em> spell cast by a 9th level magic-user would have a 10% chance of failure.</p><p><em>Dispel magic</em> will not affect a magical item (such as a scroll, a magical sword, etc.). However, it can dispel the effects of the magical item when that item is used (for example, a spellcaster can cast <em>dispel magic</em> on the victim of a <em>ring of human control</em> and snap him out of that control, or on a flaming weapon to douse the flame).</p>",
       "name": "Dispel Magic (C)",
       "spellEffect": "Destroys spells in a 20' cube"
     },
@@ -2383,7 +2385,7 @@
       "unidentifiedName": "Strange Cloak"
     },
     "Dissolve": {
-      "description": "<p>This spell turns soil or rock (but not constructed materials) within 240' into mud, affecting an area up to 3,000 square feet and up to 10' deep. The caster can determine the shape of the area within these limits (e.g., 20' x 150', 30' x 100').</p><p><strong>Movement Effects:</strong> Creatures moving through the mud are slowed to 10% of their normal speed and may become stuck. At the DM's discretion, creatures in the area may need to make a saving throw vs. spells to avoid being stuck.</p><p><strong>Duration:</strong> The effect lasts for [[/r 3d6 #days]] 3-18 days.</p>",
+      "description": "<p>Nearly identical to the 5th level magic-user spell of the same name, this effect changes a volume of soil or rock (but not a construction) to a morass of mud. An area up to 10' deep or thick is affected, and may have up to 3,000 square feet of surface area. The druid may choose the exact width and length (20' x 150', 30' x 100', etc.), but the entire area of effect must be within 240' of the caster. Creatures moving through the mud are slowed to 10% of their normal movement rate at best, and may become stuck (at the DM's discretion, a victim must make a saving throw vs. spells to avoid becoming stuck).</p>",
       "name": "Dissolve",
       "spellDuration": "3-18 days",
       "spellEffect": "Liquefies 3,000 square feet"
@@ -2547,7 +2549,7 @@
       "spellEffect": "All thoughts in one direction"
     },
     "Earthquake": {
-      "description": "<p>This powerful spell causes the ground to shake violently, creating cracks and destruction in an area up to 60' square. The affected area increases by 5' per caster level above 17th.</p>\n                      <p><strong>Area of Effect:</strong></p>\n                      <ul>\n                        <li>17th level cleric: 60' square</li>\n                        <li>18th level cleric: 65' square</li>\n                        <li>19th level cleric: 70' square</li>\n                        <li>+5' to each dimension per additional level</li>\n                      </ul>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>Small dwellings collapse into rubble.</li>\n                        <li>Larger structures suffer severe cracks.</li>\n                        <li>Hills, cliffs, and earthen formations trigger rockslides.</li>\n                        <li>Cracks may open in the ground, randomly engulfing 1 in 6 creatures.</li>\n                      </ul>\n                      <p>A creature in danger of falling into a crack may attempt a <strong>saving throw vs. death</strong> to avoid being crushed.</p>",
+      "description": "<p>This powerful spell causes a section of earth to shake, and opens large cracks in the ground. A 17th level caster can affect an area up to 60' square, adding 5' to each dimension with each experience level above 17th. For example, an 18th level cleric affects an area up to 65' square; 19th level, 70' square; and so forth.   </p><p>Within the area of effect, all small dwellings are reduced to rubble, and larger constructions are cracked open. Earthen formations (hills, cliffsides, etc.) form rockslides. Cracks in the earth may open and engulf 1 creature in 6 (determined randomly), crushing them (when the die roll randomly determines that a character is in danger of falling into a crack and being crushed, the character gets a saving throw vs. death to escape falling in).</p>",
       "gmNotes": "Can't automate area template due to weird formula.",
       "name": "Earthquake",
       "spellEffect": "Causes earth tremors",
@@ -2734,9 +2736,9 @@
       "name": "Fading"
     },
     "Faerie Fire": {
-      "description": "<p>This spell outlines one or more creatures or objects with a pale, flickering, greenish fire, which does not cause damage. The outlined creatures or objects become more visible, granting a +2 bonus to attack rolls against them. The druid can outline one man-sized creature for each 5 levels of experience, up to a maximum of 48 feet of fire at 20th level.</p><p>The objects or creatures need only be detected in some way (such as by sight, or a <em>detect invisible</em> spell) to be the object of this spell.</p>",
+      "description": "<p>With this spell, the druid can outline one or more creatures or objects with a pale, flickering, greenish fire. The fire does not inflict any damage. The objects or creatures need only be detected in some way (such as by sight, or a detect invisible spell) to be the object of this spell.</p><p>All attacks against the outlined creature or object gain a +2 bonus to attack rolls. The druid can outline one man-sized creature (about 12' of fire) for each 5 levels of experience. Thus, at 20th level, 48' of fire can be produced (outlining one dragon-sized creature, two horse-sized, or four man-sized creatures).</p>",
       "name": "Faerie Fire",
-      "spellDuration": "1 round per level of caster",
+      "spellDuration": "1/level",
       "spellEffect": "Illuminates creatures or objects"
     },
     "Faerie Lights": {
@@ -2863,13 +2865,13 @@
       "spellRange": "0 (caster only)"
     },
     "Find the Path": {
-      "description": "<p>By casting this spell, the cleric gains the ability to navigate toward a specific place, even if they have never been there before. For the duration of the spell, the cleric instinctively knows the direction to their destination.</p>\n                      <p><strong>Special Knowledge:</strong> In addition to knowing the correct path, the cleric gains magical awareness of any special knowledge needed to reach the location. This may include:</p>\n                      <ul>\n                        <li>The location of secret doors</li>\n                        <li>Hidden or obscured passages</li>\n                        <li>Passwords required to gain entry</li>\n                      </ul>\n                      <p><strong>Duration Effects:</strong> When the spell ends, the cleric retains only a general sense of the direction to the destination; all other special knowledge is forgotten.</p>\n                      <p><strong>Restriction:</strong> If the cleric attempts to record or disclose the special knowledge to others in any way, the spell is instantly negated.</p>\n                      <p>This spell is often used to find fast escape routes or to navigate unknown terrain.</p>",
+      "description": "<p>When casting this spell, the cleric must name a specific place, though it need not be a place he has visited before. For the duration of the spell, the cleric knows the direction to that place. In addition, the cleric will magically gain any special knowledge needed to get to the place; for example, he would know the location of secret doors, passwords, and so forth.</p><p>When the spell's duration runs out, the caster only remembers the general direction to the place. All other special information is forgotten.</p><p>The spell is instantly negated if the caster attempts to write down, record, or disclose that special knowledge to others. This spell is often used to find a fast escape route.</p>",
       "name": "Find the Path",
-      "spellDuration": "6 turns + 1 turn per level of the caster",
+      "spellDuration": "6 turns + 1/level",
       "spellEffect": "Shows the path to an area"
     },
     "Finger of Death*": {
-      "description": "<p>The reversed form of <em>Raise Dead</em>, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p><p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p><p>A Lawful cleric will typically only use <em>Finger of Death</em> in life-or-death situations.</p>",
+      "description": "<p><em>Finger of death</em> creates a death ray that will kill any one living creature within 60'. The victim may make a saving throw vs. death ray to avoid the effect. A Lawful cleric will only use <em>finger of death</em> in a life-or-death situation. <em>Finger of death</em> will actually cure 3d10 (3–30) points of damage for any undead with 10 or more Hit Dice (phantom, haunt, spirit, nightshade, or special).</p>",
       "name": "Finger of Death*",
       "spellEffect": "Kills one living creature or heals high-HD undead"
     },
@@ -2923,7 +2925,7 @@
       "spellRange": "20' + 10'/level"
     },
     "Floating Disc": {
-      "description": "<p>This spell creates an invisible, horizontal disc capable of carrying up to 5000 cn (500 lbs). The disc remains at the caster's waist height and follows them, staying within 6' at all times. It cannot be used as a weapon or pass through obstacles. When the spell ends, the disc disappears, dropping anything it carried.</p>",
+      "description": "<p>This spell creates an invisible, horizontal disc capable of carrying up to 5,000 cn (500 lbs). The disc remains at the caster's waist height and follows them, staying within 6' at all times. It cannot be used as a weapon or pass through obstacles. When the spell ends, the disc disappears, dropping anything it carried.</p>",
       "name": "Floating Disc",
       "spellEffect": "Disc remains within 6'"
     },
@@ -3316,7 +3318,7 @@
       "name": "Hear Noise (B)"
     },
     "Heat Metal": {
-      "description": "<p>This spell causes one metal object to slowly heat and then cool. It can affect one metal item weighing up to one-half pound (5 cn) per level of the caster. For example, a 12th level caster can heat up to 6 pounds (60 cn), such as a normal sword, while a 20th level caster can heat up to 10 pounds (100 cn), enough to heat a two-handed sword.</p>\n                <p>The heat does not damage magical items but may severely damage normal weapons or items, especially if they contain both wood and metal. If held, the object causes increasing damage each round: 1 point in the first round, 2 in the second, 4 in the third, and 8 in the fourth. The damage then decreases at the same rate over the remaining rounds. In the fourth round, leather, wood, and other flammable materials in contact with the metal catch fire. Total damage over seven rounds is 22 points.</p>\n                <p>The holder gets no saving throw, but fire resistance negates all damage. The holder can drop the item at any time, and creatures of low intelligence are 80% likely to do so each round. The spell disrupts concentration, preventing spellcasting for the duration of damage.</p>\n                <p>Once cast, the spell does not require concentration. Only a <em>dispel magic</em> spell can stop it; normal means, like immersion in water, do not affect it. If cast on an object embedded in a creature (like an arrow or dagger), removing it causes the loss of initiative for that round and inflicts damage for that round as well.</p>",
+      "description": "<p>This spell causes one object to slowly heat and then cool. It will affect one metal item weighing up to one-half pound (5 cn) per level of the caster. A 12th level druid, for example, can heat up to 6 pounds (60 cn—a normal sword, for instance), <span class=\"citation-377 citation-378 citation-379 citation-end-379\">while a 20th level druid can heat 10 pounds (100 cn—for example, a two-handed sword).</span></p><div class=\"source-inline-chip-container luminous-sources ng-star-inserted\"><p data-path-to-node=\"1\" id=\"p-rc_cb3cc8103b30aebd-33\"><span class=\"citation-374 citation-375 citation-376 citation-end-376\">The heat causes no damage to magical items. Normal weapons or other items may be severely damaged, especially if made of both wood and metal (as a normal lance), as the wood will burn away at the point </span><span class=\"citation-374 citation-375 citation-end-375\">of contact with metal.</span></p><p data-path-to-node=\"2\" id=\"p-rc_cb3cc8103b30aebd-34\"><span class=\"citation-372 citation-373 citation-end-373\">If the object is being held when heated, the heat causes damage to the holde</span><span class=\"citation-372 citation-end-372\">r: 1 point of damage during the first round, 2 points in the second, 4 points in the third, 8</span> points in the fourth, and then decreasing at the same rate (for a total of 22 points of heat damage over seven rounds). In the fourth round, the searing heat will cause leather, wood, paper, and other flammable objects in contact with the <span class=\"citation-371 citation-end-371\">metal to catch fire.</span></p></div><p data-path-to-node=\"3\" id=\"p-rc_cb3cc8103b30aebd-35\"><span class=\"citation-370\">The holder gets no saving throw, but fire resistance negates all damage. The character can drop the item at any time, of course, and creatures </span><span class=\"citation-368 citation-369 citation-370 citation-end-370\">of low intelligence are 80% likely to do so (check each round).</span></p><p data-path-to-node=\"4\" id=\"p-rc_cb3cc8103b30aebd-36\"><span class=\"citation-365 citation-366 citation-367 citation-end-367\">Once the spell has been cast, the druid no longer n</span><span class=\"citation-365 citation-366\">eeds to concentrate; the heating and cooling proceed automatically. A <em data-path-to-node=\"4\" data-index-in-node=\"121\">dispel magic</em></span><span class=\"citation-365 citation-366 citation-end-366\"> can stop the effect, but normal </span><span class=\"citation-365 citation-end-365\">means (i</span>mmersion in water, etc.) will not.</p><p data-path-to-node=\"5\">If the spell is used on an item imbedded in an opponent (such as an arrow or dagger), the opponent may remove the item but loses initiative for that round (and takes the appropriate heat damage for that round as well).</p><p data-path-to-node=\"6\">Heat damage disrupts concentration; the victim cannot cast spells during any round in which he sustains damage from this spell.</p>",
       "name": "Heat Metal",
       "spellEffect": "Warms one metal object"
     },
@@ -3361,9 +3363,9 @@
       "name": "Hide, Natural (H)"
     },
     "Hold Animal": {
-      "description": "<p>This spell paralyzes normal or giant-sized animals within a range of 180'. The spell does not affect creatures with greater than animal intelligence (2) or fantastic creatures.</p>\n                      <p><strong>Effect:</strong> Each animal makes a saving throw vs. spells to resist paralysis for the spell’s duration. The druid can affect 1 Hit Die of animals per caster level, ignoring any “pluses” to Hit Dice. For example, a 20th-level druid could hold 10 giant toads (2 + 2 HD each).</p>\n                      <p>This spell can also affect summoned, conjured, or controlled animals.</p>",
+      "description": "<p>This spell will affect any normal or giant-sized animal, but will not affect any fantastic creature, nor one of greater than animal intelligence (2). Each victim must make a saving throw vs. spells or be paralyzed for the duration of the spell.   </p><p>The druid can affect 1 Hit Die of animals for each level of experience, ignoring \"pluses\" to Hit Dice. For example, a 20th level druid could cast the spell at 10 giant toads (which have 2+2 Hit Dice each). Note that the spell can affect summoned, conjured, or controlled animals.</p>",
       "name": "Hold Animal",
-      "spellDuration": "1 turn per level of the caster",
+      "spellDuration": "1 turn/level",
       "spellEffect": "Paralyzes several animals"
     },
     "Hold Monster*": {
@@ -3384,7 +3386,7 @@
       "spellEffect": "Paralyzes up to 4 creatures"
     },
     "Hold Portal": {
-      "description": "<p>This spell magically holds a door, gate, or similar portal shut for [[/r 2d6 #Hold Portal turns]] turns. A <em>knock</em> spell can open it, or a creature with three or more Hit Dice (or levels) above the caster can break it in one round. If the portal closes within the spell’s duration, it will relock.</p><p><strong>Example:</strong> A 5th level character can break through a <em>hold portal</em> spell cast by a 2nd level spellcaster.</p>",
+      "description": "<p>This spell magically holds a door, gate, or similar portal shut for [[/r 2d6 #Hold Portal turns]] turns. A <em>knock</em> spell can open it, or a creature with three or more Hit Dice (or levels) above the caster can break it in one round. If the portal closes within the spell’s duration, it will relock.</p><p>Example<strong>:</strong> A 5th level character can break through a <em>hold portal</em> spell cast by a 2nd level spellcaster.</p>",
       "name": "Hold Portal",
       "spellDuration": "2d6 turns",
       "spellEffect": "One door, gate, or similar portal"
@@ -3400,7 +3402,7 @@
       "unidentifiedDesc": "<p>This water is made holy by a high-level cleric and can cause damage to undead creatures. It is typically stored in a breakable vial or gourd and can be thrown to splash the target.</p>"
     },
     "Holy Word": {
-      "description": "<p>This powerful spell affects all creatures, friend or foe, within a 40' radius of the caster. Creatures of alignments other than the cleric's suffer the following effects, with no saving throw allowed:</p>\n                      <table>\n                        <thead>\n                          <tr><th>Creature Level / HD</th><th>Effect</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Up to 5th Level / HD</td><td>Killed instantly</td></tr>\n                          <tr><td>6th - 8th Level / HD</td><td>Stunned for [[/r 2d10 #turns]] turns</td></tr>\n                          <tr><td>9th - 12th Level / HD</td><td>Deafened for [[/r 1d6 #turns]] turns</td></tr>\n                          <tr><td>13+ Level / HD</td><td>Stunned for [[/r 1d10 #rounds]] rounds</td></tr>\n                        </tbody>\n                      </table>\n                      <p><strong>Saving Throw:</strong> Any creature of 13th level / HD or higher, or one that shares the cleric’s alignment, may attempt a saving throw vs. spells to negate all effects.</p>\n                      <p><strong>Obstructions:</strong> *Holy Word* is not blocked by stone or solid materials, except for lead. It is also stopped by an *Anti-Magic Shell*.</p>",
+      "description": "<p>This spell affects all creatures, friend or foe, within a circular area of 40' radius, centered on the caster. When the cleric casts this spell, all creatures of alignments other than the cleric's are affected as follows (no saving throw vs. spells allowed):</p><table><thead><tr><th>Holy Word Effects</th><th>Effect</th></tr></thead><tbody><tr><td>Up to 5th Level</td><td>Killed</td></tr><tr><td>Level 6–8</td><td>Stunned [[/r 2d10 #Stunned turns]] turns</td></tr><tr><td>Level 9–12</td><td>Deafened [[/r 1d6 #Deafened turns]] turns</td></tr><tr><td>Level 13+</td><td>Stunned [[/r 1d10 #Stunned rounds]] rounds</td></tr></tbody></table><p>Any victim of 13th level (or Hit Dice) or higher, or any victim of the same alignment as the caster, may make a saving throw vs. spells to avoid all spell effects. This powerful spell cannot be blocked by stone, nor by any other solid material except lead. It can, however, be blocked by an anti-magic shell.</p>",
       "name": "Holy Word",
       "spellEffect": "All creatures within 40'"
     },
@@ -3574,7 +3576,7 @@
       "weaponMastery": "Javelin"
     },
     "Knock": {
-      "description": "<p>This spell unlocks any type of lock, including normal and magically locked doors (such as those affected by <em>hold portal</em> or <em>wizard lock</em>). It can also open secret doors, but the door must be located first. The spell does not permanently remove locking magic, which will re-engage once the door is closed again.</p>\n                  <p><em>Knock</em> can unstick a gate, cause a barred door to open (forcing the bar to fall), and make treasure chests open easily. However, if a door is both locked and barred, only one of the locks will be affected.</p>\n                  <p><strong>Note:</strong> If the lock is affected by a spell, the target can make a saving throw vs. spells to resist.</p>",
+      "description": "<p>This spell will open any type of lock. This spell will open any normal or magically locked door (one affected by a <em>hold portal</em> or <em>wizard lock</em> spell), and any secret door (but a secret door must be found before it can be knocked open). Any locking magic will remain, however, and will take effect once again when the door is closed. This spell will also unlock a gate, or unstick it if it is stuck, and will cause any treasure chest to open easily. It will also cause a barred door to open, magically forcing the bar to fall to the floor. If a door is locked and barred, only one type of lock will be opened.</p>",
       "name": "Knock",
       "spellDuration": "See below",
       "spellEffect": "One lock or bar"
@@ -3670,9 +3672,9 @@
       "unidentifiedName": "Leather Armor"
     },
     "Levitate": {
-      "description": "<p>This spell allows the caster to move vertically, up or down, without support. The caster cannot move side to side without pushing against something. Vertical movement is at a rate of 20' per round.</p><p>The spell can only be cast on the caster, who can carry up to 2,000 cn (200 lbs) while levitating. The caster can carry another man-sized creature if it isn’t wearing metal armor or heavily burdened. No saving throw is allowed for the levitated target.</p><p><strong>Duration:</strong> 6 turns plus 1 turn per level.</p>",
+      "description": "<p>When this spell is cast, the spellcaster may move up or down in the air without any support. This spell does not, however, allow the spellcaster to move from side to side. For example, a spellcaster could levitate to a ceiling, and then could slowly move sideways by pushing and pulling. His movement up or down is at the rate of 20' per round.</p><p>The spell cannot be cast on another person or object. The spellcaster may carry a normal amount of weight while levitating, up to 2,000 cn (200 lbs) in weight, possibly another man-sized creature (if it isn't wearing metal armor). Any creature smaller than man-sized can be carried, unless heavily laden. No saving throw is allowed.</p>",
       "name": "Levitate",
-      "spellDuration": "6 turns + 1 turn/level of the caster",
+      "spellDuration": "6 turns + 1 turn/level",
       "spellEffect": "The caster only"
     },
     "Levitating": {
@@ -3680,7 +3682,7 @@
       "name": "Levitating"
     },
     "Life Drain*": {
-      "description": "<p>The reverse of <em>Restore</em>, this spell drains one level of experience from the touched victim, just like the touch of a wight or wraith.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The victim loses one full level of experience immediately.</li>\n                        <li>If the victim is reduced to zero levels, they perish.</li>\n                      </ul>\n                      <p><strong>Cleric Effects:</strong></p>\n                      <ul>\n                        <li>Unlike *Restore*, casting this spell does <strong>not</strong> cause any level loss to the cleric.</li>\n                        <li>No rest is required after casting.</li>\n                      </ul>\n                      <p><strong>Alignment:</strong> This is a <strong>Chaotic act</strong>, generally avoided by Lawful clerics.</p>",
+      "description": "<p><em>Life drain</em>, drains one level of experience from the victim touched, just like the touch of a wight or wraith. Casting the reversed spell causes no experience level loss to the cleric, nor does it require any rest afterward, but it is a Chaotic act, avoided by Lawful clerics.</p>",
       "name": "Life Drain*",
       "spellEffect": "Drains 1 level from the target"
     },
@@ -3715,16 +3717,15 @@
       "name": "Listen Door"
     },
     "Locate": {
-      "description": "<p>This spell allows the druid to sense the direction of one known normal or giant-sized animal or plant within 120 feet. The caster must name the exact type of animal or plant, but does not need to see the specific one to locate it. This spell cannot locate fantastic creatures, plant monsters, or any intelligent creatures or plants.</p><p>The animal or plant gets no saving throw. (This spell is most often used to find special rare plants.)</p>",
+      "description": "<p>This spell allows the druid to sense the direction of one known normal animal or plant. The druid can locate (similar to the locate object spell) any normal or giant-sized animal, but not fantastic creatures, plant monsters, nor any intelligent creature or plant.   </p><p>He must name the exact type of animal or plant, but does not need to see the specific one he wishes to locate. The animal or plant gets no saving throw. (This spell is most often used to find special rare plants.)</p>",
       "name": "Locate",
-      "spellEffect": "Detects 1 animal or plant within 120'",
-      "spellRange": "0 (Druid only)"
+      "spellEffect": "Detects 1 animal or plant within 120'"
     },
     "Locate Object": {
       "description": "<p>The caster can locate a specific object within range. The caster must know the exact appearance of the object, or specify a common type such as \"any flight of stairs.\"</p>\n      <p>The spell will point towards the nearest specified object within range, providing direction but not distance. Range increases by 10' per level of the caster.</p>",
       "name": "Locate Object",
       "spellEffect": "One object within range",
-      "spellRange": "60' + 10' per level of the spellcaster"
+      "spellRange": "60'+10'/level"
     },
     "Locate Object (C)": {
       "description": "<p>This spell allows the caster to sense the direction of a known object within range, but not its distance. It can detect a common object with a partial description, such as \"stairs leading up,\" but will only indicate the direction of the nearest such object.  To find a specific object, the caster must <em>know</em> exactly what the object looks like (size, shape, color, etc.). The spell will not locate a creature.</p>",
@@ -3962,7 +3963,7 @@
       "spellEffect": "Merge into gaseous form"
     },
     "Metal to Wood": {
-      "description": "<p>This spell permanently transforms metal into dead wood.</p><h4>Effects:</h4><ul><li>The caster may transmute up to 5 pounds (50 cn) of metal per caster level.</li><li>The transformation is permanent and cannot be reversed by dispel magic.</li><li>Magical metal items have a 90% chance to resist this effect.</li><li>Armor transformed into wood falls off the wearer.</li><li>Weapons turned into wood become nonmagical wooden clubs.</li></ul>",
+      "description": "<p>This spell can be used to change any metal item or items into wood. The spell can transmute five pounds (50 cn weight) per level of the caster. Any magical metal item is 90% resistant to the magic. The effect is permanent, and the affected metal cannot be changed back with a dispel magic spell. Any armor changed to wood falls off the wearer and any weapons affected turn to nonmagical wooden clubs.</p>",
       "name": "Metal to Wood",
       "spellEffect": "Changes metal into dead wood"
     },
@@ -4518,7 +4519,7 @@
       "spellEffect": "Destroys or heals undead"
     },
     "Obscure": {
-      "description": "<p>This spell causes a misty vapor to rise from the ground, forming a large cloud. The cloud's height is 1 foot per caster level, and its diameter is 10 feet per level. For example, a 20th-level caster could create a cloud 20 feet high and 200 feet in diameter.</p>\n                <p>The cloud blocks vision, though the caster and creatures that can see invisible objects can see dimly through it. Other creatures in the cloud are effectively blind, delayed, and confused by the effect.</p>",
+      "description": "<p>This spell causes a misty vapor to arise from the ground around the druid, forming a huge cloud. The cloud is 1' high per level of the druid, and is 10' in diameter for each level. For example, a 20th level druid could cast an obscure 20' tall and 200' diameter (100' radius). The cloud has no ill effects except to block vision.</p><p>The caster, and all creatures able to see invisible things, will be able to see dimly through the cloud. All other creatures within the cloud will be delayed and confused by the effect. While within the cloud, these creatures are effectively blind.</p>",
       "name": "Obscure",
       "spellDuration": "1 turn per level of the caster",
       "spellEffect": "Creates a huge misty cloud",
@@ -4736,7 +4737,7 @@
       "name": "Parrying (Rod)"
     },
     "Pass Plant": {
-      "description": "<p>This spell allows the druid to teleport between two trees of the same type. The trees must be large enough to enclose the druid. Upon casting, the druid can step into one tree and immediately step out of another within range.</p>\n                      <p><strong>Teleportation Range by Tree Type:</strong></p>\n                      <table>\n                        <thead>\n                          <tr><th>Tree Type</th><th>Range</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Oak</td><td>600 yards</td></tr>\n                          <tr><td>Ash, Elm, Linden, Yew</td><td>360 yards</td></tr>\n                          <tr><td>Evergreen trees</td><td>300 yards</td></tr>\n                          <tr><td>Other trees</td><td>240 yards</td></tr>\n                        </tbody>\n                      </table>",
+      "description": "<p>With this spell, the druid can enter one tree, teleport, and immediately step out of another tree of the same type. The trees must be large enough to enclose the druid. The range a druid can teleport varies by the type of tree, as follows:   </p><p><strong>Oak</strong>: 600 yards   </p><p><strong>Ash, Elm, Linden, Yew</strong>: 360 yards</p><p><strong>Evergreen trees</strong>: 240 yards</p><p><strong>Other trees</strong>: 300 yards</p>",
       "name": "Pass Plant",
       "spellEffect": "Short-range teleportation",
       "spellRange": "0 (druid only)"
@@ -4923,7 +4924,7 @@
       "name": "Petrified"
     },
     "Phantasmal Force": {
-      "description": "<p>This spell creates an illusion that affects everything within the specified area. The illusion can be of anything the caster has seen before. If the caster creates something they have not seen, targets receive a bonus to their saving throws to disbelieve the illusion.</p><p>Non-attacking illusions disappear when touched. If the illusion mimics an attack (like a magic missile or a collapsing wall), the target may save vs. spells to negate its effects. The illusionary creature has AC 9 and disappears when struck.</p><p>The phantasmal force persists as long as the caster maintains concentration. If the caster moves, is damaged, or fails a saving throw, concentration is lost and the illusion vanishes. The spell causes no real damage. Those \"killed\" by it merely fall unconscious for [[/r 1d4 #turns]] turns, and any effects like \"turning to stone\" result in temporary paralysis.</p>",
+      "description": "<p>This spell creates or changes appearances of everything within the area affected. The spellcaster can create the illusion of something he or she has seen. If not, the DM will give a bonus to the saving throws of those trying to ignore the spell's effects. If the spellcaster does not use this spell to attack, the illusion created by this spell will disappear when touched.</p><p>If the spellcaster uses the spell to create the illusion of a monster, it will appear in every way to be the monster in question. However, the monster is AC 9 and will disappear when hit.</p><p>If the spellcaster uses the spell to create an attack (a phantasmal magic missile, collapsing wall, etc.), the victim may make a saving throw vs. spells; if he is successful, the victim is not affected, and realizes that the attack is an illusion.</p><p>The <em>phantasmal force</em> will remain as long as the spellcaster concentrates. If the spellcaster moves, takes any damage, or fails any saving throw, his concentration is broken and the phantasm disappears.</p><p>This spell never inflicts any real damage. Those \"killed\" by it will merely fall unconscious, those \"turned to stone\" will be paralyzed, and so forth. The effects wear off in 1d4 turns. If the character does make his saving throw to realize that the attack is an illusion, the damage sustained disappears immediately.</p>",
       "name": "Phantasmal Force",
       "spellEffect": "A volume 20' x 20' x 20'"
     },
@@ -4956,9 +4957,9 @@
       "name": "Planar Geography"
     },
     "Plant Door": {
-      "description": "<p>This spell allows the druid to pass freely through any plant growth or barrier, no matter how dense. Trees, vines, and other plants will bend or magically open to create a passage for the druid, who can carry equipment while moving through but cannot bring other creatures with them.</p>\n                      <p>The druid may also hide inside a large tree after casting this spell, though they cannot see what is happening outside the tree while within.</p>",
+      "description": "<p>For the duration of this spell, no plants can prevent the druid's passage, no matter how dense. Even trees will bend or magically open to allow the druid to pass. The druid can freely carry equipment while moving through such barriers, but no other creature can use the passage.</p><p>Note that a druid can hide inside a large tree after casting this spell. The druid cannot see what is happening while he is in the tree.</p>",
       "name": "Plant Door",
-      "spellDuration": "1 turn per level of the caster",
+      "spellDuration": "1 turn/level",
       "spellEffect": "Opens a path through growth",
       "spellRange": "0 (druid only)"
     },
@@ -5314,7 +5315,7 @@
       "spellEffect": "Stuns 1 creature of 70 hp or less"
     },
     "Predict Weather": {
-      "description": "<p>This spell enables the druid to learn the accurate weather forecast for the next 12 hours within an area of 1 mile in diameter per level of the caster. For example, a 20th-level druid would know the weather within a 20-mile diameter (10-mile radius). This spell does not allow the caster to control the weather, merely to predict it.</p>",
+      "description": "<p>This spell enables the druid to learn the accurate <span class=\"citation-24 citation-25 citation-end-25\">weather to come for the next 12 hours. It affects an area 1 mile in diameter per level of the druid; for example, a 20th level druid would learn the weather within a 20 mile diameter (a 10 mile radius). The</span><span class=\"citation-24 citation-end-24\"> spell does not give the druid any control over the weather; it merely predicts what is to c</span>ome. </p>",
       "name": "Predict Weather",
       "spellEffect": "Gives knowledge of coming weather",
       "spellRange": "0 (Druid only)"
@@ -5325,7 +5326,7 @@
       "spellEffect": "Creates a multi-layered magical barrier"
     },
     "Produce Fire": {
-      "description": "<p>This spell creates a small flame in the caster's hand. The flame sheds light like a torch and does not harm the caster. It can ignite combustible materials like lanterns, torches, or oil without damaging the magical flame itself.</p>\n                <p>The caster can make the flame disappear and reappear at will, once per round. The flame can be thrown or dropped up to 30 feet away, but it disappears one round after leaving the caster's hand. Any fire it ignites continues burning.</p>",
+      "description": "<p>This spell causes a small flame to appear in the druid's hand. It does not harm the caster in any way, and sheds light as if a normal torch. The flame can be used to ignite combustible materials touched to it (a lantern, torch, oil, etc.) without harming the magical flame. While holding the flame, the caster can cause it to disappear and reappear by concentration once per round, until the duration ends. Other items may be held and used in the hand while the fire is out. If desired, the fire may be dropped or thrown to a 30' range, but disappears 1 round after leaving the druid's hand. (Any fire it ignites during that round remains burning.)</p>",
       "name": "Produce Fire",
       "spellDuration": "2 turns per level",
       "spellEffect": "Creates fire in hand",
@@ -5349,7 +5350,7 @@
       "name": "Protected"
     },
     "Protection from Evil": {
-      "description": "<p>This spell creates an invisible magical barrier around the caster, extending less than an inch away from their body. It grants a +1 bonus to all saving throws and imposes a -1 penalty to attack rolls made against the caster. The spell also protects the caster from attacks by enchanted creatures in melee combat.</p>\n                <p><strong>Enchanted Creatures:</strong> Creatures that cannot be harmed by non-magical weapons, creatures that can only be hit by magical weapons, or creatures that are magically summoned or controlled (such as a charmed creature). This does not include creatures that require silver weapons, like werewolves.</p>\n                <p>Enchanted creatures are unable to touch the caster with melee attacks but can still use missile weapons (at a -1 penalty to attack rolls). The barrier does not affect <em>magic missile</em> spells. If the caster attacks any creature in melee, the spell still provides the attack roll penalty and saving throw bonus but no longer prevents contact by enchanted creatures.</p>",
+      "description": "<p>This spell creates an invisible magical barrier all around the spellcaster's body (less than an inch away). All attacks against the spellcaster are penalized by -1 to their attack rolls, and the spellcaster gains a +1 bonus to all saving throws, while the spell lasts.</p><p>In addition, enchanted creatures cannot attack the spellcaster in hand-to-hand or melee combat. (An enchanted creature is one that normal weapons cannot hurt; only magical weapons can hit the creature. A creature that can be only hit by a silver weapon—a werewolf, for example—is not an enchanted creature. Any creature that is magically summoned or controlled, such as a <em>charmed</em> character, is also considered to be an enchanted creature.)</p><p>The barrier thus completely prevents all attacks from those creatures unless they use missile weapons; the barrier is no defense against missiles, though the attackers still suffer the -1 attack roll penalties.</p><p>This spell will not affect a <em>magic missile</em>, either incoming or outgoing. If the spellcaster attacks (hand-to-hand) anything during the spell's duration, the effect changes slightly. Enchanted creatures are then able to touch the spellcaster, but the attack roll and saving throw adjustments still apply until the spell duration ends.</p>",
       "name": "Protection from Evil",
       "spellEffect": "The spellcaster only"
     },
@@ -5364,14 +5365,14 @@
       "spellEffect": "Creates a 20' diameter protective barrier"
     },
     "Protection from Evil 10' Radius (C)": {
-      "description": "<p>This spell creates an invisible barrier around the caster, extending 10' in all directions. It grants each creature within the barrier a +1 bonus to all saving throws, while attacks against those inside suffer a -1 penalty on attack rolls.</p>\n                      <p><strong>Effect:</strong> Enchanted creatures (such as magically summoned or controlled beings) cannot engage in melee with anyone inside the barrier. However, if a protected creature attacks an enchanted one, the barrier no longer prevents melee attacks, though saving throw bonuses and attack roll penalties remain active.</p>\n                      <p>Missile and magical attacks from outside the barrier still suffer the -1 attack penalty but are otherwise unaffected.</p>",
+      "description": "<p>This spell creates an invisible magical barrier all around the caster, extending for a 10' radius in all directions. The spell serves as protection from attacks by monsters of an alignment other than the caster's. Each creature within the barrier gains a +1 to all saving throws, and all attacks against those within are penalized by -1 to the attacker's attack roll while the spell lasts.</p><p>In addition, enchanted creatures cannot attack those within the barrier in hand-to-hand (melee) combat. (An enchanted creature is any creature which is magically summoned or controlled, such as a <em>charmed</em> character, or one that is not harmed by normal weapons. A creature that can be hit only by a silver weapon—a werewolf, for example—is not an enchanted creature.)</p><p>If anyone within the barrier attacks an enchanted creature, the barrier will no longer prevent the creature from attacking hand-to-hand, but the bonus to saving throws and penalty to attack rolls will still apply.</p><p>Attackers, including enchanted creatures, can attack people inside the barrier by using missile or magical attacks. They do suffer the -1 penalty to attack rolls, but that is the only penalty they suffer.</p>",
       "name": "Protection from Evil 10' Radius (C)",
       "spellEffect": "Creates a 20' diameter barrier"
     },
     "Protection from Lightning": {
-      "description": "<p>This spell grants the recipient immunity to a specified amount of electrical damage. The protection amount depends on the druid's experience level: for each level, one die (1d6) of lightning damage is negated. The protected amount is subtracted from the dice of damage that would otherwise be dealt.</p><p><strong>Example:</strong> A 20th-level druid protected by this spell negates up to 20d6 lightning damage. This would allow the druid to absorb two full *Call Lightning* attacks (8d6 each), plus half of a third attack (8 + 8 + 4 = 20). Any damage beyond this would be taken as normal, and the recipient still makes any applicable saving throws.</p>",
+      "description": "<p>Any recipient of this spell is immune to a given amount of electrical damage. The druid's experience level determines the amount of damage: for each level of experience, one die (1d6) of damage is negated. Subtract the <em>number</em> of dice from the <em>number</em> of dice of damage that would be done to him.   </p><p>Example: A 20th level druid casts this spell. He is protected against [[/r 20d6 #Damage protection from lightning]] lightning damage. For example, this would negate the effects of two full <em>call lightning</em> attacks (of 8 dice each) on him, plus half of a third (8 + 8 + 4 = 20). The third <em>call lightning</em> inflicts 4d6 points of damage on him (but he does get his saving throw against it), and any subsequent <em>call lightning</em> attacks made against him will do full damage.</p>",
       "name": "Protection from Lightning",
-      "spellDuration": "1 turn per level of the caster",
+      "spellDuration": "1 turn/level",
       "spellEffect": "Protects against lightning attack"
     },
     "Protection from Normal Missiles": {
@@ -5380,7 +5381,7 @@
       "spellEffect": "One creature"
     },
     "Protection from Poison": {
-      "description": "<p>This spell grants the recipient complete immunity to all poisons for the spell’s duration, including poison from gas traps and *Cloudkill* spells. This protection also extends to any items carried by the recipient, protecting them against poison effects (e.g., a spirit’s poisonous aura).</p>\n                      <p><strong>Bonus to Saving Throws:</strong> The recipient also gains a +4 bonus on saving throws against poisonous breath weapons, such as a green dragon’s breath. This bonus does not apply to non-poisonous breath effects, like a gorgon’s petrifying breath.</p>",
+      "description": "<p>For the duration of this spell, the recipient is completely immune to the effects of poisons of all types, including gas traps and <em data-path-to-node=\"0\" data-index-in-node=\"131\">cloudkill</em> <span class=\"citation-637 citation-end-637\">spells. This protection extends to items carried (thus protecting against a spirit's poisonous presence, for example). Furthermore, the recipient gains a +4 bonus on saving throws vs. poisonous breath weapons (such as green dragon breath), but not petrification breath (such as a gorgon's).</span> </p>",
       "name": "Protection from Poison",
       "spellDuration": "One turn per level of the caster",
       "spellEffect": "Gives one creature immunity to all poison"
@@ -5554,7 +5555,7 @@
       "unidentifiedDesc": "<p>Quartz is a clear, transparent gemstone with a crystalline structure. It often appears glass-like, reflecting light with a sparkling brilliance. Its purity and clarity make it a popular choice for jewelry and decorative pieces. There are several different types and colors of quartz.</p>"
     },
     "Quest*": {
-      "description": "<p>This spell compels the target to undertake a specific task or quest as commanded by the caster. The target may attempt a saving throw vs. spells to resist; if successful, the spell has no effect.</p>\n                      <p><strong>Typical Tasks:</strong> The task might include slaying a particular monster, rescuing a prisoner, retrieving a magical item, or embarking on a pilgrimage. If the task is impossible or suicidal, the spell fails automatically.</p>\n                      <p><strong>Duration:</strong> The spell remains in effect until the specified task is completed. This spell compels the target to fulfill the task but does not compel them to do so willingly. Once completed, the target may hold a grudge against the caster, potentially seeking revenge depending on the circumstances of the quest.</p>\n                      <p><strong>Curse:</strong> A target who refuses to undertake the quest is cursed until they resume the task. The nature of this curse is determined by the GM and may be twice the usual strength of a standard curse.</p>",
+      "description": "<p>This spell forces the victim to perform some special task or quest, as commanded by the caster. The victim may make a saving throw vs. spells; if he succeeds, the spell does not affect him.</p><p>A typical task might involve slaying a certain monster, rescuing a prisoner, obtaining a magical item for the caster, or going on a pilgrimage. If the task is impossible or suicidal, the spell has no effect. Once the task is completed, the spell ends.</p><p>The spell forces the victim to undertake a task, but doesn't force him to like it. Once the task is accomplished, the victim might wish to exact revenge on the cleric, just depending on the circumstances of the adventure. Any victim refusing to go on the quest is cursed until the quest is continued. The type of curse is decided by the DM, but may be double normal strength.</p><p>The reverse of this spell, <em>remove quest</em>, may be used to dispel an unwanted quest or a quest-related curse. The chance of success is 50%, modified by 5% for every level of the caster differs from the level of the caster of the first quest. Thus, an 11th level cleric attempting to remove a quest cast by a 13th level cleric has only a 40% chance of success; a 36th level cleric attempting to remove a quest cast by a 20th level cleric has a 130% chance (reduced to 99% to provide for a 1% chance of failure).</p>",
       "name": "Quest*",
       "spellDuration": "Special",
       "spellEffect": "Compels one creature to perform a task"
@@ -5580,7 +5581,7 @@
       "spellEffect": "Raises any living creature"
     },
     "Raise Dead*": {
-      "description": "<p>This spell allows the cleric to raise any human, dwarf, halfling, or elf from the dead. The body must be present, and any missing parts will cause corresponding disabilities in the raised character.</p>\n                      <p><strong>Effect:</strong> An 8th-level cleric can raise a body that has been dead up to four days. Each level above 8th extends this limit by four additional days (e.g., a 10th-level cleric can raise bodies dead for up to twelve days).</p>\n                      <p>The character is raised with 1 hit point and is weakened: unable to fight, cast spells, or move faster than half speed. These penalties last for two weeks of complete bed rest, which cannot be hastened by magical healing.</p>\n                      <p><strong>Undead Effect:</strong> When cast on an undead creature within range, the target must make a saving throw vs. spells with a -2 penalty or be destroyed. Vampires that fail the save retreat to their coffins in gaseous form. Against undead creatures stronger than vampires, the spell deals 3d10 damage (saving throw for half).</p>",
+      "description": "<p>By means of this spell, the cleric can raise any human, dwarf, halfling, or elf from the dead. The body must be present, and if part is missing, the raised character will be disabled accordingly. An 8th level cleric can raise a body that has been dead for up to four days. For each level of the cleric above 8th, add four days to this time. Thus, a 10th level cleric can raise bodies that have been dead for up to twelve days.</p><p>The recipient returns to life with 1 hit point, and cannot fight, cast spells, use abilities, carry heavy loads, or move at more than half speed. These penalties will disappear after two full weeks of complete bed rest, but the healing cannot be speeded by magic.</p><p>The cleric may also cast this spell at any one undead creature within range. The undead creature will be destroyed unless it makes a saving throw vs. spells with a -2 penalty. However, a vampire which fails its saving throw is not destroyed, merely forced to retreat to its coffin, in gaseous form, as fast as possible. When cast at an undead creature of more Hit Dice than a vampire, this spell inflicts 3d10 (3–30) points of damage. The creature can make a saving throw vs. spells to take half damage.</p><p>The reverse of this spell, <em>finger of death</em>, creates a death ray that will kill any one living creature within 60'. The victim may make a saving throw vs. death ray to avoid the effect. A Lawful cleric will only use <em>finger of death</em> in a life-or-death situation. <em>Finger of death</em> will actually cure 3d10 (3–30) points of damage for any undead with 10 or more Hit Dice (phantom, haunt, spirit, nightshade, or special).</p>",
       "name": "Raise Dead*",
       "spellEffect": "Raises one dead human or demihuman, or damages undead"
     },
@@ -5650,7 +5651,7 @@
       "spellEffect": "Creates a new body"
     },
     "Remove Barrier*": {
-      "description": "<p>This spell instantly destroys one magical barrier created by a cleric. It can also dispel certain barriers created by a magic-user.</p><p><strong>Effects:</strong> <em>Remove Barrier</em> will destroy a cleric's <em>Barrier</em> spell and can also dispel the following magic-user spells:</p><ul><li><em>Wall of Ice</em></li><li><em>Wall of Fire</em></li><li><em>Clothform</em></li><li><em>Woodform</em></li><li><em>Wall of Stone</em></li></ul><p><strong>Limitations:</strong> This spell does <em>not</em> affect the following spells: <em>Wall of Iron</em>, <em>Stoneform</em>, <em>Ironform</em>, or <em>Steelform</em>.</p>",
+      "description": "<p><em>Remove barrier</em> will destroy any one barrier created by a cleric. It can also be used to destroy a magic-user's <em>wall of ice</em>, <em>wall of fire</em>, <em>clothform</em>, woodform, or <em>wall of stone</em> spell effects. It will not affect the magic-user spells <em>wall of iron</em>, <em>stoneform</em>, <em>ironform</em> or <em>steelform</em>.</p>",
       "name": "Remove Barrier*",
       "spellEffect": "Removes a magical barrier"
     },
@@ -5680,7 +5681,7 @@
       "spellEffect": "Removes a geas from one creature"
     },
     "Remove Quest*": {
-      "description": "<p>The reversed form of the quest spell, *Remove Quest* dispels an unwanted quest or removes a quest-related curse. The base chance of successfully removing the quest is 50%, modified by ±5% for each level difference between the caster of *Remove Quest* and the original caster of the quest.</p>\n                      <p>For example, an 11th-level cleric attempting to remove a quest imposed by a 13th-level caster has a 40% chance of success, while a 36th-level cleric removing a quest cast by a 20th-level cleric has a 99% chance of success (capped to prevent automatic success).</p>",
+      "description": "<p>R<em>emove quest</em> may be used to dispel an unwanted quest or a quest-related curse. The chance of success is 50%, modified by 5% for every level of the caster differs from the level of the caster of the first quest. Thus, an 11th level cleric attempting to remove a quest cast by a 13th level cleric has only a 40% chance of success; a 36th level cleric attempting to remove a quest cast by a 20th level cleric has a 130% chance (reduced to 99% to provide for a 1% chance of failure).</p>",
       "name": "Remove Quest*",
       "spellEffect": "Removes an unwanted quest or curse"
     },
@@ -5710,7 +5711,7 @@
       "name": "Resistance (MY)"
     },
     "Restore*": {
-      "description": "<p>This spell restores one full level of experience lost due to energy drain (such as from a vampire's attack). It does not provide additional levels if no level has been lost.</p><p>Limitations:</p><ul><li>Only one level is restored per casting.</li><li>It cannot restore more than one level, nor increase a level beyond what was originally lost.</li></ul><p>Cost to the Cleric:</p><ul><li>Upon casting, the cleric temporarily loses one experience level, as if struck by a wight.</li><li>The cleric’s loss is not permanent—it is recovered after resting for [[/r 2d10 #days]].</li></ul>",
+      "description": "<p>This spell restores one full level of energy (experience) to any victim who has lost a level because of energy drain (for instance, from a vampire's attack). It does not restore more than one level, nor does it add a level if no level has been lost. Furthermore, the cleric casting this spell loses one level of experience, as if struck by a wight when the spell is cast; however, the cleric's loss is not permanent, and the cleric need only rest for [[/r 2d10 #Days]] (2–20) days to regain the lost experience.</p>",
       "name": "Restore*",
       "spellEffect": "Restores 1 level lost to energy drain"
     },
@@ -6443,13 +6444,13 @@
       "name": "Speak with Anyone"
     },
     "Speak with Monsters*": {
-      "description": "<p>This spell grants the cleric the ability to communicate with any living or undead creatures within 30'. Even unintelligent monsters will understand and respond.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>Creatures spoken to will not attack the cleric while in conversation.</li>\n                        <li>However, if attacked, they may defend themselves or flee.</li>\n                        <li>The cleric may ask only one question per round.</li>\n                      </ul>\n                      <p>The spell lasts for one round per level of the cleric.</p>",
+      "description": "<p>This spell gives the caster the power to ask questions of any and all living and undead creatures within 30'. Even unintelligent monsters will understand and respond to the cleric. Those spoken to will not attack the cleric while engaged in conversation, but may defend themselves or flee if attacked. The cleric may ask only one question per round, and the spell lasts one round per level of the caster.</p><p>The reverse of this spell, <em>babble</em>, has a 60' range, a duration of 1 turn per level of the caster, and affects one target within spell range. The victim may make a saving throw vs. spells to avoid the effect, but with a -2 penalty to the roll. If he fails the saving throw, the victim cannot communicate with any other creature for the duration of the spell. Even hand motions, written notes, telepathy, and all other forms of communication will seem garbled. This does not interfere with the victim's spellcasting (if any), but does prevent him from using any magical items which are activated by command words—the command words turn into gibberish.</p>",
       "name": "Speak with Monsters*",
       "spellDuration": "1 round per level of the cleric",
       "spellEffect": "Permits conversation with any monster"
     },
     "Speak with Plants": {
-      "description": "<p>This spell allows the caster to communicate with plants within a 30' radius, treating them as if they have intelligence. The caster may ask simple favors, such as making a path through dense undergrowth, which the plants will grant if able.</p>\n                      <p><strong>Effect:</strong> Enables communication with plant creatures, including plantlike monsters such as treants.</p>",
+      "description": "<p>This spell enables the cleric to talk to plants as though they are intelligent. The cleric may request a simple favor, and the plants will grant it if it is within the plants' power to understand and perform. This spell may be used to allow the cleric and party to pass through otherwise impenetrable undergrowth. It will also allow the cleric to communicate with plantlike monsters (such as treants).</p>",
       "name": "Speak with Plants",
       "spellEffect": "Communicates with plants within 30'"
     },
@@ -6625,12 +6626,12 @@
       "unidentifiedName": "Suit Armor"
     },
     "Summon Animals": {
-      "description": "<p>This spell allows the druid to summon any or all normal animals within 360'. Only normal, non-magical creatures of animal intelligence are affected, including mammals, reptiles, and amphibians. It does not affect insects, arthropods, humans, or demihumans.</p>\n                      <p><strong>Animal Types:</strong> The druid may summon specific types or every animal within range. The total Hit Dice of responding animals equals the druid’s level, with small creatures (frogs, mice, squirrels, small birds) treated as 1/10 HD each.</p>\n                      <p><strong>Behavior:</strong> Animals respond by coming at their fastest movement rate, understand the druid’s speech, and will assist the druid as able. If harmed, a summoned animal will usually flee, breaking the spell for that animal. If the druid is attacked as a summoned animal arrives, the animal will attack the druid’s opponent, fleeing only if it fails a morale check.</p>\n                      <p>This spell can also be used to calm hostile animals encountered while adventuring.</p>",
+      "description": "<p>With this spell, the druid can summon any or all normal animals within range. Only normal, nonmagical creatures of animal intelligence are affected, including mammals, reptiles, amphibians, etc. The spell does not affect insects, arthropods, humans, and demihumans. The druid may choose one or more known animals, may call for specific types, or may summon everything within range. The total Hit Dice of the animals responding will equal the level of the druid. Treat normal small creatures (frogs, mice, squirrels, small birds, etc.) as 1/10 Hit Die each.   </p><p>Animals affected will come at their fastest movement rate, and will understand the druid's speech while the spell is in effect. They will befriend and help the druid, to the limit of their abilities. If harmed in any way, a summoned animal will normally flee, the spell broken for that animal. However, if the druid is being attacked when a summoned animal arrives, the animal will immediately attack the opponent, fleeing only if it fails a morale check.   </p><p>This spell may also be used to calm hostile animals encountered while adventuring.</p>",
       "name": "Summon Animals",
       "spellEffect": "Calls and befriends normal animals"
     },
     "Summon Elemental": {
-      "description": "<p>This spell summons a single 16 Hit Dice elemental to obey the druid’s commands.</p><h4>Effects:</h4><ul><li>The caster may summon one elemental per casting (air, earth, fire, or water).</li><li>A druid may only summon one of each elemental type per day.</li><li>The elemental will understand spoken commands and will obey them within its abilities.</li><li>No concentration is needed to control the elemental.</li><li>The druid may dismiss the elemental at will, returning it to its home plane.</li><li>A dispel magic or dispel evil spell will also send the elemental back.</li></ul>",
+      "description": "<p>This spell allows the caster to summon any one elemental per spell. The druid may only summon one of each type of elemental (air, earth, fire, water) in one day. The elemental will understand the druid's spoken commands and will perform any tasks within its power (carrying, attacking, etc.) as directed by the caster.   </p><p>Unlike the magic-user's version of the spell, the druid does not need to concentrate to control the creature. The caster may send it back to its own plane with a simple command, and someone else may send it back by the use of a <em>dispel magic</em> or <em>dispel evil</em> spell.</p>",
       "name": "Summon Elemental",
       "spellDuration": "One hour",
       "spellEffect": "Summons one 16 HD elemental"
@@ -6642,18 +6643,18 @@
       "spellRange": "Infinite"
     },
     "Summon Weather": {
-      "description": "<p>The druid magically pulls existing weather conditions from a nearby area to their location.</p><h4>Effects:</h4><ul><li>The druid does not control the weather, but can summon an existing condition to their location.</li><li>At levels 12-15, the spell pulls weather from up to 5 miles away.</li><li>Each level beyond 15th adds 1 extra mile to the range (e.g., a 20th-level druid can summon weather from 10 miles away).</li><li>Only druids of 25th level or higher may summon severe weather (hurricanes, blizzards, etc.).</li></ul>",
+      "description": "<p>When the druid casts this spell, some known nearby weather condition is pulled to the druid's location. The druid does not have control of the weather, but merely summons it.   </p><p>Only a druid of 25th level or greater may summon severe weather (hurricane, severe heat wave, etc.). The range of summoning is 5 miles at levels 12 to 15, adding 1 mile for each level of the caster above 15th. (A 20th level druid could summon weather from up to 10 miles away.)</p>",
       "name": "Summon Weather",
       "spellDuration": "One hour per caster level",
       "spellEffect": "Brings weather to druid's area",
-      "spellRange": "5 miles or more"
+      "spellRange": "5+ miles"
     },
     "Survival (choose terrain)": {
       "description": "<p>This skill allows the character to find food, shelter, and water in a single type of terrain (e.g., desert, forest/jungle, mountain/hill, open sea, plains, arctic). The character can forage automatically in fertile areas and uses the skill roll to determine success in searching for resources in more challenging environments. When supporting others, the character receives a +1 penalty to the roll per additional person.</p>",
       "name": "Survival (choose terrain)"
     },
     "Survival@chuJwAFSZjZnW2qR": {
-      "description": "<p>This spell grants the recipient complete protection against all <strong>non-magical</strong> environmental hazards. While the spell is in effect, the recipient does not need air, food, water, or sleep.</p>\n                      <p><strong>Protection Includes:</strong></p>\n                      <ul>\n                        <li>Survival in extreme heat or cold (such as deserts or blizzards).</li>\n                        <li>Breathing in airless environments (underground, underwater, space, etc.).</li>\n                        <li>Survival in vacuum or toxic natural atmospheres.</li>\n                        <li>Immunity to environmental damage from other planes (such as the Elemental Plane of Fire).</li>\n                      </ul>\n                      <p><strong>Limitations:</strong></p>\n                      <ul>\n                        <li>Does <strong>not</strong> protect against <em>magical</em> damage, including spells.</li>\n                        <li>Does <strong>not</strong> prevent attack damage, poisons, breath weapons, or physical blows.</li>\n                      </ul>",
+      "description": "<p>This spell protects the recipient from adverse conditions of all types, including normal heat or cold, lack of air, and so forth. While the spell is in effect, the caster needs no air, food, water, or sleep. The spell does not protect against magical damage of any type, attack damage, poisons, breath weapons, or physical blows from creatures. It does protect against all damage caused by natural conditions on other planes of existence.</p><p>For example, a cleric might use this spell: in a desert or blizzard to prevent damage from the natural conditions; underground or underwater, enabling survival without air; in space, to magically survive in vacuum; or on the elemental plane of Fire, to protect against conditional fire damage.</p>",
       "name": "Survival",
       "spellDuration": "One hour per caster level",
       "spellEffect": "Protects one creature against all non-magical damage from the environment"
@@ -7836,13 +7837,13 @@
       "name": "Tracking"
     },
     "Transport Through Plants": {
-      "description": "<p>The druid magically teleports from one plant to another anywhere in the world.</p><h4>Effects:</h4><ul><li>The druid steps into a living plant and emerges from another plant elsewhere.</li><li>The destination plant may be specifically chosen or randomly determined by the DM.</li><li>Unlimited range, but both plants must be on the same plane of existence.</li><li>If either plant is dead, the spell fails.</li><li>The caster may bring up to two willing creatures through the transport.</li><li>May be cast once per day.</li></ul>",
+      "description": "<p>This spell may be used a maximum of once per day. The druid must be near a plant (of any size), and must choose either a general location or a specific known plant elsewhere. After casting the spell, the druid magically enters the nearby plant and steps out of a plant at the destination (if the druid could not specify the exact plant, he appears from a plant determined randomly by the DM). There is no limit to the range, but the plants must both be living for the spell to work, and must both be on the same plane of existence. If either plant is dead, the spell fails. Otherwise, the caster immediately reappears at the new location. The caster can transport two additional willing creatures.</p>",
       "name": "Transport Through Plants",
       "spellEffect": "Long-range teleportation",
       "spellRange": "Infinite"
     },
     "Travel@0YsvPReEgJGz7v1P": {
-      "description": "<p>This spell grants the caster incredible mobility, allowing flight, planar travel, and even transformation into gaseous form.</p><p>Effects:</p><ul><li>The caster can fly at a rate of 360' (120'), similar to the <em>Fly</em> spell.</li><li>Once per turn, the caster may shift into a nearby plane by concentrating for one round.</li><li>The cleric may bring one additional creature per 5 levels (rounded down), provided they are touching at the moment of planar travel.</li><li>Unwilling creatures may make a saving throw vs. spells to resist being taken.</li></ul><p>Gaseous Form:</p><ul><li>By concentrating for one full round, the caster may become gaseous.</li><li>In gaseous form, the caster and all carried equipment transform into mist.</li><li>While gaseous, the cleric may move at 720' (240') but cannot attack, cast spells, or use items.</li><li>In this form, the caster is immune to non-magical damage but cannot pass through a <em>Protection from Evil</em> spell or <em>Anti-Magic Shell</em>.</li></ul>",
+      "description": "<p>This spell allows the cleric to move quickly and freely, even between the planes of existence. The caster (only) may <em>fly</em> in the same manner as given by the magic-user's spell, at a rate of 360' (120'). The cleric can also enter a nearby plane of existence, simply by concentrating for one round. He may enter a maximum of one plane per turn.</p><p>The cleric may bring one other creature for every five levels of experience (rounded down; for example, a 29th level cleric could bring five other creatures on the journey). To bring others, he must touch them, or they must touch him, while the spell is cast and the shift is made. Any unwilling creature can make a saving throw vs. spells to avoid the effect. The cleric must take the others with him—he cannot send them while remaining behind.</p><p>While this spell is in effect, the caster (only) may assume <em>gaseous form</em> by concentrating for one full round. (If he is interrupted, no change occurs.) Unlike the potion effect, all equipment carried also becomes part of the same gaseous cloud. In this form, the caster may travel at double the normal flying rate: 720' (240'). While gaseous, the cleric cannot use items or cast spells, but also cannot be damaged except by magic (weapons or certain spells). Also, a gaseous being cannot pass through a <em>protection from evil</em> spell effect or an <em>anti-magic shell</em>.</p>",
       "name": "Travel",
       "spellDuration": "One turn per caster level",
       "spellEffect": "Allows aerial or gaseous travel"
@@ -7897,7 +7898,7 @@
       "name": "Troglodyte Stench"
     },
     "Truesight": {
-      "description": "<p>With *Truesight*, the cleric gains the ability to see all things as they truly are within a 120' radius. The spell reveals all hidden, invisible, and ethereal objects or creatures, functioning as the *detect invisible* spell.</p>\n                      <p>Additionally, the cleric perceives any secret doors, and can see through any form of disguise, polymorph, or other alterations. Deception is impossible. The spell also reveals creatures' alignments, experience, and power levels.</p>",
+      "description": "<p>When he casts this spell, the cleric is able to see all things within 120'. The spell is quite powerful; the cleric can clearly see all hidden, invisible, and ethereal objects and creatures as with the magic-user <em>detect invisible</em> spell. In addition, any secret doors as well as things or creatures not in their true form—whether polymorphed, disguised, or otherwise—are seen as they truly are, with no possibility of deception. Alignment is also \"seen,\" as is experience and power.</p>",
       "name": "Truesight",
       "spellDuration": "1 turn + 1 round per caster level",
       "spellEffect": "Reveals true forms of all things within 120'"
@@ -7915,7 +7916,7 @@
       "name": "Turn Undead (PA)"
     },
     "Turn Wood": {
-      "description": "<p>With this spell, the druid creates an invisible wave of magical force that repels all wooden objects within range. The wave originates within 30 feet of the caster and extends into a 120-foot-long and 60-foot-tall area in a direction chosen by the druid.</p><p>Once the wave is created, it immediately begins moving in a straight line at a rate of 10 feet per round. The druid may halt the wave at any time, but once stopped, it remains stationary for the remainder of the spell’s duration and cannot be moved again.</p><h4>Effects of the Wave</h4><ul><li>All wooden objects touched by the wave become stuck to it and are pushed along as it moves.</li><li>Objects caught in the wave are not damaged, but they are effectively unusable while trapped.</li><li>Any wooden weapons (such as bows, crossbows, spears, javelins, clubs, quarterstaffs, and slings) become useless while within the effect.</li><li>Magical wooden items (such as wands and staves) are also caught in the wave, unless they are being actively wielded by a creature with a stronger magical force than the wave itself (at the DM’s discretion).</li><li>Wooden doors, gates, and barriers are unaffected unless not securely fastened—a loose wooden fence might be swept along, while a sturdy wooden door in a stone wall would remain in place.</li></ul><h4>Applications & Limitations</h4><ul><li>The wave cannot move permanent wooden constructions (such as buildings, wooden towers, or firmly rooted trees).</li><li>Secured wooden objects, such as a wooden door locked within a stone frame, will not be affected.</li><li>The druid does not need to concentrate to maintain the effect; however, they may dismiss the wave early by concentrating for one full round.</li><li>The wave continues to move forward until it reaches the maximum range of 360 feet, at which point it stops and remains fixed in place for the rest of the spell’s duration.</li></ul><p>This spell is highly effective in mass combat scenarios, particularly against archers, cavalry, or siege engines. It is also useful in naval battles, as it can push away wooden rowboats, masts, or cargo.</p>",
+      "description": "<p>This spell creates an invisible wave of force, 120' long and 60' tall. Its midpoint can be created anywhere within 30' of the caster. This wave of force then immediately moves in one horizontal direction, as specified by the caster, at the rate of 10' per round. If the druid desires, he can stop the wave of force at any time, but cannot thereafter move it again.</p><p>All wooden objects contacting or contacted by the wave of force become stuck to it and move with it. The wave of force continues moving until it reaches the maximum range of 360 feet, and stops there for the remainder of the spell duration. The items caught are not harmed by the effect, but wooden weapons (bows, crossbows, most spears and javelins, etc.) and magical items (wands, staves, etc.) cannot be used while trapped in the effect.</p><p>Once created, the wave of force does not require concentration. However, the caster may cause it to vanish before the duration ends by concentrating for one round.</p><p>This spell has many useful applications during mass combat (against a group of archers or siege engines) and waterborne adventures (to move a ship). It will move wooden objects which have metal attachments (such as treasure chests). However, it will not move permanent constructions (such as buildings, including objects permanently attached to them such as doors) or other secured objects (such as trees).</p>",
       "name": "Turn Wood",
       "spellDuration": "One turn per caster level",
       "spellEffect": "Pushes all wooden items away"
@@ -8068,7 +8069,7 @@
       "unidentifiedName": "Mysterious Wand"
     },
     "Warp Wood": {
-      "description": "<p>This spell causes wooden weapons to bend and become useless. It affects one arrow for each level of the caster. A spear, javelin, or magical wand counts as two arrows, and a club, bow, or staff counts as four.</p>\n                <p>The spell does not affect other wooden items. If a magical wooden item is targeted, the wielder may make a saving throw vs. spells to avoid the effect. Items carried but not held get no saving throw. Magical items with \"pluses\" might not be affected, with a 10% chance per \"plus\" (for example, an arrow +1 has a 10% chance to be unaffected).</p>",
+      "description": "<p>This spell causes one or more wooden weapons to bend and (probably) become useless. The spell will affect one arrow for each level of the caster; treat a spear, javelin, or magical wand as two arrows' worth, and any club, bow, or staff (magical or otherwise) as four. The spell will not affect any wooden items other than weapons. If a magical wooden item (such as an enchanted staff) is the target, the wielder may make a saving throw vs. spells to avoid the effect. Items carried but not held get no saving throw; magical items with \"pluses\" might not be affected, at a 10% chance per \"plus.\" (For example, an arrow +1 would have a 10% chance to be unaffected.)</p>",
       "name": "Warp Wood",
       "spellEffect": "Causes wooden weapons to bend"
     },
@@ -8111,7 +8112,7 @@
       "spellRange": "0 (Magic-user only)"
     },
     "Weather Control@xXwbkfTsctrqdPdz": {
-      "description": "<p>This spell grants the druid the power to manipulate the weather within a 240-yard radius.</p><h4>Effects:</h4><ul><li>The caster may create one specific weather condition that affects all creatures in the area, including the caster.</li><li>The spell requires concentration, and the caster must remain still.</li><li>If the caster is moved (e.g., on a ship), the effect moves with them.</li><li>The spell only functions outdoors.</li></ul><h4>Weather Effects:</h4><ul><li>Rain: Missile attacks suffer a -2 penalty. After 3 turns, the ground becomes muddy, halving movement speed.</li><li>Snow: Visibility is reduced to 20', and movement is halved. Rivers and streams may freeze. Mud persists after thawing.</li><li>Fog: Visibility drops to 20', movement is halved. Creatures within may become lost.</li><li>Clear: Cancels rain, snow, and fog, but does not remove secondary effects (e.g., mud).</li><li>Intense Heat: Movement is halved. Excess water sources (rain, snow, puddles) dry up.</li><li>High Winds: No flying or missile attacks are possible. Movement is halved. Ships sailing with the wind move 50% faster. In deserts, creates a sandstorm (20' visibility, half movement).</li><li>Tornado: Creates a whirlwind under the druid’s control, acting as a 12 HD air elemental. At sea, it functions as a storm or gale.</li></ul>",
+      "description": "<p>This spell allows the druid to create one special weather condition in the surrounding area (within a 240 yard radius). The caster may select the weather condition. The spell only works outdoors, and the weather will affect all creatures in the area (including the caster). The effects last as long as the caster concentrates, without moving; if the caster is being moved (for example, aboard a ship), the effect moves also. The spell's effects vary, but the following results are typical:   </p><p><em>Rain</em> causes a -2 penalty to attack rolls for all missile fire. After three turns, the ground becomes muddy, reducing movement to half the normal rate.</p><p><em>Snow</em> reduces visibility (the distance a creature can see) to 20' and movement to half the normal rate. Rivers and streams may freeze over. Mud remains after the snow thaws, applying the same movement penalty.</p><p><em>Fog</em> reduces visibility to 20' and movement to half the normal rate. Those within the fog might become lost, moving in the wrong direction.</p><p><em>Clear</em> cancels bad weather (rain, snow, fog) but not secondary effects (such as mud).</p><p><em>Intense Heat</em> reduces movement to half the normal rate. Excess water (from rain, snow, mud transmuted from rock, etc.) dries up.</p><p><em>High Winds</em> prevent missile fire or flying. Movement is reduced to half normal. At sea, ships sailing with the wind move 50% faster. In the desert, high winds create a sandstorm, resulting in half normal movement and 20' visibility.</p><p><em>Tornado</em> creates a whirlwind under the druid's control, attacking and moving as if it was a 12 HD air elemental. At sea, treat the tornado as a storm or gale.</p>",
       "name": "Weather Control",
       "spellEffect": "All weather within 240 yards",
       "spellRange": "0 (druid only)"
@@ -8164,7 +8165,7 @@
       "spellRange": "Special"
     },
     "Wish (C)": {
-      "description": "<p>Wish is the most powerful spell available to a cleric, capable of altering reality itself. However, its effects are subject to strict interpretation by the DM.</p><h4>Requirements</h4><ul><li>Only clerics of 36th level with 18+ Wisdom may cast this spell.</li><li>Wishes are never found on scrolls but may exist in rare items such as rings.</li></ul><h4>Wording the Wish</h4><p>The caster must clearly state their wish. The exact wording is crucial, as the spell follows the literal meaning rather than the intent. The DM may interpret the wish strictly, generously, or even maliciously.</p><ul><li>If a wish is made with greed or malice, the DM should distort its results.</li><li>The DM may disallow unreasonable wishes, causing the spell to fail.</li><li>After a misinterpreted wish, the DM should explain the flaw in the phrasing.</li></ul><p>Examples of badly phrased wishes:</p><ul><li><em>\"I wish to know everything about this dungeon.\"</em> → The character knows all but forgets it in a second.</li><li><em>\"I wish for a million gold pieces.\"</em> → The gold lands on the character, crushing them, then disappears.</li><li><em>\"I wish for permanent basilisk gaze powers.\"</em> → The caster grows an extra basilisk head.</li></ul><h4>Allowed Effects</h4><p>Spell Substitution: A wish can replicate:</p><ul><li>Any 8th-level or lower magic-user spell</li><li>Any 6th-level or lower cleric/druid spell</li><li>This use of a wish is least likely to be distorted.</li></ul><h4>Harming Others</h4><p>If a wish directly harms a creature:</p><ul><li>The victim gets a saving throw vs. spells.</li><li>If they succeed, half of the effect rebounds onto the caster, who also saves (at -4 penalty).</li><li>If the wish only inconveniences (e.g., teleporting them into a prison), no saving throw is allowed.</li></ul><h4>Gaining Treasure</h4><p>A wish can conjure up to 50,000 gp, but:</p><ul><li>The caster loses 1 XP per gold piece gained.</li><li>This XP loss cannot be restored by any means.</li></ul><h4>Ability Score Changes</h4><ul><li>A wish can temporarily raise an ability score to a maximum of 18 for 6 turns.</li><li><p>A wish can permanently raise an ability score by 1 point per number of wishes used:</p><ul><li>Raising Strength from 15 to 16 requires 16 wishes.</li><li>Raising it from 16 to 17 requires 17 more wishes.</li><li>All wishes must be cast within 1 week.</li><li>Wishes cannot permanently lower ability scores.</li></ul></li></ul><h4>Maximum Experience Levels</h4><ul><li>A wish cannot exceed the 36th-level cap for human characters.</li><li>However, a wish can grant demihumans +1 Hit Die (new max: 9 for halflings, 11 for elves, 13 for dwarves).</li></ul><h4>Race Changes</h4><p>A wish can permanently change a character's race:</p><ul><li>Demihumans become human fighters of the same level.</li><li>Elves become magic-users or fighters (chosen by the wish caster).</li><li>Humans become demihumans, but never above their racial level cap.</li><li>If unwilling, the target gains a +5 bonus to their saving throw vs. spells to resist the change.</li></ul><h4>Rewriting Past Events</h4><p>A wish may alter one event from the previous day:</p><ul><li>Turning a lost battle into a victory (if feasible).</li><li>Changing a death to a near-death survival.</li><li>Changing a permanent loss to a temporary one.</li></ul><p>The DM may warn players if their wish exceeds the spell's limits.</p><h4>Important Restrictions</h4><ul><li>Effects labeled as \"unchangeable even by a wish\" cannot be altered.</li><li>Wishes cannot alter game mechanics (e.g., \"dragons cannot breathe fire anymore\").</li><li>Unreasonable or greedy wishes are less likely to succeed.</li></ul>",
+      "description": "<p>A <em>wish</em> is the single most powerful spell a cleric can have. It is never found on a scroll, but may be placed elsewhere (in a ring, for example) in rare cases. Only clerics of 36th level and with an 18 (or greater) Wisdom score may cast the <em>wish</em> spell.</p><p><strong>Wording the Wish:</strong> The player must say or write the exact wish his character makes. The wording is very important. The wish will usually follow the literal wording, and whatever the intentions of the cleric.</p><p>The DM should try to maintain game balance, being neither too generous nor too stingy in deciding the effects of a wish. Even a badly phrased wish, made with good intentions, may have good results. However, if the wish is greedy, or made with malicious intent, the DM should make every effort to distort the results of the spell so that the caster does not profit from it. If necessary, the DM can even disallow the wish; it would then have no effect. Whenever a wish fails or is misinterpreted, the DM should explain (after the game) the problem or flaw in the phrasing.</p><p>Here are some examples of faulty wishes:</p><p>\"I wish that I knew everything about this dungeon\" could result in the character knowing all for only a second, and then forgetting it.</p><p>\"I wish for a million gold pieces\" can be granted by having them land on the character (that's 100,000 pounds of gold!), and then vanish.</p><p>\"I wish to immediately and permanently possess the gaze power of a basilisk while retaining all of my own abilities and items\" is a carefully worded wish that's out of balance. Characters able to use these high-level spells are already quite powerful. This wish could result in the character growing a basilisk head in addition to the character's own head.</p><p>A wish cannot be used to gain either experience points or levels of experience.</p><p><strong>Possible Effects:</strong> A properly worded wish can substitute for any other magical spell of 8th level or less, or any clerical or druidic spell of 6th level or less, at the DM's discretion. This common use of a wish is more likely to succeed with little chance for error than other uses of the spell.</p><p>Otherwise, if the wish is used to harm another creature, the victim may make a saving throw vs. spells. If the save is successful, the victim takes half the ill effects and the other half rebounds on the caster (who may also save to avoid it, but with a -4 penalty to the roll). If the wish will inconvenience someone without harming him (for example, by causing him to teleport into a prison cell), the victim gets no saving throw.</p><p>A character can use a wish to gain treasure, up to a maximum of 50,000 gold pieces per wish. However, the caster loses 1 experience point per gold piece value of treasure gained, and this loss cannot be magically restored.</p><p>The cleric can use a wish to temporarily change any one ability score to a minimum of 3 or maximum of 18. This effect lasts for only six turns.</p><p>Wishes can also be used to permanently increase ability scores, but the cost is very high: You must cast as many wishes as the number of the ability score desired. All the wishes must be cast within a one-week period.</p><p>You may raise an ability score only one point at a time. To raise your Strength from 15 to 16 takes 16 wishes. To then raise it to 17 will take an additional 17 wishes. Wishes cannot permanently lower ability scores.</p><p>A wish cannot raise the maximum experience level for human characters; 36th level is an absolute limit. However, one wish can allow demihumans to gain one additional Hit Die (for a new maximum of 9 for halflings, 11 for elves, and 13 for dwarves). This affects only hit points, and does not change any other scores (such as attack rolls, elves' number of spells, etc.).</p><p>A wish can change a demihuman to a human, or the reverse. Such a change is permanent, and the recipient does not become magical. Halflings and dwarves become fighters of the same level. Elves become magic-users or fighters (but not both), at the choice of the caster of the wish. The changed character would then gain levels of experience normally. A human changes to the same level demihuman, but no higher than the normal racial maximum.</p><p>If one character casts a wish to change another's character class, the victim (at his option) may make a saving throw vs. spells with a +5 bonus to resist the change.</p><p>A wish can sometimes change the results of a past occurrence. This is normally limited to events of the previous day. A lost battle may be won, or the losses may be made far less severe, but impossible odds cannot be overcome completely. A death could be changed to a near-death survival; a permanent loss could be made temporary. The DM may wish to advise players when their wishes exceed the limit of the spell's power (or his patience).</p><p><strong>Important Note:</strong> Whenever an effect is described as being unchangeable \"even with a wish,\" that statement supersedes all others here.</p><p>Wishes can cause great problems if not handled properly. The DM must see that wishes are reasonably limited or the balance and enjoyment of the game will be completely upset. The DM should not allow wishes that alter the basics of the game (such as a wish that dragons can't breathe for damage). The more unreasonable and greedy the wish is, the less likely that the wish will become reality.</p>",
       "name": "Wish (C)",
       "spellDuration": "Special",
       "spellEffect": "Alters reality",
@@ -8181,7 +8182,7 @@
       "spellEffect": "One portal or lock"
     },
     "Wizardry": {
-      "description": "<p>This spell allows the cleric to temporarily wield the magical powers of a magic-user, enabling the use of certain restricted items.</p><h4>Effects:</h4><ul><li><p>The cleric may use <strong>one magic-user-only item</strong>, choosing between:</p><ul><li>A magic-user device (such as a wand, staff, or rod).</li><li>A magic-user scroll containing a <strong>1st or 2nd level spell</strong>.</li></ul></li><li><strong>Spell Level Restriction:</strong> The cleric <strong>cannot</strong> use spells of 3rd level or higher, even if present on the scroll.</li></ul><h4>Duration:</h4><ul><li>The spell lasts for <strong>one turn</strong> (10 minutes) or until the cleric uses the item.</li></ul><h4>Temporary Knowledge:</h4><ul><li>During the spell’s duration, the cleric <strong>magically understands</strong> how to operate the selected item.</li><li>For a scroll spell, the cleric is treated as the <strong>minimum level</strong> required to cast the spell.</li></ul>",
+      "description": "<p>The cleric using this spell gains the power to use one item normally restricted to magic-users: either a device (such as a wand) or a scroll containing a 1st or 2nd level magic-user spell. (The cleric cannot cast spells of 3rd or higher level, even though they may be present on the scroll.) This ability lasts for one turn, or until the scroll or device is used.</p><p>The cleric magically gains knowledge of the proper use of the item, as if the character were a magic-user. For the duration and effect of the magic-user spell, the caster is treated as the minimum level necessary to cast the spell.</p>",
       "name": "Wizardry",
       "spellDuration": "One turn",
       "spellEffect": "Allows the use of one magic-user device or scroll spell",
@@ -8198,7 +8199,7 @@
       "spellEffect": "Creates 1,000 cubic feet of wood"
     },
     "Word of Recall": {
-      "description": "<p>This spell instantly teleports the cleric and all equipment they are carrying to their designated sanctuary, regardless of distance.</p><p>Sanctuary Requirement: The cleric must have a permanent home (such as a castle) that includes a meditation room. This room serves as the spell’s destination.</p><p>Initiative Advantage: During the round this spell is cast, the cleric automatically gains initiative unless surprised.</p><p>Restrictions:</p><ul><li>The spell affects only the cleric and their carried equipment.</li><li>Other creatures cannot be transported.</li></ul>",
+      "description": "<p>Similar to a magic-user's <em>teleport</em> spell, this spell carries the cleric and all equipment carried (but no other creatures) to the cleric's home, regardless of the distance. The cleric must have a permanent home (such as a castle), and a meditation room within that home; this room is the destination when the spell is cast. During the round in which this spell is cast, the cleric automatically gains initiative unless surprised.</p>",
       "name": "Word of Recall",
       "spellEffect": "Teleports the caster to sanctuary"
     },
