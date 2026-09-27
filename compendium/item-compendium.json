@@ -475,10 +475,10 @@
       "name": "Backstab"
     },
     "Bag of Devouring": {
-      "description": "<p>This item looks like a normal small sack, but anything placed within it disappears. Anyone may reach in and find the contents by touch - if the contents are still there! If the contents are not removed within [[/r 1d6+1 #Turns]] (7-12) turns, they will be forever lost. The bag will not affect living creatures unless the entire creature is stuffed inside the bag. This is impossible to do except with very small creatures.</p><p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</span></p>",
+      "description": "<p>This item looks like a normal small sack, but anything placed within it disappears. Anyone may reach in and find the contents by touch - if the contents are still there! If the contents are not removed within [[/r 1d6+1 #Turns]] (7-12) turns, they will be forever lost. The bag will not affect living creatures unless the entire creature is stuffed inside the bag. This is impossible to do except with very small creatures.</p><p>A 1' x 2' cloth or leather bag that can normally hold up to 200 coins. It can be carried over the shoulder or tied onto a cart or saddle. Often used to store small items or treasure.</p>",
       "name": "Bag of Devouring",
-      "unidentifiedDesc": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>",
-      "unidentifiedName": "Sack, Large"
+      "unidentifiedDesc": "<p>A 1' x 2' cloth or leather bag that can hold up to 200 coins. It can be carried over the shoulder or tied onto a cart or saddle. Often used to store small items or treasure.</p>",
+      "unidentifiedName": "Sack, Small"
     },
     "Bag of Holding": {
       "description": "<p>This bag looks like a normal small sack, but any items placed within it disappear. Anyone may reach in and find the contents by touch. The bag will actually hold treasures up to 10,000 cn in weight, but will only weigh 600 cn when full. An item to be placed inside the bag may be no larger than 10'x5'x3'. A larger item will not fit inside.</p>",
@@ -5299,6 +5299,12 @@
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
     },
+    "Pouch of Security": {
+      "description": "<p>This item is the size of a large sack (capacity 600 cn). Any attempt at stealing the pouch causes it to scream, \"I am being stolen!\" (in the Common tongue) repeatedly for one hour. Its cries can be heard to 120'. If its owner holds it and commands it to be quiet, it will obey, but it will repeat its cries if stolen again.</p>",
+      "name": "Pouch of Security",
+      "unidentifiedDesc": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>",
+      "unidentifiedName": "Sack, Large"
+    },
     "Pouch, Belt": {
       "description": "<p>A small pouch made of leather or cloth, typically worn on a belt. It can hold up to 50 coins and is used to carry small valuables or other small items.</p>",
       "name": "Pouch, Belt",
@@ -5575,7 +5581,14 @@
     "Quill Pen": {
       "description": "<p>A large feather sharpened into a writing point.</p>",
       "name": "Quill Pen",
-      "unidentifiedDesc": "<p>A large feather sharpened into a writing point.</p>"
+      "unidentifiedDesc": "<p>A large feather sharpened into a writing point.</p>",
+      "unidentifiedName": "Quill Pen"
+    },
+    "Quill of Copying": {
+      "description": "<p>A quill is a large feather that can be dipped in ink and used as a writing implement. Usable only by spellcasters, this quill can be commanded to copy any spell on a scroll. It will copy only one spell per week at most. The original scroll must be burned, and the ashes mixed with rare ink (of 1,000 gp cost). The quill is then placed on a blank scroll along with an inkwell containing the prepared ink. Upon command, the quill starts to write, creating two identical spells on the scroll instead of the single original. If the scroll burnt contains two or more spells, only one spell will be copied—either the lowest level spell or (if more than one are the lowest level) a randomly selected spell. The quill will not copy protection scrolls or any other writing except spell scrolls.</p><p>Unfortunately, there is a [[/r 1d100 #On 25 or less, ink drained and scroll spoiled.]] 25% chance per use that the quill will suddenly drain of ink, spoiling the entire scroll upon which it is writing. The blot thus created cannot be removed from the parchment by any means but a <em>wish</em>.</p>",
+      "name": "Quill of Copying",
+      "unidentifiedDesc": "<p>A large feather sharpened into a writing point.</p>",
+      "unidentifiedName": "Quill Pen"
     },
     "Quiver": {
       "description": "<p> This is a container for arrows or quarrels; it is usually made of leather. A lesser-quality quiver is included in the basic cost of a load of ammunition, as noted on the Ammunition Table.</p>",
@@ -6032,6 +6045,12 @@
       "name": "Rope (50' length)",
       "unidentifiedDesc": "<p>A heavy climbing rope that can support up to three fully loaded humans, approximately 7,500 coins in total weight. It can be tied to an iron spike for climbing steep surfaces or used to tie up prisoners and pull open doors.</p>"
     },
+    "Rope of Climbing": {
+      "description": "<p>This 50'-long, thin, strong rope will climb in any direction upon the command of the owner. It can fasten itself to any protruding surface and will support up to 10,000 cn of weight.</p>",
+      "name": "Rope of Climbing",
+      "unidentifiedDesc": "<p>A light thin, yet incredibly sturdy, climbing rope that can support up to three fully loaded humans, approximately 7,500 coins in total weight. It can be tied to an iron spike for climbing steep surfaces or used to tie up prisoners and pull open doors.</p>",
+      "unidentifiedName": "Rope (50' length)"
+    },
     "Ruby": {
       "description": "<p>Ruby is a gemstone known for its deep red color and brilliance. It typically features a smooth, polished surface and a faceted appearance, enhancing its clarity and vibrant hue. Rubies are highly valued in jewelry for their rich color and elegant sparkle.</p>",
       "name": "Ruby",
@@ -6087,6 +6106,12 @@
       "name": "Scale Mail +2",
       "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
       "unidentifiedName": "Scale Mail"
+    },
+    "Scarab of Protection": {
+      "description": "<p>This item automatically absorbs any curse (whether by spell, scroll, or other effect). It will also absorb a <em>finger of death</em> (a cleric's <em>raise dead</em> spell, reversed). The scarab will work [[/r 2d6 #Charges when found.]] times before becoming worthless.</p>",
+      "name": "Scarab of Protection",
+      "unidentifiedDesc": "<p>A fist-sized stone, of some sort, carved into the shape of a stylized scarab beetle. </p>",
+      "unidentifiedName": "Scarab"
     },
     "Scarring (Ointment)": {
       "description": "<p>Inflicts 2d6 points of severe burn damage, which can only be repaired by <em>ointment of soothing</em>, a <em>cureall</em> spell, or a <em>wish</em>.</p>",
@@ -6360,6 +6385,12 @@
     "Singing": {
       "description": "<p>The Singing skill enables a character to perform vocal music with skill and emotion. It is used in performances to entertain, in rituals to invoke magic, or in social situations to charm or persuade. A successful Singing check can captivate an audience, enhance the effects of other abilities, or even distract or charm creatures through melody and lyrics.</p>",
       "name": "Singing"
+    },
+    "Slate of Identification": {
+      "description": "<p>This valuable device, usable only by spellcasters, can identify magical items of most sorts. It is a piece of slate (stone) held firmly in an ornate wooden frame, usually about 3' square (though slates of many sizes are possible, both larger and smaller). The user holds the slate horizontally and places a magical item upon it. When the item is lifted off, the name of the item appears on the slate. If an item has command words, one will appear on the slate with each identification. The slate will only repeat itself when all the command words have been revealed.</p><p>The slate is easily fooled by cursed items, however. And it cannot detect an item's number of charges or special ability. A <em>potion of poison</em> will be mistakenly identified as some other type. Any cursed item will be identified as a normal item. (These guidelines should be strictly followed, lest the mystery of such items found be ruined.)</p><p>The slate may expend up to ten charges per day; items identified require the following numbers of charges per use.</p><p><strong>Temporary Magical Items</strong></p><table style=\"width: 200px;\"><thead><tr><th>Item Type</th><th>Charges Required</th></tr></thead><tbody><tr><td>Potion</td><td>2</td></tr><tr><td>Missile</td><td>3</td></tr><tr><td>Wand</td><td>4</td></tr><tr><td>Staff</td><td>5</td></tr></tbody></table><p><strong>Permanent Magical Items</strong></p><table style=\"width:350px;\"><thead><tr><th>Item Type</th><th>Charges Required</th></tr></thead><tbody><tr><td>Any permanent magical weapon</td><td>6</td></tr><tr><td>Armor or shield</td><td>7</td></tr><tr><td>Ring or rod</td><td>8</td></tr><tr><td>Minor miscellaneous item*</td><td>10</td></tr><tr><td>Major miscellaneous item*</td><td>Special</td></tr></tbody></table><p>* The DM's judgment is required as to the value and frequency of such items in the campaign. A \"major\" item might be identifiable, but only by making the slate useless for 1d4 days.</p>",
+      "name": "Slate of Identification",
+      "unidentifiedDesc": "<p>An ornate, yet sensibly framed slate of polished stone. Approximately 3' square in size. Lightweight for its size.</p>",
+      "unidentifiedName": "Slate, Framed"
     },
     "Sleep": {
       "description": "<p>This spell puts 2-16 Hit Dice of creatures to sleep within a 40' square area. It affects creatures with 4+1 HD or less and does not work against undead or very large creatures, such as dragons. Creatures outside the area of effect are not affected.</p><p>Slapping, kicking, or shaking a sleeping creature will wake it. A single blow with an edged weapon can kill a sleeping creature, regardless of its hit points.</p><p>Your Dungeon Master will roll [[/r 2d8 #Sleep total hit dice affected]] to determine the total Hit Dice or experience levels of creatures affected by the spell. No saving throw is allowed.</p><p>The spell will put the targets to sleep for [[/r 4d4 #Sleep duration in turns]] turns.</p>",
