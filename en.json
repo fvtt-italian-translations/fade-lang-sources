@@ -629,6 +629,7 @@
       "LightItem": "Light Item Sheet",
       "MasteryDefinitionItem": "Weapon Mastery Definition Item Sheet",
       "Monster": "Monster Sheet",
+      "Prop": "Prop",
       "SkillItem": "Skill Item Sheet",
       "SpecialAbilityItem": "Special Ability Item Sheet",
       "SpellItem": "Spell Item Sheet",
@@ -1118,6 +1119,7 @@
       "needRestSoon": "<div class='warning'>The party will need to rest next turn, or their attack and damage rolls may be penalized until they do.</div>",
       "noAmmo": "{actorName} does not have {weaponName} ammunition equipped.",
       "noCharges": "{itemName} has no charges remaining and can't be used.",
+      "noHitPoints": "{actorName} does not have hit points and cannot take damage or healing.",
       "noTokenAssoc": "Action requires a token in the scene.",
       "noTokenWarning": "You must select a token or assign a default character to perform this action.",
       "noTokenWarning2": "You must select a token to perform this action.",
@@ -1470,6 +1472,7 @@
     "Actor": {
       "character": "Character",
       "monster": "Monster",
+      "prop": "Prop",
       "vehicle": "Vehicle/Mount"
     },
     "Item": {
