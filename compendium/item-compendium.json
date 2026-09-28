@@ -53,7 +53,7 @@
     "Amulet of Protection from Crystal Balls and ESP": {
       "description": "<p>The wearer of this item is automatically protected from being spied on by anyone using a crystal ball or any type of ESP.</p>",
       "name": "Amulet of Protection from Crystal Balls and ESP",
-      "unidentifiedDesc": "<p>An odd looking amulet is strange symbols carved in it.</p>",
+      "unidentifiedDesc": "<p>An odd looking amulet with strange symbols carved in it.</p>",
       "unidentifiedName": "Strange Amulet"
     },
     "Analyze": {
@@ -3068,6 +3068,13 @@
       "name": "Grappling Hook",
       "unidentifiedDesc": "<p>A large 3- or 4-pronged hook made of specially hardened iron, used to anchor a rope. It can be thrown to hook onto surfaces, allowing the user to climb otherwise inaccessible areas. A successful attack roll is needed to secure it properly.</p>"
     },
+    "Greater Talisman of Elemental Travel": {
+      "description": "<p>This item is a round amulet that may be found on a chain, engraved with the four triangular symbols of the elemental planes meeting in the center, and the ten symbols of all the elemental ranks inscribed around the edge. On the Prime Plane, the user may press the central symbol while casting a <em>conjure elemental</em> spell; the talisman will reverse the effect, sending the wearer into any of the elemental planes. While wearing the talisman, the user can breathe elemental matter as if it were pure, clean air, and gains enhanced vision (normally 120'-1,200' range, depending on conditions). If the proper command words are known, the wearer may also force an elemental being to obey instructions. This uses one charge; the talisman can expend up to ten charges per trip into an elemental plane.</p>",
+      "gmNotes": "Placeholder item. Individual item can be used once rolled.",
+      "name": "Greater Talisman of Elemental Travel",
+      "unidentifiedDesc": "<p>An odd looking talisman with strange symbols carved in it.</p>",
+      "unidentifiedName": "Talisman"
+    },
     "Green Dragon": {
       "classLevels": {
         "0": {
@@ -3678,6 +3685,30 @@
       "name": "Leather Armor +2",
       "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
       "unidentifiedName": "Leather Armor"
+    },
+    "Lesser Talisman of Air": {
+      "description": "<p>This item is a round amulet that may be found on a chain; this one corresponds to the element of <strong>Air</strong>. </p><p>It is engraved with a triangle in the center and a symbol above it (one of the ten symbols of the elemental ranks). On the Prime Plane, the user may press the central symbol while casting a <em>conjure elemental</em> spell; the talisman will reverse the effect, sending the wearer into the appropriate elemental plane. While wearing the talisman, the user can breathe elemental matter as if it were pure, clean air, and he gains in vision (normally 120'-1,200' range, depending on conditions).</p>",
+      "name": "Lesser Talisman of Air",
+      "unidentifiedDesc": "<p>An odd looking talisman with strange symbols carved in it.</p>",
+      "unidentifiedName": "Talisman"
+    },
+    "Lesser Talisman of Earth": {
+      "description": "<p>This item is a round amulet that may be found on a chain; this one corresponds to the element of <strong>Earth</strong>.</p><p>It is engraved with a triangle in the center and a symbol above it (one of the ten symbols of the elemental ranks). On the Prime Plane, the user may press the central symbol while casting a <em>conjure elemental</em> spell; the talisman will reverse the effect, sending the wearer into the appropriate elemental plane. While wearing the talisman, the user can breathe elemental matter as if it were pure, clean air, and he gains in vision (normally 120'-1,200' range, depending on conditions).</p>",
+      "name": "Lesser Talisman of Earth",
+      "unidentifiedDesc": "<p>An odd looking talisman with strange symbols carved in it.</p>",
+      "unidentifiedName": "Talisman"
+    },
+    "Lesser Talisman of Fire": {
+      "description": "<p>This item is a round amulet that may be found on a chain; this one corresponds to the element of <strong>Fire</strong>. </p><p>It is engraved with a triangle in the center and a symbol above it (one of the ten symbols of the elemental ranks). On the Prime Plane, the user may press the central symbol while casting a <em>conjure elemental</em> spell; the talisman will reverse the effect, sending the wearer into the appropriate elemental plane. While wearing the talisman, the user can breathe elemental matter as if it were pure, clean air, and he gains in vision (normally 120'-1,200' range, depending on conditions).</p>",
+      "name": "Lesser Talisman of Fire",
+      "unidentifiedDesc": "<p>An odd looking talisman with strange symbols carved in it.</p>",
+      "unidentifiedName": "Talisman"
+    },
+    "Lesser Talisman of Water": {
+      "description": "<p>This item is a round amulet that may be found on a chain; this one corresponds to the element of <strong>Water</strong>.</p><p>It is engraved with a triangle in the center and a symbol above it (one of the ten symbols of the elemental ranks). On the Prime Plane, the user may press the central symbol while casting a <em>conjure elemental</em> spell; the talisman will reverse the effect, sending the wearer into the appropriate elemental plane. While wearing the talisman, the user can breathe elemental matter as if it were pure, clean air, and he gains in vision (normally 120'-1,200' range, depending on conditions).</p>",
+      "name": "Lesser Talisman of Water",
+      "unidentifiedDesc": "<p>An odd looking talisman with strange symbols carved in it.</p>",
+      "unidentifiedName": "Talisman"
     },
     "Levitate": {
       "description": "<p>When this spell is cast, the spellcaster may move up or down in the air without any support. This spell does not, however, allow the spellcaster to move from side to side. For example, a spellcaster could levitate to a ceiling, and then could slowly move sideways by pushing and pulling. His movement up or down is at the rate of 20' per round.</p><p>The spell cannot be cast on another person or object. The spellcaster may carry a normal amount of weight while levitating, up to 2,000 cn (200 lbs) in weight, possibly another man-sized creature (if it isn't wearing metal armor). Any creature smaller than man-sized can be carried, unless heavily laden. No saving throw is allowed.</p>",
@@ -6618,6 +6649,12 @@
       "spellEffect": "Creates a sphere of silence (20' diameter)",
       "spellRange": "0 (bard only)"
     },
+    "Stone of Controlling Earth Elementals": {
+      "description": "<p>This item may be used only once per day. The stone is only 6\" across, and it requires 1 turn to use. The stone will summon an earth elemental and will allow the user to control it, subject to normal rules for elemental control.</p>",
+      "name": "Stone of Controlling Earth Elementals",
+      "unidentifiedDesc": "<p>A fist-sized stone.</p>",
+      "unidentifiedName": "Stone"
+    },
     "Stone to Flesh*": {
       "description": "<p>This spell turns any one statue (or quantity of stone up to 10' x 10' x 10') to flesh. It is usually used to restore a character turned to stone (by gorgon breath, for example).</p><p>The reverse of this spell, <em>flesh to stone</em>, will turn one living creature, including all equipment carried, to stone. The victim may make a saving throw vs. turn to stone to avoid the effect.</p>",
       "name": "Stone to Flesh*",
@@ -6842,6 +6879,13 @@
       "description": "<p>This spell creates a written magical drawing (a \"rune\") of great power. There are six kinds of symbols; the caster must select one when the spell is memorized. The rune may be placed on an object (such as a door or wall) or placed in mid-air. The rune cannot move; if placed on a creature or moving object, it will remain at that point when the surface moves (possibly floating in mid-air).</p><p>When any living creature passes over or through the rune, or touches the object on which the rune is inscribed, or (foolishly) reads the rune, the rune's effect takes place immediately (no saving throw).</p><p>There is one exception: a magic-user, and any other creature which can normally cast magic-user spells (high-level thieves with scrolls do not count!), may make a saving throw vs. spells if he merely reads or touches (rather than passes) the symbol. If the saving throw is successful, the symbol has no effect.</p><p>All symbols look similar to normal writings. Six symbols and their effects are given below; the DM may create others (such as <em>polymorph</em>, <em>teleport</em>, <em>charm</em>, <em>geas</em>, etc.).</p><ul><li><strong>Death:</strong> Slays any creature with 75 hit points or less; does not affect a creature with 76 hit points or more.</li><li><strong>Discord:</strong> The victim attacks allies (if any) or is otherwise confused (as the 4th level <em>confusion</em> spell). The effect is permanent until removed by a <em>dispel magic</em> spell (at normal chances for success) or by a cleric's <em>cureall</em> spell.</li><li><strong>Fear:</strong> The victim immediately runs away from the symbol, at his Running Speed, for 30 rounds (as the wand).</li><li><strong>Insanity:</strong> The victim becomes insane, and cannot attack, cast spells, or use special abilities or items. The victim may walk, but must be carefully tended or may run away. This effect is permanent until removed by a <em>dispel magic</em> spell (at normal chances for success) or by a cleric's <em>cureall</em> spell.</li><li><strong>Sleep:</strong> The victim falls asleep, and cannot be awakened. The victim will wake normally in 1d10 + 10 (11-20) hours or if <em>dispel magic</em> is used to negate it (at normal chances for success).</li><li><strong>Stunning:</strong> Affects any creature with 150 or fewer hit points. The victim is stunned for 2d6 turns (as the <em>power word stun</em> spell).</li></ul>",
       "name": "Symbol",
       "spellEffect": "Creates one magical rune"
+    },
+    "Talisman of Elemental Travel": {
+      "description": "<p>There are five types of talismans. Roll [[/r 1d10 #Talisman type]] to determine the exact item found.</p><table style=\"width:300px;\"><thead><tr><th>d10 Roll</th><th>Talisman Found</th></tr></thead><tbody><tr><td>1-2</td><td>Lesser Talisman of Air</td></tr><tr><td>3-4</td><td>Lesser Talisman of Earth</td></tr><tr><td>5-6</td><td>Lesser Talisman of Fire</td></tr><tr><td>7-8</td><td>Lesser Talisman of Water</td></tr><tr><td>9-10</td><td>Greater Talisman (all elements)</td></tr></tbody></table><p><strong>Lesser Talisman:</strong> This item is a round amulet that may be found on a chain; there are corresponding types to each of the four elements. It is engraved with a triangle in the center and a symbol above it (one of the ten symbols of the elemental ranks). On the Prime Plane, the user may press the central symbol while casting a <em>conjure elemental</em> spell; the talisman will reverse the effect, sending the wearer into the appropriate elemental plane. While wearing the talisman, the user can breathe elemental matter as if it were pure, clean air, and he gains in vision (normally 120'-1,200' range, depending on conditions).</p><p><strong>Greater Talisman:</strong> This item is similar to a lesser talisman in powers, but applies to all the elemental planes. It is engraved with the four triangular symbols of the planes, meeting in the center. The ten symbols of all the elemental ranks are inscribed around the edge. If the proper command words are known, the wearer may also force an elemental being to obey instructions. This uses one charge; the talisman can expend up to ten charges per trip into an elemental plane.</p>",
+      "gmNotes": "Placeholder item. Individual item can be used once rolled.",
+      "name": "Talisman of Elemental Travel",
+      "unidentifiedDesc": "<p>An odd looking talisman with strange symbols carved in it.</p>",
+      "unidentifiedName": "Talisman"
     },
     "Tanning (Ointment)": {
       "description": "<p>Causes all the recipient's skin to turn a bright color (determined randomly from red, yellow, orange, blue, green, or brown). The effect cannot be removed but will gradually wear off in [[/r 1d4 #Months]] months.</p>",
@@ -8159,6 +8203,27 @@
       "description": "<p>This spell conjures a thick, sticky web that fills the affected area. The web traps creatures, restricting movement and blocking passage. Giants or creatures with great strength can break through the web in 2 rounds, while a human of average strength will take [[/r 2d4 #Escape Time in Turns]] turns to break free.</p>\n        <p>Flames, such as from a torch, will burn away the web in 2 rounds, dealing [[/r 1d6 #Fire Damage]] damage to anyone caught in it. Magical items like gauntlets of ogre power reduce escape time to 4 rounds.</p>",
       "name": "Web",
       "spellEffect": "A volume 10' x 10' x 10'"
+    },
+    "Wheel of Floating": {
+      "description": "<p>This item appears identical to a normal wagon wheel, but it enables any wagon upon which it is mounted to float on water. One <em>wheel of floating</em> allows a wagon to be towed across a river or stream, carrying up to 10,000 cn weight without sinking. Each additional <em>wheel of floating</em> allows 5,000 cn more weight to be carried, up to the normal maximum for the wagon of 25,000 cn. Swamp travel is also possible, but at a very slow movement rate unless some water-type draft animal is available.</p>",
+      "gmNotes": "Placeholder item. Individual item can be used once rolled.",
+      "name": "Wheel of Floating",
+      "unidentifiedDesc": "<p>A beautifully constructed wagon wheel.</p>",
+      "unidentifiedName": "Wagon Wheel"
+    },
+    "Wheel of Floating (Cursed)": {
+      "description": "<p>This item appears identical to a normal <em>wheel of floating</em> and functions similarly until reaching the center of any river or stream. At that point, the cursed wheel becomes stuck and cannot be moved until a <em>remove curse</em> spell is applied by a 15th or higher level caster. This allows progress to continue, but the curse will return again upon its next use until the wheel is destroyed.</p>",
+      "gmNotes": "Placeholder item. Individual item can be used once rolled.",
+      "name": "Wheel of Floating (Cursed)",
+      "unidentifiedDesc": "<p>A beautifully constructed wagon wheel.</p>",
+      "unidentifiedName": "Wagon Wheel"
+    },
+    "Wheel, Square": {
+      "description": "<p>This odd \"wheel,\" the size of a normal wagon wheel, is useless on roads and other flat terrain because it is perfectly square. However, when mounted properly on a wagon, it magically allows movement through mountain and desert terrain where there is no road. A wagon with one square wheel can be pulled by two horses and can move at 20'/turn; with two wheels, 30'/turn; with three, 40'/turn; and with four, the normal rate of 60'/turn is possible.</p>",
+      "gmNotes": "Placeholder item. Individual item can be used once rolled.",
+      "name": "Wheel, Square",
+      "unidentifiedDesc": "<p>A beautifully constructed square wagon wheel.</p>",
+      "unidentifiedName": "Wheel, Square"
     },
     "Whip": {
       "name": "Whip"
