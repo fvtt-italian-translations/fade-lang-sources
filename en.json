@@ -1336,6 +1336,10 @@
     "attackRollFormula": {
       "name": "Attack Roll Formula"
     },
+    "characterDeathHp": {
+      "hint": "Characters are marked dead when their current HP is less than or equal to this value. Use a negative number for negative-HP house rules (for example, -10).",
+      "name": "Character Death HP"
+    },
     "classSystem": {
       "choices": {
         "advanced": "Advanced",
@@ -1403,6 +1407,10 @@
       },
       "hint": "If enabled, the monster sheet will have ability scores, just like the character sheet. Select 'Without Modifier' option to ignore ability score modifiers. Select 'With Modifier' to include ability score modifiers. Including the modifiers will not only display them on the sheet, but also include them in die rolls, such as bonuses to attack and damage rolls.",
       "name": "Monster Ability Scores"
+    },
+    "monsterDeathHp": {
+      "hint": "Monsters and vehicles are marked dead when their current HP is less than or equal to this value. Use a negative number for negative-HP house rules (for example, -10).",
+      "name": "Monster Death HP"
     },
     "move": {
       "max": {
