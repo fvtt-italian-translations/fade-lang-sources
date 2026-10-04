@@ -104,14 +104,40 @@
       "Mod": "Mod",
       "Movement": {
         "abbr": "MV",
+        "addMode": "Add movement mode",
+        "addModeMax": "This sheet currently supports at most two movement modes.",
+        "band": {
+          "normal": "Normal",
+          "over": "Over",
+          "slow": "Slow",
+          "sprint": "Sprint"
+        },
         "day": "Overland",
         "dayHint": "<b>Miles per day. Overland travel.</b><p>Note that terrain effects this rate.</p>",
+        "deleteMode": "Remove movement mode",
         "long": "Movement",
+        "mode": {
+          "burrow": "Burrow",
+          "climb": "Climb",
+          "fly": "Flight",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "swim": "Swim",
+          "walk": "Ground"
+        },
         "moveTurn": "Base Movement",
+        "noActionsLeft": "No unused movement actions are available.",
         "round": "Round",
         "roundHint": "<b>Feet or yards per round.</b><p>Used during combat encounters.</p>",
         "run": "Run",
         "runHint": "<b>Feet or yards per round.</b><p>Used when moving at maximum speed during combat encounters.</p>",
+        "timescale": {
+          "day": "Day",
+          "hint": "Movement timescale for measurement. Click to cycle; clears back to inferred.",
+          "inferred": "Inferred ({scale})",
+          "round": "Round",
+          "turn": "Turn"
+        },
         "total": "Total",
         "turn": "Base",
         "turnHint": "<b>Feet or yards per turn.</b><p>This rate includes many assumed actions such as mapping, peeking around corners, resting, and so forth.</p>"
@@ -1045,8 +1071,10 @@
         "disadvantage": "Disadvantage",
         "normal": "Normal"
       },
+      "select": "Select",
       "selectAttack": "Select What to Attack With",
       "selectLightSource": "Select Light Source",
+      "selectMovementAction": "Select Movement Action",
       "selectSpell": "Select spell to cast",
       "selectWeapon": "Select Weapon",
       "selected": "Selected",
@@ -1297,7 +1325,7 @@
   "SETTINGS": {
     "EncMax": {
       "Hint": "The maximum weight that can be carried while still able to move.",
-      "Name": "Encumbrance Max"
+      "Name": "Enc. Max."
     },
     "Encumbrance": {
       "Basic": "Armor Only",
