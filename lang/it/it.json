@@ -68,7 +68,22 @@
                 "run": "Corsa",
                 "runHint": "<b>Metri per round di 10 secondi.</b><p>Utilizzato quando ci si muove alla massima velocità durante il combattimento. Viaggiare alla massima velocità può durare fino a 30 round (5 minuti)</p>",
                 "total": "Totale",
-                "moveTurn": "Movimento Base"
+                "moveTurn": "Movimento Base",
+                "band": {
+                    "normal": "Normale",
+                    "slow": "Lentezza"
+                },
+                "mode": {
+                    "burrow": "Scavare",
+                    "climb": "Scalare",
+                    "fly": "Volo",
+                    "primary": "Primaria",
+                    "secondary": "Secondaria",
+                    "swim": "Nuotare"
+                },
+                "timescale": {
+                    "round": "Round"
+                }
             },
             "Saves": {
                 "saveAs": {
@@ -763,7 +778,8 @@
             "removeFromPrompt": "Rimuovere da mirato o selezionato?",
             "spellScroll": {
                 "spellLabel": "Incantesimo"
-            }
+            },
+            "select": "Seleziona"
         },
         "tabs": {
             "abilities": "Caratteristiche",
