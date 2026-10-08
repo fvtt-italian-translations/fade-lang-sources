@@ -683,10 +683,10 @@
         "save": "Saving Throw",
         "spellcasting": "Spellcasting"
       },
+      "customCode": "Custom Code",
+      "customCodeHint": "Stable identifier for this ability. Required for saving throws; optional for other abilities and macros.",
       "long": "Special Ability",
       "plural": "Special Abilities",
-      "saveType": "Save Type",
-      "saveTypeHint": "Set this if this special ability is a saving throw.",
       "short": "Ability"
     },
     "Spell": {
