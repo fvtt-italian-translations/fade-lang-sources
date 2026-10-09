@@ -796,6 +796,17 @@
       "turnTracker": {
         "conditionHint": "When the party needs rest, they will be given the specified condition. The condition will be removed upon resting. This requires that all party members be added to the party tracker, otherwise the system can't determine which characters to apply the condition to.",
         "conditionName": "Needs Rest Condition",
+        "exploration": {
+          "hint": "When active on the viewed scene, token moves accumulate on the ruler for the current exploration turn. Movement history resets when you advance, revert, or rest. An active encounter on the scene temporarily uses combat movement tracking instead.",
+          "label": "Exploration",
+          "noScene": "No scene viewed",
+          "scene": "Scene",
+          "start": "Start Exploration",
+          "statusActive": "Active",
+          "statusOff": "Off",
+          "statusSuspended": "Suspended (encounter)",
+          "stop": "Stop Exploration"
+        },
         "next": "Next",
         "nextDesc": "Advance Turn",
         "prev": "Previous",
