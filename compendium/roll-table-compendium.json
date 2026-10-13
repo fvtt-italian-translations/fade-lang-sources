@@ -2,209 +2,56 @@
   "entries": {
     "AC Mod (Banded, Scale or Leather)": {
       "description": "<p>The armor class modifier for Banded, Scale or Leather armor. This table also rolls to determine if the armor has a special power.</p>",
-      "name": "AC Mod (Banded, Scale or Leather)",
-      "results": {
-        "1-100": "Cursed Armor Check",
-        "1-70": "Special Power 10%",
-        "100-100": "Special Power 30%",
-        "71-88": "Special Power 15%",
-        "89-96": "Special Power 20%",
-        "97-99": "Special Power 25%"
-      }
+      "name": "AC Mod (Banded, Scale or Leather)"
     },
     "AC Mod (Chain)": {
       "description": "<p>The armor class modifier for Chain Mail armor. This table also rolls to determine of the armor has a special power.</p>",
-      "name": "AC Mod (Chain)",
-      "results": {
-        "1-100": "Armor Size Table",
-        "1-60": "Special Power 10%",
-        "61-81": "Special Power 15%",
-        "82-92": "Special Power 20%",
-        "93-98": "Special Power 25%",
-        "99-100": "Special Power 30%"
-      }
+      "name": "AC Mod (Chain)"
     },
     "AC Mod (Plate or Suit)": {
       "description": "<p>The armor class modifier for Plate Mail or Suit armor. This table also rolls to determine of the armor has a special power.</p>",
-      "name": "AC Mod (Plate or Suit)",
-      "results": {
-        "1-100": "Armor Size Table",
-        "1-50": "Special Power 10%",
-        "51-74": "Special Power 15%",
-        "75-88": "Special Power 20%",
-        "89-96": "Special Power 25%",
-        "97-100": "Special Power 30%"
-      }
+      "name": "AC Mod (Plate or Suit)"
     },
     "AC Mod (Shield)": {
       "description": "<p>The armor class modifier for Shields. This table also rolls to determine of the shield has a special power.</p>",
-      "name": "AC Mod (Shield)",
-      "results": {
-        "1-100": "Armor Size Table",
-        "1-40": "Special Power 10%",
-        "41-67": "Special Power 15%",
-        "68-84": "Special Power 20%",
-        "85-94": "Special Power 25%",
-        "95-100": "Special Power 30%"
-      }
+      "name": "AC Mod (Shield)"
     },
     "Additional Weapon Mods (Misc)": {
       "description": "<p>Determines additional modifiers for miscellaneous weapons. Use the result to adjust bonuses or roll on the Talents table for a specific talent.</p>",
-      "name": "Additional Weapon Mods (Misc)",
-      "results": {
-        "1-75": "Weapon Opponents",
-        "76-100": "Weapon Talents"
-      }
+      "name": "Additional Weapon Mods (Misc)"
     },
     "Additional Weapon Mods. (Swords)": {
       "description": "<p>Determines additional modifiers for weapons. Use the result to adjust bonuses or roll on the Talents table for a specific talent. This bonus is added to the weapons bonus when fighting special opponents.</p>",
-      "name": "Additional Weapon Mods. (Swords)",
-      "results": {
-        "1-75": "Weapon Opponents",
-        "76-100": "Weapon Talents"
-      }
+      "name": "Additional Weapon Mods. (Swords)"
     },
     "Animal (Barren, Mountain, Hill)": {
-      "name": "Animal (Barren, Mountain, Hill)",
-      "results": {
-        "1-1": "Animal Herd",
-        "10-10": "Snake, Giant Rattler",
-        "11-11": "Wolf, Normal",
-        "12-12": "Wolf, Dire",
-        "2-2": "Ape, Snow",
-        "3-3": "Ape, White",
-        "4-4": "Baboon, Rock",
-        "5-5": "Bear, Cave",
-        "6-6": "Bear, Grizzly",
-        "7-7": "Cat, Mountain Lion",
-        "8-8": "Mule",
-        "9-9": "Snake, Pit Viper"
-      }
+      "name": "Animal (Barren, Mountain, Hill)"
     },
     "Animal (Clear, Grassland)": {
-      "name": "Animal (Clear, Grassland)",
-      "results": {
-        "1-1": "Animal Herd",
-        "10-10": "Snake, Pit Viper",
-        "11-11": "Snake, Giant Rattler",
-        "12-12": "Weasel, Giant",
-        "2-2": "Baboon, Rock",
-        "3-3": "Boar, Normal",
-        "4-4": "Cat, Lion",
-        "5-5": "Elephant, Normal",
-        "6-6": "Ferret, Giant",
-        "7-7": "Horse, Riding",
-        "8-8": "Lizard, Draco",
-        "9-9": "Mule"
-      }
+      "name": "Animal (Clear, Grassland)"
     },
     "Animal (Desert)": {
-      "name": "Animal (Desert)",
-      "results": {
-        "1-2": "Animal Herd",
-        "10-10": "Snake, Giant Rattler",
-        "11-11": "Spider, Giant (Black Widow)",
-        "12-12": "Spider, Giant (Tarantella)",
-        "3-4": "Camel",
-        "5-6": "Cat, Lion",
-        "7-7": "Lizard, Gecko",
-        "8-8": "Lizard, Tuatara",
-        "9-9": "Snake, Pit Viper"
-      }
+      "name": "Animal (Desert)"
     },
     "Animal (Jungle)": {
-      "name": "Animal (Jungle)",
-      "results": {
-        "1-1": "Animal Herd",
-        "10-10": "Snake, Rock Python",
-        "11-11": "Snake, Spitting Cobra",
-        "12-12": "Spider, Giant (Crab Spider)",
-        "2-2": "Boar, Normal",
-        "3-3": "Cat, Panther",
-        "4-4": "Lizard, Draco",
-        "5-5": "Lizard, Gecko",
-        "6-6": "Lizard, Horned Chameleon",
-        "7-7": "Rat, Giant",
-        "8-8": "Shrew, Giant",
-        "9-9": "Snake, Pit Viper"
-      }
+      "name": "Animal (Jungle)"
     },
     "Animal (Prehistoric)": {
-      "name": "Animal (Prehistoric)",
-      "results": {
-        "1-1": "Bear, Cave",
-        "11-11": "Tyrannosaurus Rex",
-        "12-12": "Wolf, Dire",
-        "2-2": "Cat, Sabre-Tooth Tiger",
-        "3-3": "Crocodile, Giant",
-        "4-4": "Elephant, Prehistoric (Mastodon)",
-        "5-5": "Pterosaur, Small (Pterodactyl)",
-        "6-6": "Pterosaur, Medium (Pteranodon)",
-        "7-7": "Snake, Giant Racer",
-        "8-8": "Snake, Pit Viper",
-        "9-10": "Triceratops"
-      }
+      "name": "Animal (Prehistoric)"
     },
     "Animal (River)": {
-      "name": "Animal (River)",
-      "results": {
-        "1-1": "Animal Herd",
-        "10-10": "Rat, Giant",
-        "11-11": "Shrew, Giant",
-        "12-12": "Toad, Giant",
-        "2-2": "Boar, Normal",
-        "3-3": "Cat, Panther",
-        "4-4": "Cat, Tiger",
-        "5-5": "Crab, Giant",
-        "6-6": "Crocodile, Normal",
-        "7-7": "Crocodile, Large",
-        "8-8": "Fish, Giant Rockfish",
-        "9-9": "Leech, Giant"
-      }
+      "name": "Animal (River)"
     },
     "Animal (Settled)": {
-      "name": "Animal (Settled)",
-      "results": {
-        "1-2": "Animal Herd",
-        "10-10": "Snake, Pit Viper",
-        "11-11": "Spider, Giant (Tarantella)",
-        "12-12": "Wolf, Normal",
-        "3-3": "Boar, Normal",
-        "4-4": "Cat, Tiger",
-        "5-5": "Ferret, Giant",
-        "6-6": "Horse, Riding",
-        "7-7": "Rat, Giant",
-        "8-8": "Shrew, Giant",
-        "9-9": "Snake, Giant Racer"
-      }
+      "name": "Animal (Settled)"
     },
     "Animal (Woods)": {
       "description": "<p>Woodland animal encounter.</p>",
-      "name": "Animal (Woods)",
-      "results": {
-        "1-1": "Animal Herd",
-        "10-10": "Unicorn",
-        "11-11": "Wolf, Normal",
-        "12-12": "Wolf, Dire",
-        "2-2": "Boar, Normal",
-        "3-3": "Cat, Panther",
-        "4-4": "Cat, Tiger",
-        "5-5": "Lizard, Gecko",
-        "6-6": "Lizard, Draco",
-        "7-7": "Lizard, Tuatara",
-        "8-8": "Snake, Pit Viper",
-        "9-9": "Spider, Giant (Crab Spider)"
-      }
+      "name": "Animal (Woods)"
     },
     "Animal Herd": {
       "description": "<p>Animal herd encounter.</p>",
-      "name": "Animal Herd",
-      "results": {
-        "1-1": "Animal Herd (1 HD)",
-        "2-2": "Animal Herd (2 HD)",
-        "3-3": "Animal Herd (3 HD)",
-        "4-4": "Animal Herd (4 HD)"
-      }
+      "name": "Animal Herd"
     },
     "Antidote Potion": {
       "description": "<p>Determines the effectiveness of an Antidote Potion, ranging from poisons caused by creatures with 3-HD to all poisons.</p>",
@@ -219,35 +66,15 @@
       "name": "Armor Special Powers"
     },
     "Bandit": {
-      "name": "Bandit",
-      "results": {
-        "1-1": "Bandit",
-        "2-2": "Bandit (2HD)",
-        "3-3": "Bandit (3HD)"
-      }
+      "name": "Bandit"
     },
     "Barren, Mountain, Hill Encounter": {
       "description": "<h3>Barren, Mountain, Hill Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Barren, Mountain, Hill Encounter",
-      "results": {
-        "1-1": "NPC Adventurer Class and Level",
-        "2-2": "Flyers (Mountain)",
-        "3-3": "Humanoid (Barren, Mountain, Hill)",
-        "4-4": "Unusual",
-        "5-5": "Animal (Barren, Mountain, Hil)",
-        "6-6": "Humanoid (Barren, Mountain, Hill)",
-        "7-8": "Dragons"
-      }
+      "name": "Barren, Mountain, Hill Encounter"
     },
     "Castle Encounter": {
       "description": "<p>The DM can determine the character class of castle inhabitants either by using the Subtable: Castle Encounters (page 98) or by selecting classes as appropriate. If the table is to be used, roll a 1d6; if the result is a 3, roll 1d6 again and see which of the demihuman races is the result. For human owners of a castle, regardless of class, roll 1d20 + 8 for the owner's level. Demihuman levels are listed in the table.</p><p>If the DM has not already determined what the castle inhabitants' reactions will be to player characters, he or she can either check the Monster Reactions Table given earlier in this chapter or check the Castle Reactions Table on page 99. The \"Reaction\" columns of the table assume that the party does nothing to either arouse suspicion or to inspire trust; the DM can certainly adjust the die roll if the PCs' actions toward the castle inhabitants warrant the modification.</p><p>Remember, too, that some high-level PC fighters may have the right of sanctuary at castles in the campaign; a PC with that right who declares his name and title will normally receive a \"Friendly\" result.</p><p>Note that the men listed are only part of the castle owner's forces and are simply the unit sent out after annoying travelers; the rest of the castle's forces should include other men and might even include special monsters.</p><p><strong>Pursue:</strong> The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.</p><p><strong>Ignore:</strong> No attempt is made to aid or hinder the party.</p><p><strong>Friendly:</strong> The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)</p>",
-      "name": "Castle Encounter",
-      "results": {
-        "1-1": "Castle Reaction (Cleric)",
-        "2-2": "Castle Reaction (Magic-User)",
-        "3-3": "Castle Reaction (Demihuman)",
-        "4-6": "Castle Reaction (Fighter)"
-      }
+      "name": "Castle Encounter"
     },
     "Castle Owner Alignment": {
       "name": "Castle Owner Alignment"
@@ -265,44 +92,19 @@
       "name": "Castle Reaction (Magic-User)"
     },
     "Caveman (Neanderthal)": {
-      "name": "Caveman (Neanderthal)",
-      "results": {
-        "1-20": "Neanderthal",
-        "15-20": "Neanderthal, Leader"
-      }
+      "name": "Caveman (Neanderthal)"
     },
     "City Encounter": {
       "description": "<h3>City Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "City Encounter",
-      "results": {
-        "1-1": "Human (Settled)",
-        "2-2": "Undead",
-        "3-3": "Humanoid (City and Inhabited)",
-        "4-7": "Human (Settled)",
-        "8-8": "Special City Encounter"
-      }
+      "name": "City Encounter"
     },
     "Clear, Grasslands Encounter": {
       "description": "<h3>Clear, Grasslands Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Clear, Grasslands Encounter",
-      "results": {
-        "1-1": "Human (Clear, Grassland)",
-        "2-2": "Flyers (All Other)",
-        "3-3": "Humanoid (Clear, Grassland)",
-        "4-5": "Animal (Clear, Grassland)",
-        "6-6": "Unusual",
-        "7-7": "Dragons",
-        "8-8": "Insects"
-      }
+      "name": "Clear, Grasslands Encounter"
     },
     "Cleric/Druid Scroll Spell Count": {
       "description": "<p>Determines the number of spells on the spell scroll. Roll for the level of each spell separately.</p>",
-      "name": "Cleric/Druid Scroll Spell Count",
-      "results": {
-        "1-50": "Cleric/Druid Scroll Spell Level",
-        "51-83": "Cleric/Druid Scroll Spell Level",
-        "84-100": "Cleric/Druid Scroll Spell Level"
-      }
+      "name": "Cleric/Druid Scroll Spell Count"
     },
     "Cleric/Druid Scroll Spell Level": {
       "description": "<p>Determines the level of a Cleric or Druid spell found on a spell scroll.</p>",
@@ -332,26 +134,13 @@
     },
     "Desert Encounter": {
       "description": "<h3>Desert Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Desert Encounter",
-      "results": {
-        "1-1": "Human (Desert)",
-        "2-2": "Flyers (Desert)",
-        "3-3": "Humanoid (Desert)",
-        "4-4": "Human (Desert)",
-        "5-5": "Animal (Desert)",
-        "6-6": "Dragons",
-        "7-7": "Undead",
-        "8-8": "Animal (Desert)"
-      }
+      "name": "Desert Encounter"
     },
     "Door - Locked or Stuck": {
       "name": "Door - Locked or Stuck"
     },
     "Door - Trapped": {
-      "name": "Door - Trapped",
-      "results": {
-        "8-10": "Trap Type"
-      }
+      "name": "Door - Trapped"
     },
     "Dragon Control (gemstone)": {
       "description": "<p>Determines the type of gemstone dragon controlled.</p>",
@@ -359,11 +148,7 @@
     },
     "Dragon Control (main)": {
       "description": "<p>Determines the type of dragon controlled.</p>",
-      "name": "Dragon Control (main)",
-      "results": {
-        "1-30": "Dragon Control (gemstone)",
-        "31-100": "Dragon Control (normal)"
-      }
+      "name": "Dragon Control (main)"
     },
     "Dragon Control (normal)": {
       "description": "<p>Determines the type of gemstone dragon controlled.</p>",
@@ -371,35 +156,10 @@
     },
     "Dragons": {
       "description": "<p>Dragon encounter.</p>",
-      "name": "Dragons",
-      "results": {
-        "1-1": "Chimera",
-        "10-10": "Dragon, Gold (Huge)",
-        "11-11": "Dragon, Green (Small)",
-        "12-12": "Dragon, Green (Large)",
-        "13-13": "Dragon, Green (Huge)",
-        "14-14": "Dragon, Red (Small)",
-        "15-15": "Dragon, Red (Large)",
-        "16-16": "Dragon, Red (Huge)",
-        "17-17": "Dragon, White (Small)",
-        "18-18": "Dragon, White (Large)",
-        "19-19": "Dragon, White (Huge)",
-        "2-2": "Dragon, Black (Small)",
-        "22-22": "Wyvern",
-        "3-3": "Dragon, Black (Large)",
-        "4-4": "Dragon, Black (Huge)",
-        "5-5": "Dragon, Blue (Small)",
-        "6-6": "Dragon, Blue (Large)",
-        "7-7": "Dragon, Blue (Huge)",
-        "8-8": "Dragon, Gold (Small)",
-        "9-9": "Dragon, Gold (Large)"
-      }
+      "name": "Dragons"
     },
     "Dwarf": {
-      "name": "Dwarf",
-      "results": {
-        "1-1": "Dwarf (1 HD)"
-      }
+      "name": "Dwarf"
     },
     "Egg of Wonder Creature Type": {
       "description": "<p>Determines the type of creature that hatches from the Egg of Wonder, such as a Baboon, Panther, or Wolf.</p>",
@@ -410,12 +170,7 @@
       "name": "Elemental Adaptation Ring"
     },
     "Elf": {
-      "name": "Elf",
-      "results": {
-        "1-8": "Elf (1 HD)",
-        "5-9": "Elf (2 HD)",
-        "8-10": "Elf (3 HD)"
-      }
+      "name": "Elf"
     },
     "Empty Room": {
       "description": "<p>The room is empty except for cobwebs and random debris.</p>",
@@ -423,53 +178,31 @@
     },
     "Encounter - Dungeon Level 1": {
       "description": "<h3>Encounter - Dungeon Level 1</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Encounter - Dungeon Level 1",
-      "results": {
-        "13-13": "NPC Adventurer Alignment"
-      }
+      "name": "Encounter - Dungeon Level 1"
     },
     "Encounter - Dungeon Level 2": {
       "description": "<h3>Encounter - Dungeon Level 2</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Encounter - Dungeon Level 2",
-      "results": {
-        "14-14": "NPC Adventurer Alignment"
-      }
+      "name": "Encounter - Dungeon Level 2"
     },
     "Encounter - Dungeon Level 3": {
       "description": "<h3>Encounter - Dungeon Level 3</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Encounter - Dungeon Level 3",
-      "results": {
-        "14-14": "NPC Adventurer Alignment"
-      }
+      "name": "Encounter - Dungeon Level 3"
     },
     "Encounter - Dungeon Level 4-5": {
       "description": "<h3>Encounter - Dungeon Level 4-5</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Encounter - Dungeon Level 4-5",
-      "results": {
-        "14-14": "NPC Adventurer Alignment"
-      }
+      "name": "Encounter - Dungeon Level 4-5"
     },
     "Encounter - Dungeon Level 6-7": {
       "description": "<h3>Encounter - Dungeon Level 6-7</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Encounter - Dungeon Level 6-7",
-      "results": {
-        "12-12": "NPC Adventurer Alignment"
-      }
+      "name": "Encounter - Dungeon Level 6-7"
     },
     "Encounter - Dungeon Level 8-10": {
       "description": "<h3>Encounter - Dungeon Level 8-10</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p><hr /><p>For monsters marked with <strong>*</strong> select any one type and modify the number appearing for the level of monster</p>",
-      "name": "Encounter - Dungeon Level 8-10",
-      "results": {
-        "13-13": "NPC Adventurer Alignment"
-      }
+      "name": "Encounter - Dungeon Level 8-10"
     },
     "Extraordinary Power": {
       "description": "<p>Determines the extraordinary power of a sword, including abilities like Clairvoyance, Telekinesis, or multiple rolls for additional powers.</p>",
-      "name": "Extraordinary Power",
-      "results": {
-        "100-100": "Extraordinary Power (NoReroll)",
-        "98-99": "Extraordinary Power (NoReroll)"
-      }
+      "name": "Extraordinary Power"
     },
     "Extraordinary Power (NoReroll)": {
       "description": "<p>Determines the extraordinary power of a sword, including abilities like Clairvoyance, Telekinesis, or multiple rolls for additional powers.</p>",
@@ -477,52 +210,13 @@
     },
     "Flyers (All Other)": {
       "description": "<p>Flyer encounter.</p>",
-      "name": "Flyers (All Other)",
-      "results": {
-        "1-1": "Bee, Giant",
-        "10-10": "Roc, Small",
-        "11-11": "Sprite",
-        "12-12": "Stirge",
-        "2-2": "Cockatrice",
-        "3-3": "Gargoyle*",
-        "4-4": "Griffon",
-        "5-5": "Hippogriff",
-        "6-6": "Lizard, Draco",
-        "7-7": "Pegasus",
-        "8-8": "Pixie",
-        "9-9": "Robber Fly"
-      }
+      "name": "Flyers (All Other)"
     },
     "Flyers (Desert)": {
-      "name": "Flyers (Desert)",
-      "results": {
-        "1-2": "Gargoyle*",
-        "10-10": "Roc, Small",
-        "11-11": "Roc, Large",
-        "12-12": "Roc, Giant",
-        "3-3": "Griffon",
-        "4-4": "Harpy",
-        "5-5": "Insect Swarm",
-        "6-6": "Lizard, Draco",
-        "7-9": "Manticore"
-      }
+      "name": "Flyers (Desert)"
     },
     "Flyers (Mountain)": {
-      "name": "Flyers (Mountain)",
-      "results": {
-        "1-1": "Bee, Giant",
-        "10-10": "Roc, Small",
-        "11-11": "Roc, Large",
-        "12-12": "Roc, Giant",
-        "2-2": "Gargoyle*",
-        "3-3": "Griffon",
-        "4-4": "Harpy",
-        "5-5": "Hippogriff",
-        "6-6": "Insect Swarm",
-        "7-7": "Manticore",
-        "8-8": "Pegasus",
-        "9-9": "Robber Fly"
-      }
+      "name": "Flyers (Mountain)"
     },
     "Fog Trap": {
       "description": "<p>Triggering it releases a strange fog. All in the area must Save vs. Spells or suffer one of the following effects:</p>",
@@ -537,35 +231,16 @@
       "name": "Giant Control"
     },
     "Gnoll": {
-      "name": "Gnoll",
-      "results": {
-        "1-8": "Gnoll",
-        "9-10": "Gnoll Leader"
-      }
+      "name": "Gnoll"
     },
     "Gnome": {
-      "name": "Gnome",
-      "results": {
-        "1-100": "Gnome",
-        "86-100": "Gnome, Leader",
-        "96-100": "Gnome, Chieftain"
-      }
+      "name": "Gnome"
     },
     "Goblin": {
-      "name": "Goblin",
-      "results": {
-        "1-20": "Goblin",
-        "10-20": "Goblin Bow (1HD)",
-        "14-20": "Goblin (2HD)",
-        "19-20": "Goblin Chief (4HD)"
-      }
+      "name": "Goblin"
     },
     "Halfling": {
-      "name": "Halfling",
-      "results": {
-        "1-8": "Halfling",
-        "6-10": "Halfling (2HD)"
-      }
+      "name": "Halfling"
     },
     "Hit Location - Arachnid": {
       "name": "Hit Location - Arachnid"
@@ -586,278 +261,68 @@
       "name": "Hit Location - Winged Biped"
     },
     "Hobgoblin": {
-      "name": "Hobgoblin",
-      "results": {
-        "1-99": "Hobgoblin",
-        "90-100": "Hobgoblin, Bodyguard",
-        "99-100": "Hobgoblin, King"
-      }
+      "name": "Hobgoblin"
     },
     "Human (Clear, Grassland)": {
-      "name": "Human (Clear, Grassland)",
-      "results": {
-        "1-1": "NPC Adventurer Class and Level",
-        "11-11": "Human, Noble",
-        "12-12": "Human, Nomad",
-        "2-3": "Bandit",
-        "4-4": "Berserker",
-        "5-5": "Human, Brigand",
-        "6-6": "NPC Adventurer Alignment",
-        "7-7": "NPC Adventurer Alignment",
-        "8-8": "NPC Adventurer Alignment",
-        "9-10": "Normal Human"
-      }
+      "name": "Human (Clear, Grassland)"
     },
     "Human (Desert)": {
-      "name": "Human (Desert)",
-      "results": {
-        "1-1": "NPC Adventurer Class and Level",
-        "2-2": "NPC Adventurer Alignment",
-        "3-4": "Human, Dervish",
-        "5-5": "NPC Adventurer Alignment",
-        "6-6": "NPC Adventurer Alignment",
-        "7-7": "Normal Human",
-        "8-8": "Human, Noble",
-        "9-12": "Human, Nomad"
-      }
+      "name": "Human (Desert)"
     },
     "Human (Hill)": {
-      "name": "Human (Hill)",
-      "results": {
-        "10-10": "NPC Adventurer Alignment",
-        "11-11": "NPC Adventurer Alignment",
-        "12-12": "Normal Human",
-        "2-2": "Bandit",
-        "3-4": "Berserker",
-        "5-5": "Human, Brigand",
-        "6-8": "Caveman (Neanderthal)",
-        "9-9": "NPC Adventurer Alignment"
-      }
+      "name": "Human (Hill)"
     },
     "Human (River)": {
-      "name": "Human (River)",
-      "results": {
-        "1-1": "NPC Adventurer Class and Level",
-        "10-11": "Normal Human",
-        "12-12": "NPC Adventurer Class",
-        "2-2": "Bandit",
-        "3-5": "Human, Buccaneer",
-        "6-7": "NPC Adventurer Alignment",
-        "8-8": "NPC Adventurer Alignment",
-        "9-9": "NPC Adventurer Alignment"
-      }
+      "name": "Human (River)"
     },
     "Human (Settled)": {
-      "name": "Human (Settled)",
-      "results": {
-        "1-1": "NPC Adventurer Alignment",
-        "10-10": "NPC Adventurer Class",
-        "11-11": "Human, Trader",
-        "12-12": "NPC Adventurer Alignment",
-        "2-2": "NPC Adventurer Alignment",
-        "3-4": "Bandit",
-        "5-5": "NPC Adventurer Alignment",
-        "6-6": "NPC Adventurer Alignment",
-        "7-7": "NPC Adventurer Alignment",
-        "8-8": "Normal Human",
-        "9-9": "Human, Noble"
-      }
+      "name": "Human (Settled)"
     },
     "Human (Swamp)": {
-      "name": "Human (Swamp)",
-      "results": {
-        "1-2": "NPC Adventurer Class and Level",
-        "10-10": "Human, Trader",
-        "11-11": "NPC Adventurer Class",
-        "12-12": "Human, Trader",
-        "3-4": "Bandit",
-        "5-5": "Berserker",
-        "6-6": "Human, Brigand",
-        "7-7": "NPC Adventurer Alignment",
-        "8-8": "NPC Adventurer Alignment",
-        "9-9": "NPC Adventurer Alignment"
-      }
+      "name": "Human (Swamp)"
     },
     "Human (Woods)": {
       "description": "<p>Human woodland encounter.</p>",
-      "name": "Human (Woods)",
-      "results": {
-        "1-1": "NPC Adventurer Class and Level",
-        "10-10": "NPC Adventurer Alignment",
-        "11-11": "Normal Human",
-        "12-12": "NPC Adventurer Class",
-        "2-3": "Bandit",
-        "4-4": "Berserker",
-        "5-7": "Human, Brigand",
-        "8-8": "NPC Adventurer Alignment",
-        "9-9": "NPC Adventurer Alignment"
-      }
+      "name": "Human (Woods)"
     },
     "Humanoid (Barren, Mountain, Hill)": {
-      "name": "Humanoid (Barren, Mountain, Hill)",
-      "results": {
-        "1-1": "Dwarf",
-        "10-10": "Orc",
-        "11-11": "Troglodyte",
-        "12-12": "Troll",
-        "2-2": "Giant, Cloud",
-        "3-3": "Giant, Frost",
-        "4-4": "Giant, Hill",
-        "5-5": "Giant, Stone",
-        "6-6": "Giant, Storm",
-        "7-7": "Gnome",
-        "8-8": "Goblin",
-        "9-9": "Kobold"
-      }
+      "name": "Humanoid (Barren, Mountain, Hill)"
     },
     "Humanoid (City and Inhabited)": {
-      "name": "Humanoid (City and Inhabited)",
-      "results": {
-        "1-1": "Dwarf",
-        "10-10": "Orc",
-        "11-11": "Pixie",
-        "12-12": "Sprite",
-        "2-2": "Elf",
-        "3-3": "Giant, Hill",
-        "4-4": "Gnome",
-        "5-5": "Gnoll",
-        "6-6": "Goblin",
-        "7-7": "Halfling",
-        "8-8": "Hobgoblin",
-        "9-9": "Ogre"
-      }
+      "name": "Humanoid (City and Inhabited)"
     },
     "Humanoid (Clear, Grassland)": {
-      "name": "Humanoid (Clear, Grassland)",
-      "results": {
-        "1-1": "Bugbear",
-        "10-10": "Pixie",
-        "11-11": "Thoul",
-        "12-12": "Troll",
-        "2-2": "Elf",
-        "3-3": "Giant, Hill",
-        "4-4": "Gnoll",
-        "5-5": "Goblin",
-        "6-6": "Halfling",
-        "7-7": "Hobgoblin",
-        "8-8": "Ogre",
-        "9-9": "Orc"
-      }
+      "name": "Humanoid (Clear, Grassland)"
     },
     "Humanoid (Desert)": {
-      "name": "Humanoid (Desert)",
-      "results": {
-        "1-1": "Giant, Fire",
-        "10-10": "Pixie",
-        "11-11": "Sprite",
-        "12-12": "Thoul",
-        "2-2": "Goblin",
-        "3-4": "Hobgoblin",
-        "5-7": "Ogre",
-        "8-9": "Orc"
-      }
+      "name": "Humanoid (Desert)"
     },
     "Humanoid (River)": {
-      "name": "Humanoid (River)",
-      "results": {
-        "1-1": "Bugbear",
-        "10-10": "Sprite",
-        "11-11": "Thoul",
-        "12-12": "Troll",
-        "2-2": "Elf",
-        "3-3": "Gnoll",
-        "4-4": "Hobgoblin",
-        "5-6": "Lizard Man",
-        "7-7": "Nixie",
-        "8-8": "Ogre",
-        "9-9": "Orc"
-      }
+      "name": "Humanoid (River)"
     },
     "Humanoid (Swamp)": {
-      "name": "Humanoid (Swamp)",
-      "results": {
-        "1-1": "Gnoll",
-        "10-10": "Troglodyte",
-        "11-12": "Troll",
-        "2-2": "Goblin",
-        "3-3": "Hobgoblin",
-        "4-6": "Lizard Man",
-        "7-7": "Nixie",
-        "8-8": "Ogre",
-        "9-9": "Orc"
-      }
+      "name": "Humanoid (Swamp)"
     },
     "Humanoid (Woods)": {
       "description": "<p>Humanoid encounter.</p>",
-      "name": "Humanoid (Woods)",
-      "results": {
-        "1-1": "Bugbear",
-        "10-10": "Orc",
-        "11-11": "Thoul",
-        "12-12": "Troll",
-        "2-2": "Cyclops",
-        "3-3": "Dryad",
-        "4-4": "Elf (1 HD)",
-        "5-5": "Giant, Hill",
-        "6-6": "Gnoll",
-        "7-7": "Goblin",
-        "8-8": "Hobgoblin",
-        "9-9": "Ogre"
-      }
+      "name": "Humanoid (Woods)"
     },
     "Insect Swarm": {
-      "name": "Insect Swarm",
-      "results": {
-        "1-1": "Insect Swarm (2 HD)",
-        "2-2": "Insect Swarm (3 HD)",
-        "3-3": "Insect Swarm (4 HD)"
-      }
+      "name": "Insect Swarm"
     },
     "Insects": {
       "description": "<p>Insect encounter.</p>",
-      "name": "Insects",
-      "results": {
-        "1-1": "Ant, Giant",
-        "10-10": "Spider, Giant (Black Widow)",
-        "11-11": "Spider, Giant (Crab Spider)",
-        "12-12": "Spider, Giant (Tarantella)",
-        "2-2": "Bee, Giant",
-        "3-3": "Beetle, Giant Fire",
-        "4-4": "Beetle, Giant Oil",
-        "5-5": "Beetle, Giant Tiger",
-        "6-6": "Insect Swarm",
-        "7-7": "Rhagodessa",
-        "8-8": "Robber Fly",
-        "9-9": "Scorpion, Giant"
-      }
+      "name": "Insects"
     },
     "Intelligence of Sword": {
       "description": "<p>Determines the intelligence, communication abilities, languages, and powers of a magical sword. If primary or extraordinary powers are indicated, roll on the Primary and Extraordinary Powers tables.</p>",
-      "name": "Intelligence of Sword",
-      "results": {
-        "100-100": "Extraordinary Power",
-        "80-85": "Sword Primary Power",
-        "86-90": "Sword Primary Power",
-        "91-94": "Sword Primary Power",
-        "95-97": "Sword Primary Power",
-        "98-99": "Sword Primary Power"
-      }
+      "name": "Intelligence of Sword"
     },
     "Jewelry Value Table": {
-      "name": "Jewelry Value Table",
-      "results": {
-        "1-45": "Common Jewelry (4k)",
-        "46-78": "Uncommon Jewelry (15k)",
-        "79-100": "Rare Jewelry (50k)"
-      }
+      "name": "Jewelry Value Table"
     },
     "Kobold": {
-      "name": "Kobold",
-      "results": {
-        "1-100": "Kobold",
-        "90-100": "Kobold, Bodyguard",
-        "91-100": "Kobold Chieftain"
-      }
+      "name": "Kobold"
     },
     "Level 1 Gem": {
       "name": "Level 1 Gem"
@@ -866,16 +331,10 @@
       "name": "Level 1 Jewelry"
     },
     "Level 1 Magic Item": {
-      "name": "Level 1 Magic Item",
-      "results": {
-        "1-2": "Magical Items (Basic)"
-      }
+      "name": "Level 1 Magic Item"
     },
     "Level 1 Treasure": {
-      "name": "Level 1 Treasure",
-      "results": {
-        "1-100": "Level 1 Gem"
-      }
+      "name": "Level 1 Treasure"
     },
     "Level 2-3 Gem": {
       "name": "Level 2-3 Gem"
@@ -884,16 +343,10 @@
       "name": "Level 2-3 Jewelry"
     },
     "Level 2-3 Magic Item": {
-      "name": "Level 2-3 Magic Item",
-      "results": {
-        "1-8": "Magical Items (Basic)"
-      }
+      "name": "Level 2-3 Magic Item"
     },
     "Level 2-3 Treasure": {
-      "name": "Level 2-3 Treasure",
-      "results": {
-        "1-100": "Level 2-3 Magic Item"
-      }
+      "name": "Level 2-3 Treasure"
     },
     "Level 4-5 Gem": {
       "name": "Level 4-5 Gem"
@@ -902,31 +355,14 @@
       "name": "Level 4-5 Jewelry"
     },
     "Level 4-5 Magic Item": {
-      "name": "Level 4-5 Magic Item",
-      "results": {
-        "1-10": "Magical Items (Basic)"
-      }
+      "name": "Level 4-5 Magic Item"
     },
     "Level 4-5 Treasure": {
-      "name": "Level 4-5 Treasure",
-      "results": {
-        "1-100": "Level 4-5 Magic Item"
-      }
+      "name": "Level 4-5 Treasure"
     },
     "Magic Armor": {
       "description": "<p>Determines the type of armor or shield found. Includes individual armors (e.g., leather, chain mail) and combinations (e.g., plate &amp; shield).</p>",
-      "name": "Magic Armor",
-      "results": {
-        "1-17": "AC Mod (Banded, Scale or Leather)",
-        "18-30": "AC Mod (Chain)",
-        "31-39": "AC Mod (Banded, Scale or Leather)",
-        "40-55": "AC Mod (Plate or Suit)",
-        "56-100": "AC Mod (Shield)",
-        "76-77": "AC Mod (Banded, Scale or Leather)",
-        "78-85": "AC Mod (Chain)",
-        "86-90": "AC Mod (Banded, Scale or Leather)",
-        "91-100": "AC Mod (Plate or Suit)"
-      }
+      "name": "Magic Armor"
     },
     "Magic Pool": {
       "description": "<p>The liquid from the pools is only magical while within 5' of the pool itself.</p>",
@@ -934,20 +370,11 @@
     },
     "Magic Rings": {
       "description": "<p>Determines the type of magical ring found based on a 1d100 roll.</p>",
-      "name": "Magic Rings",
-      "results": {
-        "14-17": "Elemental Adaptation Ring",
-        "97-98": "Wishes Ring"
-      }
+      "name": "Magic Rings"
     },
     "Magic-User Scroll Spell Count": {
       "description": "<p>Determines the number of spells on the spell scroll. Roll for the level of each spell separately.</p>",
-      "name": "Magic-User Scroll Spell Count",
-      "results": {
-        "1-50": "Magic-User Scroll Spell Level",
-        "51-83": "Magic-User Scroll Spell Level",
-        "84-100": "Magic-User Scroll Spell Level"
-      }
+      "name": "Magic-User Scroll Spell Count"
     },
     "Magic-User Scroll Spell Level": {
       "description": "<p>Determines the level of a Magic-User spell found on a spell scroll.</p>",
@@ -955,174 +382,66 @@
     },
     "Magical Items (Adv.)": {
       "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
-      "name": "Magical Items (Adv.)",
-      "results": {
-        "1-25": "Potions",
-        "26-37": "Scrolls",
-        "38-46": "Wands, Staves, and Rods",
-        "47-52": "Magic Rings",
-        "53-62": "Miscellaneous Items",
-        "63-72": "Magic Armor",
-        "73-83": "Missile Weapons &amp; Missiles (Adv.)",
-        "84-92": "Swords (Advanced)",
-        "93-100": "Misc.Weapons (Adv.)"
-      }
+      "name": "Magical Items (Adv.)"
     },
     "Magical Items (Basic)": {
       "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
-      "name": "Magical Items (Basic)",
-      "results": {
-        "1-25": "Potions",
-        "26-37": "Scrolls",
-        "38-46": "Wands, Staves, and Rods",
-        "47-52": "Magic Rings",
-        "53-62": "Miscellaneous Items",
-        "63-72": "Magic Armor",
-        "73-83": "Missile Weapon or Missile (Basic)",
-        "84-92": "Swords (Basic)",
-        "93-100": "Misc. Weapons (Basic)"
-      }
+      "name": "Magical Items (Basic)"
     },
     "Magical Items (No Weapons)": {
       "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
-      "name": "Magical Items (No Weapons)",
-      "results": {
-        "1-25": "Potions",
-        "26-37": "Scrolls",
-        "38-46": "Wands, Staves, and Rods",
-        "47-52": "Magic Rings",
-        "53-62": "Miscellaneous Items",
-        "63-72": "Magic Armor"
-      }
+      "name": "Magical Items (No Weapons)"
     },
     "Magical Weapon (Basic)": {
       "description": "<p>The <strong>Magical Weapon (Basic)</strong> table is used to generate magical weapons for characters of levels 1–10. It includes three categories of weapons—missile weapons, swords, and miscellaneous weapons—along with their basic magical bonuses.</p>",
-      "name": "Magical Weapon (Basic)",
-      "results": {
-        "1-2": "Missile Weapon or Missile (Basic)",
-        "3-4": "Swords (Basic)",
-        "5-6": "Misc. Weapons (Basic)"
-      }
+      "name": "Magical Weapon (Basic)"
     },
     "Merman": {
-      "name": "Merman",
-      "results": {
-        "1-100": "Merman",
-        "71-90": "Merman Leader (2HD)",
-        "91-100": "Merman Leader (4HD)"
-      }
+      "name": "Merman"
     },
     "Misc. Weapons (Basic)": {
       "description": "<p>Generates a specific magical miscellaneous weapon, including axes, hammers, daggers, polearms, shields, spears, and staves, with their respective bonuses.</p>",
-      "name": "Misc. Weapons (Basic)",
-      "results": {
-        "1-100": "Cursed Weapon Check"
-      }
+      "name": "Misc. Weapons (Basic)"
     },
     "Misc. Weapons (Class B)": {
       "description": "<p>Determines the magic bonus and chance of additional modifiers for Class B weapons.</p>",
-      "name": "Misc. Weapons (Class B)",
-      "results": {
-        "1-50": "Weapons Add. Mod. 40%",
-        "51-74": "Weapons Add. Mod. 30%",
-        "75-88": "Weapons Add. Mod. 20%",
-        "89-96": "Weapons Add. Mod. 15%",
-        "97-100": "Weapons Add. Mod. 10%"
-      }
+      "name": "Misc. Weapons (Class B)"
     },
     "Misc. Weapons (Class C)": {
       "description": "<p>Determines the magic bonus and chance of additional modifiers for Class C weapons.</p>",
-      "name": "Misc. Weapons (Class C)",
-      "results": {
-        "1-60": "Weapons Add. Mod. 40%",
-        "61-81": "Weapons Add. Mod. 30%",
-        "82-92": "Weapons Add. Mod. 20%",
-        "93-98": "Weapons Add. Mod. 15%",
-        "99-100": "Weapons Add. Mod. 10%"
-      }
+      "name": "Misc. Weapons (Class C)"
     },
     "Misc. Weapons (Class D)": {
       "description": "<p>Determines the magic bonus and chance of additional modifiers for Class D weapons.</p>",
-      "name": "Misc. Weapons (Class D)",
-      "results": {
-        "1-70": "Weapons Add. Mod. 40%",
-        "100-100": "Weapons Add. Mod. 10%",
-        "71-88": "Weapons Add. Mod. 30%",
-        "89-96": "Weapons Add. Mod. 20%",
-        "97-99": "Weapons Add. Mod. 15%"
-      }
+      "name": "Misc. Weapons (Class D)"
     },
     "Misc.Weapons (Adv.)": {
       "description": "<p>Generates miscellaneous weapons and their classes. Use the Magical Bonuses and Modifiers table for further customization.</p>",
-      "name": "Misc.Weapons (Adv.)",
-      "results": {
-        "1-100": "Cursed Weapon Check",
-        "1-9": "Misc. Weapons (Class C)",
-        "10-15": "Misc. Weapons (Class B)",
-        "16-17": "Misc. Weapons (Class B)",
-        "18-20": "Misc. Weapons (Class C)",
-        "21-22": "Misc. Weapons (Class B)",
-        "23-23": "Misc. Weapons (Class B)",
-        "24-28": "Misc. Weapons (Class C)",
-        "29-40": "Misc. Weapons (Class B)",
-        "41-43": "Misc. Weapons (Class B)",
-        "44-53": "Misc. Weapons (Class C)",
-        "54-56": "Misc. Weapons (Class C)",
-        "57-59": "Misc. Weapons (Class B)",
-        "60-60": "Misc. Weapons (Class B)",
-        "61-64": "Misc. Weapons (Class D)",
-        "65-76": "Misc. Weapons (Class C)",
-        "77-78": "Misc. Weapons (Class B)",
-        "79-79": "Misc. Weapons (Class B)",
-        "80-84": "Misc. Weapons (Class D)",
-        "85-94": "Misc. Weapons (Class B)",
-        "95-97": "Misc. Weapons (Class B)",
-        "98-100": "Misc. Weapons (Class C)"
-      }
+      "name": "Misc.Weapons (Adv.)"
     },
     "Miscellaneous Items": {
       "description": "<p>Determines the miscellaneous magical item found based on a 1d100 roll.</p>",
-      "name": "Miscellaneous Items",
-      "results": {
-        "36-38": "Egg of Wonder Creature Type",
-        "72-76": "Ointment Type",
-        "93-94": "Talisman of Elemental Travel"
-      }
+      "name": "Miscellaneous Items"
     },
     "Missile Talent 10%": {
       "description": "<p>Determines if a missile has a talent (10% chance). Roll on the Missile Talents table if successful.</p>",
-      "name": "Missile Talent 10%",
-      "results": {
-        "1-10": "Missile Talents"
-      }
+      "name": "Missile Talent 10%"
     },
     "Missile Talent 15%": {
       "description": "<p>Determines if a missile has a talent (15% chance). Roll on the Missile Talents table if successful.</p>",
-      "name": "Missile Talent 15%",
-      "results": {
-        "1-15": "Missile Talents"
-      }
+      "name": "Missile Talent 15%"
     },
     "Missile Talent 20%": {
       "description": "<p>Determines if a missile has a talent (20% chance). Roll on the Missile Talents table if successful.</p>",
-      "name": "Missile Talent 20%",
-      "results": {
-        "1-20": "Missile Talents"
-      }
+      "name": "Missile Talent 20%"
     },
     "Missile Talent 25%": {
       "description": "<p>Determines if a missile has a talent (25% chance). Roll on the Missile Talents table if successful.</p>",
-      "name": "Missile Talent 25%",
-      "results": {
-        "1-25": "Missile Talents"
-      }
+      "name": "Missile Talent 25%"
     },
     "Missile Talent 30%": {
       "description": "<p>Determines if a missile has a talent (30% chance). Roll on the Missile Talents table if successful.</p>",
-      "name": "Missile Talent 30%",
-      "results": {
-        "1-30": "Missile Talents"
-      }
+      "name": "Missile Talent 30%"
     },
     "Missile Talents": {
       "description": "<p>Determines the specific talent of a magical missile, such as Biting, Stunning, or Wounding.</p>",
@@ -1134,22 +453,11 @@
     },
     "Missile Weapons & Missiles (Adv.)": {
       "description": "<p>Determines the type of missile weapon or missile found and its weapon class. Use the appropriate bonus table for additional properties.</p>",
-      "name": "Missile Weapons & Missiles (Adv.)",
-      "results": {
-        "1-70": "Missiles (Class A)",
-        "71-100": "Missile Weapons (Class D)"
-      }
+      "name": "Missile Weapons & Missiles (Adv.)"
     },
     "Missile Weapons (Class D)": {
       "description": "<p>Determines the magical bonus for Missile Weapons (Class D). Additional weapon modifiers may apply based on the roll.</p>",
-      "name": "Missile Weapons (Class D)",
-      "results": {
-        "1-70": "Weapons Add. Mod. 30%",
-        "100-100": "Weapons Add. Mod. 10%",
-        "71-88": "Weapons Add. Mod. 25%",
-        "89-96": "Weapons Add. Mod. 20%",
-        "97-99": "Weapons Add. Mod. 15%"
-      }
+      "name": "Missile Weapons (Class D)"
     },
     "Missile Weapons Range (+1)": {
       "description": "<p>Determines the range bonus for a magical missile weapon.</p>",
@@ -1173,14 +481,7 @@
     },
     "Missiles (Class A)": {
       "description": "<p>Determines the magical bonus and quantity of Missiles (Class A). Additional talents may apply based on the roll.</p>",
-      "name": "Missiles (Class A)",
-      "results": {
-        "1-40": "Missile Talent 30%",
-        "41-67": "Missile Talent 25%",
-        "68-84": "Missile Talent 20%",
-        "85-94": "Missile Talent 15%",
-        "95-100": "Missile Talent 10%"
-      }
+      "name": "Missiles (Class A)"
     },
     "Monster Reaction Roll": {
       "description": "<p>The referee determines monsters’ reaction to the party. Sometimes, circumstances make it obvious how a monster will react. Otherwise, the referee may roll on the table below to determine how a monster reacts to the party.</p>",
@@ -1207,12 +508,7 @@
       "name": "Ointment Type"
     },
     "Orc": {
-      "name": "Orc",
-      "results": {
-        "1-100": "Orc",
-        "80-100": "Orc, Leader",
-        "96-100": "Orc, Chieftain"
-      }
+      "name": "Orc"
     },
     "Pit Trap": {
       "description": "<p><span style=\"font-family:DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">A section of the floor gives way, and one, some, or all characters must make a Dexterity check to see if they can avoid falling in. If they fail, they fall in, taking 1d4, 1d6, 1d8, or 1d10 damage. The pit may have something at the bottom, such as spikes for more damage, deep water, or a monster. It may be a chute, leading down for a one-way ride to the next dungeon level.</span></p>",
@@ -1220,29 +516,14 @@
     },
     "Potions": {
       "description": "<p>Table of magical potions with corresponding roll ranges.</p>",
-      "name": "Potions",
-      "results": {
-        "17-18": "Defense Potion",
-        "25-25": "Dragon Control (main)",
-        "4-6": "Antidote Potion",
-        "46-46": "Giant Control"
-      }
+      "name": "Potions"
     },
     "Rare Jewelry (50k)": {
       "name": "Rare Jewelry (50k)"
     },
     "River Encounter": {
       "description": "<h3>River Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "River Encounter",
-      "results": {
-        "1-1": "Human (River)",
-        "2-2": "Flyers (All Other)",
-        "3-3": "Humanoid (River)",
-        "4-4": "Insects",
-        "5-6": "Swimmer (River/Lake)",
-        "7-7": "Animal (River)",
-        "8-8": "Dragons"
-      }
+      "name": "River Encounter"
     },
     "Rod of the Wyrm": {
       "description": "<p>Determines the attributes of the Rod of the Wyrm, including alignment, associated dragon type, AC modifier, and breath weapon.</p>",
@@ -1250,13 +531,7 @@
     },
     "Room Type": {
       "description": "<p>A randomly stocked dungeon room.</p>",
-      "name": "Room Type",
-      "results": {
-        "1-4": "Empty Room",
-        "5-5": "Room with Trap",
-        "6-7": "Room with Monster",
-        "8-8": "Special Room"
-      }
+      "name": "Room Type"
     },
     "Room with Alarm": {
       "description": "<p>The room is rigged with some type of alarm (sound, magical or mechanical) that can summon a special monster, open a dungeon door or have no functional effect at all.</p>",
@@ -1268,74 +543,41 @@
     },
     "Room with Trap": {
       "description": "<p>The room contains a hidden trap. If there's treasure, it's likely trapped; otherwise, the danger may be near an exit or somewhere on the floor.</p>",
-      "name": "Room with Trap",
-      "results": {
-        "1-6": "Trap Type"
-      }
+      "name": "Room with Trap"
     },
     "Scrolls": {
       "description": "<p>Table to determine the type of scroll found, with references to subtables as needed. If a spell scroll is rolled then roll on the appropriate Spell Level table to determine the level of each spell.</p>",
-      "name": "Scrolls",
-      "results": {
-        "69-71": "Spell Catching",
-        "72-96": "Spell Scrolls"
-      }
+      "name": "Scrolls"
     },
     "Settled Encounter": {
       "description": "<h3>Settled Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Settled Encounter",
-      "results": {
-        "1-1": "Castle Encounter",
-        "2-2": "Flyers (All Other)",
-        "3-3": "Humanoid (City and Inhabited)",
-        "4-5": "Human (Settled)",
-        "6-7": "Animal (Settled)",
-        "8-8": "Dragons"
-      }
+      "name": "Settled Encounter"
     },
     "Special City Encounter": {
       "name": "Special City Encounter"
     },
     "Special Power 10%": {
       "description": "<p>Armor has 10% chance of having a special power.</p>",
-      "name": "Special Power 10%",
-      "results": {
-        "1-10": "Armor Special Powers"
-      }
+      "name": "Special Power 10%"
     },
     "Special Power 15%": {
       "description": "<p>Armor has 15% chance of having a special power.</p>",
-      "name": "Special Power 15%",
-      "results": {
-        "1-15": "Armor Special Powers"
-      }
+      "name": "Special Power 15%"
     },
     "Special Power 20%": {
       "description": "<p>Armor has 20% chance of having a special power.</p>",
-      "name": "Special Power 20%",
-      "results": {
-        "1-20": "Armor Special Powers"
-      }
+      "name": "Special Power 20%"
     },
     "Special Power 25%": {
       "description": "<p>Armor has 25% chance of having a special power.</p>",
-      "name": "Special Power 25%",
-      "results": {
-        "1-25": "Armor Special Powers"
-      }
+      "name": "Special Power 25%"
     },
     "Special Power 30%": {
       "description": "<p>Armor has 30% chance of having a special power.</p>",
-      "name": "Special Power 30%",
-      "results": {
-        "1-30": "Armor Special Powers"
-      }
+      "name": "Special Power 30%"
     },
     "Special Room": {
-      "name": "Special Room",
-      "results": {
-        "1-1": "Room with Alarm"
-      }
+      "name": "Special Room"
     },
     "Special Treasure Table": {
       "description": "<p>A table to determine special treasure values, encumbrances (in cn), and notes for various items.</p>",
@@ -1347,11 +589,7 @@
     },
     "Spell Scrolls": {
       "description": "<p>Determines the type of spell scroll found. Each result includes a reference table for rolling 1d100 to determine the number of spells on the scroll.</p>",
-      "name": "Spell Scrolls",
-      "results": {
-        "1-70": "Magic-User Scroll Spell Count",
-        "71-100": "Cleric/Druid Scroll Spell Count"
-      }
+      "name": "Spell Scrolls"
     },
     "Staff of Element": {
       "description": "<p>Determines the specific type of Staff of Element found, such as Staff of Air, Staff of Fire, or the rare Staff of Elemental Power.</p>",
@@ -1359,104 +597,41 @@
     },
     "Swamp Encounter": {
       "description": "<h3>Swamp Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Swamp Encounter",
-      "results": {
-        "1-1": "Human (Swamp)",
-        "2-2": "Flyers (All Other)",
-        "3-3": "Humanoid (Swamp)",
-        "4-4": "Swimmer (Swamp)",
-        "5-6": "Undead",
-        "7-7": "Insects",
-        "8-8": "Dragons"
-      }
+      "name": "Swamp Encounter"
     },
     "Swimmer (River/Lake)": {
-      "name": "Swimmer (River/Lake)",
-      "results": {
-        "1-1": "Crab, Giant",
-        "10-10": "Merman",
-        "11-11": "Nixie",
-        "12-12": "Termite, Water (Fresh Water)",
-        "2-2": "Crocodile, Normal",
-        "3-3": "Crocodile, Large",
-        "4-4": "Fish, Giant Bass",
-        "5-5": "Fish, Giant Sturgeon",
-        "6-7": "Leech, Giant",
-        "8-9": "Lizard Man"
-      }
+      "name": "Swimmer (River/Lake)"
     },
     "Swimmer (Swamp)": {
-      "name": "Swimmer (Swamp)",
-      "results": {
-        "1-1": "Crab, Giant",
-        "11-12": "Termite, Water (Swamp)",
-        "2-3": "Crocodile, Normal",
-        "4-5": "Crocodile, Large",
-        "6-8": "Leech, Giant",
-        "9-10": "Lizard Man"
-      }
+      "name": "Swimmer (Swamp)"
     },
     "Sword Primary Power": {
       "description": "<p>Determines the primary power of a sword, including detection abilities or additional rolls for extraordinary powers.</p>",
-      "name": "Sword Primary Power",
-      "results": {
-        "100-100": "Sword Primary Power (NoReroll)",
-        "96-99": "Extraordinary Power"
-      }
+      "name": "Sword Primary Power"
     },
     "Sword Primary Power (NoReroll)": {
       "description": "<p>Determines the primary power of a sword, including detection abilities or additional rolls for extraordinary powers.</p>",
-      "name": "Sword Primary Power (NoReroll)",
-      "results": {
-        "96-99": "Extraordinary Power"
-      }
+      "name": "Sword Primary Power (NoReroll)"
     },
     "Sword, Weapon or Armor (Basic)": {
       "description": "<p>Use this table to randomly select an item from either the weapons or armor table.</p>",
-      "name": "Sword, Weapon or Armor (Basic)",
-      "results": {
-        "1-1": "Magic Armor",
-        "2-2": "Magical Weapon (Basic)"
-      }
+      "name": "Sword, Weapon or Armor (Basic)"
     },
     "Swords (Advanced)": {
       "description": "<p>The advanced swords table can generate exceptional weapons that are meant for characters of level 10 or higher.</p>",
-      "name": "Swords (Advanced)",
-      "results": {
-        "1-100": "Cursed Sword Check",
-        "66-84": "Swords (Class C)",
-        "85-92": "Swords (Class D)",
-        "93-100": "Swords (Class D)"
-      }
+      "name": "Swords (Advanced)"
     },
     "Swords (Basic)": {
       "description": "<p>Generates a specific magical sword, including short, normal, bastard, and two-handed types, with bonuses or special effects.</p>",
-      "name": "Swords (Basic)",
-      "results": {
-        "1-100": "Cursed Sword Check"
-      }
+      "name": "Swords (Basic)"
     },
     "Swords (Class C)": {
       "description": "<p>Determines the type of sword (Class C) and its magical bonus.</p>",
-      "name": "Swords (Class C)",
-      "results": {
-        "1-60": "Weapons Add. Mod. 40%",
-        "61-81": "Weapons Add. Mod. 30%",
-        "82-92": "Weapons Add. Mod. 25%",
-        "93-98": "Weapons Add. Mod. 20%",
-        "99-100": "Weapons Add. Mod. 15%"
-      }
+      "name": "Swords (Class C)"
     },
     "Swords (Class D)": {
       "description": "<p>Determines the type of sword (Class D) and its magical bonus.</p>",
-      "name": "Swords (Class D)",
-      "results": {
-        "1-70": "Weapons Add. Mod. 40%",
-        "100-100": "Weapons Add. Mod. 15%",
-        "71-88": "Weapons Add. Mod. 30%",
-        "89-96": "Weapons Add. Mod. 25%",
-        "97-99": "Weapons Add. Mod. 20%"
-      }
+      "name": "Swords (Class D)"
     },
     "Talisman of Elemental Travel": {
       "description": "<p>Determines the type of Talisman of Elemental Travel found, such as a Lesser Talisman for a single element or a Greater Talisman for all elements.</p>",
@@ -1464,61 +639,24 @@
     },
     "Trap Type": {
       "description": "<p>A hidden trap is set in the room. If treasure is present, the trap likely guards it; otherwise, it's placed near an exit or underfoot.</p>",
-      "name": "Trap Type",
-      "results": {
-        "5-5": "Fog Trap",
-        "8-8": "Pit Trap"
-      }
+      "name": "Trap Type"
     },
     "Uncommon Jewelry (15k)": {
       "name": "Uncommon Jewelry (15k)"
     },
     "Undead": {
-      "name": "Undead",
-      "results": {
-        "1-3": "Ghoul",
-        "10-10": "Vampire",
-        "11-12": "Zombie",
-        "4-4": "Mummy*",
-        "5-6": "Skeleton",
-        "7-7": "Spectre",
-        "8-8": "Wight*",
-        "9-9": "Wraith*"
-      }
+      "name": "Undead"
     },
     "Unusual": {
       "description": "<p>Unusual encounter.</p>",
-      "name": "Unusual",
-      "results": {
-        "1-1": "Basilisk",
-        "10-10": "Lycanthrope, Werewolf*",
-        "11-11": "Medusa",
-        "12-12": "Treant",
-        "2-2": "Blink Dog",
-        "3-3": "Centaur",
-        "4-4": "Displacer Beast",
-        "5-5": "Gorgon",
-        "6-6": "Lycanthrope, Werebear*",
-        "7-7": "Lycanthrope, Wereboar*",
-        "8-8": "Lycanthrope, Wererat*",
-        "9-9": "Lycanthrope, Weretiger*"
-      }
+      "name": "Unusual"
     },
     "Vampire": {
-      "name": "Vampire",
-      "results": {
-        "1-1": "Vampire* (Bat)",
-        "2-2": "Vampire* (Dire Wolf)",
-        "3-3": "Vampire* (Human)"
-      }
+      "name": "Vampire"
     },
     "Wands, Staves, and Rods": {
       "description": "<p>Wands and staves are powerful magical tools, each with unique effects. Rods are versatile items without charges, often imbued with potent abilities.</p>",
-      "name": "Wands, Staves, and Rods",
-      "results": {
-        "100-100": "Rod of the Wyrm",
-        "67-69": "Staff of Element"
-      }
+      "name": "Wands, Staves, and Rods"
     },
     "Weapon Opponents": {
       "description": "<p>Determines the type of opponent a weapon is specially effective against.</p>",
@@ -1530,45 +668,27 @@
     },
     "Weapons Add. Mod. 10%": {
       "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
-      "name": "Weapons Add. Mod. 10%",
-      "results": {
-        "1-10": "Additional Weapon Mods (Misc)"
-      }
+      "name": "Weapons Add. Mod. 10%"
     },
     "Weapons Add. Mod. 15%": {
       "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
-      "name": "Weapons Add. Mod. 15%",
-      "results": {
-        "1-15": "Additional Weapon Mods (Misc)"
-      }
+      "name": "Weapons Add. Mod. 15%"
     },
     "Weapons Add. Mod. 20%": {
       "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
-      "name": "Weapons Add. Mod. 20%",
-      "results": {
-        "1-20": "Additional Weapon Mods (Misc)"
-      }
+      "name": "Weapons Add. Mod. 20%"
     },
     "Weapons Add. Mod. 25%": {
       "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
-      "name": "Weapons Add. Mod. 25%",
-      "results": {
-        "1-25": "Additional Weapon Mods (Misc)"
-      }
+      "name": "Weapons Add. Mod. 25%"
     },
     "Weapons Add. Mod. 30%": {
       "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
-      "name": "Weapons Add. Mod. 30%",
-      "results": {
-        "1-30": "Additional Weapon Mods (Misc)"
-      }
+      "name": "Weapons Add. Mod. 30%"
     },
     "Weapons Add. Mod. 40%": {
       "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
-      "name": "Weapons Add. Mod. 40%",
-      "results": {
-        "1-40": "Additional Weapon Mods (Misc)"
-      }
+      "name": "Weapons Add. Mod. 40%"
     },
     "Wishes Ring": {
       "description": "<p>Determines how many wishes the Wish Ring will grant, ranging from 1 to 4.</p>",
@@ -1576,16 +696,7 @@
     },
     "Woods Encounter": {
       "description": "<h3>Woods Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
-      "name": "Woods Encounter",
-      "results": {
-        "1-1": "Human (Woods)",
-        "2-2": "Flyers (All Other)",
-        "3-3": "Humanoid (Woods)",
-        "4-4": "Insects",
-        "5-5": "Unusual",
-        "6-7": "Animal (Woods)",
-        "8-8": "Dragons"
-      }
+      "name": "Woods Encounter"
     }
   },
   "folders": {
