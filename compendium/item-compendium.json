@@ -2463,7 +2463,11 @@
       "unidentifiedDesc": "<p>Large kettle drum(s).</p>",
       "unidentifiedName": "Drums"
     },
-    "Dwarf": {
+    "Dwarf@RQDaANp7lDxQeqdz": {
+      "description": "<p>Dwarves are short, squat demihumans standing about 4 feet tall and weighing around 150 pounds. Male dwarves wear long beards, and their overall appearance features ruddy or earth-colored skin with dark brown, gray, or black hair. Stubborn yet practical, they love good food, drink, craftsmanship, and gold. Organized into family Clans, dwarves make their homes in underground cavern complexes located in mountains and hills, and they can attain a maximum of 12 experience levels.</p><p>While a dwarf class shares similar tasks with fighters, it is distinguished by specialized abilities and limitations. Dwarves possess a prime requisite of Strength and must have a Constitution score of 9 or better to be played. Their special capabilities include infravision to see in the dark, heightened resistance to magic at higher levels, fighter combat options, and a 1-in-3 chance to detect traps, sliding walls, sloping corridors, or new construction.</p><p>Regarding communication, a dwarf character knows the standard Common tongue and a secret alignment tongue, alongside spoken languages for dwarves, gnomes, goblins, and kobolds. However, speaking these extra racial languages does not grant the ability to read or write them unless additional intelligence slots or general skills are spent.</p>",
+      "name": "Dwarf"
+    },
+    "Dwarf@cpI6LKzjfDDxhm1w": {
       "classLevels": {
         "0": {
           "title": "Veteran"
@@ -2574,7 +2578,7 @@
     "Electrum Piece": {
       "name": "Electrum Piece"
     },
-    "Elf": {
+    "Elf@2NiEMVh69JDCqp8d": {
       "classLevels": {
         "0": {
           "title": "Veteran Medium"
@@ -2652,6 +2656,10 @@
           "name": "Smash"
         }
       }
+    },
+    "Elf@4XnxIDHAJiAW8T0O": {
+      "description": "<p>Elves are slender and graceful demihumans, standing between 5 and 5.5 feet tall and weighing about 120 pounds, with delicate features, pointed ears, and a general appearance that ranges from 4.8 to 5.8 feet tall with corresponding weights depending on sex. Most elves prefer to spend their time feasting, frolicking in woodland glades, and collecting magical items or spells, rarely visiting human cities except when adventuring. Their families live in clans, and they can attain a maximum of 10 experience levels.</p><p>Playing an elf requires two prime requisites—Strength and Intelligence—along with a mandatory minimum Intelligence score of 9. Their unique blend of combat and spellcasting allows them to use any armor, shield, and weapon, while also casting magic-user spells up to 5th level. Over time, experienced elves gain special abilities such as infravision, a 1-in-3 chance to detect secret and hidden doors, immunity to ghoul paralysis, and fighter combat options or special defenses like taking half damage from dragon breath at higher experience thresholds.</p><p>Regarding communication, elves know the standard Common tongue and a secret alignment tongue, as well as the spoken languages of elves, gnolls, hobgoblins, and orcs. However, speaking these extra racial languages does not grant the ability to read or write them unless they expend additional intelligence slots or general skills.</p>",
+      "name": "Elf"
     },
     "Elven Boots": {
       "description": "<p>The wearer of these boots may move with nearly complete silence (roll [[/r 1d10 #Heard only on a 1]]; heard only on a 1).</p>",
@@ -3123,7 +3131,7 @@
     "Halberd@75QE39yfWqwqyWqL": {
       "name": "Halberd"
     },
-    "Halfling": {
+    "Halfling@3Vh2Nk2U8MuRK26l": {
       "classLevels": {
         "0": {
           "title": "Halfling Veteran"
@@ -3194,6 +3202,10 @@
           "name": "Breath Resistance (H)"
         }
       }
+    },
+    "Halfling@k8J2S8XxoOTsCcXL": {
+      "description": "<p>Halflings are short demihumans standing about 3 feet tall and weighing around 60 pounds, bearing a strong resemblance to human children with slightly pointed ears and rarely growing beards. They are outgoing woodland folk who love good food, drink, conversation, and the comforts of home, organizing their communities into shires and clans led by a recognized spokesman called a sheriff. Halflings can attain a maximum of 8 experience levels, utilizing Strength and Dexterity as their prime requisites while requiring a minimum score of 9 in both Dexterity and Constitution.</p><p>In combat, halflings function similarly to fighters and dwarves, gaining special defensive advantages such as a -2 bonus to Armor Class against monsters larger than man-sized, a +1 bonus to missile weapon attack rolls, and a +1 bonus to individual initiative. As they accumulate experience, they gain significant damage reductions, taking half damage from spells at 300,000 XP and half damage from breath weapons at 2,100,000 XP. Outdoors, they possess a 90% chance to remain unseen when hiding motionless in woodlands, dropping to a 33% chance in dimly lit building interiors.</p>",
+      "name": "Halfling"
     },
     "Hallucinatory Terrain": {
       "description": "<p>This spell creates the illusion of a terrain feature, either indoors (such as a pit, stairs, etc.) or outdoors (hill, swamp, grove of trees, etc.), possibly hiding a real feature. The caster could create the illusion of solid ground over a series of pits or quicksand pools, or he could create the image of dense forest over his army's camp, etc.</p><p>The caster may choose to place his hallucinatory terrain over a comparatively small area (for instance, a throne room) or over a much larger one (for example, a hill). If he chooses to cast the spell on a larger terrain feature, the entire feature to be affected must be within the range of the spell. (A hill with greater than a 480' diameter would not be affected.)</p><p>The spell lasts until the illusion is touched by an intelligent creature, or until dispelled.</p>",
@@ -3436,6 +3448,10 @@
       "name": "Horn of Blasting",
       "unidentifiedDesc": "<p>A horn made out of an animals horn.</p>",
       "unidentifiedName": "Horn"
+    },
+    "Human": {
+      "description": "<p>Humans are the most prolific and widespread of all intelligent beings, possessing the greatest potential of any race. While demihuman character classes are restricted to moderate milestones—such as the 8th level for halflings, 10th level for elves, and 12th level for dwarves—each of the four basic human character classes (cleric, fighter, magic-user, and thief) can climb all the way to the 36th experience level. Culturally, human civilization in standard campaigns often mirrors Western Europe during the late Middle Ages and early Renaissance, featuring feudal fiefdoms ruled by a king and queen and a rising middle class of traders and craftsmen, though Dungeon Masters can alternatively model human societies after ancient cultures or custom fantasy worlds. </p><p>When it comes to communication, a human character with an average intelligence score of 9 to 12 knows two native languages: the campaign's standard Common tongue and a secret alignment tongue, both of which they can read and write. Characters with exceptional intelligence bonuses can learn additional spoken and written languages, while those with penalties may struggle with writing or speech. Alignment itself guides a human's core code of behavior across Law, Neutrality, or Chaos, each of which features its own secret alignment language composed of passwords, hand signals, and body motions that intelligent creatures instinctively know and recognize without any written form. </p>",
+      "name": "Human"
     },
     "Hunting": {
       "description": "<p>This skill covers the ability to locate, stalk, and hunt game with weapons like bows, slings, or spears. A successful skill roll grants a +1 to hit against unaware targets in peaceful outdoor settings. This bonus does not apply in combat. The character can automatically supply themselves with food in fertile areas and make skill rolls in less abundant regions. The roll has penalties when trying to supply more than one person, with a -1 penalty per additional person.</p>",
