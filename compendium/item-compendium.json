@@ -6087,6 +6087,54 @@
       "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
       "unidentifiedName": "Mysterious Rod"
     },
+    "Rod of Victory": {
+      "description": "<p>Usable by any character, this rod makes the user lucky in war (when the War Machine mass combat system is used). The following bonuses apply to that system:</p><p>A + 25 bonus applies to the Combat Results roll (to a maximum total of 100).</p><p>On the Combat Results Table, if the difference in overall totals is 101 or more, the result for \"91-100\" is used, limiting the number of casualties.</p>",
+      "name": "Rod of Victory",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
+    "Rod of Weaponry +1": {
+      "description": "<p>See Rod of Weaponry +5. This is the rod when split into four.</p>",
+      "name": "Rod of Weaponry +1",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
+    "Rod of Weaponry +2": {
+      "description": "<p>See Rod of Weaponry +5. This is the rod when split into two.</p>",
+      "name": "Rod of Weaponry +2",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
+    "Rod of Weaponry +5": {
+      "description": "<p>This rod +5 is only usable by a dwarf, halfling, fighter, thief, or mystic. On command of the user, it will elongate and may be divided into two weapons of the same size, each +2. Each of those may be similarly divided into two +1 weapons. The rod cannot be divided accidentally, and it can be reassembled simply by placing the parts together. Each weapon, regardless of size, inflicts 1d6 points of damage per hit, plus magic bonuses (but not Strength bonuses).</p>",
+      "name": "Rod of Weaponry +5",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
+    "Rod of the Wyrm": {
+      "description": "<p>Usable by any character, there are three types of this rod; determine the type randomly or select one.</p>\n<table>\n    <thead>\n        <tr>\n            <th>\n                <p>1d10</p>\n            </th>\n            <th>\n                <p>Alignment</p>\n            </th>\n            <th>\n                <p>Dragon</p>\n            </th>\n            <th>\n                <p>AC</p>\n            </th>\n            <th>\n                <p>Breath(s)</p>\n            </th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>\n                <p>1-5</p>\n            </td>\n            <td>\n                <p>Lawful</p>\n            </td>\n            <td>\n                <p>Gold</p>\n            </td>\n            <td>\n                <p>-2</p>\n            </td>\n            <td>\n                <p>Fire/Gas</p>\n            </td>\n        </tr>\n        <tr>\n            <td>\n                <p>6-8</p>\n            </td>\n            <td>\n                <p>Neutral</p>\n            </td>\n            <td>\n                <p>Blue</p>\n            </td>\n            <td>\n                <p>0</p>\n            </td>\n            <td>\n                <p>Lightning</p>\n            </td>\n        </tr>\n        <tr>\n            <td>\n                <p>9-10</p>\n            </td>\n            <td>\n                <p>Chaotic</p>\n            </td>\n            <td>\n                <p>Black</p>\n            </td>\n            <td>\n                <p>2</p>\n            </td>\n            <td>\n                <p>Acid</p>\n            </td>\n        </tr>\n    </tbody>\n</table>\n<p>Each is a rod +5 and each inflicts 1d8 +5 (6-13) points of damage per hit (but without Strength bonuses). Once per day, the rod may be turned into a small dragon of the appropriate type. The created dragon has 30 hit points and can only be affected by magic (weapons, spells, etc.). It will understand and faithfully serve the user of the rod to the best of its ability; for example, it can act as messenger, steed, or guard. It will fight to the death unless commanded otherwise. The dragon knows no spells. It will return to rod form on command; if slain in dragon form, however, it cannot return to rod form and is forever destroyed. Spells and other magical forms of healing can be used to heal the creature, if desired, but not after it is killed.</p>\n<p>If a dragon is created by a user of a different alignment, the dragon will attack the user immediately, fighting to the death. When this occurs, it cannot be commanded to return to rod form.</p>",
+      "name": "Rod of the Wyrm",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
+    "Rod of the Wyrm (Black)": {
+      "description": "<p>Usable by any character.</p><table><thead><tr><th><p>1d10</p></th><th><p>Alignment</p></th><th><p>Dragon</p></th><th><p>AC</p></th><th><p>Breath(s)</p></th></tr></thead><tbody><tr><td><p>9-10</p></td><td><p>Chaotic</p></td><td><p>Black</p></td><td><p>2</p></td><td><p>Acid</p></td></tr></tbody></table><p>Each is a rod +5 and each inflicts 1d8 +5 (6-13) points of damage per hit (but without Strength bonuses). Once per day, the rod may be turned into a small dragon of the appropriate type. The created dragon has 30 hit points and can only be affected by magic (weapons, spells, etc.). It will understand and faithfully serve the user of the rod to the best of its ability; for example, it can act as messenger, steed, or guard. It will fight to the death unless commanded otherwise. The dragon knows no spells. It will return to rod form on command; if slain in dragon form, however, it cannot return to rod form and is forever destroyed. Spells and other magical forms of healing can be used to heal the creature, if desired, but not after it is killed.</p><p>If a dragon is created by a user of a different alignment, the dragon will attack the user immediately, fighting to the death. When this occurs, it cannot be commanded to return to rod form.</p>",
+      "name": "Rod of the Wyrm (Black)",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
+    "Rod of the Wyrm (Blue)": {
+      "description": "<p>Usable by any character.</p><table><thead><tr><th><p>1d10</p></th><th><p>Alignment</p></th><th><p>Dragon</p></th><th><p>AC</p></th><th><p>Breath(s)</p></th></tr></thead><tbody><tr><td><p>6-8</p></td><td><p>Neutral</p></td><td><p>Blue</p></td><td><p>0</p></td><td><p>Lightning</p></td></tr></tbody></table><p>Each is a rod +5 and each inflicts 1d8 +5 (6-13) points of damage per hit (but without Strength bonuses). Once per day, the rod may be turned into a small dragon of the appropriate type. The created dragon has 30 hit points and can only be affected by magic (weapons, spells, etc.). It will understand and faithfully serve the user of the rod to the best of its ability; for example, it can act as messenger, steed, or guard. It will fight to the death unless commanded otherwise. The dragon knows no spells. It will return to rod form on command; if slain in dragon form, however, it cannot return to rod form and is forever destroyed. Spells and other magical forms of healing can be used to heal the creature, if desired, but not after it is killed.</p><p>If a dragon is created by a user of a different alignment, the dragon will attack the user immediately, fighting to the death. When this occurs, it cannot be commanded to return to rod form.</p>",
+      "name": "Rod of the Wyrm (Blue)",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
+    "Rod of the Wyrm (Gold)": {
+      "description": "<p>Usable by any character.</p><table><thead><tr><th><p>1d10</p></th><th><p>Alignment</p></th><th><p>Dragon</p></th><th><p>AC</p></th><th><p>Breath(s)</p></th></tr></thead><tbody><tr><td><p>1-5</p></td><td><p>Lawful</p></td><td><p>Gold</p></td><td><p>-2</p></td><td><p>Fire/Gas</p></td></tr></tbody></table><p>Each is a rod +5 and each inflicts 1d8 +5 (6-13) points of damage per hit (but without Strength bonuses). Once per day, the rod may be turned into a small dragon of the appropriate type. The created dragon has 30 hit points and can only be affected by magic (weapons, spells, etc.). It will understand and faithfully serve the user of the rod to the best of its ability; for example, it can act as messenger, steed, or guard. It will fight to the death unless commanded otherwise. The dragon knows no spells. It will return to rod form on command; if slain in dragon form, however, it cannot return to rod form and is forever destroyed. Spells and other magical forms of healing can be used to heal the creature, if desired, but not after it is killed.</p><p>If a dragon is created by a user of a different alignment, the dragon will attack the user immediately, fighting to the death. When this occurs, it cannot be commanded to return to rod form.</p>",
+      "name": "Rod of the Wyrm (Gold)",
+      "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+      "unidentifiedName": "Mysterious Rod"
+    },
     "Rope (50' length)": {
       "description": "<p>A heavy climbing rope that can support up to three fully loaded humans, approximately 7,500 coins in total weight. It can be tied to an iron spike for climbing steep surfaces or used to tie up prisoners and pull open doors.</p>",
       "name": "Rope (50' length)",
@@ -6713,6 +6761,12 @@
     "Suit Armor +1": {
       "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
       "name": "Suit Armor +1",
+      "unidentifiedDesc": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
+      "unidentifiedName": "Suit Armor"
+    },
+    "Suit Armor +2": {
+      "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Suit Armor +2",
       "unidentifiedDesc": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
       "unidentifiedName": "Suit Armor"
     },
@@ -8333,6 +8387,7 @@
   "folders": {
     "Adventuring Gear": "Adventuring Gear",
     "Ammunition": "Ammunition",
+    "Ancestry": "Ancestry",
     "Armor": "Armor",
     "Avenger": "Avenger",
     "Bard": "Bard",
