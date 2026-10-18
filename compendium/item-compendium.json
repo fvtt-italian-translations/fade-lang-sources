@@ -1900,6 +1900,11 @@
       "spellDuration": "7-12 turns",
       "spellEffect": "Control plants and plantlike creatures"
     },
+    "Control  Plant (Staff)": {
+      "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p>It lasts as long as the caster's concentration is unbroken.</p>",
+      "name": "Control  Plant (Staff)",
+      "spellEffect": "Control plants and plantlike creatures"
+    },
     "Control Animals": {
       "description": "<p>Can control up to [[/r 3d6 #Potion of Animal Control Hit Dice worth of animals]] Hit Dice worth of animals (normal or giant, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
       "name": "Control Animals",
@@ -1907,9 +1912,20 @@
       "spellEffect": "Control up to 3d6 Hit Dice worth of animals",
       "spellRange": "Self"
     },
+    "Control Animals (Staff)": {
+      "description": "<p>Can control up to [[/r 1d6 #Hit Dice worth of animals]] hit dice worth of animals (normal or single giant-sized, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts as long as the caster's concentration is unbroken.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
+      "name": "Control Animals (Staff)",
+      "spellEffect": "Control up to 1d6 Hit Dice worth of animals"
+    },
     "Control Human": {
-      "description": "<p>Affects humans, demi-humans, and humanoid creatures up to ogre size (excluding animals, magical constructs, and undead). The target receives a saving throw vs. spells; if failed, they become <em>charmed</em>, regarding the user as a trusted friend and defending them from threats.</p><p>If a shared language exists, the user may issue suggestions. The victim usually obeys reasonable requests, but automatically refuses suicidal commands or orders directly contrary to their nature/alignment. Conflicting input from former allies causes confusion rather than immediate realization.</p><p>The effect ends immediately if the user attacks the victim with a weapon or spell. Otherwise, the victim makes periodic saving throws to break the effect based on Intelligence:</p><table style=\"max-width:250px;\"><tbody><tr><td><p><strong>Target Intelligence:</strong></p></td><td><p><strong>Save Frequency:</strong></p></td></tr><tr><td><p>High (13-18)</p></td><td><p>1 day</p></td></tr><tr><td><p>Average (9-12)</p></td><td><p>1 week</p></td></tr><tr><td><p>Low (3-8)</p></td><td><p>1 month</p></td></tr></tbody></table>",
+      "description": "<p>Affects humans, demi-humans, and humanoid creatures up to ogre size (excluding animals, magical constructs, and undead). The target receives a saving throw vs. spells; if failed, they become <em>charmed</em>, regarding the user as a trusted friend and defending them from threats.</p>\n<p>If a shared language exists, the user may issue suggestions. The victim usually obeys reasonable requests, but automatically refuses suicidal commands or orders directly contrary to their nature/alignment. Conflicting input from former allies causes confusion rather than immediate realization.</p>\n<p>The effect ends immediately if the user attacks the victim with a weapon or spell. Otherwise, the victim makes periodic saving throws to break the effect based on Intelligence:</p>\n<table style=\"max-width:250px;\">\n    <tbody>\n        <tr>\n            <td>\n                <p><strong>Target Intelligence:</strong></p>\n            </td>\n            <td>\n                <p><strong>Save Frequency:</strong></p>\n            </td>\n        </tr>\n        <tr>\n            <td>\n                <p>High (13-18)</p>\n            </td>\n            <td>\n                <p>1 day</p>\n            </td>\n        </tr>\n        <tr>\n            <td>\n                <p>Average (9-12)</p>\n            </td>\n            <td>\n                <p>1 week</p>\n            </td>\n        </tr>\n        <tr>\n            <td>\n                <p>Low (3-8)</p>\n            </td>\n            <td>\n                <p>1 month</p>\n            </td>\n        </tr>\n    </tbody>\n</table>",
       "name": "Control Human",
+      "spellDuration": "Varies",
+      "spellEffect": "Varies"
+    },
+    "Control Human (Staff)": {
+      "description": "<p>The wielder can subjugate up to 6 Hit Dice of humans at once, with normal men counting as 1/2 Hit Die each, operating much like a charm person spell with a range of 60 feet.</p><p>Affects humans, demi-humans, and humanoid creatures up to ogre size (excluding animals, magical constructs, and undead). The target receives a saving throw vs. spells; if failed, they become <em>charmed</em>, regarding the user as a trusted friend and defending them from threats.</p><p>If a shared language exists, the user may issue suggestions. The victim usually obeys reasonable requests, but automatically refuses suicidal commands or orders directly contrary to their nature/alignment. Conflicting input from former allies causes confusion rather than immediate realization.</p><p>The effect ends immediately if the user attacks the victim with a weapon or spell. Otherwise, the victim makes periodic saving throws to break the effect based on Intelligence:</p><table style=\"max-width:250px;\"><tbody><tr><td><p><strong>Target Intelligence:</strong></p></td><td><p><strong>Save Frequency:</strong></p></td></tr><tr><td><p>High (13-18)</p></td><td><p>1 day</p></td></tr><tr><td><p>Average (9-12)</p></td><td><p>1 week</p></td></tr><tr><td><p>Low (3-8)</p></td><td><p>1 month</p></td></tr></tbody></table>",
+      "name": "Control Human (Staff)",
       "spellDuration": "Varies",
       "spellEffect": "Varies"
     },
@@ -6663,6 +6679,20 @@
       "name": "Staff +2",
       "unidentifiedDesc": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
       "unidentifiedName": "Staff",
+      "weaponMastery": "Staff"
+    },
+    "Staff of Commanding": {
+      "description": "<p>Usable by all spellcasters.</p><p>Forged for absolute dominance over the living world, this heavy wooden staff allows its wielder to bend beasts, humanoids, and plant life to their absolute will.</p><p>When focusing on the natural kingdom, the wielder can command [[/r 1d6 #number of animals controlled]] normal animals—or a single giant-sized specimen—provided the creatures are within their line of sight. These targets are allowed no saving throw to resist the compulsion, though intelligent species, magical beasts, and fantastic monsters are completely immune.</p><p>When turning the staff toward humanity, the wielder can subjugate up to 6 Hit Dice of humans at once, with normal men counting as 1/2 Hit Die each, operating much like a charm person spell with a range of 60 feet.</p><p>Finally, the wielder can command all plants and plantlike creatures, including terrifying plant monsters, residing within a 30' x 30' area up to 60 feet away. While normal plants commanded this way cannot inflict physical damage, they can weave together to ruthlessly entangle any victims caught within their area.</p><p>The greatest burden of the staff is its absolute requirement of focus. The duration for all effects lasts precisely as long as the caster maintains concentration. While concentrating, the wielder cannot move or fight whatsoever. The moment concentration lapses—whether voluntarily or through interruption—all commands immediately break. The controlled humans and plants return to their senses, while freed animals roll reactions with a -1 penalty, leaving them just as likely to flee into the shadows as they are to turn and savagely attack their former controller. Furthermore, the animal-commanding property can only be used once per turn.</p>",
+      "name": "Staff of Commanding",
+      "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
+      "unidentifiedName": "Unusual Staff",
+      "weaponMastery": "Staff"
+    },
+    "Staff of Dispelling": {
+      "description": "<p>The touch of this item has the same effect as a dispel magic spell from a 15th level caster, but it will affect only the item or magical effect touched. Any potion or scroll touched is completely destroyed, and any permanent magical item touched becomes nonmagical for 1d4 rounds (including armor and weapons). This effect may be permanently harmful to intelligent swords (DM's choice). Each use of the staff costs one charge. </p><p>This staff is usable by any character.</p>",
+      "name": "Staff of Dispelling",
+      "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
+      "unidentifiedName": "Unusual Staff",
       "weaponMastery": "Staff"
     },
     "Staff of Power (M)": {
