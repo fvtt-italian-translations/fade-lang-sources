@@ -1319,7 +1319,7 @@
       "name": "Blind Shooting"
     },
     "Blinded": {
-      "description": "<p>Characters can be blinded by a variety of effects. For example, a <em>light</em> or <em>continual light</em> spell may be cast directly on a character's eyes, or a character without <em>infravision</em> may find himself in an area of complete darkness.</p><p>A character who is completely blind, for whatever reason, suffers a -4 penalty to all saving throws, a -6 penalty to all attack rolls (he has to guess where his target is by hearing), and a +4 penalty to his armor class for the duration of his blindness.</p><p>A character who is forced to travel great distances while blind must move very slowly. If he is to walk slowly enough that he will not fall down steps and walk unknowingly into pits, he must move at one-third his normal speed, and whether he is indoors or outdoors, that speed is measured in <em>feet</em>, not yards.</p><p>A blind character who is guided by a sighted character can move safely at two-thirds his normal rate, and his movement is measured in yards when outdoors. A character mounted on a horse suffers no movement penalty if someone else is guiding that horse.</p>",
+      "description": "<p>Characters can be blinded by a variety of effects. For example, a <em>light</em> or <em>continual light</em> spell may be cast directly on a character's eyes, or a character without <em>infravision</em> may find himself in an area of complete darkness.</p><p>A character who is completely blind, for whatever reason, suffers a -4 penalty to all saving throws, a -6 penalty to all attack rolls (he has to guess where his target is by hearing), and his AC worsens by 4 for the duration of his blindness.</p><p>A character who is forced to travel great distances while blind must move very slowly. If he is to walk slowly enough that he will not fall down steps and walk unknowingly into pits, he must move at one-third his normal speed, and whether he is indoors or outdoors, that speed is measured in <em>feet</em>, not yards.</p><p>A blind character who is guided by a sighted character can move safely at two-thirds his normal rate, and his movement is measured in yards when outdoors. A character mounted on a horse suffers no movement penalty if someone else is guiding that horse.</p>",
       "name": "Blinded"
     },
     "Blissful Slumber": {
@@ -1827,7 +1827,7 @@
       "name": "Club or Torch"
     },
     "Combat Bonuses (H)": {
-      "description": "<p>Halflings gain a +1 bonus to all attack rolls when using missile weapons, a +1 bonus to individual initiative, and a -2 AC bonus when attacked by creatures larger than man-sized.</p><p>A creature is considered larger than man-sized if its description includes terms like \"giant,\" \"gargantuan,\" or \"enormous.\" Additionally, real-world creatures that the DM deems larger than a human (such as a horse) also fall into this category. As a general guideline, any non-humanoid creature without a specified size can be assumed to be larger than man-sized if it has 4 or more Hit Dice (HD).</p>",
+      "description": "<p>Halflings gain a +1 bonus to all attack rolls when using missile weapons, a +1 bonus to individual initiative, and their AC improves by 2 when attacked by creatures larger than man-sized.</p><p>A creature is considered larger than man-sized if its description includes terms like \"giant,\" \"gargantuan,\" or \"enormous.\" Additionally, real-world creatures that the DM deems larger than a human (such as a horse) also fall into this category. As a general guideline, any non-humanoid creature without a specified size can be assumed to be larger than man-sized if it has 4 or more Hit Dice (HD).</p>",
       "name": "Combat Bonuses (H)"
     },
     "Commune": {
@@ -2229,7 +2229,7 @@
       "name": "Deception"
     },
     "Defense (Potion)": {
-      "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: +1<br>4-5: +2<br>6-7: +3<br>8-9: +4<br>10: +5</p>",
+      "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: improves AC by 1<br>4-5: improves AC by 2<br>6-7: improves AC by 3<br>8-9: improves AC by 4<br>10: improves AC by 5</p>",
       "name": "Defense (Potion)",
       "spellEffect": "Bonus to AC (roll for bonus)",
       "spellRange": "Self"
@@ -3132,7 +3132,7 @@
       "spellEffect": "Enlarges 3,000 square feet of plants"
     },
     "Guardian Angels": {
-      "description": "<p>Once sung, this spell-song grants the bard and all recipients within range a protective blessing for its duration.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures gain a -2 bonus to AC, applied against all attacks.</li><li>Recipients become immune to all effects from other bardic spell-songs while this effect lasts.</li></ul><p><strong>Area of Effect:</strong></p><ul><li>Affects the bard and all allies within 15' + 5' per bard level.</li></ul>",
+      "description": "<p>Once sung, this spell-song grants the bard and all recipients within range a protective blessing for its duration.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures improve AC by 2, applied against all attacks.</li><li>Recipients become immune to all effects from other bardic spell-songs while this effect lasts.</li></ul><p><strong>Area of Effect:</strong></p><ul><li>Affects the bard and all allies within 15' + 5' per bard level.</li></ul>",
       "name": "Guardian Angels",
       "spellEffect": "Provides AC bonus and bardic spell-song immunity",
       "spellRange": "15'+5'/level"
@@ -3190,7 +3190,7 @@
         "16": {},
         "17": {}
       },
-      "description": "<p>A halfling is a small, childlike demi-human standing about 3 feet tall and weighing around 60 pounds. Known for their love of comfort and community, halflings are woodland folk who excel in outdoor abilities and camaraderie with elves and dwarves. Despite their size, they are resourceful and capable combatants.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Dexterity, granting an experience bonus (5% for either score of 13 or higher, 10% for both).</li><li><p><strong>Abilities</strong>:</p><ul><li>Halflings receive a +2 bonus to AC against larger creatures, a +1 bonus to attack rolls with missile weapons, and a +1 bonus to individual initiative.</li><li>They have a 90% chance to hide in woodlands and a 33% chance to hide in shadows within buildings or dungeons, provided they remain motionless.</li></ul></li><li><strong>Weapons and Armor</strong>: Halflings may use any small-sized weapons (e.g., short swords, daggers) and wear any armor specifically tailored to their size. Shields are allowed.</li><li><strong>Combat Skills</strong>: They gain access to fighter combat options, including multiple attacks at higher levels.</li></ul><h3>Advancement:</h3><ul><li>Halflings can advance to a maximum of 8th level, gaining the title \"Sheriff\" upon reaching this level.</li><li>As they progress, halflings develop enhanced resistances, such as taking half damage from spells and breath weapons at high experience thresholds.</li></ul><h3>Strongholds:</h3><ul><li>Halflings can construct strongholds at any level if they have the resources. A stronghold often attracts a community of other halflings, creating a new settlement or shire.</li><li>These strongholds are typically located in tranquil, scenic areas like rolling hills or near streams, reflecting their preference for a peaceful lifestyle.</li></ul><p>Halflings balance their physical limitations with their keen abilities and resilience, making them adaptable and valuable members of any adventuring party.</p>",
+      "description": "<p>A halfling is a small, childlike demi-human standing about 3 feet tall and weighing around 60 pounds. Known for their love of comfort and community, halflings are woodland folk who excel in outdoor abilities and camaraderie with elves and dwarves. Despite their size, they are resourceful and capable combatants.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Dexterity, granting an experience bonus (5% for either score of 13 or higher, 10% for both).</li><li><p><strong>Abilities</strong>:</p><ul><li>Halflings improve AC by 2 against larger creatures, a +1 bonus to attack rolls with missile weapons, and a +1 bonus to individual initiative.</li><li>They have a 90% chance to hide in woodlands and a 33% chance to hide in shadows within buildings or dungeons, provided they remain motionless.</li></ul></li><li><strong>Weapons and Armor</strong>: Halflings may use any small-sized weapons (e.g., short swords, daggers) and wear any armor specifically tailored to their size. Shields are allowed.</li><li><strong>Combat Skills</strong>: They gain access to fighter combat options, including multiple attacks at higher levels.</li></ul><h3>Advancement:</h3><ul><li>Halflings can advance to a maximum of 8th level, gaining the title \"Sheriff\" upon reaching this level.</li><li>As they progress, halflings develop enhanced resistances, such as taking half damage from spells and breath weapons at high experience thresholds.</li></ul><h3>Strongholds:</h3><ul><li>Halflings can construct strongholds at any level if they have the resources. A stronghold often attracts a community of other halflings, creating a new settlement or shire.</li><li>These strongholds are typically located in tranquil, scenic areas like rolling hills or near streams, reflecting their preference for a peaceful lifestyle.</li></ul><p>Halflings balance their physical limitations with their keen abilities and resilience, making them adaptable and valuable members of any adventuring party.</p>",
       "name": "Halfling",
       "specialAbilities": {
         "0": {
@@ -3226,7 +3226,7 @@
       }
     },
     "Halfling@k8J2S8XxoOTsCcXL": {
-      "description": "<p>Halflings are short demihumans standing about 3 feet tall and weighing around 60 pounds, bearing a strong resemblance to human children with slightly pointed ears and rarely growing beards. They are outgoing woodland folk who love good food, drink, conversation, and the comforts of home, organizing their communities into shires and clans led by a recognized spokesman called a sheriff. Halflings can attain a maximum of 8 experience levels, utilizing Strength and Dexterity as their prime requisites while requiring a minimum score of 9 in both Dexterity and Constitution.</p><p>In combat, halflings function similarly to fighters and dwarves, gaining special defensive advantages such as a -2 bonus to Armor Class against monsters larger than man-sized, a +1 bonus to missile weapon attack rolls, and a +1 bonus to individual initiative. As they accumulate experience, they gain significant damage reductions, taking half damage from spells at 300,000 XP and half damage from breath weapons at 2,100,000 XP. Outdoors, they possess a 90% chance to remain unseen when hiding motionless in woodlands, dropping to a 33% chance in dimly lit building interiors.</p>",
+      "description": "<p>Halflings are short demihumans standing about 3 feet tall and weighing around 60 pounds, bearing a strong resemblance to human children with slightly pointed ears and rarely growing beards. They are outgoing woodland folk who love good food, drink, conversation, and the comforts of home, organizing their communities into shires and clans led by a recognized spokesman called a sheriff. Halflings can attain a maximum of 8 experience levels, utilizing Strength and Dexterity as their prime requisites while requiring a minimum score of 9 in both Dexterity and Constitution.</p><p>In combat, halflings function similarly to fighters and dwarves, gaining special defensive advantages such as improving AC by 2 against monsters larger than man-sized, a +1 bonus to missile weapon attack rolls, and a +1 bonus to individual initiative. As they accumulate experience, they gain significant damage reductions, taking half damage from spells at 300,000 XP and half damage from breath weapons at 2,100,000 XP. Outdoors, they possess a 90% chance to remain unseen when hiding motionless in woodlands, dropping to a 33% chance in dimly lit building interiors.</p>",
       "name": "Halfling"
     },
     "Hallucinatory Terrain": {
@@ -3564,20 +3564,20 @@
       "spellRange": "0 (Caster only)"
     },
     "Invulnerability (Ointment)": {
-      "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p><p>It lasts for 1 turn.</p>",
+      "description": "<p>Improves AC by 2 and grants a +2 bonus to saving throws for the duration of the effect.</p><p>It lasts for 1 turn.</p>",
       "name": "Invulnerability (Ointment)",
-      "spellEffect": "+2 bonus to AC and saving throws",
+      "spellEffect": "Improves AC by 2 and +2 to saving throws",
       "spellRange": "Self"
     },
     "Invulnerability (Potion)": {
-      "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "description": "<p>Improves AC by 2 and grants a +2 bonus to saving throws for the duration of the effect.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Invulnerability (Potion)",
       "spellDuration": "7-12 turns",
-      "spellEffect": "+2 bonus to AC and saving throws",
+      "spellEffect": "Improves AC by 2 and +2 to saving throws",
       "spellRange": "Self"
     },
     "Invulnerable": {
-      "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p>",
+      "description": "<p>Improves AC by 2 and grants a +2 bonus to saving throws for the duration of the effect.</p>",
       "name": "Invulnerable"
     },
     "Iron Spike": {
@@ -4608,7 +4608,7 @@
       "unidentifiedDesc": "<p>Oil is burned in a lantern for light. A flask of oil may also be thrown as a missile weapon or poured out and ignited to delay pursuit.</p>"
     },
     "Ointment, Blessing": {
-      "description": "<p>This salve gives the recipient a -2 bonus to armor class and a +2 bonus to all saving throws for 1 turn.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+      "description": "<p>This salve improves the recipient's AC by 2 and grants a +2 bonus to all saving throws for 1 turn.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
       "gmNotes": "The ointment must be applied to the skin.",
       "name": "Ointment, Blessing",
       "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
@@ -4806,11 +4806,11 @@
       "name": "Parry (Rod)"
     },
     "Parrying": {
-      "description": "<p>When attacked in melee, the user's armor class gains a +4 bonus while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver.</p>",
+      "description": "<p>When attacked in melee, the user improves AC by 4 while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver.</p>",
       "name": "Parrying"
     },
     "Parrying (Rod)": {
-      "description": "<p>When attacked in melee, the user's armor class gains a +5 bonus while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver.</p>",
+      "description": "<p>When attacked in melee, the user improves AC by 5 while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver.</p>",
       "name": "Parrying (Rod)"
     },
     "Pass Plant": {
@@ -5175,7 +5175,7 @@
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Defense": {
-      "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: +1<br>4-5: +2<br>6-7: +3<br>8-9: +4<br>10: +5</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: improves AC by 1<br>4-5: improves AC by 2<br>6-7: improves AC by 3<br>8-9: improves AC by 4<br>10: improves AC by 5</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Defense",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
@@ -5265,7 +5265,7 @@
       "unidentifiedName": "Mysterious Potion"
     },
     "Potion of Invulnerability": {
-      "description": "<p>This potion grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect. However, if consumed more than once in a week, it only causes sickness and has no additional effect. </p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+      "description": "<p>This potion improves AC by 2 and grants a +2 bonus to saving throws for the duration of the effect. However, if consumed more than once in a week, it only causes sickness and has no additional effect. </p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Potion of Invulnerability",
       "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
       "unidentifiedName": "Mysterious Potion"
@@ -5941,32 +5941,32 @@
       "unidentifiedName": "Odd Ring"
     },
     "Ring of Protection +1": {
-      "description": "<p>This ring improves the wearer's armor class by 1. It also has the effect of improving all saving throws by 1.</p>",
+      "description": "<p>This ring improves AC by 1. It also has the effect of improving all saving throws by 1.</p>",
       "name": "Ring of Protection +1",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
     "Ring of Protection +1 (5' Radius)": {
-      "description": "<p>This ring improves the wearer's armor class by 1. It also has the effect of improving all saving throws by 1.</p><p>This ring improves the wearer's armor class and saving throws by 1 (as a normal ring of protection +1), but the ring also gives the same bonus to all creatures within 5', both friend and foe! No rings affecting an area are more powerful than +1.</p>",
+      "description": "<p>This ring improves AC by 1. It also has the effect of improving all saving throws by 1.</p><p>This ring improves AC by 1 and improves saving throws by 1 (as a normal ring of protection +1), but the ring also gives the same bonuses to all creatures within 5', both friend and foe! No rings affecting an area are more powerful than +1.</p>",
       "gmNotes": "No automation of area effect.",
       "name": "Ring of Protection +1 (5' Radius)",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
     "Ring of Protection +2": {
-      "description": "<p>This ring improves the wearer's armor class by 2. It also has the effect of improving all saving throws by 2.</p>",
+      "description": "<p>This ring improves AC by 2. It also has the effect of improving all saving throws by 2.</p>",
       "name": "Ring of Protection +2",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
     "Ring of Protection +3": {
-      "description": "<p>This ring improves the wearer's armor class by 3. It also has the effect of improving all saving throws by 3.</p>",
+      "description": "<p>This ring improves AC by 3. It also has the effect of improving all saving throws by 3.</p>",
       "name": "Ring of Protection +3",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
     },
     "Ring of Protection +4": {
-      "description": "<p>This ring improves the wearer's armor class by 3. It also has the effect of improving all saving throws by 3.</p>",
+      "description": "<p>This ring improves AC by 4. It also has the effect of improving all saving throws by 4.</p>",
       "name": "Ring of Protection +4",
       "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
       "unidentifiedName": "Odd Ring"
@@ -6104,7 +6104,7 @@
       "unidentifiedName": "Mysterious Rod"
     },
     "Rod of Parrying": {
-      "description": "<p>This item +5 can be used as a melee weapon, inflicting 1d8+5 (6–13) points of damage per hit (but no Strength bonus applies). It may also be used to parry attacks, if the user chooses this ability at the beginning of a round. When attacked in melee, the user's armor class gains a +5 bonus while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver. </p><p><strong>This item is usable by any character.</strong></p>",
+      "description": "<p>This item +5 can be used as a melee weapon, inflicting 1d8+5 (6–13) points of damage per hit (but no Strength bonus applies). It may also be used to parry attacks, if the user chooses this ability at the beginning of a round. When attacked in melee, the user improves AC by 5 while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver. </p><p><strong>This item is usable by any character.</strong></p>",
       "name": "Rod of Parrying",
       "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
       "unidentifiedName": "Mysterious Rod"
@@ -6789,11 +6789,11 @@
       "spellEffect": "1d6 bonus to damage on 1 weapon"
     },
     "Stunned": {
-      "description": "<p>Certain types of spells, attacks, or magical effects can stun a character. The duration of the stun is determined by the type of attack; the description of each type of attack that can stun will describe its duration.</p><p>A stunned character suffers the following penalties:</p><ol><li><p>The stunned character cannot attack anyone for the first turn he is stunned (or until the stun wears off, if that is faster); after the first turn, he is at a -4 to hit until the stun wears off.</p></li><li><p>He moves at one-third the normal movement rate for whatever speed he is attempting.</p></li><li><p>He suffers a -4 penalty to all his saving throws.</p></li><li><p>He suffers a +4 penalty to his armor class (thus an AC 5 becomes a 9).</p></li><li><p>He cannot concentrate, cast spells, or use magical items.</p></li><li><p>He cannot use general skills.</p></li><li><p>Any weapon mastery the character possesses above Basic level is reduced to Basic level.</p></li></ol><p>The cleric spell <em>cure light wounds</em> can be used to remove the stun effect but will not cure any damage when used for this purpose.</p>",
+      "description": "<p>Certain types of spells, attacks, or magical effects can stun a character. The duration of the stun is determined by the type of attack; the description of each type of attack that can stun will describe its duration.</p><p>A stunned character suffers the following penalties:</p><ol><li><p>The stunned character cannot attack anyone for the first turn he is stunned (or until the stun wears off, if that is faster); after the first turn, he is at a -4 to hit until the stun wears off.</p></li><li><p>He moves at one-third the normal movement rate for whatever speed he is attempting.</p></li><li><p>He suffers a -4 penalty to all his saving throws.</p></li><li><p>His AC worsens by 4 (thus an AC 5 becomes a 9).</p></li><li><p>He cannot concentrate, cast spells, or use magical items.</p></li><li><p>He cannot use general skills.</p></li><li><p>Any weapon mastery the character possesses above Basic level is reduced to Basic level.</p></li></ol><p>The cleric spell <em>cure light wounds</em> can be used to remove the stun effect but will not cure any damage when used for this purpose.</p>",
       "name": "Stunned"
     },
     "Stunned (1 round)": {
-      "description": "<p>With the one-round stuns caused in unarmed combat, the victim cannot make any attacks until the stun wears off. (In some other types of stun, the stun might go on awhile, allowing the stunned character to attack, ineffectually, after a certain amount of time has passed.)</p><p>Also, while stunned, the victim moves at one-third the normal movement rate for whatever speed he is attempting. He suffers a -4 penalty to all his saving throws. He suffers a +4 penalty to his armor class (thus an AC 5 becomes a 9). He cannot concentrate, cast spells, or use magical items. He cannot use general skills. Any weapon mastery skill he possesses above Basic level is reduced to Basic level.</p>",
+      "description": "<p>With the one-round stuns caused in unarmed combat, the victim cannot make any attacks until the stun wears off. (In some other types of stun, the stun might go on awhile, allowing the stunned character to attack, ineffectually, after a certain amount of time has passed.)</p><p>Also, while stunned, the victim moves at one-third the normal movement rate for whatever speed he is attempting. He suffers a -4 penalty to all his saving throws. His AC worsens by 4 (thus an AC 5 becomes a 9). He cannot concentrate, cast spells, or use magical items. He cannot use general skills. Any weapon mastery skill he possesses above Basic level is reduced to Basic level.</p>",
       "name": "Stunned (1 round)"
     },
     "Suit Armor": {
