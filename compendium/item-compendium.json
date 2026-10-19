@@ -3008,6 +3008,12 @@
       "name": "Free Person* (C)",
       "spellEffect": "Paralyzes up to 4 creatures"
     },
+    "Gain Spells": {
+      "description": "<p>Gain one extra spell of each spell level. The extra spells must be selected when the usual spells are acquired (usually during morning meditation).</p>",
+      "name": "Gain Spells",
+      "spellDuration": "Instant",
+      "spellRange": "Self"
+    },
     "Gambling": {
       "description": "<p>This skill is the ability to win money in games of skill (competitive card games, for example) and betting. It covers honest games only. A successful check increases the character's chances of winning money at these games.</p>",
       "name": "Gambling"
@@ -6699,6 +6705,13 @@
       "description": "<p>This staff, <span style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">designed exclusively for magic-users</span>, is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal<br><br>This item can be used as a <em>staff of striking</em> and can also be used to create any of the following magic-user spell effects (each doing 8d6 points of damage): fireball, lightning bolt, and ice storm. It can also create a continual light effect or move 2,400 cn of weight by telekinesis. as the ring. This staff is usable only by magic-users.<br><br>Striking: this weapon inflicts [[/r 2d6 #points of damage]] points of damage per charge if the hit is successful. Only one charge may be used per strike.</p>",
       "name": "Staff of Power (M)",
       "unidentifiedDesc": "<p><span style=\"font-family: 'Google Sans', Arial, sans-serif\">This is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal</span></p>",
+      "unidentifiedName": "Unusual Staff",
+      "weaponMastery": "Staff"
+    },
+    "Staff of the Druids (DR)": {
+      "description": "<p>This staff is usable only by druids. A druid carrying this staff gains one extra spell of each spell level. The extra spells must be selected when the usual spells are acquired (usually during morning meditation). Each day's use of the staff uses one charge. The staff is a +3 weapon as well, and it may be used as such (inflicting 1d6 +3 points of damage per hit) without using any charges.</p>",
+      "name": "Staff of the Druids (DR)",
+      "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
       "unidentifiedName": "Unusual Staff",
       "weaponMastery": "Staff"
     },
