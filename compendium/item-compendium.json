@@ -1726,6 +1726,14 @@
       "spellEffect": "Hear through other's ears",
       "spellRange": "Self"
     },
+    "Clairaudience (Sword)": {
+      "description": "<p>As the potion: hear through a creature within 60'. Up to three times per day unless noted otherwise.</p>",
+      "name": "Clairaudience (Sword)"
+    },
+    "Clairvoyance (Sword)": {
+      "description": "<p>As the potion: see through a creature within 60'. Up to three times per day.</p>",
+      "name": "Clairvoyance (Sword)"
+    },
     "Clairvoyance@IfMYxPRqHff6UUGt": {
       "description": "<p>With this spell, the caster may see through the eyes of any single creature in spell range. \"Seeing\" through a creature's eyes takes one full turn, after which the caster can change to another creature, even one in another direction; he does not have to cast the spell again to do so. Two feet of rock or a thin coating of lead blocks the effects of this spell. No saving throw is allowed.</p>",
       "name": "Clairvoyance",
@@ -2364,9 +2372,17 @@
       "spellDuration": "6 turns (1 hour)",
       "spellEffect": "Everything within 120'"
     },
+    "Detect Evil (Good) (Sword)": {
+      "description": "<p>Detect evil or good intentions within 20'. No sword has both; the DM chooses which. Usable while the sword is held and the user concentrates. Once per round.</p>",
+      "name": "Detect Evil (Good) (Sword)"
+    },
     "Detect Evil (PA)": {
       "description": "<p>A Paladin can detect evil (as per the <em data-start=\"66\" data-end=\"80\">cleric spell</em>) once per round by concentrating. This ability has a 120' range but cannot be used in the same round as an attack.</p>",
       "name": "Detect Evil (PA)"
+    },
+    "Detect Gems (Sword)": {
+      "description": "<p>Detect all gems and the amount of each within 60', pointing toward them. Once per round while held and concentrating.</p>",
+      "name": "Detect Gems (Sword)"
     },
     "Detect Invisible (Potion)": {
       "description": "<p>This effect enables the user to see all invisible creatures and objects within range. The range is 60'.</p>",
@@ -2394,12 +2410,20 @@
       "spellDuration": "2 turns (20 minutes)",
       "spellEffect": "Everything within 60'"
     },
+    "Detect Magic (Sword)": {
+      "description": "<p>Cause all magic within 20' to glow (as the spell) up to three times per day. Once per round while held and concentrating.</p>",
+      "name": "Detect Magic (Sword)"
+    },
     "Detect Magic (Wand)": {
       "description": "<p>Cause any magical item within 20' to glow. If the item cannot normally be seen (within a closed chest, for example), the glow will not be seen.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
       "name": "Detect Magic (Wand)",
       "spellDuration": "Concentrate",
       "spellEffect": "Detect magic",
       "spellRange": "Self"
+    },
+    "Detect Metal (Sword)": {
+      "description": "<p>Detect a requested metal type within 60' and point toward it. Does not reveal amount. Once per round while held and concentrating.</p>",
+      "name": "Detect Metal (Sword)"
     },
     "Detect Metal (Wand)": {
       "description": "<p>The casting item will point toward any type of metal named if within 20' and if 1,000 gp or more in weight. The user cannot detect the amount of metal.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
@@ -2418,6 +2442,14 @@
       "spellDuration": "Concentrate",
       "spellEffect": "Detect secret doors",
       "spellRange": "Self"
+    },
+    "Detect Shifting Walls and Rooms (Sword)": {
+      "description": "<p>Find shifting walls and rooms within 10'. Once per round while held and concentrating.</p>",
+      "name": "Detect Shifting Walls and Rooms (Sword)"
+    },
+    "Detect Sloping Passages (Sword)": {
+      "description": "<p>Locate sloping passages within 10'. Once per round while held and concentrating.</p>",
+      "name": "Detect Sloping Passages (Sword)"
     },
     "Detect Traps": {
       "description": "<p>Casting item will point at all traps within 20', one at a time, at a cost of one charge per trap found.</p><p>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</p>",
@@ -2652,6 +2684,10 @@
         }
       }
     },
+    "ESP (Sword)": {
+      "description": "<p>As the potion: listen to thoughts of one living creature within 60'. Up to three times per day.</p>",
+      "name": "ESP (Sword)"
+    },
     "ESP*": {
       "description": "<p>This spell allows the spellcaster to \"hear\" thoughts. The caster must concentrate in one direction for six rounds (one minute) to hear the thoughts (if any) of a creature within range. The spell allows the caster to understand the thoughts of any single living creature, regardless of language. It does not allow the caster to hear the thoughts of undead creatures.</p>\n                  <p>If more than one creature is within range and in the direction the caster is concentrating, the spellcaster will \"hear\" a confused jumble of thoughts. The caster can sort out the jumble only by concentrating for an extra six rounds to find a single creature.</p>\n                  <p><em>ESP</em> is not hindered by any amount of wood or liquid and will penetrate up to two feet of rock, but a thin coating of lead will block the spell. Targets can make a saving throw vs. spells to avoid the effects.</p>\n                  <p>The reverse of this spell, <em>mindmask</em>, may be cast by touch on any one creature. The recipient is completely immune to <em>ESP</em> and all other forms of mind-reading for the spell's duration.</p>",
       "name": "ESP*",
@@ -2869,6 +2905,10 @@
       "description": "<p>This weapon is cool to the touch. Against fire-using creatures, its magical bonus is doubled. It can douse a normal fire if thrust into it. It has no effect on magical fire.</p><p>When composed onto a sword, vsGroup extras for fire-using foes may be applied. Thrusting into a fire is manual.</p>",
       "name": "Extinguishing"
     },
+    "Extra Damage (Sword)": {
+      "description": "<p>For 1d10 rounds, inflict four times normal damage on each hit. Duplicate rolls raise the multiplier. Manual tracking.</p>",
+      "name": "Extra Damage (Sword)"
+    },
     "Fading": {
       "description": "<p>A character under the effect of this condition gradually becomes translucent over the course of 24 hours, eventually resembling a spectral hound in appearance. Their equipment remains unaffected. Once fully faded, the character is unable to hold normal items or communicate with unfaded characters through hearing or speech.</p><p>From the faded character's perspective, normal objects appear translucent, while faded entities, including other affected characters and spectral hounds, seem solid and normal.</p><p>The condition can be reversed at any time by a <em>dimension door</em> spell, allowing the affected character(s) to step through and return to the normal world.</p>",
       "name": "Fading"
@@ -2988,6 +3028,10 @@
         }
       }
     },
+    "Find Secret Doors (Sword)": {
+      "description": "<p>Locate secret doors within 10' up to three times per day. Once per round while held and concentrating.</p>",
+      "name": "Find Secret Doors (Sword)"
+    },
     "Find Trap": {
       "description": "<p>To search for traps, the player must specify the exact area they are examining, such as a 20-foot square room or a 20-foot corridor. Searching takes one turn (10 minutes) per area, and the Dungeon Master rolls to determine success. Thieves have a percentage-based chance to detect traps, determined by their level, while dwarves have a superior chance to locate large mechanical traps, such as pit traps, due to their natural affinity with stonework. The DM may modify the difficulty for especially hidden traps. Non-thief characters generally cannot detect traps unless their presence is obvious​​.</p>",
       "name": "Find Trap"
@@ -2995,6 +3039,10 @@
     "Find Traps (B)": {
       "description": "<p data-start=\"22\" data-end=\"277\">A Bard can detect hidden or magical traps with the same chance as a Thief of the same level. This requires careful inspection and takes <strong data-start=\"158\" data-end=\"188\">one round per 10-foot area</strong>. Unlike a Thief, a Bard <strong data-start=\"213\" data-end=\"236\">cannot Remove Traps</strong> but can warn others of their presence.</p><h4 data-start=\"279\" data-end=\"306\">Armor Penalties:</h4><ul data-start=\"307\" data-end=\"376\" data-is-last-node=\"\"><li data-start=\"307\" data-end=\"330\"><strong data-start=\"309\" data-end=\"324\">Scale Mail:</strong> –5%</li><li data-start=\"331\" data-end=\"376\" data-is-last-node=\"\"><strong data-start=\"333\" data-end=\"348\">Chain Mail:</strong> –10% (–5% if Elven Chain)</li></ul>",
       "name": "Find Traps (B)"
+    },
+    "Find Traps (Sword)": {
+      "description": "<p>Detect traps of all types within 10' up to three times per day. Once per round while held and concentrating.</p>",
+      "name": "Find Traps (Sword)"
     },
     "Find Traps@8S7I45ND2XGwlJ45": {
       "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
@@ -3102,6 +3150,10 @@
     "Flying": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target (including the caster, if desired) has the ability to fly at will.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); margin: 0.5rem 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: Barlow, sans-serif\">The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</span></p>",
       "name": "Flying"
+    },
+    "Flying (Sword)": {
+      "description": "<p>As the potion: fly for up to three turns per use. Up to three times per day.</p>",
+      "name": "Flying (Sword)"
     },
     "Flying (Weapon)": {
       "description": "<p>After the weapon is used normally at least once in a battle, it can be commanded to fly and continue attacking the same opponent for three more rounds, then return. Attack rolls use the user's class and level.</p><p>Autonomous attacks are not automated. Resolve flying attacks manually.</p>",
@@ -3487,6 +3539,10 @@
       "name": "Healing (Ointment)",
       "spellEffect": "Heals one living creature"
     },
+    "Healing (Sword)": {
+      "description": "<p>Heal up to 6 hp per day at 1 hp per round. Duplicate rolls add +6 daily total. Manual tracking.</p>",
+      "name": "Healing (Sword)"
+    },
     "Healing (Weapon)": {
       "description": "<p>Once per day, this talent creates one cure serious wounds effect on the user only, healing 2d6+2 hit points. Track the daily limit manually.</p>",
       "name": "Healing (Weapon)",
@@ -3650,6 +3706,10 @@
       "description": "<p>The user may hold the item and command it to identify any one chosen magical effect within 30'. The name of the magical spell or effect then appears on the item, along with the level of the caster of the spell effect. Will identify one magical effect per day.</p>",
       "name": "Identify Magical Effect",
       "spellDuration": "Instant"
+    },
+    "Illusion (Sword)": {
+      "description": "<p>Create a phantasmal force as the magic-user spell. Up to three times per day.</p>",
+      "name": "Illusion (Sword)"
     },
     "Immunity": {
       "description": "<p>This spell gives the recipient total immunity to all 1st-, 2nd-, and 3rd level spells. Furthermore, 4th- and 5th level spells have only half normal effect, or one-quarter normal if the victim makes a successful saving throw. Any spell effect that is quantifiable is reduced in effect; these effects include reductions in duration, bonuses, penalties, damage, etc. Round fractions off in the recipient's favor.</p><p>The recipient is also completely immune to all missiles (normal or magical), as well as normal and silver weapons; he takes half damage from magical hand-held weapons. This applies only to weapons; claws, bites, breath weapons, and other natural attack forms are not blocked.</p><p>By concentrating, the recipient can drop the protection, allowing spells (such as <em>cure wounds</em>) to have normal effects for that round. If dropped, the immunity is absent for one round (including the protection from weapons), but returns automatically at the end of the round.</p><p>A carefully worded <em>wish</em> spell can extend this protection, giving immunity to 4th level spells and +1 weapons, and half normal effect from 5th and 6th level spells. No further improvements are possible.</p>",
@@ -3944,6 +4004,10 @@
     "Levitating": {
       "description": "<p>Allows the caster to move vertically, up or down, without support. The caster cannot move side to side without pushing against something. Vertical movement is at a rate of 20' per round.</p><p>Caster can carry up to 2,000 cn (200 lbs) while levitating. The caster can carry another man-sized creature if it isn’t wearing metal armor or heavily burdened. No saving throw is allowed for the levitated target.</p>",
       "name": "Levitating"
+    },
+    "Levitation (Sword)": {
+      "description": "<p>As the potion: float for up to three turns per use. Up to three times per day.</p>",
+      "name": "Levitation (Sword)"
     },
     "Life Drain*": {
       "description": "<p><em>Life drain</em>, drains one level of experience from the victim touched, just like the touch of a wight or wraith. Casting the reversed spell causes no experience level loss to the cleric, nor does it require any rest afterward, but it is a Chaotic act, avoided by Lawful clerics.</p>",
@@ -5915,6 +5979,10 @@
       "name": "Read Magic",
       "spellEffect": "The spellcaster only"
     },
+    "Read Magic (Sword)": {
+      "description": "<p>Read magic on command. The sword can also speak languages it can read.</p>",
+      "name": "Read Magic (Sword)"
+    },
     "Read Scroll (B)": {
       "description": "<p>A Thief of <strong>10th level or higher</strong> can attempt to cast spells from <strong>magic-user scrolls</strong>. This requires <strong>one round of reading</strong>, and the scroll is consumed upon use. There is a <strong>10% chance of backfire</strong>, which may cause the spell to fail, produce a random effect, or target the wrong creature (DM’s discretion). Thieves cannot use cleric or druid scrolls.</p>",
       "name": "Read Scroll (B)"
@@ -6613,6 +6681,10 @@
       "name": "Scroll of Truth",
       "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
       "unidentifiedName": "Mysterious Scroll"
+    },
+    "See Invisible (Sword)": {
+      "description": "<p>Find invisible and hidden objects and creatures (not secret doors) within 20'. Once per round while held and concentrating.</p>",
+      "name": "See Invisible (Sword)"
     },
     "Set Spear vs. Charge": {
       "description": "<p>A character on foot armed with a spear, pike, sword, shield, or lance can set the weapon against a charge. A charge occurs when a monster rushes towards the character, covering at least 20 yards before attacking. This maneuver can also be used against another character's lance attack.</p><p>To \"set vs. charge,\" the character braces the weapon against the ground, pointing it at the approaching enemy. Strength and magic bonuses apply to both the attack and damage rolls. If the attack is successful, the character deals double damage, with adjustments applied after doubling.</p><p>The character must declare the set vs. charge maneuver before entering melee combat with the charging opponent. For example, if the character’s party wins initiative and expects a charge, they can declare this maneuver. Similarly, if charging monsters are spotted several rounds in advance, the character can set their weapon against the charge ahead of time.</p><p>Typically, the attack is made during the monster's movement phase, as soon as it comes within weapon range. If the attack succeeds and kills the monster, it prevents the creature from attacking. If the attack does not kill the monster, it can then attack during its own melee phase of the combat sequence.</p>",
@@ -7513,6 +7585,14 @@
       "name": "Telekinesis",
       "spellEffect": "200 cn of weight/level"
     },
+    "Telekinesis (Sword)": {
+      "description": "<p>Move up to 2,000 cn by concentration as the ring. Up to three times per day.</p>",
+      "name": "Telekinesis (Sword)"
+    },
+    "Telepathy (Sword)": {
+      "description": "<p>As ESP, plus send thoughts (as helm of telepathy). Up to three times per day.</p>",
+      "name": "Telepathy (Sword)"
+    },
     "Teleport Any Object": {
       "description": "<p>This spell is similar to the 5th level <em>teleport</em> spell, but nonliving objects can be affected. After casting this spell, the spellcaster may touch one creature or object and cause it to teleport. The normal chance of error applies (see the description of the <em>teleport</em> spell above); an object appearing too high will fall and probably break, while one appearing too low will be destroyed instantly. If the spellcaster uses this spell to teleport himself, there is no chance for error. The caster may not deliberately choose a destination occupied by a solid object or in open air above the ground.</p><p>The maximum weight affected is 500 cn (50 pounds) per level of the caster. If an object is a solid part of a greater whole (such as a section of wall), the spell will teleport a maximum of one 10' x 10' x 10' cube of material. If the caster is trying to teleport a creature that weighs more than the spell allows, the spell fails.</p><p>If another creature holds or carries the item which the caster is trying to teleport, the creature may make a saving throw vs. spells (with a -2 penalty). If the saving throw is successful, the teleport fails.</p><p>If the caster touches another creature, the target creature may make a saving throw vs. spells (if so desired) to avoid being teleported, but with a -2 penalty to the roll.</p>",
       "name": "Teleport Any Object",
@@ -7527,6 +7607,10 @@
       "description": "<p>The <strong>Teleport</strong> ability allows a character or creature to instantly move from one location to another without traversing the space in between, as long as the new location is within their sight or a known place.</p>",
       "gmNotes": "Teleport ability at will.",
       "name": "Teleport"
+    },
+    "Teleportation (Sword)": {
+      "description": "<p>Teleport once per day as the magic-user spell.</p>",
+      "name": "Teleportation (Sword)"
     },
     "Tent": {
       "description": "<p>Large enough for 2 adult humans.</p>",
@@ -8942,6 +9026,10 @@
     "Wrestling@y87CgAv0iENRhZ4E": {
       "description": "<p>The Wrestling skill enables a character to grapple, pin, or otherwise subdue opponents using hand-to-hand combat techniques. A successful skill roll improves the character's Wrestling Rating (WR), providing a +1 bonus per skill level.</p>\n            <p>In wrestling combat, a character with Wrestling skill gains a bonus on their Wrestling Rating for initiating or resisting grapples and pins. The higher the skill level, the more effective the character becomes, providing a cumulative +1 to WR per level (e.g., Wrestling +1 skill gives +2 WR).</p>\n            <p>This skill is especially useful in situations where the character needs to subdue an opponent without lethal force, or in confined spaces where weapons are impractical. Mastery in Wrestling also allows for improved control over an opponent’s movements, reducing their ability to counterattack or escape.</p>",
       "name": "Wrestling"
+    },
+    "X-ray Vision (Sword)": {
+      "description": "<p>See through things as a ring of X-ray vision. Up to three times per day.</p>",
+      "name": "X-ray Vision (Sword)"
     }
   },
   "folders": {
@@ -8970,6 +9058,7 @@
     "General Skills": "General Skills",
     "Halfling": "Halfling",
     "Intelligence": "Intelligence",
+    "Intelligent Swords": "Intelligent Swords",
     "Level 1": "Level 1",
     "Level 2": "Level 2",
     "Level 3": "Level 3",
@@ -9001,6 +9090,7 @@
     "Treasure": "Treasure",
     "Wands": "Wands",
     "Weapon Masteries": "Weapon Masteries",
+    "Weapon Talents": "Weapon Talents",
     "Weapons": "Weapons",
     "Wisdom": "Wisdom"
   },
