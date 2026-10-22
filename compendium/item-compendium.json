@@ -1498,6 +1498,12 @@
       "description": "<p>Upon reaching 2,100,000 XP, a Halfling gains resistance to breath weapons, including dragon breath and other breath-based attacks. They automatically take half damage from such effects, and if a saving throw is allowed, a successful save further reduces the damage to one-quarter.</p><p data-start=\"878\" data-end=\"1021\" data-is-last-node=\"\">As with magic resistance, fractions are rounded down, and any final damage of ½ a point or less results in 1 point of damage taken.</p>",
       "name": "Breath Resistance (H)"
     },
+    "Breathing (Weapon)": {
+      "description": "<p>Once per day, this talent creates either one water breathing effect or one air breathing effect. Air breathing supplies only the user with pure air for 1 turn. It counters airlessness and poisoned air, but not breath weapons.</p><p>Choose which form when used. Track the daily limit manually.</p>",
+      "name": "Breathing (Weapon)",
+      "spellEffect": "Water breathing or air breathing for the user",
+      "spellRange": "Self"
+    },
     "Breathstealer": {
       "description": "<p>When sung, this spell-song begins to rob the air from those within its area of effect, potentially leading to suffocation.</p><p><strong>Effects:</strong></p><ul><li>Affects all creatures within a 30' x 30' x 30' area.</li><li>Each round, all within the area must make a saving throw vs. Spells at -2 or begin suffocating.</li><li>On a failed save, the victim loses 3 points of Constitution temporarily.</li><li>Those who fail a save must also make a Constitution check to move normally.</li><li>Movement speed is halved while suffocating.</li><li>Suffocating victims cannot cast spells, speak, or attack.</li><li>If a creature’s Constitution reaches 0, they die.</li></ul><p><strong>Duration:</strong></p><ul><li>The bard may sing for as many rounds as their Constitution score.</li><li>If the bard sings until reaching 0 Constitution, they pass out for [[/r 2d6 #Rounds Unconscious]].</li></ul><p><strong>Recovery:</strong></p><ul><li>Lost Constitution points recover at a rate of [[/r 1d3 #Points per full day of rest]].</li></ul><p><strong>Special Notes:</strong></p><ul><li>All creatures in the area—including the bard’s allies—are affected.</li><li>Creatures who succeed a saving throw take no penalties that round.</li></ul>",
       "name": "Breathstealer",
@@ -1681,6 +1687,12 @@
     "Charmed": {
       "description": "<p>The creature regards the charmer as its best friend and tries to defend the charmer against threats, real or imagined. If they share a language, the creature usually follows suggestions. It may refuse an order that contradicts its nature, and it will not kill itself.</p><p>The charm ends if the charmer attacks the creature. Otherwise the creature may save again after a period based on its Intelligence: each day if high (13–18), each week if average (9–12), or each month if low (3–8).</p>",
       "name": "Charmed"
+    },
+    "Charming (Weapon)": {
+      "description": "<p>Once per day, this talent creates one charm person spell effect to a 120' range. Apply the Charmed condition from the chat card. The save and daily limit are manual.</p>",
+      "name": "Charming (Weapon)",
+      "spellDuration": "Varies",
+      "spellEffect": "Charm person, 120' range"
     },
     "Cheating": {
       "description": "<p>This is the skill of winning at gambling games by cheating, such as dealing cards from the bottom of the deck. A Cheating skill roll is made against each character being cheated. If any of them make a successful check against the cheater's roll, they detect the cheating. This skill is limited to characters of Chaotic alignment.</p>",
@@ -2287,15 +2299,27 @@
       "name": "Death Spell",
       "spellEffect": "Slays 4d8 (4-32) Hit Dice of creatures within a 60' x 60' x 60' area"
     },
+    "Deceiving": {
+      "description": "<p>On command, this talent changes the appearance of the user. Size cannot change, but features and equipment can. This is an illusion. The weapon must be held (unsheathed if edged) and cannot disguise itself.</p><p>Track appearance and duration manually.</p>",
+      "name": "Deceiving"
+    },
     "Deception": {
       "description": "<p>The Deception skill enables a character to lie convincingly, mislead others, and create believable falsehoods. It is used to conceal intentions, bluff, or forge information. This skill can be vital for characters trying to hide the truth or manipulate others' perceptions in various social or investigative situations.</p>",
       "name": "Deception"
+    },
+    "Defending": {
+      "description": "<p>Each round, the weapon's magical bonus may be used either as an attack and damage bonus, or as a bonus to the user's Armor Class. A missile weapon cannot have this talent.</p><p>Choose which use each round manually. There is no automatic AC toggle.</p>",
+      "name": "Defending"
     },
     "Defense (Potion)": {
       "description": "<p>The user gains a temporary bonus to armor class for one turn. The bonus is determined by rolling [[/r 1d10 #See defense bonus table]]:</p><p>1-3: improves AC by 1<br>4-5: improves AC by 2<br>6-7: improves AC by 3<br>8-9: improves AC by 4<br>10: improves AC by 5</p>",
       "name": "Defense (Potion)",
       "spellEffect": "Bonus to AC (roll for bonus)",
       "spellRange": "Self"
+    },
+    "Deflecting": {
+      "description": "<p>If the user is hit by a blow that would cause an energy drain, this talent can deflect the blow. After the hit, the user decides whether to deflect. Each level deflected drains one magical bonus from the weapon. If the drain would reduce the bonus below zero, the weapon disintegrates and the excess does not affect the user.</p><p>Track bonus loss and disintegration manually.</p>",
+      "name": "Deflecting"
     },
     "Delayed Blast Fireball": {
       "description": "<p>As the name implies, this is a <em>fireball</em> spell whose blast can be delayed; it behaves like a time bomb. When he casts the spell, the magic-user states the exact number of rounds of delay (from 0 to 60) until the spell detonates. A small rock, very similar in appearance to a valuable gem, then shoots out toward the desired location, and remains at that location until the stated delay elapses. The \"gem\" may be picked up, carried, and so forth.</p><p>When the stated duration ends, it explodes in an effect identical to a normal <em>fireball</em>—a sudden instantaneous explosion inflicting 1d6 points of damage per level of the caster to all within the area of effect (a sphere of 20' radius). Each victim may make a saving throw vs. spells to take half damage.</p><p>Once the spell has been cast, the explosion cannot be hurried nor further delayed, except with a <em>wish</em>. The \"gem\" created is pure magic, not an actual object, and cannot be moved magically (by <em>telekinesis</em>, <em>teleport</em>, etc.); however, it can be dispelled.</p>",
@@ -2499,6 +2523,10 @@
     "Dragon Breath Resistance (E)": {
       "description": "<p>Elves gain resistance to dragon breath weapons upon reaching 1,600,000 XP, aka level 14. At this point, they automatically take only half damage from any breath weapon, including dragon breath and similar attacks. If the breath weapon allows a saving throw, a successful save reduces the damage to one-quarter​.</p>",
       "name": "Dragon Breath Resistance (E)"
+    },
+    "Draining": {
+      "description": "<p>On command after a hit, this talent drains one level or Hit Die in addition to normal damage (as a wraith). It can drain 1d4+4 levels in all, then loses this ability forever. It does not affect creatures that have energy drain powers.</p><p>Track remaining drains and level loss manually.</p>",
+      "name": "Draining"
     },
     "Druid": {
       "classLevels": {
@@ -2837,6 +2865,10 @@
       "name": "Explosive Cloud",
       "spellEffect": "Creates a moving poisonous cloud"
     },
+    "Extinguishing": {
+      "description": "<p>This weapon is cool to the touch. Against fire-using creatures, its magical bonus is doubled. It can douse a normal fire if thrust into it. It has no effect on magical fire.</p><p>When composed onto a sword, vsGroup extras for fire-using foes may be applied. Thrusting into a fire is manual.</p>",
+      "name": "Extinguishing"
+    },
     "Fading": {
       "description": "<p>A character under the effect of this condition gradually becomes translucent over the course of 24 hours, eventually resembling a spectral hound in appearance. Their equipment remains unaffected. Once fully faded, the character is unable to hold normal items or communicate with unfaded characters through hearing or speech.</p><p>From the faded character's perspective, normal objects appear translucent, while faded entities, including other affected characters and spectral hounds, seem solid and normal.</p><p>The condition can be reversed at any time by a <em>dimension door</em> spell, allowing the affected character(s) to step through and return to the normal world.</p>",
       "name": "Fading"
@@ -2980,6 +3012,11 @@
       "spellDuration": "6 turns + 1/level",
       "spellEffect": "Shows the path to an area"
     },
+    "Finding (Weapon)": {
+      "description": "<p>Once per day, this talent creates one locate object spell effect to a 120' range. Track the daily limit manually.</p>",
+      "name": "Finding (Weapon)",
+      "spellEffect": "Locate object, 120' range"
+    },
     "Finger of Death*": {
       "description": "<p><em>Finger of death</em> creates a death ray that will kill any one living creature within 60'. The victim may make a saving throw vs. death ray to avoid the effect. A Lawful cleric will only use <em>finger of death</em> in a life-or-death situation. <em>Finger of death</em> will actually cure 3d10 (3–30) points of damage for any undead with 10 or more Hit Dice (phantom, haunt, spirit, nightshade, or special).</p>",
       "name": "Finger of Death*",
@@ -3009,6 +3046,10 @@
       "description": "<p>Creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 6d6 fire damage to every creature in the area.</p><p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. wands for half damage.</p>",
       "name": "Fireball (Wand)",
       "spellEffect": "Explosion in a sphere 40' diameter"
+    },
+    "Flaming": {
+      "description": "<p>On command, the point or edge blazes with flame that does not harm the weapon or user. Add +2 to attack and damage vs hippogriffs, pegasi, rocs, and trolls, and +3 vs treants and undead. The flame can light flammable items.</p><p>When composed, vsGroup extras are set for flaming-weak and undead. Lighting fires is manual.</p>",
+      "name": "Flaming"
     },
     "Flaming Scroll (Light)": {
       "description": "<p>The scroll will burn with a clear light in a 60' radius, lasting for up to 6 hours per day. The burning does not harm the scroll, but it is nevertheless normal fire (and can be used to light torches, for example). The flame cannot be extinguished except by water or on command of the user; no wind, normal or magical, can cause it to flicker. This item may already be lit when found.</p>",
@@ -3061,6 +3102,10 @@
     "Flying": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target (including the caster, if desired) has the ability to fly at will.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); margin: 0.5rem 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: Barlow, sans-serif\">The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</span></p>",
       "name": "Flying"
+    },
+    "Flying (Weapon)": {
+      "description": "<p>After the weapon is used normally at least once in a battle, it can be commanded to fly and continue attacking the same opponent for three more rounds, then return. Attack rolls use the user's class and level.</p><p>Autonomous attacks are not automated. Resolve flying attacks manually.</p>",
+      "name": "Flying (Weapon)"
     },
     "Flying Carpet": {
       "description": "<p>This item can carry one passenger at up to 300' per turn, two at 240' per turn, or three at 180' per turn. It will not carry more than three passengers and their equipment. As an option, the DM can say that the carpet will carry an encumbrance of 6,000 cn, but the weight of the passengers will have to be calculated.</p>",
@@ -3442,6 +3487,13 @@
       "name": "Healing (Ointment)",
       "spellEffect": "Heals one living creature"
     },
+    "Healing (Weapon)": {
+      "description": "<p>Once per day, this talent creates one cure serious wounds effect on the user only, healing 2d6+2 hit points. Track the daily limit manually.</p>",
+      "name": "Healing (Weapon)",
+      "spellDuration": "Instant",
+      "spellEffect": "Cure serious wounds on the user only",
+      "spellRange": "Self"
+    },
     "Healing Herbs": {
       "description": "<p>This potion restores 1-4 hit points [[/r 1d4 # Healing herbs hit points restored.]] or cures paralysis for a single creature. Its effects take place immediately upon consumption.</p>",
       "name": "Healing Herbs",
@@ -3508,6 +3560,13 @@
       "description": "<p>When outdoors, a Halfling can blend into woods, underbrush, or similar natural terrain, making them extremely difficult to spot. If they remain motionless in such cover, they have a 90% chance to remain unseen (rolled secretly by the DM). This ability functions only in natural environments and does not require shadows. If the Halfling moves, they immediately lose the effect and become visible.</p>",
       "name": "Hide, Natural (H)"
     },
+    "Hiding (Weapon)": {
+      "description": "<p>On command, this talent creates one invisibility effect on the user. Separately, the weapon itself can become invisible three times per day. Item invisibility does not hide the user and is tracked manually.</p><p>Apply the Invisible condition from the chat card for the user.</p>",
+      "name": "Hiding (Weapon)",
+      "spellDuration": "Until broken",
+      "spellEffect": "Invisibility on the user; weapon invisibility separate",
+      "spellRange": "Self"
+    },
     "Hold Animal": {
       "description": "<p>This spell will affect any normal or giant-sized animal, but will not affect any fantastic creature, nor one of greater than animal intelligence (2). Each victim must make a saving throw vs. spells or be paralyzed for the duration of the spell.   </p><p>The druid can affect 1 Hit Die of animals for each level of experience, ignoring \"pluses\" to Hit Dice. For example, a 20th level druid could cast the spell at 10 giant toads (which have 2+2 Hit Dice each). Note that the spell can affect summoned, conjured, or controlled animals.</p>",
       "name": "Hold Animal",
@@ -3536,6 +3595,12 @@
       "name": "Hold Portal",
       "spellDuration": "2d6 turns",
       "spellEffect": "One door, gate, or similar portal"
+    },
+    "Holding (Weapon)": {
+      "description": "<p>Once per day, this talent creates one hold person spell effect to a 180' range. The save and daily limit are manual.</p>",
+      "name": "Holding (Weapon)",
+      "spellDuration": "As hold person",
+      "spellEffect": "Hold person, 180' range"
     },
     "Holy Symbol": {
       "description": "<p>This is a sign or symbol of a cleric's beliefs. It is often used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
@@ -3896,6 +3961,11 @@
       "name": "Light* (C)",
       "spellDuration": "12 turns (2 hours)",
       "spellEffect": "Volume of 30' diameter"
+    },
+    "Lighting (Weapon)": {
+      "description": "<p>Once per day, this talent creates one light spell effect to a 120' range lasting 6 turns. Track the daily limit manually.</p>",
+      "name": "Lighting (Weapon)",
+      "spellEffect": "Light, 120' range"
     },
     "Lightning Bolt": {
       "description": "<p>This spell creates a bolt of lightning, starting up to 180' away from the caster and extending 60' in a straight line further away. All creatures within the area of effect take 1d6 points of damage per level of the spellcaster. (Thus a 6th level elf would cast a <em>lightning bolt</em> doing 6d6 points of damage.)</p><p>Each victim may make a saving throw vs. spells; if successful, he takes only half damage.</p><p>If the <em>lightning bolt</em> strikes a solid surface (such as a wall), it will bounce back toward the caster until the total length of the bolt is 60'.</p>",
@@ -6678,6 +6748,12 @@
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">This condition makes it impossible to converse or cast spells inside the affected area for the duration of the spell. Those within the sphere can still hear sounds from outside.</span></p>",
       "name": "Silenced"
     },
+    "Silencing (Weapon)": {
+      "description": "<p>Once per day, this talent creates one silence, 15' radius spell effect to a 180' range. Track the daily limit manually.</p>",
+      "name": "Silencing (Weapon)",
+      "spellDuration": "As silence 15' radius",
+      "spellEffect": "Silence 15' radius, 180' range"
+    },
     "Silent": {
       "description": "<p>The effected is very quiet and only has a 1 in 10 chance of being heard. This effect only works when the creature is trying to be quiet, like moving in a stealthy way. It does not mean the effect creature can't make noise if they wish.</p>",
       "name": "Silent"
@@ -6700,6 +6776,10 @@
       "name": "Sleep",
       "spellDuration": "4d4 (4-16) turns",
       "spellEffect": "2d8 Hit Dice of living creatures within a 40' square area"
+    },
+    "Slicing": {
+      "description": "<p>Edged weapons only. If the attack roll is 19 or 20 counting the weapon's magical bonus but no other bonuses, the opponent must save vs. death ray or die. On a successful save, the victim still takes triple damage. This does not apply vs constructs or undead.</p><p>Resolve the special hit, save, and damage manually.</p>",
+      "name": "Slicing"
     },
     "Sling +1": {
       "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
@@ -6732,6 +6812,10 @@
     "Slowed": {
       "description": "<p><span style=\"font-family: Barlow, sans-serif\">Slowed creatures move and attack at half speed but are otherwise unaffected, including spellcasting and magical device usage. Each affected creature may make a saving throw vs. spells to avoid the effect.</span></p>",
       "name": "Slowed"
+    },
+    "Slowing": {
+      "description": "<p>On a successful hit, this talent can slow the opponent for 1 turn (as the reverse of haste). No saving throw. The user may decide after the hit whether to use the effect.</p><p>Apply the Slowed condition from the chat card. On-hit timing is manual.</p>",
+      "name": "Slowing"
     },
     "Small": {
       "description": "<p>The magical effect instantly reduces the user to 6 inches in height. The user can only attack creatures smaller than 1 foot for normal damage. They can slip through small cracks and have a 90% chance of not being seen when standing still. This transformation will cancel any previous growth effects without ill consequences.</p>",
@@ -6830,6 +6914,12 @@
       "name": "Spear",
       "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
       "weaponMastery": "Spear"
+    },
+    "Speeding (Weapon)": {
+      "description": "<p>Once per day, on command, this talent creates a haste effect on the user only for 1 turn. The user moves at double speed and attacks twice per round. Apply the Hasted condition from the chat card. Track the daily limit manually.</p>",
+      "name": "Speeding (Weapon)",
+      "spellEffect": "Haste on the user only",
+      "spellRange": "Self"
     },
     "Spell Research": {
       "description": "<p>A character can attempt to create a new spell, provided it is of a level they can cast. The process requires:</p><ul><li><p>1,000 gp per spell level</p></li><li><p>Two weeks of research per spell level</p></li><li><p>Rare components, often necessitating an adventure to obtain</p></li><li><p>A fully stocked laboratory or library</p></li></ul><p>The chance of success depends on the character's Intelligence score and level, with modifications for spell difficulty. If a research attempt fails, the process must be restarted, but each failure grants a +5% cumulative bonus to future attempts.</p><p>Typically, a character does not have a sufficient library for advanced research until reaching 18th level, or at least 9th level if they have collected extensive magical tomes. While research is technically possible at any level, lower-level characters may struggle to meet the requirements.</p>",
@@ -7184,14 +7274,35 @@
       "name": "Sword, Bastard (1H) +1",
       "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "unidentifiedName": "Sword, Bastard (1H)",
-      "weaponMastery": "Sword, Bastard Sword, Bastard (1H)"
+      "weaponMastery": "Sword, Bastard (1H)"
     },
     "Sword, Bastard (1H) +2": {
       "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "name": "Sword, Bastard (1H) +2",
       "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "unidentifiedName": "Sword, Bastard (1H)",
-      "weaponMastery": "Sword, Bastard Sword, Bastard (1H)"
+      "weaponMastery": "Sword, Bastard (1H)"
+    },
+    "Sword, Bastard (1H) +3": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (1H) +3",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "unidentifiedName": "Sword, Bastard (1H)",
+      "weaponMastery": "Sword, Bastard (1H)"
+    },
+    "Sword, Bastard (1H) +4": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (1H) +4",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "unidentifiedName": "Sword, Bastard (1H)",
+      "weaponMastery": "Sword, Bastard (1H)"
+    },
+    "Sword, Bastard (1H) +5": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (1H) +5",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "unidentifiedName": "Sword, Bastard (1H)",
+      "weaponMastery": "Sword, Bastard (1H)"
     },
     "Sword, Bastard (1H)@Y1BN5kWs27xDnOaq": {
       "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
@@ -7207,14 +7318,35 @@
       "name": "Sword, Bastard (2H) +1",
       "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "unidentifiedName": "Sword, Bastard (2H)",
-      "weaponMastery": "Sword, Bastard Sword, Bastard (2H)"
+      "weaponMastery": "Sword, Bastard (2H)"
     },
     "Sword, Bastard (2H) +2": {
       "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "name": "Sword, Bastard (2H) +2",
       "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
       "unidentifiedName": "Sword, Bastard (2H)",
-      "weaponMastery": "Sword, Bastard Sword, Bastard (2H)"
+      "weaponMastery": "Sword, Bastard (2H)"
+    },
+    "Sword, Bastard (2H) +3": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (2H) +3",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "unidentifiedName": "Sword, Bastard (2H)",
+      "weaponMastery": "Sword, Bastard (2H)"
+    },
+    "Sword, Bastard (2H) +4": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (2H) +4",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "unidentifiedName": "Sword, Bastard (2H)",
+      "weaponMastery": "Sword, Bastard (2H)"
+    },
+    "Sword, Bastard (2H) +5": {
+      "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "name": "Sword, Bastard (2H) +5",
+      "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+      "unidentifiedName": "Sword, Bastard (2H)",
+      "weaponMastery": "Sword, Bastard (2H)"
     },
     "Sword, Bastard (2H)@9fob9ePbWx5SsdkS": {
       "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
@@ -7235,6 +7367,27 @@
     "Sword, Normal +2": {
       "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
       "name": "Sword, Normal +2",
+      "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "unidentifiedName": "Sword, Normal",
+      "weaponMastery": "Sword, Normal"
+    },
+    "Sword, Normal +3": {
+      "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "name": "Sword, Normal +3",
+      "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "unidentifiedName": "Sword, Normal",
+      "weaponMastery": "Sword, Normal"
+    },
+    "Sword, Normal +4": {
+      "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "name": "Sword, Normal +4",
+      "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "unidentifiedName": "Sword, Normal",
+      "weaponMastery": "Sword, Normal"
+    },
+    "Sword, Normal +5": {
+      "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+      "name": "Sword, Normal +5",
       "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
       "unidentifiedName": "Sword, Normal",
       "weaponMastery": "Sword, Normal"
@@ -7262,6 +7415,27 @@
       "unidentifiedName": "Sword, Short",
       "weaponMastery": "Sword, Short"
     },
+    "Sword, Short +3": {
+      "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "name": "Sword, Short +3",
+      "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "unidentifiedName": "Sword, Short",
+      "weaponMastery": "Sword, Short"
+    },
+    "Sword, Short +4": {
+      "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "name": "Sword, Short +4",
+      "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "unidentifiedName": "Sword, Short",
+      "weaponMastery": "Sword, Short"
+    },
+    "Sword, Short +5": {
+      "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "name": "Sword, Short +5",
+      "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+      "unidentifiedName": "Sword, Short",
+      "weaponMastery": "Sword, Short"
+    },
     "Sword, Short@5Ymnj5Zixi4qy6r3": {
       "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
       "name": "Sword, Short",
@@ -7281,6 +7455,27 @@
     "Sword, Two-Handed +2": {
       "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
       "name": "Sword, Two-Handed +2",
+      "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "unidentifiedName": "Sword, Two-Handed",
+      "weaponMastery": "Sword, Two-Handed"
+    },
+    "Sword, Two-Handed +3": {
+      "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "name": "Sword, Two-Handed +3",
+      "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "unidentifiedName": "Sword, Two-Handed",
+      "weaponMastery": "Sword, Two-Handed"
+    },
+    "Sword, Two-Handed +4": {
+      "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "name": "Sword, Two-Handed +4",
+      "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "unidentifiedName": "Sword, Two-Handed",
+      "weaponMastery": "Sword, Two-Handed"
+    },
+    "Sword, Two-Handed +5": {
+      "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+      "name": "Sword, Two-Handed +5",
       "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
       "unidentifiedName": "Sword, Two-Handed",
       "weaponMastery": "Sword, Two-Handed"
@@ -8337,6 +8532,10 @@
       "description": "<p>The character can follow tracks. The DM may adjust the chance of success depending on the circumstances such as age of the tracks, type of terrain, number of tracks being followed, and other factors. A successful skill check indicates the character has successfully followed the tracks to their destination or the next significant point.</p>",
       "name": "Tracking"
     },
+    "Translating": {
+      "description": "<p>On command, the user understands any and all languages heard for 6 turns. Track duration manually.</p>",
+      "name": "Translating"
+    },
     "Transport Through Plants": {
       "description": "<p>This spell may be used a maximum of once per day. The druid must be near a plant (of any size), and must choose either a general location or a specific known plant elsewhere. After casting the spell, the druid magically enters the nearby plant and steps out of a plant at the destination (if the druid could not specify the exact plant, he appears from a plant determined randomly by the DM). There is no limit to the range, but the plants must both be living for the spell to work, and must both be on the same plane of existence. If either plant is dead, the spell fails. Otherwise, the caster immediately reappears at the new location. The caster can transport two additional willing creatures.</p>",
       "name": "Transport Through Plants",
@@ -8574,6 +8773,10 @@
       "name": "Warp Wood",
       "spellEffect": "Causes wooden weapons to bend"
     },
+    "Watching": {
+      "description": "<p>Command the weapon to watch for one monster type or race. It vibrates if that type comes within 60'. Only one race or type per day.</p><p>Sense and daily limit are manual.</p>",
+      "name": "Watching"
+    },
     "Water": {
       "description": "<p>Two quarts of drinkable water.</p>",
       "name": "Water",
@@ -8696,6 +8899,10 @@
       "spellDuration": "Special",
       "spellEffect": "Alters reality",
       "spellRange": "Special"
+    },
+    "Wishing": {
+      "description": "<p>This talent grants 1d3 wishes to the user (as the 9th-level magic-user spell). Track remaining wishes manually.</p>",
+      "name": "Wishing"
     },
     "Wizard Eye": {
       "description": "<p>This spell creates an invisible eye through which the caster can see. It is the size of a real eye and has infravision (60' range). The <em>wizard eye</em> floats through the air at up to 120' per turn, but will not go through solid objects nor move more than 240' away from the caster. The spellcaster must concentrate (without moving) to see through the eye.</p>",
