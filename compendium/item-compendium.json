@@ -5,6 +5,10 @@
       "name": "10' Pole",
       "unidentifiedDesc": "<p>A 10-foot-long wooden pole, useful for prodding suspicious areas, triggering traps from a distance, or bridging small gaps. The pole is about 2 inches in diameter and sturdy enough to support a moderate amount of weight.</p>"
     },
+    "Absorption": {
+      "description": "<p>Passive. When the wearer would lose a level to energy drain, this armor absorbs the drain instead. Each level absorbed reduces the armor's magical bonus by 1. When the bonus reaches +0, the armor is no longer magical, and further drains affect the wearer.</p><p>There is no automatic trigger. Reduce the armor bonus manually.</p>",
+      "name": "Absorption"
+    },
     "Acrobatics": {
       "description": "<p>The character can perform impressive acrobatic feats, balance on ropes and wires, and so forth. A successful skill roll is required to perform any acrobatic feat; failure may result in the character falling. A successful roll allows the character to reduce the effective height of a fall by 10 feet. This skill also grants a +2 bonus on saves vs. mechanical traps where agility would help, such as tilting floors and pit traps.</p>",
       "name": "Acrobatics"
@@ -508,6 +512,24 @@
     "Banded Mail +2": {
       "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
       "name": "Banded Mail +2",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
+      "unidentifiedName": "Banded Mail"
+    },
+    "Banded Mail +3": {
+      "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Banded Mail +3",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
+      "unidentifiedName": "Banded Mail"
+    },
+    "Banded Mail +4": {
+      "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Banded Mail +4",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
+      "unidentifiedName": "Banded Mail"
+    },
+    "Banded Mail +5": {
+      "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Banded Mail +5",
       "unidentifiedDesc": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
       "unidentifiedName": "Banded Mail"
     },
@@ -1612,9 +1634,31 @@
       "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
       "unidentifiedName": "Chain Mail"
     },
+    "Chain Mail +3": {
+      "description": "<p>This is a magic suit of armor primarily composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Chain Mail +3",
+      "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+      "unidentifiedName": "Chain Mail"
+    },
+    "Chain Mail +4": {
+      "description": "<p>This is a magic suit of armor primarily composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Chain Mail +4",
+      "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+      "unidentifiedName": "Chain Mail"
+    },
+    "Chain Mail +5": {
+      "description": "<p>This is a magic suit of armor primarily composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Chain Mail +5",
+      "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+      "unidentifiedName": "Chain Mail"
+    },
     "Charge": {
       "description": "<p>A monster with this special attack can run toward its opponent for 20 yards (20 feet indoors) in one round and inflict double damage if it hits. A monster cannot charge in certain types of terrain: broken, heavy, forest, jungle, mountain, swamp, etc.</p>",
       "name": "Charge"
+    },
+    "Charm": {
+      "description": "<p>When a creature hits the wearer in melee, that creature must save vs. spells with a +4 bonus or be charmed. A person is affected as charm person. Any other living creature is affected as charm monster.</p><p>Only one successful charm can occur per day. A successful save does not use that success. The charm follows the usual charm rules: the creature treats the wearer as its best friend, may refuse orders against its nature, and breaks free if the wearer attacks it.</p><p>The hit and the save are manual. Apply the Charmed condition from the chat card.</p>",
+      "name": "Charm"
     },
     "Charm Monster": {
       "description": "<p>This spell effect is identical to that of a <em>charm person</em> spell, but will affect any creature except an undead monster. If cast on victims with 3 Hit Dice or less, the spell will charm 3d6 (3–18) victims. Otherwise, it will charm only one victim. Each victim may make a saving throw vs. spells to avoid the effects.</p>",
@@ -1633,6 +1677,10 @@
       "name": "Charm Plant",
       "spellDuration": "6 months (see description)",
       "spellEffect": "Charms one tree or multiple smaller plants"
+    },
+    "Charmed": {
+      "description": "<p>The creature regards the charmer as its best friend and tries to defend the charmer against threats, real or imagined. If they share a language, the creature usually follows suggestions. It may refuse an order that contradicts its nature, and it will not kill itself.</p><p>The charm ends if the charmer attacks the creature. Otherwise the creature may save again after a period based on its Intelligence: each day if high (13–18), each week if average (9–12), or each month if low (3–8).</p>",
+      "name": "Charmed"
     },
     "Cheating": {
       "description": "<p>This is the skill of winning at gambling games by cheating, such as dealing cards from the bottom of the deck. A Cheating skill roll is made against each character being cheated. If any of them make a successful check against the cheater's roll, they detect the cheating. This skill is limited to characters of Chaotic alignment.</p>",
@@ -2121,6 +2169,10 @@
       "name": "Cure Serious Wounds*",
       "spellEffect": "Heals one living creature"
     },
+    "Cure Wounds": {
+      "description": "<p>Once per day, this armor heals the wearer for half the damage of the blow just received. It affects only the wearer.</p><p>There is no fixed heal formula for half of a varying blow. Apply the healing manually. The daily limit is manual.</p>",
+      "name": "Cure Wounds"
+    },
     "Cureall": {
       "description": "<p>This spell is the most powerful of the healing spells. When used to cure wounds, it cures nearly all damage, leaving the recipient with only 1d6 points of damage. (Restore the victim to full starting hit points, then roll 1d6 and subtract that amount from the victim's hit point total.)</p><p>The spell can remove a curse, neutralize a poison, cure paralysis, cure a disease, cure blindness, or even remove a <em>feeblemind</em> effect instead of healing. However, it will cure one thing only; if the recipient is suffering from two or more afflictions (such as wounds and a curse), the cleric must name the ailment the spell is intended to cure.</p><p>If cast on the recipient of a <em>raise dead</em> spell, the <em>cureall</em> eliminates the need for two weeks of bed rest; the recipient can immediately function normally. This is the only form of magical curing that will work on a newly-raised creature.</p>",
       "name": "Cureall",
@@ -2602,6 +2654,10 @@
       "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">It looks like a chicken egg.</span></p>",
       "unidentifiedName": "Egg"
     },
+    "Electricity": {
+      "description": "<p>Once per day, the wearer can charge the armor with electricity. The next creature to hit the wearer in melee takes 6d6 damage, and the charge is spent.</p><p>The chat card can roll the 6d6. Charging the armor and deciding which blow discharges it are manual.</p>",
+      "name": "Electricity"
+    },
     "Electrum Piece": {
       "name": "Electrum Piece"
     },
@@ -2709,6 +2765,10 @@
       "description": "<p>The Endurance skill allows a character to perform strenuous activities over extended periods without succumbing to fatigue or exhaustion. It covers activities such as running, swimming, or marching for long distances, as well as withstanding harsh environmental conditions like extreme heat or cold. A successful Endurance check may be required to avoid penalties from prolonged exertion or to maintain performance in challenging circumstances.</p>",
       "name": "Endurance"
     },
+    "Energy Drain": {
+      "description": "<p>Once per day, the wearer can charge the armor. The next creature to hit the wearer in melee loses one level, as an energy drain, and the charge is spent.</p><p>Charging the armor and applying the level loss are manual.</p>",
+      "name": "Energy Drain"
+    },
     "Engineering": {
       "description": "<p>This skill covers the planning, design, and construction of large-scale projects like buildings, bridges, and dams. A character with this skill can oversee such projects to ensure they are structurally sound and meet the desired specifications. The skill can also be used to assess the stability and integrity of existing structures, determining their age, origin, and current condition. Without proper engineering oversight, large projects may collapse or otherwise fail catastrophically. In certain situations, the skill may also be applied to analyze and solve complex mechanical problems or to disable traps and devices constructed with advanced engineering.</p>",
       "name": "Engineering"
@@ -2754,6 +2814,13 @@
     "Ethereal Form": {
       "description": "<p>The ability to become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
       "name": "Ethereal Form"
+    },
+    "Ethereality (Armor)": {
+      "description": "<p>The armor has two command words, each usable once per day. One makes the wearer ethereal. The other returns the wearer to the Prime Plane. The wearer may remain ethereal as long as desired between those commands.</p><p>Apply or remove the Ethereal condition from the chat card. The daily command limit is manual.</p>",
+      "name": "Ethereality (Armor)",
+      "spellDuration": "Until dismissed",
+      "spellEffect": "Wearer becomes ethereal",
+      "spellRange": "Self"
     },
     "Ethereality (Potion)": {
       "description": "<p>The user can become ethereal once at any time during the effect and may then remain ethereal for up to 24 hours, returning to the Prime Plane at will. Once the user returns to the Prime Plane, the effect cannot be used again.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
@@ -2978,6 +3045,12 @@
       "spellDuration": "1d6 turns + 1 turn/level",
       "spellEffect": "One creature may fly"
     },
+    "Fly (Armor)": {
+      "description": "<p>On command, the wearer can fly for 12 turns. While concentrating, the wearer moves up to 360' (120'). The wearer can hover without concentrating. Flight can be in any direction.</p><p>Apply the Flying condition from the chat card. Ending the flight early is manual.</p>",
+      "name": "Fly (Armor)",
+      "spellEffect": "Wearer flies for 12 turns",
+      "spellRange": "Self"
+    },
     "Fly (Potion)": {
       "description": "<p>Grants the target the ability to fly at will. The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Fly (Potion)",
@@ -3038,6 +3111,13 @@
       "description": "<p>Garnet is a gemstone known for its deep red color and glassy appearance. It has a smooth, polished surface that reflects light, showcasing its rich hue and clarity. Garnet is often used in jewelry for its brilliance and vibrant color.</p>",
       "name": "Garnet",
       "unidentifiedDesc": "<p>Garnet is a gemstone known for its deep red color and glassy appearance. It has a smooth, polished surface that reflects light, showcasing its rich hue and clarity. Garnet is often used in jewelry for its brilliance and vibrant color.</p>"
+    },
+    "Gaseous Form (Armor)": {
+      "description": "<p>On command, the wearer and all equipment carried or worn become gaseous for up to 6 turns. Equipment is included, unlike a potion of gaseous form. The wearer can end the effect early.</p><p>There is no Gaseous condition. Track the form manually.</p>",
+      "name": "Gaseous Form (Armor)",
+      "spellDuration": "Up to 6 turns",
+      "spellEffect": "Wearer and equipment become gaseous",
+      "spellRange": "Self"
     },
     "Gate*": {
       "description": "<p>When the magic-user casts this spell, he must name one target: the Ethereal Plane, the Astral Plane, one of the four elemental planes, or one outer plane. He must also name a resident of that plane, usually that of an Immortal, a ruler of the plane. The spell opens a direct connection to the other plane of existence.</p><p>A gate to an outer plane remains open for only one turn. Any other gate remains open for [[/r 1d10*10 #Turns]] (10-100) turns, and there is a 10% chance per turn that some other-planar creature will wander through the gate while it is open. A gate to an elemental plane actually creates a vortex and a wormhole, and a <em>wish</em> may be used to make them permanent. Planes, vortexes, and wormholes are described in Chapter 18.</p><p>Contact with an outer plane is dangerous, and the magic-user must know and speak the name of the Immortal he wishes to contact. The Immortal he calls will probably (95% chance) arrive in [[/r 1d6 #Rounds]] rounds, but there is a 5% chance that some other being from the outer planes will respond. When the being arrives, it immediately looks for the spellcaster.</p><p>If the caster does not have an excellent reason for opening the gate, the being will probably destroy the caster. Even if the caster provides an excellent reason, the being may merely leave immediately, showing no interest. If the reason is of supreme importance to the magic-user and of some interest to the being (DM's discretion), it may actually help for a short time.</p><p>The reverse of this spell, <em>close gate</em>, will close a gate created by the normal form of the spell. It can also be used to close a permanent gate to a nearby plane (such as an elemental vortex). But the spell cannot affect an Immortal; it cannot, for instance, make him leave if he chooses to stay.</p>",
@@ -3312,6 +3392,12 @@
       "name": "Harp",
       "unidentifiedName": "Harp"
     },
+    "Haste (Armor)": {
+      "description": "<p>Once per day, on command, the wearer is hasted for 1 turn. The wearer moves at double speed and makes double the normal number of melee or missile attacks. Spellcasting is unchanged: still one spell per round, and magical devices are unaffected.</p><p>Apply the Hasted condition from the chat card. The daily limit is manual.</p>",
+      "name": "Haste (Armor)",
+      "spellEffect": "Wearer is hasted for 1 turn",
+      "spellRange": "Self"
+    },
     "Haste (Potion)": {
       "description": "<p>The effect gives the user the ability to move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Haste (Potion)",
@@ -3541,6 +3627,13 @@
       "description": "<p>This skill allows the character to coerce or intimidate non-player characters (NPCs) into complying with their demands. Intimidation typically involves an implicit or explicit threat of violence or other consequences if the target does not comply. A successful skill check means the NPC is cowed into submission or action favorable to the character.</p>\n            <p>The skill is most effective against NPCs with lower levels or morale and is not usable on player characters. It has no effect on characters of 5th level or higher. NPCs subject to successful Intimidation are unlikely to view the character favorably in the future, and the relationship may be permanently damaged.</p>\n            <p>In situations where physical presence, strength, or combat prowess can be effectively displayed to bolster the threat, the DM may grant a bonus to the roll. However, this skill does not work against targets who are clearly in a superior position (such as a king surrounded by his elite guards).</p>",
       "name": "Intimidation"
     },
+    "Invisibility (Armor)": {
+      "description": "<p>On command, the wearer becomes invisible, as the invisibility spell, until the wearer attacks or casts a spell. Items the wearer carries become invisible with the wearer and turn visible again if dropped.</p><p>Separately, the armor itself can be made invisible three times per day. Item invisibility does not hide the wearer and is tracked manually.</p><p>Apply the Invisible condition from the chat card for the wearer.</p>",
+      "name": "Invisibility (Armor)",
+      "spellDuration": "Until the wearer attacks or casts a spell",
+      "spellEffect": "Wearer becomes invisible",
+      "spellRange": "Self"
+    },
     "Invisibility (Potion)": {
       "description": "<p>This magical effect renders a single creature or object invisible. When a creature becomes invisible, all carried and worn items also become invisible. Invisible items return to visibility when dropped or separated from the creature. A light source can be made invisible, but its light remains visible. If an unattended object is made invisible, it becomes visible again upon contact with any living creature. An invisible creature remains invisible until they attack or cast a spell.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
       "name": "Invisibility (Potion)",
@@ -3732,6 +3825,24 @@
     "Leather Armor +2": {
       "description": "<p>This is a magic suit of armor primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Magical leather armor gives an armor class of 7 plus magic bonus, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
       "name": "Leather Armor +2",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+      "unidentifiedName": "Leather Armor"
+    },
+    "Leather Armor +3": {
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Magical leather armor gives an armor class of 7 plus magic bonus, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Leather Armor +3",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+      "unidentifiedName": "Leather Armor"
+    },
+    "Leather Armor +4": {
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Magical leather armor gives an armor class of 7 plus magic bonus, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Leather Armor +4",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+      "unidentifiedName": "Leather Armor"
+    },
+    "Leather Armor +5": {
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Magical leather armor gives an armor class of 7 plus magic bonus, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Leather Armor +5",
       "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
       "unidentifiedName": "Leather Armor"
     },
@@ -5062,6 +5173,24 @@
       "unidentifiedDesc": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
       "unidentifiedName": "Plate Mail"
     },
+    "Plate Mail +3": {
+      "description": "<p>This is a magic suit of armor primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Plate Mail +3",
+      "unidentifiedDesc": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
+      "unidentifiedName": "Plate Mail"
+    },
+    "Plate Mail +4": {
+      "description": "<p>This is a magic suit of armor primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Plate Mail +4",
+      "unidentifiedDesc": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
+      "unidentifiedName": "Plate Mail"
+    },
+    "Plate Mail +5": {
+      "description": "<p>This is a magic suit of armor primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Plate Mail +5",
+      "unidentifiedDesc": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
+      "unidentifiedName": "Plate Mail"
+    },
     "Platinum Piece": {
       "name": "Platinum Piece"
     },
@@ -5740,6 +5869,10 @@
       "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
       "name": "Red Dragon"
     },
+    "Reflection": {
+      "description": "<p>Passive. Light-based attacks and gaze attacks aimed at the wearer are reflected back at their source.</p><p>There is no automatic trigger. Apply the reflection manually.</p>",
+      "name": "Reflection"
+    },
     "Reincarnation": {
       "description": "<p>To cast this spell, the magic-user must have a part (however small) of a dead body. The spell magically creates a new body, and the life force which was once in the dead body returns and inhabits the new one. The DM can choose what sort of body is created, or can refer to the tables below to decide.</p><p>If the life force is reincarnated as a different race, all details of the new race apply, instead of the old. For example, a cleric reincarnated as an elf is no longer a cleric, but is able to cast magic-user spells and fight as an elf.</p><p>The victim's level of experience does not change unless restricted by the maximum for demihumans. If the victim is reincarnated in a monster body, the victim's alignment helps determine the type of monster which appears; a character will not be reincarnated in the body of a monster that cannot have his alignment. A monster body may not gain levels of experience; the character must play as the reincarnated creature, or retire from play, or (perhaps) be reincarnated again when slain.</p><h3>Reincarnation Results</h3><p><strong>Type of Body Appearing (Roll [[/r 1d8]])</strong></p><table style=\"width:200px;\"><thead><tr><th>Die Roll</th><th>Body Type</th></tr></thead><tbody><tr><td>1</td><td>Human</td></tr><tr><td>2</td><td>Human</td></tr><tr><td>3</td><td>Human</td></tr><tr><td>4</td><td>Dwarf</td></tr><tr><td>5</td><td>Elf</td></tr><tr><td>6</td><td>Halfling</td></tr><tr><td>7</td><td>Original race</td></tr><tr><td>8</td><td>Monster (see below)</td></tr></tbody></table><p><br></p><p><strong>Type of Monster Body Appearing (Roll [[/r 1d6]])</strong></p><table style=\"width:350px;\"><thead><tr><th>Die Roll</th><th>Lawful</th><th>Neutral</th><th>Chaotic</th></tr></thead><tbody><tr><td>1</td><td>Blink Dog</td><td>Ape, White</td><td>Bugbear</td></tr><tr><td>2</td><td>Gnome</td><td>Bear*</td><td>Gnoll</td></tr><tr><td>3</td><td>Neanderthal</td><td>Centaur</td><td>Kobold</td></tr><tr><td>4</td><td>Owl, giant</td><td>Griffon</td><td>Manticore</td></tr><tr><td>5</td><td>Pegasus</td><td>Lizard Man</td><td>Orc</td></tr><tr><td>6</td><td>Treant</td><td>Pixie</td><td>Troglodyte</td></tr></tbody></table><p>* Any normal bear</p><p>The DM may add more monsters to the lists. Such monsters should have 8 Hit Dice or less and should be at least semi-intelligent.</p>",
       "name": "Reincarnation",
@@ -5754,6 +5887,12 @@
       "description": "<p><em>Remove charm</em>, will unfailingly remove all charm effects within a 20' x 20' x 20' volume. It will also prevent any object in that area from creating charm effects for one turn.</p>",
       "name": "Remove Charm*",
       "spellEffect": "Removes all charm effects in a 20' x 20' x 20' area"
+    },
+    "Remove Curse (Armor)": {
+      "description": "<p>Each use creates a remove curse effect on the wearer only, as if cast by a 36th-level cleric. It does not affect other creatures, and it cannot curse a target.</p><p>The armor has 3 charges in total. When this power is part of the armor, the armor itself cannot be cursed. Spending a charge is the armor's charge count. There is no separate remove-curse resolver.</p>",
+      "name": "Remove Curse (Armor)",
+      "spellEffect": "Remove one curse from the wearer",
+      "spellRange": "Self"
     },
     "Remove Curse*": {
       "description": "<p>This spell removes one curse, whether on a character, item, or area. Some curses—especially those on magical items—may only be temporarily removed, at the DM's discretion, requiring a clerical <em>dispel evil</em> spell for permanently removing the effects (or possibly a <em>remove curse</em> cast by a high-level spellcaster).</p><p>The reverse of this spell, <em>curse</em>, causes a misfortune or penalty to affect the recipient. Curses are limited only by the caster's imagination, but if an attempted curse is too powerful, it may return to the caster (DM's discretion)! Safe limits to curses may include: -4 penalty on attack rolls; -2 penalty to all saving throws; prime requisite reduced to half normal. The victim may make a saving throw vs. spells to avoid the curse.</p>",
@@ -6229,6 +6368,24 @@
       "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
       "unidentifiedName": "Scale Mail"
     },
+    "Scale Mail +3": {
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Scale Mail +3",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
+      "unidentifiedName": "Scale Mail"
+    },
+    "Scale Mail +4": {
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Scale Mail +4",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
+      "unidentifiedName": "Scale Mail"
+    },
+    "Scale Mail +5": {
+      "description": "<p>This is a magic suit of armor primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Scale Mail +5",
+      "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
+      "unidentifiedName": "Scale Mail"
+    },
     "Scarab of Protection": {
       "description": "<p>This item automatically absorbs any curse (whether by spell, scroll, or other effect). It will also absorb a <em>finger of death</em> (a cleric's <em>raise dead</em> spell, reversed). The scarab will work [[/r 2d6 #Charges when found.]] times before becoming worthless.</p>",
       "name": "Scarab of Protection",
@@ -6401,6 +6558,30 @@
     "Shield +1": {
       "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
       "name": "Shield +1",
+      "unidentifiedDesc": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "unidentifiedName": "Shield"
+    },
+    "Shield +2": {
+      "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "name": "Shield +2",
+      "unidentifiedDesc": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "unidentifiedName": "Shield"
+    },
+    "Shield +3": {
+      "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "name": "Shield +3",
+      "unidentifiedDesc": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "unidentifiedName": "Shield"
+    },
+    "Shield +4": {
+      "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "name": "Shield +4",
+      "unidentifiedDesc": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "unidentifiedName": "Shield"
+    },
+    "Shield +5": {
+      "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+      "name": "Shield +5",
       "unidentifiedDesc": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
       "unidentifiedName": "Shield"
     },
@@ -6897,6 +7078,24 @@
     "Suit Armor +2": {
       "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
       "name": "Suit Armor +2",
+      "unidentifiedDesc": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
+      "unidentifiedName": "Suit Armor"
+    },
+    "Suit Armor +3": {
+      "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Suit Armor +3",
+      "unidentifiedDesc": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
+      "unidentifiedName": "Suit Armor"
+    },
+    "Suit Armor +4": {
+      "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Suit Armor +4",
+      "unidentifiedDesc": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
+      "unidentifiedName": "Suit Armor"
+    },
+    "Suit Armor +5": {
+      "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+      "name": "Suit Armor +5",
       "unidentifiedDesc": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
       "unidentifiedName": "Suit Armor"
     },
