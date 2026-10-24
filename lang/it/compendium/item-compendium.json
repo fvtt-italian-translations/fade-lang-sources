@@ -8241,6 +8241,86 @@
             "unidentifiedDesc": "<p>Questa arma consiste in una lunga cinghia di cuoio intrecciato con un manico, di lunghezza variabile da 1.5 a 9 metri. È un'arma da corpo a corpo capace di causare danni (1d2 punti) o di intrappolare gli avversari. Prima di ogni round di combattimento, il possessore deve dichiarare se intende infliggere danni o intrappolare. In entrambi i casi è richiesto un normale tiro per colpire</p><p>Se l'attacco colpisce, la frusta infligge 1d2 punti di danno o, se tenta di intrappolare, costringe il bersaglio a effettuare un tiro salvezza contro raggio della morte, potenzialmente con un bonus. Il bonus al tiro salvezza e l'esito del tentativo di intrappolamento sono determinati utilizzando la Tabella degli Effetti Speciali delle Armi. In caso di tiro salvezza fallito, il bersaglio subisce uno dei seguenti effetti:</p><ul><li><strong>Intrappolare</strong>: La vittima non può attaccare, lanciare incantesimi o muoversi finché non supera un tiro salvezza</li><li><strong>Rallentare</strong>: La velocità di movimento e di attacco della vittima sono dimezzate e non può lanciare incantesimi</li><li><strong>Ritardare</strong>: La vittima perde automaticamente l'iniziativa nel round successivo</li></ul><p>Quest'arma è principalmente uno strumento tattico e viene spesso utilizzata dai ladri o altri personaggi che preferiscono supportare i combattenti in prima linea senza impegnarsi direttamente nel combattimento corpo a corpo</p><p>Una frusta può intrappolare solo creature con una forma solida; non ha effetto di intrappolamento su apparizioni, spettri, creature eteree o mostri composti di acqua (es: elementali dell'acqua). Tuttavia, questi esseri subiscono comunque danni normali dalla frusta. (Nota che una frusta normale non può danneggiare le creature che richiedono armi magiche per essere colpite; in tali casi è necessaria una frusta magica)</p>",
             "unidentifiedName": "Frusta",
             "weaponMastery": "Frusta"
+        },
+        "Biting (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Blinking (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Charming (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Climbing (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Curing (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Disarming (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Dispelling (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Flying (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Lighting (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Penetrating (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Refilling (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Screaming (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Seeking (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Sinking (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Slaying (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Speaking (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Stunning (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Teleporting (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Transporting (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
+        },
+        "Wounding (Missile)": {
+            "spellDuration": "Istantaneo",
+            "spellRange": "Distanza"
         }
     },
     "label": "Oggetti Classi Abilità",
@@ -8303,6 +8383,7 @@
         "Dragons": "Draghi",
         "Siege Equipment": "Equipaggiamento d'Assedio",
         "Ancestry": "Stirpe",
-        "Weapon Talents": "Talenti Arma"
+        "Weapon Talents": "Talenti Arma",
+        "Missile Talents": "Talenti Proiettile"
     }
 }
